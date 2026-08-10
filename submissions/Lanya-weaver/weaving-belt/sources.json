@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "CASE-KENDALL-SQUARE",
+      "url": "https://news.mit.edu/2013/kendall-square-birthplace-of-biotech-0319",
+      "source_type": "public_web",
+      "usage": "Kendall Square as birthplace of biotech and high-density innovation district adjacent to MIT; mechanism of anchor-institution incubation."
+    },
+    {
+      "id": "CASE-KINGS-CROSS",
+      "url": "https://m.book118.com/html/2024/0913/8054012015006126.shtm",
+      "source_type": "public_web",
+      "usage": "King's Cross railway-station-led urban regeneration case; heritage reuse and mixed-use knowledge quarter."
+    },
+    {
+      "id": "CASE-ONE-NORTH",
+      "url": "https://d.wanfangdata.com.cn/periodical/sxkj201804002",
+      "source_type": "public_web",
+      "usage": "Singapore one-north innovation district; top-down design, industry clusters, garden-city campus."
+    },
+    {
+      "id": "CASE-YUNQI",
+      "url": "https://max.book118.com/html/2020/0606/5123200140002302.shtm",
+      "source_type": "public_web",
+      "usage": "Hangzhou Yunqi Town; cloud-computing platform-led industry town with annual conference ecosystem."
+    },
+    {
+      "id": "CASE-SHENZHEN-BAY",
+      "url": "https://www.360docs.net/doc/0316505992.html",
+      "source_type": "public_web",
+      "usage": "Shenzhen Bay Science & Technology Ecological Park; leading-enterprise cluster and integrated science-park model."
+    },
+    {
+      "id": "CASE-STATION-F",
+      "url": "https://stationf.co",
+      "source_type": "public_web",
+      "usage": "Station F, Paris; largest startup campus in Europe housed in the former Freyssinet freight station; heritage adaptive reuse for innovation community."
+    }
+  ]
+}
