@@ -78,6 +78,24 @@
       "url": "https://stationf.co",
       "source_type": "public_web",
       "usage": "Station F, Paris; largest startup campus in Europe housed in the former Freyssinet freight station; heritage adaptive reuse for innovation community."
+    },
+    {
+      "id": "CASE-ADLERSHOF",
+      "url": "https://www.taodocs.com/p-50948306.html",
+      "source_type": "public_web",
+      "usage": "Berlin Adlershof science and technology park; government-led city-scale industry-university-research-living integration on former East Berlin airport site."
+    },
+    {
+      "id": "POLICY-COMPUTE-NETWORK",
+      "url": "https://www.stdaily.com/web/gdxw/2025-03/31/content_317977.html",
+      "source_type": "public_web",
+      "usage": "Beijing AI public computing platform ecosystem network launched by Haidian with Beijing Energy Group and Hohhot (Inner Mongolia) partners; Haidian as unified scheduling/hub of cross-regional compute (use side, not production side)."
+    },
+    {
+      "id": "POLICY-PUBLIC-DATA",
+      "url": "https://www.cei.cn//defaultsite/s/article/2026/07/10/4b4ff607-9d914745-019f-49c5098b-2100_home.html?referCode=dqbjzc&columnId=4028c7ca-39905444-0139-90674917-0301",
+      "source_type": "public_web",
+      "usage": "Beijing Municipal Public Data Resource Authorized Operation Management Measures (printed 2026-07-02 by Beijing Municipal Government Services and Data Administration); legal basis for compliant public data sandbox pilots."
     }
   ]
 }
