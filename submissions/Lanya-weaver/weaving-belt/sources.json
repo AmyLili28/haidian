@@ -96,6 +96,18 @@
       "url": "https://www.cei.cn//defaultsite/s/article/2026/07/10/4b4ff607-9d914745-019f-49c5098b-2100_home.html?referCode=dqbjzc&columnId=4028c7ca-39905444-0139-90674917-0301",
       "source_type": "public_web",
       "usage": "Beijing Municipal Public Data Resource Authorized Operation Management Measures (printed 2026-07-02 by Beijing Municipal Government Services and Data Administration); legal basis for compliant public data sandbox pilots."
+    },
+    {
+      "id": "POLICY-HAIDIAN-AV",
+      "url": "https://gaj.beijing.gov.cn/xxfb/tzgg/202007/t20200706_1940077.html",
+      "source_type": "official_public",
+      "usage": "Beijing public security/traffic/industry authorities' notice designating Haidian District autonomous-driving vehicle test roads (2020); legal basis for on-road AV testing in T3 real-world verification block."
+    },
+    {
+      "id": "CASE-HAIDIAN-AV-ZONE",
+      "url": "https://www.jiemian.com/article/3139855.html",
+      "source_type": "public_web",
+      "usage": "Haidian building Zhongguancun autonomous driving demonstration zone (100 km2) and first closed test site in China; supports low-speed robot delivery and AV testing narrative in T3."
     }
   ]
 }
