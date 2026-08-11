@@ -89,7 +89,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "ac8929a08516047380c241994c18f3ba107e198ab2ffdc74a24c7ee427b8a095"
+      "sha256": "887accf1f304c8b90002371498833c66c62b7745cab66f1a5e9f0d704fa7245f"
     },
     {
       "path": "drawings/a3-booklet.pdf",
