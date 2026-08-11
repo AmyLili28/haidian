@@ -14,13 +14,13 @@
    "properties": {
     "id": "RD-JT-01",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 1（形式待专业深化）",
+    "name_zh": "东西缝合接点 1（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 23626.34,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -59,13 +59,13 @@
    "properties": {
     "id": "RD-JT-02",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 2（形式待专业深化）",
+    "name_zh": "东西缝合接点 2（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 23563.42,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -104,13 +104,13 @@
    "properties": {
     "id": "RD-JT-03",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 3（形式待专业深化）",
+    "name_zh": "东西缝合接点 3（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 23485.89,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -149,13 +149,13 @@
    "properties": {
     "id": "RD-JT-04",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 4（形式待专业深化）",
+    "name_zh": "东西缝合接点 4（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 23509.5,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -194,13 +194,13 @@
    "properties": {
     "id": "RD-JT-05",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 5（形式待专业深化）",
+    "name_zh": "东西缝合接点 5（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 23641.36,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -239,13 +239,13 @@
    "properties": {
     "id": "RD-JT-06",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 6（形式待专业深化）",
+    "name_zh": "东西缝合接点 6（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 24144.87,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -284,13 +284,13 @@
    "properties": {
     "id": "RD-JT-07",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 7（形式待专业深化）",
+    "name_zh": "东西缝合接点 7（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 26029.63,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -329,13 +329,13 @@
    "properties": {
     "id": "RD-JT-08",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 8（形式待专业深化）",
+    "name_zh": "东西缝合接点 8（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 27843.97,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -374,13 +374,13 @@
    "properties": {
     "id": "RD-JT-09",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 9（形式待专业深化）",
+    "name_zh": "东西缝合接点 9（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 28526.32,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -419,13 +419,13 @@
    "properties": {
     "id": "RD-JT-10",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 10（形式待专业深化）",
+    "name_zh": "东西缝合接点 10（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 28580.64,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -464,13 +464,13 @@
    "properties": {
     "id": "RD-JT-11",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 11（形式待专业深化）",
+    "name_zh": "东西缝合接点 11（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 28221.63,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -509,13 +509,13 @@
    "properties": {
     "id": "RD-JT-12",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 12（形式待专业深化）",
+    "name_zh": "东西缝合接点 12（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 27862.62,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -554,13 +554,13 @@
    "properties": {
     "id": "RD-JT-13",
     "layer": "ROAD_AREA",
-    "name_zh": "东西缝合接点 13（形式待专业深化）",
+    "name_zh": "东西缝合接点 13（结构形式待深化·通行条件已设定）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "area_sqm_declared": 27660.34,
-    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定边界或工程结论；官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "land_use_code": "1207"
@@ -725,7 +725,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1066.36,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-01"
@@ -756,7 +756,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1063.53,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-02"
@@ -787,7 +787,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1060.03,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-03"
@@ -818,7 +818,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1061.23,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-04"
@@ -849,7 +849,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1067.17,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-05"
@@ -880,7 +880,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1089.93,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-06"
@@ -911,7 +911,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1174.91,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-07"
@@ -942,7 +942,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1256.25,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-08"
@@ -973,7 +973,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1287.02,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-09"
@@ -1004,7 +1004,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1288.96,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-10"
@@ -1035,7 +1035,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1272.77,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-11"
@@ -1066,7 +1066,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1256.58,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-12"
@@ -1097,7 +1097,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "length_m_declared": 1247.46,
-    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。",
+    "usage_note": "概念建议，非法定道路中心线或工程定线；由本方案 ROAD_AREA 面几何推导，官方红线下发后整套重算。本方案对该点位设强制通行条件：无证通行（不设闸机／账号／扫码／实名／预约）、不作为识别点、断电与深夜可用，见 proposal.md 第 7 节。",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "road_type": "ew_stitch",
     "derived_from": "RD-JT-13"
