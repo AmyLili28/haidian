@@ -14,7 +14,7 @@
    "properties": {
     "id": "PS-T1-001",
     "layer": "PUBLIC_SPACE",
-    "name_zh": "众智园·扳道房（一级·与展示空间同门）",
+    "name_zh": "众智园·扳道房（一级·复核厅独立临街入口，经渡线廊通自助厅）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
@@ -61,7 +61,7 @@
    "properties": {
     "id": "PS-T1-002",
     "layer": "PUBLIC_SPACE",
-    "name_zh": "AI原点社区·扳道房（一级·与展示空间同门）",
+    "name_zh": "AI原点社区·扳道房（一级·复核厅独立临街入口，经渡线廊通自助厅）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
@@ -108,7 +108,7 @@
    "properties": {
     "id": "PS-T1-003",
     "layer": "PUBLIC_SPACE",
-    "name_zh": "大钟寺·扳道房（一级·与展示空间同门）",
+    "name_zh": "大钟寺·扳道房（一级·复核厅独立临街入口，经渡线廊通自助厅）",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",

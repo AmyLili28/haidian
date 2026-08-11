@@ -83,7 +83,7 @@
       "path": "report/narrative.md",
       "role": "narrative",
       "required": false,
-      "sha256": "11404f82825b57c6b618267ae4e58e1625581199ebae9d6b634464f185dd2013"
+      "sha256": "0a99b38211c4e60fe517f7021f6ef6c70bb3b043d373df2eef3e62ce7ad54dfb"
     },
     {
       "path": "report/copyright_statement.md",
@@ -179,7 +179,7 @@
       "path": "geometry/public_space.geojson",
       "role": "geometry",
       "required": true,
-      "sha256": "55695a16cc8ba547c036a90ade89cab72300d7570486201337be8969c72d30f7"
+      "sha256": "d8b82a610805aeca815341690e1860dd03eb461d9c0e61449ee64de47f9260ae"
     },
     {
       "path": "geometry/roads.geojson",
