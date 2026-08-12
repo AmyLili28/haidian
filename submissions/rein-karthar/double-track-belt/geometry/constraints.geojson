@@ -14,7 +14,7 @@
         "geometry_role": "existing_condition",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "severance"
       },
       "geometry": {
@@ -43,7 +43,7 @@
         "geometry_role": "existing_condition",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "severance"
       },
       "geometry": {
@@ -72,7 +72,7 @@
         "geometry_role": "existing_condition",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "severance"
       },
       "geometry": {
@@ -101,7 +101,7 @@
         "geometry_role": "existing_condition",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "severance"
       },
       "geometry": {
@@ -130,7 +130,7 @@
         "geometry_role": "existing_condition",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "heritage_spine"
       },
       "geometry": {
@@ -159,7 +159,7 @@
         "geometry_role": "existing_condition",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "blue_line"
       },
       "geometry": {
@@ -192,7 +192,7 @@
         "geometry_role": "provisional_constraint",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "heritage_buffer"
       },
       "geometry": {
@@ -235,7 +235,7 @@
         "geometry_role": "provisional_constraint",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "tenure"
       },
       "geometry": {
@@ -278,7 +278,7 @@
         "geometry_role": "provisional_constraint",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "displacement_risk"
       },
       "geometry": {
@@ -321,7 +321,7 @@
         "geometry_role": "analysis_helper",
         "official_boundary": false,
         "usage_note": "概念示意，非实测边界或法定控制线；精确范围须以官方图纸与控规条件为准。",
-        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260605",
+        "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "constraint_type": "survey_required"
       },
       "geometry": {

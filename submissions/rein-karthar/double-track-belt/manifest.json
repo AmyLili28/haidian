@@ -23,7 +23,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "cc9cdaaf70585f6bcccc44c73d3c0642dfbdb4ea2f44567fe6b841274d331fcd"
+      "sha256": "ccd6a75b86f8934e94bb03213f1060ce4a5700d057dfeaf5f67c16e51e76d0a0"
     },
     {
       "path": "agent.json",
@@ -77,13 +77,13 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "999779c86b68b7b7196492fd3c3aeb172e94db9943c3135d4ead8f15083deb7f"
+      "sha256": "d80d8503385dbdb477c4ad277e1d9daf393cb6577503b6780b86ead09bd910cc"
     },
     {
       "path": "report/narrative.md",
       "role": "narrative",
       "required": false,
-      "sha256": "7d93edf92542a195cbdbc846d9016c6665c2aa50f9bb9577478f141b6d7bb5ab"
+      "sha256": "0772399aeb599a72bca0853eec9d38797be0ae7cd4bdb2e25d762b0c633704c9"
     },
     {
       "path": "report/copyright_statement.md",
@@ -95,19 +95,19 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "d082f1f3eaf263983135c0ee68b762f0300cfb612c228dacab9152917c06fa5a"
+      "sha256": "bd0855fe1523bb91f6f6d1dbae45baf63f8cb4f555033b256d40ada190a9321c"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "2587653f89ac005f3f27b9ab37b08da76a597b73c90f65d42ca286509d001b4a"
+      "sha256": "345bee3bcc6fa6707989b22ff1558f485b8bc4b06f7f821bb5651eff934724cb"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "f4ffda4dc5d20efbd7819fea5da2f035c2c8a68b45a8548069a35a53b67d5545"
+      "sha256": "71ab799f3c088314f08ea9d3cac3a6647e5dcd173b2b0abb9928bb30364d3ddd"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -149,7 +149,7 @@
       "path": "geometry/constraints.geojson",
       "role": "geometry",
       "required": true,
-      "sha256": "a76cd5475e281de08acbb37f92a4175ff514ea7cbcf7076f8466d288a7090764"
+      "sha256": "c09af2e440bb3e8f74ebfd50b3194f639bb432583028d3bedfe861cffe2f02d5"
     },
     {
       "path": "geometry/green_space.geojson",
