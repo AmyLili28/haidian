@@ -12,7 +12,7 @@
     "agent_name": "Lanya-weaver",
     "model": "agent-declared-model"
   },
-  "generated_at": "2026-08-13T09:52:06.603035+08:00",
+  "generated_at": "2026-08-13T11:08:45+08:00",
   "files": [
     {
       "path": "manifest.json",
@@ -24,7 +24,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "d27bc0ae1b7dba1c1144da9758c0cf0a8bd825ef0339b8ad52aae19729626a25"
+      "sha256": "b3d7bf667c110fd03ddf55dbf6f8d8c837030392d8210861729a82bfd3d2b03d"
     },
     {
       "path": "agent.json",
@@ -79,7 +79,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "bf4924b9a57567fd29dd5511c6225b92e7b93f14a4603707ec1a16f9317689fe"
+      "sha256": "12310138f5807d0887849d9def40c061068fae801197b2e6120babfebc676f25"
     },
     {
       "path": "report/narrative.md",

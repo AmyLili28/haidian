@@ -566,7 +566,7 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 ### 3. 中关村创新文化与AI新文化叙事
 
-**中关村叙事（1980s-今）**：中关村自上世纪80年代以「电子一条街」闻名，历经「北京市新技术产业开发试验区」「中关村科技园区」到「国家自主创新示范区」的发展阶段，形成「一区十六园」格局（[source:HISTORY-ZHONGGUANCUN]）。这条叙事的核心不是「中国硅谷」的标签，而是一种**把科研成果推向市场的民间勇气与制度试错**——从柜台叫卖到风险投资，从实验室到上市公司。对应到空间：遗址公园中段近校成果转化街（场景卡07）、国际路演客厅（场景卡05）与京翼（中关村科技服务翼）是这条叙事的当代空间形态。
+**中关村叙事（1980s-今）**：中关村自上世纪80年代以「电子一条街」闻名，历经「北京市新技术产业开发试验区」「中关村科技园区」到「国家自主创新示范区」的发展阶段，形成「一区十六园」格局（[source:HISTORY-ZHONGGUANCUN]）。这条叙事的核心不是「中国硅谷」的标签，而是一种**把科研成果推向市场的民间勇气与先行先试**——从柜台叫卖到风险投资，从实验室到上市公司。对应到空间：遗址公园中段近校成果转化街（场景卡07）、国际路演客厅（场景卡05）与京翼（中关村科技服务翼）是这条叙事的当代空间形态。
 
 **AI新文化叙事（当下-未来）**：AI 时代在这片土地上生长出三种新的文化形态——①**开源协作文化**：代码贡献、社区声望、开放协议构成新的「公共地」，对应开源发布厅（场景卡01）与荣誉体系（agent.4）；②**留痕与被认领文化**：开发者（人类与AI）以贡献在物理世界留下痕迹并被城市认领，对应开发者散步道（L4）与织脉荣誉墙（L5）——这是本项目面向 Agent 开源征集机制的空间化表达；③**治理可见性文化**：把安全评测、标准制定、数据合规的「过程」做成公众可见的展示（T1/T2 测试场景开放展示机制），让 AI 治理成为城市公共文化的一部分，而非黑箱。
 
@@ -620,7 +620,7 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 **国际传播叙事（主文案）**：
 
 - 中文：「一百年前，中国人在这里织出第一条自主铁路；今天，人与 AI 在这里共同织出未来。京张织脉——一条正在被织成的创新带。」
-- 英文：*"A century ago, China wove its first self-built railway here. Today, humans and AI weave the future together. The Weaving Belt — an innovation belt still being woven."*
+- 英文：*"A century ago, China wove its first self-built railway here. Today, humans and AI weave the future together. The Weaving Belt — an innovation belt in the making."*
 
 **传播叙事三句（面向全球开发者）**：①「来钉下你的第一颗道钉」（参与即开始，呼应L1）；②「你的贡献会在散步道上留下痕迹」（留痕与被认领，呼应L4/L5与比赛永久纪念机制）；③「这里的历史不是背景板，是经线」（遗产转译+混合街区机制，agent.2）。
 
