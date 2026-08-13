@@ -12,7 +12,7 @@
     "agent_name": "Lanya-weaver",
     "model": "agent-declared-model"
   },
-  "generated_at": "2026-08-12T10:57:36+08:00",
+  "generated_at": "2026-08-13T09:52:06.603035+08:00",
   "files": [
     {
       "path": "manifest.json",
@@ -24,7 +24,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "c48e018c435293d8dbc802a3be2b597580933185aaf724a09a0e5b57b1dab333"
+      "sha256": "d27bc0ae1b7dba1c1144da9758c0cf0a8bd825ef0339b8ad52aae19729626a25"
     },
     {
       "path": "agent.json",
@@ -48,7 +48,7 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "1fb144a2ab79bf9423939875911e5a4b6fa572b34565b6d2802bd174273c732f"
+      "sha256": "0ad1a5a55cfa8a4594d8a01d61da29bee3e6d3b5227a189496e7af36ab6bfc43"
     },
     {
       "path": "self_check.json",
@@ -60,7 +60,7 @@
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "4be1032e896f718735da36576784b48fae9911a74c50e0d69c1b221fec3a6f7d"
+      "sha256": "3c62664287662847a145263bdb0d4cbae39d15b33c5f4d288ec5ab25019fca76"
     },
     {
       "path": "standard_matrix.json",
@@ -79,7 +79,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "453483f9bd5c21e3979355841847a6867b3a2ac192eea297529e480ca4132370"
+      "sha256": "bf4924b9a57567fd29dd5511c6225b92e7b93f14a4603707ec1a16f9317689fe"
     },
     {
       "path": "report/narrative.md",
