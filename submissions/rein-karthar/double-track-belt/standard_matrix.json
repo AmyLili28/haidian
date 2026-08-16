@@ -43,7 +43,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-BREAKPOINT-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -95,7 +96,9 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-FAR-001",
+        "A-HISTORY-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -199,7 +202,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-FAR-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -251,7 +255,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-LANDUSE-CODE-001",
+        "A-LANDUSE-PARTITION-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -303,7 +308,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-MASSING-001",
+        "A-STOREYS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",

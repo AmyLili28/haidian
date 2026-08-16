@@ -17,6 +17,9 @@
       "confidence": "medium",
       "assumptions": [
         "Site boundary is the repository PROVISIONAL polygon (brief/site-package/geometry/provisional_boundaries.geojson); no official redline is published in the site package. Not for redline use."
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
       ]
     },
     "land_use_area_by_code_sqm": {
@@ -40,7 +43,12 @@
         "0802": 1239546.7,
         "1401": 777290.0
       },
-      "note_zh": "按用地代码汇总的用地面积合计"
+      "note_zh": "按用地代码汇总的用地面积合计",
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-LANDUSE-CODE-001",
+        "A-LANDUSE-PARTITION-001"
+      ]
     },
     "land_use_coverage_ratio": {
       "status": "known",
@@ -54,6 +62,9 @@
       "confidence": "high",
       "assumptions": [
         "Land use is generated as an exact partition of the boundary."
+      ],
+      "assumption_ids": [
+        "A-LANDUSE-PARTITION-001"
       ]
     },
     "green_space_area_sqm": {
@@ -65,7 +76,10 @@
       ],
       "formula": "area(unary_union(green_space)) in EPSG:4548",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ]
     },
     "green_ratio": {
       "status": "known",
@@ -77,7 +91,10 @@
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [],
+      "assumption_ids": [
+        "A-RATIO-DENOM-001"
+      ]
     },
     "public_space_area_sqm": {
       "status": "known",
@@ -88,7 +105,10 @@
       ],
       "formula": "area(unary_union(public_space)) in EPSG:4548",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [],
+      "assumption_ids": [
+        "A-BOUNDARY-001"
+      ]
     },
     "public_space_ratio": {
       "status": "known",
@@ -100,7 +120,10 @@
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [],
+      "assumption_ids": [
+        "A-RATIO-DENOM-001"
+      ]
     },
     "road_area_sqm": {
       "status": "known",
@@ -113,6 +136,9 @@
       "confidence": "medium",
       "assumptions": [
         "Union, not sum: road carriageways intersect at junctions."
+      ],
+      "assumption_ids": [
+        "A-ROADS-001"
       ]
     },
     "road_ratio": {
@@ -125,7 +151,11 @@
       ],
       "formula": "road_area_sqm / site_area_sqm",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [],
+      "assumption_ids": [
+        "A-RATIO-DENOM-001",
+        "A-ROADS-001"
+      ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
@@ -138,6 +168,9 @@
       "confidence": "medium",
       "assumptions": [
         "Indicative massing envelopes, not surveyed footprints."
+      ],
+      "assumption_ids": [
+        "A-MASSING-001"
       ]
     },
     "building_density": {
@@ -152,6 +185,10 @@
       "confidence": "medium",
       "assumptions": [
         "Belt-wide coverage. Illustrative massing only; not a plot-level 建筑密度 control."
+      ],
+      "assumption_ids": [
+        "A-MASSING-001",
+        "A-RATIO-DENOM-001"
       ]
     },
     "total_floor_area_sqm": {
@@ -166,6 +203,10 @@
       "assumptions": [
         "PROPOSED storeys by type, authored by this submission, not approved controls: ai_r_and_d=8, community_service=3, cultural=4, existing_retained=6, incubator=6, lab=5, mixed_use=8, mobility_hub=3, office=12, talent_apartment=18",
         "Covers the 20 indicative massing blocks only; it is NOT a belt-wide build-out."
+      ],
+      "assumption_ids": [
+        "A-STOREYS-001",
+        "A-MASSING-001"
       ]
     },
     "floor_area_ratio": {
@@ -182,6 +223,12 @@
         "Derived from this submission's indicative massing, NOT an approved FAR control.",
         "READ WITH CARE: the 20 massing blocks cover only ~3% of the boundary, so this belt-wide ratio is NOT comparable to a plot-level or statutory FAR and will read far lower than any real district figure. It measures the illustrative massing, nothing more.",
         "planning_limits.json lists statutory FAR as missing (required_for_final_submission=true); an approved figure must replace this."
+      ],
+      "assumption_ids": [
+        "A-FAR-001",
+        "A-STOREYS-001",
+        "A-MASSING-001",
+        "A-CONTROLS-001"
       ]
     },
     "phasing_area_sqm": {
@@ -201,7 +248,10 @@
         "phase_2": 5568722.8,
         "phase_3": 690529.5
       },
-      "note_zh": "分期实施范围面积合计"
+      "note_zh": "分期实施范围面积合计",
+      "assumption_ids": [
+        "A-PHASING-001"
+      ]
     },
     "key_area_count": {
       "status": "known",
@@ -212,7 +262,10 @@
       ],
       "formula": "count(key_detailed_design_areas)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [],
+      "assumption_ids": [
+        "A-KEYAREA-001"
+      ]
     },
     "key_area_area_sqm": {
       "status": "known",
@@ -231,7 +284,10 @@
         "PROV-KEY-002": 1043236.9,
         "PROV-KEY-003": 720454.2
       },
-      "note_zh": "三处重点详细设计区域面积合计"
+      "note_zh": "三处重点详细设计区域面积合计",
+      "assumption_ids": [
+        "A-KEYAREA-001"
+      ]
     },
     "key_area_share_of_design_area": {
       "status": "known",
@@ -245,6 +301,11 @@
       "confidence": "medium",
       "assumptions": [
         "This is the POLYGON share (32.4%). It is not interchangeable with the cross-section share (37.9%) shown in FIG 02, which measures full-width sections at the same latitudes."
+      ],
+      "assumption_ids": [
+        "A-SHARE-001",
+        "A-KEYAREA-001",
+        "A-BOUNDARY-001"
       ]
     }
   }

@@ -312,7 +312,19 @@ agent.6 的运营模式以「贡献可记忆」（charter.9）为出发点。**�
 
 ## 12. 风险、版权与合规说明
 
-主要风险三项，对应 [depth:risk_missing_data]：官方红线缺失导致全部面积须复算；五项法定控规条件缺失导致强度研究只能停留在概念层；慢行断点无权威登记导致缝合点位置须以实测替换。三项均为组织方资料缺口，已在 `assumptions.json` 与 `self_check.json` 登记；按征集规则不构成内容扣分理由，本方案亦不因此淡化其影响。
+主要风险三项，对应 [depth:risk_missing_data]：官方红线缺失导致全部面积须复算 [assumption:A-BOUNDARY-001]；五项法定控规条件缺失导致强度研究只能停留在概念层 [assumption:A-CONTROLS-001]；慢行断点无权威登记导致缝合点位置须以实测替换 [assumption:A-BREAKPOINT-001]。三项均为组织方资料缺口，按征集规则不构成内容扣分理由，本方案亦不因此淡化其影响。
+
+**但只登记组织方缺口，等于只登记不由本方案负责的那一部分。** `assumptions.json` 现登记 **19 条**，分三类，每条附 `basis`（凭何如此判断）与 `resolution`（何种输入可使其退役）：
+
+| 类别 | 条数 | 含义 | 代表条目 |
+|---|---|---|---|
+| `organizer_data_gap` | 4 | 组织方尚未下发的输入 | A-BOUNDARY-001 临时边界 · A-KEYAREA-001 临时重点区范围 · A-BREAKPOINT-001 断点无登记 · **A-RATIO-DENOM-001 所有比率共用临时分母** |
+| `pending_professional_confirmation` | 2 | 须由专业方确认后方可法定使用 | A-CONTROLS-001 五项控规条件 · A-LANDUSE-CODE-001 用地代码语义待官方附录 |
+| `declared_design_choice` | 13 | **本方案自己作出、并为之负责的选择** | A-MASSING-001 示意体量 · A-STOREYS-001 自拟层数 · A-FAR-001 样本容积率 · A-CROSSING-001 只给拓扑不给工程结论 · A-STAFFING-001 人工窗口 08:00–20:00 · A-HISTORY-001 人字形不属本段 |
+
+其中 **A-RATIO-DENOM-001 是复核本方案时最容易漏掉的一条**：绿地率、公共空间率、道路率、建筑密度的分子均为精确复算值，但分母同为临时边界面积，因此这些比率的不确定度并不高于 [assumption:A-BOUNDARY-001]，与分子的精度无关。此前仅 `site_area_sqm` 单条声明该缺口，低估了它的波及范围，现已按条目逐一登记。
+
+23 条合规要求、15 项深度条目、6 项标准与 17 项指标各自引用与其**内容相关**的假设条目，而非统一挂在同一条上；引用与登记的双向一致性由 `gen_assumptions.py` 在写入前断言（任一引用必须可解析，任一登记条目必须至少被引用一次）。
 
 **五项法定控规条件，逐条点名。** 组织方在 [source:SITE-PACKAGE] 的 `ranges/planning_limits.json` 中把下列五项全部标为 `status: missing` 且 `required_for_final_submission: true`，并各自注明须来自何处。本方案据此**不设定其中任何一项**，对应 [depth:development_intensity_controls]：
 

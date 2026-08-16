@@ -45,7 +45,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CASESTUDY-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -98,6 +99,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-MASSING-001",
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
@@ -151,7 +154,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-STAFFING-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -204,7 +208,7 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -257,7 +261,7 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -310,7 +314,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-KEYAREA-001",
+        "A-SHARE-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -363,7 +368,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CASESTUDY-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -416,7 +422,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-MASSING-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -469,7 +476,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-LANDUSE-PARTITION-001",
+        "A-LANDUSE-CODE-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -522,7 +530,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-MASSING-001",
+        "A-PHASING-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -575,7 +584,9 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-ROADS-001",
+        "A-CROSSING-001",
+        "A-BREAKPOINT-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -628,7 +639,9 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BREAKPOINT-001",
+        "A-CONSTRAINTS-001",
+        "A-RATIO-DENOM-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -681,6 +694,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
+        "A-MASSING-001",
+        "A-STOREYS-001",
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
@@ -734,6 +749,7 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
+        "A-KEYAREA-001",
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
@@ -787,7 +803,7 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-KEYAREA-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -840,7 +856,7 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-KEYAREA-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -893,7 +909,8 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-KEYAREA-001",
+        "A-CROSSING-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -939,7 +956,8 @@
         "SOURCE-REGISTRY"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-FAR-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -988,7 +1006,7 @@
         "SOURCE-REGISTRY"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CASESTUDY-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1035,7 +1053,8 @@
         "SOURCE-REGISTRY"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CASESTUDY-001",
+        "A-STAFFING-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1084,7 +1103,9 @@
         "SOURCE-REGISTRY"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-RATIO-DENOM-001",
+        "A-STAFFING-001",
+        "A-CROSSING-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1130,7 +1151,8 @@
         "SOURCE-REGISTRY"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-HISTORY-001",
+        "A-CASESTUDY-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1177,7 +1199,8 @@
         "SOURCE-REGISTRY"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-FUNDING-001",
+        "A-STAFFING-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",

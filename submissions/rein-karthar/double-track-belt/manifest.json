@@ -23,7 +23,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "ccd6a75b86f8934e94bb03213f1060ce4a5700d057dfeaf5f67c16e51e76d0a0"
+      "sha256": "a85edf341b4092ce80a11d30504a27ae62d0267ae107a00431eb210fa331f908"
     },
     {
       "path": "agent.json",
@@ -35,13 +35,13 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "3931ca04bb7e61774148ed6f64e4873f767ace6a136e4755729f7cb3e2366627"
+      "sha256": "fe1ddf89fa67e0ffcc25813dd8a05e81bdb31758abc6775b9b9fef7deb905193"
     },
     {
       "path": "assumptions.json",
       "role": "assumptions",
       "required": true,
-      "sha256": "61393106cf6570b958aad0a75d284fea02f9f97d3e0f5f1e8ab5c8e540021f24"
+      "sha256": "990ce6b73bde058c3abe9226161b819e6ea9dced8ec498df43dbda323e846c48"
     },
     {
       "path": "sources.json",
@@ -59,25 +59,25 @@
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "cba2c9a703deeec6d686b96a1f7746428be3358876a2f5495b04bdba58779d4c"
+      "sha256": "e7818762cf114174111b8651c5535ed7a124a0fac08157a88499af1091bc233b"
     },
     {
       "path": "standard_matrix.json",
       "role": "standard_matrix",
       "required": true,
-      "sha256": "f16122ea863936c52f56b54773f08451dce4336c7da44d008b6a47bcb5901ba4"
+      "sha256": "b7b89131cfbe0477d933484633c6088838d8731bef32e75410e7d80e50ce075e"
     },
     {
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "dc2c62f1d1ab8d673bec8b5dc34fbc1e1cacf4ed04038193dc92b142f26df021"
+      "sha256": "bfc1c895e0abb98103b949fb6327ef38f2173e04a2268b5a10b04be034d78f24"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "d80d8503385dbdb477c4ad277e1d9daf393cb6577503b6780b86ead09bd910cc"
+      "sha256": "0ed5d9fa1557ae17d21459fde4df8d8470e5cea51ace44a97a35a1446ad40662"
     },
     {
       "path": "report/narrative.md",
