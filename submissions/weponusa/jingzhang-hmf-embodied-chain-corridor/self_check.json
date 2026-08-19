@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.1.0",
+  "checks": [
+    {
+      "check_id": "BOUNDARY_TRUST",
+      "result": "pass",
+      "severity": "major",
+      "target": "geometry/site_boundary.geojson",
+      "message": "Provisional boundary is present; replace with official redline before professional scoring."
+    },
+    {
+      "check_id": "KEY_AREAS_TRUST",
+      "result": "pass",
+      "severity": "major",
+      "target": "geometry/key_areas.geojson",
+      "message": "Three required key areas are provisional; replace with official polygons before professional scoring."
+    },
+    {
+      "check_id": "LAND_USE_TOPOLOGY",
+      "result": "pass",
+      "severity": "major",
+      "target": "geometry/land_use.geojson",
+      "message": "Initial land-use polygons are derived from site boundary partitioning."
+    },
+    {
+      "check_id": "VISUAL_STATIC",
+      "result": "pass",
+      "severity": "info",
+      "target": "visual/index.html",
+      "message": "Static HTML visualization is generated without external dependencies."
+    },
+    {
+      "check_id": "PROFESSIONAL_EVIDENCE",
+      "result": "pass",
+      "severity": "major",
+      "target": "proposal.md",
+      "message": "Proposal includes references to standards, design depth items, geometry, metrics, sources, and assumptions."
+    },
+    {
+      "check_id": "HUMAN_MACHINE_FRIENDLY_V3",
+      "result": "pass",
+      "severity": "info",
+      "target": "proposal.md",
+      "message": "v3.0 concept prioritizes human rights and universal access, uses H0-H3 graded access, five scenarios by five friendliness dimensions, human fallback, auditable governance, and unknown-baseline disclosure."
+    },
+    {
+      "check_id": "GEOMETRY_REGISTRATION_V31",
+      "result": "pass",
+      "severity": "major",
+      "target": "geometry/roads.geojson",
+      "message": "Spine RD-001 rebuilt as an 82-vertex curve (9664.9 m), lies fully inside the green corridor and the site, and intersects all three key areas; RD-014/015 are genuinely closed loops inside their key areas; no road leaves the site boundary."
+    },
+    {
+      "check_id": "SCENARIO_NODE_PLACEMENT_V31",
+      "result": "pass",
+      "severity": "major",
+      "target": "geometry/constraints.geojson",
+      "message": "10 of 12 scenario nodes now sit inside their assigned key area; SN-005 and SN-009 are explicitly declared corridor-segment nodes with key_area_id=null. Every node carries within_key_area, distance_to_spine_m and location_uncertainty_m."
+    },
+    {
+      "check_id": "DRAWING_PRECISION_DISCLOSURE",
+      "result": "pass",
+      "severity": "major",
+      "target": "assets/figures/alignment-precision.png",
+      "message": "Figure 06 renders the submitted GeoJSON directly with scale bar, north arrow, four-level precision grades (A recomputable / B structurally credible / C schematic +-200m / D unavailable) and the six mandatory P0 field-survey items."
+    },
+    {
+      "check_id": "METRICS_RESYNC_V31",
+      "result": "pass",
+      "severity": "major",
+      "target": "metrics.json",
+      "message": "Road length updated to 41539.676 m and node density recomputed against the spine; green ratio, public space ratio, building footprint and land-use coverage are unchanged because no area layer geometry moved."
+    },
+    {
+      "check_id": "CONCEPT_FIGURE_CORRECTION_V31",
+      "result": "pass",
+      "severity": "major",
+      "target": "assets/figures/concept/",
+      "message": "The five generative concept figures were corrected rather than discarded: the unsupported 20km/h claim is removed, corridor extents are restated as 9.7km x 1.4km, the G1-G3 right-of-way set is replaced by H0-H3, the fabricated 3.0m machine-lane width is withdrawn, and the KPI radars no longer draw filled polygons that would imply a measured baseline."
+    },
+    {
+      "check_id": "FIGURE_PROVENANCE_DISCLOSURE",
+      "result": "pass",
+      "severity": "major",
+      "target": "proposal.md",
+      "message": "Proposal declares two coexisting figure sets, names the generative model used for the concept figures, grades them as C schematic, and states that the deterministic technical figures and machine-readable data prevail on any conflict."
+    },
+    {
+      "check_id": "CONCEPT_FIGURE_DATA_SYNC",
+      "result": "pass",
+      "severity": "minor",
+      "target": "assets/figures/concept/metrics-evidence.webp",
+      "message": "Figures now quote road length 41.5 km, spine 9.665 km / 82 vertices, 12 scenario nodes at 1.24 per km, 10/12 key-area containment and FAR unknown, matching metrics.json."
+    },
+    {
+      "check_id": "BRAND_IDENTITY_PAGE_V32",
+      "result": "pass",
+      "severity": "major",
+      "target": "assets/figures/brand-identity.png",
+      "message": "Added a dedicated brand identity board for 人机友好京张 with mark construction, bilingual naming, application surfaces, palette and allow/deny use rules."
+    },
+    {
+      "check_id": "GLOBAL_OPS_BATTLEMAP_V32",
+      "result": "pass",
+      "severity": "major",
+      "target": "assets/figures/global-ops.png",
+      "message": "Added an agent.6 international outreach battle map with Q1-Q4 cadence, see-arrive-join-deposit funnel, reusable assets and non-commitment boundaries."
+    },
+    {
+      "check_id": "FIELD_DIFFERENTIATION_V32",
+      "result": "pass",
+      "severity": "major",
+      "target": "assets/figures/differentiation.png",
+      "message": "Added an explicit differentiation board against crowded Commons and Chevron-line narratives, anchoring this package on enforceable H0-H3 shared-spine rules and evidence honesty."
+    }
+  ]
+}

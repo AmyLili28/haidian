@@ -1,0 +1,689 @@
+{
+  "type": "FeatureCollection",
+  "name": "constraints_jingzhang_hmf",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SN-001",
+      "properties": {
+        "id": "SN-001",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺人机友好测试验证节点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "通行",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S01"
+        ],
+        "roles": [
+          "scenario_node"
+        ],
+        "is_landmark": false,
+        "key_area_id": "PROV-KEY-003",
+        "within_key_area": true,
+        "corridor_segment": "south",
+        "distance_to_spine_m": 170.0,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.346775,
+          39.945624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-002",
+      "properties": {
+        "id": "SN-002",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "智能商业人工与AI双服务节点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "服务",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S08"
+        ],
+        "roles": [
+          "scenario_node"
+        ],
+        "is_landmark": false,
+        "key_area_id": "PROV-KEY-003",
+        "within_key_area": true,
+        "corridor_segment": "south",
+        "distance_to_spine_m": 190.0,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.351,
+          39.947225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-003",
+      "properties": {
+        "id": "SN-003",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "公共安全人机双重复核节点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "治理",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S09",
+          "S13"
+        ],
+        "roles": [
+          "scenario_node"
+        ],
+        "is_landmark": false,
+        "key_area_id": "PROV-KEY-003",
+        "within_key_area": true,
+        "corridor_segment": "south",
+        "distance_to_spine_m": 60.0,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.348069,
+          39.948668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-004",
+      "properties": {
+        "id": "SN-004",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "AI文化导览与人工讲解服务点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "交往",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S05"
+        ],
+        "roles": [
+          "scenario_node"
+        ],
+        "is_landmark": false,
+        "key_area_id": "PROV-KEY-002",
+        "within_key_area": true,
+        "corridor_segment": "middle",
+        "distance_to_spine_m": 209.9,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.349004,
+          39.990715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-005",
+      "properties": {
+        "id": "SN-005",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "开发者共创与公众退出友好展示廊",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "交往",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S10"
+        ],
+        "roles": [
+          "scenario_node",
+          "landmark"
+        ],
+        "is_landmark": true,
+        "landmark_roles": [
+          "开发者散步道·开源成果展示廊"
+        ],
+        "key_area_id": null,
+        "within_key_area": false,
+        "corridor_segment": "middle",
+        "distance_to_spine_m": 92.2,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.346047,
+          39.969992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-006",
+      "properties": {
+        "id": "SN-006",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "清华园站人类静谧纪念节点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "交往",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S05"
+        ],
+        "roles": [
+          "scenario_node",
+          "landmark"
+        ],
+        "is_landmark": true,
+        "landmark_roles": [
+          "清华园站·人机友好原点纪念"
+        ],
+        "key_area_id": "PROV-KEY-002",
+        "within_key_area": true,
+        "corridor_segment": "middle",
+        "distance_to_spine_m": 150.0,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.344755,
+          39.988491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-007",
+      "properties": {
+        "id": "SN-007",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "健康导航与人工转介服务点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "服务",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S06"
+        ],
+        "roles": [
+          "scenario_node"
+        ],
+        "is_landmark": false,
+        "key_area_id": "PROV-KEY-002",
+        "within_key_area": true,
+        "corridor_segment": "middle",
+        "distance_to_spine_m": 120.0,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.347909,
+          39.986308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-008",
+      "properties": {
+        "id": "SN-008",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "全龄无障碍人机接驳点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "通行",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S02"
+        ],
+        "roles": [
+          "scenario_node"
+        ],
+        "is_landmark": false,
+        "key_area_id": "PROV-KEY-002",
+        "within_key_area": true,
+        "corridor_segment": "middle",
+        "distance_to_spine_m": 60.0,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.345801,
+          39.987497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-009",
+      "properties": {
+        "id": "SN-009",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "企业人机协作服务站",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "工作",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S07"
+        ],
+        "roles": [
+          "scenario_node"
+        ],
+        "is_landmark": false,
+        "key_area_id": null,
+        "within_key_area": false,
+        "corridor_segment": "middle",
+        "distance_to_spine_m": 149.2,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.348586,
+          39.974506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-010",
+      "properties": {
+        "id": "SN-010",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "众智园低速机器人封闭测试与配送节点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "服务",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S03"
+        ],
+        "roles": [
+          "scenario_node"
+        ],
+        "is_landmark": false,
+        "key_area_id": "PROV-KEY-001",
+        "within_key_area": true,
+        "corridor_segment": "north",
+        "distance_to_spine_m": 149.8,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.349533,
+          40.011578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-011",
+      "properties": {
+        "id": "SN-011",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "AI+医疗伦理沙箱验证节点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "服务",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S12"
+        ],
+        "roles": [
+          "scenario_node"
+        ],
+        "is_landmark": false,
+        "key_area_id": "PROV-KEY-002",
+        "within_key_area": true,
+        "corridor_segment": "middle",
+        "distance_to_spine_m": 230.0,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.343822,
+          39.984885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SN-012",
+      "properties": {
+        "id": "SN-012",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "智能体责任与贡献透明展示节点",
+        "usage_note": "conceptual_human_machine_friendly_scenario_node",
+        "scenario_class": "治理",
+        "friendliness_dimensions": [
+          "行动友好",
+          "工作友好",
+          "环境友好",
+          "交互友好",
+          "治理友好"
+        ],
+        "human_priority": true,
+        "manual_service_required": true,
+        "visible_machine_identity_required": true,
+        "opt_out_or_bypass_required": true,
+        "emergency_stop_and_human_takeover_required": true,
+        "data_minimization_required": true,
+        "scenario_ids": [
+          "S10"
+        ],
+        "roles": [
+          "scenario_node",
+          "landmark"
+        ],
+        "is_landmark": true,
+        "landmark_roles": [
+          "智能体责任与贡献荣誉墙",
+          "AI里程碑时间线"
+        ],
+        "key_area_id": "PROV-KEY-002",
+        "within_key_area": true,
+        "corridor_segment": "middle",
+        "distance_to_spine_m": 90.0,
+        "location_precision": "schematic_point_provisional",
+        "location_uncertainty_m": 200,
+        "field_survey_required": true,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.347578,
+          39.989507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CON-HER-001",
+      "properties": {
+        "id": "CON-HER-001",
+        "layer": "HERITAGE_PROTECTION",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "existing_condition",
+        "name_zh": "清华园车站旧址保护示意（概念）",
+        "usage_note": "provisional heritage buffer note",
+        "area_sqm_declared": 269252.392,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.343132,
+              39.987125
+            ],
+            [
+              116.343132,
+              39.9985
+            ],
+            [
+              116.34562799999999,
+              39.9985
+            ],
+            [
+              116.34562799999999,
+              39.987125
+            ],
+            [
+              116.343132,
+              39.987125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CON-WTR-001",
+      "properties": {
+        "id": "CON-WTR-001",
+        "layer": "EXISTING_WATER",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "existing_condition",
+        "name_zh": "小月河蓝带示意线",
+        "usage_note": "conceptual water corridor anchor",
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              116.354052,
+              39.943375
+            ],
+            [
+              116.35425792553191,
+              39.97802593085115
+            ]
+          ],
+          [
+            [
+              116.35445427509293,
+              40.01106552044594
+            ],
+            [
+              116.35452,
+              40.022124999999996
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
