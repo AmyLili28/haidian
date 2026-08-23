@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>京张荣耀带：荣誉展示体系与公共空间组件库（概念） - proposal report</title>
+<style>
+:root {
+  --ink: #172033;
+  --muted: #667085;
+  --line: #d7dee8;
+  --paper: #ffffff;
+  --bg: #f4f7fa;
+  --accent: #245b8f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.75;
+}
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 42px 24px 72px;
+  background: var(--paper);
+  min-height: 100vh;
+  box-shadow: 0 0 0 1px rgba(23, 32, 51, 0.05);
+}
+.hero {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+}
+h1 { font-size: 34px; line-height: 1.22; margin: 0 0 10px; }
+h2 { font-size: 25px; margin: 34px 0 12px; border-top: 1px solid var(--line); padding-top: 24px; }
+h3 { font-size: 20px; margin: 26px 0 10px; }
+p, li { font-size: 16px; }
+blockquote {
+  margin: 18px 0;
+  padding: 12px 18px;
+  border-left: 4px solid var(--line);
+  color: var(--muted);
+  background: #f8fafc;
+}
+code {
+  background: #eef2f7;
+  color: #1d4f7a;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+:not(pre) > code {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.summary { color: var(--muted); font-size: 17px; }
+.translation-link a { color: var(--accent); font-weight: 700; }
+.proposal-table { margin: 20px 0 26px; overflow-x: auto; }
+.proposal-table table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 520px;
+  font-size: 15px;
+}
+.proposal-table th, .proposal-table td {
+  border: 1px solid var(--line);
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+}
+.proposal-table th { background: #eef2f7; color: var(--ink); font-weight: 700; }
+.proposal-table tbody tr:nth-child(even) { background: #fafcfe; }
+.proposal-table .align-center { text-align: center; }
+.proposal-table .align-right { text-align: right; }
+.proposal-figure {
+  margin: 22px 0 28px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+.proposal-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.proposal-figure figcaption {
+  padding: 10px 14px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+}
+.evidence {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  margin: 0 0.12em;
+  border-bottom: 1px solid #8aa8c3;
+  color: #315f87;
+  font-size: 0.68em;
+  font-weight: 650;
+  line-height: 1.35;
+  vertical-align: super;
+}
+@media (max-width: 720px) {
+  main { padding: 26px 16px 52px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 21px; }
+}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<h1>京张荣耀带：荣誉展示体系与公共空间组件库（概念）</h1>
+<p class="summary">以「京张荣耀带（GLORY·JZ）」沿京张铁路原线绿带与遗址公园组织公共荣誉展示体系与可复用公共空间组件库概念：把城市荣誉、创新成果与公共贡献转译为可感知、可参与、可更新的绿带公共空间体验，「一带三园」——荣耀长廊（模块化荣誉展陈带）、里程碑广场（铁路里程碑与创新里程碑装置广场）、贡献者花园（开源与公共贡献署名景观），五类AI+场景（荣誉内容AI策展与去重、多语无障碍讲解、展陈设施巡检维护AI、参与度匿名感知与动线建议、内容审核人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，交通慢行优先、绿带连续慢行轴贯通节点，分期实施+年度活动体系（荣誉发布日、开源贡献者感谢周、社区共创节）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。</p>
+
+</section>
+<p>（英文：The Honor Belt — River of Merits，简称「荣耀带」；副题「百年京张，功勋长河」。原创命名，不含任何真实机构名称或商标；全部内容为概念建议。）</p>
+<h2>设计依据与资料清单</h2>
+<p>资料清单所列现场踏勘记录、公开史料与通则规范等均为概念工作依据清单，并非本包已获取的数据；本包实际使用的全部数据见 sources.json，未获取项已在风险与缺失数据说明中如实标注。 依据公开口径资料：北京市国土空间总体规划、海淀区分区规划（公开版）、城市更新相关专项规划公开成果、京张铁路遗址公园与百年京张AI创新带的公开报道及活动资料，以及现场踏勘整理形成的现状照片、视廊与活动记录清单。本方案仅作概念建议，不引用未公开数据，不预设拆迁、容积率等结论；资料来源随文附注，标注公开出处与检索日期，供复核。</p>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509" title="来源：DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509">来源</sup>、<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-AGENT-TASKBOOK-20260518" title="来源：DATA-SRC-AGENT-TASKBOOK-20260518">来源</sup>（组织方公告与任务书为文本口径依据）。</p></blockquote>
+<h2>三层范围工作框架</h2>
+<p>三层成果逐级传导：统筹研究输出的展示带与沿线片区协同判断约束总体设计，总体设计校核的用地兼容、绿带连续性与展示设施落位再落实到节点详设；每层均保留与任务书对应章节的机器可读证据锚点，便于评审对照。 采用&quot;统筹研究—总体设计—重点设计&quot;三层框架：第一层统筹研究范围，研判荣誉展示带与沿线科创片区、高校及国际化住区的协同关系；第二层总体设计范围，达到控规深度城市设计，以绿带为骨架组织荣誉展示总体结构；第三层重点区域详细设计，选取三个原创节点深化。三层共享一套指标体系与合规矩阵，逐层细化、可回溯、可校核。</p>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-AGENT-TASKBOOK-20260518" title="来源：DATA-SRC-AGENT-TASKBOOK-20260518">来源</sup>（三层范围划分依据任务书官方文本口径）。</p></blockquote>
+<h2>统筹研究范围产业与未来城市研究</h2>
+<p>产业与城市研究识别展示带的「公共记忆」效应：以荣誉展陈与公共贡献叙事将开发者、机构与公众的认同有序导入沿线公共服务与产业空间，形成「展示带—片区—社区」三级联动结构，推动从陈列荣誉走向共建公共记忆；未来城市研究仅作方向性预判，不构成对用地与投资的承诺。 研究荣誉展示带与沿线科创片区、高校与国际化住区的协同。产业侧沿公开口径梳理人工智能、软件与信息服务等主导方向，识别创新成果发布与荣誉展示的需求；人才侧刻画高校师生、科研人员、创业者与国际人才的活动时段与半径；空间侧判断绿带作为&quot;成果发布—荣誉纪念—日常交往&quot;复合廊道的潜力，为总体设计提供支撑。</p>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-PROVISIONAL-BOUNDARIES-20260605" title="来源：DATA-SRC-PROVISIONAL-BOUNDARIES-20260605">来源</sup>（边界为 provisional，研究范围仅作概念示意）。</p></blockquote>
+<h2>总体设计范围城市更新与控规深度城市设计</h2>
+<p>总体设计强调「以遗留绿带为骨架的组织模式」：依托京张铁路原线遗留绿带作为连续骨架串联沿线节点，以模块化、可逆、可复用的公共空间组件库作为工具箱，使同一片场地平时可休闲、节事可办展办会；对控规指标只做校核建议，不预设数值结论。 以绿带为骨架组织荣誉展示总体设计：建立&quot;一带串多点&quot;总体结构，连续慢行轴贯通沿线轨道站点、公园入口与社区界面；按节点分级配置荣誉展示、活动集会与休憩功能；预留年度活动弹性场地与临时装置接口。成果含总体平面、风貌导控、节点布局与指标校核，深度对应控规阶段城市设计，并与更新单元划分衔接。</p>
+<figure class="proposal-figure"><img src="../assets/figures/site-overview.png" alt="总体设计总览（provisional 几何）"><figcaption>总体设计总览（provisional 几何）</figcaption></figure>
+<figure class="proposal-figure"><img src="../assets/figures/land-use-structure.png" alt="用地结构（概念）"><figcaption>用地结构（概念）</figcaption></figure>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING" title="来源：DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING">来源</sup>、<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-PROVISIONAL-BOUNDARIES-20260605" title="来源：DATA-SRC-PROVISIONAL-BOUNDARIES-20260605">来源</sup>。</p></blockquote>
+<h2>重点区域详细设计</h2>
+<p>三节点的设施选址均为概念点位，须经规划、文保与主管部门评估及专业审查后重新落位；节点间的绿带动线构成完整的荣誉叙事动线，详细平面与剖面以图册与 geometry 层表达。 节点一&quot;荣耀长廊&quot;：沿绿带布置模块化荣誉展陈带，展台、灯箱与信息屏可拆装、可按主题换展。节点二&quot;里程碑广场&quot;：以铁路里程碑为母题，与创新里程碑装置并置，形成&quot;百年京张—当代创新&quot;的对话式景观。节点三&quot;贡献者花园&quot;：将开源与公共贡献者署名转化为可生长的铭牌景观，按贡献期动态追加。三节点均预留AI场景接口与无障碍通道。</p>
+<figure class="proposal-figure"><img src="../assets/figures/key-areas.png" alt="三节点索引与设计任务图"><figcaption>三节点索引与设计任务图</figcaption></figure>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="PACKAGE-GEOMETRY" title="空间数据：PACKAGE-GEOMETRY">空间数据</sup>（三节点示意多边形来自本包 geometry/key_areas.geojson）。</p></blockquote>
+<h2>AI 创新生态、人才画像与 AI+ 场景</h2>
+<p>荣誉内容AI策展与多语无障碍讲解为主干场景，每处均配置人工服务兜底；设施巡检维护AI、参与度匿名感知与内容审核复核为支撑场景；仅处理匿名聚合数据、关键决策人工复核双保险，不设过度监控。 面向沿线AI创新生态与五类人才画像，提出五个AI+场景：荣誉内容AI策展与去重；多语无障碍讲解；展陈设施巡检维护AI；参与度匿名感知与动线建议；内容审核人工复核。所有数据匿名聚合、仅用于改善公共体验，人工复核为最终把关，明确禁止身份识别与过度监控，并对外公示数据处理规则。</p>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES" title="来源：DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES">来源</sup>（AI 生成内容治理表述的参照依据）。</p></blockquote>
+<h2>用地、建筑规模与拆改留方案</h2>
+<p>拆改留坚持留改拆并举：优先保留遗址绿带、历史价值站房与工业构筑物延续铁路记忆，低效厂房与园区建筑功能更新为展陈、办公、展示与配套空间，拆除仅限经个案论证的零星危旧建筑；全部面积为概念口径，官方数据发布后复算。 遵循&quot;留改拆并举&quot;的概念口径：以留为主，延续铁路遗址与既有公共空间记忆；以改为辅，推动消极空间功能置换；以拆为慎，仅对存在明确安全隐患的建构筑物作个案论证。本方案不预设用地比例与建筑规模数值，不给出拆迁结论，相关事项留待后续专项论证与法定程序确定。</p>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311" title="来源：DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311">来源</sup>（用地分类名称参照现行国标口径）。</p></blockquote>
+<h2>交通、轨道、市政与公共服务设施</h2>
+<p>以交通慢行优先为核心组织交通概念机制：绿带连续慢行轴贯通沿线节点、衔接公共空间而非被车行割裂，节事交通以轨道交通＋接驳为主（接驳专线、预约班车与共享单车调度区），散场分时分区疏导；市政按日常＋节事两档负荷校核供电、给排水、通信与临时电源接口；公共服务配置移动卫生间、母婴室、医疗点、寄存等可迁移标准化服务单元，AI决策均设人工复核。 坚持慢行优先：绿带连续慢行轴串联各节点与轨道站点，步行骑行全线贯通，过街与接驳以安全便捷为先。市政按概念预留原则，提出照明、排水与机电接口的模块化接入方式。公共服务设施结合绿带节点布置便民服务、卫生间、饮水与休憩点，兼顾无障碍与多语信息指引，服务绿带内人群与周边居民。</p>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES" title="来源：DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES">来源</sup>（市政与慢行设计表述的方法参照）。</p></blockquote>
+<h2>蓝绿空间、公共空间与城市风貌</h2>
+<p>构建「绿带为轴、节点公园为珠」的蓝绿公共空间体系：保留现状林带与场地肌理、结合雨水花园与透水铺装提升生态韧性；公共空间强调可转换性，展陈单元、装置广场与署名绿地可按需切换；临时设施采用模块化、可拆卸、可回收体系；风貌以道钉、轨枕、信号与机车符号等铁路工业记忆语汇克制使用、避免标语化包装。 构建&quot;蓝绿为底、荣誉为魂&quot;的公共空间体系：保留并连通既有绿带，丰富林荫、草坪与开敞节点；建立模块化可逆公共空间组件库，装置均可拆装、可迁移、可复用。荣誉展示风貌坚持克制不喧哗，以材质、光影与尺度的细腻表达替代大体量构筑，维护绿带宁静气质与周边建筑景观的和谐。</p>
+<figure class="proposal-figure"><img src="../assets/figures/mobility-bluegreen.png" alt="慢行与蓝绿空间分析图"><figcaption>慢行与蓝绿空间分析图</figcaption></figure>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES" title="来源：DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES">来源</sup>（蓝绿空间组织的方法参照）。</p></blockquote>
+<h2>更新项目清单、实施政策与分期计划</h2>
+<p>三阶段项目清单（近期1-3年/中期3-5年/远期5-10年）为概念清单，规模与投资估算均为建议性表述；政策建议（荣誉内容征集与展陈审批简化、弹性业态准入、多元主体参与运营）均须依法依规论证，不构成政府或运营方承诺。 形成更新项目清单与配套政策建议（公共空间共建共管、企业认养、内容准入与退出机制）。分期实施：近期1-3年启动荣耀长廊示范段、年度活动机制与AI场景试点；中期3-5年完成慢行轴贯通及里程碑广场、贡献者花园建设；远期5-10年完善全域体系。年度活动固定三项：荣誉发布日、开源贡献者感谢周、社区共创节。</p>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-AGENT-TASKBOOK-20260518" title="来源：DATA-SRC-AGENT-TASKBOOK-20260518">来源</sup>（分期与实施条目对应任务书要求）。</p></blockquote>
+<h2>指标体系、面积复算与合规矩阵</h2>
+<p>展陈单元复用率、慢行可达性、绿带连续性、组件库覆盖率、公众参与度五类概念指标体系进入 metrics.json；面积复算以官方文本口径为底，官方数据到位后整体复算并标注复算版本。 建立概念性指标体系：绿带连续率、节点步行可达率、组件可逆利用率、活动承载量、无障碍达标率、内容更新周期等。面积复算按公开口径对各层范围作校核性测算，仅作概念平衡，不公布为承诺值。合规矩阵逐项对照上位规划、文物保护与公共空间管理规定，形成&quot;依据—要求—响应&quot;对照表，随设计深度同步更新。</p>
+<figure class="proposal-figure"><img src="../assets/figures/metrics-evidence.png" alt="核心指标证据图"><figcaption>核心指标证据图</figcaption></figure>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="green_ratio" title="指标：green_ratio">指标</sup>、<sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="public_space_ratio" title="指标：public_space_ratio">指标</sup>、<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="PACKAGE-GEOMETRY" title="来源：PACKAGE-GEOMETRY">来源</sup>。</p></blockquote>
+<h2>风险、版权与合规说明</h2>
+<p>本方案为概念研究性设计，不构成行政审批依据，也不构成容积率、建筑高度、拆改留或工程可行性结论；风险已按节事与日常使用冲突、客流安全、展示尺度争议与AI过度监控观感四维度如实登记于 risk.json（应对原则：匿名聚合、最小必要、人工复核、事前公示预案）；引用公开资料均已标注来源并注明获取时间，图形、名称与文字为原创或公共领域素材，若与既有标识雷同属巧合；荣誉与贡献内容涉及姓名权与名誉权的，展示前须依法取得授权并设申诉通道；正式实施前须完成多部门联审、文物保护与安全评估。 主要风险：荣誉对象真实性、署名与肖像授权、隐私、开源许可、内容争议及设施维护。应对：所有荣誉与署名须经核验与授权，公示异议与撤销机制；AI数据匿名化并接受审计；文案与影像厘清版权归属，引用开源素材遵循相应许可。本方案为概念建议，不构成工程可行性或投资承诺，最终以法定程序为准。</p>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509" title="来源：DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509">来源</sup>（征集规则为权属与合规表述的依据）。</p></blockquote>
+<h2>参考资料</h2>
+<p>参考资料以政府正式发布版本为准，按公开/内部分类存档并标注获取时间：京张铁路历史与遗址公园公开材料、沿线高校与科创园区公开信息、北京城市总体规划及分区规划公开口径、公共荣誉展示与公共艺术相关公开案例、无障碍与公共安全等通则规范、现场踏勘记录与自绘分析草图（本项目自行采集）；本包 sources.json 仅收录可查证条目，未虚构任何官方数据或链接。 列出本方案引用的公开资料类别：北京市国土空间总体规划（公开版）、海淀区分区规划（公开版）、京张铁路遗址公园建设与百年京张AI创新带公开报道、城市更新与步行系统相关研究文献，以及国际案例的官方资料与新闻报道。参考条目均注明名称、来源与检索日期，不引用未公开或难以核实的材料。</p>
+<blockquote><p><strong>证据锚点</strong>：<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509" title="来源：DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509">来源</sup>（本清单首条即组织方公开资料包）。</p></blockquote>
+<h2>五类用户画像</h2>
+<p>1. 高校师生与科研人员：沿线高校高知人群，关注成果展示、学术荣誉与开放研讨空间。 2. 科创园区从业者：软件园与科技企业员工，需要午间与下班后的放松、社交与灵感空间。 3. 周边社区居民与家庭：日常休闲、遛娃与社区活动的主要使用者，重视安全、便利与可达。 4. 国际人士与访客：留学生、外籍人才与游客，需要多语信息、无障碍设施与文化交流体验。 5. 开源与公共贡献者：线上开源开发者与线下志愿者，期待署名认可、归属感与持续参与机制。</p>
+<h2>国际案例（4个）</h2>
+<p>1. 纽约高线公园（美国）：铁路遗址线性更新与社区参与典范，示范&quot;遗址绿带+公共活动&quot;的结合。 2. 巴黎绿荫步道（法国）：废弃铁路高架改造为连续步行绿道，示范线性慢行贯通与植物景观。 3. 伦敦特拉法加广场&quot;第四基座&quot;（英国）：公共艺术轮换与公众投票机制，可类比荣誉内容定时更新与公众参与。 4. 哥本哈根超级线性公园（丹麦）：从世界各地征集物件并标注来源与故事，是&quot;公共贡献署名景观&quot;的直接参照。</p>
+<h2>国内对标（4个）</h2>
+<p>1. 深圳人才公园：以人才荣誉为主题的城市公园，示范荣誉展示与日常休闲的融合。 2. 上海杨浦滨江：工业遗存更新为连续公共岸线，示范&quot;锈带变秀带&quot;与慢行贯通。 3. 北京首钢园：工业遗址更新与大型活动承载，示范遗址区举办公共节事的运营逻辑。 4. 武汉东湖绿道：超长连续绿道与多元活动组织，示范绿带系统化建设与社区共建共享。</p>
+</main>
+</body>
+</html>
