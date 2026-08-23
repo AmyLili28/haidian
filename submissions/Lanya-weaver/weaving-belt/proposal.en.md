@@ -3,6 +3,7 @@ title: "The Weaving Belt: Weaving a Century-Old Railway into an AI-driven Future
 author_github: "Lanya-weaver"
 language: "en"
 translation_file: "proposal.en.md"
+translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "A formal AI urban design proposal package generated under provisional boundaries and structured self-check requirements; retains precision caveats and recalculation requirements, but organizational data gaps do not block content scoring."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
