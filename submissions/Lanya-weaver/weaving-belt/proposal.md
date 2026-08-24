@@ -501,12 +501,16 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 本节设计的视觉表达与提交包图件对应如下：
 
-- 朝圣体系总览：以 `assets/figures/mobility-bluegreen.png`（交通慢行与蓝绿公共空间复合系统）为底图，叠加五处地标与荣誉体系锚点（L1-L5），形成「朝圣路径图」；
+- 朝圣体系总览：以 `assets/figures/mobility-bluegreen.png`（交通慢行与蓝绿公共空间复合系统）为底图，叠加五处地标与荣誉体系锚点（L1-L5）形成的「朝圣路径图」（已于2026-08-24补绘：`assets/figures/pilgrimage-path.png`）；
 - 三区两翼与地标对应：以 `assets/figures/key-areas.png`（三处重点区域索引与设计任务图）表达地标与重点片区的关系（L1南段·清华园车站旧址、L2原点社区、L3大钟寺、L4遗址公园中段、L5北段—众智园入口）；
 - 分段公共空间：以 `assets/figures/land-use-structure.png`（三层范围与空间工作框架）与 `assets/figures/site-overview.png`（资料证据链与提交包关系图）定位三段公共空间设计范围；
-- 组件库视觉：以 `assets/figures/metrics-evidence.png` 所在图件体系为参照，后续 A3/A0 图册中补充组件库图录（当前提交以文字表7表达，图册为提交前任务）。
+- 组件库视觉：以 `assets/figures/metrics-evidence.png` 所在图件体系为参照的「组件库图录」（已于2026-08-24补绘：`assets/figures/component-catalog.png`），当前提交以文字表7+图录表达。
 
-以上图件关系在 HTML 渲染版本中同步呈现；正式提交前将补绘「朝圣路径图」与「组件库图录」两张图纸（列入提交前任务清单）。
+以上图件关系在 HTML 渲染版本中同步呈现。「朝圣路径图」与「组件库图录」两张图纸已于2026-08-24补绘完成，正式提交前将并入 A3/A0 图册深化。
+
+![朝圣路径图](assets/figures/pilgrimage-path.png)
+
+![组件库图录](assets/figures/component-catalog.png)
 
 
 ## 用地、建筑规模与拆改留方案

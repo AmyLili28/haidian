@@ -51,6 +51,12 @@ code {
   padding: 0.1em 0.35em;
   border-radius: 4px;
 }
+:not(pre) > code {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 .summary { color: var(--muted); font-size: 17px; }
 .translation-link a { color: var(--accent); font-weight: 700; }
 .proposal-table { margin: 20px 0 26px; overflow-x: auto; }
@@ -441,12 +447,14 @@ code {
 <h3>8. 视觉索引（visual_index_section）</h3>
 <p>本节设计的视觉表达与提交包图件对应如下：</p>
 <ul>
-<li>朝圣体系总览：以 <code>assets/figures/mobility-bluegreen.png</code>（交通慢行与蓝绿公共空间复合系统）为底图，叠加五处地标与荣誉体系锚点（L1-L5），形成「朝圣路径图」；</li>
+<li>朝圣体系总览：以 <code>assets/figures/mobility-bluegreen.png</code>（交通慢行与蓝绿公共空间复合系统）为底图，叠加五处地标与荣誉体系锚点（L1-L5）形成的「朝圣路径图」（已于2026-08-24补绘：<code>assets/figures/pilgrimage-path.png</code>）；</li>
 <li>三区两翼与地标对应：以 <code>assets/figures/key-areas.png</code>（三处重点区域索引与设计任务图）表达地标与重点片区的关系（L1南段·清华园车站旧址、L2原点社区、L3大钟寺、L4遗址公园中段、L5北段—众智园入口）；</li>
 <li>分段公共空间：以 <code>assets/figures/land-use-structure.png</code>（三层范围与空间工作框架）与 <code>assets/figures/site-overview.png</code>（资料证据链与提交包关系图）定位三段公共空间设计范围；</li>
-<li>组件库视觉：以 <code>assets/figures/metrics-evidence.png</code> 所在图件体系为参照，后续 A3/A0 图册中补充组件库图录（当前提交以文字表7表达，图册为提交前任务）。</li>
+<li>组件库视觉：以 <code>assets/figures/metrics-evidence.png</code> 所在图件体系为参照的「组件库图录」（已于2026-08-24补绘：<code>assets/figures/component-catalog.png</code>），当前提交以文字表7+图录表达。</li>
 </ul>
-<p>以上图件关系在 HTML 渲染版本中同步呈现；正式提交前将补绘「朝圣路径图」与「组件库图录」两张图纸（列入提交前任务清单）。</p>
+<p>以上图件关系在 HTML 渲染版本中同步呈现。「朝圣路径图」与「组件库图录」两张图纸已于2026-08-24补绘完成，正式提交前将并入 A3/A0 图册深化。</p>
+<figure class="proposal-figure"><img src="../assets/figures/pilgrimage-path.png" alt="朝圣路径图"><figcaption>朝圣路径图</figcaption></figure>
+<figure class="proposal-figure"><img src="../assets/figures/component-catalog.png" alt="组件库图录"><figcaption>组件库图录</figcaption></figure>
 <h2>用地、建筑规模与拆改留方案</h2>
 <p>用地方案应依据国土空间调查、规划、用途管制分类等公开标准表达，形成完整、闭合、无缝的用地分区。建筑方案应区分保留、改造、更新、新建或待确认对象，明确建筑基底、功能、规模、风貌、屋顶、体量和高度控制的建议层级。若缺少现状建筑、权属、控规和工程条件，方案只能提出方法和待校准清单，不能编造拆改留结论。</p>
 <p>用地分类依据 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MNR-LAND-USE-CLASSIFICATION-GUIDE" title="标准：MNR-LAND-USE-CLASSIFICATION-GUIDE">标准</sup>，建筑高度、体量、界面和风貌控制由 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="height_massing_character" title="深度：height_massing_character">深度</sup> 管理，拆改留方法由 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="retain_renovate_demolish" title="深度：retain_renovate_demolish">深度</sup> 管理。用地和建筑的主要证据是 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-001" title="空间数据：geometry/land_use.geojson#LU-001">空间数据</sup>、<sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/buildings.geojson#BLDG-001" title="空间数据：geometry/buildings.geojson#BLDG-001">空间数据</sup> 和 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="building_footprint_area_sqm" title="指标：building_footprint_area_sqm">指标</sup>。</p>
