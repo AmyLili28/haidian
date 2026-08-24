@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="百年京张·城市叠代 JINGZHANG STRATA 离线概念总览">
+<title>百年京张·城市叠代 / JINGZHANG STRATA</title>
+<style>
+:root{
+  --ink:#162536;--ink-2:#30465a;--muted:#657587;--paper:#f7f5ef;--white:#fffdf8;
+  --navy:#102230;--navy-2:#173445;--line:#d9e0dc;--line-dark:#496371;
+  --oxide:#bc5849;--oxide-soft:#f2d7d0;--air:#55b8d2;--air-soft:#dff2f5;
+  --willow:#6aa578;--willow-soft:#dcecdf;--gold:#d2a24b;--gold-soft:#f7e8c4;
+  --violet:#7066c8;--violet-soft:#e7e5fa;--shadow:0 18px 48px rgba(16,34,48,.12);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#e8ecea;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1240px,calc(100% - 40px));margin:0 auto}
+.topbar{border-bottom:1px solid rgba(255,255,255,.15);background:var(--navy);color:#eaf3f2}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;min-height:54px;gap:20px}
+.wordmark{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;white-space:nowrap}
+.wordmark span{color:var(--air)}
+.nav{display:flex;gap:18px;font-size:12px;color:#b9ccd1}
+.nav a:hover,.nav a:focus{color:#fff}
+.hero{background:var(--navy);color:#f7fbfa;position:relative;overflow:hidden;border-bottom:5px solid var(--oxide)}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(85,184,210,.21);border-radius:50%;pointer-events:none}
+.hero:before{width:650px;height:650px;right:-140px;top:-230px}
+.hero:after{width:900px;height:900px;right:-245px;top:-360px}
+.hero-inner{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr);gap:50px;padding:76px 0 68px;position:relative;z-index:1}
+.eyebrow{font-size:12px;line-height:1.4;letter-spacing:.2em;text-transform:uppercase;color:var(--air);font-weight:700;margin:0 0 18px}
+h1,h2,h3,p{margin:0}
+h1{font-size:clamp(42px,6vw,78px);line-height:1.02;letter-spacing:-.055em;max-width:790px;margin-bottom:20px}
+.hero-subtitle{font-size:clamp(18px,2.1vw,26px);color:#d2e3e2;letter-spacing:.01em;margin-bottom:20px}
+.hero-copy{max-width:780px;color:#b9cbd0;font-size:16px}
+.hero-copy em{color:#fff;font-style:normal}
+.hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.hero-tag{border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:7px 12px;color:#e8f3f1;font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.045)}
+.hero-tag.alert{border-color:rgba(210,162,75,.7);color:#ffe7b2}
+.thesis{align-self:end;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.075);padding:24px;border-radius:18px;backdrop-filter:blur(4px)}
+.thesis-label{font-size:11px;color:#9ec5cc;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
+.thesis strong{display:block;font-size:23px;line-height:1.2;margin-bottom:12px}
+.thesis p{font-size:13px;color:#c3d5d7}
+.thesis-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:rgba(255,255,255,.2);margin:22px 0 18px;border:1px solid rgba(255,255,255,.15)}
+.thesis-stat{padding:13px 12px;background:rgba(16,34,48,.5)}
+.thesis-stat b{display:block;color:#fff;font-size:20px;line-height:1.1}
+.thesis-stat span{display:block;color:#aac3c8;font-size:11px;margin-top:4px}
+main{padding:28px 0 64px}
+.section{margin-bottom:22px;background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:18px;overflow:hidden}
+.section-head{display:flex;justify-content:space-between;align-items:flex-start;gap:22px;padding:26px 30px 22px;border-bottom:1px solid var(--line);background:linear-gradient(110deg,#fffdf8,#f5f8f5)}
+.section-number{color:var(--oxide);font:700 12px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;margin-bottom:7px}
+.section h2{font-size:29px;line-height:1.15;letter-spacing:-.03em}
+.section-head p{max-width:650px;color:var(--muted);font-size:14px;margin-top:8px}
+.section-kicker{flex:0 0 auto;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:7px 10px;white-space:nowrap}
+.section-body{padding:28px 30px}
+.concept-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(290px,.6fr);gap:26px;align-items:stretch}
+.diagram{border:1px solid #c9d6d5;border-radius:14px;background:#f5f8f6;padding:14px;min-width:0}
+.diagram svg{display:block;width:100%;height:auto}
+.diagram-note{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:11px;margin:9px 3px 0}
+.note-chip{color:var(--oxide);font-weight:700;letter-spacing:.05em}
+.callout{border-radius:14px;padding:22px;background:var(--navy);color:#e9f3f1;display:flex;flex-direction:column;justify-content:space-between}
+.callout h3{font-size:20px;line-height:1.25;margin-bottom:12px}
+.callout p{font-size:13px;color:#c1d1d4;margin-bottom:15px}
+.formula{border-top:1px solid rgba(255,255,255,.2);padding-top:14px;color:#fff;font-weight:700;font-size:14px}
+.formula span{display:block;color:var(--air);font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.12em;margin-bottom:5px}
+.field-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.field-card{position:relative;padding:21px;border-radius:14px;border:1px solid var(--line);min-height:235px;display:flex;flex-direction:column;background:#fff}
+.field-card:before{content:"";height:4px;position:absolute;inset:0 0 auto;border-radius:14px 14px 0 0;background:var(--violet)}
+.field-card:nth-child(2):before{background:var(--willow)}
+.field-card:nth-child(3):before{background:var(--gold)}
+.field-id{font:700 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted);letter-spacing:.12em;margin-bottom:15px}
+.field-card h3{font-size:20px;line-height:1.25;margin-bottom:5px}
+.field-en{font-size:11px;letter-spacing:.02em;color:var(--muted);margin-bottom:12px}
+.field-card p{font-size:13px;color:var(--ink-2)}
+.status-line{margin-top:auto;padding-top:15px;color:var(--muted);font-size:11px;border-top:1px solid var(--line)}
+.wings{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.wing{display:grid;grid-template-columns:50px minmax(0,1fr);gap:14px;align-items:start;border:1px dashed #bfcfcd;border-radius:14px;padding:17px;background:#f7faf8}
+.wing-mark{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--air-soft);color:#17627a;font-weight:800;font-size:14px}
+.wing h3{font-size:16px;line-height:1.3}
+.wing p{font-size:12px;color:var(--muted);margin-top:5px}
+.prototype-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:29px 0 13px}
+.prototype-title h3{font-size:19px}
+.prototype-title span{color:var(--muted);font-size:12px}
+.prototype-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.prototype{border:1px solid var(--line);border-radius:10px;padding:11px 12px;background:#fbfcfa;min-height:79px}
+.prototype b{display:block;color:var(--oxide);font:700 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:7px}
+.prototype span{display:block;font-size:12px;color:var(--ink-2);line-height:1.35}
+.layer-loop{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:28px;align-items:center}
+.layer-list{display:grid;gap:10px}
+.layer{display:grid;grid-template-columns:8px minmax(0,1fr);gap:14px;border:1px solid var(--line);border-radius:11px;padding:14px;background:#fff}
+.layer-line{border-radius:8px;background:var(--oxide)}
+.layer:nth-child(2) .layer-line{background:var(--air)}.layer:nth-child(3) .layer-line{background:var(--willow)}.layer:nth-child(4) .layer-line{background:var(--violet)}
+.layer h3{font-size:16px}.layer p{font-size:12px;color:var(--muted);margin-top:3px}
+.loop-card{border-radius:50%;aspect-ratio:1/1;max-width:360px;margin:auto;width:100%;padding:34px;display:grid;place-items:center;text-align:center;background:conic-gradient(from 215deg,var(--oxide),var(--gold),var(--willow),var(--air),var(--violet),var(--oxide));position:relative}
+.loop-card:before{content:"";position:absolute;inset:14px;border-radius:50%;background:var(--navy)}
+.loop-content{position:relative;z-index:1;color:#fff;padding:18px}
+.loop-content b{display:block;font-size:21px;line-height:1.15;margin-bottom:11px}.loop-content p{font-size:12px;color:#c6d9dc}
+.loop-steps{margin-top:18px;display:flex;flex-wrap:wrap;justify-content:center;gap:5px}.loop-steps span{font-size:10px;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:4px 7px;color:#d8ecea}
+.feedback-note{margin-top:20px;padding:13px 15px;border-left:4px solid var(--gold);background:var(--gold-soft);font-size:13px;color:#5d491d;border-radius:0 8px 8px 0}
+.metric-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:24px}
+.metric-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.metric-card{border:1px solid var(--line);border-radius:12px;padding:16px;background:#fff}
+.metric-card span{display:block;color:var(--muted);font:700 11px/1.3 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.03em}
+.metric-card strong{display:block;color:var(--navy);font-size:25px;line-height:1.1;margin:12px 0 7px;font-variant-numeric:tabular-nums}
+.metric-card small{display:block;color:var(--muted);font-size:11px;line-height:1.45}
+.confidence{display:inline-flex;margin-top:10px;font-size:10px;border-radius:999px;padding:3px 7px;color:#735a1d;background:var(--gold-soft)}
+.evidence-box{border-radius:14px;border:1px solid #c9d6d5;background:#f2f7f5;padding:20px}
+.evidence-box h3{font-size:17px;line-height:1.25;margin-bottom:9px}.evidence-box p{font-size:13px;color:var(--ink-2);margin-bottom:14px}
+.file-list{display:grid;gap:7px}.file-list code{font:11px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;color:#36535f;overflow-wrap:anywhere}
+.boundary{margin-top:14px;border:1px solid #e5be83;background:#fff6df;border-radius:10px;padding:12px;color:#624a1e;font-size:12px}
+.scope-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.scope-card{border-top:4px solid var(--oxide);padding:17px;border-radius:0 0 12px 12px;background:#fbfaf5;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.scope-card:nth-child(2){border-top-color:var(--air)}.scope-card:nth-child(3){border-top-color:var(--willow)}
+.scope-card b{display:block;font-size:19px;line-height:1.15}.scope-card strong{display:block;margin:7px 0;color:var(--oxide);font-size:14px}.scope-card:nth-child(2) strong{color:#18758c}.scope-card:nth-child(3) strong{color:#3e8150}
+.scope-card p{font-size:12px;color:var(--muted)}
+.loop-steps-wide{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}
+.ai-step{border:1px solid var(--line);border-radius:11px;padding:15px;background:#fff;min-height:145px}.ai-step b{display:block;color:var(--oxide);font:700 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:12px}.ai-step h3{font-size:15px;line-height:1.25}.ai-step p{font-size:11px;color:var(--muted);margin-top:7px}.ai-step.gate{background:var(--navy);border-color:var(--navy);color:#fff}.ai-step.gate b{color:var(--gold)}.ai-step.gate p{color:#c5d4d7}
+.challenge-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 16px}.challenge{display:grid;grid-template-columns:34px minmax(0,1fr);gap:11px;border-bottom:1px solid var(--line);padding:13px 0}.challenge-mark{width:28px;height:28px;border-radius:50%;background:var(--oxide-soft);color:var(--oxide);display:grid;place-items:center;font-weight:800;font-size:12px}.challenge h3{font-size:15px}.challenge p{font-size:12px;color:var(--muted);margin-top:4px}
+.acceptance{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,.7fr);gap:24px}.checklist{display:grid;gap:8px}.check{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:9px;padding:11px 12px;font-size:13px}.check i{font-style:normal;color:var(--willow);font-weight:800}.check.pending i{color:var(--gold)}.check small{display:block;color:var(--muted);font-size:11px;margin-top:2px}.next-card{border-radius:14px;background:var(--navy);color:#e7f0ef;padding:21px}.next-card h3{font-size:18px;line-height:1.25;margin-bottom:9px}.next-card p{font-size:12px;color:#c2d3d5}.next-card ul{margin:14px 0 0;padding-left:18px;color:#d8e6e4;font-size:12px}.next-card li+li{margin-top:7px}
+.review-index{margin:0 40px 38px;padding:18px 20px;border:1px solid var(--line);border-radius:12px;background:#fff}.review-index h3{font-size:14px;margin-bottom:11px}.review-chips{display:flex;flex-wrap:wrap;gap:7px}.review-chips span{font-size:11px;color:var(--navy-2);border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:6px 9px}
+footer{padding:24px 0 42px;color:#60727a;font-size:11px}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid #cbd5d1;padding-top:15px}.footer-row strong{color:var(--ink)}
+@media(max-width:1050px){.hero-inner,.concept-grid,.layer-loop,.metric-layout,.acceptance{grid-template-columns:1fr}.thesis{max-width:620px}.prototype-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.loop-card{max-width:330px}.loop-steps-wide{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:760px){.wrap{width:min(100% - 28px,1240px)}.topbar .wrap{min-height:48px}.nav{display:none}.hero-inner{padding:54px 0 48px;gap:30px}.section-head,.section-body{padding-left:19px;padding-right:19px}.section-head{display:block}.section-kicker{display:inline-block;margin-top:14px}.field-grid,.scope-grid,.challenge-grid{grid-template-columns:1fr}.wings{grid-template-columns:1fr}.metric-grid{grid-template-columns:1fr}.prototype-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.loop-steps-wide{grid-template-columns:repeat(2,minmax(0,1fr))}.diagram{padding:7px;overflow:hidden}.diagram svg{min-width:520px;transform:translateX(-4%);width:108%}}
+@media(max-width:430px){h1{font-size:40px}.hero-subtitle{font-size:18px}.prototype-grid,.loop-steps-wide{grid-template-columns:1fr}.section h2{font-size:25px}.section-body{padding-top:20px;padding-bottom:20px}.loop-card{padding:22px}.loop-card:before{inset:9px}}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="topbar"><div class="wrap"><div class="wordmark"><span>JINGZHANG</span> STRATA / CONCEPT SYSTEM</div><nav class="nav" aria-label="页内导航"><a href="#grammar">概念语法</a><a href="#place">城市关系</a><a href="#intelligence">智能闭环</a><a href="#evidence">证据边界</a></nav></div></div>
+  <div class="wrap hero-inner">
+    <div>
+      <p class="eyebrow">百年京张 AI 创新带 · 概念冻结 v3</p>
+      <h1>百年京张<br>· 城市叠代</h1>
+      <p class="hero-subtitle">JINGZHANG STRATA</p>
+      <p class="hero-copy"><em>百年为基，城市叠代。</em> 以铁路遗产和公共生活为“一基”，把创新校准、日常共译与城市转化组织成“三场”，由两翼导入资源与扩散能力，再以十二个可暂停、可回退的城市原型持续学习。这里的“叠代”不是增加一层炫技，而是让每一次介入都能被看见、被质疑、被修正。</p>
+      <div class="hero-tags"><span class="hero-tag">one base · three fields</span><span class="hero-tag">two wings · 12 prototypes</span><span class="hero-tag">offline evidence view</span><span class="hero-tag alert">provisional / not statutory</span><span class="hero-tag">human gate required</span></div>
+    </div>
+    <aside class="thesis"><p class="thesis-label">核心命题 / design thesis</p><strong>把一条历史线，变成一套可复核的城市接口。</strong><p>空间不是 AI 的输出屏幕，而是证据、公共生活、创新协作和可信智能共同工作的界面。</p><div class="thesis-grid"><div class="thesis-stat"><b>1</b><span>一基 / base</span></div><div class="thesis-stat"><b>3</b><span>三场 / fields</span></div><div class="thesis-stat"><b>2</b><span>两翼 / wings</span></div><div class="thesis-stat"><b>12</b><span>原型 / prototypes</span></div></div><p class="formula"><span>运行纪律 / operating rule</span>候选由机器生成，发布由人类判断，缺证据就暂停或回退。</p></aside>
+  </div>
+</header>
+<main class="wrap">
+  <section class="section" id="grammar">
+    <div class="section-head"><div><p class="section-number">01 / CONCEPT GRAMMAR</p><h2>一基、三场、两翼、十二原型</h2><p>这是一个概念关系语法，不是红线、地块、道路、工程或运营承诺。它把“遗产如何继续成为公共基础设施”转译成可协作、可验证、可撤回的城市设计语言。</p></div><span class="section-kicker">frozen concept / v3</span></div>
+    <div class="section-body concept-grid">
+      <div class="diagram">
+        <svg viewBox="0 0 940 470" role="img" aria-label="一基三场两翼十二原型概念关系示意图，非地理精度">
+          <defs><linearGradient id="rail" x1="0" x2="1"><stop offset="0" stop-color="#bc5849"/><stop offset=".5" stop-color="#d2a24b"/><stop offset="1" stop-color="#55b8d2"/></linearGradient><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#6aa578"/></marker></defs>
+          <rect x="1" y="1" width="938" height="468" rx="12" fill="#f5f8f6" stroke="#d3dfdc"/>
+          <text x="38" y="36" font-size="12" fill="#657587" letter-spacing="2">RELATIONAL MAP · NOT TO SCALE</text>
+          <path d="M74 104 C260 76 430 130 600 92 S810 90 874 128" fill="none" stroke="url(#rail)" stroke-width="8" stroke-linecap="round"/>
+          <path d="M74 119 C260 91 430 145 600 107 S810 105 874 143" fill="none" stroke="#d8a06a" stroke-width="2" stroke-dasharray="5 8" opacity=".8"/>
+          <rect x="72" y="164" width="802" height="72" rx="17" fill="#173445"/>
+          <text x="100" y="194" fill="#8ad0de" font-size="11" letter-spacing="2">ONE BASE / 一基</text><text x="100" y="219" fill="#fff" font-size="21" font-weight="700">百年遗产与公共生活版本基底</text>
+          <text x="650" y="204" fill="#c1d1d4" font-size="12">来源 · 时间 · 置信度 · 责任</text><text x="650" y="222" fill="#c1d1d4" font-size="12">让新介入与历史并置而非覆盖</text>
+          <path d="M170 237 V274" stroke="#6aa578" stroke-width="2" marker-end="url(#arrow)"/><path d="M470 237 V274" stroke="#6aa578" stroke-width="2" marker-end="url(#arrow)"/><path d="M770 237 V274" stroke="#6aa578" stroke-width="2" marker-end="url(#arrow)"/>
+          <g><rect x="75" y="282" width="190" height="101" rx="13" fill="#e7e5fa" stroke="#7066c8"/><text x="94" y="310" fill="#4f469b" font-size="11" letter-spacing="1">FIELD 01 / 北部</text><text x="94" y="337" fill="#2e2b72" font-size="16" font-weight="700">众智园校准场</text><text x="94" y="361" fill="#4f469b" font-size="11">共同测量 · 标准 · 红队</text></g>
+          <g><rect x="375" y="282" width="190" height="101" rx="13" fill="#dcecdf" stroke="#6aa578"/><text x="394" y="310" fill="#3e8150" font-size="11" letter-spacing="1">FIELD 02 / 中部</text><text x="394" y="337" fill="#2d683b" font-size="16" font-weight="700">AI 原点社区共译场</text><text x="394" y="361" fill="#3e8150" font-size="11">解释 · 质疑 · 人工等效路径</text></g>
+          <g><rect x="675" y="282" width="190" height="101" rx="13" fill="#f7e8c4" stroke="#d2a24b"/><text x="694" y="310" fill="#84621e" font-size="11" letter-spacing="1">FIELD 03 / 南部</text><text x="694" y="337" fill="#735a1d" font-size="16" font-weight="700">大钟寺转化场</text><text x="694" y="361" fill="#84621e" font-size="11">体验 · 反馈 · 采用或暂停</text></g>
+          <path d="M265 332 C306 311 332 311 375 332" fill="none" stroke="#55b8d2" stroke-width="3" stroke-dasharray="7 7"/><path d="M565 332 C608 311 633 311 675 332" fill="none" stroke="#55b8d2" stroke-width="3" stroke-dasharray="7 7"/>
+          <path d="M170 397 C340 440 604 440 770 397" fill="none" stroke="#6aa578" stroke-width="2" marker-end="url(#arrow)"/><text x="325" y="448" fill="#3e8150" font-size="12">两翼导入资源、扩散能力与反馈 / wings connect the fields</text>
+          <g fill="#bc5849"><circle cx="85" cy="414" r="5"/><circle cx="112" cy="414" r="5"/><circle cx="139" cy="414" r="5"/><circle cx="166" cy="414" r="5"/><circle cx="193" cy="414" r="5"/><circle cx="220" cy="414" r="5"/><circle cx="247" cy="414" r="5"/><circle cx="274" cy="414" r="5"/><circle cx="301" cy="414" r="5"/><circle cx="328" cy="414" r="5"/><circle cx="355" cy="414" r="5"/><circle cx="382" cy="414" r="5"/></g><text x="407" y="418" fill="#657587" font-size="11">S01—S12 / 可逆原型接口</text>
+        </svg>
+        <div class="diagram-note"><span><span class="note-chip">●</span> 关系示意，不代表真实地理位置或精确比例</span><span>同源数据：GeoJSON · metrics · evidence</span></div>
+      </div>
+      <aside class="callout"><div><h3>叠代的定义</h3><p>“叠”是把铁路遗产、公共生活、创新产业和可信智能并置为可辨识的时空层；“代”是让每次介入可验证、可修正、可撤回、可升级。</p><p>因此，城市设计不提供唯一答案，而是建立一套能把不同候选放在同一张证据桌上比较的工作面。</p></div><p class="formula"><span>一条决策句</span>先看来源，再看约束；先做小试，再决定是否扩散。</p></aside>
+    </div>
+  </section>
+
+  <section class="section" id="place">
+    <div class="section-head"><div><p class="section-number">02 / PLACE SYSTEM</p><h2>三场接力，两个协作方向</h2><p>三个重点区不是三个孤立节点，而是同一条证据链的不同职责：北部校准、中部共译、南部转化。两翼提供条件和扩散，不新增任何法定边界。</p></div><span class="section-kicker">three fields / two wings</span></div>
+    <div class="section-body">
+      <div class="field-grid">
+        <article class="field-card"><p class="field-id">F01 · SOURCE CALIBRATION</p><h3>众智园校准场</h3><p class="field-en">Zhongzhiyuan Calibration Field</p><p>承载传感器共置、数据质量、模型漂移、标准和安全验证的源头角色。优先讨论可拆共置架、模型卡廊和维护界面。</p><p class="status-line">角色已冻结 · 设备、供电、产权与实验室条件待核验</p></article>
+        <article class="field-card"><p class="field-id">F02 · CIVIC TRANSLATION</p><h3>AI 原点社区共译场</h3><p class="field-en">AI Origin Community Civic Translation Field</p><p>把模型候选转为公众能理解、能质疑、能转人工、能退出的日常服务。纸质、语音、静态和人工路径与数字界面并行。</p><p class="status-line">角色已冻结 · 校园开放、隐私、值守与参与记录待核验</p></article>
+        <article class="field-card"><p class="field-id">F03 · ADOPTION INTERFACE</p><h3>大钟寺转化场</h3><p class="field-en">Dazhongsi Adoption Field</p><p>把经校准的候选变成可体验、可反馈、可暂停的公共服务接口。先做可移动组件和信息界面，不预设工程改造。</p><p class="status-line">角色已冻结 · 物业、消防、通风、交通与公平条件待核验</p></article>
+      </div>
+      <div class="wings"><article class="wing"><div class="wing-mark">W1</div><div><h3>中关村科技服务翼</h3><p>Zhongguancun Technology Services Wing · 导入标准、法务/IP、数据与算力、人才和国际传播等条件；不等同于已签约机构或投资承诺。</p></div></article><article class="wing"><div class="wing-mark">W2</div><div><h3>小月河场景赋能翼</h3><p>Xiaoyuehe Scenario Enablement Wing · 把蓝绿、环境、运维和公共服务场景转成可检验的原型输入与反馈；不等同于河道蓝线或排水工程。</p></div></article></div>
+      <div class="prototype-title"><h3>十二个可逆原型接口</h3><span>每个原型都需人工发布闸、停止条件和退出路径</span></div>
+      <div class="prototype-grid"><div class="prototype"><b>S01</b><span>多传感器共置校准</span></div><div class="prototype"><b>S02</b><span>模型漂移与极端值红队</span></div><div class="prototype"><b>S03</b><span>室内外终端可用性</span></div><div class="prototype"><b>S04</b><span>低暴露慢行信息</span></div><div class="prototype"><b>S05</b><span>无障碍公共界面</span></div><div class="prototype"><b>S06</b><span>通风建议助手</span></div><div class="prototype"><b>S07</b><span>花粉与扬尘公共公报</span></div><div class="prototype"><b>S08</b><span>蓝绿设施巡检</span></div><div class="prototype"><b>S09</b><span>活动与施工环境提示</span></div><div class="prototype"><b>S10</b><span>夜班环境提示</span></div><div class="prototype"><b>S11</b><span>社区传感器借用与共学</span></div><div class="prototype"><b>S12</b><span>铁路记忆多语导览</span></div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><p class="section-number">03 / STRATA + LOOP</p><h2>四层城市基底，运行反馈闭环</h2><p>四层不是从下到上的技术堆叠，而是每次空间介入都必须经过的证据与责任路径。闭环跨越四层，默认缺证据时暂停或回退。</p></div><span class="section-kicker">four layers / one loop</span></div>
+    <div class="section-body layer-loop"><div class="layer-list"><article class="layer"><i class="layer-line"></i><div><h3>遗产基底层 · Heritage Substrate</h3><p>铁路遗产、公共记忆、现有开放空间和责任边界；新建议与已知证据并置，不覆盖历史。</p></div></article><article class="layer"><i class="layer-line"></i><div><h3>公共缝合层 · Public Stitching</h3><p>把日常路径、群体和服务接成可理解、可进入、可转人工的公共接口。</p></div></article><article class="layer"><i class="layer-line"></i><div><h3>创新协作层 · Innovation Collaboration</h3><p>组织资源导入、能力扩散、测试验证、共学和专业协作；明确输入、输出与责任。</p></div></article><article class="layer"><i class="layer-line"></i><div><h3>可信智能层 · Trustworthy Intelligence</h3><p>让数据、模型和服务输出可解释、可质疑、可暂停、可回滚，并保留静态与人工替代。</p></div></article></div><div><div class="loop-card"><div class="loop-content"><b>运行反馈闭环</b><p>从清权数据到公共服务，再回到校准。每一轮都留下来源、置信度、人工判断和版本记录。</p><div class="loop-steps"><span>数据</span><span>质量</span><span>校准</span><span>解释</span><span>HumanDecision</span><span>服务</span><span>反馈</span><span>回滚</span></div></div></div><div class="feedback-note">缺少授权、责任人、质量说明或等效人工路径时，默认暂停或回退；AI 不替代公众意见、专业复核或法定审批。</div></div></div>
+  </section>
+
+  <section class="section" id="evidence">
+    <div class="section-head"><div><p class="section-number">04 / EVIDENCE VIEW</p><h2>数字可以复算，边界必须可见</h2><p>以下三项核心指标保留与 <code>metrics.json</code> 一致的机器字段。它们来自提交的临时概念几何，置信度为 low，不能读作现状、法定或工程结论。</p></div><span class="section-kicker">metrics / provenance</span></div>
+    <div class="section-body metric-layout"><div class="metric-grid"><article class="metric-card"><span>site_area_sqm</span><strong data-metric="site_area_sqm" data-value="11412825.386">11412825.386</strong><small>submitted provisional site boundary · EPSG:4548 · sqm</small><b class="confidence">LOW / PROVISIONAL</b></article><article class="metric-card"><span>green_ratio</span><strong data-metric="green_ratio" data-value="0.123423">0.123423</strong><small>concept green space ÷ provisional site area · ratio</small><b class="confidence">LOW / PROVISIONAL</b></article><article class="metric-card"><span>public_space_ratio</span><strong data-metric="public_space_ratio" data-value="0.073281">0.073281</strong><small>concept public space ÷ provisional site area · ratio</small><b class="confidence">LOW / PROVISIONAL</b></article></div><aside class="evidence-box"><h3>同源证据链 / one source of truth</h3><p>图面承担阅读层；几何、指标、来源、假设和任务矩阵承担可追溯性。收到权威 polygon 后必须整体重裁、重算、重渲染。</p><div class="file-list"><code>geometry/site_boundary.geojson</code><code>geometry/key_areas.geojson</code><code>geometry/land_use.geojson</code><code>geometry/buildings.geojson</code><code>geometry/roads.geojson</code><code>geometry/green_space.geojson</code><code>geometry/public_space.geojson</code><code>metrics.json · sources.json · assumptions.json</code></div><div class="boundary"><strong>状态边界：</strong>临时概念几何仅用于 intake、讨论、图件与自检；不是官方红线、地块边界、审批依据或工程测量。</div></aside></div>
+    <div class="section-body" style="padding-top:0"><div class="scope-grid"><article class="scope-card"><b>统筹研究范围</b><strong>约 43.6 km²</strong><p>战略关系与 AI 生态研究；不绘制未发布的统筹 polygon。</p></article><article class="scope-card"><b>总体设计范围</b><strong>约 11.4 km²</strong><p>城市更新、公共空间和三场关系；使用临时 SITE-001。</p></article><article class="scope-card"><b>重点区域范围</b><strong>约 368.4 ha</strong><p>众智园、AI 原点社区、大钟寺三处概念包络；位置和形状待核验。</p></article></div></div>
+  </section>
+
+  <section class="section" id="intelligence">
+    <div class="section-head"><div><p class="section-number">05 / AI DESIGN OPERATING SYSTEM</p><h2>AI 生成候选，人类决定是否进入城市</h2><p>智能化不等于自动审批。方案的可复用能力来自固定输入、约束检查、方案族比较、独立批评和可回退记录，而不是一张看似确定的生成图。</p></div><span class="section-kicker">machine candidate → human decision</span></div>
+    <div class="section-body"><div class="loop-steps-wide"><article class="ai-step"><b>01 / INTAKE</b><h3>清权输入</h3><p>收集来源、许可、空间关系、用户痛点和未知项；缺资料不静默补齐。</p></article><article class="ai-step"><b>02 / CONSTRAINT</b><h3>约束检查</h3><p>检查文保、无障碍、通行、隐私、消防、数据授权和临时几何边界。</p></article><article class="ai-step"><b>03 / GENERATE</b><h3>候选方案族</h3><p>机器生成可比较的关系、路径提示、组件或时段组合，而非唯一答案。</p></article><article class="ai-step"><b>04 / CRITIQUE</b><h3>独立复核</h3><p>专业与公众从可达性、包容性、风险和证据一致性进行反向质询。</p></article><article class="ai-step gate"><b>05 / HUMAN GATE</b><h3>HumanDecision</h3><p>责任人记录依据、状态、取舍、暂停、拒绝、回滚或批准；AI 不代签。</p></article><article class="ai-step"><b>06 / LEARN</b><h3>试验与回滚</h3><p>小规模可逆试验，保留人工替代、停止按钮、反馈记录和 sunset 触发条件。</p></article></div></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><p class="section-number">06 / WHY THIS PLACE</p><h2>把场地的六个断点，变成六个设计动作</h2><p>京张遗产公园的线性连续性、横向接口和多主体条件要求“连续但有接口”的空间策略；城市叠代把技术边界直接转成公共空间体验。</p></div><span class="section-kicker">problem → response</span></div>
+    <div class="section-body"><div class="challenge-grid"><article class="challenge"><div class="challenge-mark">01</div><div><h3>遗产可读性断点</h3><p>以“一基”保存时间、来源与记忆；导视和数据牌展示版本，不用未经授权的历史肖像或故事替代史料。</p></div></article><article class="challenge"><div class="challenge-mark">02</div><div><h3>公园—街区接口断点</h3><p>以“三场”组织南北连续、东西接口和日常服务；关系线是待核验接口，不宣称新路、桥隧或站点工程。</p></div></article><article class="challenge"><div class="challenge-mark">03</div><div><h3>数据可信断点</h3><p>在校准场共置、标注置信度、记录模型卡和极端值红队；未校准读数不升级为监管或医疗结论。</p></div></article><article class="challenge"><div class="challenge-mark">04</div><div><h3>自动化服务断点</h3><p>在共译场把模型输出翻译为纸质、语音、静态和人工等效路径；不能退出就不发布。</p></div></article><article class="challenge"><div class="challenge-mark">05</div><div><h3>创新落地断点</h3><p>在转化场先做可移动、可暂停的服务原型，经过反馈再决定是否采用；工程、消防、物业条件另行核验。</p></div></article><article class="challenge"><div class="challenge-mark">06</div><div><h3>治理责任断点</h3><p>两翼导入标准、法务、运维和场景能力；每个原型绑定责任、停止条件、回滚路径和复盘记录。</p></div></article></div></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><p class="section-number">07 / ACCEPTANCE GATE</p><h2>交付已成套，下一步是补齐权威证据与人工决策</h2><p>双语方案、图件、离线网页和图纸已经形成可复核正式包；空间几何仍为 provisional，专业判断与真实 HumanDecision 仍不得省略。</p></div><span class="section-kicker">formal package · human review pending</span></div>
+    <div class="section-body acceptance"><div class="checklist"><div class="check"><i>✓</i><div><strong>概念命名与空间语法已冻结</strong><small>百年京张·城市叠代 / JINGZHANG STRATA；一基三场两翼十二原型。</small></div></div><div class="check"><i>✓</i><div><strong>结构化几何与指标可追溯</strong><small>页面保留核心 data-metric/data-value；几何角色和低置信度明确显示。</small></div></div><div class="check pending"><i>!</i><div><strong>权威边界、文保、权属与专业条件</strong><small>收到官方 polygon、测绘、道路红线、管线、责任主体后整体重算。</small></div></div><div class="check pending"><i>!</i><div><strong>独立批评与 HumanDecision 记录</strong><small>候选方案族需经过专业与公众复核，形成可签署的取舍、暂停或回滚记录。</small></div></div><div class="check"><i>✓</i><div><strong>双语图件、A3/A0、PDF 与视觉资产</strong><small>10 张双语核心图、2 个离线 HTML、双语 A3 各 8 页与 A0 各 3 页已由可复现脚本生成并完成渲染检查。</small></div></div></div><aside class="next-card"><h3>实施优先序</h3><p>把不确定性变成下一轮工作的入口，避免概念关系被误读成建设承诺。</p><ul><li>先锁定权威边界与资料许可，再重裁七套 GeoJSON。</li><li>为 S01—S03 建立隔离沙盒与失败阈值，暂不进入公共发布。</li><li>权威数据变更后，同源重算指标并重渲染五图、HTML 与 PDF。</li><li>由真实责任人完成 HumanDecision，状态仍可为 pause / reject。</li></ul></aside></div>
+    <div class="review-index"><h3>官方可视化验收索引</h3><div class="review-chips"><span>总览地图</span><span>三层范围</span><span>重点区域</span><span>用地分区</span><span>交通慢行</span><span>蓝绿公共空间</span><span>建筑</span><span>更新项目</span><span>AI 场景</span><span>核心指标</span><span>任务覆盖</span><span>自检状态</span><span>来源</span><span>假设</span></div></div>
+  </section>
+</main>
+<footer><div class="wrap footer-row"><span><strong>百年京张·城市叠代 / JINGZHANG STRATA</strong> · 离线概念总览 · 2026-08-23</span><span>machine-generated candidate · provisional geometry · HumanDecision required · <a href="#top">回到顶部 ↑</a></span></div></footer>
+</body>
+</html>
