@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "assumption_id": "A-BOUNDARY-001",
+      "statement_zh": "组织方尚未发布官方总体边界与重点区域 polygon，本方案全部几何为 provisional 临时粗略约束，仅用于内容组织、讨论与返修，官方几何发布后整体复算。",
+      "statement_en": "No official boundary or key-area polygons are published yet; all geometry is provisional.",
+      "category": "boundary",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-CONTROLS-001",
+      "statement_zh": "儿童设施涉及的绿地蓝线、文物保护与建设控制条件未知，本方案不给出任何具体数值结论，仅保留概念口径的示意。",
+      "statement_en": "Statutory protection and control conditions are unknown; concept-level only.",
+      "category": "statutory_control",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-DATA-001",
+      "statement_zh": "儿童人口与设施数据仅有公开口径，本方案不引用未核实数值，不编造儿童数量、设施规模或场次数据。",
+      "statement_en": "No unverified child-population or facility figures are cited.",
+      "category": "data_boundary",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-PRIVACY-001",
+      "statement_zh": "未成年人个人信息保护为刚性边界：通学安全与场地服务均仅处理匿名聚合数据，不采集可识别未成年人的信息，不进行个体识别式追踪，关键决策人工复核。",
+      "statement_en": "Minors personal-information protection is a hard boundary; anonymized aggregation only, no identifying tracking.",
+      "category": "privacy",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-CONTENT-001",
+      "statement_zh": "AI生成的亲子内容须经人工审核后发布，遵守版权与署名要求，不夸大活动效果、不把设想写成已确定安排。",
+      "statement_en": "AI-generated family content requires human review; no overstated claims.",
+      "category": "content_governance",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-TRAFFIC-001",
+      "statement_zh": "通学路设计以人车分离与交通稳静化为方向，正式实施前须完成交通影响论证与设施评估。",
+      "statement_en": "School-route design is concept-level; traffic impact assessment required before implementation.",
+      "category": "traffic",
+      "status": "accepted_limitation"
+    }
+  ]
+}
