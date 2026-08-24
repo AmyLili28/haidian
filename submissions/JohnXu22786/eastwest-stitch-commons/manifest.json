@@ -167,7 +167,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "930e989f8ef9ce6d8343bed25a20cf5d53a9713bc81ded19c18421ee77bebe08",
+      "sha256": "d2f615526a5daffea5b0968023687ea1009ac2ca69ea1e5035373f966238c45e",
       "language": "zh"
     },
     {
@@ -193,7 +193,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "1c9b1a7aa50ab8f98a3f2d1e60215e66bf35e38774bfc8c2936427108fd85344"
+      "sha256": "70359c68e50d9d3397ec728662513c45c4212343b81902a9326fcf1150aea430"
     },
     {
       "path": "sources.json",
