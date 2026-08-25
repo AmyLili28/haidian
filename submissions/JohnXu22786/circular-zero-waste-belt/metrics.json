@@ -15,7 +15,8 @@
       "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
       "confidence": "medium",
       "assumptions": [
-        "Provisional boundary, not an official redline."
+        "Provisional boundary, not an official redline.",
+        "Recompute trigger: official geometry file ingested or announcement updated; then recompute with the same formula."
       ]
     },
     "green_space_area_sqm": {
@@ -27,7 +28,9 @@
       ],
       "formula": "union(conceptual green polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Participant provisional model data (concept)."
+      ]
     },
     "public_space_area_sqm": {
       "status": "known",
@@ -38,7 +41,9 @@
       ],
       "formula": "union(conceptual public-space polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Participant provisional model data (concept)."
+      ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
@@ -49,7 +54,9 @@
       ],
       "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Participant provisional model data (concept)."
+      ]
     },
     "green_ratio": {
       "status": "known",
@@ -61,7 +68,9 @@
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Participant provisional model data; recompute when official geometry is published."
+      ]
     },
     "public_space_ratio": {
       "status": "known",
@@ -73,7 +82,9 @@
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Participant provisional model data; recompute when official geometry is published."
+      ]
     },
     "road_network_length_m": {
       "status": "known",
@@ -107,6 +118,90 @@
       "formula": "count(land_use.geojson features)",
       "confidence": "high",
       "assumptions": []
+    },
+    "land_use_research_ratio": {
+      "status": "known",
+      "value": 0.30446,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/land_use.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "sum(area of features with land_use_code 0802, EPSG:4548) / site_area_sqm; single caliber for all concept land-share displays (proposal.md, land-use-structure*.png, HTML pages, PDFs)",
+      "confidence": "low",
+      "assumptions": [
+        "Concept share, NOT current use and NOT a statutory plan; recompute trigger: official regulatory plan/geometry ingested."
+      ]
+    },
+    "land_use_park_green_ratio": {
+      "status": "known",
+      "value": 0.27119,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/land_use.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "sum(area of features with land_use_code 1401, EPSG:4548) / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Concept share, NOT current use and NOT a statutory plan."
+      ]
+    },
+    "land_use_business_finance_ratio": {
+      "status": "known",
+      "value": 0.15631,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/land_use.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "sum(area of features with land_use_code 0902, EPSG:4548) / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Concept share, NOT current use and NOT a statutory plan."
+      ]
+    },
+    "land_use_commercial_ratio": {
+      "status": "known",
+      "value": 0.13425,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/land_use.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "sum(area of features with land_use_code 0901, EPSG:4548) / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Concept share, NOT current use and NOT a statutory plan."
+      ]
+    },
+    "land_use_residential_ratio": {
+      "status": "known",
+      "value": 0.11133,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/land_use.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "sum(area of features with land_use_code 0701, EPSG:4548) / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Concept share, NOT current use and NOT a statutory plan."
+      ]
+    },
+    "land_use_cultural_ratio": {
+      "status": "known",
+      "value": 0.02248,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/land_use.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "sum(area of features with land_use_code 0803, EPSG:4548) / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Concept share, NOT current use and NOT a statutory plan."
+      ]
     },
     "building_unit_count": {
       "status": "known",
@@ -148,32 +243,51 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(industry_validation scenario cards in the test-protocol table)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Visible-text evidence: three test scenarios with protocol/failure-threshold/decommissioning rows."
+      ]
     },
-    "persona_count": {
+    "ai_scenario_card_count": {
       "status": "known",
-      "value": 5,
+      "value": 12,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(representative user groups)",
+      "formula": "count(rows in the AI+ scenario card table)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Visible-text evidence: 12 rendered scenario cards in proposal.md; displayed in visual pages."
+      ]
+    },
+    "persona_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(representative user groups incl. frontline collection workers)",
+      "confidence": "high",
+      "assumptions": [
+        "Six personas table plus key-population service journeys."
+      ]
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 6,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(global ecosystem mechanism cases with CASE-* source entries)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Shenzhen, Shanghai, Japan, Copenhagen, Singapore, EU; each with url+publisher+published_date in sources.json."
+      ]
     },
     "phase_count": {
       "status": "known",
@@ -188,14 +302,16 @@
     },
     "annual_program_count": {
       "status": "known",
-      "value": 3,
+      "value": 4,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(annual event system)",
+      "formula": "count(annual event system rows)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Four annual programs: science week, swap&repair season, open day, annual disclosure festival."
+      ]
     }
   }
 }

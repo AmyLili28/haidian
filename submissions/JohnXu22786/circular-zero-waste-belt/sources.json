@@ -13,7 +13,7 @@
       "authority_level": "A0",
       "timeliness_level": "T0",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public announcement snapshot retained for reference and citation.",
+      "license": "Official public announcement snapshot retained for reference and citation; no reuse of page chrome, images or third-party editorial content.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -54,7 +54,7 @@
       "authority_level": "CLEARED_USER_DOCUMENT",
       "timeliness_level": "T0",
       "public_access_status": "cleared_for_repo",
-      "license_summary": "User provided this document for repository use and public agent-facing task alignment.",
+      "license": "User provided this document for repository use and public agent-facing task alignment.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -98,7 +98,7 @@
       "authority_level": "A0",
       "timeliness_level": "T2",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public standard/policy page snapshot retained for reference and citation.",
+      "license": "Official public standard/policy page snapshot retained for reference and citation.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -133,7 +133,7 @@
       "authority_level": "A0",
       "timeliness_level": "T2",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government page snapshot retained for reference and citation.",
+      "license": "Official public government page snapshot retained for reference and citation.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -166,7 +166,7 @@
       "authority_level": "A0",
       "timeliness_level": "T2",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government page snapshot retained for reference and citation.",
+      "license": "Official public government page snapshot retained for reference and citation.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -198,7 +198,7 @@
       "authority_level": "PROVISIONAL_REPOSITORY",
       "timeliness_level": "T0",
       "public_access_status": "provisional_repository",
-      "license_summary": "Repository-maintained provisional geometry for intake testing and visualization only.",
+      "license": "Repository-maintained provisional geometry for intake testing and visualization only.",
       "review_status": "provisional",
       "usable_for_formal": "provisional_only",
       "allowed_uses": [
@@ -246,7 +246,7 @@
       "authority_level": "A0",
       "timeliness_level": "T1",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content; any reuse remains subject to official terms.",
+      "license": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content; any reuse remains subject to official terms.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -272,6 +272,312 @@
       "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；第2条适用范围是向境内公众提供生成文本、图片、音频、视频等内容的生成式人工智能服务。第14条是违法内容与服务处置，不是一般用户退出权；第15条有投诉举报和及时处理要求，但没有法定数字响应期限；第17条安全评估、备案等表述仅针对具有舆论属性或社会动员能力的服务。快照仅供离线检索，正式引用仍以官方页面为准。"
     },
     {
+      "source_id": "CASE-SZ-2019",
+      "title": "国务院办公厅关于印发《“无废城市”建设试点工作方案》的通知（国办发〔2018〕128号）",
+      "publisher": "国务院办公厅（中国政府网）",
+      "source_kind": "official_policy_case",
+      "url": "https://www.gov.cn/zhengce/zhengceku/2019-01/21/content_5359620.htm",
+      "published_date": "2019-01-21",
+      "accessed_date": "2026-08-24",
+      "file_type": "webpage",
+      "authority_level": "A0",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license": "Official public government document; mechanism-level citation only. No reproduction of page chrome; reuse subject to official terms.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism-level description of Shenzhen zero-waste city pilot framework (institutional integration, source reduction, CDW comprehensive use, collection network)",
+        "policy direction reference"
+      ],
+      "prohibited_uses": [
+        "copying Shenzhen-specific quantitative indicators as this site's values",
+        "treating pilot arrangements as commitments for this proposal"
+      ],
+      "topics": [
+        "zero_waste_city",
+        "case_study",
+        "policy_direction"
+      ],
+      "notes_zh": "深圳于2019年作为全国首批无废城市建设试点城市之一；本方案仅引机制与治理结构。"
+    },
+    {
+      "source_id": "CASE-SH-2019",
+      "title": "上海市生活垃圾管理条例（2019年1月31日上海市第十五届人民代表大会第二次会议通过）",
+      "publisher": "上海市人民代表大会常务委员会（上海市城市管理行政执法局官网转发）",
+      "source_kind": "official_policy_case",
+      "url": "https://cgzf.sh.gov.cn/channel_89/20241122/52c9cd156b994315b55e21b696de3c2e.html",
+      "published_date": "2019-01-31",
+      "accessed_date": "2026-08-24",
+      "file_type": "webpage",
+      "authority_level": "A0",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license": "Official public regulation text; mechanism-level citation only.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism-level description of full classification and the three-tier recyclables collection network (service point—transfer station—bulk yard) and two-networks integration direction",
+        "policy direction reference"
+      ],
+      "prohibited_uses": [
+        "copying Shanghai-specific quantitative indicators or fine schedules",
+        "implying this proposal adopts the regulation"
+      ],
+      "topics": [
+        "waste_classification",
+        "two_networks_integration",
+        "case_study"
+      ],
+      "notes_zh": "上海推行生活垃圾全程分类与可回收物三级回收体系；本方案仅引机制与治理结构。"
+    },
+    {
+      "source_id": "CASE-JP-2000",
+      "title": "循環型社会形成推進基本法（平成12年法律第110号）",
+      "publisher": "日本政府（e-Gov 法令検索）",
+      "source_kind": "international_law_case",
+      "url": "https://laws.e-gov.go.jp/law/412AC0000000110",
+      "published_date": "2000-06-02",
+      "accessed_date": "2026-08-24",
+      "file_type": "webpage",
+      "authority_level": "A0",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license": "Official public statute text; mechanism-level citation only.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism-level description of the statutory priority order (発生抑制/再使用/再生利用/熱回収/適正処分), 3R framework and EPR general principle"
+      ],
+      "prohibited_uses": [
+        "quoting Japanese statutory obligations as Chinese legal obligations",
+        "copying quantitative goals"
+      ],
+      "topics": [
+        "sound_material_cycle_society",
+        "3r",
+        "epr",
+        "case_study"
+      ],
+      "notes_zh": "日本于2000年公布《循环型社会形成推进基本法》，首次法定化处理优先序；本方案仅引机制。"
+    },
+    {
+      "source_id": "CASE-DK-2019",
+      "title": "Circular Copenhagen – Resource and Waste Management Plan 2024（哥本哈根市循环资源与废物管理计划）",
+      "publisher": "City of Copenhagen (Københavns Kommune)",
+      "source_kind": "international_city_case",
+      "url": "https://urbandevelopmentcph.kk.dk/resource-waste-management",
+      "published_date": "2019-03-14",
+      "accessed_date": "2026-08-24",
+      "file_type": "webpage",
+      "authority_level": "A0",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license": "Official municipal plan summary page; mechanism-level citation only. Plan is copyright of City of Copenhagen; no reproduction of plan visuals.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism-level description of high-recycling plus energy-recovery coordination and community reuse/exchange facilities in a dense city"
+      ],
+      "prohibited_uses": [
+        "copying Copenhagen quantitative targets or plan graphics",
+        "implying Copenhagen targets apply to this site"
+      ],
+      "topics": [
+        "circular_city",
+        "resource_recovery",
+        "case_study"
+      ],
+      "notes_zh": "哥本哈根以高回收与能源化协同组织城市资源回收体系；本方案仅引机制与治理结构。"
+    },
+    {
+      "source_id": "CASE-SG-2019",
+      "title": "Singapore Zero Waste Masterplan / NEA Towards Zero Waste",
+      "publisher": "National Environment Agency, Singapore (NEA)",
+      "source_kind": "international_city_case",
+      "url": "https://www.nea.gov.sg/our-services/towards-zero-waste",
+      "published_date": "2019-08-30",
+      "accessed_date": "2026-08-24",
+      "file_type": "webpage",
+      "authority_level": "A0",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license": "Official agency public page; mechanism-level citation only.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism-level description of the 3R framework, zero-waste vision and land-efficient integrated waste management direction"
+      ],
+      "prohibited_uses": [
+        "copying Singapore quantitative targets or facility specifics",
+        "implying Singapore institutions are involved"
+      ],
+      "topics": [
+        "zero_waste",
+        "3r",
+        "case_study"
+      ],
+      "notes_zh": "新加坡以零废总体规划整合 3R 与集成式处理设施方向；本方案仅引机制。"
+    },
+    {
+      "source_id": "CASE-EU-2020",
+      "title": "A new Circular Economy Action Plan (COM(2020) 98 final) / EU Circular Economy pages",
+      "publisher": "European Commission",
+      "source_kind": "international_policy_case",
+      "url": "https://environment.ec.europa.eu/strategy/circular-economy_en",
+      "published_date": "2020-03-11",
+      "accessed_date": "2026-08-24",
+      "file_type": "webpage",
+      "authority_level": "A0",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license": "Official EU public policy page; mechanism-level citation only.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism-level description of life-cycle product policy, secondary raw materials market and value-chain closure frameworks"
+      ],
+      "prohibited_uses": [
+        "copying EU legislative texts as Chinese obligations",
+        "implying EU institutions are involved in this proposal"
+      ],
+      "topics": [
+        "circular_economy",
+        "life_cycle",
+        "case_study"
+      ],
+      "notes_zh": "欧盟2020年循环经济行动计划覆盖产品全生命周期与二次原材料市场；本方案仅引框架。"
+    },
+    {
+      "source_id": "ASSET-FONT-NOTO-SC",
+      "title": "Noto Sans SC（本包 HTML 嵌入字体）",
+      "publisher": "Google / Adobe（SIL Open Font License 1.1）",
+      "source_kind": "licensed_asset",
+      "url": "https://fonts.google.com/noto/specimen/Noto+Sans+SC",
+      "published_date": "2022-01-01",
+      "accessed_date": "2026-08-24",
+      "file_type": "font",
+      "authority_level": "SELF-DECLARED-ASSET",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license": "SIL Open Font License 1.1 — free use, modification and embedding with license text retained; derived subsets used in HTML pages.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "embedding subsets into the package HTML pages for offline CJK rendering"
+      ],
+      "prohibited_uses": [
+        "claiming authorship of the font",
+        "sublicensing the font under other terms"
+      ],
+      "topics": [
+        "font",
+        "license",
+        "asset"
+      ],
+      "notes_zh": "HTML 嵌入字体为 Noto Sans SC 的子集（按页面实际字符裁剪），OFL 1.1 许可。"
+    },
+    {
+      "source_id": "ASSET-LOGO-FIGURES",
+      "title": "Logo、静态图与生态图谱（本包自产视觉资产）",
+      "publisher": "JohnXu22786 / agent-oc-haidian",
+      "source_kind": "agent_generated_asset",
+      "url": "assets/figures/",
+      "published_date": "2026-08-24",
+      "accessed_date": "2026-08-24",
+      "file_type": "png",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "Original AI-generated design graphics; free for repository display under the package license COMMUNITY-DISPLAY-ONLY. No third-party graphics or fonts used.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "display in proposal, HTML, PDFs and visual pages",
+        "derivation within this package"
+      ],
+      "prohibited_uses": [
+        "commercial reuse outside the package license",
+        "claiming official status"
+      ],
+      "topics": [
+        "logo",
+        "figures",
+        "asset"
+      ],
+      "provenance": {
+        "generator": "matplotlib (Python) with package geometry and metrics",
+        "generation_method": "deterministic charting from submission geometry/metrics",
+        "limitations": "concept diagrams on provisional geometry"
+      },
+      "notes_zh": "全部图件由本包件几何与指标确定性生成，未使用第三方底图或图形。"
+    },
+    {
+      "source_id": "ASSET-PDF-HTML",
+      "title": "A0/A3 PDF 与报告/可视化 HTML（本包自产）",
+      "publisher": "JohnXu22786 / agent-oc-haidian",
+      "source_kind": "agent_generated_asset",
+      "url": "drawings/, report/, visual/",
+      "published_date": "2026-08-24",
+      "accessed_date": "2026-08-24",
+      "file_type": "pdf/html",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "Original AI-generated layout; free for repository display under the package license COMMUNITY-DISPLAY-ONLY.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "display and review within the submission workflow"
+      ],
+      "prohibited_uses": [
+        "external publication without the package license terms",
+        "claiming official or statutory status"
+      ],
+      "topics": [
+        "pdf",
+        "html",
+        "asset"
+      ],
+      "provenance": {
+        "generator": "matplotlib PdfPages + render_proposal_html.py + hand templates, fonts subset via fontTools",
+        "generation_method": "deterministic layout from package content",
+        "limitations": "concept boards, not construction documents"
+      },
+      "notes_zh": "图纸为概念展示用图，非工程图纸。"
+    },
+    {
+      "source_id": "ASSET-GEO-TOOLING",
+      "title": "几何图层与生成工具（本包自产）",
+      "publisher": "JohnXu22786 / agent-oc-haidian",
+      "source_kind": "agent_generated_asset",
+      "url": "geometry/, scripts/",
+      "published_date": "2026-08-24",
+      "accessed_date": "2026-08-24",
+      "file_type": "geojson",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "Original AI-generated geometry and tooling; free for repository display. Tools used: Python, shapely, pyproj, matplotlib, fontTools, PyMuPDF.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "machine validation",
+        "design intent visualization"
+      ],
+      "prohibited_uses": [
+        "official boundary",
+        "statutory control",
+        "construction commitment"
+      ],
+      "topics": [
+        "geometry",
+        "tooling",
+        "asset"
+      ],
+      "notes_zh": "无第三方底图；所有示意图由本包几何自绘。"
+    },
+    {
       "source_id": "PACKAGE-GEOMETRY",
       "title": "本方案 geometry 层(provisional 概念设计)",
       "publisher": "JohnXu22786 / agent-oc-haidian",
@@ -283,7 +589,7 @@
       "authority_level": "SELF-DECLARED",
       "timeliness_level": "T0",
       "public_access_status": "cleared_for_repo",
-      "license_summary": "Original AI-generated design geometry, free for repository display.",
+      "license": "Original AI-generated design geometry, free for repository display.",
       "review_status": "self_reviewed",
       "usable_for_formal": "provisional_only",
       "allowed_uses": [
