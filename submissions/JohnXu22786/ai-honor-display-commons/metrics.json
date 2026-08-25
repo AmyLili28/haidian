@@ -141,6 +141,17 @@
       "confidence": "high",
       "assumptions": []
     },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(scenario-card master list rows in proposal.md)",
+      "confidence": "high",
+      "assumptions": []
+    },
     "industry_test_scenario_count": {
       "status": "known",
       "value": 3,
@@ -148,7 +159,7 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(industry test-verification table rows in proposal.md)",
       "confidence": "high",
       "assumptions": []
     },
@@ -165,13 +176,13 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 8,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(benchmark master list rows in proposal.md; 4 global + 4 domestic)",
       "confidence": "high",
       "assumptions": []
     },
