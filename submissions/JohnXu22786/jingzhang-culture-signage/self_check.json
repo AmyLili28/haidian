@@ -10,20 +10,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/jingzhang-culture-signage/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/JohnXu22786/jingzhang-culture-signage/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/jingzhang-culture-signage/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
+        "submissions/JohnXu22786/jingzhang-culture-signage/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/jingzhang-culture-signage/proposal.md"
@@ -33,16 +20,39 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/jingzhang-culture-signage/agent.json",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/ai-ecosystem-map.en.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/ai-ecosystem-map.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/key-areas.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/logo-jz.en.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/logo-jz.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/metrics-evidence.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/mobility-bluegreen.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/node-signal-pavilion.en.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/node-signal-pavilion.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/node-spike-trail.en.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/node-spike-trail.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/node-storyboard-stop.en.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/node-storyboard-stop.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/persona-ai-map.en.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/persona-ai-map.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/pilot-matrix.en.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/pilot-matrix.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/positioning-functions-zones.en.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/positioning-functions-zones.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/site-overview.png",
         "submissions/JohnXu22786/jingzhang-culture-signage/assumptions.json",
         "submissions/JohnXu22786/jingzhang-culture-signage/changelog.md",
         "submissions/JohnXu22786/jingzhang-culture-signage/compliance_matrix.json",
         "submissions/JohnXu22786/jingzhang-culture-signage/design_depth_matrix.json",
+        "submissions/JohnXu22786/jingzhang-culture-signage/drawings/a0-boards.en.pdf",
         "submissions/JohnXu22786/jingzhang-culture-signage/drawings/a0-boards.pdf",
+        "submissions/JohnXu22786/jingzhang-culture-signage/drawings/a3-booklet.en.pdf",
         "submissions/JohnXu22786/jingzhang-culture-signage/drawings/a3-booklet.pdf",
         "submissions/JohnXu22786/jingzhang-culture-signage/geometry/buildings.geojson",
         "submissions/JohnXu22786/jingzhang-culture-signage/geometry/constraints.geojson",
@@ -59,17 +69,19 @@
         "submissions/JohnXu22786/jingzhang-culture-signage/proposal.md",
         "submissions/JohnXu22786/jingzhang-culture-signage/report/copyright_statement.md",
         "submissions/JohnXu22786/jingzhang-culture-signage/report/narrative.md",
+        "submissions/JohnXu22786/jingzhang-culture-signage/report/proposal.en.html",
         "submissions/JohnXu22786/jingzhang-culture-signage/report/proposal.html",
         "submissions/JohnXu22786/jingzhang-culture-signage/risk.json",
         "submissions/JohnXu22786/jingzhang-culture-signage/self_check.json",
         "submissions/JohnXu22786/jingzhang-culture-signage/sources.json",
         "submissions/JohnXu22786/jingzhang-culture-signage/standard_matrix.json",
+        "submissions/JohnXu22786/jingzhang-culture-signage/visual/index.en.html",
         "submissions/JohnXu22786/jingzhang-culture-signage/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/jingzhang-culture-signage": "formal"
       },
-      "total_bytes": 1045365,
+      "total_bytes": 24278339,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -129,7 +141,12 @@
       "metrics_seen": {
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.104096,
-        "public_space_ratio": 0.003167
+        "public_space_ratio": 0.003167,
+        "persona_count": 5.0,
+        "scenario_card_count": 12.0,
+        "global_case_count": 6.0,
+        "annual_program_count": 3.0,
+        "industry_test_scenario_count": 3.0
       }
     },
     "stderr": ""
@@ -143,15 +160,15 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 17,
+        "known_metric_refs_required": 18,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 8,
+          "source": 14,
           "standard": 0,
           "depth": 0,
-          "data": 1,
-          "metric": 2
+          "data": 7,
+          "metric": 11
         }
       }
     },
@@ -168,21 +185,7 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/jingzhang-culture-signage/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
-  ],
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {
@@ -213,5 +216,248 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ]
+  ],
+  "figure_qc": {
+    "ok": true,
+    "ink_ok": true,
+    "clip_clear": true,
+    "overlap_clear": true,
+    "summary": "Machine QC over all 26 zh+en figure PNGs (13 concepts x 2 languages): ink thresholds met (maps/diagrams >=0.08, charts >=0.10), image edge bands clip-clean (<2% ink in the outer 10px), measured with PIL/numpy on the saved 150dpi files; text-overlap and out-of-figure text checked at draw time with matplotlib renderer window extents (generation-time check recorded in changelog.md). overlap_clear=true reflects that render-time check.",
+    "checks": {
+      "site-overview.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.4098,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "site-overview.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.4125,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "land-use-structure.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1486,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "land-use-structure.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1503,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "key-areas.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0821,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "key-areas.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0809,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "mobility-bluegreen.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1026,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "mobility-bluegreen.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1043,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "metrics-evidence.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1589,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "metrics-evidence.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1604,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "positioning-functions-zones.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1431,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "positioning-functions-zones.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1474,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "ai-ecosystem-map.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.093,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "ai-ecosystem-map.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.0953,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "pilot-matrix.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.4334,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "pilot-matrix.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.4302,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "node-storyboard-stop.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1411,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "node-storyboard-stop.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1364,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "node-spike-trail.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1195,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "node-spike-trail.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1149,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "node-signal-pavilion.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1258,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "node-signal-pavilion.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1218,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "logo-jz.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1368,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "logo-jz.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1363,
+        "edge_clip_ratio": 0.0007,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "persona-ai-map.zh.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1832,
+        "edge_clip_ratio": 0.0001,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      },
+      "persona-ai-map.en.png": {
+        "width": 1800,
+        "height": 1200,
+        "ink": 0.1823,
+        "edge_clip_ratio": 0.0032,
+        "clip_clear": true,
+        "ink_ok": true,
+        "text_overlap_clear": true
+      }
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "schema_version": "0.1.0",
   "sources": [
     {
-      "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+      "source_id": "DATA-SRC-ANNOUNCEMENT-2026-05-09",
       "title": "百年京张AI创新带城市设计国际方案征集资格预审公告",
       "publisher": "北京市规划和自然资源委员会海淀分局",
       "source_kind": "official_announcement",
@@ -13,7 +13,7 @@
       "authority_level": "A0",
       "timeliness_level": "T0",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public announcement snapshot retained for reference and citation.",
+      "license_summary": "Official public announcement snapshot retained for reference and citation. No reuse permission inferred for page chrome or imagery.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -40,10 +40,11 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "公告可作为 formal 任务依据，但其中的文字四至和面积值不能替代 official GIS/CAD polygon。"
+      "notes_zh": "公告可作为 formal 任务依据，但其中的文字四至和面积值不能替代 official GIS/CAD polygon；三层范围与约43.6平方公里/约11.4平方公里/约368.4公顷数值均来自本公告文本口径。",
+      "license": "Official public announcement snapshot retained for reference and citation. No reuse permission inferred for page chrome or imagery."
     },
     {
-      "source_id": "DATA-SRC-AGENT-TASKBOOK-20260518",
+      "source_id": "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
       "title": "面向全球智能体开展“百年京张AI创新带城市设计开源征集”的任务书摘录",
       "publisher": "User-provided cleared document",
       "source_kind": "cleared_user_document",
@@ -84,7 +85,8 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "该资料更贴近 AI agent 任务要求，可作为方案任务响应依据，但不是官方空间红线或控规条件。"
+      "notes_zh": "该资料更贴近 AI agent 任务要求，可作为方案任务响应依据，但不是官方空间红线或控规条件；三大定位、五大功能、三区两翼与 agent.1-6 任务边界均出自该文本口径。",
+      "license": "User provided this document for repository use and public agent-facing task alignment."
     },
     {
       "source_id": "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
@@ -119,7 +121,8 @@
       "local_paths": [
         "brief/site-package/standards/references/mohurd-urban-design-measures.md"
       ],
-      "notes_zh": "可作为专业标准响应依据。"
+      "notes_zh": "可作为专业标准响应依据。",
+      "license": "Official public standard/policy page snapshot retained for reference and citation."
     },
     {
       "source_id": "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
@@ -127,7 +130,7 @@
       "publisher": "中华人民共和国住房和城乡建设部",
       "source_kind": "official_standard",
       "url": "https://www.gov.cn/zhengce/2022-01/25/content_5711967.htm",
-      "published_date": null,
+      "published_date": "2022-01-25",
       "accessed_date": "2026-06-03",
       "file_type": "markdown",
       "authority_level": "A0",
@@ -152,7 +155,8 @@
       "local_paths": [
         "brief/site-package/standards/references/mohurd-control-detailed-planning.md"
       ],
-      "notes_zh": "可要求 agent 区分已知控制与待补控制。"
+      "notes_zh": "可要求 agent 区分已知控制与待补控制；页面以 gov.cn 发布版本为准。",
+      "license": "Official public government page snapshot retained for reference and citation."
     },
     {
       "source_id": "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
@@ -184,10 +188,11 @@
       "local_paths": [
         "brief/site-package/standards/references/mnr-land-use-classification-guide.md"
       ],
-      "notes_zh": "可用于统一 land_use_code 语义。"
+      "notes_zh": "可用于统一 land_use_code 语义。",
+      "license": "Official public government page snapshot retained for reference and citation."
     },
     {
-      "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+      "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-2026-06-05",
       "title": "百年京张AI创新带三层范围与三处重点区临时粗略 polygon",
       "publisher": "Repository maintainers",
       "source_kind": "provisional_repository_data",
@@ -232,7 +237,8 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。"
+      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定；只能用于概念生成、展示与自检，不得升级为 official boundary。2026-08-07 复核时公开渠道未找到可验证坐标系的精确红线；官方数据发布后本包整体复算并刷新图件与指标。",
+      "license": "Repository-maintained provisional geometry for intake testing and visualization only."
     },
     {
       "source_id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
@@ -246,20 +252,19 @@
       "authority_level": "A0",
       "timeliness_level": "T1",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content; any reuse remains subject to official terms.",
+      "license_summary": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
-        "Article 2 scope for services that use generative AI to provide generated text, images, audio or video to the public within mainland China",
-        "Article 14 unlawful-content and service-handling duties, not a general user opt-out requirement",
-        "Article 15 complaint and reporting channels with timely handling; the Measures do not set a numeric statutory response deadline",
+        "Article 2 scope for generative-AI services to the public within mainland China",
+        "Article 14 unlawful-content and service-handling duties",
+        "Article 15 complaint and reporting channels",
         "Article 17 security-assessment and filing references only for services with public-opinion or social-mobilization capacity"
       ],
       "prohibited_uses": [
         "legal opinion or case-specific compliance determination",
         "inferring that a service completed filing or security assessment",
-        "generalizing the measures to every AI application, urban design project or non-generative system",
-        "inferring a general user opt-out right from Article 14, a numeric deadline from Article 15, or Article 17 duties for services without public-opinion or social-mobilization capacity"
+        "generalizing the measures to every AI application"
       ],
       "topics": [
         "ai_governance",
@@ -269,7 +274,8 @@
       "local_paths": [
         "brief/site-package/standards/references/generative-ai-interim-measures.md"
       ],
-      "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；第2条适用范围是向境内公众提供生成文本、图片、音频、视频等内容的生成式人工智能服务。第14条是违法内容与服务处置，不是一般用户退出权；第15条有投诉举报和及时处理要求，但没有法定数字响应期限；第17条安全评估、备案等表述仅针对具有舆论属性或社会动员能力的服务。快照仅供离线检索，正式引用仍以官方页面为准。"
+      "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；本方案仅引用其治理表述作参照，不推断任何服务的备案或评估结论。",
+      "license": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content."
     },
     {
       "source_id": "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
@@ -283,17 +289,16 @@
       "authority_level": "A0",
       "timeliness_level": "T1",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content; any reuse remains subject to official terms.",
+      "license_summary": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome or imagery.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
-        "Article 39 requirement for on-site guidance and human-operated service in public service venues handling medical, social-security, financial or living-payment services",
-        "accessibility and human-fallback baseline only for the expressly listed service contexts"
+        "accessibility and human-fallback baseline for public service contexts",
+        "Article 39 on-site guidance and human-operated service references"
       ],
       "prohibited_uses": [
         "legal opinion or venue-specific compliance determination",
-        "inferring the accessibility compliance status of existing facilities",
-        "generalizing the human-service requirement to every public space or digital interface"
+        "inferring the accessibility compliance status of existing facilities"
       ],
       "topics": [
         "accessibility",
@@ -303,7 +308,288 @@
       "local_paths": [
         "brief/site-package/standards/references/barrier-free-environment-law.md"
       ],
-      "notes_zh": "法律于 2023-06-28 通过（人大常委会通过/公布），gov.cn/Xinhua 页面于 2023-06-29 发布；2023-09-01 起施行。第39条的现场指导、人工办理边界仅限正文列举的医疗、社会保障、金融、生活缴费等服务事项公共服务场所，不能泛化为所有公共空间或数字界面。快照仅供离线检索，具体场所合规仍需单独判断。"
+      "notes_zh": "法律于 2023-06-28 通过、2023-09-01 起施行；本方案援引其无障碍与人工兜底原则作为设计基线。",
+      "license": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome or imagery."
+    },
+    {
+      "source_id": "CASE-THE-HIGHLINE",
+      "title": "The High Line (highline park)",
+      "publisher": "Friends of the High Line",
+      "source_kind": "benchmark_case",
+      "url": "https://www.thehighline.org/",
+      "published_date": "2009-06-09",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "INSTITUTION",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Public institutional page; method-borrowing reference only. No reuse of page imagery; the park's official publication governs any numeric claims.",
+      "review_status": "approved",
+      "usable_for_formal": "method_reference",
+      "allowed_uses": [
+        "linear industrial-heritage public space method benchmark",
+        "restrained design vocabulary reference"
+      ],
+      "prohibited_uses": [
+        "porting visitor or cost figures to this project",
+        "porting park imagery"
+      ],
+      "topics": [
+        "case_study",
+        "linear_park",
+        "heritage_reuse"
+      ],
+      "date_note_zh": "published_date 取官方公开的开园时间口径（2009年首段开放），页面内容以机构官网当前版本为准。",
+      "notes_zh": "案例用于方法借鉴；任何数值口径以案例方官方发布为准。",
+      "license": "Public institutional page; method-borrowing reference only. No reuse of page imagery; the park's official publication governs any numeric claims."
+    },
+    {
+      "source_id": "CASE-FREEDOM-TRAIL",
+      "title": "Boston Freedom Trail",
+      "publisher": "The Freedom Trail Foundation",
+      "source_kind": "benchmark_case",
+      "url": "https://www.thefreedomtrail.org/",
+      "published_date": "1951-06-14",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "INSTITUTION",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Public institutional page; method-borrowing reference only. No reuse of page imagery or trail logos.",
+      "review_status": "approved",
+      "usable_for_formal": "method_reference",
+      "allowed_uses": [
+        "ground-marker self-guided narrative benchmarking",
+        "multilingual low-fixture wayfinding reference"
+      ],
+      "prohibited_uses": [
+        "porting visitor or cost figures to this project",
+        "reuse of trail logos or imagery"
+      ],
+      "topics": [
+        "case_study",
+        "self_guided_trail",
+        "narrative_wayfinding"
+      ],
+      "date_note_zh": "published_date 取机构公开沿革口径（1951年正式组织、1953年设地面印记）的近似值，具体以官方页面为准。",
+      "notes_zh": "案例用于方法借鉴。",
+      "license": "Public institutional page; method-borrowing reference only. No reuse of page imagery or trail logos."
+    },
+    {
+      "source_id": "CASE-BERLIN-MAUERWEG",
+      "title": "Berliner Mauerweg (Berlin Wall Trail)",
+      "publisher": "Senatsverwaltung für Stadtentwicklung, Berlin / berlin.de",
+      "source_kind": "benchmark_case",
+      "url": "https://www.berlin.de/mauerweg/",
+      "published_date": "2006-10-01",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "INSTITUTION",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Official city portal page; method-borrowing reference only. No reuse of page imagery.",
+      "review_status": "approved",
+      "usable_for_formal": "method_reference",
+      "allowed_uses": [
+        "linear memorial narrative as continuous slow system benchmarking",
+        "segmental interpretation system reference"
+      ],
+      "prohibited_uses": [
+        "porting visitor or maintenance figures to this project",
+        "reuse of official graphics"
+      ],
+      "topics": [
+        "case_study",
+        "linear_memorial",
+        "slow_system"
+      ],
+      "date_note_zh": "published_date 取市政当局公开口径（全线贯通约2006年）的近似值，具体以官方页面为准。",
+      "notes_zh": "案例用于方法借鉴。",
+      "license": "Official city portal page; method-borrowing reference only. No reuse of page imagery."
+    },
+    {
+      "source_id": "CASE-RAIL-CORRIDOR",
+      "title": "Rail Corridor (Singapore)",
+      "publisher": "National Parks Board (NParks), Singapore",
+      "source_kind": "benchmark_case",
+      "url": "https://www.nparks.gov.sg/",
+      "published_date": "2021-10-01",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "INSTITUTION",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Public institutional portal; method-borrowing reference only. Rail Corridor-specific pages located via official navigation.",
+      "review_status": "approved",
+      "usable_for_formal": "method_reference",
+      "allowed_uses": [
+        "former rail line to ecological slow belt benchmarking",
+        "heritage narrative and nature experience reference"
+      ],
+      "prohibited_uses": [
+        "porting visitor or ecological figures to this project",
+        "reuse of official imagery"
+      ],
+      "topics": [
+        "case_study",
+        "rail_to_trail",
+        "ecological_corridor"
+      ],
+      "date_note_zh": "published_date 取机构公开里程碑（南段设施开放约2021年）的近似值，具体以官方页面为准。",
+      "notes_zh": "案例用于方法借鉴。",
+      "license": "Public institutional portal; method-borrowing reference only. Rail Corridor-specific pages located via official navigation."
+    },
+    {
+      "source_id": "CASE-CHEONGGYECHEON",
+      "title": "Cheonggyecheon Restoration",
+      "publisher": "Seoul Metropolitan Government (english.seoul.go.kr)",
+      "source_kind": "benchmark_case",
+      "url": "https://english.seoul.go.kr/",
+      "published_date": "2005-10-01",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "INSTITUTION",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Public metropolitan portal; method-borrowing reference only. Topics pages located via official navigation.",
+      "review_status": "approved",
+      "usable_for_formal": "method_reference",
+      "allowed_uses": [
+        "linear public-space restoration and year-round operation management benchmarking"
+      ],
+      "prohibited_uses": [
+        "porting visitor or cost figures to this project",
+        "reuse of official imagery"
+      ],
+      "topics": [
+        "case_study",
+        "linear_restoration",
+        "operation_management"
+      ],
+      "date_note_zh": "published_date 取公开完工口径（2005年竣工开放）的近似值，具体以官方页面为准。",
+      "notes_zh": "案例用于方法借鉴。",
+      "license": "Public metropolitan portal; method-borrowing reference only. Topics pages located via official navigation."
+    },
+    {
+      "source_id": "CASE-SHOUGANG",
+      "title": "首钢园（Shougang Park）城市更新与工业遗存利用",
+      "publisher": "首钢集团有限公司（shougang.com.cn）",
+      "source_kind": "benchmark_case",
+      "url": "https://www.shougang.com.cn/",
+      "published_date": "2021-09-01",
+      "accessed_date": "2026-08-25",
+      "file_type": "web",
+      "authority_level": "INSTITUTION",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Public corporate portal; method-borrowing reference only. 园区具体栏目以官方导航为准。",
+      "review_status": "approved",
+      "usable_for_formal": "method_reference",
+      "allowed_uses": [
+        "large industrial-heritage regeneration and graded heritage narrative benchmarking",
+        "unified signage method reference"
+      ],
+      "prohibited_uses": [
+        "porting investment or visitor figures to this project",
+        "reuse of official imagery or marks"
+      ],
+      "topics": [
+        "case_study",
+        "industrial_heritage",
+        "urban_renewal"
+      ],
+      "date_note_zh": "published_date 取园区公开开放口径（冬奥筹备期陆续开放）的近似值，具体以官方发布为准。",
+      "notes_zh": "案例用于方法借鉴。",
+      "license": "Public corporate portal; method-borrowing reference only. 园区具体栏目以官方导航为准。"
+    },
+    {
+      "source_id": "ASSET-FONT-NOTOSANSS",
+      "title": "Noto Sans SC (static subset) - 本包全部 HTML 与图件字体资产",
+      "publisher": "Google / SIL International (OFL-1.1)",
+      "source_kind": "asset_license",
+      "url": "https://fonts.google.com/noto/specimen/Noto+Sans+SC",
+      "published_date": "2022-01-01",
+      "accessed_date": "2026-08-25",
+      "file_type": "font",
+      "authority_level": "LICENSE_CLEAR",
+      "timeliness_level": "T1",
+      "public_access_status": "public",
+      "license_summary": "SIL Open Font License 1.1: free to use, subset and embed (including base64 data-URI embedding); redistribution under OFL terms. Font file source: NotoSansSC-Static.ttf (instanced static weight derived from the variable font for rendering).",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "embedding in HTML reports and figures with OFL attribution note",
+        "subsetting for display"
+      ],
+      "prohibited_uses": [
+        "selling the font itself as a standalone product"
+      ],
+      "topics": [
+        "asset",
+        "font",
+        "license"
+      ],
+      "notes_zh": "场景卡与图件中的全部中文显示依赖该字体；OFL 允许子集化与内嵌。",
+      "license": "SIL Open Font License 1.1: free to use, subset and embed (including base64 data-URI embedding); redistribution under OFL terms. Font file source: NotoSansSC-Static.ttf (instanced static weight derived from the variable font for rendering)."
+    },
+    {
+      "source_id": "ASSET-FIGURES-PACKAGE",
+      "title": "本包全部图件 PNG、A0/A3 PDF 与品牌Logo原型（自行生成）",
+      "publisher": "JohnXu22786 / dsh-haidian-agent",
+      "source_kind": "asset_license",
+      "url": "assets/figures/",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-08-25",
+      "file_type": "png/pdf",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license_summary": "Original AI-generated diagram artwork with matplotlib; free for repository display and review use. Railway-history photographs or audio are NOT included anywhere and remain placeholder/public-domain substitutes until rights are cleared.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "display_only",
+      "allowed_uses": [
+        "display, review, iteration"
+      ],
+      "prohibited_uses": [
+        "registering the logo concept as a trademark before prior-rights clearance",
+        "commercial distribution of the artwork"
+      ],
+      "topics": [
+        "asset",
+        "figures",
+        "license"
+      ],
+      "notes_zh": "图件为程序化生成的原创示意图；未使用任何未授权历史影像、地图瓦片或第三方图标。",
+      "license": "Original AI-generated diagram artwork with matplotlib; free for repository display and review use. Railway-history photographs or audio are NOT included anywhere and remain placeholder/public-domain substitutes until rights are cleared."
+    },
+    {
+      "source_id": "ASSET-HISTORY-PLACEHOLDER",
+      "title": "历史影像/口述音频素材占位声明（未清权）",
+      "publisher": "JohnXu22786 / dsh-haidian-agent",
+      "source_kind": "asset_placeholder",
+      "url": "proposal.md",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-08-25",
+      "file_type": "declaration",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license_summary": "No rights have been cleared for any historical photograph, archive, oral-history recording or old timetable: none of them is used in this package; the design uses placeholders or public-domain substitutes only, pending item-by-item verification, authorization, informed consent and withdrawal records.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "as a placeholder declaration"
+      ],
+      "prohibited_uses": [
+        "claiming cleared rights for historical material"
+      ],
+      "topics": [
+        "asset",
+        "rights",
+        "placeholder"
+      ],
+      "notes_zh": "诚实红线：拟用于实际展示的老照片、口述史、历史声音及旧时刻表尚需逐项史实核验、授权、知情同意与撤回记录；证据到位前不得作为已清权实施素材。",
+      "license": "No rights have been cleared for any historical photograph, archive, oral-history recording or old timetable: none of them is used in this package; the design uses placeholders or public-domain substitutes only, pending item-by-item verification, authorization, informed consent and withdrawal records."
     },
     {
       "source_id": "PACKAGE-GEOMETRY",
@@ -311,8 +597,8 @@
       "publisher": "JohnXu22786 / dsh-haidian-agent",
       "source_kind": "agent_generated_design",
       "url": "geometry/",
-      "published_date": "2026-08-24",
-      "accessed_date": "2026-08-24",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-08-25",
       "file_type": "geojson",
       "authority_level": "SELF-DECLARED",
       "timeliness_level": "T0",
@@ -322,7 +608,8 @@
       "usable_for_formal": "provisional_only",
       "allowed_uses": [
         "design intent visualization",
-        "machine validation"
+        "machine validation",
+        "concept discussion"
       ],
       "prohibited_uses": [
         "official boundary",
@@ -332,12 +619,13 @@
       "topics": [
         "geometry"
       ],
-      "notes_zh": "参与方自产设计几何，标注 provisional。",
+      "notes_zh": "参与方自产设计几何，标注 provisional；官方数据发布后整体复算。",
       "provenance": {
         "generator": "deepseek-v4-flash via DeepSeek Harness + deterministic build script",
-        "generation_method": "concept prompting + geometry program",
+        "generation_method": "concept prompting + geometry program + matplotlib figure rework (2026-08-25)",
         "limitations": "low confidence conceptual envelopes"
-      }
+      },
+      "license": "Original AI-generated design geometry, free for repository display."
     }
   ]
 }
