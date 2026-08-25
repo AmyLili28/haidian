@@ -508,9 +508,9 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 以上图件关系在 HTML 渲染版本中同步呈现。「朝圣路径图」与「组件库图录」两张图纸已于2026-08-24补绘完成，正式提交前将并入 A3/A0 图册深化。
 
-![朝圣路径图](assets/figures/pilgrimage-path.png)
+![朝圣路径图（agent.4：L1-L5五处朝圣地标沿遗址公园串联）](assets/figures/pilgrimage-path.png)
 
-![组件库图录](assets/figures/component-catalog.png)
+![公共空间组件库图录（agent.4：七类组件以三线三色统一铺设）](assets/figures/component-catalog.png)
 
 
 ## 用地、建筑规模与拆改留方案
@@ -731,11 +731,15 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 本节设计在提交包中的视觉表达与图件对应如下：
 
-- **年度活动日历**：以 `assets/figures/mobility-bluegreen.png`（交通慢行与蓝绿公共空间复合系统）为底图，叠加活动周路线、月度节点与荣誉日锚点（L1-L5），形成「年度运营日历地图」；
-- **运营机制图**：以 `assets/figures/key-areas.png`（三处重点区域索引与设计任务图）为底图，表达「线上开源协作—线下社区锚点—场景开放—荣誉兑现」的运营回路与三阶段分期；
-- **活动-场景对应**：以 `assets/figures/metrics-evidence.png` 所在图件体系为参照，后续 A3/A0 图册中补充「年度活动体系总览图」与「招引转化链示意图」（当前提交以文字表表达，图册为提交前任务）。
+- **年度活动日历**：以 `assets/figures/mobility-bluegreen.png`（交通慢行与蓝绿公共空间复合系统）为底图，叠加活动周路线、月度节点与荣誉日锚点（L1-L5），形成「年度运营日历地图」（已于2026-08-25补绘：`assets/figures/annual-calendar-map.png`）；
+- **运营机制图**：以 `assets/figures/key-areas.png`（三处重点区域索引与设计任务图）为底图，表达「线上开源协作—线下社区锚点—场景开放—荣誉兑现」的运营回路与三阶段分期（A3/A0 图册深化）；
+- **活动-场景对应**：以 `assets/figures/metrics-evidence.png` 所在图件体系为参照，形成「招引转化链示意图」（已于2026-08-25补绘：`assets/figures/attraction-conversion-chain.png`），表达传播曝光→亲身体验→场景试用→企业落地意向→资本与人才回流的协同回路闭环。
 
-以上图件关系在 HTML 渲染版本中同步呈现；正式提交前补绘「年度运营日历地图」与「招引转化链示意图」两张图纸（列入提交前任务清单）。
+以上图件关系在 HTML 渲染版本中同步呈现。「年度运营日历地图」与「招引转化链示意图」两张图纸已于2026-08-25补绘完成，正式提交前将并入 A3/A0 图册深化。
+
+![年度运营日历地图](assets/figures/annual-calendar-map.png)
+
+![招引转化链示意图](assets/figures/attraction-conversion-chain.png)
 
 ## 更新项目清单、实施政策与分期计划
 
