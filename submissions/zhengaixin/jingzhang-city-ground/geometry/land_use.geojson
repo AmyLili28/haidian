@@ -1,0 +1,237 @@
+{
+  "type": "FeatureCollection",
+  "name": "land_use_conceptual_topology",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LU-001",
+      "properties": {
+        "id": "LU-001",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "南部生活与社区更新混合区",
+        "name_en": "Southern living & community renewal",
+        "land_use_code": "0702",
+        "classification_status": "conceptual_design_structure_not_statutory_land_use",
+        "area_sqm_declared": 2210625.748
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34070000000001,
+              39.93899999999999
+            ],
+            [
+              116.34026465470195,
+              39.954678248426255
+            ],
+            [
+              116.35530001578292,
+              39.954762838425445
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.34070000000001,
+              39.93899999999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-002",
+      "properties": {
+        "id": "LU-002",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺产业与商业复合更新区",
+        "name_en": "Dazhongsi mixed industry & commerce renewal",
+        "land_use_code": "05",
+        "classification_status": "conceptual_design_structure_not_statutory_land_use",
+        "area_sqm_declared": 3133385.227
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3553,
+              39.965
+            ],
+            [
+              116.35530001578292,
+              39.954762838425445
+            ],
+            [
+              116.34026465470195,
+              39.954678248426255
+            ],
+            [
+              116.3397,
+              39.97500000000001
+            ],
+            [
+              116.33980114533483,
+              39.97656835869096
+            ],
+            [
+              116.35436816508071,
+              39.976650412368386
+            ],
+            [
+              116.3553,
+              39.965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-003",
+      "properties": {
+        "id": "LU-003",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "京张遗产公共空间联系区",
+        "name_en": "Jingzhang heritage public-ground zone",
+        "land_use_code": "1401",
+        "classification_status": "conceptual_design_structure_not_statutory_land_use",
+        "area_sqm_declared": 2220605.377
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3533,
+              39.989999999999995
+            ],
+            [
+              116.35436816508071,
+              39.976650412368386
+            ],
+            [
+              116.33980114533483,
+              39.97656835869096
+            ],
+            [
+              116.34093135129052,
+              39.99408893141744
+            ],
+            [
+              116.35352784341441,
+              39.99415987720458
+            ],
+            [
+              116.3533,
+              39.989999999999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-004",
+      "properties": {
+        "id": "LU-004",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "AI原点创新生活混合区",
+        "name_en": "AI Origin innovation-living mixed zone",
+        "land_use_code": "0702",
+        "classification_status": "conceptual_design_structure_not_statutory_land_use",
+        "area_sqm_declared": 1872339.784
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35352784341441,
+              39.99415987720458
+            ],
+            [
+              116.34093135129052,
+              39.99408893141744
+            ],
+            [
+              116.34169999999999,
+              40.006
+            ],
+            [
+              116.34188810922612,
+              40.009857050680225
+            ],
+            [
+              116.35439167785867,
+              40.009927381586074
+            ],
+            [
+              116.35352784341441,
+              39.99415987720458
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-005",
+      "properties": {
+        "id": "LU-005",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "众智园研发创新与生态协同区",
+        "name_en": "Zhongzhiyuan R&D innovation/ecology zone",
+        "land_use_code": "0802",
+        "classification_status": "conceptual_design_structure_not_statutory_land_use",
+        "area_sqm_declared": 1975869.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35439167785867,
+              40.009927381586074
+            ],
+            [
+              116.34188810922612,
+              40.009857050680225
+            ],
+            [
+              116.34270000000001,
+              40.0265
+            ],
+            [
+              116.3553,
+              40.0265
+            ],
+            [
+              116.35439167785867,
+              40.009927381586074
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "name": "blue_green_design",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ZZY-GRN-01",
+      "properties": {
+        "id": "ZZY-GRN-01",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "众智园蓝绿公共边缘",
+        "name_en": "Zhongzhiyuan Blue-Green Public Edge",
+        "land_use_code": "1401",
+        "green_type": "blue_green_public_edge",
+        "regulatory_status": "design_proposal_not_official_blue_line",
+        "area_sqm_declared": 398020.372
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34331947242039,
+              40.020804502006676
+            ],
+            [
+              116.34328032209666,
+              40.02488788036564
+            ],
+            [
+              116.3535628537125,
+              40.02494569846553
+            ],
+            [
+              116.3536013911483,
+              40.02086231179448
+            ],
+            [
+              116.34331947242039,
+              40.020804502006676
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZZY-GRN-02",
+      "properties": {
+        "id": "ZZY-GRN-02",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "众智园林荫雨水带",
+        "name_en": "Zhongzhiyuan Shaded Rain-Garden Band",
+        "land_use_code": "1401",
+        "green_type": "rain_garden",
+        "area_sqm_declared": 184064.757
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34365324429444,
+              40.00929804957991
+            ],
+            [
+              116.34351452959537,
+              40.02377549857813
+            ],
+            [
+              116.34485570596388,
+              40.02378308892304
+            ],
+            [
+              116.34499413732318,
+              40.00930563605656
+            ],
+            [
+              116.34365324429444,
+              40.00929804957991
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ORG-GRN-01",
+      "properties": {
+        "id": "ORG-GRN-01",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "原点共享街树荫雨水带",
+        "name_en": "Origin Street Shade & Rainwater Band",
+        "land_use_code": "1401",
+        "green_type": "street_green",
+        "area_sqm_declared": 53359.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34285145977985,
+              39.987266439591615
+            ],
+            [
+              116.34284567511614,
+              39.98787012236807
+            ],
+            [
+              116.35216501797662,
+              39.98792258648913
+            ],
+            [
+              116.35217072062002,
+              39.9873189025973
+            ],
+            [
+              116.34285145977985,
+              39.987266439591615
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-GRN-01",
+      "properties": {
+        "id": "DZS-GRN-01",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺口袋绿地组",
+        "name_en": "Dazhongsi Pocket Green Cluster",
+        "land_use_code": "1401",
+        "green_type": "pocket_green",
+        "area_sqm_declared": 17947.138
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                116.3460277744559,
+                39.9460193060901
+              ],
+              [
+                116.3469415913629,
+                39.946024457244675
+              ],
+              [
+                116.34695114878248,
+                39.94501929155346
+              ],
+              [
+                116.34603734524676,
+                39.94501414058128
+              ],
+              [
+                116.3460277744559,
+                39.9460193060901
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.34978727912775,
+                39.948819587860626
+              ],
+              [
+                116.35070113397742,
+                39.94882470967944
+              ],
+              [
+                116.35071119632627,
+                39.94776041630918
+              ],
+              [
+                116.34979735563644,
+                39.94775529468238
+              ],
+              [
+                116.34978727912775,
+                39.948819587860626
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

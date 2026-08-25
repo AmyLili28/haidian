@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "name": "constraints_intentionally_empty_pending_official_geometry",
+  "features": [],
+  "data_gap": {
+    "status": "official_constraint_geometry_unavailable",
+    "assumption_ids": [
+      "A-CONTROLS-001"
+    ],
+    "missing_layers": [
+      "REGULATORY_CONTROL",
+      "HERITAGE_PROTECTION",
+      "PARCEL",
+      "EXISTING_PRIMARY_ROAD",
+      "EXISTING_RAIL",
+      "EXISTING_WATER"
+    ],
+    "note_zh": "本图层有意保持空集合。没有可靠官方/清权几何时，不推定控规线、道路红线、权属、轨道控制区或河湖蓝线；后续如采用文保公开文字推定，只能新增为 provisional_constraint，并保留来源与推定方法。",
+    "note_en": "Intentionally empty pending official or cleared geometry. No regulatory redline, parcel, rail-control area or blue-line geometry is fabricated."
+  }
+}

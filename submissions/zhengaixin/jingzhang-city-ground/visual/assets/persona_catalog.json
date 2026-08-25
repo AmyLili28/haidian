@@ -1,0 +1,111 @@
+{
+  "schema_version": "0.1-draft",
+  "personas": [
+    {
+      "id": "P1",
+      "name_zh": "研究生 / 青年研究者",
+      "name_en": "Graduate Researcher",
+      "typical_needs": [
+        "轨道到校园/园区的连续慢行",
+        "低成本学习与交流空间",
+        "夜间安全",
+        "成果展示与小型共创空间"
+      ],
+      "primary_areas": [
+        "ai_origin",
+        "zhongzhiyuan"
+      ],
+      "design_checks": [
+        "晚间步行连续",
+        "共享首层可停留",
+        "无需消费也可使用的公共空间"
+      ]
+    },
+    {
+      "id": "P2",
+      "name_zh": "初创团队工程师 / 创业者",
+      "name_en": "Startup Engineer / Founder",
+      "typical_needs": [
+        "短时会议",
+        "跨园区联系",
+        "成果演示",
+        "物流与设备维护",
+        "全天候工作配套"
+      ],
+      "primary_areas": [
+        "zhongzhiyuan",
+        "ai_origin"
+      ],
+      "design_checks": [
+        "创新空间与公共生活不冲突",
+        "设备后勤不占主要步行",
+        "首层有可预约共享空间"
+      ]
+    },
+    {
+      "id": "P3",
+      "name_zh": "长期居住的老年居民",
+      "name_en": "Older Local Resident",
+      "typical_needs": [
+        "平整连续的无障碍步行",
+        "频繁座椅",
+        "清楚导视",
+        "人工服务",
+        "冬季向阳与避风"
+      ],
+      "primary_areas": [
+        "dazhongsi",
+        "ai_origin"
+      ],
+      "design_checks": [
+        "无手机也能完成基本出行",
+        "站口到社区有连续休息点",
+        "AI停用后仍能使用"
+      ]
+    },
+    {
+      "id": "P4",
+      "name_zh": "带儿童的社区家庭",
+      "name_en": "Local Family with Child",
+      "typical_needs": [
+        "安全过街",
+        "可视化看护",
+        "树荫与可玩公共空间",
+        "周末活动",
+        "与测试/物流空间隔离"
+      ],
+      "primary_areas": [
+        "ai_origin",
+        "zhongzhiyuan",
+        "dazhongsi"
+      ],
+      "design_checks": [
+        "儿童活动不与机器人测试混行",
+        "公共空间有非商业活动",
+        "慢行路径清晰"
+      ]
+    },
+    {
+      "id": "P5",
+      "name_zh": "首次到访的国内外访客",
+      "name_en": "First-time Domestic / International Visitor",
+      "typical_needs": [
+        "快速识别方向",
+        "轨道换乘",
+        "双语静态导视",
+        "文化理解",
+        "短时等候与会面"
+      ],
+      "primary_areas": [
+        "dazhongsi",
+        "ai_origin",
+        "overall"
+      ],
+      "design_checks": [
+        "数字导视有静态双语备份",
+        "重要节点可凭空间形态识别",
+        "到达空间有可等候公共座席"
+      ]
+    }
+  ]
+}
