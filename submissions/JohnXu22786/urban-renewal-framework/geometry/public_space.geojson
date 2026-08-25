@@ -14,7 +14,14 @@
     "official_boundary": false,
     "geometry_role": "design_proposal",
     "confidence": "low",
-    "source_type": "agent_generated_design"
+    "source_type": "agent_generated_design",
+    "label_en": "KEEP·BLOCK",
+    "scenario_card_ids": [
+     "SC-01",
+     "SC-02",
+     "SC-10"
+    ],
+    "naming_contract": "unified-2026-08"
    },
    "geometry": {
     "type": "Polygon",
@@ -56,7 +63,13 @@
     "official_boundary": false,
     "geometry_role": "design_proposal",
     "confidence": "low",
-    "source_type": "agent_generated_design"
+    "source_type": "agent_generated_design",
+    "label_en": "UNIT·BLOCK",
+    "scenario_card_ids": [
+     "SC-02",
+     "SC-07"
+    ],
+    "naming_contract": "unified-2026-08"
    },
    "geometry": {
     "type": "Polygon",
@@ -98,7 +111,14 @@
     "official_boundary": false,
     "geometry_role": "design_proposal",
     "confidence": "low",
-    "source_type": "agent_generated_design"
+    "source_type": "agent_generated_design",
+    "label_en": "SUPERVISION PAVILION",
+    "scenario_card_ids": [
+     "SC-03",
+     "SC-04",
+     "SC-08"
+    ],
+    "naming_contract": "unified-2026-08"
    },
    "geometry": {
     "type": "Polygon",
@@ -135,11 +155,17 @@
     "id": "PS-SN00",
     "layer": "PUBLIC_SPACE",
     "scenario_type": "scenario_node",
-    "label_zh": "AI场景节点",
+    "label_zh": "绿带北节点",
     "official_boundary": false,
     "geometry_role": "design_proposal",
     "confidence": "low",
-    "source_type": "agent_generated_design"
+    "source_type": "agent_generated_design",
+    "label_en": "Green-belt North Node",
+    "scenario_card_ids": [
+     "SC-06",
+     "SC-09"
+    ],
+    "naming_contract": "unified-2026-08"
    },
    "geometry": {
     "type": "Polygon",
@@ -176,11 +202,16 @@
     "id": "PS-SN01",
     "layer": "PUBLIC_SPACE",
     "scenario_type": "scenario_node",
-    "label_zh": "AI场景节点",
+    "label_zh": "绿带中节点",
     "official_boundary": false,
     "geometry_role": "design_proposal",
     "confidence": "low",
-    "source_type": "agent_generated_design"
+    "source_type": "agent_generated_design",
+    "label_en": "Green-belt Central Node",
+    "scenario_card_ids": [
+     "SC-05"
+    ],
+    "naming_contract": "unified-2026-08"
    },
    "geometry": {
     "type": "Polygon",
@@ -217,11 +248,16 @@
     "id": "PS-SN02",
     "layer": "PUBLIC_SPACE",
     "scenario_type": "scenario_node",
-    "label_zh": "AI场景节点",
+    "label_zh": "绿带中北节点",
     "official_boundary": false,
     "geometry_role": "design_proposal",
     "confidence": "low",
-    "source_type": "agent_generated_design"
+    "source_type": "agent_generated_design",
+    "label_en": "Green-belt Mid-North Node",
+    "scenario_card_ids": [
+     "SC-08"
+    ],
+    "naming_contract": "unified-2026-08"
    },
    "geometry": {
     "type": "Polygon",
@@ -258,11 +294,16 @@
     "id": "PS-SN03",
     "layer": "PUBLIC_SPACE",
     "scenario_type": "scenario_node",
-    "label_zh": "AI场景节点",
+    "label_zh": "绿带中南节点",
     "official_boundary": false,
     "geometry_role": "design_proposal",
     "confidence": "low",
-    "source_type": "agent_generated_design"
+    "source_type": "agent_generated_design",
+    "label_en": "Green-belt Mid-South Node",
+    "scenario_card_ids": [
+     "SC-06"
+    ],
+    "naming_contract": "unified-2026-08"
    },
    "geometry": {
     "type": "Polygon",
@@ -299,11 +340,17 @@
     "id": "PS-SN04",
     "layer": "PUBLIC_SPACE",
     "scenario_type": "scenario_node",
-    "label_zh": "AI场景节点",
+    "label_zh": "绿带南节点",
     "official_boundary": false,
     "geometry_role": "design_proposal",
     "confidence": "low",
-    "source_type": "agent_generated_design"
+    "source_type": "agent_generated_design",
+    "label_en": "Green-belt South Node",
+    "scenario_card_ids": [
+     "SC-05",
+     "SC-09"
+    ],
+    "naming_contract": "unified-2026-08"
    },
    "geometry": {
     "type": "Polygon",

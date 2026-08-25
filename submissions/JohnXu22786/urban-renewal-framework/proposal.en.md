@@ -1,15 +1,183 @@
-# RENEWAL HUB - URBAN RENEWAL MASTER FRAMEWORK & IMPLEMENTATION COORDINATION (Concept)
+---
+title: "RENEW·JZ: Urban Renewal Master Framework with Implementation Coordination (Concept)"
+author_github: "JohnXu22786"
+language: "en"
+translation_of: "proposal.md"
+license: "COMMUNITY-DISPLAY-ONLY"
+summary: "RENEW·JZ is the working brand of a concept-level urban renewal master framework for the Centennial Jingzhang AI Innovation Belt. It unifies three implementation nodes (KEEP·BLOCK, UNIT·BLOCK, SUPERVISION PAVILION) into a decision-demonstration-supervision loop; ten numbered scenario cards (SC-01 to SC-10) cover governance, industry, space, public services, culture and transport, with anonymized aggregation only, human review of key decisions, and no over-surveillance; the Three Zones / Two Wings regional loop (Zhongzhiyuan, Beijing AI Origin Community, Dazhongsi, with Beiwai community, Future Science City, Huairou Science City, E-Town and the Jing-Jin-Ji direction) links space, industry and operation; implementation is phased near-term 1-3 years, mid-term 3-5 years, long-term 5-10 years and managed through a deepening ledger. All of this is concept suggestion only: no FAR, height, retain-renovate-demolish ratio, investment or capacity conclusions, no fabricated official data, provisional boundary, recompute when official data is published."
+tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
+scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
+iteration: "v1.1"
+---
 
-**English convenience summary** (full binding narrative is the Chinese proposal.md; this summary may lag the zh text).
+> Disclaimer: this document is a conceptual, forward-looking planning research suggestion. It is not an official renewal plan, investment data or engineering implementation scheme; all figures are concept-level indications that preset no FAR, building height, retain-renovate-demolish ratio or road-redline conclusions. The legally approved outcomes prevail.
 
-以「更新枢（RENEW·JZ · 城市更新总体框架）」构建沿京张AI创新带的存量更新为主的城市更新总体框架概念：以「留改坊」为留改拆统筹示范单元（保护修缮、功能置换与更新重建三类清单化管理），「单元坊」为单元式更新示范单元（更新单元划分、功能织补与公共空间提升），「督行亭」为实施监督与公众参与站点（更新指标跟踪、年度体检与反馈渠道，概念性公共数据服务建议），五类AI+场景（更新统筹AI、存量空间匹配AI、更新进度跟踪AI、公众更新反馈AI、街区体检AI）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，交通慢行优先、绿带连续慢行轴贯通三节点，更新单元内步行优先，分期实施+实施监督机制（更新指标跟踪、年度体检、公众参与渠道）。全部为概念建议、参考方案，不给出容积率、建筑高度、具体拆改留或工程实施结论，不编造官方更新计划，基于 provisional 边界，官方数据发布后复算。
+## Design Basis and Source List
+The listed public historical records, planning reports and technical codes are a concept work-basis checklist — citation targets, not data already acquired by this package. All data actually used are recorded in sources.json; every asset's license and attribution (logo, fonts, icons, images, maps, data, code, AI-generated content) is recorded in report/copyright_statement.md; unacquired items are disclosed in the risk and missing-data statements. The tasks of this proposal are anchored to the official call-for-entry announcement and the agent taskbook, with the Barrier-Free Environment Law of the PRC, national and Beijing urban renewal measures, and urban-design and regulatory-plan management codes used as methodological references; public material on the Jingzhang Railway Heritage Park is used for concept narrative only, never to assert established facts.
 
-## Outline
-- Green Carbon Ring (GREEN.JZ): a district carbon accounting and low-carbon green innovation environment concept along the Jingzhang AI innovation belt, using the heritage green belt as the backbone.
-- Green-Carbon Block as the low-carbon demonstration street block unit: low-carbon workplaces, green roofs and community low-carbon services interlock within one block.
-- Carbon-Wisdom Pavilion: district carbon accounting and energy-carbon data service node (concept-level public data service suggestion, not official statistics).
-- Green-Energy Ring: green energy and low-carbon mobility compound ring linking slow traffic and blue-green spaces (no engineering figures preset).
-- Node 1 - Green-Carbon Block: low-carbon innovation block demonstration unit. Node 2 - Carbon-Wisdom Pavilion: carbon accounting service node. Node 3 - Green-Energy Ring: green energy and low-carbon mobility ring.
-- 5 AI+ scenarios (district carbon accounting AI, green-space carbon-sink sensing AI, energy-load forecasting AI, low-carbon mobility flow AI, public low-carbon feedback AI); anonymized aggregation only, key decisions human-reviewed, no over-surveillance.
-- Slow-traffic-first: a continuous slow-traffic axis along the green belt links the three nodes; green mobility (rail plus walking and cycling) comes first to reduce car dependence; annual events: low-carbon open day, carbon bazaar, green-ring cycling season.
-- All figures are concept suggestions on a provisional boundary; recompute when official data is published.
+Before any further deepening, every version and its validity date must be re-verified against official publications: the announcement and taskbook text, the latest amendments of the laws and codes, and the published planning documents along the corridor. The difference between this checklist and sources.json is the package's honest data-gap disclosure, including: no organizer-supplied official boundary polygon in a verifiable coordinate system, no statutory land-use or road redlines, no rail or heritage-protection lines, no listed-building control lines, no green/blue lines, and no ownership or municipal-capacity survey data.
+
+> **Evidence anchor**：[source:DATA-SRC-OFFICIAL-ANNOUNCEMENT]、[source:DATA-SRC-AGENT-TASKBOOK]。
+
+## Three-Level Scope Framework
+Following the official textual scope of the announcement: the coordinated research area is about 43.6 square kilometres, the overall design area about 11.4 square kilometres, and the key detailed-design area about 368.4 hectares (the sum of the three key districts). This package's own sub-scope sits inside the overall design area and is expressed as concept geometry in geometry/site_boundary.geojson, whose area matches the announced textual caliber, but the geometry is a provisional rough constraint, not an official redline; once official geometry is published, all figures, metrics and drawings must be recomputed and redrawn.
+
+The three levels transmit design intent level by level: the coordinated research area outputs regional-coordination judgments and future-city directions that constrain the overall design; the overall design checks the retain-renovate-demolish framework, renewal units and the slow-traffic backbone that are then detailed in the key areas. Each level keeps machine-readable evidence anchors to the corresponding taskbook chapters. All three-level boundaries are provisional and may be adjusted with data verification and public feedback; no implementation conclusion is preset by the hierarchy. The three key districts (Zhongzhiyuan AI Self-Innovation Acceleration Zone, Beijing AI Origin Community, Dazhongsi AI Industry Cluster) are represented as temporary rough polygons derived from the announcement's names and approximate areas, used only for concept generation, display and recalculation testing.
+
+> **Evidence anchor**：[source:DATA-SRC-PROVISIONAL-BOUNDARIES] (provisional boundary; concept display and recomputation testing only).
+
+## Coordinated Research Area: Industry and Future City Research
+The industry and future-city study identifies the "fit" effect of urban renewal: stock space carries the pilot-plant, incubation and support functions of industrial upgrading to avoid large-scale demolition; spill-over research from Haidian universities converts locally with community innovation; international residential clusters support a diverse talent-service network. The future-city study is directional only and implies no land-use or investment commitment. At the coordination level the proposal focuses on the Three Zones / Two Wings regional loop (conceptual mapping from the directional reading of the taskbook, to be re-verified against the official text word by word), organized as a space-industry-operation closed loop as itemized below:
+
+| Three Zones / Two Wings (concept mapping) | Spatial anchor (provisional) | Industry theme | Operation mechanism (concept) | Partners |
+| --- | --- | --- | --- | --- |
+| Zone North (Zhongzhiyuan AI Self-Innovation Acceleration Zone) | UNIT·BLOCK demonstration unit and renewal units | Full-stack AI self-innovation acceleration | Renewal-unit compact, tiered admission, annual public disclosure | Future Science City, Huairou Science City |
+| Zone Mid (Beijing AI Origin Community) | KEEP·BLOCK retain-renovate-demolish demonstration unit | AI entrepreneurship with in-situ living | Block leaders' council, points incentives, rotating exhibitions | Beiwai community, corridor universities |
+| Zone South (Dazhongsi AI Industry Cluster) | SUPERVISION PAVILION station and industry-service node | AI application conversion and scenario landing | Industry alliance, facility registration, annual health check | E-Town, station-area business districts |
+| West Wing / innovation collaboration (concept) | Westward slow-traffic extension and research-corridor interface | Basic research and talent networks | University collaboration, volunteer network, reservation-based sharing | Future Science City, Huairou Science City, Beiwai community |
+| East Wing / industry coordination (concept) | Eastward connector and scenario spill-over interface | AI application conversion and manufacturing coordination | Joint attraction (concept), international communication, alliance building | E-Town, Jing-Jin-Ji coordination direction |
+
+> **Evidence anchor**：[source:DATA-SRC-AGENT-TASKBOOK] (directional basis of the Three Zones / Two Wings statement; this table is a concept mapping).
+
+## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
+The overall design builds an "urban renewal implementation-coordination environment with the green belt as backbone": the Jingzhang Railway Heritage Park green belt organizes the retain-renovate-demolish framework, renewal units and slow-traffic backbone; the principle is "systematically retain, prudently renovate, selectively demolish"; renewal units couple functional in-fill with public-space upgrading; regulatory-plan indices are checked only as calibration suggestions — no FAR or building-height values are preset. The overall spatial structure, the Three Zones / Two Wings relations and the key-district positions are shown in figure site-overview; the concept land-use structure is shown in figure land-use-structure.
+
+![Overall spatial structure and Three Zones / Two Wings coordination (provisional geometry)](assets/figures/site-overview.en.png)
+
+![Concept land-use structure (single caliber; recompute when official data is published)](assets/figures/land-use-structure.en.png)
+
+> **Evidence anchor**：[source:DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING] (methodological reference for regulatory-depth calibration).
+
+## Detailed Design of Key Areas
+Unified naming: "RENEW·JZ" is the working brand of the belt-wide master framework; no separate "Renewal Workshop" name is used. The three implementation nodes are uniformly named KEEP·BLOCK (retain-renovate-demolish demonstration unit and renewal-coordination decision hub, converging unit applications, index calibration and decision flows), UNIT·BLOCK (unit-based renewal demonstration unit validating ledger-based retain-renovate-demolish management and functional in-fill) and SUPERVISION PAVILION (implementation supervision and public-participation station with transparent supervision windows and a resident feedback channel); node IDs (KEEP-RENOVATE-BLOCK / UNIT-RENEWAL-BLOCK / SUPERVISION-PAVILION) are synchronized across the text, figures, metrics, GeoJSON properties and HTML. The three nodes sit along the green belt and connect to the slow-traffic axis, forming a decision-demonstration-supervision loop; all node positions are concept points that must be re-sited after planning, heritage and authority review.
+
+The proposal follows the three major positions (Centennial Jingzhang Culture Belt, Urban AI Living Experience Belt, AI Integration Innovation Belt) and five major functions (full-stack AI self-innovation system, world-class AI innovation ecosystem, AI+ scenario-enabling paradigm, intelligent AI vibrant city, global discourse on AI governance) in the renewal-and-governance direction, as the renewal-coordination and public-supervision carrier of the "intelligent AI vibrant city" along the belt (concept mapping). Three concept landmarks with an honor system are proposed: "RENEW·JZ · KEEP·BLOCK" carries the "Renewal Medal" (annual honor for renewal contributors), UNIT·BLOCK carries the "Block Leaders' Council" honor seats, and SUPERVISION PAVILION carries the "Supervision Honor Board" (open public disclosure of honors and rectification). Public-space facilities are assembled from the reversible "RENEW KIT" component library (seating, shading, display frames, temporary stages, greening modules; each item registered, rotated and reservation-based) — components are demountable and relocatable, avoiding any construction commitment. The scenario-card index (unique IDs SC-01 to SC-10) is:
+
+| Card ID | Scenario card | Location | Target users | Operation mechanism (concept) | Data and compliance boundary |
+| --- | --- | --- | --- | --- | --- |
+| SC-01 | Renewal Ledger index-calibration AI | KEEP·BLOCK | Practitioners, office workers | Annual accounting, public disclosure | Anonymized aggregation, human review |
+| SC-02 | Stock-space matching AI | KEEP·BLOCK, UNIT·BLOCK | Start-ups, enterprises | Space reservation, rotating exhibitions | Anonymized aggregation, human review |
+| SC-03 | Renewal progress tracking AI | SUPERVISION PAVILION | Residents, practitioners | Progress board, monthly disclosure | Anonymized aggregation, no over-surveillance |
+| SC-04 | Public renewal feedback AI | SUPERVISION PAVILION | Residents, seniors | Reply, appeal-and-correction, timely response | Aggregate statistics only, human review |
+| SC-05 | Block health-check AI | Belt nodes | Operators, merchants | Annual assessment, points incentives | Density aggregates, no individual-identifying tracking |
+| SC-06 | Green-space carbon-sink sensing AI | Green-belt nodes | Community, students | Sink estimates, science volunteering | Anonymized aggregation, human review |
+| SC-07 | Energy-load forecasting AI | UNIT·BLOCK | Property, operators | Energy board, green-power interface | Anonymized aggregation, minimum necessity |
+| SC-08 | Renewal mobility-flow AI | Green belt, SUPERVISION PAVILION | Commuters, visitors | Time-phased guidance, event reservation | Aggregate statistics only, no over-surveillance |
+| SC-09 | Low-carbon event operation AI | Green-belt nodes | Residents, youth, families | Event reservation, points, rotating exhibitions | Anonymized aggregation, human review |
+| SC-10 | Renewal policy Q&A AI | KEEP·BLOCK | Residents, practitioners | Policy Q&A with human review backstop | Anonymized aggregation, human review of key decisions |
+
+![Key nodes and detailed design (provisional)](assets/figures/key-areas.en.png)
+
+## AI Innovation Ecosystem, Personas, and AI+ Scenarios
+The full-stack AI innovation ecosystem is organized as an eight-factor mechanism chain (concept): land-space-industry-capital-talent-compute-data-scenario. Stock land and space carry pilot and incubation functions; industry and capital loops support scenario landing; talent and compute supply is open-source-oriented; data returns to the scenario loop in anonymized aggregates. The ecosystem map is figure ecosystem-map; five to eight global benchmark cases with per-case sources, timepoints and usage boundaries are listed in the References section. Every chain link is backstopped by human review; AI output never replaces professional judgment.
+
+Five persona groups: entrepreneurs, AI developers, community residents, students and senior neighbours. Personas serve service-journey simulation only, never individual identification; offline alternative channels (staffed windows, phone, paper forms) and digital-exclusion safeguards are provided. The AI+ scenarios are unified into ten numbered cards (SC-01 to SC-10, table in the key-areas section) covering governance (SC-01, SC-03), industry (SC-02), space (SC-05, SC-06), public services (SC-04, SC-10), culture (SC-09) and transport (SC-08); the two earlier five-scenario lists (renewal coordination AI, stock-space matching AI, progress tracking AI, public feedback AI, block health-check AI / renewal coordination AI, carbon-sink sensing AI, energy-load forecasting AI, mobility-flow AI, low-carbon feedback AI) are merged into this single numbered list, synchronized in the text, figures, metrics and GeoJSON properties. AI governance is stated in three phrases: anonymized aggregation only, human review of key decisions, no over-surveillance; carbon accounting is a concept-level public-data-service suggestion that does not replace official statistics. Three test protocols make the scenarios verifiable and reviewable:
+
+| Protocol ID | Test protocol | Verification goal (concept) | Evaluation metrics (concept) | Data and human review | Recompute trigger |
+| --- | --- | --- | --- | --- | --- |
+| TP-01 | Indicator data-quality and model-evaluation protocol | Index caliber consistency and model-output reliability | Data-quality completeness, model-evaluation baseline | Anonymized aggregation, human review | When official data is published |
+| TP-02 | Stock-matching recall and error-stratification protocol | Precision and recall of stock-space matching | Recall, false-positive rate, error-stratification share | Anonymized aggregation, human review | When the stock survey updates |
+| TP-03 | Feedback-AI human-review and runtime-monitoring protocol | Feedback flow, correction and response loop | Runtime-monitoring anomaly rate, review pass rate | Human review, full trace | When policy or corpus updates |
+
+> **Evidence anchor**：[source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES] (reference for AI-generated-content governance phrasing).
+
+![AI innovation ecosystem map (concept)](assets/figures/ecosystem-map.en.png)
+
+## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
+The strategy combines retention, renovation and selective demolition: retention first, preserving the heritage-park texture and railway relics; stock buildings get functional replacement with low-carbon retrofit directions reserved (envelope, energy use, green-power interface); demolition is limited to individual case-by-case openings for slow-traffic connections. All areas are concept caliber; caliber, aggregation rules and recompute triggers are stated in the Metrics, Area Recalculation, and Compliance Matrix section; no inferred area numbers are published in the text, and a full recalculation with redrawn figures follows once official data is published.
+
+The overall approach is managed through three ledgers: heritage-and-value retention with repair and activation; structural retention with functional replacement; and cautious, selective partial demolition and rebuild. Ledger contents and scales preset no numbers and are itemized with the stock survey and ownership coordination; the concept land-use figure uses a single caliber (share of concept parcels over the concept overall-design area, same caliber as green_ratio), so no other public-green share is shown side by side, avoiding misreading; any retain-renovate-demolish conclusion follows statutory procedure and public participation.
+
+> **Evidence anchor**：[source:DATA-SRC-MNR-LAND-USE-CLASSIFICATION] (land-use classification names follow the current national guide).
+
+## Transport, Rail, Municipal Infrastructure, and Public Services
+The transport concept is slow-traffic-first: a continuous slow-traffic axis along the green belt links KEEP·BLOCK, UNIT·BLOCK and SUPERVISION PAVILION; street sections respond to activities by time of day (morning market, events, daily modes); corridor universities, parks and rail stations are connected with walking-and-cycling-first transfers; green mobility first, less car dependence, time-phased crowd dispersion after events; no road redline or engineering values are preset. Municipal services follow intensive sharing: green-power interfaces and renewal-data facilities integrate with buildings as a concept, existing facilities are reused first, and shared utility corridors with modular implementation are encouraged; public services provide barrier-free and multilingual support, community low-carbon services and study spaces, with facility scale re-checked against population and service radius, and every AI decision subject to human review.
+
+![Slow-traffic and blue-green network (provisional)](assets/figures/mobility-bluegreen.en.png)
+
+> **Evidence anchor**：[source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES] (methodological reference for slow-traffic and municipal phrasing).
+
+## Blue-Green Network, Public Space, and Urban Character
+A "green belt as the axis, node parks as pearls" blue-green public-space system is proposed: the heritage green belt strings together small green spaces and open spaces into a continuous ecological and public-space network; carbon-sink and blue-green spaces are blended; facilities are light, transparent and reversible, never blocking heritage relics or views along the belt. The blue-green share uniformly follows the green_ratio concept caliber (about 0.11, i.e. the share of concept green parcels), identical to the figures and metrics, marked provisional, to be recomputed when official data is published; no other share figure is placed on the same page.
+
+### Culture narrative and international communication (concept)
+A cultural-resource system and spatial storylines (concept): the railway industrial memory vocabulary (points, station houses, rails, signals) forms the motif; historical resource points along the corridor are catalogued as a concept inventory (to be verified item by item with archival sources) and framed into the "Centennial Jingzhang · Renewal Narrative" four-season storyline — Spring "Rails Awake", Summer "Hub Emerges", Autumn "Units In-Filled", Winter "Public Supervision" — with restrained, unified narrative nodes along the belt. Bilingual communication copy examples: "RENEW·JZ — Where the Century Railway Meets AI" (with the Chinese gloss “更新枢·让百年铁路与AI相遇”); "KEEP·BLOCK — Keep the memory, renew the future" (gloss “留改坊·留住记忆，改出未来”). International communication is supported by the bilingual site, an international-review invitation-letter template and bilingual case cards (concept), open to global AI developers and urban-renewal practitioners.
+
+### Brand identity and visual system (concept)
+The single master brand is "RENEW·JZ". The logo concept combines a railway track, two rings and an iteration arrow (railway for the Jingzhang heritage, twin rings for renewal units and the green belt, the arrow for incremental renewal); the color system is Jingzhang rust red, innovation cyan, track grey and ecology green; fonts prefer openly licensed typefaces (see the asset ledger); applications include wayfinding, event posters, disclosure boards and bilingual digital interfaces. The logo and the full visual set are original concepts and remain internal working codenames until prior-rights clearance (see the Risk section).
+
+![RENEW·JZ logo and visual identity (concept)](assets/figures/logo-update-hub.en.png)
+
+> **Evidence anchor**：[source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES] (methodological reference for character and public-space organization).
+
+## Renewal Projects, Implementation Policy, and Phasing
+Implementation phasing (concept): near term 1-3 years — build the framework and launch the KEEP·BLOCK pilot and the SUPERVISION PAVILION station; mid term 3-5 years — deliver the UNIT·BLOCK demonstration and rolling unit renewal; long term 5-10 years — complete the green-belt backbone and mature the whole-belt operation mechanisms. The project list is managed as a deepening ledger with lead and collaborating actor types, preconditions, professional re-checks, pilot admission and exit conditions, indicator baselines and data cycles, annual reviews and long-term operating-and-conversion pathways; costs are given only as low/medium/high tiers with estimation method, price base year, scope included, confidence level and recompute trigger — no monetary amounts. Pilot admission requires ownership-coordination readiness and majority consent; pilot exit requires "baseline not met for two consecutive years and annual review not passed" or "concentrated dissent in the public disclosure", followed by disclosed withdrawal.
+
+| Implementation ledger (concept) | Phase | Lead / collaborating actors | Preconditions and professional re-check | Pilot admission / exit | Baseline / data cycle | Annual review and conversion | Cost tier (method · base year · confidence) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RENEW·JZ · KEEP·BLOCK coordination pilot | Near 1-3y | Government-led, universities, community, professional teams | Stock survey and ownership sorting; planning, heritage, fire re-check | Ownership ready and residents' council passed; exit via disclosed withdrawal | Renewal coverage / annual | Annual disclosed review; converts to standing coordination platform | Medium (analogous neighbourhood renewal, 2026 base, low confidence) |
+| UNIT·BLOCK demonstration unit | Mid 3-5y | Government-led, enterprises operating, universities | Retain-ledger and municipal-connection re-check | Application-based admission with majority consent | Unit completion / quarterly | Annual review; rolls out into the unit regime | Medium (analogous stock retrofit, 2026 base, low confidence) |
+| SUPERVISION PAVILION station | Near 1-3y | Government-led, volunteers, community, merchants | Site disclosure and feedback collection | 6-month trial assessment before admission | Feedback resolution / monthly | Annual disclosure; upgrades to standing supervision | Low (modular light build, 2026 base, medium confidence) |
+| Green-belt slow-traffic linking | Mid 3-5y | Government-led, professional teams, volunteers | Rail-protection re-check, slow-traffic safety review | Segment-first, open after acceptance | Slow-traffic connectivity / quarterly | Annual review; enters belt O&M alliance | High (municipal-engineering analogy, 2026 base, low confidence) |
+| RENEW KIT public-space components | Near 1-3y ongoing | Government-guided, enterprise-sponsored, community co-built | Structural-safety and fire-registration re-check | Registration-based, rotating placement | Component reuse / annual | Annual review; consolidates into reusable product library | Low (standardized components, 2026 base, medium confidence) |
+| RENEW Developer Community and data openness | Mid 3-5y start | Enterprise-led, universities, developer volunteers | De-identification and compliance review | Developer-agreement admission, compliance-based exit | Open API count / half-yearly | Annual review; converts to international attraction | Low (platform operation, 2026 base, medium confidence) |
+
+Annual event brands (consistent with the annual-program metrics): RENEW OPEN DAY, RENEW BAZAAR and BLOCK HEALTH-CHECK SEASON, set on a base of monthly regular activities (guided tours, exhibitions, volunteer duty) and a week-month-season-year rhythm. The long-term operating-and-conversion pathway runs: developer community — open scenario operation — international attraction (bilingual communication, international jury and alliance exchanges) — diversified funding and governance (a renewal-operation alliance under government guidance, enterprise participation and social-capital supplements, run on compact, council, disclosure and registration mechanisms). Policy suggestions (low-carbon function admission and coordination, multi-stakeholder co-building, opinion re-check mechanisms) all require statutory review and imply no government or operator commitment.
+
+| Annual event brand (concept) | Cycle | Main content | Participants | Long-term conversion path |
+| --- | --- | --- | --- | --- |
+| RENEW OPEN DAY | Annual | Renewal results expo, scenario experience, staffed tours | Government, enterprises, universities, residents, volunteers | Consolidates into annual brand asset and international window |
+| RENEW BAZAAR | Annual | Maker market, stock-space tour, policy Q&A | Merchants, start-ups, residents, youth | Converts into merchant and start-up community portal |
+| BLOCK HEALTH-CHECK SEASON | Annual | Health-check release, index disclosure, points incentives | Operators, community residents, professional teams | Converts into annual baseline update and supervision mechanism |
+
+> **Evidence anchor**：[source:DATA-SRC-AGENT-TASKBOOK] (phasing and implementation items follow the taskbook requirements).
+
+## Metrics, Area Recalculation, and Compliance Matrix
+The concept indicator system is stored in metrics.json, each indicator carrying data source, formula or caliber, confidence level, usage restriction and recompute trigger (the table below is the in-text index; full fields are in metrics.json). Area recalculation follows the official textual caliber (coordinated research area about 43.6 km², overall design area about 11.4 km², key area about 368.4 ha): the package's concept geometry is cross-checked against it but no inferred area is published; once official polygons are released, a full recalculation is performed with a recalculation version number; provisional-boundary warnings are synchronized in figures, metrics and geometry properties.
+
+| Indicator (concept) | Data source | Formula / caliber | Confidence | Usage restriction | Recompute trigger |
+| --- | --- | --- | --- | --- | --- |
+| site_area_sqm | geometry/site_boundary.geojson | polygon area (EPSG:4548) | Medium | Concept display and machine checks only | Official boundary published |
+| green_ratio | green_space.geojson and boundary | concept green parcels / overall design area | Low | Same-caliber display only | Official data published |
+| public_space_ratio | public_space.geojson and boundary | concept public-space area / overall design area | Low | Same-caliber display only | Official data published |
+| scenario_card_count | scenario-card index in proposal.md | count of SC-01 to SC-10 | High | Text-figure caliber consistency | Scenario list revised |
+| global_case_count | case table and sources.json | eight case entries | High | Concept reference, not case-status judgment | Source verification updated |
+| annual_program_count | annual-event table in proposal.md | three annual events | High | Event-system caliber consistency | Event list revised |
+
+The compliance matrix checks laws, codes and call requirements item by item with a traceable record (compliance_matrix.json); the standard matrix and design-depth matrix are in their JSON files, each evidence summary pointing to its own real response content rather than duplicated boilerplate.
+
+![Core indicator evidence (concept caliber, recompute triggers marked)](assets/figures/metrics-evidence.en.png)
+
+> **Evidence anchor**：[metric:green_ratio]、[metric:public_space_ratio]、[data:PACKAGE-GEOMETRY]。
+
+> **Evidence anchor**：[metric:scenario_card_count]、[metric:global_case_count]、[metric:phase_count]。
+
+## Risk, Copyright, and Compliance
+This proposal is a concept research design: it is not an administrative-approval basis and contains no FAR, building-height, retain-renovate-demolish or engineering-feasibility conclusions. Risks are honestly registered in risk.json across boundary precision, statistical caliber, data boundaries, missing statutory controls, technology maturity and public acceptance, with the response principles of anonymized aggregation, minimum necessity, human review, source labeling and feedback channels. AI governance in three phrases: anonymized aggregation only, human review of key decisions, no over-surveillance. A resident feedback channel (online entry, staffed offline windows, phone and paper forms) is paired with appeal, correction, timely response and digital-exclusion safeguards; major matters are disclosed per law with an annual update disclosure; annual events run the three brands OPEN DAY, BAZAAR and HEALTH-CHECK SEASON.
+
+### Brand prior-rights and usage boundary
+No official trademark search has been completed at this concept stage: "RENEW·JZ", "KEEP·BLOCK", "UNIT·BLOCK", "SUPERVISION PAVILION", the logo mark and slogans are internal working codenames; prior-rights clearance and relevant permissions are required before any external use, application or formal naming. Asset rights records are in report/copyright_statement.md, with asset entries registered in sources.json and manifest role notes kept consistent.
+
+Copyright: the proposal builds on public sources (all citations carry source and access date); original graphics, names and text are generated by the package authors with rights reserved; fonts, icons, images, maps, data and code are itemized in the asset ledger; any resemblance to existing marks or names is coincidental; third-party portraits, trademarks, papers or images are not used without authorization; multi-department joint review, heritage protection and safety assessment must precede formal implementation. This proposal is a concept research suggestion that constitutes no commitment; the outcomes of statutory procedures prevail.
+
+> **Evidence anchor**：[source:DATA-SRC-OFFICIAL-ANNOUNCEMENT] (basis for the ownership and compliance phrasing under the call rules).
+
+## References
+Public-caliber citations: the official call-for-entry announcement and taskbook; the Barrier-Free Environment Law of the PRC; national and Beijing urban renewal measures and technical codes; public material on the Jingzhang Railway Heritage Park; urban-design and regulatory-plan codes; the interim measures on generative AI services and the national land-use classification guide. Every citation follows the official published text and must be version-checked before deepening; case sources are registered item by item in sources.json (institution URL, access date, milestone timepoint, reuse boundary). Cases are concept references only, not judgments on the current state of the projects; entries without cross-verification are treated as research hypotheses.
+
+International and domestic benchmark cases (concept reference; sources verified on 2026-08-25):
+
+| Category | Case | Source (institution / URL / milestone) | Lesson borrowed | Verification |
+| --- | --- | --- | --- | --- |
+| International | King's Cross regeneration, London | King's Cross Central Limited Partnership, kingscross.co.uk; outline permission 2006-12-22 (Camden ref 2004/2307/P) | Whole-district rail-lands renewal, public space and infrastructure first, long-horizon coordinated delivery and supervision | Verified (site reachable) |
+| International | Barcelona Superblocks | Barcelona City Council, ajuntament.barcelona.cat/superilles; programme start 2015 | Block-level traffic-calming units with before/after quantitative monitoring (block health check) | Verified (site reachable) |
+| International | Tokyo Marunouchi | Mitsubishi Estate, mec.co.jp corporate history; "Reconstruction of Marunouchi" began 1998, Marunouchi Building completed 2002 | Multi-owner coordinated renewal with co-built and co-managed public space | Verified (site reachable) |
+| International | HafenCity Hamburg | HafenCity Hamburg GmbH, hafencity.com; master plan approved by the Hamburg Senate 2000-02-29 | Phased district delivery with public space and services first | Verified (site reachable) |
+| Domestic | Shanghai Yuyuan Road | Changning District Government, shcn.gov.cn; renewal launched 2014 | Incremental micro-renewal with in-situ operation and integrated operator | Verified (government page reachable) |
+| Domestic | Beijing Shougang Park | Shougang Group, shougang.com.cn; 2016 BOCOG move-in as milestone | Industrial heritage conservation-based transformation and mega-event driven | Verified (group page reachable) |
+| Domestic | Nanjing Laomendong | Qinhuai District Government, njqh.gov.cn; block opened 2013-09 | Historic-district conservation renewal with commercial activation | Verified (government page reachable) |
+| Domestic | Shenzhen Nantou Ancient City | Nanshan District Government, szns.gov.cn; conservation task force established 2019-03 | Organic renewal of urban villages with public participation; "government-led, enterprise-implemented, resident-participated" | Verified (government page reachable) |
+
+(End of proposal: 13 sections plus annex tables; the full indicator, source, risk and compliance records are in the corresponding JSON files.)
+
+> **Evidence anchor**：[source:DATA-SRC-OFFICIAL-ANNOUNCEMENT] (first entry of this list is the organizer's public package).

@@ -1,3 +1,9 @@
 # Formal Narrative
 
-This narrative is derived from the structured AI package. Geometry, metrics, compliance matrix, drawings, and visual/index.html remain cross-checked deliverables.
+本方案以「更新枢（RENEW·JZ）」为品牌名的城市更新总体框架与实施统筹概念建议为核心叙事，全文 13 节（节名与顺序固定）：设计依据与资料清单／三层范围工作框架／统筹研究范围产业与未来城市研究／总体设计范围城市更新与控规深度城市设计／重点区域详细设计／AI 创新生态、人才画像与 AI+ 场景／用地、建筑规模与拆改留方案／交通、轨道、市政与公共服务设施／蓝绿空间、公共空间与城市风貌／更新项目清单、实施政策与分期计划／指标体系、面积复算与合规矩阵／风险、版权与合规说明／参考资料。
+
+统一命名：三个实施节点「留改坊（KEEP·BLOCK）」「单元坊（UNIT·BLOCK）」「督行亭（SUPERVISION PAVILION）」，不另设「更新坊」；十张编号场景卡（SC-01—SC-10）为唯一清单，编号同步于正文、图件、指标、GeoJSON 属性与 HTML；三区两翼按空间—产业—运营闭环表格化（概念映射，待官方文本核验）。
+
+机器可读证据：geometry（9 层，provisional）、metrics.json（18 项）、compliance_matrix.json（23 项任务映射）、standard_matrix.json（5 项）、design_depth_matrix.json（15 项）、sources.json（16 项来源含 8 案例与 3 资产记录）、risk.json（8 项风险+8 维评分）；全部数值均为概念口径并标注复算触发，官方数据发布后整体复算。
+
+人工核对声明：中英提案实质等值已人工核对（数值、节点名、场景卡、分期、指标一致）；品牌在先权利检索未完成前按内部工作代号处理；图件 ink 值与剪裁检查结果见 self_check.json[figure_qc]（全部图件 ink≥0.08，edge-clip 通过；文本重叠为生成期检查、事后不可机器复核，如实标注 not_verified）。

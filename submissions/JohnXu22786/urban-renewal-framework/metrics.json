@@ -15,7 +15,7 @@
       "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
       "confidence": "medium",
       "assumptions": [
-        "Provisional boundary, not an official redline."
+        "Provisional boundary, not an official redline; overall design area textual caliber is about 11.4 km2 per the announcement."
       ]
     },
     "green_space_area_sqm": {
@@ -59,9 +59,11 @@
         "geometry/green_space.geojson",
         "geometry/site_boundary.geojson"
       ],
-      "formula": "green_space_area_sqm / site_area_sqm",
+      "formula": "green_space_area_sqm / site_area_sqm (single caliber, concept parcels over overall design area)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Single-caliber display only; no other green-share figure is presented side by side; recompute when official data is published."
+      ]
     },
     "public_space_ratio": {
       "status": "known",
@@ -141,6 +143,19 @@
       "confidence": "high",
       "assumptions": []
     },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(unique SC-01..SC-10 scenario card entries in the scenario-card index)", 
+      "confidence": "high",
+      "assumptions": [
+        "Unified numbering SC-01..SC-10 used in text, figures, GeoJSON properties and HTML."
+      ]
+    },
     "industry_test_scenario_count": {
       "status": "known",
       "value": 3,
@@ -148,7 +163,7 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(TP-01..TP-03 test protocol rows in the test-protocol table)",
       "confidence": "high",
       "assumptions": []
     },
@@ -165,15 +180,17 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 8,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(rows in the case-study table, one sources.json entry per case)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Each case has a traceable sources.json entry with publisher URL, milestone date and reuse boundary; verified 2026-08-25."
+      ]
     },
     "phase_count": {
       "status": "known",
@@ -193,7 +210,7 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(annual event system)",
+      "formula": "count(annual event brand rows: OPEN DAY / BAZAAR / HEALTH-CHECK SEASON)",
       "confidence": "high",
       "assumptions": []
     }
