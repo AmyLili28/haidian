@@ -27,7 +27,19 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 `data/processed/agent_fact_pack.md` 是本方案的阅读导航层，不是新的权威来源。[source:PROCESSED-FACT-PACK] 只帮助 agent 把三层范围、三处重点区、公告任务、agent.1-agent.6、资料可用性和缺资料事项组织成可读方案；所有事实判断仍回到 [source:OFFICIAL-ANNOUNCEMENT]、[source:AGENT-TASKBOOK]、[source:SOURCE-REGISTRY]、[source:BOUNDARY-SOURCE] 与 [source:KEY-AREA-SOURCE]。
 
-![资料证据链与提交包关系图](assets/figures/site-overview.png)
+**资料证据链与提交包关系总览**
+
+| 数据类型 | 来源 | 状态 | 用途边界 |
+| --- | --- | --- | --- |
+| 场地边界 | `geometry/site_boundary.geojson` | provisional（临时粗略） | 方案生成、自检、可视化和设计讨论；不可作为 official redline、审批依据、精确面积依据或法定控制结论 |
+| 重点区域 | `geometry/key_areas.geojson` | provisional（临时粗略） | 同上；三处重点区域（PROV-KEY-001/002/003）待官方 polygon 更新后重算 |
+| 用地图层 | `geometry/land_use.geojson` | 基于 provisional boundary 生成 | 待 official polygons 后复算 |
+| 道路图层 | `geometry/roads.geojson` | 基于 provisional boundary 生成 | 待 official polygons 后复算 |
+| 绿地图层 | `geometry/green_space.geojson` | 基于 provisional boundary 生成 | 待 official polygons 后复算 |
+| 公共空间图层 | `geometry/public_space.geojson` | 基于 provisional boundary 生成 | 待 official polygons 后复算 |
+| 建筑图层 | `geometry/buildings.geojson` | 基于 provisional boundary 生成 | 待 official polygons 后复算 |
+| 指标复算 | `metrics.json` | 基于 provisional boundary | 待 official polygons 后重算 |
+| 来源登记 | `sources.json` | 已登记 21 条公开资料 | 所有引用均来自公开来源 |
 
 本脚手架在官方 `SITE_BOUNDARY` 或三处 `KEY_AREA` 尚未取得时，使用 `brief/site-package/geometry/provisional_boundaries.geojson` 生成临时 formal 包。提交包中的 `geometry/site_boundary.geojson` 与 `geometry/key_areas.geojson` 均必须标注为 `provisional_constraint`、`official_boundary=false`，只能用于方案生成、自检、可视化和设计讨论，不能作为 official redline、审批依据、精确面积依据或法定控制结论。该组织方数据缺口本身不阻断内容评分；替换 official polygons 后，site boundary、key areas、land use、roads、green space、public space、buildings、phasing 和 metrics 均需重算。
 
@@ -503,8 +515,8 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 - 朝圣体系总览：以 `assets/figures/mobility-bluegreen.png`（交通慢行与蓝绿公共空间复合系统）为底图，叠加五处地标与荣誉体系锚点（L1-L5）形成的「朝圣路径图」（已于2026-08-24补绘：`assets/figures/pilgrimage-path.png`）；
 - 三区两翼与地标对应：以 `assets/figures/key-areas.png`（三处重点区域索引与设计任务图）表达地标与重点片区的关系（L1南段·清华园车站旧址、L2原点社区、L3大钟寺、L4遗址公园中段、L5北段—众智园入口）；
-- 分段公共空间：以 `assets/figures/land-use-structure.png`（三层范围与空间工作框架）与 `assets/figures/site-overview.png`（资料证据链与提交包关系图）定位三段公共空间设计范围；
-- 组件库视觉：以 `assets/figures/metrics-evidence.png` 所在图件体系为参照的「组件库图录」（已于2026-08-24补绘：`assets/figures/component-catalog.png`），当前提交以文字表7+图录表达。
+- 分段公共空间：以 `assets/figures/land-use-structure.png`（三层范围与空间工作框架）定位三段公共空间设计范围；
+- 组件库视觉：「组件库图录」（已于2026-08-24补绘：`assets/figures/component-catalog.png`），当前提交以文字表7+图录表达。
 
 以上图件关系在 HTML 渲染版本中同步呈现。「朝圣路径图」与「组件库图录」两张图纸已于2026-08-24补绘完成，正式提交前将并入 A3/A0 图册深化。
 
@@ -636,7 +648,7 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 - **双线叙事地图**：以 `assets/figures/mobility-bluegreen.png`（交通慢行与蓝绿公共空间复合系统）为底图，叠加南段「走读历史」/中段「创新交往」/北段「低碳未来」三段叙事分区与五处地标叙事锚点（L1-L5），形成「叙事地图」；
 - **文化资源分布**：以 `assets/figures/key-areas.png`（三处重点区域索引与设计任务图）叠加京张铁路文化资源系统（实物/工程/精神三层）的分布示意；
-- **符号与导视方向**：以 `assets/figures/metrics-evidence.png` 所在图件体系为参照，后续 A3/A0 图册中补充「符号语义表」与「导视系统三层」图录（当前提交以文字表5表达，图册为提交前任务）。
+- **符号与导视方向**：后续 A3/A0 图册中补充「符号语义表」与「导视系统三层」图录（当前提交以文字表5表达，图册为提交前任务）。
 
 文化叙事的历史事实来源（[source:HISTORY-JINGZHANG-RAILWAY]、[source:HISTORY-ZHONGGUANCUN]、[source:CASE-QINGHUAYUAN-STATION]）均为公开资料，已登记于 `sources.json`；所有符号、文案与导视方向均为原创或开源素材，不依赖未经授权材料（agent.5 forbidden claims）。
 
@@ -733,13 +745,25 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 - **年度活动日历**：以 `assets/figures/mobility-bluegreen.png`（交通慢行与蓝绿公共空间复合系统）为底图，叠加活动周路线、月度节点与荣誉日锚点（L1-L5），形成「年度运营日历地图」（已于2026-08-25补绘：`assets/figures/annual-calendar-map.png`）；
 - **运营机制图**：以 `assets/figures/key-areas.png`（三处重点区域索引与设计任务图）为底图，表达「线上开源协作—线下社区锚点—场景开放—荣誉兑现」的运营回路与三阶段分期（A3/A0 图册深化）；
-- **活动-场景对应**：以 `assets/figures/metrics-evidence.png` 所在图件体系为参照，形成「招引转化链示意图」（已于2026-08-25补绘：`assets/figures/attraction-conversion-chain.png`），表达传播曝光→亲身体验→场景试用→企业落地意向→资本与人才回流的协同回路闭环。
+- **活动-场景对应**：「招引转化链」（已于2026-08-25补绘），表达传播曝光→亲身体验→场景试用→企业落地意向→资本与人才回流的协同回路闭环（详见本文「招引转化链」章节）。
 
 以上图件关系在 HTML 渲染版本中同步呈现。「年度运营日历地图」与「招引转化链示意图」两张图纸已于2026-08-25补绘完成，正式提交前将并入 A3/A0 图册深化。
 
 ![年度运营日历地图](assets/figures/annual-calendar-map.png)
 
-![招引转化链示意图](assets/figures/attraction-conversion-chain.png)
+**招引转化链（协同回路闭环的运营表达）**
+
+招引转化链是 agent.1 协同回路（高校策源→开源协作→企业转化→公共体验→国际传播→资本回流）在运营层面的具体表达，由五个环节构成闭环：
+
+| 环节 | 内容 | 空间载体 | 运营主体 |
+| --- | --- | --- | --- |
+| **传播曝光** | 国际文案与开发者传播语（agent.5）、全球AI活动周、场景开放日、月度活动 | 全带公共空间系统 | 活动组委会+多方联合 |
+| **亲身体验** | 活动周路线（场景卡10）、场景开放日（T1/T2/T3）、社区自组织活动 | 北京北站→遗址公园→原点社区→众智园→大钟寺→小月河 | 公园运营+社区+高校+街道 |
+| **场景试用** | T1 红队评测服务（面向中小企业）、T2 开源商业化验证、T3 实景演示 | 众智园/原点社区/大钟寺—小月河 | 政府+评测机构+园区+高校+街道 |
+| **企业落地意向** | 大钟寺国际路演客厅（场景卡05）、数据要素会客厅（场景卡08）、众智园加速区 | 大钟寺站域/众智园 | 产业运营公司+授权运营方+会展机构 |
+| **资本与人才回流** | 协同回路末环，反馈至高校策源（场景卡07近校成果转化街）、开源社区（场景卡01） | 原点社区+京翼（中关村科技服务翼） | 高校共建平台+孵化运营方+中关村翼 |
+
+转化指标（第三类绩效指标）：活动参与度、场景使用频次、开发者社区活跃度、留痕与荣誉申报数、企业落地意向数等均需运营数据持续校准，不写入 `metrics.json` 审定指标集，不构成审定规划条件或效果承诺。
 
 ## 更新项目清单、实施政策与分期计划
 
@@ -764,7 +788,22 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 指标复算深度由 [depth:metrics_recalculation] 管理。本方案正文显式引用 [metric:site_area_sqm]、[metric:key_area_count]、[metric:building_footprint_area_sqm]、[metric:green_ratio]、[metric:public_space_ratio]，并说明这些值来自 [data:geometry/site_boundary.geojson#SITE-001]、[data:geometry/key_areas.geojson#PROV-KEY-001]、[data:geometry/buildings.geojson#BLDG-001]、[data:geometry/green_space.geojson#GREEN-001] 和 [data:geometry/public_space.geojson#PUBLIC-001]。
 
-![核心指标复算与证据链图](assets/figures/metrics-evidence.png)
+**核心指标复算与证据链**
+
+本方案正文显式引用以下指标，均来自 GeoJSON 图层复算：
+
+| 指标 | 数据来源 | 状态 | 备注 |
+| --- | --- | --- | --- |
+| site_area_sqm（统筹研究范围面积） | `geometry/site_boundary.geojson#SITE-001` | provisional | 43.6 km²，待 official boundary 后复算 |
+| key_area_count（重点区域数量） | `geometry/key_areas.geojson#PROV-KEY-001/002/003` | provisional | 3 处重点区域（众智园 192.1ha / 原点社区 104.3ha / 大钟寺 72.0ha） |
+| building_footprint_area_sqm（建筑基底面积） | `geometry/buildings.geojson#BLDG-001` | provisional | 待 official polygons 后复算 |
+| green_ratio（绿地比例） | `geometry/green_space.geojson#GREEN-001` | provisional | 待 official polygons 后复算 |
+| public_space_ratio（公共空间比例） | `geometry/public_space.geojson#PUBLIC-001` | provisional | 待 official polygons 后复算 |
+
+指标分为三类管理：
+1. **第一类（空间复算指标）**：可由提交几何直接复算，进入 `metrics.json`
+2. **第二类（管控假设指标）**：需要官方控规或任务书附件支撑，进入 `assumptions.json`
+3. **第三类（运营绩效指标）**：需要运营或产业数据持续校准，在 `compliance_matrix.json` 中登记
 
 合规矩阵是任务响应性的主控文件。每条公告任务和 agent_taskbook 任务必须对应到报告章节、图层、指标、图纸、HTML 页面、来源、假设和自检项。未能覆盖公告 1.3、1.4、1.5 或 agent.1-agent.6 的任一必选任务，方案不得进入 formal professional scoring。
 

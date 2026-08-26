@@ -20,7 +20,19 @@ This formal proposal is primarily based on the "Centennial Jingzhang AI Innovati
 
 This section cites [source:OFFICIAL-ANNOUNCEMENT], [source:AGENT-TASKBOOK], [source:SITE-PACKAGE], [source:SOURCE-REGISTRY], [source:PROCESSED-FACT-PACK], [source:BOUNDARY-SOURCE], [source:KEY-AREA-SOURCE], [standard:PROJECT-OFFICIAL-ANNOUNCEMENT], [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK], [standard:MOHURD-URBAN-DESIGN-MEASURES], [standard:MOHURD-CONTROL-DETAILED-PLANNING], [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE], [standard:MOHURD-ARCH-DESIGN-DEPTH-2016], and [depth:existing_conditions_diagnosis] to demonstrate that the proposal is not an independent vision text but an organized output from the announcement, agent taskbook, standards, boundaries, processed data packages, and source checklists.
 
-![Evidence Chain and Submission Package Relationship Diagram](assets/figures/site-overview.png)
+**Evidence Chain and Submission Package Relationship Overview**
+
+| Data Type | Source | Status | Usage Boundary |
+| --- | --- | --- | --- |
+| Site Boundary | `geometry/site_boundary.geojson` | provisional (temporary rough) | Proposal generation, self-check, visualization and design discussion; not as official redline, approval basis, precise area basis or statutory control conclusions |
+| Key Areas | `geometry/key_areas.geojson` | provisional (temporary rough) | Same as above; three key areas (PROV-KEY-001/002/003) pending official polygon update for recalculation |
+| Land Use Layer | `geometry/land_use.geojson` | Generated based on provisional boundary | Pending recalculation after official polygons |
+| Roads Layer | `geometry/roads.geojson` | Generated based on provisional boundary | Pending recalculation after official polygons |
+| Green Space Layer | `geometry/green_space.geojson` | Generated based on provisional boundary | Pending recalculation after official polygons |
+| Public Space Layer | `geometry/public_space.geojson` | Generated based on provisional boundary | Pending recalculation after official polygons |
+| Buildings Layer | `geometry/buildings.geojson` | Generated based on provisional boundary | Pending recalculation after official polygons |
+| Metrics Recalculation | `metrics.json` | Based on provisional boundary | Pending recalculation after official polygons |
+| Source Registry | `sources.json` | 21 public sources registered | All citations from public sources |
 
 This scaffold generates a temporary formal package using `brief/site-package/geometry/provisional_boundaries.geojson` when official `SITE_BOUNDARY` or `KEY_AREA` polygons are not yet available. The `geometry/site_boundary.geojson` and `geometry/key_areas.geojson` in the submission package must both be marked as `provisional_constraint`, `official_boundary=false`, usable only for proposal generation, self-check, visualization, and design discussion, not as official redline, approval basis, precise area basis, or statutory control conclusions. This organizational data gap itself does not block content scoring; after replacement with official polygons, site boundary, key areas, land use, roads, green space, public space, buildings, phasing, and metrics must all be recalculated.
 
