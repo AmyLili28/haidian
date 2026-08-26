@@ -8,7 +8,7 @@
       "properties": {
         "id": "ROAD-001",
         "layer": "ROAD_CENTERLINE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -20,7 +20,7 @@
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
         "name_zh": "京张共鸣带慢行主脊",
         "name_en": "Resonance Belt slow-mobility spine",
-        "road_class": "slow_mobility_spine",
+        "road_class": "greenway",
         "length_m_declared": 9493.8
       },
       "geometry": {
@@ -43,7 +43,7 @@
       "properties": {
         "id": "ROAD-002",
         "layer": "ROAD_CENTERLINE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -55,7 +55,7 @@
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
         "name_zh": "缝合联络街",
         "name_en": "stitching connector street",
-        "road_class": "local_connector",
+        "road_class": "branch",
         "length_m_declared": 1247.75
       },
       "geometry": {
@@ -78,7 +78,7 @@
       "properties": {
         "id": "ROAD-003",
         "layer": "ROAD_CENTERLINE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -90,7 +90,7 @@
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
         "name_zh": "缝合联络街",
         "name_en": "stitching connector street",
-        "road_class": "local_connector",
+        "road_class": "branch",
         "length_m_declared": 1247.34
       },
       "geometry": {
@@ -113,7 +113,7 @@
       "properties": {
         "id": "ROAD-004",
         "layer": "ROAD_CENTERLINE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -125,7 +125,7 @@
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
         "name_zh": "缝合联络街",
         "name_en": "stitching connector street",
-        "road_class": "local_connector",
+        "road_class": "branch",
         "length_m_declared": 1247.01
       },
       "geometry": {
@@ -148,7 +148,7 @@
       "properties": {
         "id": "ROAD-005",
         "layer": "ROAD_CENTERLINE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -160,7 +160,7 @@
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
         "name_zh": "缝合联络街",
         "name_en": "stitching connector street",
-        "road_class": "local_connector",
+        "road_class": "branch",
         "length_m_declared": 1246.89
       },
       "geometry": {
@@ -183,7 +183,7 @@
       "properties": {
         "id": "ROAD-006",
         "layer": "ROAD_CENTERLINE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -195,7 +195,7 @@
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
         "name_zh": "缝合联络街",
         "name_en": "stitching connector street",
-        "road_class": "local_connector",
+        "road_class": "branch",
         "length_m_declared": 1246.63
       },
       "geometry": {
@@ -218,7 +218,7 @@
       "properties": {
         "id": "ROAD-007",
         "layer": "ROAD_CENTERLINE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -230,7 +230,7 @@
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
         "name_zh": "缝合联络街",
         "name_en": "stitching connector street",
-        "road_class": "local_connector",
+        "road_class": "branch",
         "length_m_declared": 1246.5
       },
       "geometry": {

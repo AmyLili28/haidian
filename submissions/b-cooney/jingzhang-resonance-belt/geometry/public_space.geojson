@@ -8,7 +8,7 @@
       "properties": {
         "id": "PUBLIC-001",
         "layer": "PUBLIC_SPACE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -299,7 +299,7 @@
       "properties": {
         "id": "PUBLIC-002",
         "layer": "PUBLIC_SPACE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -590,7 +590,7 @@
       "properties": {
         "id": "PUBLIC-003",
         "layer": "PUBLIC_SPACE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -881,7 +881,7 @@
       "properties": {
         "id": "PUBLIC-004",
         "layer": "PUBLIC_SPACE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -1171,7 +1171,7 @@
       "properties": {
         "id": "PUBLIC-005",
         "layer": "PUBLIC_SPACE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -1461,7 +1461,7 @@
       "properties": {
         "id": "PUBLIC-006",
         "layer": "PUBLIC_SPACE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,

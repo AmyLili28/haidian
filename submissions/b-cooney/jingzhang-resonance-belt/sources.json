@@ -42,6 +42,22 @@
       "path": "brief/site-package/agent_taskbook.json",
       "source_type": "user_provided_cleared",
       "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "CASE-STUDIES",
+      "source_type": "external_public_background",
+      "usable_for_formal": "background_only",
+      "usage": "全球生成式声景、公共空间、健康城市与 AI 活动运营的公开背景案例，仅作设计参照与背景依据，不作为法定控制或正式评分数据。Public background references on generative soundscapes, public space, healthy cities, and AI-event operations; design inspiration and background only, not statutory control or formal-scoring data.",
+      "references": [
+        "Brian Eno, generative/ambient functional music (Music for Airports, 1978)",
+        "Oodi Central Library, Helsinki — civic third place",
+        "Barcelona Superblocks (Superilles) — health-oriented street reallocation",
+        "Sónar Barcelona — music + technology festival",
+        "Ars Electronica, Linz — AI art, open lab and honor system",
+        "Singapore Smart Nation — public-service-led civic AI",
+        "teamLab — immersive, accessible public installations",
+        "Sidewalk Labs Toronto — cautionary data-governance case"
+      ]
     }
   ]
 }

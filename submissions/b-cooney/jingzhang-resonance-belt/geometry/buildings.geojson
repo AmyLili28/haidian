@@ -8,7 +8,7 @@
       "properties": {
         "id": "BLDG-001",
         "layer": "BUILDING_FOOTPRINT",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -57,7 +57,7 @@
       "properties": {
         "id": "BLDG-002",
         "layer": "BUILDING_FOOTPRINT",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -106,7 +106,7 @@
       "properties": {
         "id": "BLDG-003",
         "layer": "BUILDING_FOOTPRINT",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,

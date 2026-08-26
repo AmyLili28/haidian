@@ -8,7 +8,7 @@
       "properties": {
         "id": "CON-001",
         "layer": "HERITAGE_PROTECTION",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -58,7 +58,7 @@
       "properties": {
         "id": "CON-002",
         "layer": "WATER_SYSTEM",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,

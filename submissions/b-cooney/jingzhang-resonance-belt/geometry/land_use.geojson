@@ -8,7 +8,7 @@
       "properties": {
         "id": "LU-001",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -59,7 +59,7 @@
       "properties": {
         "id": "LU-002",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -110,7 +110,7 @@
       "properties": {
         "id": "LU-003",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -161,7 +161,7 @@
       "properties": {
         "id": "LU-004",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -212,7 +212,7 @@
       "properties": {
         "id": "LU-005",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -263,7 +263,7 @@
       "properties": {
         "id": "LU-006",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -318,7 +318,7 @@
       "properties": {
         "id": "LU-007",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -369,7 +369,7 @@
       "properties": {
         "id": "LU-008",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -420,7 +420,7 @@
       "properties": {
         "id": "LU-009",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -471,7 +471,7 @@
       "properties": {
         "id": "LU-010",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -526,7 +526,7 @@
       "properties": {
         "id": "LU-011",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -581,7 +581,7 @@
       "properties": {
         "id": "LU-012",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -632,7 +632,7 @@
       "properties": {
         "id": "LU-013",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -683,7 +683,7 @@
       "properties": {
         "id": "LU-014",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -734,7 +734,7 @@
       "properties": {
         "id": "LU-015",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
@@ -785,7 +785,7 @@
       "properties": {
         "id": "LU-016",
         "layer": "LAND_USE",
-        "source_type": "agent_designed_from_provisional_constraint",
+        "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "official_boundary": false,
