@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Child-friendly Loop (KID.JZ) - Data Overview (concept)</title>
+<style>@font-face{font-family:'Noto Sans SC Subset';src:url(data:font/woff;base64,AAEAAAARAQAABAAQQkFTRYwGwEgAAAOgAAABCkdQT1NEdkx1AAAErAAAACBHU1VCbTRZLgAABMwAAABCT1MvMlU7UqEAAAGYAAAAYFNUQVR5nW6hAAAFEAAAADJjbWFwAAAAAAAAAfwAAAAEZ2FzcAAAAAsAAAOYAAAACGdseWYAAAAAAAACBAAAAAFoZWFkInxIGgAAARwAAAA2aGhlYQPqAyIAAAFUAAAAJGhtdHgD6ABkAAAB+AAAAARsb2NhAAAAAAAAAgAAAAAEbWF4cAACAAEAAAF4AAAAIG5hbWUX+09yAAACCAAAAXBwb3N0/4YAMgAAA3gAAAAgdmhlYQH3EfUAAAVEAAAAJHZtdHgD6AAAAAAFaAAAAAQAAQAAAAIKPYSqRbdfDzz1AAMD6AAAAADcsCSnAAAAAOa02FMAAAAAAAAAAAAAAAYAAgAAAAAAAAABAAAD6P84AAAD6AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQABAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAMD3gGQAAUAAAKKAlgAAABLAooCWAAAAV4AMgFFAAACCwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFEQk8AAAAg//8DcP+IAAAEiAEgAAAAAQAAAAACHwLdAAAAIAAGA+gAZAAAAAAAAAAAAAAAAAAAAAwAlgADAAEECQABABgAAAADAAEECQACAA4AGAADAAEECQADAEAAJgADAAEECQAEABgAAAADAAEECQAFAEoAZgADAAEECQAGAB4AsAADAAEECQEAAA4AGAADAAEECQEFAA4AGAADAAEECQEJAAwAzgADAAEIBAABABgAAAADAAEIBAACAA4AGAADAAEIBAAEABgAAABOAG8AdABvACAAUwBhAG4AcwAgAFMAQwBSAGUAZwB1AGwAYQByADIALgAwADAANAA7AEEARABCAE8AOwBOAG8AdABvAFMAYQBuAHMAUwBDAC0AVABoAGkAbgA7AEEARABPAEIARQBWAGUAcgBzAGkAbwBuACAAMgAuADAANAA7ADIANAAxADEAMQA0ADIAMQAwADEAMwAwADsAbgBvAG4ALQByAGUAbABlAGEAcwBlAE4AbwB0AG8AUwBhAG4AcwBTAEMALQBUAGgAaQBuAFcAZQBpAGcAaAB0AAMAAAAAAAD/gwAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAB//8ACgABAAEADABqAAAA6gBiAAQABkRGTFQAJmN5cmwAOGdyZWsAOGhhbmkAJmthbmEAJmxhdG4AOAAGAAAAAAACAAQAHgAkACoApgAGAAAAAAADAAQADAASABgAlAAD/70AdgADAzsAfAAB/4gABAAWAARpY2ZiaWNmdGlkZW9yb21uAAZERkxUACZjeXJsADhncmVrADhoYW5pACZrYW5hACZsYXRuADgABgAAAAAAAgAEAB4AKgA2ADoABgAAAAAAAwAEAAwAGAAkACgAAwA1AAYAAAAAgAAAAwOzAAYAAAABgAAAAQAAAAEAeAABAAAADAABAAAAFgABAAEAAEAAQAAAAgAAAAEAAOUbAAAAAQAAAAoAHAAeAAFERkxUAAgABAAAAAD//wAAAAAAAAABAAAACgA+AEAABkRGTFQAJmN5cmwAMGdyZWsAMGhhbmkAMGthbmEAMGxhdG4AMAAEAAAAAP//AAAAAAAAAAAAAAAAAAEAAQAIAAEAAAAUAAEAAAAcAQB3Z2h0AQkAAAACAAIAAAACAQUBkAAAAZAAAAHzAAAAAAABEAAB9P4MAAAD6AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAQPoAAA=) format('woff');font-weight:normal;font-style:normal;font-display:block;}
+html,body,body *{font-family:'Noto Sans SC Subset','PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif !important;}
+html,body{margin:0;padding:0;background:#eef2f6;color:#162033;font-family:'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.55}
+header{background:#12324a;color:#fff;padding:26px 24px}
+.wrap{max-width:1100px;margin:auto}
+h1{margin:0 0 8px;font-size:24px}
+.pill{display:inline-block;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 12px;font-size:12px;margin:4px 6px 0 0;color:#e2e8f0}
+main{padding:20px 24px}
+.sheet{background:#fff;border:1px solid #d7dee8;border-radius:8px;padding:18px 20px;margin-bottom:16px}
+h2{font-size:18px;margin:0 0 12px}
+.stat{display:inline-block;width:220px;vertical-align:top;border:1px solid #dfe6ef;border-radius:8px;padding:12px;margin:6px;background:#f8fafc}
+.stat b{display:block;font-size:20px;margin-top:4px}
+.stat span{color:#667085;font-size:12px}
+.warn{background:#fff6ee;border:1px solid #e2a06b;border-radius:8px;padding:12px 14px;color:#7a3a12;font-size:13px}
+table{border-collapse:collapse;width:100%;margin-top:8px}
+th,td{border:1px solid #d7dee8;padding:8px 10px;text-align:left;font-size:13px}
+th{background:#eef2f6}
+svg{width:100%;height:auto;border:1px solid #b9c4d3;border-radius:8px;background:#f8fafc}
+.translation-link{text-align:right;font-size:13px;margin:6px 0 0}
+.translation-link a{color:#1d6fa5;font-weight:700}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>Child-friendly Loop (KID.JZ): Safe School Routes and Parent-Child Public Spaces - Data Overview</h1>
+<p>A child-friendly concept along the Centennial Jingzhang AI Innovation Belt (one school route - one playground - one family stop), five AI-augmented services x ten scenario cards. Everything is a concept suggestion; metrics are recomputed from this package's provisional geometry and recalculated after official data release.</p>
+<span class="pill">One route - one park - one stop</span><span class="pill">Five AI services</span><span class="pill">Ten scenario cards</span><span class="pill">Anonymized only</span><span class="pill">Human review</span><span class="pill">No over-surveillance</span><span class="pill">provisional concept</span>
+</div></header>
+<main class="wrap">
+<p class="translation-link"><a href="index.html">Read the Chinese original</a></p>
+
+<section class="sheet"><h2>Overview map (concept schematic, not to scale)</h2>
+<svg viewBox="0 0 1120 560" role="img">
+<rect x="60" y="50" width="1000" height="470" rx="12" fill="none" stroke="#162033" stroke-width="4"/>
+<rect x="60" y="100" width="1000" height="90" fill="#dbe6ef" stroke="#162033" stroke-width="3"/>
+<text x="560" y="130" text-anchor="middle" font-size="20" fill="#162033">Coordinated research area about 43.6 km2 (official textual caliber)</text>
+<text x="560" y="162" text-anchor="middle" font-size="14" fill="#4b5563">Overall design area about 11.4 km2 (this package's provisional outline) - key areas about 368.4 ha</text>
+<rect x="120" y="250" width="240" height="200" fill="#dff1e5" stroke="#2f7a44" stroke-width="2"/>
+<text x="240" y="335" text-anchor="middle" font-size="18" fill="#162033">Safe school route</text>
+<text x="240" y="360" text-anchor="middle" font-size="12" fill="#4b5563">Zhongzhi side (concept)</text>
+<rect x="440" y="250" width="240" height="200" fill="#fdf0df" stroke="#c96f1e" stroke-width="2"/>
+<text x="560" y="335" text-anchor="middle" font-size="18" fill="#162033">Children's playground</text>
+<text x="560" y="360" text-anchor="middle" font-size="12" fill="#4b5563">AI Origin Community side (concept)</text>
+<rect x="740" y="250" width="240" height="200" fill="#ebe6f7" stroke="#5f46a8" stroke-width="2"/>
+<text x="860" y="335" text-anchor="middle" font-size="18" fill="#162033">Family service stop</text>
+<text x="860" y="360" text-anchor="middle" font-size="12" fill="#4b5563">Dazhongsi side (concept)</text>
+<path d="M360 330 H440" stroke="#64748b" stroke-width="6" stroke-dasharray="14 10"/>
+<path d="M680 330 H740" stroke="#64748b" stroke-width="6" stroke-dasharray="14 10"/>
+<path d="M240 250 V210 M560 250 V210 M860 250 V210" stroke="#c9a227" stroke-width="5" stroke-dasharray="10 8"/>
+<text x="560" y="480" text-anchor="middle" font-size="13" fill="#7a3a12">PROVISIONAL - concept boundary only, not an official redline; recalculate after official data release</text>
+</svg></section>
+
+<section class="sheet"><h2>Core metrics (recomputed from this package's provisional geometry, low-precision display)</h2>
+<span class="stat"><span>site_area_sqm (provisional site area)</span><b data-metric="site_area_sqm" data-value="11413000">11413000</b></span>
+<span class="stat"><span>green_ratio (design green ratio, design-layer caliber)</span><b data-metric="green_ratio" data-value="0.1243">0.1243</b></span>
+<span class="stat"><span>public_space_ratio (public-space ratio, design-layer caliber)</span><b data-metric="public_space_ratio" data-value="0.0045">0.0045</b></span>
+<p class="warn">Note: the three metrics are recomputed from the provisional site_boundary / green_space / public_space geometry by the same formulas (EPSG:4548); confidence is low (provisional). The land-class caliber (park green about 26.94%) and the design-layer calibers (green_ratio about 12.4%) share the same denominator but different numerator calibers; both are kept separate and unambiguous. Official boundary, green-space and public-space data trigger recalculation by the same formulas and update all displays.</p>
+</section>
+
+<section class="sheet"><h2>AI scenarios and governance baseline</h2>
+<p>Five AI-augmented services (commute safety hints, venue booking, play supervision, family event matchmaking, feedback summarization) x ten scenario cards; runtime quality control (concept protocol): data quality, model evaluation, error stratification, runtime monitoring. Overriding three clauses: anonymized aggregation only; human review of key decisions; no over-surveillance (no individual-identification tracking; no collection of identifiable minors' information).</p>
+<table>
+<tr><th>Scenario card</th><th>Main inputs (anonymized)</th><th>Outputs</th><th>Model boundary &amp; failure modes</th><th>Human duties &amp; exit</th></tr>
+<tr><td>C1 Commute hotspot</td><td>Anonymous segment counts by period</td><td>Peak-period hints</td><td>Segment statistics only; stop if identification suspected</td><td>Community review before release; no staff, no service</td></tr>
+<tr><td>C2 Crossing risk digest</td><td>Anonymous crossing observations</td><td>Risk-point digest</td><td>No liability judgements; degrade if data missing</td><td>Transport-department review; assessment precedes</td></tr>
+<tr><td>C3 Pickup staggering</td><td>Anonymous timing statistics at pickup points</td><td>Staggering drafts</td><td>Suggestions only, no conclusions</td><td>Parent representatives confirm; follow-up</td></tr>
+<tr><td>C4 Venue slot booking</td><td>Slot demand registrations</td><td>Booking drafts</td><td>No personal profiling; waiting list on overflow</td><td>Human counter and manual scheduling first</td></tr>
+<tr><td>C5 Play anomaly alert</td><td>Anonymous boundary-pattern classes</td><td>Anomaly alert (no identification)</td><td>Caregiver-attention cue only; no identity recognition</td><td>Staff on site; retract on deviation</td></tr>
+<tr><td>C6 Event matchmaking</td><td>Public calendar aggregation</td><td>Draft proposals</td><td>No personal recommendation; cancel if under-subscribed</td><td>Community staff publish; liability and exit clauses</td></tr>
+<tr><td>C7 Feedback clustering</td><td>Keyword clustering of opinions</td><td>Topic digests</td><td>No personal profiles; degrade for small samples</td><td>Council human discussion; public briefing</td></tr>
+<tr><td>C8 Agenda clustering</td><td>Anonymized meeting notes</td><td>Topic ranking suggestions</td><td>No individual assessment of children</td><td>Adult facilitators moderate; minutes transcribed by hand</td></tr>
+<tr><td>C9 Nature activities</td><td>Public seasonal calendar</td><td>Nature-class suggestions</td><td>No location collection; cancel on weather failure</td><td>Nature tutor confirms; on-site manual signup</td></tr>
+<tr><td>C10 Annual digest</td><td>Anonymous annual assessments</td><td>Draft digest summaries</td><td>Aggregate only; unknown if key data missing</td><td>Expert and resident double check; disclosure</td></tr>
+</table></section>
+
+<section class="sheet"><h2>Benchmark cases and mechanism transfer (public-channel registration)</h2>
+<table>
+<tr><th>Case</th><th>Source (institution &amp; year)</th><th>Mechanism</th><th>Our transfer</th></tr>
+<tr><td>Child Friendly Cities Initiative (CFCI)</td><td>UNICEF / 2022</td><td>Local councils, child participation, disaggregated data in local planning</td><td>Children's council, annual assessment disclosure, child participation</td></tr>
+<tr><td>Japan joint school-route inspections</td><td>MEXT, MLIT, NPA / 2021</td><td>Schools, parents, road managers, police joint inspection and measure lists</td><td>School-route co-governance and annual assessment disclosure</td></tr>
+<tr><td>Woonerf residential yards</td><td>CROW / 2023</td><td>15 km/h residential yards, design elements, choice framework</td><td>Calmed cross-sections and low-speed child experience</td></tr>
+<tr><td>Seoul School Zones</td><td>Seoul Metropolitan Government / 2021</td><td>Speed limits, staggered pickup, parent volunteer escorts</td><td>Pickup organization and volunteer rotation (their camera practices are not cited)</td></tr>
+<tr><td>Walking Buses</td><td>BBC (UK) / 2000</td><td>Adult volunteer rota, fixed stops, high-visibility escort</td><td>Volunteer rotation and escort scheduling</td></tr>
+<tr><td>Barcelona Superblocks</td><td>Barcelona City Council / 2015</td><td>Street calming, green-hub network</td><td>Green-belt node network and accessibility concepts</td></tr>
+</table></section>
+
+<section class="sheet"><h2>Land use - single caliber (classification vs design-layer calibers)</h2>
+<p>Classification caliber (land_use.geojson union areas / site area, sums to 100.0%): park green 26.94%, research 17.65%, urban residential 17.25%, commercial 11.58%, business and finance 9.14%, education 7.62%, community service 6.77%, sports 3.06%. Design-layer calibers: green_ratio about 12.4% (green_space layer / site area), public_space_ratio about 0.45%. The two calibers share the same denominator but different numerators; official data trigger separate recalculation by the same formulas.</p>
+<p class="warn">All content is concept suggestion and reference material; no FAR, heights, retain-renovate-demolish, investment or engineering conclusions are given; no official data are fabricated; no idea is presented as a settled arrangement; provisional boundary basis; recalculation after official data release.</p></section>
+
+<section class="sheet"><h2>Figure index (concept)</h2>
+<p>site-overview (three-tier scope and layout), land-use-structure (single caliber), metrics-evidence (ratios and counts on separate axes), mobility-bluegreen (slow-traffic and blue-green), key-areas (three nodes in detail), ai-ecosystem-map (AI ecosystem and scenario cards), logo-kid-jz (logo and visual rules). All carry provisional and not-to-scale notes.</p></section>
+
+<section class="sheet"><h2>Sources and rights</h2>
+<p>Source registry in sources.json (19 entries with publisher, link, access date, licence and reuse boundaries); Noto Sans SC under OFL; icons, logo, map geometry and figures are original or self-generated assets of this package; names and marks are internal working codenames at the concept stage, not for external use or registration before trademark clearance.</p></section>
+
+</main>
+</body>
+</html>

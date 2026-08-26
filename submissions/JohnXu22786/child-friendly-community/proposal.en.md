@@ -1,14 +1,264 @@
-# CHILD-FRIENDLY LOOP (KID.JZ): Safe School Routes & Parent-Child Public Spaces (Concept)
+---
+title: "Child-friendly Loop (KID.JZ): Safe School Routes & Parent-Child Public Spaces (Concept)"
+author_github: "JohnXu22786"
+language: "en"
+proposal_format_version: "2"
+bilingual_contract_version: "1"
+translation_of: "proposal.md"
+license: "COMMUNITY-DISPLAY-ONLY"
+summary: "This is the English companion of the Chinese proposal (proposal.md is the binding narrative; this file is a substantive equivalent translation). It presents the Child-friendly Loop (KID.JZ) concept along the Centennial Jingzhang AI Innovation Belt: a child-friendly special concept anchored in the all-age / public-service dimension and the family dimension of the youth-friendly public-space track. The spatial skeleton is \"one school route, one playground, one family stop\": a child-priority school route near Zhongzhi Park, a children's playground on the AI Origin Community side, and a parent-child service stop near Dazhongsi, connected along the green belt. Ten AI+ scenario cards serve five AI-augmented services (commute safety hints, venue booking, play supervision, family event matchmaking, feedback summarization) that handle anonymized aggregated data only, require human review of key decisions, and forbid over-surveillance (no individual-identification tracking; minors' personal information is strictly protected). Mechanism proposals include joint school-route co-governance, time-shared venues, family-service points and volunteer rotation, a children's council, annual safety assessment disclosure, and annual programs. Six benchmark cases (UNICEF Child Friendly Cities Initiative, Japan joint school-route inspections, Dutch woonerf, Seoul school zones, UK walking bus, Barcelona superblocks) are registered per-item from public channels and referenced for mechanisms only. Two-way slow-traffic priority and low-intervention blue-green integration; the three formal core metrics (site_area_sqm, green_ratio, public_space_ratio) are recomputed from this package's provisional geometry, anchored to the official textual scope. Everything is a concept suggestion on a provisional boundary; official values trigger recalculation when published."
+tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
+scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
+iteration: "v2.1"
+---
 
-**English convenience summary** (full binding narrative is the Chinese proposal.md; this summary may lag the zh text).
+> Let children walk to school on their own; let families live in the city at ease.
+> One school route - one playground - one family stop.
 
-以「童行智环（KID·JZ · 儿童友好通学路与亲子公共空间）」构建沿京张AI创新带的儿童友好专项概念（对应公开任务书全龄友好与公共服务设施维度、青年友好公共空间 track 家庭维度，以及儿童友好城市公开政策方向）：以「一学一园一角」组织儿童友好网络，「安全通学路」为串联学校与住区的儿童优先通学路径（人车分离、过街安全保障、家长接送点，众智园侧）、「童趣公园」为沿绿带的儿童游戏与自然教育场地（无动力器械、沙水游戏、自然观察，AI原点社区侧）、「亲子驿站」为母婴与亲子服务点（哺乳、换洗、亲子阅读、临时托管意向，大钟寺侧），三节点沿京张绿带组织连续的儿童友好动线；五类AI+场景（通学安全提示AI、场地预约AI、游玩守护AI、亲子活动组局AI、意见反馈AI）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控（不进行个体识别式追踪，尤其严格落实未成年人个人信息保护要求）；要素机制均为概念建议：通学路共建共治、场地错时共享、亲子服务积分、儿童议事会、年度安全评估公示；对标案例（儿童友好城市国内外公开实践、日本通学路安全对策、荷兰WOONERF共享街道、新加坡社区儿童设施）仅按公开渠道信息概述；交通慢行优先、蓝绿空间低干预融合布置，三项formal核心指标（site_area_sqm、green_ratio、public_space_ratio）以本包几何复算、面积以官方文本口径为底，分期实施+年度复算与公示计划。全部为概念建议、参考方案，不给出容积率、建筑高度、具体拆改留、设施规模、投资测算或工程实施结论，不编造任何官方数据、儿童数量、场次或政策承诺，不把设想写成已确定安排，基于 provisional 边界，官方数据发布后复算。
+This is the English convenience translation of package No. 46 (Chinese original: Child-friendly Loop, KID.JZ). It targets the all-age friendly and public service dimension of the Centennial Jingzhang AI Innovation Belt open call, plus the family dimension of the youth-friendly public-space track, and responds to the public policy direction of child-friendly cities. The whole document is an open co-creation concept: it does not replace statutory planning, carries no government-confirmed conclusion, and all areas and metrics rest on provisional geometry to be recalculated when official data are published. Minor personal-information protection is a hard boundary: monitoring and guardianship are anonymized-aggregation only, no individually identifiable information is collected, no individual-identification tracking is performed, and every key decision is reviewed by a human.
 
-## Outline
-- 一带总体概念：童行智环——儿童友好通学路与亲子公共空间的总体统筹（含主名称、英文名称与命名体系）。
-- 儿童友好作为要素机制一环：通学路、童趣公园与亲子驿站构建「安全-游戏-服务」协同回路；对标案例（儿童友好城市公开实践、日本通学路安全对策、荷兰WOONERF、新加坡社区儿童设施）仅按公开渠道信息概述。
-- 五类AI+场景：通学安全提示AI、场地预约AI、游玩守护AI、亲子活动组局AI、意见反馈AI，全部数据匿名聚合+人工复核，严格不采集未成年人可识别信息。
-- 亲子公共空间：通学路安全节点、童趣公园游戏场、亲子驿站服务角，含成人值守与意见复核机制。
-- 「童行智环」叙事：铁路时期儿童与家庭的出行记忆与当代儿童友好城市的叙事对话——一带曾护送无数家庭远行，如今守护孩子们上学与玩耍（概念叙事）。
-- 儿童友好运营体系：通学路共建共治与儿童议事会、场地错时共享、年度活动体系（童玩周、安全通学日、家庭自然季等概念活动），机制为概念建议。
-- Three formal core metrics (site_area_sqm, green_ratio, public_space_ratio) are recomputed from this package's geometry; all figures are concept suggestions on a provisional boundary; recompute when official data is published.
+## Design Basis and Source List
+
+The governing references are, in order: the official announcement (the three-positioning, five-functions, three-areas-two-wings and the three-tier scope textual caliber), the agent taskbook excerpt (agent.1-6 tasks and boundary clauses), the site package, the public reference registry, the professional standards matrix, and the call's prohibited-statement list. The official textual caliber states: coordinated research area about 43.6 km2, overall design area about 11.4 km2, key areas about 368.4 hectares; this plan only cites that caliber in its narrative and never replaces official geometry. Policy and statutory references include the national guidance on building child-friendly cities (NDRC 2021, doc. [2021] No. 1380) and the Beijing Urban Renewal Regulation; only direction is paraphrased, official releases govern.
+
+| Category | List item | Use |
+| --- | --- | --- |
+| Announcement & taskbook | Open-call announcement, agent.1-6 taskbook excerpt | Positioning, scopes, three-tier frame, task-coverage basis |
+| Site package | Site materials, reference pack, standards matrix | Site conditions and urban-design depth reference |
+| Policy & statute | Child-friendly city guidance, Beijing Urban Renewal Regulation | Direction reference only |
+| Recomputable geometry | This package's geometry layer (nine GeoJSON files) | Provisional design recomputation and machine checks |
+| International cases | Six public-channel cases (see case table) | Mechanism transfer only; no scale or outcome data |
+
+> Evidence anchors: [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT], [source:DATA-SRC-AGENT-TASKBOOK].
+
+## Three-Level Scope Framework
+
+The three-tier scope is linked by a single responsibility chain of problem-space-operation-evidence-exit. The official three tiers (about 43.6 km2 / about 11.4 km2 / about 368.4 ha) are the frame; this package's own recomputable sub-scope sits inside the overall design area, and its three nodes sit inside the key-area scope. The package's geometry and metrics are declared under that positioning only and introduce no separate caliber.
+
+| Tier | Core problem | Child-friendly Loop answer | Main outputs |
+| --- | --- | --- | --- |
+| Coordinated research area (about 43.6 km2) | How do child and family needs become belt-wide public value and talent ecology | Child-friendly ecosystem map, six personas, ten AI+ scenario cards, regional interfaces | Ecology, industry and operation mechanisms |
+| Overall design area (about 11.4 km2) | How does stock urban fabric let children walk safely and families obtain services nearby | One school route - one playground - one family stop, slow-traffic linkage, blue-green base | Land use, roads, blue-green, public space, phasing |
+| Key areas (about 368.4 ha) | How do the three areas differentiate | Three prototypes: school route, playground, family stop | Node design, cross-sections, component library, operation mapping |
+
+Regional cooperation: under the announcement's textual caliber, the belt relates to the Beiwei community, Future Science City, Huairou Science City, the economic development zone and the Beijing-Tianjin-Hebei region. This concept takes no statutory interface responsibility in either wing but reserves "service interfaces" as concepts: time-shared slots for school-route safety walks with surrounding parks, time-shared family services with neighboring communities, and annual safety-assessment disclosure open to comparison with Beijing-Tianjin-Hebei child-friendly practice. All are suggestions pending cross-area mechanism research.
+
+> Evidence anchors: [source:DATA-SRC-AGENT-TASKBOOK].
+
+## Coordinated Research Area: Industry and Future City Research
+
+Industry dimension: child-friendliness is not separated from AI innovation. The five AI-augmented services (commute safety hints, venue booking, play supervision, family event matchmaking, feedback summarization) are themselves samples of the AI+ scenario enabling paradigm in family life, and scenario-based public goods for young-family talent; the open rule direction of child-friendly governance (annual safety-assessment disclosure, children's council) echoes the AI-governance global-discourse function. The ecosystem dimension is organized as an "AI innovation ecosystem map": data factors (anonymized aggregation only), computation (a future data-and-computation coordination mechanism, concept), capital (small pilot budgets only, no amount conclusions) and talent (a developer community) form loops with the five scenario services; see the scenario section and the ecosystem figure.
+
+Benchmark cases are registered per item from public channels and summarized for mechanism only, without outcome data or scale transfer:
+
+| Case | Source (institution & year) | Mechanism | Our transfer |
+| --- | --- | --- | --- |
+| UNICEF Child Friendly Cities Initiative (CFCI) | UNICEF / 2022 | Local councils, child participation, disaggregated data in local planning | Children's council, annual assessment disclosure, child participation |
+| Japan joint school-route inspections | Japan Ministry of Education, MLIT, NPA / 2021 | Schools, parents, road managers, police joint inspection and measure lists | School-route co-governance and annual safety assessment disclosure |
+| Woonerf residential yard streets | CROW / 2023 | 15 km/h residential yards, design elements and choice framework | Calmed cross-sections and low-speed child experience |
+| Seoul School Zones | Seoul Metropolitan Government / 2021 | Speed limits, staggered pickup, parent volunteer escorts | Pickup organization and volunteer rotation (their camera practices are not cited) |
+| Walking Buses | BBC (UK) / 2000 | Adult volunteer rota, fixed stops, high-visibility escort | Volunteer rotation and escort scheduling |
+| Barcelona Superblocks | Barcelona City Council / 2015 | Street calming, 200 m concept walking ring, green-hub network | Green-belt node network and child-facility accessibility concepts |
+
+Industry testing is not presented as approved operation: the "test scenarios" are conceptual interfaces inviting enterprises, communities and universities to co-solve (see the test scenario table). The international-communication system is likewise conceptual: bilingual content templates, case links and open-page design suggestions, with no promise of external publication.
+
+> Evidence anchors: [source:DATA-SRC-PROVISIONAL-BOUNDARIES].
+
+## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
+
+The overall structure is "one school route - one playground - one family stop": a child-priority school route on the Zhongzhi Park side (linking schools and residential areas, separated pedestrian priority, calmed crossings, parent pickup points); a children's playground on the AI Origin Community side (unpowered equipment, sand-and-water play, nature observation along the green belt); and a parent-child service stop on the Dazhongsi side (nursing, changing, parent-child reading, and a temporary-care intention zone). The three nodes are linked by a continuous slow-traffic and blue-green network, with connection intentions to rail stations and school entrances.
+
+### Brand and visual identity direction (concept)
+
+Naming: Chinese "Child-friendly Loop"; English "Child-friendly Mobility & Play Loop (KID.JZ)", meaning "children walk on the loop, families form a loop in the city". The package provides a logo artwork and visual rules (see the logo figure): a "route ring plus child-heart nodes" motif - a closed path ring holding three colored child nodes - with the Jingzhang railway grey (#4A5A6A), green-belt green (#3E8E5A) and warm orange (#E8863A); font: Noto Sans SC (OFL licensed, registered); signage direction: high contrast, large type and large tactile identifiers serving young and non-Chinese-speaking users; specific signage furniture styles remain for later deepening. Prior rights and use boundary: no trademark search was completed at the concept stage; all names and marks are treated as internal working codenames, and until rights are cleared they may not be used externally, registered or entered into any licensing process.
+
+The renewal path is stock-first, small-scale, reversible: priority to existing green belts, street spaces and public-service facilities, no pre-set retain-renovate-demolish, no demolition areas claimed. Regulatory-plan depth is expressed as problem-spatial object-metric-data gap-recalculation path: geometry-recomputable metrics are given; statutory intensity and engineering conclusions remain pending; the concept never replaces regulatory-plan approval.
+
+![Overall layout (provisional concept geometry)](assets/figures/site-overview.en.png)
+
+![Logo artwork and visual rules (concept)](assets/figures/logo-kid-jz.en.png)
+
+![Land-use structure (single-caliber concept)](assets/figures/land-use-structure.en.png)
+
+> Evidence anchors: [source:DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING], [source:DATA-SRC-PROVISIONAL-BOUNDARIES].
+
+## Detailed Design of Key Areas
+
+The three nodes are reference schemes for professional teams to deepen; function, scale and interface follow field survey and official data. The relationship to surrounding elements (school entrances, residential entrances, rail stations, green-belt interfaces, key intersections, slow-traffic breaks) is expressed as a "concept plus to-verify" two-column approach, with no placement conclusions.
+
+| Node | Function | Space | Public experience interface |
+| --- | --- | --- | --- |
+| Safe school route (Zhongzhi Park side) | Child-priority path linking schools and homes | Separated pedestrian-priority cross-section, calmed crossings, pickup points, shaded seats | Children's independent walking is protected; parents may briefly stop; community volunteers and a human help point exist |
+| Children's playground (AI Origin Community side) | Play and nature-education ground | Unpowered equipment, sand-water zone, nature-observation corner, parent rest gallery | Low-threshold bookable playground; nature classroom for four seasons; parents rest and supervise beside |
+| Family service stop (Dazhongsi side) | Nursing and parent-child service point | Nursing room, changing table, reading corner, temporary-care intention zone, service desk | Pushchair access, basics first; staffed service with paper and phone equivalent paths |
+
+Element relations (concept, pending field verification): calmed crosswalk and pickup point at the school-route school entrance; waiting platform reserved at residential entrances crossing the route; accessible slow-traffic corridor between the rail station and the service stop; low open boundaries and plant transitions at green-belt interfaces; "be seen, be slowed, can wait" calming at key intersections; slow-traffic breaks listed by intersection and crosswalk for walking protection; traffic impact assessment must precede official implementation.
+
+Three pilgrimage landmarks (concept catalogue; everyday child-friendly marvels, not megastructures):
+
+| Landmark | Type | Concept design | Family ritual |
+| --- | --- | --- | --- |
+| Play Tree House | Nature observation | Reversible timber observation deck, birdwatching points, seasonal boards | Nature classes and child-hosted tours |
+| Loop Lighthouse | Safety narrative | A light-and-shadow cue on the route echoing Jingzhang signal sheds | Collect light marks to light the children's map |
+| Warm House | Service friendly | Warm-orange soft eave and breastfeeding-friendly seat at the stop porch | Family service stop and honour wall |
+
+Honour display system (concept): under the name "Honour Roll of the Loop", an honour wall in the stop and a monthly honour gallery in the park display children's proposals, community builders and annual safety guards; all honour information is published with anonymized names and project titles only, no identifiable minor details; selection is co-hosted by the children's council and the community. Reversible component library (concept): "Play Kit" library - every component carries an asset number, material intention, maintenance owner, inspection cycle and removal condition; safety demonstration precedes implementation; no electric or screen dependence.
+
+![Key nodes, sections and operation mapping (concept)](assets/figures/key-areas.en.png)
+
+> Evidence anchors: [data:PACKAGE-GEOMETRY] (node polygons from geometry/key_areas.geojson).
+
+## AI Innovation Ecosystem, Personas, and AI+ Scenarios
+
+Six personas: primary-school children (protagonists of independent commuting and play), parents with children (commute pickup and parenting-service users), grandparent caregivers (less digitally reliant; paper and human paths needed), school teachers (after-school order and safety education collaborators), young families (innovation talent choosing a home by family livability), community and children-service volunteers (co-governance participants).
+
+Ten scenario cards (each lists inputs, outputs, model boundary, failure modes, human duties and exit mechanism; all use anonymized aggregation only, human review of key decisions, no over-surveillance):
+
+| Scenario card | Audience | Inputs (anonymized aggregation) | Output | Model boundary & failure modes | Human duty & exit |
+| --- | --- | --- | --- | --- | --- |
+| Commute hotspot hint | Schools, parents | Anonymous segment counts by period | Peak-period hints | Segment statistics only; stop if identification suspected | Community review before release; no human, no service |
+| Crossing-risk digest | Schools, district | Anonymous crossing observations | Risk-point digest | No liability judgements; degrade if data missing | Transport-department review; assessment precedes |
+| Pickup staggering hint | Parents, volunteers | Anonymous timing statistics at pickup points | Staggering drafts | Suggestions only, no conclusions | Parent representatives confirm; satisfaction follow-up |
+| Venue slot booking | Families, community | Slot demand registrations | Booking drafts | No personal profiling; waiting list on overflow | Human counter and manual scheduling first |
+| Play anomaly alert | Site staff, parents | Anonymized boundary-pattern classes | Anomaly alert (no identification) | Caregiver-attention cue only; no identity recognition | Staff on site; retract on deviation |
+| Family event matchmaking | Community, operators | Public calendar aggregation | Draft proposals | No personal recommendation; cancel if under-subscribed | Community staff publish; liability and exit clauses |
+| Feedback clustering | Children's council, managers | Keyword clustering of opinions | Topic digests | No personal profiles; degrade for small samples | Council human discussion; public briefing |
+| Council agenda clustering | Children's council | Anonymized meeting notes | Topic ranking suggestions | No individual assessment of children | Adult facilitators moderate; minutes transcribed by hand |
+| Nature-activity recommendation | Families, teachers | Public seasonal calendar | Nature-class suggestions | No location collection; cancel on weather failure | Nature tutor confirms; on-site manual signup |
+| Annual assessment digest | Managers, residents | Anonymous annual assessments | Draft digest summaries | Aggregate only; unknown if key data missing | Expert and resident double check; disclosure |
+
+AI runtime quality control (concept protocol): data quality (source registration, two-signer labelling, monthly data-quality report), model evaluation (benchmark tests, human spot checks and confusion-point review), error stratification (false-alarm-rate clustering by block and time of day, anonymous groups only), runtime monitoring (human-review-rate statistics, one-click kill switch, annual re-audit and disclosure). Test scenarios and industrial co-solving are listed in the table: "test scenarios" are process interfaces, not approved operation.
+
+| Test scenario | Invited parties | Test objective (concept) | Success criteria (concept) | Relation to AI+ services |
+| --- | --- | --- | --- | --- |
+| School-route safety co-governance trial | District, schools, parent volunteers | Verify "be seen, be slowed, can wait" calming and joint-inspection workflow | Participant satisfaction and walk-completion rate (anonymous) | Commute-hint AI assists behind anonymized aggregation |
+| Playground playfulness trial | Community, residents, children's council, universities | Verify unpowered and nature-education list play duration and supervision ease | Anonymous stay-duration sample, parent and non-user satisfaction | Play-guardian AI alerts only |
+| Family stop basic-service trial | District, professional bodies, volunteers | Verify nursing, changing, reading and human-staffed service workflow | Service registration rate, waiting time, fairness review (anonymous) | Booking AI runs parallel to paper paths |
+
+Scenario-spatial-operation mapping: commute hints and play guardianship land on the school route and playground, co-governed by community, schools and operator; venue booking and event matchmaking land on the playground and stop, feeding time-sharing and points mechanisms; feedback crosses all three nodes, serving the children's council and annual safety-assessment disclosure. Transport-wise the services only enter commuting and transfer flows through the anonymized aggregation caliber; industry-wise the five services form product samples for young-family talent, parallel to park public-service interfaces (service stop, library-style reading corner, volunteer station); culture-wise nature observation and parent-child reading supply child-friendly cultural content; governance-wise all services follow the published direction of AI governance (anonymized aggregation only, human review of key decisions, no over-surveillance), supervised by community and authorities. All AI runs behind ordinary human service first, AI as retractable assistance: no vendor lock-in, no non-public or personal data, no immature technology presented as deployable.
+
+![AI innovation ecosystem map and scenario-card index (concept)](assets/figures/ai-ecosystem-map.en.png)
+
+> Evidence anchors: [source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES].
+
+## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
+
+Land use follows the codes allowed by the call and fully covers the provisional overall scope; "one school route - one playground - one family stop" is an inter-district service responsibility structure that does not alter statutory land use; once the official regulatory plan arrives, the same algorithm re-cuts and recalculates. Single-caliber note: the shares below are class-by-class union areas over the site union area from land_use.geojson (rounded to 0.01%; deviation from 100% is rounding, under 0.05%); this caliber and the design calibers of green_ratio / public_space_ratio are two non-confusable calibers - the latter two are design-layer calibers of green_space and public_space (same denominator, site area); official data trigger recalculation by the same formulas.
+
+| Land class (guide code) | Conceptual share | Note |
+| --- | --- | --- |
+| Park green space (1401) | 26.94% | Green-belt and park polygons incl. Jingzhang heritage park vibrant-belt concept segment |
+| Research land (0802) | 17.65% | Park research polygons |
+| Urban residential (0701) | 17.25% | Residential polygons |
+| Commercial (0901) | 11.58% | Commercial polygons |
+| Business & finance (0902) | 9.14% | Business polygons |
+| Education/research/design (0804) | 7.62% | School and education polygons |
+| Community service facilities (0702) | 6.77% | Community facility polygons |
+| Sports (0805) | 3.06% | Sports facility polygons |
+
+Building scale: all three nodes follow stock-first reversible renovation; no base area, total scale, FAR or height is given; the temporary-care intention zone scale is pending qualification and safety demonstration. Retain-renovate-demolish in four steps: verify current condition and rights first; retain when safety, heritage and function are satisfied; light renovation for accessibility, fire and family-service interfaces; relocate or delete conceptual components when unsafe or conflicting. Without survey, no demolition area is claimed; demolition volume stays unknown, no placeholder value. Character continues the Jingzhang railway plain industrial scale and Zhongguancun everyday innovation temperament: continuous eave space, low-glare lighting, durable replaceable elements, clear public entrances; formal heights, setbacks, density and fire control follow professional design.
+
+> Evidence anchors: [source:DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311].
+
+## Transport, Rail, Municipal Infrastructure, and Public Services
+
+The school-route direction is "pedestrian priority with traffic calming": a separated pedestrian-priority cross-section, calmed crossings, deceleration and sight conditions, and human organization at pickup points. The slow-traffic system links the three nodes and connects to school entrances and rail stations, encouraging "rail plus walking" family trips. No road alignments, section dimensions, quantities or rail-interchange engineering conclusions are given; all traffic measures are directional concepts; traffic impact assessment (safety, calming design, capacity) must precede implementation, with transport-authority approval. Slow-traffic breaks are expressed as a concept list:
+
+| Break type | Concept measure | On-site verification items |
+| --- | --- | --- |
+| Excessive crossing spacing | Calmed crossing intention | Crosswalk placement, signal timing, measured volumes |
+| Poor intersection sight lines | Low open boundaries and speed cues | Sight triangles, parking and vegetation blocking |
+| Rail-interchange pedestrian conflict | Separation of pickup and station flows | Station exits, measured flows, accessible routes |
+| Cycle crowding on footways | Slow-space hierarchy intention | Peak cycle volumes, parking conditions |
+
+Municipal and public services use small, replaceable, offline components: shaded seats, drinking information, night lighting and large tactile signage along the route; weather-resistant play elements and nature-observation signs at the playground; nursing, changing, reading and a human service desk at the stop. All components enter the "Play Kit" component library with asset number, maintenance owner and inspection cycle. Public-service provision follows "nearby, low threshold, staffed"; no facility counts, scales or service radii are concluded; opening times and staff schedules remain with the operator given safety and staffing conditions.
+
+> Evidence anchors: [source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES].
+
+## Blue-Green Network, Public Space, and Urban Character
+
+The blue-green network uses the existing green belt as its skeleton: shaded school route, playground unfolding along the belt, stop softening the city edge with courtyard and plants. The playground stays unpowered, nature-friendly and playable in all seasons: sand-and-water play close to nature, a nature-observation corner for local plants and migratory birds, durable repairable natural materials, no screens or electric devices. Public space prioritizes five basic provisions: tree shade, rain canopy, seats, drinking information, night-readable signage; play and rest grounds balance age-banded zoning and accessible reach, with caregiver sightlines open - all-age, elder-friendly, accessible and disability-friendly for children; pushchair families and wheelchair users share one place. Urban character fuses three narratives: Jingzhang railway memory (cultural cue points along the route, public history only), Zhongguancun everyday innovation (youth-family vitality) and child-friendly detail (low viewpoint, rounded corners, safe materials). No conflict with heritage, green-line or blue-line constraints; no internet-famous or entertainment-driven staging.
+
+![Slow-traffic and blue-green analysis (concept)](assets/figures/mobility-bluegreen.en.png)
+
+> Evidence anchors: [source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES].
+
+## Renewal Projects, Implementation Policy, and Phasing
+
+Three project categories (concept direction, no quantities or investment estimates; cost expressed in qualitative tiers only):
+
+| Category | Project direction | Main location | Cost tier (estimation method, price basis, coverage, confidence, recompute trigger) |
+| --- | --- | --- | --- |
+| Commute safety | Route cross-section and crossing calming, pickup organization, safety assessment disclosure | School-route corridor | Medium (rough unit prices of similar calming works; public-document year basis; facilities and signage; low confidence; recompute on official estimates) |
+| Play & nature | Playground play field, nature classroom, rest facilities | AI Origin Community green belt | Medium (market average of unpowered equipment; public-document year basis; excludes utilities; low confidence; recompute on official estimates) |
+| Family service | Stop basics, slot booking and time sharing, reading corner | Dazhongsi side | Low (micro-renovation of existing space; public-document year basis; furniture and service desk; low confidence; recompute on official estimates) |
+
+Phasing is a conceptual rhythm (not a settled arrangement): near-term 1-3 years - school-route safety walk-through, playground micro-renovation and family-stop basic-service trial, establishing co-governance and safety-assessment mechanisms; mid-term 3-5 years - deepening the three nodes, slow-traffic linkage and phased trial operation of the ten scenario cards; long-term 5-10 years - a belt-wide child-friendly service network, developer community and annual assessment disclosure. Each phase assumes "assessment first, implementation after"; projects failing traffic-impact, safety or qualification conditions do not enter implementation. The RACI matrix (concept division of labour, to be confirmed by authorities before implementation) and stop/exit conditions follow:
+
+| Task | Accountable (A) | Consulted (C) lead | Collaborators | Informed (I) |
+| --- | --- | --- | --- | --- |
+| School-route walk-through and disclosure | District authority | Local sub-district | Schools, PTA, volunteers | Transport specialists |
+| Playground micro-renovation | Greening authority | Community, operator | Residents, children's council, universities | Landscape experts |
+| Family-stop basics | Civil affairs & health authorities | Sub-district | Professional bodies, volunteers | Child-friendly research institutes |
+| Scenario trial operation | Supervising authority | Operator | Enterprises, developer community | Data-compliance bodies |
+
+Stop conditions and exit mechanisms: traffic-impact or safety assessment fails; trial misses targets two periods in a row without effective remediation; resident-support threshold reached (threshold pending hearings); compliance, qualification or privacy risk events - immediate suspension of the AI service and removal of components; all concept components are reversible, sites restored and results published after removal. Annual programme system (concept):
+
+| Programme | Cycle | Content | Evaluation |
+| --- | --- | --- | --- |
+| Play Week | Annual | Unpowered-play open days and family workshops | Anonymous participant survey and council review |
+| Safe Commute Day | Annual | Joint route walk-through and safety disclosure | Walk-through completion and disclosure rate (anonymous) |
+| Family Nature Season | Annual | Nature-classroom four seasons and birdwatching | On-site registration and tutor feedback |
+
+Developer community and long-term conversion (concept): under the name "KID.JZ Developer Community", open the five scenarios' interface documentation and human-review mechanism explanations, and run periodic co-creation events; scenario opening follows graded registration (concept): internal trial first, community trial second, and the minors-assessment class limited to anonymized aggregation with human review; honours disclosure (concept: annual selection and public-display conditions, no award amounts); via points, rotation and volunteer mechanisms to sustain long-term staffing, forming a convertible-asset catalogue of "child-friendly public goods" (concept).
+
+> Evidence anchors: [source:DATA-SRC-AGENT-TASKBOOK].
+
+## Metrics, Area Recalculation, and Compliance Matrix
+
+The conceptual metric system has three classes: safety (route calming completion, crossing compliance, annual assessment disclosure rate), service (stop basic-service availability, booking fairness, point-system transparency) and vitality (anonymized park-use heat, council participation, feedback closure rate). These are monitoring directions only, without target values or performance commitments. The three formal core metrics follow the contract and are recomputable from this package's geometry:
+
+| Metric | Formula and denominator | Data source | Confidence | Use restriction | Recompute trigger |
+| --- | --- | --- | --- | --- | --- |
+| site_area_sqm | Site union area (EPSG:4548) | geometry/site_boundary.geojson | low (provisional) | Not an official redline or planning-area basis | Immediately on official boundary release |
+| green_ratio | Green union area / site union area | geometry/green_space.geojson and site_boundary | low (provisional) | Design-model value only | On official green-space data release |
+| public_space_ratio | Public-space union area / site union area | geometry/public_space.geojson and site_boundary | low (provisional) | Design-model value only | On official public-space data release |
+
+Recomputed package values (low-precision display rule): site area about 1141.28 hectares (consistent with the announcement's about 11.4 km2 textual caliber; self-calculated per the announcement, not officially issued), design green ratio about 12.4% (rounded from 12.425%), public-space ratio about 0.45%. The difference between the land-class caliber and the design calibers and its citation rules are in the land-use section; ratios and counts are charted on separate axes to avoid misleading visual comparison (see the metrics evidence figure). FAR, heights and other metrics depending on unpublished official controls remain unknown, values cleared, with reasons; no placeholders. The compliance matrix connects agent.1-6, the three positionings, five functions, three areas and two wings and boundary clauses item by item (see compliance_matrix.json), self-checked against the prohibited-statement list.
+
+![Core metric evidence (ratios and counts on separate axes)](assets/figures/metrics-evidence.en.png)
+
+> Evidence anchors: [source:DATA-SRC-PROVISIONAL-BOUNDARIES], [data:PACKAGE-GEOMETRY].
+
+## Risk, Copyright, and Compliance
+
+| Risk | Mitigation |
+| --- | --- |
+| Provisional boundary misread as statutory redline | Provisional stamps on every figure and page; no area or redline conclusions |
+| Concept mistaken for implementation scheme | Assessment precedes all measures; no implementation without traffic-impact assessment |
+| Minors' personal-information protection breached | Anonymized aggregation only; no collectable identifiable minor information; no identification tracking; human review of key decisions; no over-surveillance |
+| Concepts presented as settled arrangements | "Intention", "trial direction", "concept suggestion" wording throughout |
+| Mass surveillance-style governance | Segment-level anonymous statistics only; any individual-identification approach is excluded |
+
+Copyright and compliance: text, tables, logo and visual identity are original works by the author with AI assistance; benchmark cases are registered per item from public channels and summarized for mechanisms only, with no copying of protected images, marks or long passages; no unauthorized real trademarks, portraits or copyrighted material; public policies and statutes are paraphrased for direction, official releases govern. Generation disclosure: drafted and revised with AI assistance under human verification and finalization. Asset rights: Noto Sans SC under OFL, registered; icons, logo, map geometry and figures are original or self-generated assets, reuse boundaries in sources.json and manifest notes; no invented government bodies, all data-and-computation organisation expressed as "future data-and-computation coordination mechanism (concept)". Prior rights: no trademark search completed at concept stage; names and marks are internal working codenames pending clearance before external use or registration. This proposal is no government endorsement, implementation approval, statutory plan, construction document, investment promise or safety certification; before formal deepening, official boundaries, ownership, terrain, transport, heritage, fire and public-service surveys plus full metric recalculation are required. No definite unopen-source components; any future open-source scope must await the rights clearance above.
+
+> Evidence anchors: [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT].
+
+## References
+
+The following is the public-channel reference index; publisher, link, access date, licence and reuse boundary are registered in sources.json.
+
+| Category | Item | Use |
+| --- | --- | --- |
+| Taskbook & site package | Agent taskbook excerpt, call site package, public reference registry, professional standards matrix | Task coverage, boundary clauses and design depth |
+| Announcement | Centennial Jingzhang AI Innovation Belt open-call announcement | Three positionings, five functions, three areas / two wings, three-tier scope textual caliber |
+| Policy | National guidance on building child-friendly cities (2021, No. 1380) | Growth-space friendliness and child-adapted public space direction |
+| Statute | Beijing Urban Renewal Regulation | Stock renewal and urban-design linkage direction |
+| Beijing practice | Public introduction of the Jingzhang Railway Heritage Park | Heritage protection, green openness, stitching the two sides |
+| International framework | UNICEF Child Friendly Cities Initiative | Child participation, sector coordination, indicator monitoring |
+| International cases | Japan joint school-route inspections, Dutch woonerf, Seoul school zones, UK walking bus, Barcelona superblocks | Mechanism transfer (public channels) |
+| Tools & fonts | Noto Sans SC (OFL), Python ecosystem and map projection tools | Self-drawn graphics and geometry recomputation |
+
+Before formal deepening: official boundaries, ownership, terrain, building and utility surveys, traffic-impact assessment, heritage and fire control, regulatory-plan and public-facility data, then full metric recalculation per official data.
+
+> Evidence anchors: [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT].

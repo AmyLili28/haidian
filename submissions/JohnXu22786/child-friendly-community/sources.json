@@ -2,7 +2,7 @@
   "schema_version": "0.1.0",
   "sources": [
     {
-      "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+      "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
       "title": "百年京张AI创新带城市设计国际方案征集资格预审公告",
       "publisher": "北京市规划和自然资源委员会海淀分局",
       "source_kind": "official_announcement",
@@ -40,10 +40,11 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "公告可作为 formal 任务依据，但其中的文字四至和面积值不能替代 official GIS/CAD polygon。"
+      "notes_zh": "公告可作为 formal 任务依据，但其中的文字四至和面积值不能替代 official GIS/CAD polygon。",
+      "license": "Official public document; reuse limited to citation and direction paraphrase; no reproduction of full text or page chrome."
     },
     {
-      "source_id": "DATA-SRC-AGENT-TASKBOOK-20260518",
+      "source_id": "DATA-SRC-AGENT-TASKBOOK",
       "title": "面向全球智能体开展“百年京张AI创新带城市设计开源征集”的任务书摘录",
       "publisher": "User-provided cleared document",
       "source_kind": "cleared_user_document",
@@ -84,7 +85,8 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "该资料更贴近 AI agent 任务要求，可作为方案任务响应依据，但不是官方空间红线或控规条件。"
+      "notes_zh": "该资料更贴近 AI agent 任务要求，可作为方案任务响应依据，但不是官方空间红线或控规条件。",
+      "license": "Public reference; reuse limited to citation and brief paraphrase of direction (no reproduction of full text, charts, images or page chrome)."
     },
     {
       "source_id": "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
@@ -119,7 +121,8 @@
       "local_paths": [
         "brief/site-package/standards/references/mohurd-urban-design-measures.md"
       ],
-      "notes_zh": "可作为专业标准响应依据。"
+      "notes_zh": "可作为专业标准响应依据。",
+      "license": "Official public document; reuse limited to citation and direction paraphrase; no reproduction of full text or page chrome."
     },
     {
       "source_id": "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
@@ -127,7 +130,7 @@
       "publisher": "中华人民共和国住房和城乡建设部",
       "source_kind": "official_standard",
       "url": "https://www.gov.cn/zhengce/2022-01/25/content_5711967.htm",
-      "published_date": null,
+      "published_date": "2010-12-01",
       "accessed_date": "2026-06-03",
       "file_type": "markdown",
       "authority_level": "A0",
@@ -152,7 +155,8 @@
       "local_paths": [
         "brief/site-package/standards/references/mohurd-control-detailed-planning.md"
       ],
-      "notes_zh": "可要求 agent 区分已知控制与待补控制。"
+      "notes_zh": "可要求 agent 区分已知控制与待补控制。 补充：部令第7号公布日期2010-12-01、施行日期2011-01-01（按官方页面信息）；gov.cn 页面为2022-01-25再发布，链接级核验。",
+      "license": "Official public government document; reuse limited to citation and direction paraphrase. NOTE: decree (MOHURD Order No.7) published 2010-12-01, effective 2011-01-01; the gov.cn page is a 2022-01-25 republication, verified at link level."
     },
     {
       "source_id": "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
@@ -184,10 +188,11 @@
       "local_paths": [
         "brief/site-package/standards/references/mnr-land-use-classification-guide.md"
       ],
-      "notes_zh": "可用于统一 land_use_code 语义。"
+      "notes_zh": "可用于统一 land_use_code 语义。",
+      "license": "Official public document; reuse limited to citation and direction paraphrase; no reproduction of full text or page chrome."
     },
     {
-      "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+      "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES",
       "title": "百年京张AI创新带三层范围与三处重点区临时粗略 polygon",
       "publisher": "Repository maintainers",
       "source_kind": "provisional_repository_data",
@@ -232,7 +237,8 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。"
+      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。",
+      "license": "Public reference; reuse limited to citation and brief paraphrase of direction (no reproduction of full text, charts, images or page chrome)."
     },
     {
       "source_id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
@@ -269,7 +275,8 @@
       "local_paths": [
         "brief/site-package/standards/references/generative-ai-interim-measures.md"
       ],
-      "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；第2条适用范围是向境内公众提供生成文本、图片、音频、视频等内容的生成式人工智能服务。第14条是违法内容与服务处置，不是一般用户退出权；第15条有投诉举报和及时处理要求，但没有法定数字响应期限；第17条安全评估、备案等表述仅针对具有舆论属性或社会动员能力的服务。快照仅供离线检索，正式引用仍以官方页面为准。"
+      "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；第2条适用范围是向境内公众提供生成文本、图片、音频、视频等内容的生成式人工智能服务。第14条是违法内容与服务处置，不是一般用户退出权；第15条有投诉举报和及时处理要求，但没有法定数字响应期限；第17条安全评估、备案等表述仅针对具有舆论属性或社会动员能力的服务。快照仅供离线检索，正式引用仍以官方页面为准。",
+      "license": "Public reference; reuse limited to citation and brief paraphrase of direction (no reproduction of full text, charts, images or page chrome)."
     },
     {
       "source_id": "PACKAGE-GEOMETRY",
@@ -303,7 +310,334 @@
         "generator": "opencode (KID.JZ concept prompting) + deterministic build script",
         "generation_method": "concept prompting + geometry program",
         "limitations": "low confidence conceptual envelopes"
-      }
+      },
+      "license": "Public reference; reuse limited to citation and brief paraphrase of direction (no reproduction of full text, charts, images or page chrome)."
+    },
+    {
+      "source_id": "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021",
+      "title": "关于推进儿童友好城市建设的指导意见（发改社会〔2021〕1380号）",
+      "publisher": "国家发展改革委等23部门",
+      "source_kind": "official_standard",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202110/t20211015_1299751.html",
+      "published_date": "2021-10-15",
+      "accessed_date": "2026-08-27",
+      "file_type": "markdown",
+      "authority_level": "A0",
+      "timeliness_level": "T1",
+      "public_access_status": "public_local_snapshot",
+      "license": "Official public government document; reuse limited to citation and direction paraphrase (no reproduction of full text); the policy direction on growth-space friendliness is paraphrased, official text governs.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "policy direction on child-friendly cities",
+        "child-adapted public space and school-route direction"
+      ],
+      "prohibited_uses": [
+        "site-specific program approval",
+        "concrete targets or implementation commitments"
+      ],
+      "topics": [
+        "child_friendly_city",
+        "policy_direction"
+      ],
+      "local_paths": [],
+      "notes_zh": "发改社会〔2021〕1380号，2021-09-30印发、2021-10-15公开；本方案仅转述成长空间友好（适儿化改造、安全出行、儿童友好社区/公园）等方向，不引用任何具体目标或地方数据。"
+    },
+    {
+      "source_id": "DATA-SRC-BEIJING-URBAN-RENEWAL-REG-2022",
+      "title": "北京市城市更新条例",
+      "publisher": "北京市人民代表大会常务委员会",
+      "source_kind": "official_standard",
+      "url": "https://www.beijing.gov.cn/zhengce/dfxfg/202212/t20221206_2871600.html",
+      "published_date": "2022-11-25",
+      "accessed_date": "2026-08-27",
+      "file_type": "markdown",
+      "authority_level": "A0",
+      "timeliness_level": "T1",
+      "public_access_status": "public_local_snapshot",
+      "license": "Official public statute; reuse limited to citation and direction paraphrase; no reproduction of full text; effective 2023-03-01 per official page.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "stock renewal direction",
+        "urban design and renewal linkage direction"
+      ],
+      "prohibited_uses": [
+        "site-specific legal determination",
+        "replacement for statutory approvals"
+      ],
+      "topics": [
+        "urban_renewal",
+        "statute_direction"
+      ],
+      "local_paths": [],
+      "notes_zh": "2022-11-25通过、2023-03-01施行；本方案仅转述存量更新方向，不做条文解释或承诺。"
+    },
+    {
+      "source_id": "DATA-SRC-UNICEF-CFCI-2022",
+      "title": "Child Friendly Cities Initiative - CFCI framework and guidance",
+      "publisher": "UNICEF",
+      "source_kind": "international_public_reference",
+      "url": "https://www.childfriendlycities.org/cfci-framework",
+      "published_date": "2022",
+      "accessed_date": "2026-08-27",
+      "file_type": "markdown",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public reference; reuse limited to mechanism paraphrase and citation; no reproduction of protected graphics or text; child-friendly cities brand/logo usage is governed by UNICEF brand management.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism transfer: child participation, local steering, disaggregated data, child-responsive plans"
+      ],
+      "prohibited_uses": [
+        "claiming UNICEF endorsement",
+        "using the CFCI brand or logo",
+        "outcome or recognition claims"
+      ],
+      "topics": [
+        "child_friendly_city",
+        "mechanism_reference"
+      ],
+      "local_paths": [],
+      "notes_zh": "公开机制概述：地方协调机制、儿童参与、分类数据支撑地方规划；不引用儿童友好城市认证品牌/Logo；本方案儿童议事会与年度公示方向与之对照。"
+    },
+    {
+      "source_id": "DATA-SRC-JAPAN-SCHOOL-ROUTE-INSPECTION-2021",
+      "title": "通学路における合同点検の実施について（依頼）及国土交通省通学路交通安全対策",
+      "publisher": "文部科学省（与国土交通省、警察厅联合）",
+      "source_kind": "international_public_reference",
+      "url": "https://www.mext.go.jp/a_menu/kenko/anzen/1417907_00001.htm",
+      "published_date": "2021-07-09",
+      "accessed_date": "2026-08-27",
+      "file_type": "markdown",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T0",
+      "public_access_status": "public_snapshot",
+      "license": "Public official document; reuse limited to mechanism paraphrase (joint inspection, measure lists, disclosure); no reproduction of full text; no use of outcome statistics beyond direction level.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism transfer: joint inspection, PTA/road-manager/police cooperation, annual PDCA and disclosure"
+      ],
+      "prohibited_uses": [
+        "outcome statistics as this project's performance",
+        "engineering conclusion transfer"
+      ],
+      "topics": [
+        "school_route_safety",
+        "mechanism_reference"
+      ],
+      "local_paths": [],
+      "notes_zh": "机制参照：三省厅联合合同点检、学校/PTA/道路管理者/警方协作与对策清单、年度PDCA与公开；配套国交省通学路安全対策页（https://www.mlit.go.jp/road/road/traffic/sesaku/tsugakuro.html）一并参照。"
+    },
+    {
+      "source_id": "DATA-SRC-NETHERLANDS-WOONERF-2023",
+      "title": "Verkenning Woonerven 2.0 - Afwegingskader woonstraten zonder voetpaden",
+      "publisher": "CROW (Netherlands knowledge platform)",
+      "source_kind": "international_public_reference",
+      "url": "https://www.crow.nl/actueel/woonerf-weinig-toegepast-maar-wel-goede-optie/",
+      "published_date": "2023-05-12",
+      "accessed_date": "2026-08-27",
+      "file_type": "markdown",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public reference; reuse limited to mechanism paraphrase (15 km/h residential yards, design elements, choice framework); Dutch-language source; no reproduction.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism transfer: woonerf design principles, 15 km/h yard streets"
+      ],
+      "prohibited_uses": [
+        "direct Dutch design-standard application to China without local research",
+        "engineering conclusion transfer"
+      ],
+      "topics": [
+        "woonerf",
+        "mechanism_reference"
+      ],
+      "local_paths": [],
+      "notes_zh": "荷兰CROW于2023年发布的Woonerven 2.0探索报告及其公开说明；机制参照：居住庭院低速共处与设计要素，仅作转译参考。"
+    },
+    {
+      "source_id": "DATA-SRC-SEOUL-SCHOOL-ZONE-2021",
+      "title": "Seoul Creates Flawless School Zones with 2021 Comprehensive Measures for School Zones",
+      "publisher": "Seoul Metropolitan Government",
+      "source_kind": "international_public_reference",
+      "url": "https://english.seoul.go.kr/seoul-creates-flawless-school-zones-with-2021-comprehensive-measures-for-school-zones/",
+      "published_date": "2021-03-05",
+      "accessed_date": "2026-08-27",
+      "file_type": "markdown",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public official webpage; reuse limited to mechanism paraphrase (speed limits, staggered pickup, parent volunteers); surveillance-camera practices of the source are explicitly NOT transferred; no reproduction.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism transfer: school-zone speed regimes, pickup organization, parent volunteer escort"
+      ],
+      "prohibited_uses": [
+        "transferring its enforcement-camera practices",
+        "outcome statistics as this project's performance"
+      ],
+      "topics": [
+        "school_zone",
+        "mechanism_reference"
+      ],
+      "local_paths": [],
+      "notes_zh": "机制参照：儿童保护区限速与错峰接驳、家长志愿看护；本方案明确不引用其监控摄像做法，并保持未成年人保护与禁止过度监控立场。"
+    },
+    {
+      "source_id": "DATA-SRC-UK-WALKING-BUS-2000",
+      "title": "Walking bus up for award (BBC News) and HCC walking buses public page",
+      "publisher": "BBC News (UK)",
+      "source_kind": "international_public_reference",
+      "url": "http://news.bbc.co.uk/2/hi/uk_news/education/880055.stm",
+      "published_date": "2000-08-14",
+      "accessed_date": "2026-08-27",
+      "file_type": "markdown",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T2",
+      "public_access_status": "public_snapshot",
+      "license": "Public news reference; reuse limited to mechanism paraphrase (volunteer rota, fixed stops, high-visibility escort); no reproduction; outcome figures not cited.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism transfer: volunteer-rotated escorted walking groups"
+      ],
+      "prohibited_uses": [
+        "outcome statistics as this project's performance",
+        "direct replication of UK school-run context"
+      ],
+      "topics": [
+        "walking_bus",
+        "mechanism_reference"
+      ],
+      "local_paths": [],
+      "notes_zh": "步行巴士概念1998年由英格兰赫特福德郡地方议会提出（Wheatfields小学），公开报道与赫特福德郡议会公开页（https://www.hertfordshire.gov.uk/about-the-council/volunteering/schools-and-youth-work/walking-buses/walking-buses.aspx）互为参照；仅转译轮值志愿与定点集合机制。"
+    },
+    {
+      "source_id": "DATA-SRC-BARCELONA-SUPERBLOCK-2015",
+      "title": "Superilles / Superblock programme",
+      "publisher": "Ajuntament de Barcelona",
+      "source_kind": "international_public_reference",
+      "url": "https://ajuntament.barcelona.cat/superilles/en",
+      "published_date": "2015",
+      "accessed_date": "2026-08-27",
+      "file_type": "markdown",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public municipal webpage; reuse limited to mechanism paraphrase (street calming, 200 m green-hub concept, green-network linkage); no reproduction; no performance statistics cited.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism transfer: network of green hubs, child/elder-friendly public space priority"
+      ],
+      "prohibited_uses": [
+        "outcome statistics as this project's performance",
+        "direct indicator transfer"
+      ],
+      "topics": [
+        "superblock",
+        "mechanism_reference"
+      ],
+      "local_paths": [],
+      "notes_zh": "巴塞罗那超级街区计划自2015年起实施（官方 Superilles 页）；仅转译街道路网宁静化+绿色枢纽网络机制方向；200米概念圈作为可达性概念，不作本方案服务半径结论。"
+    },
+    {
+      "source_id": "DATA-SRC-FONT-NOTOSANSSC-OFL",
+      "title": "Noto Sans SC (SIL Open Font License 1.1)",
+      "publisher": "Google / Noto project",
+      "source_kind": "open_source_asset",
+      "url": "https://fonts.google.com/noto/specimen/Noto+Sans+SC",
+      "published_date": "2020",
+      "accessed_date": "2026-08-27",
+      "file_type": "font",
+      "authority_level": "OPEN_SOURCE",
+      "timeliness_level": "T2",
+      "public_access_status": "public_snapshot",
+      "license": "SIL Open Font License 1.1 - free to use, subset and embed, with OFL notice retained; no trademark or product-name claims.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "HTML @font-face embedding and subsetting",
+        "figure and print text rendering"
+      ],
+      "prohibited_uses": [
+        "claiming the font as original work",
+        "using the Noto name as a product brand"
+      ],
+      "topics": [
+        "font",
+        "open_source_license"
+      ],
+      "local_paths": [],
+      "notes_zh": "字体OFL许可登记：本包全文排版使用 Noto Sans SC（实例化与子集化），许可随包可查；不主张字体著作权。"
+    },
+    {
+      "source_id": "DATA-SRC-TOOLING-GEOPY-OPENSOURCE",
+      "title": "Figure, PDF and geometry toolchain: matplotlib / numpy / PIL / shapely / pyproj / fontTools",
+      "publisher": "Open-source projects (matplotlib, numpy, pillow, shapely, pyproj, fonttools)",
+      "source_kind": "open_source_asset",
+      "url": "https://matplotlib.org/stable/users/project/history.html",
+      "published_date": "2024",
+      "accessed_date": "2026-08-27",
+      "file_type": "toolchain",
+      "authority_level": "OPEN_SOURCE",
+      "timeliness_level": "T2",
+      "public_access_status": "public_snapshot",
+      "license": "BSD-3-Clause (matplotlib/numpy), PSF (PIL), BSD-3-Clause (shapely), MIT (pyproj), BSD-3-Clause (fontTools) - toolchain use does not bind generated artifacts.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "figure and drawing generation",
+        "geometry recomputation"
+      ],
+      "prohibited_uses": [
+        "claiming authorship of the libraries",
+        "attributing library bugs to this package"
+      ],
+      "topics": [
+        "toolchain",
+        "open_source_license"
+      ],
+      "local_paths": [],
+      "notes_zh": "图件、PDF与几何复算工具链登记：matplotlib、numpy、Pillow、shapely、pyproj、fontTools；许可均可在官方首页核验。"
+    },
+    {
+      "source_id": "ASSET-LOGO-FIGURES-ORIGINAL",
+      "title": "Logo 与全部图件（原创/自生成资产）",
+      "publisher": "JohnXu22786 / agent-oc-haidian",
+      "source_kind": "agent_generated_design",
+      "url": "assets/figures/",
+      "published_date": "2026-08-27",
+      "accessed_date": "2026-08-27",
+      "file_type": "png",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "Original work by the author with AI assistance under COMMUNITY-DISPLAY-ONLY; no third-party images, marks or icons embedded; no copyrighted map base used (parameter-drawn geometry).",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "repository display",
+        "concept discussion"
+      ],
+      "prohibited_uses": [
+        "official document or planning approval use",
+        "external commercial licensing before prior-rights clearance"
+      ],
+      "topics": [
+        "original_art",
+        "logo",
+        "figures"
+      ],
+      "local_paths": [],
+      "notes_zh": "Logo（路环+童心点）、七张图件与PDF自绘；地图为参数化绘制的概念示意，无地图底图来源、无第三方图标；二次使用边界参见许可字段。"
     }
   ]
 }

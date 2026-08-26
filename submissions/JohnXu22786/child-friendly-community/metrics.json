@@ -7,7 +7,7 @@
   "metrics": {
     "site_area_sqm": {
       "status": "known",
-      "value": 11412825.386,
+      "value": 11413000,
       "unit": "sqm",
       "source_files": [
         "geometry/site_boundary.geojson"
@@ -15,45 +15,56 @@
       "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
       "confidence": "medium",
       "assumptions": [
-        "Provisional boundary, not an official redline."
-      ]
+        "Provisional boundary, not an official redline.",
+        "Display precision: value rounded from 11412825 to the nearest 1000 sqm to avoid implying statutory precision (per reviewer guidance). Official boundary release triggers immediate recalculation."
+      ],
+      "recompute_trigger": "Official overall-design boundary release (per announcement textual caliber about 11.4 km2) - recompute by the same formula and update all displays."
     },
     "green_space_area_sqm": {
       "status": "known",
-      "value": 1418042.03,
+      "value": 1418000,
       "unit": "sqm",
       "source_files": [
         "geometry/green_space.geojson"
       ],
       "formula": "union(conceptual green polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Display precision: rounded from 1418042 to the nearest 1000 sqm. Design-layer caliber, not the land-class share."
+      ],
+      "recompute_trigger": "Official green-space data release - recompute by the same formula."
     },
     "public_space_area_sqm": {
       "status": "known",
-      "value": 51250.0,
+      "value": 51250,
       "unit": "sqm",
       "source_files": [
         "geometry/public_space.geojson"
       ],
       "formula": "union(conceptual public-space polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Design-layer caliber, not a service-radius conclusion."
+      ],
+      "recompute_trigger": "Official public-space data release - recompute by the same formula."
     },
     "building_footprint_area_sqm": {
       "status": "known",
-      "value": 111600.0,
+      "value": 111600,
       "unit": "sqm",
       "source_files": [
         "geometry/buildings.geojson"
       ],
       "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Conceptual reuse-first envelopes only; not an approved building scale or FAR basis."
+      ],
+      "recompute_trigger": "Official building survey release - recompute by the same formula."
     },
     "green_ratio": {
       "status": "known",
-      "value": 0.12425,
+      "value": 0.1243,
       "unit": "ratio",
       "source_files": [
         "geometry/green_space.geojson",
@@ -61,11 +72,14 @@
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Design-layer caliber (green space design layer / site area); distinct from the land-class share of park green space (26.94%). Display precision: rounded from 0.12425 to 4 decimals."
+      ],
+      "recompute_trigger": "Official green-space and boundary data release - recompute by the same formula."
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.004491,
+      "value": 0.0045,
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",
@@ -73,18 +87,24 @@
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Design-layer caliber. Display precision: rounded from 0.004491 to 4 decimals."
+      ],
+      "recompute_trigger": "Official public-space and boundary data release - recompute by the same formula."
     },
     "road_network_length_m": {
       "status": "known",
-      "value": 10154.351,
+      "value": 10154,
       "unit": "m",
       "source_files": [
         "geometry/roads.geojson"
       ],
       "formula": "sum(conceptual paths, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Conceptual slow-traffic network length; display precision rounded to whole meters."
+      ],
+      "recompute_trigger": "Official road network release - recompute by the same formula."
     },
     "key_area_count": {
       "status": "known",
@@ -95,11 +115,14 @@
       ],
       "formula": "count(area_id in key_areas.geojson)",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Three key nodes: safe school route, children's playground, family service stop."
+      ],
+      "recompute_trigger": "Official key-area geometry release - re-cut and recompute."
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 24,
+      "value": 27,
       "unit": "count",
       "source_files": [
         "geometry/land_use.geojson"
@@ -124,11 +147,13 @@
       "value": 3,
       "unit": "count",
       "source_files": [
-        "geometry/public_space.geojson"
+        "proposal.md"
       ],
-      "formula": "count(scenario_type == ai_landmark)",
+      "formula": "count(pilgrimage landmark catalogue rows in proposal.md 重点区域详细设计)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Three children's pilgrimage landmarks: Play Tree House, Loop Lighthouse, Warm House."
+      ]
     },
     "scenario_node_count": {
       "status": "known",
@@ -148,32 +173,38 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(industry_validation test scenario rows in proposal.md 统筹研究范围)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Three concept test scenarios: school-route safety co-governance, playground playfulness, family-stop basic service."
+      ]
     },
     "persona_count": {
       "status": "known",
-      "value": 5,
+      "value": 6,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(representative user groups)",
+      "formula": "count(representative user groups in proposal.md AI 创新生态 section)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Six personas: primary-school children, parents, grandparent caregivers, school teachers, young families, community volunteers."
+      ]
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 6,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(global ecosystem mechanism case rows in proposal.md case table)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Six registered public-channel cases: UNICEF CFCI, Japan joint school-route inspections, Dutch woonerf, Seoul school zones, UK walking bus, Barcelona superblocks."
+      ]
     },
     "phase_count": {
       "status": "known",
@@ -193,9 +224,11 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(annual event system)",
+      "formula": "count(annual programme rows in proposal.md 更新项目清单 section)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Three concept programmes: Play Week, Safe Commute Day, Family Nature Season."
+      ]
     }
   }
 }
