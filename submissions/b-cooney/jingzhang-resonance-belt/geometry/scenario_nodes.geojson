@@ -1,13 +1,13 @@
 {
   "type": "FeatureCollection",
-  "name": "mobility_centerlines",
+  "name": "ai_scenario_nodes",
   "features": [
     {
       "type": "Feature",
-      "id": "ROAD-001",
+      "id": "SN-001",
       "properties": {
-        "id": "ROAD-001",
-        "layer": "ROAD_CENTERLINE",
+        "id": "SN-001",
+        "layer": "SCENARIO_NODE",
         "source_type": "agent_designed_from_provisional_constraint",
         "confidence": "low",
         "geometry_role": "design_proposal",
@@ -18,31 +18,25 @@
           "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
         ],
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
-        "name_zh": "京张共鸣带慢行主脊",
-        "name_en": "Resonance Belt slow-mobility spine",
-        "road_class": "slow_mobility_spine",
-        "length_m_declared": 9493.8
+        "name_zh": "晨曲工作律动声景",
+        "name_en": "Prelude work-rhythm soundscape",
+        "scenario_family": "adaptive_soundscape",
+        "resonance_node_id": "RN-PRELUDE"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            116.3475,
-            39.94
-          ],
-          [
-            116.3475,
-            40.0255
-          ]
+          116.3459,
+          40.0165
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "ROAD-002",
+      "id": "SN-002",
       "properties": {
-        "id": "ROAD-002",
-        "layer": "ROAD_CENTERLINE",
+        "id": "SN-002",
+        "layer": "SCENARIO_NODE",
         "source_type": "agent_designed_from_provisional_constraint",
         "confidence": "low",
         "geometry_role": "design_proposal",
@@ -53,31 +47,25 @@
           "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
         ],
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
-        "name_zh": "缝合联络街",
-        "name_en": "stitching connector street",
-        "road_class": "local_connector",
-        "length_m_declared": 1247.75
+        "name_zh": "夜合社区共鸣客厅",
+        "name_en": "Chorus night-gathering commons",
+        "scenario_family": "adaptive_soundscape",
+        "resonance_node_id": "RN-CHORUS"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            116.3402,
-            39.9475
-          ],
-          [
-            116.3548,
-            39.9475
-          ]
+          116.3459,
+          39.9885
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "ROAD-003",
+      "id": "SN-003",
       "properties": {
-        "id": "ROAD-003",
-        "layer": "ROAD_CENTERLINE",
+        "id": "SN-003",
+        "layer": "SCENARIO_NODE",
         "source_type": "agent_designed_from_provisional_constraint",
         "confidence": "low",
         "geometry_role": "design_proposal",
@@ -88,31 +76,25 @@
           "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
         ],
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
-        "name_zh": "缝合联络街",
-        "name_en": "stitching connector street",
-        "road_class": "local_connector",
-        "length_m_declared": 1247.34
+        "name_zh": "尾声枢纽舒缓声景",
+        "name_en": "Coda calm-transit soundscape",
+        "scenario_family": "adaptive_soundscape",
+        "resonance_node_id": "RN-CODA"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            116.3402,
-            39.97
-          ],
-          [
-            116.3548,
-            39.97
-          ]
+          116.3459,
+          39.9475
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "ROAD-004",
+      "id": "SN-004",
       "properties": {
-        "id": "ROAD-004",
-        "layer": "ROAD_CENTERLINE",
+        "id": "SN-004",
+        "layer": "SCENARIO_NODE",
         "source_type": "agent_designed_from_provisional_constraint",
         "confidence": "low",
         "geometry_role": "design_proposal",
@@ -123,31 +105,24 @@
           "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
         ],
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
-        "name_zh": "缝合联络街",
-        "name_en": "stitching connector street",
-        "road_class": "local_connector",
-        "length_m_declared": 1247.01
+        "name_zh": "缝合广场健康律动",
+        "name_en": "Stitching-plaza wellbeing rhythm",
+        "scenario_family": "adaptive_soundscape"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            116.3402,
-            39.9885
-          ],
-          [
-            116.3548,
-            39.9885
-          ]
+          116.3485,
+          39.97
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "ROAD-005",
+      "id": "SN-005",
       "properties": {
-        "id": "ROAD-005",
-        "layer": "ROAD_CENTERLINE",
+        "id": "SN-005",
+        "layer": "SCENARIO_NODE",
         "source_type": "agent_designed_from_provisional_constraint",
         "confidence": "low",
         "geometry_role": "design_proposal",
@@ -158,31 +133,24 @@
           "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
         ],
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
-        "name_zh": "缝合联络街",
-        "name_en": "stitching connector street",
-        "road_class": "local_connector",
-        "length_m_declared": 1246.89
+        "name_zh": "滨水冥想声景",
+        "name_en": "Waterfront meditation soundscape",
+        "scenario_family": "adaptive_soundscape"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            116.3402,
-            39.995
-          ],
-          [
-            116.3548,
-            39.995
-          ]
+          116.34909999999999,
+          39.995
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "ROAD-006",
+      "id": "SN-006",
       "properties": {
-        "id": "ROAD-006",
-        "layer": "ROAD_CENTERLINE",
+        "id": "SN-006",
+        "layer": "SCENARIO_NODE",
         "source_type": "agent_designed_from_provisional_constraint",
         "confidence": "low",
         "geometry_role": "design_proposal",
@@ -193,57 +161,15 @@
           "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
         ],
         "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
-        "name_zh": "缝合联络街",
-        "name_en": "stitching connector street",
-        "road_class": "local_connector",
-        "length_m_declared": 1246.63
+        "name_zh": "开发者共创回声墙",
+        "name_en": "Developer co-creation echo wall",
+        "scenario_family": "adaptive_soundscape"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            116.3402,
-            40.009
-          ],
-          [
-            116.3548,
-            40.009
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "ROAD-007",
-      "properties": {
-        "id": "ROAD-007",
-        "layer": "ROAD_CENTERLINE",
-        "source_type": "agent_designed_from_provisional_constraint",
-        "confidence": "low",
-        "geometry_role": "design_proposal",
-        "official_boundary": false,
-        "boundary_precision": "provisional_rough",
-        "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
-        "derived_from_source_ids": [
-          "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509"
-        ],
-        "usage_note": "概念设计模型输出，基于临时粗略范围推导；不得作为官方红线、审批依据或精确面积复算依据。Conceptual design-model output derived from the provisional rough boundary; not an official redline, approval basis, or precise-area basis.",
-        "name_zh": "缝合联络街",
-        "name_en": "stitching connector street",
-        "road_class": "local_connector",
-        "length_m_declared": 1246.5
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.3402,
-            40.0165
-          ],
-          [
-            116.3548,
-            40.0165
-          ]
+          116.34649999999999,
+          40.009
         ]
       }
     }
