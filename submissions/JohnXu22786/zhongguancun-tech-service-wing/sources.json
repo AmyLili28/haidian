@@ -232,7 +232,8 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。"
+      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。",
+      "license": "Repository-internal provisional geometry for visualization only"
     },
     {
       "source_id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
@@ -337,7 +338,158 @@
         "generator": "deepseek-v4-flash via DeepSeek Harness + deterministic build script",
         "generation_method": "concept prompting + geometry program",
         "limitations": "low confidence conceptual envelopes"
-      }
+      },
+      "license": "Original AI-generated design geometry, free for repository display"
+    },
+    {
+      "source_id": "CASE-ONE-NORTH-SINGAPORE",
+      "title": "One-North key estate (Singapore) - JTC",
+      "publisher": "JTC (Jurong Town Corporation), Singapore",
+      "source_kind": "third_party_reference",
+      "url": "https://www.jtc.gov.sg/find-land/jtc-key-estates/one-north",
+      "published_date": "2026-02-27",
+      "accessed_date": "2026-08-27",
+      "file_type": "webpage",
+      "authority_level": "THIRD-PARTY-REFERENCE",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Third-party institutional page cited for comparative conceptual reference only; re-verify at citation time.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "comparative_only",
+      "allowed_uses": [
+        "global ecosystem mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "official boundary",
+        "statutory control",
+        "endorsement of this project"
+      ],
+      "topics": [
+        "comparative_case",
+        "global_ecosystem"
+      ],
+      "notes_zh": "JTC 官方页面，检索时点可见，仅作机制对照，不构成官方背书。",
+      "license": "Cite-with-attribution (comparative public institutional reference); not for endorsement"
+    },
+    {
+      "source_id": "CASE-KENDALL-USA",
+      "title": "Kendall Square Initiative - MIT",
+      "publisher": "Massachusetts Institute of Technology",
+      "source_kind": "third_party_reference",
+      "url": "https://kendallsquare.mit.edu/",
+      "published_date": "2026-08-01",
+      "accessed_date": "2026-08-27",
+      "file_type": "webpage",
+      "authority_level": "THIRD-PARTY-REFERENCE",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Third-party institutional page cited for comparative conceptual reference only; re-verify at citation time.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "comparative_only",
+      "allowed_uses": [
+        "global ecosystem mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "official boundary",
+        "statutory control",
+        "endorsement"
+      ],
+      "topics": [
+        "comparative_case",
+        "global_ecosystem"
+      ],
+      "notes_zh": "MIT 官方项目页面，持续维护，无单独标定发布日，按检索时点记录；仅作机制对照。",
+      "license": "Cite-with-attribution (comparative public institutional reference); not for endorsement"
+    },
+    {
+      "source_id": "CASE-HETAO-SHENZHEN",
+      "title": "国务院印发《河套深港科技创新合作区深圳园区发展规划》",
+      "publisher": "中华人民共和国国务院（中国政府网公报）",
+      "source_kind": "third_party_reference",
+      "url": "https://www.gov.cn/gongbao/2023/issue_10686/202309/content_6902573.html",
+      "published_date": "2023-09-01",
+      "accessed_date": "2026-08-27",
+      "file_type": "webpage",
+      "authority_level": "THIRD-PARTY-REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public",
+      "license_summary": "Third-party institutional page cited for comparative conceptual reference only; re-verify at citation time.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "comparative_only",
+      "allowed_uses": [
+        "global ecosystem mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "official boundary",
+        "statutory control",
+        "endorsement"
+      ],
+      "topics": [
+        "comparative_case",
+        "global_ecosystem"
+      ],
+      "notes_zh": "官方公报全文可核验，作为跨境要素流动与规则衔接的对照案例。",
+      "license": "Cite-with-attribution (comparative public institutional reference); not for endorsement"
+    },
+    {
+      "source_id": "CASE-MILA-MONTREAL",
+      "title": "About Mila - Quebec Artificial Intelligence Institute",
+      "publisher": "Mila (Quebec Artificial Intelligence Institute)",
+      "source_kind": "third_party_reference",
+      "url": "https://mila.quebec/en/about/about-mila",
+      "published_date": "2026-08-01",
+      "accessed_date": "2026-08-27",
+      "file_type": "webpage",
+      "authority_level": "THIRD-PARTY-REFERENCE",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Third-party institutional page cited for comparative conceptual reference only; re-verify at citation time.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "comparative_only",
+      "allowed_uses": [
+        "global ecosystem mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "official boundary",
+        "statutory control",
+        "endorsement"
+      ],
+      "topics": [
+        "comparative_case",
+        "global_ecosystem"
+      ],
+      "notes_zh": "Mila 官方页面，持续维护；仅作开放科学与人才网络的机制对照。",
+      "license": "Cite-with-attribution (comparative public institutional reference); not for endorsement"
+    },
+    {
+      "source_id": "CASE-PANGYO-KOREA",
+      "title": "Pangyo Techno Valley - official site",
+      "publisher": "Pangyo Techno Valley (Gyeonggi Province)",
+      "source_kind": "third_party_reference",
+      "url": "https://www.pangyotechnovalley.org/eng/main/view",
+      "published_date": "2026-08-01",
+      "accessed_date": "2026-08-27",
+      "file_type": "webpage",
+      "authority_level": "THIRD-PARTY-REFERENCE",
+      "timeliness_level": "T2",
+      "public_access_status": "public",
+      "license_summary": "Third-party institutional page cited for comparative conceptual reference only; re-verify at citation time.",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "comparative_only",
+      "allowed_uses": [
+        "global ecosystem mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "official boundary",
+        "statutory control",
+        "endorsement"
+      ],
+      "topics": [
+        "comparative_case",
+        "global_ecosystem"
+      ],
+      "notes_zh": "板桥科技谷官网页面，持续维护；仅作政府园区+企业主导运营的机制对照。",
+      "license": "Cite-with-attribution (comparative public institutional reference); not for endorsement"
     }
   ]
 }

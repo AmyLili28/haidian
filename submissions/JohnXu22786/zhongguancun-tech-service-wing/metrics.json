@@ -12,10 +12,11 @@
       "source_files": [
         "geometry/site_boundary.geojson"
       ],
-      "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
+      "formula": "polygon_area(provisional site boundary polygon; projected for area estimate)",
       "confidence": "medium",
       "assumptions": [
-        "Provisional boundary, not an official redline."
+        "Provisional boundary, not an official redline.",
+        "Geometry stored as geographic lon/lat (no CRS declared); area is an approximate projection with confidence low/medium."
       ]
     },
     "green_space_area_sqm": {
@@ -25,9 +26,11 @@
       "source_files": [
         "geometry/green_space.geojson"
       ],
-      "formula": "union(conceptual green polygons, EPSG:4548)",
+      "formula": "union(conceptual green polygons; projected area estimate)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Geometry stored as geographic lon/lat (no CRS declared); area is an approximate projection with confidence low/medium."
+      ]
     },
     "public_space_area_sqm": {
       "status": "known",
@@ -36,9 +39,11 @@
       "source_files": [
         "geometry/public_space.geojson"
       ],
-      "formula": "union(conceptual public-space polygons, EPSG:4548)",
+      "formula": "union(conceptual public-space polygons; projected area estimate)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Geometry stored as geographic lon/lat (no CRS declared); area is an approximate projection with confidence low/medium."
+      ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
@@ -47,9 +52,11 @@
       "source_files": [
         "geometry/buildings.geojson"
       ],
-      "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
+      "formula": "union(conceptual reuse-first envelopes; projected area estimate)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Geometry stored as geographic lon/lat (no CRS declared); area is an approximate projection with confidence low/medium."
+      ]
     },
     "green_ratio": {
       "status": "known",
@@ -82,9 +89,11 @@
       "source_files": [
         "geometry/roads.geojson"
       ],
-      "formula": "sum(conceptual paths, EPSG:4548)",
+      "formula": "sum(conceptual path lengths; projected from lon/lat)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Geometry stored as geographic lon/lat (no CRS declared); area is an approximate projection with confidence low/medium."
+      ]
     },
     "key_area_count": {
       "status": "known",
@@ -99,7 +108,7 @@
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 24,
+      "value": 27,
       "unit": "count",
       "source_files": [
         "geometry/land_use.geojson"
@@ -148,7 +157,7 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(industry_validation test protocols in proposal.md table)",
       "confidence": "high",
       "assumptions": []
     },
@@ -159,7 +168,7 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(representative user groups)",
+      "formula": "count(五类人才 in proposal.md AI section)",
       "confidence": "high",
       "assumptions": []
     },
@@ -171,7 +180,40 @@
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(global ecosystem mechanism cases in proposal.md table)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(scenario cards in 场景卡索引 table)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "annual_program_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(annual event brands in 年度活动体系 table)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "ai_test_protocol_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(AI technical test protocols)",
       "confidence": "high",
       "assumptions": []
     },
@@ -183,17 +225,6 @@
         "geometry/phasing.geojson"
       ],
       "formula": "count(phasing polygons)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "annual_program_count": {
-      "status": "known",
-      "value": 6,
-      "unit": "count",
-      "source_files": [
-        "proposal.md"
-      ],
-      "formula": "count(annual event system)",
       "confidence": "high",
       "assumptions": []
     }

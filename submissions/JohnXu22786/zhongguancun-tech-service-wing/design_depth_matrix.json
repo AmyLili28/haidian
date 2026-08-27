@@ -60,7 +60,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘现状诊断图与资料缺口’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "现状诊断：确认官方 polygon/控规/轨道控制等专业资料缺口，以现场踏勘与公开统计做概念级现状叙述，缺口登记于风险与合规节。"
     },
     {
       "item_id": "three_level_scope_framework",
@@ -121,7 +121,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘三层范围工作框架’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "三层范围按官方文本口径划分(43.6/11.4/368.4)，逐层传导要素流动与服务带职能，几何均按provisional处理。"
     },
     {
       "item_id": "overall_spatial_structure",
@@ -182,7 +182,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘总体空间结构’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以大街为轴、服务为链组织总体空间结构，形成沿中关村大街连续科技服务客厅体验序列。"
     },
     {
       "item_id": "land_use_layout",
@@ -243,7 +243,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘用地布局’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "概念用地布局沿用国标分类命名，以单一聚合口径列出比例区间，官方地类发布后复算。"
     },
     {
       "item_id": "development_intensity_controls",
@@ -304,7 +304,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘开发强度控制’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "开发强度控制仅提供导向性表述与先决条件，不预设容积率等结论性数值，待官方控规发布后核定。"
     },
     {
       "item_id": "height_massing_character",
@@ -365,7 +365,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘高度体量风貌’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "建筑高度与体量风貌仅作概念层次说明(留改拆+少量节点)，配合风貌节钢构红砖山形母题转译。"
     },
     {
       "item_id": "retain_renovate_demolish",
@@ -426,7 +426,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘拆改留方案’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "拆改留坚持留改拆排序与能留尽留原则，危房与严重妨碍慢行/服务的极少数建筑逐栋论证拆除。"
     },
     {
       "item_id": "traffic_rail_slow_parking",
@@ -487,7 +487,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘交通轨道慢行停车’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "交通轨道慢行以公交骨干+步行优先断面+轨道站点最后一公里接驳成网，接驳锚点取现有设施(清河/知春路等)。"
     },
     {
       "item_id": "municipal_new_infrastructure",
@@ -548,7 +548,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘市政与新型基础设施’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "市政与新型基础设施给出电力扩容、分布式能源、雨水下渗等概念建议，不给出具体容量数值。"
     },
     {
       "item_id": "blue_green_public_space",
@@ -609,7 +609,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘蓝绿空间与公共空间’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "蓝绿空间以京张绿脊+小月河枝脉+学院路绿带整合，三驿广场为呼吸点，公共空间组件库可逆轮换。"
     },
     {
       "item_id": "three_key_area_detailed_design",
@@ -670,7 +670,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘三处重点区域详细设计’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "三处重点区域分别对应自主创新加速/AI原点文化/产业集聚，三驿概念点位落位于此并标注非官方选址。"
     },
     {
       "item_id": "renewal_project_list",
@@ -731,7 +731,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘更新项目清单’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "更新项目清单按近期/中期/远期编制，附RACI主体、前置条件、最小可行试点与里程碑。"
     },
     {
       "item_id": "phasing_implementation",
@@ -792,7 +792,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘分期实施’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "分期实施三阶段1-3/3-5/5-10年，各期设试点、资源包、指标与go/no-go与停止条件，不构成实施承诺。"
     },
     {
       "item_id": "metrics_recalculation",
@@ -853,7 +853,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘指标复算’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "指标体系三层结构进入metrics.json，面积复算以provisional几何为底，官方数据发布后整体复算并降精度展示。"
     },
     {
       "item_id": "risk_missing_data",
@@ -914,7 +914,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘风险与资料缺口’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "风险与资料缺口在风险节与assumptions.json登记：边界未发布、控规缺位、运营基线缺失等均按组织方数据缺口如实标注。"
     }
   ]
 }
