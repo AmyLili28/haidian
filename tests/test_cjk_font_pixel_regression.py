@@ -155,33 +155,38 @@ html:not(.settled) #stage {{
 """
 
 
-def run_screenshot(
+def run_chromium(
     executable: str,
     source: Path,
-    screenshot: Path,
     profile: Path,
+    *,
+    screenshot: Path | None = None,
+    dump_dom: bool = False,
 ) -> subprocess.CompletedProcess[str]:
+    command = [
+        executable,
+        "--headless",
+        "--disable-gpu",
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--hide-scrollbars",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--run-all-compositor-stages-before-draw",
+        "--virtual-time-budget=3000",
+        "--force-device-scale-factor=1",
+        f"--window-size={WINDOW_SIZE}",
+        f"--user-data-dir={profile}",
+    ]
+    if screenshot is not None:
+        command.append(f"--screenshot={screenshot}")
+    if dump_dom:
+        command.append("--dump-dom")
+    # Keep screenshot and DOM inspection in separate browser modes. Chrome for
+    # macOS can keep a combined --screenshot/--dump-dom invocation alive.
+    command.append(source.resolve().as_uri())
     return subprocess.run(
-        [
-            executable,
-            "--headless",
-            "--disable-gpu",
-            "--no-sandbox",
-            "--disable-dev-shm-usage",
-            "--hide-scrollbars",
-            "--no-first-run",
-            "--no-default-browser-check",
-            "--run-all-compositor-stages-before-draw",
-            "--virtual-time-budget=3000",
-            "--force-device-scale-factor=1",
-            f"--window-size={WINDOW_SIZE}",
-            f"--user-data-dir={profile}",
-            f"--screenshot={screenshot}",
-            # --dump-dom observes the DOM from this same navigation; the
-            # screenshot and font assertions therefore share one browser run.
-            "--dump-dom",
-            source.resolve().as_uri(),
-        ],
+        command,
         capture_output=True,
         text=True,
         encoding="utf-8",
@@ -222,28 +227,46 @@ class CjkFontPixelRegressionTests(unittest.TestCase):
                 test_page(embedded=False, font_payload=""), encoding="utf-8"
             )
 
-            embedded_run = run_screenshot(
-                executable, embedded_html, embedded_png, root / "chrome-profile"
+            embedded_screenshot_run = run_chromium(
+                executable,
+                embedded_html,
+                root / "chrome-profile-embedded-screenshot",
+                screenshot=embedded_png,
+            )
+            embedded_dom_run = run_chromium(
+                executable,
+                embedded_html,
+                root / "chrome-profile-embedded-dom",
+                dump_dom=True,
             )
             self.assertEqual(
                 0,
-                embedded_run.returncode,
-                embedded_run.stderr[-2000:] or embedded_run.stdout[-2000:],
+                embedded_screenshot_run.returncode,
+                embedded_screenshot_run.stderr[-2000:]
+                or embedded_screenshot_run.stdout[-2000:],
             )
             self.assertTrue(embedded_png.is_file(), "Chromium did not write screenshot")
+            self.assertEqual(
+                0,
+                embedded_dom_run.returncode,
+                embedded_dom_run.stderr[-2000:] or embedded_dom_run.stdout[-2000:],
+            )
             self.assertRegex(
-                embedded_run.stdout,
+                embedded_dom_run.stdout,
                 r'data-fonts-ready=["\']true["\']',
                 "Chromium DOM did not report document.fonts.ready",
             )
             self.assertRegex(
-                embedded_run.stdout,
+                embedded_dom_run.stdout,
                 r'data-fonts-check=["\']true["\']',
                 "Chromium DOM did not report document.fonts.check",
             )
 
-            fallback_run = run_screenshot(
-                executable, fallback_html, fallback_png, root / "fallback-profile"
+            fallback_run = run_chromium(
+                executable,
+                fallback_html,
+                root / "chrome-profile-fallback",
+                screenshot=fallback_png,
             )
             self.assertEqual(
                 0,
