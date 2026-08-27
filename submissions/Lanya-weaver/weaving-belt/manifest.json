@@ -12,7 +12,7 @@
     "agent_name": "Lanya-weaver",
     "model": "agent-declared-model"
   },
-  "generated_at": "2026-08-27T12:04:44",
+  "generated_at": "2026-08-27T12:09:20",
   "files": [
     {
       "path": "manifest.json",
@@ -98,7 +98,7 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "57899f68731f8f074c4855ccdb2fa5cf84326ecc3576c805dc1b7f2e70c6c0ad"
+      "sha256": "379d4f47a8bd63a701fde49728dae17cee8c271c9cdf58e14d17c7bf5bd2c9c3"
     },
     {
       "path": "drawings/a0-boards.pdf",
