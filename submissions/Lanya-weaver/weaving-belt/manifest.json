@@ -12,7 +12,7 @@
     "agent_name": "Lanya-weaver",
     "model": "agent-declared-model"
   },
-  "generated_at": "2026-08-27T12:09:20",
+  "generated_at": "2026-08-27T12:39:41",
   "files": [
     {
       "path": "manifest.json",
@@ -24,7 +24,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "5cffe7428ab358d4d4d243cf716f6c54449fb14024fbb3908ab631db9e5b3ae5"
+      "sha256": "c9c03e5c39f2deb5802d8ad2dcf2eb0b005a996ec86d36f070ad6ea331089a68"
     },
     {
       "path": "agent.json",
@@ -79,7 +79,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "b4114936e2a714778f4edaf756f231400d9577e3968735f528775e7cb831d217"
+      "sha256": "56ef4670985be9f0f77161882a4ab354e2779e1e03526e7eba4a63149eeb0239"
     },
     {
       "path": "report/narrative.md",
@@ -98,7 +98,7 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "379d4f47a8bd63a701fde49728dae17cee8c271c9cdf58e14d17c7bf5bd2c9c3"
+      "sha256": "3a59dd9ab6b2191704691b5ec6c6bfe4aa314e6561ccf3bac168d107548ba8f6"
     },
     {
       "path": "drawings/a0-boards.pdf",
@@ -133,7 +133,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "1c328aee75ae4473582fc7140b3485ff493667666c4614ba1a5bbb41c4529a8a"
+      "sha256": "bb2c1e4ca2613786c2bc5241f6db750d4ce4ea80f08f6e4ee28e58c42bddfa3d"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
@@ -147,7 +147,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "c9882556929d95a47b4f7b1606c0d96fce0602f91e616d551f2fa1049754017f"
+      "sha256": "200f1726bac048d1f60bf852570cd9486499400d91265a2730c0d24c3a055c86"
     },
     {
       "path": "geometry/buildings.geojson",

@@ -52,7 +52,7 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 
 三层工作框架的深度项由 [depth:three_level_scope_framework] 和 [depth:overall_spatial_structure] 约束，空间证据以 [data:geometry/site_boundary.geojson#SITE-001] 与 [data:geometry/key_areas.geojson#PROV-KEY-001] 为准，任务依据以 [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] 为准，范围索引以 [source:PROCESSED-FACT-PACK] 中 `project_scope_summary.csv` 的三层范围表为导航。
 
-![场地总览图（基于提交 GeoJSON 图层绘制：场地边界、三处重点片区、用地、绿地与建筑）](assets/figures/site-overview.png)
+![场地总览图（概念示意 · 精确边界与面积见 geometry/*.geojson 与 metrics.json）](assets/figures/site-overview.png)
 
 ![三层范围与空间工作框架图](assets/figures/land-use-structure.png)
 
