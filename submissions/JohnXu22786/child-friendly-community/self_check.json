@@ -22,10 +22,13 @@
     "submissions/JohnXu22786/child-friendly-community/agent.json",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/ai-ecosystem-map.en.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/ai-ecosystem-map.png",
+    "submissions/JohnXu22786/child-friendly-community/assets/figures/ai-ecosystem-map.zh.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/key-areas.en.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/key-areas.png",
+    "submissions/JohnXu22786/child-friendly-community/assets/figures/key-areas.zh.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/land-use-structure.en.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/land-use-structure.png",
+    "submissions/JohnXu22786/child-friendly-community/assets/figures/land-use-structure.zh.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/logo-kid-jz.en.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/logo-kid-jz.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/metrics-evidence.en.png",
@@ -34,6 +37,7 @@
     "submissions/JohnXu22786/child-friendly-community/assets/figures/mobility-bluegreen.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/site-overview.en.png",
     "submissions/JohnXu22786/child-friendly-community/assets/figures/site-overview.png",
+    "submissions/JohnXu22786/child-friendly-community/assets/figures/site-overview.zh.png",
     "submissions/JohnXu22786/child-friendly-community/assumptions.json",
     "submissions/JohnXu22786/child-friendly-community/changelog.md",
     "submissions/JohnXu22786/child-friendly-community/compliance_matrix.json",
@@ -90,7 +94,7 @@
    "ai_package_stages": {
     "submissions/JohnXu22786/child-friendly-community": "formal"
    },
-   "total_bytes": 27229328,
+   "total_bytes": 28428868,
    "maintainer_bypass": false
   },
   "stderr": ""
@@ -242,8 +246,8 @@
   }
  ],
  "figure_qc": {
-  "ok": true,
-  "ink_ok": true,
+  "ok": false,
+  "ink_ok": false,
   "clip_clear": true,
   "overlap_clear": "not_verified",
   "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
@@ -255,6 +259,13 @@
     "edge_clip_ratio": 0.0,
     "edge_clip_clear": true
    },
+   "ai-ecosystem-map.zh.png": {
+    "width": 2250,
+    "height": 1500,
+    "ink": 0.1126,
+    "edge_clip_ratio": 0.0,
+    "edge_clip_clear": true
+   },
    "key-areas.png": {
     "width": 2100,
     "height": 1350,
@@ -262,10 +273,24 @@
     "edge_clip_ratio": 0.0,
     "edge_clip_clear": true
    },
+   "key-areas.zh.png": {
+    "width": 2250,
+    "height": 1800,
+    "ink": 0.0844,
+    "edge_clip_ratio": 0.0,
+    "edge_clip_clear": true
+   },
    "land-use-structure.png": {
     "width": 1800,
     "height": 1200,
     "ink": 0.1752,
+    "edge_clip_ratio": 0.0,
+    "edge_clip_clear": true
+   },
+   "land-use-structure.zh.png": {
+    "width": 2025,
+    "height": 1275,
+    "ink": 0.1676,
     "edge_clip_ratio": 0.0,
     "edge_clip_clear": true
    },
@@ -294,6 +319,13 @@
     "width": 1800,
     "height": 1200,
     "ink": 0.7499,
+    "edge_clip_ratio": 0.0,
+    "edge_clip_clear": true
+   },
+   "site-overview.zh.png": {
+    "width": 2250,
+    "height": 1425,
+    "ink": 0.0582,
     "edge_clip_ratio": 0.0,
     "edge_clip_clear": true
    }
