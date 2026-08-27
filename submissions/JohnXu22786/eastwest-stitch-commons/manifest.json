@@ -273,7 +273,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "50d24a34a6894f8b18cd6d125188fef8235acfa1f0dbc5f3130b1fc3c8183d57"
+      "sha256": "dcbdba48a2dce08518bf53ac88839eb9d7771461c0a495f8aa64608895f4c4f6"
     },
     {
       "path": "sources.json",
