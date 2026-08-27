@@ -1,315 +1,315 @@
 {
-  "schema_version": "0.1.0",
-  "standards": [
-    {
-      "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
-      "requirement_zh": "公告1.3/1.4/1.5对目的、范围、任务与深度提出主控要求。",
-      "professional_dimension": "规划/城市设计",
-      "mandatory": true,
-      "review_status": "addressed",
-      "proposal_sections": [
-        "设计依据与资料清单",
-        "风险、版权与合规说明"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson",
-        "geometry/key_areas.geojson",
-        "geometry/land_use.geojson",
-        "geometry/buildings.geojson",
-        "geometry/roads.geojson",
-        "geometry/green_space.geojson",
-        "geometry/public_space.geojson",
-        "geometry/phasing.geojson"
-      ],
-      "metric_refs": [
-        "site_area_sqm",
-        "green_ratio",
-        "public_space_ratio",
-        "landmark_count",
-        "scenario_node_count",
-        "industry_test_scenario_count",
-        "persona_count",
-        "global_case_count",
-        "annual_program_count",
-        "phase_count"
-      ],
-      "source_ids": [
-        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
-        "DATA-SRC-AGENT-TASKBOOK-20260518",
-        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
-        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
-        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001",
-        "A-CONTROLS-001",
-        "A-DATA-001",
-        "A-DESIGN-001",
-        "A-PRIVACY-001",
-        "A-EVENT-001"
-      ],
-      "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
-      ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、无感安检与客流动态引导、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
-    },
-    {
-      "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
-      "requirement_zh": "任务书对三大定位、五大功能、三区两翼、六项任务与边界条款提出要求。",
-      "professional_dimension": "规划/城市设计",
-      "mandatory": true,
-      "review_status": "addressed",
-      "proposal_sections": [
-        "设计依据与资料清单",
-        "风险、版权与合规说明"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson",
-        "geometry/key_areas.geojson",
-        "geometry/land_use.geojson",
-        "geometry/buildings.geojson",
-        "geometry/roads.geojson",
-        "geometry/green_space.geojson",
-        "geometry/public_space.geojson",
-        "geometry/phasing.geojson"
-      ],
-      "metric_refs": [
-        "site_area_sqm",
-        "green_ratio",
-        "public_space_ratio",
-        "landmark_count",
-        "scenario_node_count",
-        "industry_test_scenario_count",
-        "persona_count",
-        "global_case_count",
-        "annual_program_count",
-        "phase_count"
-      ],
-      "source_ids": [
-        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
-        "DATA-SRC-AGENT-TASKBOOK-20260518",
-        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
-        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
-        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001",
-        "A-CONTROLS-001",
-        "A-DATA-001",
-        "A-DESIGN-001",
-        "A-PRIVACY-001",
-        "A-EVENT-001"
-      ],
-      "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
-      ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、无感安检与客流动态引导、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
-    },
-    {
-      "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
-      "requirement_zh": "城市设计应落实规划、指导建筑设计、塑造特色风貌并统筹立体空间。",
-      "professional_dimension": "规划/城市设计",
-      "mandatory": true,
-      "review_status": "addressed",
-      "proposal_sections": [
-        "设计依据与资料清单",
-        "风险、版权与合规说明"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson",
-        "geometry/key_areas.geojson",
-        "geometry/land_use.geojson",
-        "geometry/buildings.geojson",
-        "geometry/roads.geojson",
-        "geometry/green_space.geojson",
-        "geometry/public_space.geojson",
-        "geometry/phasing.geojson"
-      ],
-      "metric_refs": [
-        "site_area_sqm",
-        "green_ratio",
-        "public_space_ratio",
-        "landmark_count",
-        "scenario_node_count",
-        "industry_test_scenario_count",
-        "persona_count",
-        "global_case_count",
-        "annual_program_count",
-        "phase_count"
-      ],
-      "source_ids": [
-        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
-        "DATA-SRC-AGENT-TASKBOOK-20260518",
-        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
-        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
-        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001",
-        "A-CONTROLS-001",
-        "A-DATA-001",
-        "A-DESIGN-001",
-        "A-PRIVACY-001",
-        "A-EVENT-001"
-      ],
-      "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
-      ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、无感安检与客流动态引导、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
-    },
-    {
-      "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
-      "requirement_zh": "本方案为概念建议,明确不替代控制性详细规划法定内容。",
-      "professional_dimension": "规划/城市设计",
-      "mandatory": true,
-      "review_status": "addressed",
-      "proposal_sections": [
-        "设计依据与资料清单",
-        "风险、版权与合规说明"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson",
-        "geometry/key_areas.geojson",
-        "geometry/land_use.geojson",
-        "geometry/buildings.geojson",
-        "geometry/roads.geojson",
-        "geometry/green_space.geojson",
-        "geometry/public_space.geojson",
-        "geometry/phasing.geojson"
-      ],
-      "metric_refs": [
-        "site_area_sqm",
-        "green_ratio",
-        "public_space_ratio",
-        "landmark_count",
-        "scenario_node_count",
-        "industry_test_scenario_count",
-        "persona_count",
-        "global_case_count",
-        "annual_program_count",
-        "phase_count"
-      ],
-      "source_ids": [
-        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
-        "DATA-SRC-AGENT-TASKBOOK-20260518",
-        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
-        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
-        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001",
-        "A-CONTROLS-001",
-        "A-DATA-001",
-        "A-DESIGN-001",
-        "A-PRIVACY-001",
-        "A-EVENT-001"
-      ],
-      "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
-      ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、无感安检与客流动态引导、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
-    },
-    {
-      "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
-      "requirement_zh": "用地分类引用国土空间调查规划用途管制用地用海分类指南的公开子集。",
-      "professional_dimension": "规划/城市设计",
-      "mandatory": true,
-      "review_status": "addressed",
-      "proposal_sections": [
-        "设计依据与资料清单",
-        "风险、版权与合规说明"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson",
-        "geometry/key_areas.geojson",
-        "geometry/land_use.geojson",
-        "geometry/buildings.geojson",
-        "geometry/roads.geojson",
-        "geometry/green_space.geojson",
-        "geometry/public_space.geojson",
-        "geometry/phasing.geojson"
-      ],
-      "metric_refs": [
-        "site_area_sqm",
-        "green_ratio",
-        "public_space_ratio",
-        "landmark_count",
-        "scenario_node_count",
-        "industry_test_scenario_count",
-        "persona_count",
-        "global_case_count",
-        "annual_program_count",
-        "phase_count"
-      ],
-      "source_ids": [
-        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
-        "DATA-SRC-AGENT-TASKBOOK-20260518",
-        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
-        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
-        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001",
-        "A-CONTROLS-001",
-        "A-DATA-001",
-        "A-DESIGN-001",
-        "A-PRIVACY-001",
-        "A-EVENT-001"
-      ],
-      "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
-      ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、无感安检与客流动态引导、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
-    }
-  ]
+ "schema_version": "0.1.0",
+ "standards": [
+  {
+   "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+   "requirement_zh": "公告1.3/1.4/1.5对目的、范围、任务与深度提出主控要求。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-DESIGN-001",
+    "A-PRIVACY-001",
+    "A-EVENT-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "以官方公告文本口径确定三层范围（统筹43.6平方公里/总体11.4平方公里/重点区域合计368.4公顷）与三处重点片区（约192/104/72公顷）；边界多边形未发布，全部几何为provisional，面积仅用官方文本值，官方图形发布后整体复算（见设计依据与三层范围章节）。"
+  },
+  {
+   "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+   "requirement_zh": "任务书对三大定位、五大功能、三区两翼、六项任务与边界条款提出要求。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-DESIGN-001",
+    "A-PRIVACY-001",
+    "A-EVENT-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "逐一映射agent.1—agent.6：一带总体概念与功能统筹（一站一枢三节点织网）、AI全栈生态与6个有来源全球案例及生态图谱、12张AI+场景卡与3个产业测试场景、荣誉展示与可逆公共空间组件库及3个AI地标、文化叙事与中英国际传播、年度活动与开发者社区/场景开放/招引转化长期运营机制（见AI生态与更新实施章节）。"
+  },
+  {
+   "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+   "requirement_zh": "城市设计应落实规划、指导建筑设计、塑造特色风貌并统筹立体空间。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-DESIGN-001",
+    "A-PRIVACY-001",
+    "A-EVENT-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "城市设计方法落地为「更新优先、存量挖潜、刚弹结合」控规深度概念框架与三条管控线索（功能混合/上盖开发/公共空间联控），公共空间联控纳入可逆公共空间组件库统一联控（见总体设计范围与重点区域详设章节）。"
+  },
+  {
+   "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+   "requirement_zh": "本方案为概念建议,明确不替代控制性详细规划法定内容。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-DESIGN-001",
+    "A-PRIVACY-001",
+    "A-EVENT-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "本方案为概念建议，明确不替代控制性详细规划法定内容；容积率、建筑高度、道路红线等一律为概念建议，不构成法定规划结论，控规数据发布后由专业团队复算（见合规矩阵与风险章节）。"
+  },
+  {
+   "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
+   "requirement_zh": "用地分类引用国土空间调查规划用途管制用地用海分类指南的公开子集。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+    "DATA-SRC-AGENT-TASKBOOK",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+    "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-DESIGN-001",
+    "A-PRIVACY-001",
+    "A-EVENT-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "用地分类名称引用《国土空间调查、规划、用途管制用地用海分类指南》的公开子集（交通枢纽/科研/商务金融/商业/居住配套/文化/公园绿地等），门户概念用地结构按统一口径排列并标注置信等级与复算触发（见用地章节与metrics.json）。"
+  }
+ ]
 }

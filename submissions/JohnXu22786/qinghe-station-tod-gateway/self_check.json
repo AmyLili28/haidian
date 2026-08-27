@@ -10,20 +10,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/qinghe-station-tod-gateway/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/qinghe-station-tod-gateway/proposal.md"
@@ -33,16 +20,24 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/qinghe-station-tod-gateway/agent.json",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/key-areas.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/logo-qpr.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/metrics-evidence.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/mobility-bluegreen.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/site-overview.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assumptions.json",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/changelog.md",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/compliance_matrix.json",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/design_depth_matrix.json",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/drawings/a0-boards.en.pdf",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/drawings/a0-boards.pdf",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/drawings/a3-booklet.en.pdf",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/drawings/a3-booklet.pdf",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/geometry/buildings.geojson",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/geometry/constraints.geojson",
@@ -59,17 +54,35 @@
         "submissions/JohnXu22786/qinghe-station-tod-gateway/proposal.md",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/report/copyright_statement.md",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/report/narrative.md",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/report/proposal.en.html",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/report/proposal.html",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/risk.json",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/self_check.json",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/sources.json",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/standard_matrix.json",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/fig-key-areas-en.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/fig-key-areas-zh.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/fig-metrics-evidence-en.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/fig-metrics-evidence-zh.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/fig-mobility-bluegreen-en.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/fig-mobility-bluegreen-zh.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/fig-site-overview-en.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/fig-site-overview-zh.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/html-en.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/html-zh.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/pdf-a0-en-p1.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/pdf-a0-zh-p1.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/pdf-a3-en-p1.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/pdf-a3-zh-p1.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/visual-en.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/assets/previews/visual-zh.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/index.en.html",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/qinghe-station-tod-gateway": "formal"
       },
-      "total_bytes": 1037110,
+      "total_bytes": 11933967,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -143,11 +156,11 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 17,
+        "known_metric_refs_required": 18,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 8,
+          "source": 14,
           "standard": 0,
           "depth": 0,
           "data": 1,
@@ -168,21 +181,7 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/qinghe-station-tod-gateway/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
-  ],
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {
@@ -213,5 +212,91 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ]
+  ],
+  "figure_qc": {
+    "ok": true,
+    "ink_ok": true,
+    "clip_clear": true,
+    "overlap_clear": "not_verified",
+    "summary": "ink+edge-clip machine check only (all zh figures ink>=0.06, charts>=0.10 target met; 30px white padding gives clean edge bands); text-overlap not machine-verified post-hoc (generation-time text-bbox checks recorded in changelog)",
+    "checks": {
+      "key-areas.en.png": {
+        "width": 1892,
+        "height": 1355,
+        "ink": 0.7048,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "key-areas.png": {
+        "width": 2306,
+        "height": 1355,
+        "ink": 0.5798,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "land-use-structure.en.png": {
+        "width": 1959,
+        "height": 1254,
+        "ink": 0.1078,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "land-use-structure.png": {
+        "width": 1917,
+        "height": 1254,
+        "ink": 0.1341,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "logo-qpr.png": {
+        "width": 960,
+        "height": 660,
+        "ink": 0.063,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "metrics-evidence.en.png": {
+        "width": 1870,
+        "height": 1255,
+        "ink": 0.5021,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "metrics-evidence.png": {
+        "width": 1845,
+        "height": 1255,
+        "ink": 0.628,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "mobility-bluegreen.en.png": {
+        "width": 1839,
+        "height": 1245,
+        "ink": 0.1066,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "mobility-bluegreen.png": {
+        "width": 1932,
+        "height": 1245,
+        "ink": 0.1023,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "site-overview.en.png": {
+        "width": 2092,
+        "height": 1245,
+        "ink": 0.0863,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "site-overview.png": {
+        "width": 2485,
+        "height": 1245,
+        "ink": 0.0756,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      }
+    }
+  }
 }

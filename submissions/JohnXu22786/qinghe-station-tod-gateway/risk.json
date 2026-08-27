@@ -7,7 +7,7 @@
    "category": "data_gap",
    "severity": "medium",
    "description_zh": "全部几何基于 provisional 边界；正式图形到位后需重新计算面积与指标并调整图件。",
-   "mitigation_zh": "已在正文、矩阵与图件中标明 provisional 状态与复算触发条件。"
+   "mitigation_zh": "已在正文、矩阵、图件与指标中标明 provisional 状态、置信等级与复算触发条件；面积仅采用官方文本口径。"
   },
   {
    "risk_id": "R-TRANSIT",
@@ -22,8 +22,8 @@
    "title_zh": "无感安检与客流感知数据边界",
    "category": "data_boundary",
    "severity": "medium",
-   "description_zh": "无感安检与客流动态引导涉及人员流动与位置信息，若未设边界可能造成隐私风险。",
-   "mitigation_zh": "仅处理匿名聚合数据，个人与轨迹信息不跨场景留存，关键决策人工复核。"
+   "description_zh": "无感安检与客流感知涉及客流与位置聚合信息，若未设边界可能引发隐私与公共安全合规风险。",
+   "mitigation_zh": "高风险场景（无感安检/客流引导）在试点前明确：法定主体假设（铁路与公安等依职权授权）、最小数据（仅通过率与时段聚合，不采身份与生物信息）、保留删除（实时计算、时段后删除）、误判申诉复核通道、人工接管与试点退出条件（误报率超基线或授权边界变化即撤收）。"
   },
   {
    "risk_id": "R-CONTROL",
@@ -47,7 +47,23 @@
    "category": "public_acceptance",
    "severity": "medium",
    "description_zh": "上盖开发收益与公众疑虑并存，站北社区更新涉及居民与商户利益。",
-   "mitigation_zh": "收益反哺机制披露透明、试点先行，重大规则依法公示、协商与听证。"
+   "mitigation_zh": "收益反哺机制披露透明、试点先行，设居民意见通道与议事会，重大规则与年度活动依法公示、协商与听证。"
+  },
+  {
+   "risk_id": "R-BRAND",
+   "title_zh": "品牌在先权利与使用边界",
+   "category": "legal",
+   "severity": "medium",
+   "description_zh": "概念阶段未完成官方商标与在先权利检索，名称、Logo与符号可能与既有权利冲突。",
+   "mitigation_zh": "将「清河枢境/QPR」等名称与符号作为内部工作代号，限制对外商业使用与注册，完成清权前不主张排他权利；资产权属/许可边界明细见 sources.json 各条目 license 字段。"
+  },
+  {
+   "risk_id": "R-GOVERNANCE",
+   "title_zh": "AI关键决策误判与人工接管",
+   "category": "data_boundary",
+   "severity": "medium",
+   "description_zh": "智慧出行/无感安检/客流引导等AI建议若误判可能影响通行与服务公平。",
+   "mitigation_zh": "设误判申诉与人工接管预案、模型评测/数据质量/误差分群/运行监测四类技术协议与试点撤收路径，关键决策一律人工复核。"
   }
  ],
  "version": 1,
