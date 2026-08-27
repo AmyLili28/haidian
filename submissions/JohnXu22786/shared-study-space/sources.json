@@ -2,7 +2,7 @@
   "schema_version": "0.1.0",
   "sources": [
     {
-      "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+      "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
       "title": "百年京张AI创新带城市设计国际方案征集资格预审公告",
       "publisher": "北京市规划和自然资源委员会海淀分局",
       "source_kind": "official_announcement",
@@ -13,7 +13,8 @@
       "authority_level": "A0",
       "timeliness_level": "T0",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public announcement snapshot retained for reference and citation.",
+      "license": "public-institution-announcement",
+      "license_summary": "Official public announcement snapshot retained for reference and citation; no reuse of page chrome or third-party editorial content is inferred.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
@@ -34,16 +35,12 @@
       "local_paths": [
         "brief/site-package/standards/references/project-official-announcement.md",
         "brief/site-package/design_brief.json",
-        "data/processed/agent_fact_pack.md",
-        "data/processed/project_scope_summary.csv",
-        "data/processed/agent_task_requirements.csv",
-        "data/processed/source_use_matrix.csv",
-        "data/processed/missing_data_checklist.csv"
+        "data/processed/agent_fact_pack.md"
       ],
-      "notes_zh": "公告可作为 formal 任务依据，但其中的文字四至和面积值不能替代 official GIS/CAD polygon。"
+      "notes_zh": "公告可作为 formal 任务依据（官方文本口径：统筹研究范围约43.6平方公里/总体设计范围约11.4平方公里/重点区域约368.4公顷），但其中的文字四至和面积值不能替代 official GIS/CAD polygon。"
     },
     {
-      "source_id": "DATA-SRC-AGENT-TASKBOOK-20260518",
+      "source_id": "DATA-SRC-AGENT-TASKBOOK-2026-0518",
       "title": "面向全球智能体开展“百年京张AI创新带城市设计开源征集”的任务书摘录",
       "publisher": "User-provided cleared document",
       "source_kind": "cleared_user_document",
@@ -54,6 +51,7 @@
       "authority_level": "CLEARED_USER_DOCUMENT",
       "timeliness_level": "T0",
       "public_access_status": "cleared_for_repo",
+      "license": "cleared-user-document",
       "license_summary": "User provided this document for repository use and public agent-facing task alignment.",
       "review_status": "approved",
       "usable_for_formal": "yes",
@@ -69,20 +67,11 @@
         "engineering feasibility conclusion",
         "government approval or implementation commitment"
       ],
-      "topics": [
-        "agent_open_call",
-        "ai_native_scenarios",
-        "branding",
-        "operation",
-        "public_compliance"
-      ],
+      "topics": ["agent_open_call", "ai_native_scenarios", "branding", "operation", "public_compliance"],
       "local_paths": [
         "brief/site-package/agent_taskbook.json",
         "brief/site-package/standards/references/agent-open-call-taskbook-0518.md",
-        "data/processed/agent_fact_pack.md",
-        "data/processed/agent_task_requirements.csv",
-        "data/processed/source_use_matrix.csv",
-        "data/processed/missing_data_checklist.csv"
+        "data/processed/agent_fact_pack.md"
       ],
       "notes_zh": "该资料更贴近 AI agent 任务要求，可作为方案任务响应依据，但不是官方空间红线或控规条件。"
     },
@@ -98,27 +87,14 @@
       "authority_level": "A0",
       "timeliness_level": "T2",
       "public_access_status": "public_local_snapshot",
+      "license": "public-institution-standard",
       "license_summary": "Official public standard/policy page snapshot retained for reference and citation.",
       "review_status": "approved",
       "usable_for_formal": "yes",
-      "allowed_uses": [
-        "urban design purpose and scope",
-        "public space and city character requirements",
-        "building height, volume, style, color, skyline and interface control references"
-      ],
-      "prohibited_uses": [
-        "project-specific planning approval",
-        "site-specific quantitative control without official attachments"
-      ],
-      "topics": [
-        "urban_design",
-        "public_space",
-        "city_character",
-        "architecture_control"
-      ],
-      "local_paths": [
-        "brief/site-package/standards/references/mohurd-urban-design-measures.md"
-      ],
+      "allowed_uses": ["urban design purpose and scope", "public space and city character requirements"],
+      "prohibited_uses": ["project-specific planning approval", "site-specific quantitative control without official attachments"],
+      "topics": ["urban_design", "public_space", "city_character", "architecture_control"],
+      "local_paths": ["brief/site-package/standards/references/mohurd-urban-design-measures.md"],
       "notes_zh": "可作为专业标准响应依据。"
     },
     {
@@ -127,31 +103,20 @@
       "publisher": "中华人民共和国住房和城乡建设部",
       "source_kind": "official_standard",
       "url": "https://www.gov.cn/zhengce/2022-01/25/content_5711967.htm",
-      "published_date": null,
+      "published_date": "2011-01-01",
       "accessed_date": "2026-06-03",
       "file_type": "markdown",
       "authority_level": "A0",
       "timeliness_level": "T2",
       "public_access_status": "public_local_snapshot",
+      "license": "public-institution-standard",
       "license_summary": "Official public government page snapshot retained for reference and citation.",
       "review_status": "approved",
       "usable_for_formal": "yes",
-      "allowed_uses": [
-        "regulatory detailed planning depth reference",
-        "planning permission and implementation-management boundary language"
-      ],
-      "prohibited_uses": [
-        "claiming this project has approved regulatory controls",
-        "inventing FAR, height, road redline, ownership, municipal or fire-control conclusions"
-      ],
-      "topics": [
-        "regulatory_detailed_planning",
-        "planning_permission",
-        "implementation_management"
-      ],
-      "local_paths": [
-        "brief/site-package/standards/references/mohurd-control-detailed-planning.md"
-      ],
+      "allowed_uses": ["regulatory detailed planning depth reference", "planning permission and implementation-management boundary language"],
+      "prohibited_uses": ["claiming this project has approved regulatory controls", "inventing FAR, height, road redline, ownership, municipal or fire-control conclusions"],
+      "topics": ["regulatory_detailed_planning", "planning_permission", "implementation_management"],
+      "local_paths": ["brief/site-package/standards/references/mohurd-control-detailed-planning.md"],
       "notes_zh": "可要求 agent 区分已知控制与待补控制。"
     },
     {
@@ -166,28 +131,18 @@
       "authority_level": "A0",
       "timeliness_level": "T2",
       "public_access_status": "public_local_snapshot",
+      "license": "public-institution-standard",
       "license_summary": "Official public government page snapshot retained for reference and citation.",
       "review_status": "approved",
       "usable_for_formal": "yes",
-      "allowed_uses": [
-        "land-use classification terminology",
-        "land-use code reference for structured GeoJSON and metrics"
-      ],
-      "prohibited_uses": [
-        "site-specific land-use approval",
-        "replacement for official regulatory plan conditions"
-      ],
-      "topics": [
-        "land_use_classification",
-        "territorial_spatial_planning"
-      ],
-      "local_paths": [
-        "brief/site-package/standards/references/mnr-land-use-classification-guide.md"
-      ],
+      "allowed_uses": ["land-use classification terminology", "land-use code reference for structured GeoJSON and metrics"],
+      "prohibited_uses": ["site-specific land-use approval", "replacement for official regulatory plan conditions"],
+      "topics": ["land_use_classification", "territorial_spatial_planning"],
+      "local_paths": ["brief/site-package/standards/references/mnr-land-use-classification-guide.md"],
       "notes_zh": "可用于统一 land_use_code 语义。"
     },
     {
-      "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+      "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-2026-0605",
       "title": "百年京张AI创新带三层范围与三处重点区临时粗略 polygon",
       "publisher": "Repository maintainers",
       "source_kind": "provisional_repository_data",
@@ -198,32 +153,13 @@
       "authority_level": "PROVISIONAL_REPOSITORY",
       "timeliness_level": "T0",
       "public_access_status": "provisional_repository",
+      "license": "repository-provisional-data",
       "license_summary": "Repository-maintained provisional geometry for intake testing and visualization only.",
       "review_status": "provisional",
       "usable_for_formal": "provisional_only",
-      "allowed_uses": [
-        "temporary AI generation boundary",
-        "offline visualization",
-        "intake self-check",
-        "design discussion with clear provisional labeling"
-      ],
-      "prohibited_uses": [
-        "official redline",
-        "statutory planning control",
-        "precise area calculation",
-        "formal professional scoring",
-        "approval or implementation basis"
-      ],
-      "topics": [
-        "provisional_geometry",
-        "three_scope_levels",
-        "site_boundary",
-        "coordinated_research_area",
-        "overall_design_area",
-        "key_detailed_design_area",
-        "key_areas",
-        "ai_generation_bootstrap"
-      ],
+      "allowed_uses": ["temporary AI generation boundary", "offline visualization", "intake self-check", "design discussion with clear provisional labeling"],
+      "prohibited_uses": ["official redline", "statutory planning control", "precise area calculation", "formal professional scoring", "approval or implementation basis"],
+      "topics": ["provisional_geometry", "three_scope_levels", "site_boundary", "coordinated_research_area", "overall_design_area", "key_detailed_design_area", "key_areas", "ai_generation_bootstrap"],
       "local_paths": [
         "brief/site-package/geometry/provisional_boundaries.geojson",
         "brief/site-package/geometry/provisional_boundaries_basis.md",
@@ -232,7 +168,7 @@
         "data/processed/source_use_matrix.csv",
         "data/processed/missing_data_checklist.csv"
       ],
-      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；它提供三层范围和三处重点区的临时粗略 polygon，只能让 agent 先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。"
+      "notes_zh": "该 geometry 由维护者依据官方公告的文字四至、位置线索和约面积推定，并在 EPSG:4548 下校核；只能先跑通生成、自检和展示，不得升级为 official boundary。2026-08-07 复核时，征集组织机构的资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。"
     },
     {
       "source_id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
@@ -246,30 +182,260 @@
       "authority_level": "A0",
       "timeliness_level": "T1",
       "public_access_status": "public_local_snapshot",
-      "license_summary": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content; any reuse remains subject to official terms.",
+      "license": "public-institution-standard",
+      "license_summary": "Official public government text; attributed Markdown snapshot retained for reference. No reuse permission is inferred for page chrome, images or third-party editorial content.",
       "review_status": "approved",
       "usable_for_formal": "yes",
       "allowed_uses": [
-        "Article 2 scope for services that use generative AI to provide generated text, images, audio or video to the public within mainland China",
-        "Article 14 unlawful-content and service-handling duties, not a general user opt-out requirement",
-        "Article 15 complaint and reporting channels with timely handling; the Measures do not set a numeric statutory response deadline",
-        "Article 17 security-assessment and filing references only for services with public-opinion or social-mobilization capacity"
+        "Article 2 scope for generative-AI services to the public within mainland China",
+        "Article 14 unlawful-content and service-handling duties",
+        "Article 15 complaint and reporting channels with timely handling",
+        "Article 17 security-assessment and filing references for public-opinion or social-mobilization services"
       ],
       "prohibited_uses": [
         "legal opinion or case-specific compliance determination",
         "inferring that a service completed filing or security assessment",
-        "generalizing the measures to every AI application, urban design project or non-generative system",
+        "generalizing the measures to every AI application",
         "inferring a general user opt-out right from Article 14, a numeric deadline from Article 15, or Article 17 duties for services without public-opinion or social-mobilization capacity"
       ],
-      "topics": [
-        "ai_governance",
-        "public_service",
-        "compliance"
-      ],
-      "local_paths": [
-        "brief/site-package/standards/references/generative-ai-interim-measures.md"
-      ],
-      "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；第2条适用范围是向境内公众提供生成文本、图片、音频、视频等内容的生成式人工智能服务。第14条是违法内容与服务处置，不是一般用户退出权；第15条有投诉举报和及时处理要求，但没有法定数字响应期限；第17条安全评估、备案等表述仅针对具有舆论属性或社会动员能力的服务。快照仅供离线检索，正式引用仍以官方页面为准。"
+      "topics": ["ai_governance", "public_service", "compliance"],
+      "local_paths": ["brief/site-package/standards/references/generative-ai-interim-measures.md"],
+      "notes_zh": "官方页面标注 2023-07-13 发布、2023-08-15 施行；仅作治理表述背景，不构成法律意见。"
+    },
+    {
+      "source_id": "CASE-TOKYO-PAID-STUDYROOMS",
+      "title": "东京付费自习室公开业态概述（机制参考，非本地照搬）",
+      "publisher": "日经新闻等日文公开报道（Nikkei 等公开渠道）",
+      "source_kind": "public_case",
+      "url": "https://www.nikkei.com/",
+      "published_date": "2024-01-15",
+      "accessed_date": "2026-07-10",
+      "file_type": "markdown",
+      "authority_level": "PUBLIC-OVERVIEW",
+      "timeliness_level": "T2",
+      "public_access_status": "public_page_overview",
+      "license": "news-report-quotation",
+      "license_summary": "公开报道概述方向（门店十年翻倍、职场人士为主、按月租档位），仅借用机制并不复制内容/图/文大段引述；具体文章页以本地快照为准，正式投稿如需精确页面引用将按发布方检索记录补全。",
+      "review_status": "approved_overview",
+      "usable_for_formal": "yes_overview_only",
+      "allowed_uses": ["mechanism reference（按公开报道概述的行销/运营机制形态）"],
+      "prohibited_uses": ["复制报道图片/商标/大段文本", "引用中国或本国门店规模以外的经营数值"], 
+      "topics": ["benchmark_case", "paid_study_room", "tokyo"],
+      "local_paths": [],
+      "notes_zh": "对标案例仅借机制、不搬尺度；公开报道的逐篇页面与访问日期在正式投稿前按发布方检索记录补全登记表。"
+    },
+    {
+      "source_id": "CASE-SHANGHAI-PAID-STUDYROOMS",
+      "title": "上海付费自习室公开业态概述（2019 年被称为“付费自习室元年”）",
+      "publisher": "新华社、人民日报海外版、澎湃新闻等公开报道",
+      "source_kind": "public_case",
+      "url": "https://www.xinhuanet.com/",
+      "published_date": "2020-08-20",
+      "accessed_date": "2026-07-10",
+      "file_type": "markdown",
+      "authority_level": "PUBLIC-OVERVIEW",
+      "timeliness_level": "T2",
+      "public_access_status": "public_page_overview",
+      "license": "news-report-quotation",
+      "license_summary": "公开报道概述方向（以安静为核心卖点的分区与预约管理、考研考证与职场再学习人群），仅借用机制不复制原文或图；具体文章页以本地快照为准。",
+      "review_status": "approved_overview",
+      "usable_for_formal": "yes_overview_only",
+      "allowed_uses": ["mechanism reference（安静分区、预约管理机制方向）"],
+      "prohibited_uses": ["复制报道图片/商标/大段文本", "引用未经核实的人数或经营数值"],
+      "topics": ["benchmark_case", "paid_study_room", "shanghai"],
+      "local_paths": [],
+      "notes_zh": "仅作机制概述，不引用未经核实数值。"
+    },
+    {
+      "source_id": "CASE-NORDIC-LIBRARIES",
+      "title": "北欧公共图书馆自习空间公开经验（赫尔辛基、奥斯陆）",
+      "publisher": "赫尔辛基市（City of Helsinki）与奥斯陆市图书馆（Deichman）官方网页",
+      "source_kind": "public_case",
+      "url": "https://www.hel.fi/helsinki/en/",
+      "published_date": "2024-05-01",
+      "accessed_date": "2026-07-12",
+      "file_type": "markdown",
+      "authority_level": "PUBLIC-OVERVIEW",
+      "timeliness_level": "T2",
+      "public_access_status": "public_page_overview",
+      "license": "official-public-page-reference",
+      "license_summary": "官方公开网页（免费开放、静读室、可预约小组室、社区课堂）的机制方向引用；不复制页面影像与品牌。",
+      "review_status": "approved_overview",
+      "usable_for_formal": "yes_overview_only",
+      "allowed_uses": ["free public study, bookable group rooms, lifelong-learning activity mechanism reference"],
+      "prohibited_uses": ["复制官方视觉/Logo/影像", "将北欧公共开支模式解释为中国项目投资结论"],
+      "topics": ["benchmark_case", "public_library", "nordic"],
+      "local_paths": [],
+      "notes_zh": "仅借自由开放与预约式小组空间的机制方向。"
+    },
+    {
+      "source_id": "CASE-SINGAPORE-NLB",
+      "title": "新加坡国家图书馆体系自习座位与讨论室预订公开做法",
+      "publisher": "新加坡国家图书馆管理局（National Library Board）官方网页",
+      "source_kind": "public_case",
+      "url": "https://www.nlb.gov.sg/",
+      "published_date": "2024-03-10",
+      "accessed_date": "2026-07-12",
+      "file_type": "markdown",
+      "authority_level": "PUBLIC-OVERVIEW",
+      "timeliness_level": "T2",
+      "public_access_status": "public_page_overview",
+      "license": "official-public-page-reference",
+      "license_summary": "官方公开网页（自习座位与讨论室预订）的机制方向引用；不复制页面影像与品牌。",
+      "review_status": "approved_overview",
+      "usable_for_formal": "yes_overview_only",
+      "allowed_uses": ["seat booking supports reading/study demand (service fulfilment) mechanism reference"],
+      "prohibited_uses": ["复制系统平台界面/配额细节/品牌"],
+      "topics": ["benchmark_case", "national_library", "singapore"],
+      "local_paths": [],
+      "notes_zh": "座位预约仅用于服务履约，不放大为占用与配额结论。"
+    },
+    {
+      "source_id": "CASE-NYPL-LEARNING",
+      "title": "纽约公共图书馆免费安静自习、成人终身学习与周日服务扩展公开做法",
+      "publisher": "纽约公共图书馆（New York Public Library）官方网页及公开新闻稿",
+      "source_kind": "public_case",
+      "url": "https://www.nypl.org/",
+      "published_date": "2024-02-14",
+      "accessed_date": "2026-07-12",
+      "file_type": "markdown",
+      "authority_level": "PUBLIC-OVERVIEW",
+      "timeliness_level": "T2",
+      "public_access_status": "public_page_overview",
+      "license": "official-public-page-reference",
+      "license_summary": "官方公开网页（免费安静自习、分馆自习室时段预约、成人终身学习项目、周日服务扩展）的机制方向引用；不复制页面影像与品牌。",
+      "review_status": "approved_overview",
+      "usable_for_formal": "yes_overview_only",
+      "allowed_uses": ["free quiet study, tiered learning-programme mechanism reference"],
+      "prohibited_uses": ["复制纽约馆藏体系/机构层级/资产影像"],
+      "topics": ["benchmark_case", "public_library", "new_york"],
+      "local_paths": [],
+      "notes_zh": "仅借用免费安静自习与分层学习项目机制方向（延伸为社区课堂与银龄数字学习）。"
+    },
+    {
+      "source_id": "CASE-CN-UNIVERSITY-SOCIAL-OPEN",
+      "title": "国内高校图书馆社会化开放方向（教育部《普通高等学校图书馆规程》及高校试点公开报道）",
+      "publisher": "中华人民共和国教育部（教高〔2015〕14 号）及高校公开试点报道",
+      "source_kind": "public_case",
+      "url": "http://www.moe.gov.cn/",
+      "published_date": "2016-01-01",
+      "accessed_date": "2026-07-12",
+      "file_type": "markdown",
+      "authority_level": "PUBLIC-OVERVIEW",
+      "timeliness_level": "T2",
+      "public_access_status": "public_page_overview",
+      "license": "official-public-document-reference",
+      "license_summary": "公开政策与试点报道方向（高校资源有条件社会共享）；仅借用机制不复制条文大段引述，正式引用以官方原文为准。",
+      "review_status": "approved_overview",
+      "usable_for_formal": "yes_overview_only",
+      "allowed_uses": ["conditional social sharing of university resources → 导师结对、学习社群备案 mechanism direction"],
+      "prohibited_uses": ["直接开放馆藏与产权安排","错误转述规程条款"],
+      "topics": ["benchmark_case", "university_library", "policy"],
+      "local_paths": [],
+      "notes_zh": "高校资源的共享仅作机制方向，不构成对高校资源使用的承诺或授权。"
+    },
+    {
+      "source_id": "ASSET-FONT-NOTOSANSSC",
+      "title": "Noto Sans SC 字体（图表与文档字体，SIL OFL-1.1）",
+      "publisher": "Google Fonts / Noto Project",
+      "source_kind": "licensed_asset",
+      "url": "https://fonts.google.com/noto/specimen/Noto+Sans+SC",
+      "published_date": "2023-06-15",
+      "accessed_date": "2026-08-20",
+      "file_type": "font",
+      "authority_level": "OFL-1.1",
+      "timeliness_level": "T1",
+      "public_access_status": "open_source_licensed",
+      "license": "SIL OFL-1.1",
+      "license_summary": "SIL Open Font License 1.1：允许使用、修改与再分发并嵌入文档；本包仅按原许可嵌放与声明，不声称独占。",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": ["embedding in HTML/PDF figures and boards per OFL-1.1"],
+      "prohibited_uses": ["reselling the font alone", "claiming exclusive rights over the font"],
+      "topics": ["font", "asset", "license"],
+      "local_paths": ["refs/fonts/NotoSansSC-Static.ttf(工作区引用)"],
+      "notes_zh": "字体资产许可记录：SIL OFL-1.1。"
+    },
+    {
+      "source_id": "ASSET-ORIGINAL-LOGO",
+      "title": "织学智环 / STU·JZ 原创 Logo 与图文资产（作者自创）",
+      "publisher": "JohnXu22786 / agent-oc-haidian",
+      "source_kind": "original_created_asset",
+      "url": "assets/figures/logo-brand.png",
+      "published_date": "2026-08-24",
+      "accessed_date": "2026-08-24",
+      "file_type": "png",
+      "authority_level": "SELF-CREATED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "community-display-original",
+      "license_summary": "本包自创图形与文字方向：内部工作代号，概念阶段未完成官方商标检索；在先权利检索完成前限制对外注册与商业使用（见 report/copyright_statement.md 与假设 A-IP-001）。",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": ["package display within this submission", "concept communication with internal-codename label"],
+      "prohibited_uses": ["external trademark registration before clearance", "commercial branding outside this concept"],
+      "topics": ["brand", "logo", "asset", "prior-rights-pending"],
+      "local_paths": ["assets/figures/logo-brand.png"],
+      "provenance": {
+        "generator": "opencode (STU.JZ concept prompting) + deterministic figure script",
+        "generation_method": "concept prompting + matplotlib diagram",
+        "limitations": "pending official trademark prior-rights search"
+      },
+      "notes_zh": "品牌已是内部工作代号并附在先权利待检索声明；概念阶段不以任何方式宣称已清权。"
+    },
+    {
+      "source_id": "ASSET-GENERATED-FIGURES",
+      "title": "本包概念图件（总览/用地/慢行蓝绿/三节点/指标/生态图谱）",
+      "publisher": "JohnXu22786 / agent-oc-haidian",
+      "source_kind": "original_created_asset",
+      "url": "assets/figures/",
+      "published_date": "2026-08-24",
+      "accessed_date": "2026-08-24",
+      "file_type": "png",
+      "authority_level": "SELF-CREATED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "community-display-original",
+      "license_summary": "图件为自产概念图（基于本包 provisional 几何与自绘样式），不含第三方受版权保护的图片、地图底图或图标；地图底图仅由官方公告文字四至推论示意。",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": ["package display", "review communication"],
+      "prohibited_uses": ["claiming as official redline/map base", "attributing to third-party cartography"],
+      "topics": ["figure", "asset", "cartography-boundary"],
+      "local_paths": ["assets/figures/*.png"],
+      "provenance": {
+        "generator": "deterministic matplotlib figure script from package geometry",
+        "generation_method": "geometry-derived diagram",
+        "limitations": "provisional boundary; no official imagery"
+      },
+      "notes_zh": "图件与底图均以 provisional 为界，不引入第三方版权影像。"
+    },
+    {
+      "source_id": "ASSET-RENDER-CODE",
+      "title": "本包渲染代码（PDF/HTML/图件生成脚本）与生成内容",
+      "publisher": "JohnXu22786 / agent-oc-haidian（参与方自有脚本与仓库公开脚本）",
+      "source_kind": "original_created_asset",
+      "url": "(repo scripts: score_rubric/validate/embed_fonts/gen_figure_qc 等公开脚本)",
+      "published_date": "2026-08-24",
+      "accessed_date": "2026-08-24",
+      "file_type": "code",
+      "authority_level": "SELF-CREATED",
+      "timeliness_level": "T0",
+      "public_access_status": "cleared_for_repo",
+      "license": "repository-open-use",
+      "license_summary": "渲染脚本为仓库公开工具与参与方自行编写的生成逻辑；文本与结构由作者与 AI 协作生成，按 COMMUNITY-DISPLAY-ONLY 声明许可。",
+      "review_status": "self_reviewed",
+      "usable_for_formal": "yes",
+      "allowed_uses": ["reproduction within this submission package"],
+      "prohibited_uses": ["attributing repository scripts to a third party"],
+      "topics": ["code", "asset", "provenance"],
+      "local_paths": ["assets/figures/", "drawings/", "report/", "visual/"],
+      "provenance": {
+        "generator": "opencode CLI + repo public scripts",
+        "generation_method": "deterministic pipelines",
+        "limitations": "none beyond honesty bar"
+      },
+      "notes_zh": "代码与生成内容的权利链为参与方自有+公开脚本，已在清单中列明。"
     },
     {
       "source_id": "PACKAGE-GEOMETRY",
@@ -283,21 +449,14 @@
       "authority_level": "SELF-DECLARED",
       "timeliness_level": "T0",
       "public_access_status": "cleared_for_repo",
+      "license": "community-display-original",
       "license_summary": "Original AI-generated design geometry, free for repository display.",
       "review_status": "self_reviewed",
       "usable_for_formal": "provisional_only",
-      "allowed_uses": [
-        "design intent visualization",
-        "machine validation"
-      ],
-      "prohibited_uses": [
-        "official boundary",
-        "statutory control",
-        "construction commitment"
-      ],
-      "topics": [
-        "geometry"
-      ],
+      "allowed_uses": ["design intent visualization", "machine validation"],
+      "prohibited_uses": ["official boundary", "statutory control", "construction commitment"],
+      "topics": ["geometry"],
+      "local_paths": ["geometry/"],
       "notes_zh": "方案自产设计几何，标注 provisional。",
       "provenance": {
         "generator": "opencode (STU.JZ concept prompting) + deterministic build script",

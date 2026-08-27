@@ -99,14 +99,16 @@
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 24,
+      "value": 27,
       "unit": "count",
       "source_files": [
         "geometry/land_use.geojson"
       ],
       "formula": "count(land_use.geojson features)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "single-caliber land classes 0802/0804/0701/0901/0902/1401"
+      ]
     },
     "building_unit_count": {
       "status": "known",
@@ -154,24 +156,35 @@
     },
     "persona_count": {
       "status": "known",
-      "value": 5,
+      "value": 6,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(representative user groups)",
+      "formula": "count(six persona rows, 六类人才画像 table)",
       "confidence": "high",
       "assumptions": []
     },
     "global_case_count": {
       "status": "known",
-      "value": 5,
+      "value": 6,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(global ecosystem mechanism cases: Tokyo/Shanghai/Nordic/Singapore/NY/CN university)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(SC-01..SC-10 scenario cards, 十张共享自习 AI+ 场景卡 table)",
       "confidence": "high",
       "assumptions": []
     },
