@@ -9,7 +9,6 @@ tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent
 scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-delivery-low-speed", "ai-cultural-guide", "enterprise-service-copilot", "public-safety-operations-review"]
 ---
 
-<!-- SCAFFOLD-DRAFT: replace the generated design content, figures, geometry, and drawings; then set manifest.package_state to ready_for_review. -->
 
 # 京张织脉：一条把百年铁路织进AI未来的创新带
 
@@ -52,6 +51,8 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 方案按照公告确定的三个层次组织工作：统筹研究范围关注 43.6 平方公里的AI产业生态、战略定位、创新链和未来城市形态；总体设计范围关注 11.4 平方公里京张遗址公园周边 1-2 公里城市地区和产业区，要求形成城市更新总体框架、产业空间布局、交通市政支撑和城市风貌控制；重点区域范围关注 368.4 公顷三处详细设计地区，要求明确功能业态、建筑规模、拆改留分类、公共空间连通和交通组织。三层范围在 `compliance_matrix.json` 中逐条映射，保证公告 1.3、1.4、1.5 与 agent.1-agent.6 的必选任务都有章节、图层、指标、图纸和 HTML 证据。
 
 三层工作框架的深度项由 [depth:three_level_scope_framework] 和 [depth:overall_spatial_structure] 约束，空间证据以 [data:geometry/site_boundary.geojson#SITE-001] 与 [data:geometry/key_areas.geojson#PROV-KEY-001] 为准，任务依据以 [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] 为准，范围索引以 [source:PROCESSED-FACT-PACK] 中 `project_scope_summary.csv` 的三层范围表为导航。
+
+![场地总览图（基于提交 GeoJSON 图层绘制：场地边界、三处重点片区、用地、绿地与建筑）](assets/figures/site-overview.png)
 
 ![三层范围与空间工作框架图](assets/figures/land-use-structure.png)
 
@@ -791,6 +792,8 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 **核心指标复算与证据链**
 
 本方案正文显式引用以下指标，均来自 GeoJSON 图层复算：
+
+![指标体系证据图（metrics.json 复算值、状态与数据来源一览）](assets/figures/metrics-evidence.png)
 
 | 指标 | 数据来源 | 状态 | 备注 |
 | --- | --- | --- | --- |

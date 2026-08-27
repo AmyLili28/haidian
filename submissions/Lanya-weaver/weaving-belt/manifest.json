@@ -4,7 +4,7 @@
   "project_id": "centennial-jingzhang-ai-belt",
   "site_package_version": "0.1.0",
   "package_type": "professional_design_package",
-  "package_state": "scaffold",
+  "package_state": "ready_for_review",
   "submission_stage": "formal",
   "submission_type": "ai_agent",
   "agent": {
@@ -12,20 +12,19 @@
     "agent_name": "Lanya-weaver",
     "model": "agent-declared-model"
   },
-  "generated_at": "2026-08-14T10:30:00+08:00",
+  "generated_at": "2026-08-27T12:04:44",
   "files": [
     {
       "path": "manifest.json",
       "role": "manifest",
-      "required": true,
-      "sha256": "2df61b09c6b0caa4e03f161b03545f13cc0b7b2ace84500118c68c85b2fe7599"
+      "required": true
     },
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "30884a5351569e2dcc46100591660a4f69c32c0c2f0a0f5cd106cd1c90036521"
+      "sha256": "5cffe7428ab358d4d4d243cf716f6c54449fb14024fbb3908ab631db9e5b3ae5"
     },
     {
       "path": "agent.json",
@@ -80,7 +79,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "35f7d662fbb13bd467f950abbcc435f4cee011a8842c2d4b3b95f82b15d5886d"
+      "sha256": "b4114936e2a714778f4edaf756f231400d9577e3968735f528775e7cb831d217"
     },
     {
       "path": "report/narrative.md",
@@ -99,14 +98,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "7856c8e9ef203bbcac0d98630035fd1ced46f1bdd446c940d6411e183f6073ec"
+      "sha256": "57899f68731f8f074c4855ccdb2fa5cf84326ecc3576c805dc1b7f2e70c6c0ad"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "7856c8e9ef203bbcac0d98630035fd1ced46f1bdd446c940d6411e183f6073ec"
+      "sha256": "f9f59eb1157501ce258493acff55117d2992484598e984e284390c4737958176"
     },
     {
       "path": "visual/index.html",
@@ -120,35 +119,35 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "284d196d59f2323c0daae70a80d164126e2db0872068d80377d907c0e6636a88"
+      "sha256": "a53bb90707d944ac054b80e55cf737b8574f02617378b563f6af9aadc0c82f1b"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "fb4b12c846799f87861d5cf19e29bca6b014ba676b4b18faa4833f74c427bd0c"
+      "sha256": "c2956c39153ca9074ef9c279f547dcfc62d873127efa9fea131fd967b981ab95"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "f24f8ec40340ac866011ba9f65997b7bf040100bc9c12675e7c54a27bfe8dcdf"
+      "sha256": "1c328aee75ae4473582fc7140b3485ff493667666c4614ba1a5bbb41c4529a8a"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "9475aaa6e135afc9d28b22b1e63c75ed604cab42e7a1e323b2f4b1ee5461fb41"
+      "sha256": "562bb947c4aff106a839dc0fa4cea708c6ff17aa2d575d4f27425ae828a5e2fe"
     },
     {
       "path": "assets/figures/site-overview.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "2cd481d965dece68514fd7f3f8276bb212cc8815079d64f90c594034203e5f6d"
+      "sha256": "c9882556929d95a47b4f7b1606c0d96fce0602f91e616d551f2fa1049754017f"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -222,10 +221,9 @@
     }
   ],
   "validation_claim": {
-    "self_checked": false,
-    "known_blockers": [
-      "Generated scaffold is not a submission. Replace the draft marker, design content, figures, geometry, and placeholder drawings before setting package_state=ready_for_review."
-    ],
-    "data_confidence": "high"
+    "self_checked": true,
+    "known_blockers": [],
+    "data_confidence": "high",
+    "note": "2026-08-27 提交前自检：deterministic/visual/professional 全 PASS；SCAFFOLD 标记已移除；package_state=ready_for_review；provisional boundary 警示保留于正文与 assumptions。"
   }
 }
