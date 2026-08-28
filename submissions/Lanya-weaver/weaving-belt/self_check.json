@@ -73,7 +73,7 @@
       "ai_package_stages": {
         "submissions/Lanya-weaver/weaving-belt": "formal"
       },
-      "total_bytes": 28995414,
+      "total_bytes": 29766486,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -151,7 +151,7 @@
         "proposal_format_version": "1",
         "evidence_contract": "legacy-exhaustive-inline",
         "proposal_reference_counts": {
-          "source": 21,
+          "source": 22,
           "standard": 6,
           "depth": 15,
           "data": 11,
