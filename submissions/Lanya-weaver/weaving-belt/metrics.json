@@ -13,10 +13,13 @@
         "geometry/site_boundary.geojson"
       ],
       "formula": "polygon_area(submitted_site_boundary)",
-      "confidence": "high",
+      "confidence": "medium",
       "assumptions": [
-        "Trusted official boundary is present in the site package."
-      ]
+        "geometry/site_boundary.geojson is a provisional_rough constraint for the OVERALL DESIGN AREA (scope_id=overall_design_area), not the official redline.",
+        "Calculated area ~11.41 km² corresponds to the provisional overall-design-area polygon, NOT the announced 43.6 km² coordinated research area.",
+        "Recalculate all area-derived metrics when official polygons are supplied (organizer data gap does not block content scoring)."
+      ],
+      "note": "Site scope per official announcement: 43.6 km² coordinated research area / 11.4 km² overall design area / 368.4 ha detailed key areas. This metric reflects the provisional overall-design-area polygon only."
     },
     "building_footprint_area_sqm": {
       "status": "known",
