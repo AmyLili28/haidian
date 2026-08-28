@@ -1,9 +1,36 @@
 {
   "schema_version": "1.0",
+  "execution_contract_ref": "visual/assets/execution-contract.json#PILOT-A-EXECUTION-142",
+  "execution_status": "unsigned_design_draft_not_field_authority",
   "spatial_structure": {
-    "zh": "一脊三带、三核六站、两翼互馈",
-    "en": "one spine, three belts, three anchors, six stations and two reciprocal wings"
+    "zh": "一条双向证据脊、三带叠合、三核六站、两翼互馈",
+    "en": "one bidirectional evidence spine, three overlapping belts, three anchors, six stations and two reciprocal wings"
   },
+  "core_innovation": {
+    "zh": "证据南行，纠错北返；更正回到每个受影响渠道，并反向触发重测、采购更新与产品修订。",
+    "en": "Evidence moves south and corrections return north; each correction reaches every affected channel and triggers retesting, procurement updates and product revision.",
+    "rights": ["know_the_basis", "human_handover", "pause_and_review", "same_channel_recovery"]
+  },
+  "verification_layers": [
+    {
+      "id": "V1",
+      "zh": "来源与传播可追溯",
+      "en": "Trace provenance and propagation",
+      "check": "source + version + purpose + expiry + every delivery channel"
+    },
+    {
+      "id": "V2",
+      "zh": "独立人工事实复核",
+      "en": "Independent human fact review",
+      "check": "source records, detector outputs and human judgement stay separate"
+    },
+    {
+      "id": "V3",
+      "zh": "纠错后果可执行",
+      "en": "Executable correction consequences",
+      "check": "pause + same-channel correction + retest + procurement update + recover or retire"
+    }
+  ],
   "three_belts": [
     {
       "zh": "百年京张文化带",
@@ -25,17 +52,17 @@
     {
       "zh": "众智园AI自主创新加速区",
       "en": "Zhongzhiyuan AI Independent Innovation Acceleration Area",
-      "program": "evaluation and standards anchor"
+      "program": "Failure Evidence Yard: evaluation, public observation, isolation, repair and retest"
     },
     {
       "zh": "北京AI原点社区",
       "en": "Beijing AI Origin Community",
-      "program": "translation and open-source anchor"
+      "program": "Civic Review Hall: screenless intake, evidence translation, independent review and correction return"
     },
     {
       "zh": "大钟寺AI产业聚集区",
       "en": "Dazhongsi AI Industry Cluster",
-      "program": "trusted procurement and urban service anchor"
+      "program": "Reversible Adoption Hall: procurement, lifecycle cost, exit testing and screenless recovery"
     }
   ],
   "two_wings": [
@@ -71,6 +98,28 @@
     "appeal",
     "allowed disclosure"
   ],
+  "service_contract_fields": [
+    "accountable role",
+    "human handover channel",
+    "correction return channels",
+    "pause trigger",
+    "shutdown trigger",
+    "recovery action"
+  ],
+  "operational_states": ["daily", "test", "recovery"],
+  "brand_and_long_term_operation": {
+    "reference": "visual/assets/brand-operations.json",
+    "identity": "J/Z switchback + evidence-southbound and correction-northbound arrows",
+    "pilgrimage_landmark_count": 4,
+    "regional_interface_count": 5,
+    "annual_program_cycle_count": 4,
+    "cultural_line": "from engineering log to open-source log"
+  },
+  "pilot": {
+    "duration_days": 90,
+    "reference": "visual/assets/pilot-playbook.json",
+    "disposition": ["adopt", "modify", "retire"]
+  },
   "phases": [
     {
       "phase": "0-18 months",

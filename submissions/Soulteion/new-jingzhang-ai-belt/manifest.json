@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "0133471c296eb9ffb0b508334ba46af798f66cddbbac0e59459110bedb1d5d7c"
+      "sha256": "401fc359fb49745642694f1710010a0213e2fe3284673f40e33efdaf6cae08e0"
     },
     {
       "path": "agent.json",
@@ -38,7 +38,7 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "c4a25b47d1e5e14c6c593389355c26aac6adb552749c7f923f35a6532722144a"
+      "sha256": "0ce925efcbd1a4d23be552180fcb10e551e5174e2c39e223929f5e9069bfd437"
     },
     {
       "path": "assumptions.json",
@@ -50,38 +50,38 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "277f52ce872fad29938dfe266f8049d8250961b041a4bdd12169cf35e75f1079"
+      "sha256": "ab3b48ecb1c1712c712a414941c1a31c58db1eeeb6681b739c62d556db02aeaf"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "cb42f41483d1093512d6aa4e28c35aec7d7a78e8e783dff0814b551dad3bac44"
+      "sha256": "c8832028eece516f2dd666728caf780379b6bbc23e2b521de96d5f1e48d27e55"
     },
     {
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "32da216db38f02b252cf50d39de98b5c024312c0dd049edd046c3735d608768e"
+      "sha256": "1fd89006e5bb346c2002e3e8a92f3878ce069cb290f240b9ab88105b49e4b79b"
     },
     {
       "path": "standard_matrix.json",
       "role": "standard_matrix",
       "required": true,
-      "sha256": "f16122ea863936c52f56b54773f08451dce4336c7da44d008b6a47bcb5901ba4"
+      "sha256": "1906414b1460e088f7f2458886d33ad1cf2371e23fb67e8b148b3246d3b0d6b9"
     },
     {
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "1c5877fd43e6a9f0d2d479824b8a0b0cdef9aa7378bcdd55aad188757970a0a7"
+      "sha256": "b0574af0212d65f8965ffbf4a962064071645a03a7e0b41a6e3a51ce61d3a659"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "bba2a4829f718a9ff421fa5205c361e0473dd3741a3560974d1818dedcaec649"
+      "sha256": "b3c6a781ea743144ede4c96f381ad6a47b5252046f163e8d7d35d392b4f2b345"
     },
     {
       "path": "report/narrative.md",
@@ -179,7 +179,7 @@
       "path": "geometry/land_use.geojson",
       "role": "geometry",
       "required": true,
-      "sha256": "771be9eb7f723664978886e47464ba691e4c631a2c2ebab29dad355b238691b6"
+      "sha256": "1089feec6a12d6a3c99e527939fca9436918e666297af84fabe4ab0240ad8590"
     },
     {
       "path": "geometry/phasing.geojson",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "b10408bda03cb24677f099c3c738ddfa7ab2904841906ee3b933f31c02a4378d"
+      "sha256": "b95e8fdb39715b3b267d216bef3e14eef7536c7969e2ff271186e3042e08924a"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "b5521548a6c6021a5ada7faa116d8cd33388075567447bd26fa061b3af2d3ba6"
+      "sha256": "b36788dfe63e10e9cd85f2f9335c6f549a464ba34bb6db2cf05d7d50344bfcb8"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -244,6 +244,72 @@
       "language": "en",
       "translation_of": "visual/index.html",
       "sha256": "eb69c0e394f0e186fa7a08267ab8f8cb380f1cc93e410d65d2e2b2e443f2bffa"
+    },
+    {
+      "path": "assets/figures/spatial-prototype.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "title_zh": "一脊三芯·四带两翼结构原型",
+      "title_en": "One-spine three-cores four-belt two-wings structure prototype",
+      "sha256": "b6cab682291539cb435b0ac11177b5ad0633e3887e44a6ab6e9c4c74a9dbaabf"
+    },
+    {
+      "path": "assets/figures/spatial-prototype.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/spatial-prototype.png",
+      "sha256": "43270b42ddf389949eb68d55c8179aa4f809d6ef9859a4641161f51d97619783"
+    },
+    {
+      "path": "assets/figures/renewal-structure.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "title_zh": "保留/改造/更新/新建更新结构与分期",
+      "title_en": "Retain/renovate/update/new-build renewal structure with phasing",
+      "sha256": "2ad2638a44100646dc8cb2cf7bbd428d4b537ea6faf6a60f619ed4f1b4e81386"
+    },
+    {
+      "path": "assets/figures/renewal-structure.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/renewal-structure.png",
+      "sha256": "dac7858d704259485ad030638212e7cb8be0dbba6c3815104674428eeb610ba1"
+    },
+    {
+      "path": "visual/assets/governance/action-package-ledger.json",
+      "role": "evidence_data",
+      "required": true,
+      "title_zh": "行动包台账（与10.1表一致）",
+      "title_en": "Action package ledger",
+      "sha256": "73e479d363b73c0dbe0daa635f9ddb54941869d030930112c9ae27a3d67aac23"
+    },
+    {
+      "path": "visual/assets/governance/role-spec.json",
+      "role": "evidence_data",
+      "required": true,
+      "title_zh": "参与主体角色规范",
+      "title_en": "Role specification",
+      "sha256": "fb6dc91f540b4246c38ff8e932b78a52548f440fc284b2b43a76e9244dc5fd9a"
+    },
+    {
+      "path": "visual/assets/governance/measurement-protocol.json",
+      "role": "evidence_data",
+      "required": true,
+      "title_zh": "核心视觉指标测量协议",
+      "title_en": "Measurement protocol",
+      "sha256": "a1ad9679c530b02aaa23cccdf8c72f6e1d77bb41399b53121e06b0c89d56c8c9"
+    },
+    {
+      "path": "visual/assets/governance/validation-report.json",
+      "role": "evidence_data",
+      "required": true,
+      "title_zh": "四闸自检汇总",
+      "title_en": "Validation report",
+      "sha256": "3d952b84c8e2740f604494c0e4a5955f8725ae1b0d922ca0426a7d2adb20fada"
     }
   ],
   "validation_claim": {

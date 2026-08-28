@@ -2,156 +2,326 @@
 title: "京张午间服务线 / Jing-Zhang Noonline SLA"
 author_github: "Rainyy-Yan"
 language: "zh"
-license: "COMMUNITY-DISPLAY-ONLY"
-summary: "以午间科研通勤、校园园区步行和地铁园区最后一公里为抓手，把京张遗址公园周边公共空间转化为可审计的午间服务等级网络。"
-iteration: "v2.0"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: "proposal.en.md"
-tracks: "ai-traffic-walkability,ai-public-services,civic-agent-governance"
-scenarios: "ai-traffic-walkability,enterprise-service-copilot,public-safety-operations-review,robot-delivery-low-speed,ai-cultural-guide,ai-health-service-navigation"
+license: "COMMUNITY-DISPLAY-ONLY"
+summary: "以午间压力测试组织京张 AI 创新带的研究、公共解释与日常使用：AI 提升服务，但无手机、无屏幕或 AI 关闭时，实体公共空间与人工兜底仍然可用；六个工作包以启用、验收、停用和移交的交付门控制试点。"
+tracks: ["ai-traffic-walkability"]
+scenarios: ["ai-traffic-walkability"]
+iteration: "v4.3"
 ---
+
 # 京张午间服务线 / Jing-Zhang Noonline SLA
 
-本方案不把“AI创新带”理解成一组更炫的显示屏，而是把京张遗址公园周边最容易被忽略的日常时段拿出来设计：工作日 11:30-14:30 的午间通勤、午休、会面、访客抵达和跨园区短距离移动。Noonline SLA 的含义是“午间在线感知 + 离线兜底服务等级”：AI 可以预测热、雨、拥挤、绕行和服务排队，但公共空间必须同时提供看得见的阴影、座椅、饮水、导向、人工帮助和无障碍替代路径 [source:DATA-SRC-AGENT-TASKBOOK-20260518] [standard:BARRIER-FREE-ENVIRONMENT-LAW]。
+> **把午间当作城市压力测试：AI 可以增强一条路，但任何人都不应因为没有手机、没有屏幕或 AI 离线而失去一条可进入、可停留、可求助的公共路径。**
 
-这个方向回应了前期扫描中的一个空白：已有方案中已经有遮荫、气候适应、季节线和“是否好走”的成熟讨论，因此本方案避免复用“凉行”等相近命名，把重点转到可复核的服务等级、午间运营、人工兜底和行业测试场景。人群依据也保持克制：海淀七普显示 2020 年全区 15-59 岁人口占 69.7%，60 岁及以上占 18.5%，大专及以上人口占 56.5%，外来常住人口占 35.7%；这只说明服务对象高度多元，不能推出场地内部某类人群占主导 [source:EXT-SRC-HAIDIAN-CENSUS-20210608]。
+![总体城市空间结构：三区两翼、Level 1/2 与京张公共连接的证据边界](assets/figures/v4-figure-01-overall-urban-structure.png)
 
-![京张午间服务线总览图，显示临时边界、三处重点片区、午间服务主线和人工兜底节点](assets/figures/site-overview.png)
+![证据边界图（不是总体结构主图）：公开任务书尺度、三区两翼关系与暂定设计表达](assets/figures/site-overview.png)
+
+## 1. 问题 / The Problem
+
+AI 城市常把“会被算法看见”误当成“可以被人使用”。午间是最小却最诚实的检验窗口：短时间步行、热暴露、等待、问路、喝水、休息、过街和临时失效同时发生。若一条公共路径只能在手机、预测、预约或测试系统正常时才能成立，它不是可靠的城市服务。
+
+本方案提出 **Noonline SLA**：先建立可读、可走、可停、可人工接力的实体公共空间，再让 AI 做预测、解释、提醒、维护辅助与动态调整。AI 不是公共服务的前置条件 [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] [standard:BARRIER-FREE-ENVIRONMENT-LAW]。
+
+方案的最小交付单元不是整片 11.4 km² 范围，而是六个可逆工作包。每个工作包只有在公共性、清晰带、无障碍替代、实体信息、人工停止权、维护、可选 AI 边界和证据移交等适用记录齐备后，才可从概念进入下一阶段；缺一项即保持 HOLD、改线、降级或撤回，不以模型判断补齐现实条件 [data:visual/assets/v4_3-delivery-readiness-contract.json#release_checks]。
+
+## 2. 午间为何是城市压力测试 / Noon as an Urban Stress Test
+
+午间把三种城市矛盾压缩到同一时段：热环境与短时出行、研发测试与普通步行、轨道到达与日常服务。设计因此不以“推荐更聪明的路线”为目标，而以一组可观察条件组织空间：公共清晰步行带不被队列、设备或测试占用；停留、遮阴、饮水和信息有明确的预留位置；入口、过街、无障碍绕行和人工责任在实施前接受核验。
+
+400 m 是 **Level 1 重点服务区**的参与者设计目标，不是整条京张走廊已实现的现状覆盖，更不是法定标准。区际 Level 2 连接承担方向识别、京张公共叙事和基础 AI-OFF 导向，不宣称连续 SLA 服务 [assumption:A-SLA-DESIGN-TARGETS-001] [assumption:A-GEOMETRY-DERIVED-METRICS-001]。
+
+## 3. 为什么必须发生在京张 / Why Jing-Zhang
+
+京张铁路遗址公园约 9 km 的线性走廊与“三区两翼”是公开的战略背景；一期已开放的遗址公园段和清华园车站旧址提供了真实的铁路遗产语境 [source:EXT-SRC-JINGZHANG-PARK-20230630] [source:EXT-SRC-QINGHUAYUAN-STATION-20260214]。方案不虚构三区中的既有轨道或遗产点，而把京张转译为三条公共空间规则：
+
+1. **Physical connection｜物理连接**：路线、停留与方向必须在没有算法时仍可被理解。
+2. **Intelligent connection｜智能连接**：AI 只叠加在已有公共秩序上，帮助解释和维护。
+3. **Resilient connection｜韧性连接**：测试、设备、入口或服务失效时，必须有可见的停用、降级、改线或人工交接。
+
+这使“京张”不是装饰性的历史符号，而是连接、维护、责任与可恢复性的空间纪律。
+
+## 4. 总体空间系统 / Overall Spatial System
+
+43.6 km² 是产业、生态、轨道与公共服务的统筹研究关系；约 11.4 km² 是总体设计范围。两者均来自公开任务书的尺度描述，提交 geometry 仍为暂定表达，绝不作为 official boundary 或控规红线 [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509] [source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605]。
+
+空间系统由 11 条概念 LineString、12 个主服务节点、8 个次级支持点和 5 个人工兜底点构成。它把三个不同原型连接为一条“研究 → 公共 → 市场 → 反馈”的可逆循环：
+
+- **众智园**：Research → Prototype → Test → Validate。
+- **AI 原点**：Understand → Question → Co-create。
+- **大钟寺**：Arrive → Decide → Pause → Enter Daily Life。
+- **中关村科技服务翼**：专业服务、转化和治理接口，不复制三区原型。
+- **小月河场景赋能翼**：生态、日常场景与公共反馈接口，需生态与工程专业深化。
+
+![概念用地与公共空间组织：方案角色而非法定地块](assets/figures/land-use-structure.png)
+
+![慢行、蓝绿与午间服务：11 条概念路线及其证据边界](assets/figures/mobility-bluegreen.png)
+
+![重点区空间原型：众智园、AI 原点与大钟寺分别承担验证、公共解释与日常采用](assets/figures/key-areas.png)
+
+## 5. 众智园 / Zhongzhiyuan: Research → Test → Validate
+
+众智园不是科技园广场，而是一条 **测试可被看见、但公共路权不可被侵占** 的研发验证界面。普通行人走在独立的公共清晰带；观察者停在公共观察与停留边；测试只在由安全缓冲隔开的概念激活区内发生；研发人员从受控一侧进入。F01 不是一个已存在的服务台，而是许可确认、异常交接和测试停止时的人类责任位置。
+
+最重要的空间动作是：
+
+- 将受控测试、缓冲、观察停留、种植/遮阴预留与公共清晰步行带做成彼此可读的带状关系。
+- 将“测试停止”设计成常态能力：关闭受控区后，固定标识、公共路径、观察边和人工交接仍可用。
+- 让研发测试成为可观察的城市界面，但不把公众带进设备、许可或运营边界。
+
+![众智园验证界面：公共、观察、缓冲、受控测试与 F01 的概念关系](assets/figures/v4-figure-02-zhongzhiyuan.png)
+
+测试许可、安全距离、既有设备、公共入口和现状遮阴均未获得现场或专业确认；图中均是 conceptual intervention 或 field verification required [assumption:A-CONTROLS-001]。
+
+## 6. AI 原点 / AI Origin: Understand → Question → Co-create
+
+AI 原点不是 AI 展厅，而是让公众拥有选择权的城市知识客厅。公共入口采用无手机也可读的固定信息；N06 作为 **heritage interpretation point**，讲述京张的连接、维护和公共责任，不能被读作真实遗存；N05 组织坐、等、谈和人工提问；AI 仅在侧向提供可选择的预测与解释，退出 AI 不等于退出空间。
+
+最重要的空间动作是：
+
+- 用实体知识线连接进入、阅读、停留、提问与离开，而非用屏幕替代场所。
+- 将座椅、固定标识、人工帮助和可选 AI 拆开布置，避免“必须登录才可使用”。
+- 将京张文化转译为可维护、可读、可被公众质询的日常信息系统，而不制造虚构遗产点。
+
+![AI 原点公共知识客厅：实体知识线、停留、人工帮助与可选 AI](assets/figures/v4-figure-03-ai-origin.png)
+
+公开资料可支持 AI 原点的战略角色和京张走廊语境，但不能确认图中具体入口、横向连接、座椅或遗产位置；这些条件保留为概念设计或待现场核验 [source:EXT-SRC-JINGZHANG-PARK-20230630] [assumption:A-HERITAGE-SEQUENCE-001]。
+
+## 7. 大钟寺 / Dazhongsi: Arrive → Decide → Pause → Enter Daily Life
+
+大钟寺的重点不是“把站口接到设计里”，而是把轨道到达后的第一分钟做成可读、可停、可求助的 **conceptual station-arrival interface**。真实背景限于大钟寺站、A/B 口以及公开的站内无障碍服务信息 [source:EXT-SRC-DAZHONGSI-STATION-202605]。方案从 N11 的方向判断、N09 的短暂停留与 F04 人工兜底，走向 N10 的过街/无障碍决策点和 N12 的日常服务界面。
+
+最重要的空间动作是：
+
+- 把 arrival → orientation → short stay → crossing/accessibility decision → daily service frontage 画成连续的决策序列。
+- 在入口、过街、无障碍或责任时段未核验时，明确输出 reroute / downgrade / suspend，而不是假装站外连通。
+- 将高频商务午间转换转化为短停、问路、固定导向和人工接力的公共界面。
+
+![大钟寺概念到达界面：真实站点背景与待核验的城市转换清晰分层](assets/figures/v4-figure-04-dazhongsi.png)
+
+站外过街、合法通行、站外无障碍连续路线、公共入口及商业营业界面均必须现场核验或由交通、无障碍和运营专业团队研究 [assumption:A-ACCESSIBLE-ROUTE-001]。
+
+## 8. SECTION-01–04 / Space Before AI
+
+四类断面把“路线”还原为可用的城市关系，而不是算法路径：沿街界面、停留/服务带、种植或遮阴预留、公共清晰步行带、固定信息、人工帮助、可选 AI、安全缓冲与受控区域始终各有位置。所有尺度为相对关系或 `TBC after field survey`，不伪装为施工断面。
+
+![SECTION-01–04：主轴、测试界面、知识客厅和轨道到达界面的相对空间关系](assets/figures/v4-figure-05-sections-01-04.png)
+
+## 9. Research → City → Feedback → Iterate
+
+产业链不是单向展示链。众智园负责研发、原型和受控测试；人工核验负责安全、证据和责任；AI 原点负责解释、提问和公共反馈；大钟寺负责真实日常使用与采用；治理将维护、纠错和公开回应带回下一轮研究。WP-02、WP-03、WP-04 和 WP-06 将这条链拆成可逆的试点动作。
+
+![Research → City → Feedback → Iterate：三区空间责任与工作包组成的闭环](assets/figures/v4-figure-07-research-city-feedback.png)
+
+## 10. Noonline / AI-OFF
+
+Noonline 的核心顺序是 **Physical → Human → Digital → AI**。当 AI 正常，系统可预测拥挤、解释路线、提示服务状态并辅助维护；当 AI 降级，停止不可靠推荐；当 AI 关闭，固定导向、实体路线逻辑、停留预留、公共入口逻辑和人工服务角色仍构成最低公共服务。
+
+`AI_OFF_TEST = PASS_WITH_PROVISIONAL_PHYSICAL_NETWORK`。这表示概念网络具备 AI 关闭时的物理与人工逻辑，不表示现有座椅、饮水、入口、过街或人工服务已经存在或真实运营 [data:visual/assets/noonline-sla-test-results.json#AI_OFF_TEST]。
+
+![AI-ON / AI-OFF：三个空间原型中的逐层降级与人工兜底](assets/figures/v4-figure-06-ai-on-off-resilience.png)
+
+## 11. WP-01–06 / 可逆实施项目包
+
+| WP | WHERE / 首要空间对象 | 拟定承接角色 | 资源带 | 核验门槛与停止条件 |
+| --- | --- | --- | --- | --- |
+| WP-01 | 三区 Level 1 主轴、8 个支持点 | 公共空间试点统筹角色 | RB-1 / RB-2 / RB-3 | 合法步行、清晰带和维护接口未记录，或公共通行被占，即移除或改址 |
+| WP-02 | 众智园 N01–N04、测试验证门廊 | 公共空间试点统筹角色 | RB-1 / RB-2 / RB-3 | 许可、缓冲和公共绕行未确认，即停止测试界面 |
+| WP-03 | AI 原点 N05–N08、知识客厅 | 公共空间试点统筹角色 | RB-1 / RB-2 | 入口、内容维护或人工提问角色缺失，即撤去交互层，仅保留获准实体信息 |
+| WP-04 | 大钟寺 N09–N12、站城到达转换 | 场地或站城界面承接角色 | RB-1 / RB-2 / RB-3 | 过街不安全、绕行不可达、入口非公共或无运营角色，即改走已核验公共边界或暂停连接主张 |
+| WP-05 | 5 个概念人工兜底点及关键固定导向 | 运营维护承接角色 | RB-1 / RB-2 | 无服务时段、标识、设施维护或人工责任，即降级或移除已激活点 |
+| WP-06 | 45 项现场 ledger、Phase 0–3 | 授权现场核验角色 | RB-1 / RB-3 | 证据缺失、过期、被拒绝或由 AI 写入，即维持或下调 Verified SLA，绝不自动升级 |
+
+本轮新增“概念实施控制台账”，将 6 个工作包接到 6 类待指定角色、3 个非财务资源带、4 个阶段决策和 7 项风险。角色不是已经任命的主体，资源带也不是预算：它们只是要求在 Phase 0/1 前补齐“谁可核验、谁可停止、谁可维护”的交付接口。RB-1 为核验与治理，RB-2 为可逆公共界面，RB-3 为交通、无障碍、文保、工程等专业深化；任何一带都不推定资金、产权、采购、许可或政府承诺 [data:risk.json#concept_roles] [data:risk.json#resource_bands]。
+
+图 08 将这套实施控制直接画入 A3 与 A0：阶段门槛在上，三区与节点的工作包空间部署在左，7 项“风险 → 空间 → 动作”在右，6 个工作包的拟定主责和失败响应在下。它与 `risk.json` 共同使用相同的 WP、ROLE、RB、RISK 和 PHASE 编号；图中的所有角色仍为 `not_appointed`，所有空间条件仍为 `concept_design_not_field_verified`，不会把交付逻辑画成已获准工程。
+
+![图 08：V4.1 实施控制图，将阶段、工作包、空间对象、风险动作与证据边界放在同一阅读面](assets/figures/v4-figure-08-implementation-control.png)
+
+控制对象的数量是明确且可复核的：6 个工作包和 6 类概念角色 [metric:implementation_work_package_count] [metric:implementation_concept_role_count]；3 个资源带和 7 项可停止风险 [metric:implementation_resource_band_count] [metric:implementation_stoppable_risk_count]。这些数值衡量的是交付控制的完整度，不代表任何投资规模或实际运营能力。
+
+工作包仍是概念性、可逆的试点建议，不包含虚构投资额、工期、产权、审批结论或政府承诺。每一阶段的责任角色、资源带、门槛和停机条件已回写到 Phase 0–3；每一工作包同时指向具体道路、节点和 ledger 任务 [data:geometry/phasing.geojson#PHASE-000] [data:risk.json#work_packages]。
+
+## 12. 证据、指标与核验 / Evidence, Metrics and Verification
+
+**Target SLA** 是设计希望达到的等级；**Verified SLA** 是当前证据可以支持的等级。当前 Engine 结果保持：SLA-A = B、SLA-B = C、SLA-C = C。缺少现场遮阴连续性、连续暴晒、真实节点位置、饮水/座椅状态、公共入口、关键过街、夏季绕行和人工服务时段中的任一关键项，都不得自动升级到 A [data:visual/assets/noonline-sla-report.json#routes]。
+
+台账将核验分成“能否进入下一阶段”和“能否升级 SLA”两道门：前者由接口、清晰带、维护和安全记录决定，后者仍必须完成 18 项 SLA-A 必填的人类现场证据。即使局部试点可运行，任何一项关键热环境、入口、过街、无障碍或人工兜底证据为空，也只能维持当前 Verified SLA；这避免把一次活动、一个界面或一个算法评分误读为全线服务能力 [metric:sla_a_mandatory_verification_task_count] [data:risk.json#risks]。
+
+| 证据层级 | 本方案如何使用 |
+| --- | --- |
+| Level A — Publicly supported | 公开的京张走廊、三区两翼、任务书角色、遗址公园阶段和大钟寺站站内公开服务信息可作为背景。 |
+| Level B — Design inference | 路线、节点、空间带、工作包和 AI-OFF 机制是概念设计叠加。 |
+| Level C — Field verification required | 入口、过街、站外无障碍、遮阴、饮水、座椅、公共性、营业状态与人工服务时段。 |
+| Level D — Professional study required | 文保控制、交通安全、站城整合、机器人测试许可、工程、产权、审批与实施。 |
+
+![指标与证据链：11 条概念路线、12 个主节点、8 个支持点、5 个人工兜底点与人工核验门槛](assets/figures/metrics-evidence.png)
+
+提交的暂定 geometry 计算得到约 11,412,825.386 sqm 的概念范围；它仅用于内部复算工作流，不取代公开的约 11.4 km² 设计范围描述 [metric:site_area_sqm] [metric:official_overall_design_area_sqm]。
+
+绿地和公共空间指标同样是概念 geometry 的可复算结果，不是现状测绘或法定控制指标 [metric:green_ratio] [metric:public_space_ratio]。
+
+## 资料、风险与版权 / Sources, Risks and Copyright
+
+所有图纸、PDF 和 HTML 均由公开或已清权资料、提交的概念 GeoJSON 和本地生成图面组成；不加载远程底图、字体、脚本或 API。未取得 official boundary、控规 GIS、设施清单、微气候实测、公共入口、站外过街和无障碍测绘数据时，方案保持 `provisional / concept_design / not_field_verified`，而不是用视觉完整性替代证据 [source:SOURCE-REGISTRY] [assumption:A-PROVISIONAL-BOUNDARY-001]。
 
 ## 设计依据与资料清单
 
-方案依据分成三层。第一层是官方公告和站点包，提供项目名称、三层范围、约 11.4 平方公里总体设计面积、三处重点片区和正式成果深度；第二层是智能体任务书，提出命名、AI生态、场景卡、用户画像、朝圣地标、文化叙事和长期运营要求；第三层是公开规范和政策快照，用来界定城市设计、控规深度、用地分类、生成式AI服务治理和无障碍人工兜底边界 [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509] [source:DATA-SRC-AGENT-TASKBOOK-20260518] [standard:MOHURD-URBAN-DESIGN-MEASURES]。
-
-本地空间文件使用仓库提供的临时粗略边界作为生成与展示约束。`geometry/site_boundary.geojson` 和 `geometry/key_areas.geojson` 已明确标注为 provisional constraint，不能被解释为官方红线、道路红线、地籍边界或精确面积依据；官方 CAD/GIS 发布后，本方案的面积、图纸和 HTML 指标需要整套复算 [data:geometry/site_boundary.geojson#SITE-001] [source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605]。
-
-新增的外部人群资料只使用海淀区公开七普公报。它的使用范围是“区级背景画像”：说明海淀不是单一科研园区，而是青年科研人员、通勤访客、外来常住人口、儿童、老年人和无障碍需求共同出现的高复杂度城区；它不参与边界、面积、客流或场地内部人口指标计算 [source:EXT-SRC-HAIDIAN-CENSUS-20210608] [assumption:A-CENSUS-SCOPE-001]。
+方案以公开任务书、站点公开信息、京张遗址公园公开材料、适用标准快照和仓库已清权的暂定几何为依据。任务书提供 43.6 km² 统筹研究关系、约 11.4 km² 总体设计范围与“三区两翼”角色，不提供可直接作为红线、施工范围或设施台账使用的官方 GIS。来源文件把每项资料限定为背景、设计推演或待核验线索；`sources.json`、`assumptions.json` 与图纸共同记录其使用边界。因而本方案把“午间公共服务是否可用”作为设计问题，而不把公开网页、概念 GeoJSON 或 AI 推断误写成现场事实 [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509] [source:EXT-SRC-JINGZHANG-PARK-20230630] [assumption:A-PROVISIONAL-BOUNDARY-001]。
 
 ## 三层范围工作框架
 
-统筹研究范围约 43.6 平方公里，承担“午间服务系统如何成为AI创新带公共基础设施”的策略研究：把高校、科研院所、园区、社区、轨道站点和京张遗址公园看作连续的日常使用网络，而不是只看三处重点片区的孤立更新 [depth:three_level_scope_framework] [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509]。
-
-总体设计范围约 11.4 平方公里，是 Noonline SLA 的空间试验场。方案不新增道路几何，而是在既有 `ROAD-001` 午间主脊和图件表达上组织三类 SLA 路径：SLA-A 的设计目标是连续停留主线，Target SLA = A，但当前 Engine Verified SLA = B；SLA-B 管横向短接驳，SLA-C 管站点到园区触点。三类路径分别解决跨园区午餐、科研会面、地铁到园区、访客抵达和短时休憩问题 [data:geometry/roads.geojson#ROAD-001] [metric:noon_sla_corridor_count]。
-
-重点区域范围约 368.4 公顷，由众智园AI自主创新加速区、北京AI原点社区和大钟寺AI产业集聚区组成。三处片区在方案中不是同质化复制：北段偏“研发与验证”，中段偏“原点展示与开放社区”，南段偏“消费商务与到访服务”；所有片区边界仍为临时粗略范围 [data:geometry/key_areas.geojson#PROV-KEY-001] [data:geometry/key_areas.geojson#PROV-KEY-002] [data:geometry/key_areas.geojson#PROV-KEY-003]。
+统筹研究层讨论 43.6 km² 内产业、轨道、生态与公共服务之间的关系；总体设计层以约 11.4 km² 的公开尺度组织走廊、三区两翼与实施接口；重点区层只在众智园、AI 原点和大钟寺提出可复核的空间原型。三层不是三张彼此独立的图：上层说明为何研究、公共解释和日常使用需要成为闭环，中层组织 Level 1 服务区与 Level 2 区际连接，下层把清晰步行、停留、人工帮助、缓冲和失效状态落实到空间带。提交边界均为暂定表达，替换为官方几何后须重算面积、关系与指标 [metric:official_overall_design_area_sqm] [data:geometry/site_boundary.geojson#PROV-SITE-001]。
 
 ## 统筹研究范围产业与未来城市研究
 
-京张午间服务线的产业逻辑，是把“AI企业服务”从会议室里拉到城市界面上：园区团队需要午间会面、临时办公、外宾接待、设备演示、合规咨询和场景测试，城市则需要可被公众理解的AI公共价值。Noonline SLA 把这些需求合并为服务等级，但等级不由纯 AI 打分形成，而由可观察空间条件形成：有没有连续遮阴、能不能坐、能不能喝水、能否进入公共空间或服务点、过街是否有等待位置、夏季绕行是否被控制、是否看得见人工兜底 [depth:overall_spatial_structure] [metric:noon_service_node_count]。
-
-全球案例不直接复制空间形态，而提取机制：Kendall Square 的高校企业近邻、Toronto Waterfront 的数据治理争议、Paris Rive Gauche 的铁路廊道再开发、Singapore one-north 的研发生活复合、Seoul Digital Media City 的展示消费界面、London King’s Cross 的更新运营，以及 Shenzhen Hetao 的跨境协同，都提示本项目需要“场景开放 + 公共合规 + 日常体验”并行，而不是只做产业楼宇 [source:DATA-SRC-AGENT-TASKBOOK-20260518]。
-
-未来城市研究的重点是“低侵入式AI”。本方案不使用人脸、个人手机轨迹、支付记录或未清权企业运营资料，而用公开天气预警、设备状态、服务工单、匿名客流级别、人工巡查和用户自愿反馈形成运营闭环；涉及生成式内容的导览、问答和活动推荐，需要保留投诉、纠错和人工复核通道 [standard:GENERATIVE-AI-INTERIM-MEASURES] [assumption:A-PRIVACY-001]。
+未来城市研究不是把 AI 企业简单排布在走廊两侧，而是把研究成果如何进入公共生活、如何被质询、如何在失效时退出作为产业生态的一部分。众智园承接研究、原型和受控验证；中关村科技服务翼承接专业服务、成果转化与治理接口；AI 原点承接解释、提问和公众反馈；大钟寺承接高频日常使用；小月河场景赋能翼承接生态和生活场景反馈。研究范围因此构成 Research → Prototype → Test → Validate → Demonstrate → Use → Feedback → Governance → Iterate 的关系框架，而非对任何企业、用地权属或开发时序的承诺 [depth:industrial_ecosystem] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]。
 
 ## 总体设计范围城市更新与控规深度城市设计
 
-总体结构为“一线、三段、十二点、五个兜底站”。一线是京张遗址公园及其两侧慢行服务主线；三段对应北部研发验证段、中部原点社区段和南部消费商务段；十二点是午间服务节点；五个兜底站把导向、无障碍咨询、人工问路、应急饮水和活动日秩序服务放到可见位置 [data:geometry/public_space.geojson#PUBLIC-001] [metric:human_fallback_node_count]。
-
-十二个服务节点的选址规则是“起终点、换向点、停留点、过街点、公共入口点、热雨风险点”六类优先，而不是平均撒点。五个人工兜底点从十二点中选取，优先放在三段转换、轨道接驳、重点公共入口和活动日人群汇合处；它们解释为概念选址规则和图面表达，不是现状设施统计 [metric:noon_service_node_count] [assumption:A-MICROCLIMATE-001]。
-
-城市设计深度控制采用“建议而非法定结论”的写法。用地分区、建筑界面、更新项目和服务节点都作为专业团队后续深化的参考方案，不能替代控规调整、容积率、建筑高度、道路红线、桥隧或市政容量论证 [standard:MOHURD-CONTROL-DETAILED-PLANNING] [assumption:A-CONTROLS-001]。
-
-方案的AI原生特征在于把空间变成可审计的服务合约：每个节点都可记录“有无阴影、是否可坐、是否有饮水、是否有离线说明、是否可人工介入、是否适合轮椅与推车”，AI只负责预测、排程和提示，最终的公共服务质量由可见设施和人工巡查兑现 [depth:development_intensity_controls] [metric:public_space_ratio]。
-
-![用地与午间服务结构图，显示四类概念用地和服务等级分区](assets/figures/land-use-structure.png)
+总体设计以 11 条概念 LineString、12 个主服务节点、8 个次级支持点和 5 个人工兜底点，表达一条可读、可停、可求助、可降级的午间公共服务网络。Level 1 仅在三区内部及直接接入段提出不超过 400 m 的参与者设计目标；Level 2 连接承担方向识别、京张叙事和基础 AI-OFF 导向，不宣称连续 SLA 覆盖。更新动作聚焦公共界面、慢行优先、服务预留和可逆试点，而非将概念地块、建筑或道路画成控规红线和已批准工程。控规、交通组织、消防、市政和无障碍需在后续专业研究中与官方资料共同校准 [data:geometry/roads.geojson#ROAD-001] [assumption:A-SLA-DESIGN-TARGETS-001]。
 
 ## 重点区域详细设计
 
-众智园AI自主创新加速区建议作为“午间验证北段”：服务线优先连接研发楼、实验服务、开放测试和轨道接驳，把午餐、短会、样机演示和外部评审安排在可步行的低速界面。独有空间动作有三项：研发楼首层外设置可短会的遮阴等候界面；在开放测试入口前设置可撤回的样机展示与人工登记点；把轨道接驳方向的过街等待和座椅饮水组织成午间验证门廊。这里的设计成果是样板化的服务节点组件库，不是具体建筑拆改结论 [data:geometry/key_areas.geojson#PROV-KEY-001] [depth:three_key_area_detailed_design]。
-
-北京AI原点社区建议作为“可被看见的AI公共客厅”：设置AI原点驿站、模型透明橱窗、京张记忆界面和午间开放课堂，把中关村创新文化、京张铁路叙事和AI公共治理放在同一个可解释空间里。独有空间动作有三项：在公共入口形成双语固定导向和人工问询前场；把模型透明橱窗与可坐停留面并置，避免只看屏幕不停留；把京张记忆界面接入午间步行路线，让国际访客无手机也能读懂原点叙事。这里尤其适合承接访客导览、国际交流和公众问答的人工兜底 [data:geometry/key_areas.geojson#PROV-KEY-002] [metric:pilgrimage_node_count]。
-
-大钟寺AI产业集聚区建议作为“南部午间消费与商务服务段”：强化地铁到园区、商务楼到餐饮、活动人群到公共空间的短时连接。独有空间动作有三项：在站点到园区的出口方向设置清晰的遮阴排队和问询点；把商务楼首层服务界面与午间座椅、饮水、轻消费串联；在活动日把公共空间边缘作为可人工疏导的临时缓冲带。相关发布、路演和社群活动仍是可能的运营设想，不写成确定招商或运营安排 [data:geometry/key_areas.geojson#PROV-KEY-003] [source:DATA-SRC-AGENT-TASKBOOK-20260518]。
-
-![三处重点片区差异化设计图，显示北段验证、中段原点和南段商务服务](assets/figures/key-areas.png)
+众智园以“公共清晰带—观察停留边—安全缓冲—受控测试激活区”的并置关系，使研发测试可被观察而不侵占公共路权；AI 原点以实体知识线、坐等谈、人工提问和可选 AI 组成无手机也可使用的公共知识客厅；大钟寺以到达、方向判断、短停、过街或无障碍决策和日常服务前沿组织概念性站城转换。三者分别承担验证、公共解释和日常采用，不能互相替代。具体入口、既有座椅、饮水、遮阴、站外连通和运营时段仍为概念或待核验条件；细部设计必须服从现场、文保、交通和运营专业结论 [depth:key_area_design] [data:geometry/public_space.geojson#N01] [assumption:A-CONTROLS-001]。
 
 ## AI 创新生态、人才画像与 AI+ 场景
 
-五类用户画像用于校核服务，而不是推断场地人口占比。第一类是高校和园区青年研发者，需要短时协作和低成本会面；第二类是来访企业与投资服务人员，需要可解释的抵达和展示路径；第三类是周边居民和亲子使用者，需要安全、遮阴和不被技术排斥的公共空间；第四类是老年人与无障碍需求者，需要线下说明、人工帮助和连续座椅；第五类是国际访客，需要中英文一致导向和清晰的公共合规说明 [source:EXT-SRC-HAIDIAN-CENSUS-20210608] [metric:persona_count]。
-
-十张AI+场景卡分别是：午间舒适导航、实验室访客抵达、开放测试预约、无障碍慢行复核、AI原点公共问答、京张文化导览、活动日人流分级、低速机器人配送窗口、午间安全巡查、开发者快闪课堂。每张卡都必须同时标注空间载体、数据来源、人工兜底和禁止使用的个人数据类型 [metric:scenario_card_count] [standard:GENERATIVE-AI-INTERIM-MEASURES]。
-
-三个行业测试验证场景是：热舒适服务等级试验、低速机器人与步行共处试验、活动日导览与拥挤分级试验。它们都是可撤回、可人工接管、可被公众投诉纠错的开放测试，不是已批准运营，不依赖指定厂商，也不承诺商业效果 [metric:industry_validation_scenario_count] [assumption:A-PRIVACY-001]。
+方案面对的并非单一“AI 用户”，而是普通步行者、午间短时使用者、观察者、研发人员、轨道到达人、维护人员和人工服务责任者。AI 在众智园可辅助测试状态解释，在 AI 原点可提供自愿的知识解释与反馈，在大钟寺可辅助动态提醒和维护；它不替代固定标识、公共清晰带、人工求助或绕行判断。每个场景都保留退出 AI 的实体路径，异常时触发停止、降级、改线或人工交接。这样，AI+ 不是屏幕叠加，而是对城市服务可解释性、可维护性和可问责性的有限增强 [depth:ai_scenarios] [data:visual/assets/noonline-sla-test-results.json#AI_OFF_TEST]。
 
 ## 用地、建筑规模与拆改留方案
 
-用地表达采用四类概念分区：午间科研与AI研发复合片区、京张午间蓝绿缓冲与停留片区、校园园区混合服务片区、街区更新与生活服务片区。它们继承仓库 scaffold 的拓扑安全分割，满足 land_use 图层完整覆盖边界，但不替代正式国土空间规划和控规用地 [data:geometry/land_use.geojson#LU-001] [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]。
-
-建筑策略是“界面更新优先、存量激活优先、拆改结论后置”。方案只提出午间可达界面、首层共享、檐下空间、可移动服务设施和可解释展示窗的设计方向；任何具体建筑保留、改造、拆除、新建、产权调整或消防市政结论均需专业团队和官方资料确认 [data:geometry/buildings.geojson#BLDG-001] [depth:retain_renovate_demolish]。
-
-指标层面，现阶段只登记可由临时几何复算的面积、绿地比例、公共空间比例和节点数量；容积率、建筑密度、建筑高度和停车配建等控规指标保持“待正式数据补齐”，不使用推测值填空 [metric:floor_area_ratio] [metric:building_density]。
+提交的用地与建筑几何只表达设计角色、公共界面和研究关系，不提供法定地块、容积率、建筑规模、拆除量或产权结论。众智园的受控测试带、AI 原点的公共知识客厅和大钟寺的日常服务前沿均应优先利用可逆、可维护的界面改善，而不是预设大规模新建。建筑沿街界面在断面中被视为信息、停留、服务或受控进入的相对关系；任何保留、改造、拆除、结构加固、消防疏散和历史建筑处置，都必须在权属、现状测绘、文保和工程研究完成后决定。概念面积仅供内部复算，不能外推为实施指标 [data:geometry/land_use.geojson#LU-001] [data:geometry/buildings.geojson#BLDG-001]。
 
 ## 交通、轨道、市政与公共服务设施
 
-慢行交通以三类 SLA 路径组织，空间证据统一挂接在 `ROAD-001` 午间主脊和五张图件中。SLA-A 是遗址公园午间主线的设计目标，Target SLA = A，但当前可验证状态只能写为 Verified SLA = B，要求遮阴尽量连续、休息点可见、饮水和人工兜底接入主线；SLA-B 是校园园区横向接驳，要求短路径、过街等待、可进入公共空间和夏季少绕行；SLA-C 是轨道站点到园区的最后一公里触点，要求固定双语导向、无障碍绕行提示、饮水座椅和人工问询。三类 SLA 都是空间条件清单，不是 AI 排名或手机导航分数 [data:geometry/roads.geojson#ROAD-001] [metric:noon_sla_corridor_count]。
-
-### Noonline SLA Engine 证据对齐
-
-本轮采用双层状态：`Target SLA` 表示设计希望达到的服务等级，`Verified SLA` 表示 Noonline SLA Engine 在当前公开/清权数据和本 submission 声明证据下可稳定支持的等级。程序结果优先于叙述；缺少现场核验时，不得把目标等级写成已证明的当前状态 [data:visual/assets/noonline-sla-report.json#normal_routes.SLA-A] [metric:noon_sla_corridor_count]。
-
-| Design Claim | Engine Status | Evidence Gap | Upgrade Trigger |
-| --- | --- | --- | --- |
-| SLA-A 遗址公园午间主线，设计目标为 A。 | Target SLA = A；Verified SLA = B。 | 遮阴连续性、连续暴晒距离、真实节点位置、饮水/座椅状态、公共入口、过街条件、夏季绕行和人工服务点责任仍未现场核验。 | 全部关键证据补齐且 Engine 复核无 blocker 后，才可由 B 升 A；缺任一关键证据时不得自动升级。 |
-| SLA-B 横向短接驳，设计目标为 B。 | Target SLA = B；Verified SLA = C。 | 过街等待、公共入口开放、夏季绕行距离和节点状态仍为概念证据。 | 现场核验公共入口、过街等待和绕行距离后再复核。 |
-| SLA-C 站点到园区触点，设计目标为 C。 | Target SLA = C；Verified SLA = C。 | 仍依赖概念节点和未现场核验的固定导向、饮水、座椅、人工问询条件。 | 补齐真实点位、开放时段和无障碍路径核验后维持或微调 C。 |
-| AI 全部关闭。 | AI_OFF_TEST = PASS_WITH_PROVISIONAL_PHYSICAL_NETWORK。 | 固定标识、实体路线、座椅、饮水、公共入口和人工服务点可形成概念兜底网络，但尚不是现实运营证明。 | 现场确认设施存在、开放、可达且有人负责后，AI-OFF 结论才可从 provisional 转为现场验证。 |
-
-A 级升级门槛是硬门槛，不是“未来完善后自然达到 A”。从 Verified SLA = B 升级到 A，必须补齐：遮阴连续性现场核验、连续暴晒距离实测、饮水点真实位置与开放状态、座椅及休息节点状态、公共入口实际开放条件、关键过街条件、夏季实际绕行距离、人工服务点责任与可用时段。缺少任一关键证据时，Engine 不应自动升级到 A。
-
-#### V2 现场核验工作流
-
-V2 不声称已经完成任何现场核验。Engine 从既有三类 SLA 路径、概念节点与八类 evidence gap 自动生成 45 项机器可读核验任务，写入 `visual/assets/noonline-field-verification-ledger.json`；其中 SLA-A 的 18 项任务为升级门 mandatory evidence，基线全部为 `unknown`。每项任务包含 route/node/object、所需证据、核验方法、通过/失败条件、状态、置信度、核验人、时间和证据引用；双语人工核验清单由同一 ledger 自动注入 `visual/index.html#v2-field-verification` 与 `visual/index.en.html#v2-field-verification`，不维护脱离机器数据的人工副本 [data:visual/assets/noonline-field-verification-ledger.json#summary] [metric:field_verification_task_count]。
-
-核验状态机只允许 `unknown → scheduled → observed → verified / rejected`。AI 不能创建、观察、确认或拒绝现场证据；`verified` 与 `rejected` 必须由人类核验人写入，并同时具备 verifier、timestamp 和 evidence reference。SLA-A promotion gate 因 18 项 mandatory evidence 均未完成而返回 `promotion = blocked`，所以当前 Target SLA = A、Verified SLA = B 不变；任何 mandatory evidence 被拒绝时继续阻断升级并触发保持 B 或降级复核。即使所有 mandatory evidence 未来由人类流程核验，gate 也只允许后续 Engine/政策复核，绝不自动把 Verified SLA 写成 A [data:visual/assets/noonline-sla-report.json#verification_workflow] [assumption:A-FIELD-VERIFICATION-WORKFLOW-001]。
-
-2026 年公开的京张铁路遗址公园沿线街区控规获批信息，为本方案提供了约 9 公里绿廊、南北贯通/东西联通慢行和便民服务方向的最新官方语境；本 submission 的 `ROAD-001` 仍只是概念性服务参考轴，而非官方 GIS、现状设施 inventory 或 SLA-A 的现场证据 [source:EXT-SRC-JINGZHANG-CONTROL-PLAN-20260812] [data:geometry/roads.geojson#ROAD-001]。
-
-市政与公共服务设施采用轻量化、可撤回的原则：先做可移动饮水、座椅、遮阴、充电、信息牌和人工服务桌，再根据专业测量决定是否需要固定工程。未公开的管线、排水、电力、消防和地下空间资料不被推断，相关内容只列为后续深化清单 [depth:municipal_new_infrastructure] [assumption:A-CONTROLS-001]。
-
-轨道接驳不提出新线位或站点工程结论，而是关注站点出入口到园区入口之间的“午间可懂路径”：哪条路更有阴影，哪里能坐下，遇到系统故障时找谁，国际访客如何读懂京张和AI原点叙事 [standard:BARRIER-FREE-ENVIRONMENT-LAW] [depth:traffic_rail_slow_parking]。
-
-AI OFF / 无手机 / 无屏幕模式是完整公共服务模式，而不是应急附属品。Noonline SLA Engine 当前输出 `AI_OFF_TEST = PASS_WITH_PROVISIONAL_PHYSICAL_NETWORK`：AI 全部关闭后，概念网络仍依靠固定路线标识、地面或立柱导向、可见座椅、饮水补给、公共入口和五个人工服务点维持基本午间服务；但这一结论仍依赖 provisional / not field verified 的物理条件，不得表述为现实运营证明。AI 只做预测、提醒、动态调整和维护辅助，不成为遮阴、休息、饮水、问询和可达路径的前置条件 [data:visual/assets/noonline-sla-report.json#ai_off_test] [standard:BARRIER-FREE-ENVIRONMENT-LAW]。
-
-![交通慢行与蓝绿公共空间图，显示主线、横向接驳、蓝绿冷却带和兜底站](assets/figures/mobility-bluegreen.png)
+交通策略以步行清晰性和轨道到达后的第一分钟为起点：公共清晰带不应被测试、排队或设备占用，转折、停留、过街决策和人工求助应被固定信息和可见责任位置支持。大钟寺站 A/B 口及站内公开无障碍服务信息可以作为真实背景，但不能推断站外合法过街、连续无障碍路径、公共入口或市政条件已经成立。遮阴、饮水、座椅、照明、排水、无障碍、消防和人工服务均以预留、核验和专业研究的顺序推进；未通过核验时，系统应改线、降级或暂停，而非继续承诺服务等级 [source:EXT-SRC-DAZHONGSI-STATION-202605] [assumption:A-ACCESSIBLE-ROUTE-001]。
 
 ## 蓝绿空间、公共空间与城市风貌
 
-蓝绿系统的核心不是把绿地面积说得更大，而是让绿地、公园边界、街角和建筑首层形成午间连续体验。图层中绿地比例和公共空间比例来自临时几何复算，视觉表达把临时边界降为虚线背景，把服务线、停留点和兜底站作为主叙事 [data:geometry/green_space.geojson#GREEN-001] [metric:green_ratio]。
-
-公共空间组件库包括六类：阴影座椅、饮水补给、双语导向、AI解释屏、人工服务桌和开放测试提示牌。组件必须有无屏版本和低技术版本，避免把公共空间变成只服务熟练手机用户的系统；其中座椅、饮水、固定标识、公共入口和人工桌是 AI 关闭时仍然工作的基础设施 [data:geometry/public_space.geojson#PUBLIC-001] [standard:BARRIER-FREE-ENVIRONMENT-LAW]。
-
-城市风貌表达采用“铁路记忆 + 科研透明 + 午间可达”的克制语言：保留京张遗址公园的线性记忆，避免过度娱乐化地标；AI朝圣节点不是巨型雕塑，而是原点驿站、开源荣誉墙、模型透明橱窗和服务等级里程牌四类可更新载体 [depth:height_massing_character] [metric:pilgrimage_node_count]。
+午间压力测试把热暴露、短时行走、等待、饮水和停留放在同一公共空间判断中。蓝绿策略因此不是景观装饰：种植与遮阴被画作服务带的预留，停留点必须避开公共清晰带，信息与人工帮助需在可见位置，开放性和维护责任先于智能推荐。京张文化也不以复制轨道或摆放纪念物呈现，而通过连续、可读、可维护、可在失效时恢复的空间规则进入公共界面。现状树冠、水系、微气候、座椅和设施状况并未完成现场盘点，图中不把概念预留表现成已建成生态设施 [data:geometry/green_space.geojson#GREEN-001] [assumption:A-MICROCLIMATE-001]。
 
 ## 更新项目清单、实施政策与分期计划
 
-更新项目清单分三组：第一组是 0-6 个月的“低成本样板段”，包括临时导向、座椅、遮阴、饮水和人工服务桌；第二组是 6-18 个月的“场景验证段”，包括热舒适测量、低速机器人窗口和活动日导览；第三组是 18 个月以后的“专业深化段”，需要官方边界、控规、市政、交通和运营主体进一步确认 [depth:renewal_project_list] [data:geometry/phasing.geojson#PHASE-001]。
-
-实施政策建议只作为开放共创建议：建立午间服务等级台账、场景测试申请模板、公众反馈和纠错渠道、双语活动日导览包、无障碍复核清单，以及开发者社群维护机制。它们不构成政府已确定政策、财政承诺或招商承诺 [source:DATA-SRC-AGENT-TASKBOOK-20260518] [depth:phasing_implementation]。
-
-长期运营可形成“Jing-Zhang Noon Lab”年度活动：夏季午间服务评测、开发者午休路演、AI公共服务开放日、京张文化夜行之外的午间导览、国际访问周和开源方案复盘会。运营价值来自可复用台账和可审计反馈，不来自一次性宣传 [metric:scenario_card_count]。
+WP-01 至 WP-06 是最小可实施、可停止、可升级的项目包，而不是一串愿景名称。每个包现在都有首要空间对象、拟定承接角色、资源带、启动门槛、可追溯的现场任务、验收门槛和停止响应。Phase 0 先指定授权核验角色并记录接口；Phase 1 只在确认界面运行可逆样板；Phase 2 才允许公共空间、无障碍、交通、文保和工程等专业深化；Phase 3 只在维护责任可持续且证据仍可审计时有限扩大。这里的角色和资源均为待落实的概念交付接口，不构成资金、工期、产权、审批或政府承诺。试点若占用公共通行、无法维护、造成安全风险或关键证据过期，必须停止、改址或降级；只有人类核验完整后才可扩大 [data:geometry/phasing.geojson#PHASE-000] [data:risk.json#phases] [assumption:A-FAILURE-RESPONSE-001]。
 
 ## 指标体系、面积复算与合规矩阵
 
-结构化指标显示：临时提交边界复算面积约 11,412,825.386 平方米，官方公告总体设计面积为约 11.4 平方公里，两者只能作为近似校核关系；绿地比例约 0.123423，公共空间比例约 0.073281，三处重点片区数量为 3 [metric:site_area_sqm] [metric:official_overall_design_area_sqm] [metric:key_area_count]。
-
-服务指标显示：Noonline SLA 设置 3 类午间服务路径、12 个概念服务节点、5 个可见人工兜底节点、10 张AI+场景卡、3 个行业验证场景、5 类用户画像和 4 类朝圣/荣誉节点。3 类路径是同一午间主脊上的 SLA-A/B/C 空间服务等级，不是 3 条独立道路中心线；12 点和 5 点来自图件与选址规则，不是现状设施统计 [metric:noon_sla_corridor_count] [metric:noon_service_node_count] [metric:human_fallback_node_count]。
-
-合规矩阵覆盖公告和智能体任务书全部任务，标准矩阵覆盖官方公告、智能体任务书、城市设计管理办法、控规深度、用地分类以及AI治理和无障碍相关边界，设计深度矩阵覆盖 15 个 formal 深度项 [depth:metrics_recalculation] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]。
-
-![指标与证据链图，显示面积、服务节点、场景卡、人工兜底和数据缺口](assets/figures/metrics-evidence.png)
+指标体系严格区分设计目标、概念几何推导值与当前可验证状态。400 m 是 Level 1 服务区的设计目标，不是全线现状覆盖；概念 geometry 可复算 11 条路线、12 个主节点、8 个次级支持点和 5 个人工兜底点，但不证明设施已经存在。Target SLA 为 A，而 Engine 在现有证据下仅验证 SLA-A 为 B、SLA-B 为 C、SLA-C 为 C；关键现场证据不足时不能自动升级。`metrics.json`、合规矩阵、标准矩阵、设计深度矩阵和 Engine 共同保存可机器复核的证据链，正文只解释这些指标如何影响空间判断 [metric:design_target_service_node_spacing_m] [data:visual/assets/noonline-sla-report.json#routes]。
 
 ## 风险、版权与合规说明
 
-最大风险是把“服务等级”误解成已经可实施的工程指标。为避免这一点，方案把热舒适、客流、设施状态和公众反馈都写成测试协议，把无障碍和人工兜底写成设计底线，把官方边界和控规资料缺口写进 assumptions、sources、proposal 和 visual 页面 [assumption:A-MICROCLIMATE-001] [depth:risk_missing_data]。
-
-第二个风险是人群依据被误读。本方案明确不声称场地内部老年人、儿童、科研人员或外来人口的具体占比；海淀七普只支持“区级多元人群和包容性校核”，不支持“某类人群主导场地”的结论 [source:EXT-SRC-HAIDIAN-CENSUS-20210608] [assumption:A-CENSUS-SCOPE-001]。
-
-本方案所有图像、PDF、HTML 和结构化数据均由本地脚本基于公开/清权资料和仓库临时几何生成，没有使用远程地图瓦片、外部字体、第三方图片、个人隐私数据或未授权商标。互动网页离线运行，报告 HTML 不含脚本，视觉 HTML 不调用远程 API [source:SOURCE-REGISTRY] [standard:GENERATIVE-AI-INTERIM-MEASURES]。
+方案最大的风险不是图面不够完整，而是将暂定边界、概念节点、公开站内信息或算法输出误读为现状、批准或可施工事实。Site Evidence Ladder 因此分为公开支持的背景、设计推演、必须现场核验和必须专业研究四级；图纸的实线、虚线、核验与研究标记直接表达这一差别。实施控制台账把这一边界进一步落到七种可停止风险：公共接口、清晰带与无障碍、热环境/休息/饮水、维护与人工兜底、测试安全与隐私、AI 排斥性，以及将暂定几何误作审批控制。所有图、PDF、HTML 和离线交互仅使用提交包内的本地文件及公开或已清权资料，不加载远程底图、字体、API、个人数据或未清权素材。涉及交通安全、文保、权属、工程、许可和公共责任的决定保留给相应专业与管理主体 [source:SOURCE-REGISTRY] [data:risk.json#risks] [assumption:A-SITE-EVIDENCE-LADDER-001]。
 
 ## 参考资料
 
-- 官方公告与站点包：项目范围、任务、重点片区和成果要求 [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509]。
-- 智能体任务书：命名、场景、人物画像、AI地标、文化叙事和长期运营 [source:DATA-SRC-AGENT-TASKBOOK-20260518]。
-- 临时边界：仅用于生成、展示和自检，不作为官方红线 [source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605]。
-- 海淀七普公报：区级人群结构背景，不作为场地人口或午间客流统计 [source:EXT-SRC-HAIDIAN-CENSUS-20210608]。
-- 专业标准与政策快照：城市设计、控规深度、用地分类、生成式AI治理和无障碍人工服务边界 [standard:MOHURD-URBAN-DESIGN-MEASURES] [standard:MOHURD-CONTROL-DETAILED-PLANNING]。
+本案的资料不是用来把概念线包装成现实工程。公开任务书与来源注册表只支持统筹尺度、三区两翼与京张文化背景；暂定边界和概念空间层只支持方案表达与复算；现场路径、站外过街、无障碍、树冠、服务时段、产权、许可、资金和具名实施主体仍需独立取得。因而每一项“Verified”只能由授权的人类核验者以可审计记录写入，AI 不得把 `unknown` 自动升级。案例比较只提取公共接口原则，不证明地区合作或可复制建设条件；品牌图形也只是参与者原创概念，未来安装仍需权利、材料和审批确认。该边界使本方案能够讨论空间、治理和测试之间的关系，同时不越过公开资料的能力范围 [source:SOURCE-REGISTRY] [assumption:A-PROVISIONAL-BOUNDARY-001] [metric:field_verification_unknown_task_count]。
+
+## 13. V4.2 任务书交付：开放但不越界 / V4.2 Taskbook Deliveries: Open, Not Overclaimed
+
+### 13.1 全球案例比较与区域协同接口
+
+下表不是“已合作”名单，也不将案例复制到海淀；它把可借鉴的公共接口与本地必须核验的条件分开。CASE-01—06 的资料等级、限制和可转译动作见 `visual/assets/v4_2-agent_delivery_index.json#precedents`；所有区域关系均为 **conceptual exchange interface / 待正式协同确认**。
+
+| ID | 对照案例或对象 | 可借鉴的公共接口 | 本方案的限制性转译 |
+|---|---|---|---|
+| CASE-01 | 巴塞罗那 Superblock 公共空间 [source:EXT-SRC-CASE-01-BARCELONA-SUPERBLOCK-20210202] | 官方资料支持其以街道公共空间转型服务日常使用；本案仅借鉴“先保障步行与停留，再叠加服务” | 不移植交通管制、尺度或实施条件 |
+| CASE-02 | 新加坡 Punggol Digital District [source:EXT-SRC-CASE-02-PUNGGOL-DIGITAL-DISTRICT] | JTC 公开资料支持研究、教育、产业和社区界面的邻近组织 | 仅作产学公共界面参考，不主张土地、资金、园区或机构合作 |
+| CASE-03 | 东京涩谷公共导向实践 [source:EXT-SRC-CASE-03-SHIBUYA-PUBLIC-SIGN-20250515] | 涩谷区公开资料支持统一、易理解及多语公共导向 | 不推导无障碍认证；大钟寺站外合法过街与连续无障碍仍须现场核验 |
+| CASE-04 | 多伦多 Quayside / Sidewalk Labs 公开治理评议 [source:EXT-SRC-CASE-04-WATERFRONT-TORONTO-DSAP-20190910] | 官方独立咨询记录支持公开数字治理问题、审查边界和公众利益讨论 | 评议本身是阶段性意见；本案只保留公开解释、独立复核与人工申诉原则 |
+| CASE-05 | 赫尔辛基开放城市试验场 [source:EXT-SRC-CASE-05-TESTBED-HELSINKI] | 城市官方平台支持企业与研发主体在真实城市环境中按具体安排提出和开展测试 | 不代表本案已获合作、采购或场地；场景须先完成许可、数据与安全核验 |
+| CASE-06 | 京张铁路遗址公园公开背景 [source:EXT-SRC-JINGZHANG-PARK-20230630] | 官方公开资料支持约 9 km 走廊、一期开放及公共空间/慢行背景 | 不虚构三区既有遗产点、精确边界或干预位置 |
+
+**区域协同框架（RS-01—05）**：北纬社区承担“日常公众问题—反馈”接口；未来科学城承担“研究问题—可解释测试”接口；怀柔科学城承担“科学传播—人才对话”接口；北京经开区承担“制造/部署经验—安全复盘”接口；京津冀承担“年度议题—跨城学习”接口。每个接口只可交换五类非敏感成果：`knowledge` 公开方法、`test` 去标识化试验协议、`talent` 公开讲座/导师时间、`event` 可公开活动议题、`governance` 停止与申诉模板。任何数据、资金、产权、设施使用或人员承诺均为 unknown，须由具名机构和合法文件确认后才可进入实施 [assumption:A-CONTROLS-001]。
+
+### 13.2 生态—产业关系图谱与组件库
+
+生态不是产业的背景板。EIM-01“树冠/遮阴—午间热暴露—停留”、EIM-02“雨水/排水—可达性—雨天绕行”、EIM-03“公共清晰带—测试缓冲—研究观察”、EIM-04“知识客厅—公众提问—治理反馈”共同组成生态—产业关系图谱。它们分别对应绿地、公共空间、道路和核验账本中的概念图层，不能据此推出现状树冠、排水能力或生态工程可行性。
+
+组件库 CL-01—06 是可撤回的概念构件，而不是采购清单：CL-01 固定双语导向；CL-02 低位可读证据牌；CL-03 不依赖手机的休息/饮水预留；CL-04 测试缓冲与停用牌；CL-05 人工兜底接力位；CL-06 雨热绕行信息。每件构件以“不侵占清晰带、AI-OFF 可读、可维护、可撤回”为共同验收前提；尺寸、材料、防火、无障碍、产权和审批待专项及现场核验。
+
+#### agent.2 土地—空间—产业—资金—人才—算力—数据—场景机制矩阵
+
+这不是已落实的要素清单，而是 `agent.2` 从任务书到实施门槛的统一索引。完整双语字段、空间对象、WP/SC/IV、来源与假设引用见 `visual/assets/v4_2-agent2-eight-element-mechanism-matrix.json#elements`；所有 `ROLE` 均未任命，所有现实条件仍为 `unknown`，AI 不得自动升级。
+
+| Element | 空间接口 | 概念机制 / ROLE | 证据与阶段门 | STOP / HOLD / DOWNGRADE |
+|---|---|---|---|---|
+| ELEM-01 土地 Land | PROV-KEY-001—003、概念 land_use | 公共界面预留、临时使用触发与地块接口核验；ROLE-05/03 | concept/provisional；PHASE-000 核验权属、公共性与控制条件后才可深化 | 缺权属、许可、合法通行或控制条件即 HOLD，只保留暂定图示 |
+| ELEM-02 空间 Space | Level 1、N01—N12、8 支持点、F01—F05 | 清晰带、停留、固定导向与人工兜底先行；ROLE-01/03/04 | not field verified；PHASE-000—003 逐段核验 AI-OFF 可读与可维护 | 通行、过街或无障碍失败即 STOP/改线；维护缺失即 DOWNGRADE |
+| ELEM-03 产业 Industry | 三区节点、SC/IV、RS-01—05 | 研究 → 受限测试 → 公众解释 → 日常反馈 → CONV-01；ROLE-01/04/06 | permission-gated concept；PHASE-001—003 需测试窗口、绕行和安全/隐私复核 | 测试侵占公共空间或缺许可即 STOP；无主体和运营承诺即 HOLD 转化 |
+| ELEM-04 资金 Funding | PHASE-000—003 与 WP-01—06 | 以阶段门提出未来公共利益采购、试点资源和全生命周期运维触发，不给预算；ROLE-01/04/05 | finance unknown；有合法资金/采购与维护记录后才可激活 | 资金、采购、产权或运维责任未记录即 HOLD，移除未获支持的服务声明 |
+| ELEM-05 人才 Talent | N01、N05、N06、N08 与 EVENT/DEV | 公开讲座、导师时段、核验训练和最小测试协议；ROLE-02/04/06 | partners unknown；PHASE-001—003 需具名主持、公共可达与权利记录 | 无主持、可达或内容权利即 HOLD；侵犯同意、隐私或路权即 STOP |
+| ELEM-06 算力 Compute | N01/N05/N07/N09 的可选 AI 层 | 只定义边缘/云接口、可用性和失效降级，不声称已获算力；ROLE-06/04 | compute agreement unknown；启用前需安全、能耗/接口、监控和 AI-OFF 演练 | 算力、安全、审计或责任失败即关闭 AI，只保留物理与人工服务 |
+| ELEM-07 数据 Data | 45 项 ledger、18 项 SLA-A、N01—N12 | 来源—时间—位置—核验者—有效期账本，排除身份、人脸和未清权数据；ROLE-02/06 | unknown until human verified；PHASE-000—003 按任务核验 | 缺失/过期即保持 unknown 或 DOWNGRADE；AI 写入或含禁用数据即 STOP/拒绝 |
+| ELEM-08 场景 Scenario | SC-01—10、IV-01—03、N01—N12 | 场景绑定公共绕行、人工兜底、许可窗口、证据门与停止权；ROLE-01/02/05/06 | concept/not approved；PHASE-001—003 需具名 stop authority | 安全/隐私失败即 STOP，许可/证据缺失即 HOLD，AI/运营失效即 DOWNGRADE 至固定信息 |
+
+### 13.3 SC-01—10 完整场景卡
+
+每张卡均为概念场景，不等同于已开放服务；其唯一 ID、节点、证据等级和英文等价位置见 `visual/assets/v4_2-agent_delivery_index.json#scenario_cards`。
+
+| ID | 场景与空间 | AI 可选层 | 人工 / AI-OFF 兜底 | 产业测试边界 |
+|---|---|---|---|---|
+| SC-01 | 众智园 N01 测试开始前的公共绕行 | 预测拥挤 | F01 固定停用牌与人工说明 | IV-01，仅获准窗口 |
+| SC-02 | 众智园 N02 午间遮阴停留 | 热提醒 | 固定遮阴/休息指引 | 无数据采集即不启动 |
+| SC-03 | 众智园 N03 公共入口问路 | 双语问答 | 固定地图与人工接力 | IV-02，入口可达性核验 |
+| SC-04 | 众智园 N04 过街决策 | 风险提示 | 物理导向与改线 | 未核验即 HOLD |
+| SC-05 | AI 原点 N05 公共提问 | 可选解释 | F02 人工问询 | IV-03，解释/申诉记录 |
+| SC-06 | AI 原点 N06 京张解释 | 低敏互动叙事 | 固定文化导视 | 无虚构遗产或人脸识别 |
+| SC-07 | AI 原点 N07 夜间/雨热绕行 | 可选动态提示 | 静态夜间/雨天板 | 未有照明/维护证据即 DOWNGRADE |
+| SC-08 | AI 原点 N08 公共入口活动日 | 可选排队提示 | 人工分流与物理队列线 | 仅在获准活动窗口 |
+| SC-09 | 大钟寺 N09 到达后短停 | 到达信息 | F04 人工求助 | 站外界面未核验即不宣称连续服务 |
+| SC-10 | 大钟寺 N10—N12 过街至日常界面 | 可选路径提示 | 固定改线/暂停牌 | IV-02；无障碍或合法性未知即 SUSPEND |
+
+产业验证场景是 SC-01/03/05 的受限子集：IV-01“公共清晰带不被测试侵占”、IV-02“入口/过街/无障碍证据完整性”、IV-03“AI 解释的人工申诉与停用”。它们不收集个人身份，不把测试结果自动升格为已部署服务。
+
+### 13.4 P-01—05 用户画像与包容性响应
+
+| ID | 需要与障碍 | 空间响应 | 人工兜底 | AI-OFF 响应 |
+|---|---|---|---|---|
+| P-01 老年步行者 | 热、休息、复杂转向 | 连续停留预留、低位大字固定导向 | F02/F04 问路与休息协助 | 不依赖手机的分段纸面/固定信息 |
+| P-02 残障人士 | 坡道、电梯、连续无障碍不确定 | 将未核验处标为 reroute，不把概念线当无障碍路 | 由获授权人员核实可行替代 | 物理方向与人工解释优先；未知即停用承诺 |
+| P-03 儿童陪护者 | 过街、短暂停留、队列安全 | 清晰带与测试缓冲分离、可见停留边 | 人工分流与求助点 | 固定图示与停用牌，而非算法指令 |
+| P-04 非中文使用者 | 语言、符号理解与求助 | 中英双语、图形化目的地和证据图例 | F02/F04 基本人工指向 | 无屏幕仍可读的编号、箭头与颜色以外的符号 |
+| P-05 夜间/极端天气使用者 | 暴晒、积水、照明/营业时段未知 | 雨热绕行与“服务不可用”物理提示 | 有明确服务时段才启用人工点 | 关闭 AI 后保留静态绕行；未核验则 HOLD/DOWNGRADE |
+
+### 13.5 H-01—04 地标/荣誉体系与 Noonline SLA 识别
+
+H-01“连接刻度”在 N01 解释公共清晰带；H-02“证据台”在 N05 公开 Target/Verified 差异；H-03“维护档案”在 N06 讲述京张的维护责任；H-04“到达第一分钟”在 N11 说明暂停/改线权。它们都是 **conceptual interpretation or honor-display nodes**，不是既有遗产、官方奖项或已获产权位置。
+
+Noonline SLA 的 Logo 概念为“断开屏幕仍不断开的公共线”：两条平行的公共清晰带以一枚可读的人工接力点连接，空白间隙表示 AI 可退出而路权不断。LOGO-01 为横向标，LOGO-02 为窄屏/节点符号；最小尺寸为印刷 18 mm、屏幕 64 px，安全区为标志高度的 0.5 倍。不得拉伸、旋转、改写为官方徽章、覆盖 provisional warning、单独以颜色传递安全信息，或与未经授权的铁路/政府/企业商标并置。层级为：一级“京张文化导视”（地点/方向，非本案品牌）；二级“Noonline SLA”（服务规则）；三级“Evidence Legend”（Target/Verified/unknown）；四级“活动子品牌”（EVENT-01—03）。标志由参与者以几何线条原创生成，未使用第三方商标、照片或受限素材；权利范围与生成来源见 `visual/assets/v4_2-brand_identity.json`。
+
+### 13.6 年度活动、开发者社区与长期转化
+
+EVENT-01“午间压力测试周”只在已获许可的公开窗口演练 AI-OFF；EVENT-02“证据公开日”由人工讲解 Target/Verified 与申诉路径；EVENT-03“京张维护对话”发布可公开的维护问题。DEV-01 开发者社区采用“问题登记 → 最小测试协议 → 人工/公共评议 → 停止或复盘 → 可公开方法”的五步流程；不得上传个人数据、不得绕过审批、不得把演示变为常态运营。CONV-01 招引与长期转化只提供概念漏斗：公开议题 → 合规试点申请 → 独立复核 → 具名主体/资金/产权/运维文件 → 可持续运营；未取得后一阶段证据时即 HOLD，AI 不可自动推进。
+
+### 13.7 从概念到试点的交付就绪合同
+
+为让专业团队能够接续而不把概念误写为实施，本方案把“可以开始”定义为一套可复核的释放条件，而不是一句计划口号。`visual/assets/v4_3-delivery-readiness-contract.json` 为六个 WP 分别给出适用的启用记录、AI-OFF 验收演练、停止决定与结项规则；它不指定真实责任单位，也不声称预算、产权、许可或现场条件已经具备。所有激活状态从 `unknown / HOLD` 开始，只有授权主体提供带日期的证据包后才可改变。
+
+| 任务书功能 | 可交付承载体 | 公众可见验收 | 条件不足时 |
+|---|---|---|---|
+| AI全栈自主创新体系 | WP-02 测试门廊、WP-06 核验闭环、数据与结项门 | 测试关闭后，公共绕行、人工解释和可审计记录仍存在 | 停止测试层，不把演示写成部署 |
+| 世界级AI创新生态 | WP-03、EVENT-02、DEV-01、实体信息与人工交接门 | 不用手机、屏幕或 AI 账号也能理解、提问和离开 | HOLD 互动层，仅保留获授权实体信息 |
+| AI+场景赋能新范式 | SC-01—10、IV-01—03、WP-01/WP-05 | 每张场景卡都能对应物理兜底、证据门和停止响应 | 降级至固定导向或撤回场景声明 |
+| 智能化AI活力城市 | WP-01、WP-04、WP-05、清晰带/过街/维护门 | 先验证通行、无障碍替代与维护，再声称停留或服务 | 改线或暂停连续服务主张 |
+| AI治理全球话语权 | WP-06、EVENT-01/03、DEV-01、AI 边界与移交门 | AI-OFF、申诉、证据上限和停止决定可被复核和复用 | 关闭 AI 层，保留物理与人工服务 |
+
+| 工作包 | 首次启用所需的最小证据包 | 必做验收演练 | 结项 / 失败响应 |
+|---|---|---|---|
+| WP-01 固定导向与支持点 | 界面公共性、清晰带、实体导向、人工停止与维护记录 | AI 与手机关闭后的决策点步行检查 | 标识不可维护、违法或妨碍通行即移除/改址，不计入服务支持 |
+| WP-02 众智园测试门廊 | 许可界面、公共绕行、安全缓冲、AI 边界和停止联系人 | 关闭测试层，检验公共绕行与人工解释是否继续 | 暂停测试界面，仅保留获授权导向或改线 |
+| WP-03 AI 原点知识客厅 | 入口、内容权利、实体信息、人工问询与维护路径 | 无手机、无屏幕进入—理解—提问—离开演练 | 撤回互动层，保留可维护的实体信息 |
+| WP-04 大钟寺到达转换 | 合法公共界面、过街、无障碍替代、实体导向和责任接口 | 以可达替代完成到达—过街—短停—求助的记录化走查 | 改至已核验公共边界或暂停连续转换主张 |
+| WP-05 固定导向与人工兜底 | 服务时段、具名交接、停用牌、维护和结项记录 | AI-OFF 情况下由实体信息与人工解决一次已声明故障 | 降级服务声明、公布授权替代或停止节点 |
+| WP-06 核验、重算与迭代 | 授权核验者、任务范围、数据边界、证据引用与下一位审阅者 | 核查每项提升均含人类核验者、时间、有效期和重算记录 | 维持或降低 Verified SLA，纠正概念记录，绝不自动升级 |
+
+三项交付绩效量度均刻意保持 `unknown`：已激活工作包的释放包完整率、AI-OFF 验收通过率、移交证据有效率。它们只在未来具名主体、合法界面和人类核验出现后计算；这让可实施性来自可验证的推进条件，而不是虚构的“已实施”结论 [data:visual/assets/v4_3-delivery-readiness-contract.json#readiness_measures]。
+
+### 13.8 实施证据总表与双语审校
+
+`visual/assets/v4_2-implementation_verification_matrix.json` 将 WP-01—06、45 项 FV 任务及 18 项 SLA-A mandatory evidence 逐项连接至 PHASE、ROLE、格式、有效期、门槛、停止权限与 HOLD/DOWNGRADE；`visual/assets/v4_3-delivery-readiness-contract.json` 将它们进一步组织为实际交接时可逐张使用的释放与结项卡。所有任务初始仍为 `unknown`；只有授权的人类核验者提交可审计证据后才可变更，AI 不得写入 promotion。`visual/assets/v4_2-bilingual_equivalence_checklist.json` 逐项比对数字、metrics、ID、证据等级、Target/Verified、warning、图号与 taskbook 输出，并记录中英文相同的可定位章节。
+
+主要公开资料包括：北京市规划和自然资源委员会海淀分局发布的征集公告和任务书尺度说明；北京市人民政府网站关于京张铁路遗址公园一期及约 9 km 线性走廊的公开信息；北京地铁关于大钟寺站 A/B 口和站内无障碍服务的公开页面；北京市文物局关于清华园车站旧址保护的公开页面；以及仓库内已登记的标准、数据与来源注册表。每一项引用均以 `sources.json` 中的 source_id、日期、许可用途和限制为准。公开资料只能支持其明确陈述的背景，不能替代官方 GIS、现场测绘、设施调查、许可或审批结论 [source:EXT-SRC-JINGZHANG-PARK-20230630] [source:EXT-SRC-DAZHONGSI-STATION-202605] [source:EXT-SRC-QINGHUAYUAN-STATION-20260214]。

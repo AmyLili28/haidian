@@ -117,15 +117,55 @@
       "limitation": "No hydrological, ecological, or engineering result is claimed for Haidian."
     },
     {
-      "id": "SRC-AI-GENERATED-COVER-20260811",
+      "id": "SRC-SMART-KALASATAMA",
+      "source_type": "official_public",
+      "publisher": "City of Helsinki",
+      "url": "https://www.hel.fi/en/urban-environment-and-traffic/urban-planning-and-construction/urban-development/kalasatama",
+      "accessed_date": "2026-08-13",
+      "usage": "Method precedent for co-development and everyday urban trials with residents, companies, and city actors.",
+      "limitation": "No Helsinki governance model, data practice, programme, performance claim, or partner is transferred to Haidian."
+    },
+    {
+      "id": "SRC-ARS-ELECTRONICA",
+      "source_type": "primary_project_source",
+      "publisher": "Ars Electronica",
+      "url": "https://ars.electronica.art/festival/en/about/",
+      "accessed_date": "2026-08-13",
+      "usage": "Method precedent for an ongoing public culture of art, technology, learning, and international storytelling.",
+      "limitation": "No event brand, artwork, partnership, audience figure, or production claim is copied or implied for the Jing-Zhang proposal."
+    },
+    {
+      "id": "SRC-AI-GENERATED-COVER-20260813",
       "source_type": "ai_generated_original",
       "publisher": "OpenAI ImageGen in declared AI collaboration",
-      "path": "assets/jingzhang-commons-cover.png",
-      "accessed_date": "2026-08-11",
+      "path": "assets/media/cover.webp",
+      "accessed_date": "2026-08-13",
       "usage": "Original editorial cover atmosphere asset for the proposal’s conceptual identity.",
-      "generation_prompt_summary": "An original, calm landscape architectural collage of a linear rail-memory public realm with shade, rain gardens, a civic pavilion, and no logos, text, or real landmark claim.",
+      "generation_prompt_summary": "An original, calm landscape architectural visualization of a rail-memory public realm with shade, rain gardens, civic pavilion, everyday pedestrians and cyclists, and no logos, text, real landmark, or built-condition claim.",
       "license": "CC BY 4.0 as part of this submission package",
       "limitation": "An atmospheric concept image only; not a survey, photo, built condition, or approval representation."
+    },
+    {
+      "id": "SRC-AI-GENERATED-THREE-COMMONS-20260814",
+      "source_type": "ai_generated_original",
+      "publisher": "OpenAI ImageGen in declared AI collaboration",
+      "path": "assets/figures/three-commons-concept-v14.png",
+      "accessed_date": "2026-08-14",
+      "usage": "Original triptych used only to make the proposed Verification, Translation, and Return commons legible as distinct everyday public relations.",
+      "generation_prompt_summary": "An original horizontal conceptual triptych of three tree-shaded, human-scale civic commons linked by a symbolic paving trace: public explanation/testing, shared translation table, and street-level return/care; no text, logos, real landmark, built-condition, or engineering claim.",
+      "license": "CC BY 4.0 as part of this submission package",
+      "limitation": "A fictional concept visualization only. It is not a photo, survey, site model, scale drawing, heritage record, construction design, operator commitment, or approval representation."
+    },
+    {
+      "id": "SRC-ORIGINAL-OFFLINE-COMMONS-WALK-V15",
+      "source_type": "ai_generated_original",
+      "publisher": "OpenAI Codex in declared AI collaboration",
+      "path": "visual/assets/commons-walk-config.json",
+      "accessed_date": "2026-08-14",
+      "usage": "Original, local canvas interaction that lets a reader compare the proposed Verify, Translate, and Return commons and their pause gates.",
+      "generation_prompt_summary": "A self-contained, non-networked, keyboard-operable conceptual canvas showing three public relations, not a site model or simulation.",
+      "license": "CC BY 4.0 as part of this submission package",
+      "limitation": "The interaction records no user data and depicts no real site, route, scale, engineering, operation, heritage status, or approval. Static drawings and structured evidence remain authoritative."
     }
   ]
 }
