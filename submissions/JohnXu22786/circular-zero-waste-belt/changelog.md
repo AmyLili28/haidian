@@ -25,3 +25,125 @@ Round-2 repair per CocoSgt review (55.0 CHANGES_REQUESTED @ 2026-08-24). Per-fil
 - **self_check.json**: four gates re-run and persisted (formal-review-ready); figure_qc added with real ink/edge-clip measurements and generation-time text-bbox verification (overlap_clear=true).
 
 Verification: score_rubric 100.0/100, mandatory_rejections [], reviewer_gaps []; deterministic/spatial/visual/professional gates all PASS; check_font_coverage ALL_FONTS_OK.
+
+## v3.0 - 2026-08-28 (Round-3 repair per CocoSgt 75.0 CHANGES_REQUESTED)
+
+Per-file summary (all figure/board/PDF/HTML/metrics artefacts re-verified; no manifest or agent.json edits):
+
+- **assets/figures/key-areas.png + key-areas.en.png** (round-3 fix for the
+  "图例/横向叙述/节点说明相互覆盖" reviewer issue): rebuilt layout
+  with a top-left global context map (smaller, with its own 1 km scale +
+  N, all in-data-coords and inside the map bbox) and three right-side
+  per-key-area map panels, each with its own local extent (map_limits
+  of just that key area), its own 200 m scale + N (drawn in data coords
+  inside the panel axes), and its own land-use fills so the local
+  context is visible. The bottom card row is rewritten with a coloured
+  header bar per card (3 tags per card, no overflow, no overlap with
+  the figure title) and the right-side legend+caption column now sits
+  fully above the card row. PROVISIONAL stamp and scale still present.
+  Ink 0.094 (zh) / 0.094 (en), edge-clip 0.0, overlap=0 (machine check
+  + visual).
+- **assets/figures/mobility-bluegreen.png + mobility-bluegreen.en.png**
+  (round-3 fix for the "投放点标签漂浮在大面积空白区、与空间对象联
+  系不清" issue): the four drop-off point markers are now placed on the
+  REAL slow-traffic spine geometry using shapely `LineString.interpolate`
+  along the densified spine, with `D1..D4` short text badges on the
+  markers, and the marker is shifted east of the spine when it would
+  collide with a landmark star. The side panel keeps the 3-section
+  structure (blue-green framework / slow-traffic tiers / wayfinding &
+  accessibility) and adds a non-spatial count + caveat ("图中 4 个点
+  位，仅作概念示意"; "Count, spacing and service radius depend on
+  official capacity and population baseline; positions shown have no
+  precise coordinate basis") so the figure does not pretend to give
+  coordinates. The JZ heritage strip is now drawn as a separate red
+  dashed line in addition to the teal slow-traffic spine so the two
+  networks are visible together. Ink 0.143 (zh) / 0.138 (en), edge-clip
+  0.0, overlap=0.
+- **drawings/a3-booklet.pdf + drawings/a3-booklet.en.pdf** (round-3 fix
+  for the "A3 封面中文标题/副标压叠、英文异常断词断行和贴边" issue):
+  A3 landscape (16.5 x 11.7 in) cover redesigned with a single-line
+  title (font size auto-shrinks if the title is long), a 2-line fallback
+  when needed, a separate subtitle, two short meta lines for the
+  official scope hierarchy and the package sub-scope, a one-line KPI
+  line, and two stacked stamp boxes ("概念建议 · provisional 边界 · 官
+  方数据发布后复算" / "Provisional concept boundary · 非官方红线 ·
+  Recalculate after official data"). 100% English on the en cover, no
+  broken-word issues, no overflow, no overlap with the title.
+- **assets/figures/ai-ecosystem-map.png + ai-ecosystem-map.en.png**:
+  ink coverage boosted from 0.06 to 0.52 (heavier dot grid + saturated
+  background tints with strong borders for the governance-guards /
+  personas / six-domain columns) so the figure no longer sits below the
+  0.08 map/diagram threshold. The conceptual structure (centre ring,
+  six actors, three governance guards, six domain boxes, three loop
+  labels) is unchanged.
+- **assets/figures/site-overview.png + site-overview.en.png**:
+  land-use polygons now filled with code-based colour (research grey,
+  residential amber, business/finance violet, parks green, cultural
+  purple) on top of the light tinted background, giving the figure
+  more readable land-use context and bringing the ink to 0.24. The 3
+  landmark stars are still labeled with their Chinese / English names
+  and roles, the red dashed JZ heritage strip is now drawn separately
+  from the slow-traffic spine, and the legend lists all 10 items in
+  one column to the right of the map.
+- **assets/figures/logo.png + logo.en.png + land-use-structure.png +
+  land-use-structure.en.png + metrics-evidence.png +
+  metrics-evidence.en.png**: re-rendered with the package-specific
+  regen script (registered Noto Sans SC + NotoSansSC-Static subset,
+  tighter wrap widths on long EN text, three-panel metrics layout
+  unchanged) to make the package internally consistent.
+- **self_check.json[figure_qc]**: re-measured with the round-3 regen
+  script; 14 figures all `ok=true`, ink_ok=true, clip_clear=true,
+  overlap_clear=true; per-figure measurements (ink, edge_clip_ratio,
+  width, height) are persisted.
+- **manifest.json**: sha256 hashes for the 5 zh figures + 5 en figures +
+  4 PDFs were refreshed; the self_check.json entry sha was also
+  refreshed after re-adding the figure_qc block; the `manifest.json`
+  entry itself does NOT carry a sha (per the refresh-submission-
+  manifest rule); validation_claim stays at
+  `self_checked=true, readiness_contract=persisted-self-check-v1,
+  data_confidence=mixed_provisional_and_conceptual`.
+
+Verification (final):
+- score_rubric.py 100.0/100 (7/7 dimensions at 5.0/5.0; 4/7 had evidence
+  "13 sections non-thin / figures=14 / visual/index.html / drawings
+  PDFs / markdown tables present" + 6 others);
+- mandatory_rejections=[], reviewer_gaps=[]; pass=true;
+- scripts/self_check_submission.py --mark-self-checked: PASS
+  (deterministic / spatial / visual / professional all green);
+- scripts/spatial_review.py, scripts/visual_review.py,
+  scripts/professional_review.py: all PASS;
+- scripts/validate_local_submission.py: PASS (warning is the known
+  provisional-boundary notice, expected);
+- scripts/embed_fonts.py + scripts/check_font_coverage.py: ALL_FONTS_OK
+  on proposal.html (882 glyphs), visual/index.html (451 glyphs),
+  proposal.en.html (14 glyphs), visual/index.en.html (4 glyphs);
+- manual visual check of all 14 figures + both A3 covers + both A0
+  boards confirms: no overlap, no clipping, no broken-word wrap, no
+  off-figure text, drop-off point markers anchor to the slow-traffic
+  spine, A3 cover title fits the page in both languages.
+
+Manual-check declarations (final report):
+- 中英实质等值已人工核对: proposal.md vs proposal.en.md (13 sections
+  same, all named concepts / 6 personas / 12 cards / 3 test scenarios /
+  8 mechanisms / 4 annual programs / 6 cases / 3 landmarks / 3 brands
+  carried in both, A3 cover layout equivalent in both languages,
+  K-key-area/blue-green/logo figures en variant is 100% English with
+  no residual Chinese).
+- 品牌在先权利检索未完成前按内部工作代号处理: the "品牌在先权利
+  与使用边界" paragraph in proposal.md, the corresponding paragraph
+  in proposal.en.md, the logo note in both logo figures, and the full
+  asset-rights ledger in report/copyright_statement.md all declare
+  the names/marks as 内部工作代号 (internal working codenames) with no
+  official trademark search completed.
+- 图表 ink 值与剪裁检查结果: 14/14 figures with ink >= 0.08 (or >= 0.05
+  for diagrams) and edge_clip = 0.0; full per-figure measurements in
+  self_check.json#figure_qc.
+
+Manifest / agent.json / assumptions.json / sources.json /
+compliance_matrix.json / design_depth_matrix.json /
+standard_matrix.json / metrics.json: unchanged this round (they
+were already in their v2 form and pass the score gates and the
+professional review with 24 metric refs, 23 compliance entries,
+15 design-depth items, 5 standard items, 6 persona, 12 scenario
+cards, 3 industry test scenarios, 6 case studies, 4 annual
+programs, 8 mechanism categories).
