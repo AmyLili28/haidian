@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 import binascii
 import os
+import signal
 import shutil
 import subprocess
 import tempfile
@@ -19,6 +20,9 @@ WINDOW_SIZE = "640,320"
 GLYPH_CROP = (20, 20, 620, 200)
 MIN_CHANGED_PIXELS = 500
 MIN_CHANGED_FRACTION = 0.01
+CHROMIUM_TIMEOUT_SECONDS = 60
+PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
+PNG_TRAILER = b"\x00\x00\x00\x00IEND\xaeB`\x82"
 
 
 def find_chromium() -> str | None:
@@ -156,6 +160,83 @@ html:not(.settled) #stage {{
 """
 
 
+def screenshot_is_ready(path: Path) -> bool:
+    """Return true only after Chromium has created a recognizable PNG."""
+
+    try:
+        if path.stat().st_size <= len(PNG_SIGNATURE) + len(PNG_TRAILER):
+            return False
+        with path.open("rb") as handle:
+            if handle.read(len(PNG_SIGNATURE)) != PNG_SIGNATURE:
+                return False
+            handle.seek(-len(PNG_TRAILER), 2)
+            return handle.read(len(PNG_TRAILER)) == PNG_TRAILER
+    except OSError:
+        return False
+
+
+def terminate_process_tree(
+    process: subprocess.Popen[str], *, process_group_id: int | None = None
+) -> tuple[str, str]:
+    """Stop Chromium and collect output without leaving renderer children."""
+
+    if os.name != "nt" and process_group_id is None:
+        try:
+            process_group_id = os.getpgid(process.pid)
+        except ProcessLookupError:
+            pass
+
+    def signal_tree(*, force: bool) -> None:
+        if os.name == "nt":
+            try:
+                result = subprocess.run(
+                    ["taskkill", "/PID", str(process.pid), "/T"]
+                    + (["/F"] if force else []),
+                    capture_output=True,
+                    text=True,
+                    encoding="utf-8",
+                    errors="replace",
+                    check=False,
+                    timeout=5,
+                )
+                if result.returncode == 0:
+                    return
+            except (OSError, subprocess.TimeoutExpired):
+                pass
+        elif process_group_id is not None:
+            try:
+                os.killpg(
+                    process_group_id,
+                    signal.SIGKILL if force else signal.SIGTERM,
+                )
+                return
+            except (OSError, ProcessLookupError):
+                pass
+        try:
+            (process.kill if force else process.terminate)()
+        except ProcessLookupError:
+            pass
+
+    if process.poll() is None:
+        signal_tree(force=False)
+
+    try:
+        stdout, stderr = process.communicate(timeout=5)
+    except subprocess.TimeoutExpired as exc:
+        signal_tree(force=True)
+        try:
+            return process.communicate(timeout=5)
+        except subprocess.TimeoutExpired as killed_exc:
+            stdout = killed_exc.stdout or exc.stdout or ""
+            stderr = killed_exc.stderr or exc.stderr or ""
+            if isinstance(stdout, bytes):
+                stdout = stdout.decode("utf-8", errors="replace")
+            if isinstance(stderr, bytes):
+                stderr = stderr.decode("utf-8", errors="replace")
+            return stdout, stderr
+    return stdout or "", stderr or ""
+
+
 def run_chromium(
     executable: str,
     source: Path,
@@ -188,71 +269,53 @@ def run_chromium(
     command.append(source.resolve().as_uri())
 
     capture_output = dump_dom
-    process = subprocess.Popen(
-        command,
-        stdout=subprocess.PIPE if capture_output else subprocess.DEVNULL,
-        stderr=subprocess.PIPE if capture_output else subprocess.DEVNULL,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-        universal_newlines=True,
-    )
+    popen_options: dict[str, object] = {
+        "stdout": subprocess.PIPE if capture_output else subprocess.DEVNULL,
+        "stderr": subprocess.PIPE if capture_output else subprocess.DEVNULL,
+        "text": True,
+        "encoding": "utf-8",
+        "errors": "replace",
+    }
+    if os.name == "nt":
+        popen_options["creationflags"] = subprocess.CREATE_NEW_PROCESS_GROUP
+    else:
+        popen_options["start_new_session"] = True
 
-    def collect_after_termination() -> tuple[str, str]:
-        try:
-            process.terminate()
-        except ProcessLookupError:
-            pass
-        try:
-            stdout, stderr = process.communicate(timeout=5)
-        except subprocess.TimeoutExpired:
-            process.kill()
-            stdout, stderr = process.communicate()
-        return stdout or "", stderr or ""
-
-    def screenshot_is_ready() -> bool:
-        if screenshot is None:
-            return False
-        try:
-            return screenshot.is_file() and screenshot.stat().st_size > 0
-        except OSError:
-            return False
-
-    if screenshot is not None:
-        # Some supported Chrome app bundles write the screenshot successfully
-        # but keep the headless process alive. Treat the non-empty artifact as
-        # the completion signal, then explicitly terminate the isolated process
-        # instead of waiting for the platform-specific process timeout.
-        deadline = time.monotonic() + 60
-        ready_since: float | None = None
-        while process.poll() is None:
-            now = time.monotonic()
-            if screenshot_is_ready():
-                if ready_since is None:
-                    ready_since = now
-                elif now - ready_since >= 0.25:
-                    stdout, stderr = collect_after_termination()
-                    note = "Chromium was terminated after the screenshot artifact stabilized."
+    process = subprocess.Popen(command, **popen_options)
+    process_group_id = process.pid if os.name != "nt" else None
+    try:
+        if screenshot is not None:
+            deadline = time.monotonic() + CHROMIUM_TIMEOUT_SECONDS
+            while process.poll() is None:
+                if screenshot_is_ready(screenshot):
+                    stdout, stderr = terminate_process_tree(
+                        process, process_group_id=process_group_id
+                    )
+                    note = "Chromium was terminated after the complete screenshot was verified."
                     stderr = f"{stderr}\n{note}" if stderr else note
                     return subprocess.CompletedProcess(command, 0, stdout, stderr)
-            else:
-                ready_since = None
-            if now >= deadline:
-                stdout, stderr = collect_after_termination()
-                note = "Chromium timed out before producing a stable screenshot artifact."
-                stderr = f"{stderr}\n{note}" if stderr else note
-                return subprocess.CompletedProcess(command, process.returncode, stdout, stderr)
-            time.sleep(0.05)
+                if time.monotonic() >= deadline:
+                    stdout, stderr = terminate_process_tree(
+                        process, process_group_id=process_group_id
+                    )
+                    note = "Chromium did not produce a complete screenshot before timeout"
+                    stderr = f"{note}\n{stderr}" if stderr else note
+                    return subprocess.CompletedProcess(command, 124, stdout, stderr)
+                time.sleep(0.1)
 
-    try:
-        stdout, stderr = process.communicate(timeout=60)
-    except subprocess.TimeoutExpired:
-        stdout, stderr = collect_after_termination()
-        note = "Chromium timed out before completing the DOM inspection."
-        stderr = f"{stderr}\n{note}" if stderr else note
-    return subprocess.CompletedProcess(
-        command, process.returncode, stdout or "", stderr or ""
-    )
+        try:
+            stdout, stderr = process.communicate(timeout=CHROMIUM_TIMEOUT_SECONDS)
+        except subprocess.TimeoutExpired:
+            stdout, stderr = terminate_process_tree(
+                process, process_group_id=process_group_id
+            )
+            note = "Chromium did not finish DOM inspection before timeout"
+            stderr = f"{note}\n{stderr}" if stderr else note
+            return subprocess.CompletedProcess(command, 124, stdout, stderr)
+        return subprocess.CompletedProcess(command, process.returncode, stdout, stderr)
+    finally:
+        if process.poll() is None:
+            terminate_process_tree(process, process_group_id=process_group_id)
 
 
 class CjkFontPixelRegressionTests(unittest.TestCase):
@@ -304,7 +367,10 @@ class CjkFontPixelRegressionTests(unittest.TestCase):
                 embedded_screenshot_run.stderr[-2000:]
                 or embedded_screenshot_run.stdout[-2000:],
             )
-            self.assertTrue(embedded_png.is_file(), "Chromium did not write screenshot")
+            self.assertTrue(
+                screenshot_is_ready(embedded_png),
+                "Chromium did not write a complete screenshot",
+            )
             self.assertEqual(
                 0,
                 embedded_dom_run.returncode,
@@ -332,7 +398,10 @@ class CjkFontPixelRegressionTests(unittest.TestCase):
                 fallback_run.returncode,
                 fallback_run.stderr[-2000:] or fallback_run.stdout[-2000:],
             )
-            self.assertTrue(fallback_png.is_file(), "Chromium did not write screenshot")
+            self.assertTrue(
+                screenshot_is_ready(fallback_png),
+                "Chromium did not write a complete screenshot",
+            )
 
             with Image.open(embedded_png) as embedded_image, Image.open(
                 fallback_png
