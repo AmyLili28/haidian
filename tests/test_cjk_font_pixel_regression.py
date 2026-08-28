@@ -6,6 +6,7 @@ import os
 import signal
 import shutil
 import subprocess
+import sys
 import tempfile
 import time
 import unittest
@@ -178,7 +179,7 @@ def screenshot_is_ready(path: Path) -> bool:
 def terminate_process_tree(
     process: subprocess.Popen[str], *, process_group_id: int | None = None
 ) -> tuple[str, str]:
-    """Stop Chromium and collect output without leaving renderer children."""
+    """Force-stop Chromium's isolated process tree before collecting output."""
 
     if os.name != "nt" and process_group_id is None:
         try:
@@ -186,12 +187,11 @@ def terminate_process_tree(
         except ProcessLookupError:
             pass
 
-    def signal_tree(*, force: bool) -> None:
+    def signal_tree() -> None:
         if os.name == "nt":
             try:
                 result = subprocess.run(
-                    ["taskkill", "/PID", str(process.pid), "/T"]
-                    + (["/F"] if force else []),
+                    ["taskkill", "/PID", str(process.pid), "/T", "/F"],
                     capture_output=True,
                     text=True,
                     encoding="utf-8",
@@ -205,25 +205,24 @@ def terminate_process_tree(
                 pass
         elif process_group_id is not None:
             try:
-                os.killpg(
-                    process_group_id,
-                    signal.SIGKILL if force else signal.SIGTERM,
-                )
+                os.killpg(process_group_id, signal.SIGKILL)
                 return
             except (OSError, ProcessLookupError):
                 pass
         try:
-            (process.kill if force else process.terminate)()
+            process.kill()
         except ProcessLookupError:
             pass
 
     if process.poll() is None:
-        signal_tree(force=False)
+        # These browser processes are isolated for this test. Killing only the
+        # parent can leave renderer descendants holding captured pipe handles.
+        signal_tree()
 
     try:
         stdout, stderr = process.communicate(timeout=5)
     except subprocess.TimeoutExpired as exc:
-        signal_tree(force=True)
+        signal_tree()
         try:
             return process.communicate(timeout=5)
         except subprocess.TimeoutExpired as killed_exc:
@@ -319,6 +318,79 @@ def run_chromium(
 
 
 class CjkFontPixelRegressionTests(unittest.TestCase):
+    def test_terminate_process_tree_kills_pipe_holding_descendant(self) -> None:
+        child_code = (
+            "import pathlib, sys, time; "
+            "time.sleep(1); "
+            "pathlib.Path(sys.argv[1]).write_text('survived', encoding='ascii'); "
+            "time.sleep(60)"
+        )
+        parent_code = (
+            "import pathlib, subprocess, sys, time; "
+            "child = subprocess.Popen([sys.executable, '-c', "
+            + repr(child_code)
+            + ", sys.argv[1], sys.argv[2]]); "
+            "pathlib.Path(sys.argv[2]).write_text(str(child.pid), encoding='ascii'); "
+            "time.sleep(60)"
+        )
+
+        with tempfile.TemporaryDirectory() as raw:
+            root = Path(raw)
+            survivor_marker = root / "survivor.txt"
+            child_pid_file = root / "child.pid"
+            popen_options: dict[str, object] = {
+                "stdout": subprocess.PIPE,
+                "stderr": subprocess.PIPE,
+                "text": True,
+                "encoding": "utf-8",
+                "errors": "replace",
+            }
+            process_group_id: int | None = None
+            if os.name == "nt":
+                popen_options["creationflags"] = subprocess.CREATE_NEW_PROCESS_GROUP
+            else:
+                popen_options["start_new_session"] = True
+
+            process = subprocess.Popen(
+                [
+                    sys.executable,
+                    "-c",
+                    parent_code,
+                    str(survivor_marker),
+                    str(child_pid_file),
+                ],
+                **popen_options,
+            )
+            process_group_id = process.pid if os.name != "nt" else None
+            try:
+                deadline = time.monotonic() + 5
+                while not child_pid_file.is_file():
+                    if process.poll() is not None:
+                        self.fail("test parent exited before reporting its child")
+                    if time.monotonic() >= deadline:
+                        self.fail("test child did not start in time")
+                    time.sleep(0.05)
+
+                started = time.monotonic()
+                terminate_process_tree(process, process_group_id=process_group_id)
+                self.assertLess(
+                    time.monotonic() - started,
+                    5,
+                    "process-tree cleanup must remain bounded",
+                )
+                self.assertIsNotNone(process.poll())
+
+                deadline = time.monotonic() + 2
+                while time.monotonic() < deadline and not survivor_marker.exists():
+                    time.sleep(0.05)
+                self.assertFalse(
+                    survivor_marker.exists(),
+                    "a descendant holding the captured pipe survived cleanup",
+                )
+            finally:
+                if process.poll() is None:
+                    terminate_process_tree(process, process_group_id=process_group_id)
+
     def test_embedded_cjk_font_is_loaded_and_changes_chromium_pixels(self) -> None:
         executable = find_chromium()
         if executable is None:
