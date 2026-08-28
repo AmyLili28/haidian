@@ -57,7 +57,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "8e790019a54883490504c64ab558e2110914906c522d7114b7505622fe15289d"
+      "sha256": "ef755b948e1e500a305d83ecf1a1f340e0a7861243d26a452dec2b0a1bb8e882"
     },
     {
       "path": "compliance_matrix.json",
@@ -100,7 +100,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "52b74c71d20c31209bbc0d928e9a6232491d24a02ec3cb88d75ef7a6cdd50888"
+      "sha256": "472b128ef191de04c8397cbf394b866e88aef1260ca10ba43dc6fb6cc4bdc1bd"
     },
     {
       "path": "assets/media/cover.webp",
