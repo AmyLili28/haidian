@@ -1,8 +1,12 @@
 # 方案迭代记录
 
-## v0.1.0 - 2026-08-24
+## v2.0 - 2026-08-29
 
-- Initial assembly (concept package) for qinghuayuan-station-heritage-node.
-- Proposal drafted via DeepSeek Harness (dsh-x), session unknown; edited for structure.
-- Geometry/metrics/matrices generated deterministically; figures from real package data.
-- Valroot gates run on 2026-08-24 (results persisted in self_check.json).
+- 将清华园站文化锚点扩展为一带概念性规划：三大定位、五大功能、三区两翼空间—功能—主体回路，并把北纬社区、未来科学城、怀柔科学城、经开区、京津冀列为独立的待核实外部协同队列。
+- 完成 agent.1–6 的独立交付：品牌/Logo/VI、8 条待核实 AI 生态参考、12 张 11 字段场景卡、T1–T3 测试协议、生态图谱、荣誉展示、可逆组件库、双语传播、开发者社区、RACI、阶段门、退出和维护。
+- 删除无来源的概念比例和未经核验的站史/访谈表述；补充来源、同意、撤回、删除、申诉和版权/派生边界。
+- 修正中英元数据、英文对应物和编辑校对问题；所有图件/HTML/PDF 仅作概念评审，不构成法定规划、工程、审批或合作承诺。
+
+## v0.1.0 — 2026-08-24
+
+- Initial package baseline for PR #3870.
