@@ -10,7 +10,8 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/zhongguancun-tech-service-wing/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+        "submissions/JohnXu22786/zhongguancun-tech-service-wing/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
+        "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/scenario-cards.en.png: byte-identical to `assets/figures/scenario-cards.png`; if the translation is still missing, replace it with a rendering in the declared language, and if the file carries no language-specific content, declare language=neutral once and share it between both versions (see docs/formal-submission-guide.md); this notice does not block review"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/proposal.md"
@@ -30,6 +31,8 @@
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/mobility-bluegreen.png",
+        "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/scenario-cards.en.png",
+        "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/scenario-cards.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/site-overview.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assumptions.json",
@@ -67,7 +70,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/zhongguancun-tech-service-wing": "formal"
       },
-      "total_bytes": 3755699,
+      "total_bytes": 4351311,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -145,11 +148,11 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 7,
+          "source": 15,
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 3
+          "metric": 5
         }
       }
     },
@@ -203,47 +206,30 @@
     "ink_ok": true,
     "clip_clear": true,
     "overlap_clear": "not_verified",
-    "summary": "machine ink+edge-clip check only; text-overlap not machine-verified post-hoc (generation-time text-bbox checks recorded in changelog); every figure carries provisional stamp+scale+north",
-    "checks": {
+    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc",
+    "figures": {
       "key-areas.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.4939,
+        "ink": 0.296,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       },
-      "land-use-structure.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.3942,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "logo-zhilink.png": {
-        "width": 1200,
-        "height": 630,
-        "ink": 0.1583,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "metrics-evidence.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1327,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.4892,
+      "key-areas.en.png": {
+        "ink": 0.299,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       },
       "site-overview.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.5622,
+        "ink": 0.14,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "land-use-structure.png": {
+        "ink": 0.12,
+        "edge_clip_ratio": 0.0,
+        "edge_clip_clear": true
+      },
+      "mobility-bluegreen.png": {
+        "ink": 0.1,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       }

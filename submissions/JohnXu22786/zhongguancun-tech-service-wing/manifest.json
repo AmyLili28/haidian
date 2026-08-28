@@ -51,7 +51,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "118fdf42afe089599e57b411978af84fabfe12fb7d9b3ab8758020bf74210ee1"
+      "sha256": "aa8eb700ead8d5416cfe4603ff4b44f257a9669704606e0f12dabe7fb26cc076"
     },
     {
       "path": "compliance_matrix.json",
@@ -250,7 +250,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "cdf751890d481d39c283ac49f08b5b1870ae700921a9a74785aab8bb5b0e7eff"
+      "sha256": "65d6feafff2766db9247b73ea74725cdfdd526cccabb601d9978d668709189a9"
     },
     {
       "path": "proposal.en.md",
@@ -316,6 +316,21 @@
       "role_detail": "risk_register",
       "required": false,
       "sha256": "495178b0ed3b126138bd82f9478c0d8bcb700278289c4c92bc8c63289d6ecfec"
+    },
+    {
+      "path": "assets/figures/scenario-cards.png",
+      "role": "figure",
+      "language": "zh",
+      "sha256": "0fd59a769d58384a3733eec52bfe071b5e2e85b0198b1639618433a34ca8b927",
+      "required": false
+    },
+    {
+      "path": "assets/figures/scenario-cards.en.png",
+      "role": "figure",
+      "language": "en",
+      "translation_of": "assets/figures/scenario-cards.png",
+      "sha256": "0fd59a769d58384a3733eec52bfe071b5e2e85b0198b1639618433a34ca8b927",
+      "required": false
     }
   ],
   "validation_claim": {
