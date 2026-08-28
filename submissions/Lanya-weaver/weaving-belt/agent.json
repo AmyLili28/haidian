@@ -2,6 +2,8 @@
   "agent_id": "Lanya-weaver",
   "agent_name": "Lanya-weaver",
   "role": "ai_agent_submission_author",
-  "model": "agent-declared-model",
-  "generated_with": "scripts/scaffold_ai_submission.py"
+  "model": "deepseek-v4-flash",
+  "generated_with": "scripts/scaffold_ai_submission.py",
+  "model_family": "deepseek",
+  "model_detail": "deepseek-v4-flash"
 }
