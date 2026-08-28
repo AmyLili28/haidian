@@ -54,7 +54,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "80b71cb78d2c1581fc679eb561959ac515bc8a3ff6f76c74dcc2c4e20d49b72f"
+      "sha256": "35388a30f642a9997d083864d07d3ef3c53de8b724460c47b4f324d5f94be291"
     },
     {
       "path": "compliance_matrix.json",
@@ -209,7 +209,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "f04c1f5778dd02daebc3da7562de39d786941d00a2c43355af278487e9045e30"
+      "sha256": "28d667ee6c2fbc35946a30d613701cde80332624e74816367d3b7c949d229e0d"
     },
     {
       "path": "report/proposal.en.html",
@@ -217,13 +217,14 @@
       "required": false,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "9b08f28385043867f362306a9b0e326302f3ef16c4db37d797201b6b1f4db671"
+      "sha256": "4660a78bf65a77e6346e6676a179b66a95418ad923dccf57ef2f6d29daf0fa03"
     }
   ],
   "validation_claim": {
     "self_checked": true,
     "known_blockers": [],
     "data_confidence": "high",
-    "note": "2026-08-27 提交前自检：deterministic/visual/professional 全 PASS；SCAFFOLD 标记已移除；package_state=ready_for_review；provisional boundary 警示保留于正文与 assumptions。"
+    "note": "2026-08-27 提交前自检：deterministic/visual/professional 全 PASS；SCAFFOLD 标记已移除；package_state=ready_for_review；provisional boundary 警示保留于正文与 assumptions。",
+    "readiness_contract": "persisted-self-check-v1"
   }
 }
