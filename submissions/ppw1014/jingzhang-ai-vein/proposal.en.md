@@ -1,6 +1,6 @@
 ---
 title: "Jing-Zhang AI Vein: Regenerating a Centennial Railway Corridor for AI Innovation"
-author_github: "Winnie1014"
+author_github: "ppw1014"
 language: "en"
 proposal_format_version: "2"
 bilingual_contract_version: "1"

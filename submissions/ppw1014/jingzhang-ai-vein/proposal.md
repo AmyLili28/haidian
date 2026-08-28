@@ -1,6 +1,6 @@
 ---
 title: "京张智脉：百年铁路走廊的AI创新再生"
-author_github: "Winnie1014"
+author_github: "ppw1014"
 language: "zh"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
