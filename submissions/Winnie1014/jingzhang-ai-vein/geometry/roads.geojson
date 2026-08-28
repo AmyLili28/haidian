@@ -1,7 +1,6 @@
 {
   "type": "FeatureCollection",
-  "name": "mobility_bluegreen_corridors_design",
-  "description": "交通、慢行与蓝绿公共空间复合系统的设计示意中心线（design_proposal，非道路红线或工程线位）。",
+  "name": "road_centerlines_design",
   "features": [
     {
       "type": "Feature",
@@ -13,30 +12,49 @@
         "confidence": "medium",
         "geometry_role": "design_proposal",
         "road_class": "greenway",
-        "name_zh": "京张遗址公园绿道主轴（南北贯通步道/骑行道示意）"
+        "name_zh": "京张遗址公园绿道主轴（南北贯通步道/骑行道示意）",
+        "name_en": "Heritage rail park greenway spine (concept N-S walk/cycle axis)",
+        "note_zh": "绿脉中心线，串联三核、站点与全部场景节点；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 9710
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            116.3456,
-            39.9445
+            116.34979593164483,
+            39.93905425162755
           ],
           [
-            116.3456,
-            39.965
+            116.34920000000001,
+            39.947
           ],
           [
-            116.3456,
-            39.985
+            116.34819999999999,
+            39.95799999999999
           ],
           [
-            116.3456,
-            40.005
+            116.34720000000002,
+            39.97
           ],
           [
-            116.3456,
-            40.022
+            116.3468,
+            39.980999999999995
+          ],
+          [
+            116.34660000000001,
+            39.99100000000001
+          ],
+          [
+            116.34699999999998,
+            40.0
+          ],
+          [
+            116.3474,
+            40.012
+          ],
+          [
+            116.34779851369687,
+            40.026446130149495
           ]
         ]
       }
@@ -51,38 +69,69 @@
         "confidence": "medium",
         "geometry_role": "design_proposal",
         "road_class": "cycleway",
-        "name_zh": "蓝绿慢行复合环（串联三核与公园的骑行环示意）"
+        "name_zh": "蓝绿慢行复合环（串联三核与公园的骑行环示意）",
+        "name_en": "Blue-green slow-traffic loop (concept cycle ring linking three cores)",
+        "note_zh": "东侧北上、北端越脉、西侧南下、南端闭合的复合骑行环；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 16130
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            116.3432,
-            39.9455
+            116.3512,
+            39.942499999999995
           ],
           [
-            116.3542,
-            39.9455
+            116.35279999999999,
+            39.957
           ],
           [
-            116.3538,
-            39.982
+            116.35219999999998,
+            39.971999999999994
           ],
           [
-            116.3545,
-            40.015
+            116.35079999999999,
+            39.98399999999999
           ],
           [
-            116.3445,
-            40.0225
+            116.34980000000002,
+            39.993
+          ],
+          [
+            116.34780000000002,
+            40.00099999999998
+          ],
+          [
+            116.3455,
+            40.00599999999999
+          ],
+          [
+            116.3442,
+            40.012999999999984
+          ],
+          [
+            116.3438,
+            39.999999999999986
+          ],
+          [
+            116.3425,
+            39.988
+          ],
+          [
+            116.34200000000001,
+            39.975
           ],
           [
             116.3415,
-            39.985
+            39.959999999999994
           ],
           [
-            116.3432,
-            39.9455
+            116.3425,
+            39.947
+          ],
+          [
+            116.3512,
+            39.942499999999995
           ]
         ]
       }
@@ -97,30 +146,21 @@
         "confidence": "medium",
         "geometry_role": "design_proposal",
         "road_class": "pedestrian",
-        "name_zh": "东西缝合步行横廊（遗址公园—中关村科技服务翼示意）"
+        "name_zh": "东西缝合步行横廊（遗址公园—中关村科技服务翼）",
+        "name_en": "E-W stitching pedestrian corridor (park to Zhongguancun service wing)",
+        "note_zh": "缝合公园与东侧城区的步行横廊；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 1040
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            116.343,
-            39.9838
+            116.34130000000002,
+            39.99349999999999
           ],
           [
-            116.3456,
-            39.9843
-          ],
-          [
-            116.3485,
-            39.9848
-          ],
-          [
-            116.352,
-            39.9852
-          ],
-          [
-            116.355,
-            39.9855
+            116.35342138374904,
+            39.993500004111155
           ]
         ]
       }
@@ -135,30 +175,33 @@
         "confidence": "medium",
         "geometry_role": "design_proposal",
         "road_class": "transit_connection",
-        "name_zh": "大钟寺站四象限步行连通与轨道接驳示意"
+        "name_zh": "大钟寺站四象限步行连通与轨道接驳示意",
+        "name_en": "Dazhongsi station quadrant walk link (concept)",
+        "note_zh": "站周四象限步行环，接驳 PUBLIC-002；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 1450
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            116.342,
-            39.944
-          ],
-          [
-            116.3456,
+            116.34780000000002,
             39.945
           ],
           [
-            116.3495,
-            39.9456
+            116.35079999999999,
+            39.945
           ],
           [
-            116.353,
-            39.9442
+            116.35079999999999,
+            39.9492
           ],
           [
-            116.355,
-            39.944
+            116.34780000000002,
+            39.9492
+          ],
+          [
+            116.34780000000002,
+            39.945
           ]
         ]
       }
@@ -173,26 +216,21 @@
         "confidence": "medium",
         "geometry_role": "design_proposal",
         "road_class": "secondary",
-        "name_zh": "北五环方向对外交通联络示意（非道路红线）"
+        "name_zh": "北五环方向对外交通联络示意（非道路红线）",
+        "name_en": "North Fifth Ring external link (concept, not a red line)",
+        "note_zh": "北段对外联络概念线；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 1030
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            116.3445,
-            40.018
+            116.34247759704976,
+            40.020500066827125
           ],
           [
-            116.3485,
-            40.0205
-          ],
-          [
-            116.3525,
-            40.0225
-          ],
-          [
-            116.3548,
-            40.0245
+            116.3546,
+            40.020499999999984
           ]
         ]
       }
@@ -207,30 +245,21 @@
         "confidence": "medium",
         "geometry_role": "design_proposal",
         "road_class": "greenway",
-        "name_zh": "小月河场景赋能翼滨水慢行示意"
+        "name_zh": "小月河场景赋能翼滨水慢行示意",
+        "name_en": "Xiaoyue River waterfront slow path (concept)",
+        "note_zh": "西段滨水慢行，接 GREEN-003；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 560
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            116.3408,
-            39.982
+            116.34013149966265,
+            39.96200000655894
           ],
           [
-            116.3415,
-            39.9795
-          ],
-          [
-            116.3423,
-            39.9765
-          ],
-          [
-            116.3431,
-            39.9735
-          ],
-          [
-            116.3439,
-            39.9705
+            116.3467,
+            39.962
           ]
         ]
       }
@@ -245,26 +274,237 @@
         "confidence": "medium",
         "geometry_role": "design_proposal",
         "road_class": "branch",
-        "name_zh": "五道口/清华东路西口轨道站点接驳慢行示意"
+        "name_zh": "五道口/清华东路西口轨道站点接驳慢行示意",
+        "name_en": "Wudaokou / Qinghua East Road West station feeder (concept)",
+        "note_zh": "站点接驳支线；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 230
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            116.3456,
-            39.985
+            116.34400000000001,
+            39.988499999999995
           ],
           [
-            116.3465,
-            39.9875
+            116.3467,
+            39.98849999999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-008",
+      "properties": {
+        "id": "ROAD-008",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "arterial",
+        "name_zh": "学院路纵廊示意（中关村科技服务翼轴线，非道路红线）",
+        "name_en": "Xueyuan Road corridor (concept spine of the service wing)",
+        "note_zh": "东侧南北轴线，公告四至路名；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 9710
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.35450000013739,
+            39.93905408335335
           ],
           [
-            116.348,
+            116.3545,
+            39.964999999999996
+          ],
+          [
+            116.3525,
             39.99
           ],
           [
-            116.3505,
-            39.992
+            116.35449704003021,
+            40.026446005946596
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-009",
+      "properties": {
+        "id": "ROAD-009",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "arterial",
+        "name_zh": "西直门外大街方向南段横廊示意（非道路红线）",
+        "name_en": "Xizhimenwai Avenue direction south corridor (concept)",
+        "note_zh": "南端对外横廊，公告四至路名方向；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 1160
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.94099999999999
+          ],
+          [
+            116.3546,
+            39.940999999999995
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-010",
+      "properties": {
+        "id": "ROAD-010",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "secondary",
+        "name_zh": "大钟寺东路方向横廊示意（非道路红线）",
+        "name_en": "Dazhongsi East Road direction corridor (concept)",
+        "note_zh": "大钟寺核心横廊，公告四至路名方向；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 1200
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34053422908204,
+            39.94750002027617
+          ],
+          [
+            116.3546,
+            39.94750000000001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-011",
+      "properties": {
+        "id": "ROAD-011",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "branch",
+        "name_zh": "清河滨河慢行示意",
+        "name_en": "Qinghe riverside slow path (concept)",
+        "note_zh": "清河绿廊内滨水慢行；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 1020
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34264835789159,
+            40.024000059222146
+          ],
+          [
+            116.3546,
+            40.023999999999994
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-012",
+      "properties": {
+        "id": "ROAD-012",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "arterial",
+        "name_zh": "西土城路纵廊示意（非道路红线）",
+        "name_en": "Xitucheng Road corridor (concept)",
+        "note_zh": "西侧南北轴线，公告四至路名；设计示意中心线，非道路红线、非工程线形",
+        "length_m_declared": 9710
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34139849883165,
+            39.93905407753522
+          ],
+          [
+            116.34039999999999,
+            39.974999999999994
+          ],
+          [
+            116.34239999999998,
+            40.006
+          ],
+          [
+            116.34339736521913,
+            40.026446000959126
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RAIL-001",
+      "properties": {
+        "id": "RAIL-001",
+        "layer": "EXISTING_RAIL",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "existing_condition",
+        "name_zh": "京张铁路/京张高铁走廊示意参考线（非工程线位）",
+        "name_en": "Jing-Zhang railway / high-speed rail corridor schematic reference (not an engineering alignment)",
+        "derivation_method": "依据公开常识性事实（京张铁路1909年通车、大钟寺站/五道口区域为其走廊沿线）在临时范围内作示意定位；精度为示意级，不得用于工程或红线判断。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34980000000002,
+            39.939
+          ],
+          [
+            116.34920000000001,
+            39.947
+          ],
+          [
+            116.34819999999999,
+            39.95799999999999
+          ],
+          [
+            116.34720000000002,
+            39.97
+          ],
+          [
+            116.3468,
+            39.980999999999995
+          ],
+          [
+            116.34660000000001,
+            39.99100000000001
+          ],
+          [
+            116.34699999999998,
+            40.0
+          ],
+          [
+            116.3474,
+            40.012
+          ],
+          [
+            116.34780000000002,
+            40.0265
           ]
         ]
       }

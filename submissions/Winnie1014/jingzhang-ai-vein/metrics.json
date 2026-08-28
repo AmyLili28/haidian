@@ -7,30 +7,250 @@
   "metrics": {
     "site_area_sqm": {
       "status": "known",
-      "value": 11412825.386,
+      "value": 11412800,
       "unit": "sqm",
       "source_files": [
         "geometry/site_boundary.geojson"
       ],
-      "formula": "polygon_area(submitted_site_boundary) in EPSG:4548 (CGCS2000 / 3-degree Gauss-Kruger CM 117E)",
+      "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
       "confidence": "medium",
-      "provisional_boundary_note": "基于本次提交的临时粗略边界复算；官方红线到位后必须重算。",
       "assumptions": [
-        "A-BOUNDARY-OFFICIAL",
-        "A-BOUNDARY-SITE"
-      ]
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
     },
-    "official_site_area_sqm": {
-      "status": "unknown",
-      "value": null,
+    "land_use_area_0802_sqm": {
+      "status": "known",
+      "value": 5466900,
       "unit": "sqm",
       "source_files": [
-        "brief/site-package/ranges/planning_limits.json"
+        "geometry/land_use.geojson"
       ],
-      "formula": "from official approved boundary attachment",
-      "confidence": "unknown",
-      "reason": "公告给出总体设计范围约 11.4 平方公里，但官方精确 polygon 尚未取得；在官方红线到位并登记前不能作为精确面积依据。",
-      "recalc_trigger": "官方 SITE_BOUNDARY polygon 到位后，以 official polygon 面积替换本提交几何面积。"
+      "formula": "sum(polygon_area(land_use parcels, code=0802), EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "land_use_area_05_sqm": {
+      "status": "known",
+      "value": 2025100,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/land_use.geojson"
+      ],
+      "formula": "sum(polygon_area(land_use parcels, code=05), EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "land_use_area_0702_sqm": {
+      "status": "known",
+      "value": 2547300,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/land_use.geojson"
+      ],
+      "formula": "sum(polygon_area(land_use parcels, code=0702), EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "land_use_area_1401_sqm": {
+      "status": "known",
+      "value": 1372700,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/land_use.geojson",
+        "geometry/green_space.geojson"
+      ],
+      "formula": "sum(polygon_area(land_use 1401 zone) = sum(green_space features), EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "land_use_zone_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "geometry/land_use.geojson"
+      ],
+      "formula": "count(distinct land_use_code)",
+      "confidence": "high",
+      "assumptions": [
+        "四类用地码完整铺满提交边界（数值容差内无缝、无重叠）"
+      ]
+    },
+    "land_use_parcel_count": {
+      "status": "known",
+      "value": 45,
+      "unit": "count",
+      "source_files": [
+        "geometry/land_use.geojson"
+      ],
+      "formula": "count(land_use features)",
+      "confidence": "high",
+      "assumptions": [
+        "44 个功能组团与 1 个绿脉分区，共 45 个用地区块"
+      ]
+    },
+    "green_space_area_sqm": {
+      "status": "known",
+      "value": 1372700,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/green_space.geojson"
+      ],
+      "formula": "sum(polygon_area(green_space features), EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.1203,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "green_space_area_sqm / site_area_sqm",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "public_space_area_sqm": {
+      "status": "known",
+      "value": 77300,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "sum(polygon_area(PUBLIC_SPACE plaza features), EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "公共空间图层为用地内公共活动界面（复合利用），不与用地分区互斥"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.0068,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "public_space_area_sqm / site_area_sqm",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 332300,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "sum(polygon_area(design building footprints), EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "为示意设计建筑基底（design_proposal），非现状建筑调查底数"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "building_count": {
+      "status": "known",
+      "value": 158,
+      "unit": "count",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "count(building footprints in 4 cluster features)",
+      "confidence": "medium",
+      "assumptions": [
+        "示意设计基底计数，非现状建筑"
+      ]
+    },
+    "building_coverage_ratio": {
+      "status": "known",
+      "value": 0.0291,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "building_footprint_area_sqm / site_area_sqm",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "仅示意基底覆盖率，不代表开发强度或容积率结论"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "slow_traffic_network_length_m": {
+      "status": "known",
+      "value": 30100,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "sum(length of greenway/cycleway/pedestrian/transit_connection/branch design centerlines)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "设计示意中心线长度，非道路红线或工程断面"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "road_centerline_count": {
+      "status": "known",
+      "value": 13,
+      "unit": "count",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "count(road centerline features, incl. EXISTING_RAIL reference)",
+      "confidence": "high",
+      "assumptions": []
     },
     "key_area_count": {
       "status": "known",
@@ -42,280 +262,148 @@
       "formula": "count(key_detailed_design_areas)",
       "confidence": "high",
       "assumptions": [
-        "A-BOUNDARY-KEY-AREAS"
+        "三处重点区名称、顺序与约面积来自公告；边界为 provisional 粗略范围"
       ]
     },
     "zhongzhiyuan_area_sqm": {
       "status": "known",
-      "value": 1929201.877,
+      "value": 1929200,
       "unit": "sqm",
       "source_files": [
         "geometry/key_areas.geojson"
       ],
-      "formula": "polygon_area(PROV-KEY-001) in EPSG:4548",
+      "formula": "polygon_area(provisional key area polygon, EPSG:4548)",
       "confidence": "medium",
-      "provisional_boundary_note": "临时粗略重点区复算，公告约值 192.1 公顷；official KEY_AREA polygon 到位后重算。",
       "assumptions": [
-        "A-BOUNDARY-KEY-AREAS"
-      ]
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "公告约192.1公顷，临时多边形复算值供自检核对"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
     },
     "beijing_ai_origin_community_area_sqm": {
       "status": "known",
-      "value": 1043236.909,
+      "value": 1043200,
       "unit": "sqm",
       "source_files": [
         "geometry/key_areas.geojson"
       ],
-      "formula": "polygon_area(PROV-KEY-002) in EPSG:4548",
+      "formula": "polygon_area(provisional key area polygon, EPSG:4548)",
       "confidence": "medium",
-      "provisional_boundary_note": "临时粗略重点区复算，公告约值 104.3 公顷；official KEY_AREA polygon 到位后重算。",
       "assumptions": [
-        "A-BOUNDARY-KEY-AREAS"
-      ]
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "公告约104.3公顷"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
     },
     "dazhongsi_area_sqm": {
       "status": "known",
-      "value": 720454.219,
+      "value": 720500,
       "unit": "sqm",
       "source_files": [
         "geometry/key_areas.geojson"
       ],
-      "formula": "polygon_area(PROV-KEY-003) in EPSG:4548",
+      "formula": "polygon_area(provisional key area polygon, EPSG:4548)",
       "confidence": "medium",
-      "provisional_boundary_note": "临时粗略重点区复算，公告约值 72.0 公顷；official KEY_AREA polygon 到位后重算。",
       "assumptions": [
-        "A-BOUNDARY-KEY-AREAS"
-      ]
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "公告约72.0公顷"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
     },
-    "land_use_area_0802_sqm": {
+    "key_area_total_area_sqm": {
       "status": "known",
-      "value": 2674562.492,
+      "value": 3692900,
       "unit": "sqm",
       "source_files": [
-        "geometry/land_use.geojson"
+        "geometry/key_areas.geojson"
       ],
-      "formula": "sum(polygon_area(LU features with land_use_code=0802)) in EPSG:4548",
+      "formula": "sum(three provisional key area polygons, EPSG:4548)",
       "confidence": "medium",
-      "provisional_boundary_note": "随临时边界变化；官方边界到位后重算。",
       "assumptions": [
-        "A-BOUNDARY-SITE"
-      ]
-    },
-    "land_use_area_1401_sqm": {
-      "status": "known",
-      "value": 2589339.239,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/land_use.geojson"
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "公告重点区域范围约368.4公顷，临时复算合计供核对"
       ],
-      "formula": "sum(polygon_area(LU features with land_use_code=1401)) in EPSG:4548",
-      "confidence": "medium",
-      "provisional_boundary_note": "随临时边界变化；官方边界到位后重算。",
-      "assumptions": [
-        "A-BOUNDARY-SITE"
-      ]
-    },
-    "land_use_area_05_sqm": {
-      "status": "known",
-      "value": 3366138.181,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/land_use.geojson"
-      ],
-      "formula": "sum(polygon_area(LU features with land_use_code=05)) in EPSG:4548",
-      "confidence": "medium",
-      "provisional_boundary_note": "随临时边界变化；官方边界到位后重算。",
-      "assumptions": [
-        "A-BOUNDARY-SITE"
-      ]
-    },
-    "land_use_area_0702_sqm": {
-      "status": "known",
-      "value": 2782792.823,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/land_use.geojson"
-      ],
-      "formula": "sum(polygon_area(LU features with land_use_code=0702)) in EPSG:4548",
-      "confidence": "medium",
-      "provisional_boundary_note": "随临时边界变化；官方边界到位后重算。",
-      "assumptions": [
-        "A-BOUNDARY-SITE"
-      ]
-    },
-    "land_use_zone_count": {
-      "status": "known",
-      "value": 4,
-      "unit": "count",
-      "source_files": [
-        "geometry/land_use.geojson"
-      ],
-      "formula": "count(land_use features)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "building_footprint_area_sqm": {
-      "status": "known",
-      "value": 310807.184,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/buildings.geojson"
-      ],
-      "formula": "sum(polygon_area(building_footprints)) in EPSG:4548",
-      "confidence": "medium",
-      "provisional_boundary_note": "基于提交几何的示意建筑基底，非现状建筑底数。",
-      "assumptions": [
-        "A-BUILDING-INVENTORY"
-      ]
-    },
-    "building_coverage_ratio": {
-      "status": "known",
-      "value": 0.027233,
-      "unit": "ratio",
-      "source_files": [
-        "geometry/buildings.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "building_footprint_area_sqm / site_area_sqm",
-      "confidence": "medium",
-      "provisional_boundary_note": "设计建议示意值，非审定建筑密度；官方控规建筑密度指标缺失。",
-      "assumptions": [
-        "A-CONTROL-DEVELOPMENT",
-        "A-BUILDING-INVENTORY"
-      ]
-    },
-    "total_floor_area_sqm": {
-      "status": "unknown",
-      "value": null,
-      "unit": "sqm",
-      "source_files": [
-        "brief/site-package/ranges/planning_limits.json"
-      ],
-      "formula": "total_floor_area = sum(parcel_area * approved FAR); requires approved regulatory-plan FAR and official parcels",
-      "confidence": "unknown",
-      "reason": "官方控规容积率、地块边界和现状建筑底数均未取得，无法复算总建筑规模；不得以示意值冒充审定规模。",
-      "recalc_trigger": "官方控规 FAR 与地块 polygon 到位后逐地块复算。"
-    },
-    "floor_area_ratio": {
-      "status": "unknown",
-      "value": null,
-      "unit": "ratio",
-      "source_files": [
-        "brief/site-package/ranges/planning_limits.json"
-      ],
-      "formula": "total_floor_area_sqm / official_site_area_sqm",
-      "confidence": "unknown",
-      "reason": "Approved FAR controls and official site boundary are not present in the public site package.",
-      "recalc_trigger": "官方控规容积率与官方边界到位后复算。"
-    },
-    "building_height_max_m": {
-      "status": "unknown",
-      "value": null,
-      "unit": "m",
-      "source_files": [
-        "brief/site-package/ranges/planning_limits.json"
-      ],
-      "formula": "from approved height controls (aviation / landscape / heritage constraints)",
-      "confidence": "unknown",
-      "reason": "官方建筑高度控制缺失；文保、航空与风貌控制条件待确认。",
-      "recalc_trigger": "官方控规高度控制或专项条件到位后复算。"
-    },
-    "green_space_area_sqm": {
-      "status": "known",
-      "value": 1408600.768,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/green_space.geojson"
-      ],
-      "formula": "union_area(green_space features) in EPSG:4548",
-      "confidence": "medium",
-      "provisional_boundary_note": "基于提交几何的蓝绿空间示意范围。",
-      "assumptions": [
-        "A-BOUNDARY-SITE"
-      ]
-    },
-    "green_ratio": {
-      "status": "known",
-      "value": 0.123423,
-      "unit": "ratio",
-      "source_files": [
-        "geometry/green_space.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "green_space_area_sqm / site_area_sqm",
-      "confidence": "medium",
-      "provisional_boundary_note": "随临时边界变化；官方绿地率控制条件缺失，该值为设计示意值而非审定绿地率。",
-      "assumptions": [
-        "A-CONTROL-DEVELOPMENT",
-        "A-BOUNDARY-SITE"
-      ]
-    },
-    "public_space_area_sqm": {
-      "status": "known",
-      "value": 836345.643,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/public_space.geojson"
-      ],
-      "formula": "union_area(public_space features) in EPSG:4548",
-      "confidence": "medium",
-      "provisional_boundary_note": "基于提交几何的公共空间示意范围。",
-      "assumptions": [
-        "A-BOUNDARY-SITE"
-      ]
-    },
-    "public_space_ratio": {
-      "status": "known",
-      "value": 0.073281,
-      "unit": "ratio",
-      "source_files": [
-        "geometry/public_space.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "public_space_area_sqm / site_area_sqm",
-      "confidence": "medium",
-      "provisional_boundary_note": "随临时边界变化；非审定公共设施用地比例。",
-      "assumptions": [
-        "A-BOUNDARY-SITE"
-      ]
-    },
-    "road_area_sqm": {
-      "status": "unknown",
-      "value": null,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/roads.geojson"
-      ],
-      "formula": "union_area(road right-of-way polygons); current roads.geojson only contains design centerlines",
-      "confidence": "unknown",
-      "reason": "提交几何仅含道路中心线（示意），缺少道路红线 polygon；无法复算道路面积。",
-      "recalc_trigger": "官方道路红线 polygon 到位后复算。"
-    },
-    "road_ratio": {
-      "status": "unknown",
-      "value": null,
-      "unit": "ratio",
-      "source_files": [
-        "geometry/roads.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "road_area_sqm / site_area_sqm",
-      "confidence": "unknown",
-      "reason": "依赖 road_area_sqm，官方道路红线缺失。",
-      "recalc_trigger": "官方道路红线到位后复算。"
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
     },
     "phasing_phase_1_area_sqm": {
       "status": "known",
-      "value": 4587013.573,
+      "value": 2407400,
       "unit": "sqm",
       "source_files": [
         "geometry/phasing.geojson"
       ],
-      "formula": "polygon_area(PHASE-001) in EPSG:4548",
+      "formula": "polygon_area(PHASE-001, EPSG:4548)",
       "confidence": "medium",
-      "provisional_boundary_note": "一期可讨论范围；实施分期须待权属、资金与审批条件确认。",
       "assumptions": [
-        "A-PARCEL-OWNERSHIP"
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "一期为重点区场景启动的‘可讨论范围’，非建设范围承诺"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "phasing_phase_2_area_sqm": {
+      "status": "known",
+      "value": 6993800,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/phasing.geojson"
+      ],
+      "formula": "polygon_area(PHASE-002, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "phasing_phase_3_area_sqm": {
+      "status": "known",
+      "value": 2011600,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/phasing.geojson"
+      ],
+      "formula": "polygon_area(PHASE-003, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
+        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+      ],
+      "provisional_boundary_derived": true,
+      "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
+    },
+    "public_plaza_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "count(PUBLIC_SPACE features)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "scenario_node_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "count(SCENARIO_NODE features)",
+      "confidence": "high",
+      "assumptions": [
+        "12 张场景卡的空间落位节点"
       ]
     },
     "renewal_project_count": {
@@ -323,13 +411,12 @@
       "value": 6,
       "unit": "count",
       "source_files": [
-        "proposal.md",
-        "compliance_matrix.json"
+        "proposal.md"
       ],
-      "formula": "count(renewal project entries in proposal section '更新项目清单、实施政策与分期计划')",
+      "formula": "count(JZ-01..JZ-06 update projects)",
       "confidence": "high",
       "assumptions": [
-        "A-PARCEL-OWNERSHIP"
+        "更新项目清单为概念建议"
       ]
     },
     "scenario_card_count": {
@@ -339,7 +426,7 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(AI scenario cards in proposal section 'AI 创新生态、人才画像与 AI+ 场景')",
+      "formula": "count(SC-01..SC-12 scenario cards)",
       "confidence": "high",
       "assumptions": []
     },
@@ -350,7 +437,7 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(scenario cards explicitly marked as AI industry testing and validation scenarios)",
+      "formula": "count(TVS scenario cards: SC-02, SC-08, SC-11)",
       "confidence": "high",
       "assumptions": []
     },
@@ -361,9 +448,25 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(user persona types in proposal section 'AI 创新生态、人才画像与 AI+ 场景')",
+      "formula": "count(user personas)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "含银发与无障碍使用者独立画像"
+      ]
+    },
+    "global_case_study_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "sources.json"
+      ],
+      "formula": "count(global AI innovation ecosystem cases)",
+      "confidence": "high",
+      "assumptions": [
+        "全部案例含一手来源登记"
+      ]
     },
     "pilgrimage_landmark_count": {
       "status": "known",
@@ -372,20 +475,82 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(AI pilgrimage landmarks in proposal section 'AI 公共空间、智能原生新业态与朝圣地标设计')",
+      "formula": "count(AI pilgrimage landmarks)",
       "confidence": "high",
       "assumptions": []
     },
-    "global_case_study_count": {
+    "annual_event_theme_count": {
       "status": "known",
-      "value": 6,
+      "value": 12,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(global AI innovation ecosystem case studies in proposal section 'AI 创新生态、人才画像与 AI+ 场景')",
+      "formula": "count(four-season twelve-theme annual events)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "活动体系为提议概念，非已确定安排"
+      ]
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "total_floor_area_sqm / official_site_area_sqm",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "公告与公开资料未提供总体设计范围控规强度条件；容积率属法定规划判断，本方案不得给出"
+    },
+    "total_floor_area_sqm": {
+      "status": "unknown",
+      "value": null,
+      "unit": "sqm",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "sum(building floor area)",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "缺官方控规建筑规模条件；示意基底不足以推算总规模"
+    },
+    "building_height_max_m": {
+      "status": "unknown",
+      "value": null,
+      "unit": "m",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "max(building height)",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "缺官方建筑高度管控条件（含文保、航道、机场等限高资料）"
+    },
+    "road_area_sqm": {
+      "status": "unknown",
+      "value": null,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "sum(road area within official redlines)",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "道路图层为示意中心线，无官方道路红线与断面，无法复算道路用地面积"
+    },
+    "road_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "road_area_sqm / site_area_sqm",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "同 road_area_sqm：待官方道路红线数据"
     }
   }
 }

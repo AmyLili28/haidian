@@ -1,0 +1,220 @@
+{
+  "schema_version": "0.1.0",
+  "checked_date": "2026-08-29",
+  "method": "人工逐页目视检查：渲染 PNG 后逐张查看标题、图例、比例尺、指北针、标签压盖、出血、缺字（tofu）与中英文可读性；PDF 以逐页位图渲染检查版心、裁切与留白。",
+  "figures": [
+    {
+      "path": "assets/figures/site-overview.png",
+      "language": "zh",
+      "sha256": "ffd6f4a1c2f93274bf7d84f50ec01d4891cbdd0b5a9d0c44734f9380788208dd",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/site-overview.en.png",
+      "language": "en",
+      "sha256": "b7789eb9aa927dc5bec6b647b9a907f30b18c3680ff2bd9263f39c79bf90c987",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/land-use-structure.png",
+      "language": "zh",
+      "sha256": "dcad29aaa9221838fc1efc434f8486b987c83fe904ed17ed7f5f0ec565eb064c",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/land-use-structure.en.png",
+      "language": "en",
+      "sha256": "55342ea21875e9e2398560f11bec4251393a5f94a4351d380089e35d170ac83e",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/key-areas.png",
+      "language": "zh",
+      "sha256": "9bbe04df601bb4f2f5aa981a00b5bfdb989603bf0f31bfec0a484057c79e9d8a",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/key-areas.en.png",
+      "language": "en",
+      "sha256": "5043c3bcdbeab0bcb6abbf602047bd7e90743350fcaab15e87ddac41f5eedd32",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.png",
+      "language": "zh",
+      "sha256": "a908385cb68c5368c62b2fdc0a138dcd49d2c31da3afe8b2b3de3b426127b2df",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.en.png",
+      "language": "en",
+      "sha256": "278712cb1a6532822dc948f1843204640ed83f7bab94fc095b9eedf40d167295",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/metrics-evidence.png",
+      "language": "zh",
+      "sha256": "25be070fc442749b52315e39816794bf7735908a536f63d7b2ceb338c68139ba",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/metrics-evidence.en.png",
+      "language": "en",
+      "sha256": "729344fa7af3cad9abeeced5b563e2e36bb1ab48d250e9f6276155b80df3aa80",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/brand-vi.png",
+      "language": "zh",
+      "sha256": "b72c04b575fa3d4d4db333c99e971bd398232f86b762072adbe7c751b6fa03a2",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    },
+    {
+      "path": "assets/figures/brand-vi.en.png",
+      "language": "en",
+      "sha256": "730546a497f7846514f03db1d83604df51f1f56637697ccb8c5db65f402c73e9",
+      "checks": {
+        "tofu_glyphs": 0,
+        "title_clipping": "none",
+        "legend_overlap": "none",
+        "scale_bar_usable": true,
+        "north_arrow": true,
+        "human_readable": true
+      }
+    }
+  ],
+  "drawings": [
+    {
+      "path": "drawings/a3-booklet.pdf",
+      "language": "zh",
+      "sha256": "c21b036549ff1e22ecc4a26bcab811fb217177a5ad897ef7c47f5fd5960de072",
+      "checks": {
+        "pages_rendered": "all",
+        "title_clipping": "none (fit-to-width measured)",
+        "a0_void_ratio": "panels filled with art content",
+        "cjk_wrap": "per-character fill verified",
+        "human_readable": true
+      }
+    },
+    {
+      "path": "drawings/a3-booklet.en.pdf",
+      "language": "en",
+      "sha256": "7c13d9e494d524b97cec1852d3d4e6afcaad67cbce404461fc9d41b828759179",
+      "checks": {
+        "pages_rendered": "all",
+        "title_clipping": "none (fit-to-width measured)",
+        "a0_void_ratio": "panels filled with art content",
+        "cjk_wrap": "per-character fill verified",
+        "human_readable": true
+      }
+    },
+    {
+      "path": "drawings/a0-boards.pdf",
+      "language": "zh",
+      "sha256": "87be5abdbe8d4cc9310115ff26059d2de4120759c7de7d50ad216d76903343a9",
+      "checks": {
+        "pages_rendered": "all",
+        "title_clipping": "none (fit-to-width measured)",
+        "a0_void_ratio": "panels filled with art content",
+        "cjk_wrap": "per-character fill verified",
+        "human_readable": true
+      }
+    },
+    {
+      "path": "drawings/a0-boards.en.pdf",
+      "language": "en",
+      "sha256": "cdddef994b398f25dfc8d9beeabb3311daa1645438faede69571e2be9ba5696a",
+      "checks": {
+        "pages_rendered": "all",
+        "title_clipping": "none (fit-to-width measured)",
+        "a0_void_ratio": "panels filled with art content",
+        "cjk_wrap": "per-character fill verified",
+        "human_readable": true
+      }
+    }
+  ],
+  "result": "pass_with_notes",
+  "notes": [
+    "全部图件中文经 Hiragino Sans GB 渲染，无缺字（tofu=0）；警示条改用 ● 记号（⚠ 缺字形已规避）。",
+    "比例尺在 EPSG:4548 数据坐标下按真实米制绘制，显示 0/0.5/1 km。",
+    "总览图场景节点标签加白底防压盖；重点区三幅内嵌图归一化纵横比。",
+    "重点区图两处同带双片地块共用名称（land_use.geojson 内 44/45 唯一名），为概念组团命名，不影响空间数据。"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "name": "public_space_scaffold",
+  "name": "public_space_and_scenario_nodes",
   "features": [
     {
       "type": "Feature",
@@ -11,34 +11,522 @@
         "source_type": "agent_generated_design",
         "confidence": "medium",
         "geometry_role": "design_proposal",
-        "name_zh": "公共活动界面",
-        "area_sqm_declared": 836345.643
+        "name_zh": "五道口·原点发布厅广场",
+        "name_en": "Wudaokou Origin Release Plaza",
+        "note_zh": "原点开源发布、代码墙与小型路演的站前广场",
+        "area_sqm_declared": 12400
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              116.34734399999999,
-              39.967
+              116.34569742879907,
+              39.98924246976888
             ],
             [
-              116.34734399999999,
-              40.00025
+              116.34579245788566,
+              39.990410948675866
             ],
             [
-              116.349996,
-              40.00025
+              116.3469025809804,
+              39.99035752712365
             ],
             [
-              116.349996,
-              39.967
+              116.3468075330266,
+              39.989189048964626
             ],
             [
-              116.34734399999999,
-              39.967
+              116.34569742879907,
+              39.98924246976888
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PUBLIC-002",
+      "properties": {
+        "id": "PUBLIC-002",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺·四象限步行厅",
+        "name_en": "Dazhongsi Quadrant Walk Hall",
+        "note_zh": "大钟寺站四象限步行连通的核心步行厅",
+        "area_sqm_declared": 18000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34799169963675,
+              39.94649061615741
+            ],
+            [
+              116.34805493838017,
+              39.9475702320276
+            ],
+            [
+              116.34980831388252,
+              39.94750937678966
+            ],
+            [
+              116.34974504760582,
+              39.94642976164376
+            ],
+            [
+              116.34799169963675,
+              39.94649061615741
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PUBLIC-003",
+      "properties": {
+        "id": "PUBLIC-003",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "众智园·治理馆前庭",
+        "name_en": "Zhongzhiyuan Governance Court",
+        "note_zh": "红队沙盒与安全治理馆的公共前庭",
+        "area_sqm_declared": 9500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34498993482886,
+              40.014392918257805
+            ],
+            [
+              116.34503999932134,
+              40.015247605589636
+            ],
+            [
+              116.34621007243173,
+              40.015207078560245
+            ],
+            [
+              116.34615999335838,
+              40.014352391610885
+            ],
+            [
+              116.34498993482886,
+              40.014392918257805
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PUBLIC-004",
+      "properties": {
+        "id": "PUBLIC-004",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "清华园车站文化广场",
+        "name_en": "Qinghuayuan Station Culture Plaza",
+        "note_zh": "百年之轨文化源头圣地的保守解说广场（文保范围以官方公布为准）",
+        "area_sqm_declared": 7200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34636036953445,
+              39.995451077104185
+            ],
+            [
+              116.34638619613982,
+              39.99617127204403
+            ],
+            [
+              116.34743963596846,
+              39.99614892040636
+            ],
+            [
+              116.3474137982988,
+              39.995428725609706
+            ],
+            [
+              116.34636036953445,
+              39.995451077104185
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PUBLIC-005",
+      "properties": {
+        "id": "PUBLIC-005",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "活动周主会场草坪",
+        "name_en": "AI Week Main Lawn",
+        "note_zh": "全球AI活动周旗舰会场与日常开放草坪",
+        "area_sqm_declared": 22100
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34827107755329,
+              40.01994968981231
+            ],
+            [
+              116.34833964745447,
+              40.02111925935202
+            ],
+            [
+              116.35032893904327,
+              40.02105030113142
+            ],
+            [
+              116.35026033521308,
+              40.01988073248429
+            ],
+            [
+              116.34827107755329,
+              40.01994968981231
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PUBLIC-006",
+      "properties": {
+        "id": "PUBLIC-006",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺南门户广场",
+        "name_en": "Dazhongsi South Gateway Plaza",
+        "note_zh": "智能原生消费街区南门户与轨道接驳广场",
+        "area_sqm_declared": 8100
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35002240917207,
+              39.940836913886685
+            ],
+            [
+              116.35006722288706,
+              39.9416016419278
+            ],
+            [
+              116.35117759694697,
+              39.941563083261975
+            ],
+            [
+              116.35113277088388,
+              39.940798355546136
+            ],
+            [
+              116.35002240917207,
+              39.940836913886685
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-01",
+      "properties": {
+        "id": "SC-01",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "原点开源发布厅",
+        "name_en": "Origin Open-source Release Hall",
+        "related_space_id": "PUBLIC-001",
+        "maturity": "可试点",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.34629999999999,
+          39.989799999999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-02",
+      "properties": {
+        "id": "SC-02",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "红队沙盒·安全治理馆",
+        "name_en": "Red-team Sandbox Governance Hall",
+        "related_space_id": "PUBLIC-003",
+        "maturity": "试点验证",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.34559999999999,
+          40.014199999999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-03",
+      "properties": {
+        "id": "SC-03",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "端侧算力驿站",
+        "name_en": "Edge-compute Waystation",
+        "related_space_id": "LU众智园东",
+        "maturity": "概念",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.351,
+          40.009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-04",
+      "properties": {
+        "id": "SC-04",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "AI 慢行导航",
+        "name_en": "AI Walk-navigate Service",
+        "related_space_id": "GREEN-001",
+        "maturity": "可试点",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3468,
+          39.975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-05",
+      "properties": {
+        "id": "SC-05",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺国际路演客厅",
+        "name_en": "Dazhongsi International Roadshow Lounge",
+        "related_space_id": "PUBLIC-002",
+        "maturity": "可试点",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.35,
+          39.94579999999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-06",
+      "properties": {
+        "id": "SC-06",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "清河低碳创新廊",
+        "name_en": "Qinghe Low-carbon Innovation Gallery",
+        "related_space_id": "GREEN-002",
+        "maturity": "概念",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.34780000000002,
+          40.02519999999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-07",
+      "properties": {
+        "id": "SC-07",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "近校成果转化街",
+        "name_en": "Campus-adjacent Tech-transfer Street",
+        "related_space_id": "LU原点西",
+        "maturity": "可试点",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3448,
+          39.99049999999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-08",
+      "properties": {
+        "id": "SC-08",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "数据要素会客厅",
+        "name_en": "Data-element Meeting Room",
+        "related_space_id": "LU大钟寺东",
+        "maturity": "试点验证",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3512,
+          39.9482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-09",
+      "properties": {
+        "id": "SC-09",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "AI 生活服务样板街",
+        "name_en": "AI Living-service Model Street",
+        "related_space_id": "LU走廊南段东",
+        "maturity": "概念",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.35219999999998,
+          39.9562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-10",
+      "properties": {
+        "id": "SC-10",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "全球AI活动周路线",
+        "name_en": "Global AI Week Route",
+        "related_space_id": "PUBLIC-005",
+        "maturity": "可试点",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3486,
+          40.0188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-11",
+      "properties": {
+        "id": "SC-11",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "自动驾驶接驳测试道",
+        "name_en": "Autonomous Shuttle Test Lane",
+        "related_space_id": "ROAD-001",
+        "maturity": "试点验证",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.348,
+          39.965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SC-12",
+      "properties": {
+        "id": "SC-12",
+        "layer": "SCENARIO_NODE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "城市智能体运维台",
+        "name_en": "Urban-agent Operations Desk",
+        "related_space_id": "GREEN-001",
+        "maturity": "概念",
+        "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3467,
+          39.98199999999999
         ]
       }
     }

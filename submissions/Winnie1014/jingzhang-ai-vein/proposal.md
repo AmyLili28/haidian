@@ -17,7 +17,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 本方案为“百年京张AI创新带城市设计国际方案征集”的 formal 参赛成果。设计依据以《百年京张AI创新带城市设计国际方案征集资格预审公告》为第一权威 [source:OFFICIAL-ANNOUNCEMENT]，并以面向智能体任务书 [source:AGENT-TASKBOOK]、场地包 `brief/site-package/` [source:SITE-PACKAGE]、中央来源登记表 [source:SOURCE-REGISTRY] 与处理资料 [source:PROCESSED-FACT-PACK] 为机器可读依据。三层范围的公告文字四至与约面积作为任务依据；三层范围与三处重点区官方 polygon 尚未取得，本包使用 `brief/site-package/geometry/provisional_boundaries.geojson` 的临时粗略边界 [source:PROVISIONAL-BOUNDARIES]，全部标注 `provisional_constraint`、`official_boundary=false`、`boundary_precision=provisional_rough`，不得作为官方红线、审批依据或精确面积依据 [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:existing_conditions_diagnosis]。
 
-本方案所有空间落地建议均为**概念建议 / 参考方案 / 可供专业团队深化研究**，不替代正式规划，不构成政府审定结论 [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]。边界解释回到总体范围图层与面积复算 [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm]，三处重点区由独立图层与数量指标核对 [data:geometry/key_areas.geojson#PROV-KEY-001] [metric:key_area_count]。
+本方案所有空间落地建议均为**概念建议 / 参考方案 / 可供专业团队深化研究**，不替代正式规划，不构成政府审定结论 [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]。边界解释回到总体范围图层与面积复算 [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm]（临时边界下按整百平方米舍入展示，非精确面积），三处重点区由独立图层与数量指标核对 [data:geometry/key_areas.geojson#PROV-KEY-001] [metric:key_area_count] [metric:key_area_total_area_sqm]。
 
 ![资料证据链与总体概念图](assets/figures/site-overview.png)
 
@@ -41,6 +41,8 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ![三层范围与总体空间结构图](assets/figures/land-use-structure.png)
 
+![交通慢行与蓝绿公共空间复合系统图](assets/figures/mobility-bluegreen.png)
+
 ## 统筹研究范围产业与未来城市研究
 
 ### 主名称、英文名称与命名体系（agent.1 之命名）
@@ -54,6 +56,10 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 ### Logo / 视觉识别方向（agent.1 之 VI）
 
 Logo/VI 以“**脉动之轨**”为母题 [source:AGENT-TASKBOOK]：京张铁路平行钢轨与 AI 数据脉冲曲线同构，形成一条由下而上的“轨道—脉冲”上升线，象征百年工程自主走向当代智能自主。VI 色彩：**铁路墨绿**（历史与生态）、**AI 靛蓝**（创新与算力）、**京张金**（纪念与品质）。辅助图形为钢轨节距与芯片孔位同构的网格系统，可用于导视、展板、活动与数字界面。命名与 VI 均为原创概念，不使用任何未授权商标、字体或企业标识 [depth:height_massing_character]。
+
+![命名系统与视觉识别（VI）方向图](assets/figures/brand-vi.png)
+
+VI 方向在实际视觉证据中落地：命名树（带级—片区级—节点级）、色彩体系、双语导视牌与开发者徽章应用示意、国际传播文案均见 brand-vi 图（中英文双版本），并与 A3 文册封面、A0 展板版头共享同一标识系统。文化标识系统（站牌式导视、年代刻度）与一带 Logo 系统明确区分、不混淆。
 
 ### 三大定位、五大功能与三区两翼协同回路（agent.1 之结构）
 
@@ -119,12 +125,14 @@ Logo/VI 以“**脉动之轨**”为母题 [source:AGENT-TASKBOOK]：京张铁�
 
 | 分类码 | 分区 | 面积（提交几何复算） | 占总体范围 |
 | --- | --- | --- | --- |
-| 0802 | AI 研发创新用地 | 约 267.5 公顷 [metric:land_use_area_0802_sqm] | 约 23.4% |
-| 1401 | 公园绿地与开敞空间 | 约 258.9 公顷 [metric:land_use_area_1401_sqm] | 约 22.7% |
-| 05 | 产业服务与商业服务用地 | 约 336.6 公顷 [metric:land_use_area_05_sqm] | 约 29.5% |
-| 0702 | 社区服务与配套用地 | 约 278.3 公顷 [metric:land_use_area_0702_sqm] | 约 24.4% |
+| 0802 | AI 研发创新用地 | 约 547 公顷 [metric:land_use_area_0802_sqm] | 约 47.9% |
+| 05 | 产业服务与商业服务用地 | 约 202 公顷 [metric:land_use_area_05_sqm] | 约 17.7% |
+| 0702 | 社区服务与配套用地 | 约 255 公顷 [metric:land_use_area_0702_sqm] | 约 22.3% |
+| 1401 | 公园绿地与开敞空间 | 约 137 公顷 [metric:land_use_area_1401_sqm] | 约 12.0% |
 
-功能布局以“AI 研发—产业服务—生活配套”沿走廊复合组织，协调职住商服；产业功能比例与空间组织模式为概念建议，供专业团队按官方边界与控规条件深化 [source:HAIDIAN-1X1] [depth:development_intensity_controls]。
+[metric:land_use_parcel_count]：45 个用地区块（44 个功能组团 + 1 个绿脉分区 [data:geometry/land_use.geojson#LU-045]）在数值容差内无缝铺满提交边界且无重叠。公园绿地分区由绿脉 [data:geometry/green_space.geojson#GREEN-001]、清河绿廊 [data:geometry/green_space.geojson#GREEN-002]、小月河绿廊 [data:geometry/green_space.geojson#GREEN-003] 与三处共享花园（[data:geometry/green_space.geojson#GREEN-004]、[data:geometry/green_space.geojson#GREEN-005]、[data:geometry/green_space.geojson#GREEN-006]）构成，面积与 1401 分区一致。
+
+功能布局沿走廊形成清晰的空间秩序 [data:geometry/land_use.geojson#LU-005]：**研发（0802）为带状主体**，三处重点区构成研发核心并向绿脉两侧延展；**商服（05）依托站点锚点**，大钟寺智能商业组团、五道口服务客厅组团与科技服务翼东轴承接消费、商务与国际交往；**社区配套（0702）成网**，沿东西缝合横廊与站点接驳布局生活服务；**绿脉（1401）贯穿全线**，以约 110 米宽的京张遗址公园绿脉串联两河绿廊与三处共享花园。功能比例与空间组织模式为概念建议，供专业团队按官方边界与控规条件深化 [source:HAIDIAN-1X1] [depth:development_intensity_controls]。
 
 ### 开发强度与建筑规模（待确认）
 
@@ -209,16 +217,18 @@ Logo/VI 以“**脉动之轨**”为母题 [source:AGENT-TASKBOOK]：京张铁�
 
 ## 交通、轨道、市政与公共服务设施
 
-交通方案回应轨道站点一体化、道路微循环、慢行断点、对外交通、停车与非机动车停放要求 [source:OFFICIAL-ANNOUNCEMENT] [depth:traffic_rail_slow_parking]。本包道路图层仅含**设计示意中心线（非道路红线）** [data:geometry/roads.geojson#ROAD-001]：
+交通方案回应轨道站点一体化、道路微循环、慢行断点、对外交通、停车与非机动车停放要求 [source:OFFICIAL-ANNOUNCEMENT] [depth:traffic_rail_slow_parking]。本包道路图层仅含**设计示意中心线（非道路红线）** [data:geometry/roads.geojson#ROAD-001]，共 12 条 + 1 条京张走廊示意参考线 [data:geometry/roads.geojson#RAIL-001]：
 
-- 绿道主轴（ROAD-001）：遗址公园南北贯通步道/骑行道示意；
-- 蓝绿慢行复合环（ROAD-002）：串联三核与公园的骑行环示意；
-- 东西缝合横廊（ROAD-003）：公园—中关村科技服务翼步行连接示意；
-- 大钟寺站接驳（ROAD-004）：四象限步行连通与轨道接驳示意；
-- 北五环方向联络（ROAD-005）与站点接驳支线（ROAD-007）：对外交通与站城一体化概念；
-- 小月河滨水慢行（ROAD-006）：场景赋能翼慢行示意。
+- 绿道主轴（ROAD-001，greenway，约 9.7 km）：遗址公园南北贯通步道/骑行道示意；
+- 蓝绿慢行复合环（ROAD-002，cycleway，约 16.1 km）：东侧北上、北端越脉、西侧南下、南端闭合，串联三核与公园；
+- 东西缝合横廊（ROAD-003，pedestrian）与大钟寺站四象限接驳环（ROAD-004，transit_connection）：公园—科技服务翼步行连接与站周四象限步行连通示意；
+- 北五环方向联络（ROAD-005）、西直门外大街方向南段横廊（ROAD-009）、大钟寺东路方向横廊（ROAD-010）与学院路纵廊（ROAD-008）、西土城路纵廊（ROAD-012）：公告四至路名方向的对外交通与骨架轴线概念（非道路红线）；
+- 小月河滨水慢行（ROAD-006）、五道口/清华东路西口站点接驳（ROAD-007）与清河滨河慢行（ROAD-011）：场景赋能翼与滨水慢行示意；
+- 京张走廊参考线（RAIL-001，EXISTING_RAIL，示意级）：绿脉与慢行系统的空间基准，非工程线位。
 
-轨道站点一体化（五道口、清华东路西口、大钟寺站）均按概念建议表达，等待官道路红线、断面与工程条件确认 [depth:traffic_rail_slow_parking]。市政与公共服务设施覆盖 AI 产业服务设施、创新服务平台、人才生活服务设施、新型基础设施、分布式能源与端侧算力融合 [depth:municipal_new_infrastructure]；市政管线、消防、防洪等资料缺失时列为正式深化前置条件 [data:geometry/constraints.geojson#CONSTRAINTS]。道路面积与比例依赖官方道路红线，标记 `unknown` [metric:road_area_sqm] [metric:road_ratio]。
+慢行网络（greenway/cycleway/pedestrian/transit_connection/branch 五类示意中心线）合计约 30.1 km [metric:slow_traffic_network_length_m]；道路中心线与轨道参考线共 13 条 [metric:road_centerline_count]。全部道路为设计示意中心线，道路面积与比例依赖官方红线，标记 `unknown` [metric:road_area_sqm] [metric:road_ratio]。
+
+轨道站点一体化（五道口/清华东路西口、大钟寺站、清河方向北门户）均按概念建议表达，等待官方道路红线、断面与工程条件确认 [depth:traffic_rail_slow_parking]。市政与公共服务设施覆盖 AI 产业服务设施、创新服务平台、人才生活服务设施、新型基础设施、分布式能源与端侧算力融合 [depth:municipal_new_infrastructure]；市政管线、消防、防洪等资料缺失时列为正式深化前置条件，并新增轨道声环境概念控制参考线与蓝线/防洪缺口标记 [data:geometry/constraints.geojson#CONSTRAINTS-003] [data:geometry/constraints.geojson#CONSTRAINTS-004]。
 
 ![交通慢行与蓝绿公共空间复合系统图](assets/figures/mobility-bluegreen.png)
 
@@ -226,13 +236,16 @@ Logo/VI 以“**脉动之轨**”为母题 [source:AGENT-TASKBOOK]：京张铁�
 
 ### 京张遗址公园活力带与蓝绿系统（agent.4 之公共空间）
 
-以京张遗址公园活力带为骨架，统筹清河、小月河及周边高校、企业、社区出行需求 [source:OFFICIAL-ANNOUNCEMENT] [depth:blue_green_public_space]：
+以京张遗址公园活力带为骨架，统筹清河、小月河及周边高校、企业、社区出行需求 [source:OFFICIAL-ANNOUNCEMENT] [depth:blue_green_public_space]。蓝绿系统由六项绿地要素与六处公共空间承载。
 
-- **南北贯通**：绿道主轴串联公园南端、中段与北端，形成连续步道/骑行道 [data:geometry/roads.geojson#ROAD-001]；
+- 绿地六要素：绿脉 [data:geometry/green_space.geojson#GREEN-001]、清河绿廊 [data:geometry/green_space.geojson#GREEN-002]、小月河绿廊 [data:geometry/green_space.geojson#GREEN-003]、众智园测试花园 [data:geometry/green_space.geojson#GREEN-004]、原点绿院 [data:geometry/green_space.geojson#GREEN-005]、大钟寺公园界面 [data:geometry/green_space.geojson#GREEN-006]；
+- 广场六处：原点发布厅广场 [data:geometry/public_space.geojson#PUBLIC-001]、四象限步行厅 [data:geometry/public_space.geojson#PUBLIC-002]、治理馆前庭 [data:geometry/public_space.geojson#PUBLIC-003]、清华园车站文化广场 [data:geometry/public_space.geojson#PUBLIC-004]、活动周主会场草坪 [data:geometry/public_space.geojson#PUBLIC-005]、大钟寺南门户广场 [data:geometry/public_space.geojson#PUBLIC-006]。
+
+- **南北贯通**：绿脉（GREEN-001，约 107 公顷连续带状公园）与绿道主轴串联公园南端、中段与北端 [data:geometry/roads.geojson#ROAD-001] [metric:green_space_area_sqm]；
 - **东西缝合**：缝合横廊连接公园与两侧城区、两翼 [data:geometry/roads.geojson#ROAD-003]；
 - **断点缝合**：对上跨环路节点、慢行断点提出概念优化方案；
 - **南端/北端地标化**：打造标志性城市景观节点；
-- **复合利用**：停车、体育、创新交往、科技测试、应用展示与公共服务复合，蓝绿系统由 [data:geometry/green_space.geojson#GREEN-001] 与 [data:geometry/public_space.geojson#PUBLIC-001] 承载，比例复算入 [metric:green_ratio] [metric:public_space_ratio]。
+- **复合利用**：停车、体育、创新交往、科技测试、应用展示与公共服务复合；绿地率约 12.0% 复算入 [metric:green_ratio]，六处广场型公共空间（原点发布厅广场、四象限步行厅、治理馆前庭、清华园车站文化广场、活动周主会场草坪、南门户广场）复算入 [metric:public_space_ratio] [metric:public_plaza_count]。12 个场景节点直接落位这些空间 [data:geometry/public_space.geojson#SC-01] [data:geometry/public_space.geojson#SC-08] [metric:scenario_node_count]。
 
 ### 大钟寺智能原生消费与商务场景（agent.4 之新业态）
 
@@ -286,9 +299,9 @@ Logo/VI 以“**脉动之轨**”为母题 [source:AGENT-TASKBOOK]：京张铁�
 
 征集 100 天设计周期与实施分期明确区分 [source:OFFICIAL-ANNOUNCEMENT] [depth:phasing_implementation]。实施分三期：
 
-- **近期试点**（可先以轻量设施、运营活动与服务平台启动）：场景开放日、慢行断点轻量缝合、原点发布厅试点、公共体验路线试运行——一期可讨论范围见 [data:geometry/phasing.geojson#PHASE-001] [metric:phasing_phase_1_area_sqm]；
-- **中期更新**（需控规、道路、市政与权属条件逐步确认后推进）：站城一体化、用地更新与产业载体；
-- **长期治理**（品牌资产、开发者社区与治理机制沉淀）：全球 AI 活动体系、数据治理与荣誉展示系统。
+- **一期 · 重点区场景启动**（约 241 公顷，可讨论范围 [data:geometry/phasing.geojson#PHASE-001] [metric:phasing_phase_1_area_sqm]）：大钟寺、AI 原点社区两处重点区与绿脉南段先行，轻量设施、场景开放日、原点发布厅试点与公共体验路线试运行；
+- **二期 · 走廊更新与两翼缝合**（约 699 公顷，[data:geometry/phasing.geojson#PHASE-002] [metric:phasing_phase_2_area_sqm]）：待控规、道路、市政与权属条件逐步确认后推进站城一体化、用地更新与科技服务翼、近校界面、小月河两岸的产业载体；
+- **三期 · 众智园全栈成熟与清河界面**（约 201 公顷，[data:geometry/phasing.geojson#PHASE-003] [metric:phasing_phase_3_area_sqm]）：全栈自主创新载体集聚、清河低碳界面与品牌资产、开发者社区、数据治理等长期治理机制沉淀。
 
 **年度活动体系与品牌/IP**：以“京张智脉”为活动母品牌，形成**四季十二主题**活动节奏（春·场景开放季、夏·开发者季、秋·路演与活动周、冬·成果发布与年度论坛），其中年度**全球AI活动周**为旗舰 IP；子 IP 包括开发者日、场景开放日、国际路演季与京张文化季。所有活动安排均为**提议**，不写成已确定政府活动 [source:AGENT-TASKBOOK]。
 
@@ -304,8 +317,15 @@ Logo/VI 以“**脉动之轨**”为母题 [source:AGENT-TASKBOOK]：京张铁�
 
 指标按三类组织并全部进入 `metrics.json` [source:PROCESSED-FACT-PACK] [depth:metrics_recalculation]：
 
-1. **可由提交几何直接复算的空间指标**（known）：总体范围面积 [metric:site_area_sqm]、四类用地面积、绿地与公共空间面积/比例 [metric:green_ratio] [metric:public_space_ratio]、建筑基底面积与覆盖率 [metric:building_footprint_area_sqm] [metric:building_coverage_ratio]、三处重点区面积 [metric:zhongzhiyuan_area_sqm]、一期范围面积 [metric:phasing_phase_1_area_sqm] 与图层/内容计数（用地分区数、重点区数 [metric:key_area_count]、更新项目数、场景卡数、TVS 数、画像数、朝圣地标数与全球案例数，完整清单见 metrics.json）。所有空间指标在 EPSG:4548 下按公式复算并随 provisional 边界变化重算。
-2. **需官方控规或任务书附件支撑的管控指标**（unknown）：容积率 [metric:floor_area_ratio]、总建筑规模 [metric:total_floor_area_sqm]、建筑高度 [metric:building_height_max_m]、道路面积与比例 [metric:road_area_sqm] [metric:road_ratio] 等，均说明原因与重算触发条件。
+1. **可由提交几何直接复算的空间指标**（known，33 项），按四组组织，完整清单见 metrics.json：
+   - 面积与比例：总体范围面积 [metric:site_area_sqm]，研发用地 [metric:land_use_area_0802_sqm] 与商服用地 [metric:land_use_area_05_sqm]，绿地面积 [metric:green_space_area_sqm] 与绿地率 [metric:green_ratio]，公共空间面积 [metric:public_space_area_sqm] 与其比率 [metric:public_space_ratio]；
+   - 建筑与慢行：基底面积 [metric:building_footprint_area_sqm]、栋数 [metric:building_count] 与覆盖率 [metric:building_coverage_ratio]，慢行网络长度 [metric:slow_traffic_network_length_m] 与中心线计数 [metric:road_centerline_count]；
+   - 重点区与分期：众智园 [metric:zhongzhiyuan_area_sqm]、原点社区 [metric:beijing_ai_origin_community_area_sqm]、大钟寺 [metric:dazhongsi_area_sqm] 与合计 [metric:key_area_total_area_sqm]；一期 [metric:phasing_phase_1_area_sqm]、二期 [metric:phasing_phase_2_area_sqm] 与三期 [metric:phasing_phase_3_area_sqm]；
+   - 计数（空间）：用地区块 [metric:land_use_parcel_count]、重点区 [metric:key_area_count]、广场 [metric:public_plaza_count] 与场景节点 [metric:scenario_node_count]；
+   - 计数（内容）：更新项目 [metric:renewal_project_count]、场景卡 [metric:scenario_card_count]、TVS [metric:testing_validation_scenario_count]、画像 [metric:persona_count]、朝圣地标 [metric:pilgrimage_landmark_count]、全球案例 [metric:global_case_study_count] 与年度活动主题 [metric:annual_event_theme_count]。
+
+   所有空间指标在 EPSG:4548 下按公式复算：面积按整百平方米舍入、比率保留四位小数，逐项标注 `provisional_boundary_derived` 与中文警示字段，随 provisional 边界变化整体重算。
+2. **需官方控规或任务书附件支撑的管控指标**（unknown，5 项）：容积率 [metric:floor_area_ratio]、总建筑规模 [metric:total_floor_area_sqm]、建筑高度 [metric:building_height_max_m]、道路面积与比例 [metric:road_area_sqm] [metric:road_ratio]，均说明原因与重算触发条件。
 3. **需运营/产业数据持续校准的绩效指标**：AI 创新指数、人才密度、产业服务满意度、慢行可达性、活动参与度与场景使用频次等，作为运营复盘指标而非审定规划条件。
 
 ![核心指标复算与证据链图](assets/figures/metrics-evidence.png)
@@ -316,7 +336,9 @@ Logo/VI 以“**脉动之轨**”为母题 [source:AGENT-TASKBOOK]：京张铁�
 
 **双语契约**：本包以中文为主稿、英文为等义译稿（`proposal.en.md`），HTML、A3/A0 与含文字图件均提供语言副本，术语采用赛事推荐译法。
 
-**风险与缺资料清单**：九类数据缺口（官方总边界、重点区边界、控规、道路、宗地权属、现状建筑、文保、市政安全、公共设施）逐一登记为 `assumptions.json` 独立假设，并说明影响、允许用途、禁止结论、补数来源与重算触发条件 [source:PROCESSED-FACT-PACK] [depth:risk_missing_data]。缺少官方控规、道路红线、权属、市政、消防或文保条件的所有结论均降级为待确认事项 [data:geometry/constraints.geojson#CONSTRAINTS]。
+**风险与缺资料清单**：九类数据缺口（官方总边界、重点区边界、控规、道路、宗地权属、现状建筑、文保、市政安全、公共设施）逐一登记为 `assumptions.json` 独立假设，并说明影响、允许用途、禁止结论、补数来源与重算触发条件 [source:PROCESSED-FACT-PACK] [depth:risk_missing_data]。新增清华园车站旧址文保概念协调区（示意，官方文保范围以文物部门公布为准）[data:geometry/constraints.geojson#CONSTRAINTS-002]。缺少官方控规、道路红线、权属、市政、消防或文保条件的所有结论均降级为待确认事项 [data:geometry/constraints.geojson#CONSTRAINTS]。
+
+**质量记录**：人工逐页可读性检查、中英文实质等价对照、无障碍与权利台账登记于 `visual/assets/`（manual_visual_check、parity_qa、accessibility_qa、rights_ledger、taskbook_coverage），供评审复核。
 
 **版权与合规**：来源、许可与使用限制完整登记于 `sources.json`，字体/依赖/构建工具与再分发边界见 `report/copyright_statement.md`。HTML 页面离线可开、无远程依赖、无 iframe/表单/API/跟踪。AI 治理遵守数据最小化、公开来源、可解释与人工复核原则 [source:GENERATIVE-AI-INTERIM-MEASURES]；城市智能体不替代规划审批、不输出未经授权个人画像、不声称官方实施承诺。
 

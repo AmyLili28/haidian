@@ -20,6 +20,8 @@
       ],
       "changed_files": [
         "submissions/Winnie1014/jingzhang-ai-vein/agent.json",
+        "submissions/Winnie1014/jingzhang-ai-vein/assets/figures/brand-vi.en.png",
+        "submissions/Winnie1014/jingzhang-ai-vein/assets/figures/brand-vi.png",
         "submissions/Winnie1014/jingzhang-ai-vein/assets/figures/key-areas.en.png",
         "submissions/Winnie1014/jingzhang-ai-vein/assets/figures/key-areas.png",
         "submissions/Winnie1014/jingzhang-ai-vein/assets/figures/land-use-structure.en.png",
@@ -58,13 +60,18 @@
         "submissions/Winnie1014/jingzhang-ai-vein/self_check.json",
         "submissions/Winnie1014/jingzhang-ai-vein/sources.json",
         "submissions/Winnie1014/jingzhang-ai-vein/standard_matrix.json",
+        "submissions/Winnie1014/jingzhang-ai-vein/visual/assets/accessibility_qa.json",
+        "submissions/Winnie1014/jingzhang-ai-vein/visual/assets/manual_visual_check.json",
+        "submissions/Winnie1014/jingzhang-ai-vein/visual/assets/parity_qa.json",
+        "submissions/Winnie1014/jingzhang-ai-vein/visual/assets/rights_ledger.json",
+        "submissions/Winnie1014/jingzhang-ai-vein/visual/assets/taskbook_coverage.json",
         "submissions/Winnie1014/jingzhang-ai-vein/visual/index.en.html",
         "submissions/Winnie1014/jingzhang-ai-vein/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/Winnie1014/jingzhang-ai-vein": "formal"
       },
-      "total_bytes": 4571079,
+      "total_bytes": 12206136,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -102,15 +109,51 @@
           "target_feature_id": "PROV-KEY-003",
           "expected": null,
           "actual": null
+        },
+        {
+          "check_id": "METRIC_RECALC_DRIFT",
+          "severity": "minor",
+          "target_file": "metrics.json",
+          "message": "site_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
+          "target_feature_id": null,
+          "expected": 11412825.385554,
+          "actual": 11412800.0
+        },
+        {
+          "check_id": "METRIC_RECALC_DRIFT",
+          "severity": "minor",
+          "target_file": "metrics.json",
+          "message": "green_space_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
+          "target_feature_id": null,
+          "expected": 1372717.75706,
+          "actual": 1372700.0
+        },
+        {
+          "check_id": "METRIC_RECALC_DRIFT",
+          "severity": "minor",
+          "target_file": "metrics.json",
+          "message": "public_space_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
+          "target_feature_id": null,
+          "expected": 77225.0,
+          "actual": 77300.0
+        },
+        {
+          "check_id": "METRIC_RECALC_DRIFT",
+          "severity": "minor",
+          "target_file": "metrics.json",
+          "message": "building_footprint_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
+          "target_feature_id": null,
+          "expected": 329530.577077,
+          "actual": 332300.0
         }
       ],
       "metrics": {
         "site_area_sqm": 11412825.386,
-        "green_space_area_sqm": 1408600.768,
-        "public_space_area_sqm": 836345.643,
-        "building_footprint_area_sqm": 310807.184,
-        "green_ratio": 0.123423,
-        "public_space_ratio": 0.073281
+        "green_space_area_sqm": 1372717.757,
+        "public_space_area_sqm": 77225.0,
+        "building_footprint_area_sqm": 329530.577,
+        "green_ratio": 0.120279,
+        "public_space_ratio": 0.006767
       }
     },
     "stderr": ""
@@ -122,10 +165,10 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "site_area_sqm": 11412825.386,
-        "green_ratio": 0.123423,
-        "public_space_ratio": 0.073281,
-        "building_coverage_ratio": 0.027233,
+        "site_area_sqm": 11412800.0,
+        "green_ratio": 0.1203,
+        "public_space_ratio": 0.0068,
+        "building_coverage_ratio": 0.0291,
         "land_use_zone_count": 4.0,
         "key_area_count": 3.0,
         "renewal_project_count": 6.0,
@@ -147,15 +190,15 @@
       "summary": {
         "standard_matrix_items": 8,
         "design_depth_items": 15,
-        "known_metric_refs_required": 23,
+        "known_metric_refs_required": 33,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
           "source": 17,
           "standard": 7,
           "depth": 15,
-          "data": 14,
-          "metric": 26
+          "data": 34,
+          "metric": 38
         }
       }
     },
@@ -164,7 +207,11 @@
   "spatial_issue_ids": [
     "KEY_AREA_PROVISIONAL",
     "KEY_AREA_PROVISIONAL",
-    "KEY_AREA_PROVISIONAL"
+    "KEY_AREA_PROVISIONAL",
+    "METRIC_RECALC_DRIFT",
+    "METRIC_RECALC_DRIFT",
+    "METRIC_RECALC_DRIFT",
+    "METRIC_RECALC_DRIFT"
   ],
   "visual_issue_ids": [],
   "professional_issue_ids": [],

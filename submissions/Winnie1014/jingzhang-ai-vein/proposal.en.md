@@ -18,7 +18,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 This formal proposal is a submission to the *Centennial Jing-Zhang AI Innovation Belt International Urban Design Scheme Solicitation*. Its primary authority is the *Qualification Pre-Announcement for the Centennial Jing-Zhang AI Innovation Belt International Urban Design Scheme Solicitation* [source:OFFICIAL-ANNOUNCEMENT], with the agent open-call taskbook [source:AGENT-TASKBOOK], the site package `brief/site-package/` [source:SITE-PACKAGE], the central source registry [source:SOURCE-REGISTRY], and the processed fact pack [source:PROCESSED-FACT-PACK] as machine-readable dependencies. The announcement's text boundaries and approximate areas anchor the three-level scope tasks; official polygons for the three scope levels and the three key areas are not yet available, so this package uses the provisional rough boundaries in `brief/site-package/geometry/provisional_boundaries.geojson` [source:PROVISIONAL-BOUNDARIES], all labeled `provisional_constraint`, `official_boundary=false`, and `boundary_precision=provisional_rough`. They must not serve as official redlines, approval bases, or precise-area references [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:existing_conditions_diagnosis].
 
-All spatial proposals here are **conceptual recommendations / reference schemes / for further deepening by professional teams**; they do not replace formal planning and are not government-approved conclusions [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]. Boundary interpretation returns to the overall-scope layer and area recalculation [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm]; the three key areas are verified by an independent layer and quantitative metrics [data:geometry/key_areas.geojson#PROV-KEY-001] [metric:key_area_count].
+All spatial proposals here are **conceptual recommendations / reference schemes / for further deepening by professional teams**; they do not replace formal planning and are not government-approved conclusions [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]. Boundary interpretation returns to the overall-scope layer and area recalculation [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm] (rounded to the nearest 100 m² under the provisional boundary — not precise areas); the three key areas are verified by an independent layer and quantitative metrics [data:geometry/key_areas.geojson#PROV-KEY-001] [metric:key_area_count] [metric:key_area_total_area_sqm].
 
 ![Source Evidence Chain and Overall Concept](assets/figures/site-overview.en.png)
 
@@ -42,6 +42,8 @@ The three levels are not isolated drawing sets [depth:overall_spatial_structure]
 
 ![Three-Level Scope and Overall Spatial Structure](assets/figures/land-use-structure.en.png)
 
+![Mobility and Blue-Green Public Space Composite System](assets/figures/mobility-bluegreen.en.png)
+
 ## Coordinated Research Area: Industry and Future City Research
 
 ### Main Name, English Name, and Naming System (agent.1 naming)
@@ -55,6 +57,10 @@ Main name: **Jing-Zhang AI Vein — One Belt, Symbiotic Innovation** (Chinese: �
 ### Logo / Visual Identity Direction (agent.1 VI)
 
 The Logo/VI uses the "**Pulsing Track**" motif [source:AGENT-TASKBOOK]: Jing-Zhang railway rails and an AI data-pulse curve are isomorphic, forming a rising "track—pulse" line that symbolizes a century of engineering autonomy moving toward contemporary intelligent autonomy. VI palette: **railway deep green** (heritage and ecology), **AI indigo** (innovation and compute), **Jing-Zhang gold** (commemoration and quality). The auxiliary graphic is a grid system where rail spacing and chip pinouts share geometry, usable across signage, boards, events, and digital interfaces. The naming and VI are original concepts using no unauthorized trademarks, fonts, or corporate logos [depth:height_massing_character].
+
+![Naming system and visual identity (VI) direction](assets/figures/brand-vi.en.png)
+
+The VI direction lands in visual evidence: the naming tree (belt–district–node), the colour system, bilingual totem and developer-badge applications, and the international slogans all appear in the brand-vi sheet (zh and en versions), sharing one identity system with the A3 cover and the A0 board header. The cultural identity system (station-style totems, year scale) stays clearly distinct from the belt logo system.
 
 ### Three Positioning Pillars, Five Functions, and the Three-Zones-Two-Wings Coordination Loop (agent.1 structure)
 
@@ -120,16 +126,18 @@ Land use follows the *Territorial Spatial Survey, Planning, and Use-Control Land
 
 | Code | Zone | Area (recomputed from submitted geometry) | Share of overall design area |
 | --- | --- | --- | --- |
-| 0802 | AI R&D innovation land | ~267.5 ha [metric:land_use_area_0802_sqm] | ~23.4% |
-| 1401 | Park green and open space | ~258.9 ha [metric:land_use_area_1401_sqm] | ~22.7% |
-| 05 | Industry-service and commercial-service land | ~336.6 ha [metric:land_use_area_05_sqm] | ~29.5% |
-| 0702 | Community-service and support land | ~278.3 ha [metric:land_use_area_0702_sqm] | ~24.4% |
+| 0802 | AI R&D innovation land | ~547 ha [metric:land_use_area_0802_sqm] | ~47.9% |
+| 05 | Business and commercial-service land | ~202 ha [metric:land_use_area_05_sqm] | ~17.7% |
+| 0702 | Community-service and support land | ~255 ha [metric:land_use_area_0702_sqm] | ~22.3% |
+| 1401 | Park green and open space | ~137 ha [metric:land_use_area_1401_sqm] | ~12.0% |
 
-Functions mix "AI R&D—industry service—living support" along the corridor to balance work-housing-commerce-service; functional proportions and spatial-organization models are conceptual, for professional deepening against official boundaries and regulatory conditions [source:HAIDIAN-1X1] [depth:development_intensity_controls].
+[metric:land_use_parcel_count]: 45 land-use blocks (44 functional clusters plus one green-vein zone [data:geometry/land_use.geojson#LU-045]) tile the submitted boundary seamlessly within numeric tolerance and without overlap. The 1401 zone consists of the vein [data:geometry/green_space.geojson#GREEN-001], the Qinghe corridor [data:geometry/green_space.geojson#GREEN-002], the Xiaoyue corridor [data:geometry/green_space.geojson#GREEN-003], and three shared gardens ([data:geometry/green_space.geojson#GREEN-004], [data:geometry/green_space.geojson#GREEN-005], [data:geometry/green_space.geojson#GREEN-006]), consistent in area.
+
+The corridor reads as a clear spatial order [data:geometry/land_use.geojson#LU-005]: **R&D (0802) is the corridor body** — the three key areas anchor innovation and extend along the vein; **commerce (05) anchors at stations** — the Dazhongsi smart-retail cluster, Wudaokou service cluster and the eastern service-wing axis carry retail, business and international exchange; **community services (0702) form a network** along the E-W stitching corridors and station feeders; **the green vein (1401) runs the full length** — a ~110 m heritage park vein linking two river corridors and three shared gardens. Proportions and the spatial model are conceptual, for professional deepening against official boundaries and controls [source:HAIDIAN-1X1] [depth:development_intensity_controls].
 
 ### Development Intensity and Building Scale (pending confirmation)
 
-Total building scale, FAR, building height, building density, and green ratio all depend on official regulatory-plan conditions. This package marks them `unknown` with recalc triggers [metric:floor_area_ratio] [metric:total_floor_area_sqm] [metric:building_height_max_m]; only building coverage (indicative footprint / boundary) is recomputable from submitted geometry [metric:building_coverage_ratio]. The indicative building footprint is at [data:geometry/buildings.geojson#BLDG-001] and is not an existing-building inventory [depth:height_massing_character].
+Total building scale, FAR, building height, building density, and green ratio all depend on official regulatory-plan conditions. This package marks them `unknown` with recalc triggers [metric:floor_area_ratio] [metric:total_floor_area_sqm] [metric:building_height_max_m]; only building coverage (indicative footprint / boundary) is recomputable from submitted geometry [metric:building_coverage_ratio]. Indicative footprints total 158 buildings over ~33.2 ha in four clusters — Zhongzhiyuan R&D [data:geometry/buildings.geojson#BLDG-001], Origin incubation [data:geometry/buildings.geojson#BLDG-002], Dazhongsi offices [data:geometry/buildings.geojson#BLDG-003], and station mixed-use [data:geometry/buildings.geojson#BLDG-004] [metric:building_count] — not an existing-building inventory [depth:height_massing_character].
 
 ## Detailed Design of Key Areas
 
@@ -139,7 +147,7 @@ Key-area detailed design is mandatory [source:OFFICIAL-ANNOUNCEMENT] [depth:thre
 
 ### Zhongzhiyuan AI Independent Innovation Acceleration Area (~192.1 ha)
 
-Positioning: **garden-type full-stack independent innovation district**. Its local prototype enters from a northern gateway and follows an "industry-display forecourt → red-team sandbox → shared test garden → Qinghe low-carbon edge" walking sequence. A north-south greenway is the spine; east-west cycling links connect the testbed, governance hall, edge-compute station, and public exchange lawn. AI nodes are SC-02, SC-03, and SC-06. Renewal projects JZ-02 and JZ-05 correspond to the prototype; the area operator manages access and asset logs, while the test operator owns test and closure records. Delivery depends on official boundaries, river blue lines, flood control, road redlines, energy, and safety conditions. Rectangles express relative relations only and cannot establish parcels, road redlines, existing buildings, or government commitments [data:geometry/green_space.geojson#GREEN-001] [metric:zhongzhiyuan_area_sqm].
+Positioning: **garden-type full-stack independent innovation district**. Its local prototype enters from a northern gateway and follows an "industry-display forecourt → red-team sandbox → shared test garden → Qinghe low-carbon edge" walking sequence. A north-south greenway is the spine; east-west cycling links connect the testbed, governance hall, edge-compute station, and public exchange lawn. AI nodes are SC-02, SC-03, and SC-06. Renewal projects JZ-02 and JZ-05 correspond to the prototype; the area operator manages access and asset logs, while the test operator owns test and closure records. Delivery depends on official boundaries, river blue lines, flood control, road redlines, energy, and safety conditions. The parcel-depth concept plan (key-areas figure, left inset) expresses concept relations only and cannot establish parcels, road redlines, existing buildings, or government commitments [data:geometry/green_space.geojson#GREEN-001] [data:geometry/green_space.geojson#GREEN-004] [metric:zhongzhiyuan_area_sqm].
 
 ### Beijing AI Origin Community (~104.3 ha)
 
@@ -203,8 +211,8 @@ The scenario-space-operation matrix maps all twelve scenarios to spatial nodes, 
 
 Land-use classification, building scale, and DRR method are detailed in the "Overall Design Area" section [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [depth:land_use_layout] [depth:retain_renovate_demolish]. Key points:
 
-- Land-use zones are complete, closed, and seamless, with areas recomputed from submitted geometry [data:geometry/land_use.geojson#LU-001].
-- Building footprints are indicative design objects [data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm], not an existing-building inventory [depth:existing_conditions_diagnosis].
+- 45 land-use blocks tile the boundary completely, closed and seamless, with areas recomputed from submitted geometry [data:geometry/land_use.geojson#LU-001] [data:geometry/land_use.geojson#LU-045].
+- Building footprints are indicative design objects — 158 footprints, ~33.2 ha, four clusters [data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm] [metric:building_count] — not an existing-building inventory [depth:existing_conditions_diagnosis].
 - Where existing buildings, ownership, regulatory plans, and engineering conditions are missing, only methods and pending-calibration lists are offered; no DRR conclusions are fabricated [depth:development_intensity_controls].
 - Building height, intensity, setback, and green ratio without official conditions are uniformly `unknown` [metric:building_height_max_m] [metric:floor_area_ratio], with pending conditions and recalc paths stated.
 
@@ -212,28 +220,31 @@ Land-use classification, building scale, and DRR method are detailed in the "Ove
 
 The transport plan responds to rail-station integration, road micro-circulation, slow-mobility breakpoints, external transit, parking, and bicycle parking [source:OFFICIAL-ANNOUNCEMENT] [depth:traffic_rail_slow_parking]. The road layer contains only **design centerlines (not road redlines)** [data:geometry/roads.geojson#ROAD-001]:
 
-- Greenway spine (ROAD-001): north-south Heritage Park walking/cycling spine;
-- Blue-green slow composite ring (ROAD-002): cycling ring linking the three cores and the park;
-- East-west stitch cross-corridor (ROAD-003): park—Zhongguancun Services Wing pedestrian link;
-- Dazhongsi Station connection (ROAD-004): four-quadrant pedestrian and rail-transfer concept;
-- Fifth Ring direction link (ROAD-005) and station branch (ROAD-007): external transit and station-city concepts;
-- Xiaoyue River waterfront slow path (ROAD-006): scenario-enablement wing slow mobility.
+- Greenway spine (ROAD-001, greenway, ~9.7 km): north-south Heritage Park walking/cycling spine;
+- Blue-green slow composite ring (ROAD-002, cycleway, ~16.1 km): northbound on the east, crossing the vein at north, southbound on the west, closing at south;
+- East-west stitch cross-corridor (ROAD-003, pedestrian) and Dazhongsi quadrant loop (ROAD-004, transit_connection);
+- Fifth Ring direction link (ROAD-005), Xizhimenwai-direction corridor (ROAD-009), Dazhongsi East Road corridor (ROAD-010), Xueyuan Road corridor (ROAD-008), and Xitucheng Road corridor (ROAD-012): skeleton axes named after announcement-sourced toponyms (concepts, not redlines);
+- Xiaoyue River waterfront path (ROAD-006), Wudaokou/Qinghua-East-Road-West feeder (ROAD-007), and Qinghe riverside path (ROAD-011);
+- Jing-Zhang corridor reference line (RAIL-001, EXISTING_RAIL, schematic): the spatial datum of the vein and slow network, not an engineering alignment.
 
-Station integration (Wudaokou, Qinghua East Road West Exit, Dazhongsi) is conceptual, pending official road redlines, cross-sections, and engineering conditions [depth:traffic_rail_slow_parking]. Municipal and public-service facilities cover AI industry-service facilities, innovation service platforms, talent living services, new infrastructure, distributed energy, and edge computing integration [depth:municipal_new_infrastructure]; missing pipeline, fire, and flood-control data are formal deepening prerequisites [data:geometry/constraints.geojson#CONSTRAINTS]. Road area and ratio depend on official road redlines and are marked `unknown` [metric:road_area_sqm] [metric:road_ratio].
+The slow-traffic network totals ≈30.1 km [metric:slow_traffic_network_length_m] across 12 centre lines plus one rail reference [metric:road_centerline_count]. Road area and ratio depend on official redlines and remain `unknown` [metric:road_area_sqm] [metric:road_ratio].
 
-![Mobility and Blue-Green Public Space Composite System](assets/figures/mobility-bluegreen.en.png)
+Station integration (Wudaokou/Qinghua East Road West Exit, Dazhongsi, and the north gateway toward Qinghe) is conceptual, pending official road redlines, cross-sections, and engineering conditions [depth:traffic_rail_slow_parking]. Municipal and public-service facilities cover AI industry-service facilities, innovation service platforms, talent living services, new infrastructure, distributed energy, and edge computing integration [depth:municipal_new_infrastructure]; missing pipeline, fire, and flood-control data are formal deepening prerequisites, now flagged together with rail-acoustic concept reference lines and blue-line/flood gap markers [data:geometry/constraints.geojson#CONSTRAINTS-003] [data:geometry/constraints.geojson#CONSTRAINTS-004].
 
 ## Blue-Green Network, Public Space, and Urban Character
 
 ### Jing-Zhang Heritage Park Activity Belt and Blue-Green System (agent.4 public space)
 
-Using the Heritage Park as the backbone, the plan coordinates Qinghe, Xiaoyue River, and surrounding university, enterprise, and community travel needs [source:OFFICIAL-ANNOUNCEMENT] [depth:blue_green_public_space]:
+Using the Heritage Park as the backbone, the plan coordinates Qinghe, Xiaoyue River, and surrounding university, enterprise, and community travel needs [source:OFFICIAL-ANNOUNCEMENT] [depth:blue_green_public_space]. Six green features and six plazas carry the system:
+
+- Green features: the vein [data:geometry/green_space.geojson#GREEN-001], Qinghe corridor [data:geometry/green_space.geojson#GREEN-002], Xiaoyue corridor [data:geometry/green_space.geojson#GREEN-003], Zhongzhiyuan test garden [data:geometry/green_space.geojson#GREEN-004], Origin green court [data:geometry/green_space.geojson#GREEN-005], and Dazhongsi park interface [data:geometry/green_space.geojson#GREEN-006];
+- Plazas: Origin Release Plaza [data:geometry/public_space.geojson#PUBLIC-001], Quadrant Walk Hall [data:geometry/public_space.geojson#PUBLIC-002], Governance Court [data:geometry/public_space.geojson#PUBLIC-003], Qinghuayuan Culture Plaza [data:geometry/public_space.geojson#PUBLIC-004], AI Week Main Lawn [data:geometry/public_space.geojson#PUBLIC-005], and the South Gateway Plaza [data:geometry/public_space.geojson#PUBLIC-006].
 
 - **North-south through**: the greenway spine links the park's south, middle, and north segments as a continuous walking/cycling path [data:geometry/roads.geojson#ROAD-001];
 - **East-west stitch**: cross-corridors link the park with both flanks and the two wings [data:geometry/roads.geojson#ROAD-003];
 - **Breakpoint stitching**: conceptual optimizations for ring-road crossing nodes and slow-mobility gaps;
 - **Landmark south/north ends**: signature urban landscape nodes;
-- **Composite use**: parking, sports, innovation exchange, technology testing, application display, and public services; the blue-green system is carried by [data:geometry/green_space.geojson#GREEN-001] and [data:geometry/public_space.geojson#PUBLIC-001], with ratios recomputed into [metric:green_ratio] and [metric:public_space_ratio].
+- **Composite use**: parking, sports, innovation exchange, technology testing, application display, and public services; the six green features and six plazas listed above carry the system. The ~12.0% green ratio feeds [metric:green_ratio] and six plazas feed [metric:public_space_ratio] [metric:public_plaza_count], with 12 scenario nodes sited directly on them [data:geometry/public_space.geojson#SC-01] [data:geometry/public_space.geojson#SC-08] [metric:scenario_node_count].
 
 ### Dazhongsi AI-Native Consumption and Business Scenarios (agent.4 new business)
 
@@ -287,9 +298,9 @@ These are original copy ready for international communication materials.
 
 The 100-day solicitation design cycle is clearly distinguished from implementation phasing [source:OFFICIAL-ANNOUNCEMENT] [depth:phasing_implementation]. Implementation runs in three phases:
 
-- **Near-term pilot** (starting with lightweight facilities, operations, and service platforms): scenario open days, lightweight breakpoint stitching, Origin Release Hall pilot, public experience route trial — the phase-1 discussion scope is at [data:geometry/phasing.geojson#PHASE-001] [metric:phasing_phase_1_area_sqm];
-- **Mid-term renewal** (advancing as regulatory, road, municipal, and ownership conditions are confirmed): station-city integration, land-use renewal, and industry carriers;
-- **Long-term governance** (brand assets, developer community, and governance mechanisms): the global AI event system, data governance, and honor display.
+- **Phase 1 · Key-area scenario launch** (~241 ha discussion scope [data:geometry/phasing.geojson#PHASE-001] [metric:phasing_phase_1_area_sqm]): the Dazhongsi and AI Origin Community key areas plus the southern vein go first, with lightweight facilities, scenario open days, the Origin Release Hall pilot, and public-route trials;
+- **Phase 2 · Corridor renewal and two-wing stitching** (~699 ha [data:geometry/phasing.geojson#PHASE-002] [metric:phasing_phase_2_area_sqm]): station-city integration, land renewal, and carriers on the service wing, the campus interface, and both Xiaoyue banks once controls, roads, utilities, and ownership are confirmed;
+- **Phase 3 · Zhongzhiyuan maturity and the Qinghe interface** (~201 ha [data:geometry/phasing.geojson#PHASE-003] [metric:phasing_phase_3_area_sqm]): full-stack innovation carriers, the low-carbon riverfront, brand assets, the developer community, and long-term governance.
 
 **Annual event system and brand/IP**: under the "Jing-Zhang AI Vein" mother brand, a **four-season, twelve-theme** rhythm (spring: scenario-access season; summer: developer season; autumn: roadshow and AI Week; winter: achievement release and annual forum), with the annual **Global AI Week** as the flagship IP; sub-IPs include Developer Day, Scenario Open Day, International Roadshow Season, and Jing-Zhang Culture Season. All events are **proposals**, not confirmed government events [source:AGENT-TASKBOOK].
 
@@ -305,8 +316,8 @@ The 100-day solicitation design cycle is clearly distinguished from implementati
 
 Metrics are organized in three categories, all in `metrics.json` [source:PROCESSED-FACT-PACK] [depth:metrics_recalculation]:
 
-1. **Spatial metrics recomputed from submitted geometry (known)**: overall design area [metric:site_area_sqm], four land-use areas, green and public-space area/ratio [metric:green_ratio] [metric:public_space_ratio], building footprint and coverage [metric:building_footprint_area_sqm] [metric:building_coverage_ratio], three key-area areas [metric:zhongzhiyuan_area_sqm], phase-1 area [metric:phasing_phase_1_area_sqm], and content/layer counts (zones, key areas [metric:key_area_count], renewal projects, scenario cards, TVS, personas, landmarks, global cases; full list in metrics.json). All spatial metrics are recomputed in EPSG:4548 with formulas and change with provisional boundaries.
-2. **Control metrics requiring official regulatory plans or taskbook attachments (unknown)**: FAR [metric:floor_area_ratio], total building scale [metric:total_floor_area_sqm], building height [metric:building_height_max_m], road area and ratio [metric:road_area_sqm] [metric:road_ratio], each with reasons and recalc triggers.
+1. **Spatial metrics recomputed from submitted geometry (known, 33)**: overall design area [metric:site_area_sqm], four land-use areas, green and public-space area/ratio [metric:green_space_area_sqm] [metric:green_ratio] [metric:public_space_area_sqm] [metric:public_space_ratio], building footprints/count/coverage [metric:building_footprint_area_sqm] [metric:building_count] [metric:building_coverage_ratio], three key-area areas [metric:zhongzhiyuan_area_sqm] [metric:beijing_ai_origin_community_area_sqm] [metric:dazhongsi_area_sqm] [metric:key_area_total_area_sqm], three phase areas [metric:phasing_phase_1_area_sqm] [metric:phasing_phase_2_area_sqm] [metric:phasing_phase_3_area_sqm], slow-network length [metric:slow_traffic_network_length_m], and content/layer counts (blocks [metric:land_use_parcel_count], key areas [metric:key_area_count], plazas [metric:public_plaza_count], scenario nodes [metric:scenario_node_count], renewal projects [metric:renewal_project_count], scenario cards [metric:scenario_card_count], TVS [metric:testing_validation_scenario_count], personas [metric:persona_count], landmarks [metric:pilgrimage_landmark_count], global cases [metric:global_case_study_count], annual themes [metric:annual_event_theme_count]; full list in metrics.json). All spatial metrics are recomputed in EPSG:4548 — areas rounded to the nearest 100 m², ratios to four decimals, each flagged `provisional_boundary_derived` with a Chinese warning field, and recalculated as a set when the provisional boundary changes.
+2. **Control metrics requiring official regulatory plans or taskbook attachments (unknown, 5)**: FAR [metric:floor_area_ratio], total building scale [metric:total_floor_area_sqm], building height [metric:building_height_max_m], road area and ratio [metric:road_area_sqm] [metric:road_ratio], each with reasons and recalc triggers.
 3. **Performance metrics calibrated by operations/industry data**: AI innovation index, talent density, industry-service satisfaction, slow-mobility accessibility, event participation, and scenario usage frequency — operational review metrics, not approved planning conditions.
 
 ![Core Metrics Recalculation and Evidence Chain](assets/figures/metrics-evidence.en.png)
@@ -317,7 +328,9 @@ The compliance matrix (`compliance_matrix.json`) covers all 23 mandatory tasks i
 
 **Bilingual contract**: Chinese is the primary narrative and English (`proposal.en.md`) is an equivalent translation; HTML, A3/A0, and text-bearing figures all provide language counterparts using the event's recommended terminology.
 
-**Risks and data-gap list**: nine data gaps (official overall boundary, key-area boundaries, regulatory planning, roads, parcel ownership, existing buildings, heritage protection, municipal safety, public facilities) are each registered as an independent assumption in `assumptions.json` with impact, allowed uses, forbidden conclusions, source-to-fill, and recalc triggers [source:PROCESSED-FACT-PACK] [depth:risk_missing_data]. Every conclusion lacking official regulatory, road-redline, ownership, municipal, fire-safety, or heritage conditions is downgraded to a pending item [data:geometry/constraints.geojson#CONSTRAINTS].
+**Risks and data-gap list**: nine data gaps (official overall boundary, key-area boundaries, regulatory planning, roads, parcel ownership, existing buildings, heritage protection, municipal safety, public facilities) are each registered as an independent assumption in `assumptions.json` with impact, allowed uses, forbidden conclusions, source-to-fill, and recalc triggers [source:PROCESSED-FACT-PACK] [depth:risk_missing_data]. A schematic heritage concept-coordination area around the old Qinghuayuan station is registered (official heritage scope prevails) [data:geometry/constraints.geojson#CONSTRAINTS-002]. Every conclusion lacking official regulatory, road-redline, ownership, municipal, fire-safety, or heritage conditions is downgraded to a pending item [data:geometry/constraints.geojson#CONSTRAINTS].
+
+**Quality records**: page-by-page manual readability checks, zh–en substantive parity, accessibility, and rights ledgers are registered under `visual/assets/` (manual_visual_check, parity_qa, accessibility_qa, rights_ledger, taskbook_coverage) for reviewer verification.
 
 **Copyright and compliance**: sources, licenses, and use restrictions are fully registered in `sources.json`; fonts, dependencies, and build tools with redistribution boundaries are in `report/copyright_statement.md`. HTML pages are offline-capable with no remote dependencies, iframes, forms, APIs, or tracking. AI governance follows data minimization, public sources, explainability, and human review [source:GENERATIVE-AI-INTERIM-MEASURES]; urban agents do not replace planning approval, do not output unauthorized personal profiles, and do not claim official implementation commitments.
 
