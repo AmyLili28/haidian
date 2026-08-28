@@ -6,6 +6,7 @@ import os
 import shutil
 import subprocess
 import tempfile
+import time
 import unittest
 from pathlib import Path
 
@@ -185,14 +186,72 @@ def run_chromium(
     # Keep screenshot and DOM inspection in separate browser modes. Chrome for
     # macOS can keep a combined --screenshot/--dump-dom invocation alive.
     command.append(source.resolve().as_uri())
-    return subprocess.run(
+
+    capture_output = dump_dom
+    process = subprocess.Popen(
         command,
-        capture_output=True,
+        stdout=subprocess.PIPE if capture_output else subprocess.DEVNULL,
+        stderr=subprocess.PIPE if capture_output else subprocess.DEVNULL,
         text=True,
         encoding="utf-8",
         errors="replace",
-        check=False,
-        timeout=60,
+        universal_newlines=True,
+    )
+
+    def collect_after_termination() -> tuple[str, str]:
+        try:
+            process.terminate()
+        except ProcessLookupError:
+            pass
+        try:
+            stdout, stderr = process.communicate(timeout=5)
+        except subprocess.TimeoutExpired:
+            process.kill()
+            stdout, stderr = process.communicate()
+        return stdout or "", stderr or ""
+
+    def screenshot_is_ready() -> bool:
+        if screenshot is None:
+            return False
+        try:
+            return screenshot.is_file() and screenshot.stat().st_size > 0
+        except OSError:
+            return False
+
+    if screenshot is not None:
+        # Some supported Chrome app bundles write the screenshot successfully
+        # but keep the headless process alive. Treat the non-empty artifact as
+        # the completion signal, then explicitly terminate the isolated process
+        # instead of waiting for the platform-specific process timeout.
+        deadline = time.monotonic() + 60
+        ready_since: float | None = None
+        while process.poll() is None:
+            now = time.monotonic()
+            if screenshot_is_ready():
+                if ready_since is None:
+                    ready_since = now
+                elif now - ready_since >= 0.25:
+                    stdout, stderr = collect_after_termination()
+                    note = "Chromium was terminated after the screenshot artifact stabilized."
+                    stderr = f"{stderr}\n{note}" if stderr else note
+                    return subprocess.CompletedProcess(command, 0, stdout, stderr)
+            else:
+                ready_since = None
+            if now >= deadline:
+                stdout, stderr = collect_after_termination()
+                note = "Chromium timed out before producing a stable screenshot artifact."
+                stderr = f"{stderr}\n{note}" if stderr else note
+                return subprocess.CompletedProcess(command, process.returncode, stdout, stderr)
+            time.sleep(0.05)
+
+    try:
+        stdout, stderr = process.communicate(timeout=60)
+    except subprocess.TimeoutExpired:
+        stdout, stderr = collect_after_termination()
+        note = "Chromium timed out before completing the DOM inspection."
+        stderr = f"{stderr}\n{note}" if stderr else note
+    return subprocess.CompletedProcess(
+        command, process.returncode, stdout or "", stderr or ""
     )
 
 
