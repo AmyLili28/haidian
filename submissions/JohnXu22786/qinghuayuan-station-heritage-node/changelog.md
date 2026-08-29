@@ -7,6 +7,12 @@
 - 删除无来源的概念比例和未经核验的站史/访谈表述；补充来源、同意、撤回、删除、申诉和版权/派生边界。
 - 修正中英元数据、英文对应物和编辑校对问题；所有图件/HTML/PDF 仅作概念评审，不构成法定规划、工程、审批或合作承诺。
 
+## v2.0-direct-repair - 2026-08-29
+
+- 针对 PR #3870 最新可见 CocoSgt 46/100 反馈，补登记站史与现场/访谈数据缺口，明确 `to_verify`/`not_usable` 状态及 `COMMUNITY-DISPLAY-ONLY` 不包含专业衍生权。
+- 补齐独立 `report/asset_rights_ledger.md`；面积指标保持由 provisional GeoJSON 统一公式复算，正文用近似显示，机器值与免责声明分开。
+- 本轮由 Codex 直接修复；重新生成报告/图册/预览后，以正式脚本更新 manifest 与 self-check 哈希。CocoSgt 复审仍待远端触发，不能由本地结果代替。
+
 ## v0.1.0 — 2026-08-24
 
 - Initial package baseline for PR #3870.

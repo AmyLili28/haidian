@@ -6,6 +6,14 @@ The proposal text, tables, scenario cards, protocols, concept geometry, figures,
 
 Before any professional continuation or public release, confirm the author/organizer permission, third-party page and font terms, source citation, accessibility, consent and version record. See `sources.json` and this rights ledger. Unverified material must be removed or kept research-only.
 
+## Professional continuation boundary
+
+`COMMUNITY-DISPLAY-ONLY` allows the repository and the call reviewer to display this submission. It does **not** by itself allow a consultant, government body, developer, operator or other downstream professional team to edit, translate, redraw, derive, publish, register, commercialise or train a model on these assets. A professional continuation may inspect the package as a proposal input, but must obtain written permission from the rights holder/organizer, create a new version record, preserve provenance, and re-clear any third-party source, font, mark, interview or historical material before modification or public release. No such downstream permission is asserted in this package.
+
+## Data gaps and honest status
+
+`DATA-GAP-QINGHUAYUAN-HERITAGE-RECORDS` and `DATA-GAP-SITE-SURVEY-INTERVIEWS` are explicit `to_verify`/`not_usable` source records. The package contains no station-history archive, site survey, accessibility baseline, interview, oral-history recording, personal data or consent record. Their absence is a blocker for factual heritage claims, user-statistics claims and any real pilot; it is not evidence that the materials do not exist in the world.
+
 ## Asset-rights ledger
 
 | Asset class | Package location | Current status | Permitted package use | Release condition |

@@ -163,11 +163,11 @@ Metrics are geometry monitors, package counts and concept targets. Geometry valu
 | Metric | Package value | Status and rule |
 |---|---:|---|
 | [metric:site_area_sqm] | 11,412,825.386 sqm | provisional polygon area; replace and recalculate with official boundary |
-| [metric:green_space_area_sqm] | 1,393,756.159 sqm | provisional union of concept green polygons |
-| [metric:public_space_area_sqm] | 36,150 sqm | provisional union; not an ownership/open-space conclusion |
+| [metric:green_space_area_sqm] | approx. 1,393,756.2 sqm | provisional union of concept green polygons; raw recompute 1,393,756.159 sqm |
+| [metric:public_space_area_sqm] | approx. 36,150.0 sqm | provisional union; raw recompute 36,150.000 sqm; not an ownership/open-space conclusion |
 | [metric:building_footprint_area_sqm] | 111,600 sqm | concept envelope union; not buildable scale |
-| [metric:green_ratio] | 0.122122 | green area/site area, six-decimal monitor |
-| [metric:public_space_ratio] | 0.003167 | public area/site area, six-decimal monitor |
+| [metric:green_ratio] | approx. 0.1221 | green area/site area; machine value 0.122122, displayed to four decimals |
+| [metric:public_space_ratio] | approx. 0.0032 | public area/site area; machine value 0.003167, displayed to four decimals |
 | [metric:global_case_count] | 8 | verification-queue count, not factual performance evidence |
 | [metric:scenario_card_count] | 12 | twelve cards with eleven fields |
 | [metric:industry_test_scenario_count] | 3 | independent T1/T2/T3 concept protocols, not completed validation |

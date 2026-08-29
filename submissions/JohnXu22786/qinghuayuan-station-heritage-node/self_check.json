@@ -64,13 +64,21 @@
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/self_check.json",
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/sources.json",
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/standard_matrix.json",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-key-areas-en.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-key-areas-zh.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-metrics-evidence-en.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-metrics-evidence-zh.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-mobility-bluegreen-en.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-mobility-bluegreen-zh.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-site-overview-en.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-site-overview-zh.png",
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/index.en.html",
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node": "formal"
       },
-      "total_bytes": 6729937,
+      "total_bytes": 12848532,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -144,7 +152,7 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 3,
+        "known_metric_refs_required": 5,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {

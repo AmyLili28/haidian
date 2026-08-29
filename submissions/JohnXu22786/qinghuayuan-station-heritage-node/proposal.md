@@ -228,11 +228,11 @@ Logo 草图采用月台切线、站房方框、轨距节奏三元素的黑白最
 | 指标 | 当前包内值 | 状态/口径 | 复算或验收规则 |
 |---|---:|---|---|
 | [metric:site_area_sqm] | 11,412,825.386 sqm | provisional 几何监测 | `polygon_area(site_boundary, EPSG:4548)`；官方边界替换后复算 |
-| [metric:green_space_area_sqm] | 1,393,756.159 sqm | provisional 几何监测 | 概念绿地 union 面积；不得写成法定绿地 |
-| [metric:public_space_area_sqm] | 36,150 sqm | provisional 几何监测 | 概念公共空间 union 面积；不等于开放空间权属 |
+| [metric:green_space_area_sqm] | 约 1,393,756.2 sqm | provisional 几何监测 | 概念绿地 union 面积；原始复算值 1,393,756.159 sqm；不得写成法定绿地 |
+| [metric:public_space_area_sqm] | 约 36,150.0 sqm | provisional 几何监测 | 概念公共空间 union 面积；原始复算值 36,150.000 sqm；不等于开放空间权属 |
 | [metric:building_footprint_area_sqm] | 111,600 sqm | provisional 几何监测 | 概念建筑包络 union；不等于可建规模 |
-| [metric:green_ratio] | 0.122122 | provisional 计算值 | `green_space_area_sqm/site_area_sqm`，显示 6 位小数 |
-| [metric:public_space_ratio] | 0.003167 | provisional 计算值 | `public_space_area_sqm/site_area_sqm`，显示 6 位小数 |
+| [metric:green_ratio] | 约 0.1221 | provisional 计算值 | `green_space_area_sqm/site_area_sqm`；机器值 0.122122，页面显示 4 位小数 |
+| [metric:public_space_ratio] | 约 0.0032 | provisional 计算值 | `public_space_area_sqm/site_area_sqm`；机器值 0.003167，页面显示 4 位小数 |
 | [metric:global_case_count] | 8 | 待核实参考计数 | 8 条 AI 生态入口均有 URL/来源 ID；复核前不作事实证明 |
 | [metric:scenario_card_count] | 12 | 概念文本计数 | 12 张卡均具 11 字段；试点后可增删 |
 | [metric:industry_test_scenario_count] | 3 | 概念协议计数 | 独立 T1/T2/T3；非已完成产业验证 |
