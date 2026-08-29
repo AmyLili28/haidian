@@ -10,6 +10,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
+        "submissions/JohnXu22786/urban-renewal-framework/manifest.json: known_blockers present; submission may pass intake but cannot enter formal professional scoring until resolved",
         "submissions/JohnXu22786/urban-renewal-framework/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
@@ -63,13 +64,14 @@
         "submissions/JohnXu22786/urban-renewal-framework/self_check.json",
         "submissions/JohnXu22786/urban-renewal-framework/sources.json",
         "submissions/JohnXu22786/urban-renewal-framework/standard_matrix.json",
+        "submissions/JohnXu22786/urban-renewal-framework/visual/assets/figure_qc.json",
         "submissions/JohnXu22786/urban-renewal-framework/visual/index.en.html",
         "submissions/JohnXu22786/urban-renewal-framework/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/urban-renewal-framework": "formal"
       },
-      "total_bytes": 5078714,
+      "total_bytes": 8161000,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -129,16 +131,7 @@
       "metrics_seen": {
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.110044,
-        "public_space_ratio": 0.003167,
-        "scenario_card_count": 10.0,
-        "global_case_count": 8.0,
-        "key_area_count": 3.0,
-        "phase_count": 3.0,
-        "annual_program_count": 3.0,
-        "persona_count": 5.0,
-        "industry_test_scenario_count": 3.0,
-        "scenario_node_count": 8.0,
-        "landmark_count": 3.0
+        "public_space_ratio": 0.003167
       }
     },
     "stderr": ""
@@ -177,7 +170,9 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [],
+  "next_actions": [
+    "Resolve formal-readiness warning: submissions/JohnXu22786/urban-renewal-framework/manifest.json: known_blockers present; submission may pass intake but cannot enter formal professional scoring until resolved"
+  ],
   "schema_version": "0.1.0",
   "checks": [
     {
@@ -208,63 +203,5 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ],
-  "figure_qc": {
-    "ok": true,
-    "ink_ok": true,
-    "clip_clear": true,
-    "overlap_clear": "not_verified",
-    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
-    "figures": {
-      "ecosystem-map.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1522,
-        "edge_clip_ratio": 0.0123,
-        "edge_clip_clear": true
-      },
-      "key-areas.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0877,
-        "edge_clip_ratio": 0.0069,
-        "edge_clip_clear": true
-      },
-      "land-use-structure.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1324,
-        "edge_clip_ratio": 0.0135,
-        "edge_clip_clear": true
-      },
-      "logo-update-hub.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1486,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "metrics-evidence.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1232,
-        "edge_clip_ratio": 0.0005,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0911,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "site-overview.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0858,
-        "edge_clip_ratio": 0.0003,
-        "edge_clip_clear": true
-      }
-    }
-  }
+  ]
 }

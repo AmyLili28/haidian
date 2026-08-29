@@ -293,7 +293,7 @@
   {
    "source_id": "PACKAGE-GEOMETRY",
    "title": "本方案 geometry 层(provisional 概念设计)",
-   "publisher": "JohnXu22786 / dsh-haidian-agent",
+   "publisher": "JohnXu22786 / package authors",
    "source_kind": "agent_generated_design",
    "url": "geometry/",
    "published_date": "2026-08-24",
@@ -319,7 +319,7 @@
    ],
    "notes_zh": "参与方自产设计几何，标注 provisional；节点命名与场景卡编号（SC-01—SC-10）与正文、图件、指标、HTML 同步。",
    "provenance": {
-    "generator": "deepseek-v4-flash via DeepSeek Harness + deterministic build script",
+    "generator": "deterministic local renderer + package authors",
     "generation_method": "concept prompting + geometry program",
     "limitations": "low confidence conceptual envelopes"
    },
@@ -570,7 +570,7 @@
   {
    "source_id": "ASSET-LOGO-RENEW-JZ",
    "title": "更新枢 RENEW·JZ 标识与视觉识别（原创概念）",
-   "publisher": "JohnXu22786 / dsh-haidian-agent",
+   "publisher": "JohnXu22786 / package authors",
    "source_kind": "asset_record",
    "url": "assets/figures/logo-update-hub.png",
    "published_date": "2026-08-24",
@@ -596,7 +596,7 @@
    "local_paths": [],
    "notes_zh": "名称与图形按内部工作代号处理；在先权利检索完成前不得对外注册或正式命名，详见 report/asset_rights_ledger.md。",
    "provenance": {
-    "generator": "deepseek-v4-flash via DeepSeek Harness",
+    "generator": "deterministic local renderer",
     "generation_method": "concept prompting + matplotlib rendering",
     "limitations": "concept-level visual, not a finalized trademark"
    },
@@ -635,7 +635,7 @@
   {
    "source_id": "ASSET-ORIGINAL-FIGURES",
    "title": "本方案全部图件与 PDF 版式（原创概念）",
-   "publisher": "JohnXu22786 / dsh-haidian-agent",
+   "publisher": "JohnXu22786 / package authors",
    "source_kind": "asset_record",
    "url": "assets/figures/",
    "published_date": "2026-08-25",
@@ -661,11 +661,26 @@
    "local_paths": [],
    "notes_zh": "图件全部为本包自产，版权所有归作者；图件内不引用任何第三方版权图片。",
    "provenance": {
-    "generator": "deepseek-v4-flash via DeepSeek Harness + matplotlib",
+    "generator": "deterministic local renderer + matplotlib",
     "generation_method": "concept prompting + deterministic styling",
     "limitations": "concept-level rendering"
    },
    "license": "COMMUNITY-DISPLAY-ONLY; original AI-generated figures, repository display only."
+  },
+  {
+   "source_id": "ASSET-RIGHTS-LEDGER",
+   "title": "Package asset rights and visual QC ledger",
+   "publisher": "package authors",
+   "url": "report/copyright_statement.md",
+   "published": "2026-08-29",
+   "accessed": "2026-08-29",
+   "license": "package-authored concept assets; third-party rights to be cleared before external use",
+   "allowed_uses": [
+    "PR review",
+    "offline visual and PDF QC"
+   ],
+   "verification_status": "package-authored record",
+   "notes": "Visual hashes, PDF page checks and offline HTML constraints are recorded in visual/assets/figure_qc.json."
   }
  ]
 }

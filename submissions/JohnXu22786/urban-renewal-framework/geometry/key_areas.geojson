@@ -28,9 +28,16 @@
         "label_zh": "众智园AI自主创新加速区",
         "official_area_sqm": 1921000.0,
         "naming_contract": "unified-2026-08",
-        "node_mapping_zh": "单元坊（UNIT·BLOCK）示范单元概念对应",
+        "node_mapping_zh": "众智园AI自主创新加速区—单元坊（固定概念映射）",
         "wing_mapping_zh": "概念映射—主要承接「中关村科技服务翼」的产业供给（provisional，待任务书文本核验）",
-        "wing_loop_zh": "空间接口—产业供给—运营协同（概念）"
+        "wing_loop_zh": "空间接口—产业供给—运营协同（概念）",
+        "name_en": "Zhongzhiyuan AI Self-Innovation Acceleration Area rough extent",
+        "label_en": "Zhongzhiyuan AI Self-Innovation Acceleration Area",
+        "node_id": "UNIT-RENEWAL-BLOCK",
+        "node_mapping_en": "Zhongzhiyuan AI Self-Innovation Acceleration Area—UNIT·BLOCK (fixed concept mapping)",
+        "display_color": "#0E7C82",
+        "mapping_contract": "v2.1-three-areas-three-nodes",
+        "boundary_status": "provisional_concept_rough_extent"
       },
       "geometry": {
         "type": "Polygon",
@@ -86,9 +93,16 @@
         "label_zh": "北京AI原点社区",
         "official_area_sqm": 1043000.0,
         "naming_contract": "unified-2026-08",
-        "node_mapping_zh": "留改坊（KEEP·BLOCK）统筹示范单元概念对应",
+        "node_mapping_zh": "北京AI原点社区—留改坊（固定概念映射）",
         "wing_mapping_zh": "概念映射—「中关村科技服务翼」与「小月河场景赋能翼」交汇枢纽（provisional，待任务书文本核验）",
-        "wing_loop_zh": "两翼交汇—决策示范监督闭环（概念）"
+        "wing_loop_zh": "两翼交汇—决策示范监督闭环（概念）",
+        "name_en": "Beijing AI Origin Community rough extent",
+        "label_en": "Beijing AI Origin Community",
+        "node_id": "KEEP-RENOVATE-BLOCK",
+        "node_mapping_en": "Beijing AI Origin Community—KEEP·BLOCK (fixed concept mapping)",
+        "display_color": "#C47B1A",
+        "mapping_contract": "v2.1-three-areas-three-nodes",
+        "boundary_status": "provisional_concept_rough_extent"
       },
       "geometry": {
         "type": "Polygon",
@@ -126,7 +140,7 @@
         "layer": "KEY_AREA",
         "parent_scope_id": "key_detailed_design_area",
         "area_id": "dazhongsi_ai_industry_cluster",
-        "name_zh": "大钟寺AI产业聚集区粗略范围",
+        "name_zh": "大钟寺AI产业集聚区粗略范围",
         "source_type": "agent_inferred_from_public_data",
         "confidence": "medium",
         "geometry_role": "provisional_constraint",
@@ -144,9 +158,16 @@
         "label_zh": "大钟寺AI产业集聚区",
         "official_area_sqm": 720000.0,
         "naming_contract": "unified-2026-08",
-        "node_mapping_zh": "督行亭（SUPERVISION PAVILION）监督站点概念对应",
+        "node_mapping_zh": "大钟寺AI产业集聚区—督行亭（固定概念映射）",
         "wing_mapping_zh": "概念映射—主要承接「小月河场景赋能翼」的场景落地（provisional，待任务书文本核验）",
-        "wing_loop_zh": "空间走廊—产业落地—运营开放（概念）"
+        "wing_loop_zh": "空间走廊—产业落地—运营开放（概念）",
+        "name_en": "Dazhongsi AI Industry Cluster rough extent",
+        "label_en": "Dazhongsi AI Industry Cluster",
+        "node_id": "SUPERVISION-PAVILION",
+        "node_mapping_en": "Dazhongsi AI Industry Cluster—SUPERVISION PAVILION (fixed concept mapping)",
+        "display_color": "#2E5E96",
+        "mapping_contract": "v2.1-three-areas-three-nodes",
+        "boundary_status": "provisional_concept_rough_extent"
       },
       "geometry": {
         "type": "Polygon",

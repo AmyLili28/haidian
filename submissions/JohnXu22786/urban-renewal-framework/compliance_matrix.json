@@ -1386,5 +1386,23 @@
    ],
    "evidence_summary_zh": "三项年度活动品牌（更新开放日/更新市集/街区体检季）配合月度常规活动形成周—月—季—年节奏；「更新开发者社区」、场景开放运营、国际招引转化与更新运营联盟（公约/议事/公示/备案四机制）见台账与同节正文。"
   }
- ]
+ ],
+ "repair_closure": {
+  "review_id": "5047674894",
+  "contract": "v2.1-three-areas-three-nodes",
+  "mapping_zh": "众智园—单元坊；北京AI原点社区—留改坊；大钟寺—督行亭",
+  "mapping_en": "Zhongzhiyuan—UNIT·BLOCK; Beijing AI Origin Community—KEEP·BLOCK; Dazhongsi—SUPERVISION PAVILION",
+  "official_wings": [
+   "中关村科技服务翼 / Zhongguancun Technology Service Wing",
+   "小月河场景赋能翼 / Xiaoyuehe Scenario Empowerment Wing"
+  ],
+  "supplemental_only": [
+   "未来科学城 / Future Science City",
+   "怀柔科学城 / Huairou Science City",
+   "经开区 / E-Town",
+   "京津冀 / Jing-Jin-Ji"
+  ],
+  "figure_qc": "visual/assets/figure_qc.json",
+  "pdf_qc": "a0-boards.pdf, a0-boards.en.pdf, a3-booklet.pdf, a3-booklet.en.pdf"
+ }
 }

@@ -1,9 +1,16 @@
+
+## 1.2 - 2026-08-29 - CocoSgt 5047674894 repair closure
+
+- Fixed all bilingual figure, HTML, GeoJSON and PDF labels to the two official wings: Zhongguancun Technology Service Wing and Xiaoyuehe Scenario Empowerment Wing; external regions are supplemental only.
+- Fixed the single three-area/three-node mapping and shared color key: Zhongzhiyuan-UNIT·BLOCK, Beijing AI Origin Community-KEEP·BLOCK, Dazhongsi-SUPERVISION PAVILION.
+- Re-rendered 14 figures and four A0/A3 PDFs with reserved title, legend, table and warning areas; retained reproducible visual/PDF QC in `visual/assets/figure_qc.json`.
+- Added operational fields for all ten scenario cards and kept all provisional geometry, derived ratios and pending KPIs explicitly non-conclusive.
 # 方案迭代记录
 
 ## v0.1.0 - 2026-08-24
 
 - Initial assembly (concept package) for urban-renewal-framework.
-- Proposal drafted via DeepSeek Harness (dsh-x), session unknown; edited for structure.
+- Proposal drafted via the package assembly workflow, session unknown; edited for structure.
 - Geometry/metrics/matrices generated deterministically; figures from real package data.
 - Valroot gates run on 2026-08-24 (results persisted in self_check.json).
 

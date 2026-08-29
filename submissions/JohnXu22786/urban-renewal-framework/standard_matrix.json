@@ -312,5 +312,23 @@
    ],
    "evidence_summary_zh": "概念用地结构与 GeoJSON 层使用国标分类语义；用地图采用单一口径（概念图斑占比与 green_ratio 同口径），口径、聚合、复算规则在「指标体系」节明确，避免多口径并列误导。"
   }
- ]
+ ],
+ "repair_closure": {
+  "review_id": "5047674894",
+  "contract": "v2.1-three-areas-three-nodes",
+  "mapping_zh": "众智园—单元坊；北京AI原点社区—留改坊；大钟寺—督行亭",
+  "mapping_en": "Zhongzhiyuan—UNIT·BLOCK; Beijing AI Origin Community—KEEP·BLOCK; Dazhongsi—SUPERVISION PAVILION",
+  "official_wings": [
+   "中关村科技服务翼 / Zhongguancun Technology Service Wing",
+   "小月河场景赋能翼 / Xiaoyuehe Scenario Empowerment Wing"
+  ],
+  "supplemental_only": [
+   "未来科学城 / Future Science City",
+   "怀柔科学城 / Huairou Science City",
+   "经开区 / E-Town",
+   "京津冀 / Jing-Jin-Ji"
+  ],
+  "figure_qc": "visual/assets/figure_qc.json",
+  "pdf_qc": "a0-boards.pdf, a0-boards.en.pdf, a3-booklet.pdf, a3-booklet.en.pdf"
+ }
 }

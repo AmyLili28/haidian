@@ -937,5 +937,23 @@
    ],
    "evidence_summary_zh": "风险与缺口如实登记：risk.json 八维度评分、assumptions.json 六项假设、sources.json 案例核验状态；provisional 边界警示贯穿正文、图件、指标与几何属性，全部概念建议不构成承诺。"
   }
- ]
+ ],
+ "repair_closure": {
+  "review_id": "5047674894",
+  "contract": "v2.1-three-areas-three-nodes",
+  "mapping_zh": "众智园—单元坊；北京AI原点社区—留改坊；大钟寺—督行亭",
+  "mapping_en": "Zhongzhiyuan—UNIT·BLOCK; Beijing AI Origin Community—KEEP·BLOCK; Dazhongsi—SUPERVISION PAVILION",
+  "official_wings": [
+   "中关村科技服务翼 / Zhongguancun Technology Service Wing",
+   "小月河场景赋能翼 / Xiaoyuehe Scenario Empowerment Wing"
+  ],
+  "supplemental_only": [
+   "未来科学城 / Future Science City",
+   "怀柔科学城 / Huairou Science City",
+   "经开区 / E-Town",
+   "京津冀 / Jing-Jin-Ji"
+  ],
+  "figure_qc": "visual/assets/figure_qc.json",
+  "pdf_qc": "a0-boards.pdf, a0-boards.en.pdf, a3-booklet.pdf, a3-booklet.en.pdf"
+ }
 }
