@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "84351da4a2421f78753d547ff4433304dbf2a4c9b87539c9990c6199d507f6e0"
+      "sha256": "0f3ac2fd575d91f1bd8338e0c0c9e8dc2e77cb66de1be3e41f8fc50b1edaab72"
     },
     {
       "path": "report/narrative.md",
