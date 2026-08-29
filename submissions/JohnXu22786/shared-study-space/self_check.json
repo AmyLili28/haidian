@@ -61,8 +61,12 @@
         "submissions/JohnXu22786/shared-study-space/self_check.json",
         "submissions/JohnXu22786/shared-study-space/sources.json",
         "submissions/JohnXu22786/shared-study-space/standard_matrix.json",
+        "submissions/JohnXu22786/shared-study-space/visual/assets/previews/fig-ai-ecosystem-atlas-en.png",
+        "submissions/JohnXu22786/shared-study-space/visual/assets/previews/fig-ai-ecosystem-atlas-zh.png",
         "submissions/JohnXu22786/shared-study-space/visual/assets/previews/fig-key-areas-en.png",
         "submissions/JohnXu22786/shared-study-space/visual/assets/previews/fig-key-areas-zh.png",
+        "submissions/JohnXu22786/shared-study-space/visual/assets/previews/fig-land-use-structure-en.png",
+        "submissions/JohnXu22786/shared-study-space/visual/assets/previews/fig-land-use-structure-zh.png",
         "submissions/JohnXu22786/shared-study-space/visual/assets/previews/fig-metrics-evidence-en.png",
         "submissions/JohnXu22786/shared-study-space/visual/assets/previews/fig-metrics-evidence-zh.png",
         "submissions/JohnXu22786/shared-study-space/visual/assets/previews/fig-mobility-bluegreen-en.png",
@@ -83,7 +87,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/shared-study-space": "formal"
       },
-      "total_bytes": 12767495,
+      "total_bytes": 8873416,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -213,63 +217,5 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ],
-  "figure_qc": {
-    "ok": true,
-    "ink_ok": true,
-    "clip_clear": true,
-    "overlap_clear": "not_verified",
-    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
-    "figures": {
-      "ai-ecosystem-atlas.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1107,
-        "edge_clip_ratio": 0.0135,
-        "edge_clip_clear": true
-      },
-      "key-areas.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.3626,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "land-use-structure.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1827,
-        "edge_clip_ratio": 0.0173,
-        "edge_clip_clear": true
-      },
-      "logo-brand.png": {
-        "width": 900,
-        "height": 900,
-        "ink": 0.1526,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "metrics-evidence.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1773,
-        "edge_clip_ratio": 0.0088,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.185,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "site-overview.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0892,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      }
-    }
-  }
+  ]
 }
