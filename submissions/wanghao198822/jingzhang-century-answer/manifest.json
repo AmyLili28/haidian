@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "9c1d512d551513cf2e182b315eda75f537a3a1767ca0ed401ea9c69764790c86"
+      "sha256": "9ae2ec4c546cc4606758ec3b71bea10d888f6f6a9ce9d19f7c1839fbd92cbf07"
     },
     {
       "path": "agent.json",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "4691becc1fc98fdd6e5623b9b75fe0b52e9c26eb5e7d725b8c0280f2e2ba36f8"
+      "sha256": "766d1b30cf0153f0616c4f5a7d87d069ee504e5fdd8c88a4df7c840125096acc"
     },
     {
       "path": "compliance_matrix.json",
@@ -99,7 +99,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "2d443075501a79cf30994f356c933826483a1700f44e561ab109abe1b56a047d"
+      "sha256": "ada9208fa162264ffa1c1aeb563739c62fcc94171be45191884c9e33757fdf27"
     },
     {
       "path": "report/narrative.md",
@@ -111,28 +111,28 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "4d89b739d71388eeb53647e343c0e62a1da5cb3287f4299d6675b924f5ee0e1d"
+      "sha256": "28732b2ee6ffb9fb26796b3d61c1ace69df6dc5612c76f37ef2aee9f39524dbb"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "056079388c11c1ed09f94f1c6dc9e98a3dd999418c77d7707394fa2e67f95bee"
+      "sha256": "3fd0ce319a0be08e81ba6e28c72a3681a36bf306b07dcd328b067076633bbd1f"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "841b7afa1df14362fa75f573de0f8acc835477136b9ab116d7b4f686b83bc0a3"
+      "sha256": "bd263e77db8cf7507915926b6c2fcff1e4474ba60ffa6079023b3bd0894f4f46"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "5c708b6ec73eec221d3850cbad79bee356f49d5c8da5a3ec946cf5a04b111eab"
+      "sha256": "e954098fd06b5489904518144da02c4f744f521468c183502f4711d3c58e9e21"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -229,7 +229,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "bf124e1589826cbe27203e9566a57379b6b85d0999bb999e941591a420e08e4c"
+      "sha256": "e196b00ec2fa24642f3a65c4543e7c562bf2e6c4458ef8130a2b0e88a8643d55"
     },
     {
       "path": "report/proposal.en.html",
@@ -237,7 +237,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "775be9f5eeec1970bbd4673655eec63ea8f4d0efeb8a8f9ebe5c510ac850591d"
+      "sha256": "b4f3a73b2f06abc0898cba9f2353f63ff8494cd1a4a5d8c8c92bfa697ca18c59"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -245,7 +245,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "a478ecc69668eb225714ff0d1f1fd9d5628beadabde7219997904a0114a0d410"
+      "sha256": "e8e3003f1c1d6c9102772e8fecb37f7cebb2e947a0d3b3acb70928e3aecd5a67"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -253,7 +253,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "adfa429cc714a19bf798a59dbb5e7692e180dede16ec7ca9a52f2e4f089c3b8a"
+      "sha256": "2ce05bea736c63082586e0921cc6859879e1f648c5bc4e5908ea884b16e97686"
     },
     {
       "path": "visual/index.en.html",
@@ -261,7 +261,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "e8b5dea8292c878c6c903957fb6ecce7c2c90b7a02a18f6d2c65b9e391cb7a2a"
+      "sha256": "bb3274f35260fb92c64c5ba580de0c58765b0666519287006bf39b1ccb936546"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -428,7 +428,7 @@
       "role": "proposal_figure",
       "required": false,
       "language": "zh",
-      "sha256": "c62307bfb0829b375ed886119343a10c1f00900f3007bfe1420e8053ebb010d1"
+      "sha256": "e07881cc3deab83e9ddb4b7a6f39f8c99045e04375eb39c89ed1645dc4483afa"
     },
     {
       "path": "assets/figures/section-zzy-2.en.png",
@@ -436,7 +436,7 @@
       "required": false,
       "language": "en",
       "translation_of": "assets/figures/section-zzy-2.png",
-      "sha256": "a0897ce6e697a45d8f9b1a4413457561ec2eda0078303198aaa07146f5d257bf"
+      "sha256": "6db2b0d2f123c3a77073970b5ba5a566a77c9be3ffa9839dddea16b911eafa21"
     },
     {
       "path": "assets/figures/section-zzy-3.png",
@@ -660,8 +660,8 @@
       "sha256": "5bf84f4bb90c888df54e50ad374d5957c9baa146be4d750c29b1475876657ec8",
       "title_zh": "《百年应答》概念方案短片",
       "title_en": "The Century Answer — Concept Film",
-      "description_zh": "55 秒静音概念短片：片头提出 1909 年之问，随后依次走过道钉带、南问·鸣钟之门、中答·应答原点、北跃·人字之跃、东西向穿越·应答门五个片段，片尾落回“市民蹲下来数道钉”。画面由 AI 生成（图生视频与静帧推镜），为概念意象示意——非实景照片、非工程效果图、非官方审定成果。人字之跃段已按断面 ZZY-1/ZZY-2 口径绘制（桥面平直、无上部构筑物、两端并排折返坡道）；仅存一处已声明差异：道钉带段铜道钉位于步道中部，正文口径为步道边缘。",
-      "description_en": "A 55-second silent concept film. The opening card poses the 1909 question; five segments walk the belt — the Rail-Spike Band, the Ringing Bell in the south, the Answer Origin at the centre, the Ren-Shaped Leap in the north, and the east-west Answer Gates — before the closing card returns to citizens crouching to count the spikes. The imagery is AI-generated (image-to-video and still push-ins), conceptual in intent: not photographs, not engineering renderings, not an officially approved result. The Ren-Shaped Leap segment now follows sections ZZY-1/ZZY-2 (flat deck, nothing above it, paired switchback ramps); the single declared divergence that remains is the spike position — mid-path in the film, at the walkway edge in the body text.",
+      "description_zh": "55 秒静音概念短片：片头提出 1909 年之问，随后依次走过道钉带、南问·鸣钟之门、中答·应答原点、北跃·人字之跃、东西向穿越·应答门五个片段，片尾落回“市民蹲下来数道钉”。画面由 AI 生成（图生视频与静帧推镜），为概念意象示意——非实景照片、非工程效果图、非官方审定成果。人字之跃段已按断面 ZZY-1/ZZY-2 口径绘制（桥面平直、无上部构筑物、两端并排折返坡道）；现存三处已声明差异：道钉带段铜道钉位于步道中部（正文口径为步道边缘），以及鸣钟之门段字幕写「完成备案或 IPO」（正文口径为达成可公开核验的里程碑事件，事件类型开放）。",
+      "description_en": "A 55-second silent concept film. The opening card poses the 1909 question; five segments walk the belt — the Rail-Spike Band, the Ringing Bell in the south, the Answer Origin at the centre, the Ren-Shaped Leap in the north, and the east-west Answer Gates — before the closing card returns to citizens crouching to count the spikes. The imagery is AI-generated (image-to-video and still push-ins), conceptual in intent: not photographs, not engineering renderings, not an officially approved result. The Ren-Shaped Leap segment now follows sections ZZY-1/ZZY-2 (flat deck, nothing above it, paired switchback ramps); three declared divergences remain: the spike position — mid-path in the film, at the walkway edge in the body text — and the Ringing Bell subtitle, which says “completes registration or lists” where the body text binds ringing to any publicly verifiable milestone.",
       "poster": "assets/media/narrative-poster.jpg",
       "caption": "assets/media/narrative.vtt",
       "transcript": "assets/media/narrative-transcript.md"
@@ -692,7 +692,7 @@
       "path": "assets/media/narrative-transcript.md",
       "role": "transcript",
       "required": false,
-      "sha256": "390fa77975104275ab945cf991b6db98b5213e5c422fce496015802fdce7ace4",
+      "sha256": "127ff9f9944ffebc03efe6cc99a8306de0f1ebe9378634ed71b8a450404cde62",
       "title_zh": "短片完整文字稿",
       "title_en": "Concept Film Full Transcript",
       "description_zh": "短片全部叙述内容的文字稿，供无法播放视频时完整获取。",
@@ -754,7 +754,7 @@
       "path": "visual/assets/bridge3d.js",
       "role": "visualization",
       "required": false,
-      "sha256": "26086f85de6aa9fc96f5fbc3724a6ab3023269115499f9d95e7a997f0ecd49b2",
+      "sha256": "5755c2f35b998bc4400124ade023d6b15529ec62914273dc8056a967ef5709f4",
       "title_zh": "人字之跃 · 三维示意场景脚本",
       "title_en": "Ren-Shaped Leap — 3D sketch scene",
       "description_zh": "以断面 ZZY-1/ZZY-2 设计目标值搭建的本地三维示意（抬升6.0m、桥面9m、栏板1.4m、并排坡道62m×2、单侧占地66×9m）；概念示意，未经坐标配准。",
