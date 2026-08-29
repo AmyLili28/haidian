@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "766d1b30cf0153f0616c4f5a7d87d069ee504e5fdd8c88a4df7c840125096acc"
+      "sha256": "681f74afd565075eea085d8882ee4d6a3abe2de905b0c296d46ab5aac4eac96f"
     },
     {
       "path": "compliance_matrix.json",
@@ -118,21 +118,21 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "3fd0ce319a0be08e81ba6e28c72a3681a36bf306b07dcd328b067076633bbd1f"
+      "sha256": "85e852cfc16c25501ea29c3cb226901485ea6eb23203d327517d78b8520b9358"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "bd263e77db8cf7507915926b6c2fcff1e4474ba60ffa6079023b3bd0894f4f46"
+      "sha256": "063006b9c3c43156e7f192215186c8001c3afb6792f946c8624cc08e2b82acbb"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "e954098fd06b5489904518144da02c4f744f521468c183502f4711d3c58e9e21"
+      "sha256": "e5a34f9ff470aff293ba8cadb28da72ba02b4490717cb8f5608353ea6cb68869"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -245,7 +245,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "e8e3003f1c1d6c9102772e8fecb37f7cebb2e947a0d3b3acb70928e3aecd5a67"
+      "sha256": "bb5ab58be33d96b25045a15ef11519b30b3859023f2c0a24d51c9b3ce70d4bdf"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -253,7 +253,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "2ce05bea736c63082586e0921cc6859879e1f648c5bc4e5908ea884b16e97686"
+      "sha256": "5d84671b0f3146ba75fe85a115a731694978c38c0b58b5d580a8b4d6031bf7bc"
     },
     {
       "path": "visual/index.en.html",
@@ -261,7 +261,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "bb3274f35260fb92c64c5ba580de0c58765b0666519287006bf39b1ccb936546"
+      "sha256": "bc4df9990927821cc7f6bc65e2f115e2670b0e24d1955e9ed262a2fa31e9845b"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -660,8 +660,8 @@
       "sha256": "5bf84f4bb90c888df54e50ad374d5957c9baa146be4d750c29b1475876657ec8",
       "title_zh": "《百年应答》概念方案短片",
       "title_en": "The Century Answer — Concept Film",
-      "description_zh": "55 秒静音概念短片：片头提出 1909 年之问，随后依次走过道钉带、南问·鸣钟之门、中答·应答原点、北跃·人字之跃、东西向穿越·应答门五个片段，片尾落回“市民蹲下来数道钉”。画面由 AI 生成（图生视频与静帧推镜），为概念意象示意——非实景照片、非工程效果图、非官方审定成果。人字之跃段已按断面 ZZY-1/ZZY-2 口径绘制（桥面平直、无上部构筑物、两端并排折返坡道）；现存三处已声明差异：道钉带段铜道钉位于步道中部（正文口径为步道边缘），以及鸣钟之门段字幕写「完成备案或 IPO」（正文口径为达成可公开核验的里程碑事件，事件类型开放）。",
-      "description_en": "A 55-second silent concept film. The opening card poses the 1909 question; five segments walk the belt — the Rail-Spike Band, the Ringing Bell in the south, the Answer Origin at the centre, the Ren-Shaped Leap in the north, and the east-west Answer Gates — before the closing card returns to citizens crouching to count the spikes. The imagery is AI-generated (image-to-video and still push-ins), conceptual in intent: not photographs, not engineering renderings, not an officially approved result. The Ren-Shaped Leap segment now follows sections ZZY-1/ZZY-2 (flat deck, nothing above it, paired switchback ramps); three declared divergences remain: the spike position — mid-path in the film, at the walkway edge in the body text — and the Ringing Bell subtitle, which says “completes registration or lists” where the body text binds ringing to any publicly verifiable milestone.",
+      "description_zh": "55 秒静音概念短片：片头提出 1909 年之问，随后依次走过道钉带、南问·鸣钟之门、中答·应答原点、北跃·人字之跃、东西向穿越·应答门五个片段，片尾落回“市民蹲下来数道钉”。画面由 AI 生成（图生视频与静帧推镜），为概念意象示意——非实景照片、非工程效果图、非官方审定成果。人字之跃段已按断面 ZZY-1/ZZY-2 口径绘制（桥面平直、无上部构筑物、两端并排折返坡道）；片中表达与正文口径的已声明差异，逐条见 `assets/media/narrative-transcript.md` 的「已知形式差异」一节，该文件是这份清单的唯一权威来源。",
+      "description_en": "A 55-second silent concept film. The opening card poses the 1909 question; five segments walk the belt — the Rail-Spike Band, the Ringing Bell in the south, the Answer Origin at the centre, the Ren-Shaped Leap in the north, and the east-west Answer Gates — before the closing card returns to citizens crouching to count the spikes. The imagery is AI-generated (image-to-video and still push-ins), conceptual in intent: not photographs, not engineering renderings, not an officially approved result. The Ren-Shaped Leap segment now follows sections ZZY-1/ZZY-2 (flat deck, nothing above it, paired switchback ramps); the declared divergences between the film and the body text are listed one by one in the “known formal divergences” section of `assets/media/narrative-transcript.md`, which is the sole authority for that list.",
       "poster": "assets/media/narrative-poster.jpg",
       "caption": "assets/media/narrative.vtt",
       "transcript": "assets/media/narrative-transcript.md"
