@@ -18,6 +18,9 @@
       "changelog_files": [],
       "changed_files": [
         "submissions/ziqinickhan/jingzhang-common-time/agent.json",
+        "submissions/ziqinickhan/jingzhang-common-time/assets/figures/ai-origin-everyday-v2.png",
+        "submissions/ziqinickhan/jingzhang-common-time/assets/figures/common-time-spine-perspective-v2.png",
+        "submissions/ziqinickhan/jingzhang-common-time/assets/figures/dazhongsi-exchange-v2.png",
         "submissions/ziqinickhan/jingzhang-common-time/assets/figures/key-areas.en.png",
         "submissions/ziqinickhan/jingzhang-common-time/assets/figures/key-areas.png",
         "submissions/ziqinickhan/jingzhang-common-time/assets/figures/land-use-structure.en.png",
@@ -28,6 +31,7 @@
         "submissions/ziqinickhan/jingzhang-common-time/assets/figures/mobility-bluegreen.png",
         "submissions/ziqinickhan/jingzhang-common-time/assets/figures/site-overview.en.png",
         "submissions/ziqinickhan/jingzhang-common-time/assets/figures/site-overview.png",
+        "submissions/ziqinickhan/jingzhang-common-time/assets/figures/zhongzhiyuan-prototype-v2.png",
         "submissions/ziqinickhan/jingzhang-common-time/assumptions.json",
         "submissions/ziqinickhan/jingzhang-common-time/compliance_matrix.json",
         "submissions/ziqinickhan/jingzhang-common-time/design_depth_matrix.json",
@@ -61,7 +65,7 @@
       "ai_package_stages": {
         "submissions/ziqinickhan/jingzhang-common-time": "formal"
       },
-      "total_bytes": 2687144,
+      "total_bytes": 16130020,
       "maintainer_bypass": false
     },
     "stderr": ""
