@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "21227701478ae758b43e3faf1504e3f3bbd330afce92f09be6c5f89f47b3f471"
+      "sha256": "e007554bed5f7c60ef4c83a87222d16c69b8cab4be4a35c2d38385a60660c4dd"
     },
     {
       "path": "compliance_matrix.json",
@@ -107,7 +107,7 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "c408ae730c104506921b7d9dd30161b353d2809e23b07c48644cef8320d74335"
+      "sha256": "6fcb16c2353491f7a730a946ee7dfad14a3ef0d545f88dfaed2a02043d603fd1"
     },
     {
       "path": "visual/index.html",
@@ -235,7 +235,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "e9e7d1dbc045009dc21ce8fed958a3d7a6527fed5a502334bc564cf2581e773f"
+      "sha256": "5d75118e408276fe019a358ef2c10fc6f2476b0bac0e5d2a021fcda2436c028c"
     },
     {
       "path": "visual/index.en.html",
