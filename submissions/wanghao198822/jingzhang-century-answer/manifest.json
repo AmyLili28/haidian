@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "cd73659b2b1f8d7770d59853dacd552b94d230b933dfb7273d4f0c48e6de0d41"
+      "sha256": "9c1d512d551513cf2e182b315eda75f537a3a1767ca0ed401ea9c69764790c86"
     },
     {
       "path": "agent.json",
@@ -56,13 +56,13 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "0dd3da524dada71b0a09caa96269c0c7bbd4e1cc74778779f5d619e23778c458"
+      "sha256": "4691becc1fc98fdd6e5623b9b75fe0b52e9c26eb5e7d725b8c0280f2e2ba36f8"
     },
     {
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "8ee32a7ff3a8fc65285a28c129f88f1ff531a4f7d342779a0214a4d1b2f28885"
+      "sha256": "464f944e51cd24a56eab6323af628e842f39cfb1a833148c7e1043f573b921c1"
     },
     {
       "path": "standard_matrix.json",
@@ -99,7 +99,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "52fbf5e375f3927beb11e27b7ffd3682d88cd3a3bec94ef89cc34f80ba92f663"
+      "sha256": "2d443075501a79cf30994f356c933826483a1700f44e561ab109abe1b56a047d"
     },
     {
       "path": "report/narrative.md",
@@ -118,21 +118,21 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "ca7e2ad23fee26e8d68077ba05aa7162d1c30d79365c6319f0691f29a8987e1a"
+      "sha256": "056079388c11c1ed09f94f1c6dc9e98a3dd999418c77d7707394fa2e67f95bee"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "182c07ac87314c226f5e6a17ea7c7f4e7b515bec2d41942baf1d65c4dabe86c7"
+      "sha256": "841b7afa1df14362fa75f573de0f8acc835477136b9ab116d7b4f686b83bc0a3"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "1271b1a5a58792310bb16953d0d53387404267847854a8ffcebae6534a69242a"
+      "sha256": "5c708b6ec73eec221d3850cbad79bee356f49d5c8da5a3ec946cf5a04b111eab"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -229,7 +229,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "3bf591edf5afdd84da95afc30adebcbe56d9e6f03bc0229da9074d57d3cceece"
+      "sha256": "bf124e1589826cbe27203e9566a57379b6b85d0999bb999e941591a420e08e4c"
     },
     {
       "path": "report/proposal.en.html",
@@ -237,7 +237,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "678ad62bbff759efc5a90d1126c9dc650a6d8873c753748467438d575d5a784d"
+      "sha256": "775be9f5eeec1970bbd4673655eec63ea8f4d0efeb8a8f9ebe5c510ac850591d"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -245,7 +245,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "4c1f7a3841bd31d4b17d3107f32718afd46cad87a58bb3f5089eab05d56d362f"
+      "sha256": "a478ecc69668eb225714ff0d1f1fd9d5628beadabde7219997904a0114a0d410"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -253,7 +253,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "ae70ac2b326b707c63b2f18aea5eb322d4f03d5e6affe7e15df204924bf844a4"
+      "sha256": "adfa429cc714a19bf798a59dbb5e7692e180dede16ec7ca9a52f2e4f089c3b8a"
     },
     {
       "path": "visual/index.en.html",
@@ -261,7 +261,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "c8dad9200f5ea025db1ef96cddbf0150f7cb888a852317efe206fc0a5104637b"
+      "sha256": "e8b5dea8292c878c6c903957fb6ecce7c2c90b7a02a18f6d2c65b9e391cb7a2a"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -692,7 +692,7 @@
       "path": "assets/media/narrative-transcript.md",
       "role": "transcript",
       "required": false,
-      "sha256": "c5fd497ae47fa05d3fe61921d9b338ce165f2cde0aef570a215afe38b18311fb",
+      "sha256": "390fa77975104275ab945cf991b6db98b5213e5c422fce496015802fdce7ace4",
       "title_zh": "短片完整文字稿",
       "title_en": "Concept Film Full Transcript",
       "description_zh": "短片全部叙述内容的文字稿，供无法播放视频时完整获取。",
@@ -713,7 +713,7 @@
       "path": "assets/media/answer-bell-transcript.md",
       "role": "transcript",
       "required": false,
-      "sha256": "2bdf45bc9ad42dd8f9a799ea626896c8ce81c33b903d640661bfd902967a9dfb",
+      "sha256": "6164535629d1d5264e7e29f6ec125d35b72e4a70000ef162e36e8283f3678631",
       "title_zh": "应答钟音频内容说明",
       "title_en": "Answer Bell Audio Description",
       "description_zh": "音频的生成方式、用途与合规边界说明。",
