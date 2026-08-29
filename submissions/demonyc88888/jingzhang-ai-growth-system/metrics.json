@@ -81,12 +81,13 @@
       "value": 43600000,
       "unit": "sqm",
       "source_files": [
-        "sources.json"
+        "proposal.md",
+        "visual/index.html"
       ],
       "formula": "official announcement stated coordinated research area, approximate",
       "confidence": "medium",
       "assumptions": [
-        "Approximate public announcement area, not recalculated from submitted geometry."
+        "Concept-stage value for narrative and visual presentation; not an official approval or commitment."
       ]
     },
     "key_area_total_sqm": {
@@ -94,12 +95,13 @@
       "value": 3684000,
       "unit": "sqm",
       "source_files": [
-        "geometry/key_areas.geojson"
+        "proposal.md",
+        "visual/index.html"
       ],
-      "formula": "sum(official stated approximate key-area hectares)",
+      "formula": "sum of official stated approximate key-area hectares",
       "confidence": "medium",
       "assumptions": [
-        "Approximate public announcement area; provisional polygons remain non-authoritative."
+        "Concept-stage value for narrative and visual presentation; not an official approval or commitment."
       ]
     },
     "ai_scenario_count": {
@@ -112,7 +114,9 @@
       ],
       "formula": "count(submitted AI+ scenario cards)",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Concept-stage value for narrative and visual presentation; not an official approval or commitment."
+      ]
     }
   }
 }

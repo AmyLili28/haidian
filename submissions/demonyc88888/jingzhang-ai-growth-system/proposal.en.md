@@ -1,92 +1,94 @@
 ---
-title: "Intelligence Grown From Place: Centennial Jing-Zhang Urban AI Growth System"
+title: "Place-Grown Intelligence: Centennial Jing-Zhang Urban AI Growth System"
 author_github: "demonyc88888"
 language: "en"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "A formal AI urban design package that uses the Jing-Zhang Railway Heritage Park and three AI focus areas as a public innovation framework, while preserving provisional-boundary caveats and future recalculation requirements."
+summary: "An urban AI growth system that grows intelligence from local problems, using the Jing-Zhang Heritage Park, three AI focus areas, and a public AI return mechanism as a traceable, recalculable, and governable design framework."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
 ---
 
-# Intelligence Grown From Place: Centennial Jing-Zhang Urban AI Growth System
+# Place-Grown Intelligence: Centennial Jing-Zhang Urban AI Growth System
 
 ## Design Basis and Source List
 
-This proposal responds to the Centennial Jing-Zhang AI Innovation Belt open call as a professional design package for an AI agent submission. It uses the official announcement, the agent taskbook, the site package, the repository source registry, and the processed fact pack as its evidence base [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK] [source:SOURCE-REGISTRY]. The submitted boundary and key-area polygons remain provisional constraints, not official redlines or statutory planning approvals [data:geometry/site_boundary.geojson#SITE-001] [data:geometry/key_areas.geojson#PROV-KEY-001].
+This proposal uses the official announcement, the agent taskbook, the site package, the source registry, and the processed fact pack as its evidence base [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK] [source:SOURCE-REGISTRY]. The current boundary is the provisional boundary supplied through the official repository. It supports generation, review, and discussion, but is not an official redline, approval basis, or precise-area basis [data:geometry/site_boundary.geojson#SITE-001].
 
-The package therefore treats every spatial, investment, phasing, and operating statement as a concept recommendation that can be reviewed by professional teams and recalculated when official polygons and control-plan data are released. Complete source coverage is held in `sources.json`; metrics are held in `metrics.json`; task response is held in `compliance_matrix.json`; professional standards are held in `standard_matrix.json`; and design-depth evidence is held in `design_depth_matrix.json`.
+The core position is simple: grow AI intelligence from local urban problems, so the city becomes intelligent because it is grounded in place. This is not a one-time technology exhibition corridor. It is a traceable, reviewable, human-takeover-ready, and sustainable urban AI growth system that connects community problems, Haidian innovation capacity, public-space validation, and industrial conversion.
 
-![Evidence chain and package logic](assets/figures/site-overview.en.png)
+![Site overview and concept](assets/figures/site-overview.en.png)
 
 ## Three-Level Scope Framework
 
-The proposal follows the three official work scopes. The coordinated research area reads the wider 43.6 sq km innovation system, universities, research institutes, enterprises, communities, stations, and public-service resources. The overall design area organizes the 11.4 sq km Jing-Zhang corridor and nearby urban renewal districts. The detailed key areas focus on Zhongzhi Park AI Acceleration Area, Beijing AI Origin Community, and Dazhongsi AI Industry Cluster [standard:PROJECT-OFFICIAL-ANNOUNCEMENT].
+The three scope levels carry different responsibilities. The coordinated research area studies the AI industrial ecosystem, future urban form, talent attraction, and international activities. The overall design area translates the corridor around the Jing-Zhang Railway Heritage Park into urban renewal, mobility, municipal support, public space, and character strategies. The detailed key areas test whether Zhongzhi Park, the AI Origin Community, and Dazhongsi can reach detailed design depth [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework].
 
-The design concept is a place-grown AI growth system. The Jing-Zhang Railway Heritage Park becomes the public validation spine; Zhongzhi Park becomes the full-stack AI testing and standardization anchor; the AI Origin Community becomes the near-campus problem-discovery and incubation anchor; and Dazhongsi becomes the productization, service, and international exchange gateway. The framework is intentionally reversible: AI services enter public space through admission, testing, operation, feedback, and retirement rules instead of being treated as permanent urban fixtures.
+The design is organized as one urban AI growth chain: origin intake, Zhongzhi development, river-park validation, and Dazhongsi conversion. Residents, young people, visitors, enterprises, and operators raise real problems through staffed desks, co-creation tables, and public terminals. Research teams and enterprises turn those problems into prototypes and pass rights, data, safety, human-takeover, and exit-condition review. Xiaoyue River and the heritage park provide parallel real-world environments. Validated projects then enter either public continuation or commercial scaling.
 
-![Three-level spatial framework](assets/figures/land-use-structure.en.png)
+![Land use and spatial structure](assets/figures/land-use-structure.en.png)
 
 ## Coordinated Research Area: Industry and Future City Research
 
-The coordinated research area is organized as an innovation chain rather than a single development zone. Universities and research institutes generate problems and talent; Zhongguancun enterprises translate tools into services; public spaces provide real urban validation; communities and visitors provide demand and feedback; and international events convert verified services into broader cooperation. This creates a civic AI loop from problem discovery to governed deployment and back to urban-service renewal.
+The coordinated research area is not another closed industrial park boundary. It is an innovation chain that connects university sources, open collaboration, enterprise conversion, public experience, and international communication. The AI Origin Community receives problems; Zhongzhi Park makes technology reliable; Xiaoyue River and the Jing-Zhang Railway Heritage Park validate services in real scenes; Dazhongsi classifies public and commercial conversion; and a compliant public AI return mechanism supports the next round of public-service renewal.
 
-The future-city position is not a technology slogan. AI is mapped to walkability, public-service response, inclusive access, low-carbon operations, heritage interpretation, enterprise services, and governance review. Each scenario needs a physical host, a responsible operator, an admission rule, a data-rights boundary, and a stop condition. The proposal therefore treats the city as a governed testing ground where residents, enterprises, and public institutions can see how AI creates value and how risks are controlled.
+The future-city idea is not to fill nine kilometers with AI devices. It layers five functional systems onto the existing city: a continuous public framework, a river-park public validation belt, short loops around communities, campuses, and industry, three AI focus areas, and the Zhongguancun technology service network. These systems translate AI capacity into space, service, responsibility, and operating rules [depth:overall_spatial_structure].
 
 ## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
 
-The overall design area uses a blue-green public spine, station-linked service nodes, and three AI anchors to structure renewal. The land-use layer proposes a balanced system of research and innovation functions, public green space, public service, commercial service, and mixed urban support functions [data:geometry/land_use.geojson#LU-001] [metric:site_area_sqm]. Building, road, green-space, public-space, and phasing layers provide the machine-readable basis for recalculation and later professional refinement.
+The overall design area follows a low-disturbance renewal strategy. Reuse existing stations, roads, open spaces, and adaptable buildings first. Start with markings, wayfinding, movable facilities, active ground floors, and small public-space repairs. Scenario equipment must be replaceable and removable, and failed pilots must return the place to normal public use. Land use, buildings, roads, green space, public space, and phasing are expressed as GeoJSON so metrics can be recalculated [data:geometry/land_use.geojson#LU-001] [data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm].
 
-The proposal does not claim final FAR, height, road redline, demolition, municipal engineering, or implementation approvals. Those items remain pending official control-plan conditions and professional verification. The submission gives a reviewable design direction: strengthen east-west crossings, make the heritage park a continuous civic interface, attach AI service spaces to existing daily routes, and use open public places to test services before they enter more sensitive operational settings.
+The first condition for transport and municipal support is not screens or algorithms, but real access, maintenance, and human takeover. The proposal uses two north-south systems: fast connection and continuous walking experience. AI infrastructure is split into four layers: physical connection, digital platform, trusted governance, and continuous operations. Road redlines, tunnels, pipelines, building height, FAR, and investment approvals remain concept recommendations until official planning and engineering information is available.
 
 ## Detailed Design of Key Areas
 
-Zhongzhi Park AI Acceleration Area is positioned as the full-stack self-innovation and validation anchor. It hosts open testing yards, standards workshops, model and device demonstration interfaces, safety review rooms, and low-carbon public spaces. The design emphasis is on visible validation: visitors and professionals can understand what is being tested, who is responsible, and what evidence allows a service to move forward.
+The three key areas are not isolated districts. They are three responsibility nodes in the same urban AI growth chain [data:geometry/key_areas.geojson#PROV-KEY-001] [data:geometry/key_areas.geojson#PROV-KEY-002] [data:geometry/key_areas.geojson#PROV-KEY-003] [depth:three_key_area_detailed_design].
 
-Beijing AI Origin Community is positioned as the problem-origin and near-campus incubation anchor. It links universities, communities, small enterprises, shared workspaces, and daily public services. The core spatial task is to convert real urban problems into testable briefs, connect students and researchers with community demand, and support early prototypes without overstating approval or implementation certainty.
+Zhongzhi Park AI Acceleration Area is responsible for technical reliability and governance admission. Its sequence includes research rooms, controlled testing courtyards, public observation corridors, governance review rooms, and maintenance back-of-house. First actions include a shared governance sandbox, embodied-device and terminal testing yards, and a public testing corridor.
 
-Dazhongsi AI Industry Cluster is positioned as the productization and exchange gateway. It combines enterprise service, smart terminal testing, data and content service, transit-oriented renewal, and public-facing experience spaces. The detailed design should improve walking links around Dazhongsi Station and the four surrounding quadrants while keeping traffic, ownership, accessibility, and engineering feasibility subject to later professional review.
+Beijing AI Origin Community is responsible for real-problem intake and youth co-creation. Its sequence includes street entries, staffed desks, co-creation tables, prototype workshops, community review rooms, and daily-life pilots. Participation must not require payment, expert vocabulary, or excessive personal data. Offline staffed access remains necessary.
 
-![Key-area index](assets/figures/key-areas.en.png)
+Dazhongsi AI Industry Cluster is responsible for productization, commercial classification, and international exchange. Its sequence includes a metro gateway, four-quadrant walking repair, movable service points, active ground-floor validation halls, shared enterprise services, international exchange, and operations back-of-house. The main site remains a conditional candidate, not a claim of space, approval, investment, or enterprise commitment.
+
+![Key-area design tasks](assets/figures/key-areas.en.png)
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
-The proposal uses five primary user groups: researchers and engineers, entrepreneurs and enterprise teams, residents and families, visitors and heritage learners, and public managers or service operators. Each group is connected to specific spatial scenes, such as urban problem desks, youth prototype workshops, accessible walking assistance, ecological co-management, memory co-creation, night service support, terminal testing streets, governance sandboxes, enterprise deployment rooms, and public-operations feedback stations.
+Twelve scenarios turn AI from a concept into verifiable urban services. Public intake and co-creation include SC-01 Urban Problem Desk and SC-02 Youth One-Day Prototype Workshop. Public-space and daily-service scenarios include SC-03 Accessible Walking Detour, SC-04 Xiaoyue River Ecological Co-Management, and SC-06 Night Safety and Human Assistance. Culture and content include SC-05 Jing-Zhang Memory Co-Creation Station and SC-11 AI Content and Copyright Lab. Industry testing includes SC-07 Embodied Device Shared-Route Testing Yard, SC-08 Trusted Agent Governance Sandbox, SC-09 Smart Terminal Public Testing Street, and SC-10 Enterprise Agent Deployment Desk. Long-term operation is SC-12 Public AI Operations and Feedback Room [metric:ai_scenario_count].
 
-These scenarios are not decorative illustrations. They are operating units with inputs, outputs, rights boundaries, and review points. At least three scenarios are industry testing environments, including smart terminal testing, enterprise deployment, and governance sandbox review. The public-facing scenes support inclusion, explainability, and cultural experience; the enterprise-facing scenes support conversion, standards, and operational evidence.
-
-![Mobility and blue-green scenario network](assets/figures/mobility-bluegreen.en.png)
+Every scenario must answer who uses it, what data it collects, who is responsible, how it stops, how humans take over, and how the place recovers after failure. The four validation dimensions are public value, community acceptance, technical effect, and operational feasibility.
 
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
-Land use is expressed as a concept structure that can be recalculated from submitted geometry. It organizes research innovation, green public space, public service, commercial service, and mixed support functions around the corridor and three anchors. Building footprint metrics are included as design evidence, while final building scale, FAR, height, demolition, retention, and renovation decisions remain subject to official control-plan conditions and professional surveys [metric:building_footprint_area_sqm].
-
-The retain-renovate-demolish strategy follows a conservative rule. Existing public assets, heritage-related spaces, mature community services, and adaptable industrial buildings should be retained or lightly upgraded first. Demolition or major redevelopment should only be considered where safety, access, environmental quality, public benefit, and implementation feasibility are confirmed by professional teams.
+Land use expresses five overlapping functional systems, not statutory parcel approval. The building strategy retains and lightly upgrades useful existing assets first, opens ground-floor public interfaces first, and tests services with movable facilities before heavier engineering decisions. FAR and other statutory intensity controls remain unknown where official control-plan data are unavailable.
 
 ## Transport, Rail, Municipal Infrastructure, and Public Services
 
-The mobility proposal connects rail stations, university edges, community entrances, enterprise campuses, public-service nodes, Xiaoyue River, and the Jing-Zhang Railway Heritage Park. It emphasizes walkable crossings, slow-mobility continuity, accessible detours, visitor routes, and station-area service anchors. Municipal and digital infrastructure are described as enabling systems rather than final engineering designs: distributed energy, sensing, edge-computing, data governance, and public-service interfaces all require later engineering verification.
+The mobility system is built around real access: rail connection, continuous walking, accessible detours, low-speed device testing, night assistance, and event-day traffic organization. Municipal and digital systems support maintenance and takeover: fiber and wireless links, power supply, edge nodes, mounting points, operational sensing, service passages, scenario passports, identity permissions, data catalogs, model versions, logs, and emergency stop rules.
+
+![Mobility and blue-green public space](assets/figures/mobility-bluegreen.en.png)
 
 ## Blue-Green Network, Public Space, and Urban Character
 
-The blue-green network turns the heritage park and river corridors into a continuous public testing and cultural experience interface. Green ratio and public-space ratio are calculated from submitted geometry and should be recalculated when official boundaries are available [metric:green_ratio] [metric:public_space_ratio]. Urban character should combine Jing-Zhang railway memory, Zhongguancun innovation culture, and AI-native public service. This means clear public signage, visible governance interfaces, low-disturbance heritage interpretation, and spaces that remain useful even when a specific AI service is removed.
+Xiaoyue River and the Jing-Zhang Railway Heritage Park form parallel real-world validation environments. Xiaoyue River focuses on ecological, health, everyday-life, accessibility, and public-service AI. The heritage park focuses on culture, social interaction, youth activities, city display, and public participation. Green ratio and public-space ratio are recalculated from submitted geometry and must be recalculated when official boundaries are available [metric:green_ratio] [metric:public_space_ratio].
+
+Urban character extends the engineering spirit of the centennial railway into a trustworthy AI city image. Three functional landmarks are proposed: a public testing corridor, an urban problem wall with prototype tables, and an AI product launch and public-value hall.
 
 ## Renewal Projects, Implementation Policy, and Phasing
 
-Phasing is proposed as a reviewable sequence: first prepare evidence, public communication, and reversible pilots; then open priority public-space and station-area scenarios; then expand validated enterprise and public-service applications; finally maintain a long-term feedback, audit, and retirement mechanism. Policy suggestions are written as references for professional teams and public agencies, not as confirmed government commitments.
+Implementation follows low-disturbance testing, professional deepening, and graded expansion. Early actions focus on wayfinding, active ground floors, movable facilities, problem intake, governance sandboxes, and small public-service pilots. Mid-term work expands industrial and public scenarios around the three key areas. Long-term operation uses audit, public feedback, and professional assessment to retain, expand, pause, or retire services. All policy, funding, and event proposals are concept recommendations.
 
 ## Metrics, Area Recalculation, and Compliance Matrix
 
-The package includes machine-readable metrics for site area, building footprint area, green ratio, public-space ratio, key-area count, and unknown items such as FAR where public official data are insufficient [metric:site_area_sqm] [metric:key_area_count]. Compliance with the official announcement and the six agent tasks is mapped in `compliance_matrix.json`. Professional standard coverage is mapped in `standard_matrix.json`, and design depth is mapped in `design_depth_matrix.json`.
+The submission must prove that drawings, metrics, sources, assumptions, bilingual files, copyright statements, and self-check results align. Recalculated metrics include site area, green ratio, public-space ratio, building footprint area, and key-area count [metric:site_area_sqm] [metric:key_area_count]. Technical and economic metrics are expressed as concept-stage ranges: one-time investment is about RMB 117-405 million, and annual operations are about RMB 35-125 million per year. Enterprise R&D, dedicated equipment, office fit-out, and commercial promotion are listed separately and are not claimed as government or project-owner commitments.
 
-![Metrics and revenue-return loop](assets/figures/metrics-evidence.en.png)
+![Metrics and compliance response](assets/figures/metrics-evidence.en.png)
 
 ## Risk, Copyright, and Compliance
 
-The main risks are provisional boundary precision, missing official control-plan indicators, incomplete ownership and engineering conditions, generated-media interpretability, and future consistency between translated artifacts. All visual material is used as explanation, not as legal boundary or implementation evidence. The package must pass manifest validation, self-check, and participant preflight before upload.
+Current missing data include official redline, official key-area polygons, road redlines, regulatory indicators, building height, ownership, heritage controls, municipal pipelines, traffic sections, site flow counts, and real community research. Related conclusions are marked as provisional, hypothesis, unknown, or concept recommendation, with recalculation triggers after official data are supplied. Copyright, toolchain, and community display permissions are recorded in `report/copyright_statement.md`.
 
 ## References
 
-Key references are listed in `sources.json`, including the official announcement, the agent taskbook, the site package, the source registry, the processed fact pack, the provisional boundary file, and submitted geometry. The proposal text intentionally keeps only direct evidence markers near claims; the full audit trail remains in the machine-readable files.
+References are recorded in `sources.json`, including the official announcement, agent taskbook, site package, source registry, processed fact pack, provisional boundaries, and submitted structured geometry and metrics.

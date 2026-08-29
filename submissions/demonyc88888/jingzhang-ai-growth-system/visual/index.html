@@ -1,16 +1,1409 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>因地而智：百年京张城市AI生长系统</title>
-<style>
-body{margin:0;font-family:Arial,'Microsoft YaHei',sans-serif;background:#f6f3ec;color:#17201b;letter-spacing:0}main{max-width:1180px;margin:auto;padding:32px 20px 56px}header{padding:34px 0 20px;border-bottom:1px solid #d8ddd5}h1{font-size:42px;line-height:1.1;margin:0 0 12px}p{font-size:16px;line-height:1.65;color:#3d4942}.nav,.metrics{display:grid;gap:10px;margin:22px 0}.nav{grid-template-columns:repeat(6,1fr)}.nav span{padding:10px 12px;background:white;border:1px solid #d8ddd5;border-radius:6px;text-align:center;font-weight:700}.metrics{grid-template-columns:repeat(5,1fr)}.metric{background:white;border:1px solid #d8ddd5;border-radius:6px;padding:14px}.metric b{display:block;font-size:24px;color:#315f7d}.metric span{font-size:13px;color:#5f6b64}.figures{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:24px}figure{margin:0;background:white;border:1px solid #d8ddd5;border-radius:6px;padding:10px}figure:first-child{grid-column:1/-1}img{display:block;width:100%;height:auto}figcaption{font-size:13px;color:#5f6b64;margin-top:8px}@media(max-width:760px){h1{font-size:30px}.nav,.metrics,.figures{grid-template-columns:1fr}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>因地而智:百年京张城市AI生长系统｜可视化展示</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17201b;
+      --muted: #5f6b64;
+      --line: #d8ddd5;
+      --paper: #f6f3ec;
+      --panel: #ffffff;
+      --rail: #315f7d;
+      --signal: #b76438;
+      --shadow: 0 18px 46px rgba(23, 32, 27, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", Arial, sans-serif;
+      letter-spacing: 0;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .hero-night {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      min-height: 620px;
+      overflow: hidden;
+      background: #061016;
+    }
+
+    .hero-night img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      display: block;
+    }
+
+    .scroll-cue {
+      position: absolute;
+      left: 50%;
+      bottom: 18px;
+      transform: translateX(-50%);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 112px;
+      height: 34px;
+      padding: 0 14px;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 999px;
+      background: rgba(6, 16, 22, 0.42);
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 12px;
+      text-decoration: none;
+      backdrop-filter: blur(8px);
+    }
+
+    .metrics-section {
+      padding: 56px 32px 68px;
+      background: var(--paper);
+    }
+
+    .metrics-wrap {
+      width: min(1240px, 100%);
+      margin: 0 auto;
+    }
+
+    .section-kicker {
+      margin: 0 0 10px;
+      color: var(--rail);
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .section-title {
+      margin: 0;
+      max-width: 860px;
+      font-size: clamp(30px, 4vw, 54px);
+      line-height: 1.08;
+      font-weight: 800;
+    }
+
+    .section-intro {
+      margin: 16px 0 0;
+      max-width: 880px;
+      color: #3d4942;
+      font-size: 18px;
+      line-height: 1.65;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .metric-card {
+      min-height: 168px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .metric-card .label {
+      min-height: 42px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .metric-card .value {
+      margin-top: 14px;
+      color: var(--ink);
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .metric-card .note {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .support-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .chain-panel,
+    .boundary-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.76);
+      box-shadow: 0 10px 26px rgba(23, 32, 27, 0.06);
+    }
+
+    .chain-panel {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 0;
+      overflow: hidden;
+    }
+
+    .chain-step {
+      min-height: 112px;
+      padding: 16px 14px;
+      border-right: 1px solid var(--line);
+    }
+
+    .chain-step:last-child {
+      border-right: 0;
+    }
+
+    .chain-step b {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--ink);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .chain-step span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .boundary-panel {
+      padding: 16px 18px;
+      border-left: 4px solid var(--signal);
+    }
+
+    .boundary-panel h2 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    .boundary-panel p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.65;
+    }
+
+    .status-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+    }
+
+    .status-pill {
+      padding: 8px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.82);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.2;
+    }
+
+    .status-pill strong {
+      color: var(--ink);
+    }
+
+    .day-section {
+      padding: 0 32px 76px;
+      background: var(--paper);
+    }
+
+    .day-wrap {
+      width: min(1240px, 100%);
+      margin: 0 auto;
+    }
+
+    .day-figure {
+      position: relative;
+      margin: 0;
+      overflow: hidden;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #dde6dc;
+      box-shadow: var(--shadow);
+    }
+
+    .day-figure img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      display: block;
+    }
+
+    .day-caption {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 18px;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 13px 16px;
+      border: 1px solid rgba(255, 255, 255, 0.46);
+      border-radius: 8px;
+      background: rgba(16, 28, 22, 0.72);
+      color: #fff;
+      backdrop-filter: blur(8px);
+    }
+
+    .day-caption strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .day-caption span {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .scope-header {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 28px;
+      align-items: end;
+      margin-top: 42px;
+    }
+
+    .scope-header p {
+      margin: 0;
+      color: #3d4942;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    .scope-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .scope-card {
+      min-height: 278px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 12px 30px rgba(23, 32, 27, 0.07);
+    }
+
+    .scope-card .index {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      margin-bottom: 16px;
+      border-radius: 50%;
+      background: #ecf1ec;
+      color: var(--rail);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .scope-card h3 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    .scope-card .area {
+      margin: 8px 0 16px;
+      color: var(--signal);
+      font-size: 15px;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .scope-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .scope-card .limit {
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      color: #7a6650;
+    }
+
+    .scope-note {
+      margin: 22px 0 0;
+      padding: 16px 18px;
+      border-left: 4px solid var(--rail);
+      border-radius: 0 8px 8px 0;
+      background: rgba(255, 255, 255, 0.62);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .content-section {
+      padding: 0 32px 76px;
+      background: var(--paper);
+    }
+
+    .content-wrap {
+      width: min(1240px, 100%);
+      margin: 0 auto;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.84fr) minmax(0, 1.16fr);
+      gap: 28px;
+      align-items: end;
+      margin-bottom: 24px;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: #3d4942;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    .figure-panel {
+      margin: 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+      box-shadow: var(--shadow);
+    }
+
+    .figure-panel img {
+      width: 100%;
+      display: block;
+    }
+
+    .figure-panel figcaption {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 14px 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .figure-panel figcaption strong {
+      color: var(--ink);
+    }
+
+    .framework-grid,
+    .node-copy-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .brief-card {
+      min-height: 168px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 10px 26px rgba(23, 32, 27, 0.06);
+    }
+
+    .brief-card .tag {
+      display: inline-block;
+      margin-bottom: 12px;
+      color: var(--signal);
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .brief-card h3 {
+      margin: 0 0 10px;
+      font-size: 21px;
+      line-height: 1.25;
+    }
+
+    .brief-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .render-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+
+    .render-card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .render-card img {
+      width: 100%;
+      height: min(76vh, 820px);
+      min-height: 560px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .render-card .caption {
+      min-height: 104px;
+      padding: 18px 20px 20px;
+    }
+
+    .render-card h3 {
+      margin: 0 0 8px;
+      font-size: 21px;
+      line-height: 1.3;
+    }
+
+    .render-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .persona-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .persona-card {
+      min-height: 176px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 10px 26px rgba(23, 32, 27, 0.06);
+    }
+
+    .persona-card .persona-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      margin-bottom: 12px;
+      border-radius: 50%;
+      background: #edf3f0;
+      color: var(--rail);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .persona-card h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      line-height: 1.28;
+    }
+
+    .persona-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .scene-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .scene-card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 10px 26px rgba(23, 32, 27, 0.06);
+    }
+
+    .scene-card img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      display: block;
+      background: #dfe7df;
+    }
+
+    .scene-card .scene-caption {
+      min-height: 132px;
+      padding: 13px 14px 15px;
+    }
+
+    .scene-card .scene-id {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--signal);
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .scene-card h3 {
+      margin: 0 0 7px;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    .scene-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .indicator-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .indicator-panel {
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .indicator-panel h3 {
+      margin: 0 0 16px;
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    .indicator-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .indicator-item {
+      display: grid;
+      grid-template-columns: minmax(108px, 0.34fr) minmax(0, 0.66fr);
+      gap: 12px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+    }
+
+    .indicator-item:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    .indicator-item b {
+      color: var(--ink);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .indicator-item span {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .metric-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .metric-table th,
+    .metric-table td {
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .metric-table th {
+      color: var(--ink);
+      background: #eef2ec;
+      font-weight: 800;
+    }
+
+    .metric-table td {
+      color: var(--muted);
+    }
+
+    .metric-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    @media (max-width: 980px) {
+      .hero-night {
+        min-height: 560px;
+      }
+
+      .metrics-grid,
+      .chain-panel,
+      .support-grid,
+      .scope-header,
+      .section-head,
+      .framework-grid,
+      .node-copy-grid,
+      .render-grid,
+      .persona-grid,
+      .scene-grid,
+      .indicator-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .render-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .render-card img {
+        height: min(70vh, 640px);
+        min-height: 460px;
+      }
+
+      .scope-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .chain-step:nth-child(2n) {
+        border-right: 0;
+      }
+
+      .chain-step:nth-child(n + 3) {
+        border-top: 1px solid var(--line);
+      }
+    }
+
+    @media (max-width: 620px) {
+      .hero-night {
+        height: 100svh;
+        min-height: 520px;
+      }
+
+      .hero-night img {
+        object-position: 38% center;
+      }
+
+      .metrics-section {
+        padding: 38px 16px 52px;
+      }
+
+      .metrics-grid,
+      .chain-panel,
+      .support-grid,
+      .scope-header,
+      .section-head,
+      .framework-grid,
+      .node-copy-grid,
+      .render-grid,
+      .persona-grid,
+      .scene-grid,
+      .indicator-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .render-card img {
+        height: min(62vh, 460px);
+        min-height: 320px;
+      }
+
+      .indicator-item {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+
+      .metric-table {
+        display: block;
+        overflow-x: auto;
+      }
+
+      .day-section {
+        padding: 0 16px 54px;
+      }
+
+      .content-section {
+        padding: 0 16px 54px;
+      }
+
+      .day-caption {
+        position: static;
+        border: 0;
+        border-radius: 0;
+        background: #102018;
+      }
+
+      .figure-panel figcaption {
+        display: block;
+      }
+
+      .metric-card {
+        min-height: 138px;
+      }
+
+      .metric-card .label {
+        min-height: auto;
+      }
+
+      .chain-step,
+      .chain-step:nth-child(2n) {
+        border-right: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .chain-step:first-child {
+        border-top: 0;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
 </head>
-<body><main><header><h1>因地而智：百年京张城市AI生长系统</h1><p>正式提交可视化｜总览地图 · 用地分区 · 交通慢行 · 蓝绿公共空间 · 任务覆盖 · 自检状态</p><p>本页使用包内图片与 metrics.json 的数值，不加载远程资源；临时边界仅用于方案生成和复核，正式红线发布后需整体复算。</p></header><section class="nav"><span>总览地图</span><span>用地分区</span><span>交通慢行</span><span>蓝绿公共空间</span><span>任务覆盖</span><span>自检状态</span></section><section class="metrics"><div class="metric"><b data-metric="site_area_sqm" data-value="11412825.386">11.41 平方公里</b><span>总体设计范围</span></div><div class="metric"><b data-metric="green_ratio" data-value="0.123423">12.34%</b><span>蓝绿公共空间</span></div><div class="metric"><b data-metric="public_space_ratio" data-value="0.073281">7.33%</b><span>公共空间比例</span></div><div class="metric"><b data-metric="key_area_count" data-value="3">3</b><span>重点区域</span></div><div class="metric"><b data-metric="ai_scenario_count" data-value="12">12</b><span>AI+场景</span></div></section><section class="nav"><span>三层范围</span><span>建筑</span><span>更新项目</span><span>AI 场景</span><span>核心指标</span><span>来源</span><span>假设</span></section><section class="figures"><figure><img src="../assets/figures/site-overview.png" alt="总览地图"><figcaption>总览地图</figcaption></figure>
-<figure><img src="../assets/figures/land-use-structure.png" alt="用地分区"><figcaption>用地分区</figcaption></figure>
-<figure><img src="../assets/figures/key-areas.png" alt="重点区域"><figcaption>重点区域</figcaption></figure>
-<figure><img src="../assets/figures/mobility-bluegreen.png" alt="交通慢行 / 蓝绿公共空间"><figcaption>交通慢行 / 蓝绿公共空间</figcaption></figure>
-<figure><img src="../assets/figures/metrics-evidence.png" alt="任务覆盖 / 自检状态"><figcaption>任务覆盖 / 自检状态</figcaption></figure>
-</section></main></body></html>
+<body>
+  <main>
+    <section class="hero-night" aria-labelledby="hero-title">
+      <h1 id="hero-title" class="sr-only">因地而智:百年京张城市AI生长系统</h1>
+      <img src="../assets/figures/13-night-aerial-system-zh.png" alt="因地而智百年京张夜间 AI 生长带鸟瞰图，展示小月河、京张铁路遗址公园、三处 AI 节点和夜间公共服务场景">
+      <a class="scroll-cue" href="#metrics">查看指标</a>
+    </section>
+
+    <section class="metrics-section" id="metrics" aria-labelledby="metrics-title">
+      <div class="metrics-wrap">
+        <p class="section-kicker">核心指标</p>
+        <h2 class="section-title" id="metrics-title">夜景先建立空间记忆，指标再说明这个系统的尺度、范围和边界。</h2>
+        <p class="section-intro">以下数值用于 `visual/index.html` 首屏之后的阅读层，后续正式投稿时必须与 `metrics.json`、GeoJSON 和矩阵文件保持一致；涉及临时范围的内容均需在 official polygon 到位后复算。</p>
+
+        <div class="metrics-grid" aria-label="核心指标卡">
+          <article class="metric-card">
+            <div class="label">统筹研究范围</div>
+            <div class="value" data-metric="coordinated_research_area_sqm" data-value="43600000">43.6 km²</div>
+            <div class="note">官方文本面积，精确边界待正式资料补齐。</div>
+          </article>
+          <article class="metric-card">
+            <div class="label">总体设计范围</div>
+            <div class="value" data-metric="site_area_sqm" data-value="11412825.386">11.41 km²</div>
+            <div class="note">当前工作口径；提交前需由 `site_boundary.geojson` 复算。</div>
+          </article>
+          <article class="metric-card">
+            <div class="label">三处重点区域合计</div>
+            <div class="value" data-metric="key_area_total_sqm" data-value="3684000">368.4 ha</div>
+            <div class="note">众智园、AI 原点社区、大钟寺三类责任节点。</div>
+          </article>
+          <article class="metric-card">
+            <div class="label">首批 AI 场景</div>
+            <div class="value" data-metric="ai_scenario_count" data-value="12">12</div>
+            <div class="note">其中 4 个面向产业测试验证。</div>
+          </article>
+        </div>
+
+        <div class="support-grid">
+          <div class="chain-panel" aria-label="核心运行链条">
+            <div class="chain-step">
+              <b>原点汇需</b>
+              <span>居民、青年、企业和运营者提出真实城市问题。</span>
+            </div>
+            <div class="chain-step">
+              <b>众智研发</b>
+              <span>高校、科研团队与企业把问题转成可测试原型。</span>
+            </div>
+            <div class="chain-step">
+              <b>河园实证</b>
+              <span>小月河与京张遗址公园提供平行真实验证环境。</span>
+            </div>
+            <div class="chain-step">
+              <b>钟寺转化</b>
+              <span>大钟寺完成产品化、分类运营与产业服务连接。</span>
+            </div>
+            <div class="chain-step">
+              <b>公共反哺</b>
+              <span>商业回流与公共投入共同支持下一轮公共 AI 更新。</span>
+            </div>
+          </div>
+
+          <aside class="boundary-panel" aria-label="边界说明">
+            <h2>边界声明</h2>
+            <p>本页为 `visual/index.html` 中文工作稿。当前空间范围、路线和重点区使用公开资料与临时几何表达设计逻辑，不构成 official redline、控规指标、审批结论、工程量或投资承诺。</p>
+          </aside>
+        </div>
+
+        <div class="status-row" aria-label="可信 AI 原则">
+          <span class="status-pill"><strong>可追溯</strong> source / metric / geometry</span>
+          <span class="status-pill"><strong>可复核</strong> 自检与矩阵联动</span>
+          <span class="status-pill"><strong>可接管</strong> 人工窗口与退出机制</span>
+          <span class="status-pill"><strong>可持续</strong> 公共 AI 与商业 AI 双路径</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="day-section" id="scope" aria-labelledby="scope-title">
+      <div class="day-wrap">
+        <figure class="day-figure">
+          <img src="../assets/figures/15-day-overall-aerial-board-zh.png" alt="因地而智白天总体鸟瞰图，展示京张轨道廊道、蓝绿慢行体验带、AI 原点社区、众智园和大钟寺更新门户">
+          <figcaption class="day-caption">
+            <div>
+              <strong>白天总体鸟瞰</strong>
+              <span>用日间城市界面说明交通接驳、公共开放空间、AI 节点和更新门户的组织关系。</span>
+            </div>
+            <div>
+              <strong>图面边界</strong>
+              <span>概念阶段总体鸟瞰表达，具体边界、指标与实施范围以后续数据台账和深化成果为准。</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <div class="scope-header">
+          <div>
+            <p class="section-kicker">范围研究说明</p>
+            <h2 class="section-title" id="scope-title">三层范围不是三张孤立地图，而是从区域判断到可实施节点的连续研究框架。</h2>
+          </div>
+          <p>本方案先把 43.6 平方公里的创新生态关系看清，再在 11.4 平方公里总体设计范围内组织公共骨架、慢行蓝绿、更新项目和 AI 场景，最后把三处重点区域落实为可被专业团队继续深化的空间与运营任务。</p>
+        </div>
+
+        <div class="scope-grid" aria-label="三层范围研究卡片">
+          <article class="scope-card">
+            <span class="index">01</span>
+            <h3>统筹研究范围</h3>
+            <div class="area" data-metric="coordinated_research_area_sqm" data-value="43600000">43.6 km²</div>
+            <p>研究高校、科研院所、企业、社区、轨道站点、蓝绿空间和中关村科技服务资源之间的区域关系，判断哪些创新能力能够进入百年京张沿线的真实城市问题。</p>
+            <p class="limit">边界：不在这一层直接下控规指标、建筑高度、道路红线或工程实施结论。</p>
+          </article>
+
+          <article class="scope-card">
+            <span class="index">02</span>
+            <h3>总体设计范围</h3>
+            <div class="area" data-metric="site_area_sqm" data-value="11412825.386">11.41 km²</div>
+            <p>组织低扰动城市更新结构：连续公共骨架、河园公共验证带、社区/高校/产业短环、三处 AI 重点区和中关村科技服务网络，共同支撑日常使用与场景验证。</p>
+            <p class="limit">边界：当前为概念级总体设计，面积、绿地率、公共空间比例须由提交包内 GeoJSON 复算。</p>
+          </article>
+
+          <article class="scope-card">
+            <span class="index">03</span>
+            <h3>三处重点区域</h3>
+            <div class="area" data-metric="key_area_total_sqm" data-value="3684000">368.4 ha</div>
+            <p>众智园承担技术验证与治理准入，AI 原点社区承担真实问题入口与青年共创，大钟寺承担产品化、分类运营和国际交流。三者构成同一条城市 AI 生长链。</p>
+            <p class="limit">边界：重点区仍使用临时几何和概念载体，不代表取得空间、审批、招商、权属或企业承诺。</p>
+          </article>
+        </div>
+
+        <p class="scope-note">范围研究的关键不是把线画满，而是把“能证明什么”和“还不能证明什么”分开：官方文本面积可用于解释尺度，临时几何可用于概念推演；正式红线、控规条件、权属、建筑、市政和现场客流数据到位后，相关指标必须重新复算并更新 `metrics.json`、图件和网页。</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="framework" aria-labelledby="framework-title">
+      <div class="content-wrap">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">概念框架说明</p>
+            <h2 class="section-title" id="framework-title">这不是一条 AI 展示走廊，而是一套从问题进入、技术验证到公共反哺的城市 AI 生长系统。</h2>
+          </div>
+          <p>图 2 把总体设计范围、三处重点区、河园验证空间和运行链条放在同一张图里：真实需求从社区和城市日常进入，技术在众智园接受治理准入，小月河与京张遗址公园提供公共空间验证，大钟寺完成产品化与分类运营，公共价值再回到下一轮城市服务更新。</p>
+        </div>
+
+        <figure class="figure-panel">
+          <img src="../assets/figures/02  site-overview.png" alt="图 2 场地总览与总体概念图，展示三层范围、三处重点区、南北联系、河园验证空间和城市 AI 生长链条">
+          <figcaption>
+            <span><strong>图 2 · 场地总览与总体概念图</strong>：以低对比底图承载临时边界，以高对比设计层说明三节点、南北联系、河园验证和公共/商业双路径。</span>
+            <span>边界属性：provisional constraint；正式投稿前需与 GeoJSON、metrics 和 sources 对齐。</span>
+          </figcaption>
+        </figure>
+
+        <div class="framework-grid" aria-label="概念框架要点">
+          <article class="brief-card">
+            <span class="tag">01 · 进入</span>
+            <h3>真实问题先进入</h3>
+            <p>以居民、青年、穿行者、文化参与者、企业和运营者的真实问题为起点，保留线下人工入口、拒绝权和反馈回执。</p>
+          </article>
+          <article class="brief-card">
+            <span class="tag">02 · 验证</span>
+            <h3>技术先证明可靠</h3>
+            <p>每个 AI 场景先通过场景护照、数据边界、安全评测、人工接管和退出恢复审查，再进入公共空间验证。</p>
+          </article>
+          <article class="brief-card">
+            <span class="tag">03 · 持续</span>
+            <h3>成果分流再反哺</h3>
+            <p>公共价值项目进入公共持续评估，商业项目进入产品化通道；商业回流作为建议机制支持公共 AI 更新。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="key-areas" aria-labelledby="key-areas-title">
+      <div class="content-wrap">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">三处重点区域</p>
+            <h2 class="section-title" id="key-areas-title">三个节点不是三个孤立片区，而是同一条生长链上的三种责任。</h2>
+          </div>
+          <p>众智园回答“技术如何可靠”，AI 原点社区回答“问题如何真实进入”，大钟寺回答“验证后的成果如何持续运营和产品化”。三者共享同一套场景护照、治理准入、人工接管和证据回执。</p>
+        </div>
+
+        <figure class="figure-panel">
+          <img src="../assets/figures/05 key-areas.png" alt="三处重点区域设计任务图，展示众智园、AI 原点社区和大钟寺的责任分工、空间序列和运行流程">
+          <figcaption>
+            <span><strong>三处重点区域设计任务图</strong>：把众智园、AI 原点社区、大钟寺分别作为研发治理、汇需共创、产品转化三类节点。</span>
+            <span>图中范围为概念阶段表达，不代表已批准建设边界、权属调整或招商承诺。</span>
+          </figcaption>
+        </figure>
+
+        <div class="node-copy-grid" aria-label="三节点必要说明">
+          <article class="brief-card">
+            <span class="tag">众智园</span>
+            <h3>技术验证与治理准入</h3>
+            <p>承担共享治理沙盒、受控测试庭院、公开测试廊和维护后台。公众可以理解测试过程，但高风险测试必须有隔离、记录和人工接管条件。</p>
+          </article>
+          <article class="brief-card">
+            <span class="tag">AI 原点社区</span>
+            <h3>真实问题入口与青年共创</h3>
+            <p>设置人工服务台、城市问题墙、共创桌、原型工坊和社区评议厅，让需求不是被采集后消失，而是形成可查询、可反馈的场景护照。</p>
+          </article>
+          <article class="brief-card">
+            <span class="tag">大钟寺</span>
+            <h3>产品化与运营放大</h3>
+            <p>承接产品验证厅、企业共享服务、国际交流和公共/商业分类评估。蓝景丽家类型载体仍是条件性候选，不写成已取得空间。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="node-renders" aria-labelledby="node-renders-title">
+      <div class="content-wrap">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">节点效果图</p>
+            <h2 class="section-title" id="node-renders-title">效果图只说明空间气质和使用场景，不替代边界、指标和审批依据。</h2>
+          </div>
+          <p>三张节点图统一采用“真实城市更新、克制科技感、公共空间可使用”的表达：让评审先看到空间如何被人使用，再回到前面的图件、指标和证据文件复核。</p>
+        </div>
+
+        <div class="render-grid" aria-label="三处节点效果图">
+          <article class="render-card">
+            <img src="../assets/figures/10-zhongzhiyuan-aerial-transport-zh.png" alt="众智园节点效果图，展示研发中试、公开测试廊、交通接驳和治理验证空间">
+            <div class="caption">
+              <h3>众智园</h3>
+              <p>把研发、中试、治理评审和公开观察组织在同一套可控空间里，重点表达“技术可靠后再进入城市”。</p>
+            </div>
+          </article>
+          <article class="render-card">
+            <img src="../assets/figures/11-ai-origin-community-aerial-zh.png" alt="AI 原点社区节点效果图，展示社区级公共 AI 服务入口、青年共创和日常生活试点">
+            <div class="caption">
+              <h3>AI 原点社区</h3>
+              <p>把城市问题入口、青年原型工坊和社区评议放在可到达的日常界面，保留人工服务和非数字入口。</p>
+            </div>
+          </article>
+          <article class="render-card">
+            <img src="../assets/figures/12-dazhongsi-aerial-zh.png" alt="大钟寺节点效果图，展示产品化验证、更新门户、公共服务点和产业运营界面">
+            <div class="caption">
+              <h3>大钟寺</h3>
+              <p>把产品验证、企业服务、公共反馈和国际交流叠合到更新门户中，形成商业放大与公共反哺的条件性接口。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="personas" aria-labelledby="personas-title">
+      <div class="content-wrap">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">人群分析</p>
+            <h2 class="section-title" id="personas-title">六类人群不是互斥标签，而是同一条城市 AI 生长链中的六种参与角色。</h2>
+          </div>
+          <p>本方案把人群从“被动客流”改写为“提出问题、共同验证、参与运营、获得回执”的城市参与者。每类人群都必须对应真实任务、空间入口、AI 能力、人工兜底和拒绝边界，避免把公共空间 AI 做成单向采集。</p>
+        </div>
+
+        <div class="persona-grid" aria-label="六类人群分析">
+          <article class="persona-card">
+            <span class="persona-number">P1</span>
+            <h3>周边日常居民</h3>
+            <p>关注步行安全、休息补给、老人儿童友好、社区问题反馈和公共服务可达；需要线下人工窗口、非智能手机入口和清晰反馈回执。</p>
+          </article>
+          <article class="persona-card">
+            <span class="persona-number">P2</span>
+            <h3>通勤穿行青年</h3>
+            <p>关注从站点、社区、高校到河园和产业节点的连续通行；需要可解释绕行、夜间求助、骑行步行补给和低打扰信息提示。</p>
+          </article>
+          <article class="persona-card">
+            <span class="persona-number">P3</span>
+            <h3>高校与开发者共创者</h3>
+            <p>关注真实问题、快速原型、测试场地和评议反馈；需要开放工位、原型工坊、场景护照和受控测试机会。</p>
+          </article>
+          <article class="persona-card">
+            <span class="persona-number">P4</span>
+            <h3>文化漫游与公共体验者</h3>
+            <p>关注百年京张记忆、小月河体验、遗址公园活动和可追溯导览；需要低干扰展示、内容授权说明和可选择的参与方式。</p>
+          </article>
+          <article class="persona-card">
+            <span class="persona-number">P5</span>
+            <h3>AI 企业产品验证者</h3>
+            <p>关注合规评测、用户测试、设备试运行、产品发布和采购转化；需要众智园准入、大钟寺分类运营和清楚的知识产权边界。</p>
+          </article>
+          <article class="persona-card">
+            <span class="persona-number">P6</span>
+            <h3>公共运营与人工兜底者</h3>
+            <p>关注设备维护、人工接管、投诉闭环、风险复盘和年度运营；需要看得懂的日志、工单、停止条件和资产台账。</p>
+          </article>
+        </div>
+
+        <figure class="figure-panel" style="margin-top: 18px;">
+          <img src="../assets/figures/a0-board-18.png" alt="人群画像与场景落位图，展示六类人群、场景空间运营矩阵和正式表达边界">
+          <figcaption>
+            <span><strong>人群画像与场景落位图</strong>：六类画像覆盖生活、穿行、创造、文化、产业和运营社群，并与场景卡、空间入口、AI 能力和人工边界建立对应关系。</span>
+            <span>本图为设计假设与投稿表达，不声称来自已完成现场访谈或个人隐私数据。</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="content-section" id="scenarios" aria-labelledby="scenarios-title">
+      <div class="content-wrap">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">12 个首批 AI 场景</p>
+            <h2 class="section-title" id="scenarios-title">场景先以小尺度、可撤除、有人值守的方式进入城市，再决定是否扩展成网。</h2>
+          </div>
+          <p>12 个场景统一进入场景护照，记录数据边界、责任主体、人工接管、停止条件和退出恢复。SC-07 至 SC-10 作为产业测试验证场景，只有通过公共价值、社群接受度、技术效果和运维可行性评估后，才进入产品化或规模化讨论。</p>
+        </div>
+
+        <div class="scene-grid" aria-label="12 张场景图">
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc01.png" alt="SC-01 城市问题采集台场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-01</span>
+              <h3>城市问题采集台</h3>
+              <p>原点社区和移动服务点把居民、穿行者、运营者提出的问题整理成可复核的场景护照。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc02.png" alt="SC-02 青年一日原型工坊场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-02</span>
+              <h3>青年一日原型工坊</h3>
+              <p>把真实城市问题转化为低保真模型、服务流程和测试计划，形成可讨论的首轮原型。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc03.png" alt="SC-03 南北步行陪伴与无障碍绕行场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-03</span>
+              <h3>南北步行陪伴</h3>
+              <p>在连续步行体验线中提供绕行、休息、求助和人工服务，不把路线服务变成强制追踪。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc04.png" alt="SC-04 小月河生态共管场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-04</span>
+              <h3>小月河生态共管</h3>
+              <p>以环境和设施数据为主，辅助识别水体、植物、热环境和设施异常，并生成维护工单。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc05.png" alt="SC-05 京张记忆共创站场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-05</span>
+              <h3>京张记忆共创站</h3>
+              <p>把口述史、铁路档案和社区内容组织为可追溯导览，内容来源和授权方式同步记录。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc06.png" alt="SC-06 夜间安全与人工求助场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-06</span>
+              <h3>夜间安全与人工求助</h3>
+              <p>站点短环与河园空间优先连接人工值守，处理设施故障、求助事件和夜间安全反馈。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc07.png" alt="SC-07 具身设备共路测试庭院场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-07 · 产业验证</span>
+              <h3>具身设备共路测试庭院</h3>
+              <p>在众智园限域测试配送、清洁、巡检等设备的避让、停止、接管和退出恢复。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc08.png" alt="SC-08 可信智能体治理沙盒场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-08 · 产业验证</span>
+              <h3>可信智能体治理沙盒</h3>
+              <p>复核智能体权限、工具调用、日志、偏差、安全和人工接管，不允许绕过治理直接投放。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc09.png" alt="SC-09 智能终端公共测试街场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-09 · 产业验证</span>
+              <h3>智能终端公共测试街</h3>
+              <p>在真实人流中测试公共终端的易用性、无障碍、稳定性、维护成本和人工服务边界。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc10.png" alt="SC-10 企业智能体部署与服务台场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-10 · 产业验证</span>
+              <h3>企业智能体部署服务台</h3>
+              <p>在大钟寺支持产品部署、接口接入、合规检查、用户测试和运维交接。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc11.png" alt="SC-11 AI 内容消费与版权实验场场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-11</span>
+              <h3>内容消费与版权实验场</h3>
+              <p>测试互动内容、数字版权、付费意愿和未成年人保护，所有内容记录来源与授权。</p>
+            </div>
+          </article>
+          <article class="scene-card">
+            <img loading="lazy" src="../assets/figures/scene-sc12.png" alt="SC-12 公共 AI 运行与反馈室场景图">
+            <div class="scene-caption">
+              <span class="scene-id">SC-12</span>
+              <h3>公共 AI 运行与反馈室</h3>
+              <p>汇总公共价值、接受度、技术效果和运维数据，组织继续、调整或退出决策。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="indicators" aria-labelledby="indicators-title">
+      <div class="content-wrap">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">技术指标与经济指标</p>
+            <h2 class="section-title" id="indicators-title">技术指标说明系统是否可信，经济指标说明它能否长期运行。</h2>
+          </div>
+          <p>本页只放概念阶段可表达的主指标。所有金额、比例、路线长度、公共空间比例和绿地蓝绿比例，正式投稿前都需要与边界、图件、`metrics.json`、GeoJSON 和资金测算表重新核对。</p>
+        </div>
+
+        <div class="indicator-grid" aria-label="技术指标和经济指标说明">
+          <section class="indicator-panel" aria-labelledby="tech-indicators-title">
+            <h3 id="tech-indicators-title">技术指标</h3>
+            <div class="indicator-list">
+              <div class="indicator-item">
+                <b>P1 物理连接</b>
+                <span>光纤/无线、供配电、边缘节点、设备挂载、环境与运行传感、检修通道必须能被维护。</span>
+              </div>
+              <div class="indicator-item">
+                <b>P2 数字平台</b>
+                <span>场景护照、权限身份、数据目录、模型版本、接口管理、运行日志和证据归档统一登记。</span>
+              </div>
+              <div class="indicator-item">
+                <b>P3 可信治理</b>
+                <span>授权同意、数据最小化、安全评测、人工接管、紧急停止、事件响应、退出恢复缺一不可。</span>
+              </div>
+              <div class="indicator-item">
+                <b>P4 持续运营</b>
+                <span>服务工单、设备维护、模型更新、公众反馈、费用台账和资产台账进入年度运营体系。</span>
+              </div>
+              <div class="indicator-item">
+                <b>场景验证</b>
+                <span>12 个首批场景、4 个产业验证场景，按公共价值、社群接受度、技术效果、运维可行性四维评估。</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="indicator-panel" aria-labelledby="economic-indicators-title">
+            <h3 id="economic-indicators-title">经济指标</h3>
+            <div class="indicator-list">
+              <div class="indicator-item">
+                <b>一次性投入</b>
+                <span data-metric="one_time_capex_range_cny" data-value="117000000-405000000">概念阶段主区间约 1.17-4.05 亿元，包含公共骨架、三节点、共性底座和首轮场景原型。</span>
+              </div>
+              <div class="indicator-item">
+                <b>年度运营</b>
+                <span data-metric="annual_opex_range_cny" data-value="35000000-125000000">约 3,500-12,500 万元/年，作为必要条件单列，不与一次性投入相加。</span>
+              </div>
+              <div class="indicator-item">
+                <b>商业收入账</b>
+                <span data-metric="steady_commercial_ai_revenue_range_cny" data-value="15000000-120000000">3 年后稳态年化约 1,500-12,000 万元/年，属于条件性测算，不代表收入已经发生。</span>
+              </div>
+              <div class="indicator-item">
+                <b>公共回流账</b>
+                <span data-metric="steady_public_ai_reflow_range_cny" data-value="5000000-30000000">3 年后稳态回流建议约 500-3,000 万元/年，需以合同、审计和合格收入基数确认。</span>
+              </div>
+              <div class="indicator-item">
+                <b>分期节奏</b>
+                <span>0-6 个月启动准备，6-18 个月首期验证，18-36 个月扩展成网，3 年以上长期运行。</span>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <table class="metric-table" aria-label="主要指标表">
+          <thead>
+            <tr>
+              <th>指标类别</th>
+              <th>当前表达</th>
+              <th>边界说明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>空间范围</td>
+              <td>统筹研究 43.6 km²；总体设计 11.4 km²；三重点区合计 368.4 ha。</td>
+              <td>官方文本面积 + 临时几何，正式边界到位后复算。</td>
+            </tr>
+            <tr>
+              <td>交通与公共骨架</td>
+              <td>南北快联系约 22.0 km；连续步行约 10.5 km；遗址公园体验约 10.3 km；五处东西缝合合计约 9.3 km。</td>
+              <td>路线存在共线和重叠，不能直接相加为建设长度。</td>
+            </tr>
+            <tr>
+              <td>场景与治理</td>
+              <td>12 个首批 AI 场景，其中 4 个产业测试验证场景；共用场景护照与四维验证。</td>
+              <td>不得写成已经投放、已经审批或已经形成运营数据。</td>
+            </tr>
+            <tr>
+              <td>投资与运营</td>
+              <td>一次性投入约 1.17-4.05 亿元；年度运营约 3,500-12,500 万元/年。</td>
+              <td>概念阶段数量级估算，不构成预算、概算、融资或招商承诺。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content-section" id="evidence" aria-labelledby="evidence-title">
+      <div class="content-wrap">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">资料来源与证据链说明</p>
+            <h2 class="section-title" id="evidence-title">本网页的每个判断，都要能回到来源、假设、几何、指标和图件生产记录。</h2>
+          </div>
+          <p>本页不是宣传海报，而是可追溯的网页展示稿：官方资料定义任务与范围，公开数据提供背景判断，用户锁定输入形成概念框架，项目工作文件生成空间、场景、技术和经济表达；所有临时边界、估算、候选空间和效果图均保留条件性声明。</p>
+        </div>
+
+        <figure class="figure-panel">
+          <img src="../assets/figures/14-source-evidence-chain-zh.png" alt="资料来源与证据链图，展示官方资料、公开数据、用户输入、几何指标、图件生产和网页展示之间的追溯关系">
+          <figcaption>
+            <span><strong>资料来源与证据链图</strong>：把官方规则、公开底图、用户确认内容、项目分析文件、几何指标和图件生产过程串成同一条审计路径。</span>
+            <span>正式投稿前需以最新官方仓库、最终 GeoJSON、`metrics.json`、source ledger 和 preflight 结果为准。</span>
+          </figcaption>
+        </figure>
+
+        <div class="indicator-grid" style="margin-top: 18px;" aria-label="资料来源分类说明">
+          <section class="indicator-panel" aria-labelledby="source-types-title">
+            <h3 id="source-types-title">资料来源</h3>
+            <div class="indicator-list">
+              <div class="indicator-item">
+                <b>官方规则</b>
+                <span>公开任务书、征集公告、方案模板、评审细则和官方 site package，用于定义任务、范围、提交结构和评分边界。</span>
+              </div>
+              <div class="indicator-item">
+                <b>公开背景数据</b>
+                <span>OpenStreetMap 与 Overpass 快照用于道路、轨道、公交、水绿、机构和建筑轮廓的背景判断，须标注 OSM contributors 与 ODbL。</span>
+              </div>
+              <div class="indicator-item">
+                <b>用户设计输入</b>
+                <span>用户确认的概念框架、图面修改、视觉模板和替换图件，用于形成项目主张与表达风格，不等同于外部事实或已批准机制。</span>
+              </div>
+              <div class="indicator-item">
+                <b>项目工作文件</b>
+                <span>现状分析、定位报告、概念方案、场景卡、AI 基础设施框架、经济测算和图件合同共同支撑本网页内容。</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="indicator-panel" aria-labelledby="evidence-chain-title">
+            <h3 id="evidence-chain-title">证据链口径</h3>
+            <div class="indicator-list">
+              <div class="indicator-item">
+                <b>Claim</b>
+                <span>每个项目判断先归入事实、设计假设、临时几何、概念估算或条件性建议，不混用等级。</span>
+              </div>
+              <div class="indicator-item">
+                <b>Source</b>
+                <span>关键结论回到 `source-ledger-v0.1.md`、官方链接、本地数据快照或用户确认文件，并保留日期和使用边界。</span>
+              </div>
+              <div class="indicator-item">
+                <b>Metric</b>
+                <span>面积、路线、投入和运营指标先按当前工作口径表达，正式提交前与 GeoJSON、`metrics.json` 和经济测算表同步。</span>
+              </div>
+              <div class="indicator-item">
+                <b>Figure</b>
+                <span>图件和效果图只作为方案解释层；不能替代红线、权属、控规、审批、招商、建设或收入承诺。</span>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <p class="scope-note">当前网页完成的是“可展示的中文工作稿”。它可以说明方案逻辑、空间气质、场景体系和指标口径，但正式投稿前仍需统一更新：官方规则版本、source ledger、GeoJSON、`metrics.json`、双语图件、网页文件、A0 展板、A3 文册和最终 preflight 记录。</p>
+      </div>
+    </section>
+  
+<section class="metrics-section" aria-label="正式提交核验索引">
+  <div class="metrics-wrap">
+    <p class="section-kicker">正式提交核验索引</p>
+    <h2 class="section-title">总览地图、三层范围、用地分区、建筑、交通慢行、蓝绿公共空间、更新项目、AI 场景、核心指标、任务覆盖、来源、假设、自检状态</h2>
+    <p class="section-intro">本页保留最终完整展示内容，并补充官方自检需要直接可见的栏目词和核心指标。</p>
+    <div class="metrics-grid">
+      <article class="metric-card"><div class="value" data-metric="green_ratio" data-value="0.123423">12.34%</div><p>蓝绿公共空间</p></article>
+      <article class="metric-card"><div class="value" data-metric="public_space_ratio" data-value="0.073281">7.33%</div><p>公共空间比例</p></article>
+      <article class="metric-card"><div class="value" data-metric="key_area_count" data-value="3">3</div><p>重点区域</p></article>
+    </div>
+  </div>
+</section>
+
+</main>
+</body>
+</html>
