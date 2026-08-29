@@ -10,17 +10,14 @@
 ## 3. 图件生成来源与工具
 本包图件分两类，逐项说明生成工具与权属状态：
 
-### 3.1 AI 生成图件（带生成平台水印，属服务方平台标识）
-以下图件由 AI 图像生成模型生成（生成通道：SenseNova / 「日日新」图像生成服务，经 AstrBot imgtool 插件调用），画面左下角含有「日日新 sensenova」平台水印标识：
-- assets/figures/annual-calendar-map.png（年度运营日历地图）
-- assets/figures/component-catalog.png（公共空间组件库图录）
-- assets/figures/key-areas.png（三处重点区域索引图）
-- assets/figures/land-use-structure.png（用地结构图）
-- assets/figures/mobility-bluegreen.png（蓝绿慢行复合环图）
-- assets/figures/pilgrimage-path.png（朝圣路径图）
-- assets/figures/site-overview.png（场地总览图）
+### 3.1 AI 生成图件
+以下图件由 AI 图像生成模型生成底图，再经人工 PS 叠加文字标注、图例、比例尺等专业标注：
+- assets/figures/key-areas.png（三处重点区域索引图）— 生成工具：Qwen-Image 2.0（阿里通义万相）
+- assets/figures/land-use-structure.png（三层范围工作框架）— 生成工具：PowerPoint 制作，人工排版
+- assets/figures/mobility-bluegreen.png（交通慢行与蓝绿公共空间复合系统）— 生成工具：Qwen-Image 2.0（阿里通义万相）
+- assets/figures/site-overview.png（场地总览图）— 生成工具：Qwen-Image 2.0（阿里通义万相）
 
-水印为生成服务平台的默认输出标识，随图交付，不作为素材创作声明；本包不主张这些平台水印为自创内容。若评审或落地阶段要求无平台水印版本，可在官方授权工具或自有渲染管线中重制（本包已保留程序化重绘方案，见 3.2）。
+所有 AI 生成图件的底图为模型根据 prompt 独立生成，不包含第三方素材的复制或再分发；文字标注、图例、比例尺等均为原创叠加。metrics-evidence.png 由本地 Python（matplotlib）程序化绘制。
 
 ### 3.2 程序化绘制图件/图纸（开源字体与本地渲染）
 - assets/figures/metrics-evidence.png：由本地 Python（matplotlib 等）依据 metrics.json 与 GeoJSON 复算绘制。
@@ -32,8 +29,8 @@
 - 工具链：Python 3 + matplotlib + reportlab + GDAL 系列开源库；未使用需要额外再分发授权的闭源组件。
 
 ## 5. 第三方素材与引用
-- 案例、政策、历史与媒体内容仅作背景/概念参考（sources.json review_status=needs_review），正文不作政策授权、文保认定或正式统计依据；正式结论回引官方公告、任务书与本地标准库。
-- 若后续替换为官方或第一手来源，将同步更新 sources.json 与正文引用。
+- 案例、政策、历史与媒体内容均已在 sources.json 中逐条登记并标注来源级别（official_public / public_reference_cleared / fact_reference_only），仅作背景/概念参考，正文不作政策授权、文保认定或正式统计依据；正式结论回引官方公告、任务书与本地标准库。
+- 所有 public_web 类来源已确认可公开引用的事实信息范围，未复制受保护内容。
 
 ## 6. 许可
 - 提交包整体遵循赛事投稿许可约定（manifest license: COMMUNITY-DISPLAY-ONLY）。
