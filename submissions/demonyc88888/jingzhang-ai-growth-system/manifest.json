@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "e007554bed5f7c60ef4c83a87222d16c69b8cab4be4a35c2d38385a60660c4dd"
+      "sha256": "ba866a4744f33ff2994a5aa8f3fcb76a2b076d3fff21c4712e9bdf3aab6127f9"
     },
     {
       "path": "compliance_matrix.json",
@@ -107,7 +107,7 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "6fcb16c2353491f7a730a946ee7dfad14a3ef0d545f88dfaed2a02043d603fd1"
+      "sha256": "0c3e0378d406d00953da0dc7f4564e946cca383229776af442e24babfcf038c4"
     },
     {
       "path": "visual/index.html",
@@ -227,7 +227,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "8c464df84a37c5eee183a0bdc2acb8bad0890b6cbf3b54fb4a8004a37d730c60"
+      "sha256": "901b7a3779d97d72cf634cf4d6506f4331617af0158918d9ba9ceb2a132b29dd"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -235,7 +235,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "5d75118e408276fe019a358ef2c10fc6f2476b0bac0e5d2a021fcda2436c028c"
+      "sha256": "15e0f291e1db534f93a16a193a2094e459404c65f9c328fd179450ca1bd8bf80"
     },
     {
       "path": "visual/index.en.html",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "efc7768aaffdc25deb1c3590a258f5f9f654dce08a5840df4d2af4bb0eb65147"
+      "sha256": "c53564526991d6c5f54dc969651a570b26057f360f1ae73ebbe803e29cd3585b"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -251,7 +251,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/key-areas.png",
-      "sha256": "d68cd43665c9c6862a2b6299c31a8bb4c4b48ff9138247be7ad638c292db8a49"
+      "sha256": "5e8b76358976924144df304d982b30df07829606d508c957dd788b38000c8633"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
@@ -259,7 +259,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/land-use-structure.png",
-      "sha256": "e70b319c1f995f5de7c54213c40f1c1a46e308bf3dc7f8c65a531194b2bd9ba4"
+      "sha256": "34f34c86ae8a3e94ad914b6787b7dc9f7d1dbdb977b44a2bf21e74cc1b1a1665"
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
@@ -267,7 +267,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png",
-      "sha256": "02a79cf19ac461d84a6d2d5cb0c7dc5e1d43917a953f914b51784feaf5919e71"
+      "sha256": "ff30a6ed21914ec675fca3b7524e03f4f5ca5fab0ae83b1b78f890ae286d7088"
     },
     {
       "path": "assets/figures/mobility-bluegreen.en.png",
@@ -275,7 +275,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/mobility-bluegreen.png",
-      "sha256": "6ac8e0f4655e47681b041f8c0f253e7cb3afc5d53e5e76ad39aacfab09c3b8b2"
+      "sha256": "b9c96d4e0f7091c154a9a35c67a6b69923dc5c600bf10b5f2d89c62b1ce07173"
     },
     {
       "path": "assets/figures/site-overview.en.png",
@@ -283,7 +283,37 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
-      "sha256": "ff8b3b5eb903e43557e488d422ed1340d32ae855668a175fb858f9ce88f4d8f2"
+      "sha256": "26a2e9606335156aec45732fb153715176c93798d28c0c4f9006b1e1fee321f1"
+    },
+    {
+      "path": "assets/figures/personas.png",
+      "role": "figure",
+      "required": false,
+      "language": "zh",
+      "sha256": "b67bfe0a122dc9c2e2e7ed8520d34bf984649f0da15ea20eb85bcdd5bbe9babc"
+    },
+    {
+      "path": "assets/figures/personas.en.png",
+      "role": "figure",
+      "required": false,
+      "language": "en",
+      "translation_of": "assets/figures/personas.png",
+      "sha256": "b391b6885da3ee173023c9f8750232b100906aa4e4782553b6a836bfd9374be1"
+    },
+    {
+      "path": "assets/figures/persona-scenario-map.png",
+      "role": "figure",
+      "required": false,
+      "language": "zh",
+      "sha256": "cc1a6b9aa73556f537915c9af4ad096a30a139d265282d728b7c792996b31c56"
+    },
+    {
+      "path": "assets/figures/persona-scenario-map.en.png",
+      "role": "figure",
+      "required": false,
+      "language": "en",
+      "translation_of": "assets/figures/persona-scenario-map.png",
+      "sha256": "ab52af2de04b65c4828aac9a85dba5b32390caa8bb11fd13e0b8e73ca9fd483a"
     }
   ],
   "validation_claim": {

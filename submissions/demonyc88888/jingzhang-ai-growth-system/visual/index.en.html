@@ -64,9 +64,8 @@
 
     .scroll-cue {
       position: absolute;
-      left: 50%;
-      bottom: 18px;
-      transform: translateX(-50%);
+      right: 24px;
+      top: 24px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -103,9 +102,10 @@
     .section-title {
       margin: 0;
       max-width: 860px;
-      font-size: clamp(30px, 4vw, 54px);
-      line-height: 1.08;
+      font-size: clamp(26px, 3.2vw, 44px);
+      line-height: 1.12;
       font-weight: 800;
+      overflow-wrap: anywhere;
     }
 
     .section-intro {
@@ -417,6 +417,7 @@
     .figure-panel img {
       width: 100%;
       display: block;
+      background: #ffffff;
     }
 
     .figure-panel figcaption {
@@ -489,10 +490,11 @@
 
     .render-card img {
       width: 100%;
-      height: min(76vh, 820px);
-      min-height: 560px;
-      object-fit: cover;
+      height: auto;
+      min-height: 0;
+      object-fit: contain;
       display: block;
+      background: #f8faf7;
     }
 
     .render-card .caption {
@@ -714,8 +716,8 @@
       }
 
       .render-card img {
-        height: min(70vh, 640px);
-        min-height: 460px;
+        height: auto;
+        min-height: 0;
       }
 
       .scope-grid {
@@ -760,8 +762,8 @@
       }
 
       .render-card img {
-        height: min(62vh, 460px);
-        min-height: 320px;
+        height: auto;
+        min-height: 0;
       }
 
       .indicator-item {
@@ -823,7 +825,7 @@
   <main>
     <section class="hero-night" aria-labelledby="hero-title">
       <h1 id="hero-title" class="sr-only">Intelligence Grown from Place: Centennial Jing-Zhang Urban AI Growth System</h1>
-      <img src="../assets/figures/13-night-aerial-system-en.png" alt="Night aerial view of the Centennial Jing-Zhang urban AI growth belt, showing Xiaoyue River, the Jing-Zhang Railway Heritage Park, three AI nodes, and night public-service scenarios">
+      <img src="../assets/figures/cover-board-en.jpg" alt="English cover board for Place-Grown Intelligence, showing the Centennial Jing-Zhang urban AI growth system and its three node responsibilities">
       <a class="scroll-cue" href="#metrics">View Metrics</a>
     </section>
 
@@ -956,14 +958,22 @@
             <p class="section-kicker">Concept Framework</p>
             <h2 class="section-title" id="framework-title">This is not an AI display corridor, but an urban AI growth system from problem intake to technology validation and public reinvestment.</h2>
           </div>
-          <p>Figure 2 places the overall design area, three key areas, river-park validation spaces, and operating chain on one drawing. Real needs enter from communities and everyday urban life; technologies pass governance admission in Zhongzhi Park; Xiaoyue River and the Jing-Zhang Heritage Park provide public-space validation; Dazhongsi supports productization and classified operations; public value then returns to the next cycle of urban-service renewal.</p>
+          <p>The English drawing is taken from the user-supplied A3 PDF set. It aligns the three-level scope map, continuous public spine, and concept framework, so the web presentation and English booklet use the same source drawing rather than the earlier draft diagram.</p>
         </div>
 
         <figure class="figure-panel">
-          <img src="../assets/figures/02  site-overview-en.png" alt="Figure 2 site overview and overall concept diagram showing three scope layers, three key areas, north-south connections, river-park validation spaces, and the urban AI growth chain">
+          <img src="../assets/figures/site-overview.en.png" alt="English A3 site overview board showing the three-layer scope map, continuous public spine, and conceptual framework">
           <figcaption>
-            <span><strong>Figure 2 · Site Overview and Overall Concept</strong>: A low-contrast basemap carries provisional boundaries, while high-contrast design layers explain the three nodes, north-south links, river-park validation, and dual public/commercial paths.</span>
+            <span><strong>Site Overview + Overall Concept v3</strong>: The same English PDF board is used for the proposal text, report, and website.</span>
             <span>Boundary status: provisional constraint; must align with GeoJSON, metrics, and sources before formal submission.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="figure-panel" style="margin-top: 18px;">
+          <img src="../assets/figures/mobility-bluegreen.en.png" alt="English A3 mobility and blue-green public-space board from the user-supplied PDF">
+          <figcaption>
+            <span><strong>Mobility + Blue-Green Public Space v1</strong>: Important-station mobility, river-park dual validation, continuous slow mobility, and phased activation are shown in one English drawing.</span>
+            <span>The drawing is a concept-stage coordination diagram, not a road-redline, utility, or construction approval document.</span>
           </figcaption>
         </figure>
 
@@ -994,13 +1004,21 @@
             <p class="section-kicker">Three Key Areas</p>
             <h2 class="section-title" id="key-areas-title">The three nodes are not isolated districts, but three responsibilities within the same growth chain.</h2>
           </div>
-          <p>Zhongzhi Park answers how technology becomes reliable; AI Origin Community answers how real problems enter; Dazhongsi answers how validated outcomes continue operating and become products. All three share scenario passports, governance admission, human takeover, and evidence receipts.</p>
+          <p>The English drawings in this section come from the user-supplied A3 PDF pages for the final English board set. Land-use structure, scenario carrier selection, and the three key areas now use the same source pages as the English booklet.</p>
         </div>
 
         <figure class="figure-panel">
-          <img src="../assets/figures/05 key-areas-en.png" alt="Three key areas design-task diagram showing responsibilities, spatial sequences, and operating flows for Zhongzhi Park, AI Origin Community, and Dazhongsi">
+          <img src="../assets/figures/land-use-structure.en.png" alt="English A3 public framework and land-use structure board from the user-supplied PDF">
           <figcaption>
-            <span><strong>Three Key Areas Design-Task Diagram</strong>: Positions Zhongzhi Park, AI Origin Community, and Dazhongsi as nodes for R&D governance, demand intake/co-creation, and product conversion.</span>
+            <span><strong>Function Zoning + Overall Spatial Structure v2</strong>: The continuous public framework, three key areas, scenario carrier selection, and scope guidance are shown as one coordinated drawing.</span>
+            <span>All carriers remain concept suggestions pending official boundaries, ownership, engineering checks, and professional design development.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="figure-panel" style="margin-top: 18px;">
+          <img src="../assets/figures/key-areas.en.png" alt="English A3 three key areas board from the user-supplied PDF">
+          <figcaption>
+            <span><strong>Three Key Areas Spatial Evaluation v1</strong>: Crowd Intelligence Garden, AI Origin Community, and Dazhong Temple are compared through spatial logic, carrier expansion, and governance flow.</span>
             <span>The scopes shown are concept-stage expressions, not approved construction boundaries, ownership adjustments, or leasing commitments.</span>
           </figcaption>
         </figure>
@@ -1029,32 +1047,32 @@
       <div class="content-wrap">
         <div class="section-head">
           <div>
-            <p class="section-kicker">Node Renderings</p>
-            <h2 class="section-title" id="node-renders-title">Renderings explain spatial character and use scenarios only; they do not replace boundaries, metrics, or approval basis.</h2>
+            <p class="section-kicker">Key Area Expansion</p>
+            <h2 class="section-title" id="node-renders-title">The three detailed key-area pages now use the final English PDF drawings, not the earlier draft renderings.</h2>
           </div>
-          <p>The three node renderings share a restrained urban-renewal expression: real city fabric, controlled technology presence, and usable public space. Reviewers first see how the space is used, then verify it against drawings, metrics, and evidence files.</p>
+          <p>Each node page combines spatial relationship, carrier expansion, governance flow, and scenario cards. These pages correspond to the English A3 board set and remain concept-stage guidance for later professional teams.</p>
         </div>
 
-        <div class="render-grid" aria-label="Three node renderings">
+        <div class="render-grid" aria-label="Three key-area PDF drawings">
           <article class="render-card">
-            <img src="../assets/figures/10-zhongzhiyuan-aerial-transport-en.png" alt="Zhongzhi Park node rendering showing R&D pilot testing, public testing corridor, transit connections, and governance validation space">
+            <img src="../assets/figures/06zhongzhiyuan-expanded-en.png" alt="English A3 Crowd Intelligence Garden key-area expansion board">
             <div class="caption">
-              <h3>Zhongzhi Park</h3>
-              <p>Organizes R&D, pilot testing, governance review, and public observation within one controlled spatial system, emphasizing that technology enters the city only after proving reliability.</p>
+              <h3>Crowd Intelligence Garden</h3>
+              <p>Uses the final English PDF board for the technology validation and governance-access node.</p>
             </div>
           </article>
           <article class="render-card">
-            <img src="../assets/figures/11-ai-origin-community-aerial-en.png" alt="AI Origin Community node rendering showing community-level public AI service entry, youth co-creation, and everyday life pilots">
+            <img src="../assets/figures/07ai-origin-community-expanded-en.png" alt="English A3 AI Origin Community key-area expansion board">
             <div class="caption">
               <h3>AI Origin Community</h3>
-              <p>Places urban problem intake, youth prototype workshops, and community review within reachable everyday interfaces, preserving human service and non-digital entry points.</p>
+              <p>Uses the final English PDF board for the real-problem intake and youth co-creation node.</p>
             </div>
           </article>
           <article class="render-card">
-            <img src="../assets/figures/12-dazhongsi-aerial-en.png" alt="Dazhongsi node rendering showing product validation, renewal gateway, public service points, and industry operation interface">
+            <img src="../assets/figures/08dazhongsi-expanded-en.png" alt="English A3 Dazhong Temple key-area expansion board">
             <div class="caption">
-              <h3>Dazhongsi</h3>
-              <p>Layers product validation, enterprise services, public feedback, and international exchange into the renewal gateway, forming a conditional interface for commercial scaling and public reinvestment.</p>
+              <h3>Dazhong Temple</h3>
+              <p>Uses the final English PDF board for productization, operations scaling, and commercial/public classification.</p>
             </div>
           </article>
         </div>
@@ -1105,9 +1123,17 @@
         </div>
 
         <figure class="figure-panel" style="margin-top: 18px;">
-          <img src="../assets/figures/a0-board-18.png" alt="Persona and scenario-location diagram showing six persona groups, the scenario-space-operation matrix, and formal expression boundaries">
+          <img src="../assets/figures/personas.en.png" alt="English A3 persona and population labels board from the user-supplied PDF">
           <figcaption>
-            <span><strong>Persona and Scenario-Location Diagram</strong>：Six personas cover daily life, movement, creation, culture, industry, and operations, and map to scenario cards, spatial entry points, AI capabilities, and human boundaries.</span>
+            <span><strong>Personas and Population Labels</strong>: Six user groups and the scenario-space-operation positioning table come from the final English PDF page.</span>
+            <span>Persona labels are design hypotheses for service planning, not personal-data records or completed field-interview results.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="figure-panel" style="margin-top: 18px;">
+          <img src="../assets/figures/persona-scenario-map.en.png" alt="English A3 persona priorities and AI growth-chain board from the user-supplied PDF">
+          <figcaption>
+            <span><strong>Persona Priorities and AI Growth Chain</strong>: The English PDF page links six persona profiles to the 12 scenario coverage system.</span>
             <span>This drawing is a design hypothesis and submission expression; it does not claim to come from completed field interviews or personal data.</span>
           </figcaption>
         </figure>
@@ -1236,6 +1262,14 @@
         </div>
 
         <div class="indicator-grid" aria-label="Technical and Economic Metrics Notes">
+          <figure class="figure-panel" style="grid-column: 1 / -1;">
+            <img src="../assets/figures/metrics-evidence.en.png" alt="English A3 commercial AI revenue ledger and public AI feedback loop board from the user-supplied PDF">
+            <figcaption>
+              <span><strong>Commercial AI Revenue Ledger + Public AI Feedback Loop</strong>: Revenue, operating cost, and public reinvestment are expressed through the final English PDF page.</span>
+              <span>All monetary figures remain concept-stage ranges, not approved budgets, realized revenue, financing commitments, or lease contracts.</span>
+            </figcaption>
+          </figure>
+
           <section class="indicator-panel" aria-labelledby="tech-indicators-title">
             <h3 id="tech-indicators-title">Technical Metrics</h3>
             <div class="indicator-list">
