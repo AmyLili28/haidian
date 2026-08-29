@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "ebe5e0aab09e5acbc1d5e943986ab0ad6db12f691364fe1a51400b8c31046ab7"
+      "sha256": "10b413570551d4b0be40b06bc106f1ae3617197756fd34222add98eb184bbf18"
     },
     {
       "path": "agent.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "24e46026beeccf848db03373d220c5409758c0e9487dafb00ee2a76fa80197c0"
+      "sha256": "b17f819314b4f52ea2d212375ffa50bf6c67bce126bef088bc96f1353fa9b7c0"
     },
     {
       "path": "report/narrative.md",
@@ -121,14 +121,14 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "a53bb90707d944ac054b80e55cf737b8574f02617378b563f6af9aadc0c82f1b"
+      "sha256": "9f0fc9e56f037b949ab958858ec34e4378ea392b1019b36ac91459c3ca485acf"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "c2956c39153ca9074ef9c279f547dcfc62d873127efa9fea131fd967b981ab95"
+      "sha256": "22d32f0728a2477c6649cace0f89a0cd379a21c6627131c2b36751d2ac23d8c4"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
@@ -142,14 +142,14 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "562bb947c4aff106a839dc0fa4cea708c6ff17aa2d575d4f27425ae828a5e2fe"
+      "sha256": "cbc7dc7c244d0a798685bfefe27491331b5819a3c4d9f2670f51a2469fd7d39b"
     },
     {
       "path": "assets/figures/site-overview.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "200f1726bac048d1f60bf852570cd9486499400d91265a2730c0d24c3a055c86"
+      "sha256": "dc9559c5a854d7c6cb84262ffdb701e8346bfd360351a9aea95f568a616641d9"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -219,7 +219,7 @@
       "required": false,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "708fd1593976a8af0e5181bd137f262f4c0a47479d9fe917cc1404c40440a393"
+      "sha256": "967f529cc386ecee0f3aabac9f1485f0a14b80b1a64f3dd0ba2aa80fe314f213"
     }
   ],
   "validation_claim": {
