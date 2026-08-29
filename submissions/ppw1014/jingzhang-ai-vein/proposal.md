@@ -24,7 +24,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 资料使用边界 [source:SOURCE-REGISTRY]：
 
 - formal 任务依据：公告、任务书、专业标准（城市设计管理办法、控规编制审批办法、用地分类指南）、治理类规章（生成式AI暂行办法、无障碍环境建设法）。
-- 背景资料：三区两翼、海淀“1+X+1”产业体系 [source:THREE-AREAS-TWO-WINGS] [source:HAIDIAN-1X1] 与国办 45 号文 [source:ELDERLY-SMART-TECH-PLAN]，仅用于语境，不支撑空间控制结论。
+- 背景资料：三区两翼、海淀“1+X+1”产业体系 [source:THREE-AREAS-TWO-WINGS] [source:HAIDIAN-1X1]、国办 45 号文 [source:ELDERLY-SMART-TECH-PLAN]，以及京张遗址公园沿线街区控规获批的公开报道 [source:BEIJING-JZ-CONTROL-PLAN-APPROVAL-20260812]——该报道确认控规已于 2026 年 8 月获批（规划期 2024–2035），但指标明细与街区图则未在该页披露，仅用于状态与语境，不支撑空间控制结论。
 - provisional-only：临时粗略边界 [source:PROVISIONAL-BOUNDARIES]，仅用于生成、展示与临时自检。
 
 ## 三层范围工作框架
@@ -72,6 +72,16 @@ VI 方向在实际视觉证据中落地：命名树（带级—片区级—节�
 ### 总体空间结构与区域协同
 
 总体空间结构为“**一带三核、多点场景、蓝绿慢行复合环**”：一带是京张遗址公园活力带（历史与公共空间主轴，南北贯通）；三核是三处重点区；多点场景是十二个可运营 AI 场景节点；复合环是串联三核、公园与两翼的蓝绿慢行环及轨道站点接驳 [depth:blue_green_public_space]。区域协同只表达基于已登记背景资料的**建议流动关系**：海淀侧承接研发、孵化与测试，未来科学城和怀柔科学城可作为科研协同方向，经开区可作为工程化与制造协同方向，京津冀可作为应用与供应链协同方向 [source:THREE-AREAS-TWO-WINGS] [source:HAIDIAN-1X1]。这些箭头不是已签约关系、官方分工或政府承诺；主体、项目、容量与时序均须另行确认。
+
+### 统治性规则：先日常、后叠加；未过 G0，不点亮
+
+本方案的所有 AI 场景服从一条贯穿始终的规则：**普通人的完整使用优先于任何 AI 演示——场景只是城市日常之上的可关闭叠加层**。它落实为三条可检查的纪律：
+
+1. **未过 G0，不点亮**：每个场景节点从“概念”走向“点亮”必须通过 G0 确定性桌面推演（规则纯函数重放，零模型调用、零现场活动、零个人数据）并落实等价人工通道；
+2. **失败只关叠加，不断日常**：任何场景触发 stop/hold 只关闭该叠加场景，普通市民的公园、通勤与生活使用不受影响；
+3. **三核互不可替换**：众智园的“旁路测试花园”、原点社区的“一街两院转化”、大钟寺的“四象限通勤加外挂服务”是三种不同的空间机制，不共用同一模板。
+
+场景点亮采用三级阶梯 [metric:scenario_lighting_e0_count] [metric:scenario_lighting_e1_count] [metric:scenario_lighting_e2_count]：**E0 概念**（4 个，未点亮，仅表达方向）、**E1 可试点候选**（5 个，满足点亮前置条件，仍非运营批准）、**E2 试点验证**（3 个 TVS，具备试点验证级设计，真实运营须另行许可与安全评估）。阶梯是证据门槛，不是进度承诺。
 
 ### 未来城市形态（agent.1 之展望）
 
@@ -136,7 +146,7 @@ VI 方向在实际视觉证据中落地：命名树（带级—片区级—节�
 
 ### 开发强度与建筑规模（待确认）
 
-建筑总规模、容积率、建筑高度、建筑密度与绿地率均依赖官方控规条件。本包明确标记 `unknown` 并给出重算触发条件 [metric:floor_area_ratio] [metric:total_floor_area_sqm] [metric:building_height_max_m]；仅建筑覆盖率（示意基底/边界）可由提交几何复算 [metric:building_coverage_ratio]。示意建筑基底见 [data:geometry/buildings.geojson#BLDG-001]，不代表现状建筑 [depth:height_massing_character]。
+建筑总规模、容积率、建筑高度、建筑密度与绿地率均依赖官方控规条件。沿线街区控规已获批（2026 年 8 月公开报道，规划期 2024–2035 [source:BEIJING-JZ-CONTROL-PLAN-APPROVAL-20260812]），但容积率、高度等地块级指标明细未在公开渠道披露，本包仍将其明确标记 `unknown` 并给出重算触发条件 [metric:floor_area_ratio] [metric:total_floor_area_sqm] [metric:building_height_max_m]；仅建筑覆盖率（示意基底/边界）可由提交几何复算 [metric:building_coverage_ratio]。示意建筑基底见 [data:geometry/buildings.geojson#BLDG-001]，不代表现状建筑 [depth:height_massing_character]。
 
 ## 重点区域详细设计
 
@@ -201,6 +211,12 @@ VI 方向在实际视觉证据中落地：命名树（带级—片区级—节�
 | SC-11 接驳测试道 | 研发团队、乘客及沿线公众；获批试验申请/现场人工服务点；限定测试走廊 | 提交车辆、路线和安全员信息 → 路线核验、班前检查、限域运行、远程监控和事件复盘 → 测试里程、接管/停运记录 | 不采集无关行人身份；车上安全员和远程人工接管；定位/通信/安全员任一失效即停车；现场/电话投诉和复核；交通主管部门依法审批，运营方执行；不使用智能终端者可现场登记并获得同等人工接驳信息 | 准入：法定道路测试许可、封闭/限定条件、保险、应急预案；班前检查→空载→载客→复盘；越界、失联、严重事件或接管阈值超限即退出 | 每千公里接管次数（车辆日志）；最小风险停车成功率（事件记录）；班前检查合格率（检查单）；投诉闭环时长（台账） |
 
 三项蓝图均处于**概念试点设计**，不代表已获准运营。银发、无障碍和不使用智能终端的人可在各节点通过人工窗口、电话或纸质表单获得与数字入口等价的登记、状态查询、结果解释和申诉服务；不得因选择人工渠道降低服务等级。
+
+#### G0 确定性推演证据与无账户权利契约
+
+为使治理规则“可检验”而不只是“可朗读”，三个 TVS 各自完成了 **G0 确定性桌面推演** [data:visual/assets/tvs_g0_replay_evidence.json]：把蓝图里的准入、复核、停止、恢复规则实现为纯函数，对 24 个决策点做规则重放 [metric:tvs_g0_decision_point_count]——期望决策与实际决策由同一规则函数独立产出，**24/24 全部一致** [metric:tvs_g0_expected_decision_match_ratio]；stop/hold/recover/proceed 四类分支均有决策点覆盖（11/4/3/6）[metric:tvs_g0_stop_recovery_branch_coverage_ratio]；15 个 stop/hold 控制点全部带人工复核点与等价人工服务，**fail-closed 执行率 15/15** [metric:tvs_g0_fail_closed_enforcement_ratio]。推演零模型调用、零现场活动、零个人数据，不声称任何 G1+ 现场证据。
+
+配套的**非 AI 等价与无账户权利契约** [data:visual/assets/non_ai_parity_contract.json] 把公共权利写成七条可检查的承诺 [metric:no_account_right_count]：无账户使用、不强制扫码、非 AI 同任务路线、低扰动运行、人工停止权、申诉与更正、数据最小化不画像；十二张场景卡全部覆盖等价人工服务声明 [metric:non_ai_equivalent_service_scenario_coverage_ratio]。契约的覆盖率全部由包内可数内容复算，不含任何现场或运营数据。
 
 ### 场景-空间-运营矩阵与小月河公共体验路径
 
@@ -300,7 +316,7 @@ VI 方向在实际视觉证据中落地：命名树（带级—片区级—节�
 征集 100 天设计周期与实施分期明确区分 [source:OFFICIAL-ANNOUNCEMENT] [depth:phasing_implementation]。实施分三期：
 
 - **一期 · 重点区场景启动**（约 241 公顷，可讨论范围 [data:geometry/phasing.geojson#PHASE-001] [metric:phasing_phase_1_area_sqm]）：大钟寺、AI 原点社区两处重点区与绿脉南段先行，轻量设施、场景开放日、原点发布厅试点与公共体验路线试运行；
-- **二期 · 走廊更新与两翼缝合**（约 699 公顷，[data:geometry/phasing.geojson#PHASE-002] [metric:phasing_phase_2_area_sqm]）：待控规、道路、市政与权属条件逐步确认后推进站城一体化、用地更新与科技服务翼、近校界面、小月河两岸的产业载体；
+- **二期 · 走廊更新与两翼缝合**（约 699 公顷，[data:geometry/phasing.geojson#PHASE-002] [metric:phasing_phase_2_area_sqm]）：控规已获批 [source:BEIJING-JZ-CONTROL-PLAN-APPROVAL-20260812]，待指标明细、道路、市政与权属条件逐步确认后推进站城一体化、用地更新与科技服务翼、近校界面、小月河两岸的产业载体；
 - **三期 · 众智园全栈成熟与清河界面**（约 201 公顷，[data:geometry/phasing.geojson#PHASE-003] [metric:phasing_phase_3_area_sqm]）：全栈自主创新载体集聚、清河低碳界面与品牌资产、开发者社区、数据治理等长期治理机制沉淀。
 
 **年度活动体系与品牌/IP**：以“京张智脉”为活动母品牌，形成**四季十二主题**活动节奏（春·场景开放季、夏·开发者季、秋·路演与活动周、冬·成果发布与年度论坛），其中年度**全球AI活动周**为旗舰 IP；子 IP 包括开发者日、场景开放日、国际路演季与京张文化季。所有活动安排均为**提议**，不写成已确定政府活动 [source:AGENT-TASKBOOK]。

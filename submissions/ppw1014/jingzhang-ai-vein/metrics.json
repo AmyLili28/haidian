@@ -502,7 +502,7 @@
       "formula": "total_floor_area_sqm / official_site_area_sqm",
       "confidence": "unknown",
       "assumptions": [],
-      "reason": "公告与公开资料未提供总体设计范围控规强度条件；容积率属法定规划判断，本方案不得给出"
+      "reason": "沿线街区控规已于2026-08获批（公开报道，规划期2024–2035），但容积率等地块级指标明细未在公开渠道披露；法定强度判断不由本方案给出"
     },
     "total_floor_area_sqm": {
       "status": "unknown",
@@ -514,7 +514,7 @@
       "formula": "sum(building floor area)",
       "confidence": "unknown",
       "assumptions": [],
-      "reason": "缺官方控规建筑规模条件；示意基底不足以推算总规模"
+      "reason": "控规已获批但公开页未披露地块指标明细；示意基底不足以推算总规模"
     },
     "building_height_max_m": {
       "status": "unknown",
@@ -551,6 +551,125 @@
       "confidence": "unknown",
       "assumptions": [],
       "reason": "同 road_area_sqm：待官方道路红线数据"
+    },
+    "tvs_g0_decision_point_count": {
+      "status": "known",
+      "value": 24,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/tvs_g0_replay_evidence.json"
+      ],
+      "formula": "count(decision points across SC-02/SC-08/SC-11 deterministic tabletop replay)",
+      "confidence": "high",
+      "assumptions": [
+        "G0=确定性桌面推演：规则纯函数重放，零模型调用、零现场活动、零个人数据"
+      ]
+    },
+    "tvs_g0_expected_decision_match_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/tvs_g0_replay_evidence.json"
+      ],
+      "formula": "match_count / decision_points（expected 与 actual 由同一规则函数独立产出）",
+      "confidence": "high",
+      "assumptions": [
+        "24/24 决策点期望与实际一致；不一致会使证据生成失败"
+      ]
+    },
+    "tvs_g0_stop_recovery_branch_coverage_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/tvs_g0_replay_evidence.json"
+      ],
+      "formula": "covered_branch_types / 4（stop/hold/recover/proceed 四类分支均有决策点覆盖）",
+      "confidence": "high",
+      "assumptions": [
+        "stop=11 hold=4 recover=3 proceed=6"
+      ]
+    },
+    "tvs_g0_fail_closed_enforcement_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/tvs_g0_replay_evidence.json"
+      ],
+      "formula": "fail_closed_enforced / fail_closed_controls（每个 stop/hold 分支均有人工复核点与等价人工服务）",
+      "confidence": "high",
+      "assumptions": [
+        "15/15"
+      ]
+    },
+    "non_ai_equivalent_service_scenario_coverage_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/non_ai_parity_contract.json",
+        "proposal.md"
+      ],
+      "formula": "场景卡含等价人工服务声明数 / 12",
+      "confidence": "high",
+      "assumptions": [
+        "由包内场景卡与契约文件可数内容复算"
+      ]
+    },
+    "no_account_right_count": {
+      "status": "known",
+      "value": 7,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/non_ai_parity_contract.json"
+      ],
+      "formula": "count(无账户/不扫码/非AI同任务/低扰动/人工停止/申诉更正/最小化不画像 七项权利)",
+      "confidence": "high",
+      "assumptions": [
+        "权利为方案设计承诺，非法定认证"
+      ]
+    },
+    "scenario_lighting_e0_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "geometry/public_space.geojson"
+      ],
+      "formula": "count(点亮阶梯 E0 概念级场景节点：SC-03/06/09/12)",
+      "confidence": "high",
+      "assumptions": [
+        "E0=概念（未点亮），E1=可试点候选（G0 通过+人工通道），E2=试点验证（需真实运营数据）"
+      ]
+    },
+    "scenario_lighting_e1_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(点亮阶梯 E1 可试点候选场景节点：SC-01/04/05/07/10)",
+      "confidence": "high",
+      "assumptions": [
+        "点亮前置条件=通过 G0 推演 + 等价人工通道就位；E1 仍非运营批准"
+      ]
+    },
+    "scenario_lighting_e2_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(点亮阶梯 E2 试点验证场景：SC-02/08/11 三个 TVS)",
+      "confidence": "high",
+      "assumptions": [
+        "E2 需真实运营数据，当前仅为试点验证级设计，不代表已获批准"
+      ]
     }
   }
 }

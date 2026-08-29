@@ -1,0 +1,526 @@
+{
+  "schema_version": "0.1.0",
+  "generated_date": "2026-08-29",
+  "evidence_tier": "G0_deterministic_tabletop",
+  "honesty_declaration": [
+    "本证据为 submission-authored 确定性桌面推演（G0）：决策规则是 proposal 已声明规则的纯函数重放，expected 与 actual 由同一规则函数产出，任何不一致都会使生成失败。",
+    "零模型调用、零现场活动、零个人数据、零真实运营、零审批——不声称任何 G1+ 现场证据。",
+    "所有步骤提供等价人工服务通道；stop/hold 分支即人工复核点。"
+  ],
+  "totals": {
+    "decision_points": 24,
+    "expected_actual_match_count": 24,
+    "expected_actual_match_ratio": 1.0,
+    "stop_branch_count": 11,
+    "hold_branch_count": 4,
+    "recover_branch_count": 3,
+    "proceed_branch_count": 6,
+    "stop_recovery_branch_coverage": "stop/hold/recover/proceed 四类分支均有覆盖",
+    "fail_closed_controls_total": 15,
+    "fail_closed_controls_enforced": 15,
+    "fail_closed_enforcement_ratio": 1.0
+  },
+  "cases": [
+    {
+      "case_id": "SC-02",
+      "name_zh": "红队沙盒·安全治理馆",
+      "decision_points": 8,
+      "expected_actual_match_count": 8,
+      "expected_actual_match_ratio": 1.0,
+      "stop_branch_count": 2,
+      "hold_branch_count": 1,
+      "recover_branch_count": 1,
+      "proceed_branch_count": 4,
+      "stop_path_decisions": [
+        "SC-02-D01",
+        "SC-02-D02"
+      ],
+      "fail_closed_controls_total": 3,
+      "fail_closed_controls_enforced": 3,
+      "fail_closed_enforcement_ratio": 1.0,
+      "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-02）：授权/隔离/专家复核/申诉规则",
+      "steps": [
+        {
+          "decision_id": "SC-02-D01",
+          "precondition": [
+            false,
+            true,
+            "none",
+            true,
+            false
+          ],
+          "expected_decision": "refuse_entry",
+          "actual_decision": "refuse_entry",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-02）：授权/隔离/专家复核/申诉规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-02-D02",
+          "precondition": [
+            true,
+            false,
+            "none",
+            true,
+            false
+          ],
+          "expected_decision": "halt_test_isolation_failure",
+          "actual_decision": "halt_test_isolation_failure",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-02）：授权/隔离/专家复核/申诉规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-02-D03",
+          "precondition": [
+            true,
+            true,
+            "severe",
+            false,
+            false
+          ],
+          "expected_decision": "hold_result_expert_review_required",
+          "actual_decision": "hold_result_expert_review_required",
+          "match": true,
+          "branch": "hold",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-02）：授权/隔离/专家复核/申诉规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-02-D04",
+          "precondition": [
+            true,
+            true,
+            "severe",
+            true,
+            false
+          ],
+          "expected_decision": "release_report_with_remediation",
+          "actual_decision": "release_report_with_remediation",
+          "match": true,
+          "branch": "proceed",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-02）：授权/隔离/专家复核/申诉规则",
+          "human_override_point": false,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-02-D05",
+          "precondition": [
+            true,
+            true,
+            "severe",
+            true,
+            true
+          ],
+          "expected_decision": "reopen_with_independent_retest",
+          "actual_decision": "reopen_with_independent_retest",
+          "match": true,
+          "branch": "recover",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-02）：授权/隔离/专家复核/申诉规则",
+          "human_override_point": false,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-02-D06",
+          "precondition": [
+            true,
+            true,
+            "minor",
+            true,
+            false
+          ],
+          "expected_decision": "release_report_with_remediation",
+          "actual_decision": "release_report_with_remediation",
+          "match": true,
+          "branch": "proceed",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-02）：授权/隔离/专家复核/申诉规则",
+          "human_override_point": false,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-02-D07",
+          "precondition": [
+            true,
+            true,
+            "none",
+            true,
+            false
+          ],
+          "expected_decision": "release_pass_report",
+          "actual_decision": "release_pass_report",
+          "match": true,
+          "branch": "proceed",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-02）：授权/隔离/专家复核/申诉规则",
+          "human_override_point": false,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-02-D08",
+          "precondition": [
+            true,
+            true,
+            "minor",
+            false,
+            false
+          ],
+          "expected_decision": "release_report_with_remediation",
+          "actual_decision": "release_report_with_remediation",
+          "match": true,
+          "branch": "proceed",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-02）：授权/隔离/专家复核/申诉规则",
+          "human_override_point": false,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        }
+      ]
+    },
+    {
+      "case_id": "SC-08",
+      "name_zh": "数据要素会客厅",
+      "decision_points": 8,
+      "expected_actual_match_count": 8,
+      "expected_actual_match_ratio": 1.0,
+      "stop_branch_count": 3,
+      "hold_branch_count": 3,
+      "recover_branch_count": 1,
+      "proceed_branch_count": 1,
+      "stop_path_decisions": [
+        "SC-08-D01",
+        "SC-08-D02",
+        "SC-08-D07"
+      ],
+      "fail_closed_controls_total": 6,
+      "fail_closed_controls_enforced": 6,
+      "fail_closed_enforcement_ratio": 1.0,
+      "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-08）：合法来源/用途/最小字段/审计/撤回/下架规则",
+      "steps": [
+        {
+          "decision_id": "SC-08-D01",
+          "precondition": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "expected_decision": "reject_application",
+          "actual_decision": "reject_application",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-08）：合法来源/用途/最小字段/审计/撤回/下架规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-08-D02",
+          "precondition": [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          "expected_decision": "reject_purpose_out_of_scope",
+          "actual_decision": "reject_purpose_out_of_scope",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-08）：合法来源/用途/最小字段/审计/撤回/下架规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-08-D03",
+          "precondition": [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "expected_decision": "return_for_field_reduction",
+          "actual_decision": "return_for_field_reduction",
+          "match": true,
+          "branch": "hold",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-08）：合法来源/用途/最小字段/审计/撤回/下架规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-08-D04",
+          "precondition": [
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          "expected_decision": "hold_pending_compliance_review",
+          "actual_decision": "hold_pending_compliance_review",
+          "match": true,
+          "branch": "hold",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-08）：合法来源/用途/最小字段/审计/撤回/下架规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-08-D05",
+          "precondition": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "expected_decision": "release_audited_result",
+          "actual_decision": "release_audited_result",
+          "match": true,
+          "branch": "proceed",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-08）：合法来源/用途/最小字段/审计/撤回/下架规则",
+          "human_override_point": false,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-08-D06",
+          "precondition": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "expected_decision": "purge_and_confirm_withdrawal",
+          "actual_decision": "purge_and_confirm_withdrawal",
+          "match": true,
+          "branch": "recover",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-08）：合法来源/用途/最小字段/审计/撤回/下架规则",
+          "human_override_point": false,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-08-D07",
+          "precondition": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "expected_decision": "delist_and_freeze_audit",
+          "actual_decision": "delist_and_freeze_audit",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-08）：合法来源/用途/最小字段/审计/撤回/下架规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-08-D08",
+          "precondition": [
+            true,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          "expected_decision": "return_for_field_reduction",
+          "actual_decision": "return_for_field_reduction",
+          "match": true,
+          "branch": "hold",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-08）：合法来源/用途/最小字段/审计/撤回/下架规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        }
+      ]
+    },
+    {
+      "case_id": "SC-11",
+      "name_zh": "自动驾驶接驳测试道",
+      "decision_points": 8,
+      "expected_actual_match_count": 8,
+      "expected_actual_match_ratio": 1.0,
+      "stop_branch_count": 6,
+      "hold_branch_count": 0,
+      "recover_branch_count": 1,
+      "proceed_branch_count": 1,
+      "stop_path_decisions": [
+        "SC-11-D01",
+        "SC-11-D02",
+        "SC-11-D03",
+        "SC-11-D04",
+        "SC-11-D05",
+        "SC-11-D06"
+      ],
+      "fail_closed_controls_total": 6,
+      "fail_closed_controls_enforced": 6,
+      "fail_closed_enforcement_ratio": 1.0,
+      "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-11）：许可/班前检查/围栏/失联/接管/事件规则",
+      "steps": [
+        {
+          "decision_id": "SC-11-D01",
+          "precondition": [
+            false,
+            true,
+            true,
+            true,
+            0,
+            "none",
+            false
+          ],
+          "expected_decision": "refuse_run",
+          "actual_decision": "refuse_run",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-11）：许可/班前检查/围栏/失联/接管/事件规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-11-D02",
+          "precondition": [
+            true,
+            false,
+            true,
+            true,
+            0,
+            "none",
+            false
+          ],
+          "expected_decision": "cancel_run_precheck_failed",
+          "actual_decision": "cancel_run_precheck_failed",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-11）：许可/班前检查/围栏/失联/接管/事件规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-11-D03",
+          "precondition": [
+            true,
+            true,
+            false,
+            true,
+            0,
+            "none",
+            false
+          ],
+          "expected_decision": "minimal_risk_stop",
+          "actual_decision": "minimal_risk_stop",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-11）：许可/班前检查/围栏/失联/接管/事件规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-11-D04",
+          "precondition": [
+            true,
+            true,
+            true,
+            false,
+            0,
+            "none",
+            false
+          ],
+          "expected_decision": "minimal_risk_stop_lost_link",
+          "actual_decision": "minimal_risk_stop_lost_link",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-11）：许可/班前检查/围栏/失联/接管/事件规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-11-D05",
+          "precondition": [
+            true,
+            true,
+            true,
+            true,
+            0,
+            "serious",
+            false
+          ],
+          "expected_decision": "stop_and_preserve_scene",
+          "actual_decision": "stop_and_preserve_scene",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-11）：许可/班前检查/围栏/失联/接管/事件规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-11-D06",
+          "precondition": [
+            true,
+            true,
+            true,
+            true,
+            4,
+            "none",
+            false
+          ],
+          "expected_decision": "suspend_corridor_retest_required",
+          "actual_decision": "suspend_corridor_retest_required",
+          "match": true,
+          "branch": "stop",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-11）：许可/班前检查/围栏/失联/接管/事件规则",
+          "human_override_point": true,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-11-D07",
+          "precondition": [
+            true,
+            true,
+            true,
+            true,
+            2,
+            "minor",
+            true
+          ],
+          "expected_decision": "continue_with_logged_event",
+          "actual_decision": "continue_with_logged_event",
+          "match": true,
+          "branch": "recover",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-11）：许可/班前检查/围栏/失联/接管/事件规则",
+          "human_override_point": false,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        },
+        {
+          "decision_id": "SC-11-D08",
+          "precondition": [
+            true,
+            true,
+            true,
+            true,
+            1,
+            "none",
+            false
+          ],
+          "expected_decision": "run_and_log_mileage",
+          "actual_decision": "run_and_log_mileage",
+          "match": true,
+          "branch": "proceed",
+          "policy_source": "proposal.md §三个TVS的可测试服务蓝图（SC-11）：许可/班前检查/围栏/失联/接管/事件规则",
+          "human_override_point": false,
+          "equivalent_human_service": "人工窗口/柜台执行同一规则并出具同一记录"
+        }
+      ]
+    }
+  ],
+  "self_digest_sha256": "19a3feca711b4f03ebd8ccdf590f7a1df79814399b654eba8a578c90ed8bc38b"
+}

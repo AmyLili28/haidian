@@ -62,16 +62,18 @@
         "submissions/ppw1014/jingzhang-ai-vein/standard_matrix.json",
         "submissions/ppw1014/jingzhang-ai-vein/visual/assets/accessibility_qa.json",
         "submissions/ppw1014/jingzhang-ai-vein/visual/assets/manual_visual_check.json",
+        "submissions/ppw1014/jingzhang-ai-vein/visual/assets/non_ai_parity_contract.json",
         "submissions/ppw1014/jingzhang-ai-vein/visual/assets/parity_qa.json",
         "submissions/ppw1014/jingzhang-ai-vein/visual/assets/rights_ledger.json",
         "submissions/ppw1014/jingzhang-ai-vein/visual/assets/taskbook_coverage.json",
+        "submissions/ppw1014/jingzhang-ai-vein/visual/assets/tvs_g0_replay_evidence.json",
         "submissions/ppw1014/jingzhang-ai-vein/visual/index.en.html",
         "submissions/ppw1014/jingzhang-ai-vein/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/ppw1014/jingzhang-ai-vein": "formal"
       },
-      "total_bytes": 12208434,
+      "total_bytes": 12260433,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -190,15 +192,15 @@
       "summary": {
         "standard_matrix_items": 8,
         "design_depth_items": 15,
-        "known_metric_refs_required": 33,
+        "known_metric_refs_required": 42,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 17,
+          "source": 18,
           "standard": 7,
           "depth": 15,
-          "data": 34,
-          "metric": 38
+          "data": 36,
+          "metric": 47
         }
       }
     },
