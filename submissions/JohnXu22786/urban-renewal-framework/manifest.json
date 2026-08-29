@@ -27,7 +27,7 @@
       "path": "agent.json",
       "role": "agent_card",
       "required": true,
-      "sha256": "0b97dd17db3a7f708692c0ca4f6804ee7f6ca9cc4cb4b2a675a797dcff7176e2"
+      "sha256": "1c27ed57fa735c244a39bbc963db4348b1666a491c9dcb10a4d2726f2acca917"
     },
     {
       "path": "assumptions.json",
@@ -57,7 +57,7 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "bd4e148e9f63072e103394ed7133a4a90d904eaa5faf81a925908dd8111ea4ff"
+      "sha256": "6e33dd95b1620f54490ea2d9817709b72f34a4f14bb371617709b0b98411892e"
     },
     {
       "path": "proposal.en.md",
@@ -65,20 +65,20 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "9993f0086d73e18f36446268bc370f30a478af0867a26f0f044220a19b70e71e"
+      "sha256": "76906c46e692c5ee5dcea08eec77a5624c6e983f28acf4120e08f14c1703d5cb"
     },
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "886e4ad87971132a7f1d68545c1fbde356bc4c5a1545ebf3cf2cd381d0884dea"
+      "sha256": "9d1692f3c3fdbe7a93e1849f4047e7b8e6c30b152c70b6ce44f7ddab186069cc"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "e30cb832dd69538770a62b25722b60ef14037967825fc91a5a5a2c88a68549b7"
+      "sha256": "b261bcd313fe32131e4933a4f7fb3c84db396269314fc9da3a88bf7f414efce0"
     },
     {
       "path": "sources.json",
@@ -203,14 +203,14 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "4a629a287395f01e9dabb79325a8b30d3f2f4521264804afa8c8c0427fc2602d"
+      "sha256": "6f8a1a360d02b13c38578bcd4b7a0dcb6cf7eace09eb4a45ed790f7e55694443"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "ed802ac836f66d1175962f529d08b579028562c708537cd4cce5826a558202de"
+      "sha256": "e355643bfdaf115784967b3e99c5c9c6d08ebf43bfae79b843ae3a79eadde250"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -218,14 +218,14 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "9e558508f0b4c96022affd1fa7d94d4488159fb0fe7044a5fae9cfa06de90c7f"
+      "sha256": "9cb934797fb18279ed02ab59f1e0f6e93e58ccdd35019893cc32d862c1c5666d"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "a5830583ea218ae85a4f585aa649a45ea5c5b4bd4c8c83ae8c79f75f1b3f018d"
+      "sha256": "d1bd727da052c0c2395fe55cf0e90c25f814b28960df86c34f21eac110912b4e"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -299,14 +299,14 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "1dc837074a7e1857b785d925ae8d3e9388fdf42ac07723b096c816298ca17b1b"
+      "sha256": "35912ebd44a0fa7439974f71fcc15d91a2f98bc08036fc1f49e7e82589ebf2cd"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "1615c6082f806d6e5951539811c5dc07ef98ba3dc6feff6ce12135d71efcd0e3"
+      "sha256": "c04ce26bd485547e0ab37a2abb629851dd05b003ebebbeae3197d494abad3f41"
     },
     {
       "path": "visual/index.en.html",
@@ -314,22 +314,22 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "d19c5baf0772b12bbf67bd04960e3cd4ee834fd0c1caff8fd984bd42565893db"
+      "sha256": "9976eb9d435780b4e21e9862f34b02d3f350864d97fed695d4ea4a707494f842"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "8953abb00b2164239fee7af57bd75d96f25f8002dee6c7d085a9a58f734944e7"
+      "sha256": "30f874e1a773e1912bb7cbb996d6637a014cf0050ea300f9543f10adab7862c7"
     },
     {
       "path": "risk.json",
       "role": "other",
+      "role_detail": "risk",
       "required": true,
       "language": "neutral",
-      "sha256": "72ce9baa738d5d871f1d20d790b19d9b215b1e0650022fffbdfd5e472af7d081",
-      "role_detail": "risk"
+      "sha256": "477a7accce2cbd04cb3b73dd8fd4bd750d595da500b528bfaac6f491750b402f"
     },
     {
       "path": "visual/assets/figure_qc.json",
