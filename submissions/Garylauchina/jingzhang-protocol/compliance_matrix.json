@@ -1405,7 +1405,7 @@
         "AGENT-TASKBOOK",
         "OFFICIAL-ANNOUNCEMENT",
         "OPEN-CALL-PROJECT-STATEMENT",
-        "SUBMISSION-INTAKE-PR-4007",
+        "SUBMISSION-INTAKE-PR-4017",
         "COMMUNITY-GEOMETRY-CROSSCHECK-1029",
         "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
         "STATE-COUNCIL-AI-PLUS-2025",
@@ -1436,7 +1436,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-    "evidence_summary_zh": "‘京张，再次开路’以六节点网络和五旗舰试点统筹三区两翼，AI City API、城市公约、人工接管与七接口仅构成次级可信运行层；北纬社区、未来科学城、怀柔科学城、经开区和京津冀均为概念协作接口，不表示已确认合作、项目或空间边界；三间街室和I1-I7实体节点作为次级可信运行证据，为六节点网络和五旗舰提供可核验但非官方的责任接口；SOURCE、STACK、PROVE、LIVE_MARKET、ENABLE、COMMONS六节点由六个唯一几何锚点组织，五旗舰负责实施转化，可信运行层保持次级支撑；六角色各有且仅有一个临时几何锚点。V0.9以官方战略和项目直连来源校准六项转化能力与横贯式可信运行层；整套框架不构成国家试点、获批、采纳、实施或领先证明。V0.13增加双层验证：公开任务—Agent生成—来源/假设—机器校验及V0.12前序版的Issue/PR intake记录是已观察环节；人类终判和知识返还尚未观察但权限已保留。当前V0.13是本次PR投稿版，实时intake状态只以PR记录为准，提交本身不等于接收；城市服务仍须H0-H4外部实证。两层证据不得相互替代。",
+    "evidence_summary_zh": "‘京张，再次开路’以六节点网络和五旗舰试点统筹三区两翼，AI City API、城市公约、人工接管与七接口仅构成次级可信运行层；北纬社区、未来科学城、怀柔科学城、经开区和京津冀均为概念协作接口，不表示已确认合作、项目或空间边界；三间街室和I1-I7实体节点作为次级可信运行证据，为六节点网络和五旗舰提供可核验但非官方的责任接口；SOURCE、STACK、PROVE、LIVE_MARKET、ENABLE、COMMONS六节点由六个唯一几何锚点组织，五旗舰负责实施转化，可信运行层保持次级支撑；六角色各有且仅有一个临时几何锚点。V0.9以官方战略和项目直连来源校准六项转化能力与横贯式可信运行层；整套框架不构成国家试点、获批、采纳、实施或领先证明。V0.13增加双层验证：公开任务—Agent生成—来源/假设—机器校验及V0.12前序版的Issue/PR intake记录是已观察环节；人类终判和知识返还尚未观察但权限已保留。PR #4017证明V0.13直接前序版已完成仓库intake并合并；本包不自行声明V0.14当前PR或intake状态；若V0.14发布，只有对应实时PR与官方标签构成状态证据，提交仍不等于接收；城市服务仍须H0-H4外部实证。两层证据不得相互替代。",
     "evidence_files": [
       "visual/assets/agent-participation-ledger.json",
       "visual/assets/verify-agent-participation-ledger.js",
@@ -1881,7 +1881,7 @@
       "source_ids": [
         "AGENT-TASKBOOK",
         "OPEN-CALL-PROJECT-STATEMENT",
-        "SUBMISSION-INTAKE-PR-4007",
+        "SUBMISSION-INTAKE-PR-4017",
         "HIST-JINGZHANG-RAILWAY",
         "HIST-JINGZHANG-PARK",
         "HIST-JINGZHANG-AI-BELT"
@@ -1978,7 +1978,18 @@
         "fp01_d0_measurement_method_coverage_ratio",
         "fp01_hold_point_raci_coverage_ratio",
         "fp01_design_test_boq_item_count",
-        "fp01_critical_dependency_step_count"
+        "fp01_critical_dependency_step_count",
+        "fp01_delivery_role_class_count",
+        "fp01_hold_point_single_decision_owner_ratio",
+        "fp01_acceptance_indicator_count",
+        "fp01_immediately_judgeable_acceptance_indicator_count",
+        "fp01_field_dependent_acceptance_indicator_count",
+        "fp01_release_stage_count",
+        "fp01_external_release_granted_count",
+        "fp01_fallback_alternative_count",
+        "fp01_cost_plan_class_count",
+        "fp01_verified_cost_input_count",
+        "fp01_documented_authorized_site_action_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1993,7 +2004,7 @@
       "source_ids": [
         "AGENT-TASKBOOK",
         "OPEN-CALL-PROJECT-STATEMENT",
-        "SUBMISSION-INTAKE-PR-4007",
+        "SUBMISSION-INTAKE-PR-4017",
         "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
         "STATE-COUNCIL-AI-PLUS-2025",
         "NATIONAL-FIFTEENTH-FIVE-YEAR-AI-APPLICATION-2025",
@@ -2027,7 +2038,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-    "evidence_summary_zh": "季度开放、半年审查、年度大会和持续版本日志通过场景及分期空间承载；活动、预算、主体和时序均为概念机制；三条旅程和三处能力返还台把长期运营的暂停、补救、退役及公共能力返还写成引用完整的概念登记，不声称已经兑现；每项试点以90日go/revise/stop记录进入一年评估，未验证采购、扩散、标准和公共收益继续保持unknown。V0.13将brief—Agent—结构化证据—机器校验—Issue/PR—人类专业判断—深化—公共知识登记为长期方法链，并提出京张共创档案第0卷同时保存失败、异议、撤回和未采用理由；正式评选、采纳与实施仍保持未证实。",
+    "evidence_summary_zh": "季度开放、半年审查、年度大会和持续版本日志通过场景及分期空间承载；活动、预算、主体和时序均为概念机制；三条旅程和三处能力返还台把长期运营的暂停、补救、退役及公共能力返还写成引用完整的概念登记，不声称已经兑现；每项试点以90日go/revise/stop记录进入一年评估，未验证采购、扩散、标准和公共收益继续保持unknown。V0.13将brief—Agent—结构化证据—机器校验—Issue/PR—人类专业判断—深化—公共知识登记为长期方法链，并提出京张共创档案第0卷同时保存失败、异议、撤回和未采用理由。V0.14把每次服务前、重大版本变化后、事件发生时和退出/换运营方时的维护动作，与四种可逆备选和六级条件释放接入长期运营；所有外部释放仍为0，正式评选、采纳与实施保持未证实。",
       "geojson_feature_ids": [
         "PHASE-001",
         "PHASE-002",

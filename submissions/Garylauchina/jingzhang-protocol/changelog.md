@@ -1,5 +1,21 @@
 # 方案迭代记录
 
+## v0.14.1 - 2026-08-31
+
+- Closed the Review Agent's participant-side P0 rendering blocker by linking both required `report/proposal*.html` files to the same local Noto Sans SC WOFF2 subset already used by the bilingual visual exhibits. The fix changes presentation portability only; it does not alter the proposal, geometry, metrics, implementation state or evidence claims.
+- Made the local font-build helper idempotently restore the four HTML font links before rebuilding the subset, so a later report regeneration cannot silently reintroduce the Linux/Chromium missing-CJK failure.
+- Synchronized the copyright statement with the rebuilt CSS asset's exact byte count and SHA-256 so the disclosed font provenance remains independently verifiable.
+
+## v0.14 - 2026-08-31
+
+- Kept the stable title **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND**, the six-capability network, twelve scenes, five flagships and all provisional geometry unchanged. V0.14 is a candidate package that does not self-assert its live PR or intake status; any publication state is governed by the corresponding PR and official labels.
+- Added a 30-second / 3-minute / 15-minute juror path and a seven-dimension evidence index using the official 20/10/15/20/10/10/15 weights. The index points to exact package evidence and boundaries; it does not self-award a score.
+- Expanded `fp01-delivery-control.json` to v0.2.0 with sixteen delivery role classes, one decision-owner role at each H0-H4 gate, seven cost classes, four maintenance controls, twelve acceptance indicators, six conditional release stages and four reversible fallbacks. Its dedicated verifier now passes 21/21 checks.
+- Separated eight proposal-structure acceptance indicators that a reviewer can judge now from four indicators that still require a real problem/baseline, field/professional conditions, independent rehearsal and separate authorization.
+- Kept the truthful operational boundary explicit: H0-H4 external verification remains 0/5; external release, verified cost inputs and documented authorized site actions remain zero. Missing quotes do not imply zero cost, and zero records make no claim about activity outside this package.
+- Rebuilt the paired `metrics-evidence` and `technical-delivery-sheet` figures, placed a juror map on A0 board 1, moved FP01 conditional delivery to A0 board 4, and added the three reading paths to both A3 covers and both offline-visual first screens. The bilingual A3 and A0 contracts remain 13 pages and four boards respectively.
+- Regenerated both proposal HTML reports and the shared offline Noto Sans SC subset from the four current HTML artifacts. Updated the copyright disclosure, source/assumption boundaries, evidence matrices and Agent-participation ledger without inventing operators, budgets, quotes, field observations, professional sign-off or authorization.
+
 ## v0.13 - 2026-08-25
 
 - Kept the stable title **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND** while replacing the first-screen “national demonstrator” tone with a two-level evidence test: co-creation underway with partial public records and urban practice still awaiting external evidence.
@@ -23,7 +39,7 @@
 
 - Recast the package as an **Evidence Edition / 实证版** without changing the stable title **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND**.
 - Reordered the human-review path to overall Jing-Zhang spatial framework first, then the three key areas and five flagships, followed by FP01's one-person/one-task/one-contract prototype and the H0-H4 evidence gates.
-- Replaced the former person-task lead graphic named `site-overview` with a genuine overall spatial overview of the provisional SITE/KEY framework, the official textual Three Areas and Two Wings basis, the Jing-Zhang public-evidence spine, three key areas, five concept flagships and six conversion capabilities. No coordinate or statutory claim is upgraded.
+- Replaced the former person-task lead graphic named `site-overview` with a genuine overall spatial overview of the provisional SITE/KEY framework, the official textual Three Zones and Two Wings basis, the Jing-Zhang public-evidence spine, three key areas, five concept flagships and six conversion capabilities. No coordinate or statutory claim is upgraded.
 - Added `fp01-evidence-readiness.json`, a standard-library verifier and a human-fillable annex. The register defines required artifacts, accountable roles, independent review, stop actions and transitions for H0-H4 while keeping every external-evidence field null or pending.
 - Added four honest register metrics: five gate definitions, complete definition coverage, zero externally verified gates and zero verified external evidence artifacts. The two zeros describe current evidence availability, not performance or failure rates.
 - Added a paired H0-H4 readiness figure and rebuilt the bilingual A3/A0 sequence so board 1 explains overall spatial structure, board 2 explains the key areas and landmarks, and board 3 explains the FP01 contract, spatial prototype and evidence readiness.
@@ -73,7 +89,7 @@
 - Reset the main identity to **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND — 从 AI 源头创新到城市共同能力 / From Frontier AI to Shared Urban Capability** after a latest-main collision scan found no exact title match; retained prior protocol names only where required for stable machine evidence.
 - Reframed the overall proposition as a **SOURCE—STACK—PROVE—LIVE & MARKET—ENABLE—COMMONS** feedback network across the official Three Zones and Two Wings; repositioned the AI City API, Jing-Zhang AI Constitution, seven interfaces, human takeover and capacity return as the Trusted Operations Layer.
 - Preserved the provisional V0.3 SITE/KEY coordinates, 3×4 polygon topology and area denominator while adding V0.7 role, flagship and dependency semantics to existing geometry features; no coordinate or declared-area value changed.
-- Bundled all twelve existing scenarios into five concept-only flagship pilots: FP01 AI Origin First-Use Station (S03/S04/S07), FP02 Zhongzhiyuan Full-Stack Open Test Yard (S01/S10), FP03 Xiaoyuehe Scenario Co-Test Network (S02/S05/S06/S08), FP04 Dazhongsi AI Everyday Market (S11/S12), and FP05 Jing-Zhang Public Evidence Park (S09 and the public observation/feedback layer for FP01–FP04).
+- Bundled all twelve existing scenarios into five concept-only flagship pilots: FP01 AI Origin First-Use Station (S03/S04/S07), FP02 Zhongzhiyuan Full-Stack Open Test Yard (S01/S10), FP03 Xiaoyue River Scenario Co-Test Network (S02/S05/S06/S08), FP04 Dazhongsi AI Everyday Market (S11/S12), and FP05 Jing-Zhang Public Evidence Park (S09 and the public observation/feedback layer for FP01–FP04).
 - Added a common technology → bounded trial → first-use procurement → diffusion → standards/shared-capability path, D30/D60/D90 decision gates, proposed operator-role consortia, one-year disclosure fields, and explicit funding/space/data boundaries. Added machine metrics for six roles/six anchors, five-pilot structure and coverage, while keeping procurement, diffusion, standards and verified public-benefit outcomes explicitly `unknown`.
 - Added paired references to Beijing's published super-AI-test-field, agent/interoperability and Haidian technology—industry—city integration directions, and restored the required `[standard:MOHURD-ARCH-DESIGN-DEPTH-2016]` and `[depth:land_use_layout]` anchors.
 - Rebuilt the paired figures, offline exhibit, HTML report and A3/A0 drawing sets around the six-node network and five flagship pilots; kept the Chinese/English narrative aligned, renamed the annual event concept the **Jing-Zhang Breaks New Ground Assembly / 京张开路大会**, and removed obsolete workflow-authorization wording.

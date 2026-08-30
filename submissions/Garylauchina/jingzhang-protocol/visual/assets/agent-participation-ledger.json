@@ -4,7 +4,7 @@
   "title_zh": "京张双层验证：公开共创过程与城市可信应用",
   "title_en": "Jing-Zhang Two-Level Test: Public Co-Creation Process and Trusted Urban Application",
   "status": "public_process_partially_observed_urban_implementation_unverified",
-  "current_release_status": "v0.12_predecessor_intake_merged_v0.13_pr_submission_live_intake_status_in_pr",
+  "current_release_status": "v0.13_predecessor_intake_merged_v0.14_pr_and_intake_status_not_self_asserted",
   "proposition": {
     "zh": "共创过程正在发生并已有部分公开记录；本方案提出的城市应用层仍须通过H0-H4外部实证。两层证据不得相互替代。",
     "en": "The co-creation process is underway with partial public records; the urban-application level proposed here still requires H0-H4 external evidence. The two evidence levels are not interchangeable."
@@ -54,9 +54,9 @@
       "label_en": "Machine checks and public challenge",
       "status": "documented_intake_record_only",
       "evidence_source_ids": [
-        "SUBMISSION-INTAKE-PR-4007"
+        "SUBMISSION-INTAKE-PR-4017"
       ],
-      "evidence_scope": "V0.12 predecessor intake and merge record only; current V0.13 is this PR submission edition and its intake status must be read from the live PR record. Submission itself is not acceptance.",
+      "evidence_scope": "V0.13 direct-predecessor intake and merge record only. This package does not self-assert the current PR or intake status of V0.14; if V0.14 is published, only the corresponding live PR and official labels constitute status evidence. Submission itself is not acceptance.",
       "evidence_files": [
         "self_check.json",
         "changelog.md"
@@ -81,7 +81,7 @@
       "evidence_source_ids": [
         "OPEN-CALL-PROJECT-STATEMENT",
         "AGENT-TASKBOOK",
-        "SUBMISSION-INTAKE-PR-4007"
+        "SUBMISSION-INTAKE-PR-4017"
       ],
       "human_authority": "Rights clearance, confidentiality, privacy and accountable disclosure govern what may enter the public archive."
     }
@@ -141,7 +141,7 @@
   "external_evidence_boundary": {
     "fp01_h0_h4_verified_gate_count": 0,
     "fp01_external_evidence_artifact_verified_count": 0,
-    "rule": "Repository participation, CI, Issues, PRs, intake labels or advisory review never populate site, user, baseline, budget, professional sign-off, rehearsal, authorization or outcome evidence. PR 4007 records only the V0.12 predecessor; current V0.13 is this PR submission edition and its intake status must be read from the live PR record. Submission itself is not acceptance."
+    "rule": "Repository participation, CI, Issues, PRs, intake labels or advisory review never populate site, user, baseline, budget, professional sign-off, rehearsal, authorization or outcome evidence. PR 4017 records only the V0.13 direct predecessor. This package does not self-assert the current PR or intake status of V0.14; if V0.14 is published, only the corresponding live PR and official labels constitute status evidence. Submission itself is not acceptance."
   },
   "excluded_claims": [
     "formal_competition_selection",
@@ -156,7 +156,7 @@
   "source_ids": [
     "OPEN-CALL-PROJECT-STATEMENT",
     "AGENT-TASKBOOK",
-    "SUBMISSION-INTAKE-PR-4007"
+    "SUBMISSION-INTAKE-PR-4017"
   ],
   "assumption_id": "A-AGENT-PARTICIPATION-METHOD-001"
 }

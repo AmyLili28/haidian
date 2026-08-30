@@ -91,7 +91,7 @@
       "ai_package_stages": {
         "submissions/Garylauchina/jingzhang-protocol": "formal"
       },
-      "total_bytes": 36263358,
+      "total_bytes": 33805767,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -149,11 +149,18 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "key_area_interface_prototype_count": 3.0,
-        "fp01_d0_measurement_method_coverage_ratio": 1.0,
-        "fp01_hold_point_raci_coverage_ratio": 1.0,
-        "fp01_design_test_boq_item_count": 6.0,
-        "fp01_critical_dependency_step_count": 10.0,
+        "fp01_spatial_prototype_scale_count": 3.0,
+        "fp01_delivery_role_class_count": 16.0,
+        "fp01_hold_point_single_decision_owner_ratio": 1.0,
+        "fp01_acceptance_indicator_count": 12.0,
+        "fp01_immediately_judgeable_acceptance_indicator_count": 8.0,
+        "fp01_field_dependent_acceptance_indicator_count": 4.0,
+        "fp01_release_stage_count": 6.0,
+        "fp01_cost_plan_class_count": 7.0,
+        "fp01_fallback_alternative_count": 4.0,
+        "fp01_documented_authorized_site_action_count": 0.0,
+        "fp01_external_release_granted_count": 0.0,
+        "fp01_verified_cost_input_count": 0.0,
         "fp01_evidence_verified_gate_count": 0.0,
         "fp01_evidence_gate_count": 5.0,
         "fp01_external_evidence_artifact_verified_count": 0.0,
@@ -181,7 +188,7 @@
       "summary": {
         "standard_matrix_items": 9,
         "design_depth_items": 15,
-        "known_metric_refs_required": 88,
+        "known_metric_refs_required": 99,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
@@ -189,7 +196,7 @@
           "standard": 9,
           "depth": 15,
           "data": 43,
-          "metric": 70
+          "metric": 81
         }
       }
     },

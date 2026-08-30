@@ -18,8 +18,8 @@ assert(
   "ledger status must keep public process and urban implementation separate"
 );
 assert(
-  ledger.current_release_status === "v0.12_predecessor_intake_merged_v0.13_pr_submission_live_intake_status_in_pr",
-  "release status must distinguish the merged V0.12 predecessor from this V0.13 PR submission and defer intake outcome to the live PR record"
+  ledger.current_release_status === "v0.13_predecessor_intake_merged_v0.14_pr_and_intake_status_not_self_asserted",
+  "release status must distinguish the merged V0.13 direct predecessor from V0.14 status evidence governed outside the package"
 );
 
 const expectedPublicStages = ["FRAME", "CREATE", "TRACE", "CHALLENGE", "JUDGE", "RETURN"];
@@ -49,8 +49,8 @@ assert(
 );
 const challenge = publicStages.find((stage) => stage.stage_id === "CHALLENGE");
 assert(
-  challenge?.evidence_scope?.includes("V0.12 predecessor") && challenge.evidence_scope.includes("V0.13"),
-  "CHALLENGE evidence scope must state the V0.12/V0.13 boundary"
+  challenge?.evidence_scope?.includes("V0.13 direct-predecessor") && challenge.evidence_scope.includes("V0.14"),
+  "CHALLENGE evidence scope must state the V0.13/V0.14 boundary"
 );
 
 const expectedUrbanStages = ["SOURCE", "STACK", "PROVE", "LIVE_MARKET", "ENABLE", "COMMONS"];
@@ -67,8 +67,8 @@ assert(
 assert(ledger.external_evidence_boundary?.fp01_h0_h4_verified_gate_count === 0, "H0-H4 verified gate count must remain zero");
 assert(ledger.external_evidence_boundary?.fp01_external_evidence_artifact_verified_count === 0, "verified external artifact count must remain zero");
 assert(
-  ledger.external_evidence_boundary?.rule?.includes("PR 4007") && ledger.external_evidence_boundary.rule.includes("live PR record") && ledger.external_evidence_boundary.rule.includes("Submission itself is not acceptance"),
-  "external-evidence rule must preserve the PR 4007 boundary and defer current intake outcome to the live PR record"
+  ledger.external_evidence_boundary?.rule?.includes("PR 4017") && ledger.external_evidence_boundary.rule.includes("does not self-assert") && ledger.external_evidence_boundary.rule.includes("official labels") && ledger.external_evidence_boundary.rule.includes("Submission itself is not acceptance"),
+  "external-evidence rule must preserve the PR 4017 boundary and keep V0.14 PR/intake status outside package self-assertion"
 );
 
 const requiredExclusions = [
