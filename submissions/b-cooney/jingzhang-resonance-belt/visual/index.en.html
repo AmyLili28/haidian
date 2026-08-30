@@ -86,7 +86,7 @@ input[type=range]{width:100%}
   <p class="note" id="sstatus" style="margin-top:8px"></p>
   <p class="note">Implementation (aligned to the design doc): functional states as 14-parameter vectors (RESTORE/FOCUS/SOCIAL/VITALIZE/BUFFER/NIGHT; RESTORE matches the doc example); a SENSE→INTERPRET→TARGET→COMPOSE→RENDER→LISTEN→ADAPT→LOG loop; recent-history suppression on pitch and chord field (randomness→variation, memory→non-repetition, constraints→identity); layer families foundation/pulse/tonal-cells/organic/spatial-gesture/masking/transition; parameters morph slowly on different schedules with hysteresis; LISTEN measures output load and ADAPT applies acoustic restraint before raising level. <span class="alt">实现（对齐设计文档）：14 维连续参数向量的功能状态（RESTORE/FOCUS/SOCIAL/VITALIZE/BUFFER/NIGHT，RESTORE 与文档示例一致）；SENSE→INTERPRET→TARGET→COMPOSE→RENDER→LISTEN→ADAPT→LOG 闭环；音高与和声场的近期记忆抑制（随机→变化，记忆→非重复，约束→地方性）；层族：基底/脉动/音簇/自然纹理/空间手势/遮蔽/过渡；参数按不同速率缓慢渐变并带迟滞；LISTEN 测得负荷后以“声学克制”优先于加大音量。</span></p>
 </section>
-<script>window.__SND_T={"start": "▶ Start soundscape 播放", "stop": "◼ Stop 停止", "playing": "Generating… (never repeats) 正在生成", "stopped": "Stopped 已停止", "why_chorus_night": "Chorus night: SOCIAL/RESTORE, lingering & talk · 夜合·夜间：SOCIAL/RESTORE，鼓励停留与交谈", "why_chorus_day": "Chorus day: SOCIAL, warm not dominant · 夜合·日间：SOCIAL，温暖而不喧宾夺主", "why_prelude": "Prelude: FOCUS/VITALIZE, morning work rhythm · 晨曲：FOCUS/VITALIZE，清晨工作律动", "why_coda": "Coda hub: BUFFER/NIGHT, ease commute, mask noise · 尾声·枢纽：BUFFER/NIGHT，舒缓通勤、遮蔽噪声"};</script>
+<script>window.__SND_T={"start": "▶ Start soundscape 播放", "stop": "◼ Stop 停止", "playing": "Generating… (never repeats) 正在生成", "stopped": "Stopped 已停止", "blocked": "Audio muted by the device — turn off the iPhone silent switch and raise volume · 音频被系统静音，请关闭静音键并调高音量", "why_chorus_night": "Chorus night: SOCIAL/RESTORE, lingering & talk · 夜合·夜间：SOCIAL/RESTORE，鼓励停留与交谈", "why_chorus_day": "Chorus day: SOCIAL, warm not dominant · 夜合·日间：SOCIAL，温暖而不喧宾夺主", "why_prelude": "Prelude: FOCUS/VITALIZE, morning work rhythm · 晨曲：FOCUS/VITALIZE，清晨工作律动", "why_coda": "Coda hub: BUFFER/NIGHT, ease commute, mask noise · 尾声·枢纽：BUFFER/NIGHT，舒缓通勤、遮蔽噪声"};</script>
 
 <section><h2>总览地图 <span class="en">· Overview Map</span></h2><figure style="margin:10px 0"><img class="fig" src="../assets/figures/site-overview.en.png" alt="Overall concept: one spine, three nodes"><figcaption class="note">Overall concept: one spine, three nodes <span class="alt">总体概念：一脊·三节点</span></figcaption></figure></section>
 <section><h2>三层范围 <span class="en">· Three-Level Scope</span></h2><p>Coordinated research ~43.6 km², overall design ~11.4 km², key detailed-design ~368.4 ha (three areas). <span class="alt">统筹研究范围约 43.6 km²、总体设计范围约 11.4 km²、重点区域约 368.4 ha（三处）。</span></p></section>
@@ -172,6 +172,7 @@ function start(){
  rnd=mulberry32((Date.now()>>>0)^0x9e3779b9);
  A=new (window.AudioContext||window.webkitAudioContext)();
  if(A.state!=='running' && A.resume){A.resume();}
+ try{var _ub=A.createBuffer(1,1,22050),_us=A.createBufferSource();_us.buffer=_ub;_us.connect(A.destination);_us.start(0);}catch(e){}
  master=A.createGain(); master.gain.value=parseFloat(vol.value);
  analyser=A.createAnalyser(); analyser.fftSize=1024;
  master.connect(analyser); master.connect(A.destination);
@@ -210,7 +211,8 @@ function start(){
  btn.setAttribute('aria-pressed','true'); btn.textContent=T.stop;
  status.textContent=T.playing+' — Audio: '+A.state;
  [0,1,2].forEach(function(i){setTimeout(function(){ if(running) playNote(pickPitch(),1.8); },220+i*260);});
- setTimeout(function(){ if(running&&status) status.textContent=T.playing+' — Audio: '+A.state; },700);
+ setTimeout(function(){ if(running&&status){ status.textContent=T.playing+' — Audio: '+A.state;
+   if(A.state!=='running') status.textContent=T.blocked; } },800);
  log('SENSE/RENDER: engine started (state='+A.state+')');
 }
 function stop(){
@@ -330,7 +332,9 @@ document.addEventListener('DOMContentLoaded',function(){
  T=window.__SND_T; btn=document.getElementById('toggle');vol=document.getElementById('vol');
  status=document.getElementById('sstatus');stateEl=document.getElementById('state');whyEl=document.getElementById('why');
  hourS=document.getElementById('hour');crowdS=document.getElementById('crowd');
- btn.addEventListener('click',function(){ if(A&&A.state==='suspended'&&A.resume){A.resume();} running?stop():start();});
+ function kick(){ if(A&&A.state==='suspended'&&A.resume){A.resume();} }
+ ['touchend','pointerdown'].forEach(function(ev){btn.addEventListener(ev,kick,{passive:true});});
+ btn.addEventListener('click',function(){ kick(); running?stop():start();});
  vol.addEventListener('input',function(){if(master)master.gain.value=parseFloat(vol.value);});
  hourS.addEventListener('input',function(){ctxIn.hour=parseInt(hourS.value,10);document.getElementById('hourv').textContent=ctxIn.hour+':00';selectTarget();});
  crowdS.addEventListener('input',function(){ctxIn.crowd=parseFloat(crowdS.value);document.getElementById('crowdv').textContent=Math.round(ctxIn.crowd*100)+'%';selectTarget();});
