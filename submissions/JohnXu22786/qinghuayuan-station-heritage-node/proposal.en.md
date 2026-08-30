@@ -7,7 +7,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 bilingual_contract_version: 1
 translation_of: proposal.md
 translation_file: proposal.en.md
-summary: "A provisional one-belt concept plan anchored by Qinghuayuan Station: three positions, five functions, a Three Districts–Two Wings spatial/function/actor loop, twelve scenario cards, three test protocols and a reversible, human-reviewed operating model. Unverified history, cases and interviews are not treated as facts."
+summary: "A provisional one-belt concept plan anchored by Qinghuayuan Station: three positions, five functions, a Three Districts–Two Wings spatial/function/actor loop, twelve scenario cards, three proposed test protocols and a reversible, human-reviewed operating model. Unverified history, cases and interviews are not treated as facts."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
 iteration: "v2.0-direct-repair"
@@ -110,7 +110,7 @@ Each card uses eleven fields: problem; input; AI capability; user flow; space; o
 11. **C11 Company prototype registration** — problem: low-risk public prototype testing; input: proposal, compliance statement, synthetic/aggregate data; capability: field-completeness only, no approval; flow: apply → pre-review → timed test → review → abstract; space: bookable test position/staff desk; actor: host/company/evaluator; data: no sensitive data; fallback: stop/remove; metric: completion/response; exit: any hard ban terminates; status: no procurement/partnership claim.
 12. **C12 Cross-region bilingual link** — problem: public content is hard to read across regions; input: cleared text and institution confirmation; capability: translation/tag draft; flow: verify source → review → static link → periodic check; space: screen/paper index; actor: culture institution/translator; data: no personal data; fallback: original link only; metric: link availability/review coverage; exit: remove stale/uncleared source; status: external coordination to verify.
 
-### T1–T3 industry test protocols
+### T1–T3 proposed test protocols
 
 | Protocol | Boundary and input | Participants/cycle | Metrics and threshold | Human review/exit |
 |---|---|---|---|---|
@@ -165,15 +165,15 @@ Metrics are geometry monitors, package counts and concept targets. Geometry valu
 | [metric:site_area_sqm] | 11,412,825.386 sqm | provisional polygon area; replace and recalculate with official boundary |
 | [metric:green_space_area_sqm] | approx. 1,393,756.2 sqm | provisional union of concept green polygons; raw recompute 1,393,756.159 sqm |
 | [metric:public_space_area_sqm] | approx. 36,150.0 sqm | provisional union; raw recompute 36,150.000 sqm; not an ownership/open-space conclusion |
-| [metric:building_footprint_area_sqm] | 111,600 sqm | known concept monitor (low-confidence / provisional); not building area, buildable scale or engineering evidence |
+| [metric:building_footprint_area_sqm] | 111,600 sqm | known concept-geometry count (low-confidence / provisional); not building area, buildable scale, statutory metric or built fact |
 | [metric:green_ratio] | approx. 0.1221 | green area/site area; machine value 0.122122, displayed to four decimals |
 | [metric:public_space_ratio] | approx. 0.0032 | public area/site area; machine value 0.003167, displayed to four decimals |
-| [metric:global_case_count] | 8 | known queue count (low-confidence / provisional); all are `to_verify`, not factual performance evidence |
-| [metric:scenario_card_count] | 12 | known concept-record count (low-confidence / provisional); eleven fields each, not completed pilots or outcome evidence |
-| [metric:industry_test_scenario_count] | 3 | known concept-protocol count (low-confidence / provisional); T1/T2/T3 are not completed validation or authorization |
-| [metric:landmark_count] | 3 | known concept GeoJSON count (low-confidence / provisional); not built landmarks or heritage designation |
-| [metric:persona_count] | 5 | known concept-persona count (low-confidence / provisional); not user statistics or a needs survey |
-| [metric:phase_count] | 3 | known concept-stage count (low-confidence / provisional); P1–P3 are research windows, not a delivery promise |
+| [metric:global_case_count] | 8 | known research-queue count (low-confidence / provisional); all are `to_verify`, not case facts, outcomes, partnerships or endorsements |
+| [metric:scenario_card_count] | 12 | known concept-record count (low-confidence / provisional); eleven fields each, not completed pilots, industry validation or outcome evidence; cards remain withdrawable |
+| [metric:industry_test_scenario_count] | 3 | known proposed-protocol count (low-confidence / provisional); T1/T2/T3 are not completed industry tests, authorized pilots or validation results |
+| [metric:landmark_count] | 3 | known concept-record count (low-confidence / provisional); three `scenario_type=ai_landmark` records, not built landmarks, heritage designation or construction approval |
+| [metric:persona_count] | 5 | known concept-persona-category count (low-confidence / provisional); not population statistics, user samples or a needs survey |
+| [metric:phase_count] | 3 | known concept-stage count (low-confidence / provisional); P1–P3 are research windows, not delivery, approval or operating commitments |
 
 `compliance_matrix.json` maps 23 task items; `standard_matrix.json` maps five professional standards; `design_depth_matrix.json` maps 15 depth items. They point to text, drawings, geometry, metrics and risk files as evidence navigation and do not replace professional review.[source:DATA-SRC-AGENT-TASKBOOK-20260518] [source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES] [source:DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING] [source:DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311]
 

@@ -72,13 +72,17 @@
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-mobility-bluegreen-zh.png",
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-site-overview-en.png",
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/fig-site-overview-zh.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/pdf-a0-en-p1.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/pdf-a0-zh-p1.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/pdf-a3-en-p1.png",
+        "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/assets/previews/pdf-a3-zh-p1.png",
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/index.en.html",
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node": "formal"
       },
-      "total_bytes": 12981259,
+      "total_bytes": 10739744,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -138,7 +142,14 @@
       "metrics_seen": {
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.122122,
-        "public_space_ratio": 0.003167
+        "public_space_ratio": 0.003167,
+        "scenario_card_count": 12.0,
+        "global_case_count": 8.0,
+        "industry_test_scenario_count": 3.0,
+        "building_footprint_area_sqm": 111600.0,
+        "landmark_count": 3.0,
+        "persona_count": 5.0,
+        "phase_count": 3.0
       }
     },
     "stderr": ""

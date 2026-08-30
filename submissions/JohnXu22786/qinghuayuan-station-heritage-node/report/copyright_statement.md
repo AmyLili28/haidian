@@ -4,7 +4,7 @@ This package is a provisional concept proposal. `COMMUNITY-DISPLAY-ONLY` permits
 
 The proposal text, tables, scenario cards, protocols, concept geometry, figures, boards, HTML, visual identity sketches and component descriptions are package working assets. Public policy pages and the eight AI-ecosystem URLs are referenced, not copied; all eight case entries remain to verify. No historic image, interview recording, personal data or third-party logo is included.
 
-Before any professional continuation or public release, confirm the author/organizer permission, third-party page and font terms, source citation, accessibility, consent and version record. See `sources.json` and this rights ledger. Unverified material must be removed or kept research-only.
+Before any professional continuation or public release, confirm the author/organizer permission, third-party page and font terms, source citation, accessibility, consent and version record. See `sources.json` and this rights ledger. Unverified material must be removed or kept research-only. The embedded WOFF subset in the four HTML files is an unchanged Noto Sans SC file used for offline CJK rendering under the SIL Open Font License 1.1; the package does not claim ownership of the font or any endorsement by its publisher.
 
 ## Professional continuation boundary
 
@@ -30,4 +30,5 @@ The package does not include historical images, interview recordings, personal d
 
 ## Font record
 
-The HTML files do not fetch remote fonts. Chinese HTML/visual pages use the installed Windows fallback chain `Microsoft YaHei`, `SimSun`, `Segoe UI`, `Arial`, `sans-serif`; English pages use `Segoe UI`, `Arial`, `sans-serif`. No font file is distributed by the package, so the fallback is a local rendering dependency rather than a new font licence claim. Raster figure generation used the repository review asset `refs/fonts/NotoSansSC-Static.ttf` only as a local build input; it is not copied into the package or exposed by HTML. If a future distributable build embeds a font, its licence must be separately verified and recorded before release.
+
+The HTML files use an embedded subset generated from the local Noto Sans SC build input and embedded as WOFF subsets in the four HTML files; no remote font, CDN or tracking request is used. The unchanged font subset is distributed inside the HTML files under the SIL Open Font License 1.1, with the source URL and package path recorded in `sources.json`. The font is a rendering dependency only: it does not grant rights to package content, marks, data or derivative designs, and the package does not imply endorsement by the font publisher. The subset is embedded in `report/proposal.html`, `report/proposal.en.html`, `visual/index.html`, and `visual/index.en.html`; text remains selectable and searchable.
