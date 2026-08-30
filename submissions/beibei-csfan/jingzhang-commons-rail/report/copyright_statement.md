@@ -48,6 +48,8 @@
 | assets/figures/brand-spec.png 及 .en.png | 同上 | 无 | 是 | 落地品牌规范（概念，非正式注册商标） |
 | assets/figures/ai-verify-protocol.png 及 .en.png | 同上 | 无 | 是 | 桌面核验协议 TABLETOP-ONLY（现场未做） |
 | assets/figures/implementation-handoff.png 及 .en.png | 同上 | 无 | 是 | 实施交接与图层指标对照（概念） |
+| assets/figures/ai-ops-envelope.png 及 .en.png | 同上 | 无 | 是 | 桌面运维包络与现场证据契约 TABLETOP-ONLY / ASSUMPTION（现场未做） |
+| assets/figures/seven-gap-runbook.png 及 .en.png | 同上 | 无 | 是 | 七类官方缺口替换手册（概念交接） |
 
 无肖像、无未授权商标、无私人室内、无爬取的平台原图。
 

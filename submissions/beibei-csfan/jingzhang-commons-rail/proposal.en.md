@@ -10,8 +10,8 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "A walkable, verifiable, switch-off public gallery stitches a three-gate funnel: Ready Gate at Zhongzhiyuan, Shared-Measure Gallery at Origin Community, and Operations Handover Hall at Dazhongsi. Boundaries are provisional; three core metrics are recalculated from this package in EPSG:4548."
 tracks: ["ai-traffic-walkability", "civic-agent-governance", "youth-friendly-public-space"]
 scenarios: ["ai-traffic-walkability", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: 6
-version: "1.5.0"
+iteration: 7
+version: "1.6.0"
 ---
 
 # Jingzhang Commons Gallery
@@ -215,9 +215,56 @@ Verifiable interfaces (concept, not a live API) [metric:verifiable_interface_cou
 
 Retracted: no federated Jing-Jin-Ji accounts; no deployed stack; no field baseline, MW rooms, or vendor. Field verification stays a conditional follow-up after site authorisation and test-safety rules, blocking_now=false.
 
+The 93-score review still withholds a fifth point because there is “no field performance, operations load, or real user feedback.” This round does not invent those three field facts. It writes them as a desktop envelope, a field-evidence contract, and paper walkthroughs that can be checked now. Except for the submitted spine length, every number below is an ASSUMPTION; the invalidation rule sits on the same row.
+
+Desktop operations envelope (TABLETOP-ONLY / ASSUMPTION; not a counted pedestrian survey) [metric:ops_envelope_assumption_count]:
+
+| Item | Formula or rule | Present value | Invalidate / stop |
+| --- | --- | --- | --- |
+| Spine length L | `length(ROAD-GALLERY-NS)` in EPSG:4548 | 9,042.827 m (submitted geometry) | Recalc under CG-10 after an official corridor |
+| Conceptual clear width W | No-login section clear width, **not surveyed** | 4.0 m ASSUMPTION | Official corridor width arrives → void |
+| Conceptual density d | Loose-walk envelope, **not a count** | 0.2 persons/m² ASSUMPTION | An authorised field count arrives → void |
+| Peak envelope E | E = L × W × d | 7,234 persons ASSUMPTION | Must not be written as a counted flow; recalc if W or official geometry changes |
+| L4 desk load | 1 desk × 6 min/case × 8 h | 80 cases/day ASSUMPTION | Auto-block over-reach → whole layer off |
+| Paper-fallback throughput | 1 clerk × 2 min/form × 8 h | 240 forms/day ASSUMPTION | Login required to file a repair → stop |
+| Booking-window envelope | 3 windows × 4 slots × 2 sessions | 24 slots/day ASSUMPTION | No test-safety rule → whole layer off |
+
+Field-evidence contract (only after a permit; field status is “not done” now) [metric:field_evidence_contract_count]:
+
+| ID | Quantity to record | Method | Pass criterion | Field |
+| --- | --- | --- | --- | --- |
+| FE-01 | Time to walk the spine with no login | Stopwatch + paper map | Completes without an account | Not done |
+| FE-02 | Personal-field discard rate | Mix a raw mobile number at the desk | 100% discarded | Not done |
+| FE-03 | L4 human-signature rate | Case-file sample | 100% human signed | Not done |
+| FE-04 | Fence-on-spine stop | Tabletop first, field later | S02 stops at once | Not done |
+| FE-05 | Desk case-time vs envelope | Minutes per case | Compare with the 6-minute assumption; revise the desk, not a field slogan | Not done |
+| FE-06 | Six-persona objection count | Paper walkthrough log | Each persona can finish and write one objection | Paper written; field not done |
+
+Six-persona paper walkthroughs (a user-feedback substitute; **not interviews, not field observation**) [metric:persona_count]:
+
+| Persona | Paper route | Expected objection | No-login fallback | Field |
+| --- | --- | --- | --- | --- |
+| Near-campus graduate | Origin gallery → Q&A wall → north spine | Q&A wall asks for a login | Chalk / paper card | Not done |
+| Shift-care worker | Dazhongsi hall → south ordinary night path | Forced exhibition lighting | Printed timetable + always-on light | Not done |
+| Startup test engineer | Ready Gate edge yard → never enters the 1401 spine | Fence on the spine | Paper hours card | Not done |
+| Resident with children | Spine + north-garden shade | Children written as user data | Seats without an app | Not done |
+| Traveller with access needs | Three-plaza repair posts + connectors | Treating unsurveyed grades as surveyed | Phone + paper slip | Not done |
+| Short-stay visitor | Three landmark fact windows | Guide requires a login | Recs off, walk still completes | Not done |
+
+Four interface state machines (concept, not a live API):
+
+| Interface | State sequence | Fail → stop | Fallback |
+| --- | --- | --- | --- |
+| IF-WALK | Intent → walking → login gate? | Login gate → STOP | The physical section itself |
+| IF-BOOK | Paper request → safety rule? → officer sign | Open without a rule → layer off | Window closed |
+| IF-OBJECTION | Objection text → model final call? | Auto-block → STOP | Face-to-face duty |
+| IF-CLOSE | Switch off L2–L3 → spine still walks? | Gate on the spine → STOP | Physical path |
+
 ![Conceptual AI technical architecture (not deployed)](assets/figures/ai-architecture.en.png)
 
 ![Tabletop verification protocol (TABLETOP-ONLY, field not done)](assets/figures/ai-verify-protocol.en.png)
+
+![Desktop ops envelope and field-evidence contract (TABLETOP-ONLY / ASSUMPTION)](assets/figures/ai-ops-envelope.en.png)
 
 ![AI innovation ecosystem map (concept)](assets/figures/ecosystem-map.en.png)
 
@@ -344,7 +391,23 @@ Layer ↔ metric ↔ prose ↔ visual crosswalk (same numbers; no second set):
 
 FAR and height stay unknown. This table is not a passed professional check or a granted permit.
 
+The 93-score review still withholds a fifth point because “boundary, zoning, tenure, roads, heritage, utilities, and station-hall interfaces have not been formally supplied.” The next table writes those seven gaps as a substitution runbook a professional team can pick up. It is not an engineering conclusion [metric:official_data_gap_count].
+
+| Gap | Present state | Unlock file | CRS / format | Owner | Recalc after arrival | Stop rule |
+| --- | --- | --- | --- | --- | --- | --- |
+| Boundary | `provisional_constraint`, `official_boundary=false` | Official SITE_BOUNDARY + three KEY_AREA polygons | EPSG:4548; CAD/GIS → GeoJSON | organizer supplies; participant recalcs | CG-10: site area, green ratio, public-space ratio, spine length, all derived layers | Treat provisional area as statutory |
+| Zoning | FAR / height unknown | Official control sheets and project limits | Official projection | shared | Re-hang land-use classes; do not pre-fill FAR/height | Invent FAR or height |
+| Tenure | No cadastre | Land / building ownership register | Official table or GIS | shared | Update only “pending tenure” plots; name no demolition | Written as approved RRD |
+| Roads | Concept centre-line `ROAD-GALLERY-NS` | Official road redlines | EPSG:4548 | shared | Re-hang spine and connectors; keep unofficial until replaced | Draw the concept centre-line as a road redline |
+| Heritage | `CON-HERITAGE-GALLERY` low-confidence hint | Official purple line and reviewed heritage files | Official linework | shared | Replace the constraint layer; landmarks still show public fields only | Written as an approved memorial |
+| Utilities | Capacity / diameter / MW unknown | Utility capacity, fire, and traffic-operations files | Professional text + capacity table | shared | Stay unknown until numbers exist; do not pre-fill MW | Invent power or machine-room capacity |
+| Station hall | Concept four-quadrant walk | Station-hall interface drawings and tenure | Station-city professional drawings | shared | CG-04 align the shift board and egress | Written as an approved station remodel |
+
+All seven rows stay closed or conceptual until the unlock file arrives. The three core numbers in the layer crosswalk must not become a second set.
+
 ![Implementation handoff and layer-metric crosswalk (concept)](assets/figures/implementation-handoff.en.png)
+
+![Seven official-data gap runbook (concept handoff)](assets/figures/seven-gap-runbook.en.png)
 
 The long-term operations pack is a conceptual rhythm, not a government-set calendar. Every session is triggered by event permits, site authorisation, and safety rules [depth:phasing_implementation].
 
