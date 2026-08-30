@@ -68,7 +68,7 @@
       "ai_package_stages": {
         "submissions/AmyLili28/city-with-echoes": "formal"
       },
-      "total_bytes": 16504091,
+      "total_bytes": 16510565,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -148,7 +148,7 @@
         "proposal_reference_counts": {
           "source": 11,
           "standard": 4,
-          "depth": 11,
+          "depth": 12,
           "data": 11,
           "metric": 5
         }
