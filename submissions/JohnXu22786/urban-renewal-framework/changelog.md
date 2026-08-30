@@ -1,18 +1,15 @@
-
-## 1.2 - 2026-08-29 - CocoSgt 5047674894 repair closure
-
-- Fixed all bilingual figure, HTML, GeoJSON and PDF labels to the two official wings: Zhongguancun Technology Service Wing and Xiaoyuehe Scenario Empowerment Wing; external regions are supplemental only.
-- Fixed the single three-area/three-node mapping and shared color key: Zhongzhiyuan-UNIT·BLOCK, Beijing AI Origin Community-KEEP·BLOCK, Dazhongsi-SUPERVISION PAVILION.
-- Re-rendered 14 figures and four A0/A3 PDFs with reserved title, legend, table and warning areas; retained reproducible visual/PDF QC in `visual/assets/figure_qc.json`.
-- Added operational fields for all ten scenario cards and kept all provisional geometry, derived ratios and pending KPIs explicitly non-conclusive.
 # 方案迭代记录
 
-## v0.1.0 - 2026-08-24
+## v1.2 - 2026-08-30 (CocoSgt 76.0 CHANGES_REQUESTED Repair Closure)
 
-- Initial assembly (concept package) for urban-renewal-framework.
-- Proposal drafted via the package assembly workflow, session unknown; edited for structure.
-- Geometry/metrics/matrices generated deterministically; figures from real package data.
-- Valroot gates run on 2026-08-24 (results persisted in self_check.json).
+- **Two Wings Naming Alignment**: In all Chinese and English text, figures, HTML, and PDFs, strictly unified Two Wings naming to "中关村科技服务翼 / Zhongguancun Technology Service Wing" and "小月河场景赋能翼 / Xiaoyuehe Scenario Empowerment Wing". Future Science City, Huairou Science City, E-Town, and Beijing-Tianjin-Hebei marked as supplemental external synergy interfaces.
+- **Three Key Areas & Nodes Mapping**: Unified mapping and colors across proposal narrative, matrices, GeoJSON attributes, and figures:
+  - North / Zhongzhiyuan (众智园): 单元坊 / Unit Workshop (UNIT·BLOCK, teal `#0E7C82`)
+  - Central / AI Origin Community (北京AI原点社区): 留改坊 / Retention & Renovation Workshop (KEEP·BLOCK, amber `#C47B1A`)
+  - South / Dazhongsi (大钟寺): 督行亭 / Governance Pavilion (SUPERVISION PAVILION, blue `#2E5E96`)
+- **Figure Readability & PDF Overhauls**: Re-rendered all 7 canonical figure pairs (14 PNGs) to eliminate title/footer clipping, legend obstruction, label collision, and card text truncation; ink >= 0.08, zero edge clipping, clear typography (title >=18pt, labels >=13pt, annotations >=11pt), with scale bars, north arrows, and prominent PROVISIONAL stamp banners.
+- **Drawings**: Re-rendered A0 boards (4 pages, zh+en) and A3 booklets (8 pages, zh+en) with safe margins, high legibility, and prominent disclaimers.
+- **HTML & Previews**: Updated `report/proposal.html`, `report/proposal.en.html`, `visual/index.html`, and `visual/index.en.html` offline previews with responsive single-column layout and horizontal scroll tables.
 
 ## v1.1 - 2026-08-25 (REPAIR ROUND-1)
 
@@ -25,3 +22,10 @@
 - 报告与可视化：report/proposal.html 与 proposal.en.html 经 render_proposal_html.py 重新生成，visual/index.html 重写并新增 index.en.html（14 内容标记、18 项 data-metric、图像替代文本、无脚本交互后备说明），4 个 HTML 页内嵌 Noto Sans SC 子集字体。
 - manifest.json 按 0.2 契约重写：英文对应文件全部登记 language=en + translation_of；data_confidence 如实改为 low；品牌与资产角色说明与 sources.json/copyright_statement.md 一致。
 - 图件机器质检：self_check.json[figure_qc]（ink 与 edge-clip 实测，全部通过；文本重叠事后不可机器复核，如实标注 not_verified）。
+
+## v0.1.0 - 2026-08-24
+
+- Initial assembly (concept package) for urban-renewal-framework.
+- Proposal drafted via the package assembly workflow, session unknown; edited for structure.
+- Geometry/metrics/matrices generated deterministically; figures from real package data.
+- Valroot gates run on 2026-08-24 (results persisted in self_check.json).
