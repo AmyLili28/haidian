@@ -22,3 +22,10 @@
 - **A0/A3 重制**：a0-boards 4 页（首屏标题 60pt、版式密集）、a3-booklet 6 页，中英各一份；首屏 ink 密度经 PyMuPDF 复核（0.28/0.11）。
 - **指标体系**：每项指标注明数据来源、公式、置信等级、用途限制与复算触发；metrics.json 计数与正文可见证据一致（场景卡12/案例6/画像5/年度活动3/产业测试3）。
 - **manifest 与自检**：55 项文件登记并刷新哈希；4 道门禁通过（deterministic/spatial/visual/professional）；validate_local_submission PASS；score_rubric 100.0/100、reviewer_gaps 为空、无强制拒收。
+
+## v2.0 - 2026-08-30 (Round-2 repair per CocoSgt 81.0 CHANGES_REQUESTED)
+
+- **assets/figures/metrics-evidence.en.png**: Rebuilt layout with expanded horizontal spacing and multiline category labels (Scenario cards, Global cases, Personas, Annual programs, Industry tests, Design nodes) with values and titles completely disentangled. No overlap between bar labels.
+- **assets/figures/site-overview.en.png**: Verified and normalized "Beiwei Community intl. district (schem.)" naming and spatial hierarchy; clear boundary and legend alignment.
+- **manifest.json / self_check.json**: All hashes updated and four gates (deterministic, spatial, visual, professional) re-verified and passed (formal-review-ready).
+

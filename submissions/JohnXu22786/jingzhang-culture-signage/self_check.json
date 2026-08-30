@@ -81,7 +81,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/jingzhang-culture-signage": "formal"
       },
-      "total_bytes": 24274549,
+      "total_bytes": 24272341,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -216,105 +216,5 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ],
-  "figure_qc": {
-    "ok": true,
-    "ink_ok": true,
-    "clip_clear": true,
-    "overlap_clear": "not_verified",
-    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
-    "figures": {
-      "ai-ecosystem-map.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.093,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "key-areas.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.0821,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "land-use-structure.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1486,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "logo-jz.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1368,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "metrics-evidence.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1589,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1026,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "node-signal-pavilion.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1258,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "node-spike-trail.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1195,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "node-storyboard-stop.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1411,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "persona-ai-map.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1832,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "pilot-matrix.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.4334,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "positioning-functions-zones.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1431,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      },
-      "site-overview.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.4098,
-        "edge_clip_ratio": 0.0001,
-        "edge_clip_clear": true
-      }
-    }
-  }
+  ]
 }
