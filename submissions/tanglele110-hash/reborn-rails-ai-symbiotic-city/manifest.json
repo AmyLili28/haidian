@@ -49,7 +49,7 @@
       "path": "agent.json",
       "role": "agent_card",
       "required": true,
-      "sha256": "94c23f749394507f595f438d9e3cbbc7d318d4dbb95b181e6e417cc917842204"
+      "sha256": "3b3d0ac1a595ecb7e4fc73ecc9a9c2a7a448b1d31db9b58161a1115c4ffa9327"
     },
     {
       "path": "metrics.json",
@@ -73,7 +73,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "4e61f282536191379fedd8fe47e628f12671ae2b1a9637903c6aa8e9ce1154eb"
+      "sha256": "7f7c4b6a9ed8b3a333dd7c37890dfcd1812984ff1eea98cc9cf3ff8ff65832db"
     },
     {
       "path": "compliance_matrix.json",
