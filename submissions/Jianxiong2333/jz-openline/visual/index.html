@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JZ OPENLINE 京张共智线 · 可视化总览</title>
+<style>
+:root{--ink:#20262B;--paper:#EFECE5;--cyan:#00A6A0;--red:#D84A3F;--g60:#5A646C;--g30:#A9B1B7;--pdark:#E2DED4;--csoft:#7FCECB;--rsoft:#EFA59F;--shadow:0 10px 28px rgba(32,38,43,.10)}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.62}.wrap{max-width:1280px;margin:auto}
+header{background:var(--ink);color:var(--paper);border-bottom:5px solid var(--cyan)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:28px;padding:34px 26px 28px}
+.eyebrow{color:var(--csoft);letter-spacing:.18em;text-transform:uppercase;font-size:12px;margin-bottom:12px}
+h1{font-size:34px;line-height:1.18;margin:0 0 12px}h2{font-size:22px;margin:0 0 14px}h3{font-size:17px;margin:0 0 8px}p{margin:0 0 10px}
+.hero-copy{max-width:900px;color:#d8dcd0;font-size:16px}
+.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;color:var(--csoft);margin-top:14px}
+.status-box{border:1px solid rgba(239,236,229,.25);border-radius:8px;padding:16px;background:rgba(239,236,229,.06)}
+.status-box strong{display:block;font-size:20px;margin-bottom:8px;color:#fff}
+.status-box p{color:#cfd4cc;font-size:13px}
+.pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;border:1px solid rgba(239,236,229,.30);padding:6px 12px;font-size:12px;color:var(--paper)}
+.pill b{color:var(--csoft)}
+main{padding:22px 22px 34px}
+.sheet{background:#fbfaf7;border:1px solid var(--pdark);border-radius:8px;margin:0 auto 18px;box-shadow:var(--shadow);overflow:hidden}
+.sheet-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;padding:20px 22px;border-bottom:1px solid var(--pdark);background:#f5f2ec}
+.sheet-head p{color:var(--g60);max-width:780px}
+.tag{display:inline-block;border:1px solid var(--g30);color:var(--g60);background:#fbfaf7;border-radius:4px;padding:4px 8px;font-size:12px;margin:3px 4px 0 0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.map-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(310px,.65fr);gap:20px;padding:20px 22px}
+.map-frame{border:1px solid var(--g30);border-radius:8px;background:var(--paper);overflow:hidden}
+svg{display:block;width:100%;height:auto}
+.legend{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:12px 0 0}
+.legend span{display:flex;align-items:center;gap:7px;color:var(--g60);font-size:13px}
+.sw{width:14px;height:14px;border-radius:3px;display:inline-block}
+.metric-list{display:grid;gap:10px}
+.metric{border:1px solid var(--pdark);border-radius:8px;padding:12px;background:#fff;border-left:4px solid var(--cyan)}
+.metric span{display:block;color:var(--g60);font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.metric strong{display:block;font-size:22px;font-variant-numeric:tabular-nums;margin-top:4px}
+.metric em{display:block;font-style:normal;font-size:11px;color:var(--g60);margin-top:4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.matrix{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:20px 22px}
+.area-card,.gov-card{border:1px solid var(--pdark);border-radius:8px;padding:15px;background:#fff}
+.area-card{border-top:4px solid var(--cyan)}
+.area-card ul,.gov-card ul{margin:8px 0 0 18px;padding:0;color:var(--g60)}
+.gov-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:20px 22px}
+.gov-card{border-left:5px solid var(--red)}
+.gov-card.cy{border-left-color:var(--cyan)}
+.gov-card p{color:var(--g60);font-size:13.5px}
+.toggle-bar{display:flex;align-items:center;gap:14px;padding:14px 22px;border-bottom:1px solid var(--pdark);background:#f5f2ec}
+.switch{position:relative;display:inline-block;width:58px;height:28px;flex:none}
+.switch input{opacity:0;width:0;height:0}
+.slider{position:absolute;inset:0;cursor:pointer;background:var(--cyan);border-radius:999px;transition:.25s}
+.slider:before{content:"";position:absolute;height:22px;width:22px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.25s}
+#ai-toggle:checked ~ main .switch .slider{background:var(--g30)}
+#ai-toggle:checked ~ main .switch .slider:before{transform:translateX(30px)}
+.toggle-bar b{font-size:14px}
+.toggle-bar span{color:var(--g60);font-size:12.5px}
+.scenario-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:20px 22px}
+.scenario-card{border:1px solid var(--pdark);border-radius:8px;background:#fff;min-height:170px;position:relative;overflow:hidden}
+.scenario-card .face{padding:13px 14px}
+.scenario-card .num{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--cyan);font-weight:700;font-size:12px}
+.scenario-card b{font-size:13.5px;display:block;margin:2px 0 6px}
+.scenario-card .thr{font-size:11.5px;color:var(--g60);border-top:1px dashed var(--g30);padding-top:7px;margin-top:7px}
+.scenario-card .thr i{font-style:normal;color:var(--cyan);font-weight:700}
+.face-noai{display:none;background:var(--pdark)}
+.face-noai .num{color:var(--red)}
+.face-noai b{color:var(--ink)}
+#ai-toggle:checked ~ main .face-ai{display:none}
+#ai-toggle:checked ~ main .face-noai{display:block}
+#ai-toggle:checked ~ main .toggle-note .off{display:inline}
+#ai-toggle:checked ~ main .toggle-note .on{display:none}
+.toggle-note .off{display:none;color:var(--red);font-weight:700}
+.toggle-note .on{color:var(--cyan);font-weight:700}
+.evidence{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:20px 22px}
+.source-line{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--g60);background:#f0ede6;border-radius:6px;padding:8px;margin-top:8px;overflow-wrap:anywhere}
+.warn{border-left:5px solid var(--red);background:#faf0ee;border-radius:0 8px 8px 0;padding:12px 14px}
+.ok{border-left:5px solid var(--cyan);background:#eef7f6;border-radius:0 8px 8px 0;padding:12px 14px}
+footer{padding:18px 26px 30px;color:var(--g60);font-size:12px}
+@media(max-width:980px){.hero,.map-grid,.matrix,.evidence,.gov-grid{grid-template-columns:1fr}.scenario-grid{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:26px}}
+@media(max-width:560px){main{padding:14px}.hero{padding:24px 18px}.sheet-head{display:block}.scenario-grid{grid-template-columns:1fr}.legend{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<input type="checkbox" id="ai-toggle" hidden>
+<header><div class="wrap hero"><div><div class="eyebrow">Centennial Jing-Zhang AI Innovation Belt · 百年京张 AI 创新带</div><h1>JZ OPENLINE 京张共智线</h1><p class="hero-copy">全球 AI 城市转化与验证走廊:让 AI 在真实城市中被创造、被验证、被首发,并获得进入下一座城市的资格。本页为离线电子展示成果;权威数据以 GeoJSON、metrics.json、矩阵与自检结果为准。</p><p class="formula">1 LINE + 3 ENGINES(源出场/试验场/首发场)+ 2 WINGS + 9 INTERFACES + N STATIONS + 1 LOOP</p><div class="pill-row"><span class="pill">治理规则 <b>NO EXIT, NO ENTRY</b></span><span class="pill">12 张场景卡 <b>七字段纪律</b></span><span class="pill">CITY CHANGELOG <b>城市版本</b></span><span class="pill">临时边界 <b>PROVISIONAL</b></span></div></div><aside class="status-box"><strong>临时边界 intake</strong><p>provisional geometry: PASS intake only — 官方边界发布即触发整体重算门(图层→指标→HTML→哈希)。</p><p>本页支持 intake 展示、讨论与返修,不作为正式专业评分图纸。</p></aside></div></header>
+<main class="wrap">
+<section class="sheet"><div class="sheet-head"><div><h2>总览地图:一廊三引擎</h2><p>总览地图把用地分区、交通慢行、蓝绿公共空间与三引擎(ORIGINATE 源出场 / TEST 试验场 / ADOPT 首发场)放在同一张证据图中;道岔符号为准入/退出决策门。</p></div><span class="tag">geometry + metrics</span></div><div class="map-grid"><div><div class="map-frame" aria-label="总览地图:用地分区、慢行廊道、蓝绿空间、三引擎与决策门">
+<svg viewBox="0 0 1120 680" role="img" aria-label="JZ OPENLINE 空间结构示意图">
+<rect x="72" y="64" width="976" height="520" rx="14" fill="#EFECE5" stroke="#20262B" stroke-width="4"/>
+<rect x="150" y="130" width="180" height="370" fill="#7FCECB" stroke="#20262B" stroke-width="1.6" opacity=".65"/><text x="240" y="316" text-anchor="middle" font-size="19" fill="#20262B">AI研发创新</text>
+<rect x="330" y="130" width="170" height="370" fill="#E2DED4" stroke="#20262B" stroke-width="1.6"/><text x="415" y="316" text-anchor="middle" font-size="19" fill="#20262B">京张蓝绿公园</text>
+<rect x="500" y="130" width="230" height="370" fill="#A9B1B7" stroke="#20262B" stroke-width="1.6" opacity=".55"/><text x="615" y="316" text-anchor="middle" font-size="19" fill="#20262B">产业服务复合</text>
+<rect x="730" y="130" width="150" height="370" fill="#EFA59F" stroke="#20262B" stroke-width="1.6" opacity=".7"/><text x="805" y="316" text-anchor="middle" font-size="19" fill="#20262B">生活配套</text>
+<path d="M415 540 L415 100" fill="none" stroke="#20262B" stroke-width="9" stroke-linecap="round"/>
+<path d="M431 540 L431 100" fill="none" stroke="#20262B" stroke-width="9" stroke-linecap="round"/>
+<path d="M423 540 L423 100" fill="none" stroke="#00A6A0" stroke-width="3" stroke-dasharray="12 10"/>
+<text x="450" y="112" font-size="15" fill="#20262B" font-weight="bold">ZERO MILESTONE → N</text>
+<g stroke="#5A646C" stroke-width="2" stroke-dasharray="5 6" opacity=".8"><path d="M150 180 H880"/><path d="M150 260 H880"/><path d="M150 340 H880"/><path d="M150 420 H880"/></g>
+<text x="892" y="184" font-size="12" fill="#5A646C">东西渴望线 ×9</text>
+<g><circle cx="423" cy="470" r="24" fill="#20262B" stroke="#00A6A0" stroke-width="4"/><text x="466" y="476" font-size="17" fill="#20262B" font-weight="bold">大钟寺 · ADOPT 首发场</text></g>
+<g><circle cx="423" cy="316" r="24" fill="#20262B" stroke="#00A6A0" stroke-width="4"/><text x="466" y="322" font-size="17" fill="#20262B" font-weight="bold">原点社区 · ORIGINATE 源出场</text></g>
+<g><circle cx="423" cy="164" r="24" fill="#20262B" stroke="#00A6A0" stroke-width="4"/><text x="466" y="170" font-size="17" fill="#20262B" font-weight="bold">众智园 · TEST 试验场</text></g>
+<g><path d="M423 393 l14 14 -14 14 -14 -14 z" fill="#D84A3F" stroke="#20262B" stroke-width="1.4"/><text x="338" y="403" font-size="13" fill="#D84A3F" text-anchor="end">门禁 LAUNCH→ADOPT</text></g>
+<g><path d="M423 226 l14 14 -14 14 -14 -14 z" fill="#D84A3F" stroke="#20262B" stroke-width="1.4"/><text x="338" y="236" font-size="13" fill="#D84A3F" text-anchor="end">门禁 VERIFY→LAUNCH</text></g>
+<text x="96" y="628" font-size="15" fill="#5A646C">同一组 GeoJSON / metrics / 矩阵派生所有展示件;接口与渴望线为拓扑落位示意,绝对落位待官方边界。</text>
+</svg></div><div class="legend"><span><i class="sw" style="background:#7FCECB"></i>用地分区 · AI 研发创新</span><span><i class="sw" style="background:#E2DED4"></i>蓝绿公共空间</span><span><i class="sw" style="background:#A9B1B7"></i>产业服务用地</span><span><i class="sw" style="background:#EFA59F"></i>生活配套用地</span><span><i class="sw" style="background:#20262B"></i>双轨 LINE</span><span><i class="sw" style="background:#00A6A0"></i>交通慢行与数据观察线</span><span><i class="sw" style="background:#D84A3F"></i>道岔决策门</span><span><i class="sw" style="background:#5A646C"></i>东西渴望线</span></div></div><aside><h3>核心指标(几何可复算)</h3><div class="metric-list"><div class="metric"><span>site_area_sqm</span><strong data-metric="site_area_sqm" data-value="11412825.386">11412825.386</strong><em>polygon_area(site_boundary) · 复算 Δ −0.596%</em></div><div class="metric"><span>green_ratio</span><strong data-metric="green_ratio" data-value="0.123423">0.123423</strong><em>1,408,600.768 / 11,412,825.386 · Δ +0.599%</em></div><div class="metric"><span>public_space_ratio</span><strong data-metric="public_space_ratio" data-value="0.073281">0.073281</strong><em>836,345.643 / 11,412,825.386 · Δ +0.600%</em></div></div><div class="warn" style="margin-top:14px"><h3>±3% 容差与重算门</h3><p>复算偏差在 ±3% 容差带内;官方边界发布即触发整体重算(breaking change):图层、指标、HTML、manifest 哈希全链更新。</p></div><div class="ok" style="margin-top:14px"><h3>自检状态</h3><p>deterministic validation、spatial review、visual packaging check 与 professional evidence review 四段证据;最新结果以 self_check.json 与提交状态为准。</p></div></aside></div></section>
+<section class="sheet"><div class="sheet-head"><div><h2>三层范围</h2><p>统筹研究范围、总体设计范围、重点区域范围递进;面积偏差已与公告标称逐项对表(见 metrics 章)。</p></div><span class="tag">project_scope_summary.csv</span></div><div class="matrix"><article class="area-card"><h3>统筹研究范围 43.6 km²</h3><p>AI 产业生态、三区两翼协同、未来城市形态与文化叙事。偏差 +0.02%。</p><ul><li>AI 创新链与人才链</li><li>全球案例转化机制</li><li>《JZ OPENLINE ADMISSION》开放基准(概念 v0.1)</li></ul></article><article class="area-card"><h3>总体设计范围 11.4 km²</h3><p>控规深度城市设计:更新项目清单、蓝绿慢行系统、交通市政。偏差 +0.11%。</p><ul><li>1 LINE + 2 WINGS 结构</li><li>East–West Barrier Index</li><li>URBAN SERVICE HUB 网络</li></ul></article><article class="area-card"><h3>重点区域 368.4 ha</h3><p>三处重点片区详细设计:功能业态、建筑更新、公共空间与交通组织。偏差 +0.24%。</p><ul><li>众智园 AI 自主创新加速区(TEST)</li><li>北京 AI 原点社区(ORIGINATE)</li><li>大钟寺 AI 产业聚集区(ADOPT)</li></ul></article></div></section>
+<section class="sheet"><div class="sheet-head"><div><h2>治理:NO EXIT, NO ENTRY 与 CITY CHANGELOG</h2><p>没有退出机制的场景,不得进入城市。治理不是口号,是双闸、三联回执、六环门禁与年度城市版本。</p></div><span class="tag">proposal §运行规则</span></div><div class="gov-grid"><article class="gov-card cy"><h3>NO ENTRY = 资格闸 + 登记闸</h3><p>场景须在 TEST 试验场通过验证(资格闸);并在退役登记簿预先登记退出方案、场地复原标准与具名责任人(登记闸)——未登记不进场。</p></article><article class="gov-card"><h3>NO EXIT = 退出审计 + 三联回执</h3><p>退出时公开数据删除、场地复原、申诉处理三项回执,进入 CITY CHANGELOG 永久留痕;首开区落地前完成一次完整退出演练,runbook 随年度版本公开。</p></article><article class="gov-card cy"><h3>六环迁移门禁</h3><p>CREATE→VERIFY 登记数据边界与人工责任人;VERIFY→LAUNCH 达场景卡通过阈值;LAUNCH→ADOPT 完成真实用户观察;ADOPT→SCALE 独立复核;触发停止条件即 RETURN。</p></article><article class="gov-card"><h3>CITY CHANGELOG 发版语义</h3><p>版本号 + diff + rollback + deprecation + known issues + 未合并未来档案(否决提案连理由归档)+ 日落条款。城市版本系统 ≠ 评测基准 ≠ 榜单。</p></article></div></section>
+<section class="sheet"><div class="sheet-head"><div><h2>12 张 AI 场景卡</h2><p>七字段纪律:任务 / 指标 / 基线来源 / 通过阈值 / 失败回退 / 数据口径 / 人工等价路径。阈值为示例量级,待 L3 行为层数据接入后校准。</p></div><span class="tag">proposal §场景卡表</span></div><div class="toggle-bar"><label class="switch" for="ai-toggle"><span class="slider"></span></label><b>关掉智能层</b><span class="toggle-note"><span class="on">智能层开启:显示 AI 场景与通过阈值。</span><span class="off">智能层已关闭:城市照常运转——每张卡翻到无 AI 等价路径。拒绝智能服务的居民不降低服务水平(PEOPLE FIRST)。</span></span></div><div class="scenario-grid">
+<article class="scenario-card"><div class="face face-ai"><span class="num">01</span><b>Campus Without Walls 无墙校园</b><p style="font-size:12px;color:#5A646C">清北科周边 · 跨校课程与空间智能导航</p><div class="thr"><i>阈值</i> 完成率不劣于人工问询(示例 ≥90%)</div></div><div class="face face-noai"><span class="num">01 · 无 AI</span><b>纸质课表 + 问询处 + 人工导览</b><p style="font-size:12px;color:#5A646C">服务不降级:人工导览台照常覆盖跨校导航。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">02</span><b>Research-to-Founder Clinic 科研创业门诊</b><p style="font-size:12px;color:#5A646C">原点社区+西翼 · 技术转移与投资匹配</p><div class="thr"><i>阈值</i> 采纳率不劣于人工门诊(示例量级)</div></div><div class="face face-noai"><span class="num">02 · 无 AI</span><b>技术转移办公室人工门诊</b><p style="font-size:12px;color:#5A646C">服务不降级:人工门诊照常受理成果转化。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">03</span><b>AI Community Health Navigator</b><p style="font-size:12px;color:#5A646C">小月河社区 · 就医导航;医疗判断保留人工</p><div class="thr"><i>阈值</i> 正确科室到达率不劣于人工导医(示例 ≥95%)</div></div><div class="face face-noai"><span class="num">03 · 无 AI</span><b>社区医院人工导医台</b><p style="font-size:12px;color:#5A646C">服务不降级:人工导医台照常接诊引导。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">04</span><b>Assistive Robot Walk</b><p style="font-size:12px;color:#5A646C">京张公园/小月河 · 适老辅助机器人实测</p><div class="thr"><i>阈值</i> 零伤害;老人独立完段比例达基线</div></div><div class="face face-noai"><span class="num">04 · 无 AI</span><b>人工陪护散步 + 无障碍设施</b><p style="font-size:12px;color:#5A646C">服务不降级:陪护与无障碍设施照常可用。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">05</span><b>Physical AI Test Yard</b><p style="font-size:12px;color:#5A646C">众智园 · 机器人感知导航安全评价</p><div class="thr"><i>阈值</i> 测试通过且零侵入公众区域</div></div><div class="face face-noai"><span class="num">05 · 无 AI</span><b>封闭场地人工测试流程</b><p style="font-size:12px;color:#5A646C">服务不降级:封闭流程照常评价安全。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">06</span><b>Agent Retail Street</b><p style="font-size:12px;color:#5A646C">大钟寺 · 商户 AI Agent 与新型消费实验</p><div class="thr"><i>阈值</i> 交易成功率不劣于人工柜台,投诉率不升</div></div><div class="face face-noai"><span class="num">06 · 无 AI</span><b>人工收银与店员服务</b><p style="font-size:12px;color:#5A646C">服务不降级:人工柜台照常营业。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">07</span><b>Future Product Launch Market</b><p style="font-size:12px;color:#5A646C">大钟寺 · 新终端短期首发与真实市场观测</p><div class="thr"><i>阈值</i> 首 90 天 ≥1 位真实用户全链路留证</div></div><div class="face face-noai"><span class="num">07 · 无 AI</span><b>常规新品发布与线下试用</b><p style="font-size:12px;color:#5A646C">服务不降级:常规发布渠道照常运行。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">08</span><b>Rider Friendly Hub(URBAN SERVICE HUB)</b><p style="font-size:12px;color:#5A646C">大钟寺+校园节点 · 骑手驿站十项服务</p><div class="thr"><i>阈值</i> 等待/找楼时间不劣于现状(零增加)</div></div><div class="face face-noai"><span class="num">08 · 无 AI</span><b>人工值守服务点 + 纸质楼栋图</b><p style="font-size:12px;color:#5A646C">服务不降级:每站约 6 人班制照常值守。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">09</span><b>Global Talent Concierge</b><p style="font-size:12px;color:#5A646C">地铁+公园节点 · 多语城市服务导航</p><div class="thr"><i>阈值</i> 多语导航完成率不劣于双语人工台</div></div><div class="face face-noai"><span class="num">09 · 无 AI</span><b>人工问询与双语标识</b><p style="font-size:12px;color:#5A646C">服务不降级:人工问询台与双语标识照常。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">10</span><b>Quiet AI Park</b><p style="font-size:12px;color:#5A646C">京张全线 · 无屏幕 AI 环境维护</p><div class="thr"><i>阈值</i> 维护响应时长不劣于人工巡检基线</div></div><div class="face face-noai"><span class="num">10 · 无 AI</span><b>人工巡检与现场标识</b><p style="font-size:12px;color:#5A646C">服务不降级:巡检班次与标识系统照常。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">11</span><b>HUMAN+ROBOT Logistics</b><p style="font-size:12px;color:#5A646C">大钟寺-校园走廊 · 人机协作配送</p><div class="thr"><i>阈值</i> 异常人工接管率 100%;时效不劣于纯骑手</div></div><div class="face face-noai"><span class="num">11 · 无 AI</span><b>纯人工配送</b><p style="font-size:12px;color:#5A646C">服务不降级:骑手网络照常履约。</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">12</span><b>City Observatory 城市观测站</b><p style="font-size:12px;color:#5A646C">数据观察线节点 · 运行数据公开展示</p><div class="thr"><i>阈值</i> 公开读数与原始记录一致,第三方可复算</div></div><div class="face face-noai"><span class="num">12 · 无 AI</span><b>纸质公示栏与定期人工公报</b><p style="font-size:12px;color:#5A646C">服务不降级:公示栏与公报照常发布。</p></div></article>
+</div></section>
+<section class="sheet"><div class="sheet-head"><div><h2>任务覆盖与证据</h2><p>compliance_matrix.json 覆盖公告 1.3、1.4、1.5 与 agent.1–agent.6;standard_matrix.json 与 design_depth_matrix.json 证明专业标准与成果深度。</p></div><span class="tag">matrix evidence</span></div><div class="evidence"><div><h3>来源</h3><p>sources.json 登记 9 条公开来源 + 2 条社区公共核查(Issue #846 遗址公园不相交 412.5m;Issue #1029 大钟寺质心偏 2.26km,致谢社区)。本页不加载 CDN、远程瓦片、外部脚本、外部字体、API 请求或 iframe。</p><div class="source-line">sources.json / standard_matrix.json / design_depth_matrix.json / Issue #846 #1029</div></div><div><h3>假设</h3><p>待补控规、道路红线、权属、市政、文保与工程条件在 assumptions.json 列明;UNKNOWN 指标保持空值纪律——写明缺什么、建议口径与触发条件,不填假数。</p><div class="source-line">missing_data_checklist.csv / assumptions.json / self_check.json</div></div></div></section>
+</main>
+<footer><div class="wrap">JZ OPENLINE 京张共智线 · 可视化总览(zh)| 2026-08-31 | 英文版:visual/index.en.html | 图件:assets/figures/(5 张,双语)| 展板与文册:drawings/a0-boards.pdf, drawings/a3-booklet.pdf(双语)</div></footer>
+</body>
+</html>

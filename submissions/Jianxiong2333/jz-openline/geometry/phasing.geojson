@@ -1,0 +1,61 @@
+{
+ "type": "FeatureCollection",
+ "name": "phasing_scaffold",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "PHASE-001",
+   "properties": {
+    "id": "PHASE-001",
+    "layer": "PHASE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "phase": "phase_1",
+    "name_zh": "一期可讨论范围",
+    "area_sqm_declared": 4587013.573,
+    "name_en": "Phase 1 discussion scope",
+    "resource_release_rule_zh": "资源释放与证据门绑定:按 CREATE-VERIFY-LAUNCH-ADOPT 四环各 25% 释放,未过门不释放;见 proposal 成本与资金纪律",
+    "resource_release_rule_en": "Evidence-gated release: 25% each at CREATE-VERIFY-LAUNCH-ADOPT gates; no gate, no release. See proposal cost & funding discipline.",
+    "exit_drill_zh": "首开区(URBAN SERVICE HUB 大钟寺主站)落地前完成一次完整退出演练,runbook 随年度版本公开",
+    "exit_drill_en": "Full exit drill before first-opening area (URBAN SERVICE HUB Dazhongsi main station); runbook published with annual version.",
+    "revision_note": "2026-08-31 competitor-scan alignment: attribute-only update, geometry unchanged"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3417,
+       40.006
+      ],
+      [
+       116.34218780487805,
+       40.016
+      ],
+      [
+       116.34843599999999,
+       40.016
+      ],
+      [
+       116.34843599999999,
+       39.9495
+      ],
+      [
+       116.340948,
+       39.9495
+      ],
+      [
+       116.340948,
+       39.99434399999997
+      ],
+      [
+       116.3417,
+       40.006
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JZ OPENLINE · Visual Overview</title>
+<style>
+:root{--ink:#20262B;--paper:#EFECE5;--cyan:#00A6A0;--red:#D84A3F;--g60:#5A646C;--g30:#A9B1B7;--pdark:#E2DED4;--csoft:#7FCECB;--rsoft:#EFA59F;--shadow:0 10px 28px rgba(32,38,43,.10)}
+*{box-sizing:border-box}body{margin:0;font-family:"Helvetica Neue",-apple-system,BlinkMacSystemFont,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.62}.wrap{max-width:1280px;margin:auto}
+header{background:var(--ink);color:var(--paper);border-bottom:5px solid var(--cyan)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:28px;padding:34px 26px 28px}
+.eyebrow{color:var(--csoft);letter-spacing:.18em;text-transform:uppercase;font-size:12px;margin-bottom:12px}
+h1{font-size:34px;line-height:1.18;margin:0 0 12px}h2{font-size:22px;margin:0 0 14px}h3{font-size:17px;margin:0 0 8px}p{margin:0 0 10px}
+.hero-copy{max-width:900px;color:#d8dcd0;font-size:16px}
+.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;color:var(--csoft);margin-top:14px}
+.status-box{border:1px solid rgba(239,236,229,.25);border-radius:8px;padding:16px;background:rgba(239,236,229,.06)}
+.status-box strong{display:block;font-size:20px;margin-bottom:8px;color:#fff}
+.status-box p{color:#cfd4cc;font-size:13px}
+.pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;border:1px solid rgba(239,236,229,.30);padding:6px 12px;font-size:12px;color:var(--paper)}
+.pill b{color:var(--csoft)}
+main{padding:22px 22px 34px}
+.sheet{background:#fbfaf7;border:1px solid var(--pdark);border-radius:8px;margin:0 auto 18px;box-shadow:var(--shadow);overflow:hidden}
+.sheet-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;padding:20px 22px;border-bottom:1px solid var(--pdark);background:#f5f2ec}
+.sheet-head p{color:var(--g60);max-width:780px}
+.tag{display:inline-block;border:1px solid var(--g30);color:var(--g60);background:#fbfaf7;border-radius:4px;padding:4px 8px;font-size:12px;margin:3px 4px 0 0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.map-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(310px,.65fr);gap:20px;padding:20px 22px}
+.map-frame{border:1px solid var(--g30);border-radius:8px;background:var(--paper);overflow:hidden}
+svg{display:block;width:100%;height:auto}
+.legend{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:12px 0 0}
+.legend span{display:flex;align-items:center;gap:7px;color:var(--g60);font-size:13px}
+.sw{width:14px;height:14px;border-radius:3px;display:inline-block}
+.metric-list{display:grid;gap:10px}
+.metric{border:1px solid var(--pdark);border-radius:8px;padding:12px;background:#fff;border-left:4px solid var(--cyan)}
+.metric span{display:block;color:var(--g60);font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.metric strong{display:block;font-size:22px;font-variant-numeric:tabular-nums;margin-top:4px}
+.metric em{display:block;font-style:normal;font-size:11px;color:var(--g60);margin-top:4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.matrix{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:20px 22px}
+.area-card,.gov-card{border:1px solid var(--pdark);border-radius:8px;padding:15px;background:#fff}
+.area-card{border-top:4px solid var(--cyan)}
+.area-card ul,.gov-card ul{margin:8px 0 0 18px;padding:0;color:var(--g60)}
+.gov-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:20px 22px}
+.gov-card{border-left:5px solid var(--red)}
+.gov-card.cy{border-left-color:var(--cyan)}
+.gov-card p{color:var(--g60);font-size:13.5px}
+.toggle-bar{display:flex;align-items:center;gap:14px;padding:14px 22px;border-bottom:1px solid var(--pdark);background:#f5f2ec}
+.switch{position:relative;display:inline-block;width:58px;height:28px;flex:none}
+.switch input{opacity:0;width:0;height:0}
+.slider{position:absolute;inset:0;cursor:pointer;background:var(--cyan);border-radius:999px;transition:.25s}
+.slider:before{content:"";position:absolute;height:22px;width:22px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.25s}
+#ai-toggle:checked ~ main .switch .slider{background:var(--g30)}
+#ai-toggle:checked ~ main .switch .slider:before{transform:translateX(30px)}
+.toggle-bar b{font-size:14px}
+.toggle-bar span{color:var(--g60);font-size:12.5px}
+.scenario-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:20px 22px}
+.scenario-card{border:1px solid var(--pdark);border-radius:8px;background:#fff;min-height:170px;position:relative;overflow:hidden}
+.scenario-card .face{padding:13px 14px}
+.scenario-card .num{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--cyan);font-weight:700;font-size:12px}
+.scenario-card b{font-size:13.5px;display:block;margin:2px 0 6px}
+.scenario-card .thr{font-size:11.5px;color:var(--g60);border-top:1px dashed var(--g30);padding-top:7px;margin-top:7px}
+.scenario-card .thr i{font-style:normal;color:var(--cyan);font-weight:700}
+.face-noai{display:none;background:var(--pdark)}
+.face-noai .num{color:var(--red)}
+#ai-toggle:checked ~ main .face-ai{display:none}
+#ai-toggle:checked ~ main .face-noai{display:block}
+#ai-toggle:checked ~ main .toggle-note .off{display:inline}
+#ai-toggle:checked ~ main .toggle-note .on{display:none}
+.toggle-note .off{display:none;color:var(--red);font-weight:700}
+.toggle-note .on{color:var(--cyan);font-weight:700}
+.evidence{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:20px 22px}
+.source-line{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--g60);background:#f0ede6;border-radius:6px;padding:8px;margin-top:8px;overflow-wrap:anywhere}
+.warn{border-left:5px solid var(--red);background:#faf0ee;border-radius:0 8px 8px 0;padding:12px 14px}
+footer{padding:18px 26px 30px;color:var(--g60);font-size:12px}
+@media(max-width:980px){.hero,.map-grid,.matrix,.evidence,.gov-grid{grid-template-columns:1fr}.scenario-grid{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:26px}}
+@media(max-width:560px){main{padding:14px}.hero{padding:24px 18px}.sheet-head{display:block}.scenario-grid{grid-template-columns:1fr}.legend{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<input type="checkbox" id="ai-toggle" hidden>
+<header><div class="wrap hero"><div><div class="eyebrow">Centennial Jing-Zhang AI Innovation Belt</div><h1>JZ OPENLINE · Jing-Zhang Co-Intelligence Line</h1><p class="hero-copy">A global corridor for AI-to-city conversion and validation — where AI is created, verified and launched in the real city, and earns its qualification to enter the next city. This is an offline display artifact; authoritative data lives in the GeoJSON layers, metrics.json, the matrices and the self-check results.</p><p class="formula">1 LINE + 3 ENGINES (Originate/Test/Adopt) + 2 WINGS + 9 INTERFACES + N STATIONS + 1 LOOP</p><div class="pill-row"><span class="pill">Governance <b>NO EXIT, NO ENTRY</b></span><span class="pill">12 scenario cards <b>seven-field discipline</b></span><span class="pill">CITY CHANGELOG <b>city versioning</b></span><span class="pill">Boundary <b>PROVISIONAL</b></span></div></div><aside class="status-box"><strong>Provisional boundary · intake</strong><p>provisional geometry: PASS intake only — the official boundary release triggers a full recompute gate (layers → metrics → HTML → hashes).</p><p>This page supports intake display, discussion and revision; it is not a formal professional scoring drawing.</p></aside></div></header>
+<main class="wrap">
+<section class="sheet"><div class="sheet-head"><div><h2>Overview Map: One Corridor, Three Engines</h2><p>Land-use structure, the slow-mobility corridor, blue-green space and the three engines (ORIGINATE / TEST / ADOPT) in one evidence map; switch symbols are admission/exit decision gates.</p></div><span class="tag">geometry + metrics</span></div><div class="map-grid"><div><div class="map-frame" aria-label="Overview map: land use, corridor, blue-green, three engines and gates">
+<svg viewBox="0 0 1120 680" role="img" aria-label="JZ OPENLINE spatial structure diagram">
+<rect x="72" y="64" width="976" height="520" rx="14" fill="#EFECE5" stroke="#20262B" stroke-width="4"/>
+<rect x="150" y="130" width="180" height="370" fill="#7FCECB" stroke="#20262B" stroke-width="1.6" opacity=".65"/><text x="240" y="316" text-anchor="middle" font-size="18" fill="#20262B">AI R&amp;D</text>
+<rect x="330" y="130" width="170" height="370" fill="#E2DED4" stroke="#20262B" stroke-width="1.6"/><text x="415" y="316" text-anchor="middle" font-size="18" fill="#20262B">JZ Park</text>
+<rect x="500" y="130" width="230" height="370" fill="#A9B1B7" stroke="#20262B" stroke-width="1.6" opacity=".55"/><text x="615" y="316" text-anchor="middle" font-size="18" fill="#20262B">Industry</text>
+<rect x="730" y="130" width="150" height="370" fill="#EFA59F" stroke="#20262B" stroke-width="1.6" opacity=".7"/><text x="805" y="316" text-anchor="middle" font-size="18" fill="#20262B">Living</text>
+<path d="M415 540 L415 100" fill="none" stroke="#20262B" stroke-width="9" stroke-linecap="round"/>
+<path d="M431 540 L431 100" fill="none" stroke="#20262B" stroke-width="9" stroke-linecap="round"/>
+<path d="M423 540 L423 100" fill="none" stroke="#00A6A0" stroke-width="3" stroke-dasharray="12 10"/>
+<text x="450" y="112" font-size="15" fill="#20262B" font-weight="bold">ZERO MILESTONE → N</text>
+<g stroke="#5A646C" stroke-width="2" stroke-dasharray="5 6" opacity=".8"><path d="M150 180 H880"/><path d="M150 260 H880"/><path d="M150 340 H880"/><path d="M150 420 H880"/></g>
+<text x="892" y="184" font-size="12" fill="#5A646C">E–W desire lines ×9</text>
+<g><circle cx="423" cy="470" r="24" fill="#20262B" stroke="#00A6A0" stroke-width="4"/><text x="466" y="476" font-size="17" fill="#20262B" font-weight="bold">Dazhongsi · ADOPT Launch</text></g>
+<g><circle cx="423" cy="316" r="24" fill="#20262B" stroke="#00A6A0" stroke-width="4"/><text x="466" y="322" font-size="17" fill="#20262B" font-weight="bold">Origin Community · ORIGINATE</text></g>
+<g><circle cx="423" cy="164" r="24" fill="#20262B" stroke="#00A6A0" stroke-width="4"/><text x="466" y="170" font-size="17" fill="#20262B" font-weight="bold">Zhongzhiyuan · TEST Ground</text></g>
+<g><path d="M423 393 l14 14 -14 14 -14 -14 z" fill="#D84A3F" stroke="#20262B" stroke-width="1.4"/><text x="338" y="403" font-size="13" fill="#D84A3F" text-anchor="end">Gate LAUNCH→ADOPT</text></g>
+<g><path d="M423 226 l14 14 -14 14 -14 -14 z" fill="#D84A3F" stroke="#20262B" stroke-width="1.4"/><text x="338" y="236" font-size="13" fill="#D84A3F" text-anchor="end">Gate VERIFY→LAUNCH</text></g>
+<text x="96" y="628" font-size="15" fill="#5A646C">All display outputs derive from one set of GeoJSON / metrics / matrices; interfaces and desire lines are schematic — absolute siting awaits the official boundary.</text>
+</svg></div><div class="legend"><span><i class="sw" style="background:#7FCECB"></i>AI R&amp;D</span><span><i class="sw" style="background:#E2DED4"></i>Blue-green park</span><span><i class="sw" style="background:#A9B1B7"></i>Industry</span><span><i class="sw" style="background:#EFA59F"></i>Living</span><span><i class="sw" style="background:#20262B"></i>Twin-rail LINE</span><span><i class="sw" style="background:#00A6A0"></i>Data observation</span><span><i class="sw" style="background:#D84A3F"></i>Switch gates</span><span><i class="sw" style="background:#5A646C"></i>Desire lines</span></div></div><aside><h3>Core Metrics (geometry-recomputable)</h3><div class="metric-list"><div class="metric"><span>site_area_sqm</span><strong data-metric="site_area_sqm" data-value="11412825.386">11412825.386</strong><em>polygon_area(site_boundary) · recomputed Δ −0.596%</em></div><div class="metric"><span>green_ratio</span><strong data-metric="green_ratio" data-value="0.123423">0.123423</strong><em>1,408,600.768 / 11,412,825.386 · Δ +0.599%</em></div><div class="metric"><span>public_space_ratio</span><strong data-metric="public_space_ratio" data-value="0.073281">0.073281</strong><em>836,345.643 / 11,412,825.386 · Δ +0.600%</em></div></div><div class="warn" style="margin-top:14px"><h3>±3% tolerance &amp; recompute gate</h3><p>Recomputation deltas sit inside the ±3% tolerance band; the official boundary release triggers a full recompute (breaking change): layers, metrics, HTML and manifest hashes.</p></div></aside></div></section>
+<section class="sheet"><div class="sheet-head"><div><h2>Three Scopes</h2><p>Study scope, design scope and key areas in progression; area deviations are tabulated against announced figures (see metrics section).</p></div><span class="tag">project_scope_summary.csv</span></div><div class="matrix"><article class="area-card"><h3>Study scope 43.6 km²</h3><p>AI industry ecology, zones-and-wings synergy, future urban form and cultural narrative. Deviation +0.02%.</p><ul><li>AI innovation &amp; talent chains</li><li>Global case conversion mechanism</li><li>JZ OPENLINE ADMISSION open benchmark (concept v0.1)</li></ul></article><article class="area-card"><h3>Design scope 11.4 km²</h3><p>Regulatory-depth urban design: renewal project list, blue-green slow mobility, transport and utilities. Deviation +0.11%.</p><ul><li>1 LINE + 2 WINGS structure</li><li>East–West Barrier Index</li><li>URBAN SERVICE HUB network</li></ul></article><article class="area-card"><h3>Key areas 368.4 ha</h3><p>Detailed design of three key areas: programs, building renewal, public space and transport. Deviation +0.24%.</p><ul><li>Zhongzhiyuan AI acceleration area (TEST)</li><li>Beijing AI Origin Community (ORIGINATE)</li><li>Dazhongsi AI industry cluster (ADOPT)</li></ul></article></div></section>
+<section class="sheet"><div class="sheet-head"><div><h2>Governance: NO EXIT, NO ENTRY &amp; CITY CHANGELOG</h2><p>No scenario enters the city without an exit mechanism. Governance is not a slogan — it is a double gate, a triple receipt, six ring-gates and an annual city version.</p></div><span class="tag">proposal §operating rules</span></div><div class="gov-grid"><article class="gov-card cy"><h3>NO ENTRY = qualification gate + registry gate</h3><p>Scenarios must pass TEST-ground validation (qualification gate) and pre-register an exit plan, restoration standard and named owner in the retirement registry (registry gate) — no registration, no entry.</p></article><article class="gov-card"><h3>NO EXIT = exit audit + triple receipt</h3><p>On exit, three receipts are published — data deletion, site restoration, appeal handling — permanently logged in CITY CHANGELOG; a full exit drill precedes the first-opening area, runbook published with the annual version.</p></article><article class="gov-card cy"><h3>Six-ring migration gates</h3><p>CREATE→VERIFY registers data boundary and human owner; VERIFY→LAUNCH meets the scenario threshold; LAUNCH→ADOPT completes real-user observation; ADOPT→SCALE passes independent review; any stop condition triggers RETURN.</p></article><article class="gov-card"><h3>CITY CHANGELOG release semantics</h3><p>Version + diff + rollback + deprecation + known issues + unmerged-futures archive (rejected proposals archived with reasons) + sunset clause. City versioning ≠ benchmark ≠ leaderboard.</p></article></div></section>
+<section class="sheet"><div class="sheet-head"><div><h2>12 AI Scenario Cards</h2><p>Seven-field discipline: task / metric / baseline source / pass threshold / failure fallback / data scope / human-equivalent path. Thresholds are illustrative magnitudes, to be calibrated once the L3 behaviour layer connects.</p></div><span class="tag">proposal §scenario cards</span></div><div class="toggle-bar"><label class="switch" for="ai-toggle"><span class="slider"></span></label><b>Turn off the AI layer</b><span class="toggle-note"><span class="on">AI layer ON: showing AI scenarios with pass thresholds.</span><span class="off">AI layer OFF: the city still works — every card flips to its no-AI equivalent. Residents who refuse smart services keep full service (PEOPLE FIRST).</span></span></div><div class="scenario-grid">
+<article class="scenario-card"><div class="face face-ai"><span class="num">01</span><b>Campus Without Walls</b><p style="font-size:12px;color:#5A646C">Around TPU/PKU/CAS · cross-campus navigation</p><div class="thr"><i>Threshold</i> success ≥ human info desk (e.g. ≥90%)</div></div><div class="face face-noai"><span class="num">01 · No AI</span><b>Paper timetable + help desk + human tour</b><p style="font-size:12px;color:#5A646C">No service loss: staffed tour desk covers cross-campus navigation.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">02</span><b>Research-to-Founder Clinic</b><p style="font-size:12px;color:#5A646C">Origin Community + West Wing · tech transfer &amp; matching</p><div class="thr"><i>Threshold</i> adoption ≥ human clinic (illustrative)</div></div><div class="face face-noai"><span class="num">02 · No AI</span><b>Human tech-transfer office</b><p style="font-size:12px;color:#5A646C">No service loss: human clinic keeps receiving transfer cases.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">03</span><b>AI Community Health Navigator</b><p style="font-size:12px;color:#5A646C">Xiaoyuehe · care navigation; medical judgement stays human</p><div class="thr"><i>Threshold</i> correct-department arrival ≥ human guide (e.g. ≥95%)</div></div><div class="face face-noai"><span class="num">03 · No AI</span><b>Hospital human guide desk</b><p style="font-size:12px;color:#5A646C">No service loss: staffed guide desk keeps receiving patients.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">04</span><b>Assistive Robot Walk</b><p style="font-size:12px;color:#5A646C">JZ Park / Xiaoyuehe · low-risk assistive robot route</p><div class="thr"><i>Threshold</i> zero harm; independent completion at baseline</div></div><div class="face face-noai"><span class="num">04 · No AI</span><b>Human companion walk + accessible facilities</b><p style="font-size:12px;color:#5A646C">No service loss: companions and accessible facilities remain.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">05</span><b>Physical AI Test Yard</b><p style="font-size:12px;color:#5A646C">Zhongzhiyuan · robot perception/navigation safety review</p><div class="thr"><i>Threshold</i> tests pass with zero public-realm intrusion</div></div><div class="face face-noai"><span class="num">05 · No AI</span><b>Closed-site manual test process</b><p style="font-size:12px;color:#5A646C">No service loss: closed manual process keeps certifying safety.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">06</span><b>Agent Retail Street</b><p style="font-size:12px;color:#5A646C">Dazhongsi · merchant AI agents &amp; new consumption</p><div class="thr"><i>Threshold</i> transaction success ≥ human counter; complaints not up</div></div><div class="face face-noai"><span class="num">06 · No AI</span><b>Human cashier &amp; staff service</b><p style="font-size:12px;color:#5A646C">No service loss: human counters stay open.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">07</span><b>Future Product Launch Market</b><p style="font-size:12px;color:#5A646C">Dazhongsi · short-run launches observed in a real market</p><div class="thr"><i>Threshold</i> ≥1 real user full-chain with verifiable feedback in 90 days</div></div><div class="face face-noai"><span class="num">07 · No AI</span><b>Conventional launch &amp; offline trial</b><p style="font-size:12px;color:#5A646C">No service loss: conventional channels keep running.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">08</span><b>Rider Friendly Hub (URBAN SERVICE HUB)</b><p style="font-size:12px;color:#5A646C">Dazhongsi + campus nodes · ten rider services</p><div class="thr"><i>Threshold</i> wait/wayfinding time ≤ baseline (zero increase)</div></div><div class="face face-noai"><span class="num">08 · No AI</span><b>Staffed service point + paper building map</b><p style="font-size:12px;color:#5A646C">No service loss: ~6 staff per station per shift remain on duty.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">09</span><b>Global Talent Concierge</b><p style="font-size:12px;color:#5A646C">Metro + park nodes · multilingual city services</p><div class="thr"><i>Threshold</i> multilingual task success ≥ bilingual human desk</div></div><div class="face face-noai"><span class="num">09 · No AI</span><b>Human inquiry &amp; bilingual signage</b><p style="font-size:12px;color:#5A646C">No service loss: inquiry desks and bilingual signs remain.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">10</span><b>Quiet AI Park</b><p style="font-size:12px;color:#5A646C">Whole corridor · screen-free AI for maintenance</p><div class="thr"><i>Threshold</i> response time ≤ human patrol baseline</div></div><div class="face face-noai"><span class="num">10 · No AI</span><b>Human patrol &amp; on-site signage</b><p style="font-size:12px;color:#5A646C">No service loss: patrol shifts and signage remain.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">11</span><b>HUMAN+ROBOT Logistics</b><p style="font-size:12px;color:#5A646C">Dazhongsi–campus corridor · human-robot delivery</p><div class="thr"><i>Threshold</i> 100% human takeover on exception; speed ≥ rider-only</div></div><div class="face face-noai"><span class="num">11 · No AI</span><b>Rider-only delivery</b><p style="font-size:12px;color:#5A646C">No service loss: the rider network keeps delivering.</p></div></article>
+<article class="scenario-card"><div class="face face-ai"><span class="num">12</span><b>City Observatory</b><p style="font-size:12px;color:#5A646C">Data-line nodes · public display of operating data</p><div class="thr"><i>Threshold</i> public readings match raw records, third-party recomputable</div></div><div class="face face-noai"><span class="num">12 · No AI</span><b>Paper notice board &amp; periodic bulletin</b><p style="font-size:12px;color:#5A646C">No service loss: boards and bulletins keep publishing.</p></div></article>
+</div></section>
+<section class="sheet"><div class="sheet-head"><div><h2>Task Coverage &amp; Evidence</h2><p>compliance_matrix.json covers brief items 1.3, 1.4, 1.5 and agent.1–agent.6; standard_matrix.json and design_depth_matrix.json evidence professional standards and depth.</p></div><span class="tag">matrix evidence</span></div><div class="evidence"><div><h3>Sources</h3><p>sources.json registers 9 public sources plus 2 community public-review items (Issue #846 — heritage park disjoint, 412.5m; Issue #1029 — Dazhongsi centroid off by 2.26km; with thanks). This page loads no CDN, remote tiles, external scripts, external fonts, API requests or iframes.</p><div class="source-line">sources.json / standard_matrix.json / design_depth_matrix.json / Issue #846 #1029</div></div><div><h3>Assumptions</h3><p>Pending regulatory plans, road red lines, ownership, utilities, heritage and engineering conditions are listed in assumptions.json; UNKNOWN metrics keep null discipline — stating the gap, a suggested scope and a trigger, never fake numbers.</p><div class="source-line">missing_data_checklist.csv / assumptions.json / self_check.json</div></div></div></section>
+</main>
+<footer><div class="wrap">JZ OPENLINE · Visual Overview (en) | 2026-08-31 | 中文版:visual/index.html | Figures: assets/figures/ (5, bilingual) | Boards &amp; booklet: drawings/a0-boards.pdf, drawings/a3-booklet.pdf (bilingual)</div></footer>
+</body>
+</html>

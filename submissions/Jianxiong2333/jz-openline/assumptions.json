@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Detailed regulatory controls, road redlines, ownership, municipal utilities, and engineering constraints must be confirmed from official attachments before statutory use.",
+      "impact": "The package can be reviewed as a formal AI submission only for provided official boundaries and submitted design layers; statutory controls still need professional confirmation."
+    },
+    {
+      "id": "A-CONCEPT-002",
+      "status": "standing_disclaimer",
+      "statement": "All spatial propositions, scenarios, landmarks, events, and operating mechanisms in this package are concept suggestions for further professional development; they are not statutory planning, government approvals, authorized operations, or implementation commitments.",
+      "impact": "Keeps the package within the open-call boundary clause; reviewers should read every design statement as advisory."
+    },
+    {
+      "id": "A-DATA-003",
+      "status": "pending_licensed_data",
+      "statement": "The five-tier evidence stack (L1 statutory space, L2 facilities, L3 behavior, L4 labor, L5 innovation networks) is planned but not yet acquired; all related judgments are method statements. Current metrics are computed from provisional geometry only.",
+      "impact": "Evidence maps (Barrier Index, 24H Pulse, Innovation Leakage, Delivery Friction, etc.) and the 9 interface locations remain pending until licensed data is registered in sources.json."
+    },
+    {
+      "id": "A-BOUNDARY-004",
+      "status": "pending_official_release",
+      "statement": "Official site boundary and key-area polygons have not been released; submitted boundary layers are provisional_constraint with official_boundary=false.",
+      "impact": "On official release, boundary, key areas, land use, roads, green space, public space, buildings, phasing, and all metrics must be recomputed."
+    },
+    {
+      "id": "A-PARK-005",
+      "status": "pending_source_registration",
+      "statement": "Background fact 'heritage park phase II opened 2026-08, ~9km, serving ~70 communities / ~450k residents' is cited from public news memory and not yet registered with a licensed source.",
+      "impact": "Must be registered into sources.json with a verified public source before it can support formal scoring arguments."
+    }
+  ]
+}
