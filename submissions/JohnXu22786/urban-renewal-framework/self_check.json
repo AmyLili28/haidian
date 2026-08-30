@@ -200,5 +200,36 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ]
+  ],
+  "repair_verification": {
+    "review_id": "5061381133",
+    "review_score": 81.0,
+    "font_coverage": {
+      "status": "PASS",
+      "script": "scripts/check_font_coverage.py",
+      "surfaces": 4,
+      "missing_cjk_glyphs": 0,
+      "remote_font_requests": 0
+    },
+    "regenerated_outputs": {
+      "figure_pngs": 14,
+      "pdfs": 4,
+      "html_surfaces": 4,
+      "preview_pngs": 12,
+      "html_preview_pngs": 0,
+      "html_preview_note": "The existing preview runner lacked Playwright and the browser policy blocked local file:// navigation; no HTML screenshot is claimed."
+    },
+    "fact_boundary": {
+      "status": "PASS",
+      "exact_unsupported_phrases_found_in_text_and_pdf": [],
+      "conditional_wording": "current-condition survey and archival confirmation precede conservation/adaptation priority"
+    },
+    "four_gate_rerun": {
+      "deterministic_validation": "BLOCKED_BY_TARGET_LAYOUT",
+      "spatial_review": "PASS",
+      "visual_packaging": "PASS",
+      "professional_evidence": "PASS",
+      "note": "The official runner was invoked against the requested packages/ target. Its deterministic gate rejected the non-submissions path before content validation; no package or PR state was changed."
+    }
+  }
 }
