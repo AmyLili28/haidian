@@ -147,3 +147,34 @@ professional review with 24 metric refs, 23 compliance entries,
 15 design-depth items, 5 standard items, 6 persona, 12 scenario
 cards, 3 industry test scenarios, 6 case studies, 4 annual
 programs, 8 mechanism categories).
+
+## v3.1 - 2026-08-30 (Round-4 repair per CocoSgt blockers)
+
+Comprehensive visual and structural repair addressing CocoSgt blocking issues for PR #3931:
+
+- **assets/figures/key-areas.png & key-areas.en.png**:
+  - Re-engineered the bottom three node cards layout (Regeneration Workshop, Circular Market, Zero-Waste Station) with generous bounding boxes, clear hierarchy, distinct header banners, and carefully budgeted text wrapping.
+  - Fully resolved all text truncation and clipping issues: all functional descriptions, space allocations, equipment configurations (including "Low-glare night lighting · demountable", prototyping benches, observation gallery, reversible modular stalls, on-site food-waste composting) are 100% visible and readable with zero edge clipping (edge-clip ratio = 0.0000, ink coverage = 0.1089).
+  - Streamlined bottom flow strip ("Workshop Turns Materials → Market Extends Life → Station Guards Daily Life") and separated provisional recalculation notes with balanced margins.
+
+- **assets/figures/mobility-bluegreen.png & mobility-bluegreen.en.png**:
+  - Unambiguously anchored drop-off points D1–D4 directly onto the slow-traffic spine (`RD-SPINE` geometry) using exact LineString interpolation.
+  - Added distinct circular badges and directional leader callout lines for D1 (North Greenway Drop-off), D2 (Zhongzhiyuan Slow-traffic Hub), D3 (Origin Community Point), and D4 (Dazhongsi South Node), eliminating spatial ambiguity.
+  - Enriched land-use underlying tints and street cross-section components (building ground floor, sidewalk, green buffer, cycle track, zero-waste kiosk, carriageway) with ink coverage = 0.0941.
+
+- **drawings/a3-booklet.en.pdf & drawings/a3-booklet.pdf**:
+  - Redesigned A3 landscape booklet cover (page 1) with natural, balanced line-wrapping, proper margins, and zero awkward hyphenations (`low-carbon`, `dimension-concept`).
+  - Enhanced official three-tier scope hierarchy block (43.6 km² / 11.4 km² / 368.4 ha) and participant provisional model sub-scope statement.
+  - Embedded updated high-resolution figure assets across all 8 booklet pages.
+
+- **assets/figures/ (all 14 figures & A0 boards)**:
+  - Re-rendered all zh and en figures (`site-overview`, `land-use-structure`, `key-areas`, `mobility-bluegreen`, `metrics-evidence`, `logo`, `ai-ecosystem-map`) and A0 boards (`a0-boards.pdf`, `a0-boards.en.pdf`).
+  - Verified 100% pass across all 14 figures for ink coverage (all ink >= 0.0933, threshold >= 0.0800), zero text overlap, zero bounding box clipping, and strict bilingual consistency.
+
+- **report/ & visual/**:
+  - Re-rendered offline HTML reports `report/proposal.html` and `report/proposal.en.html`.
+  - Refreshed all visual preview assets in `visual/assets/previews/`.
+
+- **Verification & Four Gates**:
+  - Ran `self_check_submission.py` with `--mark-self-checked`: Deterministic validation, Spatial review, Visual packaging, and Professional evidence review all passed with `PASS` (Can enter formal review: YES).
+  - Synchronized `manifest.json` sha256 hashes and `self_check.json` across package and valroot trees.

@@ -84,7 +84,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/circular-zero-waste-belt": "formal"
       },
-      "total_bytes": 16426349,
+      "total_bytes": 15516634,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -223,54 +223,54 @@
     "ink_ok": true,
     "clip_clear": true,
     "overlap_clear": "not_verified",
-    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
+    "summary": "ink+edge-clip machine check only; text-bbox checks recorded in changelog",
     "figures": {
       "ai-ecosystem-map.png": {
         "width": 1800,
         "height": 1275,
-        "ink": 0.5167,
+        "ink": 0.1273,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       },
       "key-areas.png": {
         "width": 2100,
         "height": 1350,
-        "ink": 0.0925,
+        "ink": 0.1089,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       },
       "land-use-structure.png": {
         "width": 1800,
         "height": 1200,
-        "ink": 0.1741,
+        "ink": 0.1585,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       },
       "logo.png": {
         "width": 1800,
         "height": 1275,
-        "ink": 0.109,
+        "ink": 0.1315,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       },
       "metrics-evidence.png": {
         "width": 2400,
         "height": 1350,
-        "ink": 0.0938,
+        "ink": 0.1323,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       },
       "mobility-bluegreen.png": {
         "width": 1950,
         "height": 1275,
-        "ink": 0.1433,
+        "ink": 0.0933,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       },
       "site-overview.png": {
         "width": 1950,
         "height": 1275,
-        "ink": 0.239,
+        "ink": 0.1385,
         "edge_clip_ratio": 0.0,
         "edge_clip_clear": true
       }
