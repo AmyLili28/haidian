@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JING-ZHANG · THE SECOND ENCOUNTER - proposal report</title>
+<style>
+:root {
+  --ink: #172033;
+  --muted: #667085;
+  --line: #d7dee8;
+  --paper: #ffffff;
+  --bg: #f4f7fa;
+  --accent: #245b8f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.75;
+}
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 42px 24px 72px;
+  background: var(--paper);
+  min-height: 100vh;
+  box-shadow: 0 0 0 1px rgba(23, 32, 51, 0.05);
+}
+.hero {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+}
+h1 { font-size: 34px; line-height: 1.22; margin: 0 0 10px; }
+h2 { font-size: 25px; margin: 34px 0 12px; border-top: 1px solid var(--line); padding-top: 24px; }
+h3 { font-size: 20px; margin: 26px 0 10px; }
+p, li { font-size: 16px; }
+blockquote {
+  margin: 18px 0;
+  padding: 12px 18px;
+  border-left: 4px solid var(--line);
+  color: var(--muted);
+  background: #f8fafc;
+}
+code {
+  background: #eef2f7;
+  color: #1d4f7a;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+:not(pre) > code {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.summary { color: var(--muted); font-size: 17px; }
+.translation-link a { color: var(--accent); font-weight: 700; }
+.proposal-table { margin: 20px 0 26px; overflow-x: auto; }
+.proposal-table table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 520px;
+  font-size: 15px;
+}
+.proposal-table th, .proposal-table td {
+  border: 1px solid var(--line);
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+}
+.proposal-table th { background: #eef2f7; color: var(--ink); font-weight: 700; }
+.proposal-table tbody tr:nth-child(even) { background: #fafcfe; }
+.proposal-table .align-center { text-align: center; }
+.proposal-table .align-right { text-align: right; }
+.proposal-figure {
+  margin: 22px 0 28px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+.proposal-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.proposal-figure figcaption {
+  padding: 10px 14px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+}
+.evidence {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  margin: 0 0.12em;
+  border-bottom: 1px solid #8aa8c3;
+  color: #315f87;
+  font-size: 0.68em;
+  font-weight: 650;
+  line-height: 1.35;
+  vertical-align: super;
+}
+@media (max-width: 720px) {
+  main { padding: 26px 16px 52px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 21px; }
+}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<h1>JING-ZHANG · THE SECOND ENCOUNTER</h1>
+<p class="summary">Urban innovation is judged not at launch but at the second encounter: a civic route for follow-up, acknowledgement, and repair after AI service use.</p>
+<p class="translation-link"><a href="proposal.html">阅读中文版本</a></p>
+</section>
+<h1>JING-ZHANG · THE SECOND ENCOUNTER</h1>
+<blockquote><p>Urban innovation is judged not at launch, but at the second encounter.</p></blockquote>
+<p>AI is most visible on release day, yet public value appears afterwards. When an older resident is misdirected, a student receives unsuitable guidance, or a small merchant is wrongly filtered by an enterprise service, does the city meet that person again? Can it acknowledge the gap between promise and consequence, and can residents, frontline staff, and developers repair the service together? The Second Encounter turns that longitudinal relationship into public space, an operating protocol, and a durable civic brand rather than another centralised “smart brain.”</p>
+<h2>Design Basis and Source Inventory</h2>
+<p>The official announcement controls the three scope levels, three key areas, tasks, and deliverable context. The Agent taskbook provides the three positionings, five functions, three areas and two wings, and six mandatory Agent tasks <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="OFFICIAL-ANNOUNCEMENT" title="Source: OFFICIAL-ANNOUNCEMENT">Source</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="Source: AGENT-TASKBOOK">Source</sup>. Local snapshots of urban-design, detailed-planning, and land-use standards guide professional language; international cases are transferable comparisons, not statutory authority in Beijing <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MOHURD-URBAN-DESIGN-MEASURES" title="Standard: MOHURD-URBAN-DESIGN-MEASURES">Standard</sup>.</p>
+<p>No verifiable official SITE_BOUNDARY, KEY_AREA polygons, road redlines, existing-building survey, heritage-control lines, or regulatory conditions are present in the cleared package. The submitted model therefore uses repository provisional rough polygons. Its 11.41 km² area, 16.9% conceptual green ratio, and 1.2% conceptual public-space ratio are low-confidence model outputs, not approved controls <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/site_boundary.geojson#SITE-001" title="Spatial data: geometry/site_boundary.geojson#SITE-001">Spatial data</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="site_area_sqm" title="Metric: site_area_sqm">Metric</sup>. Every precision-sensitive layer and metric must be regenerated when official polygons arrive.</p>
+<figure class="proposal-figure"><img src="../assets/figures/site-overview.en.png" alt="The Second Encounter overview and four-step protocol"><figcaption>The Second Encounter overview and four-step protocol</figcaption></figure>
+<h2>Three-level Scope Framework</h2>
+<p>The coordinated research area asks what kind of AI ecosystem deserves to remain in a city. The overall design area asks how people meet a service and can return through everyday routes. The three key areas test who creates, who encounters, and who cares for consequences. These are not parallel reports but one evidence chain from judgment to spatial model to focused-area verification <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_level_scope_framework" title="Depth: three_level_scope_framework">Depth</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-001" title="Spatial data: geometry/key_areas.geojson#PROV-KEY-001">Spatial data</sup>.</p>
+<p>The structure is one Memory Spine, four Return Cross-links, six Return Stations, and three Time Landmarks. The spine organises heritage narrative, walking, cycling, and a green civic interface. Cross-links bring campuses, neighbourhoods, innovation spaces, and transit directions back to the same public route. Stations are small, staffed, reversible interfaces. The landmarks host first promise, second encounter, and unfinished record. All remain conceptual suggestions pending official transport, heritage, parcel, and engineering evidence <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/roads.geojson#ROAD-SE-01" title="Spatial data: geometry/roads.geojson#ROAD-SE-01">Spatial data</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="overall_spatial_structure" title="Depth: overall_spatial_structure">Depth</sup>.</p>
+<figure class="proposal-figure"><img src="../assets/figures/land-use-structure.en.png" alt="Overall structure and conceptual land-use model"><figcaption>Overall structure and conceptual land-use model</figcaption></figure>
+<h2>Coordinated Research Area: Industry and Future-city Strategy</h2>
+<p>The Second Encounter treats long-term response capacity as innovation infrastructure. Zhongzhiyuan hosts testing, standards, tools, and first-promise disclosure. The AI Origin Community hosts near-campus trials, resident return, and frontline review. Dazhongsi hosts maintenance services, version handover, retirement records, and international communication. The Zhongguancun Technology Service Wing connects law, intellectual property, capital services, and independent review; the Xiaoyuehe Scenario Wing connects community needs, public services, and bounded trials. Together they form a research—trial—first encounter—return—repair or retire—knowledge return loop <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="Source: AGENT-TASKBOOK">Source</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="industry_ecosystem_strategy" title="Depth: industry_ecosystem_strategy">Depth</sup>.</p>
+<p>Five global cases contribute mechanisms, not templates: the UK ATRS standardises public disclosure; AI Verify combines process and technical testing; the Dutch Algorithm Register demonstrates a public catalogue; Boston CityScore compares performance over time; and Decidim links traceable online and face-to-face participation <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-UK-ATRS" title="Source: CASE-UK-ATRS">Source</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-AI-VERIFY" title="Source: CASE-AI-VERIFY">Source</sup>. The Jing-Zhang protocol recombines these lessons without implying that any foreign framework has local legal force.</p>
+<p>The neutral identity mark uses two trajectories: a solid civic-blue line for the first promise and an orange dashed return that ends at a visible repair seam. The system names are First Promise Platform, Return Station, Second Encounter House, and Unfinished Monument. Railway iron grey, civic blue, repair orange, and paper white create a calm evidence-oriented visual language without borrowed trademarks or portraits.</p>
+<h2>Overall Design Area: Urban Renewal and Regulatory-depth Urban Design</h2>
+<p>Six topology-safe conceptual land-use bands cover the provisional site: culture and civic memory, AI services and business, community service, near-campus education and research, R&amp;D validation, and reserved adaptive land. They describe relationships rather than approved parcels; no demolition, FAR, height, or construction-scale conclusion is made before regulatory, ownership, and existing-condition evidence arrives <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-SE-01" title="Spatial data: geometry/land_use.geojson#LU-SE-01">Spatial data</sup> <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MNR-LAND-USE-CLASSIFICATION-GUIDE" title="Standard: MNR-LAND-USE-CLASSIFICATION-GUIDE">Standard</sup>.</p>
+<p>Renewal begins with the basic ability to return: continuous walking, accessibility, shade, physical wayfinding, and a visible human desk. Lightweight stations and three landmarks follow. Data-intensive AI services come last. Seven building geometries indicate conceptual interfaces—three landmarks and four reversible pavilions—not surveyed buildings or parcel decisions <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/buildings.geojson#BLDG-SE-01" title="Spatial data: geometry/buildings.geojson#BLDG-SE-01">Spatial data</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="retain_renovate_demolish" title="Depth: retain_renovate_demolish">Depth</sup>.</p>
+<p>Phase 1 establishes the protocol, staffing, and reversible structures. Phase 2 tests the three areas and repairs public-space links. Phase 3 transfers only scenarios that have completed a public second encounter and a repair or justified retirement. Expansion stops when ownership is unclear, equivalent human service is absent, data boundaries cannot be explained, return evidence is ignored, or professional safety thresholds fail <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/phasing.geojson#PHASE-SE-01" title="Spatial data: geometry/phasing.geojson#PHASE-SE-01">Spatial data</sup>.</p>
+<h2>Detailed Design for the Three Key Areas</h2>
+<p>Zhongzhiyuan becomes the First Promise Platform rather than a showroom for stronger models. Each candidate service declares purpose, users, data limits, a named owner, human fallback, review cycle, and exit conditions before entering public space. Small validation courts, public explanation surfaces, and low-disturbance test interfaces remain conceptual pending official ecology and transport controls <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-001" title="Spatial data: geometry/key_areas.geojson#PROV-KEY-001">Spatial data</sup>.</p>
+<p>The AI Origin Community hosts the Second Encounter House. Students, residents, frontline workers, and developers can bring back what happened after first use: whether advice helped, handover was timely, who was missed, and what should change. Paper, spoken, and accessible routes remain equivalent; a QR code or personal account is never the only entrance <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-002" title="Spatial data: geometry/key_areas.geojson#PROV-KEY-002">Spatial data</sup>.</p>
+<p>Dazhongsi hosts the Unfinished Monument and a maintenance economy. It records not only selected achievements but version changes, pauses, retirement, repairers, and frontline contributors. Repair, accessibility testing, model handover, content correction, and responsibility records can become AI-native services, while station-area engineering waits for official transport and ownership evidence <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-003" title="Spatial data: geometry/key_areas.geojson#PROV-KEY-003">Spatial data</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_key_area_detailed_design" title="Depth: three_key_area_detailed_design">Depth</sup>.</p>
+<figure class="proposal-figure"><img src="../assets/figures/key-areas.en.png" alt="Three areas as three moments of one relationship"><figcaption>Three areas as three moments of one relationship</figcaption></figure>
+<h2>AI Innovation Ecosystem, Personas, and AI+ Scenarios</h2>
+<p>Six personas organise service relationships: an older resident who needs low-friction human help; a disabled commuter; a student or open-source developer; a start-up seeking its first bounded use case; a frontline worker who absorbs system consequences; and an international visitor unfamiliar with local digital rules. Each profile asks what is needed at first encounter, what evidence may return, and who must respond. Personas guide service design and never become identifiable commercial segments.</p>
+<h3>One Ordinary Person’s Second Encounter</h3>
+<p>This is a composite journey used to test the workflow, not a record of a real interview. An older resident taking a child to a community service point follows an accessible route into a road closure. She has no account and does not want continuous location data uploaded. A nearby Return Station steward first draws a route she can use today, then records only five questions on paper: what she used, what she hoped to do, what happened, what help she needs now, and whether she wants the outcome. Name and phone stay blank by default; she takes a query code.</p>
+<p>The pilot proposes a 3/14/30 response rhythm: a service owner accepts responsibility within three working days; an initial finding appears on the physical noticeboard and offline page within fourteen days; within thirty days the service publishes a change, continued observation, or a stop decision. Immediate safety risk pauses the scenario before review. When she returns weeks later, she need not retell the story: the code shows what changed and why, or explains why change was impossible and which human route still works. These timings and staffed sessions are co-design targets for a pilot—not confirmed government commitments <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="ai_scenarios_personas" title="Depth: ai_scenarios_personas">Depth</sup>.</p>
+<p>Twelve scenario cards share the same structure—first encounter, possible consequence, second encounter, and named human responsibility: walking guidance; accessible routing; low-speed delivery-robot crossings; public-service navigation; health-information triage without diagnosis; education recommendations under teacher review; small-business service matching without approval; open-source release; heritage interpretation with source correction; public-space comfort adjustment; event-flow support under on-site command; and edge-computing energy disclosure <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="PROJECT-AGENT-OPEN-CALL-TASKBOOK" title="Standard: PROJECT-AGENT-OPEN-CALL-TASKBOOK">Standard</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="scenario_count" title="Metric: scenario_count">Metric</sup>.</p>
+<p>Three bounded validation scenarios come first: low-speed robots with near-miss review in controlled segments; public-service navigation measured through anonymous task completion and human handover time; and accessible routing checked against real obstacles, paper alternatives, and professional advisers. Passing a test permits only the next limited trial, never automatic citywide deployment.</p>
+<h2>Land Use, Building Scale, and Retain-Renovate-Demolish Strategy</h2>
+<p>The complete partition uses established land-use terminology rather than inventing an “AI land” code. Research, education, community service, culture, business, green space, and adaptive reserve are coordinated through one shared-boundary model <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-SE-02" title="Spatial data: geometry/land_use.geojson#LU-SE-02">Spatial data</sup> <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MNR-LAND-USE-CLASSIFICATION-GUIDE" title="Standard: MNR-LAND-USE-CLASSIFICATION-GUIDE">Standard</sup>. Green and public-space ratios are conceptual outputs, not statutory controls.</p>
+<p>The retain-renovate-demolish method puts relational evidence before a building verdict. Heritage value, street continuity, low-carbon reuse, and community memory trigger retention study. Ground-floor opening, accessibility, equipment replacement, and reversible fit-out trigger renovation study. Demolition can be considered only after safety, ownership, heritage, carbon, and community-impact assessment. Because existing-building evidence is absent, all seven footprints are lightweight interface placeholders and attach to no real property <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="building_footprint_area_sqm" title="Metric: building_footprint_area_sqm">Metric</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="height_massing_character" title="Depth: height_massing_character">Depth</sup>.</p>
+<p>FAR, height, density, setbacks, road redlines, fire access, and municipal capacity remain pending official data. Apparent scale in drawings communicates hierarchy, not engineering dimensions or investment quantities.</p>
+<h2>Transport, Rail, Municipal Infrastructure, and Public Services</h2>
+<p>Transport first asks whether a person can return without relying on AI. The Memory Spine offers continuous walking and cycling narrative; four cross-links bring east-west campuses, communities, workplaces, and transit directions to the civic interface. Six stations provide physical wayfinding, seating, staffed hours, and accessible operation as the minimum kit. Road geometry is a conceptual slow-mobility centreline, not an existing-road, redline, bridge, or tunnel proposal <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/roads.geojson#ROAD-SE-01" title="Spatial data: geometry/roads.geojson#ROAD-SE-01">Spatial data</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="traffic_rail_slow_parking" title="Depth: traffic_rail_slow_parking">Depth</sup>.</p>
+<p>Public services follow three “not-only” rules: QR is not the only entrance, an account is not the only record, and automation is not the only service. Qualified professionals retain judgment in health, education, legal, and daily-life services; AI may navigate, organise materials, or assist within a declared scope. Responsibility, paper explanation, and human service must remain visible <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="BARRIER-FREE-ENVIRONMENT-LAW" title="Standard: BARRIER-FREE-ENVIRONMENT-LAW">Standard</sup>.</p>
+<p>Municipal and digital infrastructure should be measurable, closable, and replaceable: edge-computing cabinets, energy and water displays, shade, lighting, and sensors must not be inseparable from permanent landscape. Energy, drainage, flood, fire, utility, noise, and cybersecurity conditions require specialist verification.</p>
+<figure class="proposal-figure"><img src="../assets/figures/mobility-bluegreen.en.png" alt="Return mobility and blue-green civic space"><figcaption>Return mobility and blue-green civic space</figcaption></figure>
+<h2>Blue-Green Network, Public Space, and Urban Character</h2>
+<p>Blue-green space is not a backdrop for gadgets; it creates the daily conditions for a second encounter. A continuous green spine supports shade, rain gardens, rest, walking, and cycling. An orange repair seam in paving, seating, or wayfinding marks “this place changed because someone returned,” turning correction into civic credit rather than hidden failure. Every action near waterways, parks, or heritage remains lightweight and reversible pending professional evidence <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/green_space.geojson#GREEN-SE-01" title="Spatial data: geometry/green_space.geojson#GREEN-SE-01">Spatial data</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="green_ratio" title="Metric: green_ratio">Metric</sup>.</p>
+<p>Return Stations are not screen arrays, and the first phase should not construct six new buildings. It should borrow a visible 12–18 sqm corner of an existing community centre, campus commons, park lodge, or workplace reception. The minimum kit is a replaceable notice surface, a face-to-face table, two backed chairs, an accessible route, large-print and easy-read instructions, five-question paper cards, an optional QR route, and staffed hours posted at the door. The pilot proposes at least three staffed sessions each week, including one evening or weekend; outside those hours, a telephone and paper drop remain available so an “always-on” screen never pretends that somebody is responsible. The landmarks avoid spectacle: the First Promise Platform declares boundaries; the Second Encounter House receives consequences; the Unfinished Monument records repair, pause, and retirement <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/public_space.geojson#PUBLIC-SE-01" title="Spatial data: geometry/public_space.geojson#PUBLIC-SE-01">Spatial data</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="public_space_ratio" title="Metric: public_space_ratio">Metric</sup>.</p>
+<p>Railway iron grey carries memory and structure, civic blue carries explanation and service, and repair orange appears only where response has occurred. Night lighting avoids glare and media excess; sound and interaction must respect residential life.</p>
+<h2>Renewal Projects, Implementation Policy, and Phasing</h2>
+<p>Eight project packages are proposed: the Second Encounter protocol and one-page card; six lightweight Return Stations; Zhongzhiyuan First Promise Platform; AI Origin Second Encounter House; Dazhongsi Unfinished Monument; four accessible Return Cross-links; twelve bounded scenario trials; and a public version archive with annual review. Each requires a public owner, technical operator, frontline steward, independent reviewer, and resident or user representative. Records bind to public roles, not to individual frontline workers as convenient targets for blame <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="renewal_project_list" title="Depth: renewal_project_list">Depth</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/phasing.geojson#PHASE-SE-01" title="Spatial data: geometry/phasing.geojson#PHASE-SE-01">Spatial data</sup>.</p>
+<p>Phase 1 is not a twelve-month construction list. Its first eight weeks confirm two borrowed spaces, three named roles, and the paper workflow. A twelve-week “two stations, three scenarios” pilot then tests accessible routing, public-service navigation, and heritage-source correction. Four weeks of open review examine unanswered cases, repeated problems, and frontline workload. Expansion to six stations occurs only when human access is sustainable, the 3/14/30 rhythm is broadly reachable, and no safety item remains unresolved. Phase 2, months 12–36, repairs mobility and public-space links and establishes differentiated nodes. Phase 3, after month 36, transfers only services that have completed at least one public return, repair, or justified retirement. Costs remain qualitative—light, medium, heavy—because ownership, budget, and procurement are unknown.</p>
+<p>The minimum duty team is not a universal “AI office.” A local steward solves today’s problem; a service owner decides whether the system changes or pauses; a rotating technical operator explains versions and data limits. Accessibility advisers, older-resident representatives, and frontline staff join a monthly review. If a service owner cannot be identified within three working days, the human route is unavailable for two consecutive staffed sessions, or a new safety risk appears, the scenario reverts to human service and expansion stops.</p>
+<figure class="proposal-figure"><img src="../assets/figures/pilot-operations.en.png" alt="Two-station pilot and stop conditions"><figcaption>Two-station pilot and stop conditions</figcaption></figure>
+<p>The long-term brand event is Second Encounter Week. Participants cannot bring only a demo; they must return with evidence, failure, changes, and a new promise. Repair Night School, Frontline Stories, Honourable Retirement, and Global Developer Handover turn maintenance into public culture. Events, investment, recruitment, and policy remain operational concepts, not confirmed government commitments <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="Source: AGENT-TASKBOOK">Source</sup>.</p>
+<h2>Metrics, Area Recalculation, and Compliance Matrix</h2>
+<p>Three core visual metrics are recomputed from the same GeoJSON in EPSG:4548: provisional site area 11,412,825 sqm, conceptual green ratio 16.86%, and conceptual public-space ratio 1.24% <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="site_area_sqm" title="Metric: site_area_sqm">Metric</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="green_ratio" title="Metric: green_ratio">Metric</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="public_space_ratio" title="Metric: public_space_ratio">Metric</sup>. The package also records six Return Stations, three Time Landmarks, twelve scenario cards, and seven lightweight building interfaces. These describe the model, not official controls.</p>
+<p>Metrics fall into three families: spatial-model values recomputable from geometry; FAR, height, roads, utilities, and heritage controls pending official evidence; and operational measures—return rate, handover time, repair completion, repeated-problem rate, and executed retirement—that require real pilots. No satisfaction or performance baseline is fabricated.</p>
+<p>The compliance matrix maps announcement tasks and Agent tasks to narrative, geometry, metrics, drawings, sources, assumptions, and checks. Professional standards and design depth stay exhaustive in structured matrices; the readable proposal uses only claim-adjacent markers <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="metrics_recalculation" title="Depth: metrics_recalculation">Depth</sup>.</p>
+<figure class="proposal-figure"><img src="../assets/figures/metrics-evidence.en.png" alt="Metrics and public-return evidence chain"><figcaption>Metrics and public-return evidence chain</figcaption></figure>
+<h2>Risk, Copyright, and Compliance</h2>
+<p>Data risk comes first: the provisional overall-design polygon has documented spatial uncertainty, key areas lack official polygons, and building, road, heritage, municipal, and ownership evidence is incomplete. The response is not to draw with false confidence but to preserve provisional labels, reduce engineering claims, and trigger full-package regeneration <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="BOUNDARY-SOURCE" title="Source: BOUNDARY-SOURCE">Source</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="risk_missing_data" title="Depth: risk_missing_data">Depth</sup>.</p>
+<p>Relational risk follows: return can degrade into symbolic consultation, identity tracking, complaint displacement, or feedback without responsibility. Evidence must therefore be voluntary, purpose-limited, and capable of anonymity; paper and face-to-face channels remain equivalent; every item binds to a public role; a service-specific agreement determines response time; unresolved items receive an explanation. Unverified feedback is never described as majority opinion or public consent.</p>
+<p>Expression risk is explicit: the cover, figures, and drawings are generated or data-driven presentation assets, not site photographs, official renderings, or approved plans. Methods, sources, rights, and limits are recorded. Two peer proposals were read only for differentiation; no text, image, or data asset was copied <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="PEER-OBSERVABLE-JZ" title="Source: PEER-OBSERVABLE-JZ">Source</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="PEER-MEND-JZ" title="Source: PEER-MEND-JZ">Source</sup>.</p>
+<p>Every spatial move is a conceptual suggestion, reference scheme, or material for professional deepening. Nothing in the package guarantees approval, implementation, investment, policy, recruitment, event impact, or resident support.</p>
+<h2>References</h2>
+<ul>
+<li>Official project announcement <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="OFFICIAL-ANNOUNCEMENT" title="Source: OFFICIAL-ANNOUNCEMENT">Source</sup></li>
+<li>Agent taskbook and public repository source registry <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="Source: AGENT-TASKBOOK">Source</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="SOURCE-REGISTRY" title="Source: SOURCE-REGISTRY">Source</sup></li>
+<li>UK Algorithmic Transparency Recording Standard Hub <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-UK-ATRS" title="Source: CASE-UK-ATRS">Source</sup></li>
+<li>AI Verify Testing Framework <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-AI-VERIFY" title="Source: CASE-AI-VERIFY">Source</sup></li>
+<li>Dutch Algorithm Register <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-DUTCH-ALGORITHM-REGISTER" title="Source: CASE-DUTCH-ALGORITHM-REGISTER">Source</sup></li>
+<li>Boston CityScore <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-BOSTON-CITYSCORE" title="Source: CASE-BOSTON-CITYSCORE">Source</sup></li>
+<li>Decidim participation and traceability principles <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-DECIDIM" title="Source: CASE-DECIDIM">Source</sup></li>
+</ul>
+<p>Publishers, URLs, access dates, permitted uses, and limitations are maintained in <code>sources.json</code>. Cases support analogy and do not become local statutory evidence.</p>
+</main>
+</body>
+</html>
