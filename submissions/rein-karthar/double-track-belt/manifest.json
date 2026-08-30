@@ -77,7 +77,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "9a37493d2c1ffbc5cbd201d15b141219cfb560deed3753adb4cd254540b94979"
+      "sha256": "50418f531caa6171fdbc2b6bd2509196f18f667224577bbbf7e3f85e34799524"
     },
     {
       "path": "report/narrative.md",
@@ -107,7 +107,7 @@
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "dc153e30c6e03be047c364a336d2c2eee14e7f56ccc3dc0acb7c0c57f98d11c6"
+      "sha256": "89e9e922f9e40595c9bbbd02673884d98efb9220d55ae533e665e3ca48be861f"
     },
     {
       "path": "assets/figures/key-areas.png",
