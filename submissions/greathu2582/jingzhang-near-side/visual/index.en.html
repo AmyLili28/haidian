@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE NEAR SIDE — The Last 300 Metres</title>
+<style>
+  :root {
+    --paper:#f7f5ef; --ink:#1c1f24; --ink2:#565a60; --mute:#8a8578;
+    --hair:#d6d0c2; --red:#a8342a; --blue:#1f5c8b; --green:#6e9153;
+    --warm:#d98e2b; --sand:#d8c39b;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Noto Sans CJK SC","Microsoft YaHei","PingFang SC",Arial,sans-serif;
+    line-height:1.65; }
+  a { color:var(--blue); }
+  header { background:#fffdf8; border-bottom:3px solid var(--red); padding:34px 28px 26px; }
+  .wrap { max-width:1180px; margin:0 auto; }
+  .kicker { color:var(--red); font-size:14px; letter-spacing:.06em; text-transform:uppercase; }
+  h1 { font-size:34px; margin:10px 0 6px; line-height:1.25; }
+  .sub { color:var(--ink2); font-size:17px; margin:0; }
+  .lang { float:right; font-size:14px; }
+  .warn { background:#fcf4ee; border-left:6px solid var(--red); padding:14px 18px;
+    margin:22px 0; font-size:14px; color:var(--ink); }
+  .warn b { color:var(--red); }
+  section { max-width:1180px; margin:0 auto 46px; padding:0 28px; }
+  h2 { font-size:22px; margin:34px 0 14px; padding-bottom:8px; border-bottom:2px solid var(--hair); }
+  .cores { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .core { background:#fffdf8; border:1px solid var(--hair); border-top:4px solid var(--green);
+    padding:18px 20px; }
+  .core:nth-child(1) { border-top-color:var(--red); }
+  .core:nth-child(3) { border-top-color:var(--warm); }
+  .core-label { font-size:14px; color:var(--ink2); }
+  .core-value { font-size:40px; font-weight:700; color:var(--red); line-height:1.15; }
+  .core:nth-child(2) .core-value { color:var(--green); }
+  .core:nth-child(3) .core-value { color:var(--warm); }
+  .core-sub { font-size:12px; color:var(--mute); }
+  .finds { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .find { background:#fffdf8; border:1px solid var(--hair); padding:18px 20px; }
+  .find-v { font-size:30px; font-weight:700; color:var(--red); }
+  .find-k { font-size:15px; color:var(--ink); }
+  .find-n { font-size:13px; color:var(--mute); }
+  figure { margin:0 0 26px; background:#fffdf8; border:1px solid var(--hair); padding:12px; }
+  figure img { width:100%; height:auto; display:block; }
+  figcaption { font-size:13px; color:var(--mute); padding-top:8px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; background:#fffdf8; }
+  th, td { text-align:left; padding:9px 10px; border-bottom:1px solid var(--hair); vertical-align:top; }
+  th { background:#efe9dc; font-size:13px; color:var(--ink2); }
+  td.k { font-family:ui-monospace,Consolas,monospace; font-size:13px; color:var(--ink2); white-space:nowrap; }
+  td.v { font-weight:700; }
+  td.f { font-size:12px; color:var(--mute); }
+  .tag { display:inline-block; padding:1px 8px; border-radius:2px; font-size:12px; color:#fff; }
+  .tag-ok { background:var(--green); }
+  .tag-wait { background:#a87828; }
+  ul { padding-left:20px; }
+  li { margin-bottom:10px; font-size:14px; }
+  .golden { margin-top:18px; border:2px solid var(--red); border-left-width:8px; background:#fcf9f3;
+              padding:14px 18px 16px; }
+  .golden-line { font-size:17px; font-weight:700; color:var(--ink); line-height:1.55; }
+  .covenants { display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
+  .cov { background:var(--red); color:#fff; font-size:15px; font-weight:700; padding:5px 14px; border-radius:2px; }
+  .covenant-sub { margin-top:9px; font-size:13px; color:var(--mute); line-height:1.6; }
+  .impact { font-size:13px; color:var(--mute); }
+  footer { border-top:2px solid var(--hair); padding:22px 28px 40px; font-size:13px; color:var(--mute); }
+  @media (max-width:720px) { h1 { font-size:26px; } .core-value { font-size:32px; } }
+  @media (prefers-reduced-motion:reduce) { * { animation:none !important; transition:none !important; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="lang" href="index.zh.html">中文</a>
+    <div class="kicker">Centennial Jing-Zhang AI Innovation Belt · concept proposal</div>
+    <h1>THE NEAR SIDE — The Last 300 Metres</h1>
+    <p class="sub">Turn the last 300 metres outside the park edge into the belt&#x27;s first asset</p>
+    <div class="golden">
+      <div class="golden-line">Criterion: any move claiming to bring AI into the city must first explain how it gets from the park edge to a door an ordinary person can reach.</div>
+      <div class="covenants"><span class="cov">Crossable</span><span class="cov">Closable</span><span class="cov">Countable</span></div>
+      <div class="covenant-sub">One 24h passage per near-side unit - every AI scenario can be switched off with a human path kept - every committed metric ships with a formula</div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="warn"><b>Precision warning：</b>All geometry uses the repository provisional boundary (official_boundary=false, geometry_role=provisional_constraint) for generation, self-check, visualisation and design discussion only; it is not an official redline, approval basis or precise-area basis. A repository background cross-check found a 533-898 m (mean 667 m) consistent offset between the provisional boundary and OSM centrelines of the announced boundary streets. The inferred spine is a measurement baseline for method demonstration, not the surveyed park alignment. Everything is recalculated once official data is published.</div>
+</section>
+
+<section>
+  <h2>Three formal core visual metrics</h2>
+  <div class="cores"><div class="core"><div class="core-label">Submitted site area</div><div class="core-value" data-metric="site_area_sqm" data-value="11412825.386">11.41 km²</div><div class="core-sub">metric: site_area_sqm</div></div><div class="core"><div class="core-label">Green ratio</div><div class="core-value" data-metric="green_ratio" data-value="0.305054">30.5%</div><div class="core-sub">metric: green_ratio</div></div><div class="core"><div class="core-label">Public-space ratio</div><div class="core-value" data-metric="public_space_ratio" data-value="0.102352">10.2%</div><div class="core-sub">metric: public_space_ratio</div></div></div>
+</section>
+
+<section>
+  <h2>Key finding: this belt has no hinterland</h2>
+  <div class="finds"><div class="find"><div class="find-v">1,188 m</div><div class="find-k">Mean width of submitted area</div><div class="find-n">half-width 594 m</div></div><div class="find"><div class="find-v">295.7 m</div><div class="find-k">Mean distance to spine</div><div class="find-n">area-weighted</div></div><div class="find"><div class="find-v">51.1%</div><div class="find-k">Near side (0-300 m) share</div><div class="find-n">99.98% within 650 m</div></div></div>
+</section>
+
+<section>
+  <h2>Figures</h2>
+  <figure><img src="../assets/figures/site-overview.en.png" alt="One-page overview" loading="lazy"><figcaption>One-page overview</figcaption></figure><figure><img src="../assets/figures/land-use-structure.en.png" alt="Land use and three rings" loading="lazy"><figcaption>Land use and three rings</figcaption></figure><figure><img src="../assets/figures/key-areas.en.png" alt="Three key areas" loading="lazy"><figcaption>Three key areas</figcaption></figure><figure><img src="../assets/figures/mobility-bluegreen.en.png" alt="Mobility, blue-green and near-side section" loading="lazy"><figcaption>Mobility, blue-green and near-side section</figcaption></figure><figure><img src="../assets/figures/metrics-evidence.en.png" alt="Metrics and evidence chain" loading="lazy"><figcaption>Metrics and evidence chain</figcaption></figure>
+</section>
+
+<section>
+  <h2>Agent task coverage (agent.1-agent.6)</h2>
+  <table>
+    <thead><tr><th>Task</th>
+    <th>Response in this proposal</th>
+    <th>Covered</th></tr></thead>
+    <tbody><tr><td class="k">agent.1</td><td>Overall concept and functional integration: THE NEAR SIDE naming system, three-ring structure, logo direction, three positionings and three areas plus two wings</td><td><span class="tag tag-ok">yes</span></td></tr><tr><td class="k">agent.2</td><td>AI innovation ecosystem: 8 global cases, eight-element spatial mapping, scenario procurement and test-withdrawal mechanism</td><td><span class="tag tag-ok">yes</span></td></tr><tr><td class="k">agent.3</td><td>AI+ scenarios: 8 user profiles, 12 scenario cards, 3 industry test scenarios, privacy and human-review boundaries</td><td><span class="tag tag-ok">yes</span></td></tr><tr><td class="k">agent.4</td><td>AI public space and pilgrimage landmarks: 33 near-side rooms, 9 crossing squares, KM0 / Switchback Gate / Arrival Hall</td><td><span class="tag tag-ok">yes</span></td></tr><tr><td class="k">agent.5</td><td>Cultural narrative: Jing-Zhang Railway, Zhongguancun and AI new culture, plus a 9 km walkable route</td><td><span class="tag tag-ok">yes</span></td></tr><tr><td class="k">agent.6</td><td>Long-term operation: THE NEAR SIDE Conference, Last 300 Metres Challenge, Milestone Open Days, honour wall and scenario-open mechanism</td><td><span class="tag tag-ok">yes</span></td></tr></tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Recomputable metrics</h2>
+  <table>
+    <thead><tr><th>Metric</th><th>Value</th>
+    <th>Unit</th><th>Status</th><th>Formula</th></tr></thead>
+    <tbody><tr><td class="k">site_area_sqm</td><td class="v">11.41 km²</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">polygon_area(EPSG:4548 projection of submitted site boundary)</td></tr><tr><td class="k">green_ratio</td><td class="v">30.5%</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">sum(green_space_area_sqm) / site_area_sqm</td></tr><tr><td class="k">public_space_ratio</td><td class="v">10.2%</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">sum(public_space_area_sqm) / site_area_sqm</td></tr><tr><td class="k">green_space_area_sqm</td><td class="v">3.48 km²</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">sum(polygon_area(green_space))</td></tr><tr><td class="k">public_space_area_sqm</td><td class="v">1.17 km²</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">sum(polygon_area(public_space))</td></tr><tr><td class="k">building_footprint_area_sqm</td><td class="v">1.98 km²</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">sum(polygon_area(building_footprints))</td></tr><tr><td class="k">road_centerline_length_m</td><td class="v">147.6 km</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">sum(centerline_length_m)</td></tr><tr><td class="k">road_network_density_km_per_sqkm</td><td class="v">12.93</td><td>km/km2</td><td><span class="tag tag-ok">known</span></td><td class="f">sum(centerline_length_m) / (site_area_sqm / 1,000,000)</td></tr><tr><td class="k">spine_length_m</td><td class="v">9.6 km</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">length(inferred_spine_centerline)</td></tr><tr><td class="k">near_unit_count</td><td class="v">33</td><td>count</td><td><span class="tag tag-ok">known</span></td><td class="f">count(public_space features with near_unit_id)</td></tr><tr><td class="k">access_points_planned</td><td class="v">42</td><td>count</td><td><span class="tag tag-ok">known</span></td><td class="f">count(public_space features)</td></tr><tr><td class="k">mean_distance_to_spine_m</td><td class="v">295.7 m</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">area-weighted mean distance from submitted site to inferred spine, by 25 m rings</td></tr><tr><td class="k">share_within_300m</td><td class="v">51.1%</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">area(site_intersection_buffer(spine,300m)) / site_area_sqm</td></tr><tr><td class="k">share_within_500m</td><td class="v">85.2%</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">area(site_intersection_buffer(spine,500m)) / site_area_sqm</td></tr><tr><td class="k">share_within_650m</td><td class="v">100.0%</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">area(site_intersection_buffer(spine,650m)) / site_area_sqm</td></tr><tr><td class="k">site_width_mean_m</td><td class="v">1.2 km</td><td></td><td><span class="tag tag-ok">known</span></td><td class="f">site_area_sqm / spine_length_m</td></tr><tr><td class="k">land_use_parcel_count</td><td class="v">139</td><td>count</td><td><span class="tag tag-ok">known</span></td><td class="f">count(land_use features)</td></tr><tr><td class="k">key_area_count</td><td class="v">3</td><td>count</td><td><span class="tag tag-ok">known</span></td><td class="f">count(key_detailed_design_areas)</td></tr><tr><td class="k">floor_area_ratio</td><td class="v"><em>pending official data</em></td><td>ratio</td><td><span class="tag tag-wait">unknown</span></td><td class="f">total_floor_area_sqm / official_site_area_sqm</td></tr><tr><td class="k">building_height_m</td><td class="v"><em>pending official data</em></td><td>m</td><td><span class="tag tag-wait">unknown</span></td><td class="f">N/A; requires aviation/heritage/landscape and statutory controls</td></tr><tr><td class="k">building_density</td><td class="v"><em>pending official data</em></td><td>ratio</td><td><span class="tag tag-wait">unknown</span></td><td class="f">building_footprint_area_sqm / site_area_sqm (statutory controls missing)</td></tr><tr><td class="k">setback_m</td><td class="v"><em>pending official data</em></td><td>m</td><td><span class="tag tag-wait">unknown</span></td><td class="f">N/A; requires road redline and building control line</td></tr></tbody>
+  </table>
+</section>
+
+<section>
+  <h2>空间与实施版块 / Spatial and delivery sections</h2>
+  <table>
+    <thead><tr><th>Section</th>
+    <th>Content</th>
+    <th>Evidence</th></tr></thead>
+    <tbody><tr><td class="k">总览地图 / Overview map</td><td>三环分带、推定主脊、33 个近端单元、42 处公共接口与三处重点区域同图呈现</td><td class="f">assets/figures/site-overview.png · geometry/site_boundary.geojson</td></tr><tr><td class="k">三层范围 / Three-level scope</td><td>统筹研究范围 43.6 km²、总体设计范围 11.4 km²、重点区域 368.4 ha 的递进关系</td><td class="f">geometry/site_boundary.geojson · geometry/key_areas.geojson</td></tr><tr><td class="k">重点区域 / Key areas</td><td>众智园、AI 原点社区、大钟寺各解一种「最后三百米」</td><td class="f">geometry/key_areas.geojson · assets/figures/key-areas.png</td></tr><tr><td class="k">用地分区 / Land-use分区</td><td>提交范围完整剖分 139 个要素，无缺口、无重叠，采用国土空间用地用海分类代码</td><td class="f">geometry/land_use.geojson · assets/figures/land-use-structure.png</td></tr><tr><td class="k">交通慢行 / Mobility</td><td>绿脊慢行主脉 9,608 m、设计路网密度 9.80 km/km²、12 条东西缝合街、33 条公共穿越通道</td><td class="f">geometry/roads.geojson · assets/figures/mobility-bluegreen.png</td></tr><tr><td class="k">蓝绿公共空间 / Blue-green public space</td><td>绿地率 33.57%、公共空间比例 10.24%、19.2 km 公园边界面、17 处渗透环口袋公园</td><td class="f">geometry/green_space.geojson · geometry/public_space.geojson</td></tr><tr><td class="k">建筑 / Buildings</td><td>136 个周边式街区概念基底，覆盖率约 55%，低置信度设计量，不含高度与容积率结论</td><td class="f">geometry/buildings.geojson</td></tr><tr><td class="k">更新项目 / Renewal projects</td><td>R0–R7 八个项目，逐项写明实施主体、前置条件、分期与失败退出条件</td><td class="f">geometry/phasing.geojson</td></tr><tr><td class="k">AI 场景 / AI scenarios</td><td>12 张场景卡、3 个产业测试验证场景、8 类用户画像，全部映射到近端单元</td><td class="f">geometry/public_space.geojson · proposal.md</td></tr><tr><td class="k">核心指标 / Core metrics</td><td>site_area_sqm、green_ratio、public_space_ratio 均由提交几何在 EPSG:4548 下复算</td><td class="f">metrics.json · assets/figures/metrics-evidence.png</td></tr></tbody>
+  </table>
+</section>
+
+<section>
+  <h2>更新项目 / Renewal projects</h2>
+  <table>
+    <thead><tr><th>#</th><th>Project</th>
+    <th>Location</th>
+    <th>Actors</th>
+    <th>Phase</th>
+    <th>Exit-on-failure</th></tr></thead>
+    <tbody><tr><td class="k">R0</td><td>公园边界面调查</td><td>全带</td><td>规划主管部门 + 测绘单位</td><td>0–6 个月</td><td class="f">所有后续项目的依赖</td></tr><tr><td class="k">R1</td><td>近端单元台账</td><td>33 个 NU</td><td>街道 + 社区 + AI 助手</td><td>一期</td><td class="f">权属不配合时降为背景研究</td></tr><tr><td class="k">R2</td><td>无障碍断点修复</td><td>NU-13–NU-20</td><td>街道 + 权属主体</td><td>一期</td><td class="f">资金未落实则只保留清单</td></tr><tr><td class="k">R3</td><td>低速机器人测试街</td><td>众智园</td><td>管委会 + 企业</td><td>一期</td><td class="f">连续两期未通过即停止</td></tr><tr><td class="k">R4</td><td>院所公共接口改造</td><td>AI 原点社区</td><td>高校/院所 + 街道</td><td>二期</td><td class="f">任一主体反对则跳过该单元</td></tr><tr><td class="k">R5</td><td>人才公寓与混合街区</td><td>渗透环</td><td>投资/运营主体</td><td>二期</td><td class="f">可行性不足则现状保留</td></tr><tr><td class="k">R6</td><td>大钟寺站前到站厅</td><td>大钟寺</td><td>轨道运营方 + 街道</td><td>二期</td><td class="f">工程不可行则改地面导引</td></tr><tr><td class="k">R7</td><td>区域协同接口</td><td>外联环</td><td>区政府 + 区域平台</td><td>三期</td><td class="f">协调失败则保持现状</td></tr></tbody>
+  </table>
+</section>
+
+<section>
+  <h2>AI 场景 / AI scenarios</h2>
+  <table>
+    <thead><tr><th>#</th><th>Scenario</th>
+    <th>Location</th>
+    <th>Privacy and audit boundary</th></tr></thead>
+    <tbody><tr><td class="k">S01</td><td>低速机器人配送让行通道</td><td>近端带支路与交叉口</td><td class="f">不采集人脸；责任方公开</td></tr><tr><td class="k">S02</td><td>AI 健康服务导航</td><td>近端客厅 NU-07 / NU-19</td><td class="f">药师复核入口 + 人工窗口</td></tr><tr><td class="k">S03</td><td>AI 无障碍路径规划</td><td>公共穿越通道</td><td class="f">只用公开道路几何</td></tr><tr><td class="k">S04</td><td>AI 教育答疑角</td><td>近端客厅 NU-13–NU-20</td><td class="f">答案可追溯 + 申诉通道</td></tr><tr><td class="k">S05</td><td>AI 法律/办事导航</td><td>近端客厅 NU-04 / NU-11</td><td class="f">强制人工复核节点</td></tr><tr><td class="k">S06</td><td>智能照明与安全提示</td><td>绿脊与近端单元</td><td class="f">本地处理，不上传图像</td></tr><tr><td class="k">S07</td><td>开源成果展示廊</td><td>绿脊里程碑节点</td><td class="f">以公开贡献记录为准</td></tr><tr><td class="k">S08</td><td>AI 场景测试沙盒</td><td>众智园留白用地</td><td class="f">数据脱敏 + 两期未达标下线</td></tr><tr><td class="k">S11</td><td>轨道接驳动态指引</td><td>大钟寺近端单元</td><td class="f">只用公开运营数据</td></tr><tr><td class="k">S12</td><td>京张文化 AI 导览</td><td>绿脊里程碑节点</td><td class="f">史实以官方资料为准</td></tr></tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Self-check state</h2>
+  <table>
+    <thead><tr><th>Check</th>
+    <th>Result</th>
+    <th>Note</th></tr></thead>
+    <tbody><tr><td class="k">BOUNDARY_TRUST</td><td><span class="tag tag-ok">pass</span></td><td>Submitted boundary is provisional and labelled throughout</td></tr><tr><td class="k">KEY_AREAS_TRUST</td><td><span class="tag tag-ok">pass</span></td><td>Three key areas are provisional rectangles; directional design only</td></tr><tr><td class="k">LAND_USE_TOPOLOGY</td><td><span class="tag tag-ok">pass</span></td><td>Land use is a complete partition: 0 sqm gap, 0 sqm outside, no overlaps</td></tr><tr><td class="k">VISUAL_STATIC</td><td><span class="tag tag-ok">pass</span></td><td>Visualisation is offline static HTML with no external dependencies</td></tr><tr><td class="k">PROFESSIONAL_EVIDENCE</td><td><span class="tag tag-ok">pass</span></td><td>Professional evidence chain covers standards, depth items, geometry, metrics and assumptions</td></tr></tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Sources</h2>
+  <ul><li><strong>SITE-PACKAGE</strong> — Project brief, enums, allowed design space, ranges, and schemas.</li><li><strong>SOURCE-REGISTRY</strong> — Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials.</li><li><strong>PROCESSED-FACT-PACK</strong> — Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source.</li><li><strong>BOUNDARY-SOURCE</strong> — Submitted site boundary geometry source (provisional).</li><li><strong>KEY-AREA-SOURCE</strong> — Three required detailed-design key area boundaries (provisional).</li><li><strong>OFFICIAL-ANNOUNCEMENT</strong> — Official announcement tasks, scope levels, key areas, language, and deliverable context.</li><li><strong>AGENT-TASKBOOK</strong> — Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause.</li><li><strong>NEAR-CENSUS-20260830</strong> — Census of 950 merged proposal titles/summaries from submissions-data.js, used only to argue differentiated positioning. Background-only because the gallery index may lag.</li><li><strong>HAIDIAN-BOUNDARY-CROSS-CHECK-20260814</strong> — Repository background cross-check of provisional boundary against OSM street centrelines; used only to explain boundary uncertainty, not to upgrade or replace the official boundary. ODbL 1.0.</li><li><strong>NEAR-METHOD-20260830</strong> — Design-method note documenting how geometry, metrics and figures were generated from the provisional boundary.</li><li><strong>NEAR-BACKGROUND-20260830</strong> — Background reference to GB/T 51328-2018 road-network density; not stored locally, used only as design orientation.</li></ul>
+</section>
+
+<section>
+  <h2>Assumptions and data gaps</h2>
+  <ul><li><strong>A-BOUNDARY-001</strong> — All submitted geometry uses the repository provisional boundary; the official site boundary, key-area polygons, road redlines and park edge face are not yet publicly available.<div class="impact">Area, ratio and distance metrics are design-model outputs subject to recalculation when official data is published; they are not official redlines or precise-area bases.</div></li><li><strong>A-SPINE-001</strong> — The inferred green spine is a measurement baseline generated by this proposal for method demonstration; it is not claimed to be the actual Jing-Zhang Heritage Park alignment.<div class="impact">Near-side units, the three rings and all distance-dependent metrics must be recalculated along the official park edge face when available.</div></li><li><strong>A-MASSING-001</strong> — Building footprints, storey assumptions and building footprint coverage are conceptual low-confidence design quantities, not statutory building scale or development controls.<div class="impact">FAR, building height, building density and setbacks remain unknown pending official regulatory controls.</div></li><li><strong>A-OSM-001</strong> — The OSM background cross-check is volunteer-contributed data with uneven coverage and precision.<div class="impact">Offset readings are used only to explain provisional-boundary uncertainty, not to replace or upgrade the official boundary.</div></li></ul>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><a href="../proposal.md">Back to the proposal</a></p>
+    <p>THE NEAR SIDE — The Last 300 Metres · Turn the last 300 metres outside the park edge into the belt&#x27;s first asset</p>
+  </div>
+</footer>
+</body>
+</html>
