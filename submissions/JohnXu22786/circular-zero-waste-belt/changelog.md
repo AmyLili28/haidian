@@ -178,3 +178,10 @@ Comprehensive visual and structural repair addressing CocoSgt blocking issues fo
 - **Verification & Four Gates**:
   - Ran `self_check_submission.py` with `--mark-self-checked`: Deterministic validation, Spatial review, Visual packaging, and Professional evidence review all passed with `PASS` (Can enter formal review: YES).
   - Synchronized `manifest.json` sha256 hashes and `self_check.json` across package and valroot trees.
+
+## 2026-08-31 — PR #3931 direct substantive repair (official review 5049313558)
+
+- Registered `operational_kpi_registry.children` in `metrics.json` for activity attainment, community activity, scenario opening, reach-to-conversion, and landmark operational integrity. Each item now carries definition, numerator, denominator, timepoint, sample, source, formula, responsible party, status, confidence, and an explicit unknown reason; no observed baseline or numeric interval is asserted.
+- Synchronized the unknown-baseline disclosure in `proposal.md`, `proposal.en.md`, `report/proposal.html`, `report/proposal.en.html`, `visual/index.html`, `visual/index.en.html`, and `metrics-evidence` figures. Operational KPI figures show unknown rather than invented percentages.
+- Recomputed the land-use display using one two-decimal caliber: 30.45%, 27.12%, 15.63%, 13.43%, 11.13%, and 2.24% (approximately 100.0%); updated both land-use figures, both metrics figures, bilingual PDFs and previews. All labels retain the concept/provisional/non-statutory boundary.
+- Formal local checks after regeneration: deterministic PASS, spatial PASS with three permitted provisional key-area notices, visual PASS, professional PASS, font coverage PASS (four HTML surfaces, zero missing CJK), and figure-QC PASS (ink/edge-clip; post-hoc overlap remains not_verified). Playwright and PyMuPDF were unavailable in the bundled runtime; HTML previews were refreshed with headless Edge and PDF page-1 previews with Poppler, with no network or fabricated render used.
