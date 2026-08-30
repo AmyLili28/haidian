@@ -1,3 +1,10 @@
+## 2026-08-31 — 78-point CocoSgt expression repair (local Draft work)
+
+- Re-exported five bilingual core figures with bounded title, legend, warning, footer and note safe zones; wrapped all side-panel copy.
+- Rebuilt the English scenario-card sheet as a true localization with role, action and evidence fields.
+- Rebuilt A0 boards and A3 booklets at true page dimensions and refreshed package previews.
+- No PR push, Ready transition, or external review claim was made.
+
 # 方案迭代记录
 
 ## v2.0.0 - 2026-08-27
