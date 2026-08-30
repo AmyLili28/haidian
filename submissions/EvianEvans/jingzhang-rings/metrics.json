@@ -28,7 +28,7 @@
       "formula": "sum(polygon_area(building_footprints))",
       "confidence": "low",
       "assumptions": [
-        "仅为 3 座年轮厅与 1 处服务综合体的概念体量；现状建筑底数缺失（GAP-BUILDING-001），不代表片区建筑规模，也不得推导容积率。"
+        "37 处新增概念体量（3 座年轮厅 + 19 里院服务亭 + 11 滨水驿站 + 4 社区服务中心）的合计基底；现状建筑底数缺失（GAP-BUILDING-001），不代表片区建筑规模，不得据此推导容积率。"
       ]
     },
     "green_ratio": {
@@ -42,7 +42,9 @@
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "medium",
       "assumptions": [
-        "概念设计量/概念场地面积；公告未给绿地率控制值，本值不得当作法定绿地率。"
+        "概念设计量 / 概念场地面积；公告未给绿地率控制值，本值不得当作法定绿地率。",
+        "分子构成：京张遗址公园绿轴、小月河滨水绿带、清河入河口生态缓冲带，以及三处年轮厅节点绿地——以上均为本方案提出或纳入维护的新增设计量。",
+        "八大学院等院校权属范围内的既有开敞绿地不计入分子：该范围为受限用地、本方案不进入亦不改动，仅作为生态观测的背景条件在正文说明。"
       ]
     },
     "public_space_ratio": {
@@ -56,7 +58,8 @@
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "medium",
       "assumptions": [
-        "概念设计量/概念场地面积。"
+        "概念设计量 / 概念场地面积；公告未给公共空间率控制值。",
+        "分子构成：双轴连续慢行主径、22 条东西缝合绿道、19 处里院广场，以及三处年轮厅前广场——以上均为本方案提出的公共空间设计量。"
       ]
     },
     "floor_area_ratio": {
@@ -115,10 +118,10 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "2026 - 1909",
+      "formula": "2025 - 1909 + 1",
       "confidence": "high",
       "assumptions": [
-        "1909 年京张铁路建成至 2026 年，每年一圈；第 118 轮留白。"
+        "1909 年京张铁路建成为第 1 轮，2025 年为第 117 轮；2026 年为第 118 轮，留白待填。"
       ]
     },
     "li_count": {
@@ -141,9 +144,11 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "corridor_length_m / li_count",
+      "formula": "slow_traffic_spine_m / li_count = 9440 / 19",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "里长按慢行主线 9.44 km 均分，每里 496.8 m，桩距以此为准；走廊几何全长 9.72 km，折合每里约 512 m。两者之差来自慢行主线相对走廊边界的两端收束。"
+      ]
     },
     "scenario_positions_total": {
       "status": "known",
@@ -182,10 +187,14 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "alarm_ring = (ai_service_count increases) AND (eco_index decreases)",
+      "formula": "alarm = (≥2 of 4 eco indicators decline YoY on 3-yr moving avg) AND (in-trial service count OR li-hour total rises YoY); flourish = (≥3 of 4 eco indicators recover YoY)",
       "confidence": "high",
       "assumptions": [
-        "生态指数由水质、鸟种数、植被覆盖与银杏/樱花物候期合成；指标口径须待海淀区水务局与园林绿化局公开数据接入后复核。"
+        "触发规则：四项生态指标（水质类别、鸟种数、植被覆盖、物候稳定性）按三年滑动平均计，其中至少两项同比下降，且当年技术侧（在试服务数 或 场景里·时总量）同比上升 → 该年记为警报轮。",
+        "技术侧用双指标：在试服务数是供给端数量，可被少批申请操纵；里·时总量是实际使用量，操纵成本高得多。任一上升即视为技术侧扩张。",
+        "对称机制：生态侧四项中至少三项同比回升的年份记为丰轮，次年场景位申请额度上浮（概念建议）。警报轮与丰轮构成完整记账：技术欠生态的要还，生态盈出来的要兑现。",
+        "同比下降以三年滑动平均计；单年波动记为注记年不触发。警报轮针对的是趋势，不是噪音——年轮学本身就是这么读树的：一轮不言灾，连轮才成史。",
+        "基线年 = 治理工程竣工后的首个完整年度（第 118 轮）。拟接入数据序列：水务部门河湖水质公开通报、园林绿化部门绿地与物候观测、公开观鸟记录平台；正式接入前以 V-2 的回溯验证为准。"
       ]
     },
     "heritage_buffer_clearance_m": {

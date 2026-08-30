@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "submission_dir": "submissions/EvianEvans/jingzhang-rings",
+  "submission_dir": "submissions\\EvianEvans\\jingzhang-rings",
   "pr_author": "EvianEvans",
   "stage": "formal",
   "deterministic_validation": {
@@ -62,7 +62,7 @@
       "ai_package_stages": {
         "submissions/EvianEvans/jingzhang-rings": "formal"
       },
-      "total_bytes": 6547279,
+      "total_bytes": 6734826,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -149,7 +149,7 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 16,
+          "source": 18,
           "standard": 1,
           "depth": 3,
           "data": 7,

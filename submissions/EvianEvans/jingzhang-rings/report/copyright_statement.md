@@ -22,8 +22,17 @@ contributed unpublished material.
 
 ## Typography
 
-Figures are rendered with **Microsoft YaHei**, licensed with the Windows installation on the generating
-machine. No unclear-licence typeface is embedded.
+Figures, PDF drawings and the embedded web font all use **Noto Sans SC**, distributed under the
+**SIL Open Font License 1.1 (OFL)**. The OFL permits use, embedding and subsetting without further
+permission, provided the font is not sold by itself; see <https://openfontlicense.org>.
+
+- **Figures and PDF drawings** are rendered locally with Noto Sans SC (source file `C:\Windows\Fonts\
+  NotoSansSC-VF.ttf` on the generating machine).
+- **Embedded web font**: `report/proposal.html`, `report/proposal.en.html`, `visual/index.html` and
+  `visual/index.en.html` each embed a **subset** of Noto Sans SC (only the CJK codepoints actually used)
+  as a `data:` woff2 `@font-face`, so Chinese text renders on hosts that have no system CJK font. The
+  subset is self-contained: it loads no remote resource and adds no external request. No Microsoft
+  typeface (YaHei, SimHei, SimSun, DengXian) is embedded anywhere in this package.
 
 ## Third-party material
 
