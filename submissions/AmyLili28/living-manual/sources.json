@@ -1,0 +1,119 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "CASE-UK-ATRS",
+      "url": "https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub",
+      "publisher": "UK Government Digital Service",
+      "accessed_date": "2026-08-30",
+      "source_type": "official_public",
+      "usage": "Standardised public disclosure fields for algorithmic tools; transferable reference only.",
+      "not_usable_for": "Local statutory authority or proof of compliance in Beijing."
+    },
+    {
+      "id": "CASE-AI-VERIFY",
+      "url": "https://aiverifyfoundation.sg/what-is-ai-verify/",
+      "publisher": "AI Verify Foundation",
+      "accessed_date": "2026-08-30",
+      "source_type": "official_public",
+      "usage": "Process and technical testing framework covering 11 governance principles; transferable reference only.",
+      "not_usable_for": "Certification of any proposed Jing-Zhang service."
+    },
+    {
+      "id": "CASE-DUTCH-ALGORITHM-REGISTER",
+      "url": "https://algoritmes.overheid.nl/en",
+      "publisher": "Government of the Netherlands",
+      "accessed_date": "2026-08-30",
+      "source_type": "official_public",
+      "usage": "Public catalogue logic for algorithmic systems; transferable reference only.",
+      "not_usable_for": "Local legal or procurement requirements."
+    },
+    {
+      "id": "CASE-BOSTON-CITYSCORE",
+      "url": "https://content.boston.gov/departments/analytics-team/cityscore",
+      "publisher": "City of Boston",
+      "accessed_date": "2026-08-30",
+      "source_type": "official_public",
+      "usage": "Longitudinal performance reporting and target comparison; used as a counter-example to one-off launch metrics.",
+      "not_usable_for": "Direct transfer of the composite score or its targets."
+    },
+    {
+      "id": "CASE-DECIDIM",
+      "url": "https://docs.decidim.org/en/develop/understand/about.html",
+      "publisher": "Decidim project / Barcelona origin",
+      "accessed_date": "2026-08-30",
+      "source_type": "official_public",
+      "usage": "Traceable hybrid online/offline participation and public-commons governance reference.",
+      "not_usable_for": "Claim that a local platform or consultation has been authorised."
+    },
+    {
+      "id": "PEER-OBSERVABLE-JZ",
+      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/glove11111-design/observable-jingzhang",
+      "publisher": "glove11111-design",
+      "accessed_date": "2026-08-30",
+      "source_type": "official_public",
+      "usage": "Peer comparison used to distinguish longitudinal co-edit from public observability; no text or assets reused.",
+      "not_usable_for": "Unattributed copying or factual authority."
+    },
+    {
+      "id": "PEER-MEND-JZ",
+      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/yadnuses/jingzhang-mend",
+      "publisher": "yadnuses",
+      "accessed_date": "2026-08-30",
+      "source_type": "official_public",
+      "usage": "Peer comparison used to distinguish relational follow-up from care-service programming; no text or assets reused.",
+      "not_usable_for": "Unattributed copying or factual authority."
+    },
+    {
+      "id": "GENERATED-COVER-LIVING-MANUAL",
+      "path": "assets/media/second-encounter-cover-v1.png",
+      "publisher": "Codex deterministic Pillow renderer",
+      "accessed_date": "2026-08-30",
+      "source_type": "agent_generated_design",
+      "usage": "Original conceptual editorial cover for JING-ZHANG · THE LIVING MANUAL; generated from the proposal mechanism.",
+      "not_usable_for": "Observed site condition, official rendering, public opinion, or spatial evidence."
+    }
+  ]
+}

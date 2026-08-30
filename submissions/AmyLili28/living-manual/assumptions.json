@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "assumption_id": "A-BOUNDARY-001",
+      "category": "official_boundary",
+      "statement": "The repository provisional rough polygons are used only to generate a coherent temporary model.",
+      "confidence": "low",
+      "impact": "All precision-sensitive geometry and metrics require full recalculation.",
+      "recalculation_trigger": "Official cleared SITE_BOUNDARY and KEY_AREA polygons become available."
+    },
+    {
+      "assumption_id": "A-CONTROLS-001",
+      "category": "planning_control",
+      "statement": "FAR, height, density, setbacks, road redlines, heritage controls, and municipal capacities remain pending official data.",
+      "confidence": "unknown",
+      "impact": "No parcel-level demolition, building scale, road engineering, or approval claim is made.",
+      "recalculation_trigger": "Approved regulatory and specialist-control material becomes available."
+    },
+    {
+      "assumption_id": "A-RETURN-001",
+      "category": "operation",
+      "statement": "Living Manual spaces are lightweight, staffed, reversible civic interfaces rather than a new statutory institution.",
+      "confidence": "medium",
+      "impact": "Governance roles, staffing, privacy design, and service-level agreements require local professional and community co-design.",
+      "recalculation_trigger": "A named public owner, operator, frontline staff group, and pilot community are confirmed."
+    },
+    {
+      "assumption_id": "A-SERVICE-TARGET-001",
+      "category": "operation",
+      "statement": "The 3/14/30-day response rhythm and proposed staffed sessions are pilot service targets, not confirmed government commitments.",
+      "confidence": "low",
+      "impact": "They make responsibility testable while remaining adjustable to staff capacity, service risk, and community co-design.",
+      "recalculation_trigger": "A named operator, staffing plan, service-specific risk assessment, and pilot agreement are approved."
+    },
+    {
+      "assumption_id": "A-DATA-001",
+      "category": "privacy",
+      "statement": "Co-edit evidence uses opt-in, purpose-limited, de-identified records and accepts paper or in-person testimony; identity tracking is not a design dependency.",
+      "confidence": "medium",
+      "impact": "No sensor coverage or personal-history database is proposed as a prerequisite.",
+      "recalculation_trigger": "A lawful service-specific data protection assessment is completed."
+    },
+    {
+      "assumption_id": "A-HERITAGE-001",
+      "category": "heritage",
+      "statement": "Railway heritage is treated as a narrative and public-space memory spine; exact protection boundaries and interventions are not inferred.",
+      "confidence": "low",
+      "impact": "All structures near heritage assets remain lightweight conceptual suggestions.",
+      "recalculation_trigger": "Official heritage protection and construction-control boundaries are supplied."
+    }
+  ]
+}
