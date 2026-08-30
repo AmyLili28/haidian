@@ -131,9 +131,9 @@ var cur=clone(STATES.RESTORE), target=clone(STATES.RESTORE), stateName='RESTORE'
 var ctxIn={node:'RN-CHORUS',hour:21,crowd:.4};
 // PLACE IDENTITY: shared grammar, per-node root/register, interval set, colour
 var NODE_PALETTE={
- 'RN-PRELUDE':{root:261.63,scale:[0,2,4,7,9],  octaves:[0,1],  reverb:0.85,bright:1.15}, // C4 major-pentatonic, bright/high
- 'RN-CHORUS': {root:196.00,scale:[0,3,5,7,10], octaves:[-1,0,1],reverb:1.10,bright:1.00}, // G3 minor-pentatonic, warm/mid
- 'RN-CODA':   {root:146.83,scale:[0,2,4,7,9],  octaves:[-1,0],  reverb:1.55,bright:0.82}  // D3 low, spacious/calm
+ 'RN-PRELUDE':{root:261.63,scale:[0,2,4,7,9], octaves:[0,1],   reverb:0.95,bright:1.10,warm:0.40,detune:7},  // C4 major pentatonic, bright
+ 'RN-CHORUS': {root:196.00,scale:[0,2,4,7,9], octaves:[-1,0,1],reverb:1.20,bright:0.92,warm:0.65,detune:10}, // G3 major pentatonic, warm/mid
+ 'RN-CODA':   {root:146.83,scale:[0,2,5,7,9], octaves:[-1,0],  reverb:1.55,bright:0.85,warm:0.75,detune:12}  // D3 open (sus) set, low/spacious
 };
 var pal=NODE_PALETTE['RN-CHORUS'], ROOTHZ=pal.root, SCALE=pal.scale.slice(), OCTS=pal.octaves.slice();
 var pool=[], cell=[], cellPos=0, cellsSincePause=0, lastNode='RN-CHORUS';
@@ -162,8 +162,8 @@ function maybeShiftCentre(){
  ROOTHZ=ROOTHZ*Math.pow(2,m/12);
  if(ROOTHZ>300) ROOTHZ/=2; if(ROOTHZ<120) ROOTHZ*=2;
  buildPool();
- if(running) pads.forEach(function(p){ if(p.semi!==undefined)
-   p.o.frequency.setTargetAtTime(ROOTHZ*Math.pow(2,p.semi/12),A.currentTime,5.0); });
+ if(running) pads.forEach(function(p){ if(p.semi!==undefined){ var f=ROOTHZ*Math.pow(2,p.semi/12);
+   p.o.frequency.setTargetAtTime(f,A.currentTime,5.0); if(p.o2) p.o2.frequency.setTargetAtTime(f,A.currentTime,5.0);} });
  log('COMPOSE: harmonic centre '+(m>0?'+':'')+m+' st (root '+Math.round(ROOTHZ)+'Hz)');
 }
 // ---- audio graph ----
@@ -181,8 +181,8 @@ function pinkBuffer(){var n=A.sampleRate*3,b=A.createBuffer(1,n,A.sampleRate),d=
 function applyPalette(){
  pal=NODE_PALETTE[ctxIn.node]||NODE_PALETTE['RN-CHORUS'];
  ROOTHZ=pal.root; SCALE=pal.scale.slice(); OCTS=pal.octaves.slice();
- if(running && pads.length){ pads.forEach(function(p){ if(p.semi!==undefined)
-   p.o.frequency.setTargetAtTime(ROOTHZ*Math.pow(2,p.semi/12),A.currentTime,2.5); }); }
+ if(running && pads.length){ pads.forEach(function(p){ if(p.semi!==undefined){ var f=ROOTHZ*Math.pow(2,p.semi/12);
+   p.o.frequency.setTargetAtTime(f,A.currentTime,2.5); if(p.o2) p.o2.frequency.setTargetAtTime(f,A.currentTime,2.5);} }); }
  buildPool(); cell=[]; cellPos=0;
  log('PALETTE: '+ctxIn.node.replace('RN-','')+' (root '+Math.round(ROOTHZ)+'Hz)');
 }
@@ -196,20 +196,28 @@ function start(){
  analyser=A.createAnalyser(); analyser.fftSize=1024;
  comp=A.createDynamicsCompressor();
  comp.threshold.value=-20; comp.knee.value=24; comp.ratio.value=3; comp.attack.value=0.02; comp.release.value=0.5;
- comp.connect(master); master.connect(analyser); master.connect(A.destination);
- rev=A.createConvolver(); rev.buffer=impulse(5.0,3.0); revGain=A.createGain(); revGain.gain.value=.4; rev.connect(revGain).connect(comp);
+ var shaper=A.createWaveShaper(); shaper.curve=(function(){var n=1024,c=new Float32Array(n);for(var i=0;i<n;i++){var x=i/(n-1)*2-1;c[i]=Math.tanh(x*1.4);}return c;})(); shaper.oversample='2x';
+ var lowS=A.createBiquadFilter(); lowS.type='lowshelf'; lowS.frequency.value=220; lowS.gain.value=2.5;
+ var hiS=A.createBiquadFilter(); hiS.type='highshelf'; hiS.frequency.value=4200; hiS.gain.value=-3.5;
+ comp.connect(shaper); shaper.connect(lowS); lowS.connect(hiS); hiS.connect(master);
+ master.connect(analyser); master.connect(A.destination);
+ rev=A.createConvolver(); rev.buffer=impulse(5.5,3.2);
+ var revLP=A.createBiquadFilter(); revLP.type='lowpass'; revLP.frequency.value=3200;
+ revGain=A.createGain(); revGain.gain.value=.4; rev.connect(revLP).connect(revGain).connect(comp);
  panner=A.createStereoPanner?A.createStereoPanner():null; busIn=A.createGain();
  if(panner){busIn.connect(panner);panner.connect(comp);panner.connect(rev);}else{busIn.connect(comp);busIn.connect(rev);}
  padFilter=A.createBiquadFilter(); padFilter.type='lowpass'; padFilter.frequency.value=900; padFilter.Q.value=0.4;
  var padHP=A.createBiquadFilter(); padHP.type='highpass'; padHP.frequency.value=70; padFilter.connect(padHP).connect(busIn);
  // FOUNDATION: breathing sine voices (incl. a soft octave-down), no buzzy triangles
  var voices=[{semi:-12,g:.05,r:.024},{semi:0,g:.11,r:.031},{semi:7,g:.08,r:.043},{semi:12,g:.05,r:.057}];
- voices.forEach(function(v){var o=A.createOscillator();o.type='sine';o.frequency.value=ROOTHZ*Math.pow(2,v.semi/12);
-   o.detune.value=(rnd()*2-1)*5;
-   var g=A.createGain();g.gain.value=v.g*0.55; o.connect(g).connect(padFilter);o.start();
+ voices.forEach(function(v){
+   var f=ROOTHZ*Math.pow(2,v.semi/12);
+   var g=A.createGain();g.gain.value=v.g*0.55; g.connect(padFilter);
+   var o=A.createOscillator();o.type='sine';o.frequency.value=f;o.detune.value=-7;o.connect(g);o.start();
+   var o2=A.createOscillator();o2.type='triangle';o2.frequency.value=f;o2.detune.value=7;var tg=A.createGain();tg.gain.value=0.16;o2.connect(tg).connect(g);o2.start();
    var lfo=A.createOscillator();lfo.type='sine';lfo.frequency.value=v.r;var lg=A.createGain();lg.gain.value=v.g*0.45;
    lfo.connect(lg).connect(g.gain);lfo.start();
-   pads.push({o:o,g:g,base:v.g,semi:v.semi});});
+   pads.push({o:o,o2:o2,g:g,base:v.g,semi:v.semi});});
  // ORGANIC MOTION: drifting pink-noise 'air/water', with implied pulse (no tonal drone)
  noiseSrc=A.createBufferSource();noiseSrc.buffer=pinkBuffer();noiseSrc.loop=true;
  var nf=A.createBiquadFilter();nf.type='lowpass';nf.frequency.value=800;nf.Q.value=0.5;
@@ -241,21 +249,28 @@ function stop(){
 }
 // COMPOSE + RENDER: soft sine + octave shimmer, long release, heavy reverb send
 function playNote(freq,gainScale,pan,revScale){
- var t=A.currentTime;
- var atk=Math.max(0.12,0.6-cur.transient_hardness*0.45), rel=3.0+(1-cur.arousal)*3.5;
+ var t=A.currentTime, warm=pal.warm||0.4, det=pal.detune||8, end;
+ var atk=Math.max(0.14,0.7-cur.transient_hardness*0.5), rel=3.4+(1-cur.arousal)*3.6; end=t+atk+rel+0.1;
  var peak=(0.05+cur.melodic_salience*0.10+cur.arousal*0.04)*gainScale;
  var g=A.createGain(); g.gain.setValueAtTime(0.0001,t);
  g.gain.exponentialRampToValueAtTime(Math.max(0.0002,peak),t+atk);
- g.gain.exponentialRampToValueAtTime(0.0001,t+atk+rel);
- var of=A.createBiquadFilter();of.type='lowpass';of.frequency.value=500+cur.brightness*pal.bright*2400;
- var o=A.createOscillator();o.type='sine';o.frequency.value=freq;o.connect(of);
- var o2=A.createOscillator();o2.type='sine';o2.frequency.value=freq*2;var g2=A.createGain();g2.gain.value=0.28*(0.4+cur.brightness);
- o2.connect(g2).connect(of); of.connect(g);
+ g.gain.exponentialRampToValueAtTime(0.0001,end-0.05);
+ var of=A.createBiquadFilter();of.type='lowpass';of.frequency.value=440+cur.brightness*pal.bright*2100;of.Q.value=0.3;of.connect(g);
+ // gentle shared vibrato -> organic motion
+ var vib=A.createOscillator();vib.type='sine';vib.frequency.value=4.3+rnd()*1.3;var vg=A.createGain();vg.gain.value=2.5+warm*4;
+ vib.connect(vg);vib.start(t);vib.stop(end);
+ // detuned unison (warm sine pair) + soft triangle body
+ [{ty:'sine',dt:-det,gn:0.62},{ty:'sine',dt:det,gn:0.5},{ty:'triangle',dt:0,gn:0.14+warm*0.18}].forEach(function(v){
+   var o=A.createOscillator();o.type=v.ty;o.frequency.value=freq;o.detune.value=v.dt;vg.connect(o.detune);
+   var vgn=A.createGain();vgn.gain.value=v.gn;o.connect(vgn).connect(of);o.start(t);o.stop(end);
+ });
+ // faint octave air (not persistent, tamed)
+ var oa=A.createOscillator();oa.type='sine';oa.frequency.value=freq*2;var ga=A.createGain();ga.gain.value=0.09*(0.3+cur.brightness);
+ oa.connect(ga).connect(of);oa.start(t);oa.stop(end);
  var dest=busIn;
  if(pan!==undefined && A.createStereoPanner){var sp=A.createStereoPanner();sp.pan.value=pan;g.connect(sp);dest=sp;}
  else {g.connect(busIn);}
- dest.connect(rev); var rg=A.createGain(); rg.gain.value=(revScale||0.6); g.connect(rg).connect(rev);
- o.start(t);o2.start(t);o.stop(t+atk+rel+0.1);o2.stop(t+atk+rel+0.1);
+ dest.connect(rev); var rg=A.createGain(); rg.gain.value=(revScale||0.7); g.connect(rg).connect(rev);
  flash(cur.brightness);
 }
 function scheduleNote(){
