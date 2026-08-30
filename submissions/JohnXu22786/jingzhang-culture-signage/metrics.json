@@ -67,12 +67,15 @@
         "geometry/green_space.geojson",
         "geometry/site_boundary.geojson"
       ],
-      "formula": "green_space_area_sqm / site_area_sqm",
+      "formula": "union(geometry/green_space.geojson features in EPSG:4548).area / union(geometry/site_boundary.geojson features in EPSG:4548).area = 1188025.643690925 / 11412825.385553982",
       "confidence": "low",
-      "display_precision": "displayed as approx. 10% in text and figures",
+      "display_precision": "displayed as approx. 10.4%; numerator and denominator are rounded to 1,188,026 sqm and 11,412,825 sqm in text and figures",
       "assumptions": [
-        "Low-confidence concept ratio, not existing or statutory land use.",
-        "Recompute when official geometry is published."
+        "Numerator: union area of six provisional GREEN_SPACE features; overlaps count once.",
+        "Denominator: union area of the SITE-001 overall-design-area provisional boundary.",
+        "land_use code 1401 is a separate functional classification (6 of 27 zones), not the green-ratio numerator.",
+        "Low-confidence concept ratio, not existing or statutory land use; use only for concept-scale consistency and machine recomputation.",
+        "Replace both geometry layers with official boundary, green-line and statutory land-use data and recompute when published."
       ]
     },
     "public_space_ratio": {
