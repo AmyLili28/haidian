@@ -83,7 +83,7 @@ Implementation follows low-disturbance testing, professional deepening, and grad
 
 The submission must prove that drawings, metrics, sources, assumptions, bilingual files, copyright statements, and self-check results align. Recalculated metrics include site area, green ratio, public-space ratio, building footprint area, and key-area count [metric:site_area_sqm] [metric:key_area_count]. Technical and economic metrics are expressed as concept-stage ranges: one-time investment is about RMB 117-405 million, and annual operations are about RMB 35-125 million per year. Enterprise R&D, dedicated equipment, office fit-out, and commercial promotion are listed separately and are not claimed as government or project-owner commitments.
 
-![Metrics and compliance response](assets/figures/metrics-evidence.en.png)
+![Commercial AI revenue ledger and public AI feedback loop](assets/figures/metrics-evidence.en.png)
 
 ## Risk, Copyright, and Compliance
 

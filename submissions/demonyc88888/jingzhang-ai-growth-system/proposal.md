@@ -91,7 +91,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 正式投稿不只看概念是否成立，还要证明图件、指标、来源、假设、双语、版权和自检能够互相对上。当前复算指标包括 site area、green ratio、public space ratio、building footprint area 和 key area count [metric:site_area_sqm] [metric:key_area_count]。技术和经济指标以概念阶段数量级表达：一次性投入建议约 1.17-4.05 亿元，年度运营约 3,500-12,500 万元/年；企业自有研发、专属设备、办公装修和商业化推广另列，不作为政府或项目方已承诺支出。
 
-![指标复核与合规响应](assets/figures/metrics-evidence.png)
+![商业 AI 收入台账与公共 AI 反哺回路](assets/figures/metrics-evidence.png)
 
 ## 风险、版权与合规说明
 

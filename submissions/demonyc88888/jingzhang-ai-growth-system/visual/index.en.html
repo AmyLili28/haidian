@@ -48,18 +48,59 @@
     .hero-night {
       position: relative;
       width: 100%;
-      height: 100vh;
-      min-height: 620px;
+      min-height: 0;
       overflow: hidden;
-      background: #061016;
+      background: var(--paper);
     }
 
     .hero-night img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
+      height: auto;
+      object-fit: contain;
       display: block;
+    }
+
+    .hero-copy {
+      position: absolute;
+      left: clamp(24px, 5vw, 76px);
+      top: clamp(42px, 8vw, 118px);
+      width: min(720px, calc(100% - 48px));
+      color: #fff;
+      text-shadow: 0 2px 18px rgba(0, 0, 0, 0.52);
+    }
+
+    .hero-kicker {
+      margin: 0 0 18px;
+      color: #f4d58a;
+      font-size: clamp(18px, 2vw, 28px);
+      font-weight: 800;
+      line-height: 1.25;
+    }
+
+    .hero-heading {
+      margin: 0;
+      color: #fff;
+      font-size: clamp(42px, 6vw, 88px);
+      line-height: 0.98;
+      font-weight: 900;
+      max-width: 760px;
+    }
+
+    .hero-subtitle {
+      margin: 16px 0 0;
+      color: rgba(255, 255, 255, 0.92);
+      font-size: clamp(18px, 2vw, 30px);
+      line-height: 1.35;
+      font-weight: 700;
+      max-width: 760px;
+    }
+
+    .hero-summary {
+      margin: 14px 0 0;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: clamp(15px, 1.35vw, 21px);
+      line-height: 1.55;
+      max-width: 680px;
     }
 
     .scroll-cue {
@@ -74,8 +115,8 @@
       padding: 0 14px;
       border: 1px solid rgba(255, 255, 255, 0.35);
       border-radius: 999px;
-      background: rgba(6, 16, 22, 0.42);
-      color: rgba(255, 255, 255, 0.88);
+      background: rgba(255, 255, 255, 0.82);
+      color: #17201b;
       font-size: 12px;
       text-decoration: none;
       backdrop-filter: blur(8px);
@@ -263,24 +304,19 @@
     .day-figure img {
       width: 100%;
       aspect-ratio: 16 / 9;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
     }
 
     .day-caption {
-      position: absolute;
-      left: 18px;
-      right: 18px;
-      bottom: 18px;
+      position: static;
       display: flex;
       justify-content: space-between;
       gap: 18px;
       padding: 13px 16px;
-      border: 1px solid rgba(255, 255, 255, 0.46);
-      border-radius: 8px;
-      background: rgba(16, 28, 22, 0.72);
-      color: #fff;
-      backdrop-filter: blur(8px);
+      border-top: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
     }
 
     .day-caption strong {
@@ -291,7 +327,7 @@
     }
 
     .day-caption span {
-      color: rgba(255, 255, 255, 0.8);
+      color: var(--muted);
       font-size: 12px;
       line-height: 1.5;
     }
@@ -694,7 +730,7 @@
 
     @media (max-width: 980px) {
       .hero-night {
-        min-height: 560px;
+        min-height: 0;
       }
 
       .metrics-grid,
@@ -735,12 +771,13 @@
 
     @media (max-width: 620px) {
       .hero-night {
-        height: 100svh;
-        min-height: 520px;
+        min-height: 0;
       }
 
-      .hero-night img {
-        object-position: 38% center;
+      .hero-copy {
+        left: 18px;
+        top: 28px;
+        width: calc(100% - 36px);
       }
 
       .metrics-section {
@@ -786,9 +823,9 @@
 
       .day-caption {
         position: static;
-        border: 0;
+        border-top: 1px solid var(--line);
         border-radius: 0;
-        background: #102018;
+        background: #fff;
       }
 
       .figure-panel figcaption {
@@ -824,8 +861,13 @@
 <body>
   <main>
     <section class="hero-night" aria-labelledby="hero-title">
-      <h1 id="hero-title" class="sr-only">Intelligence Grown from Place: Centennial Jing-Zhang Urban AI Growth System</h1>
-      <img src="../assets/figures/cover-board-en.jpg" alt="English cover board for Place-Grown Intelligence, showing the Centennial Jing-Zhang urban AI growth system and its three node responsibilities">
+      <img src="../assets/figures/00-project-cover-background.png" alt="Clean aerial view of the Centennial Jing-Zhang urban AI growth system corridor">
+      <div class="hero-copy">
+        <p class="hero-kicker">Urban Design Open Call Submission</p>
+        <h1 id="hero-title" class="hero-heading">Place-Grown Intelligence</h1>
+        <p class="hero-subtitle">Centennial Jing-Zhang Urban AI Growth System</p>
+        <p class="hero-summary">Growing AI from local urban problems through public validation, governance, and sustainable conversion.</p>
+      </div>
       <a class="scroll-cue" href="#metrics">View Metrics</a>
     </section>
 
@@ -900,7 +942,7 @@
     <section class="day-section" id="scope" aria-labelledby="scope-title">
       <div class="day-wrap">
         <figure class="day-figure">
-          <img src="../assets/figures/15-day-overall-aerial-board-en.png" alt="Daytime overall aerial view showing the Jing-Zhang rail corridor, blue-green slow-mobility experience belt, AI Origin Community, Zhongzhi Park, and Dazhongsi renewal gateway">
+          <img src="../assets/figures/15-day-overall-aerial-background.png" alt="Clean daytime aerial view showing the Jing-Zhang rail corridor, blue-green slow-mobility experience belt, AI Origin Community, Zhongzhi Park, and Dazhongsi renewal gateway">
           <figcaption class="day-caption">
             <div>
               <strong>Daytime Overall Aerial</strong>
@@ -1047,32 +1089,32 @@
       <div class="content-wrap">
         <div class="section-head">
           <div>
-            <p class="section-kicker">Key Area Expansion</p>
-            <h2 class="section-title" id="node-renders-title">The three detailed key-area pages now use the final English PDF drawings, not the earlier draft renderings.</h2>
+            <p class="section-kicker">Key Area Renderings</p>
+            <h2 class="section-title" id="node-renders-title">Renderings describe spatial atmosphere and use scenarios only; they do not replace boundaries, metrics, or approval basis.</h2>
           </div>
-          <p>Each node page combines spatial relationship, carrier expansion, governance flow, and scenario cards. These pages correspond to the English A3 board set and remain concept-stage guidance for later professional teams.</p>
+          <p>Each node rendering uses the labeled effect image from the current English board set, keeping the same concept-stage boundary statement as the Chinese page.</p>
         </div>
 
-        <div class="render-grid" aria-label="Three key-area PDF drawings">
+        <div class="render-grid" aria-label="Three labeled key-area renderings">
           <article class="render-card">
-            <img src="../assets/figures/06zhongzhiyuan-expanded-en.png" alt="English A3 Crowd Intelligence Garden key-area expansion board">
+            <img src="../assets/figures/10-zhongzhiyuan-aerial-background-clean.png" alt="Clean aerial rendering for the Crowd Intelligence Garden">
             <div class="caption">
               <h3>Crowd Intelligence Garden</h3>
-              <p>Uses the final English PDF board for the technology validation and governance-access node.</p>
+              <p>Labeled effect rendering for the technology validation and governance-access node.</p>
             </div>
           </article>
           <article class="render-card">
-            <img src="../assets/figures/07ai-origin-community-expanded-en.png" alt="English A3 AI Origin Community key-area expansion board">
+            <img src="../assets/figures/11-ai-origin-community-aerial-background.png" alt="Clean aerial rendering for the AI Origin Community">
             <div class="caption">
               <h3>AI Origin Community</h3>
-              <p>Uses the final English PDF board for the real-problem intake and youth co-creation node.</p>
+              <p>Labeled effect rendering for the real-problem intake and youth co-creation node.</p>
             </div>
           </article>
           <article class="render-card">
-            <img src="../assets/figures/08dazhongsi-expanded-en.png" alt="English A3 Dazhong Temple key-area expansion board">
+            <img src="../assets/figures/12-dazhongsi-aerial-background.png" alt="Clean aerial rendering for the Dazhong Temple key area">
             <div class="caption">
               <h3>Dazhong Temple</h3>
-              <p>Uses the final English PDF board for productization, operations scaling, and commercial/public classification.</p>
+              <p>Labeled effect rendering for productization, operations scaling, and commercial/public classification.</p>
             </div>
           </article>
         </div>
