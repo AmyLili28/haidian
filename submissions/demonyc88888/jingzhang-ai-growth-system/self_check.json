@@ -10,7 +10,8 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/demonyc88888/jingzhang-ai-growth-system/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+        "submissions/demonyc88888/jingzhang-ai-growth-system/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/drawings/exhibition-boards.zh.pdf: byte-identical to `drawings/exhibition-boards.pdf`; if the translation is still missing, replace it with a rendering in the declared language, and if the file carries no language-specific content, declare language=neutral once and share it between both versions (see docs/formal-submission-guide.md); this notice does not block review"
       ],
       "proposal_files": [
         "submissions/demonyc88888/jingzhang-ai-growth-system/proposal.md"
@@ -18,17 +19,25 @@
       "changelog_files": [],
       "changed_files": [
         "submissions/demonyc88888/jingzhang-ai-growth-system/agent.json",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/00-project-cover-background.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/02  site-overview.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/05 key-areas.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/06zhongzhiyuan-expanded-en.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/07ai-origin-community-expanded-en.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/08dazhongsi-expanded-en.png",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/10-zhongzhiyuan-aerial-background-clean.png",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/10-zhongzhiyuan-aerial-transport-en.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/10-zhongzhiyuan-aerial-transport-zh.png",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/11-ai-origin-community-aerial-background.png",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/11-ai-origin-community-aerial-en.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/11-ai-origin-community-aerial-zh.png",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/12-dazhongsi-aerial-background.png",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/12-dazhongsi-aerial-en.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/12-dazhongsi-aerial-zh.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/13-night-aerial-system-zh.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/14-source-evidence-chain-en.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/14-source-evidence-chain-zh.png",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/15-day-overall-aerial-background.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/15-day-overall-aerial-board-en.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/15-day-overall-aerial-board-zh.png",
         "submissions/demonyc88888/jingzhang-ai-growth-system/assets/figures/a0-board-18.png",
@@ -78,6 +87,9 @@
         "submissions/demonyc88888/jingzhang-ai-growth-system/drawings/a0-boards.pdf",
         "submissions/demonyc88888/jingzhang-ai-growth-system/drawings/a3-booklet.en.pdf",
         "submissions/demonyc88888/jingzhang-ai-growth-system/drawings/a3-booklet.pdf",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/drawings/exhibition-boards.en.pdf",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/drawings/exhibition-boards.pdf",
+        "submissions/demonyc88888/jingzhang-ai-growth-system/drawings/exhibition-boards.zh.pdf",
         "submissions/demonyc88888/jingzhang-ai-growth-system/geometry/buildings.geojson",
         "submissions/demonyc88888/jingzhang-ai-growth-system/geometry/constraints.geojson",
         "submissions/demonyc88888/jingzhang-ai-growth-system/geometry/green_space.geojson",
@@ -104,7 +116,7 @@
       "ai_package_stages": {
         "submissions/demonyc88888/jingzhang-ai-growth-system": "formal"
       },
-      "total_bytes": 41685547,
+      "total_bytes": 37746667,
       "maintainer_bypass": false
     },
     "stderr": ""

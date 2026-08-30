@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "ba866a4744f33ff2994a5aa8f3fcb76a2b076d3fff21c4712e9bdf3aab6127f9"
+      "sha256": "4e50bb78303b7436284f9989ec98f3ac73273a6b5bd76c299960cd1448d1a9dd"
     },
     {
       "path": "compliance_matrix.json",
@@ -121,14 +121,14 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "643fe7c037930cedae401cc8a008bf82c73b72691f00f0328d4e54c572558191"
+      "sha256": "ce8dbb8a83c3d3aa6e139879d2c105150bed347e2983fb0285418b05a4457fd9"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "e8f67943c67f7b20eadb9dad661dcccd7a45f04e1b83da3e79c87c28191b3de9"
+      "sha256": "b463e0ae1cc730b9aae72d84117ec3799ef82145384343f2ef7aef08f32bb9ee"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
@@ -142,14 +142,14 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "8284d0d5ef25a3d6929826e82d1ec15f59b8c111d198d183638087775f1cf786"
+      "sha256": "e996113370be2781200d9b5f6a4ce09aaf81ff2fa5000dbbbbdbfb6cba21c507"
     },
     {
       "path": "assets/figures/site-overview.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "3357b8f16fb3df948bb5b81f363837c4d2721155d37c7c83172980f42e623c54"
+      "sha256": "b3c4d51ab3f06801237d94072ce441474bd7711ca61d8ee1fd9eb868f2d27b06"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -235,151 +235,23 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "1d2e7a8d291fefacb70e7c2f64edcd487e8aadf0806d2e6789539bd49c9f0231"
+      "sha256": "9290c71a7622582b549b1b357ac9bbb3bc2ad7adb05a00b7052211cd19dfd6e8"
     },
     {
       "path": "drawings/exhibition-boards.zh.pdf",
-      "role": "exhibition_board_pdf",
+      "role": "drawing",
       "required": true,
       "language": "zh",
-      "description": "Seven-page Chinese exhibition-board set",
-      "sha256": "cb935adcd63204049ed367d7d8940ca2596e3198183f73235fe6fa501e5d4df5"
+      "sha256": "3a0b80f604b26df59dc26bb373868024e4821e82c05c3fa94fd5e9421f97313c",
+      "translation_of": "drawings/exhibition-boards.pdf"
     },
     {
       "path": "drawings/exhibition-boards.en.pdf",
-      "role": "exhibition_board_pdf",
+      "role": "drawing",
       "required": true,
       "language": "en",
-      "description": "Seven-page English exhibition-board set",
-      "sha256": "42dabe0314d62bae2079d765e76653efd880fafd3edee2303bb4f7e08059fd3c"
-    },
-    {
-      "path": "drawings/exhibition-boards/exhibition-boards.zh.contact-sheet.png",
-      "role": "exhibition_board_contact_sheet",
-      "required": false,
-      "language": "zh",
-      "description": "Chinese exhibition-board contact sheet",
-      "sha256": "48857d130615f28c7489917f487f877a8e195a3ee526e034cf2480c70b7a7eaf"
-    },
-    {
-      "path": "drawings/exhibition-boards/exhibition-boards.en.contact-sheet.png",
-      "role": "exhibition_board_contact_sheet",
-      "required": false,
-      "language": "en",
-      "description": "English exhibition-board contact sheet",
-      "sha256": "64e55f591d6fb3c7571a51205978d7b81875d39fb3b3c306504d4be9de09c200"
-    },
-    {
-      "path": "drawings/exhibition-boards/zh/page-01.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "zh",
-      "description": "Seven-page exhibition-board zh page 01",
-      "sha256": "6b99b3cd1ff04d34f31f8bbd580edbf89d19f42884df4d35d269b94322ff7933"
-    },
-    {
-      "path": "drawings/exhibition-boards/zh/page-02.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "zh",
-      "description": "Seven-page exhibition-board zh page 02",
-      "sha256": "93494e7f1ca13f797d1d5f2095b8d493c09b6d2191e7b9a27e6fcab7f82e37b9"
-    },
-    {
-      "path": "drawings/exhibition-boards/zh/page-03.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "zh",
-      "description": "Seven-page exhibition-board zh page 03",
-      "sha256": "c938ba7147de9dc4a1e1708e29dddc3454e6562d352328482b4189294c8a533d"
-    },
-    {
-      "path": "drawings/exhibition-boards/zh/page-04.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "zh",
-      "description": "Seven-page exhibition-board zh page 04",
-      "sha256": "5797f34ad2c1efe1652be5745491144bbc7f5c43ab6e490ee656f6a8497c2985"
-    },
-    {
-      "path": "drawings/exhibition-boards/zh/page-05.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "zh",
-      "description": "Seven-page exhibition-board zh page 05",
-      "sha256": "e325cec0749725176b77de5d69c8614c046b510fdc33f4417e056004b86fa836"
-    },
-    {
-      "path": "drawings/exhibition-boards/zh/page-06.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "zh",
-      "description": "Seven-page exhibition-board zh page 06",
-      "sha256": "ecc2e56b1723b6085cf08fdc07657c5ca189f95e7d5f0b67bc3ceabf59d58f98"
-    },
-    {
-      "path": "drawings/exhibition-boards/zh/page-07.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "zh",
-      "description": "Seven-page exhibition-board zh page 07",
-      "sha256": "902a353a17bbcda0a49e88b8c92d2b2abc3e1ff96968f5378540569494673000"
-    },
-    {
-      "path": "drawings/exhibition-boards/en/page-01.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "en",
-      "description": "Seven-page exhibition-board en page 01",
-      "sha256": "c9445385f806e713ee771998fd7eccc01a47978b21695ecf0a39237be7a6192e"
-    },
-    {
-      "path": "drawings/exhibition-boards/en/page-02.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "en",
-      "description": "Seven-page exhibition-board en page 02",
-      "sha256": "395763ab581e0615347e513b0ee3e485042c567773e8e89a407963e1f8fc8120"
-    },
-    {
-      "path": "drawings/exhibition-boards/en/page-03.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "en",
-      "description": "Seven-page exhibition-board en page 03",
-      "sha256": "2c55116d74d1ffa3419f295b145ed0aba19dcda8567293247bd2d58c6005b20e"
-    },
-    {
-      "path": "drawings/exhibition-boards/en/page-04.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "en",
-      "description": "Seven-page exhibition-board en page 04",
-      "sha256": "aaea0e8cf6f4a4898bf660fed084742e1eac9e974d3509bdc739e9d45416d41f"
-    },
-    {
-      "path": "drawings/exhibition-boards/en/page-05.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "en",
-      "description": "Seven-page exhibition-board en page 05",
-      "sha256": "f0f98c94416ca6453789a0cb7b1ba1c7a85811fb95e956e31908584e90739e1a"
-    },
-    {
-      "path": "drawings/exhibition-boards/en/page-06.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "en",
-      "description": "Seven-page exhibition-board en page 06",
-      "sha256": "fe0c8d07eb0837afe0d1fe7a541fd7ed046fbe2be68389e58e072dac8f4c541b"
-    },
-    {
-      "path": "drawings/exhibition-boards/en/page-07.png",
-      "role": "exhibition_board_page",
-      "required": false,
-      "language": "en",
-      "description": "Seven-page exhibition-board en page 07",
-      "sha256": "69d8c22c59e609f187cf274564437945c8f66aa1b9ac3fb3eea334eceb6620a3"
+      "sha256": "45792c759f17e3f70cf8fcb4f5a3332f3ca58bb3914379b5c6a5b7b3fa257af0",
+      "translation_of": "drawings/exhibition-boards.pdf"
     },
     {
       "path": "visual/index.en.html",
@@ -387,71 +259,63 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "8a84bc3e7e601f94e0d4949c4358d3ea45533ab2f30b29c736a43e8ad0e0c143"
+      "sha256": "c32e78af43a95cbc83287f36797ce558afc41ba426bf5416e7f74a03d958554f"
     },
     {
       "path": "assets/figures/00-project-cover-background.png",
-      "role": "visualization_figure",
+      "role": "figure",
       "required": true,
-      "language": "en",
-      "description": "clean cover aerial background",
-      "sha256": "a96c4ad0a6fa307168abff2ecd3ba8b4201da4d7e292f2e3776e69e5c6da8a2f"
+      "language": "neutral",
+      "sha256": "8f3201175c46526627e228a857f7f5c639d30d7892e53e5201221257b4bbba1c"
     },
     {
       "path": "assets/figures/15-day-overall-aerial-background.png",
-      "role": "visualization_figure",
+      "role": "figure",
       "required": true,
-      "language": "en",
-      "description": "clean daytime aerial background",
-      "sha256": "8c3885146281ff5ad3a227daa293b1182b5d8788a2553e145847fd363274cd5e"
+      "language": "neutral",
+      "sha256": "aa04d329e6cb918a0f944dc08113bdca5f3e526e13d7683ef086069a6429d26a"
     },
     {
       "path": "assets/figures/10-zhongzhiyuan-aerial-background-clean.png",
-      "role": "visualization_figure",
+      "role": "figure",
       "required": true,
-      "language": "en",
-      "description": "clean Zhongzhiyuan aerial rendering",
-      "sha256": "4ec4f92a4e72c87d9e061d154cfb8a3a6e84d393973d80fd9dd726938c2e9769"
+      "language": "neutral",
+      "sha256": "bdf31a5a97cc311ceedcefd7d9a187d52503c545f3c398ba6c163ac630f826e0"
     },
     {
       "path": "assets/figures/11-ai-origin-community-aerial-background.png",
-      "role": "visualization_figure",
+      "role": "figure",
       "required": true,
-      "language": "en",
-      "description": "clean AI Origin Community aerial rendering",
-      "sha256": "eb83a1bb6e1af5c3706a55d0129bba9cbbd11c533f332d63495df99ef223d60b"
+      "language": "neutral",
+      "sha256": "6c71263ba6bcc4deb9c84996d3246bda609a8e7db92836dc00a41e8b56090bdc"
     },
     {
       "path": "assets/figures/12-dazhongsi-aerial-background.png",
-      "role": "visualization_figure",
+      "role": "figure",
       "required": true,
-      "language": "en",
-      "description": "clean Dazhongsi aerial rendering",
-      "sha256": "72e51571be01386ef8163f7e1ec50f4c114d4ed0c331443eed2b9ef595067e04"
+      "language": "neutral",
+      "sha256": "51b3efe286826fad8b4fcc1188def055eb4b326aa7b43270b7b86ea46479dd9a"
     },
     {
       "path": "assets/figures/10-zhongzhiyuan-aerial-transport-en.png",
-      "role": "visualization_figure",
+      "role": "figure",
       "required": true,
-      "language": "en",
-      "description": "Zhongzhiyuan labeled aerial rendering",
-      "sha256": "4d2241763bd8876230e3554fda28cdd240def8f01efabdc6fb186864935bd045"
+      "language": "neutral",
+      "sha256": "ea2312c9fecc8d1428bd611f5650cbeee4882922f76c4fbddda15d293a6d5f12"
     },
     {
       "path": "assets/figures/11-ai-origin-community-aerial-en.png",
-      "role": "visualization_figure",
+      "role": "figure",
       "required": true,
-      "language": "en",
-      "description": "AI Origin Community labeled aerial rendering",
-      "sha256": "97d27a12e01767a69a0e6a8888c0c53c6f0855b82f5fefcca9176d26a92d2c8a"
+      "language": "neutral",
+      "sha256": "4c6483a3cef0118d7de1336d081ba59ab623306a7661c009153565b13a2bd016"
     },
     {
       "path": "assets/figures/12-dazhongsi-aerial-en.png",
-      "role": "visualization_figure",
+      "role": "figure",
       "required": true,
-      "language": "en",
-      "description": "Dazhongsi labeled aerial rendering",
-      "sha256": "045c63c61595e1dbce1c22837d355be901d989ad641e457bf0a489ae3becaa37"
+      "language": "neutral",
+      "sha256": "cb5d7615a4acdb3d89c5f6f6e2cde6be9de2f12beab65da7d7d9323f42634a2d"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -459,7 +323,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/key-areas.png",
-      "sha256": "4e69d21d1fabe478f4d3c46338a481c7d3abec46eb73a3d6c7561e7ebd5451fd"
+      "sha256": "d5c34396a93e097d67b232f6127bdf6f6e0e2504b61910e1123f11b3b42131ab"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
@@ -467,7 +331,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/land-use-structure.png",
-      "sha256": "6d9a49715c81b70c2639a92834de39ed17552f1454389c9bb5ba5cbe8abb6a69"
+      "sha256": "ae624922e5d7733ace5ae1d5a4fd532195337976281e8616dbc056bab23f5a0e"
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
@@ -475,7 +339,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png",
-      "sha256": "3ad82446c261f870ee35d180c4f3c78793cc6d4d991e55ec7a6967d158f65145"
+      "sha256": "f18f309ee455a4f5b7c69776082cc018b5c729270b3eb15bf8aa44a222b019c5"
     },
     {
       "path": "assets/figures/mobility-bluegreen.en.png",
@@ -483,7 +347,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/mobility-bluegreen.png",
-      "sha256": "ba842bba81e2946e267e0adab58ee889a75827dd91a910b167950ce5dc671b71"
+      "sha256": "e21ba59c850c4af01278031b62f180b2b7412c162fd1972f5b916eb31ded3de6"
     },
     {
       "path": "assets/figures/site-overview.en.png",
@@ -491,14 +355,14 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
-      "sha256": "fc6dcef18d3072b837929a496e5eb5c48465c6e2d4ee276fe926a9fb58d6fea2"
+      "sha256": "1b5b680cafc24af0ee4c03f14a8a629fcfb83182f9a60a0b6955853598f0e1b1"
     },
     {
       "path": "assets/figures/personas.png",
       "role": "figure",
       "required": false,
       "language": "zh",
-      "sha256": "b67bfe0a122dc9c2e2e7ed8520d34bf984649f0da15ea20eb85bcdd5bbe9babc"
+      "sha256": "6bbd8dcd81b5222788191b3d5605ae3dc84edfe319d06675061e8ccec47c1515"
     },
     {
       "path": "assets/figures/personas.en.png",
@@ -506,7 +370,7 @@
       "required": false,
       "language": "en",
       "translation_of": "assets/figures/personas.png",
-      "sha256": "b391b6885da3ee173023c9f8750232b100906aa4e4782553b6a836bfd9374be1"
+      "sha256": "58ab8b7692642c6c45f1cb7b3269f7d9b8544161fa150d39f84aa25d92bfb360"
     },
     {
       "path": "assets/figures/persona-scenario-map.png",
@@ -521,11 +385,18 @@
       "required": false,
       "language": "en",
       "translation_of": "assets/figures/persona-scenario-map.png",
-      "sha256": "ab52af2de04b65c4828aac9a85dba5b32390caa8bb11fd13e0b8e73ca9fd483a"
+      "sha256": "32a298ca3c461fa6398dbabe6df848e62c5cae2347698d0e52fdec8d2b9ccdae"
+    },
+    {
+      "path": "drawings/exhibition-boards.pdf",
+      "role": "drawing",
+      "required": true,
+      "language": "zh",
+      "sha256": "3a0b80f604b26df59dc26bb373868024e4821e82c05c3fa94fd5e9421f97313c"
     }
   ],
   "validation_claim": {
-    "self_checked": false,
+    "self_checked": true,
     "known_blockers": [],
     "data_confidence": "high",
     "readiness_contract": "persisted-self-check-v1"
