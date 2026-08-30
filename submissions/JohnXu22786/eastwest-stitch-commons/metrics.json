@@ -165,13 +165,13 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 6,
+      "value": 4,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(intl case table rows in proposal.md appendix 3)",
+      "formula": "count(global ecosystem mechanism cases)",
       "confidence": "high",
       "assumptions": []
     },
@@ -196,19 +196,6 @@
       "formula": "count(annual event system)",
       "confidence": "high",
       "assumptions": []
-    },
-    "scenario_card_count": {
-      "status": "known",
-      "value": 12,
-      "unit": "count",
-      "source_files": [
-        "proposal.md"
-      ],
-      "formula": "count(scenario card table rows in proposal.md appendix 5)",
-      "confidence": "high",
-      "assumptions": [
-        "Visible-text evidence: 12-row scenario card table."
-      ]
     }
   }
 }

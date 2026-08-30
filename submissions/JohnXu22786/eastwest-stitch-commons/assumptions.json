@@ -42,13 +42,6 @@
       "statement_en": "The event system and phasing are design suggestions, not confirmed government or investment commitments.",
       "category": "operation",
       "status": "concept"
-    },
-    {
-      "assumption_id": "A-BRAND-001",
-      "statement_zh": "概念阶段未完成官方商标检索，本方案全部名称与标识（缝合客厅、STITCH·JZ、一带三件等）仅作内部工作代号，外部宣传与注册使用前须完成在先权利检索与清理。",
-      "statement_en": "No official trademark search has been completed at concept stage; all names and marks are internal working codenames pending prior-rights clearance before external use or registration.",
-      "category": "intellectual_property",
-      "status": "accepted_limitation"
     }
   ]
 }

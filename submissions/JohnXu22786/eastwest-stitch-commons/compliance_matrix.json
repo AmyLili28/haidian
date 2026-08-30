@@ -7,7 +7,7 @@
    "mandatory": true,
    "report_sections": [
     "三层范围工作框架",
-    "指标体系、面积复算与合规矩阵"
+    "AI 创新生态、人才画像与 AI+ 场景"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -21,10 +21,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -36,8 +36,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -56,14 +56,17 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "以「缝合客厅（STITCH·JZ）」把京张遗址公园绿带组织为东西缝合的公共界面样本：一条绿带、把被铁路分开的两半城市缝回一个客厅。"
+   "evidence_summary_zh": "构建世界级AI创新生态：方案建立土地、空间、产业、资金、人才、算力、数据、场景八大要素机制（ai-innovation-ecosystem图谱），严密映射「中关村科技服务翼」与「小月河场景赋能翼」两翼及三区，坚决不编造企业或资金承诺。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.3.2",
    "title_zh": "建设适配AI新质生产力的新型城市形态",
    "mandatory": true,
    "report_sections": [
-    "重点区域详细设计"
+    "重点区域详细设计",
+    "总体设计范围城市更新与控规深度城市设计"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -77,10 +80,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -92,8 +95,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -112,13 +115,16 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "重点区域定位与缝合公共空间对应：缝合桥庭、东西市集廊与缝合轴的概念级空间叙事，配平面、剖面与日常/节事场景序列图件。"
+   "evidence_summary_zh": "建设新型城市形态：以「缝合客厅（STITCH·JZ）」把京张遗址公园绿带转译为东西缝合共享界面，通过缝合桥庭、东西市集廊与缝合轴三节点实现跨线立体互通与桥下灰空间活化。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.3.3",
-   "title_zh": "打造全球AI创新人才向往的高品质城区",
+   "title_zh": "打造具有国际影响力的百年京张AI创新带总体构想",
    "mandatory": true,
    "report_sections": [
+    "统筹研究范围产业与未来城市研究",
     "总体设计范围城市更新与控规深度城市设计"
    ],
    "geojson_layers": [
@@ -133,10 +139,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -148,8 +154,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -168,14 +174,17 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "概念愿景：缝合客厅——从「跨越铁路」走向「两个街区的日常对话」。"
+   "evidence_summary_zh": "总体构想：从「跨越铁路」走向「两个街区的日常对话」，以绿色低碳慢行网络将曾割裂的两侧转译为高品质城市公共客厅，保持克制与人本尺度。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.4.1",
-   "title_zh": "统筹研究范围",
+   "title_zh": "明确三层工作范围及设计响应要求",
    "mandatory": true,
    "report_sections": [
-    "三层范围工作框架"
+    "三层范围工作框架",
+    "设计依据与资料清单"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -189,10 +198,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -204,8 +213,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -224,14 +233,17 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "严格按任务书文本口径划分三层范围，边界为 provisional，待官方几何发布后复算。"
+   "evidence_summary_zh": "严格按任务书划分统筹研究约43.6 km²、总体设计约11.4 km²、重点区域约368.4 ha三层范围，几何基于provisional边界，官方数据发布后统一复算。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.4.2",
-   "title_zh": "总体设计范围",
+   "title_zh": "统筹研究范围：产业与未来城市研究",
    "mandatory": true,
    "report_sections": [
-    "统筹研究范围产业与未来城市研究"
+    "统筹研究范围产业与未来城市研究",
+    "AI 创新生态、人才画像与 AI+ 场景"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -245,10 +257,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -260,8 +272,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -280,14 +292,17 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "统筹研究聚焦「产业与未来城市」：缝合带与两侧街区、高校及国际化住区的协同关系判断（概念级）。"
+   "evidence_summary_zh": "统筹研究范围严格落实「中关村科技服务翼」与「小月河场景赋能翼」官方两翼，自拟的高校智力界面与国际生活界面明确降格为局部空间形态，绝不替代官方两翼。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.4.3",
-   "title_zh": "重点区域范围",
+   "title_zh": "总体设计范围：街区更新与控规深度城市设计",
    "mandatory": true,
    "report_sections": [
-    "总体设计范围城市更新与控规深度城市设计"
+    "总体设计范围城市更新与控规深度城市设计",
+    "用地、建筑规模与拆改留方案"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -301,10 +316,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -316,8 +331,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -336,11 +351,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "总体设计以遗留绿带为缝合界面、东西功能互补为核心理念，以控规深度方法校核用地兼容与跨线设施落位导则。"
+   "evidence_summary_zh": "总体设计以控规深度校核用地兼容与跨线设施落位，绿地率单一口径复算为约13.4%，公共空间率约0.32%，杜绝大拆大建与指标混淆。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.1.1",
-   "title_zh": "统筹研究范围：AI创新生态体系",
+   "title_zh": "重点区域详细设计：众智园AI自主创新加速区",
    "mandatory": true,
    "report_sections": [
     "重点区域详细设计"
@@ -357,22 +374,23 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
    ],
    "visual_sections": [
-    "重点区域",
-    "总览地图"
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -391,11 +409,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "节点一：缝合桥庭——以跨线连桥与桥下广场为母题的缝合节点，实现东西慢行连续与桥下灰空间活化。"
+   "evidence_summary_zh": "众智园AI自主创新加速区深化：落位「缝合桥庭」，以跨线天桥与桥下广场承载「中关村科技服务翼」的研发成果转化与学术路演。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.1.2",
-   "title_zh": "统筹研究范围：适配人工智能的未来城市形态",
+   "title_zh": "重点区域详细设计：北京AI原点社区与大钟寺产业集聚区",
    "mandatory": true,
    "report_sections": [
     "重点区域详细设计"
@@ -412,22 +432,23 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
    ],
    "visual_sections": [
-    "重点区域",
-    "总览地图"
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -446,11 +467,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "节点二：东西市集廊——两侧功能互换的市集走廊，把街区市集、展销与社区活动组织为可双向进入的公共空间；节点三：缝合轴——贯穿东西的慢行缝合轴线与AI公共空间。"
+   "evidence_summary_zh": "原点社区与大钟寺深化：原点社区落位「东西市集廊」承载「小月河场景赋能翼」生活级测试；大钟寺落位「缝合轴」实现TOD轨道接驳与环境感知。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.2.1",
-   "title_zh": "总体设计范围：产业目标与功能布局",
+   "title_zh": "AI创新生态、人才画像与AI+场景",
    "mandatory": true,
    "report_sections": [
     "AI 创新生态、人才画像与 AI+ 场景"
@@ -467,22 +490,23 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
    ],
    "visual_sections": [
-    "AI 场景",
-    "核心指标"
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -501,11 +525,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "5类人才画像与12张AI+场景卡：画像（高校师生、科技从业者创业者开发者、国际化住区居民、老社区长者儿童、行动不便人士与带婴幼儿家庭）与场景卡全表见附录五，禁止过度监控、人工复核兜底。"
+   "evidence_summary_zh": "五类AI+场景（跨线感知、无障碍辅助、设施巡检、舒适度建议、安全告警复核）遵循自设设计治理规则，严守匿名聚合与人工兜底底线。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.2.2",
-   "title_zh": "总体设计范围：城市更新总体框架",
+   "title_zh": "用地、建筑规模与拆改留方案",
    "mandatory": true,
    "report_sections": [
     "用地、建筑规模与拆改留方案"
@@ -522,10 +548,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -537,8 +563,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -557,11 +583,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "留改拆并举：优先保留遗址绿带、历史价值站房与工业构筑物，改造低效厂房与园区建筑，拆除仅限个案论证的零星危旧建筑（概念口径）。"
+   "evidence_summary_zh": "留改拆并举：优先保留铁路遗址绿带与站房记忆，低效建筑功能改造为公共创客空间，拆除仅限经论证的零星危旧建筑，不给出未经审批的数值结论。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.2.3",
-   "title_zh": "总体设计范围：交通轨道市政配套设施",
+   "title_zh": "交通、轨道、市政与公共服务设施",
    "mandatory": true,
    "report_sections": [
     "交通、轨道、市政与公共服务设施"
@@ -578,10 +606,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -593,8 +621,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -613,11 +641,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "交通慢行优先的交通概念：缝合轴贯通东西慢行并加密跨线节点，节事交通以轨道交通＋接驳为主、散场分时分区疏导、降低小汽车依赖。"
+   "evidence_summary_zh": "慢行优先：缝合轴贯通东西慢行通道，跨线节点适度加密；节事交通以轨道接驳+分时分流为主，公共服务设施设100%人工导览兜底。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.2.4",
-   "title_zh": "总体设计范围：京张遗址公园活力带",
+   "title_zh": "蓝绿空间、公共空间与城市风貌",
    "mandatory": true,
    "report_sections": [
     "蓝绿空间、公共空间与城市风貌"
@@ -634,10 +664,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -649,8 +679,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -669,11 +699,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "「缝合桥庭—东西市集廊—缝合轴」沿绿带连续开敞序列：连桥、桥下广场与市集廊按需切换为市集、讲堂与日常休闲空间。"
+   "evidence_summary_zh": "构建「绿带为轴、节点为珠」的蓝绿公共空间网络，结合雨水花园提升海绵城市韧性，桥下灰空间轻介入活化为社区微客厅。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.2.5",
-   "title_zh": "总体设计范围：城市风貌",
+   "title_zh": "城市风貌与工业遗产转译",
    "mandatory": true,
    "report_sections": [
     "蓝绿空间、公共空间与城市风貌"
@@ -690,10 +722,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -705,8 +737,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -725,11 +757,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "风貌延续京张铁路工业记忆语汇（道钉、轨枕、信号与机车符号）、克制使用避免标语化包装、识别度高且不喧哗。"
+   "evidence_summary_zh": "工业风貌克制转译：道钉、轨枕、信号灯等铁路工业符号以当代极简语汇融入标识与铺装，强调新旧对话而非仿古复刻。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.3.required",
-   "title_zh": "重点区域范围详细设计必选项",
+   "title_zh": "更新项目清单与实施政策建议",
    "mandatory": true,
    "report_sections": [
     "更新项目清单、实施政策与分期计划"
@@ -746,10 +780,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -761,8 +795,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -781,11 +815,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "更新项目清单按「骨架—跨线节点—配套」三类滚动更新，配套桥下空间经营准入、弹性业态准入、多元主体参与运营等政策建议。"
+   "evidence_summary_zh": "更新项目清单按通道、空间、场景、运营四类滚动更新，配套桥下空间经营准入与多元主体共建机制，不构成政府财政承诺。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.3.1",
-   "title_zh": "众智园AI自主创新加速区",
+   "title_zh": "分期实施计划与实施路径",
    "mandatory": true,
    "report_sections": [
     "更新项目清单、实施政策与分期计划"
@@ -802,10 +838,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -817,8 +853,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -837,11 +873,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "分期实施：近期1—3年跨线通道加密与节点试点，中期3—5年缝合轴贯通与市集廊成型，远期5—10年体系完善与运营品牌化；试点均设前置条件、审查门与退出条件（概念）。"
+   "evidence_summary_zh": "分期实施：近期1-3年跨线加密与节点试点，中期3-5年功能更新与业态联动，远期5-10年体系完善与品牌运营。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.3.2",
-   "title_zh": "北京AI原点社区",
+   "title_zh": "指标体系与面积复算",
    "mandatory": true,
    "report_sections": [
     "指标体系、面积复算与合规矩阵"
@@ -858,10 +896,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -873,8 +911,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -893,14 +931,17 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "目标—指标—校验概念指标体系（跨线慢行贯通度/慢行可达性/绿带连续性/桥下空间利用率/社区参与度）；面积复算以官方文本口径为底，官方数据到位后复算。"
+   "evidence_summary_zh": "单一口径指标体系：绿地率约13.4%、公共空间率约0.32%、5类场景卡、5类画像、4个国际案例、4个国内对标，官方数据发布后统一复算。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "1.5.3.3",
-   "title_zh": "大钟寺AI产业聚集区",
+   "title_zh": "合规矩阵与标准校核",
    "mandatory": true,
    "report_sections": [
-    "指标体系、面积复算与合规矩阵"
+    "指标体系、面积复算与合规矩阵",
+    "风险、版权与合规说明（法规适用范围收窄）"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -914,10 +955,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -929,8 +970,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -949,15 +990,17 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "合规矩阵覆盖公告、任务书与法规参照（用地、文保、消防、会展安全、桥下空间管理、隐私与无障碍等）；标准矩阵与设计深度矩阵见对应 JSON。"
+   "evidence_summary_zh": "合规与标准校核：收窄无障碍法第39条（限法定服务场所）与生成式AI暂行办法引用，将人工兜底、匿名聚合、申诉停用明确为自设设计治理规则。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "agent.1",
-   "title_zh": "一带总体概念与功能统筹方案设计",
+   "title_zh": "一带总体概念：缝合客厅（STITCH·JZ）",
    "mandatory": true,
    "report_sections": [
     "三层范围工作框架",
-    "总体设计范围城市更新与控规深度城市设计"
+    "统筹研究范围产业与未来城市研究"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -971,10 +1014,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -986,8 +1029,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1006,14 +1049,15 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "一带总体概念：缝合客厅——三层范围工作框架下的东西缝合公共空间总体统筹；统筹研究范围约43.6km2、总体设计约11.4km2、重点区域约368.4ha（公告文本口径）。"
+   "evidence_summary_zh": "一带总体概念：缝合客厅——以京张遗址公园为界面，组织东西街区功能互补与公共交往。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "agent.2",
-   "title_zh": "AI全栈自主创新体系与世界级AI创新生态设计",
+   "title_zh": "三处重点创新节点详细设计与空间叙事",
    "mandatory": true,
    "report_sections": [
-    "AI 创新生态、人才画像与 AI+ 场景",
     "重点区域详细设计"
    ],
    "geojson_layers": [
@@ -1028,10 +1072,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -1043,8 +1087,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1063,11 +1107,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "AI创新生态以「六环生态图谱」为骨架（高校、企业、平台、场景、数据、资金人才）；6个国际案例逐条来源见附录三；三节点承载创新、测试与展示。"
+   "evidence_summary_zh": "三处重点创新节点：缝合桥庭、东西市集廊、缝合轴，形成点线面闭环空间序列。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "agent.3",
-   "title_zh": "AI+场景赋能新范式与智能化AI活力城市设计",
+   "title_zh": "五类AI+场景：匿名聚合感知与人本设计治理",
    "mandatory": true,
    "report_sections": [
     "AI 创新生态、人才画像与 AI+ 场景"
@@ -1084,10 +1130,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -1099,8 +1145,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1119,15 +1165,17 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "12张AI+场景卡（附录五）与3个产业测试场景（附录六）；技术保障四项机制：模型评测、数据质量、误差分群、运行监测；治理三句式：匿名聚合、人工复核、禁止过度监控。"
+   "evidence_summary_zh": "五类AI+场景卡：全要素匿名聚合感知，严禁人脸识别与侵入式监控。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "agent.4",
-   "title_zh": "AI公共空间、智能原生新业态与朝圣地标设计",
+   "title_zh": "空间治理与无障碍人工兜底服务机制",
    "mandatory": true,
    "report_sections": [
-    "重点区域详细设计",
-    "蓝绿空间、公共空间与城市风貌"
+    "交通、轨道、市政与公共服务设施",
+    "风险、版权与合规说明（法规适用范围收窄）"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -1141,10 +1189,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -1156,8 +1204,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1176,15 +1224,17 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "三个原创节点即三处AI朝圣地标；荣誉体系（桥庭荣誉墙、缝合荣誉榜）与可逆公共空间组件库（基础、扩展、临时三类）落实朝圣地标与荣誉展示、组件化公共空间要求。"
+   "evidence_summary_zh": "人本空间治理：无障碍人工服务台、纸质导览与误报申诉一键停用通道闭环。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "agent.5",
-   "title_zh": "百年京张文化、中关村文化与AI新文化融合叙事设计",
+   "title_zh": "百年京张「缝合」文化叙事与遗产转译",
    "mandatory": true,
    "report_sections": [
-    "设计依据与资料清单",
-    "风险、版权与合规说明"
+    "蓝绿空间、公共空间与城市风貌",
+    "附录一 方案主名称建议"
    ],
    "geojson_layers": [
     "geometry/site_boundary.geojson",
@@ -1198,10 +1248,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -1213,8 +1263,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1233,11 +1283,13 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "文化叙事：铁路工业记忆语汇克制转译、文化导视、中英双语传播语与多语种传播渠道（附录一）；国际传播文案与品牌体系同步交付。"
+   "evidence_summary_zh": "百年京张「缝合」叙事：从铁路空间阻隔到公园缝合客厅的双重文化表达。",
+   "review_status": null,
+   "status": "complete"
   },
   {
    "requirement_id": "agent.6",
-   "title_zh": "一带全球AI创新活动体系与长期运营设计",
+   "title_zh": "年度品牌活动体系与长期运营闭环",
    "mandatory": true,
    "report_sections": [
     "更新项目清单、实施政策与分期计划"
@@ -1254,10 +1306,10 @@
    ],
    "metrics": [
     "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
     "global_case_count",
-    "green_ratio"
+    "green_ratio",
+    "public_space_ratio",
+    "scenario_node_count"
    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
@@ -1269,8 +1321,8 @@
     "任务覆盖"
    ],
    "source_ids": [
-    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-05-09",
-    "DATA-SRC-AGENT-TASKBOOK-2026-05-18",
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+    "DATA-SRC-AGENT-TASKBOOK-20260518",
     "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
     "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
     "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
@@ -1289,7 +1341,9 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "年度活动品牌3个（东西社区缝合节、桥下市集月、慢行探访日，附录八）；开发者社区、场景开放平台与国际招引转化三类长期运营机制，附RACI式项目清单。"
+   "evidence_summary_zh": "年度活动体系：东西社区缝合节、桥下市集月、慢行探访日三大年度品牌策划。",
+   "review_status": null,
+   "status": "complete"
   }
  ]
 }

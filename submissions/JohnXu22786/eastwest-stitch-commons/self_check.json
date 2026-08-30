@@ -20,12 +20,12 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/eastwest-stitch-commons/agent.json",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/ai-innovation-ecosystem.en.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/ai-innovation-ecosystem.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/key-areas.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/land-use-structure.png",
-        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/logo.en.png",
-        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/logo.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/mobility-bluegreen.en.png",
@@ -67,7 +67,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/eastwest-stitch-commons": "formal"
       },
-      "total_bytes": 8923283,
+      "total_bytes": 13797395,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -128,17 +128,11 @@
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.134275,
         "public_space_ratio": 0.003167,
-        "key_area_count": 3.0,
-        "landmark_count": 3.0,
-        "scenario_node_count": 8.0,
-        "land_use_zone_count": 27.0,
-        "building_unit_count": 12.0,
-        "phase_count": 3.0,
-        "scenario_card_count": 12.0,
-        "industry_test_scenario_count": 3.0,
-        "global_case_count": 6.0,
         "persona_count": 5.0,
-        "annual_program_count": 3.0
+        "global_case_count": 4.0,
+        "annual_program_count": 3.0,
+        "industry_test_scenario_count": 3.0,
+        "scenario_node_count": 8.0
       }
     },
     "stderr": ""
@@ -150,9 +144,9 @@
       "ok": true,
       "issues": [],
       "summary": {
-        "standard_matrix_items": 5,
+        "standard_matrix_items": 7,
         "design_depth_items": 15,
-        "known_metric_refs_required": 18,
+        "known_metric_refs_required": 17,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
@@ -160,7 +154,7 @@
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 2
+          "metric": 5
         }
       }
     },
@@ -208,56 +202,5 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ],
-  "figure_qc": {
-    "ok": true,
-    "ink_ok": true,
-    "clip_clear": true,
-    "overlap_clear": "not_verified",
-    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
-    "figures": {
-      "key-areas.png": {
-        "width": 1862,
-        "height": 1193,
-        "ink": 0.2441,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "land-use-structure.png": {
-        "width": 1862,
-        "height": 1262,
-        "ink": 0.2188,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "logo.png": {
-        "width": 1259,
-        "height": 662,
-        "ink": 0.1144,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "metrics-evidence.png": {
-        "width": 1862,
-        "height": 1262,
-        "ink": 0.235,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "width": 1862,
-        "height": 1262,
-        "ink": 0.1479,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "site-overview.png": {
-        "width": 1038,
-        "height": 1262,
-        "ink": 0.4732,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      }
-    }
-  }
+  ]
 }

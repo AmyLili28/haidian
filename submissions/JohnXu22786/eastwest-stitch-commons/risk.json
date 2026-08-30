@@ -1,143 +1,69 @@
 {
   "schema_version": "0.1.0",
-  "risks": [
-    {
-      "risk_id": "R-BOUNDARY",
-      "title_zh": "边界精度",
-      "category": "data_gap",
-      "severity": "medium",
-      "description_zh": "全部几何基于 provisional 边界；官方几何到位后需整体复算面积、指标并调整图件。",
-      "mitigation_zh": "正文、矩阵与图件均标注 provisional 状态与复算触发条件；面积值仅作概念复算。"
-    },
-    {
-      "risk_id": "R-TRANSIT",
-      "title_zh": "跨线交通与日常运营协调",
-      "category": "policy",
-      "severity": "high",
-      "description_zh": "缝合节点跨铁路遗址带与城市道路布设，跨线设施建设与节事交通组织涉及多部门审批，实施路径未定型。",
-      "mitigation_zh": "方案仅表达概念意图，跨线设施选型与交通组织须经主管部门依法审定；项目清单列前置条件与专业审查门。"
-    },
-    {
-      "risk_id": "R-PRIVACY",
-      "title_zh": "通行感知与环境数据边界",
-      "category": "data_boundary",
-      "severity": "medium",
-      "description_zh": "跨线通行感知与环境采集涉及人员活动信息，若未设边界可能造成隐私与过度监控观感风险。",
-      "mitigation_zh": "仅处理匿名聚合数据，不进行个体识别式追踪，关键决策人工复核；个人数据不入库、不可回溯。"
-    },
-    {
-      "risk_id": "R-DATA-GOV",
-      "title_zh": "AI数据治理与误报处置",
-      "category": "technology",
-      "severity": "medium",
-      "description_zh": "感知模型存在误报可能，若处置不当可能影响通行效率与公众信任。",
-      "mitigation_zh": "模型评测、数据质量、误差分群、运行监测四项协议；设误报申诉通道与系统停用条件，停用后以人工引导与纸质导览替代。"
-    },
-    {
-      "risk_id": "R-CONTROL",
-      "title_zh": "法定控制缺位",
-      "category": "statutory",
-      "severity": "medium",
-      "description_zh": "控规指标、轨道保护区、文保范围与消防条件未公开，开发强度与退距表述仅限概念层面。",
-      "mitigation_zh": "不给数值结论，全部表述为可供专业团队深化的概念选项；未决项列入合规矩阵留白清单。"
-    },
-    {
-      "risk_id": "R-ACCEPTANCE",
-      "title_zh": "缝合改造与公众接受度",
-      "category": "public_acceptance",
-      "severity": "medium",
-      "description_zh": "跨线设施建设与桥下空间活化可能引发风貌与使用争议，公众接受度存在不确定性。",
-      "mitigation_zh": "居民意见通道与年度公示机制前置；桥下经营设准入与备案；重大事项依法公示与听证。"
-    },
-    {
-      "risk_id": "R-BRAND",
-      "title_zh": "品牌在先权利",
-      "category": "intellectual_property",
-      "severity": "medium",
-      "description_zh": "概念阶段未完成官方商标检索，命名与标识存在与既有标识雷同的可能性。",
-      "mitigation_zh": "全部名称与标识按内部工作代号处理，外部宣传与注册使用前须完成在先权利检索与清理；雷同属巧合。"
-    },
-    {
-      "risk_id": "R-FUNDING",
-      "title_zh": "实施资金与时序",
-      "category": "policy",
-      "severity": "medium",
-      "description_zh": "项目投资仅给低中高定性级别，不具备精确造价依据；分期时序依赖多主体协同。",
-      "mitigation_zh": "估算方法、价格基期、包含范围、置信等级与复算触发随项目清单登记；不构成投资承诺。"
-    },
-    {
-      "risk_id": "R-SUSTAIN",
-      "title_zh": "运营可持续",
-      "category": "operation",
-      "severity": "medium",
-      "description_zh": "长期运营依赖年度活动、开发者社区与场景开放的持续投入，参与率存在不确定性。",
-      "mitigation_zh": "年度公益活动公开复盘；参与率持续下降触发运营重组评估（退出条件见第十节）。"
-    }
-  ],
   "version": 1,
   "dimensions": [
     {
       "id": "data_privacy",
-      "label": "数据隐私",
+      "label": "数据隐私与监控边界",
       "score": 2,
-      "note": "人流与轨迹数据仅采用匿名聚合，不做个体识别；AI生成内容全部人工复核后发布。",
-      "mitigation": "在文本与图件中声明仅聚合不识别；发布流程设人工复核岗；误报申诉与系统停用条件成文。",
+      "note": "人流与通行数据严格遵循最小必要与匿名聚合原则，严禁人脸识别与个人轨迹留存；AI决策设人工复核。",
+      "mitigation": "明确声明人工兜底、匿名聚合、误报申诉与一键停用为自设设计治理规则，在图件与文本中醒目公示退出通道。",
       "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
     },
     {
       "id": "implementation_complexity",
-      "label": "实施复杂度",
+      "label": "实施复杂度与跨线协调",
       "score": 3,
-      "note": "跨线设施需规划、交通、结构、文保多专业协同，概念到落地跨度大。",
-      "mitigation": "方案明确为概念建议，各专项预留深化接口、专业审查门与分阶段决策点。",
+      "note": "跨线天桥、地下通道与桥下空间活化涉及铁路权属、市政、交通多部门协同，工程落地跨度大。",
+      "mitigation": "方案明确为概念建议，分期实施（1-3年试点/3-5年成型/5-10年完善），预留专项论证与法定审批接口。",
       "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
     },
     {
       "id": "public_acceptance",
-      "label": "公众接受度",
-      "score": 3,
-      "note": "AI感知装置与数据展示可能引发隐私与过度科技化疑虑。",
-      "mitigation": "匿名聚合加人工复核边界明确披露；设施低侵入、可一键关闭；居民意见通道与年度公示。",
+      "label": "公众接受度与技术感知",
+      "score": 2,
+      "note": "AI感知设备与智能设施可能引发老年人或无设备人群‘数字鸿沟’及‘过度科技化’疑虑。",
+      "mitigation": "设置100%覆盖的人工导览台、纸质地图与离线人工服务兜底；设施采用低侵入、可拆卸、可关闭设计。",
       "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
     },
     {
       "id": "operations_cost",
-      "label": "运维成本",
+      "label": "运营与长期维护成本",
       "score": 2,
-      "note": "感知设备、数据平台与公共空间设施存在持续运维成本。",
-      "mitigation": "统一建设、多元运营模式建议；设施采用模块化可逆组件库；投资仅给定性级别。",
+      "note": "桥下空间、市集设施与慢行道存在持续保洁、机电维护与活动运营成本。",
+      "mitigation": "建立政府引导、多元主体共建与轻资产渐进式微更新模式；设施采用模块化可逆设计降低重置成本。",
       "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
     },
     {
       "id": "policy_uncertainty",
-      "label": "政策不确定性",
+      "label": "政策不确定性与法定衔接",
       "score": 3,
-      "note": "桥下空间经营、数据开放与AI治理政策仍在演进，审批路径未定型。",
-      "mitigation": "以现行法规为参照，保留弹性接口；正式实施前完成法定审批与安全评估。",
+      "note": "桥下空间经营利用、低空感知与公共数据共享政策仍在演进，审批路径未定型。",
+      "mitigation": "严格以现行法规为参照，收窄无障碍法与生成式AI办法引用范围；正式实施前完成法定审批程序。",
       "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
     },
     {
       "id": "spatial_dispute",
-      "label": "空间争议",
-      "score": 3,
-      "note": "全部几何基于 provisional 边界，正式边界发布后面积与指标可能有变。",
-      "mitigation": "已在 geometry、矩阵与指标复算说明中标注 provisional 状态与复算条件。",
+      "label": "空间边界与指标争议",
+      "score": 2,
+      "note": "全部空间几何与指标基于provisional边界，正式边界发布后面积与指标可能有变。",
+      "mitigation": "已在geometry、矩阵与指标复算说明中标注provisional状态与单一口径复算条件，官方数据到位后整体复算。",
       "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
     },
     {
       "id": "technology_maturity",
-      "label": "技术成熟度",
-      "score": 3,
-      "note": "无障碍伴行与需求感知等技术仍在迭代，存在误报与设备故障可能。",
-      "mitigation": "以成熟技术与人工值守兜底；新场景先测试验证后规模化；设退出条件与替代服务。",
+      "label": "技术成熟度与误报风险",
+      "score": 2,
+      "note": "AI人流感知、设施巡检与微气候建议算法可能存在误报或环境适应性波动。",
+      "mitigation": "以成熟传感器与人工值守兜底，关键安全告警一律人工复核；新场景先在原点社区生活实验室测试后推广。",
       "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
     },
     {
       "id": "equity_inclusion",
-      "label": "公平与包容性",
+      "label": "公平性与全龄包容度",
       "score": 2,
-      "note": "公共空间与数字服务可能造成使用门槛，需兼顾无障碍、适老与儿童友好。",
-      "mitigation": "无障碍与适老化同步设计；无数字设备时提供人工引导与纸质导览；全龄友好与包容设计贯穿图件。",
+      "note": "跨线慢行与数字服务可能产生适老化与无障碍门槛。",
+      "mitigation": "全线贯彻连续无障碍坡道设计，提供轮椅动线指引；所有场景均配置离线人工替代与多语种服务。",
       "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
     }
   ]
