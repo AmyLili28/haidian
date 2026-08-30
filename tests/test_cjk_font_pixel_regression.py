@@ -69,7 +69,7 @@ def fixture_base64() -> str:
 
 
 def test_page(*, embedded: bool, font_payload: str) -> str:
-    """Build a self-contained page for the same Chromium screenshot path."""
+    """Build a page that switches to the fixture only after it is ready."""
 
     if embedded:
         font_face = f"""
@@ -81,22 +81,33 @@ def test_page(*, embedded: bool, font_payload: str) -> str:
   font-display: block;
 }}
 """
-        glyph_family = f'"{FONT_FAMILY}"'
+        loaded_font_rule = f"""
+html.font-loaded #glyph {{
+  font-family: "{FONT_FAMILY}";
+}}
+"""
         settle_script = f"""
 <script>
 (async () => {{
   const face = '400 144px "{FONT_FAMILY}"';
   const text = {SAMPLE_GLYPHS!r};
   try {{
-    await document.fonts.load(face, text);
+    const loadedFaces = await document.fonts.load(face, text);
     await document.fonts.ready;
     const ready = document.fonts.status === "loaded";
     const checked = document.fonts.check(face, text);
+    const loaded =
+      loadedFaces.length > 0 && loadedFaces.every((font) => font.status === "loaded");
+    document.documentElement.dataset.fontsLoaded = String(loaded);
     document.documentElement.dataset.fontsReady = String(ready);
     document.documentElement.dataset.fontsCheck = String(checked);
+    if (loaded && ready && checked) {{
+      document.documentElement.classList.add("font-loaded");
+    }}
     document.getElementById("status").textContent =
-      `fonts.ready=${{ready}} fonts.check=${{checked}}`;
+      `fonts.loaded=${{loaded}} fonts.ready=${{ready}} fonts.check=${{checked}}`;
   }} catch (error) {{
+    document.documentElement.dataset.fontsLoaded = "false";
     document.documentElement.dataset.fontsReady = "false";
     document.documentElement.dataset.fontsCheck = "false";
     document.getElementById("status").textContent = "font loading failed";
@@ -107,7 +118,7 @@ def test_page(*, embedded: bool, font_payload: str) -> str:
 """
     else:
         font_face = ""
-        glyph_family = "sans-serif"
+        loaded_font_rule = ""
         settle_script = ""
     html_class = " class=\"settled\"" if not embedded else ""
 
@@ -135,13 +146,14 @@ html:not(.settled) #stage {{
   width: 600px;
   height: 180px;
   color: black;
-  font-family: {glyph_family};
+  font-family: sans-serif;
   font-size: 144px;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
   white-space: nowrap;
 }}
+{loaded_font_rule}
 #status {{
   font-family: sans-serif;
   font-size: 14px;
@@ -241,8 +253,7 @@ def run_chromium(
     source: Path,
     profile: Path,
     *,
-    screenshot: Path | None = None,
-    dump_dom: bool = False,
+    screenshot: Path,
 ) -> subprocess.CompletedProcess[str]:
     command = [
         executable,
@@ -259,18 +270,12 @@ def run_chromium(
         f"--window-size={WINDOW_SIZE}",
         f"--user-data-dir={profile}",
     ]
-    if screenshot is not None:
-        command.append(f"--screenshot={screenshot}")
-    if dump_dom:
-        command.append("--dump-dom")
-    # Keep screenshot and DOM inspection in separate browser modes. Chrome for
-    # macOS can keep a combined --screenshot/--dump-dom invocation alive.
+    command.append(f"--screenshot={screenshot}")
     command.append(source.resolve().as_uri())
 
-    capture_output = dump_dom
     popen_options: dict[str, object] = {
-        "stdout": subprocess.PIPE if capture_output else subprocess.DEVNULL,
-        "stderr": subprocess.PIPE if capture_output else subprocess.DEVNULL,
+        "stdout": subprocess.DEVNULL,
+        "stderr": subprocess.DEVNULL,
         "text": True,
         "encoding": "utf-8",
         "errors": "replace",
@@ -283,34 +288,31 @@ def run_chromium(
     process = subprocess.Popen(command, **popen_options)
     process_group_id = process.pid if os.name != "nt" else None
     try:
-        if screenshot is not None:
-            deadline = time.monotonic() + CHROMIUM_TIMEOUT_SECONDS
-            while process.poll() is None:
-                if screenshot_is_ready(screenshot):
-                    stdout, stderr = terminate_process_tree(
-                        process, process_group_id=process_group_id
-                    )
-                    note = "Chromium was terminated after the complete screenshot was verified."
-                    stderr = f"{stderr}\n{note}" if stderr else note
-                    return subprocess.CompletedProcess(command, 0, stdout, stderr)
-                if time.monotonic() >= deadline:
-                    stdout, stderr = terminate_process_tree(
-                        process, process_group_id=process_group_id
-                    )
-                    note = "Chromium did not produce a complete screenshot before timeout"
-                    stderr = f"{note}\n{stderr}" if stderr else note
-                    return subprocess.CompletedProcess(command, 124, stdout, stderr)
-                time.sleep(0.1)
+        deadline = time.monotonic() + CHROMIUM_TIMEOUT_SECONDS
+        while process.poll() is None:
+            if screenshot_is_ready(screenshot):
+                stdout, stderr = terminate_process_tree(
+                    process, process_group_id=process_group_id
+                )
+                note = "Chromium was terminated after the complete screenshot was verified."
+                stderr = f"{stderr}\n{note}" if stderr else note
+                return subprocess.CompletedProcess(command, 0, stdout, stderr)
+            if time.monotonic() >= deadline:
+                stdout, stderr = terminate_process_tree(
+                    process, process_group_id=process_group_id
+                )
+                note = "Chromium did not produce a complete screenshot before timeout"
+                stderr = f"{note}\n{stderr}" if stderr else note
+                return subprocess.CompletedProcess(command, 124, stdout, stderr)
+            time.sleep(0.1)
 
-        try:
-            stdout, stderr = process.communicate(timeout=CHROMIUM_TIMEOUT_SECONDS)
-        except subprocess.TimeoutExpired:
-            stdout, stderr = terminate_process_tree(
-                process, process_group_id=process_group_id
-            )
-            note = "Chromium did not finish DOM inspection before timeout"
+        stdout, stderr = process.communicate()
+        if not screenshot_is_ready(screenshot):
+            note = "Chromium exited without producing a complete screenshot"
             stderr = f"{note}\n{stderr}" if stderr else note
-            return subprocess.CompletedProcess(command, 124, stdout, stderr)
+            return subprocess.CompletedProcess(
+                command, process.returncode or 1, stdout, stderr
+            )
         return subprocess.CompletedProcess(command, process.returncode, stdout, stderr)
     finally:
         if process.poll() is None:
@@ -427,12 +429,6 @@ class CjkFontPixelRegressionTests(unittest.TestCase):
                 root / "chrome-profile-embedded-screenshot",
                 screenshot=embedded_png,
             )
-            embedded_dom_run = run_chromium(
-                executable,
-                embedded_html,
-                root / "chrome-profile-embedded-dom",
-                dump_dom=True,
-            )
             self.assertEqual(
                 0,
                 embedded_screenshot_run.returncode,
@@ -443,22 +439,6 @@ class CjkFontPixelRegressionTests(unittest.TestCase):
                 screenshot_is_ready(embedded_png),
                 "Chromium did not write a complete screenshot",
             )
-            self.assertEqual(
-                0,
-                embedded_dom_run.returncode,
-                embedded_dom_run.stderr[-2000:] or embedded_dom_run.stdout[-2000:],
-            )
-            self.assertRegex(
-                embedded_dom_run.stdout,
-                r'data-fonts-ready=["\']true["\']',
-                "Chromium DOM did not report document.fonts.ready",
-            )
-            self.assertRegex(
-                embedded_dom_run.stdout,
-                r'data-fonts-check=["\']true["\']',
-                "Chromium DOM did not report document.fonts.check",
-            )
-
             fallback_run = run_chromium(
                 executable,
                 fallback_html,
