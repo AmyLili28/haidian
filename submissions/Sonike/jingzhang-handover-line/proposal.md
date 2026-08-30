@@ -28,7 +28,7 @@ iteration: "v2.0"
 
 | 评委阅读路径 | 这一段时间内只需回答什么 | 直接证据 |
 | --- | --- | --- |
-| **30 秒** | 这是什么、落在哪里、为什么不是空泛 AI 园区 | 一梳三场总体图＋F/05 P0 预可行性图；现场仍为 0/12 |
+| **30 秒** | 这是什么、落在哪里、为什么不是空泛 AI 园区 | 一梳三场总体图＋F/05 五级 P0 技术图；现场仍为 0/12 |
 | **3 分钟** | 空间、服务与实施是否形成同一条证据链 | 总体结构→三场剖面→十二场景接管→P0 空间/班次/成本→三期条件门 |
 | **15 分钟** | 能否复算、拒收、回滚，并交给专业团队继续深化 | A3 图册＋指标/几何＋八门五阶段合同＋公共服务等价＋风险与权利链 |
 
@@ -223,15 +223,15 @@ iteration: "v2.0"
 
 首个现场原型不是建筑，而是一张**公开交接桌**。这次不再只画它：`visual/index.html#p0-prototype` 在正式评审入口中内嵌了可直接操作的 SCN-05 离线服务原型。评审者可以亲自关闭智能层、拒绝算法与数据、启用大字/高对比、比较智能与无 AI 两条路线、签发投诉/停用/删除回执并打印纸本；两条路线共享同一个 `SCN-05-CORE-001` 核心结果，页面不联网、不留存、不采个人信息 [metric:offline_service_prototype_route_count]。它证明服务义务已经可操作，仍不证明现场路径安全或无障碍达标。
 
-现场套件采用 S 级成本口径。`visual/assets/governance/p0-delivery-contract.json` 把它锁成 **12 项带数量和验收方法的构件清单、8 道进入门和 10 项 RACI 工作包** [metric:p0_component_line_item_count] [metric:p0_entry_gate_count] [metric:p0_raci_work_package_count]。F/05 则把过去藏在合同里的空间、容量、班次、成本敏感性、维护与备选方案一次画清。
+现场套件采用 S 级成本口径。`visual/assets/governance/p0-delivery-contract.json` 把它锁成 **12 项带数量和验收方法的构件清单、8 道进入门和 10 项 RACI 工作包** [metric:p0_component_line_item_count] [metric:p0_entry_gate_count] [metric:p0_raci_work_package_count]。F/05 不再只是包络摘要：它用同一份数据画出 1:100 控制平面、1:50 容量/队列/三席运营叠图、1:20 双面服务接口、24→12→7.2→6 m 由外向内筛查与 36 ㎡原状恢复，并把五级图纸链、12 项构件、成本、排班、维护和四个回退方案放在同一技术图板。每个视图的 drawing ID、source path 与可见检查项登记在 `implementation-handoff-register.json#technical_figure_binding`；图完整不等于现场、产品或专业签认已经完成。
 
 同一合同再预注册 **5 个 90 天节点和 8 项验收判据** [metric:p0_delivery_stage_count] [metric:p0_preregistered_acceptance_criterion_count]。角色引用 `role-spec.json`，但全部保持 `unassigned`；三方报价槽、保险、总预算、持续预算、场地和专业签认在真实证据到位前一律为 `null` 或 `not_started`，没有把表格完整冒充实施已发生。
 
-#### P0 预可行性｜先证明“装得下、跑得动、撤得走”
+#### P0 技术图与预可行性｜先证明“画得清、装得下、跑得动、撤得走”
 
-`visual/assets/governance/p0-pre-feasibility-envelope.json` 给出一套**参赛者概念筛选包络**：7.2 × 7.2 m 控制范围内放置 6.0 × 6.0 m 可撤工作面和 2.4 × 1.2 m 双面有人服务岛；四周最窄保留 1.8 m 连续环线，外圈留 0.6 m 安全缓冲，两侧各有一个 1.8 m 开口，并预留两个直径 1.5 m 的回转位。它不含新雨棚、固定铺装、结构和永久管线；没有既有遮蔽、平整连续表面和安全撤场条件时，转室内备选或不启动 [metric:p0_screening_control_envelope_area_sqm] [metric:p0_reversible_operating_patch_area_sqm]。
+`visual/assets/governance/p0-pre-feasibility-envelope.json` 给出一套**参赛者概念筛选包络**：7.2 × 7.2 m 控制范围内放置 6.0 × 6.0 m 可撤工作面和 2.4 × 1.2 m 双面有人服务岛；四周最窄保留 1.8 m 连续环线，外圈留 0.6 m 安全缓冲，两侧各有一个 1.8 m 开口，并预留两个直径 1.5 m 的回转位。F/05 将这些字段与 8 名公众、3 个同时席位、6 人排队停止线、2 个非消费座位以及 C01—C12 构件直接画在同一控制平面和接口图上。它不含新雨棚、固定铺装、结构和永久管线；没有既有遮蔽、平整连续表面和安全撤场条件时，转室内备选或不启动 [metric:p0_screening_control_envelope_area_sqm] [metric:p0_reversible_operating_patch_area_sqm]。
 
-![P0 预可行性包络：7.2 米控制范围、6 米可撤工作面、8 名公众与 3 个在岗席位、约 12万—29万元参赛者 90 天敏感性区间、四个备选；现场 0/12、报价 0/3、预算与保险为空](assets/figures/metrics-evidence.png)
+![P0 五级技术图板：1:100 控制平面、1:50 运营叠图、1:20 双面接口、24→12→7.2→6 米筛查与 36 平方米恢复、五级图纸链、12 项可拆构件、成本排班和四个备选；现场 0/12、门回执 0/12、报价 0/3，预算、保险与签认为空](assets/figures/metrics-evidence.png)
 
 | 预可行性变量 | 参赛者参考值 | 如何使用，不能如何使用 |
 | --- | ---: | --- |

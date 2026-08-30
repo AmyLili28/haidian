@@ -9,28 +9,28 @@
   "pdfs": [
     {
       "path": "drawings/a0-boards.pdf",
-      "sha256": "65d5bd381740ee66978c8cc79d25d22f81fad7244decbf7579cf9ba07a617d47",
+      "sha256": "43231e71e24a22d96759177c03e5305fd03879b5d3886baa4f8090e0152f22f5",
       "pages": 8,
       "package_v2_hits": 8,
       "legacy_v1_15_hits": 0
     },
     {
       "path": "drawings/a0-boards.en.pdf",
-      "sha256": "f3204c41a9bc1bb9c16e284d7ef3c1a98dba35f43cfee494f07b28a4dd74473c",
+      "sha256": "e5c61dddf0aece8682ac81d9019e3ba950accec6a6e9aec1e1f23d49a42e5c61",
       "pages": 8,
       "package_v2_hits": 8,
       "legacy_v1_15_hits": 0
     },
     {
       "path": "drawings/a3-booklet.pdf",
-      "sha256": "ce52ed6fc7f5e80f6a11f93a8917065cdef175f4a7d468bb0ca9f4adf5630f0b",
+      "sha256": "1f425385b441fbf120649e6a4e0db0e4d6f5ba303a6cca19b479743067d2eee5",
       "pages": 15,
       "package_v2_hits": 15,
       "legacy_v1_15_hits": 0
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
-      "sha256": "5634c9da7dc9bfcf674b275ddd03a052bc4d640e6197e689063fadc6fddfb2f9",
+      "sha256": "ac2da348635418213a08b21eaf30d858011c9e36735cd9ddd824493c2a6b93c4",
       "pages": 15,
       "package_v2_hits": 15,
       "legacy_v1_15_hits": 0
