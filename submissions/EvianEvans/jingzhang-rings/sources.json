@@ -1,0 +1,143 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "official_open_data",
+      "usage": "Official site-package file holding the organisers' provisional geometry; the file itself is official open data, while the geometry inside is provisional (official_boundary=false) and is adopted verbatim into this submission."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "official_open_data",
+      "usage": "Official site-package file holding the organisers' provisional geometry; the file itself is official open data, while the geometry inside is provisional (official_boundary=false) and is adopted verbatim into this submission."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT-EXT",
+      "path": "https://zyk.bjhd.gov.cn/ 及北京市人民政府门户网站相关公告",
+      "source_type": "official_public",
+      "usage": "百年京张 AI 创新带城市设计国际方案征集资格预审公告；三层范围四至与面积。",
+      "usage_zh": "百年京张 AI 创新带城市设计国际方案征集资格预审公告；三层范围四至与面积。"
+    },
+    {
+      "id": "SRC-JINGZHANG-PARK-HD",
+      "path": "https://zyk.bjhd.gov.cn/slh/hdyw/202412/t20241213_4745666.shtml",
+      "source_type": "official_public",
+      "usage": "海淀区政府：京张铁路遗址公园二期开工。全长 9 km（西直门—北五环）、总面积约 70 公顷；一期 2.4 km/16.8 公顷（2023-06 开放）；二期南北延展，2025 年主体建成。",
+      "usage_zh": "海淀区政府：京张铁路遗址公园二期开工。全长 9 km（西直门—北五环）、总面积约 70 公顷；一期 2.4 km/16.8 公顷（2023-06 开放）；二期南北延展，2025 年主体建成。"
+    },
+    {
+      "id": "SRC-JINGZHANG-PARK-BJ",
+      "path": "https://www.beijing.gov.cn/ywdt/gqrd/202409/t20240920_3902264.html",
+      "source_type": "official_public",
+      "usage": "北京市政府：公园服务沿线近 70 个社区、约 45 万人、10 余所高校、40 余家科研机构；拆除护栏围墙、修通 9 条城市支路、46 个出入口、不设围墙无界开放。",
+      "usage_zh": "北京市政府：公园服务沿线近 70 个社区、约 45 万人、10 余所高校、40 余家科研机构；拆除护栏围墙、修通 9 条城市支路、46 个出入口、不设围墙无界开放。"
+    },
+    {
+      "id": "SRC-JINGZHANG-PARK-STREETS",
+      "path": "https://baike.com/wikiid/2347240317568529610",
+      "source_type": "public_reference",
+      "usage": "京张铁路遗址公园途经 7 个街镇：北下关街道、北太平庄街道、学院路街道、中关村街道、清华园街道、花园路街道、东升镇；7 个街镇责任规划师与高校合伙人团队参与设计。",
+      "usage_zh": "京张铁路遗址公园途经 7 个街镇：北下关街道、北太平庄街道、学院路街道、中关村街道、清华园街道、花园路街道、东升镇；7 个街镇责任规划师与高校合伙人团队参与设计。"
+    },
+    {
+      "id": "SRC-XIAOYUEHE-2026",
+      "path": "https://zyk.bjhd.gov.cn/jbdt/auto4508_51796/auto4508_53101/auto4508/auto4508/202601/t20260112_4801412.shtml",
+      "source_type": "official_public",
+      "usage": "海淀区水务局（2026-01）：小月河滨水空间建设工程。治理 6.4 km（祁家豁子闸—清河入口），新建挡墙 10 km，新增绿化 11 万㎡（樱花长廊），新建改建滨水步道 11.4 km；「一河四段七节点」。",
+      "usage_zh": "海淀区水务局（2026-01）：小月河滨水空间建设工程。治理 6.4 km（祁家豁子闸—清河入口），新建挡墙 10 km，新增绿化 11 万㎡（樱花长廊），新建改建滨水步道 11.4 km；「一河四段七节点」。"
+    },
+    {
+      "id": "SRC-XIAOYUEHE-BJD",
+      "path": "https://news.bjd.com.cn/2026/07/29/11891335.shtml",
+      "source_type": "public_media",
+      "usage": "京报网：小月河治理七节点命名为古桥映月、隙中窥月、庭中望月、台上玩月、农科展月、月牙揽月、水中赏月；沿线为北大医学部、中国农业大学、北京林业大学、北京科技大学等「八大学院」；小月河全长约 10.39 km，由小月河古道与西北土城沟组成，距今 700 余年。",
+      "usage_zh": "京报网：小月河治理七节点命名为古桥映月、隙中窥月、庭中望月、台上玩月、农科展月、月牙揽月、水中赏月；沿线为北大医学部、中国农业大学、北京林业大学、北京科技大学等「八大学院」；小月河全长约 10.39 km，由小月河古道与西北土城沟组成，距今 700 余年。"
+    },
+    {
+      "id": "SRC-QINGHE-2026",
+      "path": "https://zyk.bjhd.gov.cn/jbdt/auto4508_51796/auto4508_53101/auto4508/auto4508/202601/t20260112_4801412.shtml",
+      "source_type": "official_public",
+      "usage": "清河（海淀段）滨水空间建设：10.36 km 精细化疏浚，硬质岸坡改自然缓坡入水，芦苇菖蒲等本土水生植被，塑造浅滩湿地，官方目标为「实现鱼虾游弋、水鸟栖息的生物多样性愿景」；10.36 km 滨水慢行系统海淀境内全线贯通。",
+      "usage_zh": "清河（海淀段）滨水空间建设：10.36 km 精细化疏浚，硬质岸坡改自然缓坡入水，芦苇菖蒲等本土水生植被，塑造浅滩湿地，官方目标为「实现鱼虾游弋、水鸟栖息的生物多样性愿景」；10.36 km 滨水慢行系统海淀境内全线贯通。"
+    },
+    {
+      "id": "SRC-YONGYINQU-2026",
+      "path": "https://zyk.bjhd.gov.cn/jbdt/auto4508_51796/auto4508_53101/auto4508/auto4508/202601/t20260112_4801412.shtml",
+      "source_type": "official_public",
+      "usage": "永定河引水渠（海淀段）：修复 3.45 km 破损护坡，生态加固构建 6.77 公顷生态缓冲带，5.9 km 连续步道 + 2.7 km 骑行绿道，10 处下河台阶与亲水平台。",
+      "usage_zh": "永定河引水渠（海淀段）：修复 3.45 km 破损护坡，生态加固构建 6.77 公顷生态缓冲带，5.9 km 连续步道 + 2.7 km 骑行绿道，10 处下河台阶与亲水平台。"
+    },
+    {
+      "id": "SRC-BJ-WWJ-QINGHUAYUAN-STATION",
+      "path": "https://wwj.beijing.gov.cn/bjww/362771/362782/743928533/743928745/index.html",
+      "source_type": "official_public",
+      "usage": "北京市文物局：清华园车站旧址保护范围（东8m/南2m/西2m/北2m）与建设控制地带（I类：南20m/西8m/北17m；V类三块不得新建建构筑物）。市级文保单位（第九批，2023-01-19）。",
+      "usage_zh": "北京市文物局：清华园车站旧址保护范围（东8m/南2m/西2m/北2m）与建设控制地带（I类：南20m/西8m/北17m；V类三块不得新建建构筑物）。市级文保单位（第九批，2023-01-19）。"
+    },
+    {
+      "id": "SRC-QINGHUAYUAN-STATION-HIST",
+      "path": "https://baike.baidu.com/item/清华园车站旧址/56511071",
+      "source_type": "public_reference",
+      "usage": "清华园车站旧址：1910 年（宣统二年）詹天佑设计并督建；成府路与中关村东路交叉口向西 80 米路南；詹天佑手书「清华园车站 CHING HUA YUAN」匾额为三块站牌中仅存者；1949-03-25 中共中央领导进京抵此。",
+      "usage_zh": "清华园车站旧址：1910 年（宣统二年）詹天佑设计并督建；成府路与中关村东路交叉口向西 80 米路南；詹天佑手书「清华园车站 CHING HUA YUAN」匾额为三块站牌中仅存者；1949-03-25 中共中央领导进京抵此。"
+    },
+    {
+      "id": "SRC-DENDRO-REF",
+      "path": "dendrochronology（年轮学）公开文献",
+      "source_type": "public_reference",
+      "usage": "年轮学：每年生长一圈、时序不可逆、不可回溯修改、交叉定年（cross-dating）多序列互校；干旱/火灾/虫灾年形成断轮、霜轮、伪轮。用于论证「年轮是自然界的分布式账本」。",
+      "usage_zh": "年轮学：每年生长一圈、时序不可逆、不可回溯修改、交叉定年（cross-dating）多序列互校；干旱/火灾/虫灾年形成断轮、霜轮、伪轮。用于论证「年轮是自然界的分布式账本」。"
+    },
+    {
+      "id": "SRC-BEIJING-GOV-MECH",
+      "path": "北京市接诉即办、街巷长制、责任规划师制度公开资料",
+      "source_type": "official_public",
+      "usage": "北京原创治理机制：接诉即办（12345）诉求派单—办理—回访—考评闭环；街巷长制；责任规划师制度。用于论证里长制的制度接口。",
+      "usage_zh": "北京原创治理机制：接诉即办（12345）诉求派单—办理—回访—考评闭环；街巷长制；责任规划师制度。用于论证里长制的制度接口。"
+    },
+    {
+      "id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "official_open_data",
+      "usage": "Official provisional site boundary, research area, key scope and three key-area polygons published by the organisers; adopted verbatim into geometry/site_boundary.geojson and geometry/key_areas.geojson."
+    },
+    {
+      "id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Prequalification announcement of 2026-05-09; the basis from which the official provisional boundaries were derived (cited in their derived_from_source_ids)."
+    }
+  ]
+}

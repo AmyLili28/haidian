@@ -1,0 +1,399 @@
+---
+title: "The Jingzhang Rings: One Ring, Two Curves"
+author_github: "EvianEvans"
+language: "en"
+translation_of: "proposal.md"
+proposal_format_version: "2"
+bilingual_contract_version: "1"
+license: "COMMUNITY-DISPLAY-ONLY"
+summary: "Weave the two pieces of linear infrastructure that already exist inside 43.6 km² of real city — the Jing-Zhang railway heritage park (9 km) and the Xiaoyuehe waterfront (6.4 km) — into one annual recording system, THE JINGZHANG RINGS. Each year cuts one ring on each axis; the same ring holds both ecological data and the technology register, so that ecology becomes a recomputable hard constraint on technological expansion."
+tracks: ["civic-agent-governance", "jingzhang-heritage-narrative", "ai-origin-community"]
+scenarios: ["ai-cultural-guide", "ai-traffic-walkability", "robot-delivery-low-speed", "ai-health-service-navigation", "public-safety-operations-review"]
+iteration: "v1.0"
+naming_zh: "京张年轮"
+naming_en: "THE JINGZHANG RINGS"
+tagline_zh: "一圈年轮，两条曲线"
+tagline_en: "One Ring, Two Curves"
+---
+
+# The Jingzhang Rings: One Ring, Two Curves
+
+## Design Basis and Source Inventory
+
+The basis of this proposal falls into three classes, and the line between them has to be drawn clearly.
+
+**The first class is official information that can serve as a task basis**: the three-level scope, bearings and areas given in the prequalification announcement (43.6 km² coordination research area, 11.4 km² overall design area, 368.4 ha of key areas, and three key areas of 192.1 / 104.3 / 72.0 ha); the six tasks and review criteria of the agent taskbook; and the allowed design space, land-use codes and professional standard index in the site package `[source:AGENT-TASKBOOK]` `[source:SITE-PACKAGE]`.
+
+**The second class is public facts retrieved for this submission, and they change how the site is understood**: the Jing-Zhang railway heritage park is **already built** — 9 km long, roughly 70 ha in total, phase one (2.4 km, from Qinghua East Road to the Dachun area on Zhichun Road) opened in June 2023, phase two extended it north and south and was substantially completed in 2025. It has 46 entrances, no perimeter wall, and nine city streets were opened through it. It serves close to 70 communities, about 450,000 residents, more than ten universities and over 40 research institutes. The park passes through **seven subdistricts — Beixiaguan, Beitaipingzhuang, Xueyuanlu, Zhongguancun, Qinghuayuan and Huayuanlu — plus Dongsheng Town** `[source:SRC-JINGZHANG-PARK-BJ]` `[source:SRC-JINGZHANG-PARK-STREETS]`. In other words, the "east-west stitching" the taskbook asks for is not a pending vision; it is **engineering already under construction**. This proposal should not repeat it. It should answer what happens after the stitching is done.
+
+**The third class is water-system work being built at the same time, and it forms this proposal's second axis**: the Xiaoyuehe improvement reach runs 6.4 km from Qijiahuozi gate to the Qinghe confluence, adds 110,000 m² of planting (cherry blossom at its core), builds or rebuilds 11.4 km of waterfront walkway, and is laid out as "one river, four reaches, seven nodes". Along it sit exactly the **Eight Great Colleges — Peking University Health Science Centre, China Agricultural University, Beijing Forestry University, University of Science and Technology Beijing and others** `[source:SRC-XIAOYUEHE-2026]` `[source:SRC-XIAOYUEHE-BJD]`. In parallel, 10.36 km of the Qinghe river in Haidian is being dredged, hard banks are being replaced with natural gentle slopes into the water, and shallow shoal wetlands are being shaped. The official wording of the target is, verbatim, "a biodiversity vision of fish and shrimp swimming and waterbirds roosting" `[source:SRC-QINGHE-2026]`.
+
+**The boundary of the data gaps has to be stated just as plainly.** Floor-area ratio, building height, site coverage, green-space ratio and setback — all five — are **missing** from the site package. Road redlines, parcel ownership, the existing building inventory, utility lines and heritage vectors are likewise all missing `[source:SRC-SITE-PACKAGE-PLANNING-LIMITS]`. This proposal therefore **gives no approved indicator of any kind**. Every quantity touching intensity or scale is recorded as awaiting confirmation, in the text and in the structured files alike. This is not caution for its own sake: inventing these figures would directly breach the boundary of the open call `[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]`.
+
+![Source evidence chain and submission package](assets/figures/site-overview.en.png)
+
+## The Three-Level Scope as a Working Framework
+
+The three levels are not three concentric circles shrinking in turn. They are **three different working precisions**.
+
+The 43.6 km² coordination research area (north to the North 5th Ring Road, east to the Jingzang Expressway, south to Xizhimenwai Street, west to Wanquanhe Road) is used to judge where this belt sits in the capital's innovation landscape. Its method is strategic study of industry and ecology, and it produces no specific geometry. The 11.4 km² overall design area (within 1–2 km of the Jing-Zhang heritage park) is the true object of design here, and must reach urban design at regulatory detailed-plan depth. The 368.4 ha of key areas are three districts that must be carried to comprehensive implementation-plan depth.
+
+Read back from the coordinates, the overall design area is a **corridor roughly 1.33 km wide and 9.74 km long**, which matches the announcement's "within 1–2 km of the Jing-Zhang heritage park". The corridor shape is not a product of design. It is a condition set by the brief.
+
+That produces a fact which has to be answered head on: the three key areas **do not touch** along this corridor. In the announcement's north-to-south order, Zhongzhiyuan, the AI Origin Community and Dazhongsi measure roughly 2.06, 1.11 and 0.65 km north to south, totalling 3.82 km. The corridor is 9.74 km long, so **about 5.92 km is gap**, split into two breaks of roughly 1.56 km and 3.75 km. That is precisely why the taskbook lists north-south continuity as a key direction.
+
+**What is inside the gap?** Campus walls, staff housing compounds, breakfast stalls, parents waiting for children, wet markets and bicycle repair stands — the most real everyday life Haidian has. The three islands were drawn by planning. The gap is where life grew. **This proposal puts its main effort in the gap, not on the three islands.**
+
+This proposal uses the provisional boundaries of the site package. The polygons for the three key areas are **approximate rectangles** inferred from the announcement's north-south order and area constraints; no official bearings were published, so their edges must not be read as parcel or road redlines. All areas and ratios are ratios of conceptual quantities and must be recomputed once official polygons are released `[assumption:A-BOUNDARY-001]`.
+
+The boundaries and areas of the three levels come from the site package's provisional geometry `[data:geometry/site_boundary.geojson#PROV-SITE-001]` and the three key areas `[data:geometry/key_areas.geojson#PROV-KEY-001]`. The recomputed site area is `[metric:site_area_sqm]`; the data gaps are registered item by item in `[gap:GAP-BOUNDARY-001]` and `[gap:GAP-BOUNDARY-002]`.
+
+![Three-level scope and spatial working framework](assets/figures/land-use-structure.en.png)
+
+## Industry and Future-City Study at the Coordination Research Scale
+
+### The Umbrella Name and the Naming System
+
+**Primary name: THE JINGZHANG RINGS (京张年轮). Subtitle: One Ring, Two Curves (一圈年轮，两条曲线).**
+
+"Rings" carries three meanings, and each is literal rather than rhetorical. The first is **time**: the Jing-Zhang railway was completed in 1909, which makes 117 years to 2026, and 117 rings. The second is **ecology**: tree rings are a tree's physical record of each year's climate, hydrology and disaster, and dendrochronology reconstructs environmental history precisely by reading them. The third is **technology**: annual rings already have every key property of a distributed ledger — one data unit written per year, irreversible ordering, rings once formed cannot be retroactively altered, distributed cross-checking through cross-dating across many samples, and anyone can read it by taking a core. **This is not a blockchain metaphor draped over a tree. It is the reverse: the tree did it first, and the ledger did it later.**
+
+The naming system unfolds systematically as the taskbook requires, rather than stopping at one name:
+
+| Level | Chinese | English | Note |
+|---|---|---|---|
+| Umbrella name | 京张年轮 | THE JINGZHANG RINGS | primary name |
+| Year unit | 轮 | Ring | 117 rings, 1909—2026; **ring 118 left blank** |
+| Spatial unit | 里 | Li | about 510 m each, 19 li along the line, close to the traditional li of 500 m |
+| Sub-unit | 步 | Bu | about 100 m, five bu per li |
+| Concentrated anchor | 年轮厅 | Ring Hall | three, at the meeting points of the two axes and the three areas |
+| Ground fixtures | 轮碑 / 里桩 / 步桩 | Ring Stone / Li Post / Bu Post | weathering steel; li post 1.1 m, bu post 0.45 m |
+| Accountability unit | 里长 | Li Keeper | **dual signature** of the responsible planner and the street chief |
+| Unit of account | 里·时 | Li-Hour | actual hours a scenario is in use |
+| State | 在轮 / 成轮 / 断轮 / 空轮 | Growing / Formed / Broken / Blank | four states |
+| Warning | 警报轮 | Alarm Ring | a year when technology density rises while ecological indicators fall |
+
+**Visual identity and logo direction.** The primary mark is a **set of concentric rings**: an outer band of 117 fine concentric incisions, one for each year since 1909, with a **gap left unclosed** on the outermost line — ring 118. Colour takes ginkgo autumn gold (the 6 km ginkgo avenue of the Jing-Zhang axis) and cherry blossom pink-white (the 110,000 m² of cherry along the Xiaoyuehe axis), one for each axis. The logo uses no corporate mark, no portrait and no unclear-licence typeface; it is entirely original geometric construction that can be cleared.
+
+### Where the Three Positions, Five Functions and Three-Areas-Two-Wings Land
+
+Of the three positions, "centennial Jing-Zhang cultural belt" lands on the Jing-Zhang axis, "AI integration and innovation belt" lands on the three ring halls, and **"urban AI living experience belt" lands on the campus belt between the two axes and the 70 communities along the line** — this proposal argues that the living-experience belt is not on any landmark. It is in the everyday.
+
+Of the five functions, "full-stack indigenous AI innovation system" maps to Zhongzhiyuan; "world-class AI innovation ecosystem" maps to the origin community and the Zhongguancun technology-services wing; "AI+ scenario empowerment paradigm" maps to the apply-for li/bu scenario slots; "intelligent and vibrant AI city" maps to the Xiaoyuehe axis and the street-level reality of the gap; and **"global voice in AI governance" maps to the li-keeper system and the tamper-evident ring record**.
+
+The three areas and two wings differentiate according to the form types given officially: Zhongzhiyuan is **garden type**, the origin community is **campus-adjacent type**, Dazhongsi is **urban type**. These three words are not this proposal's invention; they are the announcement's own wording, and this proposal differentiates the three ring halls accordingly `[source:AGENT-TASKBOOK]`.
+
+### Five to Eight Global Cases and What Transfers
+
+| Case | Transferable mechanism | Where it lands on the Jing-Zhang rings |
+|---|---|---|
+| Paris Petite Ceinture | After a disused ring railway became linear public space, reversible use was the principle preserving reuse options | The four-state ring cycle: any AI service is by default pausable, removable and handable back to a person |
+| New York High Line | A leftover elevated structure became elevated green space | Direct parallel: the elevated structure left over from the Line 13 capacity upgrade **is already planned as high-line green space**; the Jing-Zhang axis can follow its operating rhythm |
+| Kalundborg industrial symbiosis | A neutral coordinator maps "resource flows"; participants join and leave as needed | The ring halls map the resource flows of data, compute, talent and scenarios, and every flow is reversible |
+| Toronto Quayside | A cautionary case: where data governance does not benefit residents, a project loses its social licence | **Data never leaves the campus** plus the li-keeper system, turning compliance from a defensive item into an exhibit |
+| Seoul Cheonggyecheon | Once the covered river was reopened to the sky, ecology and public life recovered together | The path the Xiaoyuehe has already taken from "the city's northern ditch" to a cherry avenue; this proposal only adds a recording layer |
+| Singapore ABC Waters | Turning drainage channels into "active, beautiful, clean" public assets | The Qinghe approach of "natural gentle slopes and shallow shoal wetlands" is settled practice; this proposal adds annual ecological measurement |
+| London's reversible procurement in smart city practice | Exit clauses built into technology contracts to avoid lock-in | The expiry and renewal mechanism of the li-hour |
+| Kyoto cityscape ordinance | Regulating phenology and seasonal aspect, not only form | The rings bring ginkgo and cherry phenology into the annual record |
+
+### Where the Six Tasks Are Answered
+
+Naming and logo are given in this section; the ecological cases are in the table above; scenario cards, validation scenarios and user profiles are in "AI Innovation Ecosystem, Talent Profiles and AI+ Scenarios"; the pilgrimage landmarks are in "Blue-Green Space, Public Space and Urban Character"; cultural narrative closes this section; long-term operation is in "Renewal Project List, Implementation Policy and Phasing".
+
+### Cultural Narrative: Not "the Railway's Metaphor" but "the Railway's Chronology"
+
+Earlier proposals have already used the engineering imagery of the Jing-Zhang railway thoroughly — the switchback, the closure error of levelling, the reversible corridor. This proposal takes an angle that has been touched less: **the Jing-Zhang railway's real legacy to urban governance is not an engineering form. It is a way of keeping time.**
+
+The railway marks mileage as `K12+500`, turning a line nobody can see whole into a system that can be located, divided, maintained and held accountable. Zhan Tianyou sank a vertical shaft at Badaling in order to **make the invisible underground buildable**. We set up rings in the city today in order to **make the invisible algorithm nameable**. The two are the same act: making what cannot be seen locatable and accountable.
+
+And a ring goes one step further than a mileage post: a mileage post marks space, a ring marks **time**. A 9.7 km corridor grows one ring a year. What it records is not only "what is here" but "what happened here, each year".
+
+## Urban Regeneration and Regulatory-Depth Urban Design in the Overall Design Area
+
+### Spatial Structure: Not One Line, but Two Axes Enclosing a City
+
+**The core spatial judgement of this proposal is that this belt is not a line. It is two pieces of existing linear infrastructure enclosing a campus belt.**
+
+The Jing-Zhang railway heritage park sits on the west (9 km, built, carrying railway heritage and culture) and the Xiaoyuehe waterfront on the east (6.4 km improvement reach, under construction in 2026, carrying water and ecology). **Between them sit the Eight Great Colleges, Zhongguancun and the 70 communities along the line.** This pattern of "one rail and one river enclosing one city" is not a structure this proposal invented. It is the result of overlaying two linear projects that already exist or are already being built, on top of the urban content that is really there between them.
+
+The spatial structure is therefore stated as: **two axes + nineteen li + three halls**. The two axes are the skeleton, the 19 li are the scale, and the three ring halls are the concentrated anchors where the axes meet the three areas.
+
+### Land in Three Classes: Testable / Restricted / Everyday-Life Retention
+
+Conventional industrial-belt planning asks "what share of land is industrial". With all five regulatory-plan indicators missing and Beijing in a phase of reduction-oriented development, that question does not hold. This proposal asks it a different way:
+
+- **Testable land** (apply-for scenario slots): the public activity belts of the two axes, the areas around the 19 li posts and 76 bu posts, and the surroundings of the three ring halls. These are the places this proposal considers **open to time-limited trials of AI services**.
+- **Restricted land**: heritage protection and control zones, railway engineering safety limits, river blue lines, and the ownership areas of universities and research institutes. These places are **not open**, and are marked no-entry on both drawings and layers.
+- **Everyday-life retention land**: the everyday spaces of the 70 communities along the line — breakfast stalls, wet markets, bicycle repair stands, pick-up waiting areas, stools under the trees. These places get **no "improvement" works**. Only their continuity, safety and freedom from being moved on are guaranteed.
+
+The value of this three-way split is that it turns "where may AI go" from ex-post approval into an ex-ante map.
+
+### Transport: Grading Roads for Testing, Not Densifying the Network
+
+With road redlines and cross-section data missing (GAP-ROAD-001), arguing for network densification would be irresponsible. This proposal does only the one thing the data allows: **grading existing roads by whether AI testing is permitted**.
+
+- **Open grade**: the walkways and running tracks of the two axes, open to low-speed delivery robots, guide and elderly-assistance robots, and AI guiding
+- **Restricted grade**: the nine east-west stitching streets, open only during pilot windows on non-motorised lanes
+- **Closed grade**: sections involving heritage control zones, railway safety limits and school-gate pick-up windows
+
+All gradings are conceptual suggestions; alignments do not represent road redlines and must be verified once official redlines and transport-specific data are supplied `[assumption:A-CONTROLS-001]`. Road centrelines are stored as an editable layer as required `[data:geometry/roads.geojson#GRN-RAIL]`, and the grading status is recorded in the depth item corresponding to `[depth:traffic_slow_traffic]`.
+
+![Mobility, slow traffic and the blue-green public space system](assets/figures/mobility-bluegreen.en.png)
+
+## Detailed Design of the Key Areas
+
+### A1 Zhongzhiyuan · Garden Ring (garden type)
+
+Its positioning corresponds to "full-stack indigenous AI innovation system" and "global voice in AI governance"; its form type is garden.
+
+**The northern meeting point of the two axes.** The shallow shoal wetland buffer at the Qinghe confluence lies just north of this area — the Haidian reach of the Qinghe is replacing hard banks with natural gentle slopes into the water and shaping shallow shoal wetlands with reeds and calamus, with the official goal of "fish and shrimp swimming, waterbirds roosting" `[source:SRC-QINGHE-2026]`. This proposal places **the first ring hall (Garden Ring) on the southern edge of that gentle-slope reach**, making it the origin of the "ecological ring": the ecological half of that ring's data starts being collected from this river.
+
+In spatial terms the Garden Ring uses a low-intensity courtyard layout, mainly single- to two-storey small courtyard volumes around a retained grove. No towers, no landmark spire — neither the garden designation nor reduction-oriented development supports them. AI scenarios centre on **environmental sensing**: water-quality probes, bird acoustics monitoring, vegetation phenology recording. **Concretely, this hall is responsible for proving out the collection method of the ecological ring so the whole line can copy it.**
+
+Building renewal is mainly retention and stitching. Retain, renovate or demolish must be determined separately once ownership and existing-building data are supplied; this proposal draws no conclusion. The main implementation risk is ownership: the north of this area touches the Qinghe river management zone and some institutional land, and the boundary conditions must be settled first.
+
+### A2 Beijing AI Origin Community · Campus-Adjacent Ring (campus-adjacent type)
+
+Its positioning corresponds to "world-class AI innovation ecosystem"; its form type is **campus-adjacent**.
+
+**This is the main effort of this proposal.** There are two reasons. First, the official framing defines this area as "campus-adjacent, talent-attracting, research-commercialisation", and the Eight Great Colleges are indeed distributed along the Xiaoyuehe — Peking University Health Science Centre, China Agricultural University, Beijing Forestry University, University of Science and Technology Beijing and others `[source:SRC-XIAOYUEHE-BJD]`. Second, this area sits right next to the **Qinghuayuan railway station site** (about 80 m west of the Chengfu Road / Zhongguancun East Road crossing, on the south side; designed and supervised by Zhan Tianyou in 1910; a Beijing municipal heritage protection unit in the ninth batch).
+
+**The heritage constraint has to be handled head on.** For that site, the protection zone extends 8 m east, 2 m south, 2 m west and 2 m north; the Class I construction control zone extends 20 m south, 8 m west and 17 m north; within the three Class V zones **no new buildings or structures may be built**, or no structures unrelated to heritage protection and display use, and archaeological survey should be strengthened before construction `[source:SRC-BJ-WWJ-QINGHUAYUAN-STATION]`. Every new element in this proposal sits **outside** that envelope. The Li 2 station does **interface and wayfinding only — no change to the fabric, and nothing entering the control zone**. The precise vector of that envelope has not been obtained and must be rechecked against the heritage authority's vector before formal design `[assumption:A-HERITAGE-001]`.
+
+**What does the Campus-Adjacent Ring do?** Three things, all low-cost moves on existing stock:
+
+1. **Campus walls as interface**: the walls are not demolished. A commercialisation display interface is set on their outside — presenting research results from inside the campus to the street on replaceable panels. This answers the core demand of "campus-adjacent" without touching ownership.
+2. **An open window at the institutional canteen**: canteens of the institutes and universities along the line open one window to the public between 11:30 and 13:00. This is the **highest value-for-money move in this proposal** — no new construction, no investment, using existing stock, and it solves the most real livelihood need: young workers nearby with no canteen, programmers tired of delivery food, elderly people living alone.
+3. **A living lab**: the li and bu in this area give priority to scenarios directly tied to everyday life (elderly assistance, childcare pick-up, community health consultation), and use **A/B controls**: one half of the same street trials, the other half does not, so the effect is judged on recomputable data rather than subjective assessment.
+
+### A3 Dazhongsi · Urban Ring (urban type)
+
+Its positioning corresponds to "intelligent-native new business formats"; its form type is urban, carrying the role of "greater global influence and urban vitality".
+
+**The southern meeting point of the two axes, next to the Beijing North railway station gateway.** The third ring hall (Urban Ring) sits around Dazhongsi station. Its form is a high-density urban interface, and its function is **the overview of everything in trial along the line and an international communication window**: a physical gallery showing in real time the state of each of the 19 li — growing, formed, broken or blank.
+
+This hall also carries the interface with the official "engraved name" system: the ring wall of honour records successive li keepers and contributors. **But unlike the official memorialisation of creators, this proposal also records the accountable** — next to every AI service in trial is written the name of the person who signed for it.
+
+The risk is this: the urban designation sits in tension with high-intensity development, and the regulatory-plan indicators are missing. This proposal's handling is to **explicitly give no development intensity conclusion**, offering only functional and interface concepts, with scale awaiting determination.
+
+![Index and design tasks for the three key areas](assets/figures/key-areas.en.png)
+
+## AI Innovation Ecosystem, Talent Profiles and AI+ Scenarios
+
+### The Ecosystem Chain: From Basic Research to Scenario Validation
+
+This proposal lists no companies, writes no output value and makes no investment-attraction promises — the taskbook explicitly forbids them `[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]`. What it does is **state the spatial interfaces of the chain clearly**: basic research in the Eight Great Colleges and 40-plus research institutes (between the two axes); pilot and commercialisation at the campus-wall interface of the Campus-Adjacent Ring; scenario validation at the 95 addressable li/bu positions — 19 li x 5 bu, with cards filed as "Li X, Bu Y"; a separate figure of 47 counts the phase-one physical facilities to be built (19 li courtyards, 17 interchanges, 11 waterfront stations), and the two quantities must not be derived from one another; productisation at the Urban Ring; capital and certification services in the Zhongguancun technology-services wing. Every link in this chain has a physical location.
+
+### Five or More User Profiles
+
+| Profile | Main hours and behaviour | Relation to the rings | Privacy and human-review boundary |
+|---|---|---|---|
+| **Institute researchers** | Weekday daytime, moving between lab and canteen | Applicants for commercialisation; suppliers of content for the wall interface | Displayed results must be cleared by the owning unit and must not involve classified work |
+| **AI startup teams (micro)** | All hours, renting shared space, urgently needing real test environments | Main applicants for li/bu scenario slots | Trial data may be published only after de-identification; anything involving faces is never collected |
+| **Students and early-career academics** | Morning and evening commutes, night-time activity | Main experiencers and feedback givers of the scenarios | Feedback is filed "by li number" and is not bound to a personal identity |
+| **Long-term residents, including those living alone** | 06:00—08:30 breakfast, 19:00—21:00 evening walk | Main users of everyday-life retention land; main holders of the veto | No biometric collection; elderly-assistance services keep a human fallback |
+| **Delivery and courier riders** | 12:00—13:00 gathering | Users of the rider rest points; actual operators of low-speed delivery | Trajectory data never leaves the campus and is never used for labour assessment |
+| **Parents picking up children** | 07:30—08:30, 15:30—16:30 | Main users of the school-gate waiting areas | No collection device of any kind within 200 m of a school gate |
+
+### Ten or More Scenario Cards
+
+The cards below are located by li-bu numbering, and each states its data boundary and human-review route. All scenarios are **conceptual suggestions**, with a default term of 12 months, renewable and withdrawable.
+
+**S-01 | Li 3, Bu 2 · The breakfast stall under the campus wall** (06:00—08:30)
+Not making the breakfast stall smart, but **giving it a legal, fixed place where it will not be moved on**: six fixed pitches, with water, power and storage. AI does one thing only — footfall counting for flexible stall hours, with data cleared the same day and no personal records. Human review: the stall-holders' self-governance group, monthly.
+
+**S-02 | Li 5, Bu 4 · The school-gate pick-up zone** (07:30—08:30, 15:30—16:30)
+Flexible traffic organisation at peak, with shade and shelter in the waiting area. **No imaging device of any kind within 200 m of a school gate.** That is a hard boundary, not an option. Human review: parent volunteers together with the li keeper.
+
+**S-03 | Li 7, Bu 1 · The open canteen window** (11:30—13:00) ★
+Existing public service opens one window to society. AI does only leftover-capacity forecasting and queue prompts; no personal data at all. Human review: the canteen management. This is the lowest-cost, widest-benefit move in this proposal.
+
+**S-04 | Li 7, Bu 3 · The campus wall as transfer interface** (all day)
+Replaceable panels on the outside of campus walls show publishable research results. **Content must be cleared by the owning unit; nothing classified, nothing unpublished.** Human review: dual signature by the institute research office and the li keeper.
+
+**S-05 | Li 10, Bu 3 · Rider rest point** (12:00—13:00 peak)
+Rest, charging, water and toilets. **Rider trajectory data never leaves the campus and is never used for labour assessment** — written into the operating rules so an efficiency tool does not become a surveillance tool. Human review: the rest-point attendant.
+
+**S-06 | Li 13, Bu 2 · Symbiotic registration of informal stalls** (weekends)
+Bicycle repair stands, key cutters, tailors — **not cleared away, only registered**. The rings record their location and years of survival. This is exactly what the "data immune tolerance layer" means: distinguishing harmful from harmless irregularity, and giving the latter immune memory rather than removal.
+
+**S-07 | Li 16, Bu 5 · The stools under the trees** (all day)
+**This scenario introduces no AI function at all.** It is kept because no alternative has yet proved better. A city must keep places that are not optimised — this is not conservatism, it is self-awareness about the limits of "optimisation" itself.
+
+**S-08 | Li 18, Bu 1 · Evening walk lighting** (19:00—21:00)
+Continuous lighting and bench density along both axes, with brightness adjusting to pedestrian density. **Infrared/thermal counting only — no faces, no phone MAC addresses.** Human review: weekly inspection by the li keeper.
+
+**S-09 | Whole line · Low-speed delivery robots** (pilot windows)
+Low-speed delivery and elderly-assistance robots on open-grade roads. Speed, time and route limits, with an accompanying safety officer. Human review: the officer can take over at any moment.
+
+**S-10 | Whole line · Acoustic monitoring of birds and water** (all day) ★
+Acoustic sensors and water probes along both axes; acoustic fingerprints identify bird species and standard indicators monitor water quality. **This is the data source of the ecological ring**, and the fundamental difference between this proposal and a pure technology scheme: it measures nature at the same time.
+
+**S-11 | Li 19 · Blank ring reserved** (long term)
+The position of ring 118 is reserved as a blank ring stone, engraved `to be filled` and the year. **This place is kept for the future, and for mistakes.**
+
+**S-12 | Three ring halls · Ring overview** (all day)
+A physical gallery shows, in real time, the four-state distribution across all 19 li and the year's two curves side by side.
+
+### Three or More Validation Scenarios
+
+**V-1 | A/B control for low-speed delivery robots**
+Between Li 13 and Li 15, choose two comparable stretches: one open to robot delivery, one not. Record for 12 consecutive weeks the passage efficiency, conflict count and resident complaints. **Setting up a control is this proposal's methodological bottom line** — a trial without a control cannot judge effect, it can only produce stories.
+
+**V-2 | Data-chain validation of the ecological ring**
+Before ring 118 (the first complete year), use existing monitoring data from the Qinghe Haidian reach and the Xiaoyuehe improvement works to run a retrospective check on whether the ring indicators can reproduce existing conclusions. **Something recomputable is an indicator; otherwise it is only a metaphor.**
+
+**V-3 | Closed-loop validation of "report by li number"**
+Pilot three li and measure the response time and closure rate from a resident reporting a li number to the problem being handled, against the existing average of the 12345 hotline system.
+
+### Hard Boundaries for Privacy and Human Review
+
+Four categories of scenario are **prohibited outright**: those involving facial or biometric recognition; those with no human-review path; those using non-public or private data; and those that describe a test scenario as approved operation. Every scenario card names the responsible party and the human-review route, and **a scenario with no human-review path is not registered**.
+
+## Land Use, Building Scale, and the Retain / Renovate / Demolish Approach
+
+The position of this section is explicit and non-negotiable: **all five regulatory-plan indicators are missing, the existing building inventory is missing, and parcel ownership is missing. This section therefore gives no floor-area ratio, no building height, no site coverage and no retain/renovate/demolish conclusion.**
+
+The building volumes that appear in the proposal total 37, all of them **conceptual**: three ring halls, 19 li courtyard service kiosks, 11 waterfront stations and four community service centres, with a combined footprint of about 15,900 m², explicitly marked as non-approved scale from which no floor-area ratio may be derived.
+
+Under the three-way land split (testable / restricted / everyday-life retention), the principle for retain, renovate and demolish is: **retention is the default, renovation must be argued, and demolition must be determined separately.** The everyday spaces of the 70 communities along the line — breakfast stalls, wet markets, bicycle repair stands, stools — all fall into "everyday-life retention" and receive no improvement works. This is not preservationism. It is an acknowledgement that the inefficiency, non-standardness and unpredictability of these spaces is precisely their value.
+
+This proposal states plainly: **if evidence later shows some alternative really is better, this proposal does not object to being replaced. It is not replaced now only because that has not been proved.**
+
+This position matches the site package's allowed declarations: floor-area ratio, building height, site coverage and setbacks are all missing in `[gap:GAP-CONTROL-001]`; existing parcel ownership is in `[gap:GAP-PARCEL-001]` and the existing building inventory in `[gap:GAP-BUILDING-001]`. The only building volumes in this proposal are the conceptual footprints of the three ring halls and one service complex `[data:geometry/buildings.geojson#BLD-HALL-01]`, corresponding to `[metric:building_footprint_area_sqm]`, explicitly marked as non-approved scale.
+
+## Transport, Rail, Utilities and Public Services
+
+Transport has been covered above through the testing road grading. On rail, after the Line 13 capacity upgrade some sections go underground and **the leftover elevated structure will become high-line green space** `[source:SRC-JINGZHANG-PARK-HD]` — this is settled planning, and this proposal folds it into a continuous "three lines and one green" system together with the Jing-Zhang green axis and the Xiaoyuehe water axis, connecting bicycle parking at nodes such as Dazhongsi and Zhichunlu stations.
+
+On utilities, pipeline, fire-access, flood-drainage and sponge-city conditions are all missing (GAP-MUNICIPAL-001). This proposal draws no engineering conclusion on pipeline relocation or fire access, and offers only two systemic suggestions: first, all ground fixtures use **shallow foundations** (piles no deeper than 0.6 m) to avoid pipelines; second, waterfront facilities are **raised or surface-mounted** so they do not reduce the flood conveyance section.
+
+Public service facility inventories are missing (GAP-SERVICE-001), so no facility capacity is listed. Only one low-cost, high-return suggestion is made: **canteens opening one window to the public** between 11:30 and 13:00 adds dozens of public dining places along the line without adding a single square metre of floor area.
+
+## Blue-Green Space, Public Space and Urban Character
+
+### Three AI Pilgrimage Landmarks
+
+**Landmark one: ring 118 (the blank ring)**
+At the southern start of the Jing-Zhang axis. The material matches the ring stones along the whole line (weathering steel, 1.1 m high), but the face carries only `Ring 118`, the year, and a blank area awaiting filling. **It is kept for the future, and for mistakes.** At each annual review, if there has been no withdrawal event, that year is engraved together with "no withdrawal" — keeping the installation present so it does not decay into abandoned furniture.
+
+**Landmark two: the broken-ring stone**
+Mid-way along the Jing-Zhang heritage park. **It commemorates AI services taken offline by resident vote.** The proposed inscription: service number, li number, start and end month in ring, and month of withdrawal.
+
+A broken ring is not a failure. In dendrochronology, years of drought, fire and insect attack produce **missing rings, frost rings and false rings**, and these "anomalous rings" are the most valuable archives in environmental history — they record the stress this place has been through. This proposal turns that natural phenomenon into an institution: **a rejected technology is not erased, it becomes a broken ring. A broken ring is not failure; it is the judgement this city made that year.**
+
+Engraving rules: **dual signature by the li keepers** (responsible planner and street chief) is required, the entry is registered in a public ledger, and engraving is done by a designated fabricator. A section chief has no individual engraving authority. Every engraving enters the changelog in full and any resident may look it up. Three are installed along the line; no more.
+
+**Landmark three: the ring wall of honour**
+At the Urban Ring (Dazhongsi). It records successive li keepers and contributors. **Its relation to the official "GitHub ID engraving" is complementary, not a substitute**: the official scheme commemorates creators, while this proposal also records **the accountable** — next to every AI service in trial is written the name of the person who signed for it. The core claim is one sentence: **a memorial of an AI city should not only commemorate AI. It should commemorate the people accountable for AI.**
+
+### The Blue-Green System and Urban Character
+
+The 6 km ginkgo avenue of the Jing-Zhang axis and the 110,000 m² cherry avenue of the Xiaoyuehe axis are existing or settled planting structures. This proposal does not change them; it only overlays annual phenological recording — **the phenology of ginkgo and cherry (leaf-out, flowering, leaf-fall) is itself the most legible pair of data series on the ecological side of the rings**, and can be collected without building anything.
+
+On character control this proposal offers only one principle: **no landmark towers, no futuristic forms.** The form types of the three key areas are already given officially (garden / campus-adjacent / urban); this proposal differentiates accordingly and does not chase visual impact. The reason: what this belt is genuinely short of is not image. It is continuity.
+
+The green space and public space layers are `[data:geometry/green_space.geojson#G-RAIL]` and `[data:geometry/public_space.geojson#PROM-RAIL]`, with the corresponding core metrics `[metric:green_ratio]` and `[metric:public_space_ratio]`. The locations and engraving rules of the three landmarks are registered in the `[depth:landmark_design]` item.
+
+## Renewal Project List, Implementation Policy and Phasing
+
+### Three Phases over Ten Years
+
+**Phase one (years 1—3) · the central campus-adjacent demonstration reach**: do the low-controversy, low-cost, high-frequency parts first — laying li and bu posts, the open canteen window, legalising the breakfast stalls, rider rest points, and the A/B control trial. This reach sits around A2 Campus-Adjacent Ring and is the part of the gap with the highest density of everyday life.
+
+**Phase two (years 4—7) · extending north and south and joining the two axes**: spread to both ends, complete the continuous system of 19 li and the three ring halls.
+
+**Phase three (years 8—10) · the reaches needing an ownership breakthrough**: sections involving university and research-institute ownership must wait until ownership and boundary conditions are settled. **This proposal openly acknowledges that this part may not be deliverable.**
+
+### The Annual Activity System and Long-Term Operation
+
+The operating mechanism is the four-state ring cycle itself; there is no need to build a separate one.
+
+- **One annual review each year (September suggested, to match the official deepening milestone)**: growing services apply for renewal, formed services move into routine operation, broken services are engraved on the broken-ring stone, and blank rings reopen for application.
+- **One ring each year**: the ecological side records water quality, bird species count, vegetation cover and phenology; the technology side records the number of services in trial and the number withdrawn. **The two curves are published on the same chart.**
+- **One li keeper per li**: dual-signed by the responsible planner and the street chief, connecting to Beijing's existing 12345 complaint-handling system — a resident's report moves from "describing an incident" to "giving a li number", which is locatable and assessable.
+- **The li-hour as the unit of account**: the actual hours a scenario is in use, serving both as an assessment unit and as a basis for service settlement and entry thresholds.
+
+### The Boundary on Investment Attraction and Commercialisation
+
+All events, investment attraction, funding, policy and operating arrangements are **written as conceptual suggestions or directions for further work**, and must not be presented as settled government arrangements. Connecting the li-keeper system to the 12345 system, the street-chief system and the responsible-planner system is a **mechanism suggestion requiring confirmation by the relevant authorities before implementation**. This proposal claims no endorsement from any department `[assumption:A-GOVERNANCE-001]`.
+
+The spatial extent of the three phases is registered in the phasing layer `[data:geometry/phasing.geojson#PH-01]`. The rules for the annual review and ring-cycle transition correspond to the design-depth item `[depth:operation_mechanism]`, and their measurability is supported by `[metric:ring_count]`, `[metric:scenario_posts_total]` and `[metric:alarm_ring_threshold]`.
+
+## Indicator System, Area Recomputation and Compliance Matrices
+
+### Core Indicators
+
+| Indicator | Value | Status | Meaning |
+|---|---|---|---|
+| `site_area_sqm` | 11,412,825 | known | Adopted directly from the official provisional boundary in the site package; recomputed in EPSG:4548 and consistent with the announced ~11.4 km² |
+| `green_ratio` | 0.2158 | known | Conceptual design quantity over conceptual site area; **the announcement gives no green-space ratio, so this must not be treated as a statutory value** |
+| `public_space_ratio` | 0.1054 | known | Conceptual design quantity over conceptual site area |
+| `floor_area_ratio` | — | **unknown** | The regulatory plan and the existing building inventory are missing, so it cannot be recomputed |
+| `building_footprint_area_sqm` | 15,855 | known (low confidence) | Only the 37 new conceptual volumes (three halls + 19 li kiosks + 11 waterfront stations + 4 community centres); not a district total |
+| `ring_count` | 117 | known | 1909—2026 |
+| `li_count` / `li_length_m` | 19 / 496.8 | known | The traditional measure applied to the 9.44 km slow-traffic spine |
+| `scenario_positions_total` | 95 | known | Addressable scenario positions: 19 li x 5 bu; cards are filed as "Li X, Bu Y" |
+| `scenario_posts_total` | 47 | known | Physical facilities in phase one: 19 li courtyards + 17 interchanges + 11 waterfront stations |
+| `alarm_ring_threshold` | rule-based | known | Technology density rises & ecological index falls → alarm ring |
+
+The meaning of each item is explained in the text, not only left in JSON. The three core area metrics are recomputed layer by layer from the submitted GeoJSON in EPSG:4548 `[metric:site_area_sqm]` `[metric:green_ratio]` `[metric:public_space_ratio]`, on the following basis:
+
+- The site boundary uses the official provisional boundary `[data:geometry/site_boundary.geojson#PROV-SITE-001]`;
+- Green space is taken from `[data:geometry/green_space.geojson#G-RAIL]` and public space from `[data:geometry/public_space.geojson#PROM-RAIL]`;
+- New building volume `[metric:building_footprint_area_sqm]` counts only the 37 conceptual volumes this proposal puts forward;
+- The counting metrics `[metric:ring_count]` and `[metric:scenario_posts_total]` come directly from layer feature counts, and the hard constraint is in `[metric:alarm_ring_threshold]`;
+- Addressable positions `[metric:scenario_positions_total]` are 19 li x 5 bu = 95, while phase-one physical facilities `[metric:scenario_posts_total]` number 47. **The two are different quantities and neither can be derived from the other.**
+
+`green_ratio` is about 22 percent, from the overlay of one park corridor, one waterfront corridor, the open grounds of the Eight Great Colleges and the Qinghe riparian ecological belt. `public_space_ratio` is about 10 percent, from the two slow-traffic spines, the east-west stitching greenways and the 19 li courtyard squares.
+
+**These two figures are design quantities, not statutory indicators** — the announcement gives no green-space ratio control value, and any reading that treats them as a compliance conclusion is a misreading.
+
+### Coverage of the Three Matrices
+
+`compliance_matrix.json` covers announcement clauses 1.3, 1.4 and 1.5 and taskbook items agent.1—agent.6. `standard_matrix.json` responds to the professional standards listed in the site package (regulatory detailed planning, urban design measures, architectural design depth, accessible environments, intelligent technology for older people, interim measures for generative AI, national land-use classification and others). `design_depth_matrix.json` states the depth status of each deliverable item by item, and anything that cannot be met because of data gaps is **honestly marked as pending, never disguised as complete** `[assumption:A-CONTROLS-001]`. The official basis for the five regulatory indicators being missing is in `[source:SRC-SITE-PACKAGE-PLANNING-LIMITS]`, and the review criteria and prohibited claims are in `[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]`.
+
+![Core indicator recomputation and evidence chain](assets/figures/metrics-evidence.en.png)
+
+## Risk, Copyright and Compliance
+
+### What This Proposal Gives Up
+
+**A proposal that solves every problem proves that its author has never actually done this work.** This proposal therefore states its give-up list explicitly — it is both a declaration of honesty and the hardest evidence of deliverability.
+
+1. **It gives up full-line continuity.** Reaches inside confidential institutes, military land and some university redlines are not connected. The breaks are acknowledged and handled by "detour plus interface treatment". Full-line continuity is a slogan, not a proposal.
+
+2. **It gives up full automation.** Manual jobs are explicitly retained: breakfast stall holders, bicycle repairers, gatekeepers, cleaners, rest-point attendants. **AI does not replace them, and this proposal explicitly commits to not counting their jobs within any "efficiency optimisation target".**
+
+3. **It gives up real-time city-wide sensing.** Sensors are placed only in non-closed areas, and **data never leaves the campus** — data from institutes and communities stays on local servers. City-wide sensing is neither realistic nor desirable.
+
+4. **It gives up regulatory-plan conclusions.** Floor-area ratio, building height, coverage, green-space ratio, setbacks, retain/renovate/demolish, road alignments and investment estimates are all written as conceptual suggestions only, and whatever is missing is stated as missing.
+
+5. **It gives up building everything at once.** Three phases over ten years, with only what is achievable in the first three. For the phase involving an ownership breakthrough, **this proposal acknowledges it may not be deliverable**.
+
+6. **It gives up the phrase "optimising street life" itself.** In its place: **trial first, withdrawable, residents decide.** AI may enter street life, but with a term (12 months), an exit (reports by li number reaching a threshold trigger review and a vote), a control (A/B) and published results. **Breakfast stalls, stools and repair stands are not replaced now, because no alternative has yet proved better; once one does, this proposal does not object to replacement.**
+
+### The Ecological Red Line: The Alarm Ring
+
+This proposal sets one hard constraint: **when in a given year the technology-side indicator (number of services in trial) rises while the ecological-side indicators (water quality, bird species count, vegetation cover, phenological stability) fall, that ring is marked an "alarm ring", and applications for new scenario slots are suspended the following year until the ecological indicators recover.**
+
+This is the core of "one ring, two curves": using nature's own bookkeeping to set a recomputable boundary on technological expansion. The mechanism only becomes fully computable in the first complete year after the Qinghe and Xiaoyuehe works are finished (ring 118); before that it is conceptual design `[assumption:A-ECO-001]`.
+
+### Copyright and Responsibility for AI-Generated Content
+
+All drawings, covers and diagrams are locally generated as an **explanatory layer**. They do not impersonate site photographs, residents' opinions, official boundaries or measured survey data, and the generation tools and licences are recorded in `report/copyright_statement.md`. Heritage content is quoted from Beijing Municipal Cultural Heritage Bureau public texts `[source:SRC-BJ-WWJ-QINGHUAYUAN-STATION]`, and no unauthorised portrait, trademark or copyrighted material is used. The submitter is responsible for the facts, citations, copyright and final expression of the AI-generated parts, and the generation tools and licences are registered under the open call rules `[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]`. This proposal claims no official redline, no approval conclusion and no residents' opinions `[assumption:A-BOUNDARY-001]`.
+
+## References
+
+1. Haidian Branch, Beijing Municipal Commission of Planning and Natural Resources: *Prequalification Announcement for the International Urban Design Open Call for the Centennial Jing-Zhang AI Innovation Belt* `[source:OFFICIAL-ANNOUNCEMENT]`.
+2. Agent taskbook `brief/site-package/agent_taskbook.json`: the six tasks, review dimensions and prohibited claims `[source:AGENT-TASKBOOK]` `[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]`.
+3. Haidian District People's Government: *Phase Two of the Jing-Zhang Railway Heritage Park Officially Under Construction* (2024-12), 9 km long, about 70 ha `[source:SRC-JINGZHANG-PARK-HD]`.
+4. Beijing Municipal Government Portal: *Phase Two of the Jing-Zhang Railway Heritage Park to Start Construction Within the Year* (2024-09), 46 entrances, nine city streets, serving 70 communities and 450,000 people `[source:SRC-JINGZHANG-PARK-BJ]` `[source:SRC-JINGZHANG-PARK-STREETS]`.
+5. Haidian District Water Authority: *Waterfront Construction on the Qinghe, Xiaoyuehe and Yongdinghe Diversion Channel* (2026-01) `[source:SRC-XIAOYUEHE-2026]` `[source:SRC-QINGHE-2026]` `[source:SRC-YONGYINQU-2026]`.
+6. Beijing Daily Online: *How the Xiaoyuehe Came Back to Life* (2026-07), "one river, four reaches, seven nodes" and the Eight Great Colleges `[source:SRC-XIAOYUEHE-BJD]`.
+7. Beijing Municipal Cultural Heritage Bureau: *Protection Zones and Construction Control Zones for the Eleventh Batch of Heritage Protection Units · Qinghuayuan Railway Station Site* `[source:SRC-BJ-WWJ-QINGHUAYUAN-STATION]` `[source:SRC-QINGHUAYUAN-STATION-HIST]`.
+8. Site package `brief/site-package/ranges/planning_limits.json`: status of the five regulatory indicators `[source:SRC-SITE-PACKAGE-PLANNING-LIMITS]` `[gap:GAP-CONTROL-001]`.
+9. Site package `brief/site-package/allowed_design_space.json`: editable and locked layers `[source:SITE-PACKAGE]`.
+10. Site package `data/processed/missing_data_checklist.csv`: nine categories of data gap `[source:PROCESSED-FACT-PACK]` `[gap:GAP-BUILDING-001]` `[gap:GAP-PARCEL-001]`.
+11. Dendrochronology: cross-dating, missing rings and frost rings `[source:SRC-DENDRO-REF]`.
+12. Public materials on Beijing's 12345 complaint-handling system, the street-chief system and the responsible-planner system `[source:SRC-BEIJING-GOV-MECH]`.
