@@ -591,8 +591,8 @@
       "language": "zh",
       "format": "A0",
       "page_count": 9,
-      "sha256": "ce6f6aaaa92beb3a703b6febeac841cd6cb6ff014646027b93c8e34554f4fbe6",
-      "bytes": 2863641,
+      "sha256": "cf1ffc2197fb070eb8d61dee1256835ebe010545e349637b801419112e6d4960",
+      "bytes": 2856533,
       "declared_version": "v3.1",
       "pages": [
         {
@@ -755,8 +755,8 @@
       "language": "en",
       "format": "A0",
       "page_count": 9,
-      "sha256": "9dc00368e2d191f9d38c19cf70ad696bd8b197db1bdbe1ab126033244bb31e59",
-      "bytes": 1814601,
+      "sha256": "8090d5313cb181aa7f61a6d9f4da14fa64fa704613729cf46fa2287ee98f001e",
+      "bytes": 1813369,
       "declared_version": "v3.1",
       "pages": [
         {

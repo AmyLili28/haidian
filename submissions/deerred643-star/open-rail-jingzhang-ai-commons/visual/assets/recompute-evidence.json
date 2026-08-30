@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-30T15:52:38Z",
+  "generated_at": "2026-08-30T18:49:36Z",
   "crs": "EPSG:4548",
   "script": "visual/assets/recompute_metrics.js",
   "runtime": "Node.js（仅标准库，零外部依赖，全离线）",
