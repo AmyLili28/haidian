@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "903bd7b0a2035a58af6649850489771cccf3beb621ea2e07eb038eaaf42113e7"
+      "sha256": "1abfa0d4a41c50b206602d608a18f51100f027d5f252289ffab55377b980afae"
     },
     {
       "path": "agent.json",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "199abc2b85707a9572bc4733a18015bca369f4d92758ff574f2ace49a1e7e44a"
+      "sha256": "7595230bcad1b9e6414d9c6165149f6025a39813e48aa71ee9470dc0cb623e1e"
     },
     {
       "path": "compliance_matrix.json",
@@ -99,7 +99,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "3f5f14a00a30f64b446932e6670e64a905b2177ec589da19b4408f76605829a4"
+      "sha256": "51ed8e188f7c91ccd5870890cc21ba6306d8f110f89e41a5766fe78333ddb5f2"
     },
     {
       "path": "report/narrative.md",
@@ -111,7 +111,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "ef5dedfe8398d6527ab2d3c990a8d1f465e32eec77963d5adefa61201ee46562"
+      "sha256": "c4b30a2748b45cc65f3fd13aec9763c0bd713496d449b45a9dbe0e98f2f1e693"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -132,7 +132,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "ffb962c47db6608a20ff35b17bbc2b4d82cb2746289e3990480095b0311671be"
+      "sha256": "91101cd183de5399ebae732370a13c3c698c8814282cb0d9151bab5baaa8d05d"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -229,7 +229,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "5da830e866bc1f095ee0e77316890e8486b4687cbb75875fd62798a6f768d8d6"
+      "sha256": "16103db8143c914f5a52b03bfb0d4f64ae844d9d969ca11485661bb87a5471f4"
     },
     {
       "path": "report/proposal.en.html",
@@ -237,7 +237,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "60e746152250a0ff9cdd61c83c5cd7b25d7fdada59ef3a57c4a672a71ac83116"
+      "sha256": "abe9c14552b2c6c40beab5da0597bfc4a7df66db73cfb502d4db7dd4f9d4768c"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -261,7 +261,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "60bb8bb01d27305e804c70406ad5b8aedd7863025d916b1c048e3565ceb07d64"
+      "sha256": "caa9ef68f91f62cb3f17d4a99bc84ba8c1298dc9be20dfa21b93be9610a8b080"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -580,11 +580,11 @@
       "path": "visual/assets/renders/render-ren-bridge.jpg",
       "role": "visualization",
       "required": false,
-      "sha256": "cf5e08fbc754910d90b1bd6764925783136967095332821ced638e896100c633",
-      "title_zh": "北跃 · 人字之跃片区鸟瞰",
-      "title_en": "Ren-Shaped Leap — key-area aerial",
-      "description_zh": "跨环路慢行桥的片区鸟瞰：桥面之上除栏板与照明外无任何构筑物，结构全在桥面以下；两端各一组折返坡道，两段并排展开、端头折返，占地明显大于跨路段，两端均落在环路两侧绿地内。",
-      "description_en": "A key-area aerial of the slow-traffic bridge over the ring road: nothing stands above the deck except the parapet and its lighting, with all structure below; each end carries one switchback ramp assembly of two parallel runs joined by a turning platform, occupying visibly more ground than the span itself, and both ends land in the green strips either side."
+      "sha256": "0e5814a3e60c897029563401a0b572b9cb8fa8b4a14a35fedf68a8348163c9f3",
+      "title_zh": "北跃 · 人字之跃人视透视",
+      "title_en": "Ren-Shaped Leap — eye-level view",
+      "description_zh": "跨环路慢行桥的人视透视：桥面之上除栏板与照明外无任何构筑物，结构全在桥面以下；近端一组折返坡道，两段并排展开、标高不同、中夹绿带，坡道低端与地面平接，并列梯段自地面直达桥头平台；坡道全程位于道路一侧绿地内，无一段跨越车道。结构为铆接钢板梁、块石砌筑桥墩、铁路式钢格栅栏板。远端坡道不在画面内。",
+      "description_en": "An eye-level view of the slow-traffic bridge over the ring road: nothing stands above the deck except the parapet and its lighting, with all structure below; the near end carries a switchback ramp of two parallel runs at different levels with a planted strip between them, its lower end meeting the ground flush, and a flight of steps alongside running from the ground to the same bridgehead platform; the ramps stay in the roadside green for their whole length and cross no carriageway. Riveted steel plate girder, stone masonry piers, railway-style steel grille parapets. The far end is outside the frame."
     },
     {
       "path": "visual/assets/renders/b3d-poster.jpg",
@@ -593,8 +593,8 @@
       "sha256": "a0bd417ec9ba8e466eba36873b31c969868399a9d3b0226bbd5825ec5504e638",
       "title_zh": "人字之跃 · 概念意象（AI 生成）",
       "title_en": "Ren-Shaped Leap - conceptual impression (AI-generated)",
-      "description_zh": "人字之跃步行桥的概念意象图（AI 生成）：一跨平直主跨横跨环路，桥面之上除栏板与照明外无构筑物；两端各设一处折返，两段坡道在平面上并排展开、不上下叠置、中夹绿带、行进方向相反并在远端相接，落回道路两侧绿地；桥墩落地、V 形支撑；耐候钢色与道钉带的铜相呼应。用作展示页三维场景加载前的静态图与浏览器不支持 WebGL 时的兜底图。**非实景照片、非工程效果图、非官方审定成果**；形体、材质、树种、人物、天气均为意象表达，不构成任何形式、尺寸或工程做法的设计依据，形式与尺寸一律以断面 ZZY-1／ZZY-2 与正文为准。图上无文字，中英两版共用同一文件。",
-      "description_en": "AI-generated conceptual impression of the Ren-Shaped Leap footbridge: one flat main span crosses the ring road with nothing above the deck but parapet and lighting; each end carries a single switchback whose two runs sit side by side in plan, never stacked with a planted strip between them, running in opposite directions and meeting at the far turn before landing in the green on either side; piers land on V-shaped supports; the weathering-steel tone answers the bronze of the Rail-Spike Band. Used as the still shown before the 3D scene loads and as the fallback when a browser cannot run WebGL. **Not a photograph, not an engineering rendering, not an officially approved result**; forms, materials, tree species, figures and weather are expressive only and constitute no basis for any shape, dimension or construction method - sections ZZY-1/ZZY-2 and the proposal text govern. The image carries no text and is shared by both language editions.",
+      "description_zh": "人字之跃步行桥的概念意象图（AI 生成）：一跨平直主跨横跨环路，桥面之上除栏板与照明外无构筑物；两端各设一处折返，两段坡道在平面上并排展开、不上下叠置、中夹绿带、行进方向相反并在远端相接，但**图中两端的折返坡道构成悬空的闭合环道、没有任何一段落到地面**，与正文「两端均落在绿地地面上」不符，此处据实声明；本图仅作三维场景加载前的占位，形式以 `visual/assets/bridge3d.js` 的三维几何、断面 ZZY-1／ZZY-2 与正文为准。用作展示页三维场景加载前的静态图与浏览器不支持 WebGL 时的兜底图。**非实景照片、非工程效果图、非官方审定成果**；形体、材质、树种、人物、天气均为意象表达，不构成任何形式、尺寸或工程做法的设计依据，形式与尺寸一律以断面 ZZY-1／ZZY-2 与正文为准。图上无文字，中英两版共用同一文件。",
+      "description_en": "AI-generated conceptual impression of the Ren-Shaped Leap footbridge: one flat main span crosses the ring road with nothing above the deck but parapet and lighting; each end carries a single switchback whose two runs sit side by side in plan, never stacked with a planted strip between them, running in opposite directions and meeting at the far turn - but **in this image the switchbacks form closed loops in the air and no run reaches the ground**, which contradicts the body text's “both ends land on the green-space ground”; that is stated here rather than glossed over. The weathering-steel tone answers the bronze of the Rail-Spike Band. The image stands only as the placeholder before the 3D scene loads; its form is governed by the 3D geometry in `visual/assets/bridge3d.js`, sections ZZY-1/ZZY-2 and the proposal text. Used as the still shown before the 3D scene loads and as the fallback when a browser cannot run WebGL. **Not a photograph, not an engineering rendering, not an officially approved result**; forms, materials, tree species, figures and weather are expressive only and constitute no basis for any shape, dimension or construction method - sections ZZY-1/ZZY-2 and the proposal text govern. The image carries no text and is shared by both language editions.",
       "language": "neutral"
     },
     {
