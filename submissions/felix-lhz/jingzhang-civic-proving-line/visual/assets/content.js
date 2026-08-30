@@ -42,7 +42,7 @@ ALT-C 的概念公共路线、单侧试验范围、可逆缓冲及岗位—急�
 ![正式背景上的京张双答运营叠加](assets/figures/site-overview.png)
 `;
 
-const enPrelude = `# JING-ZHANG TWO ANSWERS / 京张双答
+const enPrelude = `# JING-ZHANG TWO ANSWERS
 
 > **One public route, four civic states.** At Dazhongsi centre, a **4 m prototype public route** remains continuous through OPEN, TRIAL, PAUSE and RETIRE. AI occupies only a one-sided reversible trial bay; staffed service and the Receipt Porch remain open.[data:visual/assets/prototype-model.json] [metric:s7_public_route_prototype_width_m]
 
@@ -94,6 +94,7 @@ function rebuildProposal(rel, lang) {
     .replace(/在已批空间结构上建立城市采纳层。/g, '一条公共路径，四种城市状态。')
     .replace(/Civic adoption on approved structure/g, 'One public route, four civic states');
   let front = frontMatter(source)
+    .replace(/^title:.*$/m, lang === 'zh' ? 'title: "京张双答 / JING-ZHANG TWO ANSWERS"' : 'title: "JING-ZHANG TWO ANSWERS"')
     .replace(/summary:.*\n/, lang === 'zh'
       ? 'summary: "一条4米原型公共路径在OPEN、TRIAL、PAUSE、RETIRE四态不断线；AI只占一侧，人工回执廊始终开放。"\n'
       : 'summary: "One 4 m prototype public route stays continuous across OPEN, TRIAL, PAUSE and RETIRE; AI occupies one side while the staffed Receipt Porch stays open."\n');
@@ -103,7 +104,7 @@ function rebuildProposal(rel, lang) {
 function updateStructuredData() {
   const model = readJson('visual/assets/prototype-model.json');
   model.schema_version = '1.14.0';
-  model.dataset_id = 'jingzhang-v17-one-route-four-states';
+  model.dataset_id = 'jingzhang-v17-2-one-route-four-states';
   model.core_claim = {zh:'大钟寺一条4米原型公共路径在四态中不断线；AI只占一侧，人工回执廊始终开放。',en:'A 4 m prototype public route remains unbroken across four states; AI occupies one side and the staffed Receipt Porch stays open.'};
   model.canonical_view_refs = {city_context:'FIG-SITE-OVERVIEW-V17',ground_interface:'FIG-LAND-USE-V17',landmark_family:'FIG-KEY-AREAS-V17',continuous_journey:'FIG-MOBILITY-V17',evidence_desk:'FIG-METRICS-V17'};
   model.context_feature_refs = ['approved_green_belt','innovation_axis','dazhongsi_centre','fishbone_slow_mobility'];
@@ -130,11 +131,11 @@ function updateStructuredData() {
   writeJson('visual/assets/prototype-model.json', model);
 
   const atlas = readJson('visual/assets/spatial-atlas.json');
-  Object.assign(atlas,{schema_version:'1.14.0',publication_version:'V17',subtitle:{zh:'一条公共路径，四种城市状态',en:'One public route, four civic states'},canonical_view_refs:model.canonical_view_refs,context_feature_refs:model.context_feature_refs,existing_public_use_refs:model.existing_public_use_refs,public_route_invariant:model.public_route_invariant,state_geometry_refs:model.s7.state_geometry_refs,maintenance_route_refs:model.s7.maintenance_route_refs,experience_camera_ref:model.s7.experience_camera_ref,visual_priority:'hero',implementation_stage:model.implementation_stage,next_gate_requirements:model.next_gate_requirements,interface_status:['existing_published','approved_context','design_proposal','unknown']});
+  Object.assign(atlas,{schema_version:'1.14.0',publication_version:'V17.2',subtitle:{zh:'一条公共路径，四种城市状态',en:'One public route, four civic states'},canonical_view_refs:model.canonical_view_refs,context_feature_refs:model.context_feature_refs,existing_public_use_refs:model.existing_public_use_refs,public_route_invariant:model.public_route_invariant,state_geometry_refs:model.s7.state_geometry_refs,maintenance_route_refs:model.s7.maintenance_route_refs,experience_camera_ref:model.s7.experience_camera_ref,visual_priority:'hero',implementation_stage:model.implementation_stage,next_gate_requirements:model.next_gate_requirements,interface_status:['existing_published','approved_context','design_proposal','unknown']});
   writeJson('visual/assets/spatial-atlas.json', atlas);
 
   const scenes = readJson('visual/assets/two-answers.json');
-  Object.assign(scenes,{schema_version:'1.14.0',publication_version:'V17',subtitle:{zh:'一条公共路径，四种城市状态',en:'One public route, four civic states'},public_route_invariant:model.public_route_invariant,canonical_view_refs:model.canonical_view_refs,context_feature_refs:model.context_feature_refs,existing_public_use_refs:model.existing_public_use_refs,state_geometry_refs:model.s7.state_geometry_refs,maintenance_route_refs:model.s7.maintenance_route_refs,experience_camera_ref:model.s7.experience_camera_ref,visual_priority:'hero',implementation_stage:model.implementation_stage,next_gate_requirements:model.next_gate_requirements});
+  Object.assign(scenes,{schema_version:'1.14.0',publication_version:'V17.2',subtitle:{zh:'一条公共路径，四种城市状态',en:'One public route, four civic states'},public_route_invariant:model.public_route_invariant,canonical_view_refs:model.canonical_view_refs,context_feature_refs:model.context_feature_refs,existing_public_use_refs:model.existing_public_use_refs,state_geometry_refs:model.s7.state_geometry_refs,maintenance_route_refs:model.s7.maintenance_route_refs,experience_camera_ref:model.s7.experience_camera_ref,visual_priority:'hero',implementation_stage:model.implementation_stage,next_gate_requirements:model.next_gate_requirements});
   for (const s of scenes.scenarios) {
     s.visual_priority = s.code === 'S7' ? 'hero' : (['T2','S2'].includes(s.code) ? 'support' : 'reference');
     s.implementation_stage = s.code === 'S7' ? model.implementation_stage : 'E1_concept_design';
@@ -187,6 +188,10 @@ function updateChangelog() {
     text += `\n## 2026-08-21 · V17\n\n- Restored the buildable civic cross as primary evidence and demoted planning context to a verified base.\n- Established one canonical 4 m route invariant across OPEN / TRIAL / PAUSE / RETIRE.\n- Added canonical view, context, maintenance, camera, priority, stage and next-gate interfaces (schema 1.14.0).\n- Reordered both proposals around spatial conclusion, prototype, ALT decision, next gate and approved context.\n`;
     writeText(rel, text);
   }
+  if (!text.includes('## 2026-08-30 · V17.2')) {
+    text += `\n## 2026-08-30 · V17.2\n\n- Rebalanced the five review figures around one dominant spatial judgment and enlarged essential labels for 1024 px review.\n- Reflowed A0 and A3 without adding design claims, data, scenes or metrics.\n- Replaced the duplicated report hero and expanded the interaction assembly/state panel.\n- Enforced zero visible CJK characters across English figures, PDFs and offline HTML while retaining the licensed embedded font.\n`;
+    writeText(rel, text);
+  }
 }
 
 function run() {
@@ -196,7 +201,7 @@ function run() {
   updateMetrics();
   updateSourcesAndRights();
   updateChangelog();
-  console.log('V17 canonical content and schema 1.14.0 written');
+  console.log('V17.2 canonical content and schema 1.14.0 written');
 }
 
 module.exports = {run};
