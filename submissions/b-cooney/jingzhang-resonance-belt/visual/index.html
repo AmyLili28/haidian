@@ -117,8 +117,7 @@ t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
 var rnd=mulberry32(0);
 function clamp(x){return x<0?0:x>1?1:x;}
 function clone(o){var r={};for(var k in o)r[k]=o[k];return r;}
-// Full continuous parameter vocabulary (per design brief). RESTORE matches the
-// brief's worked example exactly.
+// functional-state vectors (RESTORE matches the design-doc example)
 var STATES={
  RESTORE: {arousal:.20,density:.32,brightness:.28,pulse_strength:.12,event_rate:.20,harmonic_change_rate:.06,melodic_salience:.10,transient_hardness:.08,spatial_motion:.16,spatial_diffusion:.72,noise_ratio:.46,novelty_budget:.18,masking_strength:.30,macro_variance:.20},
  NIGHT:   {arousal:.14,density:.24,brightness:.18,pulse_strength:.08,event_rate:.12,harmonic_change_rate:.05,melodic_salience:.08,transient_hardness:.06,spatial_motion:.12,spatial_diffusion:.78,noise_ratio:.40,novelty_budget:.12,masking_strength:.24,macro_variance:.14},
@@ -127,46 +126,59 @@ var STATES={
  VITALIZE:{arousal:.60,density:.62,brightness:.55,pulse_strength:.48,event_rate:.55,harmonic_change_rate:.30,melodic_salience:.34,transient_hardness:.40,spatial_motion:.40,spatial_diffusion:.40,noise_ratio:.26,novelty_budget:.44,masking_strength:.16,macro_variance:.48},
  BUFFER:  {arousal:.30,density:.44,brightness:.30,pulse_strength:.20,event_rate:.24,harmonic_change_rate:.12,melodic_salience:.12,transient_hardness:.12,spatial_motion:.20,spatial_diffusion:.60,noise_ratio:.58,novelty_budget:.20,masking_strength:.70,macro_variance:.24}
 };
-// per-parameter ramp rate: parameters move on different schedules (brief 16).
 var RAMP={brightness:.16,event_rate:.14,pulse_strength:.14,transient_hardness:.12,masking_strength:.12,spatial_motion:.12,density:.10,arousal:.10,noise_ratio:.10,melodic_salience:.10,novelty_budget:.10,spatial_diffusion:.08,harmonic_change_rate:.06,macro_variance:.05};
 var cur=clone(STATES.RESTORE), target=clone(STATES.RESTORE), stateName='RESTORE';
 var ctxIn={node:'RN-CHORUS',hour:21,crowd:.4};
-// harmonic material + multi-level memory: memory produces non-repetition.
-var PENT=[0,2,4,7,9], ROOT=196.00;
-var CHORDS=[[0,7,4],[-3,4,7],[2,7,9],[-5,2,7]]; var chordIdx=0;
-var memPitch=[], memChord=[];
+// PLACE IDENTITY: shared grammar, per-node root/register, interval set, colour
+var NODE_PALETTE={
+ 'RN-PRELUDE':{root:261.63,scale:[0,2,4,7,9],  octaves:[0,1],  reverb:0.85,bright:1.15}, // C4 major-pentatonic, bright/high
+ 'RN-CHORUS': {root:196.00,scale:[0,3,5,7,10], octaves:[-1,0,1],reverb:1.10,bright:1.00}, // G3 minor-pentatonic, warm/mid
+ 'RN-CODA':   {root:146.83,scale:[0,2,4,7,9],  octaves:[-1,0],  reverb:1.55,bright:0.82}  // D3 low, spacious/calm
+};
+var pal=NODE_PALETTE['RN-CHORUS'], ROOTHZ=pal.root, SCALE=pal.scale.slice(), OCTS=pal.octaves.slice();
+var CHORDS=[[0,7,4],[-3,4,7],[2,7,9],[-5,2,7]], chordIdx=0, memPitch=[], memChord=[], lastNode='RN-CHORUS';
 function pickPitch(){
- var novelty=cur.novelty_budget, best=null, bestw=-1e9;
+ var nov=cur.novelty_budget,best=null,bw=-1e9;
  for(var i=0;i<24;i++){
-   var deg=PENT[(rnd()*PENT.length)|0], oct=((rnd()*3)|0)-1;
+   var deg=SCALE[(rnd()*SCALE.length)|0], oct=OCTS[(rnd()*OCTS.length)|0];
    var semis=deg+12*oct+CHORDS[chordIdx][(rnd()*3)|0];
    var pen=0; for(var j=0;j<memPitch.length;j++){ if(memPitch[j]===semis) pen+=(memPitch.length-j); }
-   var w=rnd()*(0.4+novelty) - pen*0.35;
-   if(w>bestw){bestw=w;best=semis;}
+   var w=rnd()*(0.4+nov)-pen*0.35; if(w>bw){bw=w;best=semis;}
  }
  memPitch.push(best); if(memPitch.length>10) memPitch.shift();
- return ROOT*Math.pow(2,best/12);
+ return ROOTHZ*Math.pow(2,best/12);
 }
 function maybeChangeChord(){
- if(rnd() > 0.04+cur.harmonic_change_rate*0.6) return;
+ if(rnd() > 0.03+cur.harmonic_change_rate*0.5) return;
  var best=chordIdx,bw=-1e9;
  for(var i=0;i<CHORDS.length;i++){ var pen=0; for(var j=0;j<memChord.length;j++) if(memChord[j]===i) pen+=(memChord.length-j);
    var w=rnd()-pen*0.5; if(w>bw){bw=w;best=i;} }
  chordIdx=best; memChord.push(best); if(memChord.length>3) memChord.shift();
+ // retune pad voices to the new chord field for slow harmonic motion
+ if(running) pads.forEach(function(p){ if(p.semi!==undefined){
+   var cs=(p.semi===-12)?-12:CHORDS[chordIdx][[0,7,12].indexOf(p.semi)]||p.semi;
+   p.o.frequency.setTargetAtTime(ROOTHZ*Math.pow(2,cs/12),A.currentTime,3.0);}});
  log('COMPOSE: harmonic field -> chord '+best);
 }
 // ---- audio graph ----
-var A=null,master,analyser,rev,revGain,padFilter,pads=[],sub,noiseGain,noiseSrc,maskFilter,maskGain,maskSrc,
-    pulseGain,pulseOsc,pulseLfoGain,plfo,panner,busIn,panPhase=0,measuredLoad=0;
-var running=false,noteTimer=null,ctrlTimer=null,macroTimer=null,raf=null;
-var scene={gesture:true};
-var logLines=[];
+var A=null,master,comp,analyser,rev,revGain,padFilter,pads=[],noiseGain,noiseSrc,noiseLfoGain,pulseLfo,
+    maskGain,maskSrc,panner,busIn,panPhase=0,measuredLoad=0;
+var running=false,noteTimer=null,ctrlTimer=null,macroTimer=null,raf=null,scene={gesture:true},logLines=[];
 function log(t){logLines.unshift(t); if(logLines.length>5)logLines.pop();
  var e=document.getElementById('telemetry'); if(e)e.textContent=logLines.join('\n');}
 function impulse(sec,decay){var n=A.sampleRate*sec,b=A.createBuffer(2,n,A.sampleRate);
  for(var c=0;c<2;c++){var d=b.getChannelData(c);for(var i=0;i<n;i++){d[i]=(Math.random()*2-1)*Math.pow(1-i/n,decay);}}return b;}
-function noiseBuffer(){var n=A.sampleRate*2,b=A.createBuffer(1,n,A.sampleRate),d=b.getChannelData(0),last=0;
- for(var i=0;i<n;i++){var w=Math.random()*2-1;d[i]=(last+0.02*w)/1.02;last=d[i];d[i]*=3.0;}return b;}
+function pinkBuffer(){var n=A.sampleRate*3,b=A.createBuffer(1,n,A.sampleRate),d=b.getChannelData(0);
+ var b0=0,b1=0,b2=0; for(var i=0;i<n;i++){var w=Math.random()*2-1;
+   b0=0.99765*b0+w*0.0990460;b1=0.96300*b1+w*0.2965164;b2=0.57000*b2+w*1.0526913;
+   d[i]=(b0+b1+b2+w*0.1848)*0.15;}return b;}
+function applyPalette(){
+ pal=NODE_PALETTE[ctxIn.node]||NODE_PALETTE['RN-CHORUS'];
+ ROOTHZ=pal.root; SCALE=pal.scale.slice(); OCTS=pal.octaves.slice();
+ if(running && pads.length){ pads.forEach(function(p){ if(p.semi!==undefined)
+   p.o.frequency.setTargetAtTime(ROOTHZ*Math.pow(2,p.semi/12),A.currentTime,2.5); }); }
+ log('PALETTE: '+ctxIn.node.replace('RN-','')+' (root '+Math.round(ROOTHZ)+'Hz)');
+}
 function start(){
  if(running) return; running=true;
  rnd=mulberry32((Date.now()>>>0)^0x9e3779b9);
@@ -175,110 +187,104 @@ function start(){
  try{var _ub=A.createBuffer(1,1,22050),_us=A.createBufferSource();_us.buffer=_ub;_us.connect(A.destination);_us.start(0);}catch(e){}
  master=A.createGain(); master.gain.value=parseFloat(vol.value);
  analyser=A.createAnalyser(); analyser.fftSize=1024;
- master.connect(analyser); master.connect(A.destination);
- rev=A.createConvolver(); rev.buffer=impulse(3.2,2.6); revGain=A.createGain(); revGain.gain.value=.35;
- rev.connect(revGain).connect(master);
+ comp=A.createDynamicsCompressor();
+ comp.threshold.value=-20; comp.knee.value=24; comp.ratio.value=3; comp.attack.value=0.02; comp.release.value=0.5;
+ comp.connect(master); master.connect(analyser); master.connect(A.destination);
+ rev=A.createConvolver(); rev.buffer=impulse(5.0,3.0); revGain=A.createGain(); revGain.gain.value=.4; rev.connect(revGain).connect(comp);
  panner=A.createStereoPanner?A.createStereoPanner():null; busIn=A.createGain();
- if(panner){busIn.connect(panner);panner.connect(master);panner.connect(rev);}else{busIn.connect(master);busIn.connect(rev);}
- padFilter=A.createBiquadFilter(); padFilter.type='lowpass'; padFilter.frequency.value=700; padFilter.connect(busIn);
- // FOUNDATION
- [0,7,12].forEach(function(semi,k){var o=A.createOscillator();o.type=k?'sine':'triangle';
-   o.frequency.value=ROOT*Math.pow(2,semi/12); o.detune.value=(k-1)*6;
-   var g=A.createGain();g.gain.value=[.22,.13,.08][k]; o.connect(g).connect(padFilter);o.start();
-   pads.push({o:o,g:g,base:[.22,.13,.08][k]});});
- sub=A.createOscillator();sub.type='sine';sub.frequency.value=ROOT/2;var sg=A.createGain();sg.gain.value=.06;
- sub.connect(sg).connect(busIn);sub.start(); pads.push({o:sub,g:sg,sub:true});
- // ORGANIC MOTION
- noiseSrc=A.createBufferSource();noiseSrc.buffer=noiseBuffer();noiseSrc.loop=true;
- var nf=A.createBiquadFilter();nf.type='bandpass';nf.frequency.value=520;nf.Q.value=.7;
- noiseGain=A.createGain();noiseGain.gain.value=.05;noiseSrc.connect(nf).connect(noiseGain).connect(busIn);noiseSrc.start();
- var nlfo=A.createOscillator();nlfo.frequency.value=.05;var nlg=A.createGain();nlg.gain.value=180;
+ if(panner){busIn.connect(panner);panner.connect(comp);panner.connect(rev);}else{busIn.connect(comp);busIn.connect(rev);}
+ padFilter=A.createBiquadFilter(); padFilter.type='lowpass'; padFilter.frequency.value=900; padFilter.Q.value=0.4;
+ var padHP=A.createBiquadFilter(); padHP.type='highpass'; padHP.frequency.value=70; padFilter.connect(padHP).connect(busIn);
+ // FOUNDATION: breathing sine voices (incl. a soft octave-down), no buzzy triangles
+ var voices=[{semi:-12,g:.05,r:.024},{semi:0,g:.11,r:.031},{semi:7,g:.08,r:.043},{semi:12,g:.05,r:.057}];
+ voices.forEach(function(v){var o=A.createOscillator();o.type='sine';o.frequency.value=ROOTHZ*Math.pow(2,v.semi/12);
+   o.detune.value=(rnd()*2-1)*5;
+   var g=A.createGain();g.gain.value=v.g*0.55; o.connect(g).connect(padFilter);o.start();
+   var lfo=A.createOscillator();lfo.type='sine';lfo.frequency.value=v.r;var lg=A.createGain();lg.gain.value=v.g*0.45;
+   lfo.connect(lg).connect(g.gain);lfo.start();
+   pads.push({o:o,g:g,base:v.g,semi:v.semi});});
+ // ORGANIC MOTION: drifting pink-noise 'air/water', with implied pulse (no tonal drone)
+ noiseSrc=A.createBufferSource();noiseSrc.buffer=pinkBuffer();noiseSrc.loop=true;
+ var nf=A.createBiquadFilter();nf.type='lowpass';nf.frequency.value=800;nf.Q.value=0.5;
+ noiseGain=A.createGain();noiseGain.gain.value=.03; noiseSrc.connect(nf).connect(noiseGain).connect(busIn);noiseSrc.start();
+ var nlfo=A.createOscillator();nlfo.type='sine';nlfo.frequency.value=.045;var nlg=A.createGain();nlg.gain.value=420;
  nlfo.connect(nlg).connect(nf.frequency);nlfo.start();
- // MASKING (spectrally shaped bed)
- maskSrc=A.createBufferSource();maskSrc.buffer=noiseBuffer();maskSrc.loop=true;
- maskFilter=A.createBiquadFilter();maskFilter.type='lowpass';maskFilter.frequency.value=1400;
- maskGain=A.createGain();maskGain.gain.value=.02;maskSrc.connect(maskFilter).connect(maskGain).connect(master);maskSrc.start();
- // PULSE (soft periodic throb, low salience)
- pulseOsc=A.createOscillator();pulseOsc.type='sine';pulseOsc.frequency.value=ROOT;
- pulseGain=A.createGain();pulseGain.gain.value=0.0;
- var pf=A.createBiquadFilter();pf.type='lowpass';pf.frequency.value=300;
- pulseOsc.connect(pf).connect(pulseGain).connect(busIn);pulseOsc.start();
- plfo=A.createOscillator();plfo.type='sine';plfo.frequency.value=0.8;
- pulseLfoGain=A.createGain();pulseLfoGain.gain.value=0.02;
- var poff=A.createConstantSource();poff.offset.value=0.018;poff.start();
- plfo.connect(pulseLfoGain).connect(pulseGain.gain);poff.connect(pulseGain.gain);plfo.start();
- scheduleNote(); ctrlTimer=setInterval(controlTick,2000); macroTimer=setInterval(macroTick,12000); loopViz();
+ noiseLfoGain=A.createGain();noiseLfoGain.gain.value=.02; var nbre=A.createGain();nbre.gain.value=.02;
+ var nbreLfo=A.createOscillator();nbreLfo.type='sine';nbreLfo.frequency.value=.06;nbreLfo.connect(nbre).connect(noiseGain.gain);nbreLfo.start();
+ pulseLfo=A.createOscillator();pulseLfo.type='sine';pulseLfo.frequency.value=0.5;
+ pulseLfo.connect(noiseLfoGain).connect(noiseGain.gain);pulseLfo.start();
+ // MASKING: gentle spectral bed
+ maskSrc=A.createBufferSource();maskSrc.buffer=pinkBuffer();maskSrc.loop=true;
+ var mf=A.createBiquadFilter();mf.type='lowpass';mf.frequency.value=1200;
+ maskGain=A.createGain();maskGain.gain.value=.01; maskSrc.connect(mf).connect(maskGain).connect(master);maskSrc.start();
+ applyPalette(); lastNode=ctxIn.node;
+ scheduleNote(); ctrlTimer=setInterval(controlTick,2000); macroTimer=setInterval(macroTick,14000); loopViz();
  btn.setAttribute('aria-pressed','true'); btn.textContent=T.stop;
  status.textContent=T.playing+' — Audio: '+A.state;
- [0,1,2].forEach(function(i){setTimeout(function(){ if(running) playNote(pickPitch(),1.8); },220+i*260);});
+ [0,1,2].forEach(function(i){setTimeout(function(){ if(running) playNote(pickPitch(),1.4); },300+i*900);});
  setTimeout(function(){ if(running&&status){ status.textContent=T.playing+' — Audio: '+A.state;
-   if(A.state!=='running') status.textContent=T.blocked; } },800);
+   if(A.state!=='running') status.textContent=T.blocked; } },900);
  log('SENSE/RENDER: engine started (state='+A.state+')');
 }
 function stop(){
  if(!running) return; running=false;
  clearTimeout(noteTimer);clearInterval(ctrlTimer);clearInterval(macroTimer);cancelAnimationFrame(raf);
- try{A.close();}catch(e){}
+ pads=[]; try{A.close();}catch(e){}
  btn.setAttribute('aria-pressed','false'); btn.textContent=T.start; status.textContent=T.stopped;
 }
-// COMPOSE + RENDER
+// COMPOSE + RENDER: soft sine + octave shimmer, long release, heavy reverb send
 function playNote(freq,gainScale,pan,revScale){
- var o=A.createOscillator();o.type=rnd()<.5?'sine':'triangle';o.frequency.value=freq;
- var g=A.createGain();var t=A.currentTime;
- var peak=(0.06+cur.melodic_salience*0.12+cur.arousal*0.05)*gainScale;
- var atk=0.55-cur.transient_hardness*0.45, rel=1.6+(1-cur.arousal)*2.2;
- g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(Math.max(0.0002,peak),t+atk);
+ var t=A.currentTime;
+ var atk=Math.max(0.12,0.6-cur.transient_hardness*0.45), rel=3.0+(1-cur.arousal)*3.5;
+ var peak=(0.05+cur.melodic_salience*0.10+cur.arousal*0.04)*gainScale;
+ var g=A.createGain(); g.gain.setValueAtTime(0.0001,t);
+ g.gain.exponentialRampToValueAtTime(Math.max(0.0002,peak),t+atk);
  g.gain.exponentialRampToValueAtTime(0.0001,t+atk+rel);
- var of=A.createBiquadFilter();of.type='lowpass';of.frequency.value=700+cur.brightness*2800;
- o.connect(of).connect(g);
- if(pan!==undefined && A.createStereoPanner){var sp=A.createStereoPanner();sp.pan.value=pan;g.connect(sp);sp.connect(busIn);sp.connect(rev);}
- else {g.connect(busIn);g.connect(rev);}
- if(revScale){var rg=A.createGain();rg.gain.value=revScale;g.connect(rg).connect(rev);}
- o.start(t);o.stop(t+atk+rel+0.1);
+ var of=A.createBiquadFilter();of.type='lowpass';of.frequency.value=500+cur.brightness*pal.bright*2400;
+ var o=A.createOscillator();o.type='sine';o.frequency.value=freq;o.connect(of);
+ var o2=A.createOscillator();o2.type='sine';o2.frequency.value=freq*2;var g2=A.createGain();g2.gain.value=0.28*(0.4+cur.brightness);
+ o2.connect(g2).connect(of); of.connect(g);
+ var dest=busIn;
+ if(pan!==undefined && A.createStereoPanner){var sp=A.createStereoPanner();sp.pan.value=pan;g.connect(sp);dest=sp;}
+ else {g.connect(busIn);}
+ dest.connect(rev); var rg=A.createGain(); rg.gain.value=(revScale||0.6); g.connect(rg).connect(rev);
+ o.start(t);o2.start(t);o.stop(t+atk+rel+0.1);o2.stop(t+atk+rel+0.1);
+ flash(cur.brightness);
 }
 function scheduleNote(){
  if(!running) return;
  playNote(pickPitch(),1.0);
- flash(cur.brightness);
  if(scene.gesture && rnd() < cur.spatial_motion*cur.novelty_budget*0.5){
-   playNote(pickPitch()*2,0.5,(rnd()<.5?-0.9:0.9),0.5); log('COMPOSE: distant spatial gesture');
+   playNote(pickPitch()*2,0.45,(rnd()<.5?-0.85:0.85),0.9); log('COMPOSE: distant spatial gesture');
  }
- var base=2600-cur.event_rate*2100; var iv=base*(0.6+rnd()*0.9);
- noteTimer=setTimeout(scheduleNote, Math.max(320,iv));
+ var base=3600-cur.event_rate*2600; var iv=base*(0.7+rnd()*1.0); // sparser, more space
+ noteTimer=setTimeout(scheduleNote, Math.max(500,iv));
 }
-// LISTEN
 function listen(){
  if(!analyser) return 0;
  var buf=new Float32Array(analyser.fftSize); analyser.getFloatTimeDomainData(buf);
  var s=0; for(var i=0;i<buf.length;i++) s+=buf[i]*buf[i];
  measuredLoad=Math.min(1,Math.sqrt(s/buf.length)*6); return measuredLoad;
 }
-// ADAPT (slow morph, per-parameter schedules) + apply to graph
 function controlTick(){
  selectTarget();
  for(var k in target){ var r=RAMP[k]||0.10; cur[k]+=(target[k]-cur[k])*r; }
  maybeChangeChord();
  if(!running) return;
- var load=listen();
- var restraint = load>0.72 ? 0.6 : 1.0;
+ var load=listen(); var restraint = load>0.72 ? 0.6 : 1.0;
  if(restraint<1 && rnd()<0.3) log('ADAPT: restraint - ambient high, holding density/level');
- padFilter.frequency.setTargetAtTime(420+cur.brightness*2600,A.currentTime,1.5);
- pads.forEach(function(p){if(!p.sub)p.g.gain.setTargetAtTime((0.05+cur.density*0.15*restraint)*(p.base/0.22),A.currentTime,1.5);});
- noiseGain.gain.setTargetAtTime(0.02+cur.noise_ratio*0.09,A.currentTime,1.5);
- maskFilter.frequency.setTargetAtTime(900+(1-cur.brightness)*1400,A.currentTime,2.0);
- maskGain.gain.setTargetAtTime((0.005+cur.masking_strength*0.05)*restraint,A.currentTime,1.5);
- revGain.gain.setTargetAtTime(0.15+cur.spatial_diffusion*0.35,A.currentTime,1.5);
- if(plfo) plfo.frequency.setTargetAtTime(0.5+cur.pulse_strength*1.6,A.currentTime,1.0);
- if(pulseLfoGain) pulseLfoGain.gain.setTargetAtTime(0.005+cur.pulse_strength*0.05,A.currentTime,1.0);
- if(panner){ panPhase+=0.2+cur.spatial_motion*0.8; panner.pan.setTargetAtTime(Math.sin(panPhase)*cur.spatial_motion*0.8,A.currentTime,1.5); }
+ padFilter.frequency.setTargetAtTime(380+cur.brightness*pal.bright*2400,A.currentTime,2.0);
+ pads.forEach(function(p){ p.g.gain.setTargetAtTime((0.35+cur.density*0.55*restraint)*p.base,A.currentTime,2.5); });
+ noiseGain.gain.setTargetAtTime(0.012+cur.noise_ratio*0.05,A.currentTime,2.0);
+ if(noiseLfoGain) noiseLfoGain.gain.setTargetAtTime(0.004+cur.pulse_strength*0.03,A.currentTime,1.5);
+ if(pulseLfo) pulseLfo.frequency.setTargetAtTime(0.25+cur.pulse_strength*1.0,A.currentTime,1.0);
+ maskGain.gain.setTargetAtTime((0.004+cur.masking_strength*0.03)*restraint,A.currentTime,1.5);
+ revGain.gain.setTargetAtTime(Math.min(0.75,(0.18+cur.spatial_diffusion*0.4)*pal.reverb),A.currentTime,2.0);
+ if(panner){ panPhase+=0.15+cur.spatial_motion*0.6; panner.pan.setTargetAtTime(Math.sin(panPhase)*cur.spatial_motion*0.7,A.currentTime,2.0); }
  updateMeters();
 }
-// MACRO scene evolution (tens of minutes; compressed for the demo)
-function macroTick(){
- if(rnd() < 0.2+cur.macro_variance*0.6){ scene.gesture=!scene.gesture;
-   log('MACRO: spatial-gesture family '+(scene.gesture?'enter':'leave')); }
-}
-// SENSE -> INTERPRET -> TARGET (+ hysteresis/dwell on sensed changes)
+function macroTick(){ if(rnd() < 0.2+cur.macro_variance*0.6){ scene.gesture=!scene.gesture;
+ log('MACRO: spatial-gesture family '+(scene.gesture?'enter':'leave')); } }
 var proposed=null,dwell=0;
 function whyFor(node,it){ if(node==='RN-CHORUS') return it.late?T.why_chorus_night:T.why_chorus_day;
  if(node==='RN-PRELUDE') return T.why_prelude; return T.why_coda; }
@@ -288,18 +294,17 @@ function desiredState(c,it){ if(c.node==='RN-CHORUS') return it.late?'RESTORE':'
  if(c.node==='RN-PRELUDE') return (c.hour>=6&&c.hour<11)?'VITALIZE':'FOCUS'; return it.night?'NIGHT':'BUFFER'; }
 function selectTarget(force){
  var c=sense(),it=interpret(c),s=desiredState(c,it);
+ if(c.node!==lastNode){ lastNode=c.node; applyPalette(); }
  if(s!==stateName){
    if(force){ stateName=s; proposed=null; dwell=0; log('TARGET: '+s+' (operator intent)'); }
    else if(proposed===s){ dwell++; if(dwell>=1){ stateName=s; proposed=null; dwell=0; log('TARGET: '+s+' (sensed, dwell met)'); } }
    else { proposed=s; dwell=0; }
  }
  var base=clone(STATES[stateName]);
- base.density=clamp(base.density+c.crowd*0.22);
- base.arousal=clamp(base.arousal+c.crowd*0.10);
+ base.density=clamp(base.density+c.crowd*0.22); base.arousal=clamp(base.arousal+c.crowd*0.10);
  base.masking_strength=clamp(base.masking_strength+c.crowd*0.14);
  if(it.night){ base.brightness*=0.82; base.event_rate*=0.82; }
- target=base;
- stateEl.textContent=stateName; whyEl.textContent=whyFor(c.node,it);
+ target=base; stateEl.textContent=stateName; whyEl.textContent=whyFor(c.node,it);
 }
 // visualizer
 var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -310,15 +315,15 @@ function drawViz(){
  if(!cx){cv=document.getElementById('viz');if(!cv)return;cx=cv.getContext('2d');
    cv.width=cv.clientWidth*devicePixelRatio;cv.height=cv.clientHeight*devicePixelRatio;}
  var w=cv.width,h=cv.height,hue=200-cur.brightness*120;
- cx.fillStyle='rgba(13,24,48,'+(reduce?1:0.22)+')';cx.fillRect(0,0,w,h);
+ cx.fillStyle='rgba(13,24,48,'+(reduce?1:0.20)+')';cx.fillRect(0,0,w,h);
  var n=Math.round(6+cur.density*40);
  if(parts.length<n){for(var i=parts.length;i<n;i++)parts.push({x:Math.random()*w,y:Math.random()*h,r:Math.random()});}
  parts.length=n;
  for(var i=0;i<n;i++){var p=parts[i];
-   if(!reduce){p.x+=(0.3+cur.arousal*1.6)*devicePixelRatio;p.y+=Math.sin((p.x/90)+p.r*6)*0.6;if(p.x>w)p.x=0;}
-   var rad=(2+p.r*6+cur.pulse_strength*6)*devicePixelRatio;
+   if(!reduce){p.x+=(0.2+cur.arousal*1.2)*devicePixelRatio;p.y+=Math.sin((p.x/110)+p.r*6)*0.5;if(p.x>w)p.x=0;}
+   var rad=(2+p.r*6+cur.pulse_strength*5)*devicePixelRatio;
    cx.beginPath();cx.arc(p.x,(p.y%h+h)%h,rad,0,7);
-   cx.fillStyle='hsla('+hue+','+(40+cur.brightness*40)+'%,'+(55+flashV*25)+'%,'+(0.28+cur.novelty_budget*0.4)+')';cx.fill();}
+   cx.fillStyle='hsla('+hue+','+(40+cur.brightness*40)+'%,'+(55+flashV*25)+'%,'+(0.24+cur.novelty_budget*0.4)+')';cx.fill();}
  flashV*=0.90;
  if(reduce){var g=cx.createLinearGradient(0,0,w,0);g.addColorStop(0,'hsl('+hue+',50%,45%)');g.addColorStop(1,'#0d1830');
    cx.fillStyle=g;cx.fillRect(0,h-14*devicePixelRatio,w*cur.density,14*devicePixelRatio);}
