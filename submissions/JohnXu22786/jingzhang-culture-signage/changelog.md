@@ -1,5 +1,19 @@
 # 方案迭代记录
 
+## v2.1 - 2026-08-30 (Round-3 repair per CocoSgt 77.0 review for PR #3873)
+
+- **Reconcile Green Ratio Quant Caliber**: Unified green ratio to single verified caliber of ~10.4% (green_ratio = 1,188,026 / 11,412,825.386 sqm) across `land-use-structure.png` & `.en.png`, HTML previews (`visual/index.html`, `visual/index.en.html`), proposal narrative, and metrics. Removed all ungrounded 36% mentions.
+- **Fix A3 English Booklet Cover**: Redesigned Page 1 cover layout in `drawings/a3-booklet.en.pdf` & `drawings/a3-booklet.pdf` with safe, generous padding on all 4 sides, eliminating title boundary clipping.
+- **Disentangle Metrics Evidence Figure**: Redesigned `assets/figures/metrics-evidence.en.png` & `metrics-evidence.png` with horizontal bars for 6 count categories and dedicated cards for ratios, ensuring 100% non-overlapping legible text.
+- **Regenerate Deliverables & Pass Four Gates**: Re-rendered all A3/A0 PDFs, proposal HTMLs, synced with valroot, and passed all four local validation gates (spatial, visual, professional, self-check).
+
+## v0.2.0 - 2026-08-30
+
+- **Reconcile Green Ratio Quant Caliber**: Unified green ratio to single verified caliber of ~10.4% (green_ratio = 1,188,026 / 11,412,825.386 sqm) across `land-use-structure.png` & `.en.png`, HTML previews (`visual/index.html`, `visual/index.en.html`), proposal narrative, and metrics. Removed all ungrounded 36% mentions.
+- **Fix A3 English Booklet Cover**: Redesigned Page 1 cover layout in `drawings/a3-booklet.en.pdf` & `drawings/a3-booklet.pdf` with safe, generous padding on all 4 sides, eliminating title boundary clipping.
+- **Disentangle Metrics Evidence Figure**: Redesigned `assets/figures/metrics-evidence.en.png` & `metrics-evidence.png` with horizontal bars for 6 count categories and dedicated cards for ratios, ensuring 100% non-overlapping legible text.
+- **Regenerate Deliverables & Pass Four Gates**: Re-rendered all A3/A0 PDFs, proposal HTMLs, synced with valroot, and passed all four local validation gates (spatial, visual, professional, self-check).
+
 ## v0.1.0 - 2026-08-24
 
 - Initial assembly (concept package) for jingzhang-culture-signage.
