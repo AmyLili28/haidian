@@ -68,7 +68,7 @@ It does - and the reason is structural, not a matter of confidence.
 **Second, the three-ring framework extrapolates by scaling levels.** The rings are defined by distance from the park edge face, not by absolute area. After expansion the proposal recommends additional seepage levels at 500 m, 1 km and 2 km, each governed by the same three tests:
 
 1. every near-side unit within that level still keeps **at least one 24-hour public crossing passage**;
-2. every AI service within that level still keeps **a human-equivalent path** (the "crossable" and "countable" covenants holding together);
+2. every AI service within that level still keeps **a human-equivalent path** (the "crossable" and "countable" covenants holding together; same rule as red line A2 - currently 8/12, final 12/12, and no go-live before completion);
 3. the **service radius of a near-side room never exceeds 300 m** - growth adds units, it does not stretch the radius.
 
 Expansion thickens the link ring; it does not change how the near side works. **The belt gets wider; the last 300 metres does not change.**
@@ -97,16 +97,27 @@ Even if the official area doubles, what this proposal hands over is the same met
 
 ### Global AI Innovation Ecosystem Cases (agent.2)
 
-| # | Case | Transferable mechanism | Implication for THE NEAR SIDE |
-|---|---|---|---|
-| 1 | London King's Cross / Knowledge Quarter | Rail-land renewal + public space before buildings + fine street grid | Fix the park edge face first, then create near-side units; do not start with parcels [standard:MOHURD-URBAN-DESIGN-MEASURES]. |
-| 2 | Barcelona 22@ | Special land-use category binding renewal to public facilities | Turn "near-side interface reserve" into a flexible land-use instrument [standard:MOHURD-CONTROL-DETAILED-PLANNING]. |
-| 3 | Boston Kendall Square | Towers + setbacks killed ground floors; later regulations had to rescue them | Near-side band must mandate ground-floor continuity from day one. |
-| 4 | New York Cornell Tech | Public land exchanged for long-term research and employment commitments | A reference for Zhongzhiyuan land-supply mechanism, but specific contracts require statutory process. |
-| 5 | Paris Station F | Railway depot into giant startup space + surrounding dense blocks | Dazhongsi's existing large-space stock is comparable; no specific building retrofit is assumed. |
-| 6 | Tokyo Shibuya / Otemachi | Station-city integration + 3D pedestrian network + FAR transfer | Reference method for Dazhongsi four-quadrant connectivity; only conceptual direction is given. |
-| 7 | Helsinki Kalasatama | City as real testbed + resident co-creation + access/exit rules | Low-speed robot and AI public scenarios must have exit conditions. |
-| 8 | Seoul Seongsu-dong | Old industrial riverfront into walkable innovation neighbourhood | Blue-green space is not decoration; it is the continuity that makes the last 300 metres walkable. |
+| # | Case | Transferable mechanism | Implication for THE NEAR SIDE | Source |
+|---|---|---|---|---|
+| 1 | London King's Cross / Knowledge Quarter | Rail-land renewal + public space before buildings + fine street grid | Fix the park edge face first, then create near-side units; do not start with parcels | [source:CASE-KINGS-CROSS] |
+| 2 | Barcelona 22@ | Special land-use category binding renewal to public facilities | Turn "near-side interface reserve" into a flexible land-use instrument | [source:CASE-BCN-22] |
+| 3 | Boston Kendall Square | Towers + setbacks killed ground floors; later regulations had to rescue them | Near-side band must mandate ground-floor continuity from day one | [source:CASE-KENDALL] |
+| 4 | New York Cornell Tech | Public land exchanged for long-term research and employment commitments | A reference for Zhongzhiyuan land-supply mechanism, but specific contracts require statutory process | [source:CASE-CORNELL-TECH] |
+| 5 | Paris Station F | Railway depot into giant startup space + surrounding dense blocks | Dazhongsi's existing large-space stock is comparable; no specific building retrofit is assumed | [source:CASE-STATION-F] |
+| 6 | Tokyo Shibuya / Otemachi | Station-city integration + 3D pedestrian network + FAR transfer | Reference method for Dazhongsi four-quadrant connectivity; only conceptual direction is given | [source:CASE-SHIBUYA] |
+| 7 | Helsinki Kalasatama | City as real testbed + resident co-creation + access/exit rules | Low-speed robot and AI public scenarios must have exit conditions | [source:CASE-KALASATAMA] |
+| 8 | Seoul Seongsu-dong | Old industrial riverfront into walkable innovation neighbourhood | Blue-green space is not decoration; it is the continuity that makes the last 300 metres walkable | [source:CASE-SEONGSU] |
+
+**Case source list (background_only, analogy only):** the eight cases above are used for mechanism analogy only, classified `background_only` and not treated as formal factual evidence; until checked against primary sources, each specific mechanism claim is an "analogy hypothesis". Per-case verifiable sources (publisher / title / reuse condition; accessed 2026-08-30):
+
+1. [source:CASE-KINGS-CROSS] King's Cross Central Limited Partnership (led by Argent), "King's Cross masterplan", kingscross.co.uk; reuse limited to the "public space before buildings + fine street grid" idea.
+2. [source:CASE-BCN-22] Ajuntament de Barcelona / 22@Barcelona, "22@ Barcelona: innovation district plan"; reuse limited to the "special land-use category binding renewal to public facilities" logic.
+3. [source:CASE-KENDALL] MIT and the Cambridge Community Development Department's Kendall Square planning studies, plus public academic criticism of "towers + setbacks killing ground-floor vitality"; reuse limited to the "frontage must be mandated early" lesson.
+4. [source:CASE-CORNELL-TECH] Cornell University and NYCEDC, Roosevelt Island campus agreement (bid 2011, opened 2017); reuse limited to the "land exchanged for long-term research and employment commitments" contract idea.
+5. [source:CASE-STATION-F] Station F (founder Xavier Niel), Halle Freyssinet railway depot conversion, opened 2017; reuse limited to the "large railway stock as startup carrier" idea.
+6. [source:CASE-SHIBUYA] Tokyu Fudosan / Mitsubishi Estate, Shibuya station-area redevelopment (Shibuya Scramble Square) and Otemachi Tokyo Midtown station-city practice; reuse limited to the "station-city integration + 3D pedestrian network" direction.
+7. [source:CASE-KALASATAMA] City of Helsinki / Forum Virium Helsinki, "Smart Kalasatama" and its "one more hour a day" programme; reuse limited to the "city as real testbed + resident co-creation + access/exit rules" governance.
+8. [source:CASE-SEONGSU] Seoul Metropolitan Government and related urban-renewal studies on Seongsu-dong's old industrial district; reuse limited to the "old industrial district into walkable innovation neighbourhood" direction (the "riverfront" attribute is kept as an analogy hypothesis pending primary-source check).
 
 ### Three Positionings, Five Functions and Three Areas Plus Two Wings (agent.1)
 
@@ -145,6 +156,17 @@ Mechanism: this proposal emphasises "scenario procurement" rather than industry 
 
 The belt is not isolated. Northward, Zhongzhiyuan links to Beiwei Community and Future Science City via the Qinghe interface. Southeastward, the Xiaoyuehe wing connects the university corridor and Zhongguancun core. Southward, Dazhongsi connects to Xizhimen and Financial Street via the transit network. This proposal does not design cross-district space; it reserves three regional synergy interfaces in the link ring: a low-speed test corridor to Beiwei/Future Science City, a pedestrian interface to the university corridor, and a transit connection node from Dazhongsi to Xizhimen [data:geometry/roads.geojson#ROAD-TRANSIT-ZHO] [data:geometry/roads.geojson#ROAD-TRANSIT-ORG] [data:geometry/roads.geojson#ROAD-TRANSIT-DAZ].
 
+At a larger scale, as Haidian's "near-side conversion interface" for AI innovation factors, the belt proposes concept-level synergy with the following regions - **all as negotiable suggestions, not established cooperation or government arrangements**:
+
+| Synergy target | Proposed factor exchange | Space interface (suggested) | Trigger condition |
+|---|---|---|---|
+| Huairou Science City | Basic research, science data and talent from large science facilities | Qinghe interface + rail/arterial interface | After official boundary and regional-planning coordination start |
+| Beijing Economic-Technological Development Area | Smart manufacturing, piloting and industrial landing scenarios | Link ring + arterial corridor interface | After both sides' industry authorities reach intent |
+| Future Science City | Energy, materials and engineering research | North link-ring interface | After regional-planning coordination starts |
+| Beijing-Tianjin-Hebei | Talent, capital and computing-resource factor flows | Rail network and computing-coordination interface | After a cross-regional coordination mechanism is established |
+
+The synergy above presumes no responsibilities or authorities; it is only a concept-level "factor exchange - space interface - trigger condition" framework for later regional-planning deepening.
+
 ## Overall Design Area: Urban Renewal and Regulatory-Plan Urban Design
 
 ### Spatial Structure: No Hinterland, Three Rings
@@ -179,7 +201,7 @@ To avoid giving statutory conclusions on FAR, height, density, setbacks or engin
 
 ![Mobility, Blue-Green Network and the Near-Side Section](assets/figures/mobility-bluegreen.en.png)
 
-- **Phase 1 (0-3 years): near-side band (0-300 m)** — can start without the official redline. Core actions: define the park edge face (R0 survey), establish the 33 near-side unit ledger, repair accessibility breaks, and pilot low-speed robot yield lanes. Area [metric:phase_1_area_sqm].
+- **Phase 1 (0-3 years): near-side band (0-300 m)** — starts with desk preparation that does not depend on the official redline. Proceed first: form the unit teams, establish the initial 33-unit ledger against the provisional boundary, and complete desk-level obstacle listing and stakeholder communication. Physical actions that must wait for official boundary/ownership verification, site survey and necessary authorisation: park edge face definition (R0 survey), accessibility-break physical repair, and low-speed robot yield-lane equipment installation. Area [metric:phase_1_area_sqm].
 - **Phase 2 (3-7 years): seepage ring (300-500 m)** — open institute walls and compound interfaces, retrofit ground-floor uses, build mixed blocks and talent apartments. Area [metric:phase_2_area_sqm].
 - **Phase 3 (7-12 years): link ring (>500 m)** — larger-scale building renewal and regional synergy; requires official regulatory controls, ownership data and engineering conditions. Area [metric:phase_3_area_sqm].
 
@@ -200,11 +222,11 @@ Commitments scattered across the chapters are collected here. All are **concept 
 | C9 | Night-time lighting coverage of near-side units | >=70% | >=95% | lighting ledger |
 | C10 | Unfavourable readings about oneself are published too | every period | every period | audit report |
 
-C1 and C5 already have recomputable metrics in `metrics.json`: `equivalent_access_coverage_ratio` (equivalent-access coverage for people who are not digitally served) and `human_fallback_scenario_ratio` (AI scenario human-backup rate). The former divides features such as [data:geometry/roads.geojson#ROAD-PASS-001] by the near-side unit count and can be independently recomputed from the submitted geometry [metric:equivalent_access_coverage_ratio] [metric:human_fallback_scenario_ratio]. Note that C5's 66.7% is the **current design value, not the target**: 8 of the 12 scenario cards already carry a human-review node, and the remaining 4 (public-safety operations review, enterprise service copilot and others) must be completed before phase 2 - until then those scenarios must not go live. This one is not relaxed for schedule or cost.
+C1 and C5 already have recomputable metrics in `metrics.json`: `equivalent_access_coverage_ratio` (equivalent-access coverage for people who are not digitally served) and `human_fallback_scenario_ratio` (AI scenario human-backup rate). The former divides features such as [data:geometry/roads.geojson#ROAD-PASS-001] by the near-side unit count and can be independently recomputed from the submitted geometry [metric:equivalent_access_coverage_ratio] [metric:human_fallback_scenario_ratio]. Note that C5's 66.7% is the **current design value, not the target**: 8 of the 12 scenario cards already carry a human-review node, and the remaining 4 (S07 open-source showcase, S08 scenario sandbox, S10 community co-governance board, S12 Jing-Zhang cultural guide) must be completed before phase 2 - until then those scenarios must not go live. This one is not relaxed for schedule or cost.
 
 ### Phase-1 90-Day Starter Pack and Phase KPIs
 
-Implementability is not a sentence about phasing. This proposal gives a first batch of actions that can be completed within ninety days without any unpublished official data [depth:phasing_implementation]:
+Implementability is not a sentence about phasing. This proposal gives a first batch of actions within ninety days: desk preparation such as document collation, stakeholder communication and survey-plan design does not depend on unpublished official data and can start immediately; any survey determination, physical repair, equipment installation, passage opening and responsibility confirmation is placed after official geometry/ownership verification, site survey and necessary authorisation [depth:phasing_implementation]:
 
 | Day | Action | Deliverable | Acceptance |
 |---|---|---|---|
@@ -213,6 +235,8 @@ Implementability is not a sentence about phasing. This proposal gives a first ba
 | 41-60 | Repair accessibility and lighting breaks first | Repair record | 100% of repairs have before/after records |
 | 61-75 | Launch indicator boards at three pilot units (entrance count, break count, opening hours, audit result) | Indicator board v0 | Data recomputable from submitted geometry |
 | 76-90 | First public audit; publish the discrepancy record | Audit report v1 | Unfavourable readings published too |
+
+In the table above, the 0-40 day document collation, communication and survey-plan design are the desk preparation that can proceed first; the 41-75 day physical repair, equipment installation and responsibility confirmation require ownership verification and site authorisation, and if authorisation cannot be obtained within 90 days, the deliverable is the completed obstacle ledger, survey plan and pilot application - physical actions are not forced through.
 
 Indicative phase KPIs (concept proposals, not assessment commitments): by the end of phase 1, 100% ledger coverage, accessibility-break repair rate >=60%, near-side room opening rate >=50%; by the end of phase 2, >=24 new public interfaces in the seepage ring and >=12 streets meeting ground-floor continuity; by the end of phase 3, >=3 regional synergy interfaces. Missing a target is not a reason to lower it; it is a reason to publish the discrepancy and explain why.
 
@@ -262,26 +286,28 @@ A transit-station and business cluster. Here the last 300 metres takes a concret
 
 ### AI Scenario Cards (agent.3, 12 cards)
 
-| # | Scenario | Spatial location | Users | Privacy and audit boundary |
-|---|---|---|---|---|
-| S01 | Low-speed robot delivery yield lane | Near-side branch roads and crossings | P1, P5 | No face capture; robot identity and operator public |
-| S02 | AI health-service navigation | Near-side rooms NU-07/NU-19 | P3, P6 | Medication advice must have pharmacist review; human window retained |
-| S03 | AI accessibility path planning | Public crossing passages | P8 | Uses only public road geometry, no personal movement data |
-| S04 | AI education Q&A corner | Near-side rooms NU-13-NU-20 | P2, P4 | Answer sources traceable; appeals channel for errors |
-| S05 | AI legal/service navigation | Near-side rooms NU-04/NU-11 | P3, P6 | Does not replace lawyer; mandatory human review node |
-| S06 | Smart lighting and safety prompts | Green spine and units | All | Lighting data processed locally, no personal images uploaded |
-| S07 | Open-source showcase corridor | Green-spine nodes | P1, P4 | Content based on public contribution records |
-| S08 | AI scenario test sandbox | Zhongzhiyuan reserved land | P7 | Test data anonymised; withdrawn if two consecutive audits fail |
-| S09 | Talent apartment matching | Seepage-ring residential blocks | P1 | No unnecessary personal information collected |
-| S10 | Community co-governance board | Near-side room | P6 | Records public but anonymous option retained |
-| S11 | Dynamic transit connection guidance | Dazhongsi near-side units | P4 | Uses only public operational data |
-| S12 | Jing-Zhang culture AI guide | Milestone nodes | P4, tourists | Historical facts tied to official sources |
+| # | Scenario | Spatial location | Users | Human-equivalent path / final-decision node | Appeal / exit |
+|---|---|---|---|---|---|
+| S01 | Low-speed robot delivery yield lane | Near-side branch roads and crossings | P1, P5 | Stop button + on-site human takeover (mandatory); robot identity and operator public | Pedestrians may stop it on site and log an appeal |
+| S02 | AI health-service navigation | Near-side rooms NU-07/NU-19 | P3, P6 | Pharmacist review (mandatory); human window retained | Medication advice may be re-audited |
+| S03 | AI accessibility path planning | Public crossing passages | P8 | Human counter + paper route card (mandatory); public road geometry only | Route errors appealable and fixable |
+| S04 | AI education Q&A corner | Near-side rooms NU-13-NU-20 | P2, P4 | Human answering (mandatory); answer sources traceable | Appeals channel for errors |
+| S05 | AI legal/service navigation | Near-side rooms NU-04/NU-11 | P3, P6 | Mandatory human review node; does not replace lawyer | Service conclusions re-auditable |
+| S06 | Smart lighting and safety prompts | Green spine and units | All | Human takeover (mandatory); lighting data local | False/missed alerts loggable |
+| S07 | Open-source showcase corridor | Green-spine nodes | P1, P4 | Human narration (mandatory review added before phase 2) | Content correctable |
+| S08 | AI scenario test sandbox | Zhongzhiyuan reserved land | P7 | Human on-site supervision (test data anonymised) | Withdrawn wholesale if two consecutive audits fail |
+| S09 | Talent apartment matching | Seepage-ring residential blocks | P1 | Human review node (mandatory); no unnecessary personal data | Match results appealable and re-matched |
+| S10 | Community co-governance board | Near-side room | P6 | Community worker facilitation (mandatory review added before phase 2) | Records public but anonymous option |
+| S11 | Dynamic transit connection guidance | Dazhongsi near-side units | P4 | Human enquiry counter (mandatory); public operational data only | Guidance errors appealable |
+| S12 | Jing-Zhang culture AI guide | Milestone nodes | P4, tourists | Human narration (mandatory review added before phase 2); official sources | Factual errors appealable |
+
+**Human-fallback decision rule (consistent with red line A2):** any scenario whose AI output can materially affect personal safety, health, law, education, employment or accessible travel (S01, S02, S03, S04, S05, S06, S09, S11 - 8 cards) must carry a named human review / final-decision node now; the other 4 (S07, S08, S10, S12) are low-material-impact scenarios whose phase-1 fallback is a human counter, human supervision or human narration, and they must add a mandatory human-review node before phase 2 and must not go live until then. `human_fallback_scenario_ratio` = 8/12 follows from this rule.
 
 ### Three Industry Test/Validation Scenarios (agent.3)
 
-1. **Low-speed robot and autonomous shuttle proving ground (T1):** in the Zhongzhiyuan Test Street, a 300 m loop requires 100% pedestrian priority yielding, zero unexplained emergency stops and <3 s human-takeover response over 72 hours before entering near-side room pilots.
-2. **AI public-service auditability validation (T2):** at three AI Origin Community near-side rooms, the same set of health/law/education questions is answered independently by AI, social workers and professionals; consistency below threshold triggers segment withdrawal and public discrepancy logging.
-3. **Ground-floor activation validation (T3):** in two Dazhongsi near-side units, a 6-month cycle measures storefront turnover, night-time lighting coverage and pedestrian dwell time; failure to meet targets leads to tenant-mix guidance rather than forced eviction.
+1. **Low-speed robot and autonomous shuttle proving ground (T1):** in the Zhongzhiyuan Test Street, a 300 m loop over a design-suggested 72 hours of continuous testing observes pedestrian-priority yielding rate, unexplained emergency stops and human-takeover response time, with suggested targets of 100% yielding, zero unexplained stops and <3 s takeover (all design-suggested values pending pilot calibration, not verified performance). Passage precedes near-side room pilots; two consecutive failed periods stop the programme.
+2. **AI public-service auditability validation (T2):** at three AI Origin Community near-side rooms, draw 10 questions each for health, law and education - 30 benchmark questions in total (sample scope co-approved by professional teams and the community, kept unpublished to prevent teaching-to-test) - answered independently by AI, licensed professionals and community social workers. The "professional answer" is the professional benchmark; compute per-domain consistency between AI and the benchmark as "consistent items / total items". Design-suggested threshold: per-domain consistency <80% withdraws that domain's scenario wholesale, publishes the discrepancy and falls back to the human-equivalent path (threshold and 30-item sample are design-suggested values pending pilot calibration). After each withdrawal, one re-audit within 30 days; two consecutive failed periods stop the programme.
+3. **Ground-floor activation validation (T3):** in two Dazhongsi near-side units, a design-suggested 6-month cycle measures storefront turnover, night-time lighting coverage and pedestrian dwell time; targets are design-suggested values (e.g. night-time lighting coverage >=70% in phase 1), and failure leads to tenant-mix guidance rather than forced eviction.
 
 ### The Four-Step AI-in-Planning Loop and Quarterly Audit
 
@@ -337,7 +363,7 @@ Honour-display system: each near-side unit has an "indicator board" publicly sho
 
 All projects map onto the three phases in `geometry/phasing.geojson` [data:geometry/phasing.geojson#PHASE_1] [depth:phasing_implementation], and each states an explicit exit-on-failure condition. A project may fail, but it may not continue silently.
 
-| # | Project | Location | Implementing actors | Precondition | Phase | Exit-on-failure condition |
+| # | Project | Location | Suggested responsible roles* | Precondition | Phase | Exit-on-failure condition |
 |---|---|---|---|---|---|---|
 | R0 | Park edge face survey | Whole belt | Planning authority + surveyor | Official polygon release | 0-6 months | None, but all later projects depend on it |
 | R1 | Near-side unit ledger | 33 NU | Streets + communities + AI assistant | R0 or provisional boundary | Phase 1 | If ownership cooperation unavailable, demote to background study |
@@ -347,6 +373,8 @@ All projects map onto the three phases in `geometry/phasing.geojson` [data:geome
 | R5 | Talent apartments and mixed blocks | Seepage ring | Investors/operators | Official controls + funding | Phase 2 | Revert to retain if market feasibility insufficient |
 | R6 | Dazhongsi station-front Arrival Hall | Dazhongsi | Transit operator + streets | Station entrance coordinates public | Phase 2 | If engineering infeasible, keep ground-level guidance |
 | R7 | Regional synergy interfaces | Key-area link rings | District government + regional platforms | Regional planning coordination | Phase 3 | Maintain status quo if coordination fails |
+
+\* The "suggested responsible roles" above are concept proposals pending negotiation; the final responsible actors must be confirmed through negotiation with the planning authority, ownership bodies, streets, communities and operators, and do not constitute any party's implementation obligation before confirmation.
 
 Policy instruments proposed (not commitments): create a "near-side interface reserve" flexible land-use category; include low-speed robot tests in traffic-management pilots; make ground-floor continuity and wall openings a precondition for urban-renewal incentives; use scenario procurement as the main public-budget mechanism to support AI innovation.
 

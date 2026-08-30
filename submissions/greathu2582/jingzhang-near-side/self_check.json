@@ -70,7 +70,7 @@
       "ai_package_stages": {
         "submissions/greathu2582/jingzhang-near-side": "formal"
       },
-      "total_bytes": 17846362,
+      "total_bytes": 19428321,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -148,7 +148,7 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 9,
+          "source": 17,
           "standard": 8,
           "depth": 4,
           "data": 18,

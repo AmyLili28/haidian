@@ -66,6 +66,75 @@
    "source_type": "agent_inferred_from_public_data",
    "path": "assumptions.json",
    "usage": "Background reference to GB/T 51328-2018 road-network density; not stored locally, used only as design orientation."
+  },
+  {
+   "id": "CASE-KINGS-CROSS",
+   "source_type": "background_only",
+   "publisher": "King's Cross Central Limited Partnership (led by Argent)",
+   "title": "King's Cross masterplan",
+   "url": "https://www.kingscross.co.uk",
+   "accessed": "2026-08-30",
+   "usage": "Analogy only: public space before buildings + fine street grid. Not formal factual evidence."
+  },
+  {
+   "id": "CASE-BCN-22",
+   "source_type": "background_only",
+   "publisher": "Ajuntament de Barcelona / 22@Barcelona",
+   "title": "22@ Barcelona innovation district plan",
+   "url": "https://www.22barcelona.com",
+   "accessed": "2026-08-30",
+   "usage": "Analogy only: special land-use category binding renewal to public facilities."
+  },
+  {
+   "id": "CASE-KENDALL",
+   "source_type": "background_only",
+   "publisher": "MIT / City of Cambridge Community Development Department",
+   "title": "Kendall Square planning studies and public critiques",
+   "accessed": "2026-08-30",
+   "usage": "Analogy only: towers + setbacks killing ground-floor vitality; frontage must be mandated early."
+  },
+  {
+   "id": "CASE-CORNELL-TECH",
+   "source_type": "background_only",
+   "publisher": "Cornell University / NYCEDC",
+   "title": "Cornell Tech Roosevelt Island campus agreement",
+   "url": "https://tech.cornell.edu",
+   "accessed": "2026-08-30",
+   "usage": "Analogy only: land exchanged for long-term research and employment commitments."
+  },
+  {
+   "id": "CASE-STATION-F",
+   "source_type": "background_only",
+   "publisher": "Station F (founder Xavier Niel)",
+   "title": "Halle Freyssinet railway depot conversion, opened 2017",
+   "url": "https://stationf.co",
+   "accessed": "2026-08-30",
+   "usage": "Analogy only: large railway stock converted into a startup carrier."
+  },
+  {
+   "id": "CASE-SHIBUYA",
+   "source_type": "background_only",
+   "publisher": "Tokyu Fudosan / Mitsubishi Estate",
+   "title": "Shibuya station-area redevelopment and Otemachi Tokyo Midtown",
+   "accessed": "2026-08-30",
+   "usage": "Analogy only: station-city integration + 3D pedestrian network."
+  },
+  {
+   "id": "CASE-KALASATAMA",
+   "source_type": "background_only",
+   "publisher": "City of Helsinki / Forum Virium Helsinki",
+   "title": "Smart Kalasatama, 'one more hour a day' programme",
+   "url": "https://forumvirium.fi",
+   "accessed": "2026-08-30",
+   "usage": "Analogy only: city as real testbed + resident co-creation + access/exit rules."
+  },
+  {
+   "id": "CASE-SEONGSU",
+   "source_type": "background_only",
+   "publisher": "Seoul Metropolitan Government and urban-renewal studies",
+   "title": "Seongsu-dong old industrial district activation",
+   "accessed": "2026-08-30",
+   "usage": "Analogy only: old industrial district into walkable innovation neighbourhood; 'riverfront' attribute kept as analogy hypothesis pending primary-source check."
   }
  ]
 }
