@@ -10,7 +10,8 @@ translation_file: proposal.en.md
 summary: "A provisional one-belt concept plan anchored by Qinghuayuan Station: three positions, five functions, a Three Districts–Two Wings spatial/function/actor loop, twelve scenario cards, three proposed test protocols and a reversible, human-reviewed operating model. Unverified history, cases and interviews are not treated as facts."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v2.0-direct-repair"
+iteration: "v2.1-review-5061474033"
+package_version: "v2.1-review-5061474033-2026-08-31"
 ---
 
 # Qinghuayuan Station · Centennial Jingzhang Cultural Anchor: One-Belt Concept Plan
@@ -25,7 +26,7 @@ The package distinguishes taskbook requirements, public policy/method references
 
 Specific station history, heritage status, ownership, boundaries, traffic, utilities, interviews and visitor data are not filled in without a verifiable source. The existing `geometry/` layer is a provisional input and must be replaced/recomputed when official boundary, survey, control and operating data arrive.[source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605] [data:geometry/site_boundary.geojson] [data:geometry/key_areas.geojson]
 
-`sources.json` records IDs, URLs/paths, source type, dates, verification status and reuse boundaries. The eight global AI ecology entries are traceable research queues but remain “to verify”; they are not performance evidence or partnership claims. Text, drawings, PNGs, HTML, Logo sketches, scenario cards, fonts and AI-assisted material are governed by `report/copyright_statement.md`.[source:PACKAGE-SOURCES-REGISTRY] [source:PACKAGE-RIGHTS-LEDGER]
+`sources.json` records IDs, URLs/paths, source type, dates, verification status and reuse boundaries. Six of the eight global AI ecology entries now have a primary institutional page review; two remain “to verify”. None is performance evidence or a partnership claim. Text, drawings, PNGs, HTML, Logo sketches, scenario cards, fonts and AI-assisted material are governed by `report/copyright_statement.md` and `report/asset_rights_ledger.md`.[source:PACKAGE-SOURCES-REGISTRY] [source:PACKAGE-RIGHTS-LEDGER]
 
 ## Three-Level Scope Framework
 
@@ -85,7 +86,18 @@ The three AI cultural landmarks mean evidence entry, public echo and slow-mobili
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
-The ecology map connects content, data, models, space, operation and governance. Its outer ring contains eight global AI-ecosystem research entries; its inner ring contains the three nodes, five spatial units and T1–T3. Every case has a source ID and URL/path, but all are **to verify / research only**. No performance, partnership, funding, ranking or public endorsement is asserted until a reviewer opens the original page, records the date, checks the named actor and clears the reuse boundary.[source:PACKAGE-AI-CASE-QUEUE]
+The ecology map connects content, data, models, space, operation and governance. Its outer ring contains eight global AI-ecosystem entries; its inner ring contains the three nodes, five spatial units and T1–T3. Six cases have been checked against their primary institutional pages and two remain **to verify / research only**. The package records original title, named body, date status, factual note, comparable/non-comparable dimension, licence/screenshot status, verifier and review date in `sources.json`. No performance, partnership, funding, ranking or public endorsement is asserted.[source:PACKAGE-AI-CASE-QUEUE]
+
+| Case | Original page / body / date | Fact checked | Comparable / not comparable | Licence, screenshot and verifier |
+|---|---|---|---|---|
+| AI Singapore | **100 Experiments** / AI Singapore / not stated on page | The page describes a problem-statement-to-PoC/MVP framework and 3-month PoC and 6-month development paths | Problem briefs and time-boxed prototypes / Singapore funding and mandate do not transfer | URL and short note only; no screenshot/logo reused; Codex SA, 2026-08-31 |
+| Mila | **Mila – Quebec Artificial Intelligence Institute** / Mila / not stated on page | The page identifies a research community, Mila Ventures Launchpad and AI Policy Compass | Research–startup–policy interfaces / scale, funding and campus governance do not transfer | URL and short note only; no screenshot/logo reused; Codex SA, 2026-08-31 |
+| Vector Institute | **About Vector Institute** / Vector Institute / not stated on page | The page describes research, talent, practical adoption and organisational support | Research/talent/organisation interface / Canadian corporate and partner model is not a local agreement | URL and short note only; no screenshot/logo reused; Codex SA, 2026-08-31 |
+| The Alan Turing Institute | **About us** / The Alan Turing Institute / not stated on page | The page identifies an independent UK data-science and AI institute with research, skills and public-dialogue goals | Research–skills–public dialogue / UK charity and national network are not a local template | URL and short note only; no screenshot/logo reused; Codex SA, 2026-08-31 |
+| City of Helsinki | **Get to know AI Register** / City of Helsinki / 2020-06-29 indexed page date; exact page date not stated | The page describes an AI register with system overviews, feedback and human accountability | Public AI transparency and feedback / Helsinki law and digital-service context differs | URL and short note only; no screenshot/logo reused; Codex SA, 2026-08-31 |
+| Data & Society | **About Us** / Data & Society / not stated on page | The page identifies an independent nonprofit research and policy institute studying social, political and economic implications of data, automation and AI | Public-interest research and policy engagement / research mission is not site operation or authority | URL and short note only; no screenshot/logo reused; Codex SA, 2026-08-31 |
+
+UAE AI Office and Seoul AI Hub remain queue entries until title, body and page scope are confirmed. They are not used as formal facts.[source:DATA-SRC-CASE-AI-SINGAPORE] [source:DATA-SRC-CASE-MILA] [source:DATA-SRC-CASE-VECTOR] [source:DATA-SRC-CASE-TURING] [source:DATA-SRC-CASE-HELSINKI] [source:DATA-SRC-CASE-DATA-SOCIETY]
 
 ![AI ecology map: six capability layers, Three Districts–Two Wings and verification-queue cases](assets/figures/eco-map.en.png)
 
@@ -168,7 +180,7 @@ Metrics are geometry monitors, package counts and concept targets. Geometry valu
 | [metric:building_footprint_area_sqm] | 111,600 sqm | known concept-geometry count (low-confidence / provisional); not building area, buildable scale, statutory metric or built fact |
 | [metric:green_ratio] | approx. 0.1221 | green area/site area; machine value 0.122122, displayed to four decimals |
 | [metric:public_space_ratio] | approx. 0.0032 | public area/site area; machine value 0.003167, displayed to four decimals |
-| [metric:global_case_count] | 8 | known research-queue count (low-confidence / provisional); all are `to_verify`, not case facts, outcomes, partnerships or endorsements |
+| [metric:global_case_count] | 8 | known research-queue count (low-confidence / provisional); six primary pages reviewed and two queued, not case outcomes, partnerships or endorsements |
 | [metric:scenario_card_count] | 12 | known concept-record count (low-confidence / provisional); eleven fields each, not completed pilots, industry validation or outcome evidence; cards remain withdrawable |
 | [metric:industry_test_scenario_count] | 3 | known proposed-protocol count (low-confidence / provisional); T1/T2/T3 are not completed industry tests, authorized pilots or validation results |
 | [metric:landmark_count] | 3 | known concept-record count (low-confidence / provisional); three `scenario_type=ai_landmark` records, not built landmarks, heritage designation or construction approval |
@@ -204,7 +216,7 @@ Formal sources, verification queues, package geometry and original assets are se
 
 ### Eight global AI-ecosystem verification entries
 
-AI Singapore, Mila, Vector Institute, The Alan Turing Institute, UAE AI Office, Seoul AI Hub, Helsinki AI Register and Data & Society each have a URL/path and planned observation dimension in `sources.json`. All eight remain to verify; none supplies a performance statistic, cooperation statement, award or rights grant in this proposal.[source:PACKAGE-AI-CASE-QUEUE]
+AI Singapore, Mila, Vector Institute, The Alan Turing Institute, UAE AI Office, Seoul AI Hub, Helsinki AI Register and Data & Society each have a URL/path and a verification record in `sources.json`. Six are primary-page reviewed and two remain to verify; none supplies a performance statistic, cooperation statement, award or rights grant in this proposal.[source:PACKAGE-AI-CASE-QUEUE]
 
 ### Bilingual, drawings and rights register
 

@@ -1,5 +1,6 @@
 {
   "schema_version": "0.2.0",
+  "package_version": "v2.1-review-5061474033-2026-08-31",
   "units": {
     "area": "sqm",
     "length": "m",
@@ -215,7 +216,7 @@
       "formula": "count(global AI ecosystem verification-queue entries)",
       "confidence": "low",
       "assumptions": [
-        "Eight is a known count of research pointers only; every entry remains to_verify and is not factual performance, partnership, funding, ranking or endorsement evidence.",
+        "Eight is a known count of research pointers; six have a primary-page review and two remain to_verify. None is performance, partnership, funding, ranking or endorsement evidence.",
         "This is not case fact, performance, ranking, partnership or endorsement evidence."
       ]
     },
