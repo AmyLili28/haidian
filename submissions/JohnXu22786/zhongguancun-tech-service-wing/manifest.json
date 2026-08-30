@@ -130,7 +130,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "3e278018fc8f0649b419bc364802e90d987f9a12d9e2f8f6827a36e2d60db0ef"
+      "sha256": "3c4c7cd5b71b62f3c34f060e1e49cafd3aed26043a86eb77cdcf343938322275"
     },
     {
       "path": "assets/figures/site-overview.en.png",
@@ -138,14 +138,14 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
-      "sha256": "28dc10f88639b39d065ff71b29f5a9e6124c997e081e0329a9cb72e4e28ec55e"
+      "sha256": "c1609fb14460eea2c36d078e5238c18bf48806843b771212c49957aa14f5985d"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "ae81e2dec7b33cd361754aeb16ec6b08b81712f1827b2757035ce74f1e0077f6"
+      "sha256": "a9e2b816f1deb5eb1e4d2a565ceba52b228b267ef308cd162a24779e97260e17"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
@@ -153,14 +153,14 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/land-use-structure.png",
-      "sha256": "d468eea0e1dd6724926189e4300cd9619a873353429f17e08ab0e587bdf89ca3"
+      "sha256": "8d6f45ea42bcd2e8e99db0ef6a4edaebf9e55a0904c619632e54436e965f18c6"
     },
     {
       "path": "assets/figures/key-areas.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "e54a7614ca7ced6871a8eed2eb21209d1c365bcb44a70ec768f4cae3771ddd27"
+      "sha256": "7ec3a4e66682c53a51e9cc5a610a5cf665a24cdcbda42c7e39a074107a4bb2ed"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -168,14 +168,14 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/key-areas.png",
-      "sha256": "0fd59a769d58384a3733eec52bfe071b5e2e85b0198b1639618433a34ca8b927"
+      "sha256": "200f98e2d3274e84022ff0509a17e59b5da19a8044a6c0848cdddf4c321e2ea9"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "a66de52e1055d6dc7e1daf5fe7a01f88fabccb7137f8b73b799192e3ba637715"
+      "sha256": "5cb7b977c1c9f3a2d3d905c59aa9ec218cab57eda3553c8f4469babaaa5344ce"
     },
     {
       "path": "assets/figures/mobility-bluegreen.en.png",
@@ -183,14 +183,14 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/mobility-bluegreen.png",
-      "sha256": "5ca41d92d73ee9d86a2fafea6dcf217932b7d793d3243d62b654b61cdd28d352"
+      "sha256": "cb4773d150e606b86faaac21422f063814de682a3980267259cdda46b737637d"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "5315543943d43a31d2ff5650d816bcd0fcb4dfc281d63079e24a99ffc0430257"
+      "sha256": "f35bcc67fc6b2116ba3cda19c3b786b8ba927b5957196edce99ace8d10e525ae"
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
@@ -198,7 +198,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png",
-      "sha256": "f0044233a3dc856e3fa4937754ce5ceecf254deb21a1c59b04f65dbdc0e9077f"
+      "sha256": "9fb79dc2f4f3061bfc10dc35061b47bfef67539f414e72ea7e56ee758bde63a6"
     },
     {
       "path": "assets/figures/logo-zhilink.png",
@@ -220,7 +220,7 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "561a58c7e42bcc1d5e11c609ba2dca9541846833883a9780eadb4fdd4c29cf2c"
+      "sha256": "29b025f6681814f95f1a0c24c284798db45f87acf54a01a3dec4556c0346a69d"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -228,14 +228,14 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "04f49f7200105c785540bc690ff7e832ebbfc7c2bf47d995acb64348e9154f1f"
+      "sha256": "6f178cb7c1ed778850d3843708f71d22025ab9bd2643d02e7106ba8015b70188"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "10b672545d87eec2e1c08035dde8846de55be2a20725dfb1b37d278080d83a71"
+      "sha256": "372eebaf14d366d6541f63ba25357e6451e13570825fa514e1cabceb47288f60"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "85b4df6581a94093c2e288d26d94338c448201900f2dd7c2a78f5c2cccd6f1fd"
+      "sha256": "408ab25433feb17748758909a4ad56c7acb1f7c44f8bfe78d32c460b762ce4a4"
     },
     {
       "path": "proposal.md",
@@ -285,7 +285,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "712cb7fd8ac24dd4743058227cfd575fc87b035d51d1e7a05aed32da5dd47c0d"
+      "sha256": "b3563540e707b1656577f227bb84c069aff62ee2a7164c4f362f52ba1d7530ac"
     },
     {
       "path": "report/proposal.en.html",
@@ -293,14 +293,14 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "f3ff8753f35cb268977d5fcd5ec47c1e3d2767b0c7c2a9598f6f90543ed4fa36"
+      "sha256": "d86469bd6850647b0e0d3af522c382411014720e4c94678c1462d22bd364da84"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "8b00d665895d0cd2adc1dfb7182b3fcd43fb5728393b58f28e2ce00d47d3fec6"
+      "sha256": "f0c48a3f53b3dea2b604fdb3d3481d60fe095a560ba002b6b73945c5067d73c9"
     },
     {
       "path": "visual/index.en.html",
@@ -308,7 +308,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "f74f9b89fde8a2e9de5839d02914ab2bb4e0d1654b40a4e97b7447e027a9d7ae"
+      "sha256": "68aa49b68a9b602380b0b95435094965bc9621fd431d59eb482dba20defe05ec"
     },
     {
       "path": "risk.json",
@@ -334,7 +334,7 @@
     }
   ],
   "validation_claim": {
-    "self_checked": true,
+    "self_checked": false,
     "known_blockers": [],
     "data_confidence": "medium",
     "readiness_contract": "persisted-self-check-v1"
