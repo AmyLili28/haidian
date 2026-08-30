@@ -51,7 +51,13 @@ Beijing AI Origin Community is responsible for real-problem intake and youth co-
 
 Dazhongsi AI Industry Cluster is responsible for productization, commercial classification, and international exchange. Its sequence includes a metro gateway, four-quadrant walking repair, movable service points, active ground-floor validation halls, shared enterprise services, international exchange, and operations back-of-house. The main site remains a conditional candidate, not a claim of space, approval, investment, or enterprise commitment.
 
-![Key-area design tasks](assets/figures/key-areas.en.png)
+The following labeled effect images explain spatial character and use scenarios only. They do not replace boundaries, metrics, statutory planning, approvals, construction quantities, or investment commitments.
+
+![Zhongzhiyuan labeled effect image](assets/figures/10-zhongzhiyuan-aerial-transport-en.png)
+
+![AI Origin Community labeled effect image](assets/figures/11-ai-origin-community-aerial-en.png)
+
+![Dazhongsi labeled effect image](assets/figures/12-dazhongsi-aerial-en.png)
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 

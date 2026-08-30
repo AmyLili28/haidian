@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "11187124c230c61167d456375077071e842c6daa47518adfdaa3783363cb6cbe"
+      "sha256": "c466a85b1c6391ee62352b43b0dc1f1e45eb9542f1ea549e81c6f080772ccef6"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "e16a2f53a06cbd72e72e616747c7f6e4df6a284eca527dc508010bb15bc560e8"
+      "sha256": "93fb449f74f82e35347a3ebfce4677a55a92288a71c1b91e299e3a6d97d0e950"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -235,7 +235,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "15e0f291e1db534f93a16a193a2094e459404c65f9c328fd179450ca1bd8bf80"
+      "sha256": "35628f0a00d98c21e771f5cbe7d8f3e11ab67145660e992006b59dc7a73e404d"
     },
     {
       "path": "drawings/exhibition-boards.zh.pdf",
