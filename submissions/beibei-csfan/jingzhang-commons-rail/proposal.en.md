@@ -10,8 +10,8 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "A walkable, verifiable, switch-off public gallery stitches a three-gate funnel: Ready Gate at Zhongzhiyuan, Shared-Measure Gallery at Origin Community, and Operations Handover Hall at Dazhongsi. Boundaries are provisional; three core metrics are recalculated from this package in EPSG:4548."
 tracks: ["ai-traffic-walkability", "civic-agent-governance", "youth-friendly-public-space"]
 scenarios: ["ai-traffic-walkability", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: 5
-version: "1.4.0"
+iteration: 6
+version: "1.5.0"
 ---
 
 # Jingzhang Commons Gallery
@@ -45,6 +45,26 @@ The coordinated layer does not draw a new 43.6 km² redline. It only writes conc
 ## Coordinated Research Area: Industry and Future City Research
 
 The belt is named 京张共证廊 / Jingzhang Commons Gallery. One structural sentence: a walkable, verifiable, switch-off public gallery stitches a ready–measure–operate funnel [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]. The logo direction is a rail cross-section plus a door that can open or close: open in daily life, closed during verification. No corporate badge, no historical portrait.
+
+The previous review said visual identity that stays at direction, hierarchy and graphic language is not yet a complete, implementable brand specification. The table below is a concept VI a professional visual team can build on a grid. **It is not a registered trademark and not a government colour standard.**
+
+| Item | Locked value | Minimum / licence bound | Stop rule |
+| --- | --- | --- | --- |
+| Chinese name | 京张共证廊 (must not split into two brand lines) | Full name readable in print | Split name or pun substitute |
+| English name | Jingzhang Commons Gallery | Do not shorten to JCG in public | Invented uncleared festival name |
+| One claim | 关掉账号也能走完的核验廊 / A gallery you can walk with AI off | Same sentence as `visual/index.en.html` | Cyber-neon posing as built work |
+| Logo construction | 8×8 grid: rail I-section + openable door | Clear space = 1 door-leaf; print ≥12 mm high; screen ≥32 px | Rotate >15°, add corporate badge or historical portrait |
+| Colour chips (package concept) | Ink `#1A1A1A` · Paper `#F7F4EC` · Gallery olive `#5B6B4A` · Ochre `#A67C52` · Slate `#4A5A6B` · Stop `#8B3A3A` | Not an official Haidian palette | Neon replacing Stop |
+| Type | Chinese visible face: WenQuanYi Micro Hei subset (embedded Apache-2.0); English: system sans | Does not claim a purchased Source Han / Helvetica licence | CDN remote fonts |
+| Belt lockup | Full name + logo | 12 mm / 32 px | Event sticker replacing the logo |
+| Gate mark | Ready / Measure / Operate + colour dot | 8 mm | Mixing in the event sticker |
+| Paper wayfinding | Claim + no-login | A5 | QR required to walk |
+| Digital header | visual lockup | Offline | Linked script fonts |
+| Event sticker | Time-limited Commons Open Day | Must not exceed the logo | Written as a fixed government festival |
+
+Do: thin line, bilingual, PROVISIONAL, walkable with AI off. Don't: neon as-built, corporate badge, historical portrait, event sticker replacing belt identity, calling this spec a registered mark [metric:brand_lockup_count].
+
+![Implementable brand spec (concept, not a registered mark)](assets/figures/brand-spec.en.png)
 
 Three positions become space: a global AI highland maps to Ready Gate’s edge-attached test yard; a pilgrimage place maps to three checkable landmarks rather than a light show; a high-quality district maps to the no-login walk section. Among the five functions, innovation and testing sit at Zhongzhiyuan, translation and talent services sit at Origin, consumption and international handover sit at Dazhongsi, cultural checking sits along the gallery, and governance review sits in the annual open day.
 
@@ -170,9 +190,34 @@ A conceptual technical stack (not deployed; no vendor; no MW / GPU counts) keeps
 | L4 Adjudicate | Objections, blocks, over-reaching tests | Objection text | **Human only**; the model must not close a case | Face-to-face duty desk | Automated over-blocking |
 | L5 Switch-off | After L2–L3 are off, the spine still walks | No leftover account session | Park duty confirms the path is open | Physical slow section | Login gate on the spine |
 
-This stack is a reference architecture, not a live system, and it does not enter a regulatory plan or a tender [depth:overall_spatial_structure].
+This stack is a reference architecture, not a live system, and it does not enter a regulatory plan or a tender [depth:overall_spatial_structure]. The previous review therefore stayed at strong: the stack is explicitly not deployed and has no field verification. This round does not invent a field baseline; it writes “not deployed” as a tabletop protocol that can be run now.
+
+Tabletop verification protocol (TABLETOP-ONLY; field status is “not done” on every row) [metric:tabletop_drill_count]:
+
+| Layer | Input available now | Output | Fail drill | Pass criterion | Field |
+| --- | --- | --- | --- | --- | --- |
+| L1 Sense | Public wayfinding field list; paper repair slip | Admit / discard log | Mix in a raw mobile number | Personal fields discarded | Not done |
+| L2 Organise | L1-cleared fields | Checkable table | Model rewrites a fact source | Adviser returns it | Not done |
+| L3 Book | Paper window card | Approve / close | Open a window with no test-safety rule | Whole layer off | Not done |
+| L4 Adjudicate | Objection text | Human ruling | Model auto-blocks | Human signature required | Not done |
+| L5 Switch-off | Switch-off checklist | Spine still walks | Login gate appears on the spine | Physical section open | Not done |
+
+A sixth drill is not bound to one layer: a test fence on the slow spine → S02 stops at once. All six can be run on paper at a desk. No site visit, no tracks.
+
+Verifiable interfaces (concept, not a live API) [metric:verifiable_interface_count]:
+
+| Interface | Input | Output | Fallback | This package does not claim |
+| --- | --- | --- | --- | --- |
+| IF-WALK | Intent to walk without an account | Physical slow section | The section itself | A deployed guide platform |
+| IF-BOOK | Paper-card hours request | Safety-officer signed window | Window closed | A networked booking system |
+| IF-OBJECTION | Objection text | Human desk ruling | Face-to-face duty | Live auto-blocking |
+| IF-CLOSE | Order to switch off L2–L3 | Spine still walks | Physical path | A passed field drill |
+
+Retracted: no federated Jing-Jin-Ji accounts; no deployed stack; no field baseline, MW rooms, or vendor. Field verification stays a conditional follow-up after site authorisation and test-safety rules, blocking_now=false.
 
 ![Conceptual AI technical architecture (not deployed)](assets/figures/ai-architecture.en.png)
+
+![Tabletop verification protocol (TABLETOP-ONLY, field not done)](assets/figures/ai-verify-protocol.en.png)
 
 ![AI innovation ecosystem map (concept)](assets/figures/ecosystem-map.en.png)
 
@@ -270,6 +315,36 @@ Phasing faces match the project list. Near, mid, and far polygons come from this
 | CG-08 | Wing enterprise / scenario interfaces | Outside site | Far | Enterprise desk | Wing materials |
 | CG-09 | Annual Commons Open Day | Full gallery | Recurring | Host + human review | Event permit |
 | CG-10 | Full recalc after official geometry | Whole package | Conditional | Package maintainer | Official polygons |
+
+The review still scores implementation 4/5: the organiser geometry gap did not lower the score, but a professional team needs checkable acceptance and evidence, not only project names. The next table writes “official data replace → CG-10 recalc → professional check → open after permit” as a handoff list.
+
+| ID | Accept now (checkable) | Evidence | Stop rule | Professional next step | Still unknown |
+| --- | --- | --- | --- | --- | --- |
+| CG-01 | No login gate on the spine; length formula matches `ROAD-GALLERY-NS` | Roads layer + desk walk list (field not done) | Turnstile or paid section | Replace the centre-line with the official corridor | Official corridor |
+| CG-02 | Fence does not occupy the 1401 spine; stop rules visible | Land-use + card S02 | Fence on the spine | Open a window only after a test-safety rule | Test-safety rule |
+| CG-03 | Gallery public face walkable without an account | Public-space layer + S03 | Posted personal data | Place the Q&A wall after a site permit | Site permit |
+| CG-04 | Shift board does not block egress | Public-space layer + S04 | Blocking egress | Align after station-hall interface data | Station-hall interface |
+| CG-05 | Connectors marked as concept centre-lines, not redlines | Road-layer attributes | Drawn as a road redline | Re-hang after official road redlines | Road redline |
+| CG-06 | No building named for demolition | Buildings + constraints | Written as approved RRD | Update after a tenure register | Tenure |
+| CG-07 | Ordinary night path describable; no forced exhibition | S09 + south green edge | Forced exhibition lighting | Zone after night-event rules | Night rules |
+| CG-08 | Wings stay outside `site_boundary` | 11-row interface table | Fake wing redline | Book only after wing materials | Wing materials |
+| CG-09 | No public date without a permit | Operations table + copyright text | Written as a fixed government festival | Publicise only after an event permit | Event permit |
+| CG-10 | Recalc the three core metrics with the same formulae after official polygons | Old/new crosswalk (has not occurred) | Treating provisional area as statutory | Run the recalc and sync bilingual figures, HTML, metrics | Official geometry not yet here |
+
+Layer ↔ metric ↔ prose ↔ visual crosswalk (same numbers; no second set):
+
+| Metric | `metrics.json` | Prose | visual `data-value` | Input layer |
+| --- | ---: | ---: | ---: | --- |
+| site_area_sqm | 11412825.386 | 11412825.386 | 11412825.386 | `site_boundary` |
+| green_ratio | 0.259513 | 0.259513 | 0.259513 | `green_space` / `site_boundary` |
+| public_space_ratio | 0.118607 | 0.118607 | 0.118607 | `public_space` / `site_boundary` |
+| commons_gallery_length_m | 9042.827 | 9,042.827 | (narrative) | `ROAD-GALLERY-NS` |
+| floor_area_ratio | unknown | unknown | — | no official FAR |
+| building_height_m | unknown | unknown | — | no official height |
+
+FAR and height stay unknown. This table is not a passed professional check or a granted permit.
+
+![Implementation handoff and layer-metric crosswalk (concept)](assets/figures/implementation-handoff.en.png)
 
 The long-term operations pack is a conceptual rhythm, not a government-set calendar. Every session is triggered by event permits, site authorisation, and safety rules [depth:phasing_implementation].
 

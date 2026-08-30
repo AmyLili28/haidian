@@ -45,6 +45,9 @@
 | assets/figures/inclusion-space.png 及 .en.png | 同上 | 无 | 是 | 包容性空间落点（概念） |
 | assets/figures/rights-ledger.png 及 .en.png | 同上 | 无 | 是 | 权利台账可见图（概念） |
 | assets/figures/international-campaign.png 及 .en.png | 同上 | 无 | 是 | 国际传播战役卡（概念） |
+| assets/figures/brand-spec.png 及 .en.png | 同上 | 无 | 是 | 落地品牌规范（概念，非正式注册商标） |
+| assets/figures/ai-verify-protocol.png 及 .en.png | 同上 | 无 | 是 | 桌面核验协议 TABLETOP-ONLY（现场未做） |
+| assets/figures/implementation-handoff.png 及 .en.png | 同上 | 无 | 是 | 实施交接与图层指标对照（概念） |
 
 无肖像、无未授权商标、无私人室内、无爬取的平台原图。
 
