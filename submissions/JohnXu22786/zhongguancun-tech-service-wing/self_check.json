@@ -34,6 +34,8 @@
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/scenario-cards.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/site-overview.png",
+        "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/spatial-index.en.png",
+        "submissions/JohnXu22786/zhongguancun-tech-service-wing/assets/figures/spatial-index.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/assumptions.json",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/changelog.md",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/compliance_matrix.json",
@@ -73,6 +75,8 @@
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/visual/assets/previews/fig-mobility-bluegreen-zh.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/visual/assets/previews/fig-site-overview-en.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/visual/assets/previews/fig-site-overview-zh.png",
+        "submissions/JohnXu22786/zhongguancun-tech-service-wing/visual/assets/previews/fig-spatial-index-en.png",
+        "submissions/JohnXu22786/zhongguancun-tech-service-wing/visual/assets/previews/fig-spatial-index-zh.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/visual/assets/previews/html-en.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/visual/assets/previews/html-zh.png",
         "submissions/JohnXu22786/zhongguancun-tech-service-wing/visual/assets/previews/pdf-a0-en-p1.png",
@@ -88,7 +92,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/zhongguancun-tech-service-wing": "formal"
       },
-      "total_bytes": 19598444,
+      "total_bytes": 20549015,
       "maintainer_bypass": false
     },
     "stderr": ""
