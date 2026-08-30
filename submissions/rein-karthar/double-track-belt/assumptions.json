@@ -148,10 +148,10 @@
     {
       "id": "A-HISTORY-001",
       "status": "declared_design_choice",
-      "statement": "The Jing-Zhang line's zigzag switchback is at Qinglongqiao near Badaling, 60+ km from this site in Yanqing. It is cited only as history of the LINE and never as a feature of this corridor.",
-      "impact": "No spatial move in this package derives from the switchback. On-site cultural anchors are the ones the announcement itself names.",
-      "basis": "Checked against the organisers' own fact pack rather than general railway knowledge; agent.5 auto-rejects on distorting historical fact.",
-      "resolution": "None needed; this is a boundary on what may be claimed."
+      "statement": "This package does not use the Jing-Zhang line's zigzag switchback as a design motif, and makes no claim about its location, mileage, or distance from this corridor. The cleared fact pack contains no railway history, so no historical siting claim is available to this package.",
+      "impact": "No spatial move in this package derives from the switchback. On-site cultural anchors are limited to the ones the official announcement itself names.",
+      "basis": "Rule, not evidence: where no cleared historical source exists, a motif that would need one is not used. This assumption asserts no historical fact and cites none.",
+      "resolution": "None needed; this is a boundary on what may be claimed. Any historical siting must be supplied and cleared by the heritage/archival authorities in a later stage."
     }
   ]
 }
