@@ -99,7 +99,7 @@
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 25,
+      "value": 22,
       "unit": "count",
       "source_files": [
         "geometry/land_use.geojson"
@@ -165,24 +165,13 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 6,
+      "value": 5,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases in the sourced case table)",
-      "confidence": "high",
-      "assumptions": []
-    },
-    "scenario_card_count": {
-      "status": "known",
-      "value": 12,
-      "unit": "count",
-      "source_files": [
-        "proposal.md"
-      ],
-      "formula": "count(scenario cards in the 场景卡 table)",
+      "formula": "count(global ecosystem mechanism cases)",
       "confidence": "high",
       "assumptions": []
     },

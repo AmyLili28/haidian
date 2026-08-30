@@ -1,136 +1,120 @@
 {
- "schema_version": "0.1.0",
- "risks": [
-  {
-   "risk_id": "R-BOUNDARY",
-   "title_zh": "边界精度",
-   "category": "data_gap",
-   "severity": "medium",
-   "description_zh": "全部几何基于 provisional 边界；正式图形到位后需重新计算面积与指标并调整图件。",
-   "mitigation_zh": "已在正文、矩阵、图件与指标中标明 provisional 状态、置信等级与复算触发条件；面积仅采用官方文本口径。"
-  },
-  {
-   "risk_id": "R-TRANSIT",
-   "title_zh": "枢纽换乘与客流组织协调",
-   "category": "policy",
-   "severity": "high",
-   "description_zh": "高铁、城际与地铁一体化换乘及站前立体衔接涉及多部门与多主体审批，实施路径未定型。",
-   "mitigation_zh": "方案仅表达概念意图，换乘组织与立体衔接须经主管部门依法审定。"
-  },
-  {
-   "risk_id": "R-PRIVACY",
-   "title_zh": "无感安检与客流感知数据边界",
-   "category": "data_boundary",
-   "severity": "medium",
-   "description_zh": "无感安检与客流感知涉及客流与位置聚合信息，若未设边界可能引发隐私与公共安全合规风险。",
-   "mitigation_zh": "高风险场景（无感安检/客流引导）在试点前明确：法定主体假设（铁路与公安等依职权授权）、最小数据（仅通过率与时段聚合，不采身份与生物信息）、保留删除（实时计算、时段后删除）、误判申诉复核通道、人工接管与试点退出条件（误报率超基线或授权边界变化即撤收）。"
-  },
-  {
-   "risk_id": "R-CONTROL",
-   "title_zh": "法定控制缺位",
-   "category": "statutory",
-   "severity": "medium",
-   "description_zh": "控规指标与轨道保护区控制未公开，开发强度与退距表述仅限概念层面。",
-   "mitigation_zh": "不给出数值结论，全部表述为‘可供专业团队深化研究’。"
-  },
-  {
-   "risk_id": "R-TECH",
-   "title_zh": "技术成熟度",
-   "category": "technology",
-   "severity": "medium",
-   "description_zh": "无感安检、智慧出行助手等AI服务技术仍在迭代。",
-   "mitigation_zh": "以成熟技术与人工值守兜底，新场景先快闪试点验证后规模化。"
-  },
-  {
-   "risk_id": "R-ACCEPTANCE",
-   "title_zh": "市场与公众接受度",
-   "category": "public_acceptance",
-   "severity": "medium",
-   "description_zh": "上盖开发收益与公众疑虑并存，站北社区更新涉及居民与商户利益。",
-   "mitigation_zh": "收益反哺机制披露透明、试点先行，设居民意见通道与议事会，重大规则与年度活动依法公示、协商与听证。"
-  },
-  {
-   "risk_id": "R-BRAND",
-   "title_zh": "品牌在先权利与使用边界",
-   "category": "legal",
-   "severity": "medium",
-   "description_zh": "概念阶段未完成官方商标与在先权利检索，名称、Logo与符号可能与既有权利冲突。",
-   "mitigation_zh": "将「清河枢境/QPR」等名称与符号作为内部工作代号，限制对外商业使用与注册，完成清权前不主张排他权利；资产权属/许可边界明细见 sources.json 各条目 license 字段。"
-  },
-  {
-   "risk_id": "R-GOVERNANCE",
-   "title_zh": "AI关键决策误判与人工接管",
-   "category": "data_boundary",
-   "severity": "medium",
-   "description_zh": "智慧出行/无感安检/客流引导等AI建议若误判可能影响通行与服务公平。",
-   "mitigation_zh": "设误判申诉与人工接管预案、模型评测/数据质量/误差分群/运行监测四类技术协议与试点撤收路径，关键决策一律人工复核。"
-  }
- ],
- "version": 1,
- "dimensions": [
-  {
-   "id": "data_privacy",
-   "label": "数据隐私",
-   "score": 2,
-   "note": "人流与轨迹数据仅采用匿名聚合，不做个体识别；AI生成内容全部人工复核后发布。",
-   "mitigation": "在文本与图件中声明仅聚合不识别，发布流程设人工复核岗。",
-   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-  },
-  {
-   "id": "implementation_complexity",
-   "label": "实施复杂度",
-   "score": 3,
-   "note": "滨水设施需水利、结构、机电多专业协同，概念到落地跨度大。",
-   "mitigation": "方案明确为概念建议，各专项预留深化接口与分阶段决策点。",
-   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-  },
-  {
-   "id": "public_acceptance",
-   "label": "公众接受度",
-   "score": 3,
-   "note": "AI观测装置与数据展示可能引发隐私与‘过度科技化’疑虑。",
-   "mitigation": "匿名聚合+人工复核边界明确披露，设施以低侵入、可关闭设计为主。",
-   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-  },
-  {
-   "id": "operations_cost",
-   "label": "运维成本",
-   "score": 2,
-   "note": "监测设备、数据平台与亲水设施存在持续运维成本。",
-   "mitigation": "统一建设、多元运营模式建议；设施采用模块化可逆设计。",
-   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-  },
-  {
-   "id": "policy_uncertainty",
-   "label": "政策不确定性",
-   "score": 3,
-   "note": "河道管理、蓝线与数据开放政策仍在演进，审批路径未定型。",
-   "mitigation": "以现行法规为参照，保留弹性接口；正式实施前完成法定审批。",
-   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-  },
-  {
-   "id": "spatial_dispute",
-   "label": "空间争议",
-   "score": 3,
-   "note": "全部几何基于 provisional 边界，正式边界发布后面积与指标可能有变。",
-   "mitigation": "已在 geometry、矩阵与指标复算说明中标注 provisional 状态与复算条件。",
-   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-  },
-  {
-   "id": "technology_maturity",
-   "label": "技术成熟度",
-   "score": 3,
-   "note": "水面机器人、AI生态识别技术仍在迭代。",
-   "mitigation": "以成熟技术与人工值守兜底，新场景先测试验证后规模化。",
-   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-  },
-  {
-   "id": "equity_inclusion",
-   "label": "公平与包容性",
-   "score": 2,
-   "note": "滨水体验设施可能造成使用门槛，需兼顾无障碍与适老化。",
-   "mitigation": "无障碍与适老化标准同步设计，科普与体验内容提供离线人工替代路径。",
-   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-  }
- ]
+  "schema_version": "0.1.0",
+  "risks": [
+    {
+      "risk_id": "R-BOUNDARY",
+      "title_zh": "边界精度",
+      "category": "data_gap",
+      "severity": "medium",
+      "description_zh": "全部几何基于 provisional 边界；正式图形到位后需重新计算面积与指标并调整图件。",
+      "mitigation_zh": "已在正文、矩阵与图件中标明 provisional 状态与复算触发条件。"
+    },
+    {
+      "risk_id": "R-TRANSIT",
+      "title_zh": "枢纽换乘与客流组织协调",
+      "category": "policy",
+      "severity": "high",
+      "description_zh": "高铁、城际与地铁一体化换乘及站前立体衔接涉及多部门与多主体审批，实施路径未定型。",
+      "mitigation_zh": "方案仅表达概念意图，换乘组织与立体衔接须经主管部门依法审定。"
+    },
+    {
+      "risk_id": "R-PRIVACY",
+      "title_zh": "安检客流通行辅助与排队引导数据边界",
+      "category": "data_boundary",
+      "severity": "medium",
+      "description_zh": "安检客流通行辅助与排队引导及客流动态感知涉及人员流动与位置信息，若未设边界可能造成隐私风险。",
+      "mitigation_zh": "法定安检由人工执行，AI仅处理匿名聚合数据辅助分流与排队预估，个人与轨迹信息不跨场景留存，关键决策人工复核。"
+    },
+    {
+      "risk_id": "R-CONTROL",
+      "title_zh": "法定控制缺位",
+      "category": "statutory",
+      "severity": "medium",
+      "description_zh": "控规指标与轨道保护区控制未公开，开发强度与退距表述仅限概念层面。",
+      "mitigation_zh": "不给出数值结论，全部表述为‘可供专业团队深化研究’。"
+    },
+    {
+      "risk_id": "R-TECH",
+      "title_zh": "技术成熟度",
+      "category": "technology",
+      "severity": "medium",
+      "description_zh": "安检客流通行辅助与排队引导、智慧出行助手等AI服务技术仍在迭代。",
+      "mitigation_zh": "以成熟技术与人工值守兜底，新场景先快闪试点验证后规模化。"
+    },
+    {
+      "risk_id": "R-ACCEPTANCE",
+      "title_zh": "市场与公众接受度",
+      "category": "public_acceptance",
+      "severity": "medium",
+      "description_zh": "上盖开发收益与公众疑虑并存，站北社区更新涉及居民与商户利益。",
+      "mitigation_zh": "收益反哺机制披露透明、试点先行，重大规则依法公示、协商与听证。"
+    }
+  ],
+  "version": 1,
+  "dimensions": [
+    {
+      "id": "data_privacy",
+      "label": "数据隐私",
+      "score": 2,
+      "note": "人流与轨迹数据仅采用匿名聚合，不做个体识别；AI生成内容全部人工复核后发布。",
+      "mitigation": "在文本与图件中声明仅聚合不识别，发布流程设人工复核岗。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "implementation_complexity",
+      "label": "实施复杂度",
+      "score": 3,
+      "note": "滨水设施需水利、结构、机电多专业协同，概念到落地跨度大。",
+      "mitigation": "方案明确为概念建议，各专项预留深化接口与分阶段决策点。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "public_acceptance",
+      "label": "公众接受度",
+      "score": 3,
+      "note": "AI观测装置与数据展示可能引发隐私与‘过度科技化’疑虑。",
+      "mitigation": "匿名聚合+人工复核边界明确披露，设施以低侵入、可关闭设计为主。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "operations_cost",
+      "label": "运维成本",
+      "score": 2,
+      "note": "监测设备、数据平台与亲水设施存在持续运维成本。",
+      "mitigation": "统一建设、多元运营模式建议；设施采用模块化可逆设计。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "policy_uncertainty",
+      "label": "政策不确定性",
+      "score": 3,
+      "note": "河道管理、蓝线与数据开放政策仍在演进，审批路径未定型。",
+      "mitigation": "以现行法规为参照，保留弹性接口；正式实施前完成法定审批。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "spatial_dispute",
+      "label": "空间争议",
+      "score": 3,
+      "note": "全部几何基于 provisional 边界，正式边界发布后面积与指标可能有变。",
+      "mitigation": "已在 geometry、矩阵与指标复算说明中标注 provisional 状态与复算条件。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "technology_maturity",
+      "label": "技术成熟度",
+      "score": 3,
+      "note": "水面机器人、AI生态识别技术仍在迭代。",
+      "mitigation": "以成熟技术与人工值守兜底，新场景先测试验证后规模化。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "equity_inclusion",
+      "label": "公平与包容性",
+      "score": 2,
+      "note": "滨水体验设施可能造成使用门槛，需兼顾无障碍与适老化。",
+      "mitigation": "无障碍与适老化标准同步设计，科普与体验内容提供离线人工替代路径。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    }
+  ]
 }
