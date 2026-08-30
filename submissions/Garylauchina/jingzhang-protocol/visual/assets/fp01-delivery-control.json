@@ -1,15 +1,15 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "artifact_id": "FP01-DELIVERY-CONTROL-001",
-  "artifact_version": "v0.12",
+  "artifact_version": "v0.14",
   "contract_id": "FP01-CONTRACT-001",
   "pilot_id": "FP01",
   "title_zh": "FP01 概念交付控制簿",
   "title_en": "FP01 Concept Delivery Control Book",
   "artifact_status": "concept_delivery_control_model_unexecuted",
   "claim_boundary": {
-    "zh": "本文件把三片区界面、D0 测量口径、逐门 RACI、单套设计测试数量和关键依赖做成可复核的交付模型。它不是现场测绘、实际工程量清单、市场询价、预算、采购、人员承诺、专业签署、授权或运行结果。",
-    "en": "This file makes the three-area interfaces, D0 measurement methods, gate-by-gate RACI, one-kit design-test quantities, and critical dependencies reviewable. It is not a site survey, actual bill of quantities, market quotation, budget, procurement, staffing commitment, professional sign-off, authorization, or operating result.",
+    "zh": "本文件把三片区界面、D0 测量口径、逐门 RACI、单套设计测试数量、关键依赖、运营覆盖、验收、维护、备选与退出做成可复核的条件交付模型。它不是现场测绘、实际工程量清单、市场询价、预算、采购、人员承诺、专业签署、授权或运行结果。",
+    "en": "This file makes the three-area interfaces, D0 measurement methods, gate-by-gate RACI, one-kit design-test quantities, critical dependencies, operating coverage, acceptance, maintenance, alternatives, and exit reviewable as a conditional delivery model. It is not a site survey, actual bill of quantities, market quotation, budget, procurement, staffing commitment, professional sign-off, authorization, or operating result.",
     "actual_site_dimensions_verified": false,
     "actual_quantity_verified": false,
     "unit_price_verified": false,
@@ -228,6 +228,10 @@
   "hold_point_raci": [
     {
       "hold_point_id": "H0",
+      "decision_owner_role": "accountable_service_owner_role",
+      "required_cosignatory_roles": [
+        "user_representative_role"
+      ],
       "accountable": [
         "accountable_service_owner_role"
       ],
@@ -248,9 +252,13 @@
     },
     {
       "hold_point_id": "H1",
+      "decision_owner_role": "accountable_service_owner_role",
+      "required_cosignatory_roles": [
+        "budget_authority_role",
+        "site_or_asset_owner_role"
+      ],
       "accountable": [
-        "accountable_service_owner_role",
-        "budget_authority_role"
+        "accountable_service_owner_role"
       ],
       "responsible": [
         "site_or_asset_owner_role",
@@ -258,6 +266,7 @@
         "procurement_and_legal_review_role"
       ],
       "consulted": [
+        "budget_authority_role",
         "maintenance_role",
         "survey_and_existing_condition_role"
       ],
@@ -270,6 +279,12 @@
     },
     {
       "hold_point_id": "H2",
+      "decision_owner_role": "accountable_service_owner_role",
+      "required_cosignatory_roles": [
+        "professional_site_review_role",
+        "data_rights_and_security_role",
+        "accessibility_and_service_equivalence_role"
+      ],
       "accountable": [
         "accountable_service_owner_role"
       ],
@@ -293,6 +308,10 @@
     },
     {
       "hold_point_id": "H3",
+      "decision_owner_role": "independent_evaluation_role",
+      "required_cosignatory_roles": [
+        "appeal_decision_role"
+      ],
       "accountable": [
         "independent_evaluation_role"
       ],
@@ -316,6 +335,12 @@
     },
     {
       "hold_point_id": "H4",
+      "decision_owner_role": "separate_authorizing_role",
+      "required_cosignatory_roles": [
+        "accountable_service_owner_role",
+        "site_or_asset_owner_role",
+        "data_rights_and_security_role"
+      ],
       "accountable": [
         "separate_authorizing_role"
       ],
@@ -557,6 +582,414 @@
       "status": "not_started"
     }
   ],
+  "jury_implementation_handoff": {
+    "status": "concept_conditional_delivery_handoff_no_external_release",
+    "title_zh": "FP01 评审交接：尺度、运营、成本、验收与退场",
+    "title_en": "FP01 Jury Handoff: Scale, Operations, Cost, Acceptance, and Exit",
+    "claim_boundary_zh": "下列数量与规则只把参赛者可控制的设计结构变成可判断的交接页。实名主体、排班、现场容量、报价、预算、测绘、专业意见、真实使用者、运行结果和授权均未取得；缺证继续 HOLD。",
+    "claim_boundary_en": "The following quantities and rules make participant-controlled design structure judgeable as a handoff. Named parties, rosters, site capacity, quotations, budgets, surveys, professional opinions, real users, operating results, and authorization have not been obtained; missing evidence remains HOLD.",
+    "scale_and_capacity_template": {
+      "source_scale_ids": [
+        "SCALE-1-500",
+        "SCALE-1-100",
+        "SCALE-1-50"
+      ],
+      "reference_module_width_m": 18,
+      "reference_module_depth_m": 12,
+      "reference_module_area_sqm": 216,
+      "reference_service_position_set_count": 1,
+      "reference_service_positions_per_set": 2,
+      "reference_service_position_source": "BOQ-M03",
+      "reference_status": "participant_design_test_assumption_not_survey_or_capacity_commitment",
+      "approved_occupancy_limit": null,
+      "observed_service_throughput_per_staffed_hour": null,
+      "service_throughput_formula": "human_confirmed_referrals_or_reasoned_refusals / staffed_service_hours",
+      "capacity_release_rule": "Use the lower of surveyed accessible service positions, approved life-safety occupancy, and staffed role coverage; no capacity is released until H1 and H2 are independently evidenced."
+    },
+    "operating_coverage_template": {
+      "status": "participant_reference_not_staffing_commitment",
+      "public_window_required_role_classes": [
+        "frontline_service_and_accessibility_role",
+        "human_referral_refusal_and_appeal_authority",
+        "safety_operations_and_stop_authority"
+      ],
+      "independent_role_class": "independent_evaluation_role_outside_service_operation",
+      "coverage_formula": "public_service_windows_with_all_required_role_classes_available / all_public_service_windows",
+      "named_operator": null,
+      "named_staff": null,
+      "approved_roster": null,
+      "actual_service_window_count": null,
+      "actual_coverage_ratio": null,
+      "release_rule": "No public window opens without all three required role classes; the independent evaluator may not be replaced by supplier self-certification."
+    },
+    "parameterized_cost_plan": {
+      "status": "cost_structure_only_no_zero_cost_claim",
+      "capital_classes": [
+        "survey_and_existing_condition",
+        "reversible_components_and_fitout",
+        "accessibility_and_staffed_service_setup",
+        "local_interfaces_hardware_and_connectivity"
+      ],
+      "operating_classes": [
+        "staffed_service_and_maintenance",
+        "data_rights_security_testing_independent_evaluation_and_public_evidence"
+      ],
+      "exit_and_reserve_classes": [
+        "removal_restoration_and_approved_contingency"
+      ],
+      "calculation_rule": "verified_actual_quantity * rights_cleared_comparable_unit_cost + approved_contingency",
+      "capital_amount_cny": null,
+      "operating_amount_cny": null,
+      "exit_restoration_amount_cny": null,
+      "verified_cost_input_count": 0,
+      "funding_source": null,
+      "procurement_route": null,
+      "budget_signoff": null,
+      "boundary": "Missing quotations and rates mean cost is unknown, never zero."
+    },
+    "maintenance_and_exit_controls": [
+      {
+        "control_id": "MNT01",
+        "trigger": "before_each_public_service_window",
+        "required_action": "check_accessible_and_non_digital_route_staffed_fallback_stop_control_receipt_output_and_ordinary_catalogue",
+        "evidence_required": "dated_opening_check_and_named_accountable_role",
+        "actual_record": null,
+        "status": "template_only"
+      },
+      {
+        "control_id": "MNT02",
+        "trigger": "after_each_material_model_catalogue_interface_or_policy_change",
+        "required_action": "freeze_version_update_provenance_and_repeat_success_refusal_takeover_and_exit_regression",
+        "evidence_required": "versioned_change_record_and_independent_rehearsal",
+        "actual_record": null,
+        "status": "template_only"
+      },
+      {
+        "control_id": "MNT03",
+        "trigger": "incident_ambiguity_user_request_or_rights_risk",
+        "required_action": "pause_ai_preserve_staffed_service_issue_receipt_open_appeal_and_retain_minimum_incident_evidence",
+        "evidence_required": "incident_receipt_recovery_record_and_review_disposition",
+        "actual_record": null,
+        "status": "template_only"
+      },
+      {
+        "control_id": "MNT04",
+        "trigger": "exit_retirement_or_operator_change",
+        "required_action": "handover_portable_records_complete_authorized_data_disposition_remove_components_restore_ordinary_space_and_publish_decision",
+        "evidence_required": "signed_exit_handover_restoration_and_public_record",
+        "actual_record": null,
+        "status": "template_only"
+      }
+    ],
+    "acceptance_indicator_register": [
+      {
+        "indicator_id": "AT01",
+        "name_zh": "单一服务问题与角色边界可复核",
+        "name_en": "One service problem and role boundaries are reviewable",
+        "assessment_scope": "proposal_structure",
+        "reviewable_now": true,
+        "evidence_refs": [
+          "FP01-S07-PROBLEM-001",
+          "S07",
+          "S03",
+          "S04"
+        ],
+        "current_result": "structurally_reviewable",
+        "external_release_effect": false
+      },
+      {
+        "indicator_id": "AT02",
+        "name_zh": "1:500—1:100—1:50 尺度链可复核",
+        "name_en": "The 1:500-1:100-1:50 scale chain is reviewable",
+        "assessment_scope": "proposal_structure",
+        "reviewable_now": true,
+        "evidence_refs": [
+          "SCALE-1-500",
+          "SCALE-1-100",
+          "SCALE-1-50"
+        ],
+        "current_result": "structurally_reviewable",
+        "external_release_effect": false
+      },
+      {
+        "indicator_id": "AT03",
+        "name_zh": "H0—H4 RACI 与独立评测职责分离可复核",
+        "name_en": "H0-H4 RACI and independent-evaluation separation are reviewable",
+        "assessment_scope": "proposal_structure",
+        "reviewable_now": true,
+        "evidence_refs": [
+          "hold_point_raci",
+          "operating_coverage_template"
+        ],
+        "current_result": "structurally_reviewable",
+        "external_release_effect": false
+      },
+      {
+        "indicator_id": "AT04",
+        "name_zh": "有人、无手机、无账号与纯人工路径可复核",
+        "name_en": "Staffed, no-phone, no-account, and non-AI routes are reviewable",
+        "assessment_scope": "proposal_structure",
+        "reviewable_now": true,
+        "evidence_refs": [
+          "M01",
+          "M03",
+          "D0-B06"
+        ],
+        "current_result": "structurally_reviewable",
+        "external_release_effect": false
+      },
+      {
+        "indicator_id": "AT05",
+        "name_zh": "成功、拒绝、接管与退出四类回执可复核",
+        "name_en": "Success, refusal, takeover, and exit receipt classes are reviewable",
+        "assessment_scope": "proposal_structure",
+        "reviewable_now": true,
+        "evidence_refs": [
+          "success",
+          "refusal",
+          "human_takeover",
+          "exit_restoration"
+        ],
+        "current_result": "structurally_reviewable",
+        "external_release_effect": false
+      },
+      {
+        "indicator_id": "AT06",
+        "name_zh": "设计数量、成本分类与实际价格严格分离",
+        "name_en": "Design quantities, cost classes, and actual prices are strictly separated",
+        "assessment_scope": "proposal_structure",
+        "reviewable_now": true,
+        "evidence_refs": [
+          "BOQ-M01",
+          "BOQ-M06",
+          "parameterized_cost_plan"
+        ],
+        "current_result": "structurally_reviewable",
+        "external_release_effect": false
+      },
+      {
+        "indicator_id": "AT07",
+        "name_zh": "K01—K10 依赖无越门且日期保持空白",
+        "name_en": "K01-K10 dependencies do not bypass gates and actual dates remain empty",
+        "assessment_scope": "proposal_structure",
+        "reviewable_now": true,
+        "evidence_refs": [
+          "K01",
+          "K10"
+        ],
+        "current_result": "structurally_reviewable",
+        "external_release_effect": false
+      },
+      {
+        "indicator_id": "AT08",
+        "name_zh": "维护、备选、停止与恢复路径可复核",
+        "name_en": "Maintenance, alternatives, stop, and restoration paths are reviewable",
+        "assessment_scope": "proposal_structure",
+        "reviewable_now": true,
+        "evidence_refs": [
+          "MNT01",
+          "MNT04",
+          "ALT01",
+          "ALT04"
+        ],
+        "current_result": "structurally_reviewable",
+        "external_release_effect": false
+      },
+      {
+        "indicator_id": "AT09",
+        "name_zh": "真实问题与 D0 人工基线成立",
+        "name_en": "Real problem and D0 human baseline are established",
+        "assessment_scope": "field_evidence",
+        "reviewable_now": false,
+        "required_hold_points": [
+          "H0"
+        ],
+        "current_result": null,
+        "external_release_effect": true
+      },
+      {
+        "indicator_id": "AT10",
+        "name_zh": "载体、容量、成本与专业条件通过",
+        "name_en": "Carrier, capacity, cost, and professional conditions pass",
+        "assessment_scope": "field_evidence",
+        "reviewable_now": false,
+        "required_hold_points": [
+          "H1",
+          "H2"
+        ],
+        "current_result": null,
+        "external_release_effect": true
+      },
+      {
+        "indicator_id": "AT11",
+        "name_zh": "四类事件与人工恢复独立复演通过",
+        "name_en": "Four event classes and human restoration pass independent rehearsal",
+        "assessment_scope": "field_evidence",
+        "reviewable_now": false,
+        "required_hold_points": [
+          "H3"
+        ],
+        "current_result": null,
+        "external_release_effect": true
+      },
+      {
+        "indicator_id": "AT12",
+        "name_zh": "另行授权、交接与十日验收完成",
+        "name_en": "Separate authorization, handover, and ten-day acceptance are complete",
+        "assessment_scope": "field_evidence",
+        "reviewable_now": false,
+        "required_hold_points": [
+          "H4"
+        ],
+        "current_result": null,
+        "external_release_effect": true
+      }
+    ],
+    "conditional_release_stages": [
+      {
+        "stage_id": "REL00",
+        "name": "design_review_only",
+        "required_hold_points": [],
+        "allowed_action": "desk_review_and_open_correction_only",
+        "external_release_granted": false,
+        "status": "current"
+      },
+      {
+        "stage_id": "REL01",
+        "name": "baseline_locked",
+        "required_hold_points": [
+          "H0"
+        ],
+        "allowed_action": "freeze_problem_and_measurement_protocol",
+        "external_release_granted": false,
+        "status": "hold"
+      },
+      {
+        "stage_id": "REL02",
+        "name": "carrier_and_delivery_basis_locked",
+        "required_hold_points": [
+          "H0",
+          "H1"
+        ],
+        "allowed_action": "professional_design_deepening_only",
+        "external_release_granted": false,
+        "status": "hold"
+      },
+      {
+        "stage_id": "REL03",
+        "name": "controlled_rehearsal_admissible",
+        "required_hold_points": [
+          "H0",
+          "H1",
+          "H2"
+        ],
+        "allowed_action": "bounded_non_public_or_authorized_rehearsal_only",
+        "external_release_granted": false,
+        "status": "hold"
+      },
+      {
+        "stage_id": "REL04",
+        "name": "independent_decision_complete",
+        "required_hold_points": [
+          "H0",
+          "H1",
+          "H2",
+          "H3"
+        ],
+        "allowed_action": "issue_go_revise_or_stop_record_only",
+        "external_release_granted": false,
+        "status": "hold"
+      },
+      {
+        "stage_id": "REL05",
+        "name": "separately_authorized_accept_or_restore",
+        "required_hold_points": [
+          "H0",
+          "H1",
+          "H2",
+          "H3",
+          "H4"
+        ],
+        "allowed_action": "authorized_ten_day_acceptance_or_full_restoration",
+        "external_release_granted": false,
+        "status": "hold"
+      }
+    ],
+    "fallback_alternatives_register": [
+      {
+        "alternative_id": "ALT01",
+        "trigger": "carrier_not_verified",
+        "preferred_option": "18_by_12_metre_reversible_concept_module",
+        "fallback_option": "M01_to_M04_portable_kit_inside_a_separately_surveyed_existing_staffed_service_room",
+        "rights_preserved": [
+          "no_phone_route",
+          "staffed_service",
+          "appeal",
+          "exit"
+        ],
+        "required_gate": "H1_H2",
+        "site_action_allowed": false,
+        "selection_authority": null,
+        "status": "participant_reference_not_approval"
+      },
+      {
+        "alternative_id": "ALT02",
+        "trigger": "data_authorisation_not_closed",
+        "preferred_option": "ai_assisted_versioned_service_catalogue",
+        "fallback_option": "paper_telephone_or_staffed_catalogue_for_the_same_task_with_zero_personal_data_entering_ai",
+        "rights_preserved": [
+          "equivalent_service",
+          "no_account_route",
+          "human_decision",
+          "appeal"
+        ],
+        "required_gate": "H2",
+        "site_action_allowed": false,
+        "selection_authority": null,
+        "status": "participant_reference_not_approval"
+      },
+      {
+        "alternative_id": "ALT03",
+        "trigger": "independent_evaluator_not_appointed",
+        "preferred_option": "independent_controlled_rehearsal",
+        "fallback_option": "retain_H3_hold_and_limit_work_to_non_public_desk_review_or_stop",
+        "rights_preserved": [
+          "no_supplier_self_certification",
+          "no_real_user_exposure",
+          "failure_record_retained"
+        ],
+        "required_gate": "H3",
+        "site_action_allowed": false,
+        "selection_authority": null,
+        "status": "participant_reference_not_approval"
+      },
+      {
+        "alternative_id": "ALT04",
+        "trigger": "procurement_or_H4_authorisation_missing",
+        "preferred_option": "separately_authorized_revocable_acceptance_window",
+        "fallback_option": "do_not_install_or_open_restore_ordinary_space_and_retain_only_public_design_review_materials",
+        "rights_preserved": [
+          "no_real_user_data",
+          "ordinary_service_continuity",
+          "component_removal",
+          "public_stop_reason"
+        ],
+        "required_gate": "H1_H4",
+        "site_action_allowed": false,
+        "selection_authority": null,
+        "status": "participant_reference_not_approval"
+      }
+    ],
+    "current_package_action_boundary": {
+      "documented_authorized_site_action_count": 0,
+      "documented_public_service_window_count": 0,
+      "documented_real_user_session_count": 0,
+      "documented_procurement_count": 0,
+      "documented_construction_count": 0,
+      "documented_external_release_granted_count": 0,
+      "rule": "Zero means no attributable record is supplied in this package; it does not claim knowledge of all external activity."
+    }
+  },
   "structural_claims": {
     "key_area_interface_prototype_count": 3,
     "d0_measurement_method_count": 6,
@@ -565,6 +998,16 @@
     "hold_point_raci_coverage_ratio": 1.0,
     "design_test_boq_item_count": 6,
     "critical_dependency_step_count": 10,
+    "delivery_role_class_count": 16,
+    "acceptance_indicator_count": 12,
+    "immediately_judgeable_acceptance_indicator_count": 8,
+    "field_dependent_acceptance_indicator_count": 4,
+    "release_stage_count": 6,
+    "external_release_granted_count": 0,
+    "fallback_alternative_count": 4,
+    "cost_plan_class_count": 7,
+    "verified_cost_input_count": 0,
+    "documented_authorized_site_action_count": 0,
     "actual_boq_verified_item_count": 0,
     "verified_external_signoff_count": 0
   },

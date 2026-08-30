@@ -22,10 +22,10 @@ function allNull(object, keys) {
 
 check(
   "envelope",
-  "V0.12 bilingual concept-delivery-control envelope",
-  artifact.schema_version === "0.1.0" &&
+  "V0.14 bilingual conditional-delivery-control envelope",
+  artifact.schema_version === "0.2.0" &&
     artifact.artifact_id === "FP01-DELIVERY-CONTROL-001" &&
-    artifact.artifact_version === "v0.12" &&
+    artifact.artifact_version === "v0.14" &&
     artifact.artifact_status === "concept_delivery_control_model_unexecuted" &&
     Boolean(artifact.title_zh) &&
     Boolean(artifact.title_en)
@@ -104,9 +104,29 @@ check(
     JSON.stringify(raci.map((item) => item.hold_point_id)) === JSON.stringify(["H0", "H1", "H2", "H3", "H4"]) &&
     raci.every((item) =>
       ["accountable", "responsible", "consulted", "informed"].every((key) => Array.isArray(item[key]) && item[key].length > 0) &&
+      typeof item.decision_owner_role === "string" &&
+      item.decision_owner_role.length > 0 &&
+      item.accountable.length === 1 &&
+      item.accountable[0] === item.decision_owner_role &&
+      Array.isArray(item.required_cosignatory_roles) &&
+      item.required_cosignatory_roles.length > 0 &&
       item.status === "roles_defined_signoff_pending" &&
       allNull(item, ["signatory_name", "acceptance_date"])
     )
+);
+
+const roleClasses = [...new Set(raci.flatMap((item) => [
+  ...item.accountable,
+  ...item.responsible,
+  ...item.consulted,
+  ...item.informed,
+  item.decision_owner_role,
+  ...item.required_cosignatory_roles
+]))];
+check(
+  "role_class_register",
+  "sixteen role classes are registered while appointments and signatures remain external",
+  roleClasses.length === 16
 );
 
 const boq = artifact.concept_installation_boq || {};
@@ -165,6 +185,121 @@ check(
   steps.every((item) => item.depends_on.every((dependency) => index.get(dependency) < index.get(item.step_id)))
 );
 
+const handoff = artifact.jury_implementation_handoff || {};
+const scale = handoff.scale_and_capacity_template || {};
+check(
+  "scale_capacity_template",
+  "three-scale reference module and two-position service formula remain design assumptions with capacity actuals empty",
+  Array.isArray(scale.source_scale_ids) &&
+    JSON.stringify(scale.source_scale_ids) === JSON.stringify(["SCALE-1-500", "SCALE-1-100", "SCALE-1-50"]) &&
+    scale.reference_module_width_m === 18 &&
+    scale.reference_module_depth_m === 12 &&
+    scale.reference_module_area_sqm === 216 &&
+    scale.reference_service_positions_per_set === 2 &&
+    scale.reference_status === "participant_design_test_assumption_not_survey_or_capacity_commitment" &&
+    allNull(scale, ["approved_occupancy_limit", "observed_service_throughput_per_staffed_hour"])
+);
+
+const coverage = handoff.operating_coverage_template || {};
+check(
+  "operating_coverage_template",
+  "three concurrent operating role classes and an independent evaluator are defined without a named roster",
+  coverage.status === "participant_reference_not_staffing_commitment" &&
+    Array.isArray(coverage.public_window_required_role_classes) &&
+    coverage.public_window_required_role_classes.length === 3 &&
+    unique(coverage.public_window_required_role_classes) &&
+    Boolean(coverage.independent_role_class) &&
+    Boolean(coverage.coverage_formula) &&
+    allNull(coverage, ["named_operator", "named_staff", "approved_roster", "actual_service_window_count", "actual_coverage_ratio"])
+);
+
+const costPlan = handoff.parameterized_cost_plan || {};
+const costClasses = [
+  ...(costPlan.capital_classes || []),
+  ...(costPlan.operating_classes || []),
+  ...(costPlan.exit_and_reserve_classes || [])
+];
+check(
+  "parameterized_cost_plan",
+  "seven cost classes and a calculation rule are explicit while all verified inputs and approvals remain empty",
+  costPlan.status === "cost_structure_only_no_zero_cost_claim" &&
+    costClasses.length === 7 &&
+    unique(costClasses) &&
+    Boolean(costPlan.calculation_rule) &&
+    costPlan.verified_cost_input_count === 0 &&
+    allNull(costPlan, [
+      "capital_amount_cny",
+      "operating_amount_cny",
+      "exit_restoration_amount_cny",
+      "funding_source",
+      "procurement_route",
+      "budget_signoff"
+    ])
+);
+
+const maintenance = handoff.maintenance_and_exit_controls || [];
+check(
+  "maintenance_exit_controls",
+  "four trigger-based maintenance and exit controls are reviewable without fabricated operating records",
+  maintenance.length === 4 &&
+    JSON.stringify(maintenance.map((item) => item.control_id)) === JSON.stringify(["MNT01", "MNT02", "MNT03", "MNT04"]) &&
+    maintenance.every((item) => Boolean(item.trigger) && Boolean(item.required_action) && Boolean(item.evidence_required) && item.actual_record === null && item.status === "template_only")
+);
+
+const acceptance = handoff.acceptance_indicator_register || [];
+const reviewableAcceptance = acceptance.filter((item) => item.reviewable_now === true);
+const fieldAcceptance = acceptance.filter((item) => item.reviewable_now === false);
+check(
+  "acceptance_register",
+  "twelve indicators distinguish eight structure checks from four field-dependent checks",
+  acceptance.length === 12 &&
+    unique(acceptance.map((item) => item.indicator_id)) &&
+    reviewableAcceptance.length === 8 &&
+    reviewableAcceptance.every((item) => item.assessment_scope === "proposal_structure" && item.current_result === "structurally_reviewable" && item.external_release_effect === false) &&
+    fieldAcceptance.length === 4 &&
+    fieldAcceptance.every((item) => item.assessment_scope === "field_evidence" && item.current_result === null && item.external_release_effect === true && Array.isArray(item.required_hold_points) && item.required_hold_points.length > 0)
+);
+
+const releases = handoff.conditional_release_stages || [];
+check(
+  "conditional_release_stages",
+  "six release stages remain closed to external action",
+  releases.length === 6 &&
+    JSON.stringify(releases.map((item) => item.stage_id)) === JSON.stringify(["REL00", "REL01", "REL02", "REL03", "REL04", "REL05"]) &&
+    releases.every((item, index) => item.external_release_granted === false && item.status === (index === 0 ? "current" : "hold") && Array.isArray(item.required_hold_points))
+);
+
+const alternatives = handoff.fallback_alternatives_register || [];
+check(
+  "fallback_alternatives",
+  "four reversible alternatives preserve rights without authorizing site action",
+  alternatives.length === 4 &&
+    JSON.stringify(alternatives.map((item) => item.alternative_id)) === JSON.stringify(["ALT01", "ALT02", "ALT03", "ALT04"]) &&
+    alternatives.every((item) =>
+      Boolean(item.trigger) &&
+      Boolean(item.fallback_option) &&
+      Array.isArray(item.rights_preserved) &&
+      item.rights_preserved.length > 0 &&
+      item.site_action_allowed === false &&
+      item.selection_authority === null &&
+      item.status === "participant_reference_not_approval"
+    )
+);
+
+const actionBoundary = handoff.current_package_action_boundary || {};
+check(
+  "action_boundary",
+  "the package documents no authorized site, service, user-data, procurement, construction, or external-release action",
+  [
+    "documented_authorized_site_action_count",
+    "documented_public_service_window_count",
+    "documented_real_user_session_count",
+    "documented_procurement_count",
+    "documented_construction_count",
+    "documented_external_release_granted_count"
+  ].every((key) => actionBoundary[key] === 0) && Boolean(actionBoundary.rule)
+);
+
 const claims = artifact.structural_claims || {};
 check(
   "structural_claims",
@@ -176,6 +311,16 @@ check(
     claims.hold_point_raci_coverage_ratio === 1.0 &&
     claims.design_test_boq_item_count === boqItems.length &&
     claims.critical_dependency_step_count === steps.length &&
+    claims.delivery_role_class_count === roleClasses.length &&
+    claims.acceptance_indicator_count === acceptance.length &&
+    claims.immediately_judgeable_acceptance_indicator_count === reviewableAcceptance.length &&
+    claims.field_dependent_acceptance_indicator_count === fieldAcceptance.length &&
+    claims.release_stage_count === releases.length &&
+    claims.external_release_granted_count === releases.filter((item) => item.external_release_granted === true).length &&
+    claims.fallback_alternative_count === alternatives.length &&
+    claims.cost_plan_class_count === costClasses.length &&
+    claims.verified_cost_input_count === costPlan.verified_cost_input_count &&
+    claims.documented_authorized_site_action_count === actionBoundary.documented_authorized_site_action_count &&
     claims.actual_boq_verified_item_count === 0 &&
     claims.verified_external_signoff_count === 0
 );
@@ -201,6 +346,16 @@ const result = {
   hold_point_raci_count: raci.length,
   design_test_boq_item_count: boqItems.length,
   critical_dependency_step_count: steps.length,
+  delivery_role_class_count: roleClasses.length,
+  acceptance_indicator_count: acceptance.length,
+  immediately_judgeable_acceptance_indicator_count: reviewableAcceptance.length,
+  field_dependent_acceptance_indicator_count: fieldAcceptance.length,
+  release_stage_count: releases.length,
+  external_release_granted_count: claims.external_release_granted_count,
+  fallback_alternative_count: alternatives.length,
+  cost_plan_class_count: costClasses.length,
+  verified_cost_input_count: costPlan.verified_cost_input_count,
+  documented_authorized_site_action_count: actionBoundary.documented_authorized_site_action_count,
   actual_boq_verified_item_count: claims.actual_boq_verified_item_count,
   verified_external_signoff_count: claims.verified_external_signoff_count,
   checks,
