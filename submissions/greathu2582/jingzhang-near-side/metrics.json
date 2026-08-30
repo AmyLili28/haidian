@@ -165,7 +165,7 @@
    "formula": "count(scenario cards with a mandatory human-review node) / count(scenario cards) = 8 / 12",
    "confidence": "high",
    "assumptions": [],
-   "note_zh": "12 张场景卡中 8 张直接输出可影响个人行动的判断（S01、S02、S03、S04、S05、S06、S08、S11），必须配置强制人工复核节点；其余 4 张（S07、S09、S10、S12）配置人工咨询而非强制复核。该比例由场景卡表逐张计数得出，可人工复核。"
+   "note_zh": "12 张场景卡中 8 张直接输出可影响个人行动的判断（S01、S02、S03、S04、S05、S06、S09、S11），必须配置强制人工复核节点；其余 4 张（S07、S08、S10、S12）配置人工咨询而非强制复核。该比例由场景卡表逐张计数得出，可人工复核。"
   },
   "key_area_001_area_sqm": {
    "status": "known",
