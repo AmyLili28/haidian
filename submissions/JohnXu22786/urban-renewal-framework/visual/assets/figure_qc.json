@@ -1,5 +1,68 @@
 {
-  "review_id": "5047674894",
+  "review_id": "5060211774",
+  "reviewed_commit": "2161e491ca20539eb5bcb813ed582655b0d0844c",
+  "review_submitted_at": "2026-08-30T07:22:11Z",
+  "review_score": 81.0,
+  "review_verdict": "CHANGES_REQUESTED",
   "contract": "v2.1-three-areas-three-nodes",
-  "record": "# Visual and PDF QC Record\n\n- Package: `urban-renewal-framework` / PR #3881\n- Review closed: CocoSgt review `5047674894` (74/100, CHANGES_REQUESTED)\n- Repair contract: `v2.1-three-areas-three-nodes`\n- Render timestamp: 2026-08-29 (Asia/Shanghai)\n- Local final renders: `work/qa-3881-final/figures/`, `work/qa-3881-final/pdf/` in the shared workspace; this record keeps the reproducible file list and hashes.\n\n## Fixed naming and mapping\n\n| Layer | Fixed contract | Color |\n|---|---|---|\n| North | 众智园AI自主创新加速区 - 单元坊 / Zhongzhiyuan AI Self-Innovation Acceleration Area - UNIT·BLOCK | teal `#0E7C82` |\n| Central | 北京AI原点社区 - 留改坊 / Beijing AI Origin Community - KEEP·BLOCK | amber `#C47B1A` |\n| South | 大钟寺AI产业集聚区 - 督行亭 / Dazhongsi AI Industry Cluster - SUPERVISION PAVILION | blue `#2E5E96` |\n| Wing 1 | 中关村科技服务翼 / Zhongguancun Technology Service Wing | `#1C7287` |\n| Wing 2 | 小月河场景赋能翼 / Xiaoyuehe Scenario Empowerment Wing | `#A9573B` |\n| Supplemental | Future Science City, Huairou Science City, E-Town, Jing-Jin-Ji | gray only; never a wing |\n\n## Figure checklist\n\n| File pair | Size | Layout checks |\n|---|---:|---|\n| `site-overview(.en).png` | 1800 x 1200 | title, green-belt spine, three cards, wing panel, warning strip; no clipped title or legend |\n| `key-areas(.en).png` | 1800 x 1200 | three independent cards; no three-column text overlap; mapping strip readable |\n| `mobility-bluegreen(.en).png` | 1800 x 1200 | north-south spine and east-west stitches separated; no label collision |\n| `land-use-structure(.en).png` | 1800 x 1200 | bar labels and concept warning reserved in separate panels |\n| `metrics-evidence(.en).png` | 1800 x 1200 | four metric cards, count panel and evidence note; values not presented as statutory conclusions |\n| `ecosystem-map(.en).png`, `logo-update-hub(.en).png` | 1800 x 1200 | eight-factor loop and identity components fit inside reserved boxes |\n\n## PDF checklist\n\n- `a0-boards.pdf`, `a0-boards.en.pdf`: A0 portrait, 4 pages each; every page keeps both images inside safe margins and includes footer, page number and provisional warning.\n- `a3-booklet.pdf`, `a3-booklet.en.pdf`: A3 portrait, 4 pages each; paired figures retain readable type at page scale and never crop the image boundary.\n- Every page includes the fixed mapping and formal wing names either in the figure or the audit page.\n- Final rendered page images are retained under `work/qa-3881-final/pdf/`; source figure renders are retained under `work/qa-3881-final/figures/`.\n\n## HTML checklist\n\n- `report/proposal.html`, `report/proposal.en.html`, `visual/index.html`, `visual/index.en.html` are offline, embed the local font, use a single responsive column, preserve wide tables with horizontal scroll, and set figures to `width:100%; height:auto`.\n- At 1260 px content width, no figure is cropped; at narrow widths, tables scroll rather than overlap and figure captions remain visible.\n"
+  "previous_review": {
+    "review_id": "5047674894",
+    "score": 74.0
+  },
+  "repair_scope": [
+    "land-use-structure.png",
+    "land-use-structure.en.png",
+    "metrics-evidence.png",
+    "metrics-evidence.en.png",
+    "drawings/a0-boards.pdf",
+    "drawings/a0-boards.en.pdf",
+    "drawings/a3-booklet.pdf",
+    "drawings/a3-booklet.en.pdf",
+    "visual/index.html",
+    "visual/index.en.html"
+  ],
+  "layout_contract": {
+    "top_safe_band": "title y=0.975; subtitle y=0.946; warning y=0.900..0.868; content axes end at y=0.810",
+    "english_overflow_guard": "wrapped English guidance and evidence notes; chart titles use two-line labels where needed",
+    "status": "re-rendered and synced"
+  },
+  "figures": {
+    "land-use-structure.png": {
+      "sha256": "964b7c518ff83a5946a583f7794f2e09676e93d67273282b67fa9d02ff0cb846",
+      "size_px": [
+        2400,
+        1575
+      ],
+      "top_border_ink_ratio": 0.034167,
+      "right_border_ink_ratio": 0.0
+    },
+    "land-use-structure.en.png": {
+      "sha256": "cbf88801d21343a82181a9c8dacb86a1130f219aabbbe8f1de62dd0f59e310d2",
+      "size_px": [
+        2400,
+        1575
+      ],
+      "top_border_ink_ratio": 0.010167,
+      "right_border_ink_ratio": 0.0
+    },
+    "metrics-evidence.png": {
+      "sha256": "961e1e4a7a90fcd61403fb6cea0ce73ac52fff0ea4309faae6b4a39eeeb99ac3",
+      "size_px": [
+        2400,
+        1575
+      ],
+      "top_border_ink_ratio": 0.046111,
+      "right_border_ink_ratio": 0.0
+    },
+    "metrics-evidence.en.png": {
+      "sha256": "a8ef5717970ddd2b4e5ccaa23076532a052f3b89646439614fa562b8bc4a667e",
+      "size_px": [
+        2400,
+        1575
+      ],
+      "top_border_ink_ratio": 0.013111,
+      "right_border_ink_ratio": 0.0
+    }
+  },
+  "record": "# Visual and PDF QC Record\n\n- Package: `urban-renewal-framework` / PR #3881\n- Latest official review checked: CocoSgt `5060211774` (81/100, CHANGES_REQUESTED), submitted `2026-08-30T07:22:11Z`, reviewed commit `2161e491ca20539eb5bcb813ed582655b0d0844c`.\n- Actionable repair: separated title, subtitle, PROVISIONAL warning and content bands in both affected figure pairs; wrapped English copy to prevent right-edge clipping.\n- Dependent A0/A3 PDFs and offline visual HTML were regenerated from the repaired PNGs.\n- `size_px`, SHA-256 and top/right border ink ratios are recorded above for deterministic recheck.\n- All metrics remain concept/provisional values and are not presented as statutory conclusions.\n- Historical QC record retained by `previous_review`; this record supersedes its stale 2026-08-29 dimensions/layout claims.\n"
 }
