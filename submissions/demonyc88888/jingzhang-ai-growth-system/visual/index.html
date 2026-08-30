@@ -48,17 +48,13 @@
     .hero-night {
       position: relative;
       width: 100%;
-      height: 100vh;
-      min-height: 620px;
-      overflow: hidden;
+      overflow: visible;
       background: #061016;
     }
 
     .hero-night img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
+      height: auto;
       display: block;
     }
 
@@ -691,10 +687,6 @@
     }
 
     @media (max-width: 980px) {
-      .hero-night {
-        min-height: 560px;
-      }
-
       .metrics-grid,
       .chain-panel,
       .support-grid,
@@ -732,15 +724,6 @@
     }
 
     @media (max-width: 620px) {
-      .hero-night {
-        height: 100svh;
-        min-height: 520px;
-      }
-
-      .hero-night img {
-        object-position: 38% center;
-      }
-
       .metrics-section {
         padding: 38px 16px 52px;
       }
@@ -823,7 +806,7 @@
   <main>
     <section class="hero-night" aria-labelledby="hero-title">
       <h1 id="hero-title" class="sr-only">因地而智:百年京张城市AI生长系统</h1>
-      <img src="../assets/figures/13-night-aerial-system-zh.png" alt="因地而智百年京张夜间 AI 生长带鸟瞰图，展示小月河、京张铁路遗址公园、三处 AI 节点和夜间公共服务场景">
+      <img src="../assets/figures/user-first-image-zh.png" alt="因地而智百年京张城市 AI 生长系统总体鸟瞰图，展示京张轨道廊道、蓝绿慢行体验带、AI 原点社区、众智园和大钟寺更新门户">
       <a class="scroll-cue" href="#metrics">查看指标</a>
     </section>
 
@@ -1267,19 +1250,19 @@
             <div class="indicator-list">
               <div class="indicator-item">
                 <b>一次性投入</b>
-                <span data-metric="one_time_capex_range_cny" data-value="117000000-405000000">概念阶段主区间约 1.17-4.05 亿元，包含公共骨架、三节点、共性底座和首轮场景原型。</span>
+                <span data-model-ref="ECON-MODEL-001" data-status="unknown">待正式工程量、采购范围和市场询价后复算。</span>
               </div>
               <div class="indicator-item">
                 <b>年度运营</b>
-                <span data-metric="annual_opex_range_cny" data-value="35000000-125000000">约 3,500-12,500 万元/年，作为必要条件单列，不与一次性投入相加。</span>
+                <span data-model-ref="ECON-MODEL-001" data-status="unknown">待运营主体、FTE、平台服务合同、维护合同和活动计划后复算。</span>
               </div>
               <div class="indicator-item">
                 <b>商业收入账</b>
-                <span data-metric="steady_commercial_ai_revenue_range_cny" data-value="15000000-120000000">3 年后稳态年化约 1,500-12,000 万元/年，属于条件性测算，不代表收入已经发生。</span>
+                <span data-model-ref="ECON-MODEL-001" data-status="unknown">待三阶段五类收入合同、价格、收款和收入确认规则后复算。</span>
               </div>
               <div class="indicator-item">
                 <b>公共回流账</b>
-                <span data-metric="steady_public_ai_reflow_range_cny" data-value="5000000-30000000">3 年后稳态回流建议约 500-3,000 万元/年，需以合同、审计和合格收入基数确认。</span>
+                <span data-model-ref="ECON-MODEL-001" data-status="unknown">待合格收入、合同约定比例、账户主体、审计周期和允许用途后复算。</span>
               </div>
               <div class="indicator-item">
                 <b>分期节奏</b>
@@ -1315,8 +1298,8 @@
             </tr>
             <tr>
               <td>投资与运营</td>
-              <td>一次性投入约 1.17-4.05 亿元；年度运营约 3,500-12,500 万元/年。</td>
-              <td>概念阶段数量级估算，不构成预算、概算、融资或招商承诺。</td>
+              <td>财务结果已撤回为 unknown/value=null，仅保留可复算参数模型。</td>
+              <td>不构成预算、概算、融资、招商、采购、收入或公共回流承诺。</td>
             </tr>
           </tbody>
         </table>

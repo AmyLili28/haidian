@@ -60,68 +60,6 @@
       display: block;
     }
 
-    .hero-copy {
-      position: absolute;
-      left: clamp(24px, 5vw, 76px);
-      top: clamp(42px, 8vw, 118px);
-      width: min(720px, calc(100% - 48px));
-      color: #fff;
-      text-shadow: 0 2px 18px rgba(0, 0, 0, 0.52);
-    }
-
-    .hero-kicker {
-      margin: 0 0 18px;
-      color: #f4d58a;
-      font-size: clamp(18px, 2vw, 28px);
-      font-weight: 800;
-      line-height: 1.25;
-    }
-
-    .hero-heading {
-      margin: 0;
-      color: #fff;
-      font-size: clamp(42px, 6vw, 88px);
-      line-height: 0.98;
-      font-weight: 900;
-      max-width: 760px;
-    }
-
-    .hero-subtitle {
-      margin: 16px 0 0;
-      color: rgba(255, 255, 255, 0.92);
-      font-size: clamp(18px, 2vw, 30px);
-      line-height: 1.35;
-      font-weight: 700;
-      max-width: 760px;
-    }
-
-    .hero-summary {
-      margin: 14px 0 0;
-      color: rgba(255, 255, 255, 0.9);
-      font-size: clamp(15px, 1.35vw, 21px);
-      line-height: 1.55;
-      max-width: 680px;
-    }
-
-    .scroll-cue {
-      position: absolute;
-      right: 24px;
-      top: 24px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 112px;
-      height: 34px;
-      padding: 0 14px;
-      border: 1px solid rgba(255, 255, 255, 0.35);
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.82);
-      color: #17201b;
-      font-size: 12px;
-      text-decoration: none;
-      backdrop-filter: blur(8px);
-    }
-
     .metrics-section {
       padding: 56px 32px 68px;
       background: var(--paper);
@@ -774,12 +712,6 @@
         min-height: 0;
       }
 
-      .hero-copy {
-        left: 18px;
-        top: 28px;
-        width: calc(100% - 36px);
-      }
-
       .metrics-section {
         padding: 38px 16px 52px;
       }
@@ -861,14 +793,8 @@
 <body>
   <main>
     <section class="hero-night" aria-labelledby="hero-title">
-      <img src="../assets/figures/00-project-cover-background.png" alt="Clean aerial view of the Centennial Jing-Zhang urban AI growth system corridor">
-      <div class="hero-copy">
-        <p class="hero-kicker">Urban Design Open Call Submission</p>
-        <h1 id="hero-title" class="hero-heading">Place-Grown Intelligence</h1>
-        <p class="hero-subtitle">Centennial Jing-Zhang Urban AI Growth System</p>
-        <p class="hero-summary">Growing AI from local urban problems through public validation, governance, and sustainable conversion.</p>
-      </div>
-      <a class="scroll-cue" href="#metrics">View Metrics</a>
+      <h1 id="hero-title" class="sr-only">Overall Aerial View: Place-Grown Intelligence: Centennial Jing-Zhang Urban AI Growth System</h1>
+      <img src="../assets/figures/user-first-image-en.png" alt="Overall Aerial View of the Centennial Jing-Zhang Urban AI Growth System, showing the Jing-Zhang corridor, transit axis, blue-green slow mobility belt, AI Origin Community, Zhongzhiyuan, Dazhongsi Renewal Gateway, and figure note">
     </section>
 
     <section class="metrics-section" id="metrics" aria-labelledby="metrics-title">
@@ -1097,21 +1023,21 @@
 
         <div class="render-grid" aria-label="Three labeled key-area renderings">
           <article class="render-card">
-            <img src="../assets/figures/10-zhongzhiyuan-aerial-transport-en.png" alt="English labeled aerial rendering for the Zhongzhiyuan technology validation and governance admission node">
+            <img src="../assets/figures/10-zhongzhiyuan-aerial-transport-en-dark-legend.png" alt="English labeled aerial rendering for the Zhongzhiyuan technology validation and governance admission node">
             <div class="caption">
               <h3>Crowd Intelligence Garden</h3>
               <p>Labeled effect rendering for the technology validation and governance-access node.</p>
             </div>
           </article>
           <article class="render-card">
-            <img src="../assets/figures/11-ai-origin-community-aerial-en.png" alt="English labeled aerial rendering for the AI Origin Community real-problem entry and youth co-creation node">
+            <img src="../assets/figures/11-ai-origin-community-aerial-en-dark-legend.png" alt="English labeled aerial rendering for the AI Origin Community real-problem entry and youth co-creation node">
             <div class="caption">
               <h3>AI Origin Community</h3>
               <p>Labeled effect rendering for the real-problem intake and youth co-creation node.</p>
             </div>
           </article>
           <article class="render-card">
-            <img src="../assets/figures/12-dazhongsi-aerial-en.png" alt="English labeled aerial rendering for the Dazhongsi productization and operational scaling node">
+            <img src="../assets/figures/12-dazhongsi-aerial-en-dark-legend.png" alt="English labeled aerial rendering for the Dazhongsi productization and operational scaling node">
             <div class="caption">
               <h3>Dazhong Temple</h3>
               <p>Labeled effect rendering for productization, operations scaling, and commercial/public classification.</p>
@@ -1343,19 +1269,19 @@
             <div class="indicator-list">
               <div class="indicator-item">
                 <b>One-Time CAPEX</b>
-                <span data-metric="one_time_capex_range_cny" data-value="117000000-405000000">Concept-stage main range: about RMB 117-405 million, covering the public framework, three nodes, common platform, and first-round scenario prototypes.</span>
+                <span data-model-ref="ECON-MODEL-001" data-status="unknown">Pending recalculation after formal quantities, procurement scope, and market quotations are validated.</span>
               </div>
               <div class="indicator-item">
                 <b>Annual OPEX</b>
-                <span data-metric="annual_opex_range_cny" data-value="35000000-125000000">About RMB 35-125 million per year, listed as a necessary condition and not added to one-time CAPEX.</span>
+                <span data-model-ref="ECON-MODEL-001" data-status="unknown">Pending recalculation after operator, FTE plan, platform contract, maintenance contract, and activity plan are validated.</span>
               </div>
               <div class="indicator-item">
                 <b>Commercial Revenue Ledger</b>
-                <span data-metric="steady_commercial_ai_revenue_range_cny" data-value="15000000-120000000">Stabilized annualized value after year 3: about RMB 15-120 million per year. This is a conditional estimate, not realized revenue.</span>
+                <span data-model-ref="ECON-MODEL-001" data-status="unknown">Pending recalculation after three-stage, five-category revenue contracts, pricing, receipts, and recognition rules are validated.</span>
               </div>
               <div class="indicator-item">
                 <b>Public Reinvestment Ledger</b>
-                <span data-metric="steady_public_ai_reflow_range_cny" data-value="5000000-30000000">Suggested stabilized reinvestment after year 3: about RMB 5-30 million per year, to be confirmed through contracts, audit, and eligible revenue basis.</span>
+                <span data-model-ref="ECON-MODEL-001" data-status="unknown">Pending recalculation after eligible revenue, contractually approved rate, account entity, audit cycle, and permitted uses are validated.</span>
               </div>
               <div class="indicator-item">
                 <b>Phasing Rhythm</b>
@@ -1391,8 +1317,8 @@
             </tr>
             <tr>
               <td>Investment and Operations</td>
-              <td>One-time CAPEX about RMB 117-405 million; annual OPEX about RMB 35-125 million per year.</td>
-              <td>Concept-stage order-of-magnitude estimates, not budgets, approved estimates, financing, or leasing commitments.</td>
+              <td>Financial outputs have been withdrawn to unknown/value=null; only a recomputable parameter model remains.</td>
+              <td>Not a budget, approved estimate, financing, leasing, procurement, revenue, or public-reinvestment commitment.</td>
             </tr>
           </tbody>
         </table>

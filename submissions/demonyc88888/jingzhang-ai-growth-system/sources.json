@@ -42,6 +42,18 @@
       "path": "brief/site-package/agent_taskbook.json",
       "source_type": "user_provided_cleared",
       "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "GLOBAL-AI-DISTRICT-CASES",
+      "path": "visual/assets/global_ai_district_cases.json",
+      "source_type": "user_provided_cleared_reference",
+      "usage": "User-supplied 2026-08-30 benchmark study of eight global AI innovation district cases; used for transferable mechanism comparison only, not as proof of local approvals, funding, partnerships, or implementation conditions."
+    },
+    {
+      "id": "ECONOMIC-WORKING-BASIS",
+      "path": "visual/assets/economic_model.json",
+      "source_type": "participant_concept_estimate",
+      "usage": "Parameterised concept-stage economic model for CAPEX, OPEX, three-stage commercial AI revenue, and public AI reinvestment formulas. It defines structure and missing inputs only; no budget, financing, procurement, revenue, lease, fund, or reinvestment commitment is declared."
     }
   ]
 }
