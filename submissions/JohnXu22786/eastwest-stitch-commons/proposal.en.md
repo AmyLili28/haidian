@@ -54,18 +54,27 @@ The proposal systematically establishes an 8-factor innovation mechanism (Land, 
 
 | Factor | Core Mechanism (Verifiable Alignment) | Key Area Carrier | Wing & Interface Synergy |
 | :--- | :--- | :--- | :--- |
-| **Land (土地)** | Revitalizes railway inventory & inefficient land with elastic reserving | Zhongzhiyuan, Origin, Dazhongsi | Xiaoyuehe Scenario Wing (Low-carbon land use) |
-| **Space (空间)** | Stitch Court, Market Gallery, Stitch Axis & under-bridge activation | Stitch Court, Market Gallery, Axis | Stitch Axis Greenway + Under-bridge micro-parlors |
-| **Industry (产业)** | Links tech services & scenario tests for cross-street enterprise testing | Dazhongsi Cluster & Zhongzhiyuan | Zhongguancun Tech Service Wing (Tech transfer) |
-| **Capital (资金)** | Government-guided, multi-stakeholder co-building & asset-light renewal | Phased across 3 Key Areas | Multi-stakeholder governance (Low-cost operations) |
-| **Talent (人才)** | Links university researchers & entrepreneurs with semi-open roadshows | Zhongzhiyuan Acceleration Zone | University Intelligence Interface (Academic exchange) |
-| **Compute (算力)** | Leverages Haidian public compute platforms & edge nodes for low latency | Zhongzhiyuan & Dazhongsi | Zhongguancun Tech Service Wing (Public compute access) |
-| **Data (数据)** | Minimal necessity & anonymous aggregation; no biometric/trajectory retention | Full-line mobility & plaza sensing | International Living Interface (Transparent disclosure) |
-| **Scenarios (场景)** | Flow sensing, accessibility, inspection, comfort & manual alert review | Origin Community (Living Lab), Axis | Xiaoyuehe Scenario Wing (Full-domain open scenario pilot) |
+| **Land (土地)** | Revitalizes railway inventory & inefficient land with elastic reserving | Zhongzhiyuan, Origin, Dazhongsi | Zhongguancun Technology Service Wing provides a service-rule interface; Xiaoyuehe Scenario Empowerment Wing frames green scenarios; no land-supply promise |
+| **Space (空间)** | Stitch Court, Market Gallery, Stitch Axis & under-bridge activation | Stitch Court, Market Gallery, Axis | Both official wings organize functional interfaces; the Stitch Axis and under-bridge micro-parlors are self-defined spatial interfaces |
+| **Industry (产业)** | Links tech services & scenario tests for cross-street enterprise testing | Dazhongsi Cluster & Zhongzhiyuan | Zhongguancun Technology Service Wing leads the service interface; Xiaoyuehe Scenario Empowerment Wing provides an application-test interface, with no named enterprise implied |
+| **Capital (资金)** | Government-guided, multi-stakeholder co-building & asset-light renewal | Phased across 3 Key Areas | Both official wings propose phased, asset-light co-building; no funding source, amount, or public investment is promised |
+| **Talent (人才)** | Links university researchers & entrepreneurs with semi-open roadshows | Zhongzhiyuan Acceleration Zone | Zhongguancun Technology Service Wing provides a connection interface; the University Intelligence Interface is only a self-defined micro-scale social interface |
+| **Compute (算力)** | Uses verifiable public compute resources & edge nodes as a low-latency concept interface | Zhongzhiyuan & Dazhongsi | Zhongguancun Technology Service Wing proposes compute-access routing; no specific platform, company, or supply commitment is implied |
+| **Data (数据)** | Minimal necessity & anonymous aggregation; no biometric/trajectory retention | Full-line mobility & plaza sensing | Xiaoyuehe Scenario Empowerment Wing carries transparent public scenarios; the International Living Interface is only a self-defined service-user interface |
+| **Scenarios (场景)** | Flow sensing, accessibility, inspection, comfort & manual alert review | Origin Community (Living Lab), Dazhongsi | Xiaoyuehe Scenario Empowerment Wing is the primary carrier; Origin and Dazhongsi are conceptual test nodes, with no partnership or approval implied |
+ 
+### Four-carrier factor flow (conceptual interfaces, not partnership or supply commitments)
+
+| Carrier | Main incoming factors | Translation / output | Mechanism and boundary |
+| :--- | :--- | :--- | :--- |
+| **Zhongzhiyuan AI Autonomous Innovation Acceleration Area** | Talent, compute, industry, space | Via the Zhongguancun Technology Service Wing, turns R&D questions and validation needs into testable interfaces for the three nodes; sends reusable solution cards to the AI Origin Community | Roadshows, compute routing, and small pilots remain subject to later confirmation; no specific company or platform is named |
+| **AI Origin Community** | Data, scenarios, public-service space | Via the Xiaoyuehe Scenario Empowerment Wing, translates public needs from residents, visitors, and enterprises into anonymous aggregated scenario cards, feeding Zhongzhiyuan and Dazhongsi | Minimum-necessary aggregation, human review, appeal, and shut-off are self-imposed governance rules |
+| **Zhongguancun Technology Service Wing (official taskbook wing)** | Service rules and interfaces for land, space, industry, capital, talent, and compute | Offers recommendations for technology transfer, resource routing, and pilot-entry conditions for Zhongzhiyuan and Dazhongsi | Rules and interfaces only; no funding, company, policy, or approval is promised |
+| **Xiaoyuehe Scenario Empowerment Wing (official taskbook wing)** | Data, scenarios, space, public services, and ecological interfaces | Organizes open scenarios, public experience, feedback, and shut-off loops for the AI Origin Community and Stitch Axis | Scenario opening, events, and operations are conceptual mechanisms requiring later co-design and professional review |
 
 Five AI+ scenarios strictly adhere to self-imposed "anonymous aggregation + human review" governance rules, prohibiting biometric surveillance:
 1. **Crossing-demand anonymized sensing & signal allocation**: Counts pedestrian flows and waiting durations to optimize crossing green times dynamically;
-2. **AI-assisted accessible crossing**: Supports visually and mobility-impaired users with continuous slope guidance, backed by 100% manual assistance desks;
+2. **AI-assisted accessible crossing**: Supports visually and mobility-impaired users with continuous slope guidance, backed by a staffed human guidance desk and paper information;
 3. **Public space facility inspection AI**: Automatically monitors pavement damage, lighting, and barrier-free facilities to generate maintenance tickets;
 4. **Environmental comfort sensing & microclimate advice**: Senses temperature, wind, and shading to broadcast outdoor comfort suggestions;
 5. **Content & safety alert human review**: Monitors market and event safety, requiring manual review for all alerts with instant appeal and shut-off channels.
@@ -77,7 +86,7 @@ Five AI+ scenarios strictly adhere to self-imposed "anonymous aggregation + huma
 ## Overall Design Area: Urban Renewal & Regulatory-Depth Urban Design
 The overall design takes the heritage green belt as a continuous stitching interface linking eastern and western neighborhoods, studying functional complementarity and flexible space conversion (daily leisure vs. festival markets).
 
-Regulatory-plan-level methods are used to verify land-use compatibility, public space controls, and placement guidelines. Following incremental micro-renewal, small-scale acupuncture interventions replace massive demolition. Across the whole package, the green ratio is reconciled to a single caliber of ~13.4% (green_space_area = 1,532,454 sqm / site_area = 11,412,825 sqm), and the public space ratio is ~0.32% (36,150 sqm).
+Regulatory-plan-level methods are used to verify land-use compatibility, public space controls, and placement guidelines. Following incremental micro-renewal, small-scale acupuncture interventions replace massive demolition. Across the whole package, the green ratio is reconciled to a single caliber of ~13.4% (green_space_area = 1,532,462.06 sqm / site_area = 11,412,825 sqm), and the public space ratio is ~0.32% (36,150 sqm).
 
 ![Conceptual Land-Use Structure](assets/figures/land-use-structure.en.png)
 
@@ -136,8 +145,8 @@ A comprehensive metric system covers crossing continuity, accessibility coverage
 This proposal is conceptual research design and does not constitute statutory planning approval or engineering conclusions.
 
 ### Explicit Scope Narrowing of Legal Citations
-1. **Barrier-Free Environment Creation Law (Article 39)**: The statutory requirement for on-site manual guidance applies strictly to expressly listed public service halls (medical, social security, financial, and utility payment halls) and cannot be generalized to all open public spaces or digital interfaces. The manual assistance desks, paper maps, and human-operated kiosks proposed in this project represent **self-imposed human-centred design governance rules** rather than sweeping legal certifications.
-2. **Generative AI Service Interim Measures**: This regulation primarily governs generative AI services provided to the public within mainland China and does not automatically apply to non-generative urban sensing, traffic dispatch, or facility inspection systems. The safety review, human verification, appeal, and shut-off mechanisms proposed herein represent **self-imposed project design standards**.
+1. **Barrier-Free Environment Creation Law (Article 39)**: The statutory requirement for on-site manual guidance applies strictly to expressly listed public service halls (medical, social security, financial, telecommunications, and utility-payment halls) and cannot be generalized to all open public spaces or digital interfaces. The manual assistance desks, paper maps, and human-operated kiosks proposed in this project represent **self-imposed human-centred design governance rules** rather than sweeping legal certifications.
+2. **Generative AI Service Interim Measures**: This regulation primarily governs generative AI services provided to the public within mainland China and does not automatically govern every non-generative urban sensing, traffic-dispatch, or facility-inspection system. Applicability depends on whether a service is a public generative-AI service. The safety review, human verification, appeal, and shut-off mechanisms proposed herein represent **self-imposed project design standards**.
 3. **Data Privacy Bottom Line**: Strict adherence to minimal necessity and anonymous aggregation ensures no biometric recognition or individualized movement tracking across all public spaces.
 
 > **Evidence anchors**: [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509], [source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW], [source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES].

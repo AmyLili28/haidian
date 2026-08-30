@@ -1,3 +1,9 @@
+## 2026-08-31 · Direct substantive repair for review 5047235192
+
+- Reconciled Chinese/English proposal, matrices, static figure labels, and HTML around the two official taskbook wings: Zhongguancun Technology Service Wing and Xiaoyuehe Scenario Empowerment Wing. University Intelligence and International Living are explicitly retained only as self-defined east/west local interfaces.
+- Added an explicit four-carrier factor-flow table for the eight mechanisms, naming the conceptual role of Zhongzhiyuan, AI Origin Community, and both official wings without implying companies, funding, partnerships, approvals, or supply.
+- Narrowed the Article 39 and Generative AI Measures references; human fallback, anonymous aggregation, appeal, and shut-off are stated as self-imposed governance rules.
+- Rebuilt the 12 bilingual figures and four bilingual print PDFs with the local repair generator; synchronized the green-area metric to metrics.json and retained provisional boundary warnings.
 # 方案迭代记录
 
 ## v0.2.0 - 2026-08-30 (Round 2 CocoSgt Review Repairs)

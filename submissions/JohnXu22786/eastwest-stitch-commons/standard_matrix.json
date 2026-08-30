@@ -296,7 +296,7 @@
     },
     {
       "standard_id": "GENERATIVE-AI-INTERIM-MEASURES",
-      "requirement_zh": "生成式AI暂行办法不当然适用于非生成式系统，方案安全审核为自设治理规则。",
+      "requirement_zh": "生成式AI暂行办法主要规范向公众提供的生成式AI服务，不自动覆盖所有非生成式城市感知系统；适用性取决于服务是否属于公众生成式AI服务，方案安全审核为自设治理规则。",
       "professional_dimension": "AI治理与合规",
       "mandatory": true,
       "review_status": "addressed",
@@ -330,7 +330,7 @@
       "self_check_ids": [
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "收窄生成式AI暂行办法：明确非生成式感知系统不直接适用；方案采取的人工复核、匿名聚合、误报申诉与一键退出为自设人本治理标准。",
+      "evidence_summary_zh": "收窄生成式AI暂行办法：明确其不自动覆盖所有非生成式感知系统，适用性取决于服务是否属于公众生成式AI服务；人工复核、匿名聚合、误报申诉与一键退出为自设人本治理标准。",
       "status": "complete"
     }
   ]
