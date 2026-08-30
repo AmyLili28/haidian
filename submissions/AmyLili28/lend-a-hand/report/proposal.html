@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>京张·搭把手｜LEND A HAND - proposal report</title>
+<style>
+:root {
+  --ink: #172033;
+  --muted: #667085;
+  --line: #d7dee8;
+  --paper: #ffffff;
+  --bg: #f4f7fa;
+  --accent: #245b8f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.75;
+}
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 42px 24px 72px;
+  background: var(--paper);
+  min-height: 100vh;
+  box-shadow: 0 0 0 1px rgba(23, 32, 51, 0.05);
+}
+.hero {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+}
+h1 { font-size: 34px; line-height: 1.22; margin: 0 0 10px; }
+h2 { font-size: 25px; margin: 34px 0 12px; border-top: 1px solid var(--line); padding-top: 24px; }
+h3 { font-size: 20px; margin: 26px 0 10px; }
+p, li { font-size: 16px; }
+blockquote {
+  margin: 18px 0;
+  padding: 12px 18px;
+  border-left: 4px solid var(--line);
+  color: var(--muted);
+  background: #f8fafc;
+}
+code {
+  background: #eef2f7;
+  color: #1d4f7a;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+:not(pre) > code {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.summary { color: var(--muted); font-size: 17px; }
+.translation-link a { color: var(--accent); font-weight: 700; }
+.proposal-table { margin: 20px 0 26px; overflow-x: auto; }
+.proposal-table table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 520px;
+  font-size: 15px;
+}
+.proposal-table th, .proposal-table td {
+  border: 1px solid var(--line);
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+}
+.proposal-table th { background: #eef2f7; color: var(--ink); font-weight: 700; }
+.proposal-table tbody tr:nth-child(even) { background: #fafcfe; }
+.proposal-table .align-center { text-align: center; }
+.proposal-table .align-right { text-align: right; }
+.proposal-figure {
+  margin: 22px 0 28px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+.proposal-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.proposal-figure figcaption {
+  padding: 10px 14px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+}
+.evidence {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  margin: 0 0.12em;
+  border-bottom: 1px solid #8aa8c3;
+  color: #315f87;
+  font-size: 0.68em;
+  font-weight: 650;
+  line-height: 1.35;
+  vertical-align: super;
+}
+@media (max-width: 720px) {
+  main { padding: 26px 16px 52px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 21px; }
+}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<h1>京张·搭把手｜LEND A HAND</h1>
+<p class="summary">用无账号问路、人工接力与修补交换构成有人接住的生活基础设施，AI只在后台维护信息版本。</p>
+<p class="translation-link"><a href="proposal.en.html">Read in English</a></p>
+</section>
+<h1>京张·搭把手｜LEND A HAND</h1>
+<blockquote><p>让 AI 退后一步，让邻里往前一步。</p></blockquote>
+<p>当一个人站在陌生路口、看不懂手机、推着婴儿车找不到无障碍入口，或只是有件小东西坏了，他最先需要的往往不是更聪明的入口，而是附近有人愿意往前一步。“搭把手”把这种很小的接住变成城市基础设施：问路凳让人不扫码也能开口，接力桌由有偿协调员判断边界，修补场让工具和技能重新流动。AI只在后台更新已核实的信息与交接版本，不判断谁值得被帮助，不给人排序，也不把互助变成公共服务退出的理由。</p>
+<h2>设计依据与资料清单</h2>
+<p>方案以官方公告确定的三层范围、三处重点区、设计任务和成果语境为主控依据，以面向智能体任务书的三大定位、五大功能、三区两翼和六项必答任务为内容框架 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="OFFICIAL-ANNOUNCEMENT" title="来源：OFFICIAL-ANNOUNCEMENT">来源</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup>。城市设计、控规深度与用地分类分别回应本地专业标准快照；外部案例只用于比较机制，不能替代北京的法定规划或场地事实 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MOHURD-URBAN-DESIGN-MEASURES" title="标准：MOHURD-URBAN-DESIGN-MEASURES">标准</sup>。</p>
+<p>当前公开包没有可验证坐标系的 official SITE_BOUNDARY、KEY_AREA、道路红线、建筑底数、文保控制线和控规条件。提交几何因此采用维护者提供的临时粗略 polygon；它只支撑生成、自检、图面和概念讨论。图上的 11.41 平方公里、16.9% 概念绿地率与 1.2% 概念公共空间率均是低置信度的设计模型值，不是审定指标 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/site_boundary.geojson#SITE-001" title="空间数据：geometry/site_boundary.geojson#SITE-001">空间数据</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="site_area_sqm" title="指标：site_area_sqm">指标</sup>。所有精度敏感图层和指标须在 official polygon 到位后整体重算，而不能局部替换。</p>
+<figure class="proposal-figure"><img src="../assets/figures/site-overview.png" alt="“搭把手”总览与四步协议"><figcaption>“搭把手”总览与四步协议</figcaption></figure>
+<h2>三层范围工作框架</h2>
+<p>统筹研究范围回答“AI产业资源怎样成为周边可触及的技能支持”；总体设计范围回答“求助怎样在日常路径上形成短而清楚的人工接力”；三处重点区分别验证技能出发、生活交接和修补交换。三层从产业能力一直落到一张桌、一段陪行和一次明确结束 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_level_scope_framework" title="深度：three_level_scope_framework">深度</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-001" title="空间数据：geometry/key_areas.geojson#PROV-KEY-001">空间数据</sup>。</p>
+<p>空间结构为“一条生活接力线、四条无障碍短链、六组问路凳与接力桌、三处修补与交换节点”。生活接力线沿京张文化和日常慢行界面组织；短链连接校园、社区、园区与公共交通；桌凳借用既有前台、社区空间或公园驿站；三处节点分别承接技能支持、日常陪行和轻维修。它们均为概念建议，不推定真实道路红线、文保边界、地块权属或工程可行性 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/roads.geojson#ROAD-SE-01" title="空间数据：geometry/roads.geojson#ROAD-SE-01">空间数据</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="overall_spatial_structure" title="深度：overall_spatial_structure">深度</sup>。</p>
+<figure class="proposal-figure"><img src="../assets/figures/land-use-structure.png" alt="总体结构与概念用地模型"><figcaption>总体结构与概念用地模型</figcaption></figure>
+<h2>统筹研究范围产业与未来城市研究</h2>
+<p>“搭把手”让创新生态向生活释放具体、有限、可拒绝的能力。众智园组织边界清楚的短时技能支持；AI 原点社区承接无账号问路、人工解释和短程陪行；大钟寺把轻维修、工具共享与代际技能交换变成公共活动；两翼分别连接正式公共服务和社区场景。这里的创新链是“有人开口—人工判断—短程接力—正式转介或清楚结束”，而不是新增一个自动分派人的平台 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="industry_ecosystem_strategy" title="深度：industry_ecosystem_strategy">深度</sup>。</p>
+<p>五个全球案例提供的是机制片段而不是模板：英国 ATRS 展示标准化公开字段；AI Verify 展示过程与技术测试的组合；荷兰算法登记展示公共目录；Boston CityScore 展示按时间比较绩效而非只看一次发布；Decidim 展示数字与面对面参与的可追溯连接 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-UK-ATRS" title="来源：CASE-UK-ATRS">来源</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-AI-VERIFY" title="来源：CASE-AI-VERIFY">来源</sup>。本方案把这些片段转成“京张搭把手协议”，但不声称任何国际框架在北京具有法定效力。</p>
+<p>视觉识别不是赛博装饰：无文字标记由两条并行轨迹组成，蓝色实线表示第一次承诺，橙色虚线回返并在一个可见接缝处结束，表示关系不是被重置，而是带着历史继续。命名系统依次为“技能出发站 / Skill Departure”“问路凳与接力桌 / Handover Table”“日常接力站 / Daily Handover Station”“修补与交换场 / Mending Exchange”。色彩采用铁路铁灰、公共蓝、修补橙和纸张白；不得使用未经授权的企业标识或人物肖像。</p>
+<h2>总体设计范围城市更新与控规深度城市设计</h2>
+<p>概念用地采用六个共享边界的拓扑分区，完整覆盖当前临时范围：文化与公共记忆、智能服务与商务、社区服务、近校教育科研、研发验证、留白与适应性用地。分区表达功能关系，不是法定地块用途；正式控规、权属和现状调查到位前，不给出具体拆除、容积率、高度或建设规模 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-SE-01" title="空间数据：geometry/land_use.geojson#LU-SE-01">空间数据</sup> <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MNR-LAND-USE-CLASSIFICATION-GUIDE" title="标准：MNR-LAND-USE-CLASSIFICATION-GUIDE">标准</sup>。</p>
+<p>更新顺序先处理“能够回来”的基本条件：连续步行、无障碍、遮阴、实体导视、人工窗口；再嵌入轻量问路凳与接力桌和三处时间地标；最后才开放需要持续数据或模型服务的 AI 场景。建筑图层只表达七个概念界面基底，包括三处地标和四个轻量接力亭，既不指向真实建筑，也不形成拆改留结论 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/buildings.geojson#BLDG-SE-01" title="空间数据：geometry/buildings.geojson#BLDG-SE-01">空间数据</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="retain_renovate_demolish" title="深度：retain_renovate_demolish">深度</sup>。</p>
+<p>分期分为：一期建立协议、人工值守和可逆设施；二期在三区进行差异化验证并修补公共空间联系；三期只复制经过搭把手证据确认的场景，并形成跨区知识与运营网络。每个阶段都有停止条件：找不到责任人、没有等价人工路径、无法解释数据边界、接力意见无人处理、或现场风险超过专业阈值时，暂停扩展而不是继续制造沉没成本 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/phasing.geojson#PHASE-SE-01" title="空间数据：geometry/phasing.geojson#PHASE-SE-01">空间数据</sup>。</p>
+<h2>重点区域详细设计</h2>
+<p>众智园不是“更强模型”的展厅，而是“技能出发站”：任何拟进入公共空间的 AI 场景先公开目标、服务对象、数据边界、责任人、人工兜底、复核周期和退出条件。空间上以可预约的小型验证庭、公开说明墙、低扰动测试界面和清河方向绿色交往空间组成；其位置与尺度均待 official key area、交通和生态条件深化 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-001" title="空间数据：geometry/key_areas.geojson#PROV-KEY-001">空间数据</sup>。</p>
+<p>AI 原点社区承担“日常接力站”。高校师生、居民、一线服务人员和开发者可把第一次使用之后的结果带回：系统建议是否真的有用、人工接管是否及时、谁被遗漏、什么需要修改。现场提供纸面、口述和无障碍通道，不把二维码或个人账户作为唯一入口。这个节点既是近校成果转化空间，也是把生活后果带回研发流程的公共客厅 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-002" title="空间数据：geometry/key_areas.geojson#PROV-KEY-002">空间数据</sup>。</p>
+<p>大钟寺承担“修补与交换场”和维护经济：公开的不只是入选成果，还有版本变化、暂停、退出、修补者和一线人员贡献。周边可探索维修、可访问性测试、模型交接、内容校对和责任记录等智能原生服务；地铁四象限与商业界面的具体连通方式必须等待道路、轨道和权属资料 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-003" title="空间数据：geometry/key_areas.geojson#PROV-KEY-003">空间数据</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_key_area_detailed_design" title="深度：three_key_area_detailed_design">深度</sup>。</p>
+<figure class="proposal-figure"><img src="../assets/figures/key-areas.png" alt="三区作为一段关系的三个时刻"><figcaption>三区作为一段关系的三个时刻</figcaption></figure>
+<h2>AI 创新生态、人才画像与 AI+ 场景</h2>
+<p>六类主要画像为：需要低门槛人工帮助的老年居民、使用无障碍路径的通勤者、在校学生与开源开发者、正在寻找首个真实场景的初创团队、承受系统后果的一线服务人员、以及不了解本地数字规则的国际访客。每类画像都有“第一次需要什么、第二次回来带什么、谁必须回应”的关系表；画像只用于服务设计，不建立可识别的商业标签。</p>
+<h3>一位普通人的搭把手</h3>
+<p>以下是用于检验流程的合成人物情境，不是真实受访记录：一位带孩子去社区服务点的老人，被无障碍导航带到正在施工的路口。她没有账号，也不愿上传持续位置记录。附近问路凳与接力桌的值守人先用纸图为她画出一条今天就能走的替代路线，再用一张五问纸卡记录“用了什么、原本想做什么、实际发生什么、现在需要什么帮助、是否愿意收到后续结果”。姓名和电话默认留空，她只拿走一个查询码。</p>
+<p>建议试点采用“3/14/30”回应节奏：3 个工作日内由服务责任人确认问题归属，14 天内在实体公告墙和离线网页同步初步判断，30 天内公布修改、继续观察或停止服务的决定；涉及即时安全风险时先暂停、后复核。几周后她再次经过，不需要重新讲一遍：她能用查询码看到路线已改、为什么改；如果不能改，也能看到原因和仍然有效的人工替代路径。这里的 3/14/30 天与值守安排只是待运营方、社区和专业团队共同校准的试点服务目标，不是政府承诺 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="ai_scenarios_personas" title="深度：ai_scenarios_personas">深度</sup>。</p>
+<p>十二张场景卡统一采用“第一次相遇—可能后果—搭把手—人工责任”结构：01 慢行导航、02 无障碍路线、03 低速配送机器人过街、04 公共服务导航、05 医疗信息分流但不诊断、06 教育资源建议但由教师复核、07 小微企业服务匹配但不作审批、08 开源成果发布、09 京张文化导览与来源纠错、10 公共空间舒适度调节、11 活动人流辅助与现场指挥、12 端侧算力与能耗说明。每张卡均要求目的限定、最小数据、可见人工入口、接力周期和停止条件 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="PROJECT-AGENT-OPEN-CALL-TASKBOOK" title="标准：PROJECT-AGENT-OPEN-CALL-TASKBOOK">标准</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="scenario_count" title="指标：scenario_count">指标</sup>。</p>
+<p>三项产业测试验证场景优先选择可控且可撤：低速机器人在封闭或半开放样段进行近失事件复盘；公共服务导航以匿名任务完成率和人工接管时长为指标；无障碍路线以真实障碍复核、纸面等价路径和专业顾问确认作为硬门。测试通过只意味着进入下一轮小范围试用，不等于批准全面部署。</p>
+<h2>用地、建筑规模与拆改留方案</h2>
+<p>完整用地分区由同一临时边界分割生成，公共绿地和接力空间作为叠加系统复算。模型避免自造“AI 用地”代码，使用公开用地分类术语表达科研、教育、社区服务、文化、商务、绿地与留白关系 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-SE-02" title="空间数据：geometry/land_use.geojson#LU-SE-02">空间数据</sup> <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MNR-LAND-USE-CLASSIFICATION-GUIDE" title="标准：MNR-LAND-USE-CLASSIFICATION-GUIDE">标准</sup>。绿地和公共空间比例是概念模型输出，不替代法定绿地率或规划条件。</p>
+<p>拆改留原则是“关系证据先于建筑结论”：具有遗产、连续街道界面、低碳再用或社区记忆价值的对象优先保留研究；可通过首层开放、无障碍、设备更新和可逆内装满足需求的对象优先改造研究；只有在安全、权属、文保、碳排和社区影响完成专业评估后，才讨论拆除。当前没有现状建筑底数，因此七个建筑几何全部是轻量公共接口的设计占位，不落到任何真实产权对象 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="building_footprint_area_sqm" title="指标：building_footprint_area_sqm">指标</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="height_massing_character" title="深度：height_massing_character">深度</sup>。</p>
+<p>容积率、建筑高度、密度、退线、道路红线、消防和市政容量统一保持“待正式数据补齐”。图纸中的大小关系是为了表达空间层级，不构成工程尺寸或投资测算。</p>
+<h2>交通、轨道、市政与公共服务设施</h2>
+<p>交通系统先回答“人能否在不依赖 AI 的情况下回来”。生活接力线提供连续步行与骑行叙事，四条接力横街把东西两侧的校区、社区、园区和轨道接驳方向带回公共界面；六处问路凳与接力桌以实体导视、可坐可停、人工值守和无障碍操作为最低配置。道路图层只表达概念慢行中心线，不推定现状道路、红线或桥隧方案 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/roads.geojson#ROAD-SE-01" title="空间数据：geometry/roads.geojson#ROAD-SE-01">空间数据</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="traffic_rail_slow_parking" title="深度：traffic_rail_slow_parking">深度</sup>。</p>
+<p>公共服务遵循“三个不唯一”：二维码不是唯一入口，个人账户不是唯一记录，自动化不是唯一服务方式。医疗、教育、法律与生活服务中的专业判断继续由有资质人员承担；AI 只可在明确范围内提供导航、材料整理或辅助建议。现场应能清楚找到责任人、纸面说明和人工办理路径，具体适用法律义务需由专业团队按场景判断 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="BARRIER-FREE-ENVIRONMENT-LAW" title="标准：BARRIER-FREE-ENVIRONMENT-LAW">标准</sup>。</p>
+<p>市政与新基建采用可计量、可关闭、可替换的轻设施方向：端侧算力柜、能源与用水读数、遮阴照明和环境传感不得与永久景观强绑定；正式布置前须核对能源、排水、防洪、消防、管线、噪声和网络安全条件。</p>
+<figure class="proposal-figure"><img src="../assets/figures/mobility-bluegreen.png" alt="接力慢行与蓝绿公共空间"><figcaption>接力慢行与蓝绿公共空间</figcaption></figure>
+<h2>蓝绿空间、公共空间与城市风貌</h2>
+<p>蓝绿系统不是科技装置的底图，而是“搭把手”发生的日常条件。连续绿脊提供遮阴、雨水花园、休息、步行和骑行；橙色修补缝在铺装、座椅或导视上标记“这里曾因反馈而改变”，让修正成为公共荣誉而不是失败污点。所有涉及河道、公园和文保的动作都保持轻量、可逆、待专业核查 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/green_space.geojson#GREEN-SE-01" title="空间数据：geometry/green_space.geojson#GREEN-SE-01">空间数据</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="green_ratio" title="指标：green_ratio">指标</sup>。</p>
+<p>六处问路凳与接力桌不是数字屏幕阵列，也不应一开始就新建六栋房子。首轮优先借用社区服务站、园区前台、校园公共客厅或公园驿站中的 12–18 平方米可见角落；最小配置是一面可更换的实体公告、一张能面对面坐下的桌子、两把有靠背座椅、一条无障碍到达路径、大字版与易读版说明、五问纸卡、可选二维码，以及清楚写在门口的人工时段。建议每周至少三个固定值守时段，其中一个在晚间或周末；没人值守时仍保留电话和纸质投递，不让“永远在线”的屏幕假装有人负责。三处地标也不追求网红体量：技能出发站公开新场景边界；日常接力站把后果带回；修补与交换场把修正、暂停与退出刻入版本历史 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/public_space.geojson#PUBLIC-SE-01" title="空间数据：geometry/public_space.geojson#PUBLIC-SE-01">空间数据</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="public_space_ratio" title="指标：public_space_ratio">指标</sup>。</p>
+<p>城市风貌以铁路材料的克制、纸面证据的温度和可见修补为语言：铁灰承担历史与结构，公共蓝承担说明和服务，修补橙只标记发生过回应的接缝。夜间照明避免炫光和过度媒体化，声音与互动不得妨碍居民生活。</p>
+<h2>更新项目清单、实施政策与分期计划</h2>
+<p>项目清单包括：SE-01 搭把手协议与一页式场景卡；SE-02 六处轻量问路凳与接力桌；SE-03 众智园技能出发站；SE-04 原点社区日常接力站；SE-05 大钟寺修补与交换场；SE-06 四条接力横街的慢行与无障碍修补；SE-07 十二个场景的小范围验证；SE-08 公共版本档案与年度复盘。每项都需明确公共业主、技术运营者、现场值守人、独立复核者和居民/用户代表；每条接力记录只绑定公开岗位，不把一线工作人员个人化为“背锅者” <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="renewal_project_list" title="深度：renewal_project_list">深度</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/phasing.geojson#PHASE-SE-01" title="空间数据：geometry/phasing.geojson#PHASE-SE-01">空间数据</sup>。</p>
+<p>一期分成三个小门槛：前 8 周确认两处既有空间、空间东道主、有偿带班协调员、公共服务接口人与纸质流程；随后 12 周只试运行“问不到也有人带”“陪你走一段”“周末修补桌”；再用 4 周公开值守履约、转介结果、志愿者负担和安全问题。只有固定时段真正有人、人工拒绝权有效、互助没有替代正式职责，才扩展到其他节点。成本只分轻/中/重概念等级，不编造预算和资金来源。</p>
+<p>最小责任班包括空间东道主、带班协调员、互助伙伴、后台信息维护者与公共服务接口人。协调员是有偿岗位，负责排班、交接、拒绝高风险请求和处理安全事件；互助伙伴设每周上限且可随时退出；技术维护者无权自动分派人员或判定需求优先级。超出陪行、问路和安全轻维修边界的问题，必须回到正式机构。</p>
+<figure class="proposal-figure"><img src="../assets/figures/pilot-operations.png" alt="两站三场景试点与停止条件"><figcaption>两站三场景试点与停止条件</figcaption></figure>
+<p>长期品牌活动为“搭把手周”：参展者不能只带 demo，必须带回上一次使用后的证据、失败、修改和下一次承诺。配套“修补夜校”“一线人员讲述会”“撤场也光荣”版本展与全球开发者交接日。活动、招商、政策和资金均为运营设想，不表述为已确定安排 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup>。</p>
+<h3>可行性闸门：先确认有人、场地与责任，再谈扩张</h3>
+<p>本方案在竞赛层面是完整、可审查的概念包，试点可从既有空间的一张桌、两把椅子和纸图开始；但它不是可以直接复制扩张的运营承诺。实施前必须确认两个空间东道主、至少一名有偿带班协调员、无障碍与安全复核、清楚的保险和物品责任边界，以及通往物业、社区、医疗或其他正式服务的转介接口。任一项缺失，都不得承诺开放时段或把志愿者放在风险前线。</p>
+<p>8+12+4 周三道闸门分别用于准备、运行和共同决策。复制的必要条件是值守时段真实履约、求助无需账号、转介完成而非只“已派单”、志愿劳动没有替代专业责任、骚扰和财物安全问题可被处理。岗位工时、场地改造、工具保险和参与补偿留待本地共创预算；缺少询价和责任确认时不虚构投资数值 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="implementation_phasing" title="深度：implementation_phasing">深度</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="scenario_count" title="指标：scenario_count">指标</sup>。</p>
+<h3>本方向的独立机制与首轮试点</h3>
+<p>这一方向不是“第二次见面”的改名版。众智园的“技能出发站”提供边界清楚的短时技能支持；AI 原点社区的“日常接力站”承担无账号问路、人工解释、短程陪行和公共服务转接；大钟寺的“修补与交换场”让轻维修、工具共享和代际技能交换成为见面的理由。首轮只借用两个既有空间，不新建专门建筑。</p>
+<p>三个最小验证场景是“问不到也有人带”“陪你走一段”“周末修补桌”。每个场景都保留纸面、口述和人工入口，AI不得作人员优先级、资格、事实真伪或资源分配的最终决定。出现没有有偿带班协调员、志愿者替代正式公共责任、AI开始给人排序打分、出现安全问题且无法处置中的任一情况即暂停扩张。参与规模不得被包装成全体民意，岗位、开放时段、补偿和场地条件均需与本地责任主体共同确认后才能承诺 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="implementation_phasing" title="深度：implementation_phasing">深度</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="scenario_count" title="指标：scenario_count">指标</sup>。</p>
+<h2>指标体系、面积复算与合规矩阵</h2>
+<p>三项核心视觉指标从同一组 GeoJSON 在 EPSG:4548 下复算：临时场地面积 11,412,825 平方米，概念绿地率 16.86%，概念公共空间率 1.24% <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="site_area_sqm" title="指标：site_area_sqm">指标</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="green_ratio" title="指标：green_ratio">指标</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="public_space_ratio" title="指标：public_space_ratio">指标</sup>。此外记录六处问路凳与接力桌、三处时间地标、十二张场景卡与七个轻量建筑界面。数字只描述当前概念模型，不是官方控制指标。</p>
+<p>指标分三类：可从几何复算的空间模型值；必须等待 official 控规和专业资料的 FAR、高度、道路、市政与文保条件；必须通过运营逐期获得的接力率、人工接管时长、修正完成率、重复问题率与退出执行率。第三类不会在没有真实试点时伪造基线或满意度。</p>
+<p>任务覆盖矩阵把公告 1.3、1.4、1.5 与 agent.1-agent.6 分别连接到正文、图层、指标、图纸、来源、假设和自检；专业标准矩阵和设计深度矩阵保存完整审计关系。正文只在主张旁放少量证据标记，避免机器索引破坏阅读 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="metrics_recalculation" title="深度：metrics_recalculation">深度</sup>。</p>
+<figure class="proposal-figure"><img src="../assets/figures/metrics-evidence.png" alt="指标与公共接力证据链"><figcaption>指标与公共接力证据链</figcaption></figure>
+<h2>风险、版权与合规说明</h2>
+<p>第一组风险来自数据：临时总体范围与已知场地线索存在公开讨论中的偏移不确定性，三处重点区缺 official polygon，现状建筑、道路、文保、市政与权属资料均不完整。应对方式不是补画得更像真的，而是保持 provisional 标识、减少工程性断言、设置整包重算触发器 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="BOUNDARY-SOURCE" title="来源：BOUNDARY-SOURCE">来源</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="risk_missing_data" title="深度：risk_missing_data">深度</sup>。</p>
+<p>第二组风险来自关系：接力机制可能变成表面咨询、个人追踪、投诉转移或“收集意见但无人负责”。因此只接受自愿、目的限定和可匿名的接力证据；纸面与面对面等价；每条记录必须绑定公开责任角色、处理期限由具体服务协议确定、无法处理时说明原因；不得把未验证意见写成多数民意或公众同意。</p>
+<p>第三组风险来自表达：概念封面、图件和图纸均为生成或数据驱动的展示资产，不是现场照片、官方效果图或已批准规划。生成方法、来源、许可和限制记录在 <code>sources.json</code> 与版权说明中。我们阅读同行方案只是为了差异化，没有复制其文本、图件和数据资产 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="PEER-OBSERVABLE-JZ" title="来源：PEER-OBSERVABLE-JZ">来源</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="PEER-MEND-JZ" title="来源：PEER-MEND-JZ">来源</sup>。</p>
+<p>所有空间落地建议均为“概念建议”“参考方案”或“可供专业团队深化研究”，不替代正式规划，不构成政府审定结论；不承诺实施、投资、政策、招商、活动效果或居民支持。</p>
+<h2>参考资料</h2>
+<ul>
+<li>北京市规划和自然资源委员会海淀分局：项目官方公告 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="OFFICIAL-ANNOUNCEMENT" title="来源：OFFICIAL-ANNOUNCEMENT">来源</sup></li>
+<li>面向全球智能体任务书摘录与仓库公开资料登记 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="SOURCE-REGISTRY" title="来源：SOURCE-REGISTRY">来源</sup></li>
+<li>英国 Algorithmic Transparency Recording Standard Hub <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-UK-ATRS" title="来源：CASE-UK-ATRS">来源</sup></li>
+<li>AI Verify Testing Framework <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-AI-VERIFY" title="来源：CASE-AI-VERIFY">来源</sup></li>
+<li>荷兰 Algorithm Register <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-DUTCH-ALGORITHM-REGISTER" title="来源：CASE-DUTCH-ALGORITHM-REGISTER">来源</sup></li>
+<li>Boston CityScore <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-BOSTON-CITYSCORE" title="来源：CASE-BOSTON-CITYSCORE">来源</sup></li>
+<li>Decidim 公民参与与可追溯原则 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="CASE-DECIDIM" title="来源：CASE-DECIDIM">来源</sup></li>
+</ul>
+<p>完整出版者、链接、访问日期、允许用途和限制保存在 <code>sources.json</code>。案例的作用是支持设计类比，不升级为本地法定依据。</p>
+</main>
+</body>
+</html>

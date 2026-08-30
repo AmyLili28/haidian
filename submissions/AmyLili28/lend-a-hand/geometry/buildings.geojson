@@ -1,0 +1,306 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLDG-SE-01",
+      "properties": {
+        "id": "BLDG-SE-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "building_type": "lab",
+        "name_zh": "技能出发站",
+        "name_en": "Skill Departure",
+        "intervention": "conceptual_new_or_adaptive_reuse_interface",
+        "area_sqm_declared": 6188.614
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34802,
+              40.01641
+            ],
+            [
+              116.34802,
+              40.01709
+            ],
+            [
+              116.34898,
+              40.01709
+            ],
+            [
+              116.34898,
+              40.01641
+            ],
+            [
+              116.34802,
+              40.01641
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-SE-02",
+      "properties": {
+        "id": "BLDG-SE-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "name_zh": "日常接力站",
+        "name_en": "Daily Handover Station",
+        "intervention": "conceptual_new_or_adaptive_reuse_interface",
+        "area_sqm_declared": 6191.137
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34702,
+              39.98816
+            ],
+            [
+              116.34702,
+              39.98884
+            ],
+            [
+              116.34797999999999,
+              39.98884
+            ],
+            [
+              116.34797999999999,
+              39.98816
+            ],
+            [
+              116.34702,
+              39.98816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-SE-03",
+      "properties": {
+        "id": "BLDG-SE-03",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "name_zh": "修补与交换场",
+        "name_en": "Mending Exchange",
+        "intervention": "conceptual_new_or_adaptive_reuse_interface",
+        "area_sqm_declared": 6194.843
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34802,
+              39.946580000000004
+            ],
+            [
+              116.34802,
+              39.94726000000001
+            ],
+            [
+              116.34898,
+              39.94726000000001
+            ],
+            [
+              116.34898,
+              39.946580000000004
+            ],
+            [
+              116.34802,
+              39.946580000000004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-SE-04",
+      "properties": {
+        "id": "BLDG-SE-04",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "name_zh": "问路凳与接力桌 1",
+        "name_en": "Handover Table 1",
+        "intervention": "lightweight_reversible_pavilion",
+        "area_sqm_declared": 1335.861
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34766070817842,
+              39.9614183476616
+            ],
+            [
+              116.34766070817842,
+              39.9617383476616
+            ],
+            [
+              116.34810070817842,
+              39.9617383476616
+            ],
+            [
+              116.34810070817842,
+              39.9614183476616
+            ],
+            [
+              116.34766070817842,
+              39.9614183476616
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-SE-05",
+      "properties": {
+        "id": "BLDG-SE-05",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "name_zh": "问路凳与接力桌 2",
+        "name_en": "Handover Table 2",
+        "intervention": "lightweight_reversible_pavilion",
+        "area_sqm_declared": 1335.595
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34728116473254,
+              39.97525586912616
+            ],
+            [
+              116.34728116473254,
+              39.97557586912616
+            ],
+            [
+              116.34772116473253,
+              39.97557586912616
+            ],
+            [
+              116.34772116473253,
+              39.97525586912616
+            ],
+            [
+              116.34728116473254,
+              39.97525586912616
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-SE-06",
+      "properties": {
+        "id": "BLDG-SE-06",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "name_zh": "问路凳与接力桌 3",
+        "name_en": "Handover Table 3",
+        "intervention": "lightweight_reversible_pavilion",
+        "area_sqm_declared": 1335.329
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34729674083742,
+              39.989092225123
+            ],
+            [
+              116.34729674083742,
+              39.989412225123004
+            ],
+            [
+              116.34773674083742,
+              39.989412225123004
+            ],
+            [
+              116.34773674083742,
+              39.989092225123
+            ],
+            [
+              116.34729674083742,
+              39.989092225123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-SE-07",
+      "properties": {
+        "id": "BLDG-SE-07",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "name_zh": "问路凳与接力桌 4",
+        "name_en": "Handover Table 4",
+        "intervention": "lightweight_reversible_pavilion",
+        "area_sqm_declared": 1335.062
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34775790889253,
+              40.00292726677579
+            ],
+            [
+              116.34775790889253,
+              40.003247266775794
+            ],
+            [
+              116.34819790889253,
+              40.003247266775794
+            ],
+            [
+              116.34819790889253,
+              40.00292726677579
+            ],
+            [
+              116.34775790889253,
+              40.00292726677579
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
