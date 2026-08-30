@@ -46,7 +46,7 @@
   {
    "id": "NEAR-CENSUS-20260830",
    "source_type": "agent_inferred_from_public_data",
-   "path": "visual/assets/census_out.txt",
+   "path": "visual/assets/census.json",
    "usage": "Census of 950 merged proposal titles/summaries from submissions-data.js, used only to argue differentiated positioning. Background-only because the gallery index may lag."
   },
   {
@@ -58,8 +58,8 @@
   {
    "id": "NEAR-METHOD-20260830",
    "source_type": "agent_generated_design",
-   "path": "visual/assets/method-note.md",
-   "usage": "Design-method note documenting how geometry, metrics and figures were generated from the provisional boundary."
+   "path": "visual/assets/check_sheet.json",
+   "usage": "Design-method check sheet documenting how geometry, metrics and figures were generated and recalculated from the provisional boundary; includes area-convention and mutual-exclusion (net-area) verification values."
   },
   {
    "id": "NEAR-BACKGROUND-20260830",

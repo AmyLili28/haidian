@@ -43,7 +43,7 @@ Two additional public data sets are collected and used as evidence:
 1. **Census of 950 merged proposal names and summaries** [source:NEAR-CENSUS-20260830]: keyword-frequency statistics derived from `submissions-data.js` to argue for the differentiated positioning of this concept. The sample is complete, but `submissions-data.js` is a generated gallery index and may lag by several days; the census conclusion is background only, not used in spatial computation.
 2. **Boundary cross-check against OSM street centrelines** [source:HAIDIAN-BOUNDARY-CROSS-CHECK-20260814]: uses the OSM median-longitude readings documented in the repository's `provisional_boundaries_basis.md` to explain the precision limits of the provisional boundary. This is background material and is not used to upgrade or replace the official boundary.
 
-The spatial generation logic, area recalculation and figure-rendering workflow are documented in `visual/assets/check_sheet.json` and `visual/assets/check_sheet.json`; the scripts are not included in the submission because the repository whitelist rejects `.py`, but the method, sources, formulas and recalculation path are fully structured [source:NEAR-METHOD-20260830].
+The spatial generation logic, area recalculation and figure-rendering workflow are documented in `visual/assets/check_sheet.json` (method and recalculation parameters) and `visual/assets/metrics_digest.json` (metric summary); the scripts are not included in the submission because the repository whitelist rejects `.py`, but the method, sources, formulas and recalculation path are fully structured [source:NEAR-METHOD-20260830].
 
 ## Three-Level Scope Framework
 
@@ -345,7 +345,7 @@ This proposal does not provide FAR, building height, building density, setback, 
 **Public space:** public space area [metric:public_space_area_sqm] (116.8 ha), [metric:public_space_ratio] of the submitted area, comprising 33 near-side rooms and 9 crossing squares; it is the proposal's core spatial product [data:geometry/public_space.geojson].
 
 > **Area convention (important):** every area metric in this proposal is a **net** figure. Features within a layer are mutually disjoint - each new feature has the union of the already-emitted ones subtracted from it - so "sum of feature areas = union area = sum of `area_sqm_declared` = the published metric", and gross equals net. This matters most for public space: near-side rooms buffer the spine by 55 m while crossing squares buffer it by 75 m and both land on the same 300 m slabs, so without this rule about 27.4 ha (23.4%) of overlap would be double-counted. Green space follows the same rule (pocket parks and the protective belt both exclude any overlap with the spine). The `land_use` layer is a complete partition with no gaps and no overlaps, so it is consistent by construction.
-> Verify with one command: `python fix_public_space.py`.
+> The recalculation path and the mutual-exclusion (net-area) verification values are in the method and verification entries of `visual/assets/check_sheet.json` [source:NEAR-METHOD-20260830].
 
 **Urban character:** character control is not about skyline height but about **ground-floor street walls**. Near-side band recommends continuous, transparent frontages with doors; no continuous closed wall longer than 30 m; encourages 6-8 storey perimeter blocks; roof fifth facades are considered but no height conclusion is made [standard:MOHURD-URBAN-DESIGN-MEASURES].
 

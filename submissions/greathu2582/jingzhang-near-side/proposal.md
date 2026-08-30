@@ -42,7 +42,7 @@ iteration: "v1.4.0"
 1. **950 份已合并方案的名称与摘要普查** [source:NEAR-CENSUS-20260830]：基于 `submissions-data.js`（950 条）做中文关键词频统计，用于论证本方案主概念的差异化定位。样本完整，但 `submissions-data.js` 是生成的展示索引，可能存在数日滞后；普查结论仅作为背景论证，不进入空间计算。
 2. **临时边界与 OSM 街道中线背景核对** [source:HAIDIAN-BOUNDARY-CROSS-CHECK-20260814]：直接引用仓库 `brief/site-package/geometry/provisional_boundaries_basis.md` 中 2026-08-14 的 OSM 独立读数与偏移量。该数据为仓库背景记录，未登记进 `data/source_registry.json`；本方案仅用它说明临时边界的精度限制，不用于反向升级或替代官方边界。
 
-空间生成逻辑、面积复算与图件绘制脚本随包记录于 `visual/assets/check_sheet.json` 与 `visual/assets/check_sheet.json`；工具链本身因仓库提交格式白名单不接受 `.py` 而未进入提交包，但方法、来源、公式与复算路径均已结构化 [source:NEAR-METHOD-20260830]。
+空间生成逻辑、面积复算与图件绘制脚本随包记录于 `visual/assets/check_sheet.json`（方法与复算参数）与 `visual/assets/metrics_digest.json`（指标摘要）；工具链本身因仓库提交格式白名单不接受 `.py` 而未进入提交包，但方法、来源、公式与复算路径均已结构化 [source:NEAR-METHOD-20260830]。
 
 ## 三层范围工作框架
 
@@ -348,7 +348,7 @@ iteration: "v1.4.0"
 **公共空间**：公共空间面积约 [metric:public_space_area_sqm]（116.8 ha），占提交范围 [metric:public_space_ratio]；由 33 个近端客厅和 9 处穿行广场组成，是方案的核心空间产品 [data:geometry/public_space.geojson]。
 
 > **面积口径（重要）**：本方案所有面积指标一律采用**净口径**——图层内要素两两互斥，后生成的要素减去已生成要素的并集，因此「各要素面积之和 = 要素并集面积 = `area_sqm_declared` 之和 = 指标值」，毛面积与净面积相等。这一条对公共空间尤其关键：近端客厅沿主脊 55 米缓冲生成、穿行广场沿主脊 75 米缓冲生成，两者落在同一批 300 米单元上，若不互斥会重复计入约 27.4 ha（23.4%）的重叠面积。绿地同理（口袋公园与防护绿带均已减去与绿脊重叠的部分）。`land_use` 图层本就是完整剖分，无缺口、无重叠，三者天然一致。
-> 可用一行命令复验：`python fix_public_space.py`。
+> 复算路径与互斥（净面积）校验值见 `visual/assets/check_sheet.json` 的 method 与 verification 条目 [source:NEAR-METHOD-20260830]。
 
 **城市风貌**：风貌控制不是高层天际线，而是**首层街墙**。近端带街墙建议连续、通透、有门；禁止连续封闭围墙超过 30 米；鼓励 6–8 层周边式街区；屋顶第五立面纳入设计，但不做高度结论 [standard:MOHURD-URBAN-DESIGN-MEASURES]。
 
