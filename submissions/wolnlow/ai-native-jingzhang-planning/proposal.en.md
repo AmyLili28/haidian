@@ -3,13 +3,29 @@ title: "A New AI-Native Planning Paradigm for the Jingzhang Railway Innovation B
 author_github: "wolnlow"
 language: "en"
 proposal_format_version: "2"
-iteration: "v2.9"
+iteration: "v3.0"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "Using the Jingzhang Railway Innovation Belt as a real-world testbed, this proposal explores a governable path for AI agents in urban planning and produces a site-specific plan through seven evidence layers, reversible scenarios, long-term operations, and version feedback; spatial geometry and professional controls remain explicitly provisional."
+summary: "Using the Jingzhang Railway Innovation Belt as a real-world testbed, this submission is organized into three strictly differentiated parts: overall understanding, AI-agent planning operations, and real urban-planning design. Every claim is tied to the three scales, three areas and six points, implementation actions, and explicit evidence limits."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 ---
+
+# A New AI-Native Planning Paradigm for the Jingzhang Railway Innovation Belt
+
+## Deliverable structure: three parts, three questions, one complete handoff
+
+This report does not mix method, concept, and design into a generic narrative. Part I asks only **why Jingzhang needs AI-native planning and what site conflicts must be addressed**. Part II asks only **how AI agents produce planning under evidence and accountable human control**. Part III states only **what spaces, services, projects, and operating rules are planned at specific Jingzhang locations**. The parts share site IDs, evidence states, and project ledgers, but none substitutes for another.
+
+| Part | Required question | Jingzhang grounding | Deliverable in this version |
+|---|---|---|---|
+| Part I: overall understanding | Why plan, for whom, and what is specific to Jingzhang? | 43.6 km² coordinated study, 11.4 km² overall design, and 368.4 ha across three key areas | Site judgement, objectives, three scales, and the One Belt–Three Areas–Two Wings proposition |
+| Part II: AI-agent planning operations | How do evidence, problem framing, counter-evidence, and human decisions work? | The heritage park, Zhongzhiyuan, AI Origin Community, and Dazhongsi as evidence, deliberation, testing, and demand-verification settings | Seven evidence bases, six task agents, three site workflows, five human gates, and a version ledger |
+| Part III: urban-planning design | Where, for whom, what problem, what space, and how to start, stop, and restore? | Railway public spine, three areas and six points, 13 scenarios, and JZ-01–06 | Overall structure, spatial interfaces, professional systems, phased projects, metrics, and exit contracts |
+
+The same precision discipline governs every spatial location. Where official polygons, regulatory plans, ownership, station entrances, roads, municipal evidence, or professional signatures are absent, claims remain `provisional/unknown`. Missing information does not eliminate design responsibility: the proposal still specifies area role, spatial interface, user action, ordinary-service fallback, accountable role, and evidence-recovery step.
+
+# Part I | Overall understanding: from AI-era change to the Jingzhang planning proposition
 
 ## Project reflection: from making a plan to building a city system that can learn
 
@@ -78,20 +94,6 @@ The table uses the official seven dimensions and weights. It points reviewers to
 | `expression_completeness` | 15% | Bilingual proposal/HTML, A3/A0, figures, GeoJSON/JSON, manifest, self-check | Whether media remain source-consistent, accessible, and usable for further work without hiding unknowns |
 
 Machine-readable references, limitations, and task mappings are provided in `visual/assets/review_evidence_matrix.json`.
-
-# A New AI-Native Planning Paradigm for the Jingzhang Railway Innovation Belt
-
-This report has three connected parts, not three parallel documents. Part I answers **why planning is needed and what Jingzhang actually faces**. Part II explains **how the agents work and which judgements must never be delegated to machines**. Part III states **what is planned on the ground, how people use it, and how it starts, stops, and exits**. The overall proposition sets the value coordinates, the agent system provides the production and review mechanism, and the urban-planning design is the final spatial answer.
-
-| Part | Core question | Substantive output |
-|---|---|---|
-| Part I: overall understanding | Why AI-native planning, and what is distinctive about Jingzhang? | Three scales, innovation ecosystem, three cultures, future users, and the One Belt–Three Areas–Two Wings judgement |
-| Part II: AI-agent operating plan | How are evidence, inference, counter-evidence, deliberation, and versions organized? | Seven evidence bases, evidence graph, six task agents, five human gates, correction and feedback ledgers |
-| Part III: urban-planning design | Where, for whom, what problem, what space and service? | Overall structure, three areas and six points, 13 scenarios, professional systems, projects, phasing, operations, metrics, and exit contracts |
-
-Part III does not use renderings to disguise concepts or replace design with words such as “future”, “smart”, or “empowerment”. Every proposal must identify its site basis, users, spatial relationship, use journey, ordinary-service fallback, accountable role, start evidence, metric, and stop/restoration rule. Missing information remains `unknown/provisional` with a recovery action; false precision is not used to make an abstract idea look like a plan.
-
-# Part I | Overall understanding: from AI-era change to the Jingzhang planning proposition
 
 ## Design basis and source list
 
@@ -165,11 +167,29 @@ Railway culture contributes verified histories of mobility, engineering, and pub
 
 Eight groups share public entry but differ in controlled work, data permissions, and professional service: researchers, developers, start-up teams, enterprise visitors, nearby residents, students/teachers, service providers, and operators. AI-era spatial demand is not “more screens”; it is short-cycle collaboration, bookable testing, human explanation, non-digital access, data clearing, quiet use, and reversible equipment.
 
+## Part I conclusion: three kinds of places carry three AI-city tasks
+
+Part I does not conclude with the slogan “build an AI innovation belt”. It translates Jingzhang's spatial differences into three distinct urban tasks. The railway heritage park is first a continuous public base; any AI layer must preserve passage, rest, accessibility, and historical reading. Zhongzhiyuan and AI Origin Community respectively provide trusted testing and open co-creation with accountable referral, resolving the interface between technical capacity and public understanding. Dazhongsi provides real demand, voluntary trial, and market feedback, while preventing flow data from making value judgements for residents, commuters, or consumers.
+
+| Place / scale | Known site role | Real problem to address | Overall planning judgement | Task handed to Part II |
+|---|---|---|---|---|
+| 43.6 km² coordinated research area | Relationship field for Haidian innovation, railway culture, and regional coordination | Research, open source, testing, capital, markets, and public life lack auditable handoffs | Organize relations through the eight-stage relay and three cultural evidence lines; do not invent institutional alliances | Ecosystem, culture, and orchestration agents establish sources, handoff artifacts, and prohibited inferences |
+| 11.4 km² overall design area | Jingzhang heritage park and surrounding renewal space | Public spine, innovation carriers, walking/blue-green networks, and daily services are not yet one spatial system | One Belt–Three Areas–Two Wings, multiple scenarios, and a blue-green walking loop | Scenario-space, public-space, and operations agents review nine layers and spatial interfaces |
+| Zhongzhiyuan | Candidate anchor for trusted testing and full-stack innovation | Testing must be controlled, while results need to be understood by demand owners and the public | Open validation front—safety threshold—controlled test back | Verify carrier, fire, insurance, data accountability, physical stop, and clearing |
+| AI Origin Community | Near-campus, mixed, short-cycle co-creation anchor | Innovation resources are strong, but problem entry, maintenance, and referral ownership are fragmented | Public commons—quiet co-creation—professional referral | Verify residential access, quiet hours, carrier permission, maintainer, and rights |
+| Dazhongsi | Demand-verification area combining interchange, commerce, housing, and visitors | Needs are complex, while entrances, rights-of-way, motives, and consumer fairness cannot be inferred from flows | Joint audit and voluntary single-service trials before engineering or commercial conclusions | Verify entrances/roads, merchant permission, consumer rights, human service, and complaint return |
+
+The project objective is therefore specific: **preserve public value through the railway spine; complete an innovation relay through differentiated area tasks; use the two wings to bring professional and everyday resources; and feed evidence from reversible trials back into planning.** Part II does not reopen the vision; it shows how agents produce, challenge, and hand over these judgements.
+
 # Part II | AI-agent operating plan: an evidence-to-ledger planning system
+
+This part explains planning production only; it does not disguise the agent workflow as a spatial proposal. Every operation starts from the location task sheet created in Part I and ends with a planning contract that Part III can place on the ground. Complete prose or polished images cannot conceal missing evidence, participants, accountable operators, or professional conditions.
 
 ## What agents actually do in this project
 
 An agent is not an automatic drawing tool here; it is part of a planning-production system. Its input is not a slogan but evidence with source, date, spatial scale, rights, and limitations. Its output is not one answer but comparable candidates, counter-evidence, a human decision, and a version difference. Agent work ends at an auditable judgement. Fact promotion, value trade-off, statutory decision, professional safety, spatial rights, and public release remain with named accountable people.
+
+In Jingzhang, agent inputs are separated by place: the 43.6 km² level tests ecosystem and regional relay relations; the 11.4 km² level tests railway heritage, renewal, mobility, and blue-green relations; Zhongzhiyuan tests trustworthy testing; the AI Origin Community tests ordinary community life and open collaboration; and Dazhongsi tests station-city, commerce, walking, and the authenticity of demand. An output without a place, affected users, and evidence state cannot enter the planning-design proposal.
 
 Seven evidence bases—space; people and use; industry and institutions; mobility and access; blue-green environment; culture and rights; and operations and risk—enter the evidence graph first. Every record states its `verified/background/design_proposal/provisional/unknown` status, permitted use, and prohibited inference. When a source changes, dependent questions, proposals, figures, and metrics expire and trigger recalculation; the system does not merely redraw one figure.
 
@@ -187,11 +207,38 @@ Seven evidence bases—space; people and use; industry and institutions; mobilit
 
 *Figure 24. Six agents generate candidates around one evidence and knowledge graph. Fact admission, value trade-off, spatial admission, pilot start/stop, and public release remain human-controlled; any gate may return, pause, or reject.*
 
+## How the six agents attach to Jingzhang places
+
+The six tasks are not six unrelated essays. They form handoff-ready outputs around the same places. The orchestrator fixes seven fields for every task—place, problem, evidence, candidate, counter-evidence, human decision, and version. An output without a place and affected people cannot enter Part III.
+
+| Task agent | Primary Jingzhang location | Actual input in this version | Required planning output | Human gate it cannot cross |
+|---|---|---|---|---|
+| Concept and identity | The whole belt, railway public spine, and area entries | Three scales, railway/Zhongguancun/AI cultural evidence, and place roles | Working identity, L0–L5 naming tree, and correctable wayfinding grammar | Trademark, language, heritage setting, public recognition, and release |
+| Ecosystem | AI Origin Community–Zhongzhiyuan–Dazhongsi relay | Seven international mechanisms, eight-stage chain, and taskbook | Area roles, handoff artifacts, entry conditions, and failure knowledge | Institutional permission, carrier, finance/compute/data accountability, and partnership claims |
+| Scenario-space | Three areas and six points plus the railway spine | Eight user groups, 13 scenario cards, and non-digital service requirements | User action, components, AI/human division, opening time, and restoration | Health, education, commerce, privacy, consent, and ordinary-service guarantees |
+| Public-space | Heritage park and area ground-floor public interfaces | Public character, walking/blue-green layers, heritage and rights gaps | Movable story station, developer-walk task, seating/accessibility/human-service components | Park, heritage, road, landscape, fire, accessibility, and everyday passage |
+| Culture | Railway heritage, park nodes, AI Origin Community, and Dazhongsi visitor entry | Historical sources, variant accounts, copyright, bilingual text, and spatial grain | Three evidence lines, five route tasks, correction and withdrawal | Historical review, image/font/mark rights, language, and site opening |
+| Operations | JZ-01–06 and daily/weekly/quarterly/annual activities | Project ledger, stages, parent metrics, complaints, and stop protocol | Activity–community–project–test–application–knowledge loop | Named operator, budget/procurement, permit, baseline, takeover, and clearing |
+
 ## Operating chain from problem to version
 
 The working chain is evidence admission; problem identification; separation of need and objective; multi-scenario candidates; counter-evidence and conflict; spatial/service translation; human decision; implementation monitoring; and version feedback. Every handoff contains at least four objects: a traceable issue card, alternatives including no-build/no-AI, a human decision record, and a version log stating who can reopen the issue under what condition. Agents therefore do not replace planners with answers; they expose hidden assumptions, broken evidence, and unacceptable consequences earlier.
 
 All agents share one human–machine boundary. Machines handle explicit evidence, logical relationships, conditional scenarios, and consistency checks. People retain problem definition, interpretation of motive, value ranking, negotiation, and final responsibility. Zhongzhiyuan tests whether technology is credible and interruptible; AI Origin Community tests whether online analysis accepts field and resident correction; Dazhongsi tests whether behavioural data is returned to a joint task walk rather than converted directly into conclusions about people.
+
+## Agent workflows in the three key areas
+
+### Zhongzhiyuan: from a technology capability list to a trusted-test spatial contract
+
+Agents first separate full-stack innovation, testing demand, and safety constraints into issue cards, distinguishing taskbook requirements, case-study background, and remaining unknowns. They then compare fully closed testing, publicly open testing, and a public interpretation front plus controlled testing back. Counter-evidence shows that full openness externalizes safety risk while full closure prevents public understanding, so the output becomes an open validation front—safety threshold—controlled test back contract. Before Part III can place it, people must confirm a real carrier, fire and insurance conditions, data accountability, physical stop, and clearing; otherwise only an offline validation table remains.
+
+### AI Origin Community: from resource density to an open front that residents can correct
+
+Agents do not infer innovation vitality from counts of universities or enterprises. They structure community issue entry, open-source tasks, maintainers, licenses, quiet hours, and residential access as evidence, then compare event-intensive, online-platform, and public-commons options. Value deliberation keeps ordinary life first, preserves a no-AI route, and requires maintained outputs. The resulting interface is public commons—quiet co-creation—professional referral, with a weekly open-source table and research-to-market clinic as removable services. Without real resident co-definition and named recipients, the work remains G0–G1.
+
+### Dazhongsi: returning flow and station-city inference to joint audits and single-service trials
+
+Agents initially generated a four-quadrant engineering route from open maps and relationship diagrams. The human spatial gate rejected it because entrances, roads, rights-of-way, step-free continuity, and travel motives were not verified. The corrected output is a time-specific joint audit, paper issue sheet, one-merchant/one-service voluntary trial, and human return visit. Only when each issue has location evidence, affected people, accountable destination, and professional verification may it become a facility or engineering design. Returning the route is not reduced depth; it prevents false certainty from becoming infrastructure.
 
 ## Two correction experiments: proving value through rejection
 
@@ -203,7 +250,18 @@ The result is not “two more designs”. It demonstrates that agent output can 
 
 Agent value is not measured by words, images, or tokens. It is accepted against five results: **evidence can be traced; proposals are genuinely grounded in Jingzhang; affected people can change a conclusion; high-risk scenarios have human takeover; and failure can stop and become knowledge for the next version**. Where no real object, accountable party, or authorized instance exists, the output remains a research contract and does not impersonate institutional partnership, public participation, professional signature, or live city operation.
 
+Part II hands five contracts to Part III rather than more concepts: an **evidence contract** with sources, states, and prohibited uses; a **problem contract** with affected people, conflict, and human decision; a **proposal contract** containing no-build/no-AI alternatives; a **scenario contract** with spatial interface, ordinary service, takeover, and restoration; and an **implementation contract** with project ID, ownership, version difference, and reopening condition. Part III makes spatial decisions only after Zhongzhiyuan, AI Origin Community, and Dazhongsi each have a site-specific contract.
+
 # Part III | Urban-planning design: from the overall structure to real spatial answers in three areas and six points
+
+This part no longer explains how the agents work. It submits planning judgements. A “real proposal” does not fabricate coordinates when official redlines are missing; it states for every scale and location who is served, what conflict is addressed, what spatial relationship is created, what happens first, who is accountable, how it is evaluated, and when it stops. Renderings can aid interpretation but cannot replace these spatial and implementation contracts.
+
+| Spatial level | Planning structure | Specific location | Design result that must hold |
+|---|---|---|---|
+| Coordinated research | Eight-stage innovation relay, three cultural evidence lines, and regional interfaces | 43.6 km² study area and taskbook coordination targets | Every innovation task has an issue source, handoff artifact, accountable role, and failure knowledge; “ecosystem” is not a substitute for handoff |
+| Overall design | One Belt–Three Areas–Two Wings, multiple scenarios, and a blue-green walking loop | 11.4 km² overall design area and railway heritage park public spine | The public base remains continuous; areas and wings connect through tasks and services; ordinary city functions work when AI exits |
+| Key-area design | Three areas, six points, and front–threshold–back sequences | Zhongzhiyuan, AI Origin Community, and Dazhongsi | Every point has a user journey, components, human takeover, metrics, and restoration |
+| Implementation | JZ-01–06 and G0–G3/X stages | Heritage park, authorized area carriers, and activity routes | No controlled live trial without carrier, owner, permit, budget, baseline, professional signature, and takeover drill |
 
 ## Overall design area: urban renewal and regulatory-plan-level urban design
 
@@ -307,11 +365,24 @@ Land-use, building, public-space, and phasing layers jointly express the spatial
 
 The first phase favors actions that do not change ownership or structure: human front desks, movable exhibits, paper guidance, controlled tests, quiet night use, accessible rest, and service ledgers. Permanent buildings, river works, road works, and final landmarks wait for official drawings, professional review, and rights clearance.
 
+| Area | Priority ground-floor/open-space use | Building-renewal direction | Ordinary city function that must remain | Verify before formal design |
+|---|---|---|---|---|
+| Zhongzhiyuan | Public validation front, staffed explanation, and safe waiting facing the public spine | Reversible internal division; physical separation of the controlled back from the public front | Fire egress, logistics/maintenance, ordinary visitor information, and accessible arrival | Building, ownership, structural load, fire, insurance, equipment, and energy capacity |
+| AI Origin Community | Free public commons, paper issue entry, open-source co-creation, and quiet sitting | Reuse an eligible street-facing ground floor or public facility without occupying residential lobbies or fire access | Residential passage, rest, community service, quiet night use, and no-scan participation | Carrier permission, resident co-definition, noise periods, maintainer, and output rights |
+| Dazhongsi | Multi-entry issue intake, single-service merchant trial, human support, and return visit | Removable service desks in commercial ground floors; no change to original price or basic service | Existing shopping, interchange, walking, accessibility, and offline complaints | Entrances/roads, merchant authorization, lease rights, baseline, consumer rights, and fire capacity |
+
 ## Transport, rail, municipal infrastructure, and public services
 
 Mobility follows “audit first, micro-renewal second, engineering third.” The first tasks are a Dazhongsi four-quadrant audit, heritage-park gap walk, campus–park connection, and accessibility walkthrough; mobility, landscape, accessibility, and municipal professionals then review shade, lighting, bicycle parking, wayfinding, crossings, and interchange. Current layers show directional relationships, not unverified station entrances, redlines, bridges, tunnels, or lift conditions. [depth:traffic_rail_slow_parking] [data:geometry/roads.geojson#ROAD-001]
 
 Municipal and new-infrastructure proposals follow minimum resources, disconnectability, and human maintenance. Edge compute, energy, drainage, fire, and data interfaces remain capacity-unknown; ordinary light, water, rest, accessibility, and paper information cannot be weakened. Official capacity and engineering evidence trigger professional recalculation. [depth:municipal_new_infrastructure] [data:geometry/constraints.geojson#CONSTRAINTS]
+
+| Place | First mobility/facility action | Output that can be produced now | Conclusion prohibited now |
+|---|---|---|---|
+| Heritage-park public spine | Segment-by-segment record of gaps, rest, shelter, light, bicycle parking, and accessible fallback | Issue ledger, paper task route, and removable wayfinding mock-up | Continuous engineering alignment or permanent structure without park/heritage/road review |
+| Zhongzhiyuan | Check whether visitor, logistics, maintenance, and emergency movements cross | Front/back circulation principle, safety threshold, and observer-position contract | Specific entrance, egress distance, or equipment route |
+| AI Origin Community | Check everyday campus–community–public-spine walking and quiet-night conflict | Siting criteria for the public front, activity hours, and accessible rest | Occupying residential access for events or treating campus resources as already open |
+| Dazhongsi | Joint audit of entrances, crossings, cycles, and accessibility during peaks, off-peak, and weekends | Four-quadrant issue sheet, accountable dispatch, and professional review checklist | Engineering route, entrance modification, or interchange promise derived from open maps |
 
 ![Mobility, rail, municipal, and blue-green public space](assets/figures/mobility-bluegreen.en.png)
 
@@ -320,6 +391,8 @@ Municipal and new-infrastructure proposals follow minimum resources, disconnecta
 The Jingzhang heritage park is the public spine. The blue-green system serves movement, rest, cultural understanding, ecological care, and low-risk innovation. Three AI landmark candidates use retractable and correctable components rather than permanent mass: the Developer Walk and Open-source Milestone Gallery combines a thematic walk, paper route, and version/license/correction display; the Agent Contribution Wall shows authorized contributions without automatic awards; and the Jingzhang AI Time Station uses a reversible timeline table to interpret reviewed three-layer cultural knowledge.
 
 Five verifiable route prototypes are used: R1 Jingzhang at a Glance, R2 Deep Read of Three Cultures, R3 Half-day Co-creation Route, R4 Step-free, Low-digital Route, and R5 International Visitor Route. Every story unit displays source, date, spatial scale, rights, bilingual text, version, correction entry and text-only/provisional status. Historical dispute, portrait/font/trademark conflict, or a daily-use conflict triggers withdrawal and a paper/human fallback. [data:geometry/green_space.geojson#GREEN-001] [data:geometry/public_space.geojson#PUBLIC-001] [depth:blue_green_public_space]
+
+Public-space character uses three layers: railway material memory; Haidian's restrained, legible technical language; and a replaceable information layer. Paving, trees, seating, and lighting form the durable base. Railings, shelters, and ground-floor edges remain quiet, continuous, and maintainable. Screens, sensors, interactive devices, and event graphics are all removable. Zhongzhiyuan makes safety thresholds visible; AI Origin Community keeps an everyday seated conversational scale; Dazhongsi emphasizes multi-entry recognition and staffed service; the heritage park does not let luminous devices or large forms overpower railway remains.
 
 ## Renewal projects, implementation policy, and phasing
 
@@ -344,9 +417,13 @@ Participant roles include planning coordination, GIS/survey, mobility/accessibil
 
 Metrics are separated into: working spatial values reproducible from the same GeoJSON; control values waiting for official regulatory, road, ownership, and professional evidence; and performance values requiring operating baselines. Current working values include submitted-geometry area, key-area count, building footprint, green ratio, and public-space ratio, all explicitly provisional rather than statutory controls. [metric:site_area_sqm] [metric:key_area_count] [metric:building_footprint_area_sqm]
 
+Metric scopes are also separated across Jingzhang's three levels: the 43.6 km² level assesses regional relay and ecosystem relations; the 11.4 km² level addresses overall-design structure; and the 368.4 ha key-area level recomputes only work values within provisional geometry. The six-point metrics for Zhongzhiyuan, the AI Origin Community, and Dazhongsi attach respectively to trustworthy testing, public collaboration, and real-demand tasks; they are not blended across places into a single “high score.”
+
 Green and public space are checked through [metric:green_ratio] [metric:public_space_ratio] and finally recalculated under [depth:metrics_recalculation].
 
 Six parent metric categories cover spatial experience, service access, public value, innovation performance, operational resilience, and AI risk. Fifteen parent and 39 child metrics retain `unknown/null` baselines; empty opportunity IDs, test IDs, and event arrays do not mean zero events or success. Ratios publish numerator, denominator, observation window, exclusions, missingness, and group differences; severe safety, discrimination, accessibility, or rights failures cannot be averaged away. Actual owners, frequencies, targets, and thresholds remain `unknown/unassigned`; the package preserves proposed accountability, recalculation triggers, and non-digital alternatives. Footfall, clicks, funding, and exposure do not substitute for public value.
+
+The first metrics correspond directly to the six spatial tasks. `P-ZZY-01` checks evidence completeness, human review, physical stop, and clearing; `P-ZZY-02` checks state publication, accountable acknowledgement, and offline task completion; `P-ORI-01` checks license completeness, accessible entry, resident issues received, and maintenance response; `P-ORI-02` checks first transfer, named recipient, return reason, and human receipt; `P-DZS-01` checks informed refusal, ordinary-service availability, complaint response, and data clearing; `P-DZS-02` checks time-period audit coverage, accessibility continuity, accountable dispatch, and return closure. Without a live instance and disaggregated baseline, each remains unknown rather than being assigned a target that looks like performance.
 
 ## Audience-specific outputs, planning dialogue, and public scrutiny
 
@@ -362,9 +439,25 @@ The two counts in the figure use different populations. **All 15 operating paren
 
 Planning decisions use G-Fact/G-Value/G-Spatial/G-Pilot/G-Release; final artifacts separately pass Fact, Spatial, Rights, Identity and Release gates. The first set controls fact upgrade, value trade-offs, spatial admission and pilot start. The second checks copyright, trademarks, type, portraits, data withdrawal, bilingual terms, accessibility, captions, offline behavior, manifest, hashes and human sign-off. Privacy, copyright, implementation risk and human review records stay next to every high-risk scenario. A failed applicable gate downgrades the output to a research contract, text-only or offline prototype; it does not enter formal site release. [depth:risk_missing_data] [source:MISSING-DATA-CHECKLIST]
 
+Risk is not one generic corridor-wide checklist. The railway heritage park prioritises heritage, passage, content rights, and removal; Zhongzhiyuan prioritises data, equipment, safety thresholds, and human shutdown; the AI Origin Community prioritises resident consent, quiet hours, fair access, and contribution licences; Dazhongsi prioritises verified entrances and roads, informed consumer refusal, ordinary-service fallback, and accessibility. Evidence from one place cannot close a high-risk gap in another.
+
 AI may retrieve, summarize, compare, flag gaps, draft text for review, and aggregate anonymous feedback. It may not approve planning, allocate public rights, replace engineering safety or medical/education/investment judgment, hide conflicts, or continue service while paused. All formal spatial claims and high-risk decisions retain accountable humans, refusal, appeal, stop, clearing, and recovery.
 
 This revision closes a one-file-one-record rights chain for the 61 current PNGs, basemaps, offline-font CSS, HTML and PDF composite outputs. Generated visuals retain the tool, model-disclosure boundary, final generation specification, input hash and human review. The Noto Sans SC offline subset and all four PDFs use the SIL OFL 1.1 chain; Sentinel backgrounds retain Copernicus attribution. Candidate names and logo grammar are participant-originated research directions, not registered marks or approved public brands. Third-party names are used only for attribution or factual identification, without logos or endorsement claims. This clearance covers `COMMUNITY-DISPLAY-ONLY`; new assets, commercial use, trademark registration, permanent signage or governmental publication reopen G-Rights/G-Brand. Official boundary, field survey, interviews, professional signatures, named operators, and runtime baselines remain external dependencies; they are not filled by the model. [source:SOURCE-USE-MATRIX] [data:visual/assets/asset_rights_register.json] [data:visual/assets/generated_visuals_manifest.json]
+
+## Final synthesis: how the three parts become one Jingzhang proposal
+
+Part I produces five place tasks rather than a macro slogan: the railway public spine preserves public value; Zhongzhiyuan provides a trusted-test interface; AI Origin Community provides open co-creation and accountable referral; Dazhongsi provides real demand and voluntary trials; and the two wings bring professional and everyday resources. Part II does not repeat those spatial conclusions. It uses seven evidence bases, six task agents, counter-evidence, human gates, and a version ledger to show how conclusions are produced, rejected, and handed to design. Part III freezes both into One Belt–Three Areas–Two Wings, three areas and six points, 13 scenarios, JZ-01–06, and G0–G3/X stages for subsequent siting, professional design, and controlled trials.
+
+| Loop stage | Output completed now | Jingzhang location | Next real-world action | State if evidence is missing |
+|---|---|---|---|---|
+| Understand | Three scales, five place conflicts, objectives, and cultural/ecosystem judgement | Whole belt, heritage park, Zhongzhiyuan, AI Origin Community, Dazhongsi | Obtain official scope and professional evidence; review with real site parties | Remains a research judgement, not an official conclusion |
+| Operate | Evidence graph, task-agent board, correction experiments, five human gates, and version ledger | One site workflow per key area | Create real issue cards, named accountability, and dissent records | Remains G0; does not claim completed participation |
+| Design | Overall structure, front/back sequences, six points, systems, and project portfolio | 11.4 km² overall area and 368.4 ha key areas | Match each spatial contract to an eligible carrier and undertake professional review | Remains provisional; no precise coordinate or capacity |
+| Trial | JZ-01–06, scenario cards, metrics, stopping, clearing, and restoration | Heritage park and authorized carriers in the three areas | Close carrier, permit, budget, baseline, signature, and takeover drill | Stays G0–G1; no live operation |
+| Feed back | Audience-specific outputs, public feedback, metric recalculation, and version differences | Belt knowledge base and point-level service ledgers | A named person interprets results and chooses retain, revise, or exit | Runtime data cannot automatically modify planning or replace public judgement |
+
+The explored path for “AI agents doing urban planning” is therefore: **understand Jingzhang correctly; use agents to make the reasoning inspectable; and let planning design turn the judgement into usable, reviewable, and stoppable spaces and projects.** All three parts are necessary, but their responsibilities must remain distinct. The current research advances only as official space, public participation, accountable operators, and professional review are added at the required evidence level.
 
 ## References
 
