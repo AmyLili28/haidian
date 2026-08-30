@@ -1,5 +1,16 @@
 # 方案迭代记录
 
+## v0.15 - 2026-08-31
+
+- Kept **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND**, the overall spatial framework, twelve scenarios, five flagships and provisional geometry unchanged; this is a local candidate and has not been pushed or opened as a new PR.
+- Responded to V0.14.1's only advisory deduction by upgrading FP01 from a strong conditional-control outline to a participant-controlled pre-feasibility decision package, without inventing operators, surveys, quotations, approvals or results.
+- Added a fourth 1:20 component-interface scale, two original non-normative parameter envelopes, a fail-closed capacity/egress formula, a staffing/FTE sensitivity template, three no-currency ROM CAPEX/OPEX scenarios, an exit-restoration reserve template, and daily/weekly/quarterly/annual maintenance cycles.
+- Mapped ALT01-ALT04 to their specific H0-H4 gates, cost tradeoffs and permission boundaries; all external actuals, accepted receipts and releases remain `null / 0 / HOLD`.
+- Added seven bilingual execution forms with 230 unique required fields for carrier survey, responsibility acceptance, D0 observation, BoQ/cost basis/non-binding procurement, professional/gate/acceptance review, rehearsal/maintenance/exit handover, and K01-K10/RAID/change control. Every external field is blank; synthetic fixtures and verified external records remain zero.
+- Rebuilt the technical-delivery figure, offline exhibits and bilingual A3/A0 packages from canonical `fp01-delivery-control.json`. The generator now fails closed if the 1:20 scale, formulas, alternatives or external-state boundary diverge, removing V0.14's hard-coded presentation mismatch.
+- Recorded PR #4306 as a real public repair and repository-intake loop—defect detection, participant repair, deterministic recheck, 96/100 advisory reassessment, intake acceptance and merge—while preserving that it is not formal jury scoring, Gallery publication, adoption or implementation.
+- Added the rubric-visible bilingual feasibility decision sheet to both proposals, linked the execution kit through metrics and evidence matrices, and retained every H0-H4 external-evidence gate at 0/5 until attributable evidence exists.
+
 ## v0.14.1 - 2026-08-31
 
 - Closed the Review Agent's participant-side P0 rendering blocker by linking both required `report/proposal*.html` files to the same local Noto Sans SC WOFF2 subset already used by the bilingual visual exhibits. The fix changes presentation portability only; it does not alter the proposal, geometry, metrics, implementation state or evidence claims.
@@ -8,7 +19,7 @@
 
 ## v0.14 - 2026-08-31
 
-- Kept the stable title **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND**, the six-capability network, twelve scenes, five flagships and all provisional geometry unchanged. V0.14 is a candidate package that does not self-assert its live PR or intake status; any publication state is governed by the corresponding PR and official labels.
+- Kept the stable title **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND**, the six-capability network, twelve scenes, five flagships and all provisional geometry unchanged. V0.15 is a local candidate package that does not self-assert a live PR or intake status; any later publication state is governed by the corresponding PR and official labels.
 - Added a 30-second / 3-minute / 15-minute juror path and a seven-dimension evidence index using the official 20/10/15/20/10/10/15 weights. The index points to exact package evidence and boundaries; it does not self-award a score.
 - Expanded `fp01-delivery-control.json` to v0.2.0 with sixteen delivery role classes, one decision-owner role at each H0-H4 gate, seven cost classes, four maintenance controls, twelve acceptance indicators, six conditional release stages and four reversible fallbacks. Its dedicated verifier now passes 21/21 checks.
 - Separated eight proposal-structure acceptance indicators that a reviewer can judge now from four indicators that still require a real problem/baseline, field/professional conditions, independent rehearsal and separate authorization.

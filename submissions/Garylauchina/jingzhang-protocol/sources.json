@@ -221,7 +221,17 @@
       "retrieved_at": "2026-08-25",
       "url": "https://github.com/open-city-ai/haidian/pull/4017",
       "source_type": "submission_public_process_record",
-      "usage": "Public process evidence that the V0.13 direct predecessor in this proposal lineage completed repository intake and was merged through pull request 4017, deterministic checks, advisory review and maintainer handling. This package does not self-assert the current PR or intake status of V0.14; if V0.14 is published, only the corresponding live PR and official labels constitute status evidence. Submission is not intake acceptance, formal competition scoring, selection, adoption, implementation, government endorsement, national designation or proof of public benefit."
+      "usage": "Public process evidence that the V0.13 direct predecessor in this proposal lineage completed repository intake and was merged through pull request 4017, deterministic checks, advisory review and maintainer handling. This package does not self-assert the current PR or intake status of the local V0.15 candidate; if V0.15 is published, only the corresponding live PR and official labels constitute status evidence. Submission is not intake acceptance, formal competition scoring, selection, adoption, implementation, government endorsement, national designation or proof of public benefit."
+    },
+    {
+      "id": "SUBMISSION-INTAKE-PR-4306",
+      "title": "JING-ZHANG BREAKS NEW GROUND V0.14/V0.14.1 repository intake, repair, review and merge record, pull request 4306",
+      "publisher": "open-city-ai/haidian public pull-request record",
+      "published_date": "2026-08-30",
+      "retrieved_at": "2026-08-31",
+      "url": "https://github.com/open-city-ai/haidian/pull/4306",
+      "source_type": "submission_public_process_record",
+      "usage": "Public process evidence for the V0.14 submission, its participant-side CJK rendering repair at head 6f44dbc777e8069286c2ff607416c722cc96c667, deterministic validation PASS, final Review Agent advisory result 96/100 and formal-review-ready, repository-intake acceptance label, and merge commit c40a680e99452b31f5a9b5f630c2cf73c092ed6f. The record is evidence of a traceable repository revision and intake cycle only. The advisory result is not formal jury scoring; intake and merge are not gallery publication, award selection, planning approval, procurement, implementation, government endorsement, national designation or demonstrated public benefit."
     }
   ]
 }
