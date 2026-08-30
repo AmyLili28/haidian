@@ -200,26 +200,26 @@
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
-      "file_sha256": "5cd6ef4dc5f935a092d0d07ef35f82136c0a67340eac064cac0292efb43c23d8",
+      "file_sha256": "9adc5a6872d042e79cb73d83bb9a934fa083c8b2bc92e93b1c1dbbed58c2bd30",
       "stamp_rect": [
         1188,
         958,
         1533,
         979
       ],
-      "stamp_crop_rgb_sha256": "3fe9e766605f1cc075de98341ab6350856626dbdf8083fb579e10931534a9773",
+      "stamp_crop_rgb_sha256": "07b565fee801825877b334757d953a9b6d57c0d3d465ed399d53bc82002b79a6",
       "stamp_source": "build-p0-feasibility-figure.js"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
-      "file_sha256": "c8559a69b1276871b3befafda6d06979fd83becd0bfde66fd548fce1fb1d4024",
+      "file_sha256": "930f4fb3cfe342873a264db67d5dc74ab3478b93a463a0b7ac987b5805fd98a6",
       "stamp_rect": [
         1188,
         958,
         1533,
         979
       ],
-      "stamp_crop_rgb_sha256": "3fe9e766605f1cc075de98341ab6350856626dbdf8083fb579e10931534a9773",
+      "stamp_crop_rgb_sha256": "07b565fee801825877b334757d953a9b6d57c0d3d465ed399d53bc82002b79a6",
       "stamp_source": "build-p0-feasibility-figure.js"
     },
     {
