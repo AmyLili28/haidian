@@ -72,6 +72,21 @@
         "Magnini, V. P., & Parker, E. E. (2009). The psychological effects of music: Implications for hotel firms. Journal of Vacation Marketing, 15(1), 53-62. https://doi.org/10.1177/1356766708098171"
       ],
       "defensible_claim": "Research suggests that thoughtfully designed soundscapes can support psychological restoration, reduce perceived stress and negative affect, influence physiological stress recovery, and improve people's experience of public environments."
+    },
+    {
+      "id": "SOUND-FRAMEWORK",
+      "source_type": "external_public_background",
+      "usable_for_formal": "background_only",
+      "usage": "自适应城市声景引擎的方法框架与标准依据（ISO 12913 声景框架族 + 2024–2026 循证），用于 agent.3/agent.4 声景系统设计；具体状态-感受映射作为需现场验证的设计假设，不作为确定结论。Method/standard basis for the adaptive urban sound engine; specific state->feeling mappings remain site-validated design hypotheses.",
+      "references": [
+        "ISO 12913-1:2014 Acoustics - Soundscape - Part 1: Definition and conceptual framework. https://www.iso.org/standard/52161.html",
+        "ISO/TS 12913-2:2018 Soundscape - Part 2: Data collection and reporting. https://www.iso.org/standard/75267.html",
+        "ISO/TS 12913-3:2025 Soundscape - Part 3: Data analysis.",
+        "ISO/TS 16755-1:2025 Non-acoustic factors influencing perception/response to environmental sounds. https://www.iso.org/standard/84809.html",
+        "ISO/DTS 12913-4 Soundscape - Part 4: Design and intervention (under development, 2026). https://www.iso.org/standard/81507.html",
+        "Frontiers in Human Neuroscience (2026). Scoping review of music-based digital therapeutics for stress, anxiety, and depression.",
+        "Frontiers in Psychology (2024). Pentatonic sequences and monaural beats to facilitate relaxation: an EEG study. https://doi.org/10.3389/fpsyg.2024.1369485"
+      ]
     }
   ]
 }
