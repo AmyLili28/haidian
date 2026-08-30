@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>京张共鸣带 · 电子展示</title>
+<title>Jing-Zhang Resonance Belt · Exhibition</title>
 <style>
 :root{--ink:#1b2a4a;--paper:#f7f5f0;--panel:#efece4;--spine:#2e7d5b;--amber:#e0861e;
 --mute:#8a8578;--line:#d8d3c8;--blue:#3b4b7a;--teal:#2e7d7a;--plum:#7a3b63}
@@ -59,51 +59,51 @@ input[type=range]{width:100%}
 <body>
 <header class="hero"><div class="wrap">
   <div class="brand">Jing-Zhang Resonance Belt · 京张共鸣带 · b-cooney</div>
-  <h1>京张共鸣带 · 电子展示</h1>
-  <p class="tag">以永不重复、放松身心、随语境自适应的城市生成式声景为标志的百年京张 AI 创新带城市设计（概念建议）。</p>
-  <div class="prov">临时粗略边界·非官方红线·官方数据发布后复算；概念建议，供专业团队深化。</div>
+  <h1>Jing-Zhang Resonance Belt · Exhibition</h1>
+  <p class="tag">A belt-wide urban design for the Centennial Jing-Zhang AI Innovation Belt, signed by an always-unique, relaxing, context-adaptive generative urban soundscape (concept suggestion).</p>
+  <div class="prov">Provisional boundary · not an official redline · recalculate on official data; concept suggestion for professional deepening.</div>
 </div></header>
 <main class="wrap">
 
 <section id="sound" aria-label="Generative soundscape">
   <h2>生成式自适应声景 <span class="en">· Live generative soundscape (offline, Web Audio)</span></h2>
-  <p class="note">非自动播放·音量受限·仅用非个人化聚合信号（时段/人流）演示自适应生成。移动或点击滑块观察状态随语境缓慢变化。</p>
+  <p class="note">Non-autoplay, volume-limited. Uses only non-personal aggregate signals (time/crowd) to demo adaptive generation. Move the sliders to watch the state morph slowly with context.</p>
   <div id="stage"><canvas id="viz" aria-hidden="true"></canvas></div>
   <div class="controls">
-    <button id="toggle" class="btn" aria-pressed="false">▶ 播放声景</button>
-    <span class="slider">节点 Node<span><button class="btn ghost" data-node="RN-PRELUDE" aria-pressed="false">晨曲 Prelude</button><button class="btn ghost" data-node="RN-CHORUS" aria-pressed="true">夜合 Chorus</button><button class="btn ghost" data-node="RN-CODA" aria-pressed="false">尾声 Coda</button></span></span>
-    <span class="slider">时刻 Time of day: <b id="hourv">21:00</b><input id="hour" type="range" min="0" max="23" value="21"></span>
-    <span class="slider">聚合人流 Crowd: <b id="crowdv">40%</b><input id="crowd" type="range" min="0" max="1" step="0.05" value="0.4"></span>
-    <span class="slider">音量 Volume<input id="vol" type="range" min="0" max="0.5" step="0.01" value="0.22"></span>
+    <button id="toggle" class="btn" aria-pressed="false">▶ Start soundscape</button>
+    <span class="slider">Node<span><button class="btn ghost" data-node="RN-PRELUDE" aria-pressed="false">晨曲 Prelude</button><button class="btn ghost" data-node="RN-CHORUS" aria-pressed="true">夜合 Chorus</button><button class="btn ghost" data-node="RN-CODA" aria-pressed="false">尾声 Coda</button></span></span>
+    <span class="slider">Time of day: <b id="hourv">21:00</b><input id="hour" type="range" min="0" max="23" value="21"></span>
+    <span class="slider">Crowd (aggregate): <b id="crowdv">40%</b><input id="crowd" type="range" min="0" max="1" step="0.05" value="0.4"></span>
+    <span class="slider">Volume<input id="vol" type="range" min="0" max="0.5" step="0.01" value="0.22"></span>
   </div>
-  <p style="margin-top:12px">当前状态: <span id="state">RESTORE</span> — <span id="why"></span></p>
+  <p style="margin-top:12px">Current state: <span id="state">RESTORE</span> — <span id="why"></span></p>
   <div class="meters"><div class="meter">arousal<div class="bar"><i id="m_ar"></i></div></div><div class="meter">density<div class="bar"><i id="m_de"></i></div></div><div class="meter">brightness<div class="bar"><i id="m_br"></i></div></div><div class="meter">novelty<div class="bar"><i id="m_no"></i></div></div><div class="meter">pulse<div class="bar"><i id="m_pu"></i></div></div><div class="meter">masking<div class="bar"><i id="m_ma"></i></div></div></div>
   <p class="note" id="sstatus" style="margin-top:8px"></p>
-  <p class="note">实现要点：功能状态向量 + SENSE→INTERPRET→TARGET→COMPOSE→RENDER→ADAPT 闭环 + 近期记忆抑制（保证永不明显重复）+ 五声音阶与缓慢和声场。</p>
+  <p class="note">How it works: functional-state vectors + a SENSE→INTERPRET→TARGET→COMPOSE→RENDER→ADAPT loop + recent-history suppression (guarantees no audible repetition) + a pentatonic set over a slow harmonic field.</p>
 </section>
-<script>window.__SND_T={"start": "▶ 播放声景", "stop": "◼ 停止", "playing": "正在生成…（永不重复）", "stopped": "已停止", "why_chorus_night": "夜合·夜间：SOCIAL/RESTORE，鼓励停留与交谈", "why_chorus_day": "夜合·日间：SOCIAL，温暖而不喧宾夺主", "why_prelude": "晨曲：FOCUS/VITALIZE，清晨工作律动", "why_coda": "尾声·枢纽：BUFFER/NIGHT，舒缓通勤、遮蔽噪声"};</script>
+<script>window.__SND_T={"start": "▶ Start soundscape", "stop": "◼ Stop", "playing": "Generating… (never repeats)", "stopped": "Stopped", "why_chorus_night": "Chorus night: SOCIAL/RESTORE, encourage lingering & talk", "why_chorus_day": "Chorus day: SOCIAL, warm but not dominant", "why_prelude": "Prelude: FOCUS/VITALIZE, morning work rhythm", "why_coda": "Coda hub: BUFFER/NIGHT, ease commute, mask noise"};</script>
 
-<section><h2>总览地图 <span class="en">· Overview Map</span></h2><figure style="margin:10px 0"><img class="fig" src="../assets/figures/site-overview.png" alt="总体概念：一脊·三节点"><figcaption class="note">总体概念：一脊·三节点</figcaption></figure></section>
-<section><h2>三层范围 <span class="en">· Three-Level Scope</span></h2><p>统筹研究范围约 43.6 km²、总体设计范围约 11.4 km²、重点区域约 368.4 ha（三处）。</p></section>
-<section><h2>重点区域 <span class="en">· Key Areas</span></h2><div class="node"><b>众智园 · 晨曲 Prelude</b> — 全栈自主创新 / 标准治理 / 低碳交往</div><div class="node"><b>AI 原点社区 · 夜合 Chorus</b> — 青年夜间客厅 / 开源发布 / 近校转化</div><div class="node"><b>大钟寺 · 尾声 Coda</b> — 枢纽舒缓声景 / 四象限步行 / 国际路演</div><figure style="margin:10px 0"><img class="fig" src="../assets/figures/key-areas.png" alt="三处重点区域放大"><figcaption class="note">三处重点区域放大</figcaption></figure></section>
-<section><h2>用地分区 <span class="en">· Land Use</span></h2><figure style="margin:10px 0"><img class="fig" src="../assets/figures/land-use-structure.png" alt="无缝闭合用地分区"><figcaption class="note">无缝闭合用地分区</figcaption></figure></section>
-<section><h2>交通慢行与蓝绿公共空间 <span class="en">· Mobility &amp; Blue-Green Public Space</span></h2><figure style="margin:10px 0"><img class="fig" src="../assets/figures/mobility-bluegreen.png" alt="慢行主脊 + 连续蓝绿 + 节点网络"><figcaption class="note">慢行主脊 + 连续蓝绿 + 节点网络</figcaption></figure></section>
-<section><h2>建筑 <span class="en">· Buildings</span></h2><p>代表性更新/保留建筑基底为示意；建筑高度、强度等待正式控规条件确认。</p></section>
-<section><h2>更新项目 <span class="en">· Renewal Projects</span></h2><ul><li>JZ-01 遗址公园慢行断点缝合</li><li>JZ-03 原点社区夜合共鸣客厅</li><li>JZ-05 生成式声景公共设施 + 端侧算力节点</li><li>JZ-06 全球 AI 活动周公共路线</li></ul></section>
-<section><h2>AI 场景 <span class="en">· AI Scenarios</span></h2><span class="chip">01 夜合社区共鸣客厅</span><span class="chip">02 尾声枢纽舒缓声景</span><span class="chip">09 AI 健康服务导航</span><span class="chip">11 声景开放 API 日</span></section>
+<section><h2>总览地图 <span class="en">· Overview Map</span></h2><figure style="margin:10px 0"><img class="fig" src="../assets/figures/site-overview.en.png" alt="Overall concept: one spine, three nodes"><figcaption class="note">Overall concept: one spine, three nodes</figcaption></figure></section>
+<section><h2>三层范围 <span class="en">· Three-Level Scope</span></h2><p>Coordinated research ~43.6 km², overall design ~11.4 km², key detailed-design ~368.4 ha (three areas).</p></section>
+<section><h2>重点区域 <span class="en">· Key Areas</span></h2><div class="node"><b>众智园 · 晨曲 Prelude</b> — full-stack innovation · standards · low-carbon exchange</div><div class="node"><b>AI 原点社区 · 夜合 Chorus</b> — youth night commons · open-source · near-campus</div><div class="node"><b>大钟寺 · 尾声 Coda</b> — transit calm soundscape · 4-quadrant links · roadshow</div><figure style="margin:10px 0"><img class="fig" src="../assets/figures/key-areas.en.png" alt="Key areas, zoomed"><figcaption class="note">Key areas, zoomed</figcaption></figure></section>
+<section><h2>用地分区 <span class="en">· Land Use</span></h2><figure style="margin:10px 0"><img class="fig" src="../assets/figures/land-use-structure.en.png" alt="Gap-free land-use partition"><figcaption class="note">Gap-free land-use partition</figcaption></figure></section>
+<section><h2>交通慢行与蓝绿公共空间 <span class="en">· Mobility &amp; Blue-Green Public Space</span></h2><figure style="margin:10px 0"><img class="fig" src="../assets/figures/mobility-bluegreen.en.png" alt="Slow-mobility spine + blue-green + node network"><figcaption class="note">Slow-mobility spine + blue-green + node network</figcaption></figure></section>
+<section><h2>建筑 <span class="en">· Buildings</span></h2><p>Representative renewal/retained footprints are indicative; height and intensity await official regulatory conditions.</p></section>
+<section><h2>更新项目 <span class="en">· Renewal Projects</span></h2><ul><li>JZ-01 heritage-park slow-mobility stitching</li><li>JZ-03 Chorus resonance living room</li><li>JZ-05 generative-soundscape facilities + edge-compute</li><li>JZ-06 Global AI Week public route</li></ul></section>
+<section><h2>AI 场景 <span class="en">· AI Scenarios</span></h2><span class="chip">01 Chorus resonance commons</span><span class="chip">02 Coda transit calm</span><span class="chip">09 AI health navigation</span><span class="chip">11 soundscape open-API day</span></section>
 <section><h2>核心指标 <span class="en">· Core Metrics</span></h2>
     <div class="grid g3">
       <div class="tile"><div class="num" data-metric="site_area_sqm" data-value="11412825.386">11.41 km²</div><div class="lab">总体设计范围 · Overall design area</div></div>
       <div class="tile"><div class="num" data-metric="green_ratio" data-value="0.250801">25.1%</div><div class="lab">绿地率 · Green ratio</div></div>
       <div class="tile"><div class="num" data-metric="public_space_ratio" data-value="0.05067">5.1%</div><div class="lab">公共空间比例 · Public-space ratio</div></div>
-    </div><figure style="margin:10px 0"><img class="fig" src="../assets/figures/metrics-evidence.png" alt="指标复算与证据链"><figcaption class="note">指标复算与证据链</figcaption></figure></section>
-<section><h2>任务覆盖 <span class="en">· Task Coverage</span></h2><p><span class="chip">agent.1 <span class="ok">✓</span></span> <span class="chip">agent.2 <span class="ok">✓</span></span> <span class="chip">agent.3 <span class="ok">✓</span></span> <span class="chip">agent.4 <span class="ok">✓</span></span> <span class="chip">agent.5 <span class="ok">✓</span></span> <span class="chip">agent.6 <span class="ok">✓</span></span></p><p class="note">公告 1.3/1.4/1.5 与 agent.1–6 全部在 compliance_matrix.json 中映射。</p></section>
-<section><h2>自检状态 <span class="en">· Self-Check</span></h2><p><span class="ok">空间复核 PASS</span> &nbsp; 内容校验：0 错误；临时边界提示保留。</p></section>
-<section><h2>来源 <span class="en">· Sources</span></h2><p class="note">官方公告、面向智能体任务书、场地包、公开来源登记、声景健康循证（Aletta 2018 等）、ISO 12913 声景框架——完整见 sources.json。</p></section>
-<section><h2>假设 <span class="en">· Assumptions</span></h2><p class="note">提交几何为临时粗略边界（provisional_constraint），非官方红线；官方数据发布后重算。声景状态-感受映射为需现场验证的设计假设。</p></section>
+    </div><figure style="margin:10px 0"><img class="fig" src="../assets/figures/metrics-evidence.en.png" alt="Metric recomputation & evidence chain"><figcaption class="note">Metric recomputation & evidence chain</figcaption></figure></section>
+<section><h2>任务覆盖 <span class="en">· Task Coverage</span></h2><p><span class="chip">agent.1 <span class="ok">✓</span></span> <span class="chip">agent.2 <span class="ok">✓</span></span> <span class="chip">agent.3 <span class="ok">✓</span></span> <span class="chip">agent.4 <span class="ok">✓</span></span> <span class="chip">agent.5 <span class="ok">✓</span></span> <span class="chip">agent.6 <span class="ok">✓</span></span></p><p class="note">Announcement 1.3/1.4/1.5 and agent.1–6 all mapped in compliance_matrix.json.</p></section>
+<section><h2>自检状态 <span class="en">· Self-Check</span></h2><p><span class="ok">空间复核 PASS</span> &nbsp; Content validation: 0 errors; provisional-boundary notice retained.</p></section>
+<section><h2>来源 <span class="en">· Sources</span></h2><p class="note">Official announcement, agent taskbook, site package, public-source registry, soundscape health evidence (Aletta 2018 et al.), ISO 12913 framework — full list in sources.json.</p></section>
+<section><h2>假设 <span class="en">· Assumptions</span></h2><p class="note">Submitted geometry is a provisional rough boundary (provisional_constraint), not an official redline; recalculate on official data. Soundscape state→feeling mappings are site-validated design hypotheses.</p></section>
 </main>
 <footer class="wrap"><div class="brand">京张共鸣带 Jing-Zhang Resonance Belt</div>
-投稿 b-cooney · 离线静态页面，无 CDN/外部字体/外部 API/iframe/跟踪。</footer>
+Submission b-cooney · offline static page — no CDN, external fonts, external API, iframe, or tracking.</footer>
 <script>
 (function(){
 'use strict';
