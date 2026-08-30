@@ -53,10 +53,10 @@ input[type=range]{width:100%}
 .bar{height:7px;background:#26375a;border-radius:4px;overflow:hidden;margin-top:2px}
 .bar>i{display:block;height:100%;background:linear-gradient(90deg,#3f9d6d,#e0861e);width:0}
 #state{font-weight:700;color:#ffd38a}#why{color:#9fb0cc;font-size:12px;min-height:1.2em}
-.note{color:#9fb0cc;font-size:12px}
+.note{color:#9fb0cc;font-size:12px;overflow-wrap:anywhere;word-break:break-word}
 .alt{color:var(--mute);font-weight:400}
 #sound .alt{color:#9fb0cc}
-.tele{background:#0d1830;color:#8fd6b0;border:1px solid #26375a;border-radius:6px;padding:8px 10px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;line-height:1.5;white-space:pre-wrap;margin-top:10px;min-height:3em}
+.tele{background:#0d1830;color:#8fd6b0;border:1px solid #26375a;border-radius:6px;padding:8px 10px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;overflow-x:auto;margin-top:10px;min-height:3em}
 </style>
 </head>
 <body>
@@ -77,7 +77,7 @@ input[type=range]{width:100%}
     <span class="slider">节点 Node<span><button class="btn ghost" data-node="RN-PRELUDE" aria-pressed="false">晨曲 Prelude</button><button class="btn ghost" data-node="RN-CHORUS" aria-pressed="true">夜合 Chorus</button><button class="btn ghost" data-node="RN-CODA" aria-pressed="false">尾声 Coda</button></span></span>
     <span class="slider">时刻 Time of day: <b id="hourv">21:00</b><input id="hour" type="range" min="0" max="23" value="21"></span>
     <span class="slider">聚合人流 Crowd: <b id="crowdv">40%</b><input id="crowd" type="range" min="0" max="1" step="0.05" value="0.4"></span>
-    <span class="slider">音量 Volume<input id="vol" type="range" min="0" max="0.6" step="0.01" value="0.32"></span>
+    <span class="slider">音量 Volume<input id="vol" type="range" min="0" max="0.8" step="0.01" value="0.5"></span>
   </div>
   <p style="margin-top:12px">当前状态 Current state: <span id="state">RESTORE</span> — <span id="why"></span></p>
   <div class="meters"><div class="meter">唤醒度 arousal<div class="bar"><i id="m_ar"></i></div></div><div class="meter">密度 density<div class="bar"><i id="m_de"></i></div></div><div class="meter">明亮度 brightness<div class="bar"><i id="m_br"></i></div></div><div class="meter">事件率 event rate<div class="bar"><i id="m_ev"></i></div></div><div class="meter">脉动 pulse<div class="bar"><i id="m_pu"></i></div></div><div class="meter">新颖度 novelty<div class="bar"><i id="m_no"></i></div></div><div class="meter">空间扩散 spatial diffusion<div class="bar"><i id="m_sd"></i></div></div><div class="meter">遮蔽 masking<div class="bar"><i id="m_ma"></i></div></div></div>
@@ -183,8 +183,8 @@ function start(){
  // FOUNDATION
  [0,7,12].forEach(function(semi,k){var o=A.createOscillator();o.type=k?'sine':'triangle';
    o.frequency.value=ROOT*Math.pow(2,semi/12); o.detune.value=(k-1)*6;
-   var g=A.createGain();g.gain.value=[.16,.09,.05][k]; o.connect(g).connect(padFilter);o.start();
-   pads.push({o:o,g:g,base:[.16,.09,.05][k]});});
+   var g=A.createGain();g.gain.value=[.22,.13,.08][k]; o.connect(g).connect(padFilter);o.start();
+   pads.push({o:o,g:g,base:[.22,.13,.08][k]});});
  sub=A.createOscillator();sub.type='sine';sub.frequency.value=ROOT/2;var sg=A.createGain();sg.gain.value=.06;
  sub.connect(sg).connect(busIn);sub.start(); pads.push({o:sub,g:sg,sub:true});
  // ORGANIC MOTION
@@ -207,8 +207,11 @@ function start(){
  var poff=A.createConstantSource();poff.offset.value=0.018;poff.start();
  plfo.connect(pulseLfoGain).connect(pulseGain.gain);poff.connect(pulseGain.gain);plfo.start();
  scheduleNote(); ctrlTimer=setInterval(controlTick,2000); macroTimer=setInterval(macroTick,12000); loopViz();
- btn.setAttribute('aria-pressed','true'); btn.textContent=T.stop; status.textContent=T.playing;
- log('SENSE/RENDER: engine started');
+ btn.setAttribute('aria-pressed','true'); btn.textContent=T.stop;
+ status.textContent=T.playing+' — Audio: '+A.state;
+ [0,1,2].forEach(function(i){setTimeout(function(){ if(running) playNote(pickPitch(),1.8); },220+i*260);});
+ setTimeout(function(){ if(running&&status) status.textContent=T.playing+' — Audio: '+A.state; },700);
+ log('SENSE/RENDER: engine started (state='+A.state+')');
 }
 function stop(){
  if(!running) return; running=false;
@@ -220,7 +223,7 @@ function stop(){
 function playNote(freq,gainScale,pan,revScale){
  var o=A.createOscillator();o.type=rnd()<.5?'sine':'triangle';o.frequency.value=freq;
  var g=A.createGain();var t=A.currentTime;
- var peak=(0.03+cur.melodic_salience*0.09+cur.arousal*0.03)*gainScale;
+ var peak=(0.06+cur.melodic_salience*0.12+cur.arousal*0.05)*gainScale;
  var atk=0.55-cur.transient_hardness*0.45, rel=1.6+(1-cur.arousal)*2.2;
  g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(Math.max(0.0002,peak),t+atk);
  g.gain.exponentialRampToValueAtTime(0.0001,t+atk+rel);
@@ -258,7 +261,7 @@ function controlTick(){
  var restraint = load>0.72 ? 0.6 : 1.0;
  if(restraint<1 && rnd()<0.3) log('ADAPT: restraint - ambient high, holding density/level');
  padFilter.frequency.setTargetAtTime(420+cur.brightness*2600,A.currentTime,1.5);
- pads.forEach(function(p){if(!p.sub)p.g.gain.setTargetAtTime((0.05+cur.density*0.15*restraint)*(p.base/0.16),A.currentTime,1.5);});
+ pads.forEach(function(p){if(!p.sub)p.g.gain.setTargetAtTime((0.05+cur.density*0.15*restraint)*(p.base/0.22),A.currentTime,1.5);});
  noiseGain.gain.setTargetAtTime(0.02+cur.noise_ratio*0.09,A.currentTime,1.5);
  maskFilter.frequency.setTargetAtTime(900+(1-cur.brightness)*1400,A.currentTime,2.0);
  maskGain.gain.setTargetAtTime((0.005+cur.masking_strength*0.05)*restraint,A.currentTime,1.5);
