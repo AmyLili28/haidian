@@ -1233,3 +1233,107 @@ Focus: whether a complete closed loop of readable text, drawings, HTML, metrics,
 ### Verifiability self-assessment conclusion
 The proposal has no participant-controllable hard defect on any of the seven dimensions: brief alignment, implementation feasibility, and expression completeness are backed by structured matrices and a recalculable interface; originality and AI innovation are backed by auditable scenarios and the evidence-ledger mechanism; public interest and risk compliance are backed by personas, privacy, and copyright discipline. Every organizer-owned data gap is recorded in data_gaps per the rules and reserved via the recalculation interface, so it constitutes no participant repair. The self-assessment is that the seven-dimension evidence is complete with no outstanding hard defects, satisfying the "zero required repairs" precondition for featured-candidate.
 
+
+
+## Engineering Implementation Parameters (v4.34)
+
+**Purpose**: This section lowers the "implementation pre-condition registry" into parameterised work packages that an engineering team can take over directly. All values are **Rough-Order-of-Magnitude (ROM) model intervals** that express testability and rollback safety of the design intent; they are not budget requests, permits to start work, or procurement bases.
+
+### A. Drawing-chain scales and work-package levels
+
+| Level | Scale | Coverage | Delivery | Official precondition |
+|---|---|---|---|---|
+| L0 master plan | 1:2000 | Three scope levels, three zones with two wings, five gates, blue-green frame | concept stage (this package) | official overall boundary |
+| L1 district plan | 1:500 | Three key areas, land-use zones, 200 m implementation units | before feasibility | official key-area polygons |
+| L2 block plan | 1:200 | Single R-project layout, contact-point positions, barrier-free paths | before engineering design | official redlines and ownership |
+| L3 component plan | 1:50 | K01-K12 components (contact points, kiosks, wayfinding, reversible bases) | before construction | municipal interface conditions |
+| L4 node detail | 1:20 | gate nodes, demountable-bay connectors, ramp start points | construction detailing | fire and civil-defence review |
+
+Each level is bound to the same source geometry (`geometry/*.geojson`); changing one parameter rebinds the whole chain. Once official geometry is released, the full-package rebind flow regenerates every sheet — no per-sheet hand editing.
+
+### B. Three-layer envelope sizes (sample: Dazhongsi P0 and the two other key areas)
+
+| Envelope layer | Sample size | Purpose | Removal / rollback property |
+|---|---|---|---|
+| Screening envelope | approx. 36 m × 36 m | event-check range for the first P0 pilot (pedestrian flow, fire, municipal capacity screening) | fully reversible; ground surface untouched |
+| Demountable bay | approx. 8 m × 8 m | footprint of one contact-point group (kiosk + wayfinding + low-speed docking) | removable as a whole within 24 h |
+| Reversible ground | approx. 16 m × 16 m | demountable paving and pre-embedded service interfaces (water, power, data) | original state restored within 72 h |
+| Setback envelope | rail safety clearance + heritage purple line + fire lanes superimposed | no structure may intrude | determined by official constraints; this package only cites them |
+
+Each of the three key areas carries a structurally identical parameter set (Z1 Zhongzhiyuan, Z2 Origin Community, Z3 Dazhongsi); siting is fixed by the L1 district plan once official geometry arrives. This table locks only the **parameter ranges and removal properties**.
+
+### C. ROM / OPEX sensitivity (magnitude intervals, not budgets)
+
+| Item | ROM interval | Main sensitivity variables | Note |
+|---|---|---|---|
+| One contact-point group, build | 10^5-10^6 CNY level | component materials, embedded works, barrier-free retrofit | priced via the K01-K12 component library |
+| One contact-point group, yearly OPEX | 10^4-10^5 CNY level / yr | staffed-counter shifts, device maintenance, data audit | linked to FTE rostering |
+| Removal reserve | 8%-12% of build value | reversible-component share, ground restoration difficulty | held in an independent escrow account (X08 / A-EXIT-001) |
+| Annual public week | 10^5-10^6 CNY level / yr | venue, security, translation, accessibility services | one of the X16 annual events |
+
+Sensitivity conclusion: the sum of the four items above has **zero dependency** on the three official control metrics (FAR / height limit / ownership) — i.e. while official data is absent, this section can still be rolled forward independently; once official data arrives, only the B-table envelopes and the L1/L2 sheets are replaced, and no magnitude conclusion is overturned.
+
+### D. FTE rostering (operations staffing work envelope)
+
+| Role | Per contact-point group | Shifts | Note |
+|---|---|---|---|
+| Staffed-counter attendant | 1 person | 2 shifts/day (3 at peak) | no-consumption-threshold service + accessibility assistance |
+| Device maintenance | 0.5 person (shared across groups) | 1 shift/day | low-speed device patrol, physical stop-switch tests |
+| Data auditor | 0.25 person (shared across groups) | weekly patrol | data-sunlight-yard updates, appeal response |
+| Total (5-group pilot) | approx. 5 FTE | — | corresponds to the R column of the phase-1 RACI |
+
+Rostering rule: **every contact-point group must have on-site human service reachable within a 5-minute walk during opening hours**; if the FTE gap cannot be closed, the group automatically enters passive-safety mode (see the implementation pre-condition registry, section D).
+
+### E. Capacity / egress work envelope
+
+| Metric | Work envelope | Basis |
+|---|---|---|
+| Instantaneous pedestrian flow per group | ≤ 80 people | back-calculated from the 8×8 m demountable bay's egress width |
+| Egress width | ≥ 2 × 1.2 m (bidirectional) | barrier-free continuity + wheelchair turning |
+| Low-speed device speed cap | ≤ 10 km/h (≤ 5 km/h inside the group) | S02 right-of-way card |
+| Peak-dwell handling | when > 80 people, device placement is suspended; only the staffed counter remains | passive-safety default |
+
+### F. Maintenance cycles and restoration reserve
+
+| Item | Cycle | Owner |
+|---|---|---|
+| Physical stop-switch test | weekly | device maintenance |
+| Barrier-free path continuity patrol | monthly | staffed counter + sub-district office |
+| Data-sunlight-yard update | weekly | data auditor |
+| Removal drill (whole-group removal) | semi-annually | project owner + third-party trustee |
+| Restoration-reserve verification | annually | sub-district office (A) + data trust (X14) |
+
+### G. Rollback branches (4 named rollback paths)
+
+| Rollback branch | Trigger | Action | Impact |
+|---|---|---|---|
+| RB-1 withdraw AI, keep human | data audit failing 2 consecutive weeks | all AI functions of that group go offline; staffed counter remains | scenario card degrades to "human mode" |
+| RB-2 suspend devices | device incident or complaints over threshold | suspend that device class; walking and barrier-free remain | S02 converges to pure slow mobility |
+| RB-3 freeze expansion | A-EXIT-001 unclosed and 90 days before groundbreaking | freeze new groups; deployed groups enter passive-safety mode | phasing pauses loading |
+| RB-4 full-group removal | official request, safety incident, or two consecutive failed drills | restore the reversible ground to original state within 72 h | removal reserve fully drawn |
+
+**All parameters in this section are ROM model magnitudes and constitute neither budget requests, procurement bases, nor permits to start work; the "gates remain on HOLD" principle runs throughout: pre-feasibility conclusions must not be presented as permits to start work — starting work requires official approvals and closure of A-EXIT-001.**
+
+## Whole-Package Rights Matrix (v4.34)
+
+**Purpose**: A "source × rights × boundary" matrix that itemises the rights basis and usage boundary of every content source in this package. Together with `visual/assets/copyright-ledger.json` (assets[] nine-class terms + per_path_rights_registry 105/105 per-path sha256), it forms the complete rights registry. This matrix is an author-self registry and is NOT a legal clearance opinion or professional IP certification.
+
+| Source / asset class | Representative content | Rights basis | Licence | Usage boundary | Redistribution |
+|---|---|---|---|---|---|
+| Original prose | proposal.md / proposal.en.md / matrices | author-written (AI-assisted + human review) | CC BY 4.0 | community display, academic citation, review | ✔ with attribution |
+| Original figures | assets/figures/*.png ×22 | rendered by the author from package geometry and metrics | CC BY 4.0 | same | ✔ with attribution |
+| Original identity | assets/identity/*.svg | author-created (herringbone + tensor lattice + O motif) | CC BY 4.0 | same; must not imply official endorsement | ✔ with attribution |
+| Original geometry | geometry/*.geojson ×9 | author-drawn provisional envelopes | CC BY 4.0 | intake / relative comparison / low-confidence metrics only; **must not be upgraded to redlines, statutory controls or approval bases** | ✔ with provisional warning |
+| Original data | *.json (metrics/matrices/assumptions/sources/self-check) | author-computed (formulae in metrics.json) | CC BY 4.0 | same | ✔ |
+| Package code | visual/assets/evidence-audit.js | author-written offline deterministic verification | MIT | reuse and recalculation allowed | ✔ keep copyright notice |
+| Package PDF/HTML | drawings/*.pdf ×4, visual/index*.html ×2 | author-rendered (system typefaces embedded as bitmaps/text) | CC BY 4.0 | display; embedded typefaces are not redistributed with the package | ✔ (except fonts) |
+| System typefaces (rendering) | Microsoft YaHei / SimHei / Arial | bundled with the OS, **font files not included** | respective system licences | in-package rendering only; font files not redistributed | ✘ font files |
+| Open-font declarations | Source Han Sans/Serif, Inter, JetBrains Mono | declared design font stack (**files not included**) | SIL OFL 1.1 / Apache-2.0 | CSS font-stack declaration only; font files not redistributed | ✘ font files |
+| Organizer public material | brief/site-package/, announcements, taskbook | organizer's open repository public reference | per organizer repository terms | task scope and enumeration references only; not re-licensed | ✘ quote as-is |
+| AI-generated content | AI-assisted parts of prose and figures | author-declared (human-in-the-loop review) | CC BY 4.0 (with package) | generation method disclosed via agent.json; no claim of sole human authorship | ✔ disclosed with package |
+| Third-party archives/maps | **none** (this package imports no OSM, LOC, NASA or any third-party archive imagery) | — | — | if introduced in a future version, must be added to this matrix, sources.json and per_path_rights_registry simultaneously | — |
+
+**Matrix notes**:
+1. This package **imports no** third-party archive imagery, OSM basemap, NASA data or LOC archives — all spatial expression derives from in-package provisional geometry. This is a deliberate "no external basemap" strategy that avoids complex third-party licence coupling.
+2. Any future third-party source (e.g. an OSM location context) must be added to this matrix, sources.json and the per_path_rights_registry together; all three are mandatory.
+3. Difference between this matrix and the per_path_rights_registry: the matrix gives a readable "source × rights × boundary" view; the registry gives a machine-checkable "file × sha256 × disposition" view. They corroborate each other.
