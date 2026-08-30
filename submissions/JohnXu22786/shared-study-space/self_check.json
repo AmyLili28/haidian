@@ -26,6 +26,7 @@
         "submissions/JohnXu22786/shared-study-space/assets/figures/key-areas.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/shared-study-space/assets/figures/logo-brand.en.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/logo-brand.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/metrics-evidence.png",
@@ -87,7 +88,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/shared-study-space": "formal"
       },
-      "total_bytes": 8873416,
+      "total_bytes": 32070601,
       "maintainer_bypass": false
     },
     "stderr": ""
