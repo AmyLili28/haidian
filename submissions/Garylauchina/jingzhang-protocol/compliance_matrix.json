@@ -1989,7 +1989,15 @@
         "fp01_fallback_alternative_count",
         "fp01_cost_plan_class_count",
         "fp01_verified_cost_input_count",
-        "fp01_documented_authorized_site_action_count"
+        "fp01_documented_authorized_site_action_count",
+        "fp01_pre_feasibility_scale_count",
+        "fp01_capacity_egress_template_count",
+        "fp01_staffing_fte_template_count",
+        "fp01_rom_sensitivity_scenario_count",
+        "fp01_maintenance_cycle_count",
+        "fp01_execution_form_count",
+        "fp01_execution_required_field_count",
+        "fp01_execution_verified_external_record_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -2005,6 +2013,7 @@
         "AGENT-TASKBOOK",
         "OPEN-CALL-PROJECT-STATEMENT",
         "SUBMISSION-INTAKE-PR-4017",
+        "SUBMISSION-INTAKE-PR-4306",
         "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
         "STATE-COUNCIL-AI-PLUS-2025",
         "NATIONAL-FIFTEENTH-FIVE-YEAR-AI-APPLICATION-2025",
@@ -2030,6 +2039,7 @@
         "A-DELIVERY-READINESS-001",
         "A-FP01-EVIDENCE-READINESS-001",
         "A-FP01-DELIVERY-CONTROL-001",
+        "A-FP01-EXECUTION-KIT-001",
         "A-AGENT-PARTICIPATION-METHOD-001"
       ],
       "self_check_ids": [
@@ -2038,7 +2048,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-    "evidence_summary_zh": "季度开放、半年审查、年度大会和持续版本日志通过场景及分期空间承载；活动、预算、主体和时序均为概念机制；三条旅程和三处能力返还台把长期运营的暂停、补救、退役及公共能力返还写成引用完整的概念登记，不声称已经兑现；每项试点以90日go/revise/stop记录进入一年评估，未验证采购、扩散、标准和公共收益继续保持unknown。V0.13将brief—Agent—结构化证据—机器校验—Issue/PR—人类专业判断—深化—公共知识登记为长期方法链，并提出京张共创档案第0卷同时保存失败、异议、撤回和未采用理由。V0.14把每次服务前、重大版本变化后、事件发生时和退出/换运营方时的维护动作，与四种可逆备选和六级条件释放接入长期运营；所有外部释放仍为0，正式评选、采纳与实施保持未证实。",
+    "evidence_summary_zh": "季度开放、半年审查、年度大会和持续版本日志通过场景及分期空间承载；活动、预算、主体和时序均为概念机制；三条旅程和三处能力返还台把长期运营的暂停、补救、退役及公共能力返还写成引用完整的概念登记，不声称已经兑现。V0.15进一步把日、周、季、年维护周期、人员FTE、容量疏散、ROM成本运维、退出储备和ALT01至04门槛权衡接入长期运营，并以七类双语执行空表承接载体、责任、D0、成本采购、专业验收、复演退出和RAID变更；230个字段全部为空，外部执行记录与释放均为0。PR #4306只证明前序仓库修订与intake过程，正式评选、Gallery、采纳与实施仍未证实。",
       "geojson_feature_ids": [
         "PHASE-001",
         "PHASE-002",
@@ -2101,6 +2111,9 @@
         "assets/figures/evidence-readiness.png",
         "visual/assets/fp01-delivery-control.json",
         "visual/assets/verify-fp01-delivery-control.js",
+        "visual/assets/fp01-execution-kit.json",
+        "visual/assets/verify-fp01-execution-kit.js",
+        "assets/media/fp01-execution-workbook.md",
         "assets/figures/technical-delivery-sheet.png"
       ]
     }

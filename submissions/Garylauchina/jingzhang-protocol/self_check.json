@@ -43,6 +43,7 @@
         "submissions/Garylauchina/jingzhang-protocol/assets/figures/technical-delivery-sheet.en.png",
         "submissions/Garylauchina/jingzhang-protocol/assets/figures/technical-delivery-sheet.png",
         "submissions/Garylauchina/jingzhang-protocol/assets/media/cover.png",
+        "submissions/Garylauchina/jingzhang-protocol/assets/media/fp01-execution-workbook.md",
         "submissions/Garylauchina/jingzhang-protocol/assets/media/scene-ai-origin.png",
         "submissions/Garylauchina/jingzhang-protocol/assets/media/scene-dazhongsi.png",
         "submissions/Garylauchina/jingzhang-protocol/assets/media/scene-zhongzhiyuan.png",
@@ -79,19 +80,21 @@
         "submissions/Garylauchina/jingzhang-protocol/visual/assets/fp01-contract.json",
         "submissions/Garylauchina/jingzhang-protocol/visual/assets/fp01-delivery-control.json",
         "submissions/Garylauchina/jingzhang-protocol/visual/assets/fp01-evidence-readiness.json",
+        "submissions/Garylauchina/jingzhang-protocol/visual/assets/fp01-execution-kit.json",
         "submissions/Garylauchina/jingzhang-protocol/visual/assets/jz-cjk-fallback.css",
         "submissions/Garylauchina/jingzhang-protocol/visual/assets/verify-agent-participation-ledger.js",
         "submissions/Garylauchina/jingzhang-protocol/visual/assets/verify-brand-component-architecture.js",
         "submissions/Garylauchina/jingzhang-protocol/visual/assets/verify-fp01-contract.js",
         "submissions/Garylauchina/jingzhang-protocol/visual/assets/verify-fp01-delivery-control.js",
         "submissions/Garylauchina/jingzhang-protocol/visual/assets/verify-fp01-evidence-readiness.js",
+        "submissions/Garylauchina/jingzhang-protocol/visual/assets/verify-fp01-execution-kit.js",
         "submissions/Garylauchina/jingzhang-protocol/visual/index.en.html",
         "submissions/Garylauchina/jingzhang-protocol/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/Garylauchina/jingzhang-protocol": "formal"
       },
-      "total_bytes": 33805767,
+      "total_bytes": 34214297,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -149,18 +152,6 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "fp01_spatial_prototype_scale_count": 3.0,
-        "fp01_delivery_role_class_count": 16.0,
-        "fp01_hold_point_single_decision_owner_ratio": 1.0,
-        "fp01_acceptance_indicator_count": 12.0,
-        "fp01_immediately_judgeable_acceptance_indicator_count": 8.0,
-        "fp01_field_dependent_acceptance_indicator_count": 4.0,
-        "fp01_release_stage_count": 6.0,
-        "fp01_cost_plan_class_count": 7.0,
-        "fp01_fallback_alternative_count": 4.0,
-        "fp01_documented_authorized_site_action_count": 0.0,
-        "fp01_external_release_granted_count": 0.0,
-        "fp01_verified_cost_input_count": 0.0,
         "fp01_evidence_verified_gate_count": 0.0,
         "fp01_evidence_gate_count": 5.0,
         "fp01_external_evidence_artifact_verified_count": 0.0,
@@ -188,15 +179,15 @@
       "summary": {
         "standard_matrix_items": 9,
         "design_depth_items": 15,
-        "known_metric_refs_required": 99,
+        "known_metric_refs_required": 114,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 26,
+          "source": 27,
           "standard": 9,
           "depth": 15,
           "data": 43,
-          "metric": 81
+          "metric": 96
         }
       }
     },

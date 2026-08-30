@@ -767,7 +767,15 @@
         "fp01_d0_measurement_method_coverage_ratio",
         "fp01_hold_point_raci_coverage_ratio",
         "fp01_design_test_boq_item_count",
-        "fp01_critical_dependency_step_count"
+        "fp01_critical_dependency_step_count",
+        "fp01_pre_feasibility_scale_count",
+        "fp01_capacity_egress_template_count",
+        "fp01_staffing_fte_template_count",
+        "fp01_rom_sensitivity_scenario_count",
+        "fp01_maintenance_cycle_count",
+        "fp01_execution_form_count",
+        "fp01_execution_required_field_count",
+        "fp01_execution_verified_external_record_count"
       ],
       "source_ids": [
         "OFFICIAL-ANNOUNCEMENT",
@@ -789,7 +797,8 @@
         "A-BRAND-COMPONENT-001",
         "A-DELIVERY-READINESS-001",
         "A-FP01-EVIDENCE-READINESS-001",
-        "A-FP01-DELIVERY-CONTROL-001"
+        "A-FP01-DELIVERY-CONTROL-001",
+        "A-FP01-EXECUTION-KIT-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION",
@@ -797,7 +806,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "三期依赖包在拓扑和面积上齐套，且每个场景唯一落入一期；西侧知识、中部绿脊接口、东侧日常服务的名称与几何顺序一致；Return Ticket与依赖包关系可追溯，但三期继续表达证据门槛而非政府工期或投资承诺；旗舰试点以90日证据门和一年指标接入PHASE-001至003依赖序列，任何失败、暂停或退出记录均须保留。V0.12把六项D0测量方法、H0-H4角色级RACI、M01-M06单套设计测试清单和K01-K10关键依赖接入同一交付控制链；日期、实名主体、预算采购、专业审查和授权结果均为空，不得写成实施进度。",
+      "evidence_summary_zh": "三期依赖包在拓扑和面积上齐套，且每个场景唯一落入一期；西侧知识、中部绿脊接口、东侧日常服务的名称与几何顺序一致；Return Ticket与依赖包关系可追溯，但三期继续表达证据门槛而非政府工期或投资承诺；旗舰试点以90日证据门和一年指标接入PHASE-001至003依赖序列，任何失败、暂停或退出记录均须保留。V0.15把1:500至1:20四尺度、容量疏散、人员FTE、三档ROM成本运维、维护周期与退出储备接入K01-K10及H0-H4；七类双语执行空表进一步承接载体、责任、基线、成本采购、专业验收、复演退出和RAID变更。日期、实名主体、现场值、报价预算、专业签署和授权结果均为空，不得写成实施进度。",
       "evidence_files": [
         "visual/assets/fp01-contract.json",
         "assets/figures/fp01-spatial-prototype.png",
@@ -808,6 +817,9 @@
         "visual/assets/verify-fp01-evidence-readiness.js",
         "visual/assets/fp01-delivery-control.json",
         "visual/assets/verify-fp01-delivery-control.js",
+        "visual/assets/fp01-execution-kit.json",
+        "visual/assets/verify-fp01-execution-kit.js",
+        "assets/media/fp01-execution-workbook.md",
         "assets/figures/technical-delivery-sheet.png"
       ]
     },
