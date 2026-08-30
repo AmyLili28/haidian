@@ -384,7 +384,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "f849e0b885efe3632ec13fd3a4291d6213edcabb0cfbb56083d7d3cab134725a"
+      "sha256": "612f6fd07718d90887fc701b320ce04fd7f204fbf81f99ea72b45c06b399fa54"
     },
     {
       "path": "compliance_matrix.json",
@@ -499,14 +499,14 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "acdbd3489e6be5041e5ebbee6610c1e00e2f4c0503c35e308ba9b51f8ad1c892"
+      "sha256": "f53939f89aac8035b62695a90a200feecb600fbdb76337a57520fbf9e309521e"
     },
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "2f8347ae99f263ac978aebb82c139cd0b6ab2b4d84415add4b18c31f88bd2c46"
+      "sha256": "17b788cf75feb61c223df743ff2229d3b4348f945bb4f1eccd252b93cebe6daf"
     },
     {
       "path": "report/copyright_statement.md",
@@ -518,7 +518,7 @@
       "path": "report/narrative.md",
       "role": "narrative",
       "required": false,
-      "sha256": "2e660a5d3445b057747390486d2422386ac25aba0ab2af0d5994a0ba19ea8764"
+      "sha256": "9e87a48a1012aa99dd94535633b3da09d722ca31a3287a675d1bf6ab9873f29f"
     },
     {
       "path": "report/proposal.en.html",
@@ -526,14 +526,14 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "5089e1eacae2b0633d530f20b0688e4d61a0484e0d6a8bbbd4536edffa8db992"
+      "sha256": "a8b1f8e20b8bdf1d761c6ea5bed873ccdddca4d18b94263b4fb8a0f8c0f92e83"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "5ed202cce0def08674965912df53bbaa3cdd7e62bb665e12fb8612793ce5b91e"
+      "sha256": "198c74d325b4048582d8acb8e8ede69d28848172ed914d7e588240db44da8e3e"
     },
     {
       "path": "risk.json",
@@ -545,7 +545,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "0309e74dbd3ce543f5380ddc5e6c9522c9a02683264bdd7a620285c81e692895"
+      "sha256": "f5ae33f37e1d002a4bb68a5e844f1afe803a1579f2562675e5a4ff1ad2128c35"
     },
     {
       "path": "sources.json",
@@ -570,14 +570,14 @@
       "role": "evidence_data",
       "required": true,
       "language": "neutral",
-      "sha256": "6a96e30448ae5087c67feedaecd2716877c5253f41e145fb44e61b4fc8cfb1cf"
+      "sha256": "cda61bb9c3124331cf85f26fe6142ebed924452aee67acc241c7667e8d6aa990"
     },
     {
       "path": "visual/assets/asset_rights_verification.json",
       "role": "evidence_data",
       "required": true,
       "language": "neutral",
-      "sha256": "edd215bc083a8e7968f00172cd9c1bb6e5144b57c62a1282f8c0ecbe6e960fad"
+      "sha256": "0bc9513670462a6553d990f6482b031e7606070a0e7e004374130a1414a12c24"
     },
     {
       "path": "visual/assets/base-map-manifest.json",
@@ -620,7 +620,7 @@
       "role": "evidence_data",
       "required": true,
       "language": "neutral",
-      "sha256": "6d86bb2087f3a5bb303b60abe6e1e4c171227128e3806343c27464d5458137ae"
+      "sha256": "41b01a39c5c7bc0ad5a78ed1732988934e3a2e28d012d61839e540ba5b1b60eb"
     },
     {
       "path": "visual/assets/canonical_registry.json",
@@ -664,7 +664,7 @@
       "path": "visual/assets/figure_explanation_register.json",
       "role": "evidence_data",
       "required": false,
-      "sha256": "f950948408834f93a4b9899ac3be638c378fa35f27f36e17d5dfbc24aba3bb71"
+      "sha256": "ee042d0a8a3a93f284d0533a7d9d19fc7605150bf8efaf577b0af083d27f5bb2"
     },
     {
       "path": "visual/assets/generated_visuals_manifest.json",
@@ -698,7 +698,7 @@
       "role": "evidence_data",
       "required": true,
       "language": "neutral",
-      "sha256": "ae88a176cb231188077501bc6b411274717d1e57ea95324d45c945ce95d2a6ed"
+      "sha256": "dfb660fe8492aeedaf65181542380a128441cb8c439dcc605355922a7690a77b"
     },
     {
       "path": "visual/assets/pdf_render_audit.json",
@@ -736,7 +736,7 @@
       "path": "visual/assets/review_evidence_matrix.json",
       "role": "evidence_data",
       "required": false,
-      "sha256": "2b752b5e0153332469ebc6b40f1b3ddd89e4e0183e74cead0e2b051f9ad8a3f9"
+      "sha256": "89710adc9d61e1bb7be5db564e693a9f35a6e5e4a34f4f06e27086476dacc348"
     },
     {
       "path": "visual/assets/risk_governance.json",
