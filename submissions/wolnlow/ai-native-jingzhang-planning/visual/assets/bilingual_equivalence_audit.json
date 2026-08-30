@@ -8,25 +8,32 @@
   "proposal_structure": {
     "zh": {
       "path": "proposal.md",
-      "sha256": "17b788cf75feb61c223df743ff2229d3b4348f945bb4f1eccd252b93cebe6daf",
+      "sha256": "ca0eb2704284f5995db78a12ab43ffc23159e6ea3da009015d18640c85e05989",
       "heading_levels": [
-        2,
-        3,
-        3,
-        3,
-        1,
         1,
         2,
+        1,
+        2,
+        3,
+        3,
+        3,
         2,
         2,
+        2,
         3,
         3,
         3,
         3,
+        2,
         1,
         2,
         2,
         2,
+        2,
+        2,
+        3,
+        3,
+        3,
         2,
         2,
         1,
@@ -41,6 +48,7 @@
         3,
         4,
         4,
+        2,
         2,
         2,
         2,
@@ -50,7 +58,7 @@
         2,
         2
       ],
-      "heading_count": 39,
+      "heading_count": 47,
       "image_paths": [
         "assets/figures/ai-native-eight-step-loop.png",
         "assets/figures/ai-native-overall-thinking.png",
@@ -89,25 +97,32 @@
     },
     "en": {
       "path": "proposal.en.md",
-      "sha256": "f53939f89aac8035b62695a90a200feecb600fbdb76337a57520fbf9e309521e",
+      "sha256": "24ba1498455befcac8138054f3c8e387926a20087820036626de28d634dfc2b3",
       "heading_levels": [
-        2,
-        3,
-        3,
-        3,
-        1,
         1,
         2,
+        1,
+        2,
+        3,
+        3,
+        3,
         2,
         2,
+        2,
         3,
         3,
         3,
         3,
+        2,
         1,
         2,
         2,
         2,
+        2,
+        2,
+        3,
+        3,
+        3,
         2,
         2,
         1,
@@ -122,6 +137,7 @@
         3,
         4,
         4,
+        2,
         2,
         2,
         2,
@@ -131,7 +147,7 @@
         2,
         2
       ],
-      "heading_count": 39,
+      "heading_count": 47,
       "image_paths": [
         "assets/figures/ai-native-eight-step-loop.en.png",
         "assets/figures/ai-native-overall-thinking.en.png",
@@ -175,16 +191,16 @@
   "rendered_html": {
     "proposal_zh": {
       "path": "report/proposal.html",
-      "sha256": "198c74d325b4048582d8acb8e8ede69d28848172ed914d7e588240db44da8e3e",
+      "sha256": "857e30dab1b7d02d3f093f9722400657f8d72dfb4c1de4941210a028f6027f15",
       "selected_dom_counts": {
         "section": 1,
         "article": 0,
         "img": 14,
         "button": 0,
         "canvas": 0,
-        "table": 8,
-        "tr": 47,
-        "td": 173
+        "table": 14,
+        "tr": 80,
+        "td": 303
       },
       "ids": [],
       "data_attributes": [
@@ -889,16 +905,16 @@
     },
     "proposal_en": {
       "path": "report/proposal.en.html",
-      "sha256": "a8b1f8e20b8bdf1d761c6ea5bed873ccdddca4d18b94263b4fb8a0f8c0f92e83",
+      "sha256": "2a3e93f0c4a35bc621ffa911ca0b0b38812c9143acad50cd843c4b5e501c397c",
       "selected_dom_counts": {
         "section": 1,
         "article": 0,
         "img": 14,
         "button": 0,
         "canvas": 0,
-        "table": 8,
-        "tr": 47,
-        "td": 173
+        "table": 14,
+        "tr": 80,
+        "td": 303
       },
       "ids": [],
       "data_attributes": [
@@ -2333,5 +2349,5 @@
   "shared_neutral_asset_count": 1,
   "discrepancies": [],
   "status": "pass",
-  "human_equivalence_record": "The Chinese and English three-part structure, core claims, numerical values, evidence levels, provisional/not-deployed warnings, figure numbers, and scenario/action IDs were reviewed as substantively equivalent after the v2.9 three-part planning repair."
+  "human_equivalence_record": "The Chinese and English three-part structure, site-specific claims for the 43.6 km², 11.4 km² and 368.4 ha levels, Zhongzhiyuan, AI Origin Community, Dazhongsi and the railway heritage park, numerical values, evidence levels, provisional/not-deployed warnings, figure numbers, and scenario/action IDs were reviewed as substantively equivalent after the v3.0 systematic planning repair."
 }

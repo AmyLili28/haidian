@@ -2469,7 +2469,7 @@
     {
       "asset_id": "ASSET-REPORT-PROPOSAL-HTML",
       "path": "report/proposal.html",
-      "sha256": "198c74d325b4048582d8acb8e8ede69d28848172ed914d7e588240db44da8e3e",
+      "sha256": "857e30dab1b7d02d3f093f9722400657f8d72dfb4c1de4941210a028f6027f15",
       "media_type": "text/html",
       "language": "zh",
       "role": "composite_html",
@@ -2508,12 +2508,12 @@
       "review_status": "cleared_for_declared_use",
       "reviewed_at": "2026-08-31",
       "reviewer_role": "participant_rights_review",
-      "bytes": 74865
+      "bytes": 92834
     },
     {
       "asset_id": "ASSET-REPORT-PROPOSAL-EN-HTML",
       "path": "report/proposal.en.html",
-      "sha256": "a8b1f8e20b8bdf1d761c6ea5bed873ccdddca4d18b94263b4fb8a0f8c0f92e83",
+      "sha256": "2a3e93f0c4a35bc621ffa911ca0b0b38812c9143acad50cd843c4b5e501c397c",
       "media_type": "text/html",
       "language": "en",
       "role": "composite_html",
@@ -2552,7 +2552,7 @@
       "review_status": "cleared_for_declared_use",
       "reviewed_at": "2026-08-31",
       "reviewer_role": "participant_rights_review",
-      "bytes": 84212
+      "bytes": 105386
     },
     {
       "asset_id": "ASSET-VISUAL-INDEX-HTML",
