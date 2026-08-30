@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.1.0",
+  "accessed_date": "2026-08-30",
+  "sources": [
+    {
+      "id": "SRC-OFFICIAL-ANNOUNCEMENT",
+      "title": "百年京张AI创新带城市设计国际方案征集资格预审公告",
+      "publisher": "北京市规划和自然资源委员会海淀分局",
+      "published_date": "2026-05-09",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "authority_level": "A0",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "official project name",
+        "official text boundary descriptions",
+        "official area values",
+        "design task requirements",
+        "language and deliverable requirements"
+      ],
+      "prohibited_uses": [
+        "precise official polygon boundary",
+        "road redline",
+        "statutory planning control",
+        "confirmed implementation commitment"
+      ],
+      "topics": ["project_scope", "design_tasks", "submission_depth", "official_announcement"],
+      "notes_zh": "公告可作为 formal 任务依据；文字四至与面积值不能替代 official GIS/CAD polygon。"
+    },
+    {
+      "id": "SRC-AGENT-TASKBOOK",
+      "title": "面向全球智能体开展“百年京张AI创新带城市设计开源征集”的任务书摘录",
+      "publisher": "User-provided cleared document",
+      "published_date": "2026-05-18",
+      "url": "brief/site-package/agent_taskbook.json",
+      "authority_level": "user_provided_cleared",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "AI agent task coverage (agent.1-agent.6)",
+        "scenario cards and persona requirements",
+        "branding and operation requirements",
+        "public compliance boundary language",
+        "co-creation charter principles"
+      ],
+      "prohibited_uses": [
+        "official redline",
+        "statutory planning control",
+        "engineering feasibility conclusion",
+        "government approval or implementation commitment"
+      ],
+      "topics": ["agent_open_call", "ai_native_scenarios", "branding", "operation", "public_compliance"],
+      "notes_zh": "更贴近 AI agent 任务要求，作为方案任务响应依据；不是官方空间红线或控规条件。"
+    },
+    {
+      "id": "SRC-SITE-PACKAGE",
+      "title": "百年京张AI创新带场地包（任务书、允许设计空间、枚举、范围、模式、模式库）",
+      "publisher": "Repository maintainers",
+      "published_date": "2026-08-07",
+      "url": "brief/site-package/",
+      "authority_level": "repository_cleared",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "design brief context",
+        "allowed design space and enums",
+        "planning limits and schemas",
+        "standards and references"
+      ],
+      "prohibited_uses": ["official redline", "statutory planning control"],
+      "topics": ["site_package", "enums", "schemas", "standards"],
+      "notes_zh": "场地包是机器可读任务与规则来源。"
+    },
+    {
+      "id": "SRC-SOURCE-REGISTRY",
+      "title": "公开资料登记表（formal/背景/临时用途边界）",
+      "publisher": "Repository maintainers",
+      "published_date": "2026-08-09",
+      "url": "data/source_registry.json",
+      "authority_level": "repository_cleared",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "distinguish usable_for_formal, background_only, provisional_only and no sources",
+        "source-use boundary language"
+      ],
+      "prohibited_uses": [],
+      "topics": ["source_registry", "data_boundary"],
+      "notes_zh": "不得把 background_only 或 provisional_only 资料升级为 official boundary、法定控规或实施承诺。"
+    },
+    {
+      "id": "SRC-PROVISIONAL-BOUNDARIES",
+      "title": "百年京张AI创新带三层范围与三处重点区临时粗略 polygon",
+      "publisher": "Repository maintainers",
+      "published_date": "2026-06-05",
+      "url": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "authority_level": "provisional",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "temporary AI generation boundary",
+        "offline visualization",
+        "intake self-check",
+        "design discussion with clear provisional labeling"
+      ],
+      "prohibited_uses": [
+        "official redline",
+        "statutory planning control",
+        "precise area calculation",
+        "formal professional scoring of boundaries",
+        "approval or implementation basis"
+      ],
+      "topics": ["provisional_geometry", "site_boundary", "key_areas"],
+      "notes_zh": "依据公告文字四至、位置线索和约面积推定并在 EPSG:4548 校核；只用于生成、自检与展示。"
+    },
+    {
+      "id": "SRC-MOHURD-URBAN-DESIGN-MEASURES",
+      "title": "城市设计管理办法",
+      "publisher": "中华人民共和国住房和城乡建设部",
+      "published_date": "2017-03-14",
+      "url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2023/art_17339_775476.html",
+      "authority_level": "A0",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "urban design purpose and scope",
+        "public space and city character requirements",
+        "building height, volume, style, color and interface control references"
+      ],
+      "prohibited_uses": ["site-specific planning approval", "site-specific quantitative control without official attachments"],
+      "topics": ["urban_design", "public_space", "city_character", "architecture_control"],
+      "notes_zh": "专业标准响应依据。"
+    },
+    {
+      "id": "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+      "title": "城市、镇控制性详细规划编制审批办法",
+      "publisher": "中华人民共和国住房和城乡建设部",
+      "published_date": null,
+      "url": "https://www.gov.cn/zhengce/2022-01/25/content_5711967.htm",
+      "authority_level": "A0",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "regulatory detailed planning depth reference",
+        "planning permission and implementation-management boundary language",
+        "known control vs pending-control distinction"
+      ],
+      "prohibited_uses": [
+        "claiming this project has approved regulatory controls",
+        "inventing FAR, height, road redline, ownership or municipal conclusions"
+      ],
+      "topics": ["regulatory_detailed_planning", "planning_permission", "implementation_management"],
+      "notes_zh": "要求区分已知控制与待补控制。"
+    },
+    {
+      "id": "SRC-MNR-LAND-USE-CLASSIFICATION",
+      "title": "自然资源部关于印发《国土空间调查、规划、用途管制用地用海分类指南》的通知",
+      "publisher": "自然资源部",
+      "published_date": "2023-11-22",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202311/content_6917279.htm",
+      "authority_level": "A0",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "land-use classification terminology",
+        "land-use code reference for structured GeoJSON and metrics"
+      ],
+      "prohibited_uses": ["site-specific land-use approval", "replacement for official regulatory plan conditions"],
+      "topics": ["land_use_classification", "territorial_spatial_planning"],
+      "notes_zh": "用于统一 land_use_code 语义。"
+    },
+    {
+      "id": "SRC-HAIDIAN-1X1",
+      "title": "海淀区发布“1+X+1”现代化产业体系建设布局",
+      "publisher": "北京市海淀区人民政府",
+      "published_date": "2026-03-02",
+      "url": "https://www.bjhd.gov.cn/ztzx/2026/2026jjshgzlfzdh/yw/202603/t20260303_4806875.shtml",
+      "authority_level": "A1",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "industrial positioning background",
+        "AI as core industry context",
+        "technology service ecosystem context"
+      ],
+      "prohibited_uses": ["site-specific implementation facts", "local quantitative claims beyond the page"],
+      "topics": ["industrial_system", "ai_industry", "technology_services"],
+      "notes_zh": "产业背景参照，不写成项目法定控制。"
+    },
+    {
+      "id": "SRC-BJ-KW-THREE-AREAS-WINGS",
+      "title": "“三区两翼”打造世界级AI集聚地",
+      "publisher": "北京市科学技术委员会、中关村科技园区管理委员会",
+      "published_date": "2026-04-03",
+      "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtcyfz/202604/t20260403_4573808.html",
+      "authority_level": "A1",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "background context",
+        "three areas and two wings narrative",
+        "industrial ecosystem context"
+      ],
+      "prohibited_uses": ["site-specific planning control", "confirmed government arrangement"],
+      "topics": ["three_areas_two_wings", "industrial_context", "innovation_belt_context"],
+      "notes_zh": "三区两翼叙事的公开依据。"
+    },
+    {
+      "id": "SRC-BARRIER-FREE-LAW",
+      "title": "中华人民共和国无障碍环境建设法",
+      "publisher": "全国人民代表大会常务委员会",
+      "published_date": "2023-06-28",
+      "url": "https://www.gov.cn/yaowen/liebiao/202306/content_6888910.htm",
+      "authority_level": "A0",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "Article 39 human-service boundary for listed public-service venues",
+        "accessibility and human-fallback baseline for the expressly listed service contexts"
+      ],
+      "prohibited_uses": [
+        "legal opinion or venue-specific compliance determination",
+        "generalizing the human-service requirement to every public space"
+      ],
+      "topics": ["accessibility", "public_service", "compliance"],
+      "notes_zh": "2023-09-01 施行；第39条人工服务边界仅限正文列举服务事项的公共服务场所。"
+    },
+    {
+      "id": "SRC-GENERATIVE-AI-MEASURES",
+      "title": "生成式人工智能服务管理暂行办法",
+      "publisher": "国家互联网信息办公室等七部门",
+      "published_date": "2023-07-13",
+      "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "authority_level": "A0",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "Article 14 unlawful-content handling duties",
+        "Article 15 complaint and reporting channels",
+        "Article 17 filing/security-assessment boundary only for services with public-opinion or social-mobilization capacity"
+      ],
+      "prohibited_uses": [
+        "legal opinion",
+        "inferring that a service completed filing",
+        "generalizing to every AI application"
+      ],
+      "topics": ["ai_governance", "public_service", "compliance"],
+      "notes_zh": "2023-08-15 施行；第14/15条用于场景边界语言，不推定备案状态。"
+    },
+    {
+      "id": "SRC-ELDERLY-PLAN-45",
+      "title": "国务院办公厅关于印发《关于切实解决老年人运用智能技术困难实施方案》的通知（国办发〔2020〕45号）",
+      "publisher": "国务院办公厅",
+      "published_date": "2020-11-24",
+      "url": "https://www.gov.cn/zhengce/content/2020-11/24/content_5563804.htm",
+      "authority_level": "A0",
+      "usable_for_formal": "background_only",
+      "allowed_uses": [
+        "background context for running traditional service channels in parallel with smart services",
+        "high-frequency elderly service scenario references"
+      ],
+      "prohibited_uses": [
+        "compliance evaluation of a specific service provider",
+        "inferring local implementation facts",
+        "treating as a site-specific statutory control"
+      ],
+      "topics": ["elderly_inclusion", "public_service", "policy"],
+      "notes_zh": "2020-2022 阶段性目标已到期；只作背景与场景设计参照，不写成现行法定义务。"
+    },
+    {
+      "id": "SRC-OSM-COPYRIGHT",
+      "title": "OpenStreetMap Copyright and License",
+      "publisher": "OpenStreetMap Foundation",
+      "published_date": null,
+      "url": "https://www.openstreetmap.org/copyright",
+      "authority_level": "open_data_license",
+      "usable_for_formal": "yes",
+      "allowed_uses": ["OSM data attribution", "license requirements"],
+      "prohibited_uses": [],
+      "topics": ["open_geodata", "odbl", "attribution"],
+      "notes_zh": "若使用 OSM 公开数据作底图参照，遵守 ODbL 署名要求。"
+    },
+    {
+      "id": "SRC-JINGZHANG-HISTORY-ARCHIVES",
+      "title": "《京张路工撮影》（北京市档案馆藏京张铁路建设历史影集）",
+      "publisher": "北京市档案馆",
+      "published_date": null,
+      "url": "https://www.bjma.gov.cn/eportal/ui?pageId=371443&articleKey=372133&columnId=371459",
+      "authority_level": "A1",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "Jing-Zhang railway history narrative",
+        "cultural narrative public evidence",
+        "museum and public display scenario content"
+      ],
+      "prohibited_uses": ["reproduction of album images without archive terms", "engineering or planning conclusions"],
+      "topics": ["jingzhang_railway", "history", "cultural_heritage"],
+      "notes_zh": "京张铁路由詹天佑主持修建、1909年建成通车的公开历史叙事依据；图像使用须遵守档案馆条款。"
+    },
+    {
+      "id": "SRC-TSINGHUA-QINGHUAYUAN-STATION",
+      "title": "清华园车站与清华师生（清华大学史料）",
+      "publisher": "清华大学",
+      "published_date": null,
+      "url": "https://www.tsinghua.edu.cn/info/1182/104384.htm",
+      "authority_level": "A1",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "Qinghuayuan station history narrative",
+        "campus-adjacent community cultural context"
+      ],
+      "prohibited_uses": ["campus internal data", "personal information"],
+      "topics": ["qinghuayuan_station", "tsinghua", "cultural_heritage"],
+      "notes_zh": "清华园车站为京张铁路重要节点，已成为文物保护单位的公开史料依据。"
+    },
+    {
+      "id": "SRC-CASE-KINGS-CROSS",
+      "title": "King's Cross（伦敦国王十字）官方站点",
+      "publisher": "King's Cross Central Limited Partnership",
+      "published_date": null,
+      "url": "https://www.kingscross.co.uk/",
+      "authority_level": "A2",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "railway-heritage regeneration case study",
+        "innovation district mechanism reference"
+      ],
+      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
+      "topics": ["case_study", "heritage_renewal", "innovation_district"],
+      "notes_zh": "公开案例参考，仅作机制借鉴。"
+    },
+    {
+      "id": "SRC-CASE-KENDALL-SQUARE",
+      "title": "MIT News: MIT presents updated Kendall Square Initiative plan to City of Cambridge",
+      "publisher": "Massachusetts Institute of Technology",
+      "published_date": "2016-01-07",
+      "url": "https://news.mit.edu/2016/mit-presents-updated-kendall-square-initiative-plan-city-cambridge-0107",
+      "authority_level": "A2",
+      "usable_for_formal": "yes",
+      "allowed_uses": ["anchor-institution innovation district case study"],
+      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
+      "topics": ["case_study", "anchor_institution", "innovation_district"],
+      "notes_zh": "公开案例参考。"
+    },
+    {
+      "id": "SRC-CASE-ONENORTH",
+      "title": "JTC: LaunchPad @ one-north（新加坡纬壹科技城）",
+      "publisher": "JTC Corporation, Singapore",
+      "published_date": null,
+      "url": "https://www.jtc.gov.sg/find-land/jtc-key-estates/launchpad",
+      "authority_level": "A2",
+      "usable_for_formal": "yes",
+      "allowed_uses": ["mixed-use science park case study", "startup ecosystem mechanism reference"],
+      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
+      "topics": ["case_study", "science_park", "startup_ecosystem"],
+      "notes_zh": "公开案例参考。"
+    },
+    {
+      "id": "SRC-CASE-YUNQI",
+      "title": "云栖小镇（杭州市文化广电旅游局介绍）",
+      "publisher": "杭州市文化广电旅游局",
+      "published_date": "2022-12-14",
+      "url": "https://wgly.hangzhou.gov.cn/art/2022/12/14/art_1229707580_58943488.html",
+      "authority_level": "A2",
+      "usable_for_formal": "yes",
+      "allowed_uses": ["developer-conference ecosystem case study", "scenario-open mechanism reference"],
+      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
+      "topics": ["case_study", "developer_ecosystem", "scenario_opening"],
+      "notes_zh": "公开案例参考。"
+    },
+    {
+      "id": "SRC-CASE-ADLERSHOF",
+      "title": "WISTA: Technology Park Berlin Adlershof",
+      "publisher": "WISTA Management GmbH",
+      "published_date": null,
+      "url": "https://www.adlershof.de/en/science-technology/overview",
+      "authority_level": "A2",
+      "usable_for_formal": "yes",
+      "allowed_uses": ["research-institute-driven science city case study"],
+      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
+      "topics": ["case_study", "science_city", "research_institute"],
+      "notes_zh": "公开案例参考。"
+    },
+    {
+      "id": "SRC-CASE-SHIBUYA",
+      "title": "Shibuya（东京涩谷，百科参考条目）",
+      "publisher": "Wikipedia",
+      "published_date": null,
+      "url": "https://en.wikipedia.org/wiki/Shibuya",
+      "authority_level": "A3",
+      "usable_for_formal": "yes",
+      "allowed_uses": ["TOD renewal and creative-industry case background (encyclopedic reference)"],
+      "prohibited_uses": ["primary factual basis", "site-specific comparison metrics for Haidian"],
+      "topics": ["case_study", "tod", "creative_industry"],
+      "notes_zh": "百科参考，仅作背景。"
+    }
+  ]
+}
