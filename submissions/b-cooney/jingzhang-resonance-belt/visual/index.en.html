@@ -136,29 +136,35 @@ var NODE_PALETTE={
  'RN-CODA':   {root:146.83,scale:[0,2,4,7,9],  octaves:[-1,0],  reverb:1.55,bright:0.82}  // D3 low, spacious/calm
 };
 var pal=NODE_PALETTE['RN-CHORUS'], ROOTHZ=pal.root, SCALE=pal.scale.slice(), OCTS=pal.octaves.slice();
-var CHORDS=[[0,7,4],[-3,4,7],[2,7,9],[-5,2,7]], chordIdx=0, memPitch=[], memChord=[], lastNode='RN-CHORUS';
-function pickPitch(){
- var nov=cur.novelty_budget,best=null,bw=-1e9;
- for(var i=0;i<24;i++){
-   var deg=SCALE[(rnd()*SCALE.length)|0], oct=OCTS[(rnd()*OCTS.length)|0];
-   var semis=deg+12*oct+CHORDS[chordIdx][(rnd()*3)|0];
-   var pen=0; for(var j=0;j<memPitch.length;j++){ if(memPitch[j]===semis) pen+=(memPitch.length-j); }
-   var w=rnd()*(0.4+nov)-pen*0.35; if(w>bw){bw=w;best=semis;}
- }
- memPitch.push(best); if(memPitch.length>10) memPitch.shift();
- return ROOTHZ*Math.pow(2,best/12);
+var pool=[], cell=[], cellPos=0, cellsSincePause=0, lastNode='RN-CHORUS';
+function buildPool(){
+ pool=[]; for(var oi=0;oi<OCTS.length;oi++){var oct=OCTS[oi];
+   for(var si=0;si<SCALE.length;si++){ pool.push(ROOTHZ*Math.pow(2,(SCALE[si]+12*oct)/12)); }}
+ pool.sort(function(a,b){return a-b;});
 }
-function maybeChangeChord(){
- if(rnd() > 0.03+cur.harmonic_change_rate*0.5) return;
- var best=chordIdx,bw=-1e9;
- for(var i=0;i<CHORDS.length;i++){ var pen=0; for(var j=0;j<memChord.length;j++) if(memChord[j]===i) pen+=(memChord.length-j);
-   var w=rnd()-pen*0.5; if(w>bw){bw=w;best=i;} }
- chordIdx=best; memChord.push(best); if(memChord.length>3) memChord.shift();
- // retune pad voices to the new chord field for slow harmonic motion
- if(running) pads.forEach(function(p){ if(p.semi!==undefined){
-   var cs=(p.semi===-12)?-12:CHORDS[chordIdx][[0,7,12].indexOf(p.semi)]||p.semi;
-   p.o.frequency.setTargetAtTime(ROOTHZ*Math.pow(2,cs/12),A.currentTime,3.0);}});
- log('COMPOSE: harmonic field -> chord '+best);
+function makeCell(){
+ var L=3+((rnd()*3)|0), idx=Math.max(0,Math.min(pool.length-1,(pool.length*0.45)|0)), c=[idx];
+ for(var i=1;i<L;i++){ var step=(((rnd()*3)|0)-1)*(rnd()<0.75?1:2); // stepwise contour, occasional small leap
+   idx=Math.max(0,Math.min(pool.length-1, idx+step)); c.push(idx); }
+ return c;
+}
+function mutateCell(){
+ if(!cell.length){ cell=makeCell(); return; }
+ var r=rnd();
+ if(r<0.45){ var p=(rnd()*cell.length)|0; cell[p]=Math.max(0,Math.min(pool.length-1, cell[p]+((rnd()<.5)?-1:1))); }
+ else if(r<0.62){ cell=cell.slice().reverse(); }
+ else if(r<0.80){ var d=(rnd()<.5?-SCALE.length:SCALE.length); cell=cell.map(function(x){return Math.max(0,Math.min(pool.length-1,x+d));}); }
+ else { cell=makeCell(); }
+}
+function maybeShiftCentre(){
+ if(rnd() > 0.015+cur.harmonic_change_rate*0.20) return;
+ var moves=[7,-5,2,-2,5]; var m=moves[(rnd()*moves.length)|0];
+ ROOTHZ=ROOTHZ*Math.pow(2,m/12);
+ if(ROOTHZ>300) ROOTHZ/=2; if(ROOTHZ<120) ROOTHZ*=2;
+ buildPool();
+ if(running) pads.forEach(function(p){ if(p.semi!==undefined)
+   p.o.frequency.setTargetAtTime(ROOTHZ*Math.pow(2,p.semi/12),A.currentTime,5.0); });
+ log('COMPOSE: harmonic centre '+(m>0?'+':'')+m+' st (root '+Math.round(ROOTHZ)+'Hz)');
 }
 // ---- audio graph ----
 var A=null,master,comp,analyser,rev,revGain,padFilter,pads=[],noiseGain,noiseSrc,noiseLfoGain,pulseLfo,
@@ -177,6 +183,7 @@ function applyPalette(){
  ROOTHZ=pal.root; SCALE=pal.scale.slice(); OCTS=pal.octaves.slice();
  if(running && pads.length){ pads.forEach(function(p){ if(p.semi!==undefined)
    p.o.frequency.setTargetAtTime(ROOTHZ*Math.pow(2,p.semi/12),A.currentTime,2.5); }); }
+ buildPool(); cell=[]; cellPos=0;
  log('PALETTE: '+ctxIn.node.replace('RN-','')+' (root '+Math.round(ROOTHZ)+'Hz)');
 }
 function start(){
@@ -221,7 +228,7 @@ function start(){
  scheduleNote(); ctrlTimer=setInterval(controlTick,2000); macroTimer=setInterval(macroTick,14000); loopViz();
  btn.setAttribute('aria-pressed','true'); btn.textContent=T.stop;
  status.textContent=T.playing+' — Audio: '+A.state;
- [0,1,2].forEach(function(i){setTimeout(function(){ if(running) playNote(pickPitch(),1.4); },300+i*900);});
+ [0,4,2].forEach(function(i,k){setTimeout(function(){ if(running&&pool.length) playNote(pool[Math.min(pool.length-1,((pool.length*0.4)|0)+i)],1.3); },400+k*1100);});
  setTimeout(function(){ if(running&&status){ status.textContent=T.playing+' — Audio: '+A.state;
    if(A.state!=='running') status.textContent=T.blocked; } },900);
  log('SENSE/RENDER: engine started (state='+A.state+')');
@@ -253,12 +260,27 @@ function playNote(freq,gainScale,pan,revScale){
 }
 function scheduleNote(){
  if(!running) return;
- playNote(pickPitch(),1.0);
- if(scene.gesture && rnd() < cur.spatial_motion*cur.novelty_budget*0.5){
-   playNote(pickPitch()*2,0.45,(rnd()<.5?-0.85:0.85),0.9); log('COMPOSE: distant spatial gesture');
+ if(!pool.length) buildPool();
+ if(!cell.length || cellPos>=cell.length){
+   // between phrases: mutate the familiar cell, or occasionally start a fresh one
+   if(cell.length){ if(rnd() < (0.30+cur.novelty_budget*0.5)) mutateCell(); }
+   else { cell=makeCell(); }
+   cellPos=0; cellsSincePause++;
+   var gap=(2600-cur.event_rate*1500)*(0.8+rnd()*0.9); // rest between phrases
+   noteTimer=setTimeout(emitCellNote, Math.max(600,gap));
+   return;
  }
- var base=3600-cur.event_rate*2600; var iv=base*(0.7+rnd()*1.0); // sparser, more space
- noteTimer=setTimeout(scheduleNote, Math.max(500,iv));
+ emitCellNote();
+}
+function emitCellNote(){
+ if(!running) return;
+ var f=pool[cell[cellPos]]||ROOTHZ; cellPos++;
+ playNote(f,1.0);
+ if(scene.gesture && cellPos===cell.length && rnd()<cur.spatial_motion*cur.novelty_budget*0.5){
+   playNote(f*2,0.4,(rnd()<.5?-0.8:0.8),0.9); log('COMPOSE: distant spatial gesture');
+ }
+ var within=(1150-cur.event_rate*650)*(0.8+rnd()*0.5); // spacing within a phrase
+ noteTimer=setTimeout(scheduleNote, Math.max(320,within));
 }
 function listen(){
  if(!analyser) return 0;
@@ -269,7 +291,7 @@ function listen(){
 function controlTick(){
  selectTarget();
  for(var k in target){ var r=RAMP[k]||0.10; cur[k]+=(target[k]-cur[k])*r; }
- maybeChangeChord();
+ maybeShiftCentre();
  if(!running) return;
  var load=listen(); var restraint = load>0.72 ? 0.6 : 1.0;
  if(restraint<1 && rnd()<0.3) log('ADAPT: restraint - ambient high, holding density/level');
