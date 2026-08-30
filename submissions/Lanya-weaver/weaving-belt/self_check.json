@@ -17,13 +17,10 @@
         "submissions/Lanya-weaver/weaving-belt/proposal.md: a paragraph/block contains 7 consecutive evidence markers; attach no more than 3 to one claim; legacy proposal remains compatible and the viewer will condense it",
         "submissions/Lanya-weaver/weaving-belt/proposal.md: a paragraph/block contains 11 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
         "submissions/Lanya-weaver/weaving-belt/proposal.md: a paragraph/block contains 10 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
-        "submissions/Lanya-weaver/weaving-belt/assets/figures/annual-calendar-map.png: bilingual contract requires en display counterpart `assets/figures/annual-calendar-map.en.png`; legacy v1 package remains compatible",
-        "submissions/Lanya-weaver/weaving-belt/assets/figures/component-catalog.png: bilingual contract requires en display counterpart `assets/figures/component-catalog.en.png`; legacy v1 package remains compatible",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-        "submissions/Lanya-weaver/weaving-belt/assets/figures/pilgrimage-path.png: bilingual contract requires en display counterpart `assets/figures/pilgrimage-path.en.png`; legacy v1 package remains compatible",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
         "submissions/Lanya-weaver/weaving-belt/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
         "submissions/Lanya-weaver/weaving-belt/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
@@ -35,13 +32,10 @@
       "changelog_files": [],
       "changed_files": [
         "submissions/Lanya-weaver/weaving-belt/agent.json",
-        "submissions/Lanya-weaver/weaving-belt/assets/figures/annual-calendar-map.png",
-        "submissions/Lanya-weaver/weaving-belt/assets/figures/component-catalog.png",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/key-areas.png",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/land-use-structure.png",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/metrics-evidence.png",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/mobility-bluegreen.png",
-        "submissions/Lanya-weaver/weaving-belt/assets/figures/pilgrimage-path.png",
         "submissions/Lanya-weaver/weaving-belt/assets/figures/site-overview.png",
         "submissions/Lanya-weaver/weaving-belt/assumptions.json",
         "submissions/Lanya-weaver/weaving-belt/compliance_matrix.json",
@@ -73,7 +67,7 @@
       "ai_package_stages": {
         "submissions/Lanya-weaver/weaving-belt": "formal"
       },
-      "total_bytes": 29767456,
+      "total_bytes": 6265820,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -173,13 +167,10 @@
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
   "next_actions": [
-    "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/assets/figures/annual-calendar-map.png: bilingual contract requires en display counterpart `assets/figures/annual-calendar-map.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/assets/figures/component-catalog.png: bilingual contract requires en display counterpart `assets/figures/component-catalog.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/assets/figures/pilgrimage-path.png: bilingual contract requires en display counterpart `assets/figures/pilgrimage-path.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/Lanya-weaver/weaving-belt/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",

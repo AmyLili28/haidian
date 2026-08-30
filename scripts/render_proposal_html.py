@@ -511,7 +511,7 @@ def render_html(
         rendered_body = render_markdown_body(submission_dir, body, language)
     translation_link = ""
     if translation_href:
-        link_label = "Read in English" if language == "zh" else "阅读中文版本"
+        link_label = "Read in English" if language == "zh" else "Read in Chinese"
         translation_link = (
             '<p class="translation-link">'
             f'<a href="{html.escape(translation_href)}">{link_label}</a>'
@@ -535,7 +535,7 @@ def render_html(
 * {{ box-sizing: border-box; }}
 body {{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", "WenQuanYi Micro Hei", "WenQuanYi Zen Hei", "Droid Sans Fallback", "AR PL UMing CN", "SimHei", "SimSun", sans-serif;
   color: var(--ink);
   background: var(--bg);
   line-height: 1.75;
