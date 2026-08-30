@@ -62,10 +62,19 @@ for(const rel of ['visual/index.html','visual/index.en.html']){
 }
 for(const rel of ['report/proposal.html','report/proposal.en.html']){
   const html=text(rel);
-  ok((html.match(/V17_REPORT_START/g)||[]).length===1,`${rel} must contain one V17 report entry`);
-  const firstScreen=html.split('V17_REPORT_END')[0];
+  ok((html.match(/V172_REPORT_START/g)||[]).length===1,`${rel} must contain one V17.2 report entry`);
+  const firstScreen=html.split('V172_REPORT_END')[0];
   ok(!firstScreen.includes('v16-report')&&!firstScreen.includes('G0 NO-GO'),`${rel} contains legacy first screen`);
+  ok(html.includes('.v172-report~main>.hero:first-child,.v172-report~main>.hero:first-child+h1{display:none!important}'),`${rel} must replace, not duplicate, the original hero`);
 }
+
+const cjk=/[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/;
+for(const rel of ['report/proposal.en.html','visual/index.en.html']){
+  const visible=text(rel).replace(/<script[\s\S]*?<\/script>/gi,'').replace(/<style[\s\S]*?<\/style>/gi,'').replace(/data:[^\"']+/g,'');
+  ok(!cjk.test(visible),`${rel} contains visible CJK text`);
+  ok(visible.includes('Chinese edition'),`${rel} must use the English language-entry label`);
+}
+ok(!cjk.test(text('proposal.en.md')),`proposal.en.md contains CJK text`);
 
 const fontRel='visual/assets/font-bundle.json';
 const fontBundle=json(fontRel);
@@ -106,6 +115,8 @@ for(const id of ['BEIJING-BLOCK-PLAN-APPROVED-20260812','BEIJING-JZ-PHASE2-COMPL
 }
 const buildCode=text('visual/assets/build.js')+text('visual/assets/content.js')+text('visual/assets/build-html.js');
 ok(!/Legacy|V1[1-6]_REPORT|function\s+\w+V1[1-6]/.test(buildCode),'Canonical build contains legacy override code');
+ok(buildCode.includes("const VERSION='V17.2'"),'V17.2 publication token is required');
+ok(buildCode.includes('title:44')&&buildCode.includes('note:18'),'Shared publication type tokens are required');
 ok(!fs.existsSync(path.join(ROOT,'visual/assets/app.js'))&&!fs.existsSync(path.join(ROOT,'visual/assets/styles.css')),'Unused app/styles assets should be removed');
 const listed=new Set(json('manifest.json').files.map(x=>x.path));
 for(const rel of ['visual/assets/prototype-model.json','visual/assets/content.js','visual/assets/build.js','visual/assets/build-html.js','visual/assets/build-font.js','visual/assets/font-render-qa.js','visual/assets/qa.js','visual/assets/font-bundle.json','visual/assets/font-metadata.json','visual/assets/font-glyphs.json','visual/assets/font-license.json','assets/figures/jury-summary.png','assets/media/receipt-porch-v17-day.webp','assets/media/receipt-porch-v17-night.webp'])ok(listed.has(rel),`Manifest missing ${rel}`);

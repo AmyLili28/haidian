@@ -68,7 +68,7 @@ function landmarkExperience(l,kind){const ring=kind==='ring';const file=ring?'ve
 
 function page(n,l,h,s,content){return `<section class="page"><header><span>JING-ZHANG TWO ANSWERS · ${VERSION}</span><b>${String(n).padStart(2,'0')} / 16</b></header><h1>${esc(h)}</h1><p class="sub">${esc(s)}</p><div class="content">${content}</div><footer>${q(l,'公开背景 / 投稿设计 / 现场未知分层 · 测绘、许可与绩效待补','Published context / design / field unknown separated · survey, permits and performance pending')}<i>${VERSION} · ONE ROUTE, FOUR STATES</i></footer></section>`}
 function a3(l='zh'){const p=[
-  [q(l,'一路四态｜单页评审摘要','ONE ROUTE, FOUR STATES · JURY SUMMARY'),q(l,'4米公共路径不断线；AI只占一侧；人工回执廊常开','4 m route unbroken; AI on one side; staffed Porch stays open'),svg(1800,1050,nest(jury(l),0,0,1800,950))],
+  [q(l,'一路四态｜单页评审摘要','ONE ROUTE, FOUR STATES · JURY SUMMARY'),q(l,'4米公共路径不断线；AI只占一侧；人工回执廊常开','4 m route unbroken; AI on one side; staffed Porch stays open'),svg(1800,1050,`${nest(jury(l),0,0,1800,840)}${rect(1085,822,690,228,`fill="${C.paper}"`)}`)],
   [q(l,'90秒评审路线','90-SECOND JURY ROUTE'),q(l,'空间结论 → 原型 → 裁决 → 下一道门 → 正式背景','spatial conclusion → prototype → decision → next gate → context'),reviewRoute(l)],
   [q(l,'公开资料、状态和精度边界','PUBLIC SOURCES, STATUS + PRECISION'),q(l,'事实、规划、设计、未知四类状态不混用','published, approved, design and unknown stay distinct'),sourceMatrix(l)],
   [q(l,'正式规划背景与运营叠加','APPROVED CONTEXT + OPERATING OVERLAY'),q(l,'一脊三站两翼是可停可撤运营层','spine/stations/wings form a stoppable overlay'),overall(l)],
