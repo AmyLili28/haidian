@@ -11,7 +11,6 @@
       "errors": [],
       "warnings": [
         "submissions/demonyc88888/jingzhang-ai-growth-system/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/demonyc88888/jingzhang-ai-growth-system/drawings/a0-boards.en.pdf: byte-identical to `drawings/a0-boards.pdf`; if the translation is still missing, replace it with a rendering in the declared language, and if the file carries no language-specific content, declare language=neutral once and share it between both versions (see docs/formal-submission-guide.md); this notice does not block review",
         "submissions/demonyc88888/jingzhang-ai-growth-system/drawings/exhibition-boards.zh.pdf: byte-identical to `drawings/exhibition-boards.pdf`; if the translation is still missing, replace it with a rendering in the declared language, and if the file carries no language-specific content, declare language=neutral once and share it between both versions (see docs/formal-submission-guide.md); this notice does not block review"
       ],
       "proposal_files": [
@@ -149,7 +148,7 @@
       "ai_package_stages": {
         "submissions/demonyc88888/jingzhang-ai-growth-system": "formal"
       },
-      "total_bytes": 41326770,
+      "total_bytes": 41216404,
       "maintainer_bypass": false
     },
     "stderr": ""

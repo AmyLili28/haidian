@@ -112,6 +112,25 @@ code {
   h1 { font-size: 26px; }
   h2 { font-size: 21px; }
 }
+@media print {
+  .proposal-table {
+    overflow: visible;
+  }
+
+  .proposal-table table {
+    table-layout: fixed;
+    min-width: 0;
+    font-size: 11.8px;
+  }
+
+  .proposal-table th,
+  .proposal-table td {
+    padding: 6px 7px;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+}
 </style>
 </head>
 <body>
@@ -184,7 +203,7 @@ code {
 <p>Implementation follows low-disturbance testing, professional deepening, and graded expansion. Early actions focus on wayfinding, active ground floors, movable facilities, problem intake, governance sandboxes, and small public-service pilots. Mid-term work expands industrial and public scenarios around the three key areas. Long-term operation uses audit, public feedback, and professional assessment to retain, expand, pause, or retire services. All policy, funding, and event proposals are concept recommendations.</p>
 <h2>Metrics, Area Recalculation, and Compliance Matrix</h2>
 <p>The submission must prove that drawings, metrics, sources, assumptions, bilingual files, copyright statements, and self-check results align. Recalculated spatial metrics include site area, green ratio, public-space ratio, building footprint area, and key-area count <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="site_area_sqm" title="Metric: site_area_sqm">Metric</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="key_area_count" title="Metric: key_area_count">Metric</sup>. Financial metrics no longer publish any range or point value; one-time CAPEX, annual OPEX, three-stage commercial AI revenue, and public AI reinvestment are registered by <code>visual/assets/economic_model.json</code> and its recalculation report as unknown with value=null <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="one_time_capex_range_cny" title="Metric: one_time_capex_range_cny">Metric</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="annual_opex_range_cny" title="Metric: annual_opex_range_cny">Metric</sup>. Three-stage revenue retains only formulas and missing-input lists until contracts, audit, and eligible-revenue rules are available <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="commercial_ai_revenue_stage_1_cny" title="Metric: commercial_ai_revenue_stage_1_cny">Metric</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="commercial_ai_revenue_stage_2_cny" title="Metric: commercial_ai_revenue_stage_2_cny">Metric</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="commercial_ai_revenue_stage_3_cny" title="Metric: commercial_ai_revenue_stage_3_cny">Metric</sup>. Public AI reinvestment also remains unknown with value=null and declares no fixed amount or percentage <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="steady_public_ai_reflow_range_cny" title="Metric: steady_public_ai_reflow_range_cny">Metric</sup>.</p>
-<figure class="proposal-figure"><img src="../assets/figures/metrics-evidence.en.png" alt="Commercial AI revenue ledger and public AI feedback loop"><figcaption>Commercial AI revenue ledger and public AI feedback loop</figcaption></figure>
+<figure class="proposal-figure"><img src="../assets/figures/metrics-evidence.en.png" alt="Recomputable economic model with pending validated inputs"><figcaption>Recomputable economic model with pending validated inputs</figcaption></figure>
 <h2>Risk, Copyright, and Compliance</h2>
 <p>Current missing data include official redline, official key-area polygons, road redlines, regulatory indicators, building height, ownership, heritage controls, municipal pipelines, traffic sections, site flow counts, and real community research. Related conclusions are marked as provisional, hypothesis, unknown, or concept recommendation, with recalculation triggers after official data are supplied. Copyright, toolchain, and community display permissions are recorded in <code>report/copyright_statement.md</code>.</p>
 <h2>References</h2>

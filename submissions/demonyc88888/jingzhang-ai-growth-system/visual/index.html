@@ -29,8 +29,16 @@
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", Arial, sans-serif;
+      font-family: "Jingzhang Noto Sans SC", "Noto Sans SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+      font-optical-sizing: auto;
       letter-spacing: 0;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
     }
 
     .sr-only {
@@ -410,9 +418,17 @@
       box-shadow: var(--shadow);
     }
 
+    .board-figure {
+      width: min(1720px, calc(100vw - 32px));
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+
     .figure-panel img {
       width: 100%;
+      height: auto;
       display: block;
+      image-rendering: auto;
     }
 
     .figure-panel figcaption {
@@ -686,6 +702,33 @@
       border-bottom: 0;
     }
 
+    @media print {
+      .render-card {
+        break-inside: avoid;
+        box-shadow: none;
+      }
+
+      #node-renders .render-card:not(:first-child) {
+        break-before: page;
+      }
+
+      #node-renders .render-card:last-child {
+        break-after: page;
+      }
+
+      .render-card img {
+        height: auto !important;
+        min-height: 0 !important;
+        aspect-ratio: auto !important;
+        object-fit: contain !important;
+      }
+
+      .render-card .caption {
+        min-height: 0;
+        padding: 14px 18px 16px;
+      }
+    }
+
     @media (max-width: 980px) {
       .metrics-grid,
       .chain-panel,
@@ -942,8 +985,8 @@
           <p>图 2 把总体设计范围、三处重点区、河园验证空间和运行链条放在同一张图里：真实需求从社区和城市日常进入，技术在众智园接受治理准入，小月河与京张遗址公园提供公共空间验证，大钟寺完成产品化与分类运营，公共价值再回到下一轮城市服务更新。</p>
         </div>
 
-        <figure class="figure-panel">
-          <img src="../assets/figures/02  site-overview.png" alt="图 2 场地总览与总体概念图，展示三层范围、三处重点区、南北联系、河园验证空间和城市 AI 生长链条">
+        <figure class="figure-panel board-figure">
+          <img src="../assets/figures/02-site-overview-large-zh.png" alt="图 2 场地总览与总体概念图，展示三层范围、三处重点区、南北联系、河园验证空间和城市 AI 生长链条" decoding="async">
           <figcaption>
             <span><strong>图 2 · 场地总览与总体概念图</strong>：以低对比底图承载临时边界，以高对比设计层说明三节点、南北联系、河园验证和公共/商业双路径。</span>
             <span>边界属性：provisional constraint；正式投稿前需与 GeoJSON、metrics 和 sources 对齐。</span>
@@ -980,8 +1023,8 @@
           <p>众智园回答“技术如何可靠”，AI 原点社区回答“问题如何真实进入”，大钟寺回答“验证后的成果如何持续运营和产品化”。三者共享同一套场景护照、治理准入、人工接管和证据回执。</p>
         </div>
 
-        <figure class="figure-panel">
-          <img src="../assets/figures/05 key-areas.png" alt="三处重点区域设计任务图，展示众智园、AI 原点社区和大钟寺的责任分工、空间序列和运行流程">
+        <figure class="figure-panel board-figure">
+          <img src="../assets/figures/05-key-areas-large-zh.png" alt="三处重点区域设计任务图，展示众智园、AI 原点社区和大钟寺的责任分工、空间序列和运行流程" decoding="async">
           <figcaption>
             <span><strong>三处重点区域设计任务图</strong>：把众智园、AI 原点社区、大钟寺分别作为研发治理、汇需共创、产品转化三类节点。</span>
             <span>图中范围为概念阶段表达，不代表已批准建设边界、权属调整或招商承诺。</span>
