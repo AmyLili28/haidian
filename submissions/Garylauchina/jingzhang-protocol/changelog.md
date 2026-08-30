@@ -1,5 +1,11 @@
 # 方案迭代记录
 
+## v0.14.1 - 2026-08-31
+
+- Closed the Review Agent's participant-side P0 rendering blocker by linking both required `report/proposal*.html` files to the same local Noto Sans SC WOFF2 subset already used by the bilingual visual exhibits. The fix changes presentation portability only; it does not alter the proposal, geometry, metrics, implementation state or evidence claims.
+- Made the local font-build helper idempotently restore the four HTML font links before rebuilding the subset, so a later report regeneration cannot silently reintroduce the Linux/Chromium missing-CJK failure.
+- Synchronized the copyright statement with the rebuilt CSS asset's exact byte count and SHA-256 so the disclosed font provenance remains independently verifiable.
+
 ## v0.14 - 2026-08-31
 
 - Kept the stable title **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND**, the six-capability network, twelve scenes, five flagships and all provisional geometry unchanged. V0.14 is a candidate package that does not self-assert its live PR or intake status; any publication state is governed by the corresponding PR and official labels.
