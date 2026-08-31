@@ -1,0 +1,264 @@
+{
+  "schema_version": "0.1.0",
+  "units": {
+    "length": "m",
+    "area": "sqm"
+  },
+  "metrics": {
+    "site_area_sqm": {
+      "status": "known",
+      "value": 11412825.386,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
+      "confidence": "low",
+      "display_value": "~11.413 million m²",
+      "display_precision": "nearest 1 m² in data; 0.001 million m² in figures",
+      "assumptions": [
+        "Provisional boundary, not an official redline."
+      ]
+    },
+    "green_space_area_sqm": {
+      "status": "known",
+      "value": 1948579.762,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/green_space.geojson"
+      ],
+      "formula": "union(conceptual green polygons, EPSG:4548)",
+      "confidence": "low",
+      "assumptions": []
+    },
+    "public_space_area_sqm": {
+      "status": "known",
+      "value": 36150.0,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "union(conceptual public-space polygons, EPSG:4548)",
+      "confidence": "low",
+      "assumptions": []
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 111600.0,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
+      "confidence": "low",
+      "assumptions": []
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.170736,
+      "display_value": "17.07%",
+      "display_precision": "0.01%",
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "green_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": []
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.003167,
+      "display_value": "0.32%",
+      "display_precision": "0.01%",
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "public_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": []
+    },
+    "road_network_length_m": {
+      "status": "known",
+      "value": 10154.351,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "sum(conceptual paths, EPSG:4548)",
+      "confidence": "low",
+      "assumptions": []
+    },
+    "key_area_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(area_id in key_areas.geojson)",
+      "confidence": "medium",
+      "assumptions": []
+    },
+    "land_use_zone_count": {
+      "status": "known",
+      "value": 25,
+      "unit": "count",
+      "source_files": [
+        "geometry/land_use.geojson"
+      ],
+      "formula": "count(land_use.geojson features; 8 land_use_code classes)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "building_unit_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "count(buildings.geojson features)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "landmark_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "count(scenario_type == ai_landmark)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "scenario_node_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson",
+        "proposal.md"
+      ],
+      "formula": "count(named concept station nodes: Pivot Light Hall, Rail Pivot Platform, Pivot Commons)",
+      "confidence": "medium",
+      "assumptions": [
+        "Three-node process count; public-space scenario modules and landmarks are not additional station nodes."
+      ]
+    },
+    "scenario_module_count": {
+      "status": "known",
+      "value": 8,
+      "unit": "count",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "count(public_space scenario modules + landmarks; distinct from the three named station nodes)",
+      "confidence": "medium",
+      "assumptions": []
+    },
+    "industry_test_scenario_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(industry test protocols T1..T3)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept process count; not a claim of existing operation."
+      ]
+    },
+    "persona_count": {
+      "status": "known",
+      "value": 8,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(differentiated public-interest user journeys)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept process count; not a claim of existing operation."
+      ]
+    },
+    "global_case_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "sources.json"
+      ],
+      "formula": "count(first-party mechanism cases)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept process count; not a claim of existing operation."
+      ]
+    },
+    "phase_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/phasing.geojson"
+      ],
+      "formula": "count(phasing polygons)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "annual_program_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(annual operating programs: applications, evaluation, review, handover)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept process count; not a claim of existing operation."
+      ]
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(structured AI scenario cards SC-01..SC-12)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept process count; not a claim of existing operation."
+      ]
+    }
+  },
+  "land_use_aggregation": {
+    "source_file": "geometry/land_use.geojson",
+    "feature_count": 25,
+    "class_count": 8,
+    "projection": "EPSG:4548",
+    "aggregation": "project each feature, union by land_use_code, then sum category unions",
+    "denominator_sqm": 11412461.481,
+    "rounding": "areas nearest 1 sqm; shares nearest 0.01%; displayed shares may total 100.00% within rounding",
+    "confidence": "low",
+    "use_limit": "conceptual allocation only; not a statutory land-use plan or official redline",
+    "classes": {
+      "0701": {"label_zh": "城镇住宅用地", "feature_count": 7, "area_sqm": 679101, "share": 0.059505},
+      "0802": {"label_zh": "科研用地", "feature_count": 1, "area_sqm": 1929202, "share": 0.169043},
+      "0803": {"label_zh": "文化用地", "feature_count": 2, "area_sqm": 21191, "share": 0.001857},
+      "0804": {"label_zh": "教育科研设计用地", "feature_count": 3, "area_sqm": 1274700, "share": 0.111694},
+      "0901": {"label_zh": "商业用地", "feature_count": 4, "area_sqm": 1791067, "share": 0.156940},
+      "0902": {"label_zh": "商务金融用地", "feature_count": 4, "area_sqm": 2611296, "share": 0.228811},
+      "1207": {"label_zh": "交通场站用地", "feature_count": 3, "area_sqm": 2047259, "share": 0.179388},
+      "1401": {"label_zh": "公园绿地", "feature_count": 1, "area_sqm": 1058646, "share": 0.092762}
+    }
+  },
+  "generated_at": "2026-08-31T00:00:00Z"
+}
