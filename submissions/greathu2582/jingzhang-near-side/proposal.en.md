@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Turn the last 300 metres outside the Jing-Zhang Heritage Park edge into the first asset of the Centennial Jing-Zhang AI Innovation Belt. This proposal uses reproducible geometry to show that the submitted area averages only 1,188 m wide (594 m half-width) and that 99.98% of it lies within 650 m of the inferred spine. The belt has no hinterland: it is all near-side. The concept organises land use, street network, public space and phasing into three rings measured from the park edge face (near side 0-300 m, seepage ring 300-500 m, link ring beyond 500 m), responds to all six agent tasks, and addresses the three positionings, five functions, three areas plus two wings, and long-term operations. All spatial conclusions are conceptual proposals and reference schemes, not statutory planning or implementation commitments; they must be recalculated as a whole when official data is published."
 tracks: ["ai-traffic-walkability", "youth-friendly-public-space", "robotics-autonomous-mobility"]
 scenarios: ["robot-delivery-low-speed", "ai-traffic-walkability", "ai-health-service-navigation", "ai-cultural-guide", "public-safety-operations-review", "enterprise-service-copilot"]
-iteration: "v1.4.0"
+iteration: "v1.5.0"
 ---
 
 # THE NEAR SIDE — The Last 300 Metres
@@ -486,12 +486,12 @@ The partition covers 100% of the submitted area (gap 0.0000 sqm, outside 0.0000 
 | 1207 | Urban road | 145.6 | 12.76% | [metric:land_use_area_1207_sqm] |
 | 1403 | Square | 84.5 | 7.41% | [metric:land_use_area_1403_sqm] |
 | 0904 | Other commercial | 81.0 | 7.10% | [metric:land_use_area_0904_sqm] |
-| 0804 | Medical | 60.0 | 5.26% | [metric:land_use_area_0804_sqm] |
+| 0804 | Education | 60.0 | 5.26% | [metric:land_use_area_0804_sqm] |
 | 0902 | Business/finance | 37.0 | 3.24% | [metric:land_use_area_0902_sqm] |
 | 0702 | Community facilities | 36.0 | 3.16% | [metric:land_use_area_0702_sqm] |
 | 0901 | Commercial | 30.0 | 2.63% | [metric:land_use_area_0901_sqm] |
 | 16 | Strategic reserve | 18.0 | 1.58% | [metric:land_use_area_16_sqm] |
-| 0803 | Education/research | 9.0 | 0.79% | [metric:land_use_area_0803_sqm] |
+| 0803 | Cultural | 9.0 | 0.79% | [metric:land_use_area_0803_sqm] |
 Total 1,141.3 ha (11.41 km2) across [metric:land_use_parcel_count] parcels; classification follows [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] and the boundary basis is documented in [source:HAIDIAN-BOUNDARY-CROSS-CHECK-20260814].
 
 ## References

@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "把京张遗址公园边界外的最后 300 米，做成百年京张 AI 创新带的第一资产。本方案用可复算的几何证明：提交范围平均宽度仅 1,188 米、半宽 594 米，99.98% 位于推定主脊 650 米以内——这条带没有腹地，它全部都是近端。概念以三环分带（近端带 0–300 米、渗透环 300–500 米、外联环 >500 米）组织用地、路网、公共空间与分期，回应六项智能体任务，覆盖三大定位、五大功能、三区两翼与长期运营。所有空间结论均为概念建议、参考方案，不替代法定规划，官方数据发布后整体重算。"
 tracks: ["ai-traffic-walkability", "youth-friendly-public-space", "robotics-autonomous-mobility"]
 scenarios: ["robot-delivery-low-speed", "ai-traffic-walkability", "ai-health-service-navigation", "ai-cultural-guide", "public-safety-operations-review", "enterprise-service-copilot"]
-iteration: "v1.4.0"
+iteration: "v1.5.0"
 ---
 
 # 京张近端 / THE NEAR SIDE —— 最后三百米
@@ -362,6 +362,8 @@ iteration: "v1.4.0"
 
 荣誉展示体系：每个近端单元设置「近端指标牌」，公开本单元的入口数、无障碍断点数、近端客厅开放时间、机器人让行记录与复测结果。整个绿脊沿线设置开发者贡献荣誉墙节点，每年由社区与专家共同评选并刻录贡献者信息。
 
+公共空间组件库：近端客厅、穿行广场、24 小时公共穿越通道、近端指标牌、机器人让行/停止接口五大组件的完整规格（适用空间、主要用户、开放/关闭规则、无障碍与人工路径、数据边界、关联 NU 单元/几何编号、分期）见 `public_space_component_library.md`。
+
 ## 更新项目清单、实施政策与分期计划
 
 下表全部项目对应 `geometry/phasing.geojson` 的三期范围 [data:geometry/phasing.geojson#PHASE_1] [depth:phasing_implementation]，并逐项写明失败时的退出条件——这是本方案对可实施性的核心承诺：一个项目可以失败，但不能无声地继续。
@@ -467,13 +469,13 @@ iteration: "v1.4.0"
 | 对重点区域开展精细化设计 | 重点区域详细设计 | 三区详设 + 近端单元台账样例 | NU-01…NU-33 |
 | 一带总体概念、命名体系、视觉识别和 Logo | 总体概念与命名体系（agent.1） | NEAR / SEEP / LINK、Logo 方向 | 三层命名 |
 | 不少于 10 张 AI 场景卡、3 个测试验证场景、5 类用户画像 | AI 创新生态、人才画像与 AI+ 场景 | 12 张卡、3 个测试场、8 类画像 | S01–S12、T1–T3 |
-| AI 公共空间、智能原生新业态与不少于 3 个 AI 朝圣地标 | AI 公共空间与朝圣地标（agent.4） | KM0 / 人字门 / 到站厅 | 3 处地标 |
+| AI 公共空间、智能原生新业态与不少于 3 个 AI 朝圣地标 | AI 公共空间与朝圣地标（agent.4） | KM0 / 人字门 / 到站厅 + 五大公共空间组件库 | 3 处地标 + 33 客厅 / 9 广场 / 33 通道 |
 | 百年京张文化、中关村文化与 AI 新文化融合叙事 | 融合叙事设计（agent.5） | 9 公里导览路线 | 三段叙事 |
 | 全球 AI 创新活动体系、开发者社区运营与长期品牌资产 | 长期运营设计（agent.6） | 三大年度活动、荣誉墙 | 年度机制 |
 | agent.1 一带总体概念与功能统筹 | 总体概念与命名体系、三大定位五功能 | 三区两翼协同回路 | 三大定位全覆盖 |
 | agent.2 AI 全栈自主创新体系与世界级生态 | 8 个全球案例、八要素机制 | 众智园、中关村翼 | 八要素 |
 | agent.3 AI+ 场景赋能新范式与活力城市 | 用户画像、场景卡、测试验证场景 | 12 卡 / 3 场 / 8 画像 | S01–S12 |
-| agent.4 AI 公共空间、智能原生新业态与朝圣地标 | 朝圣地标与荣誉展示体系 | 3 处地标 + 指标牌 | 3 处地标 |
+| agent.4 AI 公共空间、智能原生新业态与朝圣地标 | 朝圣地标 + 公共空间组件库 + 荣誉展示体系 | 3 处地标 + 指标牌 + 核心文件 `public_space_component_library.md` | 3 处地标 + 五大组件 |
 | agent.5 三种文化融合叙事 | 融合叙事设计 | 导览路线与导视 | 三段叙事 |
 | agent.6 全球 AI 创新活动体系与长期运营 | 长期运营设计 | 活动体系、场景开放 | 年度机制 |
 
@@ -489,12 +491,12 @@ iteration: "v1.4.0"
 | 1207 | 城镇道路用地 | 145.6 | 12.76% | [metric:land_use_area_1207_sqm] |
 | 1403 | 广场用地 | 84.5 | 7.41% | [metric:land_use_area_1403_sqm] |
 | 0904 | 其他商业服务业用地 | 81.0 | 7.10% | [metric:land_use_area_0904_sqm] |
-| 0804 | 医疗卫生用地 | 60.0 | 5.26% | [metric:land_use_area_0804_sqm] |
+| 0804 | 教育用地 | 60.0 | 5.26% | [metric:land_use_area_0804_sqm] |
 | 0902 | 商务金融用地 | 37.0 | 3.24% | [metric:land_use_area_0902_sqm] |
 | 0702 | 城镇社区服务设施用地 | 36.0 | 3.16% | [metric:land_use_area_0702_sqm] |
 | 0901 | 商业用地 | 30.0 | 2.63% | [metric:land_use_area_0901_sqm] |
 | 16 | 留白用地 | 18.0 | 1.58% | [metric:land_use_area_16_sqm] |
-| 0803 | 教育科研用地 | 9.0 | 0.79% | [metric:land_use_area_0803_sqm] |
+| 0803 | 文化用地 | 9.0 | 0.79% | [metric:land_use_area_0803_sqm] |
 合计 1,141.3 ha（11.41 km²），地块 [metric:land_use_parcel_count] 个；分类口径见 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]，边界口径见 [source:HAIDIAN-BOUNDARY-CROSS-CHECK-20260814]。
 
 ## 参考资料

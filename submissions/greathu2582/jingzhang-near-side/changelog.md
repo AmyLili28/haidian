@@ -2,6 +2,27 @@
 
 （English: changelog of proposal iterations）
 
+## v1.5.0 - 2026-08-31
+
+针对评审意见的 request-changes 结论做两项阻断性修复（任务书相关性 + 风险与合规意识分量不足）。
+
+**agent.4 公共空间组件库（任务书相关性）**
+
+- 新增 `public_space_component_library.md`，将 agent.4 由「三个朝圣地标」扩为完整的公共空间组件库，覆盖五大组件：近端客厅（`PUBLIC-NU-01`~`PUBLIC-NU-33`）、穿行广场（`PUBLIC-X-01`~`PUBLIC-X-09`）、24 小时公共穿越通道（`ROAD-PASS-001`~`ROAD-PASS-033`）、近端指标牌、机器人让行/停止接口。
+- 每个组件逐项给出评审要求的七个字段：适用空间、主要用户、开放/关闭规则、无障碍与人工路径、数据边界、关联 NU 单元/几何编号、分期。配套组件状态图例与几何要素对照附录。
+- 组件定义与 `geometry/public_space.geojson`、`geometry/roads.geojson`、`visual/assets/near_side_units.json` 保持一致，机器人接口分三期递进（物理标识 → 感知辅助 → 自主协作），24 小时通道保持零数据采集。
+
+**0803/0804 用地代码名称冲突（风险与合规意识）**
+
+- 依据北京市地方标准 DB11/T 996—2024《国土空间用地分类》核正用地代码正式名称：**0803 = 文化用地（Cultural）**，**0804 = 教育用地（Education）**。
+- 修正 `proposal.md`、`proposal.en.md` 附录 C 与 `metrics.json` 中 `0803_note_*`、`0804_note_*` 的名称标注（原误为「教育科研用地 / 医疗卫生用地」）。`land_use.geojson` 属性（`0803=文化用地`、`0804=教育用地`）与标准一致，无需改动。数值与公式不受影响，仅改描述性标签。
+
+**索引同步与清单一致性（本评审轮收尾）**
+
+- 将 `proposal.md`/`proposal.en.md` 迭代号升为 `v1.5.0`，与 changelog 与组件库脚注一致。
+- 在 `visual/index.html`、`visual/index.en.html` 的 agent.4 行补入公共空间组件库引用（此前仅正文、附录 B 与 report 版 HTML 已索引），使「正文、附录 B 与中英文可视成果」三处索引齐全。
+- 将渲染 HTML 落盘到 `report/proposal.html`、`report/proposal.en.html`、`visual/index.html`、`visual/index.en.html`，并按实际字节重建 `manifest.json` 中本地存在文件的 SHA-256（30/30 一致），`generated_at` 更新为 2026-08-31。
+
 ## v1.4.0 - 2026-08-30
 
 修复公共空间图层的拓扑重叠与面积口径不一致（A1–A4）。
