@@ -96,6 +96,14 @@
       "published_date": "2026-04-03",
       "publisher": "北京市科学技术委员会、中关村科技园区管理委员会",
       "usage": "Three areas two wings narrative and corridor concentration background."
+    },
+    {
+      "id": "FONT-NOTO-SANS-SC-OFL",
+      "path": "visual/assets/hmf-cjk.css",
+      "url": "https://github.com/google/fonts/blob/main/ofl/notosanssc/OFL.txt",
+      "source_type": "user_provided_cleared",
+      "publisher": "Google Fonts / Adobe (Noto Sans SC / Source Han Sans, SIL Open Font License 1.1)",
+      "usage": "Offline HTML CJK font subset embedded as local CSS (data URI woff2). SIL OFL 1.1 text is in the CSS header. No remote font load."
     }
   ]
 }

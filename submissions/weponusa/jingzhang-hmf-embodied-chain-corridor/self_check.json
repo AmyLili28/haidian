@@ -89,12 +89,13 @@
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/self_check.json",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/sources.json",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/standard_matrix.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/visual/assets/hmf-cjk.css",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor": "formal"
       },
-      "total_bytes": 26739288,
+      "total_bytes": 27565441,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -186,7 +187,7 @@
         "proposal_format_version": "1",
         "evidence_contract": "legacy-exhaustive-inline",
         "proposal_reference_counts": {
-          "source": 15,
+          "source": 16,
           "standard": 6,
           "depth": 15,
           "data": 18,

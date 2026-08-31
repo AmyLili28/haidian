@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>人机友好京张 · 电子展示</title>
+<link rel="stylesheet" href="assets/hmf-cjk.css"/>
 <style>
 :root { --ink:#0b1f33; --muted:#5b6b7c; --line:#d7e0ea; --paper:#f5f8fb; --blue:#1d4ed8; --amber:#b45309; --green:#047857; --spine:#0f766e; }
-* { box-sizing:border-box; } body { margin:0; font-family:"PingFang SC","Helvetica Neue",sans-serif; color:var(--ink); background:radial-gradient(1200px 600px at 10% -10%, #ccfbf1 0%, transparent 55%),linear-gradient(180deg,#eef3f8,var(--paper)); }
+* { box-sizing:border-box; } body, svg text { margin:0; font-family:"HMF CJK","Noto Sans CJK SC","PingFang SC","Helvetica Neue",sans-serif; }
+body { margin:0; color:var(--ink); background:radial-gradient(1200px 600px at 10% -10%, #ccfbf1 0%, transparent 55%),linear-gradient(180deg,#eef3f8,var(--paper)); }
 header { padding:28px 32px; background:#0b1f33; color:#f8fafc; } header h1 { margin:0 0 8px; font-size:28px; } header p { margin:0; color:#94a3b8; }
 .wrap { max-width:1180px; margin:0 auto; padding:24px; } .grid { display:grid; grid-template-columns:1.4fr .9fr; gap:18px; } .equal { grid-template-columns:repeat(2,1fr); }
 @media (max-width:900px) { .grid { grid-template-columns:1fr; } }
@@ -92,12 +94,15 @@ section { margin:18px 0; } ul { margin:8px 0 0 18px; color:var(--muted); } foote
 <p>v3.4 更名：标题与品牌统一为「人机友好京张」，停用「链廊」一词；空间对象改称共行主轴 / 共行带。</p>
 <p>v3.5 增补：京张人机友好十二时辰技术图，把分时共行写成一日十二条条款；并增补概念表现图 C-06 十二格场景效果图。</p>
 <p>v3.6 增补：三条现场验收门与五件可指认构件；过不了门就整段降级。</p>
-<p>v3.7 增补：人机友好导则转译为四阶段实施指导单与五友好现场验收；只转手续，不抄岛上场景。</p></section>
-<section class="grid"><div class="card"><h2>来源</h2><ul><li>OFFICIAL-ANNOUNCEMENT / AGENT-TASKBOOK / SITE-PACKAGE</li><li>SOURCE-REGISTRY / PROCESSED-FACT-PACK</li><li>CASE-FUXING-HMF-GUIDE / CASE-PENGUIN-WECITYX / INDUSTRY-PUBLIC-HAIDIAN-AI</li></ul></div>
+<p>v3.7 增补：人机友好导则转译为四阶段实施指导单与五友好现场验收；只转手续，不抄岛上场景。</p>
+<p>v3.8 修复：国际对照降格为方法联想；离线页嵌入 OFL 中文子集字体，不依赖本机中文字体。</p></section>
+<section class="grid"><div class="card"><h2>来源</h2><ul><li>OFFICIAL-ANNOUNCEMENT / AGENT-TASKBOOK / SITE-PACKAGE</li><li>SOURCE-REGISTRY / PROCESSED-FACT-PACK</li><li>CASE-FUXING-HMF-GUIDE / CASE-PENGUIN-WECITYX / INDUSTRY-PUBLIC-HAIDIAN-AI</li>
+<li>FONT-NOTO-SANS-SC-OFL</li></ul></div>
 <div class="card"><h2>假设</h2><ul><li>A-BOUNDARY-001：provisional 边界，官方红线后复算</li><li>A-HMF-PRINCIPLE-001：人的基本权利优先</li><li>A-HMF-STD-001：参数为案例方法转译</li><li>A-HMF-SPEED-001：非人行段速度待评估审批</li><li>A-HMF-BASELINE-001：人机友好专项指标基线均待测</li><li>A-DIGITAL-TWIN-001：数字孪生不等于全域个人监控</li><li>A-GEO-ALIGN-001：主轴为示意中心线，非实测线位</li><li>A-GEO-PRECISION-001：几何按 A/B/C/D 四级精度声明</li><li>A-FIG-CONCEPT-001：概念表现图为表现性绘制，按 C 级声明</li><li>A-FIG-DUALSET-001：技术校核图与概念表现图并存，前者为判据</li>
 <li>A-HMF-HOURS-001：十二时辰为概念分时表，须专项核定后才能试行</li>
 <li>A-HMF-GATES-001：三条验收门为概念试点手续，失败则整段降级</li>
-<li>A-HMF-PLAYBOOK-001：实施指导单只转译手续，不转译低空 / 专用道 / L4–L5 / 外地认证</li></ul></div></section>
+<li>A-HMF-PLAYBOOK-001：实施指导单只转译手续，不转译低空 / 专用道 / L4–L5 / 外地认证</li>
+<li>A-HMF-CASE-ASSOC-001：国际对照条已降格为作者方法联想，不作为外部项目证据</li></ul></div></section>
 </main>
 <footer>OPEN CITY · HAIDIAN · 署名：未来博士 wepon · submissions/weponusa/jingzhang-hmf-embodied-chain-corridor · offline static HTML · no CDN</footer>
 </body></html>

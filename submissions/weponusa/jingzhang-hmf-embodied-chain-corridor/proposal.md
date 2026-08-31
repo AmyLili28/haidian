@@ -7,7 +7,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "基于作者博士研究与《人工智能与未来城市》书稿中的人机友好空间方法，以及复兴岛导则与企鹅岛/WeCityX 工程经验的概念转译，以「人机友好京张」为总品牌，把京张遗址公园重塑为连接众智园、AI原点社区与大钟寺的人机友好共行带：以“空间适应性优先于机器能力迭代”为总原则，用流—场—网与点—线—面—流—策组织空间，用通用无障碍与可审计数字孪生双底座、H0–H3 分级共行、五景五友好与测试—入驻—研发产业路径，实现人优先的共行、共事、共治。"
 tracks: ["ai-traffic-walkability", "robotics-autonomous-mobility", "jingzhang-heritage-narrative"]
 scenarios: ["ai-traffic-walkability", "robot-delivery-low-speed", "ai-cultural-guide", "enterprise-service-copilot", "public-safety-operations-review", "ai-health-service-navigation"]
-iteration: "v3.7"
+iteration: "v3.8"
 ---
 
 # 人机友好京张：具身智能时代的共行、共事、共治城市设计概念方案
@@ -76,7 +76,7 @@ iteration: "v3.7"
 
 ### 机器进入城市后的真实困境（方法转译）
 
-书稿与工程现场反复遇到的，首先是空间断点，而不是“再缺一台更聪明的机器人”：进门难、上楼难、过坎难、找路难、充电难。一个两厘米门槛就能卡住末端配送；不连续光照与高反光铺装会抬高感知失败率；补能点稀疏则把服务半径锁死。国际机器人联合会等公开研究亦提示，专业服务机器人故障中相当部分与环境适配相关，而非本体缺陷。因此京张走廊若只做“设备投放 + 营销展示”，会把失败成本推给每一台机器与每一个企业；若先把断点普查、接口标准与共行规则做成公共底座，则同一套改造可被多品牌、多机型复用，产业才能从定制化走向可规模化 [source:METHOD-BOOK-FUTURE-CITY] [source:METHOD-THESIS-HMF]。
+书稿与工程现场反复遇到的，首先是空间断点，而不是“再缺一台更聪明的机器人”：进门难、上楼难、过坎难、找路难、充电难。一个两厘米门槛就能卡住末端配送；不连续光照与高反光铺装会抬高感知失败率；补能点稀疏则把服务半径锁死。因此京张走廊若只做“设备投放 + 营销展示”，会把失败成本推给每一台机器与每一个企业；若先把断点普查、接口标准与共行规则做成公共底座，则同一套改造可被多品牌、多机型复用，产业才能从定制化走向可规模化 [source:METHOD-BOOK-FUTURE-CITY] [source:METHOD-THESIS-HMF]。
 
 ### 概念用地结构快照（非正式控规）
 
@@ -130,18 +130,18 @@ Logo 图形：双轨线 + 低速行驶包络线构成“轨—共行—站”图
 
 **西翼科技服务机制**：组织算力、资本、知识产权、检测认证、法律伦理与国际化服务，重点支持安全评估、责任保险和标准输出，而非只做招商标签。**东翼场景赋能机制**：以小月河蓝绿界面和社区公共服务为场景接口，建立需求发布—伦理初筛—封闭验证—公众共创—有限开放—复盘退出流程 [data:geometry/constraints.geojson#CON-WTR-001]。
 
-### 方法来源案例与全球对照（8个）
+### 方法来源案例与机制联想
 
-下列案例分两类：前三项是作者可负责任转译的本地方法源；后五项是公开国际对照，只取机制启发。
+前三项是作者可负责任转译的方法源。后五项**不是已核验的外部项目事实**，只是作者从公开城市实践抽出的机制联想，用来对照京张“先底座、后投放”的顺序；不构成对樟宜、品川、King's Cross、Sidewalk 或云栖的成效、政策或数据采信 [source:METHOD-BOOK-FUTURE-CITY]。
 
 1. **企鹅岛 / WeCityX（深圳，方法源）**：把《人机友好空间设计导则》做成园区底层物理语言；中央绿脊共行；“干线高速编队 + 末梢低速共融”双模态（Mode B）相对均质混行（Mode A）做仿真比较，验证用干线效率置换末梢安全与慢行品质。京张取“绿脊主轴 + 分级共融”，不照搬园区内部车速与专用道宽度 [source:CASE-PENGUIN-WECITYX] [source:METHOD-THESIS-HMF]。
 2. **复兴岛示范区导则（上海，方法源）**：双底座、五景五友好、六类机器人；企业路径按测试展示→入驻孵化→研发创新推进；规划阶段做人机友好影响评估，运营阶段用近失与满意度闭环。京张取“三阶段产业门 + 全流程评估”，参数作概念底线 [source:CASE-FUXING-HMF-GUIDE]。
 3. **人机友好社区团体标准编制经验（方法源）**：把理念条款化为可验收指标与责任主体，防止停留在愿景文本。京张的五友好专项指标与 P0 公约直接继承这一“概念—指标—条款”融贯方式 [source:METHOD-THESIS-HMF]。
-4. **新加坡樟宜机场机器人友好建筑（对照）**：通道余量、亚光地面、电梯物联网接口等环境侧标准先于大规模投机器人——对应本方案“先底座后投放” [source:METHOD-BOOK-FUTURE-CITY]。
-5. **东京品川—田町机器人特区思路（对照）**：基础设施与标识先行，再谈开放道路共行——对应 P0 普查与 H2 试点顺序 [source:METHOD-BOOK-FUTURE-CITY]。
-6. **伦敦 King's Cross 铁路遗产复兴（对照）**：遗产缝合而非覆盖——对应清华园站纪念与 H0 文保静谧 [depth:blue_green_public_space]。
-7. **Sidewalk / Quayside 教训（对照）**：公共数据与公众同意失败会拖垮技术叙事——强制场景人工复核、数据最小化与退出权 [source:AGENT-TASKBOOK]。
-8. **杭州云栖式开发者社区运营（对照）**：会展 + 开源社区形成到来与沉淀——对应人机友好开放日与转化漏斗 [depth:phasing_implementation]。
+4. **环境先于设备（作者联想）**：若通道余量、地面反射控制与垂直交通接口先于投放，失败成本更低——对应“先底座后投放”。此条为方法联想，不是对某一机场的实测结论。
+5. **标识与基础设施先行（作者联想）**：开放道路共行前先完成普查、标识与封闭测试——对应 P0 与 H2 试点顺序。此条为方法联想，不是对某一特区的政策转述。
+6. **遗产缝合而非覆盖（作者联想）**：铁路遗产以纪念与慢行缝合，而不是被新功能覆盖——对应清华园站纪念与 H0 文保静谧 [depth:blue_green_public_space]。
+7. **公共数据须先有同意（作者联想）**：缺少公众同意的数据采集会拖垮技术叙事——强制场景人工复核、数据最小化与退出权 [source:AGENT-TASKBOOK]。
+8. **会展与社区共同沉淀（作者联想）**：开放日与开发者活动负责“到来”，协议与标准负责“沉淀”——对应人机友好开放日与转化漏斗 [depth:phasing_implementation]。
 
 ### 未来AI城市形态：从运行机制到京张空间转译
 
@@ -591,7 +591,7 @@ v2.0 曾直接采用生成式图件作为正式图，其中混入了正文并未
 
 当前主要数据缺口包括：官方红线与重点区精确 polygon、容积率/高度等控规条件、现状建筑与权属、市政管线与负荷、文保建设控制地带精确边界、慢行断点与共行断面达标率，以及无障碍连续率、机器身份合规、近失事件、人工接管、投诉与弱势群体体验基线。因此面积与比例仅为 provisional 复算参考，人机友好绩效只列测量框架；官方数据发布后须整体重算 [source:PROVISIONAL-BOUNDARIES-2026] [depth:risk_missing_data] [depth:metrics_recalculation]。底图若参考 OpenStreetMap，仅作背景对照并遵守 ODbL 署名 [source:OSM-COPYRIGHT]。
 
-版权方面，文本、几何、图件与离线 HTML 由人类作者**未来博士 wepon**（GitHub: weponusa）主导构思与审定，并由声明 AI agent（Cursor Grok 4.5）协作生成与同步。作者博士论文、书稿《人工智能与未来城市》中的理论框架与方法，以及复兴岛导则、企鹅岛/WeCityX 工程经验，均按方法转译进入本方案；不主张对腾讯、上海市相关项目成果或第三方商标的复制权利，也不把外部园区数据写成海淀已采信的法定结论。图件来源分两类并已在图面标注：`assets/figures/*.png` 为脚本从提交 GeoJSON 与 `metrics.json` 确定性渲染的技术校核图，可复现；`assets/figures/concept/*.webp` 为经 OpenRouter 调用 `openai/gpt-5.4-image-2` 生成、并按 v3.1 正文逐项校订的概念表现图，属表现性绘制，其中人物、建筑与街景均为示意，不对应真实个人、已建项目或现状测绘。署名作者对事实、引用与表达负责，完整证据链见 `sources.json`、`assumptions.json`、`self_check.json` 与 `report/copyright_statement.md`。
+版权方面，文本、几何、图件与离线 HTML 由人类作者**未来博士 wepon**（GitHub: weponusa）主导构思与审定，并由声明 AI agent（Cursor Grok 4.5）协作生成与同步。作者博士论文、书稿《人工智能与未来城市》中的理论框架与方法，以及复兴岛导则、企鹅岛/WeCityX 工程经验，均按方法转译进入本方案；不主张对腾讯、上海市相关项目成果或第三方商标的复制权利，也不把外部园区数据写成海淀已采信的法定结论。离线 HTML（`report/proposal.html`、`visual/index.html`）通过本地 `visual/assets/hmf-cjk.css` 嵌入 SIL OFL 1.1 的 Noto Sans SC / Source Han Sans 中文子集，不依赖 CDN 或本机中文字体，以便 Linux/Chrome 预览仍可读 [source:FONT-NOTO-SANS-SC-OFL]。图件来源分两类并已在图面标注：`assets/figures/*.png` 为脚本从提交 GeoJSON 与 `metrics.json` 确定性渲染的技术校核图，可复现；`assets/figures/concept/*.webp` 为经 OpenRouter 调用 `openai/gpt-5.4-image-2` 生成、并按 v3.1 正文逐项校订的概念表现图，属表现性绘制，其中人物、建筑与街景均为示意，不对应真实个人、已建项目或现状测绘。署名作者对事实、引用与表达负责，完整证据链见 `sources.json`、`assumptions.json`、`self_check.json` 与 `report/copyright_statement.md`。
 
 ## 参考资料
 
@@ -608,3 +608,5 @@ v2.0 曾直接采用生成式图件作为正式图，其中混入了正文并未
 11. 住建部城市设计管理办法、控规编制办法、建筑设计深度规定；自然资源部用地分类指南  
 12. OpenStreetMap Copyright / ODbL [source:OSM-COPYRIGHT]  
 13. 仓库 site-package、source_registry、public-brief、provisional_boundaries 与本方案 geometry/metrics 包 [source:PUBLIC-BRIEF]  
+14. 离线中文网页字体：Noto Sans SC / Source Han Sans 子集，SIL Open Font License 1.1 [source:FONT-NOTO-SANS-SC-OFL]  
+14. 离线中文字体：Noto Sans SC / Source Han Sans 子集，SIL Open Font License 1.1 [source:FONT-NOTO-SANS-SC-OFL]  

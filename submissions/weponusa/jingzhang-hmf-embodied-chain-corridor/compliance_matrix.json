@@ -1227,7 +1227,8 @@
         "A-DIGITAL-TWIN-001",
         "A-COUNT-001",
         "A-HMF-GATES-001",
-        "A-HMF-PLAYBOOK-001"
+        "A-HMF-PLAYBOOK-001",
+        "A-HMF-CASE-ASSOC-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
