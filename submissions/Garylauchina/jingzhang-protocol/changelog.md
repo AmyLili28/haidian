@@ -1,5 +1,15 @@
 # 方案迭代记录
 
+## v0.17 - 2026-08-31
+
+- Started from merged V0.16 PR #4313 (`review/intake-accepted`, final advisory 96/100, formal-review-ready and featured-candidate) while preserving that intake and advisory scoring are not Gallery publication, formal selection, adoption or implementation.
+- Added `FP01-REL00-DESK-REPLAY-001`, a real participant-side standard-library run over twelve synthetic cases: four positive contract transitions and eight injected fail-closed controls. The verifier derives each decision from inputs, checks the source-contract hash and preserves external evidence credit at zero.
+- Added a bilingual FP01 implementation-verdict page organized by the official feasibility focus—phase path, pilot areas, participating actors and indicators—then exposed the REL00 replay, stop rules and `0 / null / HOLD` boundary on the same page.
+- Added four narrowly scoped metrics, one assumption and full matrix/manifest links. The 4/4 and 8/8 values are design-time interface consistency, not field performance, H3 rehearsal, professional approval, security certification or public benefit.
+- Synchronized the merged PR #4313 process record across the Agent-participation assumption, compliance evidence and both offline exhibits; changed the juror path to four scales → REL00 replay → conditional delivery, rebuilt the V0.17 local CJK font disclosure, and removed the duplicate inner footer from A0 board 5.
+- Preserved every H0-H4 gate at 0/5, every external release at HOLD, and all named-party, real-baseline, verified-cost, professional-signoff, site-authorization and implementation fields at zero, null or unknown.
+- V0.17 is a local candidate only. No push, pull request, intake result or score is claimed for this package hash.
+
 ## v0.16.1 - 2026-08-31
 
 - Closed PR #4313's only blocking Review Agent finding: the final report regeneration had removed the submission-local CJK fallback stylesheet link from both `report/proposal.html` and `report/proposal.en.html`, while the paired visual exhibits still loaded the shared embedded font correctly.
