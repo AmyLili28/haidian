@@ -1248,39 +1248,60 @@
     "belt_name_zh": "京张智脉共生带",
     "belt_name_en": "Jingzhang Intelligence Pulse Symbiosis Belt",
     "figure_ref": "assets/figures/regional-synergy.png",
+    "non_commitment_disclaimer_zh": "下列协同关系为概念性主题与空间接口建议，不构成跨区实施承诺、投资安排或政府间协议。",
+    "non_commitment_disclaimer_en": "Synergy links are conceptual themes and spatial interfaces only; no cross-jurisdiction implementation, investment, or inter-government commitments are implied.",
     "synergy_nodes": [
-      {"node_id": "RS-001", "region_zh": "中关村 AI 原点社区", "region_en": "Beijing AI Origin Community", "direction_zh": "高校策源与开源协作", "spatial_anchor": "PROV-KEY-002"},
-      {"node_id": "RS-002", "region_zh": "众智园 AI 自主创新加速区", "region_en": "Zhongzhiyuan AI Innovation Acceleration Zone", "direction_zh": "全栈自主与安全治理", "spatial_anchor": "PROV-KEY-001"},
-      {"node_id": "RS-003", "region_zh": "大钟寺 AI 产业聚集区", "region_en": "Dazhongsi AI Industry Cluster", "direction_zh": "站城一体智能经济", "spatial_anchor": "PROV-KEY-003"},
-      {"node_id": "RS-004", "region_zh": "北纬社区", "region_en": "Beiwei Community Belt", "direction_zh": "居住—学习—创新复合", "spatial_anchor": "PUBLIC-001"},
-      {"node_id": "RS-005", "region_zh": "未来科学城", "region_en": "Future Science City", "direction_zh": "算力与硬科技测试", "spatial_anchor": "JZ-05"},
-      {"node_id": "RS-006", "region_zh": "怀柔科学城", "region_en": "Huairou Science City", "direction_zh": "大科学装置策源", "spatial_anchor": "scenario-01"},
-      {"node_id": "RS-007", "region_zh": "北京经开区", "region_en": "Beijing E-Town", "direction_zh": "智能制造场景落地", "spatial_anchor": "scenario-08"},
-      {"node_id": "RS-008", "region_zh": "京津冀协同", "region_en": "Beijing-Tianjin-Hebei Synergy", "direction_zh": "要素流动与活动传播", "spatial_anchor": "JZ-06"}
+      {"node_id": "RS-001", "region_zh": "中关村 AI 原点社区", "region_en": "Beijing AI Origin Community", "themes": ["开源协作", "近校转化"], "inputs": ["高校论文与开源仓库", "开发者社区"], "outputs": ["开源发布周", "成果转化驿站"], "spatial_interface": "geometry/key_areas.geojson#PROV-KEY-002", "participants": ["高校", "园区运营", "开发者"], "direction_zh": "高校策源与开源协作", "spatial_anchor": "PROV-KEY-002"},
+      {"node_id": "RS-002", "region_zh": "众智园 AI 自主创新加速区", "region_en": "Zhongzhiyuan AI Innovation Acceleration Zone", "themes": ["全栈自主", "安全治理"], "inputs": ["标准草案", "评测数据集"], "outputs": ["安全沙盒廊", "清河界面展示"], "spatial_interface": "geometry/key_areas.geojson#PROV-KEY-001", "participants": ["企业", "标准组织", "园区"], "direction_zh": "全栈自主与安全治理", "spatial_anchor": "PROV-KEY-001"},
+      {"node_id": "RS-003", "region_zh": "大钟寺 AI 产业聚集区", "region_en": "Dazhongsi AI Industry Cluster", "themes": ["站城一体", "数据要素"], "inputs": ["智能终端", "路演内容"], "outputs": ["国际路演客厅", "四象限连通"], "spatial_interface": "geometry/key_areas.geojson#PROV-KEY-003", "participants": ["轨道运营", "企业", "活动品牌方"], "direction_zh": "站城一体智能经济", "spatial_anchor": "PROV-KEY-003"},
+      {"node_id": "RS-004", "region_zh": "北纬社区", "region_en": "Beiwei Community Belt", "themes": ["居住—学习—创新复合"], "inputs": ["社区需求清单", "公共服务数据"], "outputs": ["AI 生活服务样板街", "低扰动更新"], "spatial_interface": "geometry/public_space.geojson#PUBLIC-001", "participants": ["街道", "社区", "服务商"], "direction_zh": "居住—学习—创新复合", "spatial_anchor": "PUBLIC-001"},
+      {"node_id": "RS-005", "region_zh": "未来科学城", "region_en": "Future Science City", "themes": ["算力", "硬科技测试"], "inputs": ["模型权重", "测试任务"], "outputs": ["端侧算力驿站", "红队测试联动"], "spatial_interface": "JZ-05 / geometry/constraints.geojson#CONSTRAINTS-001", "participants": ["算力运营", "企业", "新基建联合体"], "direction_zh": "算力与硬科技测试", "spatial_anchor": "JZ-05"},
+      {"node_id": "RS-006", "region_zh": "怀柔科学城", "region_en": "Huairou Science City", "themes": ["大科学装置策源"], "inputs": ["科研成果", "国际嘉宾"], "outputs": ["成果发布叙事", "秋季路演季"], "spatial_interface": "scenario-01 / PSC-05", "participants": ["科研机构", "活动运营"], "direction_zh": "大科学装置策源", "spatial_anchor": "scenario-01"},
+      {"node_id": "RS-007", "region_zh": "北京经开区", "region_en": "Beijing E-Town", "themes": ["智能制造", "要素流通"], "inputs": ["终端样机", "数据合规方案"], "outputs": ["数据要素会客厅", "场景展示"], "spatial_interface": "scenario-08 / PSC-05", "participants": ["制造企业", "要素平台"], "direction_zh": "智能制造场景落地", "spatial_anchor": "scenario-08"},
+      {"node_id": "RS-008", "region_zh": "京津冀协同", "region_en": "Beijing-Tianjin-Hebei Synergy", "themes": ["要素流动", "活动传播"], "inputs": ["开发者", "路演内容"], "outputs": ["全球 AI 活动周路线", "冬令营"], "spatial_interface": "JZ-06 / geometry/phasing.geojson#PHASE-001", "participants": ["活动品牌", "交通与公共空间运营"], "direction_zh": "要素流动与活动传播", "spatial_anchor": "JZ-06"}
+    ]
+  },
+  "honor_display_system": {
+    "system_name_zh": "京张智脉荣誉展示体系",
+    "system_name_en": "JZ Pulse Honor Display System",
+    "displays": [
+      {"display_id": "HD-01", "type": "铁路文脉", "name_zh": "京张 AI 记忆站", "name_en": "JZ AI Memory Station", "space": "清华园火车站节点", "feature_ids": ["GREEN-001"], "component_ref": "PSC-06", "content": "铁路时间轴、开源贡献墙", "privacy_boundary": "不采集个人行为轨迹", "clearance": "历史影像与标识须清权"},
+      {"display_id": "HD-02", "type": "治理展示", "name_zh": "安全治理沙盒廊", "name_en": "Safety Governance Sandbox Corridor", "space": "众智园 GREEN-001", "feature_ids": ["GREEN-001"], "component_ref": "PSC-03", "content": "标准制定、可信评测案例", "privacy_boundary": "测试数据脱敏后展示", "clearance": "企业案例须授权"},
+      {"display_id": "HD-03", "type": "国际发布", "name_zh": "全球 AI 路演客厅", "name_en": "Global AI Roadshow Lounge", "space": "大钟寺 PUBLIC-001", "feature_ids": ["PUBLIC-001"], "component_ref": "PSC-05", "content": "智能体、终端、内容消费发布", "privacy_boundary": "不展示未授权商业数据", "clearance": "企业标识须清权"},
+      {"display_id": "HD-04", "type": "社区荣誉", "name_zh": "开源贡献积分墙", "name_en": "Open-Source Honor Wall", "space": "原点社区 PUBLIC-001", "feature_ids": ["PUBLIC-001"], "component_ref": "PSC-02", "content": "聚合贡献统计、项目徽章", "privacy_boundary": "仅授权贡献与聚合统计", "clearance": "个人头像默认不展示"}
     ]
   },
   "component_library": {
     "library_name_zh": "京张智脉公共空间组件库",
     "library_name_en": "JZ Pulse Public Space Component Library",
     "components": [
-      {"component_id": "PSC-01", "name_zh": "慢行断点诊断节点", "name_en": "Slow-Mobility Gap Diagnostic Node", "geojson_ref": "geometry/roads.geojson#ROAD-001"},
-      {"component_id": "PSC-02", "name_zh": "开源贡献荣誉墙", "name_en": "Open-Source Honor Wall", "geojson_ref": "geometry/public_space.geojson#PUBLIC-001"},
-      {"component_id": "PSC-03", "name_zh": "安全治理沙盒廊", "name_en": "Safety Governance Sandbox Corridor", "geojson_ref": "geometry/green_space.geojson#GREEN-001"},
-      {"component_id": "PSC-04", "name_zh": "端侧算力驿站", "name_en": "Edge Compute Service Kiosk", "geojson_ref": "geometry/constraints.geojson#CONSTRAINTS-001"},
-      {"component_id": "PSC-05", "name_zh": "国际路演客厅", "name_en": "Global AI Roadshow Lounge", "geojson_ref": "geometry/public_space.geojson#PUBLIC-001"},
-      {"component_id": "PSC-06", "name_zh": "京张记忆站导视", "name_en": "JZ Heritage Memory Station Wayfinding", "geojson_ref": "geometry/green_space.geojson#GREEN-001"},
-      {"component_id": "PSC-07", "name_zh": "蓝绿海绵复合带", "name_en": "Blue-Green Sponge Composite Belt", "geojson_ref": "geometry/green_space.geojson#GREEN-001"},
-      {"component_id": "PSC-08", "name_zh": "场景开放日模块", "name_en": "Scenario Open-Day Module", "geojson_ref": "geometry/phasing.geojson#PHASE-001"}
+      {"component_id": "PSC-01", "name_zh": "慢行断点诊断节点", "name_en": "Slow-Mobility Gap Diagnostic Node", "type": "传感+导视", "space_type": "慢行节点/桥下空间", "primary_users": ["步行者", "维护人员"], "ai_function": "公开路网+影像差分识别断点候选，人工复核后生成工单", "non_digital_fallback": "纸质导视牌+人工巡检台账+季度步行审计", "data_bounds": "不采集个人轨迹；仅聚合断点计数", "operations": "夏季开放日试点后季度校准", "dependencies": ["JZ-01", "ROAD-001"], "feature_ids": ["ROAD-001"], "geojson_ref": "geometry/roads.geojson#ROAD-001"},
+      {"component_id": "PSC-02", "name_zh": "开源贡献荣誉墙", "name_en": "Open-Source Honor Wall", "type": "荣誉展示", "space_type": "公共客厅/廊道", "primary_users": ["开发者", "访客"], "ai_function": "聚合 Git 贡献统计生成徽章墙（授权仓库）", "non_digital_fallback": "静态徽章板+季度手工更新", "data_bounds": "仅展示授权仓库聚合统计", "operations": "春季发布周更新+人工复核", "dependencies": ["JZ-03", "HD-04"], "feature_ids": ["PUBLIC-001"], "geojson_ref": "geometry/public_space.geojson#PUBLIC-001"},
+      {"component_id": "PSC-03", "name_zh": "安全治理沙盒廊", "name_en": "Safety Governance Sandbox Corridor", "type": "展览+工作坊", "space_type": "蓝绿廊道", "primary_users": ["企业", "标准组织", "公众"], "ai_function": "脱敏案例展示+可信评测结果可视化", "non_digital_fallback": "展板+工作坊日程表", "data_bounds": "测试数据脱敏；不展示原始日志", "operations": "秋季复盘+案例轮换", "dependencies": ["JZ-02", "HD-02"], "feature_ids": ["GREEN-001"], "geojson_ref": "geometry/green_space.geojson#GREEN-001"},
+      {"component_id": "PSC-04", "name_zh": "端侧算力驿站", "name_en": "Edge Compute Service Kiosk", "type": "微基建", "space_type": "公共服务节点", "primary_users": ["开发者", "游客", "维护人员"], "ai_function": "端侧推理服务+能耗监测（不存储用户内容）", "non_digital_fallback": "信息亭+纸质服务指南", "data_bounds": "不持久化用户输入；仅服务日志", "operations": "夏季试点 KPI 达标后扩容", "dependencies": ["JZ-05", "RS-005"], "feature_ids": ["CONSTRAINTS-001"], "geojson_ref": "geometry/constraints.geojson#CONSTRAINTS-001"},
+      {"component_id": "PSC-05", "name_zh": "国际路演客厅", "name_en": "Global AI Roadshow Lounge", "type": "活动场地", "space_type": "站城客厅", "primary_users": ["企业", "投资人", "公众"], "ai_function": "多语字幕+内容合规预检（人工终审）", "non_digital_fallback": "固定座椅+投影+人工同传", "data_bounds": "路演材料须清权；不直播未授权内容", "operations": "秋季高峰季+冬季总结", "dependencies": ["JZ-04", "JZ-06", "HD-03"], "feature_ids": ["PUBLIC-001"], "geojson_ref": "geometry/public_space.geojson#PUBLIC-001"},
+      {"component_id": "PSC-06", "name_zh": "京张记忆站导视", "name_en": "JZ Heritage Memory Station Wayfinding", "type": "遗产导视", "space_type": "铁路遗址节点", "primary_users": ["游客", "学生", "访客"], "ai_function": "多语导览脚本生成（内容人工审核）", "non_digital_fallback": "双语导视牌+时间轴展板", "data_bounds": "不采集访客身份", "operations": "全年维护；春季内容更新", "dependencies": ["JZ-01", "HD-01"], "feature_ids": ["GREEN-001"], "geojson_ref": "geometry/green_space.geojson#GREEN-001"},
+      {"component_id": "PSC-07", "name_zh": "蓝绿海绵复合带", "name_en": "Blue-Green Sponge Composite Belt", "type": "景观基建", "space_type": "蓝绿走廊", "primary_users": ["居民", "运动者"], "ai_function": "海绵设施运行监测（聚合水位/径流）", "non_digital_fallback": "人工巡检+雨量计读数", "data_bounds": "仅设施运行数据；不含个人位置", "operations": "雨季加密巡检", "dependencies": ["JZ-02", "GREEN-001"], "feature_ids": ["GREEN-001"], "geojson_ref": "geometry/green_space.geojson#GREEN-001"},
+      {"component_id": "PSC-08", "name_zh": "场景开放日模块", "name_en": "Scenario Open-Day Module", "type": "快闪运营", "space_type": "可移动模块", "primary_users": ["开发者", "家庭", "游客"], "ai_function": "场景体验预约+容量管理", "non_digital_fallback": "现场报名+人工计数", "data_bounds": "预约信息最小化；活动结束删除", "operations": "夏季开放日周循环", "dependencies": ["JZ-06", "PHASE-001"], "feature_ids": ["PHASE-001"], "geojson_ref": "geometry/phasing.geojson#PHASE-001"}
     ]
   },
   "operational_governance": {
-    "governance_model_zh": "项目—季节—运营主体三维治理矩阵",
+    "governance_model_zh": "项目—季节—运营主体—KPI—退出 五维治理矩阵",
     "figure_ref": "assets/figures/logo-naming-direction.png",
+    "non_commitment_disclaimer_zh": "运营主体、资金与审批路径为概念建议；KPI 与阈值为设计阶段目标，不构成合同或政府承诺。",
     "seasons": [
       {"season_id": "SPRING", "name_zh": "春季开源发布周", "name_en": "Spring Open-Source Release Week"},
       {"season_id": "SUMMER", "name_zh": "夏季 AI 场景开放日", "name_en": "Summer AI Scenario Open Days"},
       {"season_id": "AUTUMN", "name_zh": "秋季国际路演季", "name_en": "Autumn Global Roadshow Season"},
       {"season_id": "WINTER", "name_zh": "冬季开发者冬令营", "name_en": "Winter Developer Bootcamp"}
+    ],
+    "projects": [
+      {"project_id": "JZ-01", "name_zh": "京张遗址公园慢行断点缝合", "owner_role": "公共空间运营联合体", "season_actions": {"spring": "prep", "summer": "pilot", "autumn": "review", "winter": "maintain"}, "kpis": ["断点闭合率≥80%", "试点步行满意度≥4.0/5"], "thresholds": {"pilot_min_walk_audits": 4, "max_unresolved_gaps": 2}, "exit_criteria": "连续两季 KPI 达标后转入维护；未达标则缩小试点范围或暂停数字诊断"},
+      {"project_id": "JZ-02", "name_zh": "众智园清河创新界面", "owner_role": "园区公共环境运营", "season_actions": {"spring": "design", "summer": "build", "autumn": "launch", "winter": "maintain"}, "kpis": ["清河界面可达性改善", "蓝绿海绵设施正常运行率≥95%"], "thresholds": {"design_signoff_required": true}, "exit_criteria": "建设完成后进入维护；若防洪/蓝线条件不满足则暂停建设"},
+      {"project_id": "JZ-03", "name_zh": "原点社区近校成果转化街", "owner_role": "高校—园区联合运营", "season_actions": {"spring": "launch", "summer": "operate", "autumn": "roadshow", "winter": "bootcamp"}, "kpis": ["季度路演场次≥6", "授权开源仓库展示≥20"], "thresholds": {"min_authorized_repos": 10}, "exit_criteria": "运营主体变更或清权失败时下架荣誉墙内容"},
+      {"project_id": "JZ-04", "name_zh": "大钟寺站四象限步行连通", "owner_role": "站城一体运营", "season_actions": {"spring": "design", "summer": "pilot", "autumn": "launch", "winter": "maintain"}, "kpis": ["高峰时段步行连通成功率≥90%"], "thresholds": {"pilot_days_min": 10}, "exit_criteria": "轨道/市政条件未确认前不得进入建设阶段"},
+      {"project_id": "JZ-05", "name_zh": "AI公共服务与端侧算力节点", "owner_role": "新基建与公服联合体", "season_actions": {"spring": "prep", "summer": "pilot", "autumn": "review", "winter": "operate"}, "kpis": ["端侧服务可用率≥99%", "单节点能耗可监测"], "thresholds": {"max_daily_requests": 5000}, "exit_criteria": "能耗或安全审计未通过则下线数字服务，保留信息亭"},
+      {"project_id": "JZ-06", "name_zh": "全球AI活动周公共路线", "owner_role": "活动品牌运营", "season_actions": {"spring": "launch", "summer": "operate", "autumn": "peak", "winter": "wrap"}, "kpis": ["活动周参与人次", "路线安全零重大事故"], "thresholds": {"max_daily_capacity": 3000}, "exit_criteria": "活动许可未获批则改为室内/线上模式；不强制占用公共空间"}
     ],
     "project_matrix": [
       {"project_id": "JZ-01", "spring": "prep", "summer": "pilot", "autumn": "review", "winter": "maintain"},

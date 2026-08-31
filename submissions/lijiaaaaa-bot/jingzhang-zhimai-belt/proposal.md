@@ -191,6 +191,10 @@ agent 生成的AI治理建议必须遵守数据最小化、公开来源、可解
 
 指标复算深度由 [depth:metrics_recalculation] 管理。本方案正文显式引用 [metric:site_area_sqm]、[metric:overall_design_area_sqm]、[metric:coordinated_research_area_sqm]、[metric:key_detailed_design_area_sqm]、[metric:zhongzhiyuan_ai_acceleration_area_sqm]、[metric:beijing_ai_origin_community_area_sqm]、[metric:dazhongsi_ai_industry_cluster_area_sqm]、[metric:key_area_count]、[metric:land_use_feature_count]、[metric:building_feature_count]、[metric:road_feature_count]、[metric:building_footprint_area_sqm]、[metric:green_space_area_sqm]、[metric:public_space_area_sqm]、[metric:green_ratio]、[metric:public_space_ratio]、[metric:phase_001_area_sqm]、[metric:phase_002_area_sqm]、[metric:phase_003_area_sqm]、[metric:phase_1_area_sqm]，并说明这些值来自 [data:geometry/site_boundary.geojson#SITE-001]、[data:geometry/key_areas.geojson#PROV-KEY-001]、[data:geometry/buildings.geojson#BLDG-001]、[data:geometry/green_space.geojson#GREEN-001]、[data:geometry/public_space.geojson#PUBLIC-001]、[data:geometry/land_use.geojson#LU-001]、[data:geometry/roads.geojson#ROAD-001] 和 [data:geometry/phasing.geojson#PHASE-001]。
 
+**重点区域面积口径**：包内 canonical 值为 **369.268 ha**（`key_detailed_design_area_ha`，EPSG:4548 复算三片 polygon 之和）；公告文字约 **368.4 ha**（192.1+104.3+72.0）。差异来自 provisional polygon 精度，正式红线发布后须重算。`phase_1_area_sqm` 为 legacy alias，等同 `phase_001_area_sqm`（近期试点 PHASE-001）；PHASE-001/002/003 为递进实施范围，polygon **可能空间重叠**，面积**不得**跨阶段简单求和。
+
+**绿面/公空比例口径**：`green_ratio`（0.152）与 `public_space_ratio`（0.176）为设计图层复算比，**非**审定控规绿地率或公空率 [assumption:A-CONTROLS-001]。
+
 ![核心指标复算与证据链图](assets/figures/metrics-evidence.png)
 
 合规矩阵是任务响应性的主控文件。每条公告任务和 agent_taskbook 任务必须对应到报告章节、图层、指标、图纸、HTML 页面、来源、假设和自检项。未能覆盖公告 1.3、1.4、1.5 或 agent.1-agent.6 的任一必选任务，方案不得进入 formal professional scoring。
@@ -245,26 +249,24 @@ agent 生成的AI治理建议必须遵守数据最小化、公开来源、可解
 
 ![Logo 与命名方向示意](assets/figures/logo-naming-direction.png)
 
-主色：深蓝 `#172235`、京张金 `#c79838`、AI 紫 `#4f46e5`。Logo 方向为「铁路轨枕 × 神经网络节点 × 慢行环」抽象组合，强调历史文脉与 AI 原生协作的共生关系 [depth:overall_spatial_structure]。
+主色：深蓝 `#172235`、京张金 `#c79838`、AI 紫 `#4f46e5`。Logo 方向为「铁路轨枕 × 神经网络节点 × 慢行环」抽象组合，强调历史文脉与 AI 原生协作的共生关系 [depth:overall_spatial_structure]。识别层级区分：**带级 Logo**（智脉带总品牌）、**导视系统**（慢行脊/三核指向）、**活动子品牌**（全球 AI 活动周独立色块与标识），见图 `logo-naming-direction.png`。
 
 ### 区域创新协同
 
-方案与北纬社区、未来科学城、怀柔科学城、北京经开区及京津冀形成创新协同回路；机制为概念建议，不构成跨区实施承诺。
+方案与北纬社区、未来科学城、怀柔科学城、北京经开区及京津冀形成创新协同回路；机制为概念建议，**不构成跨区实施承诺、投资安排或政府间协议**。完整节点定义见 `compliance_matrix.json#regional_synergy`（RS-001 至 RS-008），含 themes、inputs/outputs、spatial_interface、participants 与 disclaimer 字段。
 
 ![区域创新协同关系图](assets/figures/regional-synergy.png)
 
-| 协同节点 | 方向 | 空间/项目锚点 | 机制摘要 |
-| --- | --- | --- | --- |
-| 中关村 AI 原点社区 | 高校策源与开源协作 | [data:geometry/key_areas.geojson#PROV-KEY-002] | 近校转化、开源发布周、开发者社区 |
-| 众智园加速区 | 全栈自主与安全治理 | [data:geometry/key_areas.geojson#PROV-KEY-001] | 标准工作坊、安全沙盒、清河界面 |
-| 大钟寺聚集区 | 站城一体智能经济 | [data:geometry/key_areas.geojson#PROV-KEY-003] | 四象限连通、数据要素、国际路演 |
-| 北纬社区 | 居住—学习—创新复合 | [data:geometry/public_space.geojson#PUBLIC-001] | AI 生活服务样板街、低扰动更新 |
-| 未来科学城 | 算力与硬科技测试 | JZ-05 | 端侧算力驿站、模型红队测试联动 |
-| 怀柔科学城 | 大科学装置策源 | 场景 01 开源发布厅 | 成果发布、国际路演季叙事 |
-| 北京经开区 | 智能制造场景落地 | 场景 08 数据要素会客厅 | 智能终端展示、要素流通界面 |
-| 京津冀协同 | 要素流动与活动传播 | JZ-06 | 全球 AI 活动周路线、开发者冬令营 |
-
-完整节点定义见 `compliance_matrix.json#regional_synergy`（RS-001 至 RS-008）。
+| 协同节点 | 主题 | 输入 | 输出 | 空间/项目锚点 | 参与方 |
+| --- | --- | --- | --- | --- | --- |
+| 中关村 AI 原点社区 | 开源协作 | 高校成果 | 开源发布周 | [data:geometry/key_areas.geojson#PROV-KEY-002] | 高校、园区 |
+| 众智园加速区 | 安全治理 | 标准草案 | 沙盒廊 | [data:geometry/key_areas.geojson#PROV-KEY-001] | 企业、标准组织 |
+| 大钟寺聚集区 | 站城一体 | 路演内容 | 国际路演客厅 | [data:geometry/key_areas.geojson#PROV-KEY-003] | 轨道、企业 |
+| 北纬社区 | 居住创新复合 | 社区需求 | 生活服务样板 | [data:geometry/public_space.geojson#PUBLIC-001] | 街道、社区 |
+| 未来科学城 | 算力测试 | 模型任务 | 端侧算力驿站 | JZ-05 | 算力运营 |
+| 怀柔科学城 | 大科学策源 | 科研成果 | 路演季叙事 | 场景 01 | 科研机构 |
+| 北京经开区 | 智能制造 | 终端样机 | 要素会客厅 | 场景 08 | 制造企业 |
+| 京津冀协同 | 活动传播 | 开发者 | 活动周路线 | JZ-06 | 活动品牌方 |
 
 ### 荣誉展示体系（Honor Display System）
 
@@ -277,35 +279,48 @@ agent 生成的AI治理建议必须遵守数据最小化、公开来源、可解
 | 国际发布 | 全球 AI 路演客厅 | 大钟寺 PUBLIC-001 | 智能体、终端、内容消费发布 | 企业标识须清权 |
 | 社区荣誉 | 开源贡献积分墙 | 原点社区 PUBLIC-001 | 聚合贡献统计、项目徽章 | 仅授权贡献与聚合统计 |
 
-荣誉展示组件纳入 `compliance_matrix.json#component_library`（PSC-02、PSC-06），与 [depth:blue_green_public_space] 校核。
+荣誉展示组件纳入 `compliance_matrix.json#component_library`（PSC-02、PSC-06）与 `#honor_display_system`（HD-01 至 HD-04），与 [depth:blue_green_public_space] 校核。
 
 ### 公共空间组件库（Public Space Component Library）
 
-`compliance_matrix.json#component_library` 定义 8 类可复用公共空间组件，覆盖导视、荣誉、沙盒、算力、路演、遗产、蓝绿与活动模块：
+`compliance_matrix.json#component_library` 定义 8 类可复用公共空间组件。每类组件含 **type、space_type、primary_users、ai_function、non_digital_fallback、data_bounds、operations、dependencies、feature_ids** 九项运营字段：
 
-| 组件 ID | 名称 | 类型 | GeoJSON 锚点 |
-| --- | --- | --- | --- |
-| PSC-01 | 慢行断点诊断节点 | 传感+导视 | [data:geometry/roads.geojson#ROAD-001] |
-| PSC-02 | 开源贡献荣誉墙 | 荣誉展示 | [data:geometry/public_space.geojson#PUBLIC-001] |
-| PSC-03 | 安全治理沙盒廊 | 展览+工作坊 | [data:geometry/green_space.geojson#GREEN-001] |
-| PSC-04 | 端侧算力驿站 | 微基建 | [data:geometry/constraints.geojson#CONSTRAINTS-001] |
-| PSC-05 | 国际路演客厅 | 活动场地 | [data:geometry/public_space.geojson#PUBLIC-001] |
-| PSC-06 | 京张记忆站导视 | 遗产导视 | [data:geometry/green_space.geojson#GREEN-001] |
-| PSC-07 | 蓝绿海绵复合带 | 景观基建 | [data:geometry/green_space.geojson#GREEN-001] |
-| PSC-08 | 场景开放日模块 | 快闪运营 | [data:geometry/phasing.geojson#PHASE-001] |
+| 组件 ID | 名称 | AI 功能摘要 | 非数字兜底 | 数据边界 |
+| --- | --- | --- | --- | --- |
+| PSC-01 | 慢行断点诊断节点 | 公开路网差分+人工复核 | 纸质导视+巡检台账 | 不采集个人轨迹 |
+| PSC-02 | 开源贡献荣誉墙 | 授权仓库聚合徽章 | 静态徽章板 | 仅聚合统计 |
+| PSC-03 | 安全治理沙盒廊 | 脱敏案例可视化 | 展板+工作坊 | 测试数据脱敏 |
+| PSC-04 | 端侧算力驿站 | 端侧推理+能耗监测 | 信息亭+纸质指南 | 不持久化用户输入 |
+| PSC-05 | 国际路演客厅 | 多语字幕+合规预检 | 投影+人工同传 | 材料须清权 |
+| PSC-06 | 京张记忆站导视 | 多语导览脚本（人工审核） | 双语导视牌 | 不采集访客身份 |
+| PSC-07 | 蓝绿海绵复合带 | 海绵设施聚合监测 | 人工巡检+雨量计 | 仅设施运行数据 |
+| PSC-08 | 场景开放日模块 | 预约+容量管理 | 现场报名+人工计数 | 预约信息最小化 |
+
+GeoJSON 锚点见上表 `geojson_ref` 字段及 [data:geometry/public_space.geojson#PUBLIC-001]、[data:geometry/green_space.geojson#GREEN-001]、[data:geometry/roads.geojson#ROAD-001]。
 
 ### 运营治理矩阵（JZ-01–06 × 四季活动）
 
-`compliance_matrix.json#operational_governance` 将 6 项更新项目与四季活动交叉映射：
+`compliance_matrix.json#operational_governance` 将 6 项更新项目与四季活动交叉映射，并定义 **owner_role、KPI、thresholds、exit_criteria**：
 
-| 项目 | 春季 | 夏季 | 秋季 | 冬季 | 运营主体（概念） |
-| --- | --- | --- | --- | --- | --- |
-| JZ-01 慢行断点缝合 | 筹备 | 试点 | 复盘 | 维护 | 公共空间运营联合体 |
-| JZ-02 清河创新界面 | 方案 | 建设 | 发布 | 维护 | 园区公共环境运营 |
-| JZ-03 近校转化街 | 发布 | 运营 | 路演 | 冬令营 | 高校—园区联合运营 |
-| JZ-04 四象限连通 | 方案 | 试点 | 发布 | 维护 | 站城一体运营 |
-| JZ-05 端侧算力节点 | 筹备 | 试点 | 复盘 | 运营 | 新基建与公服联合体 |
-| JZ-06 活动周路线 | 发布 | 运营 | 高峰 | 总结 | 活动品牌运营 |
+| 项目 | 运营主体 | 核心 KPI | 启动阈值 | 退出/降级 |
+| --- | --- | --- | --- | --- |
+| JZ-01 慢行断点缝合 | 公共空间运营联合体 | 断点闭合率≥80% | 夏季试点≥4 次步行审计 | KPI 连续两季不达标则暂停数字诊断 |
+| JZ-02 清河创新界面 | 园区公共环境运营 | 海绵设施正常率≥95% | 设计方案签认 | 防洪/蓝线不满足则暂停建设 |
+| JZ-03 近校转化街 | 高校—园区联合运营 | 季度路演≥6 场 | 授权仓库≥10 个 | 清权失败则下架荣誉墙 |
+| JZ-04 四象限连通 | 站城一体运营 | 高峰连通成功率≥90% | 试点≥10 天 | 轨道/市政未确认不得建设 |
+| JZ-05 端侧算力节点 | 新基建与公服联合体 | 服务可用率≥99% | 日请求≤5000 | 安全审计未通过则下线数字服务 |
+| JZ-06 活动周路线 | 活动品牌运营 | 零重大安全事故 | 日容量≤3000 人 | 许可未批则改室内/线上 |
+
+四季活动季节矩阵：
+
+| 项目 | 春季 | 夏季 | 秋季 | 冬季 |
+| --- | --- | --- | --- | --- |
+| JZ-01 慢行断点缝合 | 筹备 | 试点 | 复盘 | 维护 |
+| JZ-02 清河创新界面 | 方案 | 建设 | 发布 | 维护 |
+| JZ-03 近校转化街 | 发布 | 运营 | 路演 | 冬令营 |
+| JZ-04 四象限连通 | 方案 | 试点 | 发布 | 维护 |
+| JZ-05 端侧算力节点 | 筹备 | 试点 | 复盘 | 运营 |
+| JZ-06 活动周路线 | 发布 | 运营 | 高峰 | 总结 |
 
 四季活动：春季开源发布周、夏季 AI 场景开放日、秋季国际路演季、冬季开发者冬令营。所有运营机制为概念建议，责任主体、资金与审批路径待正式确认。
 
@@ -316,6 +331,8 @@ agent 生成的AI治理建议必须遵守数据最小化、公开来源、可解
 **Introduction (128 words):** The Jingzhang Intelligence Pulse Symbiosis Belt reimagines the century-old Jingzhang Railway corridor as a continuous public realm for AI-native urban life. Three innovation anchors—Zhongzhiyuan, the Beijing AI Origin Community, and Dazhongsi—connect through the Jingzhang Slow-Mobility Spine and ten operable AI scenario nodes. The belt integrates open-source collaboration, safety governance sandboxes, edge compute service points, and global roadshow lounges within a blue-green composite loop. Provisional geometry supports design discussion; all regulatory controls remain pending official confirmation. This concept proposal offers a transferable framework for professional teams to deepen land use, mobility, public space components, and seasonal operation—without claiming statutory approval or guaranteed implementation.
 
 **Core English Names:** Jingzhang Intelligence Pulse Symbiosis Belt · JZ Pulse Belt · Jingzhang Slow-Mobility Spine · Zhongzhiyuan AI Innovation Acceleration Zone · Beijing AI Origin Community · Dazhongsi AI Industry Cluster · Global AI Activity Week · JZ AI Memory Station
+
+**Boundary disclaimers (EN):** All site, key-area, and phase polygons are provisional working geometry for design discussion only—not official redlines or approved planning controls. Area values are recalculated in EPSG:4548; the canonical key-area total is 369.268 ha versus ~368.4 ha cited in the official announcement. Green and public-space ratios are design-layer recalculations, not statutory control thresholds. No cross-jurisdiction implementation, investment, or government approval is implied.
 
 ## 风险、版权与合规说明
 

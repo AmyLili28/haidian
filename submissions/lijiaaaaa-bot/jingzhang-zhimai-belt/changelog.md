@@ -1,5 +1,18 @@
 # 方案迭代记录
 
+## v0.4.2 - 2026-08-31
+
+### 改动摘要（AI review 结构化补全）
+
+1. **compliance_matrix.json**：`regional_synergy` 补 themes/I/O/spatial_interface/participants/disclaimer；新增 `honor_display_system`（HD-01–04）；`component_library` 补九项运营字段；`operational_governance` 补 owner_role/KPI/thresholds/exit_criteria。
+2. **metrics.json**：`green_ratio`/`public_space_ratio` 标注 `metric_class=design_recalc` 与 definition_zh。
+3. **proposal.md / visual/index.html**：面积口径、控规指标边界、治理矩阵 KPI/退出、英文 boundary disclaimers、HTML 指标标签修正。
+4. **manifest / self_check**：sha256 刷新 + upstream self_check PASS。
+
+### 采纳反馈
+
+- AI review PR #4144 十项 blocking repair 结构化字段补全（v0.4/v0.4.1 基础上的 depth 增强）。
+
 ## v0.4.1 - 2026-08-31
 
 ### 改动摘要（A0-01 首板重排）
