@@ -75,7 +75,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "b80de246800594aae560b4ebf602060dacfd471399ec05acfa0d56997e7d0bdb"
+      "sha256": "e0aafa9ae5645cb105121e83cf3db02450d5abaad844093fb47ae12c1a6788c9"
     },
     {
       "path": "agent.json",
@@ -87,7 +87,7 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "eb8a0975dbf02d25fe7511db695b5d770dd516c523a3166cb3a3d1e14434e0a2"
+      "sha256": "4ab137c6807dbc9aae1e32390e855a21ed3727e607b9b879e36b7c4cf7e9978c"
     },
     {
       "path": "assumptions.json",
@@ -105,19 +105,19 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "fb6b975cf32b69b334f3d569649d6c6aa74242b8acc4b1646816487f8376b874"
+      "sha256": "338d5195e14f7e1efb7d2c822ffe8a2ea7c40d96bb2357bc0f819b8178d8092b"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "29c0079555fe809e40c3fc0e2218e83494c804101a80a8a4790aff224c89e8ad"
+      "sha256": "00457a6b85854b2cb25424d35e0d3ca20694b9929ee9aee672299d4a2d58b10a"
     },
     {
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "de122858e6e10f21f2df562139e328bdcc40ac89ac7186c9948c219295825391"
+      "sha256": "b0d0b98cd3b75485c447e5278502bcfbf868f52ee418979454d78dabb300f4e3"
     },
     {
       "path": "standard_matrix.json",
@@ -129,14 +129,14 @@
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "ee76e693efa417d564109709aff8cf91257ad990f9c0d3e0c1a58a792a636837"
+      "sha256": "d7787f96ca19ab63069801b30f2dbfc3caa59ccee8427f142d21dad45e0521ef"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "932d41449931423d960baac81156fc8182dd34e1411462eee89756529f77dc77"
+      "sha256": "cded59e0871908f0cf4cd55e3ccf47f3aad55ae37b57b4a8f891884b0affb5f4"
     },
     {
       "path": "report/narrative.md",
@@ -155,14 +155,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "1f425385b441fbf120649e6a4e0db0e4d6f5ba303a6cca19b479743067d2eee5"
+      "sha256": "0f6da0e7cc621329fcd67c5655bdd0df86697e19facddb00cc4c0f6b1c035766"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "43231e71e24a22d96759177c03e5305fd03879b5d3886baa4f8090e0152f22f5"
+      "sha256": "eeda6eec5fc10545061e689fa3b83661bba960e7241c2a96b07df2332ced7310"
     },
     {
       "path": "visual/index.html",
@@ -173,7 +173,7 @@
       "title_en": "Jing-Zhang Handover Line offline review entry with operable SCN-05 P0",
       "description_zh": "正式中文视觉入口内嵌纯离线P0原型，并以F/05五级比例技术板展示1:100控制平面、1:50运营叠图、1:20接口、由外向内空间筛查、成本排班、维护撤场与四个替代方案；可关闭智能层、拒绝数据与算法、比较同一核心结果、打印纸本并生成停用回执。真实场地、报价、保险、预算、专业签认与观察仍为0/null。",
       "description_en": "The official Chinese visual entry embeds the offline P0 prototype and uses the five-scale F/05 technical board to present a 1:100 control plan, 1:50 operating overlay, 1:20 interface, outside-in spatial screen, cost, roster, maintenance, removal and four alternatives. Reviewers can switch off AI, refuse data, compare the same outcome, print a paper route and issue a stop receipt; site, quotes, insurance, budget, sign-off and observations remain 0/null.",
-      "sha256": "df76e19a49b224aa325c6dce18cdc83ac228a55c1a7f50c8d2f6c36d3490c0e3"
+      "sha256": "8d9bc9d7eeb09933bcf6542c1bfa3c19e1a353586c172c3079af2c4dde2ed47e"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -198,7 +198,7 @@
       "title_en": "F/05 | P0 five-scale technical board",
       "description_zh": "用同一组受控数据画出1:100控制平面、1:50容量／队列／三席运营叠图、1:20双面接口、24→12→7.2→6m由外向内筛查与36㎡原状恢复，并并列12项构件、成本排班、维护撤场和四个替代方案；现场0/12、文件闸回执0/12、报价0/3、保险与正式预算为空。",
       "description_en": "Draws a 1:100 control plan, 1:50 capacity/queue/three-seat operating overlay, 1:20 two-face interface, 24→12→7.2→6 m outside-in screen and restoration of the same 36 m² surface from one controlled data set, alongside twelve component lines, cost, roster, maintenance, removal and four alternatives; field tasks remain 0/12, documentary-gate receipts 0/12, quotes 0/3 and insurance/formal budget null.",
-      "sha256": "930f4fb3cfe342873a264db67d5dc74ab3478b93a463a0b7ac987b5805fd98a6"
+      "sha256": "ada3ca49e1a6697c98fd70a91df4b3a29bfabdf7cce597b14b398ea715aa99c4"
     },
     {
       "path": "assets/figures/implementation-handoff.png",
@@ -209,7 +209,7 @@
       "title_en": "F/06 | Professional implementation handoff register",
       "description_zh": "把四层空间筛选、五类图纸、九个项目、六个采购包、十一项模块、十二道资料闸、十二类责任角色、T00—T11工序、十六条未计价工程量和维护撤场边界压缩到一张可审读总表；所有外部闸、任命、报价、开工和现场证据均保持HOLD、0或null。",
       "description_en": "Compresses four nested spatial screens, five drawing classes, nine projects, six procurement packages, eleven modules, twelve documentary gates, twelve accountable roles, the T00-T11 sequence, sixteen unpriced quantities and maintenance/removal boundaries into one auditable register; every external gate, appointment, quote, start and field-evidence state remains HOLD, zero or null.",
-      "sha256": "21ba416c88a655576e5894149de5c31432992a11c8b5e5d2df5d8b72abb11443"
+      "sha256": "ba68d0ee37adbec31b7b2d056e409605398916772fceb93d4acf13eb14ca88a6"
     },
     {
       "path": "assets/figures/operational-readiness.png",
@@ -296,7 +296,7 @@
       "required": false,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "f2ac4792df50fe1b0dde6a9c891284041f5b39d3a411fa22a975918c0abb4ccf"
+      "sha256": "9e94fe80a9dd92e821f799ec03f66297e9a6b590b65c12f32471fc6601335d32"
     },
     {
       "path": "report/proposal.en.html",
@@ -304,7 +304,7 @@
       "required": false,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "853ac7d1612488447bbe592c8e2d05bdffaf72dbfda836a4f6f8c29a9a157d45"
+      "sha256": "660ebf966fae3899afd2781c29af83e366c8e1bfb02796ecd7015ae98e9bf3d8"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -312,7 +312,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "ac2da348635418213a08b21eaf30d858011c9e36735cd9ddd824493c2a6b93c4"
+      "sha256": "2f70c49216ae49a83b72e876bc0722ecd1ff9f0c055822b46ced766a198ef059"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -320,7 +320,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "e5c61dddf0aece8682ac81d9019e3ba950accec6a6e9aec1e1f23d49a42e5c61"
+      "sha256": "30dac3905719ea06530e608ab4b663ae3a8881fca3e91051428561f1a1c5ec65"
     },
     {
       "path": "visual/index.en.html",
@@ -332,7 +332,7 @@
       "title_en": "Jing-Zhang Handover Line offline review entry (English)",
       "description_zh": "英文同构入口，含30秒／3分钟／15分钟阅读路径、P0预可研空间容量、成本敏感性、维护撤场、四案比较及中文可操作原型链接。",
       "description_en": "English structural twin with the 30-second/3-minute/15-minute path, P0 screening space and capacity, cost sensitivities, maintenance, removal, four alternatives and a link to the operable bilingual prototype.",
-      "sha256": "492c3eb447632e997ffb1262c8c0b9bb5488a9b2eda7d8f0170e4711523649ff"
+      "sha256": "eeba9458ed774213f11eb8ce928a19e013d5db2a92431d8acb4265d0308ec715"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -360,7 +360,7 @@
       "title_en": "F/05 | P0 five-scale technical board (English)",
       "description_zh": "中文F/05的英文同构版本，五个视图、图纸编号、数值、边界与替代方案逐项一致。",
       "description_en": "English structural twin of F/05, with the same five views, drawing IDs, values, boundaries and alternatives.",
-      "sha256": "9adc5a6872d042e79cb73d83bb9a934fa083c8b2bc92e93b1c1dbbed58c2bd30"
+      "sha256": "a794e35f5ee9e00ace921cbaddba2352b18d5792798994d1e1759433c15e1b12"
     },
     {
       "path": "assets/figures/implementation-handoff.en.png",
@@ -372,7 +372,7 @@
       "title_en": "F/06 | Professional implementation handoff register (English)",
       "description_zh": "中文F/06的英文同构版本，空间筛选、图纸、项目、包件、角色、工序、未计价工程量与外部阻断状态逐项一致。",
       "description_en": "English structural twin of F/06, preserving every spatial screen, drawing, project, package, role, sequence, unpriced quantity and external hold state.",
-      "sha256": "acd70721afb13e146d62df3970ee9ccbdb48855bcd934fe633766d0b45297bd7"
+      "sha256": "d8f214425b75e943aa966025e13da5af1591332b9540a1ce8a4c044453447005"
     },
     {
       "path": "assets/figures/operational-readiness.en.png",
@@ -467,7 +467,7 @@
       "role": "narrative",
       "required": false,
       "language": "neutral",
-      "sha256": "fcdabcb1b139697c08f39658adb97c47259e04cca8a0ae2a0757d78bd758855e"
+      "sha256": "a918f170baba5776b7c5378df5461de56d9481ce4a52386c273f62b358c5c31e"
     },
     {
       "path": "assets/figures/spatial-prototype.png",
@@ -551,7 +551,7 @@
       "path": "visual/assets/governance/claims-audit.js",
       "role": "governance_validation",
       "required": false,
-      "sha256": "f7df46bbfca40922f73738f26f49c2729d19b719bdea2406e0a7b9dd9e748759",
+      "sha256": "026a9c265458466fc7b7ba12d0173b00ed0858196bdc0c639229198772b939e0",
       "title_zh": "正文数值声明审计器",
       "title_en": "Prose claim auditor",
       "description_zh": "只读、离线、零网络依赖的69项声明审计：复算指标、几何、二十单元、断面、布局对照、矩阵引用、来源深度、许可一致性、PDF文字层、四份HTML包内CJK字体、全载体v2.0可见版本、七类用地在六个载体中的非颜色纹理冗余、十二场景无AI等价路线与八类无障碍需求夹具，以及P0的8门／5节点／10 RACI／12构件／8判据／12组预可研检查／3档评委路径／7项评分索引／6群体／12公共利益闸／14项原型检查与26项专业交接闸。全部一致退出0，任一回归退出1。",
@@ -561,7 +561,7 @@
       "path": "visual/assets/governance/audit-selftest.js",
       "role": "governance_validation",
       "required": false,
-      "sha256": "f396dfebb0e392fdce1e292ef114ab7c06d46d53c0eda1460bc4f287906597eb",
+      "sha256": "88501505031a9276ea5a378b44e25bc8e6a8971bd52662723b024aa2aa739fb5",
       "title_zh": "自检脚本的回归测试",
       "title_en": "Regression test for the self-check scripts",
       "description_zh": "对六条审计链做66例回归测试：2例正向锁定69项声明、A0内嵌图4/4像素一致、12账、96规则、48断言、12/12无AI路线、8/8无障碍需求夹具和P0准备度审计；64例阴性逐一注入已知缺陷并要求对应检查失败，含P0成本、预算、评委路径、排班FTE、工作包验收、回退门、双钥匙回执、调试执行和未来本底伪造。注入只写系统临时目录，不改投稿包。",
@@ -575,7 +575,7 @@
       "title_en": "P0 implementation-readiness and public-benefit hard-gate auditor",
       "description_zh": "只读、离线、零第三方依赖地交叉核验交付合同、P0预可研包络、专业实施交接总表、评委证据索引、公共利益合同、评审修复矩阵、服务原型、指标与中英正文；要求12组预可研算术与边界、3档评委路径、7项评分索引、8门、5节点、10项RACI、12项构件、8项判据、6类群体、12个场景公共利益闸、8条跨场景保护、6项资格事实、7项官方后续动作、原型14/14项结构检查与26项专业交接闸同时闭合，并拒绝把敏感性写成正式预算或把0/null/未授权状态伪装为完成。",
       "description_en": "A read-only offline auditor with no third-party dependency that cross-checks the delivery contract, P0 pre-feasibility envelope, professional implementation-handoff register, jury evidence index, public-benefit contract, review-repair matrix, prototype, metrics and bilingual proposals. It requires 12 pre-feasibility checks, 3 jury paths, 7 rubric indexes, 8 gates, 5 stages, 10 RACI packages, 12 components, 8 criteria, 6 groups, 12 public-value gates, 8 protections, 6 eligibility facts, 7 follow-up items, 14/14 prototype checks and 26 professional-handoff gates, rejecting any relabelling of sensitivities as formal budgets or of 0/null/unauthorised states as completion.",
-      "sha256": "2e0169e8d909a019b618f33cba3f920d35cc04a0dc45f9c6d14840070bd7d1d3"
+      "sha256": "e9ae73ab980bd13dc2fcbbe4fbc6099c2086600a0be25844e8708e1081fb5f3b"
     },
     {
       "path": "visual/assets/governance/apply-land-use-patterns.js",
@@ -635,7 +635,7 @@
       "title_en": "Formal-review readiness and repair-classification matrix",
       "description_zh": "只以当前包内事实归类参与者可控制材料、正式评委程序、组织方输入、现场开闸与未来绩效发布条件，并登记P0空间、容量、班次、成本敏感性、维护撤场、替代方案、评委索引、专业实施交接与运营就绪控制面；不使用历史分数、PR、合并、入库、获奖或批准状态作为质量证明，真实现场与公众绩效仍分别阻断。",
       "description_en": "Classifies participant-controlled materials, jury procedures, organiser inputs, field-release gates and future performance-publication conditions using only facts inside the current package, and records the P0 spatial, capacity, roster, cost-sensitivity, maintenance, removal, alternative, jury-index, professional-handoff and operational-readiness evidence. No historical score, pull request, merge, intake, award or approval status is used as proof of quality; field and public-performance evidence remain blocked.",
-      "sha256": "b3fb9ce5b3211149697599793c272f97d9f1f7b47a6d167c9828317b4fdf2de6"
+      "sha256": "caf333082141a99700427114db9f18eac6bacc455da680be64805a20a692e8db"
     },
     {
       "path": "visual/assets/governance/public-benefit-gate.json",
@@ -759,7 +759,7 @@
       "path": "assets/media/guided-tour.md",
       "role": "transcript",
       "required": false,
-      "sha256": "771decc4fc160f0b4fe6652f4ffceef89bd494558f61d55ac2331c124c00eeb4",
+      "sha256": "78dc1e3379f15798243ef3edd4256cae28bff2a27e60c5d2ca6f3446f17250c9",
       "title_zh": "三分钟导览视频文字稿与分镜（中文）",
       "title_en": "Guided-tour transcript and shot list (Chinese)",
       "description_zh": "逐句文字稿，外加九段分镜表：写明每一段配的是哪张图件、为什么配它。",
@@ -769,7 +769,7 @@
       "path": "assets/media/guided-tour-en.md",
       "role": "transcript",
       "required": false,
-      "sha256": "3ea912b85e2b610df8cd50107f82c7b7fadfb39842cb7611a6905e5e6db402cf",
+      "sha256": "50e9623783464bf2a6d628a9c1fba85d652b658958c878061ce92039def065f3",
       "title_zh": "三分钟导览视频文字稿与分镜（英文）",
       "title_en": "Guided-tour transcript and shot list (English)",
       "description_zh": "英文版文字稿与分镜表。",
@@ -779,7 +779,7 @@
       "path": "assets/media/guided-tour.mp4",
       "role": "video",
       "required": false,
-      "sha256": "3777b04e93e41f1a8838a38b236a87fc4ca7ee441a9e62cfad301d4a8481dafd",
+      "sha256": "8761ed9aba44e92e036a38d4224586c2f0d0d5c247dded95db756394a689617a",
       "title_zh": "京张交接线 · 三分钟导览视频（中文）",
       "title_en": "Jing-Zhang Handover Line · three-minute guided tour (Chinese)",
       "description_zh": "三分钟中文导览，不引入正文之外的新主张。音轨与audio-guide.m4a同一解说和对齐但独立编码（实测r=0.999964、零偏移、平均绝对差17／32768、时长差2.9ms）；guided-tour.vtt与audio-guide.vtt逐字节相同。正文画面使用F/01–F/05、F/10与F/12，首尾约21%为不含生成式插画的程序化封面卡，因此全片画面100%程序化。2026-08-31已把22.8–42.0秒更新为当前F/05五级比例P0技术板，147.1–167.0秒继续绑定F/12双联交接账；音轨、字幕和181.750秒总时长不变。",
@@ -792,7 +792,7 @@
       "path": "assets/media/guided-tour.en.mp4",
       "role": "video",
       "required": false,
-      "sha256": "3025ec0c7339972379db759b093d8c05822973eb7d393e8efebd998eaca0edc0",
+      "sha256": "f5a0949f07d82b224b14292859b6a419722aca665d576a0e75246b8c4aa67a60",
       "title_zh": "京张交接线 · 三分钟导览视频（英文）",
       "title_en": "Jing-Zhang Handover Line · three-minute guided tour (English)",
       "description_zh": "英文版导览与中文版结构同构，使用英文图件与英文程序化封面卡；音轨、字幕和总时长176.500秒保持不变。2026-08-31已把22.8–42.0秒更新为英文F/05五级比例P0技术板，147.1–167.0秒继续绑定英文F/12双联交接账；首尾约21%仍为不含生成式插画的英文程序化封面卡。",
@@ -874,31 +874,31 @@
       "path": "visual/assets/governance/version-stamp-report.json",
       "role": "asset",
       "required": false,
-      "sha256": "aed5898615cce9793966303686152191627b2932b3a85c8efb951e65dd52e170"
+      "sha256": "fea407829a9022b9e42493b98eb1a5aa1f2c280755f2887d3d83eab68aaf331e"
     },
     {
       "path": "visual/assets/governance/pdf-version-report.json",
       "role": "asset",
       "required": false,
-      "sha256": "07cd4c5279ffd7ac8e8c445c92d0bb3596a693b1ff83c3e51c933e402e4038ff"
+      "sha256": "5c08210135676a5b064ad01936a536cc4b788a836561277c566a11217a8d3bc9"
     },
     {
       "path": "visual/assets/governance/noto-cjk-subset.css",
       "role": "asset",
       "required": true,
-      "sha256": "39d90a9b796682d55ad24f5a62b2868773188a7c3323e685cdb0971ca37e78b9"
+      "sha256": "63638f73230756579436c1b1b32fca8588141c749d3169d20e6fdd4a3ca072d5"
     },
     {
       "path": "visual/assets/governance/noto-cjk-subset.coverage.json",
       "role": "asset",
       "required": true,
-      "sha256": "47d21ccff49b8ec7a7b2e52e7ca0368dc09fadf204f7b3cd3b56dd975d1bac8a"
+      "sha256": "46ae26c10defaafe48b60c1e18a6f5142a967e517bf712b77316977a55c0267c"
     },
     {
       "path": "visual/assets/governance/noto-cjk-subset.rights.json",
       "role": "asset",
       "required": true,
-      "sha256": "0693649a77f4917ad830487c37d239a9e1a8e503f63b17ce25b8a15ed179c881"
+      "sha256": "a2a1de1ef1f98b824b2b4a1aa2d5a51b68ceca3ebf2f6e446206c465fcf5eef6"
     },
     {
       "path": "visual/assets/public-handover-table-3d.json",
@@ -919,7 +919,7 @@
       "title_en": "Full technical evidence book",
       "description_zh": "保留主稿压缩前的逐表、逐图、逐指标与逐边界技术证据，供15分钟深读和机器声明审计使用；不新增现场事实。",
       "description_en": "Retains the full table-, figure-, metric- and boundary-level technical evidence for the 15-minute deep read and machine claim audit; it introduces no field fact.",
-      "sha256": "7ae8e2e0b55dab42d0eb111d2e03c0ced812ebb75b0c3fef9645f1e751040103"
+      "sha256": "e33ea45a9cbbe174a5ab1cf5b7d5e2454e980aae2ad9b3c28e34c01f8811ff92"
     },
     {
       "path": "visual/assets/governance/build-delivery-figures.js",
@@ -939,7 +939,7 @@
       "title_en": "A3/A0 cover and drawing assembly script",
       "description_zh": "使用包内字体、当前F/01与F/03及P0预可研数据重建四套PDF首页，并追加F/06专业交接与F/07运营就绪附页；拒绝非空正式预算、报价、角色任命、双钥匙回执、调试执行或现场观察。",
       "description_en": "Rebuilds the four PDF covers from local fonts, current F/01/F/03 and P0 screening data, then appends F/06 professional-handoff and F/07 operational-readiness pages; it refuses non-null formal budgets, quotations, appointments, two-key receipts, commissioning execution or field observations.",
-      "sha256": "974d48dc2efa9d614e3f83239b4f93948076286ca32243c1b366526783c15fb6"
+      "sha256": "04d72e2202a6a3f444a89d481d5483c582d8e4c777122bbedce9a2a23853dad4"
     },
     {
       "path": "visual/assets/governance/build-p0-feasibility-figure.js",
@@ -949,7 +949,7 @@
       "title_en": "P0 five-scale technical-board generator",
       "description_zh": "读取预可研包络、P0交付合同与专业实施交接登记，确定性生成中英F/05的1:100／1:50／1:20视图及1:500—1:20释放链；空间、容量、成本、构件、闸门HOLD、外部证据0/null或正式预算null任一漂移即拒绝输出。",
       "description_en": "Deterministically builds bilingual F/05 1:100, 1:50 and 1:20 views plus the 1:500–1:20 release chain from the pre-feasibility envelope, P0 delivery contract and professional-handoff register; it refuses any drift in space, capacity, cost, components, HOLD gates, zero/null external evidence or the null formal budget.",
-      "sha256": "d2d7495cac878694b4f1ed46ca060bc60e36fc6c99e5d6fb1354e1eb0cc72af5"
+      "sha256": "59ca965a983caa46783545a34fc050faab5df703a22fc9dac0edf30febb8726f"
     },
     {
       "path": "visual/assets/governance/build-implementation-handoff-figure.js",
@@ -959,7 +959,7 @@
       "title_en": "F/06 professional implementation-handoff register generator",
       "description_zh": "读取专业交接登记与metrics.json确定性生成中英F/06；任何外部闸被伪标发布、责任角色被无依据任命、报价被填价、工序被写成开工或空间控制线漂移时即拒绝输出。",
       "description_en": "Deterministically builds bilingual F/06 from the professional-handoff register and metrics.json, refusing output if an external gate is falsely released, a role is appointed without evidence, a quotation is priced, works are marked started or a spatial control line drifts.",
-      "sha256": "1c31b7eab503ae59a30cfdeb0dbfcb549b84335d7767f7a77210b589f19280f9"
+      "sha256": "86a727348bb8eb7df05cf2a2c33880857caaad1f40cc0b5dcac1d1d8d594e135"
     },
     {
       "path": "visual/assets/governance/build-operational-readiness-figure.js",
@@ -979,7 +979,7 @@
       "title_en": "Professional implementation-handoff register",
       "description_zh": "机器可读登记四层空间控制、五类图纸、九个项目、六个采购包、十一项模块、十二道资料闸、十二类未任命角色、T00—T11的15周前置工序、十六条未计价工程量、替代方案和维护撤场；technical_figure_binding再把F/05五个可见视图逐项绑定到D01—D05、源数据与检查项，并联结三席四人排班、双钥匙fail-closed、六包验收、四项回退、8项调试与5×7未来本底。包内可判断项与必须由外部主体补齐的现场事实分栏，后者全部锁为HOLD、0或null。",
       "description_en": "Machine-readable register for four spatial controls, five drawing classes, nine projects, six procurement packages, eleven modules, twelve documentary gates, twelve unappointed roles, the 15-week T00-T11 prerequisite sequence, sixteen unpriced quantities, alternatives and maintenance/removal. Its technical_figure_binding maps five visible F/05 views to D01–D05, source data and checks, alongside a three-seat/four-person roster, fail-closed two-key release, six-package acceptance, four fallbacks, eight commissioning checks and a 5×7 future baseline. Package-judgeable items are separated from field facts that only external parties can supply; all latter states are locked to HOLD, zero or null.",
-      "sha256": "f879b907b805447b46cab7e2b67a74cb855364d3aba31ec7896d6b9341eb3779"
+      "sha256": "41a523f0e47c00f2523f8eec7cf385a94507b2d641c451706d49eca89529826f"
     },
     {
       "path": "visual/assets/governance/figure-contrast-report.json",
@@ -999,7 +999,7 @@
       "title_en": "Juror 30-second / 3-minute / 15-minute evidence index",
       "description_zh": "把三档阅读路径与七项评分维度分别绑定到主证据和诚实边界；它是阅读索引，不是评分或官方认可。",
       "description_en": "Binds three reading paths and seven rubric dimensions to primary evidence and honest boundaries; it is an index, not a score or endorsement.",
-      "sha256": "5ac29ad95844adf69a2869e469110b4f482c375e98209bb5e7bcaca8658c89e8"
+      "sha256": "7ef550b36a10d46b584d65bdf5568fc5cf029a3242e54ccd744a13737acd0ec4"
     },
     {
       "path": "visual/assets/governance/p0-pre-feasibility-envelope.json",
