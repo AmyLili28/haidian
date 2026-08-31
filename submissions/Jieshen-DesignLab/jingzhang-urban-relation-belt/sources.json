@@ -1,0 +1,187 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usable_for_formal": "yes",
+      "usage": "任务书、枚举、允许设计空间、范围与 schema。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usable_for_formal": "yes",
+      "usage": "公开/清权/临时资料可用性登记表，用于区分 formal 可用与背景资料。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usable_for_formal": "background_only",
+      "usage": "范围、任务、资料用途与缺口的导航层，不是新的权威来源。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usable_for_formal": "yes",
+      "publisher": "北京市规划和自然资源委员会海淀分局",
+      "usage": "公告 1.3/1.4/1.5 任务、三层范围、三处重点区域与成果要求。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usable_for_formal": "yes",
+      "usage": "面向智能体的十条共创原则、agent.1–agent.6 必答任务、评审维度与统一边界条款。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usable_for_formal": "provisional_only",
+      "usage": "本包 site_boundary 的唯一几何来源（临时粗略边界）。",
+      "limitation_zh": "不得作为 official redline、审批依据或精确面积复算依据。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usable_for_formal": "provisional_only",
+      "usage": "三处重点详细设计区域的临时粗略 polygon。",
+      "limitation_zh": "面积与边界均为粗略值，官方附件发布后须复算。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "DATA-SRC-OSM-JINGZHANG-BASE",
+      "url": "https://www.openstreetmap.org/",
+      "source_type": "osm",
+      "usable_for_formal": "background_only",
+      "publisher": "OpenStreetMap contributors",
+      "license": "ODbL 1.0",
+      "usage": "本包 buildings / roads / green_space / constraints 的现状底层，以及主线关系分析的空间底图；已按 osmid 逐要素登记。",
+      "limitation_zh": "第三方开放地图，不作为道路红线、用地边界、产权或法定控制线依据。",
+      "collection_method_zh": "主线 01_证据 阶段一次性冻结导出，未在本轮重新抓取。",
+      "spatial_coverage_zh": "京张走廊南段（北京北—清河）及两侧约 1–2 公里。",
+      "retrieved_date": "2026-08-24"
+    },
+    {
+      "id": "MAINLINE-RELATION-ANALYSIS",
+      "path": "02_Output/方案工作区/68D_FINAL_PLANNING_BOARD_BATCH_v1/",
+      "source_type": "user_provided_cleared",
+      "usable_for_formal": "yes",
+      "publisher": "Jieshen DesignLab（本参赛方）",
+      "usage": "本方案自有的城市关系断面分析、五断面问题定义、四类关系机制与 T1 深化成果；为本投稿正文与图纸的设计内容来源。",
+      "limitation_zh": "参赛方自有分析成果，非政府审定结论。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "B14-COMMONS-IMAGERY",
+      "url": "https://commons.wikimedia.org/",
+      "source_type": "user_provided_cleared",
+      "usable_for_formal": "background_only",
+      "publisher": "Wikimedia Commons contributors",
+      "license": "CC BY-SA 4.0（2 张）／CC BY-SA 3.0（1 张）",
+      "usage": "T1 现场观察页的三张现场影像（大钟寺站 A 口 2025-02、B 口 2021-04、站外）。",
+      "limitation_zh": "仅用于现场情境说明，不作为空间量测或边界依据；再使用须逐张保留作者署名并按各自版本同协议共享（两张 4.0、一张 3.0）。百度全景截图与官方发布照片因再分发许可不明，已整页排除出投稿包。",
+      "retrieved_date": "2026-08-31",
+      "items": [
+        {
+          "file": "Exit_A_of_Dazhong_Si_Station_(Feb_2025).jpg",
+          "author": "RobertSchwandI",
+          "license": "CC BY-SA 4.0",
+          "date": "2025-02-22",
+          "url": "https://commons.wikimedia.org/wiki/File:Exit_A_of_Dazhong_Si_Station_(Feb_2025).jpg"
+        },
+        {
+          "file": "Exit_B_of_Dazhongsi_Station_(20210409120947).jpg",
+          "author": "N509FZ",
+          "license": "CC BY-SA 4.0",
+          "date": "2021-04-09",
+          "url": "https://commons.wikimedia.org/wiki/File:Exit_B_of_Dazhongsi_Station_(20210409120947).jpg"
+        },
+        {
+          "file": "Outside_Dazhongsi_Station_in_Beijing.JPG",
+          "author": "Siyuwj",
+          "license": "CC BY-SA 3.0",
+          "date": "unknown",
+          "url": "https://commons.wikimedia.org/wiki/File:Outside_Dazhongsi_Station_in_Beijing.JPG"
+        }
+      ]
+    },
+    {
+      "id": "CASE-KENDALL-SQUARE",
+      "url": "https://kendallsquare.org/",
+      "source_type": "user_provided_cleared",
+      "usable_for_formal": "background_only",
+      "publisher": "Kendall Square / MIT surroundings, Cambridge USA",
+      "usage": "agent.2 全球案例：高校边界作为可穿越街区界面、实验室首层向城市开放。",
+      "limitation_zh": "国际案例为借鉴性背景资料，只用于提取一条可转化机制；不作为本项目空间控制、规模、投资或产值依据，也不代表已证明产业链运行机制。",
+      "collection_method_zh": "2026-08-31 经 WebSearch 检索并逐条打开公开来源核验，未使用任何案例图像。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "CASE-STATION-F",
+      "url": "https://stationf.co/about",
+      "source_type": "user_provided_cleared",
+      "usable_for_formal": "background_only",
+      "publisher": "Station F (Halle Freyssinet), Paris France",
+      "usage": "agent.2 全球案例：1927 年货运站（2012 年列入历史建筑）改造，2017 年开放，单一大跨既有工业建筑内形成孵化—服务—展示连续动线。",
+      "limitation_zh": "国际案例为借鉴性背景资料，只用于提取一条可转化机制；不作为本项目空间控制、规模、投资或产值依据，也不代表已证明产业链运行机制。",
+      "collection_method_zh": "2026-08-31 经 WebSearch 检索并逐条打开公开来源核验，未使用任何案例图像。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "CASE-KINGS-CROSS",
+      "url": "https://www.kingscross.co.uk/about-the-development",
+      "source_type": "user_provided_cleared",
+      "usable_for_formal": "background_only",
+      "publisher": "King's Cross Central & Knowledge Quarter, London UK",
+      "usage": "agent.2 全球案例：约 27 公顷废弃铁路用地转型，10 处公共广场与 20 条街道先行、开发跟随。交叉核验：https://casestudies.uli.org/kings-cross/（ULI 案例研究）。",
+      "limitation_zh": "国际案例为借鉴性背景资料，只用于提取一条可转化机制；不作为本项目空间控制、规模、投资或产值依据，也不代表已证明产业链运行机制。",
+      "collection_method_zh": "2026-08-31 经 WebSearch 检索并逐条打开公开来源核验，未使用任何案例图像。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "CASE-22AT-BARCELONA",
+      "url": "https://en.wikipedia.org/wiki/22@",
+      "source_type": "user_provided_cleared",
+      "usable_for_formal": "background_only",
+      "publisher": "22@ Barcelona (Poblenou), Spain",
+      "usage": "agent.2 全球案例：2000 年批准，约 200 公顷产业更新完全承载在既有 Cerdà 网格上，不新划园区边界。交叉核验：https://www.mdpi.com/2413-8851/4/2/16（Urban Science 同行评议论文）。",
+      "limitation_zh": "国际案例为借鉴性背景资料，只用于提取一条可转化机制；不作为本项目空间控制、规模、投资或产值依据，也不代表已证明产业链运行机制。",
+      "collection_method_zh": "2026-08-31 经 WebSearch 检索并逐条打开公开来源核验，未使用任何案例图像。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "CASE-MARS-TORONTO",
+      "url": "https://www.marsdd.com/about/",
+      "source_type": "user_provided_cleared",
+      "usable_for_formal": "background_only",
+      "publisher": "MaRS Discovery District, Toronto Canada",
+      "usage": "agent.2 全球案例：2005 年开放，紧邻多伦多大学与 University Health Network，把公共资助研究的转化作为独立空间类型。",
+      "limitation_zh": "国际案例为借鉴性背景资料，只用于提取一条可转化机制；不作为本项目空间控制、规模、投资或产值依据，也不代表已证明产业链运行机制。",
+      "collection_method_zh": "2026-08-31 经 WebSearch 检索并逐条打开公开来源核验，未使用任何案例图像。",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "CASE-SEOUL-AI-HUB",
+      "url": "https://english.seoul.go.kr/seoul-policy-archive/seoul-ai-hub/",
+      "source_type": "official_public",
+      "usable_for_formal": "background_only",
+      "publisher": "Seoul AI Hub, Yangjae, Republic of Korea",
+      "usage": "agent.2 全球案例：2024 年 5 月主体设施启用，以既有办公建筑改造承载 AI 企业与人才服务，避免新建。",
+      "limitation_zh": "国际案例为借鉴性背景资料，只用于提取一条可转化机制；不作为本项目空间控制、规模、投资或产值依据，也不代表已证明产业链运行机制。",
+      "collection_method_zh": "2026-08-31 经 WebSearch 检索并逐条打开公开来源核验，未使用任何案例图像。",
+      "retrieved_date": "2026-08-31"
+    }
+  ]
+}
