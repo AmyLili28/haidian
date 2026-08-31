@@ -42,6 +42,30 @@
       "statement_en": "The event system and phasing are design suggestions, not confirmed government or investment commitments.",
       "category": "operation",
       "status": "concept"
+    },
+    {
+      "id": "DATA-GAP-REGIONAL-INTERFACES",
+      "statement": "Beiwai Community, Future Science City, Huairou Science City, E-Town and Jing-Jin-Ji are unconfirmed interfaces; no cooperation or data access is assumed.",
+      "status": "data_gap",
+      "impact": "No cross-area deployment until a named role, space, safety rule and agreement are confirmed."
+    },
+    {
+      "id": "DATA-GAP-TEST-SAMPLES",
+      "statement": "T1-T3 thresholds and sample windows are participant pilot proposals, not official standards; professional safety and ethics review is required.",
+      "status": "provisional",
+      "impact": "Only controlled, human-reviewed small samples may proceed."
+    },
+    {
+      "id": "DATA-GAP-RIGHTS-AND-LIABILITY",
+      "statement": "No historical raw media, personal dataset or external image is embedded; future assets require row-level clearance and responsibility assignment.",
+      "status": "data_gap",
+      "impact": "Uncleared material stays unpublished."
+    },
+    {
+      "id": "DATA-GAP-ALL-SITE-OPERATIONS",
+      "statement": "Entrances, rail protection, fire, utilities, accessibility, ownership, heritage and visitor flows require field confirmation.",
+      "status": "data_gap",
+      "impact": "Spatial geometry cannot guide construction or operations."
     }
   ]
 }

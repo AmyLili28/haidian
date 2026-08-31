@@ -11,20 +11,7 @@
       "errors": [],
       "warnings": [
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/proposal.md: 可能涉及非公开或敏感资料; maintainer review required",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-scenario-card-validation-belt/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/proposal.md"
@@ -34,16 +21,23 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/agent.json",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/key-areas.png",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/metrics-evidence.png",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/mobility-bluegreen.png",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/site-overview.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assumptions.json",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/changelog.md",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/compliance_matrix.json",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/design_depth_matrix.json",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/drawings/a0-boards.en.pdf",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/drawings/a0-boards.pdf",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/drawings/a3-booklet.en.pdf",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/drawings/a3-booklet.pdf",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/geometry/buildings.geojson",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/geometry/constraints.geojson",
@@ -60,17 +54,19 @@
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/proposal.md",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/report/copyright_statement.md",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/report/narrative.md",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/report/proposal.en.html",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/report/proposal.html",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/risk.json",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/self_check.json",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/sources.json",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/standard_matrix.json",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/visual/index.en.html",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-scenario-card-validation-belt": "formal"
       },
-      "total_bytes": 1054330,
+      "total_bytes": 3279009,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -144,14 +140,14 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 17,
+        "known_metric_refs_required": 19,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
           "source": 8,
           "standard": 0,
-          "depth": 0,
-          "data": 1,
+          "depth": 1,
+          "data": 2,
           "metric": 2
         }
       }
@@ -169,21 +165,7 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-scenario-card-validation-belt/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
-  ],
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {

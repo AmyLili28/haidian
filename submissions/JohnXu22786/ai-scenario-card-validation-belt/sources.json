@@ -338,6 +338,60 @@
         "generation_method": "concept prompting + geometry program",
         "limitations": "low confidence conceptual envelopes"
       }
+    },
+    {
+      "id": "CASE-MCITY",
+      "title": "Mcity official site",
+      "type": "case_primary",
+      "url": "https://mcity.umich.edu/",
+      "accessed": "2026-08-31",
+      "license_or_terms": "Official public information; cite for mechanism comparison only",
+      "use_boundary": "No image reuse or partnership claim; controlled testing mechanism reference."
+    },
+    {
+      "id": "CASE-ASTAZERO",
+      "title": "AstaZero official site",
+      "type": "case_primary",
+      "url": "https://www.astazero.com/",
+      "accessed": "2026-08-31",
+      "license_or_terms": "Official public information; cite for mechanism comparison only",
+      "use_boundary": "No image reuse or partnership claim; test-site operating mechanism reference."
+    },
+    {
+      "id": "CASE-CETRAN",
+      "title": "CETRAN official site",
+      "type": "case_primary",
+      "url": "https://cetran.sg/",
+      "accessed": "2026-08-31",
+      "license_or_terms": "Official public information; cite for mechanism comparison only",
+      "use_boundary": "No image reuse or partnership claim; urban test method reference."
+    },
+    {
+      "id": "CASE-GOMENTUM",
+      "title": "GoMentum Station official site",
+      "type": "case_primary",
+      "url": "https://gomentumstation.net/",
+      "accessed": "2026-08-31",
+      "license_or_terms": "Official public information; cite for mechanism comparison only",
+      "use_boundary": "No image reuse or partnership claim; controlled industry validation reference."
+    },
+    {
+      "id": "CASE-NDT",
+      "title": "UK National Digital Twin programme official overview",
+      "type": "case_primary",
+      "url": "https://www.cdbb.cam.ac.uk/what-we-do/national-digital-twin-programme",
+      "accessed": "2026-08-31",
+      "license_or_terms": "Official public information; cite for method comparison only",
+      "use_boundary": "No data reuse; trusted-data governance mechanism reference."
+    },
+    {
+      "id": "CASE-MIT-LIVING-LAB",
+      "title": "MIT Living Lab official site",
+      "type": "case_primary",
+      "url": "https://livinglab.mit.edu/",
+      "accessed": "2026-08-31",
+      "license_or_terms": "Official public information; cite for method comparison only",
+      "use_boundary": "No image reuse or partnership claim; campus real-world testing reference."
     }
   ]
 }
