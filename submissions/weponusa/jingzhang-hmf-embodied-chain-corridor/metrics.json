@@ -1,0 +1,486 @@
+{
+  "schema_version": "0.1.0",
+  "units": {
+    "length": "m",
+    "area": "sqm"
+  },
+  "metrics": {
+    "site_area_sqm": {
+      "status": "known",
+      "value": 11412825.386,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "polygon_area(submitted_site_boundary) in EPSG:4548",
+      "confidence": "medium",
+      "assumptions": [
+        "provisional boundary; recalc with official polygon"
+      ]
+    },
+    "green_space_area_sqm": {
+      "status": "known",
+      "value": 4168828.946,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/green_space.geojson"
+      ],
+      "formula": "sum(polygon_area(green_space)) in EPSG:4548",
+      "confidence": "medium",
+      "assumptions": []
+    },
+    "public_space_area_sqm": {
+      "status": "known",
+      "value": 1537928.763,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "sum(polygon_area(public_space)) in EPSG:4548",
+      "confidence": "medium",
+      "assumptions": []
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 534406.03,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "sum(polygon_area(building_footprints)) in EPSG:4548",
+      "confidence": "medium",
+      "assumptions": []
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.365276,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "green_space_area_sqm / site_area_sqm",
+      "confidence": "medium",
+      "assumptions": []
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.134754,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "public_space_area_sqm / site_area_sqm",
+      "confidence": "medium",
+      "assumptions": []
+    },
+    "road_network_length_m": {
+      "status": "known",
+      "value": 41539.676,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "sum(line_length(roads)) in EPSG:4548",
+      "confidence": "medium",
+      "assumptions": [
+        "v3.1 曲线主轴与闭合服务环重建后复算；较 v3.0 直线骨架增加约3.3公里"
+      ]
+    },
+    "land_use_coverage_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/land_use.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "land_use_union_area / site_area_sqm",
+      "confidence": "high",
+      "assumptions": [
+        "partition covers full provisional site"
+      ]
+    },
+    "key_area_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(key_detailed_design_areas)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "phasing_zone_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/phasing.geojson"
+      ],
+      "formula": "count(phasing_zones)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "ai_scenario_node_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "geometry/constraints.geojson"
+      ],
+      "formula": "count(ai_scenario_nodes)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "ai_scenario_card_count": {
+      "status": "known",
+      "value": 13,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "geometry/constraints.geojson",
+        "geometry/roads.geojson",
+        "geometry/public_space.geojson"
+      ],
+      "formula": "count(unique scenario_ids S01-S13 referenced by proposal and design features)",
+      "confidence": "high",
+      "assumptions": [
+        "场景卡可复用空间节点，因此13张卡对应12个SCENARIO_NODE；S01/S11锚定RD-001，S04锚定PLZ-004"
+      ]
+    },
+    "hmf_hard_gate_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/implementation-gates.png"
+      ],
+      "formula": "count(field acceptance gates G-01 回库闭合, G-02 高峰让路, G-03 物流外置)",
+      "confidence": "high",
+      "assumptions": [
+        "三条门是概念试点验收手续，不是已批准运营；失败则整段降级，须专项核定后才能试行"
+      ]
+    },
+    "hmf_field_component_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/implementation-gates.png"
+      ],
+      "formula": "count(field components FC-01 through FC-05 hung on existing RP/SN ids)",
+      "confidence": "high",
+      "assumptions": [
+        "构件位置为 C 级示意，复用 RP-02/03/15/16 与 SN-006/010，不另起工程清单"
+      ]
+    },
+    "hmf_rollback_rule_count": {
+      "status": "known",
+      "value": 1,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/implementation-gates.png"
+      ],
+      "formula": "count(explicit whole-segment downgrade rule: gate fail downgrades machine-class privilege, not a single unit)",
+      "confidence": "high",
+      "assumptions": [
+        "降级对象是机器权限与开放时段，人的通行与无障碍不降级"
+      ]
+    },
+    "hmf_playbook_stage_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/hmf-playbook.png"
+      ],
+      "formula": "count(Jing-Zhang playbook stages translated from Fuxing guide ch.12: S1 plan-assess, S2 build-sync, S3 test-certify-access, S4 operate-review)",
+      "confidence": "high",
+      "assumptions": [
+        "四阶段是概念实施手续，不是海淀已批准流程；须北京本地法规与专项核定后才能试行"
+      ]
+    },
+    "hmf_playbook_check_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/hmf-playbook.png"
+      ],
+      "formula": "count(five-friendliness field checks: action / work / environment / interaction / governance)",
+      "confidence": "high",
+      "assumptions": [
+        "五友好验收单任一不过关，场景不得从封闭进入公共运行"
+      ]
+    },
+    "hmf_enterprise_access_step_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/hmf-playbook.png"
+      ],
+      "formula": "count(enterprise procedure steps: test, compatibility-certify, access)",
+      "confidence": "high",
+      "assumptions": [
+        "京张兼容性核验不借用外地认证品牌；未达标只派驻安全员，禁止全无人接入"
+      ]
+    },
+    "hmf_twelve_hours_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/twelve-hours.png",
+        "assets/figures/concept/twelve-hours.webp"
+      ],
+      "formula": "count(Jing-Zhang human-machine-friendly hour clauses 子-亥)",
+      "confidence": "high",
+      "assumptions": [
+        "十二条为概念运营条款，不是法定时刻表；开放与禁入时段须专项核定"
+      ]
+    },
+    "ai_landmark_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "geometry/constraints.geojson"
+      ],
+      "formula": "sum(length(properties.landmark_roles)) for constraints features where is_landmark=true",
+      "confidence": "medium",
+      "assumptions": [
+        "概念性地标角色；SN-012复合承载荣誉墙与AI里程碑时间线"
+      ]
+    },
+    "renewal_project_count": {
+      "status": "known",
+      "value": 18,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(unique project IDs RP-01 through RP-18 in proposal renewal project table)",
+      "confidence": "medium",
+      "assumptions": [
+        "概念项目清单，非已批项目"
+      ]
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "total_floor_area_sqm / official_site_area_sqm",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "官方控规容积率条件未随公开资料提供，须待资格预审附件或正式控规确认"
+    },
+    "building_height_m": {
+      "status": "unknown",
+      "value": null,
+      "unit": "m",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "approved_height_control_per_parcel",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "官方高度控制缺失；未声明任何具体高度结论"
+    },
+    "key_area_share_of_overall": {
+      "status": "known",
+      "value": 0.323,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/design_brief.json",
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "announced_key_area_ha / announced_overall_design_ha",
+      "confidence": "medium",
+      "assumptions": [
+        "基于公告面积约值 368.4/1140"
+      ]
+    },
+    "corridor_aspect_ratio_ns_ew": {
+      "status": "known",
+      "value": 7.08,
+      "unit": "dimensionless",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "north_south_extent_m / east_west_extent_m in EPSG:4548",
+      "confidence": "medium",
+      "assumptions": [
+        "provisional boundary bbox extents"
+      ]
+    },
+    "scenario_node_density_per_km": {
+      "status": "known",
+      "value": 1.242,
+      "unit": "count_per_km",
+      "source_files": [
+        "geometry/constraints.geojson",
+        "geometry/roads.geojson"
+      ],
+      "formula": "ai_scenario_node_count / spine_length_km(RD-001)",
+      "confidence": "medium",
+      "assumptions": [
+        "主轴长度改用 RD-001 复算值9.665公里，不再引用叙事约9公里"
+      ]
+    },
+    "joint_test_events_per_year": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(cross_firm_tests_on_spine)",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "联系强度基线待试点前调查建立；概念目标见 proposal 监测框架"
+    },
+    "accessible_route_continuity_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md",
+        "geometry/roads.geojson"
+      ],
+      "formula": "continuous_universal_access_route_length_m / audited_primary_route_length_m",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "现状无障碍断点与有效净宽尚未完成逐段普查"
+    },
+    "machine_identity_compliance_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md",
+        "geometry/constraints.geojson"
+      ],
+      "formula": "machines_with_visible_identity_intent_and_operator_info / audited_operating_machines",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "设备尚未进入正式运营，身份与意图标识合规率待试点建立"
+    },
+    "human_takeover_response_time_s": {
+      "status": "unknown",
+      "value": null,
+      "unit": "s",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "median(seconds_from_stop_or_takeover_request_to_safe_human_control)",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "人工接管组织、站位和演练数据尚未建立"
+    },
+    "near_miss_events_per_1000km": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count_per_1000km",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "reported_and_verified_near_miss_events / machine_operating_distance_km * 1000",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "须在统一事件定义、匿名上报与第三方复核机制建立后监测"
+    },
+    "manual_service_availability_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md",
+        "geometry/constraints.geojson"
+      ],
+      "formula": "public_service_scenarios_with_equivalent_human_channel / audited_ai_public_service_scenarios",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "人工替代渠道尚未完成场景级配置审查"
+    },
+    "spine_length_m": {
+      "status": "known",
+      "value": 9664.892,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "line_length(RD-001) in EPSG:4548",
+      "confidence": "medium",
+      "assumptions": [
+        "provisional 线位，须由遗址公园实测中心线替换"
+      ]
+    },
+    "spine_vertex_count": {
+      "status": "known",
+      "value": 82,
+      "unit": "count",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "count(vertices(RD-001))",
+      "confidence": "high",
+      "assumptions": [
+        "v3.0 为2点直线；v3.1 按120m等距重采样为曲线折线"
+      ]
+    },
+    "scenario_node_key_area_containment_ratio": {
+      "status": "known",
+      "value": 0.8333,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/constraints.geojson",
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(nodes inside assigned key area) / ai_scenario_node_count",
+      "confidence": "high",
+      "assumptions": [
+        "SN-005、SN-009 为走廊段落节点，按设计不归属任何重点区，其余10个全部落入指定重点区"
+      ]
+    },
+    "geometry_horizontal_uncertainty_m": {
+      "status": "known",
+      "value": 200,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson",
+        "geometry/constraints.geojson"
+      ],
+      "formula": "declared schematic positional uncertainty for C-grade features",
+      "confidence": "low",
+      "assumptions": [
+        "自评上限，非实测中误差；实测校核后应重新声明"
+      ]
+    },
+    "field_survey_completion_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "completed_P0_survey_items / 6",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "实测中心线、无障碍台账、文保控制线、管线竖向、缝合通道产权、人机友好基线六项均未开展"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "name": "phasing_jingzhang_hmf",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PHASE-P1",
+      "properties": {
+        "id": "PHASE-P1",
+        "layer": "PHASE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "phase_id": "P1",
+        "name_zh": "近期：大钟寺人机友好应用验证",
+        "phase_label": "P1",
+        "area_sqm_declared": 4106946.996,
+        "priority": 1,
+        "hmf_milestone": "人工服务保底、无障碍接驳、H2商业验证",
+        "alignment_precision": "schematic_partition_provisional",
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "field_survey_required": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3407,
+              39.939
+            ],
+            [
+              116.33989791666666,
+              39.967875
+            ],
+            [
+              116.35507,
+              39.967875
+            ],
+            [
+              116.3553,
+              39.965
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.3407,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PHASE-P2",
+      "properties": {
+        "id": "PHASE-P2",
+        "layer": "PHASE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "phase_id": "P2",
+        "name_zh": "中期：原点社区与主轴中段",
+        "phase_label": "P2",
+        "area_sqm_declared": 3770875.249,
+        "priority": 2,
+        "hmf_milestone": "H0/H1静谧与文保保护、公众共创、节点加密",
+        "alignment_precision": "schematic_partition_provisional",
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "field_survey_required": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34110322580645,
+              39.99675
+            ],
+            [
+              116.3536698630137,
+              39.99675
+            ],
+            [
+              116.3533,
+              39.99
+            ],
+            [
+              116.35507,
+              39.967875
+            ],
+            [
+              116.33989791666666,
+              39.967875
+            ],
+            [
+              116.3397,
+              39.975
+            ],
+            [
+              116.34110322580645,
+              39.99675
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PHASE-P3",
+      "properties": {
+        "id": "PHASE-P3",
+        "layer": "PHASE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "phase_id": "P3",
+        "name_zh": "远期：众智园人机友好全栈验证",
+        "phase_label": "P3",
+        "area_sqm_declared": 3535020.464,
+        "priority": 3,
+        "hmf_milestone": "封闭—半开放—公共运行三级验证与标准固化",
+        "alignment_precision": "schematic_partition_provisional",
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "field_survey_required": true
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                116.3417,
+                40.006
+              ],
+              [
+                116.3427,
+                40.0265
+              ],
+              [
+                116.3553,
+                40.0265
+              ],
+              [
+                116.3536698630137,
+                39.99675
+              ],
+              [
+                116.34110322580645,
+                39.99675
+              ],
+              [
+                116.3417,
+                40.006
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.3553,
+                39.965
+              ],
+              [
+                116.35507,
+                39.967875
+              ],
+              [
+                116.3533,
+                39.99
+              ],
+              [
+                116.3553,
+                39.965
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
