@@ -501,7 +501,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "画像（居民与游客、受表彰者与贡献者、学生与教育者、社区运营者、国际访客）与五类AI+场景，禁止过度监控。"
+      "evidence_summary_zh": "八类画像覆盖居民家庭、儿童照护者、老年/低数字能力者、无障碍需求者、国际访客、研究者、从业者与公共贡献者；十张AI场景卡均禁止过度监控并保留人工复核。"
     },
     {
       "requirement_id": "1.5.2.2",
@@ -1006,7 +1006,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "一带总体概念：京张荣耀带——荣誉展示体系与公共空间组件库的绿带总体统筹。"
+      "evidence_summary_zh": "一带总体概念：京张荣耀带——荣誉展示体系与公共空间组件库的绿带总体统筹；附三大定位、五大功能、三区两翼逐项响应矩阵。"
     },
     {
       "requirement_id": "agent.2",
@@ -1063,7 +1063,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "荣耀长廊、里程碑广场与贡献者花园三节点，支撑展陈、纪念与署名参与的全链条荣誉表达。"
+      "evidence_summary_zh": "荣耀长廊、里程碑广场与贡献者花园三节点，支撑展陈、纪念与署名参与的全链条荣誉表达；另以三片区矩阵落实算力—数据—模型—评测—部署—治理、消费/商务和公共体验路径。"
     },
     {
       "requirement_id": "agent.3",
@@ -1119,7 +1119,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "五类AI+场景：荣誉内容AI策展与去重、多语无障碍讲解、展陈设施巡检维护AI、参与度匿名感知与动线建议、内容审核人工复核，全部数据匿名聚合+人工复核。"
+      "evidence_summary_zh": "十张AI场景卡 S01-S10，其中S04-S06为产业验证场景；每张卡均写明输入边界、空间、输出、运营主体、人工复核与退出，全部仅匿名聚合并保留人工兜底。"
     },
     {
       "requirement_id": "agent.4",
@@ -1322,7 +1322,7 @@
           "taskbook_term_en": "Centennial Jingzhang Cultural Belt",
           "spatial_carrier": "GLORY·JZ green corridor; Glory Gallery, Milestone Plaza, Contributor Garden",
           "operating_mechanism": "A rotating public-memory program links railway history, present innovation and credited public contribution; content is submitted, rights-checked, human-curated, published, reviewed and withdrawable.",
-          "scenario_metric": "Five public-space AI scenarios; landmark_count=3; annual_program_count=3; scenario_node_count=8.",
+          "scenario_metric": "Ten auditable AI scene cards (S01-S10); landmark_count=3; annual_program_count=3; scenario_node_count=8.",
           "evidence_anchors": [
             "proposal.md#重点区域详细设计",
             "geometry/public_space.geojson",
@@ -1336,7 +1336,7 @@
           "taskbook_term_en": "Urban AI Living Experience Belt",
           "spatial_carrier": "RD-SPINE greenway, three public-space landmarks and five scenario nodes",
           "operating_mechanism": "A normal-day/event-day switch uses bilingual route cards, accessible rest points and manual safety review; only opt-in anonymous aggregates inform route suggestions.",
-          "scenario_metric": "public_space_ratio=0.003167; scenario_node_count=8; persona_count=5; public_experience_path_count=1.",
+          "scenario_metric": "public_space_ratio=0.003167; scenario_node_count=8; persona_count=8; scenario_card_count=10; public_experience_path_count=1.",
           "evidence_anchors": [
             "geometry/roads.geojson",
             "geometry/public_space.geojson",
@@ -1377,7 +1377,7 @@
           "taskbook_term_en": "World-class AI Innovation Ecosystem",
           "spatial_carrier": "AI原点社区 (KEY-BEIJ) and 中关村科技服务翼",
           "operating_mechanism": "An open call, case-library and service referral loop connects talent, space, data, compute, capital and scenes without naming or promising a specific enterprise, investor or policy allocation.",
-          "scenario_metric": "global_case_count=4; annual_program_count=3; persona_count=5; evidence is a proposed mechanism, not an implementation claim.",
+          "scenario_metric": "global_case_count=8; annual_program_count=3; persona_count=8; evidence is a proposed mechanism, not an implementation claim.",
           "evidence_anchors": [
             "geometry/key_areas.geojson:KEY-BEIJ",
             "metrics.json:global_case_count",
@@ -1417,7 +1417,7 @@
           "taskbook_term_en": "Global Voice in AI Governance",
           "spatial_carrier": "Contributor Garden governance board, Zhongzhiyuan governance log and all three public nodes",
           "operating_mechanism": "The public governance kit uses anonymized aggregates only, human review for key decisions, no excessive monitoring, a public register, complaint/withdrawal channel and an exit record.",
-          "scenario_metric": "Five AI scenarios carry human_review and exit_condition fields; privacy and rights assumptions are recorded in assumptions.json and risk.json.",
+          "scenario_metric": "Ten AI scenario cards carry human_review and exit_condition fields; privacy and rights assumptions are recorded in assumptions.json and risk.json.",
           "evidence_anchors": [
             "assumptions.json:A-PRIVACY-001",
             "compliance_matrix.json:district_ai_matrix",
@@ -1430,11 +1430,11 @@
           "taskbook_term_en": "AI Origin Community",
           "spatial_carrier": "KEY-BEIJ / geometry/key_areas.geojson",
           "operating_mechanism": "A public learning and contribution interface translates ecosystem knowledge into bilingual, accessible community programs; no organization or built facility is claimed.",
-          "scenario_metric": "persona_count=5; annual_program_count=3; route and display content remain proposed until rights and site review.",
+          "scenario_metric": "persona_count=8; scenario_card_count=10; annual_program_count=3; route and display content remain proposed until rights and site review.",
           "evidence_anchors": [
             "geometry/key_areas.geojson:KEY-BEIJ",
             "metrics.json:persona_count",
-            "proposal.md#五类用户画像"
+            "proposal.md#八类用户画像"
           ]
         },
         {
@@ -1469,7 +1469,7 @@
           "taskbook_term_en": "Zhongguancun Technology Service Wing",
           "spatial_carrier": "Regional service interface linked conceptually to AI Origin Community and the corridor nodes",
           "operating_mechanism": "A referral and review mechanism connects public calls, technical support, knowledge assets and rights checks; it does not promise capital,招商 or institutional participation.",
-          "scenario_metric": "global_case_count=4; annual_program_count=3; area_wing_count=5.",
+          "scenario_metric": "global_case_count=8; annual_program_count=3; area_wing_count=5.",
           "evidence_anchors": [
             "compliance_matrix.json:alignment_matrix",
             "metrics.json:global_case_count",

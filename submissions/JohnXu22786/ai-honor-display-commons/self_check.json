@@ -10,11 +10,11 @@
       "ok": true,
       "errors": [],
       "warnings": [
+        "submissions/JohnXu22786/ai-honor-display-commons/proposal.md: 可能涉及非公开或敏感资料; maintainer review required",
+        "submissions/JohnXu22786/ai-honor-display-commons/manifest.json: known_blockers present; submission may pass intake but cannot enter formal professional scoring until resolved",
+        "submissions/JohnXu22786/ai-honor-display-commons/self_check.json: formal submission has blocking failed self-check `DETERMINISTIC_VALIDATION`; pending self-check replacement",
         "submissions/JohnXu22786/ai-honor-display-commons/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/JohnXu22786/ai-honor-display-commons/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-honor-display-commons/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-honor-display-commons/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-        "submissions/JohnXu22786/ai-honor-display-commons/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
+        "submissions/JohnXu22786/ai-honor-display-commons/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/ai-honor-display-commons/proposal.md"
@@ -69,7 +69,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-honor-display-commons": "formal"
       },
-      "total_bytes": 4658890,
+      "total_bytes": 3314632,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -143,7 +143,7 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 31,
+        "known_metric_refs_required": 32,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
@@ -169,10 +169,8 @@
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
   "next_actions": [
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-honor-display-commons/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-honor-display-commons/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-honor-display-commons/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-honor-display-commons/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
+    "Resolve formal-readiness warning: submissions/JohnXu22786/ai-honor-display-commons/manifest.json: known_blockers present; submission may pass intake but cannot enter formal professional scoring until resolved",
+    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-honor-display-commons/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible"
   ],
   "schema_version": "0.1.0",
   "checks": [
