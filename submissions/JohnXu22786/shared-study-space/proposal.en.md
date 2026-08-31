@@ -23,6 +23,20 @@ Data status must be stated first: this workspace does not contain the official o
 
 > **Evidence anchor**: \[source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509\], \[source:DATA-SRC-AGENT-TASKBOOK-2026-0518\] (organiser announcement and taskbook are the textual-caliber basis).
 
+## Taskbook closure: three positionings, five functions, and agent.1—agent.6
+
+The three positionings (Jingzhang heritage culture, urban AI life experience, and AI-integrated innovation) are answered by the learning-culture narrative, tangible seat/class/wayfinding services, and the scenario-test/developer interfaces. The taskbook's five functions (AI full stack, world-class ecosystem, AI+scenarios, AI vitality city, and AI governance) are not this package's invented spatial functions: the first two are answered by the seven-factor atlas and regional interfaces; the third by SC-01—SC-10 and IT-01—IT-03; the fourth by the one-hall/one-valley/one-night-room network, blue-green learning route and public components; and the fifth by anonymised aggregation, human review, withdrawal, complaint and shutdown rules. Three nodes and the two wings are mechanism interfaces only; no partnership or implementation is asserted. This registry and the canonical scenario table are the review entry points.
+
+| Task item | Verifiable package carriers | Boundary |
+| --- | --- | --- |
+| Three positionings / five functions | This section, ecosystem atlas, scenario registry, governance and public-space sections | Concept suggestions, not approval or implementation |
+| agent.1 | Naming, logo-brand, rights ledger | Internal codename; search incomplete |
+| agent.2 | Seven-factor atlas, regional interfaces and sources | Mechanism interface; no invented partner or resource volume |
+| agent.3 | SC-01—SC-10, IT-01—IT-03, metrics | Participant-proposed tests, not production approval |
+| agent.4 | Three AI landmarks, honour wall, public component library | Modular concept pending existing-condition/fire/accessibility checks |
+| agent.5 | Jingzhang-to-learning-culture-to-AI-new-culture narrative, wayfinding, bilingual book | Communication copy, not official cultural designation |
+| agent.6 | Developer community, scenario opening, mentor pairing, talent/enterprise pathways | Public application and human review; no recruitment promise |
+
 ## Three-Level Scope Framework
 
 The three tiers are linked by a responsibility chain of "problem - space - operation - evidence - exit" so that macro research, overall design and node design do not talk past each other. Per the official announcement's textual caliber, the three tiers from top to bottom are: the ~43.6 square-kilometre coordinated research scope (belt-wide industry and future-city research), the ~11.4 square-kilometre overall design scope (urban renewal and regulatory-plan-level urban design), and the ~368.4-hectare key detailed-design scope (three key areas from north to south: Zhongzhiyuan AI Independent-Innovation Acceleration Area, Beijing AI Origin Community, Dazhongsi AI Industry Cluster). This package corresponds to the shared-study special theme sub-scope under the official key-area framework: the three learning nodes (STU-HALL, STU-VALLEY, STU-NIGHT Room) and the slow-study route linking them. The sub-scope clearly sits below the official three tiers; no provisional geometry is passed off as an official redline.
@@ -118,42 +132,38 @@ The learning network's service objects are grouped into six persona profiles (co
 
 The AI innovation ecosystem is organised by seven factor types (conceptual atlas, agent.2): compute, data, models, talent, capital, space and governance, all linked by the learning network as a public carrier - compute and data on demand from existing public resources, models and technology supported by university open research and the developer community, talent and capital connected through mentor pairing and study-community registration to the Zhongguancun technology-service wing mechanism interfaces, space carried by the three nodes and the component library, and governance bounded by anonymised aggregation, human review and annual disclosure. The seven-factor atlas is assets/figures/ai-ecosystem-atlas.png; it is a capability map, not an engineering or investment list.
 
-Ten shared-study AI+ scenario cards, all conceptual and bounded by anonymised aggregation + human review, as illustrations not deployed systems:
+### Canonical scenario registry (SC-01—SC-10)
 
-| Card ID | Scenario points | Spatial anchor | Operation mapping | Privacy & human-review boundary |
-| --- | --- | --- | --- | --- |
-| SC-01 Seat Reservation AI | timed pod booking, release & availability cue | STU-HALL pods, STU-VALLEY desks | reservation for fulfilment only; on-site & phone paths | no unnecessary personal data, no individual profiling |
-| SC-02 Study Atmosphere AI | anonymised environment sensing, zone cues | quiet vs seminar boundary at three nodes | zone suggestions to operator, effective after human confirmation | anonymised aggregation only, no identifying tracking |
-| SC-03 Resource Recommendation AI | recommendation from public catalogues & explicit choice | STU-VALLEY station, STU-NIGHT classes | recommendations are candidates; humans decide | purpose, source, retention approved in advance |
-| SC-04 Energy Optimisation AI | operating advice from existing meter data | lighting & equipment at three nodes | advice to operator only, no direct device control | no energy/works conclusion, no personal data |
-| SC-05 Activity Matching AI | study-group & activity information matching | STU-VALLEY notice wall, annual disclosure | posts human-reviewed; schedules per actual approval | de-identified aggregation, no participant disclosure |
-| SC-06 Seat-Release Cue AI | anonymised pre-peak flow & queue cue | STU-HALL entrance, pick-up zone | volume brackets relayed to operator only | volume brackets only, no individual trajectory |
-| SC-07 Accessible Voice Guide AI | voice guidance for seniors & vision-impaired | STU-NIGHT Room & accessible routes | voice human-checked, can be switched off anytime | no recording, no voice identity stored |
-| SC-08 Community-Class Scheduling AI | match classes to sign-ups & instructor slots | STU-NIGHT classes, skill workshop | schedule published after human review | sign-ups anonymised, statistics only |
-| SC-09 Volunteer Rostering AI | match duty modules & shifts to volunteers | duty desks at three nodes | roster suggestions run after human confirmation | voluntary-registration data only, no extra collection |
-| SC-10 Learning-Route Guide AI | peak-shift route advice from aggregated reservations | transition points of the learning route | advice reference only, no forced diversion | aggregate brackets only, no individual trajectory |
+This is the single source of truth for scenario IDs, names, users/problems, node anchors, inputs, AI role, operating responsibility, human review, privacy boundary, metric, IT mapping and exit condition. Figures, HTML, PDFs, GeoJSON properties and matrices reuse these IDs without renaming. Spatial anchors are conceptual, not official redlines or precise device locations.
 
-Nine scenario-node list (consistent with geometry/public_space.geojson: three AI landmarks plus six scenario nodes):
+> **Evidence anchor**: [source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES], [metric:scenario_card_count], [data:PACKAGE-GEOMETRY].
 
-| Node ID | Type | Location anchor | Scenarios hosted |
-| --- | --- | --- | --- |
-| STU-HALL | AI landmark | STU-HALL | SC-01, SC-02, SC-06 |
-| STU-VALLEY | AI landmark | STU-VALLEY | SC-03, SC-05, SC-09 |
-| STU-NIGHT | AI landmark | STU-NIGHT Room | SC-07, SC-08 |
-| SN-01 ... SN-06 | scenario node | around the three nodes and the route | composite SC-02/04/06 etc. |
-| Total | 9 | nodes + route | ten cards reusable across nodes |
+| ID / unique name | Users & problem | Node / space | Data input | AI role | Operating owner | Human review | Privacy boundary | Metric | IT map | Exit condition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SC-01 Seat Reservation AI | Exam-prep youth and students; peak availability is unclear | STU-HALL pods; STU-VALLEY shared desks | Slot, node, anonymous order ID, arrival/cancellation state | Release waitlist slots and show availability brackets | Public-operator service desk | Desk confirms fulfilment/release | Fulfilment fields only; no individual profile | Fulfilment and complaint rate | IT-01 | Two observation windows below threshold, purpose breach, or loss of paper/human path |
+| SC-02 Study Atmosphere AI | All-age learners; quiet/seminar conflict | Quiet–seminar transitions at all three nodes | Anonymous environment aggregates; manual patrol notes | Candidate zone cues | Node duty lead | Duty lead confirms before any notice/change | No audio, identification or tracking | Zone complaints; cue adoption | IT-01 | Data-quality failure, identifying collection or two worsening periods |
+| SC-03 Resource Recommendation AI | Students, workers and senior learners; resources are hard to find | STU-VALLEY station; STU-NIGHT classes | Public catalogues; user-selected topic | Candidate resource list | Learning-resource steward | Source, suitability and freshness checked | No identity inference; no unnecessary preference retention | Click/attendance brackets; satisfaction | IT-02 | Source failure or uncorrectable bias complaint |
+| SC-04 Space Energy Optimisation AI | Operators; equipment anomalies are hard to see | Public lighting/equipment at three nodes | Existing aggregate meter periods; maintenance log | Operating-period advice; no direct control | Facilities lead | Engineering/safety review | Non-personal metering only | Adoption and anomaly-review rate | IT-02 | Unknown meter caliber, safety/accessibility impact or two ineffective periods |
+| SC-05 Learning Activity Matching AI | Study groups and classes; supply and demand mismatch | STU-VALLEY notice wall; annual disclosure | Public activity info; headcount brackets; instructor slots | Candidate activity/time match | Community operator | Human publishing and complaint handling | Aggregate headcounts; no participant disclosure | Fulfilment and cancellation rate | IT-02 | No human review, identity leakage or repeated excess cancellation |
+| SC-06 Seat-Release Cue AI | Visitors; peak queue information is unclear | STU-HALL entrance and ticket zone | Anonymous visitor brackets; release state | Operator-only volume cue | Hall duty desk | Desk decides whether to display | Brackets only; no trajectory | Queue feedback; manual error sample | IT-01 | Misleading cue, unexplained error or trajectory data |
+| SC-07 Accessible Voice Guide AI | Seniors, vision-impaired and unfamiliar users; wayfinding is hard | STU-NIGHT and accessible routes | Human-approved route script; user trigger | Plays preset voice guidance | Accessibility desk | Human copy review before release | No recording or voice identity; switch-off anytime | Arrival feedback; human-help rate | IT-03 | Incorrect guidance, no switch-off or repeated harm; paper/human fallback |
+| SC-08 Community-Class Scheduling AI | Classes/workshops; sign-ups and instructor slots do not align | STU-NIGHT classes and workshops | Course, headcount bracket, instructor slots | Candidate schedule | Night-room class steward | Steward confirms before publishing | Course statistics only; period deletion | Fulfilment and reschedule rate | IT-02 | Missing safety/resource condition or two weak periods |
+| SC-09 Volunteer Rostering AI | Volunteers and duty leads; duty gaps | Duty desks at all nodes | Voluntary role qualification and available slots | Candidate roster | Joint operator | Lead confirms each shift; volunteer may refuse | No sensitive expansion; no profiling | Gap rate; confirmation rate | IT-02 | Unconfirmed shift cannot run; worsening gaps or voluntary withdrawal |
+| SC-10 Learning-Route Guide AI | Cross-node learners; peak route choice is unclear | Route transition points | Aggregate booking brackets; manually checked conditions | Non-binding off-peak suggestion | Route service desk | Duty + accessibility/safety roles review | Brackets only; no personal location or false precision | Route feedback; manual deviation sample | IT-03 | Unverified conditions, safety impact or trajectory collection |
 
-Three industry test-validation scenarios (matching metric:industry_test_scenario_count; all conceptual test protocols, not approved production), each with test hypothesis, technical maturity, input-output, spatial condition, human review, evaluation threshold, risk isolation and exit mechanism:
+### Node master data and geometry attributes
 
-| Test scenario | Hypothesis | Maturity | Input→Output | Spatial condition | Evaluation threshold | Risk isolation & exit |
-| --- | --- | --- | --- | --- | --- | --- |
-| IT-01 Availability sensing & fulfilment | anonymised availability cues reduce perceived peak queues | medium | meter→seat bracket (aggregate) | STU-HALL pilot pods | fulfilment & complaint rates at disclosed thresholds | anonymised only; stop on boundary breach; mandatory stop under threshold |
-| IT-02 Volunteer rostering recommendation | structured rosters reduce duty gaps | low-medium | duty registration+slots→roster advice | STU-VALLEY duty desk | gap reduction & volunteer retention thresholds | advice human-confirmed; stop model after consecutive misses |
-| IT-03 Night safety linkage alert | one-touch help + lighting shorten response | low | help signal+point→duty-desk alert | STU-NIGHT Room & night route | response-rate & false-alarm dual thresholds | human duty is the fallback; false-alarm breach stops use |
+The three AI landmarks are STU-HALL (织学馆), STU-VALLEY (学研谷), and STU-NIGHT (夜读室). Six scenario nodes are functional touchpoints, not verified device or road positions: SN-01 Hall entrance (SC-01/06), SN-02 Hall quiet–seminar transition (SC-02), SN-03 Valley notice wall (SC-03/05), SN-04 Valley duty desk (SC-09), SN-05 Night Room class foyer (SC-07/08), and SN-06 route transition point (SC-04/10). `geometry/public_space.geojson` uses matching `scenario_ids`, `node_role`, and `location_precision=concept_anchor`; all geometry remains provisional.
 
-All are conceptual test protocols; every test keeps a no-phone equivalent path, human review and instant-stop conditions, and no test/imagined scenario is written as approved operation. AI technical protocols (concept) cover four types: model evaluation (per-scenario baseline test sets with disclosed criteria), data quality (existing metered/public-catalogue data only; missing data is flagged and excluded), error stratification (aggregate results stratified by period, area, weather etc. with confidence labels), and runtime monitoring (monitor false-alarm rate and resource usage; thresholds trigger human review or shutdown). The AI-governance three-sentence rule runs throughout: scenarios operate on anonymised aggregation only, key decisions get human review, and over-surveillance is banned (no individual-identifying tracking). Privacy and environment-sensing collection is anonymised-aggregation only, fully human-reviewable, revocable and deletable.
+### IT-01—IT-03 concept test protocols (participant-proposed)
 
-> **Evidence anchor**: \[source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES\] (governance wording reference), \[metric:persona_count\], \[metric:scenario_node_count\], \[metric:industry_test_scenario_count\].
+| Test | Baseline & sample | Window & formula | Provisional threshold & approval | Owner | Stop / fallback |
+| --- | --- | --- | --- | --- | --- |
+| IT-01 Availability and fulfilment | Four consecutive pre-launch weeks of anonymous bookings, arrival/cancellation and weekly manual spot checks; no identity fields | 8 weeks (4 baseline + 4 test); fulfilment = fulfilled eligible bookings / eligible bookings; complaint rate = related complaints / eligible bookings | Fulfilment no more than 5 percentage points below baseline; complaint rate no more than 1 point above baseline; operator and public representatives approve before test | Public operator desk; safety role consulted | Two windows fail, privacy breach or human path interruption: disable recommendation and retain paper/human service |
+| IT-02 Volunteer roster recommendation | Four pre-launch weeks of published shifts and gaps, stratified by node/time; low-sample groups are not concluded | 8 weeks; gap rate = uncovered published shifts / published shifts; confirmation = confirmed suggestions / suggestions | Gap rate no worse than baseline and 100% human confirmation; joint operator and volunteer representative approve | Joint operator; community steward records | An unconfirmed shift never runs; two worsening periods: manual roster |
+| IT-03 Night safety linkage | Desktop exercise/controlled drill only; four-week human-duty response baseline stratified by period; no real incident fabrication | 4 baseline + 4 controlled-drill weeks; compare median response and false-alarm share with baseline | Median response no worse than baseline and false alarms no higher; numbers and drill plan require fire/safety professional approval, currently participant-proposed | Night-room duty lead; fire/safety review | Any real risk, alarm breach or failed takeover: stop linkage and return to human duty/one-touch help |
+
+All three are concept validation protocols, not production approval, fire-safety conclusions or performance guarantees. Stratification, sample size, thresholds and version freeze require sign-off before testing, followed by auditable aggregate evidence and a retrospective.
 
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 

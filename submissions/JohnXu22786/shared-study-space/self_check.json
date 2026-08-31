@@ -88,7 +88,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/shared-study-space": "formal"
       },
-      "total_bytes": 32070601,
+      "total_bytes": 5964505,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -146,6 +146,10 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
+        "landmark_count": 3.0,
+        "scenario_node_count": 9.0,
+        "scenario_card_count": 10.0,
+        "industry_test_scenario_count": 3.0,
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.116417,
         "public_space_ratio": 0.004464
@@ -170,7 +174,7 @@
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 5
+          "metric": 3
         }
       }
     },
