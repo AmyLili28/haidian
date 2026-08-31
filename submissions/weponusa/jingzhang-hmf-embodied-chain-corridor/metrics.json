@@ -151,6 +151,90 @@
         "场景卡可复用空间节点，因此13张卡对应12个SCENARIO_NODE；S01/S11锚定RD-001，S04锚定PLZ-004"
       ]
     },
+    "hmf_hard_gate_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/implementation-gates.png"
+      ],
+      "formula": "count(field acceptance gates G-01 回库闭合, G-02 高峰让路, G-03 物流外置)",
+      "confidence": "high",
+      "assumptions": [
+        "三条门是概念试点验收手续，不是已批准运营；失败则整段降级，须专项核定后才能试行"
+      ]
+    },
+    "hmf_field_component_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/implementation-gates.png"
+      ],
+      "formula": "count(field components FC-01 through FC-05 hung on existing RP/SN ids)",
+      "confidence": "high",
+      "assumptions": [
+        "构件位置为 C 级示意，复用 RP-02/03/15/16 与 SN-006/010，不另起工程清单"
+      ]
+    },
+    "hmf_rollback_rule_count": {
+      "status": "known",
+      "value": 1,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/implementation-gates.png"
+      ],
+      "formula": "count(explicit whole-segment downgrade rule: gate fail downgrades machine-class privilege, not a single unit)",
+      "confidence": "high",
+      "assumptions": [
+        "降级对象是机器权限与开放时段，人的通行与无障碍不降级"
+      ]
+    },
+    "hmf_playbook_stage_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/hmf-playbook.png"
+      ],
+      "formula": "count(Jing-Zhang playbook stages translated from Fuxing guide ch.12: S1 plan-assess, S2 build-sync, S3 test-certify-access, S4 operate-review)",
+      "confidence": "high",
+      "assumptions": [
+        "四阶段是概念实施手续，不是海淀已批准流程；须北京本地法规与专项核定后才能试行"
+      ]
+    },
+    "hmf_playbook_check_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/hmf-playbook.png"
+      ],
+      "formula": "count(five-friendliness field checks: action / work / environment / interaction / governance)",
+      "confidence": "high",
+      "assumptions": [
+        "五友好验收单任一不过关，场景不得从封闭进入公共运行"
+      ]
+    },
+    "hmf_enterprise_access_step_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/hmf-playbook.png"
+      ],
+      "formula": "count(enterprise procedure steps: test, compatibility-certify, access)",
+      "confidence": "high",
+      "assumptions": [
+        "京张兼容性核验不借用外地认证品牌；未达标只派驻安全员，禁止全无人接入"
+      ]
+    },
     "hmf_twelve_hours_count": {
       "status": "known",
       "value": 12,

@@ -1186,7 +1186,13 @@
         "near_miss_events_per_1000km",
         "manual_service_availability_ratio",
         "ai_scenario_card_count",
-        "hmf_twelve_hours_count"
+        "hmf_twelve_hours_count",
+        "hmf_hard_gate_count",
+        "hmf_field_component_count",
+        "hmf_rollback_rule_count",
+        "hmf_playbook_stage_count",
+        "hmf_playbook_check_count",
+        "hmf_enterprise_access_step_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1196,7 +1202,9 @@
         "总览地图",
         "任务覆盖",
         "核心指标",
-        "十二时辰"
+        "十二时辰",
+        "现场验收门",
+        "实施指导单"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1205,7 +1213,8 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "CASE-FUXING-HMF-GUIDE"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -1216,7 +1225,9 @@
         "A-HMF-BASELINE-001",
         "A-HMF-SPEED-001",
         "A-DIGITAL-TWIN-001",
-        "A-COUNT-001"
+        "A-COUNT-001",
+        "A-HMF-GATES-001",
+        "A-HMF-PLAYBOOK-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",

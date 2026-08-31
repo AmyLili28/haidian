@@ -24,6 +24,8 @@
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/twelve-hours.webp: bilingual contract requires en display counterpart `assets/figures/concept/twelve-hours.en.webp`; legacy v1 package remains compatible",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/differentiation.png: bilingual contract requires en display counterpart `assets/figures/differentiation.en.png`; legacy v1 package remains compatible",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/global-ops.png: bilingual contract requires en display counterpart `assets/figures/global-ops.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/hmf-playbook.png: bilingual contract requires en display counterpart `assets/figures/hmf-playbook.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/implementation-gates.png: bilingual contract requires en display counterpart `assets/figures/implementation-gates.en.png`; legacy v1 package remains compatible",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
@@ -55,6 +57,8 @@
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/twelve-hours.webp",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/differentiation.png",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/global-ops.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/hmf-playbook.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/implementation-gates.png",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/key-areas.png",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/land-use-structure.png",
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/metrics-evidence.png",
@@ -90,7 +94,7 @@
       "ai_package_stages": {
         "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor": "formal"
       },
-      "total_bytes": 24434692,
+      "total_bytes": 26739288,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -156,6 +160,12 @@
         "ai_scenario_node_count": 12.0,
         "ai_scenario_card_count": 13.0,
         "hmf_twelve_hours_count": 12.0,
+        "hmf_hard_gate_count": 3.0,
+        "hmf_field_component_count": 5.0,
+        "hmf_rollback_rule_count": 1.0,
+        "hmf_playbook_stage_count": 4.0,
+        "hmf_playbook_check_count": 5.0,
+        "hmf_enterprise_access_step_count": 3.0,
         "spine_length_m": 9664.892,
         "road_network_length_m": 41539.676,
         "scenario_node_key_area_containment_ratio": 0.8333
@@ -172,7 +182,7 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 22,
+        "known_metric_refs_required": 28,
         "proposal_format_version": "1",
         "evidence_contract": "legacy-exhaustive-inline",
         "proposal_reference_counts": {
@@ -180,7 +190,7 @@
           "standard": 6,
           "depth": 15,
           "data": 18,
-          "metric": 30
+          "metric": 36
         }
       }
     },
@@ -209,6 +219,8 @@
     "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/twelve-hours.webp: bilingual contract requires en display counterpart `assets/figures/concept/twelve-hours.en.webp`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/differentiation.png: bilingual contract requires en display counterpart `assets/figures/differentiation.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/global-ops.png: bilingual contract requires en display counterpart `assets/figures/global-ops.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/hmf-playbook.png: bilingual contract requires en display counterpart `assets/figures/hmf-playbook.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/implementation-gates.png: bilingual contract requires en display counterpart `assets/figures/implementation-gates.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
