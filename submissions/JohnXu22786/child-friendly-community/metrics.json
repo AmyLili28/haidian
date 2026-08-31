@@ -7,7 +7,8 @@
   "metrics": {
     "site_area_sqm": {
       "status": "known",
-      "value": 11413000,
+      "value": 11412825.385554,
+      "display_value": "~11.4 million sqm (provisional)",
       "unit": "sqm",
       "source_files": [
         "geometry/site_boundary.geojson"
@@ -16,13 +17,14 @@
       "confidence": "medium",
       "assumptions": [
         "Provisional boundary, not an official redline.",
-        "Display precision: value rounded from 11412825 to the nearest 1000 sqm to avoid implying statutory precision (per reviewer guidance). Official boundary release triggers immediate recalculation."
+        "Audit value is retained at geometry precision; human-facing display_value is intentionally low precision and must not imply statutory precision. Official boundary release triggers immediate recalculation."
       ],
       "recompute_trigger": "Official overall-design boundary release (per announcement textual caliber about 11.4 km2) - recompute by the same formula and update all displays."
     },
     "green_space_area_sqm": {
       "status": "known",
-      "value": 1418000,
+      "value": 1418042.030107,
+      "display_value": "~1.42 million sqm (provisional)",
       "unit": "sqm",
       "source_files": [
         "geometry/green_space.geojson"
@@ -30,13 +32,14 @@
       "formula": "union(conceptual green polygons, EPSG:4548)",
       "confidence": "low",
       "assumptions": [
-        "Display precision: rounded from 1418042 to the nearest 1000 sqm. Design-layer caliber, not the land-class share."
+        "Audit value is retained at geometry precision; human-facing display_value is intentionally low precision. Design-layer caliber, not the land-class share."
       ],
       "recompute_trigger": "Official green-space data release - recompute by the same formula."
     },
     "public_space_area_sqm": {
       "status": "known",
-      "value": 51250,
+      "value": 51250.0,
+      "display_value": "~51,000 sqm (provisional)",
       "unit": "sqm",
       "source_files": [
         "geometry/public_space.geojson"
@@ -64,7 +67,8 @@
     },
     "green_ratio": {
       "status": "known",
-      "value": 0.1243,
+      "value": 0.12424986646180651,
+      "display_value": "~12.4% (provisional)",
       "unit": "ratio",
       "source_files": [
         "geometry/green_space.geojson",
@@ -73,13 +77,14 @@
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "low",
       "assumptions": [
-        "Design-layer caliber (green space design layer / site area); distinct from the land-class share of park green space (26.94%). Display precision: rounded from 0.12425 to 4 decimals."
+        "Audit ratio is retained from the geometry-derived numerator and denominator; human-facing display_value is ~12.4%. Distinct from the land-class share of park green space (26.94%)."
       ],
       "recompute_trigger": "Official green-space and boundary data release - recompute by the same formula."
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.0045,
+      "value": 0.004490562000963465,
+      "display_value": "~0.45% (provisional)",
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",
@@ -88,7 +93,7 @@
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "low",
       "assumptions": [
-        "Design-layer caliber. Display precision: rounded from 0.004491 to 4 decimals."
+        "Audit ratio is retained from the geometry-derived numerator and denominator; human-facing display_value is ~0.45%."
       ],
       "recompute_trigger": "Official public-space and boundary data release - recompute by the same formula."
     },
@@ -203,7 +208,7 @@
       "formula": "count(global ecosystem mechanism case rows in proposal.md case table)",
       "confidence": "high",
       "assumptions": [
-        "Six registered public-channel cases: UNICEF CFCI, Japan joint school-route inspections, Dutch woonerf, Seoul school zones, UK walking bus, Barcelona superblocks."
+        "Six registered global AI ecosystem cases: CERN openlab, AIST ABCI, Singapore AI Verify, EuroHPC AI Factories, Vector Institute, and Mila; six child-friendly/slow-mobility cases remain background mechanism references."
       ]
     },
     "phase_count": {

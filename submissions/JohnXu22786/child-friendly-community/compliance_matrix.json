@@ -997,7 +997,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "一带总体概念：童行智环（KID·JZ）中文/英文命名与「路环+童心点」视觉母题；三层范围定位（官方43.6/11.4/368.4口径与包子范围）；一学一园一角全带统筹；两翼与区域协同以服务接口概念预留。"
+      "evidence_summary_zh": "实质追踪表见 proposal.md / proposal.en.md 的“三大定位—五大功能—三区两翼—agent.1–6 实质追踪表”：agent.1 将官方文本口径、provisional geometry 与儿童议事会问题输入，输出一学一园一角总图、三节点接口和定位—功能链；空间接口覆盖 AI 原点社区、众智园加速区、大钟寺产业集聚区与北纬服务协同，官方边界/权属/交通不符即回退为概念图与待核清单。"
     },
     {
       "requirement_id": "agent.2",
@@ -1052,7 +1052,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "AI全栈与生态：六项公开渠道案例逐一登记来源（UNICEF CFCI/日本合同点检/荷兰Woonerf/首尔学校区/英国步行巴士/巴塞罗那超级街区），机制转译至通学路共建共治/错时共享/志愿轮换；AI创新生态图谱连接产学研用与四要素；三个产业测试场景为共解接口。"
+      "evidence_summary_zh": "agent.2 实质证据在 proposal 的“全球 AI 创新生态案例”和“三区两翼 AI 生态与产业支撑矩阵”：六项儿童友好案例明确降级为背景机制，另以 CERN openlab、AIST ABCI、Singapore AI Verify、EuroHPC AI Factories、Vector Institute、Mila 六项案例支撑全栈/算力/数据/开放测试机制；每项有 source/licence/boundary/转译，且六项不计入 global_case_count 的儿童案例。"
     },
     {
       "requirement_id": "agent.3",
@@ -1107,7 +1107,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "AI+场景新范式：五类AI+服务×十张场景卡（每卡输入输出模型边界失败模式人工职责退出机制）；AI运行质量控制四环节（数据质量/模型评测/误差分群/运行监测）；场景对应空间节点（scenario_node_count=9，临时几何）。"
+      "evidence_summary_zh": "agent.3 将匿名聚合、人工复核、失败模式和退出机制落实到五类 AI+ 服务×十张场景卡及三个概念测试场景；空间输出覆盖安全通学路、童趣公园、亲子驿站和小月河场景赋能翼，识别风险、偏差、投诉、资质或人工缺位即 kill-switch，并保留纸本/电话替代。"
     },
     {
       "requirement_id": "agent.4",
@@ -1162,7 +1162,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "AI公共空间与朝圣地标：三处朝圣地标目录（童趣树屋/环上灯塔/暖屋）；荣誉展示体系「童行荣耀榜」（荣誉墙+月度荣誉廊+匿名化公示，儿童议事会主持评选）；可逆组件库「童趣组合件」（资产编号/维护责任人/巡检周期/撤收条件）；节点日常化、无巨型构筑。"
+      "evidence_summary_zh": "agent.4 由 proposal 的“东西缝合、南北贯通与大钟寺接口”、三节点决策卡和三地标/可逆组件目录共同闭环：东西向沿绿带串联 AI 原点社区—众智园—大钟寺，南北向仅预留学校/住区/轨道/北纬服务接口；大钟寺智能消费/商务只接收经同意的公共服务时段/资源清单，不招商、不追踪消费；交通、消防、文保、绿地或安全不通过即移位/删除。"
     },
     {
       "requirement_id": "agent.5",
@@ -1217,7 +1217,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "文化叙事设计：百年京张铁路记忆（文化提示点，公开史实为准）+中关村创新日常+儿童友好细节三层叙事；「环上灯塔」光影呼应灯房记忆；国际传播体系为概念方向（双语内容模板/国际案例链接/公开资料页设计建议），不承诺境外发布结果。"
+      "evidence_summary_zh": "agent.5 以“百年京张记忆—中关村创新日常—儿童友好细节”三层叙事为输入，输出双语传播文案、受众/渠道/责任人矩阵和品牌边界：母品牌 logo、文化导视与三项活动子品牌分开；史实、肖像、商标或翻译无法核验即撤稿/改 placeholder，不承诺境外发布。"
     },
     {
       "requirement_id": "agent.6",
@@ -1271,7 +1271,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "全球活动与长期运营：年度活动体系（童玩周/安全通学日/家庭自然季，各带周期/内容/评估方式）；开发者社区「童行开发者社区」+场景开放分级备案（概念）；积分/轮换/志愿机制保障长期人力；要素机制全部为概念建议、须按法定程序研究确定。"
+      "evidence_summary_zh": "agent.6 以三节点决策卡、年度三活动反馈、开发者贡献和企业/专业团队意向为输入，输出童行开发者社区、分级场景开放和“年度活动—开发者社区—企业/专业团队”的转化链；安全、资质、公平或人力失败即停办、撤下活动资产并公示，转化不等于合同/招商。"
     }
   ]
 }

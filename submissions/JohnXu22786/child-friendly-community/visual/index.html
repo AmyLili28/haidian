@@ -59,9 +59,9 @@ svg{width:100%;height:auto;border:1px solid #b9c4d3;border-radius:8px;background
 </section>
 
 <section class="sheet"><h2>核心指标（本包临时几何复算，低精度显示）</h2>
-<span class="stat"><span>site_area_sqm（临时场地面积）</span><b data-metric="site_area_sqm" data-value="11413000">11413000</b></span>
-<span class="stat"><span>green_ratio（设计绿地率，设计图层口径）</span><b data-metric="green_ratio" data-value="0.1243">0.1243</b></span>
-<span class="stat"><span>public_space_ratio（公共空间率，设计图层口径）</span><b data-metric="public_space_ratio" data-value="0.0045">0.0045</b></span>
+<span class="stat"><span>site_area_sqm（临时场地面积）</span><b data-metric="site_area_sqm" data-value="11412825.385554">约11.4百万㎡</b></span>
+<span class="stat"><span>green_ratio（设计绿地率，设计图层口径）</span><b data-metric="green_ratio" data-value="0.12424986646180651">约12.4%</b></span>
+<span class="stat"><span>public_space_ratio（公共空间率，设计图层口径）</span><b data-metric="public_space_ratio" data-value="0.004490562000963465">约0.45%</b></span>
 <p class="warn">说明：三项指标由 site_boundary / green_space / public_space 临时几何按同一公式复算（EPSG:4548）；置信度低（provisional）。用地分类口径（公园绿地约26.94%）与设计图层口径（green_ratio约12.4%）分母相同、分子口径不同，两者并存且不混淆；官方边界、绿地与公共空间数据发布后按同一公式触发复算并更新全部显示。容积率、建筑高度等依赖未公开官方控制条件的指标保持 unknown。</p>
 </section>
 
@@ -105,6 +105,19 @@ svg{width:100%;height:auto;border:1px solid #b9c4d3;border-radius:8px;background
 <tr><td>巴塞罗那超级街区</td><td>巴塞罗那市政府 / 2015</td><td>街道宁静化、绿色枢纽网络</td><td>绿带节点网络与儿童设施可达性概念</td></tr>
 </table></section>
 
+<section class="sheet"><h2>全球AI生态案例（新增机制研究）</h2>
+<p>六项儿童友好/慢行案例仅为背景机制；global_case_count=6 只计六项 AI 生态案例。新增案例的来源、许可、claim boundary 与转译见 sources.json 与双语 proposal。</p>
+<table><tr><th>案例</th><th>机制</th><th>转译/边界</th></tr>
+<tr><td>CERN openlab</td><td>产学研共同研发与真实约束测试</td><td>问题—共解—测试—复盘；不主张合作/算力</td></tr>
+<tr><td>AIST ABCI</td><td>开放 AI 算力申请、使用规则、运维边界</td><td>申请—匿名数据—审查；不主张本地容量</td></tr>
+<tr><td>Singapore AI Verify</td><td>开源治理测试与声明/结果对照</td><td>先测后开；不是安全认证</td></tr>
+<tr><td>EuroHPC AI Factories</td><td>算力与支持服务分层接入</td><td>资格—隐私—测试；不主张资源</td></tr>
+<tr><td>Vector Institute / Mila</td><td>研究—人才—产业/创业转化接口</td><td>问题库—原型—人工评审；不主张机构合作</td></tr>
+</table></section>
+
+<section class="sheet"><h2>三区两翼与 agent.1-6 责任链</h2>
+<p>agent.1 统筹三节点；agent.2 负责六项 AI 案例与八要素矩阵；agent.3 负责十卡/三测试并守匿名与人工复核；agent.4 负责东西缝合、南北接驳、大钟寺服务接口和可逆组件；agent.5 负责双语传播/品牌边界；agent.6 负责年度活动—开发者社区—企业/专业团队转化。三节点为 AI 原点社区、众智园加速区、大钟寺产业集聚区；两翼为中关村科技服务翼、小月河场景赋能翼；输入/输出/主体/退出详见双语 proposal。</p></section>
+
 <section class="sheet"><h2>更新项目与任务覆盖（概念）</h2>
 <p>三类更新项目：通学安全类（断面与过街稳静化、接送点组织、安全评估公示）、游戏自然类（童趣公园游戏场、自然教室、亲子休憩设施）、亲子服务类（亲子驿站基础服务、场地预约与错时共享、阅读角）；分期为近期1-3年、中期3-5年、远期5-10年；RACI责任矩阵与停止条件见正文。</p>
 <p>任务覆盖：本方案逐条映射 agent.1—6（一带总体概念、AI全栈创新生态、AI+场景新范式、AI公共空间与朝圣地标、文化叙事、全球活动与长期运营）与三大定位、五大功能、三区两翼、三层范围，详见 compliance_matrix.json。</p>
@@ -116,7 +129,7 @@ svg{width:100%;height:auto;border:1px solid #b9c4d3;border-radius:8px;background
 </section>
 
 <section class="sheet"><h2>来源与权利</h2>
-<p>来源索引见 sources.json（19条，含发布者、链接、获取日期、许可与复用边界）；字体 Noto Sans SC 为 OFL 许可；图标、Logo、地图几何与图件均为本包原创或自生成资产；品牌名称与标识在概念阶段为内部工作代号，未完成商标检索前不对外使用与注册。</p>
+<p>来源索引见 sources.json（25条，含发布者、链接、获取日期、许可与复用边界）；新增六项 AI 生态案例仅作机制参照。字体 Noto Sans SC 为 OFL 许可；图标、Logo、地图几何与图件均为本包原创或自生成资产；品牌名称与标识在概念阶段为内部工作代号，未完成商标检索前不对外使用与注册。</p>
 <p class="warn">全部为概念建议与参考方案；不给出容积率、建筑高度、拆改留、投资测算或工程实施结论；不编造官方数据；不把设想写成已确定安排；基于 provisional 边界，官方数据发布后复算。</p></section>
 
 </main>

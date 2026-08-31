@@ -638,6 +638,191 @@
       ],
       "local_paths": [],
       "notes_zh": "Logo（路环+童心点）、七张图件与PDF自绘；地图为参数化绘制的概念示意，无地图底图来源、无第三方图标；二次使用边界参见许可字段。"
+    },
+    {
+      "source_id": "DATA-SRC-CERN-OPENLAB",
+      "title": "CERN openlab: research directions and collaborative computing R&D",
+      "publisher": "CERN openlab",
+      "source_kind": "international_public_reference",
+      "url": "https://openlab.cern/our-rd-directions/",
+      "published_date": "undated",
+      "accessed_date": "2026-08-31",
+      "file_type": "webpage",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public CERN webpage; this package uses a short mechanism paraphrase only. No page text, logo, image or partner mark is reproduced.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism reference: structured collaboration, co-development and testing under real scientific constraints"
+      ],
+      "prohibited_uses": [
+        "claiming CERN or its partners support this proposal",
+        "transferring CERN scale, performance, membership or project results"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "compute",
+        "industry_research",
+        "technology_test"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅将 CERN openlab 的产学研协作、共同研发与真实科研约束下测试机制转译为概念流程；不主张合作、算力或成果移植。"
+    },
+    {
+      "source_id": "DATA-SRC-AIST-ABCI",
+      "title": "ABCI (AI Bridging Cloud Infrastructure)",
+      "publisher": "National Institute of Advanced Industrial Science and Technology (AIST) / AIST Solutions",
+      "source_kind": "international_public_reference",
+      "url": "https://abci.ai/en/",
+      "published_date": "2018 (page states launch); version 3.0 update noted 2025",
+      "accessed_date": "2026-08-31",
+      "file_type": "webpage",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public ABCI webpage; mechanism paraphrase only. No ABCI logo, page asset, code or terms text is reproduced; actual use remains subject to ABCI rules.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism reference: application-based access, shared AI compute and operational rules"
+      ],
+      "prohibited_uses": [
+        "claiming local access, capacity, free compute or eligibility",
+        "copying the ABCI identity or service terms"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "compute",
+        "data_governance"
+      ],
+      "local_paths": [],
+      "notes_zh": "ABCI 仅作为开放 AI 算力基础设施的申请、使用规则与运维边界案例；本方案不写本地可获得容量、资格或免费时长。"
+    },
+    {
+      "source_id": "DATA-SRC-IMDA-AI-VERIFY",
+      "title": "Artificial Intelligence in Singapore: AI Verify and AI Verify Foundation",
+      "publisher": "Infocomm Media Development Authority (IMDA), Singapore",
+      "source_kind": "international_public_reference",
+      "url": "https://www.imda.gov.sg/About-IMDA/Research-and-Statistics/SGDigital/tech-pillars/Artificial-Intelligence",
+      "published_date": "2022; open-source and foundation updates noted 2023",
+      "accessed_date": "2026-08-31",
+      "file_type": "webpage",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public IMDA webpage; mechanism paraphrase only. No toolkit code, logo, image or long passage is reproduced; framework claims remain those of IMDA.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism reference: open testing toolkit, claim-versus-test transparency and assurance community"
+      ],
+      "prohibited_uses": [
+        "calling this proposal certified, safe or bias-free",
+        "reusing AI Verify code or identity without its own license review"
+      ],
+      "topics": [
+        "ai_governance",
+        "open_testing",
+        "data",
+        "scenario_opening"
+      ],
+      "local_paths": [],
+      "notes_zh": "AI Verify 仅转译“声明—测试—人工复核—透明报告”机制；原页面明确不等于伦理标准或无风险保证，本方案保留该边界。"
+    },
+    {
+      "source_id": "DATA-SRC-EUROHPC-AI-FACTORIES",
+      "title": "AI Factories",
+      "publisher": "European Commission / EuroHPC Joint Undertaking",
+      "source_kind": "international_public_reference",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-factories",
+      "published_date": "undated",
+      "accessed_date": "2026-08-31",
+      "file_type": "webpage",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public European Commission webpage; mechanism paraphrase only. No EU/EuroHPC logo, image, programme text or access entitlement is reproduced.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism reference: layered access to AI-optimised supercomputing and support for innovators"
+      ],
+      "prohibited_uses": [
+        "claiming EU resource allocation, free time, capacity or qualification",
+        "transferring programme counts or performance as local facts"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "compute",
+        "industry_support",
+        "scenario_testing"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅借鉴算力、数据与支持服务分层接入的机制；本方案不声称获得欧盟资源、免费时长、容量或资格。"
+    },
+    {
+      "source_id": "DATA-SRC-VECTOR-INSTITUTE",
+      "title": "Driving AI Research to AI Adoption",
+      "publisher": "Vector Institute",
+      "source_kind": "international_public_reference",
+      "url": "https://vectorinstitute.ai/about/",
+      "published_date": "undated",
+      "accessed_date": "2026-08-31",
+      "file_type": "webpage",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public Vector Institute webpage; mechanism paraphrase only. No Vector name, logo, image, statistics or partner marks are reused as project claims.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism reference: research, talent, engineering and industry adoption bridge"
+      ],
+      "prohibited_uses": [
+        "claiming Vector partnership, funding, researchers or use cases for KID·JZ",
+        "transferring institutional statistics as local targets"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "talent",
+        "industry_translation",
+        "research"
+      ],
+      "local_paths": [],
+      "notes_zh": "借鉴研究—人才—工程—产业应用的角色链；机构人数、资金、伙伴与用例统计不移植为本方案事实。"
+    },
+    {
+      "source_id": "DATA-SRC-MILA-ECOSYSTEM",
+      "title": "Mila - Quebec AI Institute: research community and venture launchpad",
+      "publisher": "Mila - Quebec AI Institute",
+      "source_kind": "international_public_reference",
+      "url": "https://mila.quebec/en?s=0",
+      "published_date": "undated",
+      "accessed_date": "2026-08-31",
+      "file_type": "webpage",
+      "authority_level": "INFORMATION",
+      "timeliness_level": "T1",
+      "public_access_status": "public_snapshot",
+      "license": "Public Mila webpage; mechanism paraphrase only. No Mila logo, image, page copy, membership or partner relationship is reproduced.",
+      "review_status": "approved",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "mechanism reference: research community, venture support and applied-AI bridge"
+      ],
+      "prohibited_uses": [
+        "claiming Mila collaboration, investment, admission or co-location",
+        "transferring community or partner counts as local commitments"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "talent",
+        "venture_support",
+        "scenario_translation"
+      ],
+      "local_paths": [],
+      "notes_zh": "借鉴研究社群—创业支持—应用转化的接口；不移植其社群规模、伙伴关系、融资或入驻条件。"
     }
   ]
 }
