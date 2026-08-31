@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "26050f9bcc0fa6407cf844e59b167c787335a6667ae60b9811a86c6affbd76a7"
+      "sha256": "ca94072147ae1b7e79dcafa21118e648c5df7cae04be860e90b49c5f672b8e05"
     },
     {
       "path": "compliance_matrix.json",
@@ -100,14 +100,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "ec0464107ff336b74550e350b847ec59d8ba329e8343ad2284e0b5fc01f1d3ad"
+      "sha256": "3325487939b1873ee2df5790520679313e2fa14df94e1b632924ce46b9be1a80"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "3702a6a5d98b576636ca4e0a36e3ff6ceaff659afc86b0d53d7f24ab34063333"
+      "sha256": "b6a9998841bfc605f9cce2ba02c846d274fa44509023c6436df77a01b64435cb"
     },
     {
       "path": "visual/index.html",
@@ -121,7 +121,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "neutral",
-      "sha256": "ec4c178340f4b2e4dbac610d51d894a1266bc85c5367ca36fb37c688c126e2b8"
+      "sha256": "716b5d7ae17da4b8a75284625a8492a9d9e8688f8b6722c37149771407c47fac"
     },
     {
       "path": "assets/figures/land-use-structure.png",
@@ -135,7 +135,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "neutral",
-      "sha256": "12297cb0d1eb28e6be0074f7c5e181a8ca700011d0e77c3e8c863168c3d9d61f"
+      "sha256": "1584b759f584b9c82ad81b79038335c581916933ce0abb8dc7459b35fb6f066c"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
@@ -233,7 +233,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "a6b34be1314800b9f6b54fc02a10d2956086b9307dfc272e94a7520f92478f99"
+      "sha256": "1101b74d71c2cfb1086ad0284028897b51da6838beda757cfb312334836371b5"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -241,7 +241,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "3d45bb97387d79dc49e3feec4cb31db0a23baf79db7c1bd3a0665480c49c479c"
+      "sha256": "b56838aa9795e7829793986ad8775bc3e0628256981b5b7d7cc60d4e28c70b7e"
     },
     {
       "path": "visual/index.en.html",
