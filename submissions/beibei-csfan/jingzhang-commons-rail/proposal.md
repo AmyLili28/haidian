@@ -10,8 +10,8 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "以一条可走、可核、可关的公共核验廊串联三区漏斗：众智园就绪门、原点共测廊下、大钟寺运营交接厅。边界为仓库临时约束，三项核心指标由本包几何在 EPSG:4548 复算。"
 tracks: ["ai-traffic-walkability", "civic-agent-governance", "youth-friendly-public-space"]
 scenarios: ["ai-traffic-walkability", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: 6
-version: "1.5.0"
+iteration: 8
+version: "1.6.1"
 ---
 
 # 京张共证廊
@@ -215,9 +215,56 @@ Do：细线、双语、PROVISIONAL、关掉 AI 仍可走。Don't：霓虹当已�
 
 收回：不声称京津冀已互通账号；不声称本栈已部署；不声称已有现场基线、机房 MW 或厂商。现场核验仅在场地授权与测试安全规则到达后触发，blocking_now=false。
 
+93 分原文仍扣在「尚无现场性能、运维负荷或真实用户反馈」。本轮不伪造这三类现场证据，只把它们写成现在就能核的**桌面包络、现场证据契约、纸面走查**。所有数字除主脊长度外均为 ASSUMPTION，失效条件写在同一行。
+
+桌面运维包络（TABLETOP-ONLY / ASSUMPTION；不是人流实测）[metric:ops_envelope_assumption_count]：
+
+| 项 | 公式或规则 | 现值 | 失效 / 停止 |
+| --- | --- | --- | --- |
+| 主脊长度 L | `length(ROAD-GALLERY-NS)` EPSG:4548 | 9,042.827 m（已提交几何） | 官方走廊替换后按 CG-10 重算 |
+| 概念净宽 W | 无账号断面概念净宽，**未实测** | 4.0 m ASSUMPTION | 正式走廊宽度到达即作废 |
+| 概念密度 d | 宽松步行包络，**不是计数** | 0.2 人/m² ASSUMPTION | 授权后的现场计数到达即作废 |
+| 峰值包络 E | E = L × W × d | 7,234 人 ASSUMPTION | 不得写成已测人流；W 或官方几何变则重算 |
+| L4 桌面负荷 | 1 桌 × 6 分钟/案 × 8 小时 | 80 案/日 ASSUMPTION | 自动封禁越权则整层关 |
+| 纸质后备吞吐 | 1 员 × 2 分钟/单 × 8 小时 | 240 单/日 ASSUMPTION | 要求扫码才能报修则停 |
+| 预约窗包络 | 3 窗 × 4 槽 × 2 场 | 24 槽/日 ASSUMPTION | 无测试安全规则则整层关 |
+
+现场证据契约（许可到达后才做；现在现场=未做）[metric:field_evidence_contract_count]：
+
+| ID | 要记的量 | 方法 | 通过判据 | 现场 |
+| --- | --- | --- | --- | --- |
+| FE-01 | 无账号走完主脊的时间 | 秒表 + 纸质地图 | 不登录也能走完 | 未做 |
+| FE-02 | 个人字段丢弃率 | 桌面混入未脱敏手机号 | 100% 丢弃 | 未做 |
+| FE-03 | L4 人工签名率 | 案卷抽查 | 100% 人工签名 | 未做 |
+| FE-04 | 围栏压脊即停 | 先桌面后现场 | S02 立即停止 | 未做 |
+| FE-05 | 桌面案时 vs 包络 | 记每案分钟 | 对照 6 分钟假设，超则改桌不改现场口号 | 未做 |
+| FE-06 | 六画像异议数 | 纸面走查记录 | 每类画像都能走完并写下一条异议 | 纸面已写，现场未做 |
+
+六类画像纸面走查（用户反馈替代物，**不是访谈、不是现场观察**）[metric:persona_count]：
+
+| 画像 | 纸面路线 | 预期异议 | 无账号后备 | 现场 |
+| --- | --- | --- | --- | --- |
+| 近校研究生 | 原点廊下 → 问答墙 → 主脊北段 | 问答墙若要求登录 | 粉笔/纸卡 | 未做 |
+| 一轮班护理员 | 大钟寺厅 → 南段普通夜间路径 | 强制观展灯光 | 印刷班次 + 常亮照明 | 未做 |
+| 初创测试工程师 | 就绪门贴边场 → 不进入 1401 脊 | 围栏压脊 | 纸质时段表 | 未做 |
+| 带儿童居民 | 主脊 + 北园遮荫 | 儿童被写成用户数据 | 无 App 座椅 | 未做 |
+| 无障碍出行者 | 三门广场报修桩 + 横联 | 把待复测高程当实测 | 电话 + 纸质单 | 未做 |
+| 短期访客 | 三处地标核对窗 | 导览要求登录 | 关掉推荐仍可走完 | 未做 |
+
+四接口状态机（概念，不是已运行 API）：
+
+| 接口 | 状态序列 | 失败转停止 | 关闭后备 |
+| --- | --- | --- | --- |
+| IF-WALK | 意图 → 步行中 → 遇闸？ | 登录闸机 → STOP | 物理断面本身 |
+| IF-BOOK | 纸卡申请 → 有安全规则？ → 安全官签字 | 无规则开窗 → 整层关 | 窗口关闭 |
+| IF-OBJECTION | 异议文本 → 是否模型终裁？ | 自动封禁 → STOP | 值班面谈 |
+| IF-CLOSE | 关 L2–L3 → 主脊仍可走？ | 脊上出现闸机 → STOP | 物理路径 |
+
 ![概念 AI 技术架构（未部署）](assets/figures/ai-architecture.png)
 
 ![桌面核验协议（TABLETOP-ONLY，现场未做）](assets/figures/ai-verify-protocol.png)
+
+![桌面运维包络与现场证据契约（TABLETOP-ONLY / ASSUMPTION）](assets/figures/ai-ops-envelope.png)
 
 ![AI 创新生态图谱（概念）](assets/figures/ecosystem-map.png)
 
@@ -344,7 +391,23 @@ Do：细线、双语、PROVISIONAL、关掉 AI 仍可走。Don't：霓虹当已�
 
 FAR / 高度继续 unknown。不把本表写成已通过专业校核或已获许可。
 
+93 分原文仍扣在「边界、控规、权属、道路、文保、市政和站厅接口均未正式提供」。下表把这七类缺口写成专业团队可接手的替换手册，不是工程结论 [metric:official_data_gap_count]。
+
+| 缺口 | 当前状态 | 解锁文件 | CRS / 格式 | 责任 | 到达后重算 | 停止条件 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 边界 | `provisional_constraint`，`official_boundary=false` | 官方 SITE_BOUNDARY + 三处 KEY_AREA polygon | EPSG:4548；CAD/GIS → GeoJSON | organizer 提供，participant 重算 | CG-10：场地面积、绿地率、公共空间率、主脊长度、全部派生层 | 把临时面积当法定 |
+| 控规 | FAR / 高度 unknown | 正式控规图则与项目控制条件 | 以官方投影为准 | shared | 用地分类重挂；FAR/高度仍不得先填 | 编造 FAR 或高度 |
+| 权属 | 无清册 | 土地/建筑权属登记 | 官方表格或 GIS | shared | 建筑层只更新「待权属后」地块；不指定拆除 | 写成已批拆改留 |
+| 道路 | 概念中心线 `ROAD-GALLERY-NS` | 正式道路红线 | EPSG:4548 | shared | 横联与主脊重挂；属性保持非正式直至替换 | 把概念中心线画成道路红线 |
+| 文保 | `CON-HERITAGE-GALLERY` 低置信提示 | 正式紫线与经审核遗产资料 | 官方线划 | shared | 约束层替换；地标仍只放公开字段 | 写成已批纪念工程 |
+| 市政 | 容量 / 管径 / MW unknown | 市政容量、消防、交通运行资料 | 专业文本 + 容量表 | shared | 保持 unknown 直到有数；不先填 MW | 编造电力或机房容量 |
+| 站厅 | 概念四象限步行 | 轨道站厅接口图与权属 | 站城专业图 | shared | CG-04 对位班次板与疏散口 | 写成已批站改 |
+
+七行在解锁文件到达前全部保持关闭或概念层。图层对照表的三核数不得另写一套。
+
 ![实施交接与图层指标对照（概念）](assets/figures/implementation-handoff.png)
+
+![七类官方缺口替换手册（概念交接）](assets/figures/seven-gap-runbook.png)
 
 长期运营包是概念节奏，不是政府已定活动日历。任何场次均以活动许可、场地授权和安全规则为触发条件 [depth:phasing_implementation]。
 
@@ -409,8 +472,9 @@ FAR / 高度继续 unknown。不把本表写成已通过专业校核或已获许
 2. 全部空间、运营、品牌与政策内容均为概念建议，不是法定规划、批准文件、投资承诺或已建成记录；生成图是解释层，不是现场照片。
 3. 临时 polygon 来自仓库 `provisional_boundaries.geojson`，不得当作 official 红线；资格预审公告与用地代码只引任务与分类子集；OSM 仅背景核对，ODbL，不进 formal 红线。
 4. 图件由 draw skill / Venus 图像池按提示词生成，无他人方案图、无肖像、无未授权商标。
-5. HTML 离线中文为文泉驿微米黑子集，`data:font/woff2` 内嵌，Apache-2.0；不依赖 CDN。
+5. 四份必需 HTML（`report/proposal.html`、`report/proposal.en.html`、`visual/index.html`、`visual/index.en.html`）在官方渲染后注入文泉驿微米黑用字子集，`@font-face` + `data:font/woff2`，Apache-2.0；不依赖 CDN 或评审机系统字体。重渲后必须再注入，否则中文会成方框。
 6. 未使用非公开规划，未上传个人隐私，未将输出表述为政府批准。权利问题经 GitHub Issue 联系 `beibei-csfan`。
+7. 版权摘要、内嵌字体许可与生成图台账只供评审核验与 intake；机器审查和可见图像不能替代最终法律清权，也不构成商标注册、政府背书或可对外商用授权。
 
 AI 使用：模型起草正文、几何脚本与图件提示词，人类裁定场地判断与合规边界。
 

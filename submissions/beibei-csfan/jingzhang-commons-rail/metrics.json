@@ -244,6 +244,45 @@
       "assumptions": [
         "A-TABLETOP-ONLY"
       ]
+    },
+    "ops_envelope_assumption_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(desktop_ops_assumptions) = peak_envelope + L4_desk + paper_fallback + booking_slots; not field counts",
+      "confidence": "high",
+      "assumptions": [
+        "A-OPS-ENVELOPE"
+      ]
+    },
+    "field_evidence_contract_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(field_evidence_rows) = FE-01 to FE-06; field status not done",
+      "confidence": "high",
+      "assumptions": [
+        "A-TABLETOP-ONLY"
+      ]
+    },
+    "official_data_gap_count": {
+      "status": "known",
+      "value": 7,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(official_data_gaps) = boundary + zoning + tenure + roads + heritage + utilities + station_hall",
+      "confidence": "high",
+      "assumptions": [
+        "A-SEVEN-GAP"
+      ]
     }
   }
 }
