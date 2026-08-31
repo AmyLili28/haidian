@@ -27,8 +27,8 @@ building another park to raising the exchange conditions between assets that alr
 2. `assets/figures/` 五张核心派生图——全部由本包 GeoJSON 与 `metrics.json` 程序派生，每张有明确
    主叙事、图例、来源注、临时边界说明与一句设计判断。
 3. `proposal.md`——主体论证，十三个必选章节，每个判断带机器可读证据引用。
-4. `drawings/a3-booklet.pdf`（25 页）与 `drawings/a0-boards.pdf`（7 张 A0）——展示成果；英文版为
-   `a3-booklet.en.pdf`（42 页，每张主线图页配英文对照页）与 `a0-boards.en.pdf`。
+4. `drawings/a3-booklet.pdf`（28 页设计文册）与 `drawings/a0-boards.pdf`（7 张 A0 横板）——展示成果；英文版为
+   `a3-booklet.en.pdf`（28 页，与中文版一一镜像）与 `a0-boards.en.pdf`（7 张）。
 5. `compliance_matrix.json` / `standard_matrix.json` / `design_depth_matrix.json`——任务覆盖、
    专业标准与成果深度的机器可读证据链。
 6. `self_check.json`——四门本地 gate 的可回读运行记录。

@@ -6,7 +6,7 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "The Jing-Zhang Rail Park has been built; the relations between it and the city on both sides have not caught up. This proposal uses the Urban Relation Transect as its working unit and reorganises those relations through four relation actions - ARRIVE, FACE, CROSS and USE - with one transect (Dazhongsi) developed in depth. All spatial recommendations are conceptual; the boundary is the organiser's provisional rough boundary."
+summary: "The Jing-Zhang Railway Heritage Park has been built; the relations between it and the city on both sides have not caught up. This proposal uses the Urban Relation Transect as its working unit and reorganises those relations through four relation actions - ARRIVE, FACE, CROSS and USE - with one transect (Dazhongsi) developed in depth. All spatial recommendations are conceptual; the boundary is the organiser's provisional rough boundary."
 ---
 
 # Jing-Zhang Relation Belt: Answering the Centennial Jing-Zhang AI Innovation Belt through Urban Relation Reorganisation
@@ -265,7 +265,7 @@ The minimum validation protocol for S09, S10 and S11 is set out below. **All thr
 
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
-The submitted `land_use.geojson` is a **conceptual land-use structure recommendation** covering the provisional boundary: eleven zones that cover the provisional site boundary completely, with a coverage residual of 0.111 m² [metric:land_use_cell_count] [metric:land_use_coverage_gap_sqm] [data:geometry/land_use.geojson#LU-001]. The logic is not a re-parcelling but the projection of the relation framework onto area: one Jing-Zhang Rail Park vitality band (park green space), the three key areas (led respectively by research, housing and commercial-service uses), and the urban blocks on the east and west sides of each of the five transect bands. Each zone records the diagnosed relation problem of that segment and the dominant existing use from OSM, so that a reviewer can check one against the other.
+The submitted `land_use.geojson` is a **conceptual land-use structure recommendation** covering the provisional boundary: eleven zones that cover the provisional site boundary completely, with a coverage residual of 0.111 m² [metric:land_use_cell_count] [metric:land_use_coverage_gap_sqm] [data:geometry/land_use.geojson#LU-001]. The logic is not a re-parcelling but the projection of the relation framework onto area: one Jing-Zhang Railway Heritage Park vitality band (park green space), the three key areas (led respectively by research, housing and commercial-service uses), and the urban blocks on the east and west sides of each of the five transect bands. Each zone records the diagnosed relation problem of that segment and the dominant existing use from OSM, so that a reviewer can check one against the other.
 
 **Land-use codes follow the numeric code subset of MNR Document 2023-234 and are conceptual judgements. They do not constitute a statutory land-use adjustment conclusion and do not correspond to specific parcels** [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [depth:land_use_layout].
 
