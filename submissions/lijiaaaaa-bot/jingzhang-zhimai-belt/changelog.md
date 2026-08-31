@@ -1,5 +1,16 @@
 # 方案迭代记录
 
+## v0.4.3 - 2026-08-31
+
+### 改动摘要（CI 路径合规）
+
+1. **移除 PR 外路径变更**：删除 `scripts/regenerate_a0_boards.py`（participant PR 仅允许改 `submissions/lijiaaaaa-bot/`）；A0 PDF 与 `a0-01-preview.png` 已在 v0.4.1 生成完毕，本次无图件变更。
+2. **manifest / self_check**：sha256 刷新。
+
+### 采纳反馈
+
+- CI run 33360607181 FAIL：`participant PRs may only change submissions/lijiaaaaa-bot/`。
+
 ## v0.4.2 - 2026-08-31
 
 ### 改动摘要（AI review 结构化补全）

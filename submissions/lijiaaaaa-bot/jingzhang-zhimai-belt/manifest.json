@@ -53,7 +53,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "afd3b5a983130079284f3e82a86312cd696792cde05331252a59f49e4b4bb4b3"
+      "sha256": "07e1f7847a969c7760767f6ba5bfab872d7cf8aa31301f7e413656554b786b99"
     },
     {
       "path": "compliance_matrix.json",
@@ -263,7 +263,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "ca5cabe44286841e366ad5608fbffa0c674ab611e649a69579a7f6781836b19f"
+      "sha256": "2fb3b26bf760ffe112445a24afac949b8ceebec0bdffe27de346c8a1c70c6ec3"
     }
   ],
   "validation_claim": {
