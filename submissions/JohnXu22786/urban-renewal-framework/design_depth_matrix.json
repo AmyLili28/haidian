@@ -685,7 +685,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "三节点（留改坊/单元坊/督行亭）沿绿带布置形成决策—示范—监督闭环，与三片区（众智园/原点社区/大钟寺）概念对应；key-areas 图件表达节点关系与场景卡落点，选址均标注需专业复核。"
+   "evidence_summary_zh": "三节点（留改工坊/单元工坊/督行亭）沿绿带布置形成决策—示范—监督闭环，与三片区（众智园/原点社区/大钟寺）概念对应；key-areas 图件表达节点关系与场景卡落点，选址均标注需专业复核。"
   },
   {
    "item_id": "renewal_project_list",
@@ -747,7 +747,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "实施台账六行项目（留改坊试点/单元坊示范/督行亭站点/慢行贯通/构件库/开发者社区）逐项给出牵头/协作主体、前置依赖、试点准入/退出、指标基线与数据周期、年度复盘与转化路径。"
+   "evidence_summary_zh": "实施台账六行项目（留改工坊试点/单元工坊示范/督行亭站点/慢行贯通/构件库/开发者社区）逐项给出牵头/协作主体、前置依赖、试点准入/退出、指标基线与数据周期、年度复盘与转化路径。"
   },
   {
    "item_id": "phasing_implementation",
@@ -810,7 +810,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "分期概念：近期1—3年（留改坊试点+督行亭站点）、中期3—5年（单元坊示范+慢行贯通）、远期5—10年（全域贯通与运营成熟）；phasing.geojson 提供机器可读分期索引，phase_count=3。"
+   "evidence_summary_zh": "分期概念：近期1—3年（留改工坊试点+督行亭站点）、中期3—5年（单元工坊示范+慢行贯通）、远期5—10年（全域贯通与运营成熟）；phasing.geojson 提供机器可读分期索引，phase_count=3。"
   },
   {
    "item_id": "metrics_recalculation",
@@ -941,7 +941,7 @@
  "repair_closure": {
   "review_id": "5047674894",
   "contract": "v2.1-three-areas-three-nodes",
-  "mapping_zh": "众智园—单元坊；北京AI原点社区—留改坊；大钟寺—督行亭",
+  "mapping_zh": "众智园—单元工坊；北京AI原点社区—留改工坊；大钟寺—督行亭",
   "mapping_en": "Zhongzhiyuan—UNIT·BLOCK; Beijing AI Origin Community—KEEP·BLOCK; Dazhongsi—SUPERVISION PAVILION",
   "official_wings": [
    "中关村科技服务翼 / Zhongguancun Technology Service Wing",

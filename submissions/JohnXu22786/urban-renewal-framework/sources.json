@@ -594,7 +594,7 @@
     "brand_identity"
    ],
    "local_paths": [],
-   "notes_zh": "名称与图形按内部工作代号处理；在先权利检索完成前不得对外注册或正式命名，详见 report/asset_rights_ledger.md。",
+   "notes_zh": "名称与图形按内部工作代号处理；在先权利检索完成前不得对外注册或正式命名，详见 report/copyright_statement.md。",
    "provenance": {
     "generator": "deterministic local renderer",
     "generation_method": "concept prompting + matplotlib rendering",

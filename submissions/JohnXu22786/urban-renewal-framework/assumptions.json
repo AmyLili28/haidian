@@ -24,7 +24,7 @@
     },
     {
       "assumption_id": "A-DESIGN-001",
-      "statement_zh": "留改坊、单元坊与督行亭三节点均为原创概念建议，模块化可逆，不构成建设承诺。",
+      "statement_zh": "留改工坊、单元工坊与督行亭三节点均为原创概念建议，模块化可逆，不构成建设承诺。",
       "statement_en": "All node facilities are original reversible conceptual proposals, not construction commitments.",
       "category": "design_proposal",
       "status": "concept"

@@ -37,3 +37,8 @@
 - Proposal drafted via the package assembly workflow, session unknown; edited for structure.
 - Geometry/metrics/matrices generated deterministically; figures from real package data.
 - Valroot gates run on 2026-08-24 (results persisted in self_check.json).
+## v1.5 - 2026-08-31 (CocoSgt 5062208469 Repair)
+
+- **Canonical node naming**: Replaced residual short forms with `留改工坊` / `单元工坊` across assumptions, compliance/standard/design-depth matrices, GeoJSON mappings, bilingual proposal/report HTML, and evidence/QC records; node IDs and the three-area mapping remain unchanged.
+- **Figure layout repair**: Rebuilt the bilingual `land-use-structure`, `metrics-evidence`, and `key-areas` source figures with separated title/PROVISIONAL/content bands, bounded notes, and a wrapped English middle node title. Corrected `land_use_zone_count` to the declared 27-feature GeoJSON count.
+- **Derived deliverables**: Regenerated 4-page A0 boards, 8-page A3 booklets, report HTML, visual HTML, and the existing figure/PDF previews; refreshed `figure_qc.json` for CocoSgt review `5062208469`.

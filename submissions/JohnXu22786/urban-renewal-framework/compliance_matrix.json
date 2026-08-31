@@ -121,7 +121,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "三节点（留改坊/单元坊/督行亭）对应三片区概念落位：留改坊为留改拆统筹示范单元与决策中枢，单元坊为单元式更新示范，督行亭为监督与公众参与站点；节点 ID 与 GeoJSON 属性、图件、HTML 同步。"
+   "evidence_summary_zh": "三节点（留改工坊/单元工坊/督行亭）对应三片区概念落位：留改工坊为留改拆统筹示范单元与决策中枢，单元工坊为单元式更新示范，督行亭为监督与公众参与站点；节点 ID 与 GeoJSON 属性、图件、HTML 同步。"
   },
   {
    "requirement_id": "1.3.3",
@@ -424,7 +424,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "节点一「留改坊」承载更新统筹决策中枢与「更新台账」指标校核服务（SC-01），存量空间匹配（SC-02）与政策问答（SC-10）落点留改坊，形成示范单元内的AI生态支点。"
+   "evidence_summary_zh": "节点一「留改工坊」承载更新统筹决策中枢与「更新台账」指标校核服务（SC-01），存量空间匹配（SC-02）与政策问答（SC-10）落点留改工坊，形成示范单元内的AI生态支点。"
   },
   {
    "requirement_id": "1.5.1.2",
@@ -484,7 +484,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "节点二「单元坊」验证单元式更新与功能织补（SC-07 能耗预测），节点三「督行亭」提供监督窗口与意见通道（SC-03、SC-04），决策—示范—监督闭环沿绿带慢行轴贯通。"
+   "evidence_summary_zh": "节点二「单元工坊」验证单元式更新与功能织补（SC-07 能耗预测），节点三「督行亭」提供监督窗口与意见通道（SC-03、SC-04），决策—示范—监督闭环沿绿带慢行轴贯通。"
   },
   {
    "requirement_id": "1.5.2.1",
@@ -903,7 +903,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "三区·北区对应「单元坊」示范与更新单元；近期1—3年启动留改坊试点与督行亭站点、中期3—5年推进单元坊示范、远期5—10年绿带贯通（分期与台账见同节）。"
+   "evidence_summary_zh": "三区·北区对应「单元工坊」示范与更新单元；近期1—3年启动留改工坊试点与督行亭站点、中期3—5年推进单元工坊示范、远期5—10年绿带贯通（分期与台账见同节）。"
   },
   {
    "requirement_id": "1.5.3.2",
@@ -1265,7 +1265,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "三处概念地标及荣誉体系：留改坊「更新勋章」、单元坊「坊主议事会」、督行亭「督行公示榜」；「更新构件库」可逆组件库（座凳/遮阳/展架/临时舞台/绿化模块）逐件备案、轮换布置、预约使用；「南北贯通、东西缝合」概念策略与「大钟寺智能原生消费与商务场景映射」（联动 SC-02/SC-08/SC-09/SC-10）见重点区域与总体设计节。"
+   "evidence_summary_zh": "三处概念地标及荣誉体系：留改工坊「更新勋章」、单元工坊「坊主议事会」、督行亭「督行公示榜」；「更新构件库」可逆组件库（座凳/遮阳/展架/临时舞台/绿化模块）逐件备案、轮换布置、预约使用；「南北贯通、东西缝合」概念策略与「大钟寺智能原生消费与商务场景映射」（联动 SC-02/SC-08/SC-09/SC-10）见重点区域与总体设计节。"
   },
   {
    "requirement_id": "agent.5",
@@ -1390,7 +1390,7 @@
  "repair_closure": {
   "review_id": "5047674894",
   "contract": "v2.1-three-areas-three-nodes",
-  "mapping_zh": "众智园—单元坊；北京AI原点社区—留改坊；大钟寺—督行亭",
+  "mapping_zh": "众智园—单元工坊；北京AI原点社区—留改工坊；大钟寺—督行亭",
   "mapping_en": "Zhongzhiyuan—UNIT·BLOCK; Beijing AI Origin Community—KEEP·BLOCK; Dazhongsi—SUPERVISION PAVILION",
   "official_wings": [
    "中关村科技服务翼 / Zhongguancun Technology Service Wing",

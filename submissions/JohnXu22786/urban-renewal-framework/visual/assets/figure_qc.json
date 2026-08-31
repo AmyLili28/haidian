@@ -1,23 +1,35 @@
 {
-  "review_id": "5061381133",
-  "reviewed_commit": "ea2d55780318e3fbf9753490721a3542991f1bf383de692a704a015eb7232307",
-  "review_submitted_at": "2026-08-30T16:53:27Z",
-  "review_score": 81.0,
+  "review_id": "5062208469",
+  "reviewed_commit": "474a74c53bddfe1f300cbc1cdfef34137c976c45",
+  "review_submitted_at": "2026-08-30T23:40:49Z",
+  "review_score": 77.0,
   "review_verdict": "CHANGES_REQUESTED",
   "contract": "v2.1-three-areas-three-nodes",
   "previous_review": {
-    "review_id": "5060211774",
+    "review_id": "5061381133",
     "score": 81.0
   },
   "repair_scope": [
-    "assets/figures/key-areas.png",
-    "assets/figures/key-areas.en.png",
+    "assumptions.json",
+    "compliance_matrix.json",
+    "design_depth_matrix.json",
+    "standard_matrix.json",
+    "geometry/key_areas.geojson",
+    "geometry/public_space.geojson",
+    "metrics.json",
     "proposal.md",
     "proposal.en.md",
+    "sources.json",
     "report/proposal.html",
     "report/proposal.en.html",
     "visual/index.html",
     "visual/index.en.html",
+    "assets/figures/land-use-structure.png",
+    "assets/figures/land-use-structure.en.png",
+    "assets/figures/metrics-evidence.png",
+    "assets/figures/metrics-evidence.en.png",
+    "assets/figures/key-areas.png",
+    "assets/figures/key-areas.en.png",
     "drawings/a0-boards.pdf",
     "drawings/a0-boards.en.pdf",
     "drawings/a3-booklet.pdf",
@@ -27,108 +39,24 @@
   "layout_contract": {
     "font": "Noto Sans SC Static, embedded as local WOFF data URI in all four HTML files; no remote font request",
     "conditional_site_claims": "Building and railway-related elements are presented as subject to current-condition survey and archival confirmation before conservation/adaptation priority",
-    "status": "re-rendered and synced; 8 figure previews and 4 PDF previews present"
+    "status": "re-rendered and synced; 8 figure previews and 4 PDF previews present; affected figures manually checked for title/warning/content separation and edge safety"
   },
-  "figures": {
-    "assets/figures/ecosystem-map.en.png": {
-      "sha256": "9a75e34df677da7958c6ec404ac06e1aef92a1d819025d41dd990a741013121d",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/ecosystem-map.png": {
-      "sha256": "7f850e9aec586750f8fe0527939ff26a4f2c10377d0ee5a09ea17654b65ec123",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/key-areas.en.png": {
-      "sha256": "a02754b9686346afd6c29cf61234d7d1d0d482219c35c3d293c6816e17bdee3f",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/key-areas.png": {
-      "sha256": "f417ee8015b8f734940db9d187c8e256282e3c3ef172539011eb0c1b6c9c0d65",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/land-use-structure.en.png": {
-      "sha256": "63efba72cfdb154055b5c87a57899e7fe8b59678ac90233e886cdb32fc296cfe",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/land-use-structure.png": {
-      "sha256": "f4584b40f17f9e50b550be6872857ba46908ad98f05c5a9014a2a065d51dbcf8",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/logo-update-hub.en.png": {
-      "sha256": "99ca5e290077d818ffae05c597f84a4375b4dd5a78037c9271db44517157bef8",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/logo-update-hub.png": {
-      "sha256": "27a15efc1c318b8357669b898af6887ecb456f60542bbd2d0571ed72c3dc074e",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/metrics-evidence.en.png": {
-      "sha256": "e8088d3f5ba2d404339053e21e5a7d7ca9d5e434893f09f89471060eea467743",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/metrics-evidence.png": {
-      "sha256": "f0a3c9fbd26a0228309a09a1ec0c986073d3f54ac4b1ac1564afef5d920972e7",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/mobility-bluegreen.en.png": {
-      "sha256": "d717fbc0fb09f09eb28781427125586873789b36670cf5464c9cbe00d227a403",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/mobility-bluegreen.png": {
-      "sha256": "7d7d2d90201315ee835fce78cb5f9c7596a5638f2077250b612ce17b3e899b92",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/site-overview.en.png": {
-      "sha256": "13be6af699d07a328643394a2041f6863383f1b1620d1ecfa9bb9eb17c18ff6d",
-      "size_px": [
-        2400,
-        1575
-      ]
-    },
-    "assets/figures/site-overview.png": {
-      "sha256": "cce6a17d64a5ef9d221b34418cc99c2ef26f7ce1379c0b896d838380f81e57b5",
-      "size_px": [
-        2400,
-        1575
-      ]
-    }
-  },
+  "figures": [
+    "assets/figures/ecosystem-map.en.png",
+    "assets/figures/ecosystem-map.png",
+    "assets/figures/key-areas.en.png",
+    "assets/figures/key-areas.png",
+    "assets/figures/land-use-structure.en.png",
+    "assets/figures/land-use-structure.png",
+    "assets/figures/logo-update-hub.en.png",
+    "assets/figures/logo-update-hub.png",
+    "assets/figures/metrics-evidence.en.png",
+    "assets/figures/metrics-evidence.png",
+    "assets/figures/mobility-bluegreen.en.png",
+    "assets/figures/mobility-bluegreen.png",
+    "assets/figures/site-overview.en.png",
+    "assets/figures/site-overview.png"
+  ],
   "previews": [
     "visual/assets/previews/fig-key-areas-en.png",
     "visual/assets/previews/fig-key-areas-zh.png",
@@ -143,5 +71,5 @@
     "visual/assets/previews/pdf-a3-en-p1.png",
     "visual/assets/previews/pdf-a3-zh-p1.png"
   ],
-  "record": "# Visual and PDF QC Record\n\n- Package: `urban-renewal-framework` / PR #3881.\n- Latest official review checked: CocoSgt `5061381133` (81/100, CHANGES_REQUESTED), submitted `2026-08-30T16:53:27Z`, reviewed SHA `ea2d55780318e3fbf9753490721a3542991f1bf383de692a704a015eb7232307`.\n- Repair applied: unsupported present-condition claims about buildings and railway-related elements are now conditional on current-condition survey and archival confirmation in narrative, bilingual key-areas figures, HTML and regenerated PDFs.\n- Repair applied: local redistributable Noto Sans SC is embedded as a WOFF data URI in all four HTML deliverables for offline Chinese glyph coverage.\n- Regenerated: 14 bilingual figure PNGs, 4 A0/A3 PDFs, 4 HTML deliverables; 8 figure previews and 4 PDF previews are recorded in the package.\n- All metrics remain concept/provisional values and are not presented as statutory conclusions.\n"
+  "record": "# Visual and PDF QC Record\n\n- Package: `urban-renewal-framework` / PR #3881.\n- Latest official review checked: CocoSgt `5062208469` (77/100, CHANGES_REQUESTED), submitted `2026-08-30T23:40:49Z`, reviewed SHA `474a74c53bddfe1f300cbc1cdfef34137c976c45`.\n- Naming repair: all package text and GeoJSON mappings use `留改工坊` / `单元工坊`; node IDs and the three-area mapping are unchanged.\n- Layout repair: land-use-structure and metrics-evidence now reserve a title band, a separate PROVISIONAL band, and bounded content/note panels; both key-areas figures use bounded node headers, with the long English middle title wrapped to two lines.\n- Regenerated: 14 bilingual figure PNGs are present, with the six affected source figures redrawn; 4 A0/A3 PDFs and 4 HTML deliverables regenerated; 8 figure previews and 4 PDF previews refreshed.\n- Manual QA: affected source figures and all PDF page previews were checked for title/warning overlap, edge crop, and visible text overflow; provisional notices, figure IDs, evidence IDs, and bilingual placement were retained.\n- All metrics remain concept/provisional values and are not presented as statutory conclusions; `land_use_zone_count` follows the 27-feature GeoJSON count and its declared formula.\n"
 }
