@@ -1406,6 +1406,8 @@
         "OFFICIAL-ANNOUNCEMENT",
         "OPEN-CALL-PROJECT-STATEMENT",
         "SUBMISSION-INTAKE-PR-4017",
+        "SUBMISSION-INTAKE-PR-4306",
+        "SUBMISSION-INTAKE-PR-4308",
         "COMMUNITY-GEOMETRY-CROSSCHECK-1029",
         "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
         "STATE-COUNCIL-AI-PLUS-2025",
@@ -1436,7 +1438,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-    "evidence_summary_zh": "‘京张，再次开路’以六节点网络和五旗舰试点统筹三区两翼，AI City API、城市公约、人工接管与七接口仅构成次级可信运行层；北纬社区、未来科学城、怀柔科学城、经开区和京津冀均为概念协作接口，不表示已确认合作、项目或空间边界；三间街室和I1-I7实体节点作为次级可信运行证据，为六节点网络和五旗舰提供可核验但非官方的责任接口；SOURCE、STACK、PROVE、LIVE_MARKET、ENABLE、COMMONS六节点由六个唯一几何锚点组织，五旗舰负责实施转化，可信运行层保持次级支撑；六角色各有且仅有一个临时几何锚点。V0.9以官方战略和项目直连来源校准六项转化能力与横贯式可信运行层；整套框架不构成国家试点、获批、采纳、实施或领先证明。V0.13增加双层验证：公开任务—Agent生成—来源/假设—机器校验及V0.12前序版的Issue/PR intake记录是已观察环节；人类终判和知识返还尚未观察但权限已保留。PR #4017证明V0.13直接前序版已完成仓库intake并合并；本包不自行声明V0.14当前PR或intake状态；若V0.14发布，只有对应实时PR与官方标签构成状态证据，提交仍不等于接收；城市服务仍须H0-H4外部实证。两层证据不得相互替代。",
+    "evidence_summary_zh": "‘京张，再次开路’以六节点网络和五旗舰试点统筹三区两翼，AI City API、城市公约、人工接管与七接口仅构成次级可信运行层；北纬社区、未来科学城、怀柔科学城、经开区和京津冀均为概念协作接口，不表示已确认合作、项目或空间边界；三间街室和I1-I7实体节点作为次级可信运行证据，为六节点网络和五旗舰提供可核验但非官方的责任接口；SOURCE、STACK、PROVE、LIVE_MARKET、ENABLE、COMMONS六节点由六个唯一几何锚点组织，五旗舰负责实施转化，可信运行层保持次级支撑；六角色各有且仅有一个临时几何锚点。国家AI战略与海淀试验场方向校准六项转化能力；整套框架不构成国家试点、获批、采纳、实施或领先证明。公开任务—Agent生成—来源/假设—机器校验及Issue/PR intake是已观察环节；PR #4306记录V0.14/V0.14.1问题发现、修复、96/100咨询性复审、intake与合并，PR #4308记录V0.15确定性PASS、100/100咨询性评审、formal-review-ready、featured-candidate、intake与合并。两次分数都不是正式评委得分；人类终判和城市H0-H4实施证据仍未观察，两层证据不得相互替代。V0.16仍是未发布的本地候选版。",
     "evidence_files": [
       "visual/assets/agent-participation-ledger.json",
       "visual/assets/verify-agent-participation-ledger.js",
@@ -1836,6 +1838,7 @@
       "title_zh": "百年京张文化、中关村文化与AI新文化融合叙事设计",
       "mandatory": true,
       "report_sections": [
+        "为什么是京张：两轮工业革命中的中国角色转变",
         "统筹研究范围产业与未来城市研究",
         "蓝绿空间、公共空间与城市风貌",
         "AI 创新生态、人才画像与 AI+ 场景"
@@ -1882,12 +1885,20 @@
         "AGENT-TASKBOOK",
         "OPEN-CALL-PROJECT-STATEMENT",
         "SUBMISSION-INTAKE-PR-4017",
+        "SUBMISSION-INTAKE-PR-4306",
+        "SUBMISSION-INTAKE-PR-4308",
         "HIST-JINGZHANG-RAILWAY",
+        "HIST-JINGZHANG-FROM-LEARNING-TO-AUTONOMY",
         "HIST-JINGZHANG-PARK",
-        "HIST-JINGZHANG-AI-BELT"
+        "HIST-JINGZHANG-AI-BELT",
+        "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
+        "STATE-COUNCIL-AI-PLUS-2025",
+        "NATIONAL-FIFTEENTH-FIVE-YEAR-AI-APPLICATION-2025",
+        "HAIDIAN-JINGZHANG-MIDTERM-2026"
       ],
       "assumption_ids": [
         "A-HERITAGE-001",
+        "A-NATIONAL-STRATEGIC-FRAMING-001",
         "A-KEYAREA-001",
         "A-FLAGSHIP-FP05",
         "A-BRAND-COMPONENT-001",
@@ -1900,7 +1911,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-    "evidence_summary_zh": "铁路自主工程史、遗址公园公共性、协议版本记忆与三处地标形成文化叙事；设计命题与史料原句保持区分；FP05用权利清晰、可纠错、可无手机访问的证据路线连接京张遗产叙事与当代AI试验。V0.13把1909自主勘测、设计、施工与管理复杂系统的能力，映射到2026年开放Agent共创与城市审查、接管、纠错、停止AI的双重能力；这是有公开过程记录支撑的设计判断，不是政府授予的历史定位或世界首创结论。",
+    "evidence_summary_zh": "铁路自主工程史、遗址公园公共性、协议版本记忆与三处地标形成同一条百年叙事。史料证明1905—1909年中国人自主勘测、设计、施工和管理京张铁路，并记录詹天佑赴美专习铁路工程、融合海外所学与中国技艺及本土条件的路径；本方案据此作设计史观解释：中国在上一轮工业革命扩散中，通过学习、吸收和转化西方率先形成的铁路工业体系实现自主工程突破。这一轮的目标不是声明已经领先，而是以开放Agent共创和城市审查、接管、纠错、停止AI的双重能力，把人工智能转化为产业应用、城市治理和日常生活能力，面向全球竞争，争取参与定义并引领AI驱动的新一轮工业革命。FP05以权利清晰、可纠错、可无手机访问的证据路线把这条百年叙事落到城市服务。事实、史观、目标与结果严格分层：独立筑路与学习转化路径是来源支持的历史事实；两轮对照是方案解释；争取引领是战略目标；国家级认定、政府背书、世界首创、实施绩效和全球领先均未证明，且城市层仍须H0—H4外部实证。",
     "evidence_files": [
       "visual/assets/agent-participation-ledger.json",
       "assets/figures/double-demonstration.png",
@@ -2048,7 +2059,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-    "evidence_summary_zh": "季度开放、半年审查、年度大会和持续版本日志通过场景及分期空间承载；活动、预算、主体和时序均为概念机制；三条旅程和三处能力返还台把长期运营的暂停、补救、退役及公共能力返还写成引用完整的概念登记，不声称已经兑现。V0.15进一步把日、周、季、年维护周期、人员FTE、容量疏散、ROM成本运维、退出储备和ALT01至04门槛权衡接入长期运营，并以七类双语执行空表承接载体、责任、D0、成本采购、专业验收、复演退出和RAID变更；230个字段全部为空，外部执行记录与释放均为0。PR #4306只证明前序仓库修订与intake过程，正式评选、Gallery、采纳与实施仍未证实。",
+    "evidence_summary_zh": "季度开放、半年审查、年度大会和持续版本日志通过场景及分期空间承载；活动、预算、主体和时序均为概念机制；三条旅程和三处能力返还台把长期运营的暂停、补救、退役及公共能力返还写成引用完整的概念登记，不声称已经兑现。V0.16保留V0.15已接入长期运营的日、周、季、年维护周期、人员FTE、容量疏散、ROM成本运维、退出储备和ALT01至04门槛权衡，并继续以七类双语执行空表承接载体、责任、D0、成本采购、专业验收、复演退出和RAID变更；230个字段全部为空，外部执行记录与释放均为0。PR #4306只证明前序仓库修订与intake过程，正式评选、Gallery、采纳与实施仍未证实。",
       "geojson_feature_ids": [
         "PHASE-001",
         "PHASE-002",

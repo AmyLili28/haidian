@@ -22,7 +22,7 @@ function allNull(object, keys) {
 
 check(
   "envelope",
-  "V0.15 bilingual pre-feasibility conditional-delivery-control envelope",
+  "V0.15 delivery-control artifact retained in the V0.16 bilingual package",
   artifact.schema_version === "0.3.0" &&
     artifact.artifact_id === "FP01-DELIVERY-CONTROL-001" &&
     artifact.artifact_version === "v0.15" &&

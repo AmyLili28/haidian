@@ -148,6 +148,7 @@
         "OPEN-CALL-PROJECT-STATEMENT",
         "SUBMISSION-INTAKE-PR-4017",
         "SUBMISSION-INTAKE-PR-4306",
+        "SUBMISSION-INTAKE-PR-4308",
         "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
         "STATE-COUNCIL-AI-PLUS-2025",
         "NATIONAL-FIFTEENTH-FIVE-YEAR-AI-APPLICATION-2025",
@@ -160,6 +161,7 @@
         "CASE-PUNGGOL-ODP",
         "CASE-SIDEWALK-QUAYSIDE",
         "HIST-JINGZHANG-RAILWAY",
+        "HIST-JINGZHANG-FROM-LEARNING-TO-AUTONOMY",
         "HIST-JINGZHANG-PARK"
       ],
       "assumption_ids": [
@@ -190,7 +192,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "六组案例、十二场景、三项验证、五类用户、三处地标和长期运营机制均有独立证据；所有落地表述保持概念建议属性。V0.15将1:500至1:20四尺度、容量疏散、人员FTE、三档ROM成本运维、维护周期、退出储备、逐门备选和七类双语执行空表接入同一预可行性决策包；所有外部实际仍为null/0/HOLD。PR #4306只证明V0.14/V0.14.1问题发现、修复、复核、仓库intake接收与合并；96/100为咨询性Review Agent结果，不是正式评选、Gallery发布、采纳、实施、政府背书或世界首创。V0.15仍是未发布的本地候选版。",
+      "evidence_summary_zh": "六组案例、十二场景、三项验证、五类用户、三处地标和长期运营机制均有独立证据；所有落地表述保持概念建议属性。V0.16完整保留1:500至1:20四尺度、容量疏散、人员FTE、三档ROM成本运维、维护周期、退出储备、逐门备选和七类双语执行空表；所有外部实际仍为null/0/HOLD，并新增有来源与边界的两轮工业革命立意。PR #4306证明V0.14/V0.14.1问题发现、修复、96/100咨询性复审、仓库intake接收与合并；PR #4308证明V0.15确定性PASS、100/100咨询性Review Agent结果、formal-review-ready、featured-candidate、intake接收与合并。两者都不是正式评选、Gallery发布、采纳、实施、政府背书、世界首创或全球领先证明。V0.16仍是未发布的本地候选版。",
       "evidence_files": [
         "visual/assets/agent-participation-ledger.json",
         "visual/assets/verify-agent-participation-ledger.js",

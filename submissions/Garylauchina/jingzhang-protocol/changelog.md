@@ -1,5 +1,14 @@
 # 方案迭代记录
 
+## v0.16 - 2026-08-31
+
+- Preserved the stable master brand **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND** and made the different Chinese roles across two industrial revolutions explicit: learning, absorbing and transforming a Western-origin railway-industrial system into independent engineering in the earlier wave; using accountable real-city experimentation to help define and seek to lead the AI-driven wave.
+- Added an official institutional historical source for Jeme Tien Yow's US railway-engineering education, local adaptation of overseas learning and the move in modern Chinese industry from foreign import to autonomy. Kept historical fact, design-historical interpretation, strategic ambition and unproven outcome as four separate claim levels.
+- Preserved all V0.15 scenarios, geometry, metrics, FP01 four-scale decision package, capacity/egress, staffing/FTE, ROM sensitivities, maintenance, restoration reserve, gate-linked alternatives, seven blank execution forms, human fallback and every `0 / null / HOLD` external state.
+- Recorded PR #4308 as the V0.15 predecessor's deterministic PASS, 100/100 advisory Review Agent result, formal-review-ready and featured-candidate recommendations, repository-intake acceptance and merge. The 100 is not a formal jury score, does not transfer automatically to this new package hash and does not prove Gallery publication, selection, adoption or implementation.
+- Rebuilt the bilingual opening thesis, public-process ledger, HTML first screens, A3 covers and A0 juror maps around `1909: LEARN → LOCALIZE → BUILD` and `2026: TEST → GOVERN → AIM TO HELP LEAD`, while retaining the separate H0-H4 urban-evidence boundary.
+- V0.16 remains a local candidate and has not been pushed or opened as a new PR. Any later publication or review state must be read from the corresponding live PR and official records.
+
 ## v0.15 - 2026-08-31
 
 - Kept **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND**, the overall spatial framework, twelve scenarios, five flagships and provisional geometry unchanged; this is a local candidate and has not been pushed or opened as a new PR.
@@ -19,7 +28,7 @@
 
 ## v0.14 - 2026-08-31
 
-- Kept the stable title **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND**, the six-capability network, twelve scenes, five flagships and all provisional geometry unchanged. V0.15 is a local candidate package that does not self-assert a live PR or intake status; any later publication state is governed by the corresponding PR and official labels.
+- Kept the stable title **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND**, the six-capability network, twelve scenes, five flagships and all provisional geometry unchanged. V0.14 was a candidate package that did not self-assert a live PR or intake status; any later publication state was governed by the corresponding PR and official labels.
 - Added a 30-second / 3-minute / 15-minute juror path and a seven-dimension evidence index using the official 20/10/15/20/10/10/15 weights. The index points to exact package evidence and boundaries; it does not self-award a score.
 - Expanded `fp01-delivery-control.json` to v0.2.0 with sixteen delivery role classes, one decision-owner role at each H0-H4 gate, seven cost classes, four maintenance controls, twelve acceptance indicators, six conditional release stages and four reversible fallbacks. Its dedicated verifier now passes 21/21 checks.
 - Separated eight proposal-structure acceptance indicators that a reviewer can judge now from four indicators that still require a real problem/baseline, field/professional conditions, independent rehearsal and separate authorization.
