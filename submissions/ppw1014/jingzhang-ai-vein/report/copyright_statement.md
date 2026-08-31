@@ -25,7 +25,7 @@
 
 | 字体 | 来源 | 使用方式 | 嵌入与再分发 |
 | --- | --- | --- | --- |
-| Noto Sans SC（HTML 中文渲染，Regular/Bold 静态子集） | Google Noto Fonts（github.com/google/fonts，OFL 目录） | 按页面实际用字（1031 字符）经 fontTools instancer + pyftsubset 子集化为 woff2，以 base64 data URI 内联进 4 个 HTML 页面（不依赖宿主机中文字体，file:// 与 http 离线均可读） | SIL Open Font License 1.1 授权，允许捆绑与再分发；版权声明与许可证全文见本文件附录 A |
+| Noto Sans SC（HTML 中文渲染，Regular/Bold 静态子集） | Google Noto Fonts（github.com/google/fonts，OFL 目录） | 按页面实际用字（1046 字符，随正文修订全量复核补充）经 fontTools instancer + pyftsubset 子集化为 woff2，以 base64 data URI 内联进 4 个 HTML 页面（不依赖宿主机中文字体，file:// 与 http 离线均可读） | SIL Open Font License 1.1 授权，允许捆绑与再分发；版权声明与许可证全文见本文件附录 A |
 | Hiragino Sans GB（图件中文渲染） | macOS 系统字体 | 本机 matplotlib 渲染进 PNG 位图 | 位图像素化输出，不随包分发字体文件 |
 | STHeiti Light / Medium（PDF 排版） | macOS 系统字体 | reportlab 以子集形式嵌入 PDF | 仅文档内嵌子集用于阅读显示；不随包再分发字体二进制 |
 | Helvetica（PDF 西文） | reportlab 内置核心字体 | 西文段落 | 随 PDF 规范自由使用 |
