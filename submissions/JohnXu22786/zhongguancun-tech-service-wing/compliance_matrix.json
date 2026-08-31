@@ -1,5 +1,42 @@
 {
  "schema_version": "0.1.0",
+ "review_dimensions": [
+  {"dimension_id":"objective_alignment","title_zh":"目标契合度","proposal_sections":["设计依据与资料清单","三层范围工作框架"],"agent_refs":["agent.1","agent.2"],"visual_refs":["assets/figures/site-overview.png"],"status":"addressed"},
+  {"dimension_id":"function_match","title_zh":"功能匹配度","proposal_sections":["设计依据与资料清单","重点区域详细设计"],"agent_refs":["agent.1","agent.3","agent.4"],"visual_refs":["assets/figures/spatial-index.png"],"status":"addressed"},
+  {"dimension_id":"brand_identity","title_zh":"品牌识别度","proposal_sections":["设计依据与资料清单","蓝绿空间、公共空间与城市风貌"],"agent_refs":["agent.1"],"visual_refs":["assets/figures/logo-zhilink.png"],"status":"addressed_rights_to_verify"},
+  {"dimension_id":"regional_synergy","title_zh":"区域协同性","proposal_sections":["更新项目清单、实施政策与分期计划"],"agent_refs":["agent.6"],"metric_refs":["go_no_go"],"status":"participant_proposed_to_verify"},
+  {"dimension_id":"planning_innovation","title_zh":"规划创新性","proposal_sections":["三层范围工作框架","用地、建筑规模与拆改留方案"],"matrix_refs":["design_depth_matrix.json"],"visual_refs":["assets/figures/land-use-structure.png"],"status":"addressed_provisional"},
+  {"dimension_id":"industry_support","title_zh":"产业支撑度","proposal_sections":["统筹研究范围产业与未来城市研究","AI 创新生态、人才画像与 AI+ 场景"],"agent_refs":["agent.2","agent.3"],"metric_refs":["global_case_count","industry_test_scenario_count"],"status":"participant_proposed_to_verify"},
+  {"dimension_id":"scenario_perceptibility","title_zh":"场景可感知度","proposal_sections":["重点区域详细设计","AI 创新生态、人才画像与 AI+ 场景"],"agent_refs":["agent.3","agent.4"],"visual_refs":["assets/figures/scenario-cards.png","assets/figures/key-areas.png"],"status":"addressed"},
+  {"dimension_id":"spatial_clarity","title_zh":"空间明确性","proposal_sections":["重点区域详细设计","交通、轨道、市政与公共服务设施"],"agent_refs":["agent.4"],"geometry_refs":["geometry/key_areas.geojson","geometry/public_space.geojson"],"visual_refs":["assets/figures/spatial-index.png"],"status":"provisional_to_verify"},
+  {"dimension_id":"transferability","title_zh":"可转化性","proposal_sections":["更新项目清单、实施政策与分期计划"],"agent_refs":["agent.6"],"drawing_refs":["drawings/a0-boards.pdf","drawings/a3-booklet.pdf"],"status":"addressed_concept"},
+  {"dimension_id":"expression_completeness","title_zh":"表达完整性","proposal_sections":["固定13节正文与参考资料"],"visual_refs":["visual/index.html","visual/index.en.html"],"drawing_refs":["drawings/a0-boards.pdf","drawings/a0-boards.en.pdf","drawings/a3-booklet.pdf","drawings/a3-booklet.en.pdf"],"status":"addressed"},
+  {"dimension_id":"public_compliance","title_zh":"公开合规性","proposal_sections":["风险、版权与合规说明"],"source_refs":["sources.json","report/copyright_statement.md"],"status":"addressed_rights_to_verify"},
+  {"dimension_id":"international_communication","title_zh":"国际传播力","proposal_sections":["蓝绿空间、公共空间与城市风貌"],"agent_refs":["agent.5"],"visual_refs":["assets/figures/logo-zhilink.en.png","assets/figures/mobility-bluegreen.en.png"],"status":"addressed_concept"},
+ {"dimension_id":"long_term_operation_value","title_zh":"长期运营价值","proposal_sections":["更新项目清单、实施政策与分期计划"],"agent_refs":["agent.6"],"metric_refs":["annual_program_count","go_no_go"],"status":"participant_proposed_to_verify"}
+ ],
+ "formal_wings": [
+  {
+   "wing_id": "WING-01",
+   "name_zh": "中关村科技服务翼",
+   "name_en": "Zhongguancun Tech-Service Wing",
+   "official_source_id": "DATA-SRC-AGENT-TASKBOOK-20260518",
+   "proposal_anchors": ["重点区域详细设计", "AI 创新生态、人才画像与 AI+ 场景", "指标体系、面积复算与合规矩阵"],
+   "visual_refs": ["assets/figures/key-areas.png", "assets/figures/spatial-index.png"],
+   "role": "本子包的深化重点；以链上三驿组织科技服务场景",
+   "boundary_status": "official name from taskbook; exact boundary and siting remain to_verify"
+  },
+  {
+   "wing_id": "WING-02",
+   "name_zh": "小月河场景赋能翼",
+   "name_en": "Xiaoyuehe Scenario Empowerment Wing",
+   "official_source_id": "DATA-SRC-AGENT-TASKBOOK-20260518",
+   "proposal_anchors": ["重点区域详细设计", "交通、轨道、市政与公共服务设施", "蓝绿空间、公共空间与城市风貌"],
+   "visual_refs": ["assets/figures/mobility-bluegreen.png", "assets/figures/scenario-cards.png"],
+   "role": "本子包提供一条可审的滨水公共体验接口，不替代正式翼边界",
+   "boundary_status": "official name from taskbook; path, boundary and siting remain concept proposals to_verify"
+  }
+ ],
  "requirements": [
   {
    "requirement_id": "1.3.1",

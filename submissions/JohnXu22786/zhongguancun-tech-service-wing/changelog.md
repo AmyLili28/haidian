@@ -1,10 +1,3 @@
-## 2026-08-31 — CocoSgt 67-point repair (local Draft work)
-
-- Corrected the formal two-wing wording to the taskbook's Zhongguancun Tech-Service Wing / Xiaoyuehe Scenario-Enablement Wing, retaining the prior labels only as spatial-strategy context.
-- Replaced the ambiguous six-star key-area graphic with one explicit concept-node marker per area (three total), and added the same marker convention to both bilingual narratives.
-- Expanded `report/copyright_statement.md` into an itemized rights register covering font, official/reference text, provisional geometry, comparative cases, generated assets, marks and generation dependencies; removed the stale ledger reference and stated that attribution does not itself grant permission.
-- Synchronized the corrected bilingual key-area figure into A0 boards, A3 booklets, HTML and visual previews; refreshed manifest hashes and passed all four pre-submit gates in the clean `submissions/JohnXu22786/` validation root.
-
 ## 2026-08-31 — 78-point CocoSgt expression repair (local Draft work)
 
 - Re-exported five bilingual core figures with bounded title, legend, warning, footer and note safe zones; wrapped all side-panel copy.
