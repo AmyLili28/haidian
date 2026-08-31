@@ -28,6 +28,8 @@
         "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/mobility-bluegreen.png",
         "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/site-overview.en.png",
         "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/site-overview.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/wings-synergy.en.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/wings-synergy.png",
         "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-01.jpg",
         "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-02.jpg",
         "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-03.jpg",
@@ -83,7 +85,7 @@
       "ai_package_stages": {
         "submissions/zhaozheyi-collab/zipper-jingzhang": "formal"
       },
-      "total_bytes": 28701561,
+      "total_bytes": 30040302,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -165,7 +167,7 @@
           "standard": 3,
           "depth": 15,
           "data": 16,
-          "metric": 8
+          "metric": 9
         }
       }
     },

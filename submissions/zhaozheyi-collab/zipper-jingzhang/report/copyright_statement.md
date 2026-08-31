@@ -516,3 +516,15 @@ square 1:1 aspect ratio composition, no text, no numbers, no labels
 Negative prompt: photorealistic photograph, text, letters, numbers, labels, dimension annotations, watermark, logo, cartoon style, dark background, oversaturated colors, fisheye distortion
 ```
 
+
+## Appendix B — Bilingual Cross-Check Record (2026-08-31)
+
+Manual zh–en substantive equivalence check of proposal.md / proposal.en.md, report/proposal(.en).html, visual/index(.en).html, the six bilingual figure pairs (site-overview, land-use-structure, key-areas, mobility-bluegreen, metrics-evidence, wings-synergy) and the A3/A0 drawings, performed after the review-repair batch:
+
+- Chapter parity: 15 / 15 top-level chapters; section order mirrored (three zones & two wings loop, regional synergy interfaces, per-card six-element matrix, component library, inclusivity matrix, stage-gate table, long-term operations).
+- Table parity: 47 / 47 markdown tables; all rows one-to-one (case table 6 rows, scenario matrix 11 rows, maturity table 5 rows, component library 8 rows, inclusivity matrix 6 groups, stage-gate 6 projects, operations 6 mechanisms).
+- Claims, metrics and warnings parity: site_area_sqm 11,412,825 m²; green_ratio 18%; public_space_ratio 1%; band 9.72 km; tooth_count 10; FAR unknown — identical in both languages; provisional (official_boundary=false) warnings present in both.
+- Figure language attribution corrected: zh figures carry Chinese labels, .en figures English labels (key-areas pair swapped-label defect fixed; land-use-structure .en legend translated); visual/index.en.html non-proper-noun Chinese residue removed (remaining CJK = brand name 拉链京张 and verbatim GeoJSON enum quotes in the source registry).
+- Evidence markers preserved in both languages with the ≤3-consecutive / ≤8-per-section discipline.
+
+Result: PASS — the two language versions are substantively equivalent; no untranslated residue other than brand proper nouns and verbatim data-registry quotes.
