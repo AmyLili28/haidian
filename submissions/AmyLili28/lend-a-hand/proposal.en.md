@@ -6,7 +6,7 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-iteration: "v2.0"
+iteration: "v2.1"
 summary: "Rail connects places; Lend a Hand connects responsibility: AI verifies and warns backstage while paid people judge and hand over at the front."
 tracks: ["civic-agent-governance", "ai-traffic-walkability", "enterprise-services-ecosystem"]
 scenarios: ["public-safety-operations-review", "ai-traffic-walkability", "enterprise-service-copilot"]
@@ -40,6 +40,41 @@ Six desks are spatial capacity, not a promise that six stations open simultaneou
 
 ![Concept land use and responsibility-relay structure](assets/figures/land-use-structure.en.png)
 
+## Taskbook Mapping and Regional Collaboration Interfaces
+
+Lend a Hand answers the taskbook before extending its own concept. The three positions are review lenses rather than slogans: the cultural belt tests whether historical translation is restrained; the urban-AI experience belt tests whether people without smartphones can enter; the fusion-innovation belt tests whether a prototype can be safely refused, stopped, and handed back [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+| Three positions | Visible response in this proposal |
+| --- | --- |
+| Century-old Jing-Zhang Cultural Belt | Translate timetable, interchange, and maintenance into an accountable civic language; attach nothing to heritage fabric before verified controls. |
+| Urban AI Life Experience Belt | Six no-account human entrances keep AI verification backstage and paid people responsible for explanation, refusal, referral, and stopping. |
+| AI Fusion Innovation Belt | Turn public problems into reversible scope cards, closed validation, human approval, knowledge return, and exit—not an open test bed. |
+
+Each of the five functions is mapped through function, district/wing, spatial carrier, package, backstage agent, human owner, and entry-to-exit loop. The two wings are taskbook roles, not newly asserted statutory boundaries or established organisations.
+
+| Five functions | Primary district/wing | Spatial carrier | Pkg | Backstage agent | Human accountability | Entry-to-exit loop |
+| --- | --- | --- | --- | --- | --- | --- |
+| AI full-stack autonomous innovation | Zhongzhiyuan AI Innovation Accelerator | Civic Skills Roster Lab / closed drill yard | LH-05 | A1 source verifier + A2 risk sentinel | Sponsored shift mentor + safety lead | Public task intake → scope card → closed validation → documentation handover or withdrawal |
+| World-class AI innovation ecosystem | AI Origin Community + Zhongguancun Technology Service Wing | Human Transfer Hub / ecosystem relay desk | LH-07 | A3 capacity planner + A4 public-version editor | Ecosystem liaison + formal receiver | Problem definition → maturity screen → accountability check → non-procurement referral |
+| AI+ scenario enablement | Xiaoyuehe Scenario Enablement Wing + all three districts | Scenario intake / closed or semi-open validation bay | LH-04/05 | A1 route verifier + A2 risk sentinel | Scenario owner + safety owner | Application → data review → human gate → result return → closure |
+| Intelligent AI-vital city | Dazhongsi AI Industry Cluster + Xiaoyuehe Scenario Enablement Wing | Repair & Reuse Commons / accessible public-experience route | LH-01/06 | A4 plain-language editor | Paid navigator + qualified workshop lead | No-account experience → low-risk participation → professional referral → routine maintenance |
+| Global voice in AI governance | Zhongzhiyuan + AI Origin Community | Public RAG scope card / version and stop archive | LH-02/08 | A2 risk sentinel + A4 version editor | Privacy owner + independent review chair | Publish failure, override, refusal, and exit evidence; never self-certify |
+
+The collaboration structure closes only through accountable handover: `public problem/capability enters → two-person scope and data check → closed or semi-open validation → human approval/refusal → versioned knowledge return → handover, reuse, or exit`. Zhongguancun Technology Service Wing focuses on problem, engineering, capital, and service interfaces; Xiaoyuehe Scenario Enablement Wing focuses on controlled settings and public experience; the three districts retain distinct responsibility for capability supply, human transfer, and repair/reuse. Missing owner, permission, or exit conditions stop the loop at intake.
+
+### Five external areas: an interface map, not a partner list
+
+Beiwei Community, Future Science City, Huairou Science City, Beijing E-Town, and Beijing-Tianjin-Hebei come from the taskbook review criteria. This package has no agreement, contact, data licence, joint event, or funding evidence. The table therefore defines what could be exchanged and how a future relationship would enter and exit through an open process; naming is not evidence of collaboration.
+
+| Area | Potential capability | Two-way exchange | Entry condition | Knowledge return | Exit condition | Public evidence status |
+| --- | --- | --- | --- | --- | --- | --- |
+| Beiwei Community | Everyday community issues, offline access, and plain-language feedback | Public issue cards, no-account experience scripts, and error returns | Open call followed by joint confirmation from community/scenario and safety owners | De-identified issue list, adopt/do-not-adopt reasons, and a plain-language public version | Exit for personal casework, unconsented data, or no formal receiver | Named in the taskbook; this package found no agreement or verifiable joint project |
+| Future Science City | Research capacity, talent development, and prototype-maturity methods | Scope-card templates, closed-validation records, and topics for short talent exchange | Only after an open invitation defines both owners and the data boundary | Reproduction note, failure conditions, and maintenance/offboarding manual | Exit when data cannot be licensed, results reproduced, or accountability handed over | Named in the taskbook; conceptual interface only, with no collaboration claim |
+| Huairou Science City | Experience in scientific-facility and research-scenario validation methods | Publicly shareable validation methods, non-sensitive scenario issues, and safety checklists | Verify public sources first; professionals then decide whether a local closed rehearsal is appropriate | Method-difference note, non-transferable items, and Jing-Zhang adaptation record | Exit when non-public research, facility permission, or unavailable expertise would be required | Named in the taskbook; no project, facility, or data-access promise |
+| Beijing E-Town | Industrial engineering, manufacturing/robot testing, and maintenance problems | Closed-test protocol, near-miss record, physical stop, and handover template | Discuss entry only after maturity, site accountability, insurance, and physical stopping all pass | Test result, red-line events, and a human decision on the next maturity stage | Exit when first testing needs open crowds, lacks a physical stop, or could be misread as procurement | Named in the taskbook; no firm list, pilot, or procurement claim |
+| Beijing-Tianjin-Hebei | Cross-regional exchange of talent, cases, components, and public-service knowledge | Bilingual scope cards, reusable-component notes, and versioned failure cases | Accept reusable material only through public channels and a clear licence | Source, licence, contextual difference, return contact, and exit state | Exit for unclear licence, irreproducible claims, or regional-commitment framing | Named in the taskbook; no joint mechanism, funding, or common project is presumed |
+
+
 ## Coordinated Research Area: Industry and Future City Research
 
 AI ecosystems are commonly measured in compute, models, capital, and exhibition space. This proposal adds a missing infrastructure: translating everyday limits, errors, accessibility barriers, language difficulty, maintenance demand, and human override into safe public tasks. Firms receive no resident-data mine; they receive authorised, de-identified, stoppable test settings. Residents receive more than a temporary demonstration: they see a human entrance and a formal handover. Industrial value comes from more reliable systems, not from turning a neighbourhood into a cheap test bed [depth:industry_ecosystem_strategy].
@@ -56,6 +91,35 @@ The talent proposition is professional dignity rather than robots everywhere. En
 | A4 | Public Version & Easy-read Editor | Draft multilingual, easy-read, and paper-equivalent versions with citations | Content owner | Check time/place fields; archive overrides and previous versions |
 
 ![Four backstage agents and five human gates](assets/figures/agent-backstage.en.png)
+
+## Global AI Ecosystem Cases and the Eight-Input Loop
+
+The six cases compare public mechanisms only. They are neither a ranking nor evidence of collaboration with Jing-Zhang. Each row states institutional difference and non-transferable content so overseas brands, funding, and outcomes are not pasted onto a local concept.
+
+| Public case | Place | Transferable mechanism | Institutional difference | Jing-Zhang fit | Do not transfer | Source |
+| --- | --- | --- | --- | --- | --- | --- |
+| AI Singapore 100 Experiments | Singapore | Problem definition → PoC/MVP → engineers and apprentices deliver together → documentation and knowledge transfer | Its national programme and co-investment conditions differ; Jing-Zhang cannot copy funding levels or eligibility | Use maturity screening, real problems, staged deliverables, and handover in Zhongzhiyuan skills shifts and validation cards | Funding, procurement, programme duration, and admission eligibility | [source:AI-SINGAPORE-100E] |
+| Mila industry partnership ecosystem | Montréal, Canada | Research, talent, industry partners, and startup support maintain long-term connections in one collaborative environment | Research-institute scale, partner model, and local industrial policy differ | Use shared space, clear project intake, talent touchpoints, and continuity in AI Origin's ecosystem relay desk | Partner lists, brand, research reputation, and investment-attraction outcomes | [source:MILA-PARTNERSHIPS] |
+| Vector Institute research-to-adoption | Toronto, Canada | AI engineering, talent programmes, and institutional collaboration move research toward adoptable tools | Its provincial research-industry network, funding, and health-sector partnerships differ | Use a research → engineering → training → adoption path for developer reuse and enterprise handover | Certification, grants, talent places, and industry partnerships | [source:VECTOR-ADOPTION] |
+| Digital Catapult BridgeAI | United Kingdom | Maturity tools, accelerators, industry working groups, and responsible-AI support reduce adoption risk | It is a national programme with different target sectors and public-funding rules | Use maturity gates, ethics/data readiness, and pairing of industry problems with a developer community | Funding figures, sector eligibility, procurement context, and accelerator branding | [source:DIGITAL-CATAPULT-BRIDGEAI] |
+| ELLIS network of units | Europe | Local research units, cross-node programmes, and a doctoral/postdoctoral network create multi-centre knowledge circulation | It centres research excellence and institutional commitment, not an urban public-service network | Let local nodes retain ownership while methods and talent circulate and knowledge returns | Unit status, admission criteria, reputation, and network endorsement | [source:ELLIS-NETWORK] |
+| AI Sweden Technology Infrastructure | Sweden | Partners bring use cases, complete agreements, receive technical/legal support, test, offboard, and share knowledge | It is a partner-based national platform with different infrastructure and legal conditions | Use case inventory, agreements before access, production-like tests, offboarding, and knowledge return | Partner privileges, compute supply, datasets, and legal conclusions | [source:AI-SWEDEN-INFRA] |
+
+The transferable pattern is operational rather than stylistic: define the problem and maturity first; connect research, engineering, talent, and users through explicit roles; put data, compute, and capital behind agreements; judge reproducible outputs rather than attendance; and finish with knowledge transfer and offboarding. In Jing-Zhang, Zhongzhiyuan hosts closed capability validation; AI Origin hosts human explanation and responsibility transfer; Dazhongsi hosts bounded repair and AI-native services; Xiaoyuehe Wing hosts controlled scenarios; and Zhongguancun Wing hosts problem and professional-service interfaces. These are conceptual duties, not confirmed organisations.
+
+| Eight inputs | Cross-area carrier | Human approval gate | Exit/stop |
+| --- | --- | --- | --- |
+| Land | Provisional three-district canvas and two conceptual wing interfaces | Show candidate relationships only; statutory/professional owners approve after title, planning controls, heritage, and redlines are complete | Do not locate an intervention when any critical base map is missing |
+| Space | Zhongzhiyuan closed drill yard → AI Origin human transfer → Dazhongsi low-risk workshop → Xiaoyuehe semi-open scenario | Move from closed to semi-open to time-limited public use only when the scenario and safety owners sign each step | Close when staffing, egress, accessibility, or site agreement fails |
+| Industry | Conceptual problem intake in Zhongguancun Technology Service Wing plus validation capacity across three districts | Accept only tasks with a problem owner, maintainer, and exit plan; make no investment or procurement promise | Return work with no business owner or that depends on residents as unpaid test subjects |
+| Capital | Budget packages for wages, venue, insurance, testing, maintenance, and offboarding | The accountable body confirms each funding source; capital supports approved stages but cannot bypass human gates | Stop when full-cost coverage is missing, paid roles are replaced by volunteers, or funding is exchanged for data/procurement |
+| Talent | Sponsored engineer shifts, mentored student contributions, paid frontline staff, and accessibility co-review | Confirm task, mentor, pay/stipend/credit, portfolio evidence, and handover/exit | Stop without supervision or compensation terms, when service users become training material, or when hiring is promised |
+| Compute | Isolated sandboxes and traceable versions; no existing capacity is claimed | A technical owner sets accounts, quota, logs, deletion, and offline rehearsal for approved tasks only | Do not connect when access, cost, rollback, or deletion on exit cannot be verified |
+| Data | Public, synthetic, de-identified, minimum-necessary data; personal information stays out by default | A privacy owner checks source, purpose, licence, duration, access, deletion, and result disclosure | Exit the ordinary pathway for unclear source/licence, continuous location, or free-text personal cases |
+| Scenario | Four industry validation cards plus twelve public scenarios | Application → maturity → risk → closed test → human review → limited opening → return or closure | Stop for a missed red line, irreproducible result, or publicity that frames a scenario as approved |
+
+One loop connects the eight inputs: `land/space due diligence → dual definition of industry problem and public value → talent and full-cost budget confirmation → compute/data agreements → closed scenario validation → human evidence review → limited opening or exit → documentation, maintainer, and deletion proof handed over`. Capital cannot bypass safety. Compute and data have no automatic public-space access. Exiting with reusable knowledge is as valid as scaling [depth:industry_ecosystem_strategy].
+
 
 ## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
 
@@ -123,6 +187,20 @@ S10 follows a different protocol. The owner remains present and describes the pr
 
 ![Twelve scenarios, human gates, and red lines](assets/figures/scenario-matrix.en.png)
 
+## Industry Validation Cards: A Scenario Must Be Refusable Before It Enters the District
+
+The four cards separate industry validation from public experience. “Maturity” describes current evidence without assigning an unassessed TRL number. Every card is a conceptual validation path—not an approved, procured, or operating pilot.
+
+| Card | Scenario | Current maturity | Closed/semi-open space | Input data | Accountability | Validation measure | Stop threshold | Result return |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| IV-01 | Same-day accessible-route verification | Rules/prototype can be rehearsed; no public service approved | Closed route tabletop plus semi-open, crowd-free sample segment | Public works notices, synthetic obstacles, and two-person field records; no continuous tracking | Road/site owner TBD + paid route-check team | Zero unverified routes published; target ≤15 min stale-version withdrawal drill; paper/digital version match | Stop after one inferred route is called usable, one red near miss, or one paper/digital conflict | Return route errors, override reasons, and applicability to the submitting team; take down if it cannot pass |
+| IV-02 | Multilingual and plain-language public-information assistant | Controlled text tests are possible; not an official publishing system | Closed content desk plus a limited staffed counter | Authorised public notices, preset test questions, and glossary; no eligibility casework | Formal content publisher TBD + bilingual reviewer | Human-by-human match for critical time/place/accountability; source and expiry visible | Stop after one unchecked critical field, machine translation treated as a promise, or failed rollback | Keep error types, revision rules, and refusal examples; hand to the content owner or exit |
+| IV-03 | Low-speed robot near-miss and yielding validation | Closed-rehearsal concept only; no qualification for open operation | Zhongzhiyuan closed yard; discuss a semi-open empty site only after conditions pass | Synthetic paths, anonymous device telemetry, dummies/signs; no first test on passers-by | Device operator TBD + on-site safety controller | Physical stop works; zero red events released; near miss, stop, and reset fully logged | Stop on one incursion into open footfall, failed emergency stop, facial-recognition dependency, or unclear authority | Return failure clips, version, environment, and non-generalisation notes; humans decide retest or offboarding |
+| IV-04 | Shift-capacity and human-relay planning | Can be tested with synthetic rosters; never used to score people | Closed operations sandbox | Role skills, aggregate capacity, rest/substitution rules, and synthetic requests; no named value score | Shift manager + labour/privacy reviewer TBD | 100% compliance with two-person minimum, rest, and skills constraints; zero volunteer-replacement suggestions | Disable A3 on any personal value ranking, cross-site double duty, unpaid substitution, or unexplained roster | Return constraint conflicts, human overrides, and unresolved capacity; shorten hours or close when unmet |
+
+All four share seven gates: the applicant states a public problem and maintainer; a scenario owner checks public value; privacy and safety owners review data and space; a closed rehearsal runs; frontline staff challenge failure conditions; the accountable body signs advance/rework/exit; and code, scope card, tests, errors, applicability, and deletion/offboarding proof return to the owning team. News, visits, or investment interest cannot replace these gates.
+
+
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
 Land-use areas derive only from the provisional boundary in EPSG:4548. Six zones share edges without overlap and cover the design canvas. The green relay and nine civic forecourts are overlays. Buildings strictly distinguish six 18 sqm desks from three roughly 252 sqm adaptive interfaces. A public forecourt is a queue, rest, and transfer space around a desk, not the desk footprint. GeoJSON, metrics, drawings, and text all resolve to nine forecourts and nine building placeholders [data:geometry/public_space.geojson#PUBLIC-LH-01] [metric:handover_table_count].
@@ -151,9 +229,37 @@ Identity comes from railway operations rather than cyber-blue spectacle. Deep bl
 
 Accessibility follows two equivalent paths: high-contrast, legible physical text with paper, spoken, seated, and easy-read support; and a zoomable, keyboard-usable page tied to the same version. Accessibility law and ageing-inclusion policy are applicability checks. The proposal does not generalise one provision into a universal statutory human-service duty; no-account human access is a self-imposed public-design principle [standard:BARRIER-FREE-ENVIRONMENT-LAW].
 
+## Jing-Zhang Public Space, Landmarks, and Cultural System
+
+The conceptual public space in Jing-Zhang Heritage Park is the Relay Stop Band. It is not an AI object attached to heritage fabric. On verified, lawfully usable public interfaces it combines reversible rest, a paper-map/version cabinet, open/closed beacon, side-by-side accessible explanation desk, and removable story marker. Until heritage fabric, controls, trees, water, title, and movement conditions are known, nothing attaches, drills, spans, or claims engineering feasibility [depth:blue_green_public_space].
+
+East-west stitching searches only for last-few-hundred-metre connections among existing lawful crossings, entrances, and forecourts, repairing information, rest, and human confirmation first. It makes no bridge, tunnel, underground, or rail-crossing feasibility claim. North-south continuity is the responsibility relay's status across a verified walking network—not a new road redline. Any unconfirmed segment breaks simultaneously on paper and digital versions and points to the next formal channel.
+
+| Landmark | Place | Public role | Boundary |
+| --- | --- | --- | --- |
+| L1 Skills Timetable | Zhongzhiyuan | Shows contributable skills, shift lead, capacity, validity, and stop conditions like a timetable | No personal performance and no replacement for the belt Logo |
+| L2 Human Interchange | AI Origin Community | Makes open/closed, duty person, queue, paper map, and next formal channel visible at distance | A screen cannot replace a person; no claim that service agencies are resident |
+| L3 Repair Ledger Wall | Dazhongsi | Anonymously shows repair, refusal, referral, residual risk, and material destination | No personal-story wall and no repair-quality or warranty promise |
+
+The Handover Honour Archive does not rank helpful people. It displays moments when someone stopped correctly: a frontline withdrawal of a wrong version, an explicit refusal, a closed referral, an accessibility co-review, or a complete offboarding record. Personal credit requires separate consent and contribution does not depend on being named. Corporate logos, rankings, resident stories, and unresolved outcomes stay out.
+
+| Component | Name | Required public state |
+| --- | --- | --- |
+| C01 | Open/closed beacon | Displays OPEN-GREEN, limited, or closed with a reason code at distance |
+| C02 | Paper-map version cabinet | Keeps paper/digital versions, expiry, stale-version withdrawal, and offline alternative aligned |
+| C03 | Side-by-side explanation desk | Supports seated, standing, and wheelchair users without forced across-desk confrontation or scanning |
+| C04 | Quiet referral bay | Reduces exposure; handles minimum referral only and creates no shadow case file |
+| C05 | Tool isolation box | Locks and numbers an abnormal tool/object immediately pending professional review |
+| C06 | Version trace strip | Displays source, approver, validity, override, rollback, and next review |
+
+The cultural storyline has three layers: Jing-Zhang railway memory contributes timetable, interchange, maintenance, and connection; Zhongguancun innovation culture contributes problem, prototype, reproduction, and openness; a new AI culture contributes source, human override, stopping, and handover. The result is not “technology answers people,” but “the city keeps a real person present for uncertainty.”
+
+There is one belt-level Logo: two open hand-like brackets and an interruptible responsibility line. Cultural wayfinding is subordinate—area codes, timetable grids, version strips, maintenance stamps, and RAG status support navigation and storytelling. Wayfinding cannot become a second Logo, and the Logo cannot carry operational safety status.
+
+
 ## Renewal Projects, Implementation Policy, and Phasing
 
-Every spatial output is paired with an accountable owner, operator, prerequisite, and stop gate. “Co-creation” without an owner never enters Phase 1. A desk without paid duty stays closed. A tool cabinet without a qualified workshop lead stays locked.
+Every spatial output is paired with an accountable owner, operator, prerequisite, and stop gate. “Co-creation” without an owner never enters Phase 1. A desk without paid duty stays closed. A tool cabinet without a qualified workshop lead stays locked [depth:phasing_implementation].
 
 | Pkg | Project | Place | Physical output | Accountable owner | Daily operator | Minimum prerequisite | Continue/stop evidence |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -165,6 +271,46 @@ Every spatial output is paired with an accountable owner, operator, prerequisite
 | LH-06 | Repair and reuse commons | Dazhongsi | Locked tools, isolation bench, ledger wall | Qualified/professional operator | Workshop lead | Gate 0 owner/site/insurance pass | Continue only when spatial and operating evidence passes |
 | LH-07 | Formal-service referral interface | AI Origin | Current contact sheet and closure status | Receiving service owner | Paid navigator | Gate 0 owner/site/insurance pass | Continue only when spatial and operating evidence passes |
 | LH-08 | Public review and version archive | All three | Aggregate board, stop decisions, archive | Public accountable body | Independent review chair | Gate 0 owner/site/insurance pass | Continue only when spatial and operating evidence passes |
+
+## Annual Activities and Long-Term Conversion
+
+The annual system is not six events on a calendar. Different rhythms maintain scope, routes, models, workshops, and international knowledge exchange. Every name is a proposed activity-IP direction; no organisation has adopted it, and no date, venue, host, budget, or registration is confirmed.
+
+| Rhythm/IP | 中文 | Frequency/trigger | Participants | Accountability | Input | Verifiable output | Capacity | Stop |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Q1 Scope Unboxing Week | 年度边界开箱周 | Annual opening; repeat after a taskbook or accountable-body change | Developers, operators, accessibility representatives, and potential problem owners | Independent review chair + privacy/safety owners, all TBD | Public problems, scope cards, and prior-year stop records | New can/cannot list, ownership gaps, and closed items | ≤24 per session; two paid facilitators | Reject intake when red lines, data, or accountability cannot be stated |
+| Bimonthly Scope Card Foundry | 双月范围卡工坊 | Every two months when a verifiable scenario application arrives | Firm/university/open-source developers + scenario owner | Zhongzhiyuan mentor + scenario safety owner | Maturity self-check, data source, maintenance, and exit plan | Reproducible scope card/test plan or written refusal | ≤3 concurrent items; one maintainer each | Reject without problem owner, exit, or when procurement is implied |
+| Q2 Route Truth Week | Q2 路线真话周 | Before works season and after a material route change | Paid route checkers, accessibility co-reviewers, and content owner | Road/site owner TBD; operator convenes | Public route information, paper map, and field checklist | Checked/pending/unconfirmable map plus error return | Approved short links only; two-person verification | Mark closed when a safe check is impossible, continuous tracking is needed, or no alternative exists |
+| Q3 Human Override Drill | Q3 人工覆写演练 | Quarterly and after a major AI/version update | Frontline staff, developers, and formal-receiver observers | Safety lead + content owner | Injected faults, stale versions, and outage/absence scripts | Timed override, rollback, referral, stop, and repaired retest evidence | ≤12 per round; no real cases | One red-line miss, failed stale-version withdrawal, or absent owner returns to Gate 1 |
+| Q3 Repair & Return Month | Q3 修补归还月 | Only when workshop gates pass and safe capacity exists | Object owners, qualified workshop staff, and reuse peers TBD | Workshop lead | Low-risk objects, tools/PPE, and refusal list | Anonymous repair/refusal/referral ledger and material destination | Limited by workstations and supervision | Close on a high-risk object, lost tool control, or absent professional lead |
+| Q4 Global Handover Day | Q4 全球交接日 | After annual review when evidence can be safely published | Local/external developers and research, industry, and public-service observers | Public accountable body TBD + independent chair | Bilingual cases, failure/stop evidence, reusable components, and licences | Bilingual knowledge pack, next-year invite/do-not-invite list, and handover/offboarding decision | ≤80 onsite with no-account material; online uses public material only | Stop publication for a false implementation claim, unclear licence, or unconsented personal story |
+
+Developer-community operations follow enter, contribute, reuse, and handover/exit—not chat-group retention. A public issue states problem, licence, data, and maintainer. A passed scope card opens an isolated sandbox. Every contribution carries a minimum reproduction, tests, failure conditions, version, and withdrawal note. Only maintainer acceptance registers reuse. Contributions with no maintainer, reproduction, or clear licence are thanked and archived rather than sustained through unpaid labour.
+
+Scenario opening uses one application record: problem owner, public value, maturity, space class, data source, accountability, budget, insurance/safety, human approval, result return, and offboarding. An Agent does not score applicants. Scenario, privacy, safety, operations, and formal owners sign each relevant gate. A refusal says only “not entering now” and does not rank the applicant.
+
+Public-experience maintenance covers open/closed state, paper/digital version, route checking, wayfinding legibility, seating/wheelchair positions, tool inventory, referral directory, complaints, and corrections. Each has an owner, frequency, and closure action. Promotion, developer events, and international visits cannot consume duty safety capacity; when both cannot run safely, everyday human access remains first.
+
+| Audience | Entry | Contribution/validation | Conversion or exit | No promise |
+| --- | --- | --- | --- | --- |
+| Developer | Public issue/event intake plus reproducible capability statement | Scope/licence → closed sandbox → code/tests/docs/failure samples | Maintainer accepts a reusable version or archives an explicit exit | Participation does not promise adoption, work, prize, or compute |
+| Talent/student | Scope Unboxing or supervised shift | Bounded task with paid/stipend/credit terms confirmed first plus portfolio evidence | Take a verifiable portfolio; education/hiring uses a separate formal channel | No unpaid labour for vague opportunity; no hiring promise |
+| Firm/problem owner | Problem, data status, business maintainer, and exit budget | Maturity screen → closed validation → human evidence review | Test pack returns; procurement/investment/partnership proceeds separately or stops | No policy, funding, procurement, venue, or exclusivity promise |
+| External area/international peer | Public case, reusable method, or observer invitation | Licence/difference review → local reproduction → bilingual knowledge return | Adopt/do-not-adopt reason and next owner, or end when no relationship exists | Naming is not partnership; exchange is not implementation |
+
+Annual budgeting covers twelve packages: paid roles; venue/property; insurance and professional review; reversible micro-retrofit; paper/digital synchronisation; two-person route checks; workshop tools/PPE; compute/sandbox; translation and access support; event safety; independent review; and offboarding. An event without a full-cost owner is not scheduled. Any conversion that trades resident data, volunteer substitution, or publicity claims for resources stops.
+
+### International communication: an invitation card that can travel and be challenged
+
+| 中文 | English |
+| --- | --- |
+| **我们提供什么：** 一套把AI放在后台、把人工判断放在前台的城市责任接力；公开范围、来源、失败、停止和交接。 | **What we offer:** an urban responsibility relay that keeps AI backstage and human judgement in front, publishing scope, sources, failures, stops, and handovers. |
+| **我们邀请什么：** 欢迎开发者、研究者、公共服务人员和社区实践者带来可公开、可许可、可退出的问题或方法，在封闭验证后共同留下双语可复用知识。 | **What we invite:** developers, researchers, public-service workers, and community practitioners may bring public, licensable, and stoppable problems or methods, then leave bilingual reusable knowledge after closed validation. |
+| **证据状态：** 几何为临时粗略底图；空间为概念占位；案例来自已登记公开来源；运营、伙伴、预算和成效均待确认或待试点。 | **Evidence status:** geometry is provisional and rough; spaces are conceptual placeholders; cases use registered public sources; operations, partners, budgets, and outcomes remain unconfirmed or pilot-only. |
+| **我们不承诺什么：** 这不是审定规划、开放服务、合作名单、招商政策、资金安排、采购结果或已落地项目。 | **What we do not promise:** this is not an approved plan, open service, partner list, investment policy, funding arrangement, procurement result, or implemented project. |
+
+The international handover has four steps: `Public evidence → Difference note → Closed local reproduction → Human handover, adaptation, or exit`. Every step can stop; an unanswered invitation is never reported as a partnership.
+
 
 Gate 0 (weeks 0–4) confirms the public owner, operator, venue rights, payroll and relief, insurance, legal, safeguarding, privacy, accessibility, fire, and formal receiving owners. One missing condition stops the process; there is no public recruitment. Gate 1 (weeks 5–8) is closed tabletop/field rehearsal only. All twelve scenarios plus abuse, stale rollback, staff absence, network failure, lost child, tool loss of control, and emergency-call tests must run before public service [depth:phasing_implementation].
 

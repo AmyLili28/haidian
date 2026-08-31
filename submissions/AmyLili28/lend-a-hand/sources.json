@@ -78,6 +78,54 @@
       "usage": "Local legislative research context on volunteer protection and insurance; not treated as current operative legal advice."
     },
     {
+      "id": "AI-SINGAPORE-100E",
+      "url": "https://aisingapore.org/innovation/100e/",
+      "source_type": "official_public",
+      "publisher": "AI Singapore",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: scoped problem intake, PoC/MVP stages, engineering-apprentice teams, documentation, and knowledge transfer. Funding, eligibility, duration, and outcomes are not imported."
+    },
+    {
+      "id": "MILA-PARTNERSHIPS",
+      "url": "https://mila.quebec/en/industry/partnerships",
+      "source_type": "official_public",
+      "publisher": "Mila - Quebec AI Institute",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: long-term research, talent, industry, startup, and shared-workspace relationships. Partner counts, brands, and institutional standing are not imported."
+    },
+    {
+      "id": "VECTOR-ADOPTION",
+      "url": "https://vectorinstitute.ai/about/",
+      "source_type": "official_public",
+      "publisher": "Vector Institute",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: research-to-adoption bridge through engineering, training, and collaboration. Funding, certification, partner networks, and outcomes are not imported."
+    },
+    {
+      "id": "DIGITAL-CATAPULT-BRIDGEAI",
+      "url": "https://www.digicatapult.org.uk/programmes/programme/bridgeai/programme/",
+      "source_type": "official_public",
+      "publisher": "Digital Catapult",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: maturity assessment, accelerator, working-group, responsible-adoption, and MLOps support mechanisms. Programme funding, brand, eligibility, and procurement context are not imported."
+    },
+    {
+      "id": "ELLIS-NETWORK",
+      "url": "https://ellis.eu/about",
+      "source_type": "official_public",
+      "publisher": "European Laboratory for Learning and Intelligent Systems",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: multi-centric local units, research programmes, and talent circulation. Unit status, admission standards, and network endorsement are not imported."
+    },
+    {
+      "id": "AI-SWEDEN-INFRA",
+      "url": "https://www.ai.se/en/ai-labs/get-involved",
+      "source_type": "official_public",
+      "publisher": "AI Sweden",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: use-case specification, agreements, technical/legal support, testing, offboarding, and knowledge sharing. Partner access, infrastructure, data, and legal conclusions are not imported."
+    },
+    {
       "id": "NYC311",
       "url": "https://www.nyc.gov/311/about-311.page",
       "source_type": "official_public",
