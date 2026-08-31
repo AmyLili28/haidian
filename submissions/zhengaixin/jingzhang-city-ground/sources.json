@@ -78,6 +78,12 @@
       "url": "https://www.jtc.gov.sg/juronginnovationdistrict",
       "source_type": "official_public",
       "usage": "Method reference for coordinated flows of people, goods, data and ideas in an industry test-and-production district."
+    },
+    {
+      "id": "FONT-NOTO-SANS-CJK-SC",
+      "url": "https://github.com/notofonts/noto-cjk/tree/main/Sans/SubsetOTF/SC",
+      "source_type": "open_source_asset",
+      "usage": "Noto Sans CJK SC Regular is locally subset and embedded in the offline Chinese HTML, bilingual repair figures and appended PDF repair pages. Licensed under SIL Open Font License 1.1; the package includes assets/fonts/OFL.txt and does not load a remote font."
     }
   ]
 }

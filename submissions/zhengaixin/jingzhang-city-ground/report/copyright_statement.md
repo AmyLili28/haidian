@@ -16,7 +16,7 @@
 
 ## 字体与软件
 
-- 英文图件使用DejaVu Sans；中文图件使用Noto Sans CJK SC Regular。字体用于静态图件与PDF嵌入，按其开源许可使用。
+- 英文图件使用DejaVu Sans；中文图件使用Noto Sans CJK SC Regular。原始字体取自 `notofonts/noto-cjk` 的简体中文 SubsetOTF，按 SIL Open Font License 1.1 使用；许可全文保存为 `assets/fonts/OFL.txt`。离线中文 HTML 嵌入由本投稿字符集裁剪生成的 `assets/fonts/NotoSansSC-Subset.otf`，不调用 CDN 或远程字体；裁剪不改变字形设计，来源与用途登记为 `FONT-NOTO-SANS-CJK-SC`。
 - 结构化绘图、HTML渲染和PDF装配使用本地开源软件。所有HTML离线运行，不加载CDN、远程字体、iframe、表单、API或跟踪代码。
 
 ## 权利与责任边界
@@ -29,4 +29,4 @@
 
 This submission is a human-AI collaborative urban-design work. User `zhengaixin` set the core proposition, G0-G4 grammar, differentiated prototypes, scenario choices, evidence discipline and final decisions. OpenAI GPT-5.6 Sol assisted with drafting, translation, structured data, concept geometry, diagrams, HTML, layout and validation under iterative human direction.
 
-All external project facts and case references are listed in `sources.json`. AI-assisted concept images communicate design intent only. No third-party commercial map tiles, unlicensed photography, company logos, personal portraits, music, video or remote web resources are included. English graphics use DejaVu Sans and Chinese graphics use Noto Sans CJK SC Regular under their open-source licenses. Any later use involving third-party rights, statutory planning, engineering, personal data, operations or implementation requires separate authorization and professional confirmation.
+All external project facts and case references are listed in `sources.json`. AI-assisted concept images communicate design intent only. No third-party commercial map tiles, unlicensed photography, company logos, personal portraits, music, video or remote web resources are included. English graphics use DejaVu Sans and Chinese graphics use Noto Sans CJK SC Regular. The locally embedded `NotoSansSC-Subset.otf` is derived from the `notofonts/noto-cjk` Simplified Chinese SubsetOTF and used under SIL Open Font License 1.1; the full licence is included at `assets/fonts/OFL.txt`, and the offline HTML loads no remote font. Any later use involving third-party rights, statutory planning, engineering, personal data, operations or implementation requires separate authorization and professional confirmation.

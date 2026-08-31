@@ -14,7 +14,7 @@
     "model_family": "gpt",
     "model_detail": "OpenAI GPT-5.6 Sol, used through human-directed iterative collaboration"
   },
-  "generated_at": "2026-08-25T11:41:24Z",
+  "generated_at": "2026-08-31T12:59:02Z",
   "files": [
     {
       "path": "manifest.json",
@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "a1055df96447859891617aae487d54dfc3c381cf30d72dcfb4a47b8dfab8de41"
+      "sha256": "5951c7220bc0551aef8b99079388af73cae3e6c53670e494c6d77d9dd66675e7"
     },
     {
       "path": "agent.json",
@@ -50,7 +50,7 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "d11ccae5361986e2f92769120151e0515e5ae3524da9d3dafd70846d418fd334"
+      "sha256": "542aed85255f548b0095c41862f8beca6a73d821f22724044bdb8038b0b00891"
     },
     {
       "path": "self_check.json",
@@ -62,7 +62,7 @@
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "3408a9f28202f861235ef545067173285da51dfd1b7e27b7473329847b4ca493"
+      "sha256": "093fa0dfc0846a04ce0e20a24ac5c519589ed8bf975db44e1bd27677943f9b81"
     },
     {
       "path": "standard_matrix.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "1f4b7318353740edb7b9e2c110715cd5742ed330fd2cb3b8f48100c6b48edd65"
+      "sha256": "4d54c15fbd59c92ef28db45069c5ccf9736689aafe1dae5519a6e3c6d111eafa"
     },
     {
       "path": "report/narrative.md",
@@ -93,28 +93,28 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "011528625253577970c2714966d2dd80780b7ed4cc6c969c7b5a5b4cc47fea20"
+      "sha256": "7b2ac2b47c6c8cdaade80db61ff9176ad411db9d22bf5fc8eea7373cd060bb9a"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "bfb6b09ff9d3f75fdb9992f669ca1cd205cad488e2c6040ed7aad26d2c7a9abf"
+      "sha256": "6c28bcd4e52db4a09fbfd3eb37f31a9ec89a6d95f1f1e97fb3fe8358ce40b53d"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "ea1f73c7c32835ff4a7d9a7f1c89342130775a7d561ae3e9d60826840b1e2d0e"
+      "sha256": "0ed12840710062d69d5730b68156ee53cc783c928a0311f8dea4f7fab2e25969"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "82fc61bcc04d984aa13fc7db9d7767b02f07cda30a5b4547e979e0fa9aac06f4"
+      "sha256": "2c31de44cfe240ad9cb70d53d004c279e9123b68162b467207bb62c9e9eb4c6e"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "e655f3025f645a2c3cdc0f259165c0f9dae46be32fe513d6d25ae440e9bac9da"
+      "sha256": "1853454c44ae03eed8ab6131bef6d2e9ed6b897ebfa2946f9375cc5c964f6cfb"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "6210f2ba07003072063cb7e5f30de1e73d246a3a0de68e75c71503affb7fc126"
+      "sha256": "ff8fcac4a8a3f51c46064ba70609d794a90e36f9fc4c88e688485a601ec4f92b"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -227,7 +227,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "725a7d857a9d0f130225bb04eec0f4aaa50934829ebe3d9d285fc3fbeeaaf5a2"
+      "sha256": "e392dc2a49f467101350c452b8404b0c63caf51033252d59371d429fb5e10427"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -235,7 +235,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "0fce7c7af7dfc392007ad044608cbe5d7eaa189f83b4b07ba7e1be843f0f7dde"
+      "sha256": "eacb2a6289f5407699acb9962d52d385decff4f306119248c7a906fd36c7df04"
     },
     {
       "path": "visual/index.en.html",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "accb0ed3239dfcf907d61dbffcdd3e5703b58684f6329cc156ade4c19d2a9c64"
+      "sha256": "0b3195ed3d24e66a1639bfb54611900d2ba793b7c27f2081191748ff8e776f8f"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -284,6 +284,39 @@
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
       "sha256": "7a5205c7ecbbfdce6ee361c8dcc338dffb316c9bf7994e5dca337c06620da10a"
+    },
+    {
+      "path": "assets/figures/identity-coordination-operations.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "47347ff62247b074ddb0c641b0fe32d90030d6e107d78dcf11ce1b91486473d8"
+    },
+    {
+      "path": "assets/figures/identity-coordination-operations.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/identity-coordination-operations.png",
+      "sha256": "3cc97df6b7aad6ed27d7c615fb94f36bdc938519c6cf5808f0791533b5897409"
+    },
+    {
+      "path": "assets/fonts/NotoSansSC-Subset.otf",
+      "role": "local_font",
+      "required": true,
+      "sha256": "765dd532565ee4752470a9639eb6764c6fc02418b342da20e4ace4addf482146"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "role": "font_license",
+      "required": true,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "report/review_response.md",
+      "role": "review_response",
+      "required": false,
+      "sha256": "af4fc917c79e4e9ae4127dae0f3766a3efe130844e1acce33123ce550bd2ddad"
     }
   ],
   "validation_claim": {
