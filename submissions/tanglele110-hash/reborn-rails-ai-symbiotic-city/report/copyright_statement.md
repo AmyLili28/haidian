@@ -61,12 +61,32 @@ This rights record does not by itself complete package readiness. A3/A0, visual 
 | Workspace source | `exports/images/第06章_*_定稿.png` |
 | Content status | 14/14均经逐图内容、治理、中文、尺寸与哈希检查，并获用户确认冻结 |
 | Generation method | Codex Desktop 直接调用内置 `image_gen` 生成，经逐卡人工复核、返修和用户确认；引用任务 `01a03a4b-eaca-7420-a998-ffb1c5403ca4` 可核查SC-12的生成调用、原始输出保留及项目副本哈希验证，整组图由用户确认为同一Codex直接出图系列 |
+| Generation date | 2026-08-25（部分逐图复核与验证延续至2026-08-26，Asia/Shanghai） |
+| Model/version disclosure | Codex Desktop界面未暴露底层图像模型及版本，登记为 `not_exposed_by_codex_desktop_interface`，不编造模型级溯源 |
+| Applicable terms | OpenAI Terms of Use，生效日2026-01-01，2026-08-31核查；`sources.json` ID `OPENAI-TERMS-2026-01-01` |
+| Participant authorization | 参与者于2026-08-31确认：允许14张中文主图随本GitHub智能体开源征集成果进入公开仓库、提案展示页并作为投稿包组成部分再分发 |
 | Rights status | `AUTHORIZED_FOR_GITHUB_OPEN_CALL_PUBLIC_DISPLAY_UNDER_APPLICABLE_OPENAI_TERMS` |
 | Evidence status | Synthetic participant design visual；不是现场照片、法定规划图、批准项目或实际运行证明 |
 
-14张中文包内文件与用户确认冻结源逐字节一致，完整文件名和SHA-256登记在 `sources.json` 的 `CH6-SCENARIO-ASSETS`。生成平台与方式已核实为Codex Desktop直接调用内置 `image_gen`；参与者已确认其用于本 GitHub 智能体开源征集及公开仓库展示。底层图像模型版本未由界面暴露，因此不主张模型级溯源、独创性或绝对不侵权；中文图中的文字与角色表达属于当前冻结版本，对应 `.en` 文件只承担英文伴读，不扩大原图权利范围。
+14张中文包内文件与用户确认冻结源逐字节一致，完整文件名、SHA-256、生成日期、工具、模型披露边界、任务记录、授权日期和授权范围逐资产登记在 `sources.json` 的 `CH6-SCENARIO-ASSETS.asset_records`。生成平台与方式已核实为Codex Desktop直接调用内置 `image_gen`；参与者已确认其用于本 GitHub 智能体开源征集、公开仓库展示及随投稿包再分发。适用OpenAI条款说明，在参与者与OpenAI之间且在法律允许范围内，参与者拥有输出；参与者仍须对输入、输出和第三方权利负责。底层图像模型版本未由界面暴露，因此不主张模型级溯源、独创性、唯一性或绝对不侵权；中文图中的文字与角色表达属于当前冻结版本，对应 `.en` 文件只承担英文伴读，不扩大原图权利范围。
 
 所有场景图仅解释概念性运行机制。图中建筑、道路、公共空间、设备、主体和活动不能用于证明现状、权属、工程可行性、政府授权、正式运营或实施承诺。
+
+## Chapter 08 transit-symbol rights review and replacement
+
+第08章中英文交通—蓝绿复合系统图曾使用Wikimedia Commons的 `Beijing Subway simplified logo`。2026-08-31复核确认：该文件页将简化图形标为 `PD-shape`，只说明简单几何图形在版权层面被视为不具备可保护性；北京地铁官网未发现允许第三方把企业标识用于本公开投稿展示的授权条款。版权公版结论不能替代商标许可，也不能产生运营方认可或背书。
+
+因此，原标识已从 `assets/figures/mobility-bluegreen.png` 与 `assets/figures/mobility-bluegreen.en.png` 移除，替换为参与者原创的中性站点符号：彩色外环＋中心节点，不包含运营方名称、字母、标识几何或品牌色规范。替换仅发生在7个已登记站点符号与2个对应图例符号遮罩内，站点坐标、线路、文字和版式不变；验证记录为 `data/processed/mobility_bluegreen_neutral_station_symbol_2026-08-31.json`。旧标识仅以 `CH8-BEIJING-SUBWAY-LOGO` 保留为权利核查历史记录，不再作为包内展示资产；新符号登记为 `CH8-NEUTRAL-STATION-SYMBOL`。
+
+## Offline Chinese HTML font
+
+中文 `report/proposal.html` 与 `visual/index.html` 使用 `SimHei`／“黑体”作为首选系统字体。为避免 Linux／CI 截图环境缺少中文系统字体而出现方框字，页面同时引用共享离线样式 `visual/assets/reborn-rails-cjk-fallback.css` 内的 WOFF2 子集作为后备，不依赖网络字体。
+
+后备字体取自 Noto Sans SC 可变 TrueType 字体，在 `wght=400` 静态化后仅保留两份中文 HTML 实际可见的 CJK／全角字符；修改版使用独立 family 名称 `RebornRailsCJKSubset`。完整 SIL Open Font License 1.1 保存在共享 CSS 文件头，许可、哈希和用途登记为 `HTML-CJK-FONT-SUBSET`。
+
+## Lossless package-headroom optimization
+
+新增离线字体后，四份PDF仅执行Flate流重压缩、重复／无引用对象清理与对象流重组，不进行图片重采样；页数与逐页文本签名保持一致。结构化JSON仅移除格式缩进，HTML仅压缩CSS注释与格式空白，数据值、正文和浏览器呈现不变。所有替换前PDF保留在工作区 `exports/submission-backups/`，验证记录位于 `data/processed/pr_4298_pdf_lossless_compaction_2026-08-31.json`、`data/processed/pr_4298_pdf_object_stream_optimization_2026-08-31.json` 与 `data/processed/pr_4298_text_asset_compaction_2026-08-31.json`；这些备份与验证记录不进入投稿包。
 
 ### LM-01 众智园“AI共试灯塔”场景效果图
 
