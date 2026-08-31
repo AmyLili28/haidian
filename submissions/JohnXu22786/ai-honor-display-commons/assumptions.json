@@ -42,6 +42,20 @@
       "statement_en": "The event system and phasing are design suggestions, not confirmed government or investment commitments.",
       "category": "operation",
       "status": "concept"
+    },
+    {
+      "assumption_id": "A-LANDUSE-001",
+      "statement_zh": "用地比例只按 geometry/land_use.geojson 的 27 个要素，以 land_use_code 聚合并以 geometry/site_boundary.geojson 的 EPSG:4548 面积为分母；当前仅有 0701、0802、0803、0901、0902、1401 六类。0802 保持“科研”单列，不把不存在的 0801 教育或其他类虚构为占比，也不把独立 green_space.geojson 绿地叠加指标与 1401 用地类混同。",
+      "statement_en": "Land-use shares aggregate the 27 features in geometry/land_use.geojson by land_use_code and divide by the EPSG:4548 area of geometry/site_boundary.geojson. Only 0701, 0802, 0803, 0901, 0902, and 1401 occur; 0802 remains scientific research, while absent education 0801 and other classes are not fabricated or silently merged. The green_space.geojson overlay metric is kept separate from the 1401 land-use category.",
+      "category": "land_use",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-METRIC-001",
+      "statement_zh": "site_area_sqm、land_use 比例及 green_ratio/public_space_ratio 均为 provisional 几何推导，统一标注 low confidence、公式和星号；仅用于概念比较、包内复算和图件一致性检查，不作为法定面积、容量或工程依据。官方边界或用地数据发布后，须按同一公式重算并记录差异。",
+      "statement_en": "site_area_sqm, land-use shares, green_ratio, and public_space_ratio are provisional geometry-derived values with one consistent low-confidence label, formula, and asterisk note. They are for concept comparison, package recomputation, and figure consistency only, not statutory area, capacity, or engineering evidence. Recompute with the same formulas and record differences when official data is released.",
+      "category": "metric_confidence",
+      "status": "accepted_limitation"
     }
   ]
 }

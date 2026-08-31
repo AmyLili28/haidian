@@ -10,7 +10,11 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/ai-honor-display-commons/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+        "submissions/JohnXu22786/ai-honor-display-commons/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
+        "submissions/JohnXu22786/ai-honor-display-commons/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
+        "submissions/JohnXu22786/ai-honor-display-commons/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
+        "submissions/JohnXu22786/ai-honor-display-commons/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
+        "submissions/JohnXu22786/ai-honor-display-commons/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/ai-honor-display-commons/proposal.md"
@@ -20,13 +24,10 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/ai-honor-display-commons/agent.json",
-        "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/ecosystem-map.en.png",
-        "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/ecosystem-map.png",
         "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/key-areas.png",
         "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/land-use-structure.png",
-        "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/logo-jz.png",
         "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/ai-honor-display-commons/assets/figures/mobility-bluegreen.en.png",
@@ -68,7 +69,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-honor-display-commons": "formal"
       },
-      "total_bytes": 19692622,
+      "total_bytes": 4658890,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -128,14 +129,7 @@
       "metrics_seen": {
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.110044,
-        "public_space_ratio": 0.003167,
-        "key_area_count": 3.0,
-        "scenario_card_count": 10.0,
-        "industry_test_scenario_count": 3.0,
-        "annual_program_count": 3.0,
-        "global_case_count": 8.0,
-        "persona_count": 5.0,
-        "scenario_node_count": 8.0
+        "public_space_ratio": 0.003167
       }
     },
     "stderr": ""
@@ -149,15 +143,15 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 18,
+        "known_metric_refs_required": 31,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 15,
-          "standard": 2,
+          "source": 8,
+          "standard": 0,
           "depth": 0,
-          "data": 7,
-          "metric": 3
+          "data": 1,
+          "metric": 4
         }
       }
     },
@@ -174,7 +168,12 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [],
+  "next_actions": [
+    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-honor-display-commons/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-honor-display-commons/manifest.json: `proposal.en.md` should declare translation_of=proposal.md; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-honor-display-commons/proposal.en.md: front matter should set language=en; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/ai-honor-display-commons/proposal.en.md: front matter should set translation_of=proposal.md; legacy v1 package remains compatible"
+  ],
   "schema_version": "0.1.0",
   "checks": [
     {
@@ -205,63 +204,5 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ],
-  "figure_qc": {
-    "ok": true,
-    "ink_ok": true,
-    "clip_clear": true,
-    "overlap_clear": "not_verified",
-    "summary": "ink+edge-clip machine check only; text-overlap not machine-verified post-hoc (figure generation text-bbox checks recorded in changelog)",
-    "figures": {
-      "ecosystem-map.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1928,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "key-areas.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.2165,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "land-use-structure.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.2131,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "logo-jz.png": {
-        "width": 1800,
-        "height": 600,
-        "ink": 0.1686,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "metrics-evidence.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.1198,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.3202,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "site-overview.png": {
-        "width": 1800,
-        "height": 1200,
-        "ink": 0.3036,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      }
-    }
-  }
+  ]
 }

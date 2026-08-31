@@ -1,161 +1,87 @@
----
-title: "GLORY·JZ — The Honor Belt: Public Honor Display System and Commons Component Library (Concept)"
-author_github: "JohnXu22786"
-language: "en"
-translation_of: "proposal.md"
-proposal_format_version: "2"
-license: "COMMUNITY-DISPLAY-ONLY"
-summary: "GLORY·JZ — The Honor Belt (Chinese primary name “京张荣耀带”) organises a public honor-display system and a reusable commons component library along the heritage green belt of the former Beijing-Zhangjiakou (Jingzhang) railway: translating urban honors, innovation achievements and public contributions into perceivable, participatory, renewable green-belt experiences. One Belt, Three Gardens — Glory Gallery, Milestone Plaza, Contributor Garden; 10 AI+ scenario cards plus 3 industry test-verification scenarios; three-areas-two-wings synergy loop and regional cooperation mechanisms; three-phase implementation and annual event brands. All content is concept suggestion / reference only, based on provisional boundaries, recomputed after official data is published."
-tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
-scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v2.0"
----
+# GLORY·JZ — The Honor Belt
 
-(This proposal is an open co-creation concept suggestion and reference; it does not replace statutory planning or constitute a government conclusion. The bilingual primary name is “京张荣耀带”（GLORY·JZ — The Honor Belt, River of Merits); the naming is original and does not contain any real institution names or trademarks.)
+**Concept proposal; substantive English counterpart to `proposal.md`.** “Where a century of rail meets a generation of AI.” GLORY·JZ turns the Centennial Jingzhang Cultural Belt into a reversible public-memory and public-contribution system: Glory Gallery, Milestone Plaza and Contributor Garden are linked by a slow green corridor, with differentiated AI test loops and explicit human governance. This is a concept recommendation and reference scheme; it does not replace statutory planning, approvals, engineering design or an implementation commitment.
 
-## Design Basis and Source List
-This inventory is a concept-working basis: the Beijing Territorial Spatial Master Plan and the Haidian District Plan (public versions), public regulations on urban renewal and urban design, official public material on Jingzhang Railway history and the 2019 Beijing-Zhangjiakou High-Speed Railway opening, official material on the Jingzhang Railway Heritage Park, the call announcement and agent taskbook for the Centennial Jingzhang AI Innovation Belt, and official pages of international and domestic benchmark cases, plus site-walk notes and self-drawn sketches. Every verifiable item is registered one by one in sources.json with publisher, link, publication and retrieval dates, and reuse boundaries; missing official geometry, green/blue lines, heritage-protection scope and municipal capacity are honestly recorded as data gaps. No official data is fabricated. [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT]
+## 1. Basis, sources and data boundary
+The proposal uses the disclosed package sources, the taskbook and participant-created provisional geometry. The submitted boundary, land-use, building, green-space, public-space, road and key-area layers are concept layers. Official GIS/CAD, red lines, heritage controls, statutory land-use controls, utility capacity, verified existing-condition inventories and real operational baselines are not available in this package. `sources.json`, `assumptions.json` and `risk.json` record provenance, permitted use and limitations. No enterprise, investor, policy allocation, official endorsement, personal data or built condition is asserted.
 
-Three boundaries are declared up front: (1) all outputs are concept suggestions that do not replace statutory planning approval; (2) all geometry is based on the organizer-supplied provisional boundaries and is not a redline or area conclusion ([source:DATA-SRC-PROVISIONAL-BOUNDARIES]); (3) reuse rights of brands, fonts, images, case materials and generated content are registered item by item in the asset ledger and sources.json with declared use boundaries.
+## 2. Three-level scope framework
+The work is transmitted through three levels: a coordination study of the belt and regional interfaces; an overall urban-design structure using the green corridor as its spatial armature; and detailed concept studies for three public-space landmarks. The levels share one metric contract, one land-use aggregation rule and one evidence ledger. The geometry is a visualization and consistency aid until official data is released.
 
-## Three-Level Scope Framework
-Per the official taskbook: the coordinated research area is ~43.6 km², the overall design area ~11.4 km² and the key areas ~368.4 ha. This package sits within the overall design area and deepens the three key areas as nodes; all are conceptual locations ([source:DATA-SRC-AGENT-TASKBOOK]). Outputs cascade through three levels: the coordination level studies the synergy between the display belt and the science parks, universities and international living areas along the corridor; the overall level organises the honor-display structure and functions around the green belt, with regulatory-plan indicators checked only as suggestions; the node level deepens the spatial and operational design of the three key areas and lands it in the geometry layers for machine checking ([data:geometry/site_boundary.geojson]).
+## 3. Coordination study: industry and future city
+The belt is treated as a public-memory interface between research, innovation, daily life and culture. A conceptual service loop connects the AI Origin Community, Zhongzhiyuan, Dazhongsi, the Zhongguancun Technology Service Wing and the Xiaoyuehe Scenario Empowerment Wing. The loop is a proposed referral mechanism for space, knowledge, data, compute, talent and public scenes; it does not promise招商, capital, output or institutional participation. Four global mechanism cases and five user groups are retained as references, not as imported parameters.
 
-All three levels share one indicator system and compliance matrix that refine progressively and remain traceable. When official geometry is published, all boundaries, areas and locations will be recomputed against the official caliber and versioned ([data:geometry/key_areas.geojson]). This package gives no conclusive FAR, building height, road redline or engineering feasibility figures; such conclusions are reserved for statutory process and professional review.
+## 4. Overall design: renewal and urban design depth
+The spatial idea is “one belt, three gardens”: a continuous slow corridor carries rotating honor displays, milestone dialogue and public contribution records. Components are modular, reversible, reusable and removable. Normal-day rest, learning and conversation can switch to event-day display and public programming, subject to safety, heritage, accessibility and professional review. No FAR, height, red line, demolition, investment or capacity conclusion is made.
 
-## Coordinated Research Area: Industry and Future City Research
-The coordination level focuses on industry and the future city: following public sources it identifies leading directions such as AI and software/information services, recognises the demand for achievement release, honor display and public-service space, and forms a three-tier “display belt — district — community” linkage structure ([source:DATA-SRC-OFFICIAL-ANNOUNCEMENT]). On the industry side it identifies the potential of a “release — remembrance — daily life” composite corridor; on the talent side it characterises the activity periods and radii of university faculty and students, researchers, founders and international talent; on the space side it assesses the green belt as carrier of the composite corridor.
+## 5. Detailed areas and public-space system
+The three landmarks remain the core idea: Glory Gallery is a modular rotating display corridor; Milestone Plaza stages a restrained dialogue between railway memory and contemporary innovation; Contributor Garden makes public contribution visible through a renewable credited landscape. They are concept locations, not confirmed sites. The spatial sequence is represented by `geometry/public_space.geojson` and the greenway by `geometry/roads.geojson`. Each component includes a manual alternative and a public complaint/withdrawal route.
 
-Regional synergy is a focus of this level: following the taskbook’s three-areas-two-wings structure (“AI Origin Community”, “Zhongzhiyuan AI Acceleration Area”, “Dazhongsi AI Industry Cluster”; “Zhongguancun Tech Service Wing”, “Xiaoyuehe Scenario Wing”), a synergy loop is established — scenario demand↔supply, achievement release↔honor display, factor services↔space capacity (concept mechanism). The regional cooperation table maps the external innovation nodes Beiwei Community, Future Science City, Huairou Science City, Beijing E-Town and the Jing-Jin-Ji region one by one with cooperation content and carriers; all remain concept-level for professional teams and authorities to deepen ([source:DATA-SRC-AGENT-TASKBOOK]).
+## 6. AI innovation, user groups and AI-plus scenes
+Five scenes are retained: content curation and de-duplication, multilingual accessible interpretation, facility inspection support, anonymous participation sensing with route suggestions, and human content review. The AI boundary is: anonymized aggregates only; human review for key decisions; no excessive monitoring. Users include students/researchers, innovation workers, residents/families, international visitors and open-source/public contributors. A steward, not an unreviewable model, makes the public-facing decision.
 
-## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
-The overall design is organised around the heritage green belt as the spine: a continuous slow-traffic axis links rail stations, park entries and community edges; a “one belt, multiple nodes” structure is established; honor display, event assembly and rest functions are allocated by node tier; flexible event venues and temporary installation interfaces are reserved. Regulatory-plan indicators are only checked as suggestions, without preset numerical conclusions ([standard:MOHURD-CONTROL-DETAILED-PLANNING]). Land-use compatibility, green-belt continuity and display-facility locations are overlaid and checked at the overall level before entering node design and the geometry layers.
+### Taskbook alignment matrix
+Each row has a spatial carrier, an operating mechanism, a scene or metric and an evidence anchor. “Response” means a concept mechanism, not an implementation claim.
 
-East-west stitching and north-south through connection are the two spatial strategies of this level: east-west, transversal links stitch the community and campus interfaces on both sides of the green belt with slow-traffic-first crossings and continuous signage; north-south, the green-belt axis threads the whole corridor into one walkable, rideable, event-capable experience path ([data:geometry/roads.geojson]). Overall plan, character guidance, node layout and indicator checks are delivered in the figures, drawings and geometry layers; every spatial conclusion is marked provisional and recomputed after official geometry is published ([source:DATA-SRC-PROVISIONAL-BOUNDARIES]).
+|Group|Taskbook item|Spatial carrier|Mechanism|Scene / metric|Evidence anchor|
+|---|---|---|---|---|---|
+|Position|Centennial Jingzhang Cultural Belt|Green corridor and three landmarks|Rights check, human curation, rotating display, objection and withdrawal|3 landmarks; 3 annual programs|`geometry/public_space.geojson`; `metrics.json:landmark_count`|
+|Position|Urban AI Living Experience Belt|RD-SPINE, landmarks and 5 scenario nodes|Normal/event switch, bilingual wayfinding, accessible rest and manual safety|public_space_ratio=0.003167*; 8 nodes; 5 personas|`geometry/roads.geojson`; `metrics.json:public_space_ratio`|
+|Position|AI-Integrated Innovation Belt|Zhongzhiyuan, Dazhongsi and two wings|Three differentiated test loops with roles, human gates and exits|3 district loops; 3 industry tests|`compliance_matrix.json:district_ai_matrix`|
+|Function|Full-stack AI Self-directed Innovation System|Zhongzhiyuan accelerator area|Compute → data → model → evaluation → deployment → governance|Deployment gate and rollback rule|`compliance_matrix.json:district_ai_matrix[0]`|
+|Function|World-class AI Innovation Ecosystem|AI Origin Community and Zhongguancun service wing|Open call, case library, knowledge and service referral|4 cases; 3 annual programs|`metrics.json:global_case_count`|
+|Function|AI-plus Scenario Empowerment Paradigm|Three gardens and Xiaoyuehe path|Opt-in input → explainable aid → human review → notice → withdrawal|3 industry tests; 1 public path|`compliance_matrix.json:district_ai_matrix[2]`|
+|Function|Intelligent AI Vitality City|Slow corridor and reversible components|Rest/learning/display and event switch with manual fallback|green_ratio=0.110044*; 3 programs|`metrics.json:green_ratio`|
+|Function|Global Voice in AI Governance|Contributor Garden board and Zhongzhiyuan log|Public register, complaint, withdrawal, human gate and exit record|Five scenes with review and exit fields|`assumptions.json:A-PRIVACY-001`|
+|Area/wing|AI Origin Community|KEY-BEIJ|Bilingual accessible learning and contribution interface|5 personas; proposed programs only|`geometry/key_areas.geojson:KEY-BEIJ`|
+|Area/wing|Zhongzhiyuan AI Self-directed Innovation Accelerator Area|KEY-ZHON|Reversible full-stack test protocol|One six-stage chain|`geometry/key_areas.geojson:KEY-ZHON`|
+|Area/wing|Dazhongsi AI Industry Cluster|KEY-DAZH|Smart-native consumption/business service loop|Wayfinding, time window and service board|`geometry/key_areas.geojson:KEY-DAZH`|
+|Area/wing|Zhongguancun Technology Service Wing|Regional service interface|Referral for knowledge, technical support and rights review; no capital promise|4 cases; 5 areas/wings|`compliance_matrix.json:alignment_matrix`|
+|Area/wing|Xiaoyuehe Scenario Empowerment Wing|RD-SPINE → nodes → three landmarks|Route choice → accessible experience → assistance → feedback → update|1 public path; 8 nodes|`geometry/roads.geojson`; `geometry/public_space.geojson`|
 
-![Overall design overview (provisional geometry, three-level scopes and three-areas-two-wings synergy)](assets/figures/site-overview.en.png)
+### District-differentiated AI architecture and scene matrix
 
-![Conceptual land-use mix and retain-renovate-demolish principle (land_use layer caliber)](assets/figures/land-use-structure.en.png)
-
-## Detailed Design of Key Areas
-The three key areas correspond to the One Belt, Three Gardens honor nodes (conceptual locations): the AI Origin Community hosts “荣耀长廊” (Glory Gallery) — a modular honor-display belt with demountable booths, light boxes and info screens and rotating themes; Zhongzhiyuan hosts “里程碑广场” (Milestone Plaza) — a dialogue plaza of railway mileposts x innovation milestones; Dazhongsi hosts “贡献者花园” (Contributor Garden) — a growing signature landscape for open-source and public contributors, plaques appended by contribution period. Every node reserves AI scenario interfaces, accessible routes and staffed service points ([data:geometry/public_space.geojson]). All facility locations are conceptual and must be re-located by planning, heritage and authority review.
-
-Node design adds spatial and operational detail: each node identifies four interface types — rail station, park entry, community edge and heritage assets (concept); each node is configured with a “display unit + installation plaza + service module” kit; operationally the basic mechanisms are theme rotation, booked interpretation, volunteer presence and human fallback ([source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW]). Node plans, green-belt sections and component prototypes are delivered in drawings and figures; the three-node-to-three-area mapping is written into the compliance matrix for machine checking.
-
-![Key area detailed design: One Belt Three Gardens node plans and green-belt section (concept)](assets/figures/key-areas.en.png)
-
-## AI Innovation Ecosystem, Personas, and AI+ Scenarios
-AI+ scenarios are delivered as scenario cards (10 in total, table below) covering six domains — culture, public services, governance, space, industry and transport — each card with location, audience, operation mechanism and data-compliance boundary ([source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES]). The AI governance three-sentence rule runs through every scenario: anonymized aggregation only, key decisions human-reviewed, no over-surveillance; data-processing rules are published, with a resident feedback channel and annual disclosure. Five persona groups (university faculty/students, science-park workers, resident families, international visitors, open-source contributors) map one-to-one onto the cards; every scenario has exit and appeal channels.
-
-![AI innovation ecosystem map (concept, with case benchmarks and factor mechanisms)](assets/figures/ecosystem-map.en.png)
-
-| Scenario card | Location | Audience | Operation (concept) | Data & compliance boundary |
+|District/path|Space and subject|Input → output|Human review|Exit condition|
 |---|---|---|---|---|
-| “荣廊策展” AI honor-content curation & de-dup | Glory Gallery | workers, visitors | theme rotation, expert review | anonymized aggregation, human review |
-| “里程碑对话” multimodal interpretation | Milestone Plaza | students, visitors | booked tours, open days | edge processing, no personal storage |
-| “花园铭牌” contributor signature service | Contributor Garden | developers, youth | plaques appended & published | aggregate stats only, no over-surveillance |
-| “伴行” multilingual accessible guide | all nodes | seniors, disabled | volunteer + human fallback | explicit consent, one-tap off |
-| “微感” anonymized participation sensing | display nodes | operators, office workers | annual review, monthly disclosure | density only, no individual tracing |
-| “巡护” display-facility inspection AI | node facilities | operation teams | work orders, human acceptance | equipment status only, no personal imaging |
-| “译站” multilingual content generation | screens & signage | internationals, visitors | content-review post | all generated content human-reviewed |
-| “潮汐” event flow & dispersal suggestion | event venues | residents, visitors | phased dispersal, notices | anonymized density, no over-surveillance |
-| “安康” weather & safety tips | all nodes | seniors, children, families | alert linkage, staffed | public weather data, no individual tracing |
-| “回声” feedback collection & response | online + nodes | all public | weekly response, monthly disclosure | anonymous submission, appeal & withdrawal | (scenario card master list, 10)
+|Zhongzhiyuan|KEY-ZHON concept test-room interface; data steward, model owner, evaluator, deployment steward, governance reviewer|Permitted public/participant model cards, anonymized aggregate test requests and benchmark tasks → versioned result card, evaluation log, deployment decision, notice or stop record; compute → data → model → evaluation → deployment → governance|Data-use check, quality/bias evaluation and governance approval before deployment/public notice|Failed quality/safety threshold, withdrawal, unresolved complaint or test close: disable endpoint, roll back and archive/delete by record|
+|Dazhongsi|KEY-DAZH and belt-facing service points; shop/office operator, visitor, district operations and safety reviewer|Opt-in anonymous request, published opening information, manual queue/wayfinding observation and event notice → bilingual route card, suggested time window, accessible rest note or manual service-board update|Operator checks wording; operations checks safety/accessibility; reviewer can reject, edit or retain prior notice|Privacy complaint, unsafe crowding, accessibility failure or stale input: pause recommendation and return to manual notice|
+|Xiaoyuehe|RD-SPINE → scenario nodes → three landmarks; residents, families, students, visitors, volunteers, community liaison and safety lead|Opt-in anonymous feedback, accessibility request, manual count and published route/event information → bilingual route card, rest/accessibility suggestion, dispersal note and public update; non-digital alternative|Community liaison checks inclusion; safety lead checks route/event conflict; steward provides human help|Accessibility complaint reaches the agreed review threshold, route changes or event closes: pause route suggestion and log a manual notice|
 
-**Industry test-verification scenarios (3; pilot before scale)** — (1) Curation benchmark: model evaluation and baseline testing of AI curation/de-dup, accepted by de-dup recall and human-review agreement rates; (2) Voice quality evaluation: intelligibility of multilingual synthetic interpretation under noise and accessible conditions, with human fallback; (3) Inspection false-positive evaluation: false-positive and miss rates of the inspection AI, expanded deployment only after thresholds, with runtime monitoring ([source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW]). All are labelled concept trials, not approved operations.
+## 7. Land use, building scale and retain/renovate/demolish approach
+The proposal uses retain–renovate–demolish as a concept sequence: retain heritage/green memory, renovate compatible low-efficiency space where professionally justified, and consider demolition only through a separate safety and statutory review. No demolition, height, intensity or building-scale conclusion is made.
 
-| Industry test-verification scenario | Test subject | Verification indicators (concept) | Data & compliance boundary |
-|---|---|---|---|
-| Curation benchmark test | AI honor-content curation & de-dup model | de-dup recall, human-review agreement (model eval + baseline) | public material only, anonymized |
-| Voice quality evaluation | multilingual accessible interpretation voices | intelligibility, noisy-condition performance (+ human fallback) | explicit consent, edge processing |
-| Inspection false-positive evaluation | display-facility inspection AI | false-positive rate, miss rate, human acceptance (runtime monitoring) | equipment-state data only | (industry test scenarios)
+The sole land-use source is `geometry/land_use.geojson`, with 27 features aggregated by `land_use_code` in EPSG:4548 and divided by the provisional boundary area 11,412,825.386 sqm. The six displayed categories sum to 100.0%:
 
-**Global and domestic benchmarks (8; agent.2 caliber 5–8)** — every case is registered in sources.json with its official/first-party source, publication and retrieval dates and reuse boundary; used only as mechanism references, not as as-built evidence; see the ecosystem map ([source:CASE-HIGHLINE]).
+|Code|Category|Features|Area (sqm)|Share|
+|---|---|---:|---:|---:|
+|1401|Park and green space|5|3,116,095.041|27.3%|
+|0802|Scientific research|4|3,125,404.414|27.4%|
+|0803|Culture|3|1,545,510.440|13.5%|
+|0901|Commercial|4|1,583,428.401|13.9%|
+|0902|Business and finance|6|1,796,422.322|15.7%|
+|0701|Urban residential|5|245,964.767|2.2%|
+|Total|—|27|11,412,825.386|100.0%|
 
-| Case | Location / institution | Transferable mechanism | Source |
-|---|---|---|---|
-| High Line | Friends of the High Line / NYC Parks | railway-heritage linear renewal + community participation & maintenance | [source:CASE-HIGHLINE] |
-| Coulée verte René-Dumont | Ville de Paris | disused railway viaduct converted to continuous slow green corridor | [source:CASE-COULEE] |
-| Fourth Plinth | Greater London Authority | scheduled public-art rotation + public participation mechanism | [source:CASE-PLINTH] |
-| Superkilen | Københavns Kommune | global object collection + provenance signage landscape (public-contribution signing) | [source:CASE-SUPERKILEN] |
-| Shenzhen Talent Park | Shenzhen Urban Administration Bureau | talent-themed municipal park: honor display fused with daily leisure | [source:CASE-SZTALENT] |
-| Yangpu Riverside | Shanghai Yangpu District Government | rust-belt industrial waterfront renewed into continuous public frontage | [source:CASE-YANGPU] |
-| Shougang Park | Shougang Group | industrial-heritage renewal + large event hosting and operation | [source:CASE-SHOUGANG] |
-| East Lake Greenway | Wuhan Municipal Government | ultra-long continuous greenway + community co-building and event system | [source:CASE-DONGHU] | (benchmark master list)
+The aggregation rule is intentionally conservative: 0802 remains scientific research; absent 0801 education and absent “other” are not invented or silently merged; 0803 culture remains separate. The `green_space.geojson` overlay is not added to 1401. Figures show one decimal percentage point; JSON retains precise values.
 
-**AI innovation ecosystem and factor mechanisms (agent.2)** — the ecosystem map interlinks three-areas-two-wings x factor mechanisms x case benchmarks; factor-support mechanisms cover land, space, industry, capital, talent, compute, data and scenarios, all concept-level ([source:DATA-SRC-AGENT-TASKBOOK]).
+## 8. Transport, rail, municipal and public services
+The concept gives priority to walking and cycling, with a continuous slow corridor and event-day rail/transfer coordination. Lighting, drainage, power, communications, toilets, rest points, first aid and family services are modular interface proposals. Final route, capacity and utility decisions require professional traffic, municipal, fire, accessibility and safety review. AI suggestions always have a manual alternative.
 
-| Factor mechanism (concept) | Main carrier | Cooperation parties | Note & boundary |
-|---|---|---|---|
-| Honor-content call & display | Glory Gallery | universities, enterprises, communities, public | content admission & exit rules, human review |
-| Contributor points & signature | Contributor Garden | open-source communities, volunteers | points for honor display & event benefits only, no cash conversion |
-| Scenario opening & testing | Zhongzhiyuan, Xiaoyuehe | developers, enterprises, professional teams | pilot-verify before scaling |
-| Multilingual & accessible services | all nodes | volunteers, public-good organisations | human fallback, explicit consent |
-| Data governance & disclosure | operation platform | government-led, operators co-work | anonymized only, annual disclosure |
-| Annual events & communication | event venues | multi-party alliance | unified event brands, content published in advance | (industry-space-element mechanism table)
+## 9. Blue-green space, public space and character
+The three gardens are a public-space component library: display, dialogue and contribution. Railway motifs are used with restraint through material, shadow, track rhythm and signage rather than large slogans. A bilingual, accessible route layer supports all ages, children, older people, visitors and people with disabilities. Components are removable and reusable; no protected landscape or heritage status is claimed for a concept polygon.
 
-## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
-The retain-renovate-demolish strategy follows the concept caliber of “retain first, renovate second, demolish case-by-case”: heritage green belt, historical station buildings and industrial structures are retained to extend railway memory; inefficient plants and campus buildings are mainly reprogrammed (display, office, exhibition and support); demolition is limited to individually verified unsafe relics ([source:DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311]). This layer presets no land ratios or building-scale figures and gives no demolition conclusions; such matters are reserved for statutory process.
+## 10. Project list, implementation policy and phasing
+The concept phasing is near term 1–3 years, middle term 3–5 years and long term 5–10 years. Near term: a reversible Glory Gallery test, content/rights ledger, manual service and one scenario loop. Middle term: connect the slow route and test Milestone Plaza and Contributor Garden. Long term: refine the belt through evidence and public review. The annual program is proposed as Honor Release Day, Open-source Contributor Appreciation Week and Community Co-creation Festival; none is a confirmed event. Every stage has a review gate, public notice, complaint channel and exit record.
 
-The conceptual land-use mix is measured against this package’s land_use layer (consistent with land_use.geojson): green and other open space ~22%, education/research ~29%, industry/office ~15%, commercial ~14%, residential ~12%, other ~8%; concept-balance reference only, not as-built statistics. These shares differ from green_ratio in metrics.json, which uses the green_space layer; the two calibers are not interchangeable ([data:geometry/land_use.geojson]). Recompute and aggregation rule: after official land, boundary and building inventories are published, all areas, ratios and scales will be recomputed against the official caliber and versioned ([data:geometry/buildings.geojson]). No conclusive FAR or building-height figures are given.
+## 11. Metrics, area recomputation and compliance matrix
+`site_area_sqm=11,412,825.386 sqm*`, formula `polygon_area(provisional_site_boundary, EPSG:4548)`, confidence `low`; `green_ratio=0.110044*`, formula `green_space_area_sqm/site_area_sqm`, confidence `low`; `public_space_ratio=0.003167*`, formula `public_space_area_sqm/site_area_sqm`, confidence `low`. The asterisk means a known finite provisional concept value for package recomputation and comparison only, not statutory area, capacity, engineering or investment evidence. Recompute all values with the same formulas after official boundaries/land-use data are released and record the difference. Additional evidence for the 3 positions, 5 functions, 3 areas/2 wings, 3 district loops and the six-category land-use ledger is in `compliance_matrix.json` and `compliance_matrix.json`.
 
-## Transport, Rail, Municipal Infrastructure, and Public Services
-Transport is slow-traffic first: the continuous green-belt axis links nodes and rail stations; walking and cycling run through without interruption; crossings and transfers prioritise safety and convenience; event traffic relies on rail plus shuttle services (shuttle lines, booked coaches and bike-share zones) with phased exit dispersal to reduce car dependence ([standard:MOHURD-URBAN-DESIGN-MEASURES]). Municipal services follow a concept-reservation principle: modular interfaces for lighting, drainage and electromechanical access, and a two-tier check of power, water, communications and temporary power points for daily vs event loads; no capacity conclusions are given.
+Operational indicators are proposed rather than observed: display reuse, slow-route accessibility, green-belt continuity, component reversibility, public participation, content update interval, review consistency, complaints and exit records. No real baseline or acceptance result is claimed. Thresholds must be agreed by a professional team before a pilot; a failed quality/safety/accessibility or rights check pauses the service.
 
-Public services deploy relocatable standard units — mobile toilets, nursing rooms, medical points and lockers — with accessible and multilingual wayfinding serving belt users and neighbouring residents; AI traffic scenarios (route suggestions, tidal dispersal) run on anonymized aggregation, human review and no over-surveillance, with stop conditions and exit mechanisms for key decisions ([source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW]). Rail and road alignments, alterations and engineering measures are outside this package and are reserved for special studies and statutory process.
+## 12. Risk, copyright and compliance
+The concept does not provide statutory planning, engineering, investment or approval conclusions. The package retains the rights ledger and source restrictions. Honor and contributor material requires permission, verification, objection, withdrawal and retention rules before identifiable public display. AI uses anonymized aggregates only, human review for key decisions and no excessive monitoring. Heritage, transport, municipal, fire, accessibility, data protection and event-safety reviews are required before real-world testing. “GLORY·JZ” remains a non-commercial concept display name until any future name/trademark review is completed.
 
-## Blue-Green Network, Public Space, and Urban Character
-A “green belt as axis, node parks as beads” blue-green system is proposed: retain and connect the existing green belt and enrich shaded, lawn and open nodes; raise ecological resilience with rain gardens and permeable paving; public space is convertible — display units, installation plazas and signature green areas can switch to markets, classrooms and daily leisure ([standard:MOHURD-URBAN-DESIGN-MEASURES]). All temporary facilities follow a modular, demountable, recyclable system; event installations switch on demand.
+## 13. References
+References include the public call and taskbook, public planning/design guidance, public land-use classification guidance, public AI-governance guidance, accessibility reference and the package's provisional geometry. The `sources.json` file is the authoritative local provenance register. External cases are mechanism references only and do not transfer foreign parameters or imply local endorsement.
 
-Character guidance is “honor as soul, restraint as form”: railway-industrial vocabulary (spikes, sleepers, signals and locomotive motifs) is used sparingly to avoid slogans and clickbait styling; material, light and scale replace bulky structures, preserving the green belt’s calm and harmony with the surrounding built environment ([data:geometry/green_space.geojson]). The character guidance caliber enters the design-depth matrix and figures for professional teams to continue; every concept is phrased as “available for professional teams to deepen”, never as an implementation conclusion.
-
-![Slow-traffic-first and blue-green public space analysis (concept)](assets/figures/mobility-bluegreen.en.png)
-
-## Renewal Projects, Implementation Policy, and Phasing
-Renewal projects are managed in three rolling categories — spine, nodes, component library: near term (1–3 years) launches the Glory Gallery demonstration segment, annual event mechanisms and AI scenario pilots; mid term (3–5 years) completes the slow-traffic axis, Milestone Plaza and Contributor Garden; far term (5–10 years) rounds out the whole system and the component library ([source:DATA-SRC-AGENT-TASKBOOK]). Implementation roles are suggested as government-led, enterprise-coordinated, community co-governed; policy suggestions (simplified approval for honor-content calls and display, flexible business-type admission, multi-party operation) require legal review and do not constitute government or operator commitments.
-
-Three annual event brands are fixed (table below) alongside a developer community: monthly tech open days, quarterly evaluation competitions and an annual contributor assembly, forming a talent-enterprise-developer conversion pathway; AI scenario open-operation (card pilots, test-scenario opening, data-rule disclosure) and public experience operation (booking, volunteering, rotation, publication) are included in the annual operation plan. Every event has stop conditions (capacity-exceedance suspension, content-dispute withdrawal, pilot failing acceptance indicators → rollback) and exit mechanisms.
-
-| Annual event brand | Cycle | Audience | Mechanism (concept) |
-|---|---|---|---|
-| Honor Launch Day | yearly | enterprises, universities, public | achievement release + honor display renewal + media |
-| Open-Source Contributor Thanks Week | yearly | developers, open-source communities | signature appending, thanks benefits, contributor assembly |
-| Community Co-Creation Festival | yearly | residents, families, children | co-creation workshops + market + deliberation assembly | (annual event brand table)
-
-## Metrics, Area Recalculation, and Compliance Matrix
-Indicators fall into scope, spatial and operation categories, all registered in metrics.json: scope (site_area_sqm, concept ~11.41 km², low confidence); spatial (green_ratio≈0.11, public_space_ratio≈0.003, green_space and public_space layer calibers, low confidence); operation (key areas 3, scenario cards 10, industry test-verification scenarios 3, annual events 3, global benchmarks 8, personas 5 — evidenced by visible text in the tables of this document) ([metric:scenario_card_count]). Every indicator states its data source, formula, confidence level, use restrictions and recompute trigger ([metric:green_ratio]).
-
-Area recalculation is anchored to the official text calibers (coordinated research area ~43.6 km², overall design area ~11.4 km², key areas ~368.4 ha): all areas and ratios in this package are concept measurements on provisional boundaries and will be recomputed and versioned once official geometry (boundary, redline, land) is published ([source:DATA-SRC-PROVISIONAL-BOUNDARIES]). The compliance matrix maps the call announcement, taskbook and relevant regulations item by item into “basis — requirement — response” tables (compliance_matrix.json, standard_matrix.json, design_depth_matrix.json) and updates with design depth ([metric:key_area_count]).
-
-![Core metrics evidence (concept, provisional)](assets/figures/metrics-evidence.en.png)
-
-## Risk, Copyright, and Compliance
-This proposal is concept research and does not constitute an approval basis or conclusive figures on FAR, building height, demolition or engineering feasibility. Risks are registered in risk.json across data gaps, traffic and operation, privacy boundaries, missing statutory controls, technology maturity and public acceptance, with response principles of anonymized aggregation, minimum necessity, human review and advance public notice ([source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES]). Honor and contribution content involving name rights and reputation rights requires authorization before display, with appeal and withdrawal channels; AI-generated content follows the relevant requirements for generative-AI services, and key decisions are human-reviewed.
-
-Brand prior-rights and use boundary: no official trademark search has been completed at concept stage; “GLORY·JZ”, “京张荣耀带” and the related names and marks are treated as internal working codenames and are not registered or used commercially before rights clearance; the provenance, license and reuse boundary of fonts, figures, the logo, case materials and generated content are registered item by item in the asset rights ledger (report/copyright_statement.md) and sources.json ([source:PACKAGE-GEOMETRY]). All cited public material states publisher, link and publication/retrieval dates; before formal implementation, multi-department review, heritage protection and safety assessment are required.
-
-## References
-1. Call prequalification announcement, Centennial Jingzhang AI Innovation Belt international urban design (organizer, 2026-05-09) — task basis ([source:DATA-SRC-OFFICIAL-ANNOUNCEMENT]).
-2. Excerpts of the agent open-call taskbook (organizer-cleared document, 2026-05-18) — agent.1–6 tasks and three-areas-two-wings caliber ([source:DATA-SRC-AGENT-TASKBOOK]).
-3. Provisional three-level scopes and key-area geometry (organizer-maintained; intake/visualization only) ([source:DATA-SRC-PROVISIONAL-BOUNDARIES]).
-4. Urban Design Administrative Measures; Measures for Compiling and Approving Regulatory Detailed Plans; Land-use Classification Guide (MOHURD/MNR public texts).
-5. “Centennial Jingzhang — century classic” (National Railway Administration), Beijing–Zhangjiakou HSR opening (China State Railway Group, 2019-12-30), Jingzhang Railway Heritage Park (Beijing Landscaping and Greening Bureau, 2025-07-24), Haidian District Plan (Municipal Planning Commission, 2020-02-14), Zhongguancun Demonstration Zone (Beijing S&T Commission/ZGC) — historical and official public material.
-6. Interim Measures for Generative-AI Services (2023-07-13) and Barrier-Free Environment Law (2023-06-28) — governance and accessibility references.
-7. Eight official pages of international/domestic benchmark cases (High Line, Coulée verte, Fourth Plinth, Superkilen, Shenzhen Talent Park, Yangpu Riverside, Shougang Park, East Lake Greenway), registered in sources.json.
-8. Site-walk notes and self-drawn sketches (collected by this project).
-
-## Brand Identity and Visual System (GLORY·JZ)
-The primary brand “京张荣耀带（GLORY·JZ — The Honor Belt）” uses a “belt + milestone + rail symbol” graphic motif: the logo builds a belt-shaped base from railway sleepers and spikes, overlaid with a milestone scale and a five-pointed honor star (assets/figures/logo-jz.png, language-neutral). The colour system suggests three primaries — Jingzhang blue (railway and Zhongguancun tech context), rust red (railway-industrial memory) and honor purple (honor and contribution theme). Typography: a licensed open-source CJK sans-serif for body and signage, registered after obtaining a license; brand hierarchy runs primary brand — sub-brands (One Belt Three Gardens) — event brands (three annual events) ([source:DATA-SRC-AGENT-TASKBOOK]).
-
-The signage and symbol system has three levels — level 1 guidance (rail stations and area entries), level 2 guidance (inter-node slow paths) and level 3 elements (in-node devices and info screens); the symbol library derives from spikes, sleepers, signals and locomotives, used sparingly; the cultural system narrates through a three-layer story of railway milestones — innovation milestones — public contributions. International communication copy is unified as: GLORY·JZ — where a century of rail meets a generation of AI (concept), alongside the Chinese motif “百年京张，功勋长河”; communication assets (English subtitle, bilingual diagrams, event-brand visuals) are delivered in the visual pages and figures. Prior-rights and use boundaries are declared in the risk section, and assets are registered item by item in the ledger.
-
-## Personas (Five Groups)
-| Persona | Typical groups and needs | Inclusive-design response (concept) |
-|---|---|---|
-| University faculty, researchers, students | achievement display, academic honor, open seminars | booked seminar slots, multilingual abstracts |
-| Science-park workers and office staff | midday/night rest, socialising, inspiration | extended lighting hours, quiet zones |
-| Resident families (seniors, children) | daily leisure, childcare, community events | age-friendly, elder-friendly and child-friendly facilities, guardian routes |
-| International visitors | multilingual information, cultural exchange | multilingual signage & interpretation, accessible routes, human fallback |
-| Open-source contributors and vulnerable groups | recognition, belonging, sustained participation | points and disclosure mechanisms, assisted interfaces for low digital literacy | (persona table)
-
-> All persona and experience design follows: anonymized aggregation only, key decisions human-reviewed, no over-surveillance; a resident feedback channel (online mailbox + node deliberation assemblies) and annual disclosure run throughout; accessibility features do not claim certification until professional accessibility assessment is completed ([source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW]).
+*Status note: all spatial, operational and metric statements above are concept recommendations and provisional evidence. Official data and professional review must supersede this package before any statutory, engineering or operational use.*
