@@ -92,7 +92,7 @@
       "ai_package_stages": {
         "submissions/Restless-One/jingzhang-slow-line": "formal"
       },
-      "total_bytes": 18409972,
+      "total_bytes": 16891626,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -150,15 +150,15 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
+        "site_area_sqm": 11412825.385554,
+        "green_ratio": 0.145367,
+        "public_space_ratio": 0.053963,
+        "non_ai_fallback_coverage_ratio": 1.0,
         "p0_external_decision_bundle_hold_count": 4.0,
         "simulation_task_count": 12.0,
         "simulation_success_rate": 1.0,
         "tool_schema_pass_rate": 0.9166666666666666,
-        "audit_completeness": 1.0,
-        "site_area_sqm": 11412825.385554,
-        "green_ratio": 0.145367,
-        "public_space_ratio": 0.053963,
-        "non_ai_fallback_coverage_ratio": 1.0
+        "audit_completeness": 1.0
       }
     },
     "stderr": ""

@@ -50,13 +50,13 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "8d5f535faa3774dbf7e7715d3a3e809289c96d19d583a36aa243ced7d75d4e2f"
+      "sha256": "4698ea6009fa424a4ca3568811438b0879bbf6347d4d86c498a02a57c7a746ac"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "fc512d0166fdb627e4ee89814fb95404ef7c45cc189171f22cef9d8dc536f6ad"
+      "sha256": "cf6fda6d196c37b92d56d8fb68d3187be507be6ceac8b4e6e24fc2c19db938ad"
     },
     {
       "path": "compliance_matrix.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "d8d164584181c22a0ccbcb79840649f78bd8887f0282cd6fb9ee424f030602de"
+      "sha256": "6b9789edcba5f9eb48488b9ac0a10d5ce91fbbc4702b8ed7e0312748f1250374"
     },
     {
       "path": "report/narrative.md",
@@ -114,7 +114,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "24d6bb6e006dd41350a924a70b7124fd30f4775727f9b92847a109aafe2d6918"
+      "sha256": "8acb330a5f124689d6ec3fe60eac4bd53c0119afd70275fbc7b772eee01aaca2"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "b049720fddc64741defeed66774b80dbfef4368d78290f82e8c4748845f3adb2"
+      "sha256": "98bfb66ee50a7e7716471fe43f936c3be342482dc5b1a0d8c50b14d1c223a507"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "5bfa9b02340ab463884c464685b77760242b7932df84ded866f2df030c6708a3"
+      "sha256": "353cc1eb9245d93872abd6a1b41e1556cb8471e4e9ecea76508ae998fad4bf5f"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -310,7 +310,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "5ffbef2677d3083780f662545e36bafc93c5d5e02b02992d1a018ef371e4569f"
+      "sha256": "57ead2b05afe004c38ac4001c26dc95bb789913add5ffafdbd1d7fd617b8fb95"
     },
     {
       "path": "assets/media/slow-line-experience.jpg",
