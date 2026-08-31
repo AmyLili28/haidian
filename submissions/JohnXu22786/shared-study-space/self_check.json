@@ -26,7 +26,6 @@
         "submissions/JohnXu22786/shared-study-space/assets/figures/key-areas.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/land-use-structure.png",
-        "submissions/JohnXu22786/shared-study-space/assets/figures/logo-brand.en.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/logo-brand.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/shared-study-space/assets/figures/metrics-evidence.png",
@@ -88,7 +87,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/shared-study-space": "formal"
       },
-      "total_bytes": 18926033,
+      "total_bytes": 13430699,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -146,10 +145,6 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "landmark_count": 3.0,
-        "scenario_node_count": 9.0,
-        "scenario_card_count": 10.0,
-        "industry_test_scenario_count": 3.0,
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.116417,
         "public_space_ratio": 0.004464
@@ -174,7 +169,7 @@
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 3
+          "metric": 5
         }
       }
     },

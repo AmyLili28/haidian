@@ -1,5 +1,12 @@
 # 方案迭代记录
 
+## CocoSgt 5066574923 repair - 2026-08-31
+
+- Human-facing provisional area and ratio displays were reduced to low-precision approximate values across both proposals, visual indexes, metric figures, HTML reports, and regenerated PDFs. The wording now identifies participant provisional model data, non-official issuance, and recomputation after official geometry/data release; machine precision remains confined to metrics.json/data-value attributes for reproducibility.
+- The English proposal image links now point to the English figure counterparts so the English report and drawings cannot silently embed Chinese plates.
+- The three key-area cards were re-laid out with explicit Exit, privacy, and human-fallback lines, bounded text wrapping, and a separate footer band; the bilingual key-area figures were regenerated and checked at output dimensions.
+- A3 booklets and A0 boards were regenerated from the updated bilingual figures and low-precision display copy; local HTML, PDF, manifest, font, figure-QC, and four-gate checks are rerun after generation.
+
 ## v0.1.0 - 2026-08-24
 
 - Initial assembly (concept package) for shared-study-space.
@@ -23,13 +30,3 @@ Per-file summary of the repair round addressing CocoSgt 2026-08-24 CHANGES_REQUE
 - compliance_matrix.json / standard_matrix.json: refreshed agent.1-6 and standard evidence summaries to reference the new shipped content; standard_matrix evidence summaries now distinct.
 - manifest.json: registered all zh/en counterparts with language + translation_of per 0.2 schema; data_confidence=medium.
 - self_check.json: four gates re-run; figure_qc refreshed with real ink/edge-clip measurements.
-
-## round-4 repair - 2026-08-30
-
-Per-file summary of the repair round addressing CocoSgt 72.0 review for PR #3979:
-
-- drawings/a0-boards.pdf + drawings/a0-boards.en.pdf: Complete layout overhaul. Redesigned to 4 dense, full-bleed A0 landscape sheets (46.81 x 33.11 in / 1189 x 841 mm) filling the entire canvas with zero microscopic clustering and zero empty whitespace. Prominently structured hero maps, 3 key node sub-boards, 10 scenario cards, 3 industry test protocols, seven-factor innovation ecosystem diagrams, RACI matrices, and dual-axis metric summaries. Title (>=32pt), labels (>=18pt), text (>=14pt), and PROVISIONAL stamp banners placed with perfect readability.
-- drawings/a3-booklet.pdf + drawings/a3-booklet.en.pdf: Complete redesign of cover page with clean hierarchical typography eliminating all title/subtitle overlap. Set generous margins and crisp layout across all 8 landscape pages embedding all canonical bilingual figures with zero edge clipping.
-- assets/figures: Regenerated all 7 canonical figure pairs (14 PNGs in zh + en): site-overview, key-areas, mobility-bluegreen, land-use-structure, metrics-evidence, ai-ecosystem-atlas, and logo-brand. All figures updated with unified Two Wings ("中关村科技服务翼 / Zhongguancun Technology Service Wing" & "小月河场景赋能翼 / Xiaoyuehe Scenario Empowerment Wing") and Three Nodes ("织学馆 / STU-HALL #0E7C82", "学研谷 / STU-VALLEY #C47B1A", "夜读室 / STU-NIGHT #2E5E96") naming. Dual-axis metrics scale separation implemented; residual characters cleaned. Ink coverage measured between 0.101 and 0.616 (all >= 0.08) and edge-clip ratio 0.0000 across all 14 figures.
-- report/proposal.html + report/proposal.en.html + visual/index.html + visual/index.en.html: Fonts embedded with embed_fonts.py (Noto Sans SC OFL-1.1 subset). Previews refreshed in visual/assets/previews/.
-- self_check.json + manifest.json: Four gates self-check re-run and passed deterministically. All file hashes and figure_qc verified.

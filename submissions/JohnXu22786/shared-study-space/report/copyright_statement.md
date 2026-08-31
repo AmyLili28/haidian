@@ -6,7 +6,7 @@ All submitted text, geometry, diagrams, PDFs, and static HTML assets in this pac
 
 | Asset / role | Author / tool | Type | Licence / reuse condition | Limitation |
 | --- | --- | --- | --- | --- |
-| Proposal text (zh/en) | JohnXu22786 with AI co-generation | Original writing | COMMUNITY-DISPLAY-ONLY | No third-party text or image copied; public cases are short, attributed mechanism summaries only; exact claim boundaries are itemised in sources.json |
+| Proposal text (zh/en) | JohnXu22786 with AI co-generation | Original writing | COMMUNITY-DISPLAY-ONLY | No third-party copyrighted text reused; public cases summarised only |
 | Geometry (GeoJSON) | JohnXu22786 / agent + deterministic script | Original geometry | COMMUNITY-DISPLAY-ONLY; provisional | Not an official redline; derived from announcement textual extent |
 | Figures (PNG: overview, land-use, key-areas, mobility, metrics, ecosystem, logo) | JohnXu22786 / agent + matplotlib script | Original diagrams | COMMUNITY-DISPLAY-ONLY; provisional | No third-party imagery/map bases; schematic only |
 | Brand Logo / marks (织学智环, STU·JZ) | JohnXu22786 / agent (original) | Original mark | Internal working codename; prior-rights search pending (A-IP-001) | Restricted from external registration/use until clearance |
@@ -16,4 +16,4 @@ All submitted text, geometry, diagrams, PDFs, and static HTML assets in this pac
 
 Inline references for the case studies, standards, and official announcement are registered item by item (publisher, page URL, published/accessed dates, reuse boundary, licence) in sources.json under source ids: DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509, DATA-SRC-AGENT-TASKBOOK-2026-0518, DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES, DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING, DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311, DATA-SRC-PROVISIONAL-BOUNDARIES-2026-0605, DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES, CASE-TOKYO-PAID-STUDYROOMS, CASE-SHANGHAI-PAID-STUDYROOMS, CASE-NORDIC-LIBRARIES, CASE-SINGAPORE-NLB, CASE-NYPL-LEARNING, CASE-CN-UNIVERSITY-SOCIAL-OPEN, ASSET-FONT-NOTOSANSSC, ASSET-ORIGINAL-LOGO, ASSET-GENERATED-FIGURES, ASSET-RENDER-CODE, PACKAGE-GEOMETRY.
 
-Machine-visual checks cannot certify accessibility, colour contrast, keyboard operation, alternative text or font-licence compliance for every PDF page; these require human professional review. This ledger records the evidence boundary for this package; it is not a clearance certificate, copyright opinion, trademark decision, or approval proof. Any unverified external fact or asset remains excluded, provisional, or marked for verification.
+Machine-visual checks cannot certify accessibility, colour contrast, keyboard operation, alternative text or font-licence compliance for every PDF page; these require human professional review. This statement does not constitute any real-world copyright or approval proof.
