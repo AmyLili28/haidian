@@ -1,0 +1,393 @@
+{
+  "type": "FeatureCollection",
+  "name": "lived_line_conceptual_building_interfaces",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLDG-001",
+      "properties": {
+        "id": "BLDG-001",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "BUILDING_FOOTPRINT",
+        "building_type": "lab",
+        "name_zh": "可逆校准与人工服务设施 1",
+        "name_en": "Reversible calibration and human-service facility 1",
+        "retain_renovate_demolish_status": "concept_only_pending_building_survey",
+        "area_sqm_declared": 4968.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3451943,
+              39.9475735
+            ],
+            [
+              116.3462707,
+              39.9475796
+            ],
+            [
+              116.3462754,
+              39.9470933
+            ],
+            [
+              116.3451989,
+              39.9470872
+            ],
+            [
+              116.3451943,
+              39.9475735
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-002",
+      "properties": {
+        "id": "BLDG-002",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "BUILDING_FOOTPRINT",
+        "building_type": "cultural",
+        "name_zh": "可逆校准与人工服务设施 2",
+        "name_en": "Reversible calibration and human-service facility 2",
+        "retain_renovate_demolish_status": "concept_only_pending_building_survey",
+        "area_sqm_declared": 4968.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3510472,
+              39.9566641
+            ],
+            [
+              116.3521238,
+              39.9566702
+            ],
+            [
+              116.3521284,
+              39.9561838
+            ],
+            [
+              116.3510518,
+              39.9561778
+            ],
+            [
+              116.3510472,
+              39.9566641
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-003",
+      "properties": {
+        "id": "BLDG-003",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "BUILDING_FOOTPRINT",
+        "building_type": "incubator",
+        "name_zh": "可逆校准与人工服务设施 3",
+        "name_en": "Reversible calibration and human-service facility 3",
+        "retain_renovate_demolish_status": "concept_only_pending_building_survey",
+        "area_sqm_declared": 4968.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3450186,
+              39.9698071
+            ],
+            [
+              116.3460954,
+              39.9698131
+            ],
+            [
+              116.3461,
+              39.9693268
+            ],
+            [
+              116.3450232,
+              39.9693207
+            ],
+            [
+              116.3450186,
+              39.9698071
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-004",
+      "properties": {
+        "id": "BLDG-004",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "BUILDING_FOOTPRINT",
+        "building_type": "community_service",
+        "name_zh": "可逆校准与人工服务设施 4",
+        "name_en": "Reversible calibration and human-service facility 4",
+        "retain_renovate_demolish_status": "concept_only_pending_building_survey",
+        "area_sqm_declared": 4968.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3496639,
+              39.9829972
+            ],
+            [
+              116.3507409,
+              39.9830032
+            ],
+            [
+              116.3507455,
+              39.9825169
+            ],
+            [
+              116.3496685,
+              39.9825109
+            ],
+            [
+              116.3496639,
+              39.9829972
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-005",
+      "properties": {
+        "id": "BLDG-005",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "BUILDING_FOOTPRINT",
+        "building_type": "mobility_hub",
+        "name_zh": "可逆校准与人工服务设施 5",
+        "name_en": "Reversible calibration and human-service facility 5",
+        "retain_renovate_demolish_status": "concept_only_pending_building_survey",
+        "area_sqm_declared": 4968.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3433454,
+              39.9961334
+            ],
+            [
+              116.3444226,
+              39.9961395
+            ],
+            [
+              116.3444273,
+              39.9956532
+            ],
+            [
+              116.3433501,
+              39.9956471
+            ],
+            [
+              116.3433454,
+              39.9961334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-006",
+      "properties": {
+        "id": "BLDG-006",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "BUILDING_FOOTPRINT",
+        "building_type": "mixed_use",
+        "name_zh": "可逆校准与人工服务设施 6",
+        "name_en": "Reversible calibration and human-service facility 6",
+        "retain_renovate_demolish_status": "concept_only_pending_building_survey",
+        "area_sqm_declared": 4968.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3490902,
+              40.0093429
+            ],
+            [
+              116.3501676,
+              40.0093489
+            ],
+            [
+              116.3501722,
+              40.0088626
+            ],
+            [
+              116.3490948,
+              40.0088566
+            ],
+            [
+              116.3490902,
+              40.0093429
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-007",
+      "properties": {
+        "id": "BLDG-007",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "BUILDING_FOOTPRINT",
+        "building_type": "education",
+        "name_zh": "可逆校准与人工服务设施 7",
+        "name_en": "Reversible calibration and human-service facility 7",
+        "retain_renovate_demolish_status": "concept_only_pending_building_survey",
+        "area_sqm_declared": 4968.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3439988,
+              40.0191875
+            ],
+            [
+              116.3450764,
+              40.0191936
+            ],
+            [
+              116.3450811,
+              40.0187073
+            ],
+            [
+              116.3440035,
+              40.0187012
+            ],
+            [
+              116.3439988,
+              40.0191875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-008",
+      "properties": {
+        "id": "BLDG-008",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "BUILDING_FOOTPRINT",
+        "building_type": "retail",
+        "name_zh": "可逆校准与人工服务设施 8",
+        "name_en": "Reversible calibration and human-service facility 8",
+        "retain_renovate_demolish_status": "concept_only_pending_building_survey",
+        "area_sqm_declared": 4968.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3494816,
+              40.0169984
+            ],
+            [
+              116.3505591,
+              40.0170044
+            ],
+            [
+              116.3505637,
+              40.0165181
+            ],
+            [
+              116.3494862,
+              40.0165121
+            ],
+            [
+              116.3494816,
+              40.0169984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-009",
+      "properties": {
+        "id": "BLDG-009",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "BUILDING_FOOTPRINT",
+        "building_type": "existing_retained",
+        "name_zh": "可逆校准与人工服务设施 9",
+        "name_en": "Reversible calibration and human-service facility 9",
+        "retain_renovate_demolish_status": "concept_only_pending_building_survey",
+        "area_sqm_declared": 4968.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3484811,
+              39.9887487
+            ],
+            [
+              116.3495583,
+              39.9887547
+            ],
+            [
+              116.3495629,
+              39.9882684
+            ],
+            [
+              116.3484858,
+              39.9882624
+            ],
+            [
+              116.3484811,
+              39.9887487
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
