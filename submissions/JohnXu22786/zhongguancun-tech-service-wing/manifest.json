@@ -160,7 +160,7 @@
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "f746480da19fc8176ce72b9870fe07fe3291818af0e4ae29e07841f5f996bebe"
+      "sha256": "fb4f248e4bd34ce164e00a0cb6014019fc082e2b5cd584cee84e46dbdc919cee"
     },
     {
       "path": "design_depth_matrix.json",
@@ -318,7 +318,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "8859946d6f06b2ab9f8749496143b82dbe1afcd9d5c799ad489a2ed2d44a4ecf"
+      "sha256": "94095c5e10be0e549d7dbc03de634d3b37dfd498097872a96b5c84e1720e3728"
     },
     {
       "path": "sources.json",
