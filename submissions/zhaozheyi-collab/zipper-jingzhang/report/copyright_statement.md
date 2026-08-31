@@ -534,3 +534,9 @@ Result: PASS — the two language versions are substantively equivalent; no untr
 - proposal.en.md figure mapping corrected: all five required figures now reference the .en.png counterparts (site-overview / land-use-structure / key-areas / mobility-bluegreen / metrics-evidence); report/proposal.en.html re-rendered accordingly.
 - A3 booklets (zh/en) re-composed after pages 2 & 8 re-shot with the corrected 0.8% public-space figure; A0 boards (zh/en) re-exported with the same correction. All carriers now state public_space_ratio = 0.8% (0.008157) consistently.
 - Gate rerun after changes: self_check ok=true, formal-review-ready.
+
+### Appendix B.3 — R5 cross-carrier round (2026-08-31)
+
+- drawings/a0-boards.en.pdf regenerated: the two overview maps on page 1 now embed site-overview.en.png and land-use-structure.en.png (was: zh versions); zh A0 unchanged (correctly zh).
+- visual/index(.en).html regenerated with package_state badge synchronized to manifest (ready_for_review); manifest hashes for both files refreshed.
+- Gate rerun: self_check ok=true, formal-review-ready.
