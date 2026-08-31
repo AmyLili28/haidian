@@ -7,7 +7,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Using Jing-Zhang Railway Heritage Park as a public spine, this proposal turns urban questions into scientific and civic action that can be falsified, retested, and exited."
 proposal_format_version: "2"
 bilingual_contract_version: "1"
-version: "v1.4"
+version: "v1.5"
 tracks: ["civic-agent-governance", "jingzhang-heritage-narrative", "ai-public-services"]
   # Desktop simulation | Not a field test | Does not represent a real project event
 ---
@@ -15,7 +15,7 @@ tracks: ["civic-agent-governance", "jingzhang-heritage-narrative", "ai-public-se
 # Jing-Zhang · Discovery Line
 
 > The city sets the questions; AI takes the test.
-
+**How to read this proposal.** The text offers three reading routes by available time. 30 seconds, what it does, where it applies, and how it stops: read “Key Conclusions.” 3 minutes, daily use, three areas, and ten scenarios: add “90-Second Opening” and “Public Summary: The One-Minute Guide to the Six Gates and Five Ledgers.” 15 minutes, AI boundaries, failure recovery, and evidence status: add “Detailed Design of Key Areas,” “Metrics, Area Recalculation, and Compliance Matrix,” and “Official Open Call Task-by-Task Response Index.” The web version puts the same three routes on its home page under “Three-Tier Reading Routes.”
 
 > After the public says no, the proposal still has a complete path: stop at once, restore the prior state, and hand the next decision to people.
 

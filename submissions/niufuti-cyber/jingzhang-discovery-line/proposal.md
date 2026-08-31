@@ -6,7 +6,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "以京张遗址公园为公共脊，把城市问题转成可证伪、可复测、可退出的科学与公共行动。"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
-version: "v1.4"
+version: "v1.5"
 tracks: ["civic-agent-governance", "jingzhang-heritage-narrative", "ai-public-services"]
 scenarios: ["ai-traffic-walkability","robot-delivery-low-speed","ai-health-service-navigation","ai-cultural-guide","public-safety-operations-review"]
 translation_file: "proposal.en.md"
@@ -15,7 +15,7 @@ translation_file: "proposal.en.md"
 # 京张·发现线
 
 > 城市出题，AI 来应考。
-
+**如何阅读本方案。** 本文按可用时间提供三档阅读路线。30 秒，先看做什么、在哪里、停了怎么办：读“先看结论”。3 分钟，再看一天的使用、三个区域和十个场景：加读“90秒开场”和“公众版摘要：给你一分钟看懂六道门与五本账”。15 分钟，细看 AI 的边界、失败恢复和证据状态：再加“重点区域详细设计”“指标体系、面积复算与合规矩阵”和“官方征集任务逐项应答索引”。网页版把同一条三档路线放在首页“三档阅读入口”。
 
 > 公众否决之后，方案仍有完整去路：立即停止、恢复原状，并由人接手决定下一步。
 
