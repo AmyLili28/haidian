@@ -138,7 +138,7 @@
       "role": "changelog",
       "required": false,
       "language": "neutral",
-      "sha256": "adc36b0e5dfb73bf692511ee47d2221c676fa71d8c8d28cb17e3b229df61194a"
+      "sha256": "ffedd90b1043ee9ad65f988e6a3903080cdeae6b621d9e7681f2a021dc8010c5"
     },
     {
       "path": "compliance_matrix.json",
@@ -262,20 +262,20 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "9fd29d87700b8d5f99715b0bea00a3cd0c5361c2f6cad615692629c63bd74b18"
+      "sha256": "99274e67be92d8d865dc159012743fd2e29f990a6ab42d4131cb2ca5da693639"
     },
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "7c2f8c8739324917b2c73c4c0b1ab36eef51c8d2c4be48e114fc8a409c6c08dc"
+      "sha256": "a0c4db03189857ccf20e074b17171b3dbebdfb8842a90e54b89c978f693370c2"
     },
     {
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "0dcd4ea6d5b329a3f05d9279902273c1b147eaf28240b05eaef85fee88055bdb"
+      "sha256": "c2ce1a29de62f75a437bbab05119b72b89997f5d53ab53510b10b4477204809f"
     },
     {
       "path": "report/narrative.md",
@@ -290,26 +290,26 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "5fb257c56c69f18282fabc210de7e7c706611d93b4ed425d372dd099c59f7643"
+      "sha256": "88368234bc1d9b81e3f229ce47ee5b7686089f891617aeae98f35d7657071c6c"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "7a2d880963f9aa767ca9706568909f43c32a3c155f80ee537c3caaa98e12c477"
+      "sha256": "1d7689afed84c55b3775f0e0320dcb088496b23a65f79efde74e15e5c051c549"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "e928b67f8d6320a2bd4f7c2de959dd2e278b41895e9711d1350711efc8d2669c"
+      "sha256": "0b6514275f55f2140f33cad110a0c89961e5b9d2d837140bef68389f7bd15c61"
     },
     {
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "53dd084d04d4b3230491bc95f96ae5239b6b135c6f8e374683d06aacff976925"
+      "sha256": "51dfecfa76842394fb36e3b8e2ed7573192d3b1778884a4c5d32c0db1108b4de"
     },
     {
       "path": "standard_matrix.json",

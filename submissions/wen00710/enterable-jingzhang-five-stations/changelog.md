@@ -1,5 +1,12 @@
 # 方案迭代记录 / Changelog
 
+## v0.3 - 2026-08-31
+
+- Expanded the bilingual proposal with the project-original wordmark/route identity, six officially sourced global ecosystem comparisons, and four conceptual pilgrimage/landmark nodes.
+- Added direct official-web source records for STATION F, Punggol Digital District, Seoul AI Hub, Vector Institute, Mila, and Cyber Valley; the cases remain mechanism references rather than partners or local performance evidence.
+- Disclosed the seven WebP assets' documented `Codex built-in ImageGen` provenance, retained prompt record and source commit, hash continuity, post-generation style-guide review, and all unavailable model/conversion metadata.
+- Regenerated both offline proposal HTML files and refreshed the manifest and contributor self-check without changing geometry, drawings, runtime assets, or the bounded 20.5-second verification claim.
+
 ## v0.2 - 2026-08-31
 
 - Declared GitHub author `wen00710`.

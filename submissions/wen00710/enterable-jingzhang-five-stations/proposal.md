@@ -29,6 +29,10 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 作品正式名为“京张可进入｜一线四章·五站 / Enterable Jing-Zhang | One Line, Four Chapters, Five Stations”。统筹研究范围回答产业、人才、公共价值和长期运营机制；总体设计范围组织城市更新、交通慢行、蓝绿公共空间、公共服务与可逆设施；重点区域范围仍对应公告所指的大钟寺、AI 原点和众智园三处详细设计区。五个站点是叙事与运行时入口，三处重点区是专业设计深度，两者不能相互替代。`corridor` 只承担总览与返回主线，不被包装成第六站 [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework] [data:geometry/site_boundary.geojson#SITE-001]。
 
+### 命名与原创识别方向
+
+“京张可进入”强调普通市民可以进入公共路径、知识与服务；“一线四章·五站”说明叙事和运行时结构，而不是行政分区或官方项目名称。项目原创 Logo／视觉识别方向以“京张可进入 / Enterable Jing-Zhang”双语文字标为核心，以一条连续线、四个章节节拍和五个站点标记构成可缩放的路线语法，适用于封面、图件、站点导航和离线页面。该文字标和识别方向只代表 `wen00710` 的参赛概念，不是政府、赛事、铁路、学校或任何机构的官方标志，也不表示背书、授权或合作；它不使用铁路徽记、校徽、政府标识或第三方商标 [source:R2-ORIGINAL-VISUALS] [source:PRIVATE-SOURCE-REPO] [depth:overall_spatial_structure]。
+
 五站 canonical order 固定为：`xizhimen`、`dazhongsi`、`qinghuayuan-knowledge`、`ai-origin`、`zhongzhiyuan`。其中第三项只是内部机器 ID，对外名称始终为“未来图书馆／学习空间”；它不代表高校、机构或既有建筑授权，也不引入任何特定校园身份。四章叙事依次为：西直门的时间与抵达；大钟寺到学习空间的遗产—知识转译；AI 原点的公共智能与人工责任；众智园的可见验证与恢复。五站因此形成“一线四章”，而不是五个彼此断开的展示盒子 [source:R2-RUNTIME-CONTRACT] [depth:overall_spatial_structure] [metric:station_count]；章节数量见 [metric:chapter_count]。
 
 跨层传导采用同一组公共规则：任何技术节点先有普通用途，再有 AI 辅助；任何受控活动都有人工责任、停止条件、离线替代和退出路径；任何临时边界或数值都保留证据等级与替换触发。路线视觉可以把钟铭、屋架、书架、凭证、服务护照和验证庭院连续组织，但不能据此制造真实合作、真实运营或真实测试结论 [source:AGENT-TASKBOOK] [depth:risk_missing_data]。
@@ -38,6 +42,21 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 ## 统筹研究范围产业与未来城市研究
 
 统筹层把前期案例研究压缩为四项可被空间读取、又不依赖虚构合作的机制。M1“开放知识转化链”把档案、书架、学习凭证、开源贡献和可追溯来源连接起来；M2“人工责任公共服务”要求 AI 只做辅助解释、排队、检索和路径建议，最终判断、申诉和异常处理由人承担；M3“有边界的验证与恢复”把准入、观察、停机、日志最小化和普通用途恢复放在同一场景；M4“走廊共同运营”以年度学习路线、公共活动、维护台账和证据更新维持五站之间的连续性 [source:AGENT-TASKBOOK] [depth:municipal_new_infrastructure] [metric:mechanism_count]。
+
+### 六个全球生态案例与京张转译
+
+前期比较选择六个全球 AI 创新生态案例，用来检验机制问题，而不是复制品牌、空间外观或宣称案例成效已经在京张发生：
+
+| 比较案例 | 本方案检验的机制问题 | 京张概念转译 |
+| --- | --- | --- |
+| STATION F [source:CASE-STATION-F] | 创业团队如何在可进入场所连接导师与专业服务 | M4：跨站活动、人工服务与转介 |
+| Punggol Digital District [source:CASE-PUNGGOL-DIGITAL-DISTRICT] | 研发、学习、工作与城市服务如何在街区层协同 | M4：普通公共底座与走廊共同运营 |
+| Seoul AI Hub [source:CASE-SEOUL-AI-HUB] | 人才培养、创业支持与共享空间如何形成城市 AI 社群 | M2 + M4：人工支持、公共学习与跨站活动 |
+| Vector Institute [source:CASE-VECTOR-INSTITUTE] | 基础研究、人才培养与产业采用如何建立转译接口 | M1：档案、书架、学习凭证与来源链 |
+| Mila [source:CASE-MILA] | 研究社群、公共学习与创业支持如何形成开放知识网络 | M1：公共学习主厅、市民学习与开放贡献展示 |
+| Cyber Valley [source:CASE-CYBER-VALLEY] | 学术研究、企业研发、创业与公众参与如何维持长期连接 | M1 + M4：跨站学习路线与年度证据复盘 |
+
+这些名称只是研究比较标签，不是合作方名单、机构授权、品牌许可或运营承诺，也不证明相同制度可以在京张直接落地。本轮只从各案例官方页面提取可核对的机制类型，不引用未经登记的规模、融资、企业数量或绩效，并把转译收敛为 M1—M4；未来若深化案例页，仍须逐项补齐运营主体、日期、成果证据、许可和不适用条件 [source:AGENT-TASKBOOK] [source:SOURCE-REGISTRY] [metric:mechanism_count]。
 
 四项机制不是四座新建筑。M1 主要从大钟寺的里程与贡献标识过渡到未来学习空间的知识索引，并在众智园以来源链展示收束；M2 在学习空间区分 AI 辅助学习、人工支持和离线学习，再在 AI 原点转为公共服务护照与人工交接；M3 集中落实于众智园的观察环、双层边界、实体停止和恢复位；M4 则由西直门的城市入口和 `corridor` 总览提供跨站导航。每项机制均为概念建议，不代表政府、学校、企业、基金或运营主体已经承诺参与 [source:R2-RUNTIME-CONTRACT] [source:R2-WAVE1-VISUAL-QA]。
 
@@ -95,6 +114,10 @@ M1—M4 与场景卡建立交叉核验：M1 要求知识和开源成果有来源
 
 五站通过不同的空间身份保持可读性：西直门以铁路时间线和当代抵达为主；大钟寺以开放梁架、暖色低干扰边界和院外服务为主；未来学习空间以高屋架、知识索引、书架和共学活动为主；AI 原点以林荫街道、开放首层、公共服务与人工责任为主；众智园以塔楼剪影、庭院观察环和明确控制边界为主。即使不看文字，三段 Wave 1 主空间也应被分辨，不依赖相同盒子或满屏霓虹 [source:R2-ORIGINAL-VISUALS] [source:R2-WAVE1-VISUAL-QA] [depth:height_massing_character]。
 
+### 四个概念性朝圣／标志节点
+
+本方案沿用任务书中的“朝圣地标”术语，但只把它理解为可反复到访、容易辨认并承载公共学习的城市记忆节点；它不含宗教意义，也不表示节点已经建成、获批或取得机构冠名。四个概念节点为：① 大钟寺边界外的“钟轨知识门”，以开放梁架把时间、里程与知识索引连接起来；② 未来学习空间的“共享知识主厅”，以高屋架、书架、阅读和共学形成普通可用的公共知识目的地；③ AI 原点的“人工责任门廊”，把普通服务、AI 辅助、人工交接和离线出口并置；④ 众智园的“可见验证庭院”，让公众观察与受控验证保持边界、停止和恢复。四个名称和空间构件均为本方案的概念性标志，不是现状事实或实施承诺 [source:AGENT-TASKBOOK] [source:R2-ORIGINAL-VISUALS] [depth:height_massing_character]。
+
 转场不是黑屏后载入无关场景。大钟寺的开放雨棚／梁架在视线方向、节奏和材质上过渡到学习空间主厅屋架，里程与贡献标识过渡到书架与知识索引；学习空间的档案／学习凭证过渡到 AI 原点公共服务护照，知识辅助转为公共服务与人工责任。桌面、移动端、短横屏、reduced-motion 与 fallback 可以缩短或静态化运动，但应保持这些视觉和语义匹配 [source:R2-RUNTIME-CONTRACT] [metric:verified_wave1_segment_duration_seconds]。
 
 ## 更新项目清单、实施政策与分期计划
@@ -119,7 +142,9 @@ M1—M4 分别配置治理责任：知识来源由内容策展与版权复核负
 
 证据分四级：documented 包括公告、任务书、源仓库 commit、运行时 checkpoint、项目原创表现资产和确定性回执；inferred 包括从临时边界派生的用地、绿地、公共空间与概念建筑；interpretive 包括局部米制空间、机制映射、权重和综合分；unavailable 包括官方红线、控规、权属、市政、文保精确范围、消防、预算、保险、DPIA、真实运营者、真实测试和机构授权。视觉完成度不能提升证据等级 [source:SOURCE-REGISTRY] [source:BOUNDARY-SOURCE] [data:geometry/constraints.geojson#CONSTRAINTS]；风险与缺失资料见 [depth:risk_missing_data]。
 
-当前 WebP 被登记为项目内原创表现层；程序化 Three.js、Canvas、图表、HTML 和 PDF 为项目原创生成表达。正式包只分发编译后离线 visual 和批准资产，不分发私有 `app`、`tests`、`scripts`、内部 docs、QA artifacts、Git metadata 或其他 production 产品。没有商业地图、第三方模型、官方 Logo、远程字体、CDN、追踪或未清权媒体；系统字体仅用于本地栅格化和排版。机器 ID `qinghuayuan-knowledge` 不赋予任何机构身份或历史结论 [source:R2-ORIGINAL-VISUALS] [source:PRIVATE-SOURCE-REPO]。
+七张 WebP 于 2026-08-31 使用 Codex built-in ImageGen 依据项目自写的纯文本 prompts 分别生成，并在私有源仓库 commit `5b073cb311bf3ce0a1b37ba6f07f161a0a94641f` 与 prompt—输出映射同时留档；正式包副本与源仓库资产哈希一致。留存记录只支持工具名称、逐图 prompt、尺寸和本地转为 WebP quality 88；底层图像模型及版本、generation ID、seed、源 PNG 和确切转换工具未留存，因此保持 unknown。本次投稿包装复核后验参考 `docs/visual-style-recommendations.md`，没有倒写为生成时已参考，也没有重新生成图像 [source:R2-ORIGINAL-VISUALS] [source:PRIVATE-SOURCE-REPO]。
+
+程序化 Three.js、Canvas、图表、HTML 和 PDF 为项目原创生成表达。正式包只分发编译后离线 visual 和批准资产，不分发私有 `app`、`tests`、`scripts`、内部 docs、QA artifacts、Git metadata 或其他 production 产品。项目声明当前图像不嵌入商业地图、第三方模型、官方 Logo、远程字体或机构专属身份；这是一项参赛者来源声明，不冒充独立像素鉴证。离线页面无 CDN、追踪或未清权远程媒体，机器 ID `qinghuayuan-knowledge` 也不赋予任何机构身份或历史结论 [source:R2-ORIGINAL-VISUALS] [source:PRIVATE-SOURCE-REPO]。
 
 本包不得声称完整 53 秒导览、完整 Portfolio、机构授权、精确官方红线或正式投稿 PASS。Wave 1 的局部测试只能支持局部能力陈述；最终 `self_check`、participant preflight、push 和 PR 均由官方脚本与 owner 决定。若 mandatory intake gate 失败，应保留失败输出并停止推送，而不是删除限制声明或改写结果。当前文本同样不构成规划、法律、工程、无障碍、消防或版权法律意见 [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK] [metric:full_guided_tour_verified]。
 
