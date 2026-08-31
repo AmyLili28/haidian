@@ -156,9 +156,11 @@ P1（1–12 周）只做来源、权利和纸本入口；P2（13–30 周）做�
 
 ## 8. 品牌、权利与公共利益
 
-主名 **「百年月台 / Centennial Platform」**、L1/L2/L3 名称、Logo 草图、活动名“车站记忆开放日 / 京张口述史市集 / 轨影低刺激季”和机制名“记忆证据卡 / 回响轮换表 / 场景退出票”均是本包原创工作代号，尚未完成商标、主名、Logo、导视或机制名的检索；本包不主张它们在任何日期范围内可自由使用，也不代表与任何机构有合作。对外使用前要由权利负责人重做名称检索、主体确认、许可记录和版本冻结。[source:PACKAGE-ORIGINAL-ASSETS] [source:PACKAGE-RIGHTS-LEDGER]
+主名 **「百年月台 / Centennial Platform」**、L1/L2/L3 名称、Logo 草图、活动名“车站记忆开放日 / 京张口述史市集 / 轨影低刺激季”和机制名“记忆证据卡 / 回响轮换表 / 场景退出票”均是本包原创工作代号；本包不主张它们在任何日期范围内可自由使用，也不代表与任何机构有合作。对外使用前要由权利负责人重做名称检索、主体确认、许可记录和版本冻结。[source:PACKAGE-ORIGINAL-ASSETS] [source:PACKAGE-RIGHTS-LEDGER]
 
-`COMMUNITY-DISPLAY-ONLY` 只表示按征集规则展示，不自动授予商业、商标注册、训练、再许可或派生权。外部案例不使用 Logo、截图或其页面装饰；本包的字体、原创图件、程序化 PDF/HTML 和文字按 `report/copyright_statement.md` 登记。公共服务保留纸本、字幕、语音、触觉、人工陪同和申诉入口；拒绝数据采集不影响公共空间访问。[source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW]
+**品牌与 Logo 权利记录（2026-08-31 初筛，非法律意见）：**作者为 JohnXu22786；图形由本包作者/直接 Codex 工作流自绘并以程序化方式生成，创作记录日期为 2026-08-31；未嵌入第三方 Logo、照片、截图、历史图像或外部页面装饰，字体另按 OFL 记录。初筛范围包括本包全文、`sources.json` 及公开网页精确词组“百年月台”“Centennial Platform”“Centennial Platform Qinghuayuan Station”和自绘平台环形标志；检索日期为 2026-08-31。结果仅发现“百年月台”作为台湾基隆历史月台的描述性用语，以及“Centennial Platform”在教育/平台语境中的一般性结果，未证明与本包相同的项目或标志，但也未形成商标注册、近似检索或权利人许可结论。潜在冲突按“描述性/通用词相似”记录；处置为仅保留本次征集仓库展示和评审，不注册、不商业化、不对外授权，进入正式传播前由权利负责人完成商标数据库及近似标志检索，若冲突未解决则替换名称/Logo。[source:PACKAGE-BRAND-RIGHTS-RECORD]
+
+`COMMUNITY-DISPLAY-ONLY` 只表示按征集规则展示，不自动授予商业、商标注册、训练、再许可或派生权。外部案例不使用 Logo、截图或其页面装饰；本包的字体、原创图件、程序化 PDF/HTML、文字和品牌/Logo初筛记录按 `report/copyright_statement.md` 登记。公共服务保留纸本、字幕、语音、触觉、人工陪同和申诉入口；拒绝数据采集不影响公共空间访问。[source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW] [source:PACKAGE-BRAND-RIGHTS-RECORD]
 
 ![交通慢行与蓝绿网络概念图](assets/figures/mobility-bluegreen.png)
 
@@ -227,6 +229,6 @@ T1—T3 的目标值只能在基线、样本、时间窗、公式、阈值、负
 | `sources.json` | 来源、案例核验字段、日期、事实、可比性、许可和核验人 |
 | `metrics.json` | 统一指标、公式、状态和复算触发 |
 | `geometry/*.geojson` | provisional 概念空间数据 |
-| `report/asset_rights_ledger.md` | 主名、Logo、机制名、字体、图片、PDF/HTML 和案例素材权利边界 |
+| `report/copyright_statement.md` | 主名、Logo、机制名、字体、图片、PDF/HTML 和案例素材权利边界 |
 | `compliance_matrix.json` / `design_depth_matrix.json` / `standard_matrix.json` | 任务、专业标准和设计深度映射 |
 | `self_check.json` | 四门正式自检结果；不等同于 CocoSgt 评审 |

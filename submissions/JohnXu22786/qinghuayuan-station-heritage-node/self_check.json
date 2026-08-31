@@ -81,7 +81,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/qinghuayuan-station-heritage-node": "formal"
       },
-      "total_bytes": 17624289,
+      "total_bytes": 17701528,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -159,7 +159,7 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 22,
+          "source": 23,
           "standard": 0,
           "depth": 0,
           "data": 8,
