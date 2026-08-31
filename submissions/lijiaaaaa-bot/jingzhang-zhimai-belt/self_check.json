@@ -46,6 +46,7 @@
       ],
       "changed_files": [
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/agent.json",
+        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/a0-01-preview.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/buildings-massing.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/framework.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/hero-zhongzhiyuan-rendering.png",
@@ -91,7 +92,7 @@
       "ai_package_stages": {
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt": "formal"
       },
-      "total_bytes": 16865638,
+      "total_bytes": 25078006,
       "maintainer_bypass": false
     },
     "stderr": ""

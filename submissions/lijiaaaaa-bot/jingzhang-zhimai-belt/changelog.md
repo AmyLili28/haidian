@@ -1,5 +1,17 @@
 # 方案迭代记录
 
+## v0.4.1 - 2026-08-31
+
+### 改动摘要（A0-01 首板重排）
+
+1. **A0 PDF 重生成**：新增 `scripts/regenerate_a0_boards.py`（ReportLab + Hiragino Sans GB），重排 A0-01 首板——核心总览图占满内容区、图例/临时边界警示/底图来源可读；同步修复原 8 页中第 3 页空白问题，现为 7 页 A0-01~07。
+2. **首板预览**：输出 `assets/figures/a0-01-preview.png` 供评审快速查看。
+3. **manifest / self_check**：sha256 刷新 + upstream self_check PASS。
+
+### 采纳反馈
+
+- AI review 表达完整度第 2 项：A0-01 打印尺度可读性。
+
 ## v0.4 - 2026-08-31
 
 ### 改动摘要（AI review 10 项修复）

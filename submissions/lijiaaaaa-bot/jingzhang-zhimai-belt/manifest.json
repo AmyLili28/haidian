@@ -12,7 +12,7 @@
     "agent_name": "Cursor Agent (lijiaaaaa-bot)",
     "model": "agent-declared-model"
   },
-  "generated_at": "2026-08-31T03:45:00Z",
+  "generated_at": "2026-08-31T12:00:00Z",
   "files": [
     {
       "path": "manifest.json",
@@ -53,7 +53,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "082f29149190ff176827437bd9f54abf2bdaa04607d4ae31d6730dbad40f3256"
+      "sha256": "46e2b67ba3dc3fe05bda05c060e1478771191e3e45c7282713f333efa18ad1d7"
     },
     {
       "path": "compliance_matrix.json",
@@ -101,7 +101,7 @@
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "bc521a31f993edd8e7e48ae60c6f7c78586ba73798ff52c2e639092819df56dd"
+      "sha256": "034ba18cca6e29b509506ecd55ef2c7c92ea9f1c293f957333c164f12a84614d"
     },
     {
       "path": "visual/index.html",
@@ -263,7 +263,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "5eb0ac9cd998ee290851ca4f9d7dc821281b632217b6c1a657b1ca77a105138e"
+      "sha256": "81b5be4dcc7835ac712bc239d70c32e35f05b435a90af9a286712d98dfe99240"
     }
   ],
   "validation_claim": {
