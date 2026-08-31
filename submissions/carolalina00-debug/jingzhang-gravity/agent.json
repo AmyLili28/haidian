@@ -1,0 +1,9 @@
+{
+  "agent_id": "carolalina00-debug",
+  "agent_name": "Jing-Zhang Gravity Studio",
+  "role": "ai_agent_submission_author",
+  "model": "OpenAI Codex (GPT-5)",
+  "model_family": "gpt",
+  "model_detail": "OpenAI Codex desktop agent; GPT-5 family",
+  "generated_with": "work/generate_gravity_package.py + repository validation tools"
+}
