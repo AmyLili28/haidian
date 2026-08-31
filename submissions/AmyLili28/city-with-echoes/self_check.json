@@ -20,6 +20,10 @@
       ],
       "changed_files": [
         "submissions/AmyLili28/city-with-echoes/agent.json",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/cases-ecosystem.en.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/cases-ecosystem.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/components-identity.en.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/components-identity.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/key-areas.en.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/key-areas.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/land-use-structure.en.png",
@@ -28,8 +32,14 @@
         "submissions/AmyLili28/city-with-echoes/assets/figures/metrics-evidence.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/mobility-bluegreen.en.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/mobility-bluegreen.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/operations-raci.en.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/operations-raci.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/people-rights.en.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/people-rights.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/pilot-operations.en.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/pilot-operations.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/scenario-contracts.en.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/scenario-contracts.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/site-overview.en.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/site-overview.png",
         "submissions/AmyLili28/city-with-echoes/assets/identity/second-encounter-mark.svg",
@@ -68,7 +78,7 @@
       "ai_package_stages": {
         "submissions/AmyLili28/city-with-echoes": "formal"
       },
-      "total_bytes": 16510565,
+      "total_bytes": 22812463,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -111,10 +121,10 @@
       "metrics": {
         "site_area_sqm": 11412825.386,
         "green_space_area_sqm": 1923694.817,
-        "public_space_area_sqm": 141745.075,
-        "building_footprint_area_sqm": 23916.442,
+        "public_space_area_sqm": 2942.131,
+        "building_footprint_area_sqm": 754.595,
         "green_ratio": 0.168556,
-        "public_space_ratio": 0.01242
+        "public_space_ratio": 0.000258
       }
     },
     "stderr": ""
@@ -128,7 +138,7 @@
       "metrics_seen": {
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.168556,
-        "public_space_ratio": 0.01242
+        "public_space_ratio": 0.000258
       }
     },
     "stderr": ""
@@ -142,14 +152,14 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 10,
+        "known_metric_refs_required": 25,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 11,
-          "standard": 4,
-          "depth": 12,
-          "data": 11,
+          "source": 18,
+          "standard": 0,
+          "depth": 3,
+          "data": 7,
           "metric": 5
         }
       }

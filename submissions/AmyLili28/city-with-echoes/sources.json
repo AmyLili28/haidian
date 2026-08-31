@@ -5,43 +5,78 @@
       "id": "SITE-PACKAGE",
       "path": "brief/site-package/",
       "source_type": "official_public",
-      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas.",
+      "collection_method": "Read from the referenced cleared repository file or official public page.",
+      "spatial_temporal_coverage": "Scope and date follow the referenced source; verify again before implementation.",
+      "license_or_reuse": "Referenced and paraphrased only unless the entry explicitly identifies an original generated asset.",
+      "transformations": "Selected and summarised for proposal traceability; no hidden precision enhancement.",
+      "known_limitations": "Does not by itself establish local approval, current site condition, or implementation authority."
     },
     {
       "id": "SOURCE-REGISTRY",
       "path": "data/source_registry.json",
       "source_type": "repository_public_registry",
-      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials.",
+      "collection_method": "Read from the referenced cleared repository file or official public page.",
+      "spatial_temporal_coverage": "Scope and date follow the referenced source; verify again before implementation.",
+      "license_or_reuse": "Referenced and paraphrased only unless the entry explicitly identifies an original generated asset.",
+      "transformations": "Selected and summarised for proposal traceability; no hidden precision enhancement.",
+      "known_limitations": "Does not by itself establish local approval, current site condition, or implementation authority."
     },
     {
       "id": "PROCESSED-FACT-PACK",
       "path": "data/processed/agent_fact_pack.md",
       "source_type": "repository_processed_reference",
-      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source.",
+      "collection_method": "Read from the referenced cleared repository file or official public page.",
+      "spatial_temporal_coverage": "Scope and date follow the referenced source; verify again before implementation.",
+      "license_or_reuse": "Referenced and paraphrased only unless the entry explicitly identifies an original generated asset.",
+      "transformations": "Selected and summarised for proposal traceability; no hidden precision enhancement.",
+      "known_limitations": "Does not by itself establish local approval, current site condition, or implementation authority."
     },
     {
       "id": "BOUNDARY-SOURCE",
       "path": "brief/site-package/geometry/provisional_boundaries.geojson",
       "source_type": "agent_inferred_from_public_data",
-      "usage": "Submitted site boundary geometry source (provisional)."
+      "usage": "Submitted site boundary geometry source (provisional).",
+      "collection_method": "Read from the referenced cleared repository file or official public page.",
+      "spatial_temporal_coverage": "Scope and date follow the referenced source; verify again before implementation.",
+      "license_or_reuse": "Referenced and paraphrased only unless the entry explicitly identifies an original generated asset.",
+      "transformations": "Selected and summarised for proposal traceability; no hidden precision enhancement.",
+      "known_limitations": "Does not by itself establish local approval, current site condition, or implementation authority."
     },
     {
       "id": "KEY-AREA-SOURCE",
       "path": "brief/site-package/geometry/provisional_boundaries.geojson",
       "source_type": "agent_inferred_from_public_data",
-      "usage": "Three required detailed-design key area boundaries (provisional)."
+      "usage": "Three required detailed-design key area boundaries (provisional).",
+      "collection_method": "Read from the referenced cleared repository file or official public page.",
+      "spatial_temporal_coverage": "Scope and date follow the referenced source; verify again before implementation.",
+      "license_or_reuse": "Referenced and paraphrased only unless the entry explicitly identifies an original generated asset.",
+      "transformations": "Selected and summarised for proposal traceability; no hidden precision enhancement.",
+      "known_limitations": "Does not by itself establish local approval, current site condition, or implementation authority."
     },
     {
       "id": "OFFICIAL-ANNOUNCEMENT",
       "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
       "source_type": "official_public",
-      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context.",
+      "collection_method": "Read from the referenced cleared repository file or official public page.",
+      "spatial_temporal_coverage": "Scope and date follow the referenced source; verify again before implementation.",
+      "license_or_reuse": "Referenced and paraphrased only unless the entry explicitly identifies an original generated asset.",
+      "transformations": "Selected and summarised for proposal traceability; no hidden precision enhancement.",
+      "known_limitations": "Does not by itself establish local approval, current site condition, or implementation authority."
     },
     {
       "id": "AGENT-TASKBOOK",
       "path": "brief/site-package/agent_taskbook.json",
       "source_type": "user_provided_cleared",
-      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause.",
+      "collection_method": "Read from the referenced cleared repository file or official public page.",
+      "spatial_temporal_coverage": "Scope and date follow the referenced source; verify again before implementation.",
+      "license_or_reuse": "Referenced and paraphrased only unless the entry explicitly identifies an original generated asset.",
+      "transformations": "Selected and summarised for proposal traceability; no hidden precision enhancement.",
+      "known_limitations": "Does not by itself establish local approval, current site condition, or implementation authority."
     },
     {
       "id": "CASE-UK-ATRS",
@@ -50,7 +85,12 @@
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
       "usage": "Standardised public disclosure fields for algorithmic tools; transferable reference only.",
-      "not_usable_for": "Local statutory authority or proof of compliance in Beijing."
+      "not_usable_for": "Local statutory authority or proof of compliance in Beijing.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Local statutory authority or proof of compliance in Beijing."
     },
     {
       "id": "CASE-AI-VERIFY",
@@ -59,7 +99,12 @@
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
       "usage": "Process and technical testing framework covering 11 governance principles; transferable reference only.",
-      "not_usable_for": "Certification of any proposed Jing-Zhang service."
+      "not_usable_for": "Certification of any proposed Jing-Zhang service.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Certification of any proposed Jing-Zhang service."
     },
     {
       "id": "CASE-DUTCH-ALGORITHM-REGISTER",
@@ -68,7 +113,12 @@
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
       "usage": "Public catalogue logic for algorithmic systems; transferable reference only.",
-      "not_usable_for": "Local legal or procurement requirements."
+      "not_usable_for": "Local legal or procurement requirements.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Local legal or procurement requirements."
     },
     {
       "id": "CASE-BOSTON-CITYSCORE",
@@ -77,7 +127,12 @@
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
       "usage": "Longitudinal performance reporting and target comparison; used as a counter-example to one-off launch metrics.",
-      "not_usable_for": "Direct transfer of the composite score or its targets."
+      "not_usable_for": "Direct transfer of the composite score or its targets.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Direct transfer of the composite score or its targets."
     },
     {
       "id": "CASE-DECIDIM",
@@ -86,7 +141,12 @@
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
       "usage": "Traceable hybrid online/offline participation and public-commons governance reference.",
-      "not_usable_for": "Claim that a local platform or consultation has been authorised."
+      "not_usable_for": "Claim that a local platform or consultation has been authorised.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Claim that a local platform or consultation has been authorised."
     },
     {
       "id": "PEER-OBSERVABLE-JZ",
@@ -95,7 +155,12 @@
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
       "usage": "Peer comparison used to distinguish longitudinal return from public observability; no text or assets reused.",
-      "not_usable_for": "Unattributed copying or factual authority."
+      "not_usable_for": "Unattributed copying or factual authority.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Unattributed copying or factual authority."
     },
     {
       "id": "PEER-MEND-JZ",
@@ -104,7 +169,12 @@
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
       "usage": "Peer comparison used to distinguish relational follow-up from care-service programming; no text or assets reused.",
-      "not_usable_for": "Unattributed copying or factual authority."
+      "not_usable_for": "Unattributed copying or factual authority.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Unattributed copying or factual authority."
     },
     {
       "id": "GENERATED-COVER-SECOND-ENCOUNTER",
@@ -113,7 +183,54 @@
       "accessed_date": "2026-08-30",
       "source_type": "agent_generated_design",
       "usage": "Conceptual editorial cover showing two encounters with the same civic service place.",
-      "not_usable_for": "Observed site condition, official rendering, public opinion, or spatial evidence."
+      "not_usable_for": "Observed site condition, official rendering, public opinion, or spatial evidence.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Observed site condition, official rendering, public opinion, or spatial evidence."
+    },
+    {
+      "id": "CASE-HELSINKI-TESTBED",
+      "url": "https://testbed.hel.fi/en/smart-mobility/mobility-lab-helsinki/",
+      "publisher": "City of Helsinki / Testbed Helsinki",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Real-city testbed connecting companies, research, residents, mobility data and post-pilot continuity; transferable ecosystem reference only.",
+      "not_usable_for": "Claim that a Helsinki programme, budget, procurement route, or data catalogue applies in Beijing.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Claim that a Helsinki programme, budget, procurement route, or data catalogue applies in Beijing."
+    },
+    {
+      "id": "CASE-ONE-NORTH",
+      "url": "https://www.jtc.gov.sg/find-land/jtc-key-estates/one-north?estate=one-north",
+      "publisher": "JTC, Government of Singapore",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Mixed innovation district combining research institutes, firms, learning, living and a living-lab testbed; transferable spatial-ecosystem reference only.",
+      "not_usable_for": "Direct transfer of Singapore land, leasing, investment, or governance arrangements.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Direct transfer of Singapore land, leasing, investment, or governance arrangements."
+    },
+    {
+      "id": "CASE-BARCELONA-22AT",
+      "url": "https://www.barcelona.cat/promocioeconomica/en/what-we-do/employment-business-entrepreneurship-and-innovation/science-and-innovation",
+      "publisher": "Barcelona City Council",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "City-scale knowledge-transfer and innovation-area planning reference, including 22@; transferable ecosystem reference only.",
+      "not_usable_for": "Direct use of Barcelona land-use ratios, development rights, or district performance claims.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "Direct use of Barcelona land-use ratios, development rights, or district performance claims."
     }
   ]
 }

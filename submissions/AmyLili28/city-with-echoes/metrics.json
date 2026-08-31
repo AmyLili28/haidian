@@ -2,8 +2,7 @@
   "schema_version": "0.1.0",
   "units": {
     "area": "sqm",
-    "length": "m",
-    "ratio": "0-1"
+    "length": "m"
   },
   "metrics": {
     "site_area_sqm": {
@@ -48,7 +47,7 @@
     },
     "public_space_area_sqm": {
       "status": "known",
-      "value": 141745.075,
+      "value": 2942.131,
       "unit": "sqm",
       "source_files": [
         "geometry/public_space.geojson"
@@ -61,7 +60,7 @@
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.01242,
+      "value": 0.000258,
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",
@@ -75,7 +74,7 @@
     },
     "building_footprint_area_sqm": {
       "status": "known",
-      "value": 23916.442,
+      "value": 754.595,
       "unit": "sqm",
       "source_files": [
         "geometry/buildings.geojson"
@@ -100,6 +99,32 @@
         "Conceptual design count."
       ]
     },
+    "return_station_footprint_area_sqm": {
+      "status": "known",
+      "value": 97.314,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "sum(area(features where name_en starts Civic Follow-up Station), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Six reversible conceptual interfaces; target range is 12–18 sqm each, subject to host-space survey."
+      ]
+    },
+    "return_station_average_area_sqm": {
+      "status": "known",
+      "value": 16.219,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "return_station_footprint_area_sqm / 6",
+      "confidence": "low",
+      "assumptions": [
+        "Geometry is conceptual and will be replaced by measured host-space corners."
+      ]
+    },
     "landmark_count": {
       "status": "known",
       "value": 3,
@@ -111,6 +136,45 @@
       "confidence": "medium",
       "assumptions": [
         "Conceptual design count."
+      ]
+    },
+    "landmark_footprint_area_sqm": {
+      "status": "known",
+      "value": 657.281,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "sum(area(first three landmark interface footprints), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Three approximately 219 sqm conceptual interface footprints; reuse/new-build choice is unresolved."
+      ]
+    },
+    "landmark_average_area_sqm": {
+      "status": "known",
+      "value": 219.094,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "landmark_footprint_area_sqm / 3",
+      "confidence": "low",
+      "assumptions": [
+        "Not an approved building programme or surveyed existing floorplate."
+      ]
+    },
+    "public_space_feature_count": {
+      "status": "known",
+      "value": 9,
+      "unit": "count",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "count(PUBLIC_SPACE features)",
+      "confidence": "medium",
+      "assumptions": [
+        "Six station pockets plus three landmark forecourts; not service catchments."
       ]
     },
     "scenario_count": {
@@ -125,6 +189,138 @@
       "confidence": "high",
       "assumptions": []
     },
+    "pilot_scenario_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(scenarios explicitly marked PILOT)",
+      "confidence": "high",
+      "assumptions": [
+        "SC01, SC05, and SC09 only."
+      ]
+    },
+    "pilot_station_count": {
+      "status": "known",
+      "value": 2,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/pilot-operations.png"
+      ],
+      "formula": "count(borrowed host spaces in initial pilot)",
+      "confidence": "high",
+      "assumptions": [
+        "Two of six conceptual stations operate first; host sites and agreements remain unconfirmed."
+      ]
+    },
+    "persona_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(composite persona records)",
+      "confidence": "high",
+      "assumptions": [
+        "Composite design lenses, not engagement participants or demographic evidence."
+      ]
+    },
+    "global_case_count": {
+      "status": "known",
+      "value": 8,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "sources.json"
+      ],
+      "formula": "count(case rows with direct source id)",
+      "confidence": "high",
+      "assumptions": [
+        "Transferable precedents, not claims of local equivalence."
+      ]
+    },
+    "scenario_contract_field_coverage_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "12 scenario cards with risk, space, owner, human fallback, data boundary, stop and restart / 12",
+      "confidence": "high",
+      "assumptions": [
+        "Document coverage only; not proof of operational readiness."
+      ]
+    },
+    "human_fallback_coverage_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "scenarios with explicit non-AI equivalent / 12",
+      "confidence": "high",
+      "assumptions": [
+        "Availability must be observed during pilot."
+      ]
+    },
+    "stop_restart_coverage_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "scenarios with explicit stop and restart gates / 12",
+      "confidence": "high",
+      "assumptions": [
+        "Design completeness only; authority to stop requires an accepted RACI."
+      ]
+    },
+    "accountable_role_count": {
+      "status": "known",
+      "value": 8,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(distinct roles in pilot RACI)",
+      "confidence": "high",
+      "assumptions": [
+        "Roles are specified; named organisations and people are pending."
+      ]
+    },
+    "memory_spine_length_m": {
+      "status": "known",
+      "value": 9039.233,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "length(Memory Spine centerline, EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Calculated from repository provisional rough geometry; not suitable for official area or planning-control claims. Recalculate when official polygons arrive."
+      ]
+    },
+    "return_crosslink_length_m": {
+      "status": "known",
+      "value": 4054.307,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "sum(length(four Return cross-link centerlines), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Calculated from repository provisional rough geometry; not suitable for official area or planning-control claims. Recalculate when official polygons arrive."
+      ]
+    },
     "key_area_count": {
       "status": "known",
       "value": 3,
@@ -137,6 +333,42 @@
       "assumptions": [
         "Calculated from repository provisional rough geometry; not suitable for official area or planning-control claims. Recalculate when official polygons arrive."
       ]
+    },
+    "pilot_case_acceptance_rate": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "accepted_in_scope_cases / submitted_cases",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "No pilot has run; jurisdiction and intake data do not yet exist."
+    },
+    "human_fallback_availability_rate": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "staffed service windows with verified human fallback / sampled staffed windows",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Must be measured in the two-station pilot."
+    },
+    "repeat_issue_rate": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "deidentified repeated issue clusters / accepted issue clusters",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "No operational case data exist; metric must be privacy-reviewed before collection."
     },
     "floor_area_ratio": {
       "status": "unknown",
