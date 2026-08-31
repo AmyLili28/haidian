@@ -785,6 +785,7 @@
       "mandatory": true,
       "report_sections": [
         "统筹研究范围产业与未来城市研究",
+        "区域协同回路：五个邀请接口，不是五项合作承诺",
         "AI 创新生态、人才画像与 AI+ 场景",
         "数据、AI 与代表性边界"
       ],
@@ -802,6 +803,7 @@
       ],
       "visual_sections": [
         "三本分册",
+        "区域协同回路",
         "六个人物",
         "十二张活页"
       ],
@@ -812,7 +814,8 @@
       ],
       "assumption_ids": [
         "A-LM-OPS-001",
-        "A-LM-PAY-001"
+        "A-LM-PAY-001",
+        "A-LM-REGION-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION",
@@ -829,6 +832,7 @@
       "mandatory": true,
       "report_sections": [
         "统筹研究范围产业与未来城市研究",
+        "区域协同回路：五个邀请接口，不是五项合作承诺",
         "AI 创新生态、人才画像与 AI+ 场景",
         "数据、AI 与代表性边界"
       ],
@@ -846,6 +850,7 @@
       ],
       "visual_sections": [
         "三本分册",
+        "区域协同回路",
         "六个人物",
         "十二张活页"
       ],
@@ -856,7 +861,8 @@
       ],
       "assumption_ids": [
         "A-LM-OPS-001",
-        "A-LM-PAY-001"
+        "A-LM-PAY-001",
+        "A-LM-REGION-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION",
@@ -1003,7 +1009,8 @@
       "mandatory": true,
       "report_sections": [
         "更新项目清单、实施政策与分期计划",
-        "命名、视觉识别与长期运营"
+        "命名、视觉识别与长期运营",
+        "Agent.6 年度运营与非承诺转化矩阵"
       ],
       "geojson_layers": [
         "geometry/phasing.geojson",
@@ -1019,6 +1026,7 @@
       ],
       "visual_sections": [
         "更新项目",
+        "年度运营",
         "任务覆盖",
         "自检状态"
       ],

@@ -43,8 +43,10 @@
       "review_status": "addressed",
       "proposal_sections": [
         "核心判断与独立机制",
+        "区域协同回路：五个邀请接口，不是五项合作承诺",
         "六个人物、十二张场景活页与三项产业测试",
-        "命名、视觉识别与长期运营"
+        "命名、视觉识别与长期运营",
+        "Agent.6 年度运营与非承诺转化矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -69,7 +71,7 @@
       "self_check_ids": [
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "一条装订线、三册、十二页、六口、三地标和有条件运营分别对应六项任务，并设人类责任与停止门。"
+      "evidence_summary_zh": "一条装订线、三册、十二页、六口、三地标对应空间与场景任务；五个区域接口保持未核实和可拒绝边界；六项年度活动逐项写频率、责任、输入、输出、容量、停止与非承诺转化门。"
     },
     {
       "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",

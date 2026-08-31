@@ -64,6 +64,14 @@
       "confidence": "medium",
       "impact": "Targeted recruitment does not start without budget, workload limits, credit/licensing choice and a complaints route.",
       "recalculation_trigger": "A budget holder and compensation schedule are approved."
+    },
+    {
+      "assumption_id": "A-LM-REGION-001",
+      "category": "regional_cooperation",
+      "statement": "Beiwei Community, Future Science City, Huairou Science City, Beijing E-Town and Beijing-Tianjin-Hebei are taskbook-named interfaces only; no cooperation, capability, counterpart, data access, site or budget is verified.",
+      "confidence": "unknown",
+      "impact": "Regional links remain invitation interfaces with a valid decline path; the package makes no partnership, co-building, investment, delivery or impact claim.",
+      "recalculation_trigger": "A public source, counterpart confirmation, named responsibility, lawful data boundary and scoped exchange record exist for a specific interface."
     }
   ]
 }

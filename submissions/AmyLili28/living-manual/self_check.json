@@ -20,6 +20,8 @@
       ],
       "changed_files": [
         "submissions/AmyLili28/living-manual/agent.json",
+        "submissions/AmyLili28/living-manual/assets/figures/annual-operations.en.png",
+        "submissions/AmyLili28/living-manual/assets/figures/annual-operations.png",
         "submissions/AmyLili28/living-manual/assets/figures/brand-identity.en.png",
         "submissions/AmyLili28/living-manual/assets/figures/brand-identity.png",
         "submissions/AmyLili28/living-manual/assets/figures/data-governance.en.png",
@@ -36,11 +38,14 @@
         "submissions/AmyLili28/living-manual/assets/figures/mobility-bluegreen.png",
         "submissions/AmyLili28/living-manual/assets/figures/pilot-operations.en.png",
         "submissions/AmyLili28/living-manual/assets/figures/pilot-operations.png",
+        "submissions/AmyLili28/living-manual/assets/figures/regional-cooperation.en.png",
+        "submissions/AmyLili28/living-manual/assets/figures/regional-cooperation.png",
         "submissions/AmyLili28/living-manual/assets/figures/scenario-atlas.en.png",
         "submissions/AmyLili28/living-manual/assets/figures/scenario-atlas.png",
         "submissions/AmyLili28/living-manual/assets/figures/site-overview.en.png",
         "submissions/AmyLili28/living-manual/assets/figures/site-overview.png",
         "submissions/AmyLili28/living-manual/assets/identity/living-manual-mark.svg",
+        "submissions/AmyLili28/living-manual/assets/media/living-manual-cover.en.webp",
         "submissions/AmyLili28/living-manual/assets/media/living-manual-cover.webp",
         "submissions/AmyLili28/living-manual/assumptions.json",
         "submissions/AmyLili28/living-manual/changelog.md",
@@ -70,13 +75,14 @@
         "submissions/AmyLili28/living-manual/self_check.json",
         "submissions/AmyLili28/living-manual/sources.json",
         "submissions/AmyLili28/living-manual/standard_matrix.json",
+        "submissions/AmyLili28/living-manual/visual/assets/JingZhangCJK.css",
         "submissions/AmyLili28/living-manual/visual/index.en.html",
         "submissions/AmyLili28/living-manual/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/AmyLili28/living-manual": "formal"
       },
-      "total_bytes": 5773603,
+      "total_bytes": 7326395,
       "maintainer_bypass": false
     },
     "stderr": ""
