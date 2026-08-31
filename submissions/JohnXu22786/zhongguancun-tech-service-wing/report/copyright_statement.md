@@ -23,15 +23,4 @@
 
 真实项目名称/标识在概念阶段未完成商标检索，一律按内部工作代号处理，不对外注册或商用；第三方资料著作权仍归其权利人。全部内容为概念建议与参考方案，不构成政府、投资或审批承诺。
 
-
-## Item-level asset rights ledger
-
-| Item / path | Origin and authorship | License / permission | Reuse boundary |
-|---|---|---|---|
-| proposal*.md, matrices, JSON, geometry/*.geojson | Participant-authored concept and machine-readable design model | SELF-DECLARED; no third-party asset embedded | Community-display concept review only; provisional geometry is not an official boundary |
-| assets/figures/*, visual/index*.html, drawings/*.pdf | Participant-authored diagrams and generated exports | SELF-GENERATED; no external image embedded | Review and community display; not survey, approval or construction documents |
-| noto-sans-sc-report-subset.ttf embedded in visual HTML | Noto Sans SC subset used for local rendering | SIL Open Font License 1.1; license URL and source entry recorded in sources.json | Retain OFL notice and attribution when redistributing the font |
-| Referenced official materials and global cases | Third-party public sources identified item-by-item in sources.json | Citation/access records only; license and reuse limits remain those of each rightsholder | Citation itself does not establish reuse permission; obtain authorization before copying protected assets |
-| visual/assets/previews/* | Generated previews of submitted figures and drawings | Derived from self-generated package assets | Review thumbnails only; no independent third-party rights claim |
-
-Authorship, generation method, source URL, license, attribution and reuse limits are recorded here and in the corresponding sources.json entries. Any missing permission blocks reuse until resolved.
+**简称边界**：本包如使用“ZC”，仅是本包内部约定的短写（approved abbreviation within this package only）；不表示组织方、政府或任何第三方的批准、背书、授权或行政结论。
