@@ -5,28 +5,30 @@
       "requirement_id": "1.3.1",
       "title_zh": "构建世界级AI创新生态体系",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -34,26 +36,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -66,28 +74,30 @@
       "requirement_id": "1.3.2",
       "title_zh": "建设适配AI新质生产力的新型城市形态",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -95,26 +105,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -127,28 +143,30 @@
       "requirement_id": "1.3.3",
       "title_zh": "打造全球AI创新人才向往的高品质城区",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -156,26 +174,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -188,28 +212,30 @@
       "requirement_id": "1.4.1",
       "title_zh": "统筹研究范围",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -217,26 +243,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -249,28 +281,30 @@
       "requirement_id": "1.4.2",
       "title_zh": "总体设计范围",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -278,26 +312,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -308,30 +348,32 @@
     },
     {
       "requirement_id": "1.4.3",
-      "title_zh": "重点区域范围",
+      "title_zh": "三处重点区域详细设计",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -339,26 +381,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -369,30 +417,32 @@
     },
     {
       "requirement_id": "1.5.1.1",
-      "title_zh": "统筹研究范围：AI创新生态体系",
+      "title_zh": "产业、生态与未来城市研究",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -400,26 +450,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -430,30 +486,32 @@
     },
     {
       "requirement_id": "1.5.1.2",
-      "title_zh": "统筹研究范围：适配人工智能的未来城市形态",
+      "title_zh": "全球案例与京张转译",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -461,26 +519,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -491,30 +555,32 @@
     },
     {
       "requirement_id": "1.5.2.1",
-      "title_zh": "总体设计范围：产业目标与功能布局",
+      "title_zh": "用地功能与空间布局",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -522,26 +588,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -552,30 +624,32 @@
     },
     {
       "requirement_id": "1.5.2.2",
-      "title_zh": "总体设计范围：城市更新总体框架",
+      "title_zh": "建筑规模、强度与拆改留",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -583,26 +657,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -613,30 +693,32 @@
     },
     {
       "requirement_id": "1.5.2.3",
-      "title_zh": "总体设计范围：交通轨道市政配套设施",
+      "title_zh": "交通轨道、市政与公共服务",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -644,26 +726,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -674,30 +762,32 @@
     },
     {
       "requirement_id": "1.5.2.4",
-      "title_zh": "总体设计范围：京张遗址公园活力带",
+      "title_zh": "蓝绿公共空间与城市风貌",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -705,26 +795,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -735,30 +831,32 @@
     },
     {
       "requirement_id": "1.5.2.5",
-      "title_zh": "总体设计范围：城市风貌",
+      "title_zh": "更新项目、政策与分期",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -766,26 +864,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -796,30 +900,32 @@
     },
     {
       "requirement_id": "1.5.3.required",
-      "title_zh": "重点区域范围详细设计必选项",
+      "title_zh": "重点区完整成果",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -827,26 +933,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -857,30 +969,32 @@
     },
     {
       "requirement_id": "1.5.3.1",
-      "title_zh": "众智园AI自主创新加速区",
+      "title_zh": "众智园重点区",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -888,26 +1002,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -918,30 +1038,32 @@
     },
     {
       "requirement_id": "1.5.3.2",
-      "title_zh": "北京AI原点社区",
+      "title_zh": "AI原点社区重点区",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -949,26 +1071,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -979,30 +1107,32 @@
     },
     {
       "requirement_id": "1.5.3.3",
-      "title_zh": "大钟寺AI产业聚集区",
+      "title_zh": "大钟寺重点区",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "通过三层范围、独立几何、三区动作、项目矩阵、图纸和可复算指标回应，并把缺失资料保留为显式前置条件。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -1010,26 +1140,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1040,28 +1176,32 @@
     },
     {
       "requirement_id": "agent.1",
-      "title_zh": "一带总体概念与功能统筹方案设计",
+      "title_zh": "产业生态构建",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "以受赞助公共能力班次连接企业、高校、开源社群与正式公共服务，禁止以志愿热情替代岗位。",
       "report_sections": [
         "三层范围工作框架",
-        "统筹研究范围产业与未来城市研究"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -1069,26 +1209,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1099,27 +1245,32 @@
     },
     {
       "requirement_id": "agent.2",
-      "title_zh": "AI全栈自主创新体系与世界级AI创新生态设计",
+      "title_zh": "空间结构生成",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "一条责任接力慢行线、六个实体人工入口、三处差异化地标形成可步入结构。",
       "report_sections": [
-        "统筹研究范围产业与未来城市研究"
+        "三层范围工作框架",
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -1127,26 +1278,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1157,27 +1314,32 @@
     },
     {
       "requirement_id": "agent.3",
-      "title_zh": "AI+场景赋能新范式与智能化AI活力城市设计",
+      "title_zh": "AI+场景策划",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "十二场景均绑定AI后台角色、有偿人工闸门、最小数据、红线和停止条件。",
       "report_sections": [
-        "AI 创新生态、人才画像与 AI+ 场景"
+        "三层范围工作框架",
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -1185,26 +1347,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1215,28 +1383,32 @@
     },
     {
       "requirement_id": "agent.4",
-      "title_zh": "AI公共空间、智能原生新业态与朝圣地标设计",
+      "title_zh": "更新项目与机制",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "八个项目包绑定责任主体、运营角色、前置条件、指标与停止门。",
       "report_sections": [
+        "三层范围工作框架",
         "重点区域详细设计",
-        "蓝绿空间、公共空间与城市风貌"
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -1244,26 +1416,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1274,27 +1452,32 @@
     },
     {
       "requirement_id": "agent.5",
-      "title_zh": "百年京张文化、中关村文化与AI新文化融合叙事设计",
+      "title_zh": "品牌表达",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "铁路班次、换乘、检修的语言转为能力班次牌、有人接站和修补台账墙。",
       "report_sections": [
-        "蓝绿空间、公共空间与城市风貌"
+        "三层范围工作框架",
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -1302,26 +1485,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1332,27 +1521,32 @@
     },
     {
       "requirement_id": "agent.6",
-      "title_zh": "一带全球AI创新活动体系与长期运营设计",
+      "title_zh": "分期运营与自检",
       "mandatory": true,
+      "status": "addressed",
+      "response_summary_zh": "24周四道闸，先责任与演练，后限量开放；证据不足或事件未闭环立即停止。",
       "report_sections": [
+        "三层范围工作框架",
+        "重点区域详细设计",
         "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
         "geometry/phasing.geojson"
       ],
       "metrics": [
         "site_area_sqm",
+        "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count",
-        "handover_station_count",
-        "landmark_count",
+        "handover_table_count",
         "scenario_count"
       ],
       "drawings": [
@@ -1360,26 +1554,32 @@
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
-        "搭把手协议",
-        "三区三个时刻",
-        "12个场景",
-        "核心指标"
+        "总览地图",
+        "三层范围",
+        "重点区域",
+        "用地分区",
+        "交通慢行",
+        "蓝绿公共空间",
+        "建筑",
+        "更新项目",
+        "AI 场景",
+        "核心指标",
+        "任务覆盖",
+        "自检状态",
+        "来源",
+        "假设"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE",
-        "CASE-UK-ATRS",
-        "CASE-AI-VERIFY",
-        "CASE-BOSTON-CITYSCORE",
-        "CASE-DECIDIM"
+        "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",

@@ -5,115 +5,117 @@
       "id": "SITE-PACKAGE",
       "path": "brief/site-package/",
       "source_type": "official_public",
-      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+      "usage": "Project brief, schemas, enums, standards snapshots, design ranges, and disclosed gaps."
     },
     {
       "id": "SOURCE-REGISTRY",
       "path": "data/source_registry.json",
       "source_type": "repository_public_registry",
-      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+      "usage": "Registry that separates formal-ready, background-only, provisional-only, and needs-review inputs."
     },
     {
       "id": "PROCESSED-FACT-PACK",
       "path": "data/processed/agent_fact_pack.md",
       "source_type": "repository_processed_reference",
-      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+      "usage": "Navigation layer for scope, required tasks, and missing-data checks; not an independent authority."
     },
     {
       "id": "BOUNDARY-SOURCE",
       "path": "brief/site-package/geometry/provisional_boundaries.geojson",
       "source_type": "agent_inferred_from_public_data",
-      "usage": "Submitted site boundary geometry source (provisional)."
+      "usage": "Provisional site design canvas; not an official boundary."
     },
     {
       "id": "KEY-AREA-SOURCE",
       "path": "brief/site-package/geometry/provisional_boundaries.geojson",
       "source_type": "agent_inferred_from_public_data",
-      "usage": "Three required detailed-design key area boundaries (provisional)."
+      "usage": "Provisional key-area canvases; not official polygons."
     },
     {
       "id": "OFFICIAL-ANNOUNCEMENT",
       "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
       "source_type": "official_public",
-      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+      "publisher": "北京市规划和自然资源委员会海淀分局",
+      "accessed_date": "2026-08-31",
+      "usage": "Official purpose, three scope levels, key areas, tasks, and deliverable context."
     },
     {
       "id": "AGENT-TASKBOOK",
       "path": "brief/site-package/agent_taskbook.json",
       "source_type": "user_provided_cleared",
-      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+      "usage": "Agent-facing positions, functions, six tasks, and mandatory boundary clause."
     },
     {
-      "id": "CASE-UK-ATRS",
-      "url": "https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub",
-      "publisher": "UK Government Digital Service",
-      "accessed_date": "2026-08-30",
+      "id": "CIVIL-CODE-1198",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_60fb3863b7364b759123a42d1df568ca.html",
       "source_type": "official_public",
-      "usage": "Standardised public disclosure fields for algorithmic tools; transferable reference only.",
-      "not_usable_for": "Local statutory authority or proof of compliance in Beijing."
+      "publisher": "国家市场监督管理总局",
+      "accessed_date": "2026-08-31",
+      "usage": "Risk prompt for managers/organisers of public places and mass activities to obtain legal advice on applicable safety duties; not a package-level compliance conclusion."
     },
     {
-      "id": "CASE-AI-VERIFY",
-      "url": "https://aiverifyfoundation.sg/what-is-ai-verify/",
-      "publisher": "AI Verify Foundation",
-      "accessed_date": "2026-08-30",
+      "id": "PIPL",
+      "url": "https://www.npc.gov.cn/WZWSREL25wYy9jMi9jMzA4MzQvMjAyMTA4L3QyMDIxMDgyMF8zMTMwODguaHRtbD9yZWY9aW1i",
       "source_type": "official_public",
-      "usage": "Process and technical testing framework covering 11 governance principles; transferable reference only.",
-      "not_usable_for": "Certification of any proposed Jing-Zhang service."
+      "publisher": "全国人民代表大会",
+      "accessed_date": "2026-08-31",
+      "usage": "Primary privacy reference for minimisation, sensitive personal information, and separate-consent review where applicable."
     },
     {
-      "id": "CASE-DUTCH-ALGORITHM-REGISTER",
-      "url": "https://algoritmes.overheid.nl/en",
-      "publisher": "Government of the Netherlands",
-      "accessed_date": "2026-08-30",
+      "id": "VOLUNTEER-REGULATION",
+      "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=430&Query=%E6%9C%8D%E5%8A%A1%EF%BC%8C",
       "source_type": "official_public",
-      "usage": "Public catalogue logic for algorithmic systems; transferable reference only.",
-      "not_usable_for": "Local legal or procurement requirements."
+      "publisher": "司法部行政法规库",
+      "accessed_date": "2026-08-31",
+      "usage": "Primary reference for voluntary service rights, training, records, privacy, and risk/insurance review."
     },
     {
-      "id": "CASE-BOSTON-CITYSCORE",
-      "url": "https://content.boston.gov/departments/analytics-team/cityscore",
-      "publisher": "City of Boston",
-      "accessed_date": "2026-08-30",
+      "id": "BEIJING-VOLUNTEER-RESEARCH",
+      "url": "https://www.bjrd.gov.cn/rdzl/rdllysjhk/202001q/202001sjts/202101/t20210111_2211204.html",
       "source_type": "official_public",
-      "usage": "Longitudinal performance reporting and target comparison; used as a counter-example to one-off launch metrics.",
-      "not_usable_for": "Direct transfer of the composite score or its targets."
+      "publisher": "北京市人民代表大会常务委员会",
+      "accessed_date": "2026-08-31",
+      "usage": "Local legislative research context on volunteer protection and insurance; not treated as current operative legal advice."
     },
     {
-      "id": "CASE-DECIDIM",
-      "url": "https://docs.decidim.org/en/develop/understand/about.html",
-      "publisher": "Decidim project / Barcelona origin",
-      "accessed_date": "2026-08-30",
+      "id": "NYC311",
+      "url": "https://www.nyc.gov/311/about-311.page",
       "source_type": "official_public",
-      "usage": "Traceable hybrid online/offline participation and public-commons governance reference.",
-      "not_usable_for": "Claim that a local platform or consultation has been authorised."
+      "publisher": "City of New York",
+      "accessed_date": "2026-08-31",
+      "usage": "Transferable precedent for multiple access modes, multilingual/human assistance, and public service-status visibility; not local authority."
     },
     {
-      "id": "PEER-OBSERVABLE-JZ",
-      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/glove11111-design/observable-jingzhang",
-      "publisher": "glove11111-design",
-      "accessed_date": "2026-08-30",
+      "id": "HELSINKI-SERVICE-MAP",
+      "url": "https://www.hel.fi/en/decision-making/information-on-helsinki/maps-and-geospatial-data",
       "source_type": "official_public",
-      "usage": "Peer comparison used to distinguish longitudinal handover from public observability; no text or assets reused.",
-      "not_usable_for": "Unattributed copying or factual authority."
+      "publisher": "City of Helsinki",
+      "accessed_date": "2026-08-31",
+      "usage": "Transferable precedent for service-map and accessibility information; route details are not imported."
     },
     {
-      "id": "PEER-MEND-JZ",
-      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/yadnuses/jingzhang-mend",
-      "publisher": "yadnuses",
-      "accessed_date": "2026-08-30",
+      "id": "REPAIR-CAFE-RULES",
+      "url": "https://www.repaircafe.org/en/house-rules/",
       "source_type": "official_public",
-      "usage": "Peer comparison used to distinguish relational follow-up from care-service programming; no text or assets reused.",
-      "not_usable_for": "Unattributed copying or factual authority."
+      "publisher": "Repair Cafe International Foundation",
+      "accessed_date": "2026-08-31",
+      "usage": "Operational precedent for supervised participation, refusal, capacity limits, and insurance review; its liability wording is not copied or asserted valid in China."
     },
     {
-      "id": "GENERATED-COVER-LEND-A-HAND",
-      "path": "assets/media/second-encounter-cover-v1.png",
-      "publisher": "Codex deterministic Pillow renderer",
-      "accessed_date": "2026-08-30",
-      "source_type": "agent_generated_design",
-      "usage": "Original conceptual editorial cover for JING-ZHANG · LEND A HAND; generated from the proposal mechanism.",
-      "not_usable_for": "Observed site condition, official rendering, public opinion, or spatial evidence."
+      "id": "PEER-COMMONS-RAIL",
+      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/beibei-csfan/jingzhang-commons-rail",
+      "source_type": "official_public",
+      "publisher": "open-city-ai/haidian contributor",
+      "accessed_date": "2026-08-31",
+      "usage": "Quality benchmark for evidence layering, conditional interfaces, and legible mapping only; no content or geometry copied."
+    },
+    {
+      "id": "PEER-SLOW-LINE",
+      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/Restless-One/jingzhang-slow-line",
+      "source_type": "official_public",
+      "publisher": "open-city-ai/haidian contributor",
+      "accessed_date": "2026-08-31",
+      "usage": "Quality benchmark for site-grounded figures, simulation ledgers, and stop metrics only; no content or geometry copied."
     }
   ]
 }

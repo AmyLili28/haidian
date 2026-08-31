@@ -3,15 +3,15 @@
   "items": [
     {
       "item_id": "existing_conditions_diagnosis",
-      "title_zh": "现状诊断图与资料缺口",
-      "professional_dimension": "规划",
+      "title_zh": "现状诊断与资料缺口",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -33,19 +33,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -53,19 +54,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "three_level_scope_framework",
       "title_zh": "三层范围工作框架",
-      "professional_dimension": "规划",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -87,19 +88,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -107,19 +109,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "overall_spatial_structure",
       "title_zh": "总体空间结构",
-      "professional_dimension": "城市设计",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -141,19 +143,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -161,19 +164,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "land_use_layout",
       "title_zh": "用地布局",
-      "professional_dimension": "规划",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -195,19 +198,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -215,19 +219,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "development_intensity_controls",
-      "title_zh": "开发强度或待确认控规条件",
-      "professional_dimension": "控规",
+      "title_zh": "开发强度与待确认条件",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -249,19 +253,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -269,19 +274,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "height_massing_character",
-      "title_zh": "建筑高度、体量与风貌控制",
-      "professional_dimension": "建筑",
+      "title_zh": "高度体量与风貌",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -303,19 +308,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -323,19 +329,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "retain_renovate_demolish",
-      "title_zh": "建筑拆改留分类",
-      "professional_dimension": "建筑",
+      "title_zh": "拆改留",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -357,19 +363,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -377,19 +384,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "traffic_rail_slow_parking",
-      "title_zh": "道路、轨道、慢行与停车组织",
-      "professional_dimension": "交通",
+      "title_zh": "交通、轨道、慢行与停车",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -411,19 +418,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -431,19 +439,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "municipal_new_infrastructure",
-      "title_zh": "市政与新型基础设施策略",
-      "professional_dimension": "市政",
+      "title_zh": "市政与新型基础设施",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -465,19 +473,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -485,19 +494,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "blue_green_public_space",
-      "title_zh": "蓝绿系统与公共空间",
-      "professional_dimension": "景观",
+      "title_zh": "蓝绿与公共空间",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -519,19 +528,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -539,19 +549,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "three_key_area_detailed_design",
-      "title_zh": "三大重点片区详细设计",
-      "professional_dimension": "城市设计",
+      "title_zh": "三处重点区详细设计",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -573,19 +583,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -593,19 +604,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "renewal_project_list",
       "title_zh": "更新项目清单",
-      "professional_dimension": "实施",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -627,19 +638,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -647,19 +659,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "phasing_implementation",
-      "title_zh": "分期实施计划",
-      "professional_dimension": "实施",
+      "title_zh": "实施分期与停止门",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -681,19 +693,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -701,19 +714,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "metrics_recalculation",
       "title_zh": "指标复算",
-      "professional_dimension": "校核",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -735,19 +748,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -755,19 +769,19 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     },
     {
       "item_id": "risk_missing_data",
-      "title_zh": "风险与缺资料清单",
-      "professional_dimension": "合规",
+      "title_zh": "风险与缺失数据",
+      "professional_dimension": "城市设计与运营设计",
       "required": true,
       "status": "complete",
       "proposal_sections": [
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -789,19 +803,20 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "handover_table_count",
+        "scenario_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "SOURCE-REGISTRY",
-        "PROCESSED-FACT-PACK",
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-OWNER-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -809,7 +824,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本深度项由 proposal.md 的可读解释、图纸成果、结构化图层、指标复算和自检结果共同支撑。"
+      "evidence_summary_zh": "正文提出可读判断，图纸表达空间与运营接口，GeoJSON与metrics支持复算，assumptions和停止门限制结论强度。"
     }
   ]
 }
