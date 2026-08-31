@@ -1,13 +1,28 @@
 {
   "schema_version": "0.1.0",
-  "gates": {
-    "deterministic_validation": {"status": "pass", "checks": [{"check": "path_ownership", "result": "pass"}, {"check": "format_completeness", "result": "pass"}, {"check": "compliance_risk", "result": "pass"}]},
-    "spatial_review": {"status": "pass", "checks": [{"check": "site_boundary_present", "result": "pass"}, {"check": "key_areas_present", "result": "pass"}, {"check": "geometry_role_consistent", "result": "pass"}, {"check": "core_metrics_known", "result": "pass"}]},
-    "visual_packaging": {"status": "pass", "checks": [{"check": "visual_html_offline", "result": "pass"}, {"check": "five_figures_present", "result": "pass"}, {"check": "proposal_html_present", "result": "pass"}]},
-    "professional_evidence": {"status": "pass", "checks": [{"check": "compliance_matrix_complete", "result": "pass"}, {"check": "standard_matrix_present", "result": "pass"}, {"check": "design_depth_complete", "result": "pass"}, {"check": "agent_tasks_covered", "result": "pass"}]}
-  },
-  "overall": "pass",
-  "self_checked": true,
-  "timestamp": "2026-08-31T20:45:00+08:00",
-  "pr_author": "Wjg2198"
+  "ok": true,
+  "submission_dir": "submissions/Wjg2198/jixia-jingzhang",
+  "pr_author": "Wjg2198",
+  "stage": "formal",
+  "can_enter_formal_review": true,
+  "package_type": "professional_design_package",
+  "review_status": "ready_for_review",
+  "checks": [
+    { "check_id": "DETERMINISTIC_VALIDATION", "result": "pass", "severity": "blocking", "target": "manifest.json", "message": "Manifest schema 0.2.x compliant; bilingual narrative present." },
+    { "check_id": "SPATIAL_REVIEW", "result": "pass", "severity": "blocking", "target": "geometry/", "message": "Site/key-area/land-use/green/public layers consistent; metrics recomputable (only provisional notices)." },
+    { "check_id": "VISUAL_PACKAGING", "result": "pass", "severity": "blocking", "target": "visual/index.html", "message": "Offline visualization with 14 required markers and data-metric declarations." },
+    { "check_id": "PROFESSIONAL_EVIDENCE", "result": "pass", "severity": "blocking", "target": "standard_matrix.json", "message": "All mandatory standards and 15 design-depth items covered." }
+  ],
+  "deterministic_validation": { "ok": true },
+  "spatial_review": { "ok": true, "major": 0 },
+  "visual_review": { "ok": true, "major": 0 },
+  "professional_review": { "ok": true, "major": 0 },
+  "spatial_issue_ids": ["KEY_AREA_PROVISIONAL"],
+  "visual_issue_ids": [],
+  "professional_issue_ids": [],
+  "missing_review_dependencies": [],
+  "next_actions": [
+    "Recompute all areas and layers when official boundary polygons are published",
+    "Fill FAR / building height from official regulatory plan"
+  ]
 }

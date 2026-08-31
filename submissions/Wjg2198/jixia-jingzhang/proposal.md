@@ -40,6 +40,8 @@ iteration: "v1.0"
 
 ## 统筹研究范围产业与未来城市研究
 
+[source:SITE-PACKAGE] [source:AGENT-TASKBOOK] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]
+
 ### 命名体系与品牌识别（agent.1）
 
 **主名称：京张稷下（Jingzhang Jixia）**
@@ -230,6 +232,8 @@ iteration: "v1.0"
 
 ## 指标体系、面积复算与合规矩阵
 
+[metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio] [data:geometry/site_boundary.geojson#SB-001]
+
 ### 核心指标
 
 | 指标 | 状态 | 数值 | 单位 | 来源 | 说明 |
@@ -261,6 +265,8 @@ iteration: "v1.0"
 详细版权声明见 `report/copyright_statement.md` [depth:risk_compliance]。
 
 ## 参考资料
+
+[source:SITE-PACKAGE] [source:AGENT-TASKBOOK] [source:PROVISIONAL-BOUNDARIES]
 
 1. 北京市规划和自然资源委员会海淀分局，《百年京张AI创新带城市设计国际方案征集资格预审公告》，2026年5月。
 2. 面向智能体任务书（Agent Open Call Taskbook），open-city-ai/haidian 仓库，2026。

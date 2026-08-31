@@ -1,20 +1,466 @@
 {
   "schema_version": "0.1.0",
   "items": [
-    { "item_id": "existing_conditions_diagnosis", "title_zh": "现状条件诊断", "status": "complete", "evidence": "proposal.md §设计依据与资料清单；provisional 边界+公开资料，待官方数据复算" },
-    { "item_id": "three_level_scope_framework", "title_zh": "三层范围工作框架", "status": "complete", "evidence": "proposal.md §三层范围工作框架（学宫/讲堂/辩论场）" },
-    { "item_id": "overall_spatial_structure", "title_zh": "总体空间结构", "status": "complete", "evidence": "proposal.md §空间结构：三所讲堂+辩论走廊+演化节点" },
-    { "item_id": "land_use_layout", "title_zh": "用地布局", "status": "complete", "evidence": "geometry/land_use.geojson（全域覆盖）+ proposal.md §用地" },
-    { "item_id": "development_intensity_controls", "title_zh": "开发强度控制", "status": "complete", "evidence": "proposal.md §用地建筑规模（概念强度关系；FAR unknown 待控规）" },
-    { "item_id": "height_massing_character", "title_zh": "高度体量与风貌", "status": "complete", "evidence": "proposal.md §建筑更新策略+城市风貌（概念建议，高度待控规）" },
-    { "item_id": "retain_renovate_demolish", "title_zh": "拆改留分类", "status": "complete", "evidence": "proposal.md §更新总体框架（保留/改造/新建三层）" },
-    { "item_id": "traffic_rail_slow_parking", "title_zh": "交通轨道慢行停车", "status": "complete", "evidence": "proposal.md §交通轨道市政（游学慢行+对话桥+出站即入园）+ geometry/roads.geojson" },
-    { "item_id": "municipal_new_infrastructure", "title_zh": "市政与新型基础设施", "status": "complete", "evidence": "proposal.md §交通市政（AI新基建概念建议）" },
-    { "item_id": "blue_green_public_space", "title_zh": "蓝绿与公共空间", "status": "complete", "evidence": "proposal.md §蓝绿空间（两水一脊+辩论花园）+ green_space/public_space.geojson" },
-    { "item_id": "three_key_area_detailed_design", "title_zh": "三处重点区域详细设计", "status": "complete", "evidence": "proposal.md §重点区域（名家/道家/墨家讲堂）+ geometry/key_areas.geojson" },
-    { "item_id": "renewal_project_list", "title_zh": "更新项目清单", "status": "complete", "evidence": "proposal.md §更新项目清单、实施政策" },
-    { "item_id": "phasing_implementation", "title_zh": "分期实施", "status": "complete", "evidence": "proposal.md §分期（立论/辩难/沉淀）+ geometry/phasing.geojson" },
-    { "item_id": "metrics_recalculation", "title_zh": "指标复算", "status": "complete", "evidence": "proposal.md §指标体系 + metrics.json（三项 known，EPSG:4548 可复算）" },
-    { "item_id": "risk_missing_data", "title_zh": "风险与缺失数据", "status": "complete", "evidence": "proposal.md §风险合规 + assumptions.json（待补资料清单）" }
+    {
+      "item_id": "existing_conditions_diagnosis",
+      "title_zh": "现状条件诊断",
+      "professional_dimension": "planning",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "设计依据与资料清单"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/constraints.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "现状条件诊断：见 设计依据与资料清单，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "three_level_scope_framework",
+      "title_zh": "三层范围工作框架",
+      "professional_dimension": "planning",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "三层范围工作框架"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "三层范围工作框架：见 三层范围工作框架，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "overall_spatial_structure",
+      "title_zh": "总体空间结构",
+      "professional_dimension": "urban_design",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "总体设计范围城市更新与控规深度城市设计"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/green_space.geojson"
+      ],
+      "metric_refs": [
+        "green_ratio"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "总体空间结构：见 总体设计范围城市更新与控规深度城市设计，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "land_use_layout",
+      "title_zh": "用地布局",
+      "professional_dimension": "planning",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "用地、建筑规模与拆改留方案"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/land_use.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "用地布局：见 用地、建筑规模与拆改留方案，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "development_intensity_controls",
+      "title_zh": "开发强度控制",
+      "professional_dimension": "regulatory_planning",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "用地、建筑规模与拆改留方案",
+        "指标体系、面积复算与合规矩阵"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/land_use.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "开发强度控制：见 用地、建筑规模与拆改留方案，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "height_massing_character",
+      "title_zh": "高度体量与风貌",
+      "professional_dimension": "urban_design",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "总体设计范围城市更新与控规深度城市设计",
+        "蓝绿空间、公共空间与城市风貌"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/buildings.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "高度体量与风貌：见 总体设计范围城市更新与控规深度城市设计，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "retain_renovate_demolish",
+      "title_zh": "拆改留分类",
+      "professional_dimension": "urban_design",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "总体设计范围城市更新与控规深度城市设计"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/buildings.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "拆改留分类：见 总体设计范围城市更新与控规深度城市设计，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "traffic_rail_slow_parking",
+      "title_zh": "交通轨道慢行停车",
+      "professional_dimension": "municipal_coordination",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "交通、轨道、市政与公共服务设施"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/roads.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "交通轨道慢行停车：见 交通、轨道、市政与公共服务设施，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "municipal_new_infrastructure",
+      "title_zh": "市政与新型基础设施",
+      "professional_dimension": "municipal_coordination",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "交通、轨道、市政与公共服务设施"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/roads.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "市政与新型基础设施：见 交通、轨道、市政与公共服务设施，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "blue_green_public_space",
+      "title_zh": "蓝绿与公共空间",
+      "professional_dimension": "public_space",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "蓝绿空间、公共空间与城市风貌"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson"
+      ],
+      "metric_refs": [
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "蓝绿与公共空间：见 蓝绿空间、公共空间与城市风貌，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "three_key_area_detailed_design",
+      "title_zh": "三处重点区域详细设计",
+      "professional_dimension": "urban_design",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "重点区域详细设计"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/key_areas.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "三处重点区域详细设计：见 重点区域详细设计，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "renewal_project_list",
+      "title_zh": "更新项目清单",
+      "professional_dimension": "implementation",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "更新项目清单、实施政策与分期计划"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "更新项目清单：见 更新项目清单、实施政策与分期计划，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "phasing_implementation",
+      "title_zh": "分期实施",
+      "professional_dimension": "implementation",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "更新项目清单、实施政策与分期计划"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "分期实施：见 更新项目清单、实施政策与分期计划，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "metrics_recalculation",
+      "title_zh": "指标复算",
+      "professional_dimension": "metrics",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "指标体系、面积复算与合规矩阵"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "指标复算：见 指标体系、面积复算与合规矩阵，几何与指标均为 provisional，待官方数据复算。"
+    },
+    {
+      "item_id": "risk_missing_data",
+      "title_zh": "风险与缺失数据",
+      "professional_dimension": "public_compliance",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/constraints.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE"
+      ],
+      "assumption_ids": [
+        "ASSUM-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW"
+      ],
+      "evidence_summary_zh": "风险与缺失数据：见 风险、版权与合规说明，几何与指标均为 provisional，待官方数据复算。"
+    }
   ]
 }
