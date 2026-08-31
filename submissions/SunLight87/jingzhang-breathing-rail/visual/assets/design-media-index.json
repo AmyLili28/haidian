@@ -6,6 +6,28 @@
   "public_context_photo_reference_count": 3,
   "rights_note": "assets/media/design-media-rights.md",
   "use_boundary": "Concept communication only. These images are not site photographs, survey drawings, official redlines, statutory plans, engineering drawings, or proof of implementation.",
+  "generation_input_provenance": {
+    "explicitly_logged_site_image_inputs": [
+      {
+        "role": "north site-context constraint",
+        "source": "processed Sentinel-2 crop: zhongzhiyuan-context-neutral.png",
+        "sha256": "96ec0c49098d63b6c89601b3f4154a789ef29ecaa14c0dc26e551e72a02c5029"
+      },
+      {
+        "role": "central site-context constraint",
+        "source": "processed Sentinel-2 crop: ai-origin-context-neutral.png",
+        "sha256": "1ece2413ba11b68f4097a80385b159bf5efd8c10c28a12e0777388cd7a037ca9"
+      },
+      {
+        "role": "south site-context constraint",
+        "source": "processed Sentinel-2 crop: dazhongsi-context-neutral.png",
+        "sha256": "a035e7c4d3863ecd7a1a132f31038adb8a83400e3939eb93dacbbdbfbdce867a"
+      }
+    ],
+    "sentinel_record": "sources.json#SENTINEL2-TCI-20260715 and visual/assets/imagery-source-ledger.json#scene",
+    "esri_vantor_status": "local human plausibility reference only; not an explicitly logged Imagegen upload; mosaic, crops, tiles, service responses, and reconstructable cache excluded from the package",
+    "public_context_photos": "external PPT only; not copied into this repository package"
+  },
   "items": [
     {
       "path": "assets/media/design/overall-masterplan-4k.webp",
@@ -18,7 +40,7 @@
       "generation_role": "OpenFreeMap Positron public basemap raster with participant concept overlay",
       "evidence_status": "public_basemap_context_not_site_or_engineering_evidence",
       "source_context": "Locally rendered OpenFreeMap Positron / OpenStreetMap public cartography with participant labels and temporary concept overlay; no raw imagery, tile cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "public_source_attribution_recorded; competition_specific_review_pending",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending",
       "package_dimensions_px": [
         3840,
@@ -38,7 +60,7 @@
       "generation_role": "OpenFreeMap Positron public basemap raster with participant concept overlay",
       "evidence_status": "public_basemap_context_not_site_or_engineering_evidence",
       "source_context": "Locally rendered OpenFreeMap Positron / OpenStreetMap public cartography with participant labels and temporary concept overlay; no raw imagery, tile cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "public_source_attribution_recorded; competition_specific_review_pending",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending",
       "package_dimensions_px": [
         3840,
@@ -58,7 +80,7 @@
       "generation_role": "OpenFreeMap Positron public basemap raster with participant concept overlay",
       "evidence_status": "public_basemap_context_not_site_or_engineering_evidence",
       "source_context": "Locally rendered OpenFreeMap Positron / OpenStreetMap public cartography with participant labels and temporary concept overlay; no raw imagery, tile cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "public_source_attribution_recorded; competition_specific_review_pending",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending",
       "package_dimensions_px": [
         3840,
@@ -78,7 +100,7 @@
       "generation_role": "OpenFreeMap Positron public basemap raster with participant concept overlay",
       "evidence_status": "public_basemap_context_not_site_or_engineering_evidence",
       "source_context": "Locally rendered OpenFreeMap Positron / OpenStreetMap public cartography with participant labels and temporary concept overlay; no raw imagery, tile cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "public_source_attribution_recorded; competition_specific_review_pending",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending",
       "package_dimensions_px": [
         3840,
@@ -99,7 +121,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -114,7 +136,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -129,7 +151,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -144,7 +166,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -159,7 +181,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -174,7 +196,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -189,7 +211,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -204,7 +226,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -219,7 +241,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -234,7 +256,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -249,7 +271,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -264,7 +286,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -279,7 +301,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -294,7 +316,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -309,7 +331,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     },
     {
@@ -324,7 +346,7 @@
       "generation_role": "Imagegen concept plan/rendering conditioned by site context",
       "evidence_status": "concept_expression_not_site_or_engineering_evidence",
       "source_context": "Generated from design prompts and reviewed site-context references; no raw imagery, tiles, cache, CAD, or GIS source is redistributed in this file.",
-      "rights_review_status": "pending_final_competition_specific_review",
+      "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "human_decision": "pending"
     }
   ],
@@ -338,7 +360,7 @@
       "source_data_url": "https://www.openstreetmap.org/copyright",
       "license": "OpenStreetMap data ODbL 1.0; OpenFreeMap service/style terms apply",
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
-      "attribution": "© OpenStreetMap contributors · OpenFreeMap",
+      "attribution": "© OpenStreetMap contributors | OpenFreeMap © OpenMapTiles",
       "source_dimensions_px": [
         3840,
         1412
@@ -375,7 +397,7 @@
       "source_data_url": "https://www.openstreetmap.org/copyright",
       "license": "OpenStreetMap data ODbL 1.0; OpenFreeMap service/style terms apply",
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
-      "attribution": "© OpenStreetMap contributors · OpenFreeMap",
+      "attribution": "© OpenStreetMap contributors | OpenFreeMap © OpenMapTiles",
       "source_dimensions_px": [
         3840,
         1412
@@ -412,7 +434,7 @@
       "source_data_url": "https://www.openstreetmap.org/copyright",
       "license": "OpenStreetMap data ODbL 1.0; OpenFreeMap service/style terms apply",
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
-      "attribution": "© OpenStreetMap contributors · OpenFreeMap",
+      "attribution": "© OpenStreetMap contributors | OpenFreeMap © OpenMapTiles",
       "source_dimensions_px": [
         3840,
         1412
@@ -449,7 +471,7 @@
       "source_data_url": "https://www.openstreetmap.org/copyright",
       "license": "OpenStreetMap data ODbL 1.0; OpenFreeMap service/style terms apply",
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
-      "attribution": "© OpenStreetMap contributors · OpenFreeMap",
+      "attribution": "© OpenStreetMap contributors | OpenFreeMap © OpenMapTiles",
       "source_dimensions_px": [
         3840,
         1412

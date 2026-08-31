@@ -10,7 +10,6 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/SunLight87/jingzhang-breathing-rail/manifest.json: known_blockers present; submission may pass intake but cannot enter formal professional scoring until resolved",
         "submissions/SunLight87/jingzhang-breathing-rail/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
@@ -83,11 +82,13 @@
         "submissions/SunLight87/jingzhang-breathing-rail/simulation.json",
         "submissions/SunLight87/jingzhang-breathing-rail/sources.json",
         "submissions/SunLight87/jingzhang-breathing-rail/standard_matrix.json",
+        "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/agent-planning-run-ledger.json",
         "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/design-media-index.json",
         "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/experiment-allocation.js",
         "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/experiment-inputs.json",
         "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/experiment-run.json",
         "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/imagery-source-ledger.json",
+        "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/pilot-readiness-matrix.json",
         "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/regional-coordination-matrix.json",
         "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/review-response-matrix.json",
         "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/scenario-operations-matrix.json",
@@ -98,7 +99,7 @@
       "ai_package_stages": {
         "submissions/SunLight87/jingzhang-breathing-rail": "formal"
       },
-      "total_bytes": 41358340,
+      "total_bytes": 38411240,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -179,8 +180,8 @@
           "source": 18,
           "standard": 4,
           "depth": 15,
-          "data": 22,
-          "metric": 18
+          "data": 26,
+          "metric": 21
         }
       }
     },
@@ -197,9 +198,7 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [
-    "Resolve formal-readiness warning: submissions/SunLight87/jingzhang-breathing-rail/manifest.json: known_blockers present; submission may pass intake but cannot enter formal professional scoring until resolved"
-  ],
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {

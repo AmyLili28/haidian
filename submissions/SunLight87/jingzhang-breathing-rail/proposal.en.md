@@ -355,6 +355,24 @@ The landmarks are content and service nodes, not sculptural claims; each install
 
 `str-raci-matrix.json` is the governance entry for STR-01–08, registering one unique A, at least one R, acceptance evidence, complaint route, rollback, maintenance, and sunset for each item. It uses generic roles only; resource levels are L0–L2 with no L3. Quarterly calibration and scenario review, semiannual model/data audit, and an annual open challenge are reviewable proposed mechanisms, not commitments; service windows are `not_committed`, with no institutional, funding, capacity, or SLA promise.[data:visual/assets/str-raci-matrix.json#packages]
 
+### 90-day implementation-readiness packs for three representative nodes (not procurement or authorization)
+
+To turn “reversible pilot” from a slogan into an auditable brief, `pilot-readiness-matrix.json` freezes S01, S05, and S03 as three candidate 90-day pilots: the north calibration yard, central civic-translation room, and south adoption forecourt. Their common sequence is `days 01-15 clearance/baseline → 16-30 design freeze/tabletop rehearsal → 31-60 controlled pilot → 61-75 calibration/revision → 76-90 acceptance/exit decision`; every step produces ownership, evidence, and a stop rule.[data:visual/assets/pilot-readiness-matrix.json#common_90_day_sequence]
+
+| Candidate pilot | 2026 CNY planning band | Service/capacity assumption | Acceptance summary | Hard stop |
+| --- | ---: | --- | --- | --- |
+| S01 north calibration yard | CNY 0.30-0.80 million | Booked weekdays 09:00-17:00; up to 3 batches/day and 6 candidate devices/batch | 100% inputs carry rights/retention records; 100% exceptions receive named professional review; at least 95% of scheduled batches produce a complete reviewable record, never interpreted as accuracy or environmental performance | Stop if reference authorization, professional review, safe separation, power-off, or paper record is missing |
+| S05 central civic-translation room | CNY 0.20-0.50 million | Static service follows host opening; two staffed 2-hour windows/day during the pilot, up to 20 assisted interactions/window | 100% facilities carry verification date, owner, and expiry/update state; paper, voice, and staffed paths remain available; zero unresolved critical passage issue in the displayed inventory | Withdraw if passage status is unknown, the equivalent staffed path fails, fire/queue/weather conflicts arise, or maintenance ownership lapses |
+| S03 south adoption forecourt | CNY 0.30-0.70 million | Voluntary booking/on-site enrolment 10:00-18:00; up to 8 people/day, 30 minutes/person, for 20 pilot days | 100% sessions expose consent/exit/deletion/staff assistance; 100% records anonymous; target task completion at least 80% in each tested access mode, always reported with sample size and never generalized | Pause and delete/withdraw records if consent, deletion, staffed fallback, privacy, accessibility, or safety fails |
+
+These are **planning orders of magnitude, not procurement quotations**. They allow for temporary design, movable components/equipment rental, installation and removal, testing, professional review, basic operations, insurance, and contingency. They exclude land, permanent civil works, statutory approvals, utility relocation, permanent MEP, long-term staffing, and unverified remediation. All three remain `concept_ready_for_authorized_due_diligence`: site authorization, accountable operators, professional sign-off, and candidate-level `HumanDecision` are not complete, so documentation never triggers deployment automatically.[data:visual/assets/pilot-readiness-matrix.json#portfolio_gate] [depth:implementation_policy_phasing]
+
+### Agent planning-run ledger: input hashes through review response
+
+`agent-planning-run-ledger.json` separates the machine work that actually occurred into eight reviewable events: input clearance, hard-constraint checks, 55 feasible assignments [metric:feasible_assignment_count], 6 Pareto assignments [metric:pareto_assignment_count], 3 candidates awaiting a person, 6 negative-case rejections [metric:negative_fixture_rejection_count], carrier synchronization, and this review-response cycle. The frozen experiment used the Node.js standard library and seed `20260821`, with `coordinate_patch=[]` and no model call, field trial, approval, or human signature. It therefore proves that the Agent **generated candidates, rejected violations, and recorded versions**; it does not prove implementation.[data:visual/assets/agent-planning-run-ledger.json#run_steps]
+
+This chain makes “the first real urban plan handed to an Agent” inspectable: the Agent reads and locks versions, exposes missing evidence, enumerates option families and counterexamples, and gives people rights, risk, planning cost, service assumptions, acceptance, and rollback together. A person still chooses `release / modify / reject / pause / rollback / exit`. Real `HumanDecision` remains `pending` and is never replaced by a successful machine log.[data:visual/assets/agent-planning-run-ledger.json#claims_boundary]
+
 Four phases are a suggested governance sequence, not investment or construction commitments:[data:geometry/phasing.geojson#PHASE-001] [metric:phase_count]
 
 1. **Verify the base, years 0–1:** obtain official geometry, controls, tenure, and existing-condition surveys; audit accessibility, air evidence, heritage rights, and reference co-location. Every public output shows source, time, confidence, and a human channel.
@@ -415,7 +433,7 @@ Unresolved inputs include official SITE/KEY_AREA polygons, control plan and tenu
 
 The human reading layer explains judgments and limits; the machine-audit layer retains complete source, assumption, metric, matrix, and geometry indexes.
 
-`review-response-matrix.json` records 9 remediation responses, all currently `evidence_created`; it represents package evidence formed and locally structurally checked, not reviewer acceptance or issue closure.[data:visual/assets/review-response-matrix.json#items]
+`review-response-matrix.json` records 14 remediation responses, all currently `evidence_created`; it represents package evidence formed and locally structurally checked, not reviewer acceptance or issue closure.[data:visual/assets/review-response-matrix.json#items]
 
 - Metrics and recalculation: `metrics.json` · Source registry: `sources.json` · Assumptions and data gaps: `assumptions.json`
 - Task coverage matrix: `compliance_matrix.json` · Professional standards matrix: `standard_matrix.json` · Design-depth matrix: `design_depth_matrix.json`

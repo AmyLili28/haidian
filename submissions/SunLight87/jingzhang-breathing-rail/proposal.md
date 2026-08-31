@@ -362,6 +362,24 @@ iteration: "v2.3"
 
 `str-raci-matrix.json` 为 STR-01—08 登记唯一 A、至少一个 R、验收证据、投诉路径、回滚、维护和 sunset 的治理入口；只使用通用角色，资源级别仅 L0—L2，不设 L3。季度校准与场景复盘、半年模型/数据审查、年度开放挑战只是可审查的建议机制，服务时段为 `not_committed`；不构成机构、资金、容量或 SLA 承诺。[data:visual/assets/str-raci-matrix.json#packages]
 
+### 三个代表节点90天实施就绪包（非采购、非授权）
+
+为把“可逆试点”从口号变成可审查任务书，`pilot-readiness-matrix.json` 把 S01、S05、S03 分别冻结为北部校准庭、中部共译客厅和南部转化前场三个90天候选小试。共同顺序是 `01—15天清权与基线 → 16—30天设计冻结/桌面演练 → 31—60天受控小试 → 61—75天校准修订 → 76—90天验收与退出决定`；每一步都输出责任、记录和停止条件。[data:visual/assets/pilot-readiness-matrix.json#common_90_day_sequence]
+
+| 候选小试 | 规划成本区间（2026 CNY） | 时段/容量假设 | 验收阈值摘要 | 一票停止条件 |
+| --- | ---: | --- | --- | --- |
+| S01 北部校准庭 | 30—80 万 | 预约制工作日 09:00—17:00；最多3批/日、6台候选设备/批 | 100%输入有权利/留存记录；100%异常经具名专业复核；≥95%计划批次形成完整可审查记录，且不解释为精度或环境绩效 | 参考授权、专业复核、安全隔离、断电或纸质记录任一缺失即停 |
+| S05 中部共译客厅 | 20—50 万 | 静态服务随场地主体开放；小试期每日两个2小时人工窗口、每窗口最多20次协助 | 100%设施有核验日期/责任人/失效状态；纸质、语音、人工路径持续可用；公开清单中未解决重大通行问题为0 | 通行状态不明、人工等效路径失效、消防/排队/天气冲突或维护责任失效即撤下 |
+| S03 南部转化前场 | 30—70 万 | 10:00—18:00自愿预约/现场加入；最多8人/日、30分钟/人，计划20个小试日 | 100%会话展示同意/退出/删除/人工协助；匿名记录100%；各测试模式任务完成率目标≥80%，必须连同样本量披露且不得外推总体人群 | 同意、删除、人工回退、隐私、无障碍或安全任一失败即暂停并删除/撤回记录 |
+
+上述区间是**规划量级假设，不是采购报价**：只覆盖临时设计、可移动构件/设备租赁、安装拆除、测试、专业复核、基础运维、保险和预备费；不含土地、永久土建、法定审批、管线迁改、永久机电、长期编制和未核实场地修复。三个节点当前均为 `concept_ready_for_authorized_due_diligence`，场地授权、责任主体、专业签字和候选级 `HumanDecision` 仍未完成；文档完整不会自动触发现场部署。[data:visual/assets/pilot-readiness-matrix.json#portfolio_gate] [depth:implementation_policy_phasing]
+
+### Agent规划运行台账：从输入哈希到审查整改
+
+`agent-planning-run-ledger.json` 将已经发生的机器工作拆成八个可复核事件：清权输入、硬约束检查、55个可行分配 [metric:feasible_assignment_count]、6个Pareto分配 [metric:pareto_assignment_count]、3个待人决策候选、6个负例拒绝 [metric:negative_fixture_rejection_count]、跨载体同步和本轮评审整改。冻结实验使用 Node.js 标准库和 seed `20260821`，`coordinate_patch=[]`，没有模型调用、现场试验、批准或人类签字；因此它证明 Agent **完成了候选生成、约束拒绝和版本记录**，不证明方案已经落地。[data:visual/assets/agent-planning-run-ledger.json#run_steps]
+
+这条证据链让“第一次真实城市规划交给 Agent”具有可检查的边界：Agent 读取并锁定数据版本，显式暴露缺口，枚举方案族和反例，把权利、风险、成本量级、服务假设、验收与回滚一起交给人；人仍负责 `release / modify / reject / pause / rollback / exit`。真实 `HumanDecision` 保持 `pending`，不会用机器成功日志代替。[data:visual/assets/agent-planning-run-ledger.json#claims_boundary]
+
 四阶段是建议的治理顺序，不是投资或建设承诺：[data:geometry/phasing.geojson#PHASE-001] [metric:phase_count]
 
 1. **底层核验（0—1 年）**：补官方边界、控规、权属与现状调查；做无障碍、空气资料、史料权利和参考共置审计。所有公开输出显示来源、时效、置信度和人工通道。
@@ -423,7 +441,7 @@ Sentinel-2 场景 `S2B_50TMK_20260715_0_L2A` 仅支持宽域水绿、建成区�
 
 人类阅读层与机器审计层保持分工：正文说明判断和限制，结构化文件保留完整来源、假设、指标、矩阵和几何索引。
 
-`review-response-matrix.json` 登记 9 项整改回应，当前均为 `evidence_created`；它只代表包内证据已形成并通过本地结构复核，不代表 reviewer 接受或问题关闭。[data:visual/assets/review-response-matrix.json#items]
+`review-response-matrix.json` 登记 14 项整改回应，当前均为 `evidence_created`；它只代表包内证据已形成并通过本地结构复核，不代表 reviewer 接受或问题关闭。[data:visual/assets/review-response-matrix.json#items]
 
 - 指标与复算：`metrics.json` · 来源登记：`sources.json` · 假设与缺资料：`assumptions.json`
 - 任务覆盖矩阵：`compliance_matrix.json` · 专业标准矩阵：`standard_matrix.json` · 设计深度矩阵：`design_depth_matrix.json`

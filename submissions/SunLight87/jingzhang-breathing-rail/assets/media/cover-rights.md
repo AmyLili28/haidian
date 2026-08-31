@@ -33,9 +33,9 @@ Avoid: any text or glyphs, logo, watermark, trademark, recognizable face, red cr
 
 ## Rights and evidence limits / 权利与证据边界
 
-The image is retained as a project-owned, AI-generated visual asset for concept communication, subject to the applicable terms of the generation service. It is not a third-party photograph or a copied project image. The project team should preserve this provenance note and perform any final competition-specific rights review before public or commercial release.
+The image is retained as a project-owned, AI-generated visual asset for concept communication under the OpenAI Terms of Use published/effective 2026-01-01 (`https://openai.com/policies/terms-of-use/`). As between the user and OpenAI, the user owns Output and OpenAI assigns any rights it has in Output; the user remains responsible for Input rights and output may not be unique. No external image or third-party visual input was used for this cover. The current hashed cover is cleared for this competition submission, public repository/gallery display, and redistribution as part of the attributed package. This is not a legal opinion or a blanket grant for materially altered assets or unrelated downstream commercial reuse.
 
-该图作为项目自有的 AI 生成概念视觉资产使用，但仍受生成服务适用条款约束；它不是第三方摄影作品，也不是对既有项目图片的复制。公开或商业发布前，项目团队应保留本来源说明，并按赛事及发布渠道要求完成最终权利复核。
+该图依据 2026-01-01 发布/生效的 OpenAI Terms of Use（`https://openai.com/policies/terms-of-use/`）作为项目自有 AI 生成概念视觉资产使用。在用户与 OpenAI 之间，用户拥有 Output，OpenAI 将其在 Output 中拥有的权利转让给用户；用户仍负责 Input 权利，且输出可能不唯一。本封面未使用任何外部图片或第三方视觉输入。当前哈希封面已完成本赛事提交、公开仓库/画廊展示以及作为署名投稿包组成部分再分发的复核。本说明不构成法律意见，也不对实质变更后的资产或无关的下游商业复用作概括性授权。
 
 The image must not be used to substantiate site facts, dimensions, ownership, planning permissions, historical claims, environmental performance, implementation status, or public-consultation outcomes. Any apparent rail, landscape, building, person, or infrastructure is symbolic and machine-generated; factual claims must rely on separately cited, cleared sources and verified geometry.
 

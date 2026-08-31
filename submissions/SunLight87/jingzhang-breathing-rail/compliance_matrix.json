@@ -1103,7 +1103,7 @@
         "空间—产业融合与综合规划创新机制"
       ],
       "current_content_status": "package_artifacts_present_review_pending",
-      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成；当前包的 Imagegen、OpenStreetMap/OpenFreeMap 与字体条款、署名和再分发边界已登记闭环。官方数据、专业条件、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
       "evidence_files": [
         "visual/assets/regional-coordination-matrix.json",
         "geometry/phasing.geojson",
@@ -1176,11 +1176,12 @@
         "土地、空间、产业、资金、人才、算力、数据和场景资源机制"
       ],
       "current_content_status": "package_artifacts_present_review_pending",
-      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成；Agent 运行台账补充输入哈希、约束、55 个可行分配、6 个 Pareto 分配、3 个候选与 6 个负例拒绝。官方数据、专业条件、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
       "evidence_files": [
         "visual/assets/regional-coordination-matrix.json",
         "visual/assets/experiment-inputs.json",
         "visual/assets/experiment-run.json",
+        "visual/assets/agent-planning-run-ledger.json",
         "visual/assets/design-media-index.json",
         "assets/media/design/function-structure.webp",
         "assets/media/design/agent-decision-loop.webp"
@@ -1253,11 +1254,13 @@
         "小月河场景赋能翼及场景—空间—运营映射"
       ],
       "current_content_status": "package_artifacts_present_review_pending",
-      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成；三个代表节点的 90 天任务、角色、规划成本区间、时段/容量假设、基线、阈值与回滚已登记。官方数据、场地授权、专业条件、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
       "evidence_files": [
         "visual/assets/scenario-operations-matrix.json",
         "visual/assets/experiment-inputs.json",
         "visual/assets/experiment-run.json",
+        "visual/assets/agent-planning-run-ledger.json",
+        "visual/assets/pilot-readiness-matrix.json",
         "simulation.json",
         "geometry/phasing.geojson",
         "visual/assets/design-media-index.json",
@@ -1325,7 +1328,7 @@
         "可逆、无障碍、低扰动的空间组件库"
       ],
       "current_content_status": "package_artifacts_present_review_pending",
-      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成；当前包的生成媒体、公开底图和字体权利链已登记。官方数据、场地条件、专业复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
       "evidence_files": [
         "visual/assets/scenario-operations-matrix.json",
         "visual/assets/imagery-source-ledger.json",
@@ -1387,7 +1390,7 @@
         "历史、字体、图像、肖像和商标权利清单"
       ],
       "current_content_status": "package_artifacts_present_review_pending",
-      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成；当前包的图像、底图、字体来源与赛事提交/公开展示/再分发边界已登记闭环。历史、专业条件、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
       "evidence_files": [
         "visual/assets/scenario-operations-matrix.json",
         "visual/assets/imagery-source-ledger.json",
@@ -1450,9 +1453,11 @@
         "责任角色、输入输出、指标、人工兜底、退出和sunset"
       ],
       "current_content_status": "package_artifacts_present_review_pending",
-      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成；三个代表节点新增 90 天实施就绪矩阵，并与 STR RACI、Agent 运行台账和四阶段触发关系相连。真实运营主体、授权、专业复核、HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
       "evidence_files": [
         "visual/assets/str-raci-matrix.json",
+        "visual/assets/pilot-readiness-matrix.json",
+        "visual/assets/agent-planning-run-ledger.json",
         "geometry/phasing.geojson",
         "visual/assets/review-response-matrix.json",
         "visual/assets/design-media-index.json",

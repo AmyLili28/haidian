@@ -211,6 +211,111 @@
         "en": "The three formal core metrics are geometry-recomputed and match the data-value declarations; the manifest and new-asset registration are formed, while bilingual equivalence, offline loading, and PDF/figure consistency pass local gates; reviewer acceptance remains pending."
       },
       "status": "evidence_created"
+    },
+    {
+      "id": "scoped_media_rights_chain",
+      "problem": {
+        "zh": "生成媒体、公开底图和离线字体的来源、许可、输入边界及包内用途需要形成可逐项复核的权利链。",
+        "en": "Generated media, public basemaps, and offline fonts need an item-level rights chain covering provenance, licence, generation-input boundary, and in-package use."
+      },
+      "design_response": {
+        "zh": "以当前哈希包为范围登记 Imagegen 概念媒体、三张 Sentinel-2 场地约束输入及哈希、OpenFreeMap/OpenStreetMap 署名和 Noto Sans SC OFL 子集；Esri/Vantor 仅保留为不入包的本地人工合理性参考。",
+        "en": "Scope the review to the current hashed package and register Imagegen concept media, the three Sentinel-2 site-constrained inputs and hashes, OpenFreeMap/OpenStreetMap attribution, and the Noto Sans SC OFL subset; retain Esri/Vantor only as excluded local human reasonableness reference."
+      },
+      "target_files": [
+        "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design-media-rights.md",
+        "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/design-media-index.json",
+        "submissions/SunLight87/jingzhang-breathing-rail/sources.json",
+        "submissions/SunLight87/jingzhang-breathing-rail/report/copyright_statement.md"
+      ],
+      "acceptance_evidence": {
+        "zh": "公开包资产、输入哈希、许可或署名路径、用途限制和排除项已交叉登记；该范围化复核不构成法律意见，也不授权脱离当前包任意复用。",
+        "en": "Public-package assets, input hashes, licence or attribution paths, use limits, and exclusions are cross-registered; this scoped review is not legal advice and does not authorise unrestricted reuse outside the current package."
+      },
+      "status": "evidence_created"
+    },
+    {
+      "id": "qualitative_form_controls",
+      "problem": {
+        "zh": "功能结构图中曾出现未经控规、测绘或专业复核支持的精确层数区间，容易被误读为法定高度控制。",
+        "en": "The functional-structure figure previously used exact storey ranges unsupported by statutory planning, survey, or professional review, creating a false impression of formal height control."
+      },
+      "design_response": {
+        "zh": "删除精确层数，改用低中层连续基底、细颗粒微更新、站城界面渐进转化和节点受控增强等定性形态规则，并明确正式高度、强度与天际线待核。",
+        "en": "Remove exact storey counts and use qualitative form rules: continuous low-to-mid-rise base, fine-grain micro-renewal, incremental station-city adaptation, and controlled node emphasis; formal height, intensity, and skyline remain pending."
+      },
+      "target_files": [
+        "submissions/SunLight87/jingzhang-breathing-rail/assets/figures/land-use-structure.png",
+        "submissions/SunLight87/jingzhang-breathing-rail/assets/figures/land-use-structure.en.png"
+      ],
+      "acceptance_evidence": {
+        "zh": "中英图件不再出现 3—8、4—8、4—10 层等数值控制，形态语言与 proposal 的临时、非控规边界一致；正式控制仍待 HumanDecision 与专业资料。",
+        "en": "Neither bilingual figure carries numeric controls such as 3–8, 4–8, or 4–10 storeys; the qualitative language matches the proposal's provisional, non-statutory boundary, while formal controls still require HumanDecision and professional evidence."
+      },
+      "status": "evidence_created"
+    },
+    {
+      "id": "english_mobility_layout",
+      "problem": {
+        "zh": "英文交通—慢行—蓝绿图的五项策略说明发生叠压，影响评审阅读。",
+        "en": "The five strategy descriptions in the English mobility, active-travel, and blue-green figure overlap and impede review."
+      },
+      "design_response": {
+        "zh": "重排英文五项策略的标题、说明栏宽和行距，保持与中文版同一信息层级，并保留底部比例、接口与非水网声明。",
+        "en": "Reflow the five English move titles and descriptions with revised column widths and leading, preserve bilingual information hierarchy, and retain the ratio, interface, and no-invented-water-network boundaries."
+      },
+      "target_files": [
+        "submissions/SunLight87/jingzhang-breathing-rail/assets/figures/mobility-bluegreen.en.png"
+      ],
+      "acceptance_evidence": {
+        "zh": "英文五项说明逐项可读且互不叠压，页脚、图注和四枚底部标签完整；最终状态以重建后的逐图目检为准。",
+        "en": "All five English descriptions are readable without overlap, with footer, caption, and four bottom badges intact; final status is subject to visual inspection of the rebuilt figure."
+      },
+      "status": "evidence_created"
+    },
+    {
+      "id": "future_trigger_reclassification",
+      "problem": {
+        "zh": "manifest 把未来才触发的官方资料、专业深化和真实 HumanDecision 条件写成当前 known_blockers，与 ready_for_review 状态发生语义冲突。",
+        "en": "The manifest classified future-triggered official-input, professional-detailing, and real HumanDecision conditions as current known_blockers, conflicting semantically with ready_for_review."
+      },
+      "design_response": {
+        "zh": "把 known_blockers 清空，将三类条件按触发事件、责任角色和必做动作迁入 validation_claim.extensions.x-future-triggers；保留 data_confidence=low、临时空间 minor、HumanDecision=pending 与非审批边界。",
+        "en": "Clear known_blockers and move the three conditions into validation_claim.extensions.x-future-triggers with event, accountable role, and required action; retain data_confidence=low, provisional spatial minors, HumanDecision=pending, and the non-approval boundary."
+      },
+      "target_files": [
+        "submissions/SunLight87/jingzhang-breathing-rail/manifest.json",
+        "submissions/SunLight87/jingzhang-breathing-rail/self_check.json"
+      ],
+      "acceptance_evidence": {
+        "zh": "未来条件继续机器可读且不会被误写为已解决；当前包可进入本地正式门禁，但 reviewer acceptance、官方收件和实施许可仍需外部证据。",
+        "en": "Future conditions remain machine-readable and are not misrepresented as resolved; the current package may enter local formal gates, while reviewer acceptance, official receipt, and implementation authority still require external evidence."
+      },
+      "status": "evidence_created"
+    },
+    {
+      "id": "pilot_readiness_and_agent_ledger",
+      "problem": {
+        "zh": "三个代表节点缺少可比较的 90 天实施准备档案，Agent 在真实规划中的输入、约束、候选、淘汰和人工闸也缺少集中运行台账。",
+        "en": "The three representative nodes lack comparable 90-day readiness files, and the Agent's real-planning inputs, constraints, candidates, rejections, and human gate lack a consolidated run ledger."
+      },
+      "design_response": {
+        "zh": "新增 S01、S05、S03 的成本区间、容量假设、基线、验收、暂停/撤回和 RACI 矩阵，并以运行台账串联固定输入哈希、55 个可行分配、6 个 Pareto、3 个候选、6 个负例拒绝和 0 次坐标修改。",
+        "en": "Add S01, S05, and S03 planning-cost bands, capacity assumptions, baselines, acceptance, pause/withdrawal, and RACI profiles, plus a run ledger linking frozen input hashes, 55 feasible assignments, 6 Pareto assignments, 3 candidates, 6 rejected negatives, and 0 coordinate changes."
+      },
+      "target_files": [
+        "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/pilot-readiness-matrix.json",
+        "submissions/SunLight87/jingzhang-breathing-rail/visual/assets/agent-planning-run-ledger.json",
+        "submissions/SunLight87/jingzhang-breathing-rail/proposal.md",
+        "submissions/SunLight87/jingzhang-breathing-rail/proposal.en.md",
+        "submissions/SunLight87/jingzhang-breathing-rail/visual/index.html",
+        "submissions/SunLight87/jingzhang-breathing-rail/visual/index.en.html"
+      ],
+      "acceptance_evidence": {
+        "zh": "三个节点以同一字段结构可比较，Agent 运行事件可回放；成本是规划级区间、容量是待核假设，台账不证明报价、场地授权、模型优越、现场绩效、审批或 HumanDecision。",
+        "en": "The three nodes are comparable through one field structure and the Agent events are replayable; costs are planning bands and capacities are assumptions, while the ledger proves no quotation, site authorisation, model superiority, field performance, approval, or HumanDecision."
+      },
+      "status": "evidence_created"
     }
   ],
   "source_refs": [
