@@ -220,7 +220,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ## 蓝绿空间、公共空间与城市风貌
 
-蓝绿系统以链带为骨架：绿地率 18%（链带公园绿地＋两侧防护绿带＋A1 花园型公园），公共空间比例 1%（拉链头运营广场＋十齿广场），两值均由提交几何在 EPSG:4548 下独立可复算 [metric:green_ratio] [metric:public_space_ratio]。链带与十齿的公共空间组织由绿地图层与设计深度项共同校核 [depth:blue_green_public_space] [data:geometry/green_space.geojson#GREEN-001]。
+蓝绿系统以链带为骨架：绿地率 18%（链带公园绿地＋两侧防护绿带＋A1 花园型公园），公共空间比例 0.8%（精确复算值 0.008157，即约 93,094 m²；拉链头运营广场＋十齿广场），两值均由提交几何在 EPSG:4548 下独立可复算 [metric:green_ratio] [metric:public_space_ratio]。链带与十齿的公共空间组织由绿地图层与设计深度项共同校核 [depth:blue_green_public_space] [data:geometry/green_space.geojson#GREEN-001]。
 
 城市风貌执行"双态语法"：**平时（拉合）**——链带是日常公园，盖板齐平、机器人穿行、桥上观演；**纪念（拉开）**——盖板翻转露轨床、壁龛亮起露路基剖面、百机光阵拼出蒸汽光影列车。文保段执行"退让、收窄、绕行、借景"四原则；风貌控制区分官方管控、设计建议与待确认条件，不在无文保依据时给出伪精确控制线 [depth:height_massing_character] [source:AGENT-TASKBOOK]。
 
@@ -328,7 +328,7 @@ AI 朝圣地标（≥3，agent.4）：**全息火车道口**（Z-01 纪念态，
 | --- | --- | --- |
 | site_area_sqm | 11,412,825 m² | polygon_area(SITE-001)，EPSG:4548；与公告值 1140 万 m² 差约 0.1%（provisional 粗化误差） |
 | green_ratio | 18% | 绿地∩site / site |
-| public_space_ratio | 1% | 公共空间∩site / site |
+| public_space_ratio | 0.8%（0.008157） | 公共空间∩site / site |
 | green_axis_length_m | 9,716.12 m | length(ROAD-001) |
 | tooth_count | 10 | count(public_space.tooth_id) |
 | building_footprint_area_sqm | 2,588,396 m² | Σ建筑包络面积 |

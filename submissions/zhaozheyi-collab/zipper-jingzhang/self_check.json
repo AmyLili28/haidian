@@ -85,7 +85,7 @@
       "ai_package_stages": {
         "submissions/zhaozheyi-collab/zipper-jingzhang": "formal"
       },
-      "total_bytes": 30040302,
+      "total_bytes": 30073255,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -144,8 +144,8 @@
       "issues": [],
       "metrics_seen": {
         "site_area_sqm": 11412825.35,
-        "green_ratio": 0.18,
-        "public_space_ratio": 0.01
+        "green_ratio": 0.183154,
+        "public_space_ratio": 0.008157
       }
     },
     "stderr": ""

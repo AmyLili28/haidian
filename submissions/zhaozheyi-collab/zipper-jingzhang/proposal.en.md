@@ -220,7 +220,7 @@ The municipal strategy takes the Z-07 utility tunnel as its prototype: a short v
 
 ## Blue-Green Space, Public Space and Urban Character
 
-The blue-green system takes the Chain Band as its skeleton: green space ratio 18% (Chain Band park green space + protective green belts on both sides + A1 garden-type parks) and public space ratio 1% (Zipper Head operations plaza + Ten Teeth plazas), both recalculable independently from the submitted geometry under EPSG:4548 [metric:green_ratio] [metric:public_space_ratio]. The public-space organization of the Chain Band and the Ten Teeth is jointly checked against the green-space layer and the design-depth item [depth:blue_green_public_space] [data:geometry/green_space.geojson#GREEN-001].
+The blue-green system takes the Chain Band as its skeleton: green space ratio 18% (Chain Band park green space + protective green belts on both sides + A1 garden-type parks) and public space ratio 0.8% (exact recomputation 0.008157, about 93,094 m²; Zipper Head operations plaza + Ten Teeth plazas), both recalculable independently from the submitted geometry under EPSG:4548 [metric:green_ratio] [metric:public_space_ratio]. The public-space organization of the Chain Band and the Ten Teeth is jointly checked against the green-space layer and the design-depth item [depth:blue_green_public_space] [data:geometry/green_space.geojson#GREEN-001].
 
 Urban character follows the "two-state grammar": **everyday (zipped)** — the Chain Band is an everyday park, deck plates flush, robots passing through, performances on the bridges; **memorial (unzipped)** — deck plates flip to reveal the track bed, niches light up to expose the roadbed cross-section, and the hundred-drone light array forms a steam light-and-shadow train. The heritage segment follows the four principles of "setback, narrowing, detour and borrowed scenery"; character controls distinguish official controls, design suggestions and to-be-confirmed conditions, and no pseudo-precise control lines are given without a heritage-protection basis [depth:height_massing_character] [source:AGENT-TASKBOOK].
 
@@ -328,7 +328,7 @@ All known metrics are recalculated from the submitted geometry, with formulas, s
 | --- | --- | --- |
 | site_area_sqm | 11,412,825 m² | polygon_area(SITE-001), EPSG:4548; differs from the announced 11.40 million m² by about 0.1% (provisional coarsening error) |
 | green_ratio | 18% | green space ∩ site / site |
-| public_space_ratio | 1% | public space ∩ site / site |
+| public_space_ratio | 0.8% (0.008157) | public space ∩ site / site |
 | green_axis_length_m | 9,716.12 m | length(ROAD-001) |
 | tooth_count | 10 | count(public_space.tooth_id) |
 | building_footprint_area_sqm | 2,588,396 m² | Σ building envelope areas |

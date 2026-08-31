@@ -21,7 +21,7 @@
   },
   "green_ratio": {
    "status": "known",
-   "value": 0.18,
+   "value": 0.183154,
    "unit": "ratio",
    "source_files": [
     "geometry/green_space.geojson",
@@ -36,7 +36,7 @@
   },
   "public_space_ratio": {
    "status": "known",
-   "value": 0.01,
+   "value": 0.008157,
    "unit": "ratio",
    "source_files": [
     "geometry/public_space.geojson",
@@ -46,7 +46,8 @@
    "confidence": "low",
    "assumptions": [
     "provisional 粗略边界（official_boundary=false）：官方四至发布后必须全部重算（复算触发：brief/site-package/geometry 正式 SITE_BOUNDARY/KEY_AREA 发布）",
-    "公共空间=拉链头运营广场+十齿广场（10 个链齿节点）"
+    "公共空间=拉链头运营广场+十齿广场（10 个链齿节点）",
+    "R2 评审修正：比率精度由 2 位提升为 6 位（0.01 → 0.008157，约 0.8%）"
    ]
   },
   "building_footprint_area_sqm": {
