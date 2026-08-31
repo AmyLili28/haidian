@@ -63,7 +63,7 @@
       "path": "assets/figures/land-use-structure.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "9d8756b3c2b14f581e7cc1ce490d8e6becc2501106a1caa2c8e2c981efee8146",
+      "sha256": "7f900bd69a60531f982d9943e6a01adfaf537de0f985f60cfa3beafdda13398c",
       "language": "en",
       "translation_of": "assets/figures/land-use-structure.png"
     },
@@ -71,7 +71,7 @@
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "1427d2ff5c052644d9b029a2d7e985c859c34152311d13b6c97901df403a960e",
+      "sha256": "4cdecbb06f3c565f98376417fd45b0e8b0af30dcd1aed0f33acf9e2bbeb9e01d",
       "language": "zh"
     },
     {
@@ -246,7 +246,7 @@
       "path": "drawings/a0-boards.en.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "8ae2254897f668ca4ab3276cfc893c42760d338d327323f3165108624cea4eff",
+      "sha256": "bb563d9a6ddbca84bfda1757a33be8dc44839225d2afbcbdfa35de3e9b22cd34",
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf"
     },
@@ -254,14 +254,14 @@
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "2b2756a27a820a709d34e7ca9c93f515139db1d98827627d3e744c642da61c6f",
+      "sha256": "7945e4e8846f615ab47a73bfcdf26fe4c78a9e3dc75420b69b863d58302fa907",
       "language": "zh"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "b185d08a928c1a4533e18dd068df0887bf65a05078160775ed688f7000836fa8",
+      "sha256": "7f5eff076991feb35e3633dbef963fcecfaea01b98897070fba49317c71b9299",
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf"
     },
@@ -269,7 +269,7 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "c2816c4f5ed8c6a769397ef901c39def703cb525eccc3580c3407cd78112b89c",
+      "sha256": "055cec31f273718d52a26f4c1c2e95f4a13a3e3368d1b048382f066693b3fc52",
       "language": "zh"
     },
     {
@@ -330,7 +330,7 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "ca43341f609d3c2af048bda4109f6a82f8d47cac720c37c5950a22c2bd4977be"
+      "sha256": "362c26d7c62439a7d7bb6c90662bbdb2742efc0247bb7548bf7391062fe6f35d"
     },
     {
       "path": "proposal.en.md",
@@ -363,7 +363,7 @@
       "path": "report/proposal.en.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "b7abd0060b5b39cda397cfd79f66a41e8a65d40805fdf5c8ff52e7140974e53b",
+      "sha256": "f831c5962e99536bc35e54ed154d70cb1e80ad6bc8b79221ab7d97c63cd7aa8b",
       "language": "en",
       "translation_of": "report/proposal.html"
     },
@@ -371,14 +371,14 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "0690d44cd6a13a74fccf67d96cf23b54310e06fc39a2726647a06f06dbf476e0",
+      "sha256": "0a3fb5c9657d6df59b2f614156fce396449da166620d7c461159121e8bc3e1e1",
       "language": "zh"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "47693940a2949acc6b7224a623b613dc344093ee0be93253f36b4945e4dc2557"
+      "sha256": "3b8ab04d1c8884815020213f536178c4696dd717443eb4e54459671d54973c86"
     },
     {
       "path": "sources.json",
@@ -396,7 +396,7 @@
       "path": "visual/index.en.html",
       "role": "visualization",
       "required": true,
-      "sha256": "a5903203c8924f85564d0004f2018d429ce01b0508c775cface96e43c0975074",
+      "sha256": "7d3a3cca356f00670860f75ee747a7f9368003aded93aeca1fb0a2774587ed8b",
       "language": "en",
       "translation_of": "visual/index.html"
     },
@@ -404,7 +404,7 @@
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "f0694cd90eb318f1e25584cfa65ced9b503c543c80fa335c67776098aeed0503",
+      "sha256": "febeae72f38db993c7a0b7ec263f20b87623813c37ed33ca4a9a62dbc3a0726c",
       "language": "zh"
     }
   ],
