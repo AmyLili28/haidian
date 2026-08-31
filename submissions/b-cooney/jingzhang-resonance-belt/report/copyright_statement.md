@@ -15,7 +15,7 @@ spatial data, metrics, and expression.
 ## 字体 Fonts
 - Figures & PDFs (Chinese): WenQuanYi Zen Hei (GPL with font exception), subset-embedded in PDFs.
 - Figures/PDF (Latin): DejaVu Sans / Helvetica (standard).
-- HTML pages use the viewer's system fonts only (no remote fonts, no CDN).
+- HTML pages embed a subset of WenQuanYi Zen Hei as an offline @font-face data URI for reliable CJK rendering; no remote fonts, no CDN.
 
 ## 数据与来源 Data & sources
 - Provisional geometry derived from the maintainer-provided provisional boundary; not an

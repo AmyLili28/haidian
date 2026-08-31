@@ -73,6 +73,21 @@ Coordinated research adds no pseudo-precise redlines; through the coordination o
 
 Future-urban-form research answers how AI changes work, life, socializing, learning, transport, and public services: AI transport, continuous green space, innovation-service facilities, and an international live-work atmosphere are grounded as locatable districts, nodes, corridors, and scenarios rather than vague technology visions. The soundscape acts as a "perceptible public AI layer," turning abstract compute and models into a daily urban experience people can hear, linger in, and take part in. Industrial-strategy metrics, AI innovation index, talent density, and AI+ priority areas enter the metric system, distinguishing official, design-suggested, and to-be-calibrated values; all events, open scenarios, and pilgrimage routes are stated as "concept suggestions / reference schemes / material for professional deepening."
 
+### Three Areas, Two Wings & Regional Synergy
+
+The three areas and two wings form a synergy loop under the "Resonance Belt" framework: **Zhongzhiyuan · Prelude** carries full-stack independent innovation and standard governance; the **AI Origin Community · Chorus (合鸣·夜话)** carries near-campus translation and a youth community; **Dazhongsi · Coda** carries the intelligent-native economy and international exchange. The **Zhongguancun Technology-Service Wing** supplies IP, capital, and global factor sourcing; the **Xiaoyuehe Scenario-Empowerment Wing** delivers scenario enablement and urban vitality. Externally it coordinates with **Future Science City, Huairou Science City, the Beijing Economic-Technological Development Area, and the Jing-Jin-Ji region**, around six factor flows — talent, technology, compute, capital, scenario-validation, and international communication [source:AGENT-TASKBOOK] [depth:overall_spatial_structure] [data:geometry/public_space.geojson#PUBLIC-001]. All external collaboration is a conceptual synergy mechanism for professional deepening; unauthorized collaborations are notional, not settled arrangements.
+
+![Three Areas, Two Wings & Regional Synergy](assets/figures/regional-synergy.png)
+
+| Unit | Role | Main factor flows | Spatial carrier |
+| --- | --- | --- | --- |
+| Zhongzhiyuan · Prelude | Full-stack innovation / standards | talent, compute, standards | acceleration R&D band + Prelude node |
+| AI Origin Community · Chorus | Near-campus translation / youth community | results, talent, open-source | service core + night commons |
+| Dazhongsi · Coda | Intelligent-native economy / exchange | capital, content, data factors | transit commerce + Coda hall |
+| Zhongguancun Tech-Service Wing | IP / capital / global sourcing | capital, IP, factors | technology-service frontage |
+| Xiaoyuehe Scenario-Empowerment Wing | Scenario enablement / vitality | scenarios, compute, experience | scenario waterfront band |
+| Regional synergy (Future/Huairou Science City, BDA, Jing-Jin-Ji) | Research–industry–validation–comms | tech, scenario-validation, comms | conceptual collaboration channels |
+
 ## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
 
 The overall design area requires the urban-design depth of regulatory detailed planning: an overall renewal spatial structure, identification of underused space, a renewal-project list, implementation-policy proposals, and industrial-function organization and spatial modes [standard:MOHURD-CONTROL-DETAILED-PLANNING] [depth:land_use_layout]. `geometry/land_use.geojson` fully covers the design boundary with no gaps or overlaps (coverage recomputes to ~1.0), `geometry/buildings.geojson` expresses indicative renewal/retained footprints, `geometry/roads.geojson` expresses the slow-mobility spine and stitching connectors, and `metrics.json` recomputes core areas, ratios, and layer counts [data:geometry/land_use.geojson#LU-001] [data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm].

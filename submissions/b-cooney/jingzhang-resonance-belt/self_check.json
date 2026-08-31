@@ -26,6 +26,8 @@
         "submissions/b-cooney/jingzhang-resonance-belt/assets/figures/metrics-evidence.png",
         "submissions/b-cooney/jingzhang-resonance-belt/assets/figures/mobility-bluegreen.en.png",
         "submissions/b-cooney/jingzhang-resonance-belt/assets/figures/mobility-bluegreen.png",
+        "submissions/b-cooney/jingzhang-resonance-belt/assets/figures/regional-synergy.en.png",
+        "submissions/b-cooney/jingzhang-resonance-belt/assets/figures/regional-synergy.png",
         "submissions/b-cooney/jingzhang-resonance-belt/assets/figures/site-overview.en.png",
         "submissions/b-cooney/jingzhang-resonance-belt/assets/figures/site-overview.png",
         "submissions/b-cooney/jingzhang-resonance-belt/assumptions.json",
@@ -61,7 +63,7 @@
       "ai_package_stages": {
         "submissions/b-cooney/jingzhang-resonance-belt": "formal"
       },
-      "total_bytes": 4485710,
+      "total_bytes": 5478037,
       "maintainer_bypass": false
     },
     "stderr": ""
