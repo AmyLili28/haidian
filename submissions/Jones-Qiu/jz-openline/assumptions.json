@@ -21,9 +21,9 @@
     },
     {
       "id": "A-PARK-005",
-      "status": "pending_source_registration",
-      "statement": "Background fact 'heritage park phase II opened 2026-08, ~9km, serving ~70 communities / ~450k residents' is cited from public news memory and not yet registered with a licensed source.",
-      "impact": "Must be registered into sources.json with a verified public source before it can support formal scoring arguments."
+      "status": "verified_background_sources_registered",
+      "statement": "The 2026-08-06 Phase-II opening, 9 km corridor, 70-community and approximately 450,000-resident figures are registered as attributed background facts in PARK-OPEN-CNR-20260806 and cross-checked against the earlier official-source planning report PARK-PLAN-HAIDIAN-20240920.",
+      "impact": "These figures may explain the public-use context only. They do not establish an official boundary, precise design area, engineering acceptance, service performance or government commitment."
     },
     {
       "id": "A-IMPLEMENTATION-006",
@@ -48,6 +48,18 @@
       "status": "standing_disclaimer",
       "statement": "Project Record, Scenario Verification Card, Run Receipt, City Changelog, and Delivery Card are design-review objects. They do not confer administrative permission or access rights.",
       "impact": "The package keeps a clear distinction between an auditable design stage gate and any future statutory approval or procurement process."
+    },
+    {
+      "id": "A-REGIONAL-009",
+      "status": "concept_interfaces_only",
+      "statement": "The external regional coordination diagram describes potential two-way interfaces with Zhongguancun AI Beiwei Community, Future Science City, Huairou Science City, Beijing E-Town and the Beijing-Tianjin-Hebei region. It records no existing JZ OPENLINE agreement, shared program, data access, facility access, procurement, investment, recruitment or government commitment.",
+      "impact": "Every regional arrow is a proposal for future discussion. Any real exchange requires a named counterpart, authorization, data/rights review, operating responsibility and a separately approved implementation instrument."
+    },
+    {
+      "id": "A-CASES-010",
+      "status": "source_bounded_case_research",
+      "statement": "The seven global comparisons are limited to mechanisms explicitly described by the registered case-owner or government sources. They are not independent performance evaluations, complete city profiles or evidence that the same mechanism will work in Haidian.",
+      "impact": "Case lessons may form design hypotheses only; transfer to JZ OPENLINE remains subject to local evidence, professional review and the proposal's reversible stage gates."
     }
   ]
 }

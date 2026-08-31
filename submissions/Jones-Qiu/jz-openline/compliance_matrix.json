@@ -8,6 +8,7 @@
       "report_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
+        "外部区域创新协同：五类概念接口，不是既有合作",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计"
       ],
@@ -32,6 +33,7 @@
       ],
       "visual_sections": [
         "总览地图",
+        "外部区域创新协同：五类概念接口",
         "任务覆盖",
         "核心指标"
       ],
@@ -42,10 +44,16 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "REGION-AI-BEIWEI",
+        "REGION-FUTURE-SCIENCE-CITY",
+        "REGION-HUAIROU-SCIENCE-CITY",
+        "REGION-BEIJING-ETOWN",
+        "REGION-BTH-INNOVATION"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-REGIONAL-009"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -61,6 +69,8 @@
       "report_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
+        "全球案例研究:研究机制,不研究造型",
+        "外部区域创新协同：五类概念接口，不是既有合作",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计"
       ],
@@ -85,6 +95,7 @@
       ],
       "visual_sections": [
         "总览地图",
+        "外部区域创新协同：五类概念接口",
         "任务覆盖",
         "核心指标"
       ],
@@ -95,10 +106,19 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "CASE-ONE-NORTH-JTC",
+        "CASE-SEOUL-PHYSICAL-AI",
+        "CASE-MARS",
+        "CASE-VECTOR",
+        "CASE-MILA-VENTURES",
+        "CASE-PARIS-SACLAY-PUI",
+        "CASE-KENDALL-CAMBRIDGE",
+        "CASE-LONDON-KQ"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-CASES-010"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -909,6 +929,7 @@
       "report_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
+        "外部区域创新协同：五类概念接口，不是既有合作",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计"
       ],
@@ -933,6 +954,7 @@
       ],
       "visual_sections": [
         "总览地图",
+        "外部区域创新协同：五类概念接口",
         "任务覆盖",
         "核心指标"
       ],
@@ -943,10 +965,16 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "REGION-AI-BEIWEI",
+        "REGION-FUTURE-SCIENCE-CITY",
+        "REGION-HUAIROU-SCIENCE-CITY",
+        "REGION-BEIJING-ETOWN",
+        "REGION-BTH-INNOVATION"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-REGIONAL-009"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -962,6 +990,8 @@
       "report_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
+        "全球案例研究:研究机制,不研究造型",
+        "外部区域创新协同：五类概念接口，不是既有合作",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计"
       ],
@@ -986,6 +1016,7 @@
       ],
       "visual_sections": [
         "总览地图",
+        "外部区域创新协同：五类概念接口",
         "任务覆盖",
         "核心指标"
       ],
@@ -996,10 +1027,19 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "CASE-ONE-NORTH-JTC",
+        "CASE-SEOUL-PHYSICAL-AI",
+        "CASE-MARS",
+        "CASE-VECTOR",
+        "CASE-MILA-VENTURES",
+        "CASE-PARIS-SACLAY-PUI",
+        "CASE-KENDALL-CAMBRIDGE",
+        "CASE-LONDON-KQ"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-CASES-010"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",

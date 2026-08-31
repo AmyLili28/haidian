@@ -22,14 +22,16 @@ The central question of **JZ OPENLINE** is not "how to build an AI innovation be
 
 Our answer: turn the entire Jing-Zhang corridor into an **urban validation line** that AI must pass through before entering the real city — a Global AI Civic Innovation & Validation Corridor (concept proposal for further professional development; not statutory planning).
 
+**Canonical naming:** the Chinese primary name is fixed as **京张共智线**, the brand is fixed as **JZ OPENLINE**, and the English descriptive subtitle is fixed as **Jing-Zhang Shared-Intelligence Line**. “Open-mechanism layer” below explains the OPENLINE attribute; it is not a second project title. “Open Line,” “Shared Intelligence Line,” and “Co-Intelligence Line” are not used as interchangeable names.
+
 **LINE carries four meanings:**
 
 | Layer | Meaning | Spatial counterpart |
 | --- | --- | --- |
 | Rail Line | The railway since 1909 | Heritage structures and engineering remains |
-| Green Line | Today's 9 km urban park | Jing-Zhang Railway Heritage Park |
+| Green Line | Today's open 9 km urban park [source:PARK-OPEN-CNR-20260806] | Jing-Zhang Railway Heritage Park |
 | Innovation Line | Lab-to-market innovation chain | Three districts and two wings |
-| Open Line | Open source, open science, open testing, open city | All public mechanisms |
+| Open-mechanism layer | Open source, open science, open testing, open city | All public mechanisms; not a second project title |
 
 **Spatial formula (concept): 1 LINE + 3 ENGINES + 2 WINGS + 9 INTERFACES + N STATIONS + 1 LOOP**
 
@@ -42,7 +44,7 @@ Our answer: turn the entire Jing-Zhang corridor into an **urban validation line*
 **Operating rules (governance narrative throughout):**
 
 - Transformation cycle: **CREATE → VERIFY → LAUNCH → ADOPT → SCALE → RETURN** (university research → Origin co-creation → Zhongzhiyuan verification → public trial in the park → Dazhongsi launch → capital support → city adoption → data feedback; failures exit, successes scale).
-- Public rule: **PEOPLE FIRST** — the park belongs first to the daily life of ~450,000 residents, then to the AI innovation belt.
+- Public rule: **PEOPLE FIRST** — the park belongs first to the daily life of ~450,000 residents, then to the AI innovation belt [source:PARK-OPEN-CNR-20260806].
 - Implementation rule: **TEST SMALL · PROVE VALUE · SCALE CAREFULLY · ROLLBACK FAST**.
 - Governance rule: **NO EXIT, NO ENTRY** — a scenario without an exit mechanism may not enter the city. The enforcement layer is a **double gate**: **NO ENTRY = qualification gate + registration gate** (a scenario must pass verification at the TEST ground, and pre-register in the decommissioning registry its exit plan, site-restoration standard, and named responsible person — no registration, no entry); **NO EXIT = exit audit + triple restoration receipt** (upon exit, publish three receipts — data deletion, site restoration, grievance resolution — permanently logged in the CITY CHANGELOG). Every ring transition carries gate conditions: CREATE→VERIFY requires a registered data boundary and a named human owner; VERIFY→LAUNCH requires meeting the scenario card's pass threshold; LAUNCH→ADOPT requires observed real users; ADOPT→SCALE requires independent review; any stop condition triggers RETURN. Before the first opening zone (URBAN SERVICE HUB Dazhongsi main station) goes live, a full exit drill will be run and its runbook published with the annual version.
 
@@ -95,19 +97,35 @@ Depth items [depth:three_level_scope_framework] and [depth:overall_spatial_struc
 
 ### Global cases: study mechanisms, not shapes
 
-We study "by what institutional and spatial mechanisms research becomes companies and city products," not whose buildings look coolest. Seven cases (concept research; no official evaluation of any city):
+We study the institutional and spatial mechanisms by which research becomes companies and city products, rather than architectural imagery. The seven cases below extract only mechanisms stated by their operators or public authorities. They are neither complete evaluations of those cities nor proof that the same mechanism will work in Haidian. Case-by-case sources and use boundaries are recorded below and in `sources.json` [source:CASE-ONE-NORTH-JTC] [source:CASE-LONDON-KQ].
 
-| Case | Mechanism most worth learning |
-| --- | --- |
-| Singapore one-north | Work-Live-Play-Learn + Living Lab + incubator/accelerator/VC co-location |
-| Seoul Yangjae AI (Physical AI Belt direction) | The city itself as a Physical AI testbed, not just offices |
-| Toronto MaRS + Vector | Translation system among basic research, enterprise, health industry, ventures, capital |
-| Montreal Mila | "Researcher → founder": training, acceleration, venture creation, funding as one chain |
-| Paris-Saclay | Big-science facilities, universities, firms, startups, and urban space as one ecology |
-| Kendall Square | Innovation districts need more than labs; public space, housing, retail, walkability retain talent |
-| London Knowledge Quarter | Universities, research, culture, tech firms, and local government co-operating a district via alliance — the closest governance reference for Haidian |
+| Case | Verified mechanism | Research hypothesis for Jing-Zhang | Source and use boundary |
+| --- | --- | --- | --- |
+| Singapore one-north / LaunchPad | Startups co-locate with incubators, accelerators and venture capital, while estate facilities support testbedding | Include the place operator as both test host and feedback organiser, beginning with small reversible pilots | [source:CASE-ONE-NORTH-JTC]; mechanism reference only—no claim of partnership, equal performance or transfer agreement |
+| Seoul Yangjae–Suseo Physical AI Belt | The city proposal connects AI R&D in Yangjae with real-world robot validation in Suseo and frames the city as a testbed | ORIGINATE / TEST / ADOPT must be connected by explicit migration gates; a city cannot offer offices alone | [source:CASE-SEOUL-PHYSICAL-AI]; planned facilities are not described as fully delivered and incentives are not copied |
+| Toronto MaRS + Vector | MaRS organises ventures, space and technology adoption; Vector connects AI research, talent and industry adoption | Separate research support from city adoption as auditable roles, joined by run receipts | [source:CASE-MARS] [source:CASE-VECTOR]; the two institutions are not presented as a single merged operator |
+| Montreal Mila | Its official material describes venture support that translates AI research into companies | Add researcher-to-founder capability building at ORIGINATE without presuming company output | [source:CASE-MILA-VENTURES]; reported figures are not Jing-Zhang targets or independent performance conclusions |
+| Paris-Saclay PUI | A university-led cluster connects universities, research bodies, transfer organisations, and public/private partners for technology transfer and company creation | Organise cross-institution work through shared questions, role lists and impact review—without inventing unified land or administrative authority | [source:CASE-PARIS-SACLAY-PUI]; governance and translation mechanism reference only |
+| Kendall Square | The City of Cambridge describes a research/technology cluster coexisting with housing, hotels, restaurants, shops and other urban support | Observe daily life and innovation space together; do not turn the park into an industry showroom | [source:CASE-KENDALL-CAMBRIDGE]; no claim that mixed use alone causes talent retention |
+| London Knowledge Quarter | A membership alliance connects research, business and culture around collaboration, place and inclusion | The three districts and two wings may convene issue-based collaboration tables, but an alliance is not a statutory planning or approval body | [source:CASE-LONDON-KQ]; no claim of partnership or transferred governance authority |
 
-Haidian's real differentiation is not "we also have AI firms" but the overlap of **rare research density + university density + Zhongguancun startup culture + a 9 km century-old railway park**. Hence the ecology model **Research → Commons → Venture → City**: research enters a public innovation commons, spins out ventures, then enters the real city — and the city is not the end but the validation-and-feedback stage [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+Haidian's real differentiation is not "we also have AI firms" but the overlap of **rare research density + university density + Zhongguancun startup culture + an open 9 km century-old railway public space** [source:PARK-OPEN-CNR-20260806]. Hence the ecology model **Research → Commons → Venture → City**: research enters a public innovation commons, spins out ventures, then enters the real city — and the city is not the end but the validation-and-feedback stage [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+### External regional innovation coordination: five conceptual interfaces, not existing partnerships
+
+![External regional innovation coordination: five conceptual interfaces and responsibility boundaries](assets/figures/regional-collaboration.en.png)
+
+The figure and table respond to the taskbook's regional-coordination requirement. **Every arrow is a bidirectional conceptual interface for discussion**. It does not mean JZ OPENLINE has signed agreements, obtained data, opened facilities, arranged investment attraction, or secured government commitments [source:AGENT-TASKBOOK].
+
+| External node | Role confirmed by public material | Potential bidirectional interface | Shared value | Evidence and responsibility boundary |
+| --- | --- | --- | --- | --- |
+| Zhongguancun AI Beiwei Community | Incubation, shared technical services, scenario application, product launch and talent community | Beiwei may contribute early-team/product validation questions; Jing-Zhang may return anonymised city problem sets, run receipts and exit reviews | Reduce the break between incubation and city adoption, while bringing real demand into venture support earlier | [source:REGION-AI-BEIWEI]; no existing partnership, company referral, space or funding commitment; future work requires named operators and separate authorisation |
+| Future Science City | Basic research, strategic science capacity, talent concentration and research translation platform | Research prototypes and scientific questions may enter Jing-Zhang's low-risk urban validation backlog; Jing-Zhang may return public-service needs and adoption barriers | Add an urban-problem entry point for basic research and a cross-disciplinary upstream supply for Jing-Zhang | [source:REGION-FUTURE-SCIENCE-CITY]; no assumption that laboratories, people, outputs or data are open to this project |
+| Huairou Science City | AI for Science, major science facilities, scientific-data governance and research-to-industry translation | Huairou may provide authorised methods or candidate tools; Jing-Zhang may contribute adoption and exit questions from low-risk public settings | Complement evidence that a facility/model works with evidence that a city service can adopt it | [source:REGION-HUAIROU-SCIENCE-CITY]; no authorisation of facilities, research data, compute or a joint laboratory is implied |
+| Beijing E-Town | City-scale engineering experiments, test–verification–deployment, pilot production and industrial application | E-Town may receive mature candidates needing engineering/pilot production; Jing-Zhang may add human-centred evidence on public-space adoption, complaints, human takeover and restoration | Validate engineering maturity and public adoption separately before scaling | [source:REGION-BEIJING-ETOWN]; no procurement, manufacturing, subsidy, scenario allocation or industrialisation commitment |
+| Beijing–Tianjin–Hebei | Policy calls for cross-regional scientific-intelligence collaboration and common-technology research | Subject to separate authorisation in each place, the Urban Scenario Validation Toolkit may compare different city contexts and version the differences back into the toolkit | Create a reusable cross-regional learning loop without pretending it is one uniform standard | [source:REGION-BTH-INNOVATION]; JZ OPENLINE is neither an official standard issuer nor an approved regional pilot network |
+
+**Common gates before any real collaboration:** named counterpart organisations, written bilateral authorisation, data and IP boundaries, responsibility/insurance/safety arrangements, an exitable work package, and publicly auditable results. If any item is absent, the interface remains `concept_only` [source:REGION-BTH-INNOVATION].
 
 ### JZ URBAN EVIDENCE STACK (method design; data pending licensing)
 
@@ -231,7 +249,7 @@ AI is not a screen. AI can be five minutes less detour, twenty minutes less queu
 
 ## Jing-Zhang Heritage Park: Four Overlaid Lines, Nine Interfaces, and the Urban Service Hub
 
-An unverified public-news lead describes a possible Phase-II opening in August 2026, a ~9 km linear public space, and service to ~70 communities / ~450,000 residents (pending primary-source registration; not formal evidence). **This is not a blank site to redesign**: until the park inventory is verified, treat daily public life as the safeguarding priority, and only then layer an AI innovation belt. Design principle: **90% stays quiet, 10% high-intensity innovation nodes** — no LED strip along the whole line.
+CNR reported on 6 August 2026 that Phase II of the Jing-Zhang Railway Heritage Park had officially opened, forming a 9 km linear public space directly serving 70 communities and about 450,000 residents; a 2024 Haidian government report provides a pre-construction cross-check of the same scope [source:PARK-OPEN-CNR-20260806] [source:PARK-PLAN-HAIDIAN-20240920]. These figures are **background for public-life priority only**; they do not establish an official project boundary, precise design area, engineering acceptance, or operating performance. **This is not a blank site to redesign**: until the park inventory is field-verified, protect everyday public life first and only then layer an AI innovation belt. Design principle: **90% stays quiet, 10% high-intensity innovation nodes** — no LED strip along the whole line.
 
 **Four overlaid lines on one railway:**
 
@@ -317,7 +335,7 @@ Building scale and intensity figures must agree with `metrics.json` and the laye
 
 Transport answers station-integration, road micro-circulation, slow-mobility gaps, external links, parking, non-motorized parking, and green-transport requirements — focusing on the North 5th Ring, park crossing nodes, Wudaokou, Qinghua East Road West, Dazhongsi station, and key-enterprise surroundings. Road and slow-mobility layers stay within the submission boundary and cross-check against public space, green space, industry nodes, and key areas; while the boundary is provisional, transport conclusions remain temporary design discussion. Depth: [depth:traffic_rail_slow_parking] and [depth:municipal_new_infrastructure]; evidence: [data:geometry/roads.geojson#ROAD-001], [data:geometry/public_space.geojson#PUBLIC-001], [data:geometry/constraints.geojson#CONSTRAINT-001].
 
-Our transport specialty is turning "more east-west links" from slogan into computation: the **East-West Barrier Index** (straight-line vs actual walking distance, detour time, crossing waits, entrance density, cycling continuity, metro-to-park access) finds where stitching is truly needed — and that is where the 9 interfaces land (method declared; computation upon data arrival). This is complementary-opposite to the "unified observation cross-section" baseline idea: a baseline solves north-south comparability, the Barrier Index solves east-west accessibility — a 9 km narrow belt poses two directional problems that need two toolsets.
+Our transport specialty is turning "more east-west links" from slogan into computation: the **East-West Barrier Index** (straight-line vs actual walking distance, detour time, crossing waits, entrance density, cycling continuity, metro-to-park access) finds where stitching is truly needed — and that is where the 9 interfaces land (method declared; computation upon data arrival). This is complementary-opposite to the "unified observation cross-section" baseline idea: a baseline solves north-south comparability, the Barrier Index solves east-west accessibility — the publicly reported 9 km narrow belt poses two directional problems that need two toolsets [source:PARK-OPEN-CNR-20260806].
 
 ![Transport, slow mobility, and blue-green compound system](assets/figures/mobility-bluegreen.png)
 

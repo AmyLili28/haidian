@@ -22,14 +22,16 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 我们的回答:让整条京张成为 AI 进入真实城市之前必须经过的一条**城市验证线**——全球 AI 城市转化与验证走廊(概念建议,供专业团队深化研究,不替代法定规划)。
 
+**唯一规范命名:** 中文主名称固定为**京张共智线**，品牌名固定为 **JZ OPENLINE**，英文描述性副标题固定为 **Jing-Zhang Shared-Intelligence Line**。下文“开放机制层”仅解释 OPENLINE 的开放属性，不作为第二个项目名称；不再交替使用“开放线”“共享情报线”或“共同情报线”。
+
 **OPENLINE 的 LINE 有四层含义:**
 
 | 层 | 含义 | 空间对应 |
 | --- | --- | --- |
 | Rail Line | 1909 年以来的铁路 | 遗址本体与工程遗存 |
-| Green Line | 今天 9 公里城市公园 | 京张铁路遗址公园活力带 |
+| Green Line | 今天已开放的 9 公里城市公园 [source:PARK-OPEN-CNR-20260806] | 京张铁路遗址公园活力带 |
 | Innovation Line | 从实验室到市场的创新链 | 三区两翼产业空间 |
-| Open Line | 开源、开放科学、开放测试、开放城市 | 全部公共机制 |
+| 开放机制层 | 开源、开放科学、开放测试、开放城市 | 全部公共机制；不是项目第二名称 |
 
 **空间结构公式(概念建议):1 LINE + 3 ENGINES + 2 WINGS + 9 INTERFACES + N STATIONS + 1 LOOP**
 
@@ -42,7 +44,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 **运行规则(治理叙事,贯穿全方案):**
 
 - 转化六环:**CREATE → VERIFY → LAUNCH → ADOPT → SCALE → RETURN**(大学提出技术 → AI 原点共创 → 众智园验证 → 京张公园公共试用 → 大钟寺首发 → 资本支持 → 城市采用 → 数据反馈;失败就退出,成功再推广)。
-- 公共规则:**PEOPLE FIRST**——公园首先是 45 万居民的日常,然后才是 AI 创新带。
+- 公共规则:**PEOPLE FIRST**——公园首先是约 45 万居民的日常,然后才是 AI 创新带 [source:PARK-OPEN-CNR-20260806]。
 - 实施规则:**TEST SMALL · PROVE VALUE · SCALE CAREFULLY · ROLLBACK FAST**。
 - 治理规则:**NO EXIT, NO ENTRY**——没有退出机制的场景,不得进入城市。执行层是**双闸**:**NO ENTRY = 资格闸 + 登记闸**(场景须在 TEST 试验场通过验证,并在退役登记簿预先登记退出方案、场地复原标准与具名责任人,未登记不进场);**NO EXIT = 退出审计 + 复原三联回执**(退出时公开数据删除、场地复原、申诉处理三项回执,进入 CITY CHANGELOG 永久留痕)。六环迁移均带门禁条件:CREATE→VERIFY 须登记数据边界与人工责任人;VERIFY→LAUNCH 须达到场景卡通过阈值;LAUNCH→ADOPT 须完成真实用户观察;ADOPT→SCALE 须独立复核;任何一环触发停止条件即 RETURN。首开区(URBAN SERVICE HUB 大钟寺主站)落地前将进行一次完整退出演练,runbook 随年度版本公开。
 
@@ -95,19 +97,35 @@ JZ OPENLINE 看起来超前,但不从空中落下。它把四种可以在历史�
 
 ### 全球案例研究:研究机制,不研究造型
 
-我们不研究"谁的建筑最酷",而研究"科研到底通过什么制度和空间机制变成企业与城市产品"。七个案例(概念研究,来源与取用状态见 `sources.json` 与 assumptions;不构成对任何城市的官方评价):
+我们不研究"谁的建筑最酷",而研究"科研到底通过什么制度和空间机制变成企业与城市产品"。七个案例仅提取已由案例运营者或政府页面明确说明的机制；它们不是完整城市评价，也不证明同一机制在海淀必然有效。逐案来源和用途边界见下表及 `sources.json` [source:CASE-ONE-NORTH-JTC] [source:CASE-LONDON-KQ]。
 
-| 案例 | 海淀最值得学的机制 |
-| --- | --- |
-| Singapore one-north | Work-Live-Play-Learn + Living Lab + 孵化器/加速器/VC 共存生态 |
-| Seoul Yangjae AI(Physical AI Belt 方向) | 把城市直接作为 Physical AI 测试平台,而不只是建办公室 |
-| Toronto MaRS + Vector | 基础研究、企业合作、健康产业、创业与资本之间的转化体系 |
-| Montreal Mila | "研究者→创业者":培训、加速、venture creation 与融资一条链 |
-| Paris-Saclay | 大科学设施、大学、企业、创业公司与城市空间共同构成创新生态 |
-| Kendall Square | 创新区不能只有实验室;公共空间、住宅、商业和可步行环境决定人才去留 |
-| London Knowledge Quarter | 大学、研究、文化机构、科技公司与地方政府以联盟共同运营城区——最接近海淀的治理参照 |
+| 案例 | 已核实机制 | 转译为京张的研究假设 | 来源与使用边界 |
+| --- | --- | --- | --- |
+| Singapore one-north / LaunchPad | 初创企业与孵化器、加速器、VC 共址，并以园区设施开展 testbedding | 把空间运营方纳入“测试载体+反馈组织者”，但先从小尺度可逆试验开始 | [source:CASE-ONE-NORTH-JTC]；只学机制，不声称合作、绩效等同或移植协议 |
+| Seoul Yangjae–Suseo Physical AI Belt | 官方方案把 Yangjae 的 AI 研发与 Suseo 的机器人实景验证相连，并提出城市级 testbed | ORIGINATE / TEST / ADOPT 三引擎之间须有明确迁移门，城市不能只提供办公室 | [source:CASE-SEOUL-PHYSICAL-AI]；规划中的设施不写成已全部建成，亦不复制激励政策 |
+| Toronto MaRS + Vector | MaRS 组织创业、空间与技术采用；Vector 连接 AI 研究、人才与产业采用 | 把“研究支持”和“城市采用”分成可审计角色，再用运行回执衔接 | [source:CASE-MARS] [source:CASE-VECTOR]；两机构并非被表述为一个合并运营主体 |
+| Montreal Mila | 官方资料说明其以创业支持把 AI 研究转化为企业 | 在 ORIGINATE 阶段加入研究者到创业者的能力转换，而不预设公司产出 | [source:CASE-MILA-VENTURES]；报道数字不作为京张目标或独立绩效结论 |
+| Paris-Saclay PUI | 大学牵头连接高校、科研机构、转移组织和公共/私人伙伴，覆盖技术转移与企业创建 | 以“共同议题+角色清单+影响复盘”组织跨机构协作，不虚构统一土地或行政权 | [source:CASE-PARIS-SACLAY-PUI]；只作治理与转化机制参照 |
+| Kendall Square | 市政府页面确认科研/科技集群与住宅、酒店、餐饮、商店等城市支持功能并存 | 人才城区需把日常生活和创新空间同时纳入观察，不把公园只当产业展厅 | [source:CASE-KENDALL-CAMBRIDGE]；不宣称混合功能单独导致人才留存 |
+| London Knowledge Quarter | 成员联盟连接研究、商业、文化，并把协作、场所和包容列为共同议题 | 三区两翼可设议题型协作桌，但不把联盟当成法定规划或审批主体 | [source:CASE-LONDON-KQ]；不声称合作或移交治理权 |
 
-海淀真正的差异化不是"我们也有 AI 企业",而是**全球罕见的科研密度 + 高校密度 + 中关村创业文化 + 9 公里百年铁路公共空间**四者叠加。因此本方案提出的生态模型是 **Research → Commons → Venture → City**:科研进入公共创新共同体(Commons),再产生企业(Venture),再进入真实城市(City)——城市不是终点,而是验证与反哺环节 [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]。
+海淀真正的差异化不是"我们也有 AI 企业",而是**科研、高校、中关村创业文化与已开放的 9 公里百年铁路公共空间**四者叠加 [source:PARK-OPEN-CNR-20260806]。因此本方案提出的生态模型是 **Research → Commons → Venture → City**:科研进入公共创新共同体(Commons),再产生企业(Venture),再进入真实城市(City)——城市不是终点,而是验证与反哺环节 [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]。
+
+### 外部区域创新协同：五类概念接口，不是既有合作
+
+![外部区域创新协同关系：五类概念接口与责任边界](assets/figures/regional-collaboration.png)
+
+下图与表响应任务书的区域创新协同要求。**所有箭头均为待讨论的双向概念接口**，不表示 JZ OPENLINE 已与相关地区签约、共享数据、开放设施、安排招商或取得政府承诺 [source:AGENT-TASKBOOK]。
+
+| 外部节点 | 公开资料确认的角色 | 可讨论的双向接口 | 共同价值 | 证据与责任边界 |
+| --- | --- | --- | --- | --- |
+| 中关村 AI 北纬社区 | 孵化、共享技术服务、场景应用、产品首发与人才社区 | 北纬社区可提出早期团队/产品验证问题；京张可回传匿名化城市问题集、运行回执与退出复盘 | 减少“孵化完成—城市不会用”的断点，并让真实需求更早进入创业辅导 | [source:REGION-AI-BEIWEI]；无现成合作、企业导流、空间或资金承诺，未来由双方具名运营主体另行授权 |
+| 未来科学城 | 基础研究、战略科技力量、人才集聚与成果转化主平台 | 研究原型和科学问题可进入京张的低风险城市验证题库；京张可回传公共服务需求与采用障碍 | 为基础研究增加城市问题入口，为京张增加跨学科上游供给 | [source:REGION-FUTURE-SCIENCE-CITY]；不推定实验室、人才、成果或数据向本项目开放 |
+| 怀柔科学城 | AI for Science、大科学装置、科学数据治理和研究—产业转化 | 怀柔可提供经授权的研究方法/候选工具；京张可提供低风险公共场景中的采用与退出问题 | 让“设施/模型可用”与“城市服务可采用”形成两种互补证据 | [source:REGION-HUAIROU-SCIENCE-CITY]；不代表装置、科研数据、算力或联合实验室已获授权 |
+| 北京经开区 | 城市级工程实验、测试—验证—推广、中试与产业应用 | 经开区可承接需工程化/中试的成熟候选；京张可补充以人为本的公共空间采用、投诉、人工接管与复原证据 | 工程成熟度和公共采用度分工验证，减少过早规模化 | [source:REGION-BEIJING-ETOWN]；不构成采购、制造、补贴、场景配给或产业化承诺 |
+| 京津冀 | 政策提出跨区域科学智能协同与共性技术攻关 | 经各地分别授权后，可用《城市场景验证工具包》比较不同城市语境，并把差异反馈为工具包版本 | 形成可复用而不伪装成统一标准的跨区域学习回路 | [source:REGION-BTH-INNOVATION]；JZ OPENLINE 不是官方标准发布者，也不是已批准的区域试点网络 |
+
+**进入真实协作的共同前置门:** 具名对口单位、双方书面授权、数据和知识产权边界、责任/保险/安全安排、可退出的工作包、公开可审计结果。任一项缺失，接口保持 `concept_only` [source:REGION-BTH-INNOVATION]。
 
 ### JZ URBAN EVIDENCE STACK:五层城市证据栈(方法设计,数据待授权接入)
 
@@ -231,7 +249,7 @@ AI 不是屏幕。AI 可以是少绕 5 分钟路、少排 20 分钟队、老人�
 
 ## 京张遗址公园:四线叠合、九接口与城市服务枢纽
 
-一条尚未完成主来源登记的公开新闻线索称,遗址公园二期可能于 2026 年 8 月开放,形成约 9 公里带状公共空间,服务约 70 个社区、45 万居民(待主来源核验,不作为正式证据)。**绝不能按空地重新设计**:在公园清单核验前,先把日常公共生活作为保护优先级,再叠加 AI 创新带。设计原则:**90% 保持安静,10% 高强度创新节点**,不一路 LED 屏。
+央广网 2026 年 8 月 6 日报道京张铁路遗址公园二期正式建成开放，公园形成 9 公里带状公共空间，直接服务 70 个社区、约 45 万居民；海淀区政府 2024 年公开报道提供了建设前的同口径交叉核对 [source:PARK-OPEN-CNR-20260806] [source:PARK-PLAN-HAIDIAN-20240920]。这些数字**只用于公共生活背景，不用于推导官方边界、精确设计面积、工程验收或运营绩效**。因此绝不能按空地重新设计:在公园现状和设施清单完成现场核验前,先把日常公共生活作为保护优先级,再叠加 AI 创新带。设计原则:**90% 保持安静,10% 高强度创新节点**,不一路 LED 屏。
 
 **四线叠合——同一条铁路上叠四条线:**
 
@@ -317,7 +335,7 @@ AI 不是屏幕。AI 可以是少绕 5 分钟路、少排 20 分钟队、老人�
 
 交通方案回应轨道站点一体化、道路微循环、慢行断点、对外交通、停车、非机动车停放和绿色交通系统要求,重点覆盖北五环、遗址公园跨环路节点、五道口、清华东路西口、大钟寺站及重点企业周边联系。道路和慢行图层保持在提交边界内,并与公共空间、绿地、产业节点和重点片区相互校核;边界为 provisional 时,交通结论仅作临时设计讨论。专业深度由 [depth:traffic_rail_slow_parking] 与 [depth:municipal_new_infrastructure] 约束,图层证据引用 [data:geometry/roads.geojson#ROAD-001]、[data:geometry/public_space.geojson#PUBLIC-001] 和 [data:geometry/constraints.geojson#CONSTRAINT-001]。
 
-本方案的交通研究特色是把"增加东西联系"从口号变成计算:**East-West Barrier Index** 用直线距离/实际步行距离、绕行时间、过街等待、入口密度、自行车连续性、地铁站到公园可达性找出真正需要"缝"的位置——9 个接口的落位即由此决定(数据接入后计算,当前为方法声明)。这与"统一观测断面"类基准线思路对立互补:基准线解决南北向的可比性,缝合指数解决东西向的可达性——一条 9 公里窄带,两个方向的问题需要两套工具。
+本方案的交通研究特色是把"增加东西联系"从口号变成计算:**East-West Barrier Index** 用直线距离/实际步行距离、绕行时间、过街等待、入口密度、自行车连续性、地铁站到公园可达性找出真正需要"缝"的位置——9 个接口的落位即由此决定(数据接入后计算,当前为方法声明)。这与"统一观测断面"类基准线思路对立互补:基准线解决南北向的可比性,缝合指数解决东西向的可达性——已开放的 9 公里窄带 [source:PARK-OPEN-CNR-20260806],两个方向的问题需要两套工具。
 
 ![交通慢行与蓝绿公共空间复合系统图](assets/figures/mobility-bluegreen.png)
 
