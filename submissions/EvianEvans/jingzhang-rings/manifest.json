@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "a9af7f053429308da90d09a57711d4d48291e5cef6a4176fd05b491e3eea19ef"
+      "sha256": "5687bf553f6e2b79c7bee0e198b25afae57534e120b411e4f92efd8f99798e7c"
     },
     {
       "path": "agent.json",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "b413572ab1abf923cf077bf8bcb81f21b062b61fcbe4aa76945b2959c783c879"
+      "sha256": "cf261af96ec0d69e37de40a6f93553c7798acf6329aa3ed73c3b5a7ebc5ba72c"
     },
     {
       "path": "compliance_matrix.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "1767bcbb48c2b5865bc767ca45354bf76edd31b05f4b3b01720d13f410b61c0c"
+      "sha256": "53bb3383a1b097fa0a0ab38294ae7538cf48f258c8713d5bb727432b121f0773"
     },
     {
       "path": "report/narrative.md",
@@ -114,7 +114,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "440f30a4f25a1d2623cfd51df714e208b67e630d8a53e105830fd64d8576ccca"
+      "sha256": "6910aed64860a3df9d072e163fa347d75c54a63873050cc1dab7a82a70c2afa6"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "23ed9d9daa92927a3d1066bf45042c6376921b3f8f7cfc138a517c7034fd4f99"
+      "sha256": "77b7c02b2828306deb1898e9233cab7323cc4cbe2f526f6d454f44372a57a6bc"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "3ea19e7ecf0bcdf2dd43aa3839f1ee37469d02d0700f6aa1f3ccf4a1aaf84e04"
+      "sha256": "8810168da4b61e4222a9a172a1b79ad20b9abf1fc15a8c519b5d02855a3d5b24"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "968b8c672a7f579d80657c31df3987b4ffadbc8d7184fcc248996e15d80f1302"
+      "sha256": "36a89d5edc861dc43b8e25421b414e1cd56eb1ba9d1c8a39e91f5dd1508cf415"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -284,6 +284,83 @@
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
       "sha256": "4ae5498562fde0d20945bea6d7bf9b7461a200441eb0b27cac85212c637a9df2"
+    },
+    {
+      "path": "assets/figures/ring-cycle.png",
+      "role": "proposal_figure",
+      "required": false,
+      "language": "zh",
+      "sha256": "3bda619e5277ddd8942281918c18a89fb4c668b03b24244f637bf726918ac7c5"
+    },
+    {
+      "path": "assets/figures/ring-cycle.en.png",
+      "role": "proposal_figure",
+      "required": false,
+      "language": "en",
+      "sha256": "b2b9f0debd8f845fa6a75795cb2e23ed48f8387fd6a4a1d81c61c6ee16e3d2ef",
+      "translation_of": "assets/figures/ring-cycle.png"
+    },
+    {
+      "path": "assets/media/li-courtyard-concept.png",
+      "role": "media_poster",
+      "required": false,
+      "sha256": "76f662f375f343a75878c94300f8d8ade4b97c6c4ad7696d2ddf83b61bc86341"
+    },
+    {
+      "path": "assets/media/ring-year-opening.mp4",
+      "role": "video",
+      "required": false,
+      "title_zh": "年轮生长·开场",
+      "title_en": "Ring Growth · Opening",
+      "description_zh": "年轮沿京张遗产公园廊道逐年生长的概念动画（解释层）",
+      "description_en": "Concept animation of annual rings growing along the heritage corridor (explanatory layer)",
+      "poster": "assets/media/ring-video-poster.png",
+      "caption": "assets/media/ring-year-opening.vtt",
+      "transcript": "assets/media/ring-year-opening.md",
+      "sha256": "00dbd96636f65eedbbd055b69f16e69961d433bc73421860c19ab2c582ff1454"
+    },
+    {
+      "path": "assets/media/broken-ring-stone.mp4",
+      "role": "video",
+      "required": false,
+      "title_zh": "断轮碑·特写",
+      "title_en": "The Broken-Ring Stone · Close-up",
+      "description_zh": "被居民否决的技术刻为断轮的概念动画（解释层）",
+      "description_en": "Concept animation of a rejected technology engraved as a broken ring (explanatory layer)",
+      "poster": "assets/media/ring-video-poster.png",
+      "caption": "assets/media/broken-ring-stone.vtt",
+      "transcript": "assets/media/broken-ring-stone.md",
+      "sha256": "d43316e5d5f82c5c992bbb461be86536cc72c38389c189cb5edde0cd7920fa8d"
+    },
+    {
+      "path": "assets/media/ring-video-poster.png",
+      "role": "media_poster",
+      "required": false,
+      "sha256": "76f662f375f343a75878c94300f8d8ade4b97c6c4ad7696d2ddf83b61bc86341"
+    },
+    {
+      "path": "assets/media/ring-year-opening.vtt",
+      "role": "caption_track",
+      "required": false,
+      "sha256": "1736b8ede7a97fb40cfbc9e6e247d0cca56ef9bebd59b0cc7e2b63634725285f"
+    },
+    {
+      "path": "assets/media/ring-year-opening.md",
+      "role": "transcript",
+      "required": false,
+      "sha256": "e27b74d3fef3b835a9548af2e4c43fc4e43715df3b24b26156fb3cac298d11af"
+    },
+    {
+      "path": "assets/media/broken-ring-stone.vtt",
+      "role": "caption_track",
+      "required": false,
+      "sha256": "e5b8732472943fe75921872220c3a1b8f56807237ef6b9b1f83eb3bb6b36e520"
+    },
+    {
+      "path": "assets/media/broken-ring-stone.md",
+      "role": "transcript",
+      "required": false,
+      "sha256": "6f39f4ff20305204c83a9957efb60dd7c24b5c10486fc127bba1b5dd2a853d80"
     }
   ],
   "validation_claim": {

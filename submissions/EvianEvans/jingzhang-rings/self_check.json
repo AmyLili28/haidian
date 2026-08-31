@@ -27,8 +27,18 @@
         "submissions/EvianEvans/jingzhang-rings/assets/figures/metrics-evidence.png",
         "submissions/EvianEvans/jingzhang-rings/assets/figures/mobility-bluegreen.en.png",
         "submissions/EvianEvans/jingzhang-rings/assets/figures/mobility-bluegreen.png",
+        "submissions/EvianEvans/jingzhang-rings/assets/figures/ring-cycle.en.png",
+        "submissions/EvianEvans/jingzhang-rings/assets/figures/ring-cycle.png",
         "submissions/EvianEvans/jingzhang-rings/assets/figures/site-overview.en.png",
         "submissions/EvianEvans/jingzhang-rings/assets/figures/site-overview.png",
+        "submissions/EvianEvans/jingzhang-rings/assets/media/broken-ring-stone.md",
+        "submissions/EvianEvans/jingzhang-rings/assets/media/broken-ring-stone.mp4",
+        "submissions/EvianEvans/jingzhang-rings/assets/media/broken-ring-stone.vtt",
+        "submissions/EvianEvans/jingzhang-rings/assets/media/li-courtyard-concept.png",
+        "submissions/EvianEvans/jingzhang-rings/assets/media/ring-video-poster.png",
+        "submissions/EvianEvans/jingzhang-rings/assets/media/ring-year-opening.md",
+        "submissions/EvianEvans/jingzhang-rings/assets/media/ring-year-opening.mp4",
+        "submissions/EvianEvans/jingzhang-rings/assets/media/ring-year-opening.vtt",
         "submissions/EvianEvans/jingzhang-rings/assumptions.json",
         "submissions/EvianEvans/jingzhang-rings/compliance_matrix.json",
         "submissions/EvianEvans/jingzhang-rings/design_depth_matrix.json",
@@ -62,7 +72,7 @@
       "ai_package_stages": {
         "submissions/EvianEvans/jingzhang-rings": "formal"
       },
-      "total_bytes": 8916436,
+      "total_bytes": 30486614,
       "maintainer_bypass": false
     },
     "stderr": ""

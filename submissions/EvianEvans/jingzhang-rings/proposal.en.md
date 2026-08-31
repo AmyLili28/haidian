@@ -145,6 +145,8 @@ The railway marks mileage as `K12+500`, turning a line nobody can see whole into
 
 And a ring goes one step further than a mileage post: a mileage post marks space, a ring marks **time**. A 9.7 km corridor grows one ring a year. What it records is not only "what is here" but "what happened here, each year".
 
+Two short AI-generated concept clips form the explanatory layer of this narrative (about 5 s each): the first lets the rings grow year by year along the corridor (`assets/media/ring-year-opening.mp4`); the second lands on the broken-ring stone — a rejected technology is not erased but kept as a broken ring (`assets/media/broken-ring-stone.mp4`). Both ship with bilingual captions and transcripts and are registered in the manifest. **They are a conceptual explanatory layer, not site footage, measured data or a construction commitment.**
+
 ## Urban Regeneration and Regulatory-Depth Urban Design in the Overall Design Area
 
 ### Spatial Structure: Not One Line, but Two Axes Enclosing a City
@@ -292,6 +294,44 @@ The position of ring 118 is reserved as a blank ring stone, engraved `to be fill
 **S-12 | Three ring halls · Ring overview** (all day)
 A physical gallery shows, in real time, the four-state distribution across all 19 li and the year's two curves side by side.
 
+### The No-AI Baseline Principle
+
+Behind every scenario card stands one shared rule: **AI must prove it is better than no AI before it earns the right to stay.** In practice — before any scenario enters trial, it first runs a baseline period with pure human staffing (manual rosters, paper registers, fixed signage, mechanical keys), logging waiting times, conflicts and complaints. Once AI is switched on, it may proceed to renewal review only if it demonstrably reduces waiting, missed reports or duplicated labour **without reducing safety, equity or accessibility**. **If there is no net public value, what is removed is the model, not the basic service** — the stall stays, the window stays open, the station stays; only the claim that it needs an algorithm is dropped. This principle and the alarm ring are two faces of the same coin: the alarm ring governs the ecological "no more", the baseline principle governs the technological "must be worth it".
+
+### A Day in Five Scenarios
+
+Writing a mechanism down to "li — bu" is not enough; it has to land on specific hours. The five profiles below cover the scenarios with the highest intensity and the sharpest conflicts. First, one concept scene — it tests the human spatial relationship: an elderly resident, a parent and child, a courier and the duty keeper coexisting at one li-courtyard node, with human service and mechanical fallback both visible. **It is an AI-generated explanatory layer, not a site photograph, survey or construction commitment, and must not be used as a basis for boundaries, areas or implementation.**
+
+![Li-courtyard node concept scene: multiple user types coexisting, human fallback visible (AI-generated explanatory layer)](assets/media/li-courtyard-concept.png)
+
+**S-01 Breakfast stalls (Li 3, Bu 2)**
+- 05:30 stallholders arrive and connect water and power; 06:00 opening — **no AI at this hour**, only marked pitches and lighting.
+- 07:00—08:30 peak: institute staff overlap with school-run parents. The people counter outputs only a three-colour crowding signal for the stallholders' self-governance group; **data is wiped at 24:00 the same day**.
+- 09:00 close. The stallholders' group checks grease and litter — a hard clause of the self-governance charter, more effective than any sensor.
+- **Failure fallback**: counter broken → stalls open as usual under the paper charter; whether to repair the sensor is the stallholders' vote, not the management's.
+
+**S-02 School pick-up area (Li 5, Bu 4)**
+- Two peaks: 07:30—08:30 and 15:30—16:30. **No image capture within 200 m** — the canopy, waiting seats and flexible bollards are purely physical.
+- The only "smart" element is an **e-ink panel showing today's traffic restrictions and weather**, updated by the duty teacher each morning by hand — it needs no network and collects nothing.
+- **Failure fallback**: panel broken → the duty teacher hangs a whiteboard. Order depends on parent volunteers and the li keeper, not on any algorithm.
+
+**S-03 Canteen window (Li 7, Bu 1)**
+- 11:00 the canteen manager estimates external supply from yesterday's leftovers and today's bookings (paper + phone).
+- 11:30—13:00 open. The AI surplus forecast may only intervene **after the day-81 shadow mode**, and only as one suggestion to the counter staff: "prepare 20 more portions today" — **the head cook always makes the final call**.
+- Queue over 15 minutes → counter staff raise the "pause" sign and redirect to other windows — humans outrank scheduling.
+- **Failure fallback**: model offline → back to the head cook's experience plus yesterday's paper records; service quality does not degrade.
+
+**S-05 Rider rest station (Li 10, Bu 3)**
+- 11:30—13:30 peak: the station keeper (a human) guides couriers to parking zones; chargers are first-come-first-served.
+- **Trajectory data stays on site and is never used for labour assessment** — this is clause one of the station's operating agreement, and no device in the station docks with any platform system.
+- The station WiFi is open; whether couriers use it and what for is not recorded.
+- **Failure fallback**: chargers broken → the keeper opens ordinary sockets; on closed days a map of the nearest alternative stations is posted at the door.
+
+**S-10 Ecological monitoring (whole line)**
+- Runs around the clock, but its "user" is not a person — **it serves the ring itself**: acoustic sensors log bird species, water probes log routine indicators, feeding a public daily ledger.
+- **Until the measurement protocol is closed, all data is flagged "trial run"** and does not enter alarm-ring determination — that is a rule, not a technical defect.
+- **Failure fallback**: sensor offline → that indicator abstains that year (the missing-data rule already written in metrics.json); the ring records "data missing" rather than inventing a value.
+
 ### Three or More Validation Scenarios
 
 **V-1 | A/B control for low-speed delivery robots**
@@ -361,6 +401,34 @@ The green space and public space layers are `[data:geometry/green_space.geojson#
 **Phase two (years 4—7) · extending north and south and joining the two axes**: spread to both ends, complete the continuous system of 19 li and the three ring halls.
 
 **Phase three (years 8—10) · the reaches needing an ownership breakthrough**: sections involving university and research-institute ownership must wait until ownership and boundary conditions are settled. **This proposal openly acknowledges that this part may not be deliverable.**
+
+### Implementation Packages: Who Leads, What Gate, What Is Left Behind If It Fails
+
+The three phases answer pacing; the table below answers accountability. Nine packages, each with a named lead-actor type, a start gate (no gate, no work), an acceptance criterion, and a **fallback asset** — what the site keeps even if the package is cancelled. The fallback asset is the most commonly omitted item in implementation writing, and the one that best tests sincerity. Cost is marked only as a relative grade (L = agreements and training / M = node-level space and equipment / H = continuous infrastructure); with no public bill-of-quantities or price basis, no amounts are invented.
+
+| Pkg | Content | Lead actor | Cost | Start gate | Acceptance | Fallback asset |
+|---|---|---|---|---|---|---|
+| **P01 Post-and-signage skeleton** | 19 li posts + 76 bu posts + bilingual signage, no advertising slots | District street-renewal office + responsible planners | L | Road ownership confirmed; posts intrude on no courtyard redline | Wheelchair and pram passage end to end; post coordinates filed | Posts are street furniture by design; nothing to demolish |
+| **P02 Open canteen window (S-03)** | 1–2 institute canteen windows to the public; AI only forecasts surplus | Institute logistics + subdistrict joint group | L | Food-licence extension; institute security review; a staffed counter always remains | Peak queue ≤15 min; complaints answered in 48 h | Window and ramp remain as permanent public amenity |
+| **P03 Breakfast-stall legalisation (S-01)** | 6 fixed stalls + water/power + storage | Subdistrict office + stallholders' self-governance group | L | Stalls clear of fire lanes; stallholders sign the self-governance charter | 12 months with zero eviction events; falling neighbour complaints | Utilities and canopies convert to community drying/market points |
+| **P04 Rider rest-station network (S-05)** | 17 interchange posts: rest, charging, water, toilets | Platform-company CSR + station keepers | M | Electrical load approved; **"trajectory data stays on site, never used for labour assessment" written into the operating agreement** | Courier satisfaction ≥80%; zero data-misuse complaints | Charging cabinets and water points handed to municipal service |
+| **P05 Ecological-ring data base (S-10)** | Acoustic sensors + water-quality probes along both axes | District landscaping + water bureaus + university ecology team | M | The five-part measurement protocol (unit / aggregation / missing data / QA / comparability) closed and published | V-2 backtest passes: ring indicators reproduce existing monitoring conclusions | Sensor network handed to landscape research monitoring; data fully public |
+| **P06 First li courtyards at A2** | 2–3 li courtyard squares + kiosks as pilots | Subdistrict + community-building organisation | M | Majority consent at residents' meeting; staffing roster in place first | V-3 "report the li number" beats the 12345 average on response and closure | Squares remain as community space; kiosks become volunteer booths |
+| **P07 Three Ring Halls** | Three exhibition halls + the ring-overview data wall | District platform company + curatorial team | H | P05 has run for a full year; building schemes pass specialist review | Annual report published on time; ≥40% of visitors are local residents | Buildings vest as public facilities; data wall becomes a civic information screen |
+| **P08 Broken-ring stones and honour wall** | Monuments to rejected technologies + contributor honour wall | Ring secretariat (li keepers' council) | L | First broken-ring cases exist; engraving rules published without objection | Annual walk and engraving ceremony held without interruption | Stones and wall are permanent public memorials, by design irreversible |
+| **P09 Two-axis completion** | 19-li continuity + the dual-axis walking loop | District major-projects office + two subdistricts | H | P01—P06 all accepted; detour plan for restricted institutes approved | ≥95% end-to-end walking continuity (excluding restricted reaches) | Built segments stay unconditionally; gap segments keep the detour |
+
+### The First 100 Days: Five Work Packages That Do Not End in "AI Goes Live"
+
+If the project started tomorrow, the first hundred days would install no sensors. They would **make the human system work first** — AI may only be layered onto a human service that already stands:
+
+- **Days 1—20**: freeze the ownership and boundary question list. Check each of the 19 li post positions against courtyard redlines, fire lanes and heritage-tree protection zones, and publish the "awaiting official confirmation" register.
+- **Days 21—40**: 1:1 tape mock-up. Tape out the li-courtyard edges and stall positions in the A2 reach; have wheelchair users, parents with prams and stallholders walk it and log every collision point.
+- **Days 41—60**: run the no-AI baseline. The canteen window, breakfast stalls and rider stations open with pure human staffing for three weeks, logging queue times, conflicts and complaints — **this is the control group that AI must beat**.
+- **Days 61—80**: publish the cancellations. Every post position and scenario design cancelled during mock-up and baseline goes public, engraved as the first broken-ring entries.
+- **Days 81—100**: shadow mode. AI only predicts and advises, operating nothing, running 20 days in parallel with human decisions; the li keeper trio compares and only then decides whether a trial begins.
+
+At the end of these 100 days the site may have **not a single live AI scenario** — yet the first ring has already grown: what it records is not technology, but which technologies were shown to be unnecessary.
 
 ### The Annual Activity System and Long-Term Operation
 
@@ -460,6 +528,8 @@ Three design choices need explaining:
 
 - **Why two indicators on the technology side?** The count of services in trial is a supply-side number and can be suppressed by simply approving fewer new applications; total li-hours is actual usage, which is far costlier to manipulate. Either rising counts as expansion.
 - **Why a three-year moving average?** Bird-species counts and phenology fluctuate naturally from year to year; a single-year decline may be climatic noise. One ring does not speak of disaster; consecutive rings make history.
+
+![The four-state ring cycle and the alarm-ring mechanism](assets/figures/ring-cycle.en.png)
 - **Why no weighted composite index?** Weights and a normalisation method would each require a justification this site does not have. An item-by-item vote sidesteps the question "where do the weights come from", and **each item can be recomputed independently**, which is precisely what the standard above demands.
 - **Why "at least two"?** A single decline may be interannual fluctuation or observation error; two declining together is a trend signal. This threshold is itself a public parameter, stated here so that it can be challenged and revised.
 - **How is the baseline year set?** The baseline year is the first complete year after the Qinghe and Xiaoyuehe works finish, that is **ring 118 (2026)**. Before that there is no stable baseline, and no determination is made.
