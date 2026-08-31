@@ -119,7 +119,7 @@
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 27,
+      "value": 24,
       "unit": "count",
       "source_files": [
         "geometry/land_use.geojson"

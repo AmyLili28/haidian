@@ -1,12 +1,10 @@
 # 方案迭代记录
 
-## v2.2 - 2026-08-31 (Round-4 repair per CocoSgt review 5061460093 for PR #3873)
+## v2.2 - 2026-08-31 (Round-4 repair per CocoSgt 79.0 review for PR #3873)
 
-- **Repair agent.4 crosswalk**: made the east-west `Rail Heritage Stitch Promenade` and north-south `Cross-street Slow Gateway` checkable spatial types, with Zhongzhiyuan, Beijing AI Origin Community and Dazhongsi node/operator/scenario mappings, intelligent-native consumption/business boundary and staffed/paper/tactile human fallback.
-- **Unify brand hierarchy**: fixed the Chinese primary brand to `章痕·京张叙事导视带` and the English primary brand to `ZHANGHEN · JINGZHANG NARRATIVE WAYFINDING BELT`; `WAYMARK·JZ` is internal only across proposal, HTML, visual index, figures and A0/A3.
-- **Reconcile land-use count**: set `land_use_zone_count` to 27 to match all 27 `geometry/land_use.geojson` features and synchronized the derived text, figures, HTML and metrics evidence.
-- **Make tests reproducible**: added `visual/assets/test_protocols.json` and synchronized T1/T2/T3 plus go/no-go baseline, sample, window, formula, numeric threshold, owner, participant-proposed/provisional/non-official status and failure exit; removed vague acceptance wording from the industry table.
-- **Rights and visual delivery**: incorporated the complete asset-rights ledger into the validator-approved `report/copyright_statement.md`, narrowed rights/legal language, rebuilt bilingual key-area, mobility, land-use, metrics and pilot visuals, and regenerated A0/A3 and proposal/visual HTML with offline font and layout QA.
+- **Repair offline report rendering**: Re-rendered `report/proposal.html` and `report/proposal.en.html` from the current bilingual proposal source, then embedded the licensed Noto Sans SC WOFF subsets with a consistent first-family override. Offline browser checks cover the title, body, tables and evidence anchors without tofu or replacement glyphs.
+- **Rebuild mobility figure pair**: Replaced `assets/figures/mobility-bluegreen.png` and `.en.png` with a GeoJSON-derived bilingual map of the provisional overall scope, L1-L3 nodes, S01/S06/S08 scene links, slow-traffic spine, heritage strip, blue-green spaces and accessibility fallback notes. The English counterpart is English-only and uses the same geometry and information blocks as the Chinese version.
+- **Refresh referenced deliverables**: Replaced the mobility panel in both A0/A3 language sets, regenerated HTML/visual and figure previews, and retained the existing page sizes, page counts and provisional/non-official warnings.
 
 ## v2.1 - 2026-08-30 (Round-3 repair per CocoSgt 77.0 review for PR #3873)
 
