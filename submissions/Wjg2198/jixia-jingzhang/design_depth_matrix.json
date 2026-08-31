@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "items": [
+    {"depth_id": "scope_framework", "title_zh": "三层范围工作框架", "status": "complete"},
+    {"depth_id": "industry_research", "title_zh": "统筹研究范围产业研究", "status": "complete"},
+    {"depth_id": "urban_structure", "title_zh": "总体空间结构", "status": "complete"},
+    {"depth_id": "land_use_layout", "title_zh": "用地布局", "status": "complete"},
+    {"depth_id": "building_scale", "title_zh": "建筑规模与拆改留", "status": "complete"},
+    {"depth_id": "mobility_system", "title_zh": "交通与慢行系统", "status": "complete"},
+    {"depth_id": "green_blue_system", "title_zh": "蓝绿空间系统", "status": "complete"},
+    {"depth_id": "key_area_zhongzhiyuan", "title_zh": "众智园详细设计", "status": "complete"},
+    {"depth_id": "key_area_origin", "title_zh": "AI原点社区详细设计", "status": "complete"},
+    {"depth_id": "key_area_dazhongsi", "title_zh": "大钟寺详细设计", "status": "complete"},
+    {"depth_id": "ai_scenarios", "title_zh": "AI场景卡", "status": "complete"},
+    {"depth_id": "landmarks", "title_zh": "朝圣地标", "status": "complete"},
+    {"depth_id": "phasing_plan", "title_zh": "分期计划", "status": "complete"},
+    {"depth_id": "risk_compliance", "title_zh": "风险与合规", "status": "complete"},
+    {"depth_id": "retention_renovation", "title_zh": "拆改留分类", "status": "complete"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": "0.1.0",
+  "standards": [
+    {"standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK", "title_zh": "面向智能体任务书", "status": "covered", "response_zh": "以稷下书院辩论框架回应六项任务", "proposal_sections": ["统筹研究范围", "AI创新生态", "蓝绿空间", "更新项目清单"]},
+    {"standard_id": "MOHURD-URBAN-DESIGN-MEASURES", "title_zh": "城市设计管理办法", "status": "needs_official_file", "response_zh": "参照一般原则，待官方文件纳入", "proposal_sections": ["总体设计范围"]},
+    {"standard_id": "GB-50137-CITY-PLANNING-STANDARDS", "title_zh": "城市用地分类标准", "status": "needs_official_file", "response_zh": "概念性混合用地布局", "proposal_sections": ["用地建筑规模"]}
+  ]
+}

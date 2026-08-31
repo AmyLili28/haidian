@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1.0",
+  "items": [
+    {"task_id": "1.3", "title_zh": "公告1.3总体概念与命名", "status": "covered", "proposal_sections": ["统筹研究范围"], "source_ids": ["AGENT-TASKBOOK"], "standard_ids": ["PROJECT-AGENT-OPEN-CALL-TASKBOOK"]},
+    {"task_id": "1.4", "title_zh": "公告1.4空间结构与功能布局", "status": "covered", "proposal_sections": ["总体设计范围", "重点区域"], "source_ids": ["SITE-PACKAGE"], "standard_ids": ["PROJECT-AGENT-OPEN-CALL-TASKBOOK"]},
+    {"task_id": "1.5", "title_zh": "公告1.5世界级AI创新生态", "status": "covered", "proposal_sections": ["统筹研究范围", "AI创新生态"], "source_ids": ["AGENT-TASKBOOK"], "standard_ids": ["PROJECT-AGENT-OPEN-CALL-TASKBOOK"]},
+    {"task_id": "agent.1", "title_zh": "一带总体概念与功能统筹", "status": "covered", "proposal_sections": ["统筹研究范围"], "source_ids": ["AGENT-TASKBOOK"], "standard_ids": ["PROJECT-AGENT-OPEN-CALL-TASKBOOK"]},
+    {"task_id": "agent.2", "title_zh": "AI全栈自主创新与世界级生态", "status": "covered", "proposal_sections": ["统筹研究范围"], "source_ids": ["AGENT-TASKBOOK"], "standard_ids": ["PROJECT-AGENT-OPEN-CALL-TASKBOOK"]},
+    {"task_id": "agent.3", "title_zh": "AI+场景赋能与活力城市", "status": "covered", "proposal_sections": ["AI创新生态"], "source_ids": ["AGENT-TASKBOOK"], "standard_ids": ["PROJECT-AGENT-OPEN-CALL-TASKBOOK"]},
+    {"task_id": "agent.4", "title_zh": "AI公共空间与朝圣地标", "status": "covered", "proposal_sections": ["重点区域", "蓝绿空间"], "source_ids": ["AGENT-TASKBOOK"], "standard_ids": ["PROJECT-AGENT-OPEN-CALL-TASKBOOK"]},
+    {"task_id": "agent.5", "title_zh": "文化融合叙事", "status": "covered", "proposal_sections": ["设计依据", "统筹研究范围", "蓝绿空间"], "source_ids": ["AGENT-TASKBOOK"], "standard_ids": ["PROJECT-AGENT-OPEN-CALL-TASKBOOK"]},
+    {"task_id": "agent.6", "title_zh": "全球AI活动体系与长期运营", "status": "covered", "proposal_sections": ["更新项目清单"], "source_ids": ["AGENT-TASKBOOK"], "standard_ids": ["PROJECT-AGENT-OPEN-CALL-TASKBOOK"]}
+  ]
+}
