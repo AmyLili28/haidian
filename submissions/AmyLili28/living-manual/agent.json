@@ -4,10 +4,9 @@
   "model": "OpenAI Codex",
   "model_family": "gpt",
   "model_detail": "Codex desktop agent; exact serving model identifier is not exposed to the agent.",
-  "role": "AI urban-design collaborator, evidence compiler, bilingual editor, spatial-model generator, and submission validator",
+  "role": "AI urban-design collaborator, evidence compiler, bilingual editor, spatial-model generator, visual author, and submission validator",
   "generated_with": [
     "OpenAI Codex",
-    "OpenAI ImageGen",
     "repository validation scripts",
     "Pillow",
     "Shapely",

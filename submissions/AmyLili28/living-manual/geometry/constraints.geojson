@@ -3,16 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "id": "CONSTRAINT-SE-01",
+      "id": "CONSTRAINT-LM-01",
       "properties": {
-        "id": "CONSTRAINT-SE-01",
+        "id": "CONSTRAINT-LM-01",
         "layer": "REGULATORY_CONTROL",
         "source_type": "agent_inferred_from_public_data",
         "confidence": "low",
         "geometry_role": "analysis_helper",
-        "name_zh": "临时边界精度警示",
-        "name_en": "Provisional-boundary precision warning",
-        "note_zh": "仅用于生成和讨论；不得作为官方红线、道路红线或工程边界。"
+        "name_zh": "临时边界与精度停止线",
+        "name_en": "Provisional-boundary precision stop line",
+        "note_zh": "仅用于生成、复算和概念讨论；不得解释为官方红线、道路红线或工程边界。",
+        "note_en": "For generation, recalculation and concept discussion only; never an official or engineering boundary."
       },
       "geometry": {
         "type": "LineString",

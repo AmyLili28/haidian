@@ -3,128 +3,46 @@
   "features": [
     {
       "type": "Feature",
-      "id": "BLDG-SE-01",
+      "id": "BLDG-LM-01",
       "properties": {
-        "id": "BLDG-SE-01",
-        "layer": "BUILDING_FOOTPRINT",
-        "source_type": "agent_generated_design",
-        "confidence": "low",
-        "geometry_role": "design_proposal",
-        "building_type": "lab",
-        "name_zh": "生活翻译工坊",
-        "name_en": "Civic Translation Lab",
-        "intervention": "conceptual_new_or_adaptive_reuse_interface",
-        "area_sqm_declared": 6188.614
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34802,
-              40.01641
-            ],
-            [
-              116.34802,
-              40.01709
-            ],
-            [
-              116.34898,
-              40.01709
-            ],
-            [
-              116.34898,
-              40.01641
-            ],
-            [
-              116.34802,
-              40.01641
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "BLDG-SE-02",
-      "properties": {
-        "id": "BLDG-SE-02",
-        "layer": "BUILDING_FOOTPRINT",
-        "source_type": "agent_generated_design",
-        "confidence": "low",
-        "geometry_role": "design_proposal",
-        "building_type": "community_service",
-        "name_zh": "共同编辑街区",
-        "name_en": "Co-editing Neighborhood",
-        "intervention": "conceptual_new_or_adaptive_reuse_interface",
-        "area_sqm_declared": 6191.137
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34702,
-              39.98816
-            ],
-            [
-              116.34702,
-              39.98884
-            ],
-            [
-              116.34797999999999,
-              39.98884
-            ],
-            [
-              116.34797999999999,
-              39.98816
-            ],
-            [
-              116.34702,
-              39.98816
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "BLDG-SE-03",
-      "properties": {
-        "id": "BLDG-SE-03",
+        "id": "BLDG-LM-01",
         "layer": "BUILDING_FOOTPRINT",
         "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "building_type": "cultural",
-        "name_zh": "城市交接所",
-        "name_en": "Urban Handover House",
-        "intervention": "conceptual_new_or_adaptive_reuse_interface",
-        "area_sqm_declared": 6194.843
+        "prototype_role": "handover_reference_envelope",
+        "name_zh": "交接书脊参考包络",
+        "name_en": "Handover Spine reference envelope",
+        "reference_dimensions_m": "18 x 12",
+        "reference_prototype": true,
+        "intervention": "conceptual_adaptive_reuse_or_reversible_interface",
+        "regulatory_status": "not_regulatory_not_surveyed_not_committed",
+        "area_sqm_declared": 216.0
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              116.34802,
-              39.946580000000004
+              116.34838733541481,
+              39.946875752311975
             ],
             [
-              116.34802,
-              39.94726000000001
+              116.34840342911953,
+              39.94698311133705
             ],
             [
-              116.34898,
-              39.94726000000001
+              116.34861265817146,
+              39.94696453072258
             ],
             [
-              116.34898,
-              39.946580000000004
+              116.34859656414324,
+              39.94685717172362
             ],
             [
-              116.34802,
-              39.946580000000004
+              116.34838733541481,
+              39.946875752311975
             ]
           ]
         ]
@@ -132,42 +50,46 @@
     },
     {
       "type": "Feature",
-      "id": "BLDG-SE-04",
+      "id": "BLDG-LM-02",
       "properties": {
-        "id": "BLDG-SE-04",
+        "id": "BLDG-LM-02",
         "layer": "BUILDING_FOOTPRINT",
         "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
         "building_type": "community_service",
-        "name_zh": "共同编辑室 1",
-        "name_en": "Co-editing Room 1",
-        "intervention": "lightweight_reversible_pavilion",
-        "area_sqm_declared": 1335.861
+        "prototype_role": "polyphonic_reference_envelope",
+        "name_zh": "多声部长桌参考包络",
+        "name_en": "Polyphonic Table reference envelope",
+        "reference_dimensions_m": "18 x 12",
+        "reference_prototype": true,
+        "intervention": "conceptual_adaptive_reuse_or_reversible_interface",
+        "regulatory_status": "not_regulatory_not_surveyed_not_committed",
+        "area_sqm_declared": 216.0
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              116.34766070817842,
-              39.9614183476616
+              116.34739514425122,
+              39.988445384097645
             ],
             [
-              116.34766070817842,
-              39.9617383476616
+              116.34739411584655,
+              39.98855345167437
             ],
             [
-              116.34810070817842,
-              39.9617383476616
+              116.34760485496022,
+              39.988554638065494
             ],
             [
-              116.34810070817842,
-              39.9614183476616
+              116.34760588303287,
+              39.98844657048424
             ],
             [
-              116.34766070817842,
-              39.9614183476616
+              116.34739514425122,
+              39.988445384097645
             ]
           ]
         ]
@@ -175,128 +97,46 @@
     },
     {
       "type": "Feature",
-      "id": "BLDG-SE-05",
+      "id": "BLDG-LM-03",
       "properties": {
-        "id": "BLDG-SE-05",
+        "id": "BLDG-LM-03",
         "layer": "BUILDING_FOOTPRINT",
         "source_type": "agent_generated_design",
         "confidence": "low",
         "geometry_role": "design_proposal",
-        "building_type": "community_service",
-        "name_zh": "共同编辑室 2",
-        "name_en": "Co-editing Room 2",
-        "intervention": "lightweight_reversible_pavilion",
-        "area_sqm_declared": 1335.595
+        "building_type": "lab",
+        "prototype_role": "blank_page_reference_envelope",
+        "name_zh": "空白第一页参考包络",
+        "name_en": "Blank First Page reference envelope",
+        "reference_dimensions_m": "18 x 12",
+        "reference_prototype": true,
+        "intervention": "conceptual_adaptive_reuse_or_reversible_interface",
+        "regulatory_status": "not_regulatory_not_surveyed_not_committed",
+        "area_sqm_declared": 216.0
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              116.34728116473254,
-              39.97525586912616
+              116.34840454675347,
+              40.01668567312752
             ],
             [
-              116.34728116473254,
-              39.97557586912616
+              116.3483863977577,
+              40.016792838368644
             ],
             [
-              116.34772116473253,
-              39.97557586912616
+              116.34859546444704,
+              40.01681376990714
             ],
             [
-              116.34772116473253,
-              39.97525586912616
+              116.3486136131222,
+              40.01670660463109
             ],
             [
-              116.34728116473254,
-              39.97525586912616
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "BLDG-SE-06",
-      "properties": {
-        "id": "BLDG-SE-06",
-        "layer": "BUILDING_FOOTPRINT",
-        "source_type": "agent_generated_design",
-        "confidence": "low",
-        "geometry_role": "design_proposal",
-        "building_type": "community_service",
-        "name_zh": "共同编辑室 3",
-        "name_en": "Co-editing Room 3",
-        "intervention": "lightweight_reversible_pavilion",
-        "area_sqm_declared": 1335.329
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34729674083742,
-              39.989092225123
-            ],
-            [
-              116.34729674083742,
-              39.989412225123004
-            ],
-            [
-              116.34773674083742,
-              39.989412225123004
-            ],
-            [
-              116.34773674083742,
-              39.989092225123
-            ],
-            [
-              116.34729674083742,
-              39.989092225123
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "BLDG-SE-07",
-      "properties": {
-        "id": "BLDG-SE-07",
-        "layer": "BUILDING_FOOTPRINT",
-        "source_type": "agent_generated_design",
-        "confidence": "low",
-        "geometry_role": "design_proposal",
-        "building_type": "community_service",
-        "name_zh": "共同编辑室 4",
-        "name_en": "Co-editing Room 4",
-        "intervention": "lightweight_reversible_pavilion",
-        "area_sqm_declared": 1335.062
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34775790889253,
-              40.00292726677579
-            ],
-            [
-              116.34775790889253,
-              40.003247266775794
-            ],
-            [
-              116.34819790889253,
-              40.003247266775794
-            ],
-            [
-              116.34819790889253,
-              40.00292726677579
-            ],
-            [
-              116.34775790889253,
-              40.00292726677579
+              116.34840454675347,
+              40.01668567312752
             ]
           ]
         ]

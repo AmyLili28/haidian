@@ -20,6 +20,12 @@
       ],
       "changed_files": [
         "submissions/AmyLili28/living-manual/agent.json",
+        "submissions/AmyLili28/living-manual/assets/figures/brand-identity.en.png",
+        "submissions/AmyLili28/living-manual/assets/figures/brand-identity.png",
+        "submissions/AmyLili28/living-manual/assets/figures/data-governance.en.png",
+        "submissions/AmyLili28/living-manual/assets/figures/data-governance.png",
+        "submissions/AmyLili28/living-manual/assets/figures/human-journey.en.png",
+        "submissions/AmyLili28/living-manual/assets/figures/human-journey.png",
         "submissions/AmyLili28/living-manual/assets/figures/key-areas.en.png",
         "submissions/AmyLili28/living-manual/assets/figures/key-areas.png",
         "submissions/AmyLili28/living-manual/assets/figures/land-use-structure.en.png",
@@ -30,10 +36,12 @@
         "submissions/AmyLili28/living-manual/assets/figures/mobility-bluegreen.png",
         "submissions/AmyLili28/living-manual/assets/figures/pilot-operations.en.png",
         "submissions/AmyLili28/living-manual/assets/figures/pilot-operations.png",
+        "submissions/AmyLili28/living-manual/assets/figures/scenario-atlas.en.png",
+        "submissions/AmyLili28/living-manual/assets/figures/scenario-atlas.png",
         "submissions/AmyLili28/living-manual/assets/figures/site-overview.en.png",
         "submissions/AmyLili28/living-manual/assets/figures/site-overview.png",
-        "submissions/AmyLili28/living-manual/assets/identity/second-encounter-mark.svg",
-        "submissions/AmyLili28/living-manual/assets/media/second-encounter-cover-v1.png",
+        "submissions/AmyLili28/living-manual/assets/identity/living-manual-mark.svg",
+        "submissions/AmyLili28/living-manual/assets/media/living-manual-cover.webp",
         "submissions/AmyLili28/living-manual/assumptions.json",
         "submissions/AmyLili28/living-manual/changelog.md",
         "submissions/AmyLili28/living-manual/compliance_matrix.json",
@@ -68,7 +76,7 @@
       "ai_package_stages": {
         "submissions/AmyLili28/living-manual": "formal"
       },
-      "total_bytes": 3324638,
+      "total_bytes": 5773603,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -110,11 +118,11 @@
       ],
       "metrics": {
         "site_area_sqm": 11412825.386,
-        "green_space_area_sqm": 1923694.817,
-        "public_space_area_sqm": 141745.075,
-        "building_footprint_area_sqm": 23916.442,
-        "green_ratio": 0.168556,
-        "public_space_ratio": 0.01242
+        "green_space_area_sqm": 396604.342,
+        "public_space_area_sqm": 3476.864,
+        "building_footprint_area_sqm": 648.0,
+        "green_ratio": 0.034751,
+        "public_space_ratio": 0.000305
       }
     },
     "stderr": ""
@@ -127,8 +135,9 @@
       "issues": [],
       "metrics_seen": {
         "site_area_sqm": 11412825.386,
-        "green_ratio": 0.168556,
-        "public_space_ratio": 0.01242
+        "green_ratio": 0.034751,
+        "public_space_ratio": 0.000305,
+        "building_footprint_area_sqm": 648.0
       }
     },
     "stderr": ""
@@ -142,15 +151,15 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 10,
+        "known_metric_refs_required": 14,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 11,
-          "standard": 4,
-          "depth": 12,
-          "data": 11,
-          "metric": 5
+          "source": 14,
+          "standard": 3,
+          "depth": 9,
+          "data": 6,
+          "metric": 9
         }
       }
     },

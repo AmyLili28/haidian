@@ -6,151 +6,205 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "Turn everyday knowledge from residents and frontline workers into spatial updates, AI limits, and durable handover knowledge."
+summary: "A city has no final edition: turn dispersed local knowledge into a shared version that is verifiable, withdrawable and allowed to expire."
 tracks: ["civic-agent-governance", "ai-traffic-walkability", "enterprise-services-ecosystem"]
 scenarios: ["public-safety-operations-review", "ai-traffic-walkability", "enterprise-service-copilot"]
 ---
 
 # JING-ZHANG · THE LIVING MANUAL
 
-> A city needs not more data, but a shared way to turn everyday experience into design knowledge.
+> **A city is not a finished manual. It is a shared edition that always leaves room in the margin.**
 
-A city is re-read every day. Residents know which path floods after rain; couriers know which entrance forces a long detour; cleaners and repair workers know which attractive materials are difficult to maintain. This knowledge rarely reaches drawings and should not become free extractive data. The Living Manual is not a story archive or suggestion box. It gives dated, time-bounded, withdrawable everyday observations a route through field verification into spatial updates, maintenance tasks, and limits on AI services. People who already live and work here become acknowledged authors of urban knowledge.
+After rain, a carer with a pushchair finds the familiar path flooded. At lunch, a courier reaches the nominal gate but the usable entrance is behind the block. During seasonal repairs, a maintenance worker can tell that a handsome paving detail will lift again next year. Each knows part of the city, yet that knowledge rarely enters a drawing. These are **synthetic scenes**, not interviews or evidence of public support.
+
+The Living Manual does not collect another pile of comments. It gives a note a date, scope, verification step, responsible owner, withdrawal route and expiry. AI never speaks for the city. It only turns dispersed material into a draft page: the contributor checks the summary, a field verifier checks the place, and the service owner explains adoption, referral or refusal. Without those three human confirmations, there is no city knowledge.
+
+![Overview map and spatial grammar](assets/figures/site-overview.en.png)
 
 ## Design Basis and Source Inventory
 
-The official announcement controls the three scope levels, three key areas, tasks, and deliverable context. The Agent taskbook provides the three positionings, five functions, three areas and two wings, and six mandatory Agent tasks [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]. Local snapshots of urban-design, detailed-planning, and land-use standards guide professional language; international cases are transferable comparisons, not statutory authority in Beijing [standard:MOHURD-URBAN-DESIGN-MEASURES].
+The official announcement establishes the 43.6 km² research scope, roughly 11.4 km² overall design scope, three key areas and deliverable context. The Agent taskbook establishes three positionings, five functions, three areas/two wings and six mandatory tasks [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]. Open co-creation is not an approved plan.
 
-No verifiable official SITE_BOUNDARY, KEY_AREA polygons, road redlines, existing-building survey, heritage-control lines, or regulatory conditions are present in the cleared package. The submitted model therefore uses repository provisional rough polygons. Its 11.41 km² area, 16.9% conceptual green ratio, and 1.2% conceptual public-space ratio are low-confidence model outputs, not approved controls [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm]. Every precision-sensitive layer and metric must be regenerated when official polygons arrive.
+The cleared repository still lacks official SITE_BOUNDARY and KEY_AREA polygons, road redlines, an existing-building survey, heritage controls, municipal capacity and statutory planning conditions. The package retains the maintainer-provided provisional rough polygons. The current 11.41 km² calculation supports internal consistency only [source:BOUNDARY-SOURCE] [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm]. Every precision-sensitive layer must be regenerated when official data arrive.
 
-![The Living Manual overview and four-step protocol](assets/figures/site-overview.en.png)
+## Core Judgement and Independent Mechanism
+
+The spatial grammar is **one Binding Line, three Volumes, twelve Loose-leaf Pages, six Marginalia Ports, three Version Landmarks, and two evidence/editorial wings**. The Jing-Zhang heritage park direction binds the sequence. Zhongzhiyuan is a Condition Book; AI Origin is an Everyday Book; Dazhongsi is a Handover Book. The six ports are staffed corners borrowed inside existing public-facing spaces, not six new buildings. The Blank First Page, Polyphonic Table and Handover Spine make unknowns, disagreement and responsibility visible.
+
+This is not a Personal Agent, infinite chat, permanent digital twin or automated plebiscite. It is a finite route from a person to a place and back to an accountable owner [depth:overall_spatial_structure].
 
 ## Three-level Scope Framework
 
-The coordinated research area asks how local knowledge can become a shared input to AI innovation and urban renewal. The overall design area asks how daily experience moves from an annotatable route into spatial decisions. The three key areas test translation, co-editing, and handover. Together they form one evidence chain from lived observation and field verification to small updates and long-term maintenance [depth:three_level_scope_framework] [data:geometry/key_areas.geojson#PROV-KEY-001].
+The research scope asks how local knowledge can become public infrastructure for an AI ecosystem. The overall design scope embeds that knowledge flow in spatial links and renewal sequence. The three key areas test three different questions. The overall model shows a binding line, cross-links, functional leaves and small civic interfaces; the key-area work stays reversible inside provisional envelopes [depth:three_level_scope_framework] [data:geometry/key_areas.geojson#PROV-KEY-001].
 
-The structure is one Annotatable Living Line, four Editing Cross-links, six Co-editing Rooms, and three Urban Knowledge Houses. The line combines the Jing-Zhang narrative with walking, cycling, and a green civic interface. Cross-links bring observations from campuses, neighbourhoods, workplaces, and transit spaces to the same verification route. Borrowed staffed rooms let people sit down and explain; the three houses translate experience, co-edit evidence, and hand knowledge to the next design cycle. All remain conceptual suggestions pending official transport, heritage, parcel, and engineering evidence [data:geometry/roads.geojson#ROAD-SE-01] [depth:overall_spatial_structure].
+![Three scopes and conceptual land-use leaves](assets/figures/land-use-structure.en.png)
 
-![Overall structure and conceptual land-use model](assets/figures/land-use-structure.en.png)
+## Research Scope: Industry and Future-city Strategy
 
-## Coordinated Research Area: Industry and Future-city Strategy
+An innovation ecosystem needs more than firms and compute. It needs paid community editors, spatial translators, field verifiers, accessible/multilingual editors, model-card and data-inventory stewards, and handover archivists. Frontline expertise is paid work, not volunteer data extraction. UK ATRS, Decidim and Helsinki Testbed contribute bounded mechanisms—public records, traceable process and small real-city trials—not legal or spatial templates for Beijing [source:CASE-UK-ATRS] [source:CASE-DECIDIM] [source:CASE-HELSINKI-TESTBED].
 
-The Living Manual treats local knowledge as innovation infrastructure. Zhongzhiyuan translates technical goals into conditions ordinary people can judge before a product enters public space. The AI Origin Community hosts multi-time observation and field verification. Dazhongsi retains maintenance, repair, and handover knowledge. The two wings connect professional review with community situations. Together they form an observe—verify—translate—update—maintain—rewrite loop rather than a count of datasets, firms, or events [source:AGENT-TASKBOOK] [depth:industry_ecosystem_strategy].
+### Eight external references: transfer a mechanism, never a local fact
 
-Five global cases contribute mechanisms, not templates: the UK ATRS standardises public disclosure; AI Verify combines process and technical testing; the Dutch Algorithm Register demonstrates a public catalogue; Boston CityScore compares performance over time; and Decidim links traceable online and face-to-face participation [source:CASE-UK-ATRS] [source:CASE-AI-VERIFY]. The Jing-Zhang protocol recombines these lessons without implying that any foreign framework has local legal force.
+| Reference | Transferable mechanism | Living Manual translation | Explicit non-transfer |
+|---|---|---|---|
+| UK ATRS [source:CASE-UK-ATRS] | Fixed public fields for purpose, owner and impact | A Condition Book page before any AI trial | Not proof of Beijing legal compliance |
+| AI Verify [source:CASE-AI-VERIFY] | Process governance paired with technical tests | Test output, fallback, field risk and documentation together | Not certification or a safety guarantee |
+| Dutch Algorithm Register [source:CASE-DUTCH-ALGORITHM-REGISTER] | Public catalogue of systems, purposes and owners | Handover Spine versions, ownership and stop state | Not a presumed local registration duty |
+| Decidim [source:CASE-DECIDIM] | Traceable online/offline participation | Paper, speech, physical wall and offline page share one page ID | Participation count is not representation or consensus |
+| Helsinki Testbed [source:CASE-HELSINKI-TESTBED] | Bounded tests in real settings | Two sites, three cases, no-AI baseline and public closeout | No transfer of procurement, data, budget or performance |
+| Boston CityScore [source:CASE-BOSTON-CITYSCORE] | Longitudinal review rather than launch-only reporting | Expiry, handover, withdrawal and unresolved-work measures | No imported composite score, weight or target |
+| one-north [source:CASE-ONE-NORTH] | Research, enterprise, learning and living considered together | Condition, Everyday and Handover services around real consequences | No imported land, leasing or investment regime |
+| Barcelona / 22@ context [source:CASE-BARCELONA-22AT] | Knowledge transfer connected to district renewal | Evidence and field-editing wings support local services | No imported development rights, ratios or claimed outcomes |
 
-The neutral identity mark uses two trajectories: a solid civic-blue line for the first promise and an orange dashed co-edit that ends at a visible revise seam. The system names are Civic Translation Lab, Co-editing Room, Co-editing Neighborhood, and Urban Handover House. Railway iron grey, civic blue, revise orange, and paper white create a calm evidence-oriented visual language without borrowed trademarks or portraits.
+Together they support a combined record–test–participation–operation–space approach, but none supplies site facts for Jing-Zhang. The local ecosystem is therefore organised around six handover capabilities: editing, field verification, bounded technical testing, accountable action, rights administration and version handover. Talent success is not only developer attraction; it includes paid frontline roles, developers able to declare limits, public owners receiving fewer duplicate reports, and failed services being closed safely.
 
-## Overall Design Area: Urban Renewal and Regulatory-depth Urban Design
+## Overall Design Scope: Renewal and Detailed-planning Depth
 
-Six topology-safe conceptual land-use bands cover the provisional site: culture and civic memory, AI services and business, community service, near-campus education and research, R&D validation, and reserved adaptive land. They describe relationships rather than approved parcels; no demolition, FAR, height, or construction-scale conclusion is made before regulatory, ownership, and existing-condition evidence arrives [data:geometry/land_use.geojson#LU-SE-01] [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE].
+Six diagonal “leaves” cover the provisional boundary without overlap, using existing land-use codes for R&D, education, community service, innovation services, culture/memory and adaptive reserve. They are a functional model, not statutory parcels [data:geometry/land_use.geojson#LU-LM-01] [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE].
 
-Renewal begins with the basic ability to co-edit: continuous walking, accessibility, shade, physical wayfinding, and a visible human desk. Lightweight stations and three landmarks follow. Data-intensive AI services come last. Seven building geometries indicate conceptual interfaces—three landmarks and four reversible pavilions—not surveyed buildings or parcel decisions [data:geometry/buildings.geojson#BLDG-SE-01] [depth:retain_renovate_demolish].
+## Land Use, Building Scale and Retain/Adapt/Remove
 
-Phase 1 establishes the protocol, staffing, and reversible structures. Phase 2 tests the three areas and revises public-space links. Phase 3 transfers only scenarios that have completed a public second encounter and a revise or justified retirement. Expansion stops when ownership is unclear, equivalent human service is absent, data boundaries cannot be explained, co-edit evidence is ignored, or professional safety thresholds fail [data:geometry/phasing.geojson#PHASE-SE-01].
+The sequence is human-first: continuous accessible movement, shade, seats, physical guidance and staffed help; then two borrowed 12–20 sqm pilot corners; only then removable technology that has demonstrated value. The buildings layer contains only three approximately 18 × 12 m **reference envelopes** to test adjacency, not new committed floor area or actual rooms [data:geometry/buildings.geojson#BLDG-LM-01] [metric:reference_prototype_count]. FAR, height, density, setbacks, engineering, heritage and ownership remain unknown [standard:MOHURD-CONTROL-DETAILED-PLANNING].
 
-## Detailed Design for the Three Key Areas
+## Detailed Design for Three Key Areas
 
-Zhongzhiyuan becomes the Civic Translation Lab rather than a showroom for stronger models. Each candidate service declares purpose, users, data limits, a named owner, human fallback, review cycle, and exit conditions before entering public space. Small validation courts, public explanation surfaces, and low-disturbance test interfaces remain conceptual pending official ecology and transport controls [data:geometry/key_areas.geojson#PROV-KEY-001].
+**Zhongzhiyuan — Condition Book / Blank First Page.** A team first publishes what a system does not know: purpose, users, exclusions, data boundary, human fallback, failure signs and exit date. A borrowed explanation desk and a 1:1 low-impact test strip support accessible-route, public-navigation and low-speed robot trials.
 
-The AI Origin Community hosts the Co-editing Neighborhood. Students, residents, frontline workers, and developers can bring back what happened after first use: whether advice helped, handover was timely, who was missed, and what should change. Paper, spoken, and accessible routes remain equivalent; a QR code or personal account is never the only entrance [data:geometry/key_areas.geojson#PROV-KEY-002].
+**AI Origin — Everyday Book / Polyphonic Table.** The same route is annotated at morning peak, noon, evening and after rain. Conflict is preserved rather than voted away: a courier needs speed, residents need quiet, wheelchair users need continuity, and gate staff need an executable rule.
 
-Dazhongsi hosts the Urban Handover House and a maintenance economy. It records not only selected achievements but version changes, pauses, retirement, reviseers, and frontline contributors. Revision, accessibility testing, model handover, content correction, and responsibility records can become AI-native services, while station-area engineering waits for official transport and ownership evidence [data:geometry/key_areas.geojson#PROV-KEY-003] [depth:three_key_area_detailed_design].
+**Dazhongsi — Handover Book / Handover Spine.** Maintainers, station staff, small shops and the next design team record how to repair, who takes over and when to retire a version. Version numbers, adoption/refusal reasons and stop decisions replace the usual success-only showcase.
 
-![Three areas as three moments of one relationship](assets/figures/key-areas.en.png)
+![Three area actions, prototypes and version landmarks](assets/figures/key-areas.en.png)
 
-## AI Innovation Ecosystem, Personas, and AI+ Scenarios
+## AI Ecosystem, Personas and AI+ Scenarios
 
-Six personas organise service relationships: an older resident who needs low-friction human help; a disabled commuter; a student or open-source developer; a start-up seeking its first bounded use case; a frontline worker who absorbs system consequences; and an international visitor unfamiliar with local digital rules. Each profile asks what is needed at first encounter, what evidence may co-edit, and who must respond. Personas guide service design and never become identifiable commercial segments.
+### Six People, Twelve Scenario Pages and Three Industry Tests
 
-### One Ordinary Person’s Living Manual
+The six people are explicitly synthetic probes: an older carer, wheelchair commuter, courier, maintenance worker, small-shop operator and an international student/developer with limited Chinese. They reveal blind spots but do not represent demographic shares or public authorisation [metric:synthetic_persona_count].
 
-This is a composite journey used to test the workflow, not a record of a real interview. An older resident taking a child to a community service point follows an accessible route into a road closure. She has no account and does not want continuous location data uploaded. A nearby Co-editing Room steward first draws a route she can use today, then records only five questions on paper: what she used, what she hoped to do, what happened, what help she needs now, and whether she wants the outcome. Name and phone stay blank by default; she takes a query code.
+| Synthetic probe | Situated knowledge | Service condition | Forbidden inference |
+|---|---|---|---|
+| Older carer | steps, seats, slow explanations and caring-route interruptions | paper route, seated staffed help, large/easy-read text | no inference about digital ability, health, family or eligibility |
+| Wheelchair commuter | lift operation, occupied ramps, kerbs and real continuity | field-checked equivalent route and accessibility sign-off | one route problem does not represent all disabled people |
+| Courier | time-specific gates, enforced rules and risky detours | paid sessions, anonymous rule page and performance-data separation | no platform-performance use or individual blame for site rules |
+| Maintenance worker | recurring faults, replaceability and workable shutdown windows | material handover, paid time and right to reject unsafe work | no free knowledge extraction or public employment-sensitive quote |
+| Small-shop operator | footfall, delivery, noise and service thresholds together | easy-read criteria, human referral and advance works notice | no AI eligibility decision or claim of district-wide business consensus |
+| International student/developer | multilingual drift and misunderstood local rules | bilingual terms, source links, human explanation and exit boundary | no nationality, language or developer identity as risk/commercial label |
 
-The pilot proposes a 3/14/30 response rhythm: a service owner accepts responsibility within three working days; an initial finding appears on the physical noticeboard and offline page within fourteen days; within thirty days the service publishes a change, continued observation, or a stop decision. Immediate safety risk pauses the scenario before review. When she co-edits weeks later, she need not retell the story: the code shows what changed and why, or explains why change was impossible and which human route still works. These timings and staffed sessions are co-design targets for a pilot—not confirmed government commitments [depth:ai_scenarios_personas].
+Real pilots store a scoped contributor role only when useful; they do not create persistent persona profiles. Names are blank by default. A contributor may choose a one-time query code, a contact route or no follow-up. The probes themselves must be removable and revisable after real co-design.
 
-Twelve scenario cards share the same structure—first encounter, possible consequence, second encounter, and named human responsibility: walking guidance; accessible routing; low-speed delivery-robot crossings; public-service navigation; health-information triage without diagnosis; education recommendations under teacher review; small-business service matching without approval; open-source release; heritage interpretation with source correction; public-space comfort adjustment; event-flow support under on-site command; and edge-computing energy disclosure [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] [metric:scenario_count].
+| Page | Field action and narrow AI task | Human owner, expiry and stop |
+|---|---|---|
+| 01 Rain route | Verify water, steps, barriers and today's alternative; AI merges repeats into a watermarked draft | site/drainage owner issues route; weather/works expire it; no same-day check means no navigation |
+| 02 Lift/access outage | Check lift, slope, kerb, width and detour; AI translates notices and diffs versions | accessibility specialist confirms equivalent route; unknown lift state stops the draft |
+| 03 Courier gate | Record time and enforced rule without order/performance data; AI de-duplicates anonymous notes | site owner aligns gate staff and signs; no staff sign-off means no publication |
+| 04 Night lighting | Observe darkness, glare, obstruction and residential impact; AI structures test points | lighting/safety staff measure and decide; conflict uses reversible trials first |
+| 05 Shade and wait | Observe seats, shade, queues, care and wheelchair pause without tracking | public-realm owner selects sites; no maintenance/watering owner means no high-care object |
+| 06 Care route | Walk one whole service journey; AI drafts bilingual/easy-read steps | staffed service helps now; health, family and child material enters a restricted queue |
+| 07 Offline service | Complete a task without phone, account or stable network; AI orders materials | human window completes service; AI never determines eligibility; broken offline route stops the digital claim |
+| 08 Maintenance material | Compare replacement, spares, cleaning, safety and shutdown; AI diffs versions | maintainer signs conditions and may refuse unsafe work; no paid time means no targeted collection |
+| 09 Robot yielding | Log near misses, blind areas and takeover in a bounded strip; AI performs preliminary classification | safety officer controls emergency stop and restart; collision or failed takeover stops operation |
+| 10 Plural history | Place archive, memory, maintenance record and guide text side by side; AI links and flags conflict | archive/community editor preserves plurality; unclear rights or private trauma stays non-public |
+| 11 Small-shop threshold | Test a real, redacted service journey; AI rewrites criteria in plain language | responsible department explains eligibility; stale source or no human check removes the page |
+| 12 Edge energy | Meter use, heat, noise, faults and used functions; AI compares energy per version | facilities owner closes/replaces; no metering, maintenance, fire or safe isolation means no installation |
 
-Three bounded validation scenarios come first: low-speed robots with near-miss review in controlled segments; public-service navigation measured through anonymous task completion and human handover time; and accessible routing checked against real obstacles, paper alternatives, and professional advisers. Passing a test permits only the next limited trial, never automatic citywide deployment.
+Every page header carries page ID, version, place/time scope, risk, state and expiry. The body separates observation, contributor-confirmed summary, disagreement, field check, owner decision and human alternative. The footer carries withdrawal, redaction and next-review records [metric:scenario_page_count].
 
-## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
+Three first trials include a no-AI baseline: accessible routing compares paper/human routing against an AI draft; low-speed robots compare manual near-miss logs against AI classification under a human safety stop; public-service navigation compares human document sorting against AI summaries for error, takeover time and missed language. If AI fails to reduce repetition or improve readability—or increases verification burden—the model is removed [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
 
-The complete partition uses established land-use terminology rather than inventing an “AI land” code. Research, education, community service, culture, business, green space, and adaptive reserve are coordinated through one shared-boundary model [data:geometry/land_use.geojson#LU-SE-02] [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]. Green and public-space ratios are conceptual outputs, not statutory controls.
+![Twelve loose-leaf scenarios and bounded tests](assets/figures/scenario-atlas.en.png)
 
-The retain-renovate-demolish method puts relational evidence before a building verdict. Heritage value, street continuity, low-carbon reuse, and community memory trigger retention study. Ground-floor opening, accessibility, equipment replacement, and reversible fit-out trigger renovation study. Demolition can be considered only after safety, ownership, heritage, carbon, and community-impact assessment. Because existing-building evidence is absent, all seven footprints are lightweight interface placeholders and attach to no real property [metric:building_footprint_area_sqm] [depth:height_massing_character].
+## From Marginal Note to City Action
 
-FAR, height, density, setbacks, road redlines, fire access, and municipal capacity remain pending official data. Apparent scale in drawings communicates hierarchy, not engineering dimensions or investment quantities.
+A record moves through **personal observation (unverified) → repeated observation → field confirmed → professional finding → decision/action → expiry review**. AI can never promote a state. The contributor chooses public, team-only or referral-only consent; confirms the summary; a verifier visits; the owner adopts, refers or refuses with reasons. A withdrawal code propagates to working copies, the public page, search index and future-training exclusion list. Records that cannot legally be erased must be disclosed before collection.
 
-## Transport, Rail, Municipal Infrastructure, and Public Services
+At 12:20 a courier writes, on paper, “the map says the north gate is open, but staff sent me away.” No name, order or platform account is required; the card says courier / lunchtime / team-only. A paid editor drafts: “On weekdays 12:00–13:00, public wayfinding and gate practice may differ.” The courier removes the word “always” and confirms the meaning. AI only finds three notes at the same gate and warns that their dates and times differ.
 
-Transport first asks whether a person can co-edit without relying on AI. The Annotatable Living Line offers continuous walking and cycling narrative; four cross-links bring east-west campuses, communities, workplaces, and transit directions to the civic interface. Six stations provide physical wayfinding, seating, staffed hours, and accessible operation as the minimum kit. Road geometry is a conceptual slow-mobility centreline, not an existing-road, redline, bridge, or tunnel proposal [data:geometry/roads.geojson#ROAD-SE-01] [depth:traffic_rail_slow_parking].
+The next day, a Field Verifier walks the mapped gate, used gate and accessible route, separating public sign, written rule, on-shift practice and physical path. The site owner is Accountable; the facilities/service owner is Responsible for aligning a reversible sign and staff brief—or explaining a safety reason and the actual entrance. A query code returns the outcome without creating a permanent account. If anyone requires order history, continuous location or platform identity, the page stops and enters privacy review.
 
-Public services follow three “not-only” rules: QR is not the only entrance, an account is not the only record, and automation is not the only service. Qualified professionals retain judgment in health, education, legal, and daily-life services; AI may navigate, organise materials, or assist within a declared scope. Responsibility, paper explanation, and human service must remain visible [standard:BARRIER-FREE-ENVIRONMENT-LAW].
+Withdrawal is a propagation workflow, not a hidden web button. The Data Administrator freezes reuse; removes or de-identifies the restricted observation; takes down the public summary; refreshes search; notifies action owners who received it; and adds the page to a future-training exclusion list. The log records which copy was handled, not the withdrawn text. Any legally required record that cannot be erased must disclose its content, term, access and correction route before collection. If copies cannot be inventoried, a supplier cannot honour exclusion, or third-party propagation cannot be controlled, that data type does not enter the pilot [source:CASE-UK-ATRS] [depth:risk_missing_data].
 
-Municipal and digital infrastructure should be measurable, closable, and replaceable: edge-computing cabinets, energy and water displays, shade, lighting, and sensors must not be inseparable from permanent landscape. Energy, drainage, flood, fire, utility, noise, and cybersecurity conditions require specialist verification.
+![Six people through one human accountability chain](assets/figures/human-journey.en.png)
 
-![Co-edit mobility and blue-green civic space](assets/figures/mobility-bluegreen.en.png)
+## Mobility, Rail, Municipal and Public Services
 
-## Blue-Green Network, Public Space, and Urban Character
+The Binding Line connects the narrative sequence of the three areas; six cross-links face campuses, neighbourhoods, workplaces and transit. They indicate walking intentions, not existing roads, parking supply, rail interfaces or engineering alignments [data:geometry/roads.geojson#ROAD-LM-01]. Every digital route keeps a paper, physical-sign or staffed equivalent. Edge equipment must be metered, switchable and replaceable; energy, drainage, flood, fire, utility, noise and cyber conditions remain professional gates. Medical, legal and public-service judgement stays with qualified people.
 
-Blue-green space is not a backdrop for gadgets; it creates the daily conditions for a second encounter. A continuous green spine supports shade, rain gardens, rest, walking, and cycling. An orange revise seam in paving, seating, or wayfinding marks “this place changed because someone co-edited,” turning correction into civic credit rather than hidden failure. Every action near waterways, parks, or heritage remains lightweight and reversible pending professional evidence [data:geometry/green_space.geojson#GREEN-SE-01] [metric:green_ratio].
+## Blue-green Space, Public Realm and Urban Character
 
-Co-editing Rooms are not screen arrays, and the first phase should not construct six new buildings. It should borrow a visible 12–18 sqm corner of an existing community centre, campus commons, park lodge, or workplace reception. The minimum kit is a replaceable notice surface, a face-to-face table, two backed chairs, an accessible route, large-print and easy-read instructions, five-question paper cards, an optional QR route, and staffed hours posted at the door. The pilot proposes at least three staffed sessions each week, including one evening or weekend; outside those hours, a telephone and paper drop remain available so an “always-on” screen never pretends that somebody is responsible. The landmarks avoid spectacle: the Civic Translation Lab declares boundaries; the Co-editing Neighborhood receives consequences; the Urban Handover House records revise, pause, and retirement [data:geometry/public_space.geojson#PUBLIC-SE-01] [metric:public_space_ratio].
+The green spine provides shade, rain gardens, rest and low-glare night conditions. The conceptual green ratio is 3.48% and public-space ratio 0.030%; both are provisional model outputs [metric:green_ratio] [metric:public_space_ratio].
 
-Railway iron grey carries memory and structure, civic blue carries explanation and service, and revise orange appears only where response has occurred. Night lighting avoids glare and media excess; sound and interaction must respect residential life.
+Each Marginalia Port needs a two-sided table, backed seating, wheelchair turning, paper/large-print/easy-read/Chinese-English materials, a locked drop, staffed hours and urgent-service routes. When no one is present, no screen pretends to be a human service.
 
-## Renewal Projects, Implementation Policy, and Phasing
+![Binding line, six cross-links, green spine and reference section](assets/figures/mobility-bluegreen.en.png)
 
-Eight project packages are proposed: the Living Manual protocol and one-page card; six lightweight Co-editing Rooms; Zhongzhiyuan Civic Translation Lab; AI Origin Co-editing Neighborhood; Dazhongsi Urban Handover House; four accessible Co-edit Cross-links; twelve bounded scenario trials; and a public version archive with annual review. Each requires a public owner, technical operator, frontline steward, independent reviewer, and resident or user representative. Records bind to public roles, not to individual frontline workers as convenient targets for blame [depth:renewal_project_list] [data:geometry/phasing.geojson#PHASE-SE-01].
+## Data, AI and Representation Boundaries
 
-Phase 1 uses three gates rather than a construction list. Eight weeks confirm two borrowed spaces, two paid editor roles, paper cards, anonymous mapping, privacy review, and accessibility walks. Twelve weeks test only three questions: how to move after rain; who knows how to repair it; and how one place can hold more than one account. Four weeks then publish which annotations were adopted, remain unverified, expired, or were withdrawn. Expansion occurs only when field verification is sustained, contributors can confirm AI summaries, and a maintenance owner accepts handover. Costs remain qualitative—light, medium, heavy—because ownership, budget, and procurement are unknown.
+AI is limited to seven tasks: **transcription, translation, de-duplication, clustering, structured drafting, routing and version diff**. It does not determine truth, service priority, eligibility, resource allocation, medicine, law or planning. It is never Accountable or Responsible in RACI.
 
-Each pilot has two fixed roles. A Community Editor listens, structures the material, and returns to contributors for confirmation. A Spatial Translator takes the evidence into the field and turns it into a verifiable spatial problem, maintenance task, or technical constraint. Accountable units, accessibility advisers, maintainers, and resident representatives join a monthly editing meeting. Expansion stops when there is no durable editor, no field verification, forced identity or continuous tracking, or an AI summary erases disagreement.
+Minimum fields include page ID, time/place scope, optional contributor role, consent tier, restricted observation, confirmed summary, disagreement, field check, owner, state, risk tier, expiry, withdrawal code, redaction log and version hash. Audio/video, continuous location and identity are off by default; the public page contains redacted summaries only. Third-party, health, child, security, defamation or employment material enters a restricted human queue.
 
-![Two-station pilot and stop conditions](assets/figures/pilot-operations.en.png)
+Public consent exposes only a contributor-confirmed, editor-redacted structured summary. Team-only permits time-limited source text inside the editing/verification workspace. Referral-only sends necessary facts to a responsible service while the public ledger shows status only. Consent can be narrowed or withdrawn, never widened by the operator. Spoken input is read back as text; recording is not the default.
 
-The long-term brand event is Living Manual Week. Participants cannot bring only a demo; they must co-edit with evidence, failure, changes, and a new promise. Revision Night School, Frontline Stories, Honourable Retirement, and Global Developer Handover turn maintenance into public culture. Events, investment, recruitment, and policy remain operational concepts, not confirmed government commitments [source:AGENT-TASKBOOK].
+Ordinary spatial notes enter a capacity-limited routine queue. Accessibility disruption with an available alternative is prioritised. Immediate safety, health, law, child protection and social-support needs use existing professional or emergency referrals rather than the editing queue. Third-party, employment, defamation, security and sensitive material enters restricted review. Each queue publishes capacity, closure and escalation. When capacity is reached, collection pauses; AI must not send a reply that pretends an item has been accepted.
 
-### Feasibility Gates: Confirm People, Space, and Responsibility before Scaling
+Before Gate 0 closes, every field must state necessity, reader, storage, term, withdrawal, export, deletion, model use and supplier access. Name, government ID, face, voiceprint, continuous location, order, health, family and advertising identifiers stay outside the default inventory. If one-time contact is required, it is separated from the observation and deleted at closure. Small samples are not ranked by street or treated as majority opinion.
 
-The proposal is a complete and reviewable competition package, and its pilot can begin through lightweight use of existing space; it is not construction-ready engineering. Implementation requires an accountable public owner; two hosts providing accessible 12–20 sqm spaces; paid Community Editor and Spatial Translator roles; privacy and accessibility review; and a handover route from verified problems to maintenance or delivery units. Without these conditions, room numbers, hours, and corrective outcomes cannot be promised.
+The six probes are not “resident representatives”. Real pilots use participant seats, transparent recruitment, coverage gaps, payment, withdrawal and complaints. Targeted frontline participation does not begin without paid time, workload limits and a credit/anonymity/licence choice [depth:risk_missing_data].
 
-The 8+12+4-week gates cover preparation, verification, and a joint decision. Replication depends not on receiving many comments but on dated and bounded annotations, traceable field checks, preserved disagreement, contributor correction or withdrawal, and at least two genuine handovers into spatial or maintenance action. Staff time, fit-out, and participation compensation remain local co-budgeting questions; no investment figure is invented without quotations and confirmed responsibility [depth:implementation_phasing] [metric:scenario_count].
+![Consent, verification, ownership, withdrawal and expiry](assets/figures/data-governance.en.png)
 
-### Independent Mechanism and First Pilot
+## Project List, Responsibility and Phasing
 
-This direction is not a renamed version of The Second Encounter. Zhongzhiyuan's Civic Translation Lab turns technical goals and daily difficulties into conditions people can judge. The AI Origin Co-editing Neighborhood lets residents, students, couriers, and carers annotate different times of day. Dazhongsi's Urban Handover House passes tacit knowledge from maintainers and local stewards to the next design cycle. The first pilot borrows two existing spaces and constructs no dedicated building.
+Eight actions are options, not capital commitments: protocol; two borrowed ports; Binding Line accessibility audit; three volume prototypes; twelve scenario cards; version/withdrawal register; paid editor/verifier roles; public closeout and handover.
 
-The three minimum tests are “How to move after rain,” “Who knows how to repair it,” and “A place has more than one account.” Paper, spoken, and staffed routes remain available. AI cannot make final decisions about priority, eligibility, factual truth, or resource allocation. Expansion pauses if any of the following occurs: No accountable editor; No field verification; Continuous tracking or forced identity; AI summary erases disagreement. Participation is not represented as public consensus; roles, hours, compensation, and site conditions become commitments only after local accountable bodies confirm them [depth:implementation_phasing] [metric:scenario_count].
+| ID | Minimum deliverable | Pass condition | Stop / do not claim |
+|---|---|---|---|
+| LM-01 Page protocol | bilingual/easy-read card, three consent tiers, states, queues and expiry | contributor can correct the summary; paper and digital states agree | no use with forced identity, default recording or failed withdrawal |
+| LM-02 Two borrowed ports | two accessible 12–20 sqm corners, table, seats, signs, locked drop and staffed hours | a person without a phone receives help in the visit | no collection without durable staffing and referral routes |
+| LM-03 Binding Line audit | time/weather walks for barriers, shade, rest and gates | at least two executable small fixes are handed over | no road, rail or parking engineering claims without source data |
+| LM-04 Three volume prototypes | one reversible 1:1 Condition, Polyphonic and Handover interface | each produces different evidence and responsibility | stop if reduced to screen, exhibition or photo opportunity |
+| LM-05 Twelve cards | problem, narrow AI task, human owner, no-AI baseline, expiry and stop | three first trials compare workload, error and takeover | no high-risk open-population decision or trial without emergency stop |
+| LM-06 Version/withdrawal register | layered ledger, redaction log, expiry and exclusion list | a sampled page can be withdrawn across controlled copies | no data class with unknown copies or non-cooperating supplier |
+| LM-07 Paid roles | editor/verifier job scope, hours, cover and complaints | listening, field work and contributor confirmation have funded time | no pilot dependent on volunteers, interns or unpaid frontline work |
+| LM-08 Public closeout | adopted/referred/refused/withdrawn/expired/unresolved list and next owner | two small actions handed over; failure and stopping are visible | no “success” based only on event attendance or positive comments |
 
-## Metrics, Area Recalculation, and Compliance Matrix
+Governance projects LM-01, LM-06 and LM-07 precede collection. LM-02 and LM-03 establish human access. LM-04 and LM-05 test design and industry. LM-08 is defined on day one because a pilot that cannot end responsibly is not ready to begin. Phasing geometry shows conditional intervention envelopes, not investment parcels [data:geometry/phasing.geojson#PHASE-LM-01].
 
-Three core visual metrics are recomputed from the same GeoJSON in EPSG:4548: provisional site area 11,412,825 sqm, conceptual green ratio 16.86%, and conceptual public-space ratio 1.24% [metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio]. The package also records six Co-editing Rooms, three Time Landmarks, twelve scenario cards, and seven lightweight building interfaces. These describe the model, not official controls.
+The named public/service owner is Accountable. A paid Community Editor is Responsible for listening and summary confirmation. A Spatial Translator/Field Verifier is Responsible for place facts. The relevant maintenance/service owner is Responsible for adoption, referral or refusal. Privacy, accessibility, heritage and safety specialists are Consulted. Contributors and the public are Informed. AI holds no R/A role.
 
-Metrics fall into three families: spatial-model values recomputable from geometry; FAR, height, roads, utilities, and heritage controls pending official evidence; and operational measures—co-edit rate, handover time, revise completion, repeated-problem rate, and executed retirement—that require real pilots. No satisfaction or performance baseline is fabricated.
+Accountability changes by state: the pilot owner is accountable for collection; a qualified spatial/facilities body for field findings; the budget-and-authority holder for action; and the data controller for withdrawal. An editor cannot promise work on behalf of an owner without authority. Every page displays the current public role, not a personal mobile number. Capacity is also public: staffed hours, remaining routine capacity, priority/referral availability and the next editing meeting. Two consecutive backlog weeks, two missed human-service commitments or one serious safety/privacy event trigger pause and independent review.
 
-The compliance matrix maps announcement tasks and Agent tasks to narrative, geometry, metrics, drawings, sources, assumptions, and checks. Professional standards and design depth stay exhaustive in structured matrices; the readable proposal uses only claim-adjacent markers [depth:metrics_recalculation].
+Gate 0 confirms owner, sites, paid roles, privacy/access review and referral routes. Gate 1 prepares two sites and three low-risk scenarios for eight weeks. Gate 2 runs a 12-week pilot with no-AI baselines. Gate 3 closes publicly for four weeks. Extension requires traceable handovers, at least two closed small actions, working withdrawal and a queue below capacity [data:geometry/phasing.geojson#PHASE-LM-01] [depth:phasing_implementation].
 
-![Metrics and public-co-edit evidence chain](assets/figures/metrics-evidence.en.png)
+Hard stops: no named Accountable owner; no paid editor/verifier; sensitive raw data required by default; forced identity/tracking; disagreement erased; no field check; no human or professional route; safety incident; queue beyond published capacity; no action/referral owner.
 
-## Risk, Copyright, and Compliance
+![Twenty-four-week pilot, RACI and hard stops](assets/figures/pilot-operations.en.png)
 
-Data risk comes first: the provisional overall-design polygon has documented spatial uncertainty, key areas lack official polygons, and building, road, heritage, municipal, and ownership evidence is incomplete. The response is not to draw with false confidence but to preserve provisional labels, reduce engineering claims, and trigger full-package regeneration [source:BOUNDARY-SOURCE] [depth:risk_missing_data].
+## Metrics, Recalculation and Compliance
 
-Relational risk follows: co-edit can degrade into symbolic consultation, identity tracking, complaint displacement, or feedback without responsibility. Evidence must therefore be voluntary, purpose-limited, and capable of anonymity; paper and face-to-face channels remain equivalent; every item binds to a public role; a service-specific agreement determines response time; unresolved items receive an explanation. Unverified feedback is never described as majority opinion or public consent.
+The same GeoJSON recomputes 11,412,825 sqm of provisional site, 396,604 sqm of conceptual green, 3,477 sqm across nine small civic pockets and 648 sqm across three reference envelopes. Counts of six ports, three landmarks, twelve pages and three key areas are machine-checkable [metric:marginalia_port_count] [metric:landmark_count].
 
-Expression risk is explicit: the cover, figures, and drawings are generated or data-driven presentation assets, not site photographs, official renderings, or approved plans. Methods, sources, rights, and limits are recorded. Two peer proposals were read only for differentiation; no text, image, or data asset was copied [source:PEER-OBSERVABLE-JZ] [source:PEER-MEND-JZ].
+Real pilot metrics are deliberately blank until observed: contributor corrections to AI summaries, verification time, risk-tier backlog, completed handovers, adoption/referral/refusal, withdrawal propagation, AI versus no-AI workload and expiry deletion. The package never invents satisfaction, representativeness or impact [depth:metrics_recalculation].
 
-Every spatial move is a conceptual suggestion, reference scheme, or material for professional deepening. Nothing in the package guarantees approval, implementation, investment, policy, recruitment, event impact, or resident support.
+![Metric recomputation and evidence states](assets/figures/metrics-evidence.en.png)
+
+## Naming, Visual Identity and Long-term Operation
+
+The neutral mark combines a deep-blue spine, an orange marginal note and an open bracket. Condition Book, Everyday Book and Handover Book are the three volume names; physical service points are Marginalia Ports. Corporate logos, identifiable people, invented screen data and command-centre imagery are excluded.
+
+The long-term “City Proofreading Week” requires evidence of what was wrong, who repaired it, what remains and why something stopped. Maintenance talks, multilingual proofreading, accessible walks, failed-version exhibitions and a global handover day are conditional on real paid roles, sites, compensation and action routes [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+![Identity from name and colour to spatial elements](assets/figures/brand-identity.en.png)
+
+## Risk, Feasibility and Disclaimer
+
+**A conditional small pilot is feasible; immediate corridor-wide construction is not.** Two existing spaces, paper cards, paid human editors and three low-risk scenarios can begin only after an owner, budget and referral interface exist. The largest risks are unpaid extraction, exposed personal narrative, provisional geometry presented as law and unhandled comments presented as co-governance. Each has an owner, hard stop and recalculation trigger.
+
+This is a **concept proposal, not an approved statutory plan**. It is not government endorsement and does not replace statutory planning, engineering design, formal public participation, a data-protection impact assessment, heritage review or procurement. It promises no funding, jobs, site access, delivery date, public support or operating outcome. Provisional boundaries, functional leaves, reference section and reference envelopes exist only to explain relationships and recomputation [source:BOUNDARY-SOURCE] [standard:MOHURD-CONTROL-DETAILED-PLANNING].
+
+Figures, people and cover are original conceptual expressions, not photographs or interviews. Peer work was used only for independence checks [source:PEER-OPEN-GATE-LINE] [source:PEER-SHARED-FLOOR]. This package does not replace statutory planning, engineering, public participation, privacy assessment or government approval.
 
 ## References
 
-- Official project announcement [source:OFFICIAL-ANNOUNCEMENT]
-- Agent taskbook and public repository source registry [source:AGENT-TASKBOOK] [source:SOURCE-REGISTRY]
-- UK Algorithmic Transparency Recording Standard Hub [source:CASE-UK-ATRS]
-- AI Verify Testing Framework [source:CASE-AI-VERIFY]
-- Dutch Algorithm Register [source:CASE-DUTCH-ALGORITHM-REGISTER]
-- Boston CityScore [source:CASE-BOSTON-CITYSCORE]
-- Decidim participation and traceability principles [source:CASE-DECIDIM]
-
-Publishers, URLs, access dates, permitted uses, and limitations are maintained in `sources.json`. Cases support analogy and do not become local statutory evidence.
+Official announcement and Agent taskbook [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]; provisional boundary, registry and fact pack [source:BOUNDARY-SOURCE] [source:SOURCE-REGISTRY]; UK ATRS, Decidim and Helsinki Testbed as bounded comparisons only [source:CASE-UK-ATRS] [source:CASE-DECIDIM] [source:CASE-HELSINKI-TESTBED]. Every adopted city action must disclose its original source, verifier, selection rationale and expiry in the version log; where privacy or rights prevent disclosure, the log states why and supplies a reviewable alternative. Full publisher, date, scope and reuse limits are in `sources.json`.

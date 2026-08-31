@@ -13,15 +13,15 @@
       "source_files": [
         "geometry/site_boundary.geojson"
       ],
-      "formula": "polygon_area(submitted_provisional_site_boundary, EPSG:4548)",
+      "formula": "area(site_boundary, EPSG:4548)",
       "confidence": "low",
       "assumptions": [
-        "Calculated from repository provisional rough geometry; not suitable for official area or planning-control claims. Recalculate when official polygons arrive."
+        "Recomputed from the repository provisional rough polygon in EPSG:4548; not an official control value and must be fully recalculated when official geometry arrives."
       ]
     },
     "green_space_area_sqm": {
       "status": "known",
-      "value": 1923694.817,
+      "value": 396604.342,
       "unit": "sqm",
       "source_files": [
         "geometry/green_space.geojson"
@@ -29,12 +29,12 @@
       "formula": "area(union(green_space), EPSG:4548)",
       "confidence": "low",
       "assumptions": [
-        "Calculated from repository provisional rough geometry; not suitable for official area or planning-control claims. Recalculate when official polygons arrive."
+        "Recomputed from the repository provisional rough polygon in EPSG:4548; not an official control value and must be fully recalculated when official geometry arrives."
       ]
     },
     "green_ratio": {
       "status": "known",
-      "value": 0.168556,
+      "value": 0.034751,
       "unit": "ratio",
       "source_files": [
         "geometry/green_space.geojson",
@@ -43,12 +43,12 @@
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "low",
       "assumptions": [
-        "Calculated from repository provisional rough geometry; not suitable for official area or planning-control claims. Recalculate when official polygons arrive."
+        "Recomputed from the repository provisional rough polygon in EPSG:4548; not an official control value and must be fully recalculated when official geometry arrives."
       ]
     },
     "public_space_area_sqm": {
       "status": "known",
-      "value": 141745.075,
+      "value": 3476.864,
       "unit": "sqm",
       "source_files": [
         "geometry/public_space.geojson"
@@ -56,12 +56,13 @@
       "formula": "area(union(public_space), EPSG:4548)",
       "confidence": "low",
       "assumptions": [
-        "Calculated from repository provisional rough geometry; not suitable for official area or planning-control claims. Recalculate when official polygons arrive."
+        "Recomputed from the repository provisional rough polygon in EPSG:4548; not an official control value and must be fully recalculated when official geometry arrives.",
+        "Concept model output only; not an as-built survey, approved project quantity, or funding commitment."
       ]
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.01242,
+      "value": 0.000305,
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",
@@ -70,34 +71,60 @@
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "low",
       "assumptions": [
-        "Calculated from repository provisional rough geometry; not suitable for official area or planning-control claims. Recalculate when official polygons arrive."
+        "Recomputed from the repository provisional rough polygon in EPSG:4548; not an official control value and must be fully recalculated when official geometry arrives.",
+        "Concept model output only; not an as-built survey, approved project quantity, or funding commitment."
       ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
-      "value": 23916.442,
+      "value": 648.0,
       "unit": "sqm",
       "source_files": [
         "geometry/buildings.geojson"
       ],
-      "formula": "sum(area(conceptual_building_footprints), EPSG:4548)",
+      "formula": "area(union(reference_prototype_footprints), EPSG:4548)",
       "confidence": "low",
       "assumptions": [
-        "Conceptual lightweight interfaces only; not existing-building survey or approved building scale."
+        "Concept model output only; not an as-built survey, approved project quantity, or funding commitment."
       ]
     },
-    "co-edit_station_count": {
+    "binding_line_length_m": {
+      "status": "known",
+      "value": 9270.677,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "length(ROAD-LM-01, EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Recomputed from the repository provisional rough polygon in EPSG:4548; not an official control value and must be fully recalculated when official geometry arrives."
+      ]
+    },
+    "cross_link_length_m": {
+      "status": "known",
+      "value": 3697.176,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "sum(length(ROAD-LM-02..07), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "Recomputed from the repository provisional rough polygon in EPSG:4548; not an official control value and must be fully recalculated when official geometry arrives."
+      ]
+    },
+    "marginalia_port_count": {
       "status": "known",
       "value": 6,
       "unit": "count",
       "source_files": [
-        "geometry/buildings.geojson",
         "geometry/public_space.geojson"
       ],
-      "formula": "count(co-edit_station_nodes)",
-      "confidence": "medium",
+      "formula": "count(public_space_role == marginalia_port)",
+      "confidence": "high",
       "assumptions": [
-        "Conceptual design count."
+        "Concept model output only; not an as-built survey, approved project quantity, or funding commitment."
       ]
     },
     "landmark_count": {
@@ -105,23 +132,47 @@
       "value": 3,
       "unit": "count",
       "source_files": [
-        "geometry/buildings.geojson"
+        "geometry/public_space.geojson"
       ],
-      "formula": "count(second_encounter_landmarks)",
-      "confidence": "medium",
+      "formula": "count(public_space_role == version_landmark_forecourt)",
+      "confidence": "high",
       "assumptions": [
-        "Conceptual design count."
+        "Concept model output only; not an as-built survey, approved project quantity, or funding commitment."
       ]
     },
-    "scenario_count": {
+    "reference_prototype_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "count(reference_prototype == true)",
+      "confidence": "high",
+      "assumptions": [
+        "Concept model output only; not an as-built survey, approved project quantity, or funding commitment."
+      ]
+    },
+    "scenario_page_count": {
       "status": "known",
       "value": 12,
       "unit": "count",
       "source_files": [
         "proposal.md",
-        "compliance_matrix.json"
+        "report/narrative.md"
       ],
-      "formula": "count(documented_scenario_cards)",
+      "formula": "count(numbered_scenario_pages_01_to_12)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "synthetic_persona_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(explicitly_synthetic_personas)",
       "confidence": "high",
       "assumptions": []
     },
@@ -135,7 +186,7 @@
       "formula": "count(key_area_features)",
       "confidence": "low",
       "assumptions": [
-        "Calculated from repository provisional rough geometry; not suitable for official area or planning-control claims. Recalculate when official polygons arrive."
+        "Recomputed from the repository provisional rough polygon in EPSG:4548; not an official control value and must be fully recalculated when official geometry arrives."
       ]
     },
     "floor_area_ratio": {
@@ -145,10 +196,10 @@
       "source_files": [
         "brief/site-package/ranges/planning_limits.json"
       ],
-      "formula": "total_floor_area_sqm / official_site_area_sqm",
+      "formula": "official_control",
       "confidence": "unknown",
       "assumptions": [],
-      "reason": "Approved FAR controls and official site polygons are not present in the cleared public package."
+      "reason": "No approved FAR control or official parcel geometry is present."
     },
     "building_height_m": {
       "status": "unknown",
@@ -160,7 +211,19 @@
       "formula": "official_control",
       "confidence": "unknown",
       "assumptions": [],
-      "reason": "Approved height, heritage, aviation, and streetscape controls are not present."
+      "reason": "No approved height, heritage, aviation, or streetscape control is present."
+    },
+    "pilot_budget_cny": {
+      "status": "unknown",
+      "value": null,
+      "unit": "CNY",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "named_role_hours + venue + accessibility + participation_compensation + data_governance + contingency",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "No host, wage basis, venue agreement, procurement route, or quotation has been confirmed."
     }
   }
 }

@@ -4,44 +4,100 @@
     {
       "id": "SITE-PACKAGE",
       "path": "brief/site-package/",
+      "publisher": "Open City AI repository maintainers",
+      "accessed_date": "2026-08-31",
       "source_type": "official_public",
-      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+      "usage": "Project brief, allowed design space, enums and schemas.",
+      "spatial_temporal_scope": "Published competition package for the Jing-Zhang AI Innovation Belt.",
+      "not_usable_for": "Surveyed current conditions or approved planning control.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Surveyed current conditions or approved planning control."
     },
     {
       "id": "SOURCE-REGISTRY",
       "path": "data/source_registry.json",
-      "source_type": "repository_public_registry",
-      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+      "publisher": "Open City AI repository maintainers",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Public-source trust and usability registry.",
+      "spatial_temporal_scope": "Repository source register at access date.",
+      "not_usable_for": "Upgrading provisional data to official status.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Upgrading provisional data to official status."
     },
     {
       "id": "PROCESSED-FACT-PACK",
       "path": "data/processed/agent_fact_pack.md",
-      "source_type": "repository_processed_reference",
-      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+      "publisher": "Open City AI repository maintainers",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Navigation layer for scope, tasks, source boundaries and missing data.",
+      "spatial_temporal_scope": "Processed competition reference at access date.",
+      "not_usable_for": "Independent factual authority.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Independent factual authority."
     },
     {
       "id": "BOUNDARY-SOURCE",
       "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "publisher": "Open City AI repository maintainers",
+      "accessed_date": "2026-08-31",
       "source_type": "agent_inferred_from_public_data",
-      "usage": "Submitted site boundary geometry source (provisional)."
+      "usage": "Provisional overall design boundary carried unchanged as a constraint.",
+      "spatial_temporal_scope": "Rough 11.4 km² design envelope inferred for the call.",
+      "not_usable_for": "Official redline, cadastral or engineering precision.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Official redline, cadastral or engineering precision."
     },
     {
       "id": "KEY-AREA-SOURCE",
       "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "publisher": "Open City AI repository maintainers",
+      "accessed_date": "2026-08-31",
       "source_type": "agent_inferred_from_public_data",
-      "usage": "Three required detailed-design key area boundaries (provisional)."
+      "usage": "Three provisional key-area envelopes carried unchanged as constraints.",
+      "spatial_temporal_scope": "Approximate areas named in the official call.",
+      "not_usable_for": "Official key-area boundaries or parcel decisions.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Official key-area boundaries or parcel decisions."
     },
     {
       "id": "OFFICIAL-ANNOUNCEMENT",
       "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "publisher": "北京市规划和自然资源委员会海淀分局",
+      "accessed_date": "2026-08-31",
       "source_type": "official_public",
-      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+      "usage": "Purpose, scope levels, key areas, task and deliverable context.",
+      "spatial_temporal_scope": "Official open-call announcement published May 2026.",
+      "not_usable_for": "Evidence that this proposal has been selected, approved or implemented.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Evidence that this proposal has been selected, approved or implemented."
     },
     {
       "id": "AGENT-TASKBOOK",
       "path": "brief/site-package/agent_taskbook.json",
+      "publisher": "Open City AI repository maintainers",
+      "accessed_date": "2026-08-31",
       "source_type": "user_provided_cleared",
-      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+      "usage": "Six Agent tasks, co-creation principles, expression and boundary clauses.",
+      "spatial_temporal_scope": "Agent-facing call taskbook at access date.",
+      "not_usable_for": "Local implementation authority.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Local implementation authority."
     },
     {
       "id": "CASE-UK-ATRS",
@@ -49,8 +105,41 @@
       "publisher": "UK Government Digital Service",
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
-      "usage": "Standardised public disclosure fields for algorithmic tools; transferable reference only.",
-      "not_usable_for": "Local statutory authority or proof of compliance in Beijing."
+      "usage": "Transferable reference for publishing bounded algorithmic-system records.",
+      "spatial_temporal_scope": "UK public-sector standard hub at access date.",
+      "not_usable_for": "Proof of legal compliance in Beijing.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Proof of legal compliance in Beijing."
+    },
+    {
+      "id": "CASE-DECIDIM",
+      "url": "https://docs.decidim.org/en/develop/understand/about.html",
+      "publisher": "Decidim project",
+      "accessed_date": "2026-08-30",
+      "source_type": "official_public",
+      "usage": "Transferable reference for traceable online/offline participation and accountable process.",
+      "spatial_temporal_scope": "Open participation-platform documentation at access date.",
+      "not_usable_for": "Claim of an authorised local platform or consultation.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Claim of an authorised local platform or consultation."
+    },
+    {
+      "id": "CASE-HELSINKI-TESTBED",
+      "url": "https://testbed.hel.fi/en/smart-mobility/mobility-lab-helsinki/",
+      "publisher": "City of Helsinki",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Transferable reference for bounded real-city mobility testing and ecosystem coordination.",
+      "spatial_temporal_scope": "Helsinki programme description at access date.",
+      "not_usable_for": "Local procurement, data, performance or budget assumptions.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Local procurement, data, performance or budget assumptions."
     },
     {
       "id": "CASE-AI-VERIFY",
@@ -58,8 +147,13 @@
       "publisher": "AI Verify Foundation",
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
-      "usage": "Process and technical testing framework covering 11 governance principles; transferable reference only.",
-      "not_usable_for": "Certification of any proposed Jing-Zhang service."
+      "usage": "Transferable reference for pairing process governance with technical testing and documented limitations.",
+      "spatial_temporal_scope": "Singapore-origin governance and testing framework at access date.",
+      "not_usable_for": "Certification of this proposal or legal compliance in Beijing.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Certification of this proposal or legal compliance in Beijing."
     },
     {
       "id": "CASE-DUTCH-ALGORITHM-REGISTER",
@@ -67,8 +161,13 @@
       "publisher": "Government of the Netherlands",
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
-      "usage": "Public catalogue logic for algorithmic systems; transferable reference only.",
-      "not_usable_for": "Local legal or procurement requirements."
+      "usage": "Transferable reference for a public catalogue of algorithmic systems, owners and purposes.",
+      "spatial_temporal_scope": "Dutch public register interface at access date.",
+      "not_usable_for": "A local register mandate, legal standard or proof of implementation.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "A local register mandate, legal standard or proof of implementation."
     },
     {
       "id": "CASE-BOSTON-CITYSCORE",
@@ -76,44 +175,83 @@
       "publisher": "City of Boston",
       "accessed_date": "2026-08-30",
       "source_type": "official_public",
-      "usage": "Longitudinal performance reporting and target comparison; used as a counter-example to one-off launch metrics.",
-      "not_usable_for": "Direct transfer of the composite score or its targets."
+      "usage": "Counter-example supporting longitudinal review rather than one-off launch metrics.",
+      "spatial_temporal_scope": "Boston performance-management description at access date.",
+      "not_usable_for": "Transfer of its composite score, targets or service model.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Transfer of its composite score, targets or service model."
     },
     {
-      "id": "CASE-DECIDIM",
-      "url": "https://docs.decidim.org/en/develop/understand/about.html",
-      "publisher": "Decidim project / Barcelona origin",
-      "accessed_date": "2026-08-30",
+      "id": "CASE-ONE-NORTH",
+      "url": "https://www.jtc.gov.sg/find-land/jtc-key-estates/one-north?estate=one-north",
+      "publisher": "JTC, Government of Singapore",
+      "accessed_date": "2026-08-31",
       "source_type": "official_public",
-      "usage": "Traceable hybrid online/offline participation and public-commons governance reference.",
-      "not_usable_for": "Claim that a local platform or consultation has been authorised."
+      "usage": "Transferable reference for mixing research, enterprise, learning, living and testbed functions.",
+      "spatial_temporal_scope": "one-north estate description at access date.",
+      "not_usable_for": "Transfer of Singapore land, leasing, investment or governance arrangements.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Transfer of Singapore land, leasing, investment or governance arrangements."
     },
     {
-      "id": "PEER-OBSERVABLE-JZ",
-      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/glove11111-design/observable-jingzhang",
-      "publisher": "glove11111-design",
-      "accessed_date": "2026-08-30",
+      "id": "CASE-BARCELONA-22AT",
+      "url": "https://www.barcelona.cat/promocioeconomica/en/what-we-do/employment-business-entrepreneurship-and-innovation/science-and-innovation",
+      "publisher": "Barcelona City Council",
+      "accessed_date": "2026-08-31",
       "source_type": "official_public",
-      "usage": "Peer comparison used to distinguish longitudinal co-edit from public observability; no text or assets reused.",
-      "not_usable_for": "Unattributed copying or factual authority."
+      "usage": "Transferable reference for knowledge-transfer and innovation-area coordination, including the 22@ context.",
+      "spatial_temporal_scope": "Barcelona science and innovation programme description at access date.",
+      "not_usable_for": "Transfer of development rights, land-use ratios, investment or performance claims.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Transfer of development rights, land-use ratios, investment or performance claims."
     },
     {
-      "id": "PEER-MEND-JZ",
-      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/yadnuses/jingzhang-mend",
-      "publisher": "yadnuses",
-      "accessed_date": "2026-08-30",
-      "source_type": "official_public",
-      "usage": "Peer comparison used to distinguish relational follow-up from care-service programming; no text or assets reused.",
-      "not_usable_for": "Unattributed copying or factual authority."
+      "id": "PEER-OPEN-GATE-LINE",
+      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/Yunique-hub/jingzhang-open-gate-line",
+      "publisher": "Yunique-hub",
+      "accessed_date": "2026-08-31",
+      "source_type": "unknown",
+      "usage": "Peer comparison for spatial prototype specificity, rejected alternatives and no-AI baselines; no text, geometry or assets reused.",
+      "spatial_temporal_scope": "Merged peer proposal at access date.",
+      "not_usable_for": "Factual authority, copying or evidence of local support.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Factual authority, copying or evidence of local support."
+    },
+    {
+      "id": "PEER-SHARED-FLOOR",
+      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/PozdnyakovMaxim/shared-floor-jingzhang",
+      "publisher": "PozdnyakovMaxim",
+      "accessed_date": "2026-08-31",
+      "source_type": "unknown",
+      "usage": "Peer comparison for model-versus-site boundaries, distinct topologies and implementation caveats; no text, geometry or assets reused.",
+      "spatial_temporal_scope": "Merged peer proposal at access date.",
+      "not_usable_for": "Factual authority, copying or evidence of local support.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Factual authority, copying or evidence of local support."
     },
     {
       "id": "GENERATED-COVER-LIVING-MANUAL",
-      "path": "assets/media/second-encounter-cover-v1.png",
+      "path": "assets/media/living-manual-cover.webp",
       "publisher": "Codex deterministic Pillow renderer",
-      "accessed_date": "2026-08-30",
+      "accessed_date": "2026-08-31",
       "source_type": "agent_generated_design",
-      "usage": "Original conceptual editorial cover for JING-ZHANG · THE LIVING MANUAL; generated from the proposal mechanism.",
-      "not_usable_for": "Observed site condition, official rendering, public opinion, or spatial evidence."
+      "usage": "Original editorial concept illustration built from the Living Manual spatial grammar.",
+      "spatial_temporal_scope": "Timeless conceptual image, not site documentation.",
+      "not_usable_for": "Observed condition, official rendering, public opinion or approved design.",
+      "retrieval_method": "Read from the named cleared repository file or official public webpage.",
+      "license_or_reuse": "Facts are paraphrased with attribution; no external image, logo, map tile, or long-form passage is reused.",
+      "transformation": "Selected, compared and bounded for design reasoning; no hidden precision enhancement.",
+      "known_limitations": "Observed condition, official rendering, public opinion or approved design."
     }
   ]
 }
