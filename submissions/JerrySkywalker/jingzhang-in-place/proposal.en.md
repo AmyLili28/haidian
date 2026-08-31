@@ -45,23 +45,6 @@ Space is therefore not a homogeneous renewal field. The **long-lived city** carr
 
 ---
 
-### Three Reading Paths: 60 Seconds, 5 Minutes, Deep Read
-
-To accommodate reviewers with varying time budgets and focus areas, three self-contained reading paths are provided:
-
-| Path | What to Read | Questions Answered |
-| :--- | :--- | :--- |
-| **60 Seconds** | Core Thesis ｜ Three Core Evidence Readings ｜ Five Core Figures with Reading Guides | What problem the proposal solves, what it delivers, and what it strictly avoids |
-| **5 Minutes** | Three Scopes ｜ STATUS × ACTION Spatial Mending ｜ Three Key Area Typologies ｜ 12→3 Admission & 9 NO-BUILD Tasks ｜ A Citizen's Day | Spatial structure, jurisdictional boundaries, scenario deployment, and human lived experience |
-| **Deep Read** | Full text reading ｜ Cross-audit against `simulation.json`, `metrics.json`, `compliance_matrix.json`, and `assumptions.json` | Field triggers, recalculation methods, and exit responsibilities for every spatial and institutional claim |
-
-**Three Core Evidence Readings**:
-1. **Offline State-Machine Rehearsal**: **12/12** tasks passed; Handover Assertions: **48/48** passed;
-2. **Three Deep Delivery Contracts**: CONTRACT-S01 / CONTRACT-S04 / CONTRACT-S07 close ordinary baseline, admission gate, minimum reversible delta, human authority, and exit/reset side by side; read FIG.05 first, then deepen through this section and the delivery mechanism chapter;
-3. **Field Engineering & Live Deployment**: **0/12**, strictly reserved for the field environment, contingent upon official data release, statutory redlines, and formal authorizations. [metric:deep_ai_task_packet_count]
-
----
-
 ## Six Taskbook Deliverables: From Index to City Narrative
 
 This is not a compliance checklist appended to the proposal. All six tasks are placed in one readable, reversible and reviewable city narrative: keep the ordinary city working first; distinguish fact, rule and unknown before discussing the minimum spatial delta. The diagram below gives entry points to the six tasks, twelve scenario cards, three deep validations, six personas, five cases and three landmarks. [data:visual/assets/taskbook-closure.json#reviewer_route]
@@ -353,6 +336,16 @@ All three deep scenarios remain `CONCEPT_PROPOSAL`. Their feasibility does not c
 ### The Site-validation Packet Is a Pause Gate, Not a Missing Promise
 
 This submission **does not contain** a site-validated implementation packet and therefore does not call any deep contract implementable. A future packet must bind official geometry, rights/access, authority, engineering and capacity, funding path, and phasing/approvals for the same carrier; every one is currently `PAUSE_UNTIL_OFFICIAL_DATA`, `AUTHORIZATION_REQUIRED`, or `PROFESSIONAL_DEEPENING_REQUIRED`. Until rights-holders and qualified professionals establish, review and authorize that packet, S01/S04/S07 can only remain an ordinary-space result or pause. The table below records feasibility **boundaries and next steps** that do not invent site data; it is not field-feasibility proof. [data:visual/assets/taskbook-closure.json#claim_qualifications]
+
+### Participant Readiness Closure: Handoff Before Action
+
+What the participant can deliver now is not a promise that a field action is ready. It is a reference professional handoff packet that puts screening, rejection, and reset before action: it first tests whether a carrier could ever satisfy rights, ordinary-route, accessibility, and interface conditions; then keeps an S01 `PARTICIPANT_REFERENCE` task packet; and finally joins role types, hazard/lockout/NO-GO, operations, acceptance, rights acquisition, and ordinary-baseline restoration into one future handoff chain. [data:visual/assets/implementation-readiness-dossier.json#carrier_screen_reject_register] [data:visual/assets/implementation-readiness-dossier.json#participant_reference_task_packet]
+
+- **Carrier—task.** The participant provides a carrier screen/reject register, an S01 reference task, and lower-tech and NO-BUILD alternatives. **External gate:** rights, access, ordinary route, real task, data, and interfaces all remain `HOLD`.
+- **Roles—safety—operations.** The participant provides a role-type RACI, a hazard/lockout/NO-GO matrix, and a pre-open—stop—isolate—reset record structure. **External gate:** no operator, statutory authority, field capacity, engineering condition, or safety performance is appointed or claimed.
+- **Cost—acceptance—rights.** The participant provides a non-BOQ CAPEX/OPEX structure, layered acceptance, a rights/authority acquisition path, and a Day-1/Week-1 HOLD-closure map. **External gate:** `market_quotation_count=0`, `approved_budget=null`, and `funding_commitment=null`; any failed gate pauses, quarantines, or returns to ordinary city.
+
+On 2026-08-31, public sources were rechecked only as **context** for the competition and city-renewal setting: they can clarify task scale or published information, but cannot prove current carrier rights, operator, budget, real task, engineering condition, or approval. A future Day 1 only opens evidence requests and observations for rights, route, and task; Week 1 may test role separation, stop/lockout, and ordinary-baseline restoration only after applicable authorization and professional review. No Day-1 or Week-1 action has occurred today, and `P0_GO=false`. [source:OFFICIAL-ANNOUNCEMENT] [data:visual/assets/implementation-readiness-dossier.json#day_1_week_1_hold_closure_map]
 
 ### Read Actor, Funding and Readiness Separately
 

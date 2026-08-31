@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "retrieval_date": "2026-08-13",
-  "reuse_note": "Cite/paraphrase public facts and method precedents only. No source photography, maps, logo, system font or long text is redistributed. Formal local claims are limited to source-specific scope and explicit assumptions.",
+  "retrieval_date": "2026-08-31",
+  "reuse_note": "Cite/paraphrase public facts and method precedents only. No source photography, maps, logo, system font or long text is redistributed. The A03 public-context refresh re-read the cited official competition and area-context records only to confirm their stated scope; formal local claims remain limited to source-specific scope and explicit assumptions, never rights, operator, budget, task, engineering or approval.",
   "sources": [
     {
       "id": "FONT-NOTO-SANS-SC",

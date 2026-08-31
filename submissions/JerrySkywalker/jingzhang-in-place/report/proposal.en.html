@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jing-Zhang In Place - proposal report</title>
-<link rel="stylesheet" href="../visual/assets/jingzhang-local-font.css">
 <style>
 :root {
   --ink: #172033;
@@ -15,21 +14,14 @@
   --accent: #245b8f;
 }
 * { box-sizing: border-box; }
-html, body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
 body {
   margin: 0;
-  font-family: "JZ Noto Sans SC Local", -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
   color: var(--ink);
   background: var(--bg);
   line-height: 1.75;
 }
 main {
-  width: 100%;
-  min-width: 0;
   max-width: 980px;
   margin: 0 auto;
   padding: 42px 24px 72px;
@@ -42,7 +34,7 @@ main {
   padding-bottom: 24px;
   margin-bottom: 30px;
 }
-h1 { max-width: 100%; min-width: 0; font-size: 34px; line-height: 1.22; margin: 0 0 10px; overflow-wrap: anywhere; word-break: break-word; }
+h1 { font-size: 34px; line-height: 1.22; margin: 0 0 10px; }
 h2 { font-size: 25px; margin: 34px 0 12px; border-top: 1px solid var(--line); padding-top: 24px; }
 h3 { font-size: 20px; margin: 26px 0 10px; }
 p, li { font-size: 16px; }
@@ -115,8 +107,8 @@ code {
   line-height: 1.35;
   vertical-align: super;
 }
-@media (max-width: 720px), (max-device-width: 720px) {
-  main { padding: 26px 16px 52px; overflow-x: hidden; }
+@media (max-width: 720px) {
+  main { padding: 26px 16px 52px; }
   h1 { font-size: 26px; }
   h2 { font-size: 21px; }
 }
@@ -146,11 +138,6 @@ code {
 <div class="proposal-table"><table><thead><tr><th class="align-left">Route</th><th class="align-left">Begin here</th><th class="align-left">What it makes clear</th></tr></thead><tbody><tr><td class="align-left"><strong>30 seconds: a city that can continue</strong></td><td class="align-left">Cover, three continuities, three temporal layers, three key areas</td><td class="align-left">Why the city comes before technology, and how ordinary life stays whole</td></tr><tr><td class="align-left"><strong>3 minutes: one cautious spatial decision</strong></td><td class="align-left">FIG.03 key areas, the P0 reference, FIG.05 evidence</td><td class="align-left">Why only S01 reaches P0, and how space stops and returns to ordinary life</td></tr><tr><td class="align-left"><strong>15 minutes: a reviewable chain of responsibility</strong></td><td class="align-left">Full text, structured sources, assumptions/sources/matrices</td><td class="align-left">What the participant proposes, and what still needs professionals, rights holders and field observation</td></tr></tbody></table></div>
 <h3>Method foundation: used only when the city permits it</h3>
 <blockquote><p><strong>Core Thesis</strong>: Jing-Zhang is not a blank line waiting to be filled with AI, but an existing city with unequal statuses, jurisdictions, and cross-sections. The proposal employs <code>STATUS × ACTION</code> to establish the baseline spatial floor first, upholding <code>AI_OFF_CITY</code> (where ordinary public streets, mixed daily life, step-free routes, and human services operate 100% completely without AI intervention). Across 12 urban tasks, it strictly enforces the &quot;ordinary-space sufficiency test,&quot; admitting only S01, S04, and S07—where physical testing, controlled collaboration, and compliance review are demonstrably insufficient in ordinary rooms—as deep spatial packets. The remaining 9 tasks are explicitly NO-BUILD or ordinary carriers. All admitted specialist spaces are equipped with strict Time-To-Live (TTL), absolute human authority, and immediate physical reset mechanisms. <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="visual/assets/ai-spatial-admission.json#admission_chain" title="Spatial data: visual/assets/ai-spatial-admission.json#admission_chain">Spatial data</sup></p></blockquote>
-<p>---</p>
-<h3>Three Reading Paths: 60 Seconds, 5 Minutes, Deep Read</h3>
-<p>To accommodate reviewers with varying time budgets and focus areas, three self-contained reading paths are provided:</p>
-<div class="proposal-table"><table><thead><tr><th class="align-left">Path</th><th class="align-left">What to Read</th><th class="align-left">Questions Answered</th></tr></thead><tbody><tr><td class="align-left"><strong>60 Seconds</strong></td><td class="align-left">Core Thesis ｜ Three Core Evidence Readings ｜ Five Core Figures with Reading Guides</td><td class="align-left">What problem the proposal solves, what it delivers, and what it strictly avoids</td></tr><tr><td class="align-left"><strong>5 Minutes</strong></td><td class="align-left">Three Scopes ｜ STATUS × ACTION Spatial Mending ｜ Three Key Area Typologies ｜ 12→3 Admission &amp; 9 NO-BUILD Tasks ｜ A Citizen&#x27;s Day</td><td class="align-left">Spatial structure, jurisdictional boundaries, scenario deployment, and human lived experience</td></tr><tr><td class="align-left"><strong>Deep Read</strong></td><td class="align-left">Full text reading ｜ Cross-audit against <code>simulation.json</code>, <code>metrics.json</code>, <code>compliance_matrix.json</code>, and <code>assumptions.json</code></td><td class="align-left">Field triggers, recalculation methods, and exit responsibilities for every spatial and institutional claim</td></tr></tbody></table></div>
-<p><strong>Three Core Evidence Readings</strong>: 1. <strong>Offline State-Machine Rehearsal</strong>: <strong>12/12</strong> tasks passed; Handover Assertions: <strong>48/48</strong> passed; 2. <strong>Three Deep Delivery Contracts</strong>: CONTRACT-S01 / CONTRACT-S04 / CONTRACT-S07 close ordinary baseline, admission gate, minimum reversible delta, human authority, and exit/reset side by side; read FIG.05 first, then deepen through this section and the delivery mechanism chapter; 3. <strong>Field Engineering &amp; Live Deployment</strong>: <strong>0/12</strong>, strictly reserved for the field environment, contingent upon official data release, statutory redlines, and formal authorizations. <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="deep_ai_task_packet_count" title="Metric: deep_ai_task_packet_count">Metric</sup></p>
 <p>---</p>
 <h2>Six Taskbook Deliverables: From Index to City Narrative</h2>
 <p>This is not a compliance checklist appended to the proposal. All six tasks are placed in one readable, reversible and reviewable city narrative: keep the ordinary city working first; distinguish fact, rule and unknown before discussing the minimum spatial delta. The diagram below gives entry points to the six tasks, twelve scenario cards, three deep validations, six personas, five cases and three landmarks. <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="visual/assets/taskbook-closure.json#reviewer_route" title="Spatial data: visual/assets/taskbook-closure.json#reviewer_route">Spatial data</sup></p>
@@ -320,6 +307,14 @@ code {
 <p>All three deep scenarios remain <code>CONCEPT_PROPOSAL</code>. Their feasibility does not come from saying “buildable, funded or operable.” It comes from making insufficient evidence, rights, access, capacity, data, staffing and reset conditions into gates that cannot be skipped. The nine ordinary-space/NO-BUILD outcomes do not await spatial construction, yet still retain human responsibility and stop conditions. <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="visual/assets/taskbook-closure.json#claim_qualifications" title="Spatial data: visual/assets/taskbook-closure.json#claim_qualifications">Spatial data</sup></p>
 <h3>The Site-validation Packet Is a Pause Gate, Not a Missing Promise</h3>
 <p>This submission <strong>does not contain</strong> a site-validated implementation packet and therefore does not call any deep contract implementable. A future packet must bind official geometry, rights/access, authority, engineering and capacity, funding path, and phasing/approvals for the same carrier; every one is currently <code>PAUSE_UNTIL_OFFICIAL_DATA</code>, <code>AUTHORIZATION_REQUIRED</code>, or <code>PROFESSIONAL_DEEPENING_REQUIRED</code>. Until rights-holders and qualified professionals establish, review and authorize that packet, S01/S04/S07 can only remain an ordinary-space result or pause. The table below records feasibility <strong>boundaries and next steps</strong> that do not invent site data; it is not field-feasibility proof. <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="visual/assets/taskbook-closure.json#claim_qualifications" title="Spatial data: visual/assets/taskbook-closure.json#claim_qualifications">Spatial data</sup></p>
+<h3>Participant Readiness Closure: Handoff Before Action</h3>
+<p>What the participant can deliver now is not a promise that a field action is ready. It is a reference professional handoff packet that puts screening, rejection, and reset before action: it first tests whether a carrier could ever satisfy rights, ordinary-route, accessibility, and interface conditions; then keeps an S01 <code>PARTICIPANT_REFERENCE</code> task packet; and finally joins role types, hazard/lockout/NO-GO, operations, acceptance, rights acquisition, and ordinary-baseline restoration into one future handoff chain. <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="visual/assets/implementation-readiness-dossier.json#carrier_screen_reject_register" title="Spatial data: visual/assets/implementation-readiness-dossier.json#carrier_screen_reject_register">Spatial data</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="visual/assets/implementation-readiness-dossier.json#participant_reference_task_packet" title="Spatial data: visual/assets/implementation-readiness-dossier.json#participant_reference_task_packet">Spatial data</sup></p>
+<ul>
+<li><strong>Carrier—task.</strong> The participant provides a carrier screen/reject register, an S01 reference task, and lower-tech and NO-BUILD alternatives. <strong>External gate:</strong> rights, access, ordinary route, real task, data, and interfaces all remain <code>HOLD</code>.</li>
+<li><strong>Roles—safety—operations.</strong> The participant provides a role-type RACI, a hazard/lockout/NO-GO matrix, and a pre-open—stop—isolate—reset record structure. <strong>External gate:</strong> no operator, statutory authority, field capacity, engineering condition, or safety performance is appointed or claimed.</li>
+<li><strong>Cost—acceptance—rights.</strong> The participant provides a non-BOQ CAPEX/OPEX structure, layered acceptance, a rights/authority acquisition path, and a Day-1/Week-1 HOLD-closure map. <strong>External gate:</strong> <code>market_quotation_count=0</code>, <code>approved_budget=null</code>, and <code>funding_commitment=null</code>; any failed gate pauses, quarantines, or returns to ordinary city.</li>
+</ul>
+<p>On 2026-08-31, public sources were rechecked only as <strong>context</strong> for the competition and city-renewal setting: they can clarify task scale or published information, but cannot prove current carrier rights, operator, budget, real task, engineering condition, or approval. A future Day 1 only opens evidence requests and observations for rights, route, and task; Week 1 may test role separation, stop/lockout, and ordinary-baseline restoration only after applicable authorization and professional review. No Day-1 or Week-1 action has occurred today, and <code>P0_GO=false</code>. <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="OFFICIAL-ANNOUNCEMENT" title="Source: OFFICIAL-ANNOUNCEMENT">Source</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="visual/assets/implementation-readiness-dossier.json#day_1_week_1_hold_closure_map" title="Spatial data: visual/assets/implementation-readiness-dossier.json#day_1_week_1_hold_closure_map">Spatial data</sup></p>
 <h3>Read Actor, Funding and Readiness Separately</h3>
 <ul>
 <li><strong>SOURCE_BACKED_KNOWN</strong>: The taskbook and source registry support the concept and public-source boundaries, including the rule that humans and professional teams make the final decision. They appoint no local actor. <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="Source: AGENT-TASKBOOK">Source</sup></li>

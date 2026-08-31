@@ -45,23 +45,6 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ---
 
-### 三条阅读路径：60 秒、5 分钟、深读
-
-为适应不同时间预算与专业关注维度的评审，提供三条自足阅读路径：
-
-| 路径 | 读什么 | 读完能回答 |
-| :--- | :--- | :--- |
-| **60 秒** | 本节一句话主张 ｜ 核心证据三行读数 ｜ 五张核心图及图底导读 | 方案解决什么、交付了什么、坚决不做什么 |
-| **5 分钟** | 三层范围 ｜ STATUS × ACTION 空间织补 ｜ 三重点区类型学 ｜ 12→3 准入与 9 项 NO-BUILD ｜ 居民画像一日 | 空间结构、责任边界、场景落地与人的体验 |
-| **深读** | 全文通读 ｜ 对照 `simulation.json`、`metrics.json`、`compliance_matrix.json`、`assumptions.json` 逐条复核 | 每一条空间与制度主张的现场触发、复算方法与退出责任 |
-
-**核心证据三行读数**：
-1. **离线状态机演练**：**12/12** 任务通过；接管断言：**48/48** 通过；
-2. **三处深度交付合同**：CONTRACT-S01 / CONTRACT-S04 / CONTRACT-S07 将普通底盘、准入门、最小可撤差异、人工权威与退出复位并排闭合；先看 FIG.05，再按本节与交付机制章节深读；
-3. **现场实施与试点**：**0/12**，严格归属现场环境，须待官方数据、红线批准与法定授权程序承接。[metric:deep_ai_task_packet_count]
-
----
-
 ## 任务书六项交付：从索引到城市叙事
 
 这不是附在方案末尾的合规清单。六项任务均被放进同一条可读、可退、可复核的城市叙事：先让普通城市工作，再决定是否需要 AI；先分清事实、规则与未知，再谈最小空间差异。下图给出 6 项任务、12 张场景卡、3 个深度验证、6 类人物、5 个案例与 3 处地标的阅读入口。[data:visual/assets/taskbook-closure.json#reviewer_route]
@@ -355,6 +338,16 @@ AI-off 时，公共路径、混合城市、蓝绿、普通房间、人工服务�
 ### 现场实施包是暂停门，而不是缺失的承诺
 
 本次投稿**不含**现场验证的实施包，也不因此把任何深度合同称为可实施。这样的未来包必须在同一处载体上绑定官方几何、权利/进入、权威、工程与容量、资金路径和分期/审批；当前每一项均为 `PAUSE_UNTIL_OFFICIAL_DATA`、`AUTHORIZATION_REQUIRED` 或 `PROFESSIONAL_DEEPENING_REQUIRED`。在该包由权利人和合格专业团队建立、复核并授权前，S01/S04/S07 的结果只能是普通空间或暂停。下表记录的是不依赖虚构现场数据的可实施性**边界与下一步**，不是现场可行性证明。[data:visual/assets/taskbook-closure.json#claim_qualifications]
+
+### 参与者就绪闭环：让交接先于行动
+
+参与者现在能交付的不是“已经就绪”的承诺，而是一份把交接、拒绝和复位放在行动之前的参考性专业包。它先筛查载体是否有权利、普通路线、无障碍和接口条件；再为 S01 保留一份 `PARTICIPANT_REFERENCE` 任务包；最后把角色类型、危险/锁定/NO-GO、运行、验收、权利取得和恢复普通基线串成一条可被未来团队接走的责任链。[data:visual/assets/implementation-readiness-dossier.json#carrier_screen_reject_register] [data:visual/assets/implementation-readiness-dossier.json#participant_reference_task_packet]
+
+- **载体—任务。** 参与者交付载体筛查/拒绝登记、S01 参考任务、低技术与 NO-BUILD 退路。**外部门：**权利、进入、普通路线、真实任务、数据与接口全部为 `HOLD`。
+- **角色—安全—运行。** 参与者交付角色类型 RACI、危险/锁定/NO-GO 表、预开—停止—隔离—复位运行记录结构。**外部门：**没有已任命操作人、法定权威、现场容量、工程或安全性能主张。
+- **成本—验收—权利。** 参与者交付非 BOQ 的 CAPEX/OPEX 结构、分层验收、权利/授权取得路径、Day 1/Week 1 缺口关闭图。**外部门：**`market_quotation_count=0`、`approved_budget=null`、`funding_commitment=null`；任何门失败即暂停、隔离或回到普通城市。
+
+公开资料在 2026-08-31 只被重新核对为竞赛和城市更新的**语境**：它们能说明任务尺度或已发布的信息，不能证明当前载体权利、运营主体、预算、真实任务、工程条件或批准。未来 Day 1 只建立权利/路线/任务的证据请求与观察记录；Week 1 也只能在适用授权与专业审查之后，检验角色分离、停止/锁定与普通基线恢复。今日没有任何 Day 1 或 Week 1 行动发生，`P0_GO=false`。[source:OFFICIAL-ANNOUNCEMENT] [data:visual/assets/implementation-readiness-dossier.json#day_1_week_1_hold_closure_map]
 
 ### 主体、资金与就绪状态必须分开读
 
