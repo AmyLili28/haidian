@@ -83,13 +83,14 @@
         "submissions/JohnXu22786/jingzhang-culture-signage/visual/assets/previews/fig-mobility-bluegreen-zh.png",
         "submissions/JohnXu22786/jingzhang-culture-signage/visual/assets/previews/fig-site-overview-en.png",
         "submissions/JohnXu22786/jingzhang-culture-signage/visual/assets/previews/fig-site-overview-zh.png",
+        "submissions/JohnXu22786/jingzhang-culture-signage/visual/assets/test_protocols.json",
         "submissions/JohnXu22786/jingzhang-culture-signage/visual/index.en.html",
         "submissions/JohnXu22786/jingzhang-culture-signage/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/JohnXu22786/jingzhang-culture-signage": "formal"
       },
-      "total_bytes": 18370181,
+      "total_bytes": 13307477,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -150,10 +151,8 @@
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.104096,
         "public_space_ratio": 0.003167,
-        "persona_count": 5.0,
+        "land_use_zone_count": 27.0,
         "scenario_card_count": 12.0,
-        "global_case_count": 6.0,
-        "annual_program_count": 3.0,
         "industry_test_scenario_count": 3.0
       }
     },
