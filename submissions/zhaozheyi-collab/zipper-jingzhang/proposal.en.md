@@ -19,7 +19,7 @@ This proposal takes the *Prequalification Announcement for the International Ope
 
 Material use follows the two-track boundary: the official anchor track (site-package provisional boundary, area, enumerations) serves as the consistency baseline, while the existing-conditions reference track serves only as scenario prototypes and background and is never aligned directly against official geometry; background_only and provisional_only materials in `data/source_registry.json` are never upgraded into official boundaries, statutory regulatory plans or formal scoring bases [source:SOURCE-REGISTRY]. The full rationale text of the design reasoning is archived with the package at `report/design-basis-zipper-jingzhang.md` [source:DESIGN-CONCEPT-NOTE].
 
-![Zipper Jingzhang overall structure: one belt, three cores, ten teeth](assets/figures/site-overview.png)
+![Zipper Jingzhang overall structure: one belt, three cores, ten teeth](assets/figures/site-overview.en.png)
 
 | Everyday (zipped) | Memorial (unzipped) |
 | --- |
@@ -33,7 +33,7 @@ Compliance evidence chain for generated imagery: the thirteen Ten Teeth scenario
 
 The proposal is organized by the three-level scope defined in the Announcement: the Coordinated Research Area of 43.6 km² addresses the AI industry ecosystem and future urban form; the Overall Design Area of 11.4 km² requires an urban renewal overall framework at Regulatory Detailed Planning depth; the Key-Area Detailed Design Area of 368.4 hectares (A1 Zhongzhiyuan AI Independent Innovation Acceleration Area 192.1 / A2 Beijing AI Origin Community 104.3 / A3 Dazhongsi AI Industry Cluster 72.0) carries out detailed design. The three levels of tasks are mapped item by item in `compliance_matrix.json` against Announcement items 1.3, 1.4, 1.5 and agent.1–agent.6 [depth:three_level_scope_framework] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT].
 
-![Three-level scope and land-use structure](assets/figures/land-use-structure.png)
+![Three-level scope and land-use structure](assets/figures/land-use-structure.en.png)
 
 ### Problem: Three Existing Openings
 
@@ -109,7 +109,7 @@ The **Zipper Head · intelligent operations system** is the AI-native operations
 
 The three key areas follow "one map per area", with detailed design reaching Integrated Planning Implementation Plan depth; each core is annotated with positioning, spatial actions, Chain Teeth and scenario placement [depth:three_key_area_detailed_design].
 
-![Three-core detailed design index: one map per area](assets/figures/key-areas.png)
+![Three-core detailed design index: one map per area](assets/figures/key-areas.en.png)
 
 | A1 garden-type, Qinghe interface | A2 campus tech-transfer street |
 | --- |
@@ -212,7 +212,7 @@ Three-category metric discipline: (1) spatial metrics are recalculated directly 
 
 The traffic strategy centers on "giving rail crossings back to the Chain Teeth": the Chain Band main axis carries north–south walking and cycling, the 13 cross streets carry east–west vehicular micro-circulation, and the Ten Teeth carry all rail-crossing interlocking — walking/cycling (Z-01, Z-02), vehicular (Z-04, Z-08), unmanned systems (Z-05, Z-06) and municipal (Z-07) are absorbed tooth by tooth, avoiding conflict between at-grade intersections and the railway [data:geometry/public_space.geojson#Z-07] [depth:traffic_rail_slow_parking].
 
-![Composite system of walking and cycling and blue-green public space](assets/figures/mobility-bluegreen.png)
+![Composite system of walking and cycling and blue-green public space](assets/figures/mobility-bluegreen.en.png)
 
 The municipal strategy takes the Z-07 utility tunnel as its prototype: a short vertical crossing of the track bed with mutually backed-up municipal lines on both sides and minimal disturbance; on open days a glass skylight reveals the track-bed cross-section. New infrastructure (edge computing, distributed energy, low-altitude corridors) is stated as conceptual recommendations, with service radii, facility standards and operating entities listed as preconditions for formal deepening; transit-station integration (Dazhongsi Station, Wudaokou node) must follow official railway and road planning-boundary data and is currently conceptual only [depth:municipal_new_infrastructure] [data:geometry/constraints.geojson#CONSTRAINTS-RAIL].
 
@@ -340,7 +340,7 @@ All known metrics are recalculated from the submitted geometry, with formulas, s
 | phase_count | 3 | count(PHASE) |
 | floor_area_ratio | unknown | official RDP conditions missing |
 
-![Metric recalculation and evidence chain](assets/figures/metrics-evidence.png)
+![Metric recalculation and evidence chain](assets/figures/metrics-evidence.en.png)
 
 The compliance matrix maps all 23 mandatory requirements of Announcement items 1.3, 1.4 and 1.5 (including agent.1–agent.6) to sections, layers, metrics, drawings and HTML evidence; responses to professional standards are in `standard_matrix.json`, and the 15 design-depth items, all `complete`, are in `design_depth_matrix.json` [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
 

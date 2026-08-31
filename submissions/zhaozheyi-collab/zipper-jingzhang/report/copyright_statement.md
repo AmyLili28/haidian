@@ -528,3 +528,9 @@ Manual zh–en substantive equivalence check of proposal.md / proposal.en.md, re
 - Evidence markers preserved in both languages with the ≤3-consecutive / ≤8-per-section discipline.
 
 Result: PASS — the two language versions are substantively equivalent; no untranslated residue other than brand proper nouns and verbatim data-registry quotes.
+
+### Appendix B.2 — R4 cross-carrier consistency round (2026-08-31)
+
+- proposal.en.md figure mapping corrected: all five required figures now reference the .en.png counterparts (site-overview / land-use-structure / key-areas / mobility-bluegreen / metrics-evidence); report/proposal.en.html re-rendered accordingly.
+- A3 booklets (zh/en) re-composed after pages 2 & 8 re-shot with the corrected 0.8% public-space figure; A0 boards (zh/en) re-exported with the same correction. All carriers now state public_space_ratio = 0.8% (0.008157) consistently.
+- Gate rerun after changes: self_check ok=true, formal-review-ready.

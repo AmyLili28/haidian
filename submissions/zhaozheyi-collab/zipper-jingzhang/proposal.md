@@ -348,7 +348,7 @@ AI 朝圣地标（≥3，agent.4）：**全息火车道口**（Z-01 纪念态，
 
 **边界风险**：provisional 粗略边界仅用于概念生成与自检；链带线位与十齿落位是设计假定，官方轨线与文保控制线发布后必须重算并重置齿位。**管控风险**：FAR、高度、密度、退线、道路红线全部缺失，本包保持 unknown 并列入 `assumptions.json`。**实施风险**：无权属、资金、实施主体与审批路径，全部项目与分期仅为概念建议，不构成可落地承诺或政府行为 [depth:risk_missing_data] [data:geometry/constraints.geojson#CONSTRAINTS-CTRL]。
 
-**版权与生成方法披露**：十齿场景示意图为 AI 生成（Lovart AI，免费模型 nano-banana-pro），提示词逐张留档 `assets/media/prompts/`，机器可读 AI 生成标记（trainedAlgorithmicMedia）透传保留；五张必备图与本包全部 JSON/HTML 由 zipper-v2 管线从提交几何确定性生成；设计理念文本随包存档 `report/design-basis-zipper-jingzhang.md`。全部资产来源与授权状态见 `sources.json` 与 `report/copyright_statement.md`；成果知识产权按公告 8.1 共同享有，许可 COMMUNITY-DISPLAY-ONLY [source:AI-GENERATED-VISUALS] [source:DESIGN-CONCEPT-NOTE]。
+**版权与生成方法披露**：十齿场景示意图为 AI 生成（Lovart AI，免费模型 nano-banana-pro），提示词逐张留档 `assets/media/prompts/`，机器可读 AI 生成标记（trainedAlgorithmicMedia）透传保留；五张必备图与本包全部 JSON/HTML 由 zipper-v2 管线从提交几何确定性生成；设计理念文本随包存档 `report/design-basis-zipper-jingzhang.md`。全部资产来源与授权状态见 `sources.json` 与 `report/copyright_statement.md`；成果知识产权按公告 8.1 共同享有，许可 COMMUNITY-DISPLAY-ONLY [source:AI-GENERATED-VISUALS] [source:DESIGN-CONCEPT-NOTE]。R4 修订（2026-08-31）：英文报告图件语言映射修正（五图接 .en.png 对应图）；A0/A3/visual 与 metrics.json 的公共空间比例统一为 0.8%（0.008157）；核对记录见 `report/copyright_statement.md` Appendix B/B.2。
 
 本方案不声称官方批准、审定控规、最终土地权属、最终建设规模或保证实施；全部空间设想为开放共创建议，供专业团队深化，最终判断由人类与专业团队完成。
 
