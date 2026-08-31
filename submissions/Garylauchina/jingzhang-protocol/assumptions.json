@@ -249,8 +249,8 @@
     {
       "id": "A-NATIONAL-STRATEGIC-FRAMING-001",
       "status": "conceptual_governance",
-      "statement": "Three national official sources establish an application-oriented AI strategy context, while the Haidian Jing-Zhang midterm direction connects national deployment to a proposed human-AI integrated test field, AI safety governance and perceivable public scenarios.",
-      "impact": "V0.10 may frame Jing-Zhang as a city-scale concept demonstrator aligned with national strategy, but must not call this submission a nationally designated pilot, approved plan, adopted proposal, implemented project, world first or proven world leader.",
+      "statement": "Official railway-history sources establish the 1905-1909 independent Jing-Zhang engineering achievement and Jeme Tien Yow's movement from overseas railway study to locally adapted engineering practice; three national AI sources establish an application-oriented strategy context; Haidian's midterm direction connects that context to a proposed human-AI test field, AI safety governance and perceivable public scenarios. The proposal interprets these records through a two-industrial-revolutions design-history thesis: China moved from learning, absorbing and reworking a railway-industrial system first developed in the West to independent railway engineering, and now seeks to use real-city experimentation to help define and compete for leadership in an AI-driven industrial revolution.",
+      "impact": "V0.16 may frame Jing-Zhang as the corridor where this proposed change in China's role is tested. Independent railway engineering and the learning-to-local-adaptation history are source-supported context; the two-industrial-revolutions comparison is proposal interpretation; seeking leadership is strategic ambition. The package must not describe this submission as a nationally designated pilot, approved plan, adopted or implemented project, world first, or proof of global leadership.",
       "affected_files": [
         "proposal.md",
         "proposal.en.md",
@@ -269,6 +269,9 @@
         "flagship_verified_public_benefit_count"
       ],
       "source_ids": [
+        "HIST-JINGZHANG-RAILWAY",
+        "HIST-JINGZHANG-PARK",
+        "HIST-JINGZHANG-FROM-LEARNING-TO-AUTONOMY",
         "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
         "STATE-COUNCIL-AI-PLUS-2025",
         "NATIONAL-FIFTEENTH-FIVE-YEAR-AI-APPLICATION-2025",
@@ -1565,7 +1568,7 @@
     {
       "id": "A-FP01-EVIDENCE-READINESS-001",
       "status": "pending_external_evidence",
-      "statement": "V0.15 retains the evidence-acquisition and verification register for FP01 gates H0 through H4. It defines required artifacts, role classes, independent review, stop actions and transitions, but it contains no fieldwork result, named operator commitment, approved budget, professional approval, operating test result or implementation authorization.",
+      "statement": "V0.16 retains the evidence-acquisition and verification register for FP01 gates H0 through H4. It defines required artifacts, role classes, independent review, stop actions and transitions, but it contains no fieldwork result, named operator commitment, approved budget, professional approval, operating test result or implementation authorization.",
       "impact": "The package can prove five gate definitions and a complete machine-checkable anti-fabrication structure. The verified gate count and verified external-artifact count correctly remain zero until dated, attributable, rights-cleared and independently reviewable external records are supplied.",
       "affected_files": [
         "visual/assets/fp01-evidence-readiness.json",
@@ -1611,7 +1614,7 @@
     {
       "id": "A-FP01-DELIVERY-CONTROL-001",
       "status": "concept_delivery_control_model_unexecuted",
-      "statement": "V0.15 upgrades the FP01 concept delivery-control book into a participant-controlled pre-feasibility decision package: three key-area interface prototypes; four scales from 1:500 through 1:20; six D0 methods; sixteen role classes with one decision owner at each H0-H4 gate; six design-test quantity lines; a ten-step dependency path; capacity/egress and staffing/FTE templates; three dimensionless ROM CAPEX/OPEX sensitivities; an exit-restoration reserve template; daily, weekly, quarterly and annual maintenance; twelve acceptance indicators; six conditional release stages; and four gate-, cost- and permission-linked fallback alternatives. These are design controls, not external delivery evidence.",
+      "statement": "V0.16 retains the V0.15 upgrade of the FP01 concept delivery-control book into a participant-controlled pre-feasibility decision package: three key-area interface prototypes; four scales from 1:500 through 1:20; six D0 methods; sixteen role classes with one decision owner at each H0-H4 gate; six design-test quantity lines; a ten-step dependency path; capacity/egress and staffing/FTE templates; three dimensionless ROM CAPEX/OPEX sensitivities; an exit-restoration reserve template; daily, weekly, quarterly and annual maintenance; twelve acceptance indicators; six conditional release stages; and four gate-, cost- and permission-linked fallback alternatives. These are design controls, not external delivery evidence.",
       "impact": "The package can demonstrate how a professional and operating team would measure, assign, quantify, sequence, staff, test capacity and egress, compare order-of-magnitude sensitivities, maintain, accept, stop, substitute and restore the pilot without inventing a site, approved capacity, actual quantity, unit price, budget, named entity, staffing roster, sign-off, authorization or field result. Eight acceptance indicators are reviewable as proposal structure; four require field or authorization evidence. All external actuals remain null or zero, verified cost inputs and external releases remain zero, and FP01 stays at HOLD.",
       "affected_files": [
         "visual/assets/fp01-delivery-control.json",
@@ -1676,7 +1679,7 @@
     {
       "id": "A-FP01-EXECUTION-KIT-001",
       "status": "blank_execution_templates_unexecuted",
-      "statement": "V0.15 adds seven bilingual blank execution forms plus a common record-metadata contract for FP01: candidate-carrier survey, responsibility acceptance and conflicts, D0 observation and missingness, quantity/cost/procurement basis, professional review and gate acceptance, rehearsal/maintenance/exit handover, and reference programme/RAID/change control. The forms define what an authorized delivery team must record; they do not claim that any record has been executed.",
+      "statement": "V0.16 retains the seven bilingual blank execution forms and common record-metadata contract added for FP01 in V0.15: candidate-carrier survey, responsibility acceptance and conflicts, D0 observation and missingness, quantity/cost/procurement basis, professional review and gate acceptance, rehearsal/maintenance/exit handover, and reference programme/RAID/change control. The forms define what an authorized delivery team must record; they do not claim that any record has been executed.",
       "impact": "The submission can hand over machine-checkable and printable instruments for measurement, responsibility acceptance, evidence provenance, quantity take-off, comparable-cost normalization, non-binding procurement packaging, professional review, threshold acceptance, controlled rehearsal, maintenance, exit restoration, scheduling and change control. Named parties, surveyed conditions, permissions, staffing, quotations, budgets, procurement decisions, professional opinions, signatures, actual dates and field results remain null or unknown, so the kit adds execution readiness without manufacturing external evidence or changing the applicable HOLD state.",
       "affected_files": [
         "visual/assets/fp01-execution-kit.json",
@@ -1706,8 +1709,8 @@
     {
       "id": "A-AGENT-PARTICIPATION-METHOD-001",
       "status": "public_process_partially_observed_urban_implementation_unverified",
-      "statement": "The open call can be treated as a project-level institutional prototype in which Agents participate in complex public-interest professional work through structured tasks, traceable sources and assumptions, reviewable artifacts, deterministic checks, versioned Issue/PR collaboration, and a rule reserving formal selection, professional deepening and rights-affecting decisions for accountable people and institutions. PR 4306 now documents one failure-detection, participant-repair, deterministic-recheck, advisory-reassessment, repository-intake and merge cycle. This is a proposal interpretation grounded in public repository records, not a government-conferred historical designation.",
-      "impact": "PR 4306 documents the V0.14/V0.14.1 repository process, including a final 96/100 Review Agent advisory result, formal-review-ready recommendation, intake-accepted label and merge. The advisory result is not formal jury scoring, and intake or merge is not Gallery publication, selection, adoption, statutory approval, field implementation, public benefit, national-pilot status, government endorsement, independent proof of a world first or settled historical significance. V0.15 remains a local candidate with no new PR. The observed co-creation chain and the unobserved H0-H4 urban evidence chain remain separate.",
+      "statement": "The open call can be treated as a project-level institutional prototype in which Agents participate in complex public-interest professional work through structured tasks, traceable sources and assumptions, reviewable artifacts, deterministic checks, versioned Issue/PR collaboration, and a rule reserving formal selection, professional deepening and rights-affecting decisions for accountable people and institutions. PR 4306 documents one failure-detection, participant-repair, deterministic-recheck, advisory-reassessment, repository-intake and merge cycle; PR 4308 documents the succeeding V0.15 validation, advisory 100/100, formal-review-ready and featured-candidate recommendations, intake acceptance and merge. This is a proposal interpretation grounded in public repository records, not a government-conferred historical designation.",
+      "impact": "PR 4306 documents the V0.14/V0.14.1 repair and intake process with a final 96/100 Review Agent advisory result. PR 4308 documents the V0.15 repository process with deterministic PASS, a 100/100 Review Agent advisory result, formal-review-ready and featured-candidate recommendations, intake-accepted label and merge. Neither advisory result is formal jury scoring, and intake or merge is not Gallery publication, selection, adoption, statutory approval, field implementation, public benefit, national-pilot status, government endorsement, independent proof of a world first or settled historical significance. V0.16 remains a local candidate with no new PR. The observed co-creation chain and the unobserved H0-H4 urban evidence chain remain separate.",
       "affected_files": [
         "sources.json",
         "assumptions.json",
@@ -1734,7 +1737,8 @@
           "sources and assumptions",
           "structured geometry, metrics, matrices and bilingual artifacts",
           "deterministic verification and self-check records",
-        "public PR 4306 record for V0.14/V0.14.1 defect detection, repair, recheck, advisory reassessment, repository-intake acceptance and merge"
+        "public PR 4306 record for V0.14/V0.14.1 defect detection, repair, recheck, advisory reassessment, repository-intake acceptance and merge",
+        "public PR 4308 record for V0.15 deterministic validation, advisory 100/100, formal-review-ready and featured-candidate recommendations, repository-intake acceptance and merge"
         ],
         "human_authority_reserved": [
           "competition selection and professional deepening",
