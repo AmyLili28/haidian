@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1.0",
+  "gates": {
+    "deterministic_validation": {"status": "pass", "checks": [{"check": "path_ownership", "result": "pass"}, {"check": "format_completeness", "result": "pass"}, {"check": "compliance_risk", "result": "pass"}]},
+    "spatial_review": {"status": "pass", "checks": [{"check": "site_boundary_present", "result": "pass"}, {"check": "key_areas_present", "result": "pass"}, {"check": "geometry_role_consistent", "result": "pass"}, {"check": "core_metrics_known", "result": "pass"}]},
+    "visual_packaging": {"status": "pass", "checks": [{"check": "visual_html_offline", "result": "pass"}, {"check": "five_figures_present", "result": "pass"}, {"check": "proposal_html_present", "result": "pass"}]},
+    "professional_evidence": {"status": "pass", "checks": [{"check": "compliance_matrix_complete", "result": "pass"}, {"check": "standard_matrix_present", "result": "pass"}, {"check": "design_depth_complete", "result": "pass"}, {"check": "agent_tasks_covered", "result": "pass"}]}
+  },
+  "overall": "pass",
+  "self_checked": true,
+  "timestamp": "2026-08-31T20:45:00+08:00",
+  "pr_author": "Wjg2198"
+}
