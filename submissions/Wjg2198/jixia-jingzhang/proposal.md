@@ -8,7 +8,7 @@ translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "将百年京张AI创新带视为一座活的稷下学宫，以三种哲学人格（名家理性主义/道家自然主义/墨家实用主义）分别主持三个重点区域，通过辩论走廊连接、表达契约约束、演化机制迭代，构建百家争鸣式的AI创新生态系统。"
 tracks: ["jingzhang-heritage-narrative", "civic-agent-governance", "ai-origin-community"]
-scenarios: ["ai-origin-community", "civic-agent-governance", "ai-traffic-walkability", "youth-friendly-public-space", "ai-public-services", "enterprise-services-ecosystem", "robotics-autonomous-mobility", "jingzhang-heritage-narrative"]
+scenarios: ["ai-cultural-guide", "ai-health-service-navigation", "ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review", "robot-delivery-low-speed"]
 iteration: "v1.0"
 ---
 
@@ -173,9 +173,11 @@ iteration: "v1.0"
 
 ## 用地、建筑规模与拆改留方案
 
-用地布局遵循「讲堂功能分区」原则：每所讲堂内部以混合用地为主（R/B/A 混合），辩论走廊以绿地和公共空间为主（G1/S），三所讲堂之间设置功能过渡带 [data:geometry/land_use.geojson#LU-001]。
+用地布局遵循「讲堂功能分区」原则：每所讲堂内部以混合用地为主（R/B/A 混合），让居住、研发与公共服务在步行范围内交织，形成昼夜都有人气的学宫街坊；辩论走廊以绿地和公共空间为主（G1/S），承担百家争鸣的户外课堂职能；三所讲堂之间设置功能过渡带，避免不同开发强度相互挤压 [data:geometry/land_use.geojson#LU-001]。用地深度与三层范围对齐：研究范围仅做结构性判断，总体范围给出用地结构骨架，重点区域才落到地块级概念布局 [source:AGENT-TASKBOOK]。
 
-建筑规模和拆改留方案均为概念建议。由于缺少官方控规数据，容积率、建筑高度和具体拆改留分类均标记为 `status: unknown`。当前方案仅提供概念体量分布，表示各区域的相对开发强度关系（众智园 > 原点社区 > 大钟寺核心区），不代表法定控制值。待正式数据补齐后需由专业规划团队复算 [depth:building_scale]。
+拆改留策略采取稷下式「尊重旧学、添建新殿」的渐进立场：京张铁路遗存（路基、桥涵、场站遗构）整体保留并转化为走廊骨架；大钟寺核心区以保留与改造为主，新建仅用于体量补齐；众智园与原点社区允许较高比例新建，以承载 AI 实验场景与青年人才居住 [depth:building_scale]。
+
+建筑规模与拆改留分类均为概念建议：因缺少官方控规数据，容积率、建筑高度与具体拆改留分类均标记为 `status: unknown`。当前方案仅提供概念体量分布，表达各区域相对开发强度关系（众智园 > 原点社区 > 大钟寺核心区），不代表法定控制值。待正式数据补齐后需由专业规划团队复算，尤其需复核绿地率 0.35 与公共空间比率 0.18 两个已给指标在不同用地口径下的分母差异 [metric:green_ratio] [metric:public_space_ratio]。
 
 ## 交通、轨道、市政与公共服务设施
 
@@ -232,7 +234,9 @@ iteration: "v1.0"
 
 ## 指标体系、面积复算与合规矩阵
 
-[metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio] [data:geometry/site_boundary.geojson#SB-001]
+[metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio]
+
+[data:geometry/site_boundary.geojson#SB-001]
 
 ### 核心指标
 

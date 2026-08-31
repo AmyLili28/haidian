@@ -8,7 +8,7 @@ translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Treating the Centennial Jingzhang AI Innovation Belt as a living Jixia Academy, three philosophical personas (Logician rationalism, Daoist naturalism, Mohist pragmatism) each preside over one key area, connected by a debate corridor, constrained by expression contracts, and iterated through evolution mechanisms — building a hundred-schools-of-thought AI innovation ecosystem."
 tracks: ["jingzhang-heritage-narrative", "civic-agent-governance", "ai-origin-community"]
-scenarios: ["ai-origin-community", "civic-agent-governance", "ai-traffic-walkability", "youth-friendly-public-space", "ai-public-services", "enterprise-services-ecosystem", "robotics-autonomous-mobility", "jingzhang-heritage-narrative"]
+scenarios: ["ai-cultural-guide", "ai-health-service-navigation", "ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review", "robot-delivery-low-speed"]
 iteration: "v1.0"
 ---
 
