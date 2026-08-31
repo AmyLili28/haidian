@@ -273,13 +273,15 @@
         "confidence": "low",
         "geometry_role": "design_proposal",
         "land_use_code": "0802",
-        "name_zh": "众智园AI自主创新加速区·科研用地",
+        "name_zh": "众智园AI自主创新加速区·科研与转化功能方向（概念）",
         "transect_id": "T4",
         "corridor_side": "key_area",
-        "design_intent_zh": "对应公告重点区域一。概念性用地建议：以科研与中试转化为主导，公共界面向京张廊道打开。",
+        "design_intent_zh": "对应公告重点区域一。本方案不建议改变用地性质，只提出功能方向与界面组织：以科研与中试转化为主导功能方向，把面向京张廊道的一侧作为公共界面优先段。",
         "dominant_existing_use_osm": "residential",
         "status_zh": "概念建议·待与官方控规核对",
-        "area_sqm_declared": 1929201.877
+        "area_sqm_declared": 1929201.877,
+        "proposes_land_use_change": false,
+        "code_basis_zh": "代码仅用于分区完整覆盖与阅读，依据公告对该重点区域的定位命名推导，并非本方案建议的法定用地性质；同一要素的 dominant_existing_use_osm 记录的是开放地图观测到的现状主导用途，两者口径不同、不应互相印证。"
       },
       "geometry": {
         "type": "Polygon",
@@ -319,13 +321,15 @@
         "confidence": "low",
         "geometry_role": "design_proposal",
         "land_use_code": "07",
-        "name_zh": "北京AI原点社区·居住用地",
+        "name_zh": "北京AI原点社区·交换关系重组片区（概念）",
         "transect_id": "T2",
         "corridor_side": "key_area",
-        "design_intent_zh": "对应公告重点区域二。概念性用地建议：以居住与社区服务为主导，补足日常服务与到达关系。",
+        "design_intent_zh": "对应公告重点区域二。本方案不建议改变用地性质，以既有高校、创新资源、社区与京张公共空间之间的交换关系为基础，以运营激活和界面组织为主要方式，补足日常服务与到达关系，并在既有横穿设施处组织停留与交换空间。",
         "dominant_existing_use_osm": "commercial",
         "status_zh": "概念建议·待与官方控规核对",
-        "area_sqm_declared": 1043236.909
+        "area_sqm_declared": 1043236.909,
+        "proposes_land_use_change": false,
+        "code_basis_zh": "代码仅用于分区完整覆盖与阅读，依据公告对该重点区域的定位命名推导，并非本方案建议的法定用地性质；同一要素的 dominant_existing_use_osm 记录的是开放地图观测到的现状主导用途，两者口径不同、不应互相印证。"
       },
       "geometry": {
         "type": "Polygon",
@@ -365,13 +369,15 @@
         "confidence": "low",
         "geometry_role": "design_proposal",
         "land_use_code": "09",
-        "name_zh": "大钟寺AI产业聚集区·商业服务业用地",
+        "name_zh": "大钟寺AI产业聚集区·产业服务功能方向（概念）",
         "transect_id": "T1",
         "corridor_side": "key_area",
-        "design_intent_zh": "对应公告重点区域三。本方案在此完成 T1 站前深化，用地以商业服务业与产业服务为主导。",
+        "design_intent_zh": "对应公告重点区域三。本方案不建议改变用地性质，在此完成 T1 站前空间深化：以既有京张跨三环公共空间与大钟寺站为骨架，重组到达、换层、面向与横向公共空间关系。",
         "dominant_existing_use_osm": "residential",
         "status_zh": "概念建议·待与官方控规核对",
-        "area_sqm_declared": 589287.726
+        "area_sqm_declared": 589287.726,
+        "proposes_land_use_change": false,
+        "code_basis_zh": "代码仅用于分区完整覆盖与阅读，依据公告对该重点区域的定位命名推导，并非本方案建议的法定用地性质；同一要素的 dominant_existing_use_osm 记录的是开放地图观测到的现状主导用途，两者口径不同、不应互相印证。"
       },
       "geometry": {
         "type": "Polygon",

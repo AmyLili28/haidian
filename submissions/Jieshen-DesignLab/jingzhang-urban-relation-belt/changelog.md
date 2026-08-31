@@ -3,6 +3,78 @@
 本文件记录本投稿包的版本变化、已采纳的反馈与待复核事项。权威数据仍以包内 `geometry/*.geojson`、
 `metrics.json`、`sources.json`、`assumptions.json` 与三个矩阵为准。
 
+## v0.1.2 - 2026-08-31
+
+### 修正 / Fixed
+
+- 版权口径按 2026-08-31 最终裁决收口：`report/copyright_statement.md` 撤销“本包不包含任何生成式
+  模型产出的写实影像／渲染图”的否定性声明，新增第 2a 节显名登记三组生成式概念设计示意图
+  （T1 关键剖面 R75.2、T1 鸟瞰 R75.8、T2–T5 长断面 R76.2；性质＝conceptual design visualisation，
+  非测绘证据）；`sources.json` 新增对应三条登记。
+- 市规自委 2026-06-12 公开发布的蓝景丽家改造前照片按诚实口径登记（publicly released government
+  image; source credited; reuse permission not independently verified），从“已排除素材”表移出，
+  将随最终 28 页文册第 24 页进入交付件；百度全景截图维持排除。
+- `proposal.md`／`proposal.en.md` 版权段同步上述两项；三张 Commons 影像的逐张许可（4.0×2＋3.0×1）
+  口径此前已修正，本轮核对一致，上一版«待复核»第一项关闭。
+
+### 待接入 / Pending integration
+
+- 英文 28 页、FORMAL 五图（CN/EN）、A0 七板（CN/EN）与四份 PDF 尚未回流；回流以
+  `79_FINAL_CN_MASTER_LOCK_v2` 为唯一中文母本，须分别等待 ENGLISH_MASTER_LOCK／FORMAL_CN_LOCK／
+  A0_CN_LOCK 三个明确锁定后一次性接入。
+
+## v0.1.1 - 2026-08-31
+
+回应 PR #4328 的 AI Agent 评审（request-changes，七维加权分 72.0/100，评审锚定 commit
+`36b68449bc6d0b910a56713a0452135c0fa8c44a`）。本次修订不改变设计主线：城市关系断面、
+T1–T5 关系问题、ARRIVE/FACE/CROSS/USE、总体规划与 canonical extent 均未变动。
+
+### 修复 / Fixed
+
+- **中文 HTML 的 CJK 渲染故障（评审 P0）**：`report/proposal.html` 与 `visual/index.html`
+  原先只声明系统中文字体、无 `@font-face`、包内无字体文件，在未安装中文字体的环境中全部
+  回退为方框字。现内嵌 Noto Sans SC v2.04 子集（SIL Open Font License 1.1，许可 URL
+  http://scripts.sil.org/OFL），按页取用字符做子集后以 base64 写入 `@font-face`，
+  子集保留完整 name 表使许可声明随字体分发；未打包任何专有系统字体，无 CDN 与远程请求。
+- **三处重点区域的用地语义**：原记录把三处官方重点区表述为本方案建议的用地性质，且
+  `land_use_code` 与同一要素的 `dominant_existing_use_osm` 互相矛盾。现三处统一声明
+  `proposes_land_use_change=false` 并补 `code_basis_zh`；正文相应改为「主导功能方向」。
+  几何未动，全部指标不变。
+- **影像许可口径**：三张现场影像更正为两张 CC BY-SA 4.0 ＋ 一张 CC BY-SA 3.0，
+  `sources.json` 增加逐张 `items`（文件名、作者、许可、日期、URL）。上一版「待复核」项已关闭。
+
+### 新增 / Added
+
+- 区域创新协同关系矩阵：北纬社区、未来科学城、怀柔科学城、北京经开区、京津冀五个对象。
+- 八要素 AI 生态图谱，并按评审要求增加「五类要素 × 三区两翼」映射表。
+- 五大功能对应关系表，含「AI 治理全球话语权」的概念机制。
+- agent.6 年度活动品牌层级与活动—社区—场景开放—测试验证—成果展示—转化通道闭环。
+- S09/S10/S11 三个产业测试场景的最小验证协议，各 10 字段。
+- P01–P12 的轻量实施字段（基线、下一阶段交付物、建议角色类别、前置依赖、可核验指标、当前不做）。
+- T2 与 T4 的概念控制清单。
+- 公共利益与包容性：老年人、儿童及照护者、行动障碍者、视听障碍者、无智能手机用户五类使用者。
+- 历史来源四条：`SRC-HIST-JZ-BJWWJ`、`SRC-HIST-JZ-NCSTI`、`SRC-HIST-ZGC-KW`、
+  `SRC-HIST-ZGC-CAS`，其中两条为官方主管机构（A 级）。
+
+### 自检记录 / Self-check record
+
+- `CJK_HTML_RENDER_CHECK = PASS`。验证方法不是本机直接渲染（本机装有中文字体，证明不了任何事），
+  而是把四份 HTML 复制一份、从每条 `font-family` 删除全部系统字体名后只留内嵌字体，再离线渲染并
+  逐项人工检查：标题、导航、正文、表格、code label、证据标记上标、图注均无方框、无裁切、无重叠。
+- `BILINGUAL_CROSS_CHECK = PASS`，42 项自动核对全部一致，覆盖章节数、小节数、表格数、嵌入图数量与
+  中英配对、三项核心指标数值、unknown 指标表述、五个证据状态词、临时边界警示、T1–T5 映射、
+  四类关系动作、本轮八个新增块、史料 source_id 集合，以及中英各若干条禁用表述的清零核验。
+  五组中英图逐对比对 SHA-256 全部不同，非同字节复制。
+
+### 仍然保留的边界 / Still declared
+
+- 官方红线、三处重点区域精确 polygon、控规指标、道路红线与市政条件仍未公开；全部空间结论仍为
+  低置信度设计模型值，官方几何发布后整体复算。
+- 组织方临时边界与京张事实轴线存在偏移（`A-CORRIDOR-BOUNDARY-DIVERGENCE-001`）；两套来源均
+  保留原始位置，不人为修正。
+- 英文 A3/A0 的主线图面仍为中文，以每张展板配整页英文对照说明缓解；该项属双语契约的解释风险，
+  待主线视觉换版时一并处理。
+
 ## v0.1.0 - 2026-08-31
 
 首次 formal 提交。

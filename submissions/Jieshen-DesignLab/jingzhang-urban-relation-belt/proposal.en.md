@@ -51,6 +51,34 @@ The finding also answers the three positioning statements and five functions of 
 
 On future urban form, this proposal offers no new slogan but one testable judgement: **an urban form fitted to AI-era productive forces shows itself first in a lower spatial cost of cross-system exchange.** The test is recomputable - the ratio of a station's real walking catchment to its theoretical catchment, measured detour multiples, the density of park entrances, and the share of park edge that forms a negative interface. All of these quantities were measured in the diagnosis.
 
+### The five functions mapped (taskbook function - spatial node - operating mechanism - evidence)
+
+Each of the five functions listed in the taskbook is mapped to a specific spatial node and operating mechanism. **Every mechanism is labelled with its evidence status; none is claimed to exist already.**
+
+| Function | Spatial node | Operating mechanism (suggested) | Evidence / indicator | Status |
+| --- | --- | --- | --- | --- |
+| Full-stack autonomous AI innovation system | Zhongzhiyuan (T4), the side facing the corridor | Suggested coordination between park operator and institutes to make pilot-scale and translation organisations spatially visible | Measured adjacency of origination, translation and hosting spaces along the corridor | Conceptual |
+| World-class AI innovation ecosystem | AI Origin Community (T2) and the Xueyuan Road segment (T3) | Suggested use of existing public space and conditional campus-edge opening to carry exchange | About 13 per cent of campus perimeter gated; opening conditions differ by institution | Conceptual |
+| AI+ scenario empowerment paradigm | Corridor pilot section and six station forecourts | Scenario opening catalogue plus common application rules, aggregate data only, human stop always available | Twelve scenario cards, three of them test scenarios | Conceptual |
+| Intelligent, vibrant AI city | The rail park corridor as a whole | Suggested coordination between park authority and sub-district to organise use by time slot | 21 park entrances; four of five structural breaks caused by transport facilities | Conceptual |
+| **Global voice in AI governance** | The T1 Dazhongsi node and the corridor display section | **A conceptual mechanism only**: a venue for public debate on governance topics, an open forum and display node, an interface for international exchange, display of AI urban-governance cases, public participation and ethics discussion, and open publication of scenario-governance experience | No local existing evidence | **Conceptual, pending external confirmation** |
+
+**One point must be stated plainly about the fifth item.** This proposal claims no established international organisation, global governance platform or international cooperation mechanism. What space can carry here is only **a public place where governance questions can be discussed, displayed and joined**; the mechanism itself must be established separately by the competent authorities and international bodies [source:AGENT-TASKBOOK].
+
+### Regional Innovation Synergy Matrix
+
+The Jing-Zhang corridor is not an isolated innovation unit. The table below answers each regional partner named in the taskbook. **Every synergy is a suggestion; none is an established partnership, a confirmed responsible body or a secured investment.**
+
+| Partner | Exchangeable elements | Spatial interface inside Jing-Zhang | Suggested form of synergy | Evidence status |
+| --- | --- | --- | --- | --- |
+| Beiwei Community | Everyday living services for talent, community scenarios | The community-service interface of the AI Origin Community (T2) | Suggested community-level mutual recognition of scenarios and shared services | Conceptual, to verify |
+| Future Science City | Research institutes, pilot-scale and translation capacity | The translation interface at Zhongzhiyuan (T4) facing the corridor | Can serve as a two-way interface for "origination here, translation there"; suggested regular open days and joint test weeks | Conceptual, pending external confirmation |
+| Huairou Science City | Large scientific facilities, basic research results | Display and interpretation nodes at T4 and T1 | Suggested as a public-facing display interface for results; does not involve the facilities themselves | Conceptual, pending external confirmation |
+| Beijing Economic-Technological Development Area | Industrial capacity, production lines and mass-production validation | The industrial interface and low-speed device test route at T4 | Can serve as a "validate here, produce there" interface; suggested coordination between park operator and firms | Conceptual, pending external confirmation |
+| Beijing-Tianjin-Hebei | Regional accessibility, talent mobility, regional scenarios | Arrival organisation at the Beijing North terminus gateway (T5) | Suggested use of the terminus gateway as a regional arrival and information interface; rail capacity itself is an existing engineering condition | Conceptual, to verify |
+
+**Boundary statement:** the table constitutes no cross-regional agreement, investment arrangement or division of responsibility. Data and computing power are **deliberately not listed as exchangeable elements** - this proposal has no verifiable basis for claiming that the corridor currently has an exchange capability in either, and does not infer one [source:MAINLINE-RELATION-ANALYSIS].
+
 ## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
 
 The diagnosis of the overall design area runs through three systems, each completed as structure, performance, problem.
@@ -71,7 +99,7 @@ The three official key areas are **not** developed to the same depth in this pro
 
 **Dazhongsi AI Industry Cluster (about 72.0 ha, transect T1) - the only key area developed in spatial depth here.** The core objects include Dazhongsi station with its A and B entrances, the 1733 site (the former Dazhongsi market parcel), the at-grade section of Line 13, the Jing-Zhang public space where it passes over the North Third Ring, the North Third Ring itself, the Lanjing parcel, the Mingguangcun resettlement community, and Courtyard 36 with the surrounding residential and medical parcels. The work separates fact from design authority: the station structure, the rail and the bridge are existing engineering facts; the interfaces of renewal parcels fall within planning control; and objects of unknown status, such as the space beneath the bridge, are labelled as unknown rather than assumed to be usable. The converged design question is: **taking the existing Jing-Zhang public space over the North Third Ring and Dazhongsi station as the skeleton, reorganise the arrival, level-change, orientation and transverse public-space relations between 1733, the A/B entrances, the station structure, the corridor and the renewal interfaces on both sides.** The deepened content includes a continuous arrival band, a passage between the two buildings, dispersal pockets at the A and B entrances, longitudinal through-movement, and a continuous southward release of the station threshold. There is no public evidence for the relative levels of the two elevated systems - the Jing-Zhang crossing of the North Third Ring and the Line 13 viaduct - so that item is explicitly marked unverified and no clearance, ramp or underpass geometry is assumed [data:geometry/key_areas.geojson#KEY-003] [depth:three_key_area_detailed_design].
 
-**Zhongzhiyuan AI Autonomous Innovation Acceleration Area (about 192.1 ha, segment T4) - conceptual spatial control recommendations.** The relation problem here is that industry, green space and everyday living space are adjacent while each system still runs on its own terms, leaving an insufficient continuous public interface. The conceptual recommendation is to lead with research and pilot-scale translation uses, to treat the side facing the Jing-Zhang corridor as a priority public interface, and to keep a conditional interface for a cross-line connection at the green-gray break; the degree of intervention depends on the conclusion of a feasibility study [data:geometry/key_areas.geojson#KEY-001].
+**Zhongzhiyuan AI Autonomous Innovation Acceleration Area (about 192.1 ha, segment T4) - conceptual spatial control recommendations.** The relation problem here is that industry, green space and everyday living space are adjacent while each system still runs on its own terms, leaving an insufficient continuous public interface. The conceptual recommendation is that **no change of land-use designation is proposed**; only a functional direction and interface organisation - research and pilot-scale translation as the leading functional direction, with the side facing the corridor treated as a priority public interface, and to keep a conditional interface for a cross-line connection at the green-gray break; the degree of intervention depends on the conclusion of a feasibility study [data:geometry/key_areas.geojson#KEY-001].
 
 **Beijing AI Origin Community (about 104.3 ha, segment T2) - conceptual spatial control recommendations.** The relation problem is that universities, innovation resources and the corridor are adjacent while the public interface and use organisation have not formed a stable exchange, and that rail and retail intensity overlap while crossing and lingering space are insufficient. The conceptual recommendation is to build on the exchange relations between the existing universities, innovation resources, communities and the Jing-Zhang public space, to work primarily through operational activation and interface organisation, to complete everyday services and arrival relations, and to organise lingering and exchange space at existing crossings [data:geometry/key_areas.geojson#KEY-002].
 
@@ -80,6 +108,32 @@ The three official key areas are **not** developed to the same depth in this pro
 *Figure 3. Positioning differences and declared design depth of the three key areas. The three depths differ and are labelled as such.*
 
 **On the difference in depth.** This proposal chooses to carry the method all the way through in one place rather than a third of the way through in three. The reason is that the effectiveness of urban relation reorganisation can only be demonstrated by one complete, object-level verification; and in the absence of an official boundary and regulatory conditions, conceptual spatial control recommendations are the responsible upper limit for the other two. Once official data is released, the same method can be extended directly.
+
+### Conceptual control checklists for T2 and T4 (not deepened to T1 level)
+
+At the reviewer's request, a **lightweight conceptual control checklist** is added for the other two key areas. This does not raise T2 or T4 to the object-level depth of T1; it states which interfaces come first, what stays untouched, what is conditional, what must not be presumed, and what needs professional checking.
+
+**T2　Chengfu Road - Wudaokou (AI Origin Community; relation focus FACE + USE)**
+
+| Category | Content |
+| --- | --- |
+| Priority interface | The side of universities and innovation resources facing the Jing-Zhang public space; lingering space at both ends of existing crossings |
+| Keep / no intervention | Existing operating arrangements where rail and retail intensity overlap; ordinary blocks with no diagnosed relation problem |
+| Conditional interface | Controlled exchange points on campus edges - **subject to each institution confirming its own opening hours and rules** |
+| Do not preset | No unverified engineering crossing is assumed; no change to campus tenure or management boundaries is presumed |
+| Further professional check | Real capacity of existing crossings; institutional opening conditions; pedestrian loading in the retail segment |
+
+**T4　Zhongzhiyuan (relation focus FACE + USE)**
+
+| Category | Content |
+| --- | --- |
+| Priority interface | The side of industrial land facing the corridor; the seam between green space and everyday urban space |
+| Keep / no intervention | Internal park operations; industrial parcels not facing the corridor |
+| Conditional interface | The cross-line connection interface at the green-gray break - **subject to a dedicated feasibility study** |
+| Do not preset | **No invention of internal park tenure or operating conditions**; no presumption of corporate willingness; no conclusion on cross-line works |
+| Further professional check | Cross-line feasibility; green-space tenure and managing body; real conditions for converting the industrial interface |
+
+Both checklists are conceptual suggestions for further professional study [data:geometry/key_areas.geojson#KEY-001] [data:geometry/key_areas.geojson#KEY-002].
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
@@ -100,6 +154,38 @@ Six internationally known innovation districts are cited below, each publicly ve
 
 **Shared mechanism:** taken together, these cases show that building an innovation ecosystem does not depend on drawing a new district boundary alone; interface opening, public-space continuity and translation mechanisms within the existing urban fabric matter just as much. This matches this proposal's focus on "exchange conditions" [source:AGENT-TASKBOOK] [depth:overall_spatial_structure].
 
+### Eight-element AI ecosystem map (agent.2)
+
+The taskbook asks for a response on eight elements: land, space, industry, capital, talent, computing power, data and scenarios. The table labels the **current evidence tier** of each, distinguishing existing evidence, conceptual proposal, and pending external confirmation. **Nothing here is inferred from case studies or from the taskbook into a claim that the capability already exists locally.**
+
+| Element | Location (three areas, two wings) | What this proposal can state | Status |
+| --- | --- | --- | --- |
+| Land | Whole corridor | No new district boundary is drawn; renewal is carried by the existing block grid; land-use suggestions are conceptual structural judgements | Conceptual |
+| Space | Corridor, three key areas, five transects | Public-space skeleton, interfaces and arrival organisation, supported by measurement (catchment ratio, detour multiple, entrance count, negative-interface share) | **Existing evidence** |
+| Industry | Zhongzhiyuan (T4), Dazhongsi (T1) | Origination, translation and hosting spaces are adjacent along the corridor but the public exchange interface between them is weak | **Existing evidence** for adjacency; the mechanism layer is conceptual |
+| Capital | - | **No judgement is offered.** No publicly verifiable basis | Pending external confirmation |
+| Talent | Xueyuan Road segment (T3), AI Origin Community (T2) | Universities and innovation resources are highly adjacent; about 13 per cent of campus perimeter is gated and opening conditions differ markedly | **Existing evidence** at the spatial and institutional level |
+| Computing power | - | **No judgement is offered.** No publicly verifiable basis | Pending external confirmation |
+| Data | Corridor pilot section | Only that aggregate-level environmental sensing could be installed in public space, subject to publication and a human stop | Conceptual |
+| Scenarios | Corridor-wide nodes and the T4 test route | Twelve scenario cards and three test scenarios, all conceptual or conditional | Conceptual, conditional |
+
+**One thing must be explicit:** capital, computing power, data and test scenarios are listed by the taskbook as ecosystem elements, but **this proposal has no local evidence that any of them exists in the corridor today**. Inferring "already present here" from international cases or from the taskbook text does not hold, so these four carry "pending external confirmation" or "conceptual" instead.
+
+
+**The five elements the review named, mapped across the three areas and two wings** (capital, talent, computing power, data, test scenarios):
+
+| Element | Zhongzhiyuan (T4) | AI Origin Community (T2) | Zhongguancun technology-service wing | Xiaoyuehe scenario-empowerment wing |
+| --- | --- | --- | --- | --- |
+| Capital | Pending external confirmation | Pending external confirmation | Pending external confirmation | Pending external confirmation |
+| Talent | **Existing evidence**: adjacent to the Xueyuan Road campus belt; about 13 per cent of campus perimeter gated | **Existing evidence**: universities and innovation resources highly adjacent | Conceptual: a lateral access relation for full-chain element services, adding no parcels | Conceptual: everyday talent use carried by the public experience route |
+| Computing power | Pending external confirmation | Pending external confirmation | Pending external confirmation | Pending external confirmation |
+| Data | Conceptual: aggregate logs from the low-speed device test route | Conceptual: aggregate community-scenario data, published, with a human stop | Conceptual: a service interface for data-governance rules | Conceptual: aggregate environmental monitoring in public space |
+| Test scenarios | **Conditional**: the S09 low-speed delivery and service robot route | Conceptual: public space for the S06 developer open day | Conceptual: the application and rules entry for the S12 scenario catalogue | **Conditional**: the S10 public-space sensing pilot section |
+
+**The treatment of the two wings must be stated plainly:** in this proposal the Zhongguancun technology-service wing and the Xiaoyuehe scenario-empowerment wing are **lateral access relations, not new parcels** - they supply service rules and scenario capacity, and occupy no land inside the Jing-Zhang corridor. **The capital and computing-power rows are entirely "pending external confirmation", which is not an omission**: this proposal has no locally verifiable basis for claiming that either exists as an exchangeable capability at any of the four locations, and under its evidence discipline it does not infer one [source:AGENT-TASKBOOK].
+
+**Industry-space-element relationship (without changing the urban relation transect line of argument):** the elements are not separate layers; they connect to the same spine through the four relation actions. Talent connects through ARRIVE and FACE (can get there, can see it), industry through FACE and USE (there is an interface, it can be used), scenarios through CROSS and USE (can get across, can be used). Land and space are the carriers of those relations; capital, computing power and data are external conditions, not spatial conclusions of this proposal [depth:overall_spatial_structure].
+
 ### Five user personas (agent.3)
 
 | Persona | Main need | Active time | Typical path | Spatial obstacle | Services available |
@@ -111,6 +197,20 @@ Six internationally known innovation districts are cited below, each publicly ve
 | Corridor resident | Everyday services and usable public space | All day, outside peaks | Housing - public space - service facility | Real walking distance three to four times straight-line distance in rail-separated areas | Denser park entrances, completed everyday services, continuous accessible routes |
 
 Two secondary groups are added: **visitors and tourists** (concerned with the Jing-Zhang historical narrative and a legible wayfinding system) and **event organisers** (concerned with public space and operating rules that can host display and assembly).
+
+### Public interest and inclusion (five user groups that need a specific answer)
+
+The five personas above are organised by need and route. The table adds five groups most easily overlooked in a digitalised urban scenario. **These are design and operation requirements, not a claim that the current situation already complies with accessibility standards.**
+
+| User group | Physical wayfinding | Staffed assistance | Offline information | Continuous accessible route | Basic passage during events | Usable without the digital system |
+| --- | --- | --- | --- | --- | --- | --- |
+| Older people | Large type, high contrast, low-mounted signs | Staffed help points at forecourts and park entrances | Printed and fixed-panel timetable and route information | Continuous ramps with seating at intervals | Event enclosures must not sever everyday routes | Every scenario must keep a no-scan way to use it |
+| Children and carers | Low-height signs and pictograms | Help points plus meeting points | Fixed panels showing nearest toilets and drinking water | Routes passable with a pushchair | Sightlines and meeting points retained during events | Registration is never a precondition of use |
+| People with mobility impairments | Dedicated accessible-route signage | Bookable on-site assistance | Accessible route map obtainable offline | A **continuous** accessible path, not a segmented one, including the station transfer leg | Temporary installations must not occupy the accessible path | An app is never required in order to pass |
+| People with vision or hearing impairments | Tactile and high-contrast wayfinding, tactile paving connections where needed | Staffed guidance, sign language or written assistance | Fixed information available in both audio and text | Continuous route with perceivable cues | Event announcements carry synchronous text | A non-visual and a non-auditory alternative is provided |
+| People without a smartphone | Complete information on physical panels | On-site staffed enquiry | Fixed panels alone carry all necessary information | The same route as everyone else | Event information legible on site | **Every AI scenario must allow opt-out; the space must remain fully usable without the digital system** |
+
+**Common requirement:** these six columns are written into this proposal as **preconditions for design and operation**. Any AI scenario that cannot satisfy digital opt-out should not enter a public-space pilot [source:AGENT-TASKBOOK].
 
 ### Twelve AI scenario cards (agent.3)
 
@@ -143,6 +243,25 @@ All scenarios grow out of existing spatial relations; none adds a new building c
 The twelve cards include three explicit industry test and verification scenarios (S09, S10, S11), satisfying the taskbook requirement of at least ten scenario cards and at least three test scenarios [source:AGENT-TASKBOOK].
 
 **Common privacy and human-review boundary:** every scenario prohibits facial recognition, individual tracking and the use of non-public data; all processing in public space uses aggregate definitions and is published; every automated judgement retains a channel for human review and immediate suspension. **These scenarios are conceptual suggestions, not approved operating arrangements.**
+
+### Minimum validation protocol for the three industry test scenarios (agent.3)
+
+The minimum validation protocol for S09, S10 and S11 is set out below. **All three are concept / conditional pilots; none has taken place; no data permission has been obtained.**
+
+| Field | S09 Low-speed delivery and service robot test | S10 Public-space environmental sensing trial | S11 Station transfer algorithm verification |
+| --- | --- | --- | --- |
+| Hypothesis | Whether a low-speed device can complete a round trip on the existing continuous route without crowding pedestrians | Whether aggregate environmental sensing reflects the real distribution of use intensity in public space | Whether transfer time and reliability change once transfer organisation is improved |
+| Allowed data fields | Device pose, avoidance-event count, path occupancy duration | Pedestrian density (aggregate), noise, microclimate | De-identified aggregate flow, time distribution |
+| Source and evidence tier | The firm's own device logs (third party, permission pending) | On-site devices (filing pending) | Rail operator (**not obtained; pending external confirmation**) |
+| Current baseline | **UNKNOWN** (no prior test record) | **UNKNOWN** (no prior monitoring point) | Known: real walking catchment is 22 per cent of theoretical at Dazhongsi and 16 per cent at Beijing North (measured in this proposal) |
+| Success metric | Zero pedestrian-crowding events across the run, with manual takeovers below an agreed threshold | Monitoring results of the same order of magnitude as on-site manual counts | Measurable improvement in time and reliability against the baseline |
+| Failure metric | Any crowding of pedestrians, or frequent manual takeover | Monitoring results of a different order from manual counts | No measurable improvement, or data insufficient to judge |
+| Human takeover | Any risk of pedestrian conflict, any device anomaly | Any device fault or data anomaly | No automated control at all; observation only |
+| Stop condition | Any safety incident stops the trial entirely | Any risk of individual identification stops it | Failure to agree a data definition stops it |
+| Privacy and authorisation boundary | No facial recognition, no individual tracking; test area published | Aggregate data only, no individual identification, results published | De-identified aggregate only; no connection to personal ticketing data |
+| Result disclosure | Conclusions published together with failures | Method and results published together | Method, definitions and conclusions published |
+
+**Three shared boundaries:** first, any data permission not yet obtained **must not be written as a present fact**; second, none of the pilots has happened and none may be described as implemented; third, every automated judgement retains human review and an immediate stop.
 
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
@@ -215,6 +334,27 @@ The renewal project list is organised by **relation action** rather than by parc
 
 On implementation policy, no conclusion is offered on funding, land or approvals. Three working principles are proposed instead: **items still to be verified are always drawn as dashed and never anticipate an implementation commitment**; **"staying as it is" is itself an explicit planning decision**; and **once the official regulatory plan and redline are released, all layers and metrics are recomputed as a whole rather than patched locally**.
 
+### Implementation fields for P01-P12 (lightweight, no new drawings)
+
+Each of the twelve actions carries the implementation fields below. **Every "role" is a suggested professional role category; it names no specific bureau, company or university, and this proposal claims no confirmed participation by any body.**
+
+| No. | Current baseline | Next-stage deliverable | Suggested lead role | Suggested collaborating role | Prerequisite | Verifiable indicator | Out of scope now |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| P01 | No continuous guidance between station exit and corridor | Arrival-band plan and section | Planning coordination | Transport, landscape | Verify forecourt land boundary | Real walking catchment as share of theoretical | The station structure itself |
+| P02 | Interface turned away from Jing-Zhang | Interface control guideline | Planning coordination | Landscape, park operation | Renewal window and tenure verification | Length of continuous interface facing the corridor | Individual building design |
+| P03 | Bridge-zone publicness not organised | Bridge-zone concept scheme | Landscape | Transport, municipal | **Verification of clearance and structural conditions** | Usable lingering area and lighting level | Any change to bridge structure |
+| P04 | Insufficient dispersal at exits A/B | Dispersal and through-movement plan | Transport | Planning coordination | Measured exit flows | Peak dispersal time | New station exits |
+| P05 | Everyday services mismatched with real walking | Service completion list | Operations | Planning coordination | Community consultation | Real walking distance from housing to public space | New facilities |
+| P06 | No lingering space at crossings | Lingering-space concept scheme | Landscape | Transport | Verify capacity of existing crossings | Lingering area and hours of use | New crossing works |
+| P07 | Campus opening conditions differ widely | Conditional exchange interface guideline | Planning coordination | University liaison, operations | **Each institution confirms hours and rules** | Length and hours of opened interface | Changing campus tenure |
+| P08 | Industrial interface not facing the corridor | Priority interface list | Planning coordination | Park operation, landscape | Verify park willingness and tenure | Length of public interface facing the corridor | Works inside the park |
+| P09 | Green-gray break not connected | Statement of reservation conditions | Transport | Planning coordination, municipal | **Dedicated cross-line feasibility study** | Whether reservation conditions exist (yes/no) | Any cross-line engineering scheme |
+| P10 | Terminus gateway does not organise arrival | Gateway arrival concept scheme | Planning coordination | Transport, landscape | Verify station-area management boundary | Length of connection between the two sides | New engineering crossing |
+| P11 | 21 entrances; about 27 per cent negative interface | Entrance densification and interface list | Landscape | Operations | Verify green-space tenure and managing body | Park entrance count, negative-interface share | Adding green area |
+| P12 | No single entry point for scenario opening | Draft scenario catalogue and rules | Operations | Data governance, planning coordination | Data and privacy rules confirmed | Number of catalogue entries, response time | Actual scenario deployment |
+
+**Role categories used:** planning coordination, transport, landscape, operations, university liaison, park operation, data governance, municipal. **All are professional role categories, not confirmed responsible bodies.**
+
 ### Annual programme and long-term operation (agent.6)
 
 | Period | Programme | Space | Audience | Suggested coordinating parties |
@@ -229,6 +369,22 @@ On implementation policy, no conclusion is offered on funding, land or approvals
 | Year-round | Community participation and feedback | Corridor communities | Residents | Suggested coordination between sub-district and communities |
 
 **Operating parties are always worded as "suggested coordination between..." or "may involve...", and constitute no confirmed commitment, approval or partnership.** The long-term mechanism has three parts: a scenario opening catalogue with a single entry point and clear rules; a quarterly rhythm for the developer community; and a public display system for results and contributions. The design principle for attraction and conversion is: **first make it possible to arrive, to see and to use; then talk about attracting** [source:AGENT-TASKBOOK].
+
+**Annual programme brand hierarchy (no full branding design)**
+
+| Tier | Position | Frequency | Corresponds to |
+| --- | --- | --- | --- |
+| Annual flagship | Jing-Zhang Open Day - a corridor-wide walkable public event | Once a year | March |
+| Thematic / seasonal | University Open Week, Public Experience Season, heritage programme | Once a quarter | April / September / October |
+| Developer and community | Developer and student innovation programme; community participation and feedback | Quarterly plus year-round | May plus year-round |
+| Test and demo day | Industry Test Week (S09 / S10 / S11 opened together) | Once a year | June |
+| Public participation | Open consultation on renewal topics; results display | Year-round | Year-round plus November |
+
+**Conversion loop (event - developer community - scenario opening - test validation - results display - conversion channel):** developer and student events bring people to the site; the scenario opening catalogue turns "what can be done" into an applicable entry; Industry Test Week turns applications into actual validation in the three test scenarios; results display publishes what the validation found; international exchange and results release form the outward conversion channel. **Every link in the loop offers space and rules only; none promises funding, tenancy or orders.**
+
+**Communication visual direction (principles only; no logo and no rendering):** it follows the identity of the Jing-Zhang Relation Belt, taking the relation transect as its visual language and composing from three graphic elements - line, node and section. **It avoids piling up AI science-fiction symbols** (no glowing brains, circuit boards, robots or cyber grids). The communication system is kept separate from the cultural identity system.
+
+**Wording on operating bodies:** every body in the table above is a **suggested role**; this proposal invents no confirmed organiser, partner institution or funder [source:AGENT-TASKBOOK].
 
 ## Metrics, Area Recalculation, and Compliance Matrix
 
@@ -259,9 +415,9 @@ All three avoid literal symbols such as rails, gears, brains or chips. **Typefac
 
 The narrative is organised in three time layers. **All historical statements must rest on publicly verifiable sources; no unverified historical claim is added here.**
 
-**Layer one: the centennial Jing-Zhang railway (from 1905-1909).** Its spatial carriers are the at-grade alignment, the existing stations and the rail park itself. The narrative focus is the process by which an engineering heritage became public space.
+**Layer one: the centennial Jing-Zhang railway.** In February 1905 Zhan Tianyou was appointed by the Qing government to lead the works; construction was approved in May of the same year; the line opened in 1909 as the first trunk railway in China designed and built by Chinese engineers [source:SRC-HIST-JZ-BJWWJ] [source:SRC-HIST-JZ-NCSTI]. Its spatial carriers are the at-grade alignment, the existing stations and the rail park itself; the narrative focus is the process by which an engineering heritage became public space. (Note: public sources give two opening dates, 24 September and 2 October 1909, so this text states only the year and adopts no single precise date.)
 
-**Layer two: the innovation history of Zhongguancun (from the 1980s).** Its carriers are the universities, institutes, early technology streets and industrial parks along the corridor. The focus is how origination, translation and hosting spaces appeared in sequence within one corridor.
+**Layer two: the innovation history of Zhongguancun.** On 23 October 1980, Chen Chunxian, a researcher at the Institute of Physics of the Chinese Academy of Sciences, together with six colleagues and with the support of the Beijing Association for Science and Technology, founded the Advanced Technology Development Service Department of the Beijing Plasma Society [source:SRC-HIST-ZGC-CAS]. From January 1983 to April 1988 the area was known as "Electronics Street", running from Baishiqiao north along Baiyi Road to Chengfu Road and from Zhongguancun Road to Haidian Road, bounded to the east by Xueyuan Road; on 10 May 1988 the State Council approved the Beijing New Technology Industry Development Experimental Zone, renamed Zhongguancun Science Park on 10 August 1999 [source:SRC-HIST-ZGC-KW]. **The extent of "Electronics Street" coincides directly with the corridor in which transects T2 and T3 sit** - not as a metaphor, but as the same blocks carrying two successive histories. Its carriers are the universities, institutes, early technology streets and industrial parks along the corridor.
 
 **Layer three: the new AI culture (present).** Its carriers are the scenario nodes and display systems in public space. The focus is openness, co-creation and verifiability - consistent with how this open call itself is organised.
 
@@ -281,7 +437,7 @@ The narrative is organised in three time layers. **All historical statements mus
 
 **Public acceptance and spatial dispute risk.** Campus-edge opening, bridge-zone conversion and forecourt adjustment all involve different managing bodies and user groups; the approach here is to state conditions rather than conclusions and to leave adjudication to subsequent professional and public processes.
 
-**Copyright and clearance.** The analysis, drawings and text are original work by the participant. Existing spatial data comes from OpenStreetMap under ODbL 1.0 and is registered feature by feature by `osmid` [source:DATA-SRC-OSM-JINGZHANG-BASE]. Three site photographs come from Wikimedia Commons - **two under CC BY-SA 4.0 and one under CC BY-SA 3.0** - with author, date and the specific licence version recorded image by image in `report/copyright_statement.md` [source:B14-COMMONS-IMAGERY]. A Baidu street-view screenshot and one officially released photograph were excluded from the package entirely, because their redistribution terms are not established; neither appears in any drawing or display page. Typeface, library and toolchain versions and licences are recorded in the same statement. **This package contains no unauthorised trademark, typeface, portrait or third-party academic image.**
+**Copyright and clearance.** The analysis, drawings and text are original work by the participant. Existing spatial data comes from OpenStreetMap under ODbL 1.0 and is registered feature by feature by `osmid` [source:DATA-SRC-OSM-JINGZHANG-BASE]. Three site photographs come from Wikimedia Commons - **two under CC BY-SA 4.0 and one under CC BY-SA 3.0** - with author, date and the specific licence version recorded image by image in `report/copyright_statement.md` [source:B14-COMMONS-IMAGERY]. A Baidu street-view screenshot remains excluded because its redistribution terms are not established. Page 24 of the booklet additionally uses one pre-renewal photograph of the Lanjing plot publicly released by the Beijing Municipal Commission of Planning and Natural Resources on 12 June 2026: it is a publicly released government image, the source is credited, and its reuse permission has not been independently verified; it serves as site-context illustration only [source:OFFICIAL-PHOTO-LANJING-BMPNR-20260612]. The T1 key relation section [source:GEN-T1-SECTION-R752], the T1 core-node aerial [source:GEN-T1-AERIAL-R758] and the T2–T5 long transects [source:GEN-T2T5-LONG-SECTIONS-R762] are conceptual design visualisations generated/edited under project-defined geometry, factual constraints and human review; they are not survey evidence and not a source for boundary or dimensional verification. Typeface, library and toolchain versions and licences are recorded in the same statement. **This package contains no unauthorised trademark, typeface, portrait or third-party academic image.**
 
 **Unified boundary statement.** All results here are open co-creation suggestions. They do not replace statutory planning and do not constitute a government-approved conclusion. Every spatial recommendation is worded as a conceptual suggestion, a reference scheme, or material for professional teams to deepen. This proposal offers no conclusion on regulatory adjustment, plot ratio, building height, development intensity, parcel-level retain-renovate-demolish, road alignment, rail alignment, bridge or tunnel works, municipal pipelines, investment estimates, development sequencing or approvals; and it claims no government commitment, corporate tenancy, approved event, secured investment, confirmed operating entity or confirmed construction.
 

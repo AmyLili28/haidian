@@ -182,6 +182,99 @@
       "limitation_zh": "国际案例为借鉴性背景资料，只用于提取一条可转化机制；不作为本项目空间控制、规模、投资或产值依据，也不代表已证明产业链运行机制。",
       "collection_method_zh": "2026-08-31 经 WebSearch 检索并逐条打开公开来源核验，未使用任何案例图像。",
       "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "SRC-HIST-JZ-BJWWJ",
+      "source_type": "official_public",
+      "usable_for_formal": "yes",
+      "evidence_tier": "A｜官方文物主管机构",
+      "publisher": "北京市文物局",
+      "title": "第六十八集　跨越百年　圆梦京张——打造中国高速铁路新标杆",
+      "url": "https://wwj.beijing.gov.cn/bjww/362760/362767/bwgxh/spzl/325996356/index.html",
+      "access_date": "2026-08-31",
+      "supported_claim": "京张铁路于 1909 年建成；由詹天佑主持修建。",
+      "usage": "agent.5 文化叙事时间层一的年代与主持人事实依据。",
+      "limitation_zh": "该页未写明开工年份，1905 年始建一说不以本源支撑。"
+    },
+    {
+      "id": "SRC-HIST-JZ-NCSTI",
+      "source_type": "official_public",
+      "usable_for_formal": "background_only",
+      "evidence_tier": "B｜政府平台转载出版物（内容署中国国家地理）",
+      "publisher": "北京市科技创新服务平台（ncsti.gov.cn）·科创服务／纪念日栏目",
+      "title": "1909年9月24日　中国设计的第一条铁路——京张铁路通车",
+      "url": "https://www.ncsti.gov.cn/kcfw/jnr/202108/t20210830_39837.html",
+      "access_date": "2026-08-31",
+      "supported_claim": "1905 年 2 月詹天佑受清政府委任主持筑路；1905 年 5 月清政府批准始建；1909 年 9 月 24 日通车。",
+      "usage": "agent.5 时间层一的起始年代依据。",
+      "limitation_zh": "内容署中国国家地理，属政府平台转载而非档案原件，证据等级低于 A 类；另公开资料对通车日存在 9 月 24 日（通车典礼）与 10 月 2 日（正式通车）两说，本方案正文因此只写 1909 年通车，不采用单一精确日期。"
+    },
+    {
+      "id": "SRC-HIST-ZGC-KW",
+      "source_type": "official_public",
+      "usable_for_formal": "yes",
+      "evidence_tier": "A｜官方主管机构",
+      "publisher": "北京市科学技术委员会、中关村科技园区管理委员会",
+      "title": "中关村示范区（发展沿革）",
+      "url": "https://kw.beijing.gov.cn/ztzl/rdzt/zgcsfq/",
+      "access_date": "2026-08-31",
+      "supported_claim": "1983 年 1 月至 1988 年 4 月为「电子一条街」阶段，范围自白石桥起沿白颐路向北至成府路和中关村路至海淀路一带、东至学院路；1988 年 5 月 10 日国务院批准设立北京市新技术产业开发试验区（海淀区约 100 平方公里）；1999 年 8 月 10 日更名为中关村科技园区；2009 年 3 月 13 日国务院批复中关村国家自主创新示范区。",
+      "usage": "agent.5 文化叙事时间层二的年代、机构与空间范围依据；其中「电子一条街」四至与本方案 T2／T3 断面所在走廊直接重合。",
+      "limitation_zh": "沿革表述为主管机构的官方叙述，非逐项档案原件。"
+    },
+    {
+      "id": "SRC-HIST-ZGC-CAS",
+      "source_type": "official_public",
+      "usable_for_formal": "background_only",
+      "evidence_tier": "B｜国家科研机构官方网站报道",
+      "publisher": "中国科学院",
+      "title": "「中关村的变迁」系列报道之二：「电子一条街」归位「中国硅谷」",
+      "url": "https://www.cas.cn/xw/cmsm/200411/t20041126_2694615.shtml",
+      "access_date": "2026-08-31",
+      "supported_claim": "1980 年 10 月 23 日，中国科学院物理研究所研究员陈春先与 6 名科技人员在北京市科学技术协会支持下成立北京等离子体学会先进技术发展服务部。",
+      "usage": "agent.5 时间层二起点事件的依据。",
+      "limitation_zh": "属机构新闻报道而非档案原件；本方案只用其单一起点事件，不用于推断后续进程。"
+    },
+    {
+      "id": "GEN-T1-SECTION-R752",
+      "source_type": "participant_generated_concept_visualisation",
+      "usable_for_formal": "illustration_only",
+      "publisher": "Jieshen-DesignLab（生成式图像模型辅助，轮次 R75.2）",
+      "usage": "T1 关键关系剖面（垂直公共铰链）：文册 P25／P27 与 PAGE00 的剖面图。",
+      "limitation_zh": "生成式概念设计示意图：在项目自定几何、事实约束与人工复核下生成／编辑；非测绘证据，不用于边界或尺寸核验；标高与垂直交通设施另行标注待核实。",
+      "limitation_en": "conceptual design visualisation generated/edited under project-defined geometry, factual constraints and human review; not survey evidence and not a source for boundary or dimensional verification",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "GEN-T1-AERIAL-R758",
+      "source_type": "participant_generated_concept_visualisation",
+      "usable_for_formal": "illustration_only",
+      "publisher": "Jieshen-DesignLab（生成式图像模型辅助，轮次 R75.8，第一次生成经作者指定冻结）",
+      "usage": "T1 核心节点鸟瞰：文册 P27 左下辅助图。",
+      "limitation_zh": "生成式概念设计示意图：在项目自定几何、事实约束与人工复核下生成／编辑；非测绘证据，不用于边界或尺寸核验。",
+      "limitation_en": "conceptual design visualisation generated/edited under project-defined geometry, factual constraints and human review; not survey evidence and not a source for boundary or dimensional verification",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "GEN-T2T5-LONG-SECTIONS-R762",
+      "source_type": "participant_generated_concept_visualisation",
+      "usable_for_formal": "illustration_only",
+      "publisher": "Jieshen-DesignLab（生成式图像模型辅助，轮次 R76.1 生成、R76.2 定向修复）",
+      "usage": "T2–T5 现状／未来长断面 ×8：文册 P18–P21。",
+      "limitation_zh": "生成式概念设计示意图：在项目自定几何、事实约束与人工复核下生成／编辑；非测绘证据，不用于边界或尺寸核验。",
+      "limitation_en": "conceptual design visualisation generated/edited under project-defined geometry, factual constraints and human review; not survey evidence and not a source for boundary or dimensional verification",
+      "retrieved_date": "2026-08-31"
+    },
+    {
+      "id": "OFFICIAL-PHOTO-LANJING-BMPNR-20260612",
+      "source_type": "official_public",
+      "usable_for_formal": "background_only",
+      "publisher": "北京市规划和自然资源委员会（公开发布，2026-06-12）",
+      "usage": "蓝景丽家地块改造前照片：文册 P24 现场情境说明。",
+      "limitation_zh": "政府公开发布影像；已注明来源机构与发布日期；再分发许可未经独立核实，不声称已获授权；仅作现场情境说明，不作空间量测或边界依据。",
+      "limitation_en": "Publicly released government image; source credited; reuse permission not independently verified. Site-context illustration only.",
+      "retrieved_date": "2026-08-31",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zxzt/csgx/csgxfjszt/fjsztalzs/202606/t20260612_4698370.html"
     }
   ]
 }

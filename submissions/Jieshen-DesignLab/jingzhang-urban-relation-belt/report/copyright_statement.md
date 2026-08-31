@@ -28,9 +28,10 @@ phasing 及 roads 中的概念性慢行主廊道）、五张核心派生图、A3
   其他用途须另行取得参赛方书面许可。
 - AI 辅助声明 / AI assistance：本投稿包由 AI agent 生成与组织（`agent.json` 中声明模型为
   `claude-opus-5`）。设计判断、事实核验口径与取舍由参赛方负责；AI 参与内容包括：空间数据处理与面积
-  复算脚本、图面与版式生成脚本、正文与展示页的组织与撰写、三个矩阵与自检流程的执行。**本包不包含
-  任何生成式模型产出的写实影像、渲染图或伪造的现场照片**；所有地图与图示均由本包内 GeoJSON 与
-  metrics.json 程序派生，所有照片均为可核验的第三方清权影像。
+  复算脚本、图面与版式生成脚本、正文与展示页的组织与撰写、三个矩阵与自检流程的执行。本包含有三组**显名登记的生成式概念设计示意图**（T1 关键关系剖面 R75.2、T1 核心节点鸟瞰 R75.8、
+  T2–T5 长断面 R76.2，登记见第 2a 节）：均为参赛方在项目自定几何、事实约束与人工复核下指令
+  生成／编辑，属概念表达，**不是现场照片，不作为测绘证据，不用于边界或尺寸核验**。除此之外的
+  所有地图与图示均由本包内 GeoJSON 与 metrics.json 程序派生；照片来源逐张登记于第 3 节。
 
 ---
 
@@ -57,26 +58,41 @@ License 1.0 提供（<https://www.openstreetmap.org/copyright>）。由该数据
 
 ---
 
+## 2a. 生成式概念设计示意图 / Generative concept visualisations
+
+下列三组图像由生成式图像模型在参赛方给定的几何底稿、事实约束与逐轮人工审计下生成／编辑，
+性质均为：*conceptual design visualisation generated/edited under project-defined geometry, factual constraints and human review; not survey evidence and not a source for boundary or dimensional verification*。
+它们不是现场照片，不进入任何面积、边界或尺寸论证；相关事实（标高、垂直交通等）在正文中
+单独标注核验状态。
+
+| 来源 ID | 图像 | 生成轮次与方式 | 人工复核记录 | 用于 |
+| --- | --- | --- | --- | --- |
+| `GEN-T1-SECTION-R752` | T1 关键关系剖面（垂直公共铰链） | R75.2，imagegen 定向编辑 | R75.2 审计（SECTION PASS） | 文册 P25／P27、PAGE00 |
+| `GEN-T1-AERIAL-R758` | T1 核心节点鸟瞰 | R75.8，imagegen 精确对象编辑（第一次生成，作者指定冻结） | R75.8 报告 | 文册 P27（辅助图） |
+| `GEN-T2T5-LONG-SECTIONS-R762` | T2–T5 现状／未来长断面 ×8 | R76.1 生成、R76.2 定向修复（imagegen） | R76.2 各断面审计 | 文册 P18–P21 |
+
+---
+
 ## 3. 现场影像 / Site photographs
 
-三张现场影像取自 Wikimedia Commons（`sources.json` 中登记为 `B14-COMMONS-IMAGERY`），许可明确、
-可署名，并在 A3 文册的对应页面上**逐张印出作者与许可**。
+最终文册第 24 页使用四张现场影像：三张取自 Wikimedia Commons（`sources.json` 中登记为
+`B14-COMMONS-IMAGERY`），许可明确、可署名，页面上**逐张印出作者与许可**；另一张为政府公开发布
+影像（见表末行与 `OFFICIAL-PHOTO-LANJING-BMPNR-20260612`），按诚实口径登记。
 
 | 文件 | 内容 | 作者 | 许可 | 来源 | 修改方式 | 取得日期 |
 | --- | --- | --- | --- | --- | --- | --- |
 | `Exit_A_of_Dazhong_Si_Station_(Feb_2025).jpg` | 大钟寺站 A 口（2025-02-22 摄） | RobertSchwandI | **CC BY-SA 4.0** | <https://commons.wikimedia.org/wiki/File:Exit_A_of_Dazhong_Si_Station_(Feb_2025).jpg> | 仅等比缩放与 JPEG 重编码置入版面，未裁切、未调色、未合成 | 2026-08-31 |
 | `Exit_B_of_Dazhongsi_Station_(20210409120947).jpg` | 大钟寺站 B 口（2021-04-09 摄） | N509FZ | **CC BY-SA 4.0** | <https://commons.wikimedia.org/wiki/File:Exit_B_of_Dazhongsi_Station_(20210409120947).jpg> | 同上 | 2026-08-31 |
 | `Outside_Dazhongsi_Station_in_Beijing.JPG` | 大钟寺站站外 | Siyuwj | **CC BY-SA 3.0** | <https://commons.wikimedia.org/wiki/File:Outside_Dazhongsi_Station_in_Beijing.JPG> | 同上 | 2026-08-31 |
+| `04_蓝景丽家改造前照片_规自委发布_20260612.jpg` | 蓝景丽家地块改造前（更新窗口期语境） | 北京市规划和自然资源委员会（公开发布，2026-06-12） | **政府公开发布影像；已注明来源；再分发许可未经独立核实** / publicly released government image; source credited; reuse permission not independently verified | <https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zxzt/csgx/csgxfjszt/fjsztalzs/202606/t20260612_4698370.html> | 仅等比缩放与 JPEG 压缩 | 2026-08-31 |
 
 **CC BY-SA 归属与同协议共享声明：** 上述三张影像分别依 CC BY-SA 4.0 与 CC BY-SA 3.0 提供；本包在
 使用处保留原作者署名、许可名称与来源链接。任何人再使用这三张影像，须继续保留同样的署名与许可，
 并按同一协议共享其改编作品。**本包的其他部分不因此改变许可**：三张影像作为独立作品被汇编引用，
 其许可只约束影像本身。
 
-**口径更正（相对 `proposal.md` 正文与 `sources.json`）：** `proposal.md`「风险、版权与合规说明」一节
-与 `sources.json` 条目 `B14-COMMONS-IMAGERY` 均将三张现场影像统一表述为 CC BY-SA 4.0。实际许可为
-**两张 CC BY-SA 4.0 ＋ 一张 CC BY-SA 3.0**，以本文件上表为准；该口径差异已作为内容缺口交回正文
-负责人修订。
+**口径核对（2026-08-31 已闭合）：** `proposal.md`「风险、版权与合规说明」与 `sources.json` 条目
+`B14-COMMONS-IMAGERY` 均已按实际许可逐张登记（两张 CC BY-SA 4.0 ＋ 一张 CC BY-SA 3.0），与本表一致。
 
 ---
 
@@ -135,12 +151,11 @@ License 1.0 提供（<https://www.openstreetmap.org/copyright>）。由该数据
 | 素材 | 原位置 | 排除原因 | 处理方式 |
 | --- | --- | --- | --- |
 | 街景平台全景截图（`09_站前全景尝试.png`，百度全景，2026-08 截取） | 主线现场观察页 BOARD_14 | **商业地图平台截图，无可援引的再分发许可**；平台服务条款未授权第三方在投稿成果中复制与公开展示 | 连同 BOARD_14 整页从 A3 文册与 A0 展板中移除 |
-| 蓝景丽家地块改造前照片（市规自委 2026-06-12 公开发布） | 主线现场观察页 BOARD_14 | 官方公开发布**不等于授予再分发许可**，未取得明确的使用授权 | 同上 |
+| 蓝景丽家地块改造前照片（市规自委 2026-06-12 公开发布） | 主线现场观察页 BOARD_14 | 官方公开发布不等于授予再分发许可 | **2026-08-31 裁决后移出本表**：按“政府公开发布影像、注明来源、再分发许可未经独立核实”的诚实口径在第 3 节登记，并在最终文册第 24 页使用 |
 | 上海定位漂移的街景测试截图 | 主线工作过程 | 定位错误且无许可，主线已判废 | 从未进入成果版 |
 
-**替代方案：** A3 文册第 A4 页《T1 现场观察与影像来源登记》由参赛方重新组织，只使用第 3 节的三张
-Wikimedia Commons 影像（逐张印出作者与许可），并以文字表述现场观察建立的三条判断。原 BOARD_14 中
-由参赛方自绘的观察点索引图，其信息已由该页文字与 `geometry/*.geojson` 承载，未造成证据缺失。
+**最终版口径：** 最终 A3 文册为 28 页设计文册，其第 24 页《T1 场地事实与现场》直接承载现场影像
+并逐张印出来源与许可；百度全景截图仍被排除，未进入任何交付件。
 
 ---
 
@@ -148,14 +163,13 @@ Wikimedia Commons 影像（逐张印出作者与许可），并以文字表述�
 
 本包**不包含**：
 未经授权的商标与标识；随包分发的字体文件；人物肖像可识别且未取得同意的影像；第三方论文、书籍或
-报告中的图表与插图；商业地图底图或其截图；付费数据库导出的数据；任何生成式模型产出的写实影像、
-渲染图或伪造的现场照片；任何非公开的政府数据、企业内部数据或个人数据。
+报告中的图表与插图；商业地图底图或其截图；付费数据库导出的数据；任何被当作现场照片或测绘证据使用的影像（本包的生成式概念示意图见第 2a 节，均显名登记、不作证据用）；任何非公开的政府数据、企业内部数据或个人数据。
 
 This package contains **no** unlicensed trademark or logo; no redistributed font file; no image in
 which an identifiable person appears without consent; no figure or illustration taken from a
 third-party paper, book or report; no commercial map basemap or screenshot thereof; no data
-exported from a paid database; no photorealistic image, rendering or fabricated site photograph
-produced by a generative model; and no non-public government data, internal corporate data or
+exported from a paid database; and no image passed off as a site photograph or as survey evidence (the generative concept
+visualisations in this package are declared in section 2a and are not used as evidence); and no non-public government data, internal corporate data or
 personal data.
 
 ---
