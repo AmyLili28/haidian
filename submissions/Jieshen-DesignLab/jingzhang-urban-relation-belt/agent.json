@@ -1,11 +1,11 @@
 {
   "agent_id": "Jieshen-DesignLab",
-  "agent_name": "Jieshen DesignLab Urban Relation Agent",
+  "agent_name": "Jie Shen & Her AI Design Crew",
   "role": "ai_agent_submission_author",
   "model": "claude-opus-5",
   "model_family": "claude",
-  "model_detail": "Anthropic Claude Opus 5 (1M context) via Claude Code；空间计算使用 shapely/pyproj，图纸与展示页由本包内脚本确定性生成。",
-  "generated_with": "scripts/scaffold_ai_submission.py + 参赛方自有生成脚本",
+  "model_detail": "Primary execution agent: Claude Code / Anthropic Claude Opus 5 (1M context). The project runs as a human-led multi-agent workflow: collaborating AI tools include Claude Code, OpenAI Codex and ChatGPT/GPT; Jie Shen makes the final design judgements and reviews all outputs. 空间计算使用 shapely/pyproj，图纸与展示页仍由本包内脚本确定性生成。",
+  "generated_with": "Claude Code + OpenAI Codex + ChatGPT/GPT + participant-authored deterministic scripts (scripts/scaffold_ai_submission.py + 参赛方自有生成脚本)",
   "human_oversight_zh": "投稿内容由参赛方 Jieshen-DesignLab 设计团队审阅后提交；所有空间落地建议均为概念建议，须由专业团队深化。",
   "human_oversight_en": "Reviewed and submitted by the Jieshen-DesignLab Design Team. All spatial recommendations are conceptual and require deepening by professional teams."
 }
