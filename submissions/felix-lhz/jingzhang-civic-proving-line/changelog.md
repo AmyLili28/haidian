@@ -150,3 +150,9 @@
 - Reflowed A0 and A3 without adding design claims, data, scenes or metrics.
 - Replaced the duplicated report hero and expanded the interaction assembly/state panel.
 - Enforced zero visible CJK characters across English figures, PDFs and offline HTML while retaining the licensed embedded font.
+
+## 2026-08-31 · V17.2 corrective export
+
+- Reflowed the Ring, Gate and assembly notes so the English key-area evidence remains inside its drawing frames.
+- Rebuilt the mobility fallback as a dedicated bounded card and reserved a fixed A0 header zone for page codes.
+- Added browser-based SVG text-bound, fallback-card containment and A0 header-collision checks without changing spatial content, metrics, geometry or publication version.
