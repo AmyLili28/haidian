@@ -100,12 +100,64 @@
         "flagship_verified_public_benefit_count",
         "network_role_anchor_count",
         "network_role_count",
+        "application_capability_stage_count",
+        "application_capability_mapping_coverage_ratio",
         "fp01_first_use_delivery_contract_template_count",
         "fp01_100_day_gate_coverage_ratio",
-        "fp01_contract_clause_coverage_ratio"
+        "fp01_contract_clause_coverage_ratio",
+        "fp01_concrete_service_problem_count",
+        "fp01_receipt_event_type_coverage_ratio",
+        "fp01_spatial_prototype_scale_count",
+        "brand_architecture_layer_count",
+        "brand_flagship_mapping_coverage_ratio",
+        "reversible_public_space_component_count",
+        "landmark_component_mapping_coverage_ratio",
+        "honor_contribution_class_count",
+        "delivery_hold_point_coverage_ratio",
+        "fp01_evidence_gate_count",
+        "fp01_evidence_gate_definition_coverage_ratio",
+        "fp01_evidence_verified_gate_count",
+        "fp01_external_evidence_artifact_verified_count",
+        "key_area_interface_prototype_count",
+        "fp01_d0_measurement_method_coverage_ratio",
+        "fp01_hold_point_raci_coverage_ratio",
+        "fp01_design_test_boq_item_count",
+        "fp01_critical_dependency_step_count",
+        "fp01_delivery_role_class_count",
+        "fp01_hold_point_single_decision_owner_ratio",
+        "fp01_acceptance_indicator_count",
+        "fp01_immediately_judgeable_acceptance_indicator_count",
+        "fp01_field_dependent_acceptance_indicator_count",
+        "fp01_release_stage_count",
+        "fp01_external_release_granted_count",
+        "fp01_fallback_alternative_count",
+        "fp01_cost_plan_class_count",
+        "fp01_verified_cost_input_count",
+        "fp01_documented_authorized_site_action_count",
+        "fp01_pre_feasibility_scale_count",
+        "fp01_capacity_egress_template_count",
+        "fp01_staffing_fte_template_count",
+        "fp01_rom_sensitivity_scenario_count",
+        "fp01_maintenance_cycle_count",
+        "fp01_execution_form_count",
+        "fp01_execution_required_field_count",
+        "fp01_execution_verified_external_record_count",
+        "fp01_rel00_synthetic_fixture_count",
+        "fp01_rel00_positive_transition_match_ratio",
+        "fp01_rel00_negative_control_block_ratio",
+        "fp01_rel00_external_evidence_credit_count"
       ],
       "source_ids": [
         "AGENT-TASKBOOK",
+        "OPEN-CALL-PROJECT-STATEMENT",
+        "SUBMISSION-INTAKE-PR-4017",
+        "SUBMISSION-INTAKE-PR-4306",
+        "SUBMISSION-INTAKE-PR-4308",
+        "SUBMISSION-INTAKE-PR-4313",
+        "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
+        "STATE-COUNCIL-AI-PLUS-2025",
+        "NATIONAL-FIFTEENTH-FIVE-YEAR-AI-APPLICATION-2025",
+        "HAIDIAN-JINGZHANG-MIDTERM-2026",
         "CASE-AMSTERDAM-ALGORITHM-REGISTER",
         "CASE-EU-TEF",
         "CASE-HELSINKI-AI-REGISTER",
@@ -114,6 +166,7 @@
         "CASE-PUNGGOL-ODP",
         "CASE-SIDEWALK-QUAYSIDE",
         "HIST-JINGZHANG-RAILWAY",
+        "HIST-JINGZHANG-FROM-LEARNING-TO-AUTONOMY",
         "HIST-JINGZHANG-PARK"
       ],
       "assumption_ids": [
@@ -127,7 +180,17 @@
         "A-FLAGSHIP-FP04",
         "A-FLAGSHIP-FP05",
         "A-METRICS-001",
-        "A-SCENARIO-LOCATION-001"
+        "A-SCENARIO-LOCATION-001",
+        "A-NATIONAL-STRATEGIC-FRAMING-001",
+        "A-APPLICATION-CAPABILITY-REPLICATION-001",
+        "A-FP01-CONCRETE-PROTOTYPE-001",
+        "A-BRAND-COMPONENT-001",
+        "A-DELIVERY-READINESS-001",
+        "A-FP01-EVIDENCE-READINESS-001",
+        "A-FP01-DELIVERY-CONTROL-001",
+        "A-FP01-EXECUTION-KIT-001",
+        "A-FP01-REL00-DESK-REPLAY-001",
+        "A-AGENT-PARTICIPATION-METHOD-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION",
@@ -135,7 +198,30 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "六组案例、十二场景、三项验证、五类用户、三处地标和长期运营机制均有独立证据；所有落地表述保持概念建议属性；16个可信运行原型特征为六节点网络与五旗舰补充机器责任证据，同时保持次级、非官方与非运营边界；V0.7以五个概念旗舰包覆盖12场景、三区两翼与公园公共证据层，并提供机器可核验的实施边界；六角色与六锚点形成任务可读的总体网络证据，五旗舰承接实施，可信运行层保持次级。"
+      "evidence_summary_zh": "六组案例、十二场景、三项验证、五类用户、三处地标和长期运营机制均有独立证据；所有落地表述保持概念建议属性。V0.17完整保留1:500至1:20四尺度、容量疏散、人员FTE、三档ROM成本运维、维护周期、退出储备、逐门备选和七类双语执行空表，并真实运行REL00参与者侧合成回放：4类正向状态转换与8类故障注入均由标准库脚本复算；这只证明接口一致性，外部实际仍为null/0/HOLD。PR #4306、#4308和#4313记录前序修复、咨询性评审、仓库intake与合并；96/100或100/100均不是正式评委得分，也不证明Gallery发布、采纳、实施、政府背书、世界首创或全球领先。V0.17仍是未发布的本地候选版。",
+      "evidence_files": [
+        "visual/assets/agent-participation-ledger.json",
+        "visual/assets/verify-agent-participation-ledger.js",
+        "assets/figures/double-demonstration.png",
+        "visual/assets/fp01-contract.json",
+        "assets/figures/fp01-spatial-prototype.png",
+        "visual/assets/brand-component-architecture.json",
+        "visual/assets/verify-brand-component-architecture.js",
+        "assets/figures/brand-component-architecture.png",
+        "visual/assets/fp01-evidence-readiness.json",
+        "visual/assets/verify-fp01-evidence-readiness.js",
+        "report/narrative.md",
+        "assets/figures/evidence-readiness.png",
+        "visual/assets/fp01-delivery-control.json",
+        "visual/assets/verify-fp01-delivery-control.js",
+        "visual/assets/fp01-execution-kit.json",
+        "visual/assets/verify-fp01-execution-kit.js",
+        "assets/media/fp01-execution-workbook.md",
+        "assets/figures/technical-delivery-sheet.png",
+        "visual/assets/fp01-rel00-desk-replay.json",
+        "visual/assets/verify-fp01-rel00-desk-replay.js",
+        "assets/figures/fp01-implementation-verdict.png"
+      ]
     },
     {
       "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
@@ -176,7 +262,13 @@
         "flagship_pilot_count",
         "flagship_published_standard_output_count",
         "flagship_scenario_bundle_coverage_ratio",
-        "flagship_verified_public_benefit_count"
+        "flagship_verified_public_benefit_count",
+        "fp01_concrete_service_problem_count",
+        "fp01_receipt_event_type_coverage_ratio",
+        "fp01_spatial_prototype_scale_count",
+        "key_area_interface_prototype_count",
+        "fp01_d0_measurement_method_coverage_ratio",
+        "fp01_hold_point_raci_coverage_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -194,7 +286,9 @@
         "A-FLAGSHIP-FP03",
         "A-FLAGSHIP-FP04",
         "A-FLAGSHIP-FP05",
-        "A-GEOMETRY-CROSSCHECK-001"
+        "A-GEOMETRY-CROSSCHECK-001",
+        "A-FP01-CONCRETE-PROTOTYPE-001",
+        "A-FP01-DELIVERY-CONTROL-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION",
@@ -202,7 +296,14 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "用地、功能包络、慢行和蓝绿公共空间被协同表达；六个概念建筑已通过建筑—绿地—广场—公共空间兼容性复核；三处街室作为公共空间内部的非加总子空间，人物旅程只表达概念空间序列，不替代详细设计或实测；试点仅引用临时空间载体、现有更新项目和依赖分期，不替代法定规划、详细设计或工程批准。"
+      "evidence_summary_zh": "用地、功能包络、慢行和蓝绿公共空间被协同表达；六个概念建筑已通过建筑—绿地—广场—公共空间兼容性复核；三处街室作为公共空间内部的非加总子空间，人物旅程只表达概念空间序列，不替代详细设计或实测；试点仅引用临时空间载体、现有更新项目和依赖分期，不替代法定规划、详细设计或工程批准。V0.12以三片区概念界面、六项D0方法和H0-H4角色级RACI补足设计—测量—责任链；尺寸和位置仍是待共创、测绘和专业复核的概念证据。",
+      "evidence_files": [
+        "visual/assets/fp01-contract.json",
+        "assets/figures/fp01-spatial-prototype.png",
+        "visual/assets/fp01-delivery-control.json",
+        "visual/assets/verify-fp01-delivery-control.js",
+        "assets/figures/technical-delivery-sheet.png"
+      ]
     },
     {
       "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
@@ -278,7 +379,7 @@
         "land_use_0802_area_sqm",
         "land_use_0803_area_sqm",
         "land_use_0804_area_sqm",
-        "land_use_05_area_sqm",
+        "land_use_09_area_sqm",
         "land_use_0702_area_sqm",
         "land_use_1401_area_sqm",
         "land_use_1403_area_sqm",
@@ -300,7 +401,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "七类代码面积由同一拓扑分区复算；AI业态名称作为设计程序叠加，不取代0802、0803、0804、05、0702、1401、1403分类含义。"
+      "evidence_summary_zh": "七类代码面积由同一拓扑分区复算；AI业态名称作为设计程序叠加，不取代0802、0803、0804、09、0702、1401、1403分类含义。"
     },
     {
       "standard_id": "MOHURD-ARCH-DESIGN-DEPTH-2016",
@@ -325,7 +426,10 @@
         "building_footprint_area_sqm",
         "total_floor_area_sqm",
         "building_height_m",
-        "setback_m"
+        "setback_m",
+        "key_area_interface_prototype_count",
+        "fp01_design_test_boq_item_count",
+        "fp01_critical_dependency_step_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -334,7 +438,8 @@
       "assumption_ids": [
         "A-ARCH-STANDARD-001",
         "A-CONTROLS-001",
-        "A-EXISTING-001"
+        "A-EXISTING-001",
+        "A-FP01-DELIVERY-CONTROL-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION",
@@ -342,7 +447,12 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "本地标准索引明确该官方文件尚缺；六个建筑对象只作为功能承载包络，不声称达到建筑工程设计文件深度。"
+      "evidence_summary_zh": "本地标准索引明确该官方文件尚缺；六个建筑对象只作为功能承载包络，不声称达到建筑工程设计文件深度。V0.12的三片区概念界面、单套设计测试清单和关键依赖只用于下一阶段任务定义；实测尺寸、正式工程量、单价金额和专业签署均为空。",
+      "evidence_files": [
+        "visual/assets/fp01-delivery-control.json",
+        "visual/assets/verify-fp01-delivery-control.js",
+        "assets/figures/technical-delivery-sheet.png"
+      ]
     },
     {
       "standard_id": "GENERATIVE-AI-INTERIM-MEASURES",
@@ -445,7 +555,10 @@
         "flagship_verified_public_benefit_count",
         "fp01_first_use_delivery_contract_template_count",
         "fp01_100_day_gate_coverage_ratio",
-        "fp01_contract_clause_coverage_ratio"
+        "fp01_contract_clause_coverage_ratio",
+        "fp01_concrete_service_problem_count",
+        "fp01_receipt_event_type_coverage_ratio",
+        "fp01_spatial_prototype_scale_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -458,7 +571,8 @@
         "A-PROTOCOL-PROTOTYPE-001",
         "A-FLAGSHIP-FP03",
         "A-FLAGSHIP-FP05",
-        "A-FLAGSHIP-FP01"
+        "A-FLAGSHIP-FP01",
+        "A-FP01-CONCRETE-PROTOTYPE-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION",
@@ -466,7 +580,11 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "公共服务导航、健康导引与包容性慢行场景保留人工/非数字路径作为设计原则；具体法律义务仍按第39条适用场所判断；J01无手机轮椅使用者旅程验证非AI、人工协助和申诉引用是否齐全，但不声称路线已测绘或达到法定无障碍验收；FP03和FP05把有人协助、非AI路径与分模式服务质量列为扩展前门槛，不声称已通过无障碍验收。"
+      "evidence_summary_zh": "公共服务导航、健康导引与包容性慢行场景保留人工/非数字路径作为设计原则；具体法律义务仍按第39条适用场所判断；J01无手机轮椅使用者旅程验证非AI、人工协助和申诉引用是否齐全，但不声称路线已测绘或达到法定无障碍验收；FP03和FP05把有人协助、非AI路径与分模式服务质量列为扩展前门槛，不声称已通过无障碍验收。 V0.10以一项明确服务旅程、三尺度可逆空间和人工/非数字接管回执深化；人物、尺寸与场址均为待D0共创和测绘的概念证据。",
+      "evidence_files": [
+        "visual/assets/fp01-contract.json",
+        "assets/figures/fp01-spatial-prototype.png"
+      ]
     },
     {
       "standard_id": "ELDERLY-SMART-TECH-PLAN-2020-45",

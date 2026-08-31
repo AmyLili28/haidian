@@ -136,6 +136,27 @@ class SelfCheckEncodingTests(unittest.TestCase):
                 self.assertFalse(result["ok"])
                 self.assertIn(expected_error, result["stderr"])
 
+    @unittest.skipIf(sys.platform == "win32", "LC_ALL does not select the Windows code page")
+    def test_force_utf8_output_prints_chinese_under_non_utf8_locale(self) -> None:
+        chinese_section = "设计依据与资料清单"
+        script = (
+            f"import sys; sys.path.insert(0, {ascii(str(REPO_ROOT / 'scripts'))});"
+            "import self_check_submission as module;"
+            "module.force_utf8_output();"
+            f"print({ascii(chinese_section)})"
+        )
+        environment = os.environ.copy()
+        environment.update({"LC_ALL": "C", "PYTHONUTF8": "0", "PYTHONCOERCECLOCALE": "0"})
+        completed = subprocess.run(
+            [sys.executable, "-c", script],
+            capture_output=True,
+            encoding="utf-8",
+            env=environment,
+            check=False,
+        )
+        self.assertEqual(completed.returncode, 0, completed.stderr)
+        self.assertIn(chinese_section, completed.stdout)
+
 
 def run_scaffold(output_dir: Path, stage: str = "formal", cwd: Path = REPO_ROOT) -> subprocess.CompletedProcess:
     return subprocess.run(
@@ -404,6 +425,20 @@ class AgentScaffoldAndSelfCheckTests(unittest.TestCase):
                 "Replace GITHUB_LOGIN with the exact PR author login.",
                 result["next_command_note"],
             )
+
+    def test_finalize_and_mark_self_checked_write_lf_only_manifest(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_official_site_package(root)
+            submission_dir = root / "submissions" / "alice" / "lf-line-endings"
+            self.assertEqual(run_scaffold(submission_dir, cwd=root).returncode, 0)
+            self.assertEqual(complete_scaffold(submission_dir).returncode, 0)
+            manifest_bytes = (submission_dir / "manifest.json").read_bytes()
+            self.assertNotIn(b"\r", manifest_bytes, "finalize_submission must not emit CR bytes")
+            self.assertEqual(mark_self_checked(submission_dir).returncode, 0)
+            manifest_bytes = (submission_dir / "manifest.json").read_bytes()
+            self.assertNotIn(b"\r", manifest_bytes, "mark_self_checked must not emit CR bytes")
+            self.assertTrue(manifest_bytes.endswith(b"\n"))
 
     def test_ready_package_manifest_refresh_restores_missing_hashes(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

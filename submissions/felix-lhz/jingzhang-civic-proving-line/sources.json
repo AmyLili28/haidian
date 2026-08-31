@@ -392,40 +392,127 @@
       "prompt_summary": "Elevated architectural cutaway of an unobstructed cross-shaped step-free public route, southeast removable amber low-speed trial bay, southwest staffed blue receipt porch, dual E-stops, tactile guidance, rain gardens and an eastward equipment-removal route; no text or logos; concept rendering only."
     },
     {
-      "id": "GENERATED-VERIFICATION-RING-V14",
       "publisher": "OpenAI built-in image generation",
-      "date": "2026-08-20",
-      "path": "assets/media/verification-ring-v14.webp",
-      "companion_path": "assets/media/verification-ring-v14.jpg",
+      "date": "2026-08-21",
       "source_type": "ai_generated_visual",
       "license": "Competition display only; subject to platform and competition terms",
-      "usage": "T2 Verification Ring concept communication only; not a photograph, survey, field result or approval evidence.",
-      "limitations": "The view follows the V14 outer public bypass and inner controlled ring, but all dimensions and existing context require survey and professional review.",
-      "prompt_summary": "Human-eye architectural visualization of a Beijing railway-heritage verification court: an uninterrupted outer step-free public bypass surrounds an inner controlled low-speed robot ring, with one staffed threshold, two emergency stops, a public failure-status display and a clear equipment-removal gate; heritage graphite, civic green, candidate amber and evidence blue; no text or logos."
+      "id": "GENERATED-VERIFICATION-RING-V15",
+      "path": "assets/media/verification-ring-v15.webp",
+      "companion_path": "assets/media/verification-ring-v15.jpg",
+      "usage": "T2 architectural experience communication only; not a photograph, survey, field result or approval evidence.",
+      "limitations": "Follows the V15 outer public bypass, controlled inner court, observation arcade and separate equipment exit; all dimensions and context require survey and professional review.",
+      "prompt_summary": "Photorealistic concept view of an oval verification ring with an all-day accessible outer bypass, controlled robot court, shaded observation arcade, staffed safety threshold, failure display and separate equipment exit; bolted galvanized steel and perforated screens; no text or logos."
     },
     {
-      "id": "GENERATED-TRANSLATION-GATE-V14",
       "publisher": "OpenAI built-in image generation",
-      "date": "2026-08-20",
-      "path": "assets/media/translation-gate-v14.webp",
-      "companion_path": "assets/media/translation-gate-v14.jpg",
+      "date": "2026-08-21",
       "source_type": "ai_generated_visual",
       "license": "Competition display only; subject to platform and competition terms",
-      "usage": "S2 Translation Gate concept communication only; not a photograph, survey, field result or approval evidence.",
-      "limitations": "The view follows the V14 three account-free passages and staffed review interface, but all dimensions and existing context require survey and professional review.",
-      "prompt_summary": "Warm adaptive-reuse public translation hall with three unmistakable account-free step-free passages, a staffed bilingual blue service desk, an amber closable AI plug-in wall, waiting and co-creation areas, and a visible human-review backstage; no turnstiles, phone dependency, text or logos."
+      "id": "GENERATED-TRANSLATION-GATE-V15",
+      "path": "assets/media/translation-gate-v15.webp",
+      "companion_path": "assets/media/translation-gate-v15.jpg",
+      "usage": "S2 architectural experience communication only; not a photograph, survey, field result or approval evidence.",
+      "limitations": "Follows the V15 three account-free passages, staffed bilingual desk, review backstage, closable plug-in wall and rear service strip; all dimensions and context require survey and professional review.",
+      "prompt_summary": "Photorealistic concept view of a porous translation hall with three account-free passages, staffed bilingual desk, accessible waiting, human review backstage, closable amber plug-in wall and independent rear service strip; no text or logos."
     },
     {
-      "id": "GENERATED-RECEIPT-PORCH-V14",
       "publisher": "OpenAI built-in image generation",
-      "date": "2026-08-20",
-      "path": "assets/media/receipt-porch-v14.webp",
-      "companion_path": "assets/media/receipt-porch-v14.jpg",
+      "date": "2026-08-21",
       "source_type": "ai_generated_visual",
       "license": "Competition display only; subject to platform and competition terms",
-      "usage": "S7 Receipt Porch concept communication only; not a photograph, survey, field result or approval evidence.",
-      "limitations": "The view follows the V14 unbroken public cross, one-side reversible trial bay and staffed receipt porch, but all dimensions and existing context require survey and professional review.",
-      "prompt_summary": "Elevated architectural cutaway of the Dazhongsi civic-adoption forecourt: an exact unbroken cross-shaped step-free public route, a removable amber trial bay only on the southeast side, a staffed blue receipt porch on the southwest, blue-green rain-garden edges, tactile guidance, wheelchair and visually impaired users, dual emergency stops and a separate eastward equipment-removal route; no text or logos."
+      "id": "GENERATED-RECEIPT-PORCH-V15",
+      "path": "assets/media/receipt-porch-v15.webp",
+      "companion_path": "assets/media/receipt-porch-v15.jpg",
+      "usage": "S7 architectural experience communication only; not a photograph, survey, field result or approval evidence.",
+      "limitations": "Follows the V15 public cross, one-sided reversible trial bay, staffed Receipt Porch, blue-green edge and back-of-house; all dimensions and context require survey and professional review.",
+      "prompt_summary": "Photorealistic elevated concept view of a buildable civic cross with continuous accessible paths, one-sided trial bay, staffed Receipt Porch, rain gardens, shade, dual E-stops and separate back-of-house/removal access; no text or logos."
+    },
+    {
+      "id": "BEIJING-BLOCK-PLAN-APPROVED-20260812",
+      "publisher": "北京市人民政府门户网站",
+      "date": "2026-08-12",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202608/t20260812_4819212.html",
+      "source_type": "official_public",
+      "license": "Public information; quotation subject to publisher terms",
+      "usage": "Published 1,668.2 ha block-plan context, 9 km green belt, one-belt/one-axis/two-centres/multiple-nodes structure and Dazhongsi centre.",
+      "limitations": "Published planning context only; no exact redline, parcel control, title, survey or field-performance evidence."
+    },
+    {
+      "id": "BEIJING-JZ-PHASE2-COMPLETE-20260714",
+      "publisher": "北京市园林绿化局",
+      "date": "2026-07-14",
+      "url": "https://yllhj.beijing.gov.cn/zwgk/zwxx/202607/t20260714_4761226.shtml",
+      "source_type": "official_public",
+      "license": "Public information; quotation subject to publisher terms",
+      "usage": "Published completion status of Phase II supporting works, approximately 30.01 ha north section and fishbone slow-mobility connections.",
+      "limitations": "Does not prove participant survey, construction acceptance of this proposal, or exact interfaces for design components."
+    },
+    {
+      "id": "BEIJING-JZ-PUBLIC-USE-20260730",
+      "publisher": "北京市人民政府门户网站",
+      "date": "2026-07-30",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202607/t20260730_4799453.html",
+      "source_type": "official_public",
+      "license": "Public information; quotation subject to publisher terms",
+      "usage": "Published context on reported everyday public use and surrounding communities.",
+      "limitations": "Third-party published report only; not participant fieldwork, consultation, traffic count or satisfaction evidence."
+    },
+    {
+      "id": "BEIJING-HD-BLOCK-PLAN-PARTICIPATION-20250207",
+      "publisher": "北京市规划和自然资源委员会",
+      "date": "2025-02-07",
+      "url": "https://ghzrzyw.beijing.gov.cn/chengxiangguihua/ghlgg/hd_ghlgg/202502/t20250207_4005553.html",
+      "source_type": "official_public",
+      "license": "Public information; quotation subject to publisher terms",
+      "usage": "Planning public-participation background and process context.",
+      "limitations": "Does not establish final parcel boundaries or participant-specific approval."
+    },
+    {
+      "id": "LANJINGLI-RENEWAL-20260612",
+      "publisher": "北京市规划和自然资源委员会",
+      "date": "2026-06-12",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zxzt/csgx/csgxfjszt/fjsztalzs/202606/t20260612_4698370.html",
+      "source_type": "official_public",
+      "license": "Public information; quotation subject to publisher terms",
+      "usage": "Published urban-renewal interface context near the corridor.",
+      "limitations": "Context only; no partnership, title, exact fit or implementation commitment is claimed."
+    },
+    {
+      "id": "GENERATED-RECEIPT-PORCH-V17-DAY",
+      "publisher": "OpenAI built-in image generation",
+      "date": "2026-08-21",
+      "source_type": "ai_generated_visual",
+      "license": "Competition display only; subject to platform and competition terms",
+      "path": "assets/media/receipt-porch-v17-day.webp",
+      "companion_path": "assets/media/receipt-porch-v17-day.jpg",
+      "usage": "S7 ordinary OPEN-day architectural experience only; not a photograph, survey, field result or approval evidence.",
+      "limitations": "Same camera and design relationship as the V17 vector model; context, materials and people are illustrative and all dimensions require survey and professional review.",
+      "prompt_summary": "Edited from the V15 Receipt Porch concept to a bright ordinary OPEN day preserving the public cross, one-sided reversible bay, staffed porch, blue-green edge and rear service yard; no text or logos."
+    },
+    {
+      "id": "GENERATED-RECEIPT-PORCH-V17-NIGHT",
+      "publisher": "OpenAI built-in image generation",
+      "date": "2026-08-21",
+      "source_type": "ai_generated_visual",
+      "license": "Competition display only; subject to platform and competition terms",
+      "path": "assets/media/receipt-porch-v17-night.webp",
+      "companion_path": "assets/media/receipt-porch-v17-night.jpg",
+      "usage": "S7 night PAUSE-state architectural experience only; not a photograph, survey, field result or approval evidence.",
+      "limitations": "Same camera and permanent geometry as the V17 day image; lighting and people are illustrative and do not prove operations, safety or accessibility performance.",
+      "prompt_summary": "Same-camera night PAUSE edit preserving the public cross and staffed porch while closing the one-sided bay with reversible boundary lights; no text or logos."
+    },
+    {
+      "id": "SOURCE-HAN-SANS-2.005R",
+      "publisher": "Adobe Fonts / Google Noto",
+      "date": "2025-06-18",
+      "retrieved_at": "2026-08-30",
+      "url": "https://github.com/adobe-fonts/source-han-sans/releases/tag/2.005R",
+      "source_type": "external_public_asset",
+      "license": "SIL Open Font License 1.1",
+      "path": "visual/assets/font-bundle.json",
+      "companion_path": "visual/assets/font-license.json",
+      "usage": "A glyph-subset variable WOFF2 is renamed JZ Civic CJK and embedded in all four offline HTML deliverables so Chinese and residual bilingual text render without system fonts or network access.",
+      "limitations": "This is a derived font subset, not planning or field evidence. Upstream version, hashes, glyph inputs and derivation method are recorded in visual/assets/font-metadata.json."
     }
   ]
 }

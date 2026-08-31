@@ -1,4 +1,19 @@
 # 方案迭代记录
+## V16 - 在已批空间结构上建立城市采纳层
+
+- 登记2026年公布的1668.2公顷街区背景、9公里绿带、“一带一轴、两心多点”、大钟寺中心与二期完工状态。
+- 将一脊三站两翼降为运营叠加层，明确官方街区范围与11.4平方公里临时投稿几何不可互换。
+- 将Agent 2/5/6补强为五条交换合同、五类文化构件、普通开放日及四季知识资产。
+- 四种图面状态固定为 existing_published / approved_context / design_proposal / unknown；现场绩效继续未知。
+
+
+## V15 - 可建造的公共十字
+
+- 将 ALT-C 深化为公共十字、单侧试验湾、回执廊、蓝绿边界和维护后场组成的建筑—地面系统。
+- 三座地标补齐 1:500 平面、1:200 剖面、装配和关闭状态，形成环、门、廊建筑家族。
+- 新增 1:50 与 1:20 可逆节点及五类材料系统；结构、消防、基础、耐久和报价继续待专业复核。
+- 五张核心图、A0/A3和交互展由统一 V15 模型生成；当前准入仍为 G0 NO-GO，现场绩效未知。
+
 
 ## V14 - 不断线的公共十字
 
@@ -115,3 +130,29 @@
 - 运营绩效保持 unknown，仅把文档覆盖数登记为 known。
 - 案例拆分为官方/第一手来源；所有本地边界、权属、控规、市政和现场绩效缺口持续披露。
 - 未执行 git add、commit、push 或 PR。
+
+## 2026-08-21 · V17
+
+- Restored the buildable civic cross as primary evidence and demoted planning context to a verified base.
+- Established one canonical 4 m route invariant across OPEN / TRIAL / PAUSE / RETIRE.
+- Added canonical view, context, maintenance, camera, priority, stage and next-gate interfaces (schema 1.14.0).
+- Reordered both proposals around spatial conclusion, prototype, ALT decision, next gate and approved context.
+
+## 2026-08-30 · V17.1 offline CJK repair
+
+- Embedded a renamed, OFL-licensed Source Han Sans 2.005R glyph subset in all four HTML deliverables; offline rendering no longer depends on Microsoft YaHei or another host font.
+- Increased first-screen task, metric and evidence labels to a review-readable minimum and standardized the bilingual language link without changing spatial content, PDFs, metrics or geometry.
+- Added deterministic glyph/hash checks and clean-browser 1440×1600 plus mobile screenshot QA; field status and all evidence boundaries remain unchanged.
+
+## 2026-08-30 · V17.2
+
+- Rebalanced the five review figures around one dominant spatial judgment and enlarged essential labels for 1024 px review.
+- Reflowed A0 and A3 without adding design claims, data, scenes or metrics.
+- Replaced the duplicated report hero and expanded the interaction assembly/state panel.
+- Enforced zero visible CJK characters across English figures, PDFs and offline HTML while retaining the licensed embedded font.
+
+## 2026-08-31 · V17.2 corrective export
+
+- Reflowed the Ring, Gate and assembly notes so the English key-area evidence remains inside its drawing frames.
+- Rebuilt the mobility fallback as a dedicated bounded card and reserved a fixed A0 header zone for page codes.
+- Added browser-based SVG text-bound, fallback-card containment and A0 header-collision checks without changing spatial content, metrics, geometry or publication version.

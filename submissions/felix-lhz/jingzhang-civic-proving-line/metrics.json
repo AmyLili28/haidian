@@ -48,7 +48,7 @@
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.026327,
+      "value": 0.02892,
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",
@@ -527,7 +527,7 @@
       "source_files": [
         "visual/assets/e2-readiness.json"
       ],
-      "formula": "count(readiness gates whose current decision permits TRIAL)",
+      "formula": "count(readiness gates permitting TRIAL)",
       "confidence": "high",
       "assumptions": []
     },
@@ -538,9 +538,149 @@
       "source_files": [
         "visual/assets/e2-readiness.json"
       ],
-      "formula": "count(permit_checklist where status=pending_permit)",
+      "formula": "count(pending permit gates)",
       "confidence": "high",
       "assumptions": []
+    },
+    "architectural_prototype_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/prototype-model.json"
+      ],
+      "formula": "count(architectural_prototypes)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "material_system_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/prototype-model.json"
+      ],
+      "formula": "count(material_palette)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "architectural_section_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/prototype-model.json"
+      ],
+      "formula": "count(section_refs across three prototypes)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "architectural_detail_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/prototype-model.json"
+      ],
+      "formula": "count(detail_refs across three prototypes)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "official_planning_area_ha": {
+      "status": "known",
+      "value": 1668.2,
+      "unit": "ha",
+      "source_files": [
+        "sources.json",
+        "visual/assets/spatial-atlas.json"
+      ],
+      "formula": "published figure; not recomputed from submitted geometry",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "official_green_belt_length_km": {
+      "status": "known",
+      "value": 9,
+      "unit": "km",
+      "source_files": [
+        "sources.json",
+        "visual/assets/spatial-atlas.json"
+      ],
+      "formula": "published figure",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "submitted_provisional_area_sqm": {
+      "status": "known",
+      "value": 11412825.386,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "polygon_area(submitted provisional geometry)",
+      "confidence": "medium",
+      "assumptions": [
+        "A-BOUNDARY-001"
+      ]
+    },
+    "exchange_contract_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/spatial-atlas.json"
+      ],
+      "formula": "count(exchange_contracts)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "cultural_component_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/spatial-atlas.json"
+      ],
+      "formula": "count(cultural_components)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "ordinary_open_day_step_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/two-answers.json"
+      ],
+      "formula": "count(ordinary_open_day.steps)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "s7_public_route_prototype_width_m": {
+      "status": "known",
+      "value": 4,
+      "unit": "m",
+      "source_files": [
+        "visual/assets/prototype-model.json"
+      ],
+      "formula": "min(s7.public_routes[].clear_width_m)",
+      "confidence": "medium",
+      "assumptions": [
+        "A-S7-PROTOTYPE-DIMENSIONS"
+      ]
+    },
+    "s7_public_route_state_invariant_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "states",
+      "source_files": [
+        "visual/assets/prototype-model.json"
+      ],
+      "formula": "count(OPEN,TRIAL,PAUSE,RETIRE preserving public_route_invariant)",
+      "confidence": "medium",
+      "assumptions": [
+        "A-S7-PROTOTYPE-DIMENSIONS"
+      ]
     }
   }
 }

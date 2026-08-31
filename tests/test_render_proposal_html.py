@@ -9,10 +9,18 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-from render_proposal_html import render_html, render_inputs  # noqa: E402
+from render_proposal_html import render_html, render_inputs, write_text_atomically  # noqa: E402
 
 
 class RenderProposalHtmlTests(unittest.TestCase):
+    def test_write_text_atomically_emits_lf_only_bytes_on_every_platform(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "report.html"
+            write_text_atomically(target, "<p>alpha</p>\n<p>beta</p>\n")
+            self.assertEqual(target.read_bytes(), b"<p>alpha</p>\n<p>beta</p>\n")
+            write_text_atomically(target, "<p>gamma</p>\n")
+            self.assertEqual(target.read_bytes(), b"<p>gamma</p>\n")
+
     def test_render_html_supports_emphasis_without_reformatting_inline_code(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             submission_dir = Path(tmp)
@@ -36,6 +44,30 @@ class RenderProposalHtmlTests(unittest.TestCase):
                 html,
             )
             self.assertNotIn("0.4 <em>", html)
+
+    def test_render_html_wraps_unbroken_inline_code_without_reformatting_fenced_code(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            submission_dir = Path(tmp)
+            long_token = "urn:haidian:data-coop:" + ("A" * 256)
+            (submission_dir / "proposal.md").write_text(
+                f"Short `SCN-06`.\n\nInline `{long_token}`.\n\n```text\n{long_token}\n```\n",
+                encoding="utf-8",
+            )
+
+            html = render_html(submission_dir)
+
+            self.assertIn("<code>SCN-06</code>", html)
+            self.assertIn(f"<code>{long_token}</code>", html)
+            self.assertIn(f"<pre><code>{long_token}</code></pre>", html)
+            self.assertIn(
+                ":not(pre) > code {\n"
+                "  display: inline-block;\n"
+                "  max-width: 100%;\n"
+                "  overflow-wrap: anywhere;\n"
+                "  word-break: break-word;\n"
+                "}",
+                html,
+            )
 
     def test_render_html_supports_blockquotes(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

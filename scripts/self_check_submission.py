@@ -374,6 +374,14 @@ def format_markdown(report: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def force_utf8_output() -> None:
+    """Keep the report printable when the locale encoding cannot hold Chinese text."""
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if reconfigure is not None:
+            reconfigure(encoding="utf-8", errors="replace")
+
+
 def _self_check_gate_checks(report: dict[str, Any]) -> list[dict[str, str]]:
     gates = [
         ("DETERMINISTIC_VALIDATION", "deterministic_validation", "validate_local_submission.py"),
@@ -457,7 +465,8 @@ def mark_self_checked(submission_dir: Path, report: dict[str, Any]) -> tuple[boo
         self_check_item["sha256"] = hashlib.sha256(self_check_bytes).hexdigest()
         claim["readiness_contract"] = PERSISTED_READINESS_CONTRACT
         claim["self_checked"] = True
-        manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        with manifest_path.open("w", encoding="utf-8", newline="\n") as handle:
+            handle.write(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     except OSError as exc:
         self_check_path.write_bytes(original_self_check)
         manifest_path.write_bytes(original_manifest)
@@ -466,6 +475,7 @@ def mark_self_checked(submission_dir: Path, report: dict[str, Any]) -> tuple[boo
 
 
 def main() -> int:
+    force_utf8_output()
     parser = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter,

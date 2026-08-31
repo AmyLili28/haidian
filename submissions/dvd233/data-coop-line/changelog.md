@@ -1,5 +1,160 @@
 # 方案迭代记录
 
+## v2.7 - 2026-08-28
+
+Implementation-readiness handoff register / 实施准备度交接台账
+
+- Feasibility refinement / 可实施性深化：新增 `visual/assets/implementation-readiness-register.json`（`IMPLEMENTATION-READINESS-01`）与只读审计 `visual/assets/implementation-readiness-audit.js`。台账统一列出 4 道实施门、9 个更新项目、6 个待确认角色和 6 个证据簇；逐项给出概念试点引用、输入/输出、已有指标或设计目标、退出材料、停止条件及 E2→E3/E4 晋级条件。
+- Evidence boundary / 证据边界：所有角色实体继续为 `null / unknown`，签署继续 `not_signed`，现场授权继续 `unknown`，总体状态继续 `not_ready_for_field_operation`；该台账只补充可审计的交接结构，不构成 E3 现场、E4 主体/专业确认、审批、资金或实施承诺。
+- Verification / 验证：`implementation-readiness-audit.js --json` 与 `--self-test --json` 均通过；self-test 在内存中注入角色确认后 fail-closed，源文件不被修改。同步更新中英 proposal 与离线报告，随后刷新 manifest 并重跑四门 self-check。
+
+## v2.6 - 2026-08-24
+
+P3-02 review response: fonts, regional synergy, operations chain / 评审响应：字体、区域协同、运营链
+
+- Review trigger / 评审触发：公开评审对 exact head `35b74be418` 给出 82.0/100 与 request-changes（表达完整度 3/5、可实施性 3/5，其余 5/5），P0 阻断为两个中文 HTML 在缺 CJK 字体环境的大面积方框字；同时列出区域协同、agent.6 运营链、中英实质等价、E2→E3→E4 交接、空间剖面与 Logo 规范六项后续。本轮逐项响应，不改变空间图层、指标数值、来源等级或许可边界。
+- P0 font fix / 字体修复：SIL OFL 1.1 授权的 Noto Sans SC（Regular/Bold）按包内实际用字（约 1185 字符）子集化为 woff2 各约 230–240 KB，经共享本地样式表 `visual/assets/fonts-noto-subset.css`（base64 data-URI）内嵌，四个 HTML 载体 `<link>` 引入（投稿校验不允许字体文件扩展名，故不用独立字体文件）；`local()` 优先，缺失环境回退内嵌子集；报告页体文字体栈补入 "Noto Sans SC"。在移除 `local()` 的模拟缺字副本上整页渲染复核：无方框、无裁切、无横向溢出；真实页面在本机复核一致。PDF 早已内嵌各自字体子集，不受影响。
+- P1 regional synergy / 区域协同：新增非承诺型协同矩阵——海淀北部（北纬社区方向）、未来科学城、怀柔科学城、北京经开区、京津冀；每行写明潜在互补、本包可复用模板产物与明确不声称（未接触、无意向、无资金或政府安排；本包 COMMUNITY-DISPLAY-ONLY，跨区域复用需另行授权）。
+- P1 operations chain / 长期运营链：agent.6 拆成可核验五环（议题桌与开发者社区、场景开放窗、国际传播、线索转化、品牌维护），每环写明角色、频次、证据产物、退出/停止条件与公共回报验收；运营主体保持未指定。
+- P1 bilingual equivalence / 中英等价核对：维护 Agent 对 P3-01/P3-02 新增内容逐项核对数值、证据等级、限制语与图位；确定性双语门禁保持通过；该核对不是独立人工复核，歧义时以限制性较强含义为准。
+- P2 handoff + section / 交接表与剖面：新增 E2→E3→E4 交接表（六个证据簇各写当前状态、升级条件与禁止推断，均未取得）；新增原创双语 `station-section` 图（前区公共界面—中区共同工作—后区受控计算剖面，两条正线同一入口），E1 概念表达、无测绘或工程结论。
+- Logo spec / 标识规范：评审 P2 第 7 项（中英锁定稿与黑白、高对比、小尺寸、触觉规范）已由 P3-01 `BRAND-IDENTITY-01` 交付，本轮只把 typography 规则补充嵌入式无障碍回退的说明并同步重签（register SHA-256 更新为 `a0fca2c46bc82092aa89017ce973d49e8e9488e78ceb89ca6aa185a10516ef10`；双语品牌图与四份 PDF 的品牌页令牌/栅格已同步替换，像素内容不变）。
+- Evidence boundary / 证据边界：全部为 E1/E2；无 E3 现场、E4 主体/专业确认或 E5 实施；`SCN-06-E3E4` 继续 `DEFERRED / DO_NOT_CONTACT / DO_NOT_REASK`。
+- Verification / 验证：报告渲染 + H1 去重 + 字体注入后，manifest refresh、完整 self-check、六项专项审计与负向自测、evidence-consistency、strict manifest、participant preflight 与 diff --check 的最终状态以本轮最终机器输出为准。
+
+
+## v2.5 - 2026-08-24
+
+P3-01 brand identity and visual system / 品牌识别与视觉系统（BRAND-IDENTITY-01）
+
+- Baseline & lane / 基线与通道：从投稿 PR #3821 的 exact head `35b74be4182f3ff72aabe4fcf4266597e5f9dcaa` 建立干净分支 `codex/data-coop-line-brand-identity-20260824`（#3821 在 review/queued 队列中等待外部评审，本分支不创建第二个投稿 PR，仅作本地准备；发布时以届时 upstream/main 复核基线）。上轮触发 PLATEAU_RESET：最近八个投稿 PR 公开总分均为 86，本轮选择能整体提升表达完整性与品牌识别维度的主题，不再做相邻微调。
+- Gap & users / 缺口与使用者：任务书 agent.1 要求 Logo/视觉识别方向、agent.5 要求导视标识系统、agent.6 要求活动品牌与传播视觉系统，补充评审维度含 brand_identity 与 international_communication；此前方案只用一句话描述标识构想，没有可核验的系统本体。新增证据服务于评审者、运营交接团队与两条正线上的普通使用者。
+- Canonical register / 单一事实源：新增 `visual/assets/brand-identity-system.json`（BRAND-IDENTITY-01 v1.0.0）——64 网格标识几何（实线=数据参与、虚线=无数据等价、七孔回执撕线、永不闭合）、八色板、15 组声明色对、三种双语联排、四态 token、七个应用锚点、六条禁用规则与替换触发器；观察用户 0、未做商标清权检索、不代表官方标识或实施。
+- Recomputable gates / 可复算门禁：零依赖 `brand-identity-audit.js` 按 sRGB 公式独立复算 WCAG 2.1 对比度（文字 ≥4.5、图形 ≥3.0，15/15 通过），锁定 no-color-only（6/6 token）、联排双语覆盖（3/3）、应用锚点解析（7/7，全部 template_only）；`--self-test` 对六个内存变异（抬高门槛、删英文标签、去虚线、注入远程引用、指错锚点、删单色版）6/6 fail-closed。八项新指标进入 metrics.json，全部 E2、synthetic_contract_test、低置信度。
+- Original assets / 原创资产：五个手写 SVG（标识、单色版、中英与双语联排）+ 双语 2400×1500 识别图（Pillow 从 register 派生，内嵌 register SHA-256 与 package base 元数据）；仅使用操作系统字体栈渲染，不分发字体文件，不含第三方商标、官方徽标或图片。
+- Carriers / 载体：中英 proposal 新增 P3-01 章节并更新蓝绿风貌段落的标识描述；双语离线 visual 新增「品牌识别」区段（含 data-metric 指标卡口）；A3 中英各增 A3-13 页、A0 中英各增 A0-05 板，既有页面只更新页码分母与规划台账哈希令牌；evidence-consistency 的 PDF 栅格审计扩展为每份 PDF 同时钉死 metrics 与 brand 两张当前图。
+- Derived-chain recertification / 派生链重认证：新增八项非空间 E2 指标使 planning-alignment 对完整 metrics.json 的固定输入哈希按预期 fail-closed；未缩窄校验，而是把 register 升级为第二次重认证（prior `d94a8b7b…` → current `159e1643f…`），登记 14 项新增指标并重核九个 geometry 哈希与证据签名不变；规划 register 新 SHA-256 为 `b8dba99bfecd8642170fc15ab7c086bc803abc37b25a9bf21675077b5b496bd1`，全部文本/二进制载体同步更新该令牌，双语规划对齐 PNG 仅更新文本元数据且像素哈希不变。
+- Evidence boundary / 证据边界：本轮只把品牌识别从 E0 文字构想提升为 E2 可复算规格；品牌认知度、可用性、国际传播效果、商标可用性与专业品牌评审均未验证，`SCN-06-E3E4` 继续 `DEFERRED / DO_NOT_CONTACT / DO_NOT_REASK`。
+- Verification / 验证：brand audit 14/14 与 6/6 负向自测、planning alignment 131/131、evidence-consistency 全链路通过；双语图件与四个 PDF 新页全分辨率视觉检查；ready-package 的 manifest refresh、完整 self-check、专项审计、strict validation、participant preflight 与 push dry-run 的最终状态以本轮最终机器输出为准。
+
+
+## v2.4 - 2026-08-23
+
+Synthetic-capacity decision diagram in A3/A0 / 合成容量准入决策图进入 A3/A0
+
+- Baseline & lane / 基线与通道：从 `upstream/main` `0c8234e4cc6a60ff31d809f43a9d5decded86f52` 建立干净分支 `codex/data-coop-line-capacity-visual-20260823`。启动时唯一自有开放 PR #3819 属于 public-good 通道、required CI 已通过且无参与者可操作失败；proposal 通道空闲。主工作树两份报告 HTML 的既有改动继续隔离，未覆盖、暂存或提交。
+- Gap & users / 缺口与使用者：v2.3 已把 C-01/C-02/C-04 容量约束提升为可复算 E2 包络，但明确未把它放入 A3/A0；评审者和运营交接人员需跨正文与离线页自行拼接“准入、拒绝、无数据专用容量和停机恢复预留”。本轮原位升级既有 `metrics-evidence` 双语图，不新增近似载体，也不改变方案方向。
+- One-source diagram / 单一事实源图：构建步骤只读取既有 `metrics.json` 与 `EXPIRING-DATA-TICKET-01 / SCN06-C010204-SYNTHETIC-CAPACITY-01`，先校验 60 分钟、12 请求、四个资源模型及计算字段，再生成 2400×1500 双语决策图。图上并列显示六项 EPSG:4548 空间指标、C-01 容量 16/需求 12/余量 4、C-02 两条不可互借正线各容量 10/需求 6/余量 4、C-04 四个声明单元中保护一个恢复预留后容量 9/需求 6/余量 3。
+- Admission & rejection / 准入与拒绝：同一首屏明确区分 `4 / 4` 资源闸门与 `3 / 3` 项目闸门的 `pass_for_E2_rehearsal_only`、五类负向变体的 `5 / 5 fail-closed`，以及 `not_ready_for_field_operation` 现场阻断；无数据/数据专用容量比 1.0、最小合成余量 3 与 E3/E4 替换触发条件均可直接读取。
+- Bilingual carriers / 双语载体：同步中英 Markdown 图注、脚本派生报告图注、离线 visual 的说明与替代文本；不改 canonical JSON、GeoJSON、metrics、assumptions、来源、许可语义或证据签名。图件写入空间基线、容量包络、E2 级别、现场决定与当前 package base 元数据，同时保留审计要求的空间基线 `c55ef181c…`。
+- PDF integration / PDF 集成：以 PyMuPDF 只替换四份既有 PDF 中唯一的 2400×1500 metrics raster，并添加可检索的容量 ID、E2 与现场阻断元数据；A3 第 7 页与 A0 第 3 板中英共四个目标页按预期改变，其他 28 页低分辨率渲染逐页一致。每份 PDF 仍恰好嵌入一张与当前双语 PNG 像素哈希一致的 metrics raster，页数保持 A3 各 12 页、A0 各 4 板。
+- Evidence boundary / 证据边界：所有单元仍是投稿自有合成夹具中的抽象服务单元，不是人员、硬件、供配电、散热、网络、场地、消防、成本、采购、许可或审批数量；观察参与者为 0，真实运营主体与专业确认仍为 `null / unknown`。证据等级保持 E2，不升级为 E3、E4、E5、工程能力或实施承诺；`SCN-06-E3E4` 继续 `DEFERRED / DO_NOT_CONTACT / DO_NOT_REASK`。
+- Verification / 验证：双语 PNG 全分辨率与四个 PDF 目标页逐页视觉检查无裁切、重叠或乱码；evidence-consistency 已复算空间指标、容量包络和 PDF raster 并通过。ready-package 的 manifest refresh、完整 self-check、专项审计、strict validation、participant preflight 与 push dry-run 的最终状态只以本轮最终机器输出为准。
+
+## v2.3 - 2026-08-23
+
+C-01/C-02/C-04 synthetic capacity admission envelope / 合成容量准入包络
+
+- Baseline / 基线：从 `upstream/main` `d2fd993aff6f1afc1e21496581ae2de85779532a` 建立干净分支 `codex/data-coop-line-capacity-envelope-20260823`；启动时自己的旗舰与公共贡献开放 PR 均为 0。原工作树已有两份报告 HTML 改动，未读取为本轮成果、未覆盖、未暂存，本轮始终在隔离 worktree 内实施。
+- Gap & users / 缺口与使用者：既有 C-01 用途票、C-02 无数据等价服务与 C-04 受控计算站写清了原则和停机边界，但真实容量正确保持 `null / unknown` 时，运营交接与规划评审仍缺少可独立复算的需求—服务单元—无数据预留—停止预留准入模型。新增证据服务于运营团队、规划评审者及选择无数据正线的人，不把合成数字冒充工程量。
+- Canonical envelope / 单一事实源：在既有 `EXPIRING-DATA-TICKET-01` 内原位升级至 v1.1.0，并新增 `SCN06-C010204-SYNTHETIC-CAPACITY-01`；不新增近似载体。唯一 60 分钟投稿自有夹具含 12 个合成请求，全部资源使用“抽象并行服务单元”，明确排除实名或实数人员、硬件、供配电、散热、网络、场地、消防、成本、采购与审批推断。
+- Recalculation / 复算：C-01 以 4 单元、15 分钟/请求复算容量 16、需求 12、余量 4；C-02 数据线与无数据线各保留不可互借的 2 单元，分别容量 10、需求 6、余量 4，无数据/数据容量比 1.0；C-04 在 4 单元中保护 1 单元只用于拆卸与恢复，以 3 单元复算容量 9、需求 6、余量 3。审计从服务时长、可用单元与需求重算 available、capacity、headroom 与 utilization，不信任手填合计。
+- Fail-closed / 失败即停：4/4 资源闸门与 3/3 项目闸门通过；五个在内存执行的变体分别篡改计算、让需求超过 C-01、借走无数据单元、移除 C-04 停止预留及伪造现场确认，5/5 必须命中各自断言并失败。容量负例与既有 10 个数据票负例共同由同一只读运行器执行，不通过删减或跳过检查制造通过。
+- Traceability & carriers / 追踪与载体：新增六项 `synthetic_contract_test`、低置信度指标和假设 `A-SYNTHETIC-CAPACITY-001`，同步 compliance、design-depth、standard matrix、中英正文、脚本派生报告与离线 visual；GeoJSON、来源、许可、证据快照、核心方向和现场包不变。视觉只复用既有组件，不新增图件；A3/A0 页面内容不重排。报告经当前 renderer 更新后继续执行既有派生修复：保留单一 `<h1>` 并恢复长代码令牌断行；中英 390 px 与 1440 px 视口均无页面横向溢出。
+- Derived-chain recertification / 派生链重认证：完整 `metrics.json` 哈希变化使 planning-alignment 审计按预期 fail-closed；未缩窄校验，而是把 prior `9c27a7ff…` 更新为 current `d94a8b7b…`，登记六项非空间 E2 容量指标并重核九个 geometry 哈希与证据签名不变。规划 register 新 SHA-256 为 `daea14242a25926bebbe781d948571117e71c418304dc7a7c7951e49b37e2f7d`；双语 planning-alignment PNG 仅更新文本元数据且像素哈希不变，四份 PDF 仅等长替换证明令牌且 32 页低分辨率渲染哈希逐页不变。
+- Evidence boundary / 证据边界：合成包络把容量主张从 E0 叙述提升为可复算 E2 准入证据；真实运营主体、人员、设备、工程、场地、成本、许可、采购、审批、专业确认和实际需求仍为 `null / unknown / not_observed`，现场状态固定为 `not_ready_for_field_operation`。它不构成 E3 现场、E4 主体/专业确认、E5 采用或实施承诺；`SCN-06-E3E4` 继续 `DEFERRED / DO_NOT_CONTACT / DO_NOT_REASK`。
+- Verification / 验证：专项复核已取得 site evidence 18/18、field validation 215/215、drill 21/21 与 8/8 负向、review spine 94/94 与负向自测、planning alignment 131/131 与负向自测；ready-package 的 manifest refresh、完整 self-check、strict manifest、participant preflight 与 push dry-run 的最终状态只以本轮最终机器输出为准。
+
+## v2.2 - 2026-08-22
+
+P1-07 expiring data-ticket contract / 会到期、会撤回、会披露残余并回报公共价值的数据票
+
+- Baseline / 基线：从 `upstream/main` `a8f150d86480f8efc0716069ece406edf013502b` 建立干净分支 `codex/data-coop-line-expiring-ticket-20260822`。发布前最后观察官方 main 为 `34dbff3f8b074cf333fc0539daadf952987cc795`（`2026-08-22T19:19:22.893+08:00`）；冻结点后的 33 个提交、164 个唯一文件只修改 7 个其他投稿，未触及本投稿、Skill、brief、schema、validator、helper、source registry、Gallery、公开页面或 required check，故保留冻结基线并避免无关派生物 churn。
+- Gap & reason / 缺口与原因：既有方案阐明用途票、受控计算、撤回回执与无数据正线，却没有一份同时约束票生命周期、执行状态、唯一问责、到期/撤回 SLA、无数据等价容差、残余影响和公共回报的 canonical 契约；正文还把方案自拟“三定位/五功能”写成了任务书原项。该缺口直接影响 AI 规划创新、实施交接、公共利益与正式任务书对齐。
+- Canonical contract / 单一事实源：新增唯一载体 `visual/assets/expiring-data-ticket-protocol.json`（`EXPIRING-DATA-TICKET-01`，`SCN-06 / PROV-KEY-001`）。治理状态为 `draft → co_decided → active → expired|withdrawn → residual_disclosed → return_accepted → closed`；执行状态新增 `stopping`，到期或撤回同刻禁新 query/output、仅允许 teardown，并在 60 秒内进入 `stopped`。9 类未分配角色组成 8 项 RACI、每项恰好一个 A，4 类角色保留单方停机权；12 类条件审计产物、10 项停止触发器与 8 项 Gate 2 阻断条件全部机器可读。
+- Synthetic evidence / 合成证据：`CASE-NORMAL-EXPIRY-01` 与 `CASE-MIDSTREAM-WITHDRAWAL-01` 分别覆盖正常到期和存在不可彻底回滚残余的中途撤回。每线至少 30 次、时间差与比值双阈值、零价格溢价、失败率差、核心输出/安全、人工接管和 6 类任务 × 2 路线无障碍合成夹具均 fail-closed；观察用户数固定为 0，覆盖不等于可用性绩效。公共回报验收新增双语公共审计卡、独立复算价值、证据指针、验收范围和 `not_observed` 影响边界。`evidence-consistency.js` 实际复演票—执行耦合、单节点范围、两线任务、公共回报与条件证据。2/2 合成案例通过，10/10 独立负向变异被拒绝，证据等级严格保持 E2。
+- Spatial & official crosswalk / 空间与任务书对齐：机器核对 `SCN-06` 位于临时 `PROV-KEY-001`，但不在 `BLDG-002` polygon 内，后者只写作 `conceptual_host_candidate`。协议明确为单节点 E2：不向 AI 原点或独立的大钟寺包传票、传数、移交角色或停机权；未来扩围必须另建版本化 handoff 并补 E3/E4。中英正文与视觉逐项恢复正式三定位（百年京张文化带、都市AI生活体验带、AI融合创新带）和正式五功能（AI全栈自主创新体系、世界级AI创新生态、AI+场景赋能新范式、智能化AI活力城市、AI治理全球话语权）；方案自拟表达明确降为设计响应。
+- Carriers & scope / 载体与范围：唯一新增一个 canonical JSON；扩展既有审计脚本、metrics、assumptions、compliance matrix、双语正文与离线视觉；原位替换 `key-areas` 双语 2400×1500 技术图并由既有 A3/A0 版式复用，不新增近似图件。GeoJSON、来源、许可、媒体与既有证据签名不变；全部修改限于本投稿目录。
+- Derived-chain recertification / 派生链重认证：新增五项非空间 E2 治理指标使 planning-alignment 对完整 `metrics.json` 的固定输入哈希按预期 fail-closed；未缩窄或绕过检查，而是把 `DATA-COOP-PLAN-ALIGNMENT-01` 升级为 schema 1.2.0，记录旧/新完整哈希与五项新增指标，并重新核验九个 GeoJSON 哈希和既有证据签名不变。新 register SHA-256 为 `59d5a1bf4ab30e5b3fc7216d2191e378881ec4af80ee0e902af8da64fa3657c9`。
+- Offline accessibility repair / 离线无障碍修复：最终 Chromium `file://` 复核发现五项可复现缺口并原位修复：中英报告的长 SHA-256 可在 400 px 视口断行；双语 visual 增加 skip link、main 焦点目标、导航可访问名称和键盘焦点自动居中；`prefers-reduced-motion` 覆盖全页平滑滚动；canonical `experience.vtt` 的原始字节以 `data:text/vtt;base64` 精确内嵌到两份 visual，避免本地文件唯一源策略令 `<track>` 进入 error，同时继续保留独立 VTT 与文字稿供审计和下载；中英报告删除 renderer hero 后的同文重复 `<h1>`，恢复每页唯一一级标题。修复不改视频、字幕文本、核心协议、GeoJSON、metrics 或 PDF。
+- Evidence boundary / 证据边界：所有阈值都是待 E3 授权现场测试与 E4 专业/运营主体确认的 E2 合成准入线，不是实测 SLA。没有采集现场、用户或利益相关方证据，没有确认主体、法律角色、场地、容量、许可、资金、无障碍绩效、公共影响或实施；停止不等于彻底抹除，合成交付一致性不等于公共影响，公共回报不购买同意，GitHub 合并也不等于实施。
+
+## v2.1 - 2026-08-22
+
+P2-04 offline experience and media / 离线体验与媒体：服务旅程短片、可键盘交互旅程与原创封面
+
+- Baseline / 基线：从最新 `upstream/main` `58b8dd439e6ad519dc9b8ce70c04b6256232eca0`（最后观察 `2026-08-22T10:24:00+08:00`）建立干净分支 `codex/data-coop-line-p2-04-media-journey-20260822`。前次观察 2518132221（P2-06 合并点）至冻结点仅含 Anshengdesign/aplaybox 投稿变更，未触及本投稿、投稿 Skill、brief、schema、validator、helper 或门禁，判定无关。
+- Reason / 原因：投稿 Skill 明确鼓励多模态表达；本包此前零媒体、零交互，是公开详情页与 Gallery 的最大表达缺口。仓库 proposal-view 原生支持 manifest 媒体条目（video/poster/caption/transcript 角色）与 `visual/index.html` 交互入口，闭环路径现成。
+- Before → After / 修正前后：修订前 Gallery 卡片使用仓库生成的默认封面，公开页无视频、无交互；修订后新增 `assets/media/experience.mp4`（44 秒无声概念短片：正线生长 → 三站 → 六闸门 → 12+3 场景矩阵 → 证据封底，中英双语 VTT 字幕、文字稿与权利说明、海报帧齐全）、双语「服务旅程」交互区段（ARIA tablist、键盘 ←/→、reduced-motion 降级、无 JS 静态可读）与原创 `cover.webp`（经 `manifest.cover_image` 登记）。
+- Rights & scope / 权利与范围：视频、海报与封面全部由包内设计语言逐帧原创绘制（Pillow + 本地 ffmpeg 编码），不含外部图片、音频、地图或人物素材；geometry、metrics、证据签名、许可与核心价值主张不变。
+- Verification / 验证：视频逐场景抽帧 QA；交互区段桌面与移动视口、键盘操作与无 JS 回退检查；四门 self-check、六项专项审计与 preflight 全 PASS；manifest 五个新媒体条目角色与 sha256 齐全。
+
+## v2.0 - 2026-08-22
+
+
+P2-06 A3/A0 narrative rebuild / A3 与 A0 图纸叙事重构（兑现台账 P2-03「A3/A0 重构」待办项；该编号曾被评审脊柱轮占用，本轮以 P2-06 执行并消解）
+
+- Baseline / 基线：从最新 `upstream/main` `704cdf5ed33b31ab4fcd115f20f715224e7fdbf5`（最后观察 `2026-08-22T08:39:00+08:00`，即 P1-06 合并点，零移动）建立干净分支 `codex/data-coop-line-p2-06-a3a0-narrative-20260822`。
+- Reason / 原因：旧 A3（11 页）/A0（9 页）为逐轮追加的薄页，页面日期混乱（08-15/08-20 并存）、多数页无图件锚点、叙事不连贯，是评审体验最弱载体；台账 P2-03 要求详图、剖面、实施、复算关系与服务旅程形成连贯叙事且中英等价。
+- Before → After / 修正前后：修订前为「脊柱图单页 + 7 张旧页 + 3 张追加页」的拼贴；修订后 A3 中英各 12 页（封面 KPI 与证据链 → 五分钟评审入口 → 场地范围 → 用地结构 → 三区两翼 → 慢行蓝绿 → 指标复算 → 大钟寺现场 → 演练失败测试 → 控规对齐 → 12+3 场景矩阵 → 实施与审计令牌封底），A0 中英各 4 板（总览 / 空间系统 / 证据运营 / 对齐治理）；每页统一页眉页码、冻结标识与临时边界声明，全部锚定包内既有图件与 metrics，中英逐页等价。
+- Evidence integrity / 证据完整性：geometry、metrics、来源、许可、证据签名 `c880c438…`、核心价值主张与方案方向均不变；四份 PDF 的 Info 元数据与封底令牌页继续携带 SPINE/FIELD/DRILL/PLAN 全 ID 与哈希、证据签名、基线与冻结 SHA；`metrics-evidence` 图件在每份 PDF 中仍恰好嵌入一张当前 raster（evidence-consistency 的 PDF 像素审计硬约束，已逐份验证 count=1）。
+- Verification / 验证：四份 PDF 共 32 页全部渲染逐页检查（封面 KPI、面板正文、场景矩阵、令牌页无丢字）；`refresh_submission_manifest.py` → 完整 self-check → 六项专项审计 → preflight 的完整门禁链复跑，结果以 `manifest.json` 与 `self_check.json` 为准。
+- Scope & boundary / 范围与边界：仅修改 `submissions/dvd233/data-coop-line/` 下四份 drawings PDF 与本 changelog；不重渲染既有图件，不改任何 JSON/GeoJSON/HTML；已合并 PR 全部只读。
+
+## v1.9 - 2026-08-22
+
+
+P1-06 official-publication upgrade of plan alignment evidence / 控规官方公开版页面的证据层级升级
+
+- Baseline / 基线：从最新 `upstream/main` `c79854e90b2e9a641d367c9e91f3f3031e20c127`（最后观察 `2026-08-22T06:44:00+08:00`）建立干净分支 `codex/data-coop-line-p1-06-official-plan-20260822`。前次观察 `5287a6299d77c7298bd56853097add81401bf0c6` 至冻结点仅含其他投稿合并，未触及本投稿、投稿 Skill、brief、schema、validator、helper 或门禁，判定与本轮无关，不重建基线。
+- Reason / 原因：海淀区人民政府门户网站于 2026-08-17 发布《HD00—1601 等街区控制性详细规划（街区层面）（2024—2035 年）（公开版）》文本页，P1-05 中仅由媒体报道承载的范围、街区、面积与版本标签事实由此获得官方公开层级的可核验出处；这是主控预设的下一任务方向，不改变方案方向、许可或空间量即可单轮闭环。
+- New evidence / 新证据：`JINGZHANG-PLAN-OFFICIAL-PUBLICATION-20260817`（`zyk.bjhd.gov.cn` 公开页，发布 2026-08-17，检索 2026-08-22，响应字节 SHA-256 `e669105c1f94081213740a44a899b2823aff9622e8b3f89a48fac7fce8073b86`，两次取回一致）。官方总则可逐字核验：2024—2035 版本标签、四至、HD00—1601 等九个街区编码、规划总面积 16.7 平方公里、75 个主导功能分区、规划成果均为法定审批文件。
+- Before → After / 修正前后：修订前，四至、街区数、面积与版本标签仅停留在媒体报道层级，2022—2035 与 2024—2035 标签维持「未调和」；修订后，上述范围事实升级为官方公开层级，2024—2035 获批版本标签获官方文本确认（2022—2035 仍归属 2025 草案通告，不推断修编链）；唯一事实源 `visual/assets/planning-alignment-register.json`（Register ID `DATA-COOP-PLAN-ALIGNMENT-01`，SHA-256 `fa284ec31ae8fc68a88a3b73ef9b3eb2cf9278f597b9df55ae3f0d391d45adda`）升级为三层证据、7 条文本事实与新的版本差异状态。
+- Remaining gaps / 仍未取得：官方批复文号与确切批复日期（公开页未载，不推断）；完整控规文本（全文 PDF 附件于 2026-08-22 检索返回 HTTP 404）；法定图纸/图则；清权 vector。报道面积口径（约 1668.2 公顷）与官方口径（16.7 平方公里）分别归因，均不进入 `metrics.json`；文字四至不绘制 polygon；`constraints.geojson` 保持 0 feature。
+- Carriers & rights / 载体与权利：同步中英 proposal、脚本派生报告 HTML、双语离线 visual、来源/假设/版权说明、来源备注、changelog，重新生成 2400×1500 双语原创技术图（PNG tEXt 写入 Register ID、新哈希、冻结 SHA 与三条来源 ID），四份 PDF 的 P1-05 页原位替换为 P1-06 页并刷新 Info 元数据令牌。外部网页仅作最小事实引用与署名，不复制全文、附件、图纸、页面图片或长段原文。
+- Verification / 验证：证据一致性复算 PASS，EPSG:4548 既有指标与证据签名 `c880c438924399d40267391551669d937dcfc5e144850eb511a45bbf024c4a52` 不变；planning alignment 审计（更新不变量后）与伪造“已取得官方批复文件”的负向自测 fail-closed 通过；site evidence、field operations、drill 与 reviewer spine 审计同步复跑；四份 HTML 与四份 PDF 逐页视觉 QA。
+- Gate discipline / 门禁纪律：所有受影响载体完成后才执行 ready-package manifest refresh；refresh 清空 `self_checked` 后立即用冻结 main 的完整 self-check 重新取得状态，再运行 strict-manifest、普通 preflight 与 `--check-push`。不运行 finalize，不删除、跳过或弱化检查，最终状态以 `manifest.json` 与 `self_check.json` 为准。
+- Scope & boundary / 范围与边界：只修改 `submissions/dvd233/data-coop-line/`；GeoJSON、metrics、证据签名、投稿许可、核心价值主张和方案方向不变。官方批复文件、完整控规文本、法定图则、规划 polygon 和真实实施条件仍是明确缺口；PR #2540、#2746 及其他已合并 PR 保持只读，不修改共享协议、工具、数据、仓库文档或 Gallery 生成物。
+
+## v1.8 - 2026-08-22
+
+
+P1-05 text-level alignment with the reported approved regulatory plan / 已获批街区控规的文本级对齐与证据边界
+
+- Baseline / 基线：从最新 `upstream/main` `114f06a1d59b94aece4807747ac00e3d6a396d40`（最后观察 `2026-08-22T00:30:22+08:00`）建立干净分支 `codex/data-coop-line-p1-05-plan-alignment-20260822`。前次观察 `bfd1cff1d6db793f8dc52321b406e23ea830b6fd` 至冻结点只含 PR #3693 的另一投稿更新，未触及本投稿、投稿 Skill、brief、schema、validator、helper 或门禁，判定与本轮无关。
+- Reason / 原因：既有包已闭合空间复算、场地证据、可演练 MVP、现场模板、失败测试和五分钟评审脊柱，但尚未把最新规划文本事实纳入设计依据。同行方案正强化规划对齐和实施证据；本轮选择不改变方向、许可或空间量即可单轮闭环的文本级校准，避免在缺少官方批复文件和清权 geometry 时制造伪法定图层。
+- Evidence tiers / 证据分层：官方海淀分局 2025-02-08 公开参与采信通告仅证明 2022—2035 标签草案于 2024-12-19 至 2025-01-19 公示并记录意见研究与采纳；北京日报经人民网转载的 2026-08-12 报道称 2024—2035 版本获批，并报道文字四至、9 个街区、约 1668.2 公顷与“一带一轴、两心多点”。未取得官方批复文号、确切批复日期、完整控规文本、法定图则或清权 vector，两个年限标签分别归因，不静默合并；报道数字不进入 `metrics.json`，文字四至不绘制 polygon。
+- Before → After / 修正前后：修订前，评审者无法在本包内区分“官方公开参与过程”与“媒体获批报道”，也无法核对这些信号是否漂移既有空间证据；修订后新增唯一事实源 `visual/assets/planning-alignment-register.json`（Register ID `DATA-COOP-PLAN-ALIGNMENT-01`，SHA-256 `a3d01d5cd3745ae753865ac076c363b585403bf61688b60fb23aae75e0262650`），固定 4 项文本事实、4 项方向不变的设计响应、来源用途边界，以及本轮开始时 `metrics.json` 和九个 GeoJSON 的哈希。
+- Design calibration / 设计校准：规划报道只强化四个既有优先级——遗址公园线作为公共利益服务层、大钟寺作为单一演练焦点、南北/东西慢行与无数据正线优先、存量建筑先调查后适应性再利用并保持 test-fit 可逆；不把本方案结构说成官方采用，不确认站口、路权、真实建筑、产权、容量、无障碍绩效、实施时序、政府背书或合作承诺。
+- Carriers & rights / 载体与权利：同步中英 proposal、脚本派生报告 HTML、双语离线 visual、来源/假设/合规/版权说明、2400×1500 双语原创技术图与四份 PDF。A0 中英各由 8→9 页、A3 中英各由 10→11 页；冻结版全部 36 个既有页面逐像素一致，只追加 P1-05 页。外部网页仅作最小事实转述和链接引用，不复制图片、页面视觉、附件、地图、vector 或长段原文。
+- Verification / 验证：证据一致性复算 PASS，EPSG:4548 既有指标与证据签名 `c880c438924399d40267391551669d937dcfc5e144850eb511a45bbf024c4a52` 不变；site evidence 17/17、field operations 215/215、drill 21/21 与 8/8 负向夹具、reviewer spine 94/94 与负向自测、planning alignment 113/113 与伪造“已取得官方批复文件”的负向自测均通过。四份 HTML 在 1440×900 与 390×844 下均无坏图、远程资源、控制台错误或横向页面溢出；四份 PDF 共 40 页完成 contact-sheet 检查，新页全分辨率复核无裁切、重叠或乱码。
+- Gate discipline / 门禁纪律：所有受影响载体完成后才执行 ready-package manifest refresh；refresh 清空 `self_checked` 后必须立即用冻结 main 的完整 self-check 重新取得状态，再运行 strict-manifest、普通 preflight、`--check-push` 与专项审计。不运行 finalize，不删除、跳过或弱化检查，最终状态以 `manifest.json` 与 `self_check.json` 为准。
+- Scope & boundary / 范围与边界：只修改 `submissions/dvd233/data-coop-line/`；GeoJSON、metrics、证据签名、投稿许可、核心价值主张和方案方向不变。官方批复文件、完整控规、法定图则、规划 polygon 和真实实施条件仍是明确缺口；PR #2540、#2746 及其他已合并 PR 保持只读，不修改共享协议、工具、数据、仓库文档或 Gallery 生成物。
+
+## v1.7 - 2026-08-21
+
+P2-03 five-minute reviewer evidence spine / 五分钟评审证据脊柱
+
+- Baseline / 基线：从最新 `upstream/main` `9782df83a8f2a58ebe79823fe8001f18d129b975`（最后观察 `2026-08-21T21:14:57+08:00`）建立干净投稿分支 `codex/data-coop-line-p2-03-evidence-spine-20260821`。前次主控观察点 `b52bb75d8a0caba420454633a6c975ca06d58e4e` 至冻结点的 12 个提交、121 个路径仅涉及其他投稿，未触及本投稿、投稿 Skill、brief、schema、validator、helper 或门禁，因此判定与本轮无关，不为其制造图件、PDF 或 manifest churn。
+- Reason / 原因：PR #3676 已合并且 intake-only 评审为 86/100；P0 与 P1-01—P1-04 已闭环，但正文、结构化证据、离线 visual 和 PDF 的评审入口分散，主控 P2-03/G4 仍待完成。同行近期方案强化实施交接、角色和可审计证据，故本轮不改变方案方向，而把既有证据压缩为一条可在 300 秒内完成的可复核路径。
+- Before → After / 修正前后：评审者原需自行跨正文、台账、审计脚本、图件与 PDF 拼接权威边界、空间复算、MVP、现场控制和 fail-closed 演练；现新增唯一事实源 `visual/assets/reviewer-evidence-spine.json`（Spine ID `DATA-COOP-REVIEW-SPINE-01`，SHA-256 `966cd7eed4227078342f4bcd5aacf039438f7720a1049fcebe9a67413411e7ee`），固定 R1—R5 五步、总计 300 秒、12 个载体引用与每步“已验证 / 未证明”边界。
+- Verification spine / 评审脊柱：Node built-ins-only 只读审计 `visual/assets/reviewer-evidence-spine-audit.js` 同时核对五步时长、冻结 SHA、证据签名、空间指标、MVP 指标、现场包与演练台账哈希、manifest 登记、持久化自检状态及双语图尺寸；`--self-test` 删除末步后必须 fail-closed。脊柱审计与负向自测通过，证据一致性通过，site evidence 18/18、field operations 215/215、drill 21/21 及 8/8 负向夹具通过。
+- Carriers / 载体：中英 proposal 各新增首屏评审入口，派生报告 HTML 用冻结基线的最新 renderer 重新生成；双语离线 visual 新增脊柱区段；新增 2400×1500 双语信息图，PNG tEXt 写入 Spine ID、完整 hash、冻结 SHA 与 300 秒契约。四份 PDF 仅在首页前置对应脊柱页并写入同一组 Info 元数据；A0 中英既有页各 7/7、A3 中英既有页各 9/9 与冻结版本逐像素一致，全部 36 个当前页面已渲染检查，无裁切、重叠或乱码。
+- Gate discipline / 门禁纪律：所有载体完成后才执行 ready-package manifest refresh；refresh 清空 `self_checked` 后立即用冻结 main 的完整 self-check 重新取得状态，再运行 strict-manifest、preflight 与全部专项审计。最终状态以 `manifest.json` 与 `self_check.json` 为准，不回填旧结果、不运行 finalize。
+- Scope & boundary / 范围与边界：只修改 `submissions/dvd233/data-coop-line/`；GeoJSON、既有 metrics、来源、许可、证据签名、核心价值主张与方案方向均不变。评审脊柱只降低核验摩擦，不把概念指标、未观测现场条件、未分配主体、未签署许可或合成测试提升为实施事实；Issue #3571 的政策判断仍是非硬门禁依赖。
+
+## v1.6 - 2026-08-21
+
+P1-04 Dazhongsi synthetic drill and failure tests / 大钟寺合成演练与失败测试
+
+- Baseline / 基线：从 `upstream/main` `83c87354d35186a56cd3d2816a27da9acf844915`（2026-08-21T08:59:43Z）建立干净 worktree 与分支 `codex/data-coop-line-p1-04-drill-tests-20260821`；发布前再次观察 main 并核对相关路径。自 P1-03 冻结点以来的 main 窗口只含无关投稿与维护者工具；`docs/formal-submission-guide.md` 新增 simulation/评测基线一致性阻断规则（本包无 simulation.json / evaluation-baseline.json，不适用）、`scripts/front_matter.py` 解析修复（低险）与多模态参考图体积说明（本包远低于预算），未触及本投稿、brief、schema 与门禁脚本。
+- Single source / 唯一事实源：新增 `visual/assets/dazhongsi-drill-tests.json`（Suite ID `DAZHONGSI-DRILL-01`，SHA-256 `86ebfa7655e4cc79fb9d155d22cb62c821a131ec5e4882d71153e7dd13bd5507`），锁定对 `DAZHONGSI-FIELD-OPS-01` 模板契约的 21 项合成用例与 8 个负向夹具；运行器 `visual/assets/dazhongsi-drill-test-runner.js` 仅用 Node 内置库、只读，双语载体以套件 ID 与台账哈希锁定一致性。
+- Coverage / 覆盖：正例（三阶段链路、11 份回执、唯一 A）、负例（任一条件未 verified 即拒绝、空值纪律、not_observed ≠ 风险排除）、撤回（各阶段回执槽位 + 停机覆盖 + 回报非购买同意）、服务中断（六项触发器逐项停机并阻断推进）、恢复（四条件 + 三方签署 + 同口径复测）、无障碍任务测试（无数据等价与人工复核 3/3、离线正线与人工接管可定位）。
+- Meta & fail-closed / 元检查与负向自测：用例 ID 全集钉死（含元检查自身），少跑一项即失败；`--self-test` 对 8 个变异夹具逐一证明运行器退出 1（删回执、填观测值、断证据链、重复 ID、删停止条件、加第二问责、删用例 ID、关闭无数据等价）。当前 21/21 通过、8/8 fail-closed。
+- Carriers / 载体：中英 proposal 各增 P1-04 小节并嵌入新图；派生报告 HTML 由当前 main 渲染脚本重新生成；双语离线 visual 新增 drill 区段（4 项 drill 指标以 data-metric/data-value 登记并与 metrics.json 一致）；新增 2400×1500 双语技术信息图（PNG tEXt 含套件 ID、台账哈希、证据签名与基线）；四份 PDF 各追加一页 drill 证据页并以明文 Info 键 /P104DrillSuiteID、/P104DrillTestsSHA256、/P104SyntheticOnly 登记（修复 pypdf 6.16 默认八进制转义会隐藏连字符令牌的问题：monkey-patch TextStringObject 为规范合法明文字符串，生成器留在投稿包外）。
+- Metrics / 指标：新增 `dazhongsi_drill_case_total`、`dazhongsi_drill_case_passed`、`dazhongsi_drill_negative_fixture_fail_closed_total`、`dazhongsi_drill_category_coverage_ratio`（metric_kind=synthetic_contract_test，confidence=low，可由台账与运行器复算）；1.5.3.3 合规矩阵与假设 `A-DAZHONGSI-DRILL-001` 同步。
+- Verification boundary / 验证边界：套件为模板契约级合成验证；现场授权、站口、路线、实测绩效、主体、签署、许可与无障碍结论仍未观测；`not_observed` 不得解释为风险已排除。GeoJSON、既有 metrics 与证据签名 c880c438… 不变；PDF 仅追加页，既有页面逐字节保留。
+
 ## v1.5 - 2026-08-21
 
 P1-03 Dazhongsi field-operations responsibility and evidence template / 大钟寺现场运营责任与证据模板

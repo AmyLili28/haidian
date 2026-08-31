@@ -202,6 +202,7 @@ def write_text_atomically(path: Path, text: str) -> None:
             delete=False,
             mode="w",
             encoding="utf-8",
+            newline="\n",
         ) as handle:
             temporary = handle.name
             handle.write(text)
@@ -568,6 +569,12 @@ code {{
   color: #1d4f7a;
   padding: 0.1em 0.35em;
   border-radius: 4px;
+}}
+:not(pre) > code {{
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }}
 .summary {{ color: var(--muted); font-size: 17px; }}
 .translation-link a {{ color: var(--accent); font-weight: 700; }}

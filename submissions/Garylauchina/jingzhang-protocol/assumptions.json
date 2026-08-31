@@ -85,7 +85,7 @@
         "land_use_0802_area_sqm",
         "land_use_0803_area_sqm",
         "land_use_0804_area_sqm",
-        "land_use_05_area_sqm",
+        "land_use_09_area_sqm",
         "land_use_0702_area_sqm",
         "land_use_1401_area_sqm",
         "land_use_1403_area_sqm"
@@ -247,6 +247,133 @@
       "replacement_action": "Add baseline and target series with provenance, uncertainty and owner; revise industry-validation priorities against measured gaps."
     },
     {
+      "id": "A-NATIONAL-STRATEGIC-FRAMING-001",
+      "status": "conceptual_governance",
+      "statement": "Official railway-history sources establish the 1905-1909 independent Jing-Zhang engineering achievement and Jeme Tien Yow's movement from overseas railway study to locally adapted engineering practice; three national AI sources establish an application-oriented strategy context; Haidian's midterm direction connects that context to a proposed human-AI test field, AI safety governance and perceivable public scenarios. The proposal interprets these records through a two-industrial-revolutions design-history thesis: China moved from learning, absorbing and reworking a railway-industrial system first developed in the West to independent railway engineering, and now seeks to use real-city experimentation to help define and compete for leadership in an AI-driven industrial revolution.",
+      "impact": "V0.17 may frame Jing-Zhang as the corridor where this proposed change in China's role is tested. Independent railway engineering and the learning-to-local-adaptation history are source-supported context; the two-industrial-revolutions comparison is proposal interpretation; seeking leadership is strategic ambition. The package must not describe this submission as a nationally designated pilot, approved plan, adopted or implemented project, world first, or proof of global leadership.",
+      "affected_files": [
+        "proposal.md",
+        "proposal.en.md",
+        "sources.json",
+        "metrics.json",
+        "compliance_matrix.json",
+        "standard_matrix.json",
+        "design_depth_matrix.json"
+      ],
+      "affected_metric_ids": [
+        "application_capability_stage_count",
+        "application_capability_mapping_coverage_ratio",
+        "flagship_first_use_procurement_count",
+        "flagship_market_diffusion_adoption_count",
+        "flagship_published_standard_output_count",
+        "flagship_verified_public_benefit_count"
+      ],
+      "source_ids": [
+        "HIST-JINGZHANG-RAILWAY",
+        "HIST-JINGZHANG-PARK",
+        "HIST-JINGZHANG-FROM-LEARNING-TO-AUTONOMY",
+        "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
+        "STATE-COUNCIL-AI-PLUS-2025",
+        "NATIONAL-FIFTEENTH-FIVE-YEAR-AI-APPLICATION-2025",
+        "HAIDIAN-JINGZHANG-MIDTERM-2026"
+      ],
+      "resolution_trigger": "A competent authority publishes a Jing-Zhang-specific designation, approval, adoption or implementation decision with a verifiable scope and date.",
+      "replacement_action": "Update only the status explicitly supported by that record; preserve the distinction between national policy alignment, open-call requirements, proposal content, formal approval, implementation and measured outcomes."
+    },
+    {
+      "id": "A-APPLICATION-CAPABILITY-REPLICATION-001",
+      "status": "design_metric_only",
+      "statement": "The six application-capability stages are a V0.10 proposal taxonomy for organizing existing spatial, contractual and governance components; mapping every stage proves structural coverage only.",
+      "impact": "The stage count and mapping ratio do not prove procurement, deployment, external adoption, public benefit, published standards, national replication or global leadership. All related outcome metrics remain unknown until dated independent evidence exists.",
+      "affected_files": [
+        "proposal.md",
+        "proposal.en.md",
+        "metrics.json",
+        "compliance_matrix.json",
+        "standard_matrix.json",
+        "design_depth_matrix.json"
+      ],
+      "affected_metric_ids": [
+        "application_capability_stage_count",
+        "application_capability_mapping_coverage_ratio",
+        "flagship_first_use_procurement_count",
+        "flagship_market_diffusion_adoption_count",
+        "flagship_published_standard_output_count",
+        "flagship_verified_public_benefit_count"
+      ],
+      "application_capability_stages": [
+        {
+          "stage_id": "AC01_ORIGINATE",
+          "label_zh": "造得出",
+          "label_en": "Originate",
+          "mapping_refs": [
+            "SOURCE"
+          ]
+        },
+        {
+          "stage_id": "AC02_INTEGRATE",
+          "label_zh": "接得上",
+          "label_en": "Integrate",
+          "mapping_refs": [
+            "STACK"
+          ]
+        },
+        {
+          "stage_id": "AC03_PROVE",
+          "label_zh": "验得真",
+          "label_en": "Prove",
+          "mapping_refs": [
+            "PROVE",
+            "FP02",
+            "FP03"
+          ]
+        },
+        {
+          "stage_id": "AC04_DEPLOY",
+          "label_zh": "用得上",
+          "label_en": "Deploy",
+          "mapping_refs": [
+            "LIVE_MARKET",
+            "FP01-CONTRACT-001",
+            "FP04"
+          ]
+        },
+        {
+          "stage_id": "AC05_SCALE",
+          "label_zh": "推得开",
+          "label_en": "Scale",
+          "mapping_refs": [
+            "ENABLE"
+          ]
+        },
+        {
+          "stage_id": "AC06_RETAIN",
+          "label_zh": "留得下",
+          "label_en": "Retain",
+          "mapping_refs": [
+            "COMMONS",
+            "FP05"
+          ]
+        }
+      ],
+      "trusted_operations_layer": {
+        "label_zh": "运行稳",
+        "label_en": "Trusted operations",
+        "spatial_role": "cross_cutting_layer_not_a_seventh_spatial_node",
+        "mapping_refs": [
+          "AI_CITY_API",
+          "I1-I7",
+          "HUMAN_TAKEOVER",
+          "NON_DIGITAL_FALLBACK",
+          "APPEAL",
+          "EXIT"
+        ]
+      },
+      "replication_boundary": "Replication means a proposed package of reusable evidence methods, contract clauses, interface specifications, operating playbooks and failure records; it is not evidence that another district or city has adopted them.",
+      "resolution_trigger": "Dated procurement, operation, independent evaluation, publication and additional-operator adoption records become available for the corresponding outcome.",
+      "replacement_action": "Keep the two structural metrics as design-coverage measures and populate separately named outcome metrics only from accountable, independently auditable evidence."
+    },
+    {
       "id": "A-ARCH-STANDARD-001",
       "status": "pending_source_data",
       "statement": "The officially designated architectural design-depth standard file is not included in the supplied reference package.",
@@ -353,7 +480,7 @@
     {
       "id": "A-FLAGSHIP-FP01",
       "status": "conceptual_governance",
-      "statement": "FP01 AI Origin First-Use Station is a concept implementation brief that bundles S03, S04, S07 under the official spatial role SOURCE+ENABLE; it is not an approved project, site, operator or procurement.",
+      "statement": "FP01 AI Origin First-Use Station is a concept implementation brief for one candidate learning/career referral task. S07 is the sole user service; S03 evaluates it and S04 provides the interface. It is not an approved project, confirmed site, operator or procurement.",
       "impact": "The registry proves a complete proposed operator consortium, 90-day protocol, one-year indicator set, funding/space/data boundaries and five-gate conversion path. It does not prove authorization, budget, delivery, public benefit, market adoption or a published standard.",
       "affected_files": [
         "geometry/public_space.geojson",
@@ -363,7 +490,15 @@
         "compliance_matrix.json",
         "standard_matrix.json",
         "design_depth_matrix.json",
-        "self_check.json"
+        "self_check.json",
+        "visual/assets/fp01-contract.json",
+        "visual/assets/verify-fp01-contract.js",
+        "proposal.en.md",
+        "assets/figures/fp01-first-use-100-days.png",
+        "assets/figures/fp01-spatial-prototype.png",
+        "visual/index.html",
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
       ],
       "affected_metric_ids": [
         "flagship_first_use_procurement_count",
@@ -376,7 +511,11 @@
         "flagship_verified_public_benefit_count",
         "fp01_first_use_delivery_contract_template_count",
         "fp01_100_day_gate_coverage_ratio",
-        "fp01_contract_clause_coverage_ratio"
+        "fp01_contract_clause_coverage_ratio",
+        "fp01_concrete_service_problem_count",
+        "fp01_receipt_event_type_coverage_ratio",
+        "fp01_spatial_prototype_scale_count",
+        "fp01_observed_human_baseline_task_completion_rate"
       ],
       "resolution_trigger": "An accountable scene owner confirms the surveyed carrier, operator roles, legal and procurement route, budget, data access, baseline and go/no-go thresholds for this pilot.",
       "replacement_action": "Replace concept roles and targets with signed records; preserve failed and stopped tests; populate the four outcome metrics only from dated, auditable operating evidence.",
@@ -384,7 +523,7 @@
       "title_zh": "AI原点首用站",
       "title_en": "AI Origin First-Use Station",
       "planning_role": "SOURCE+ENABLE",
-      "portfolio_role_zh": "在AI原点社区把城市多模态评测、场景接入和学习就业协作组织成从原创成果到首张真实订单的可审计通道。",
+      "portfolio_role_zh": "在AI原点社区以一名虚构复合人物的一次学习/职业转介任务为主线；S07承载服务，S03负责多模态与无障碍评测，S04负责目录和回执接口，把源头创新收束为可审计、可人工接管、可退出的一份城市首用合同。",
       "scenario_ids": [
         "S03",
         "S04",
@@ -424,15 +563,15 @@
       "ninety_day_test": {
         "status": "concept_proposal",
         "days_0_30": {
-          "purpose": "Select one bounded service problem, name the scene owner and first-use buyer role, lock benchmark, data, IP, accessibility and procurement-review boundaries.",
+          "purpose": "Confirm or replace the candidate learning/career referral problem with the service owner and user/accessibility panel; measure the staffed paper/phone baseline; survey the carrier; lock prohibited automated decisions, data, IP and stop boundaries.",
           "gate": "baseline, roles, permissions, data boundary and stop route documented"
         },
         "days_31_60": {
-          "purpose": "Run S03 evaluation, S04 interface integration and S07 assisted user testing in sandbox or shadow mode; no live eligibility or employment decision is delegated.",
+          "purpose": "Run S07 as the one user service in supervised shadow mode, with S03 evaluating accessibility and failure modes and S04 exchanging catalogue and receipt fields; AI never decides admission, eligibility or employment.",
           "gate": "sandbox, shadow or supervised evidence is replayable and human-reviewed"
         },
         "days_61_90": {
-          "purpose": "Publish an independent evidence summary and a legally reviewed limited first-use specification, or stop and return the unresolved evidence to the source team.",
+          "purpose": "Replay success, refusal, human-takeover and exit-restoration receipts; publish passes, failures and uncertainty; obtain an independent go, revise or stop decision.",
           "gate": "independent review and accountable go, revise or stop record completed"
         },
         "go_no_go_gate": [
@@ -514,10 +653,10 @@
       ],
       "first_use_delivery_contract": {
         "contract_id": "FP01-CONTRACT-001",
-        "title_zh": "AI原点首用站100日交付合同模板",
-        "title_en": "AI Origin 100-Day First-Use Delivery Contract Template",
+        "title_zh": "AI原点可撤销城市首用合同模板",
+        "title_en": "AI Origin Revocable Urban First-Use Contract Template",
         "status": "concept_template_unexecuted",
-        "single_contract_rule": "One contract template governs S03, S04 and S07; no separate showcase, evaluation or training contract may bypass the shared acceptance and exit duties.",
+        "single_contract_rule": "S07 is the sole user-facing service task. S03 is evaluation support and S04 is interface support; neither may become a separate showcase or bypass the shared baseline, acceptance and exit duties.",
         "activation_rule": "A D90 independent go decision only opens a separate authorization discussion; a D91-D100 limited acceptance may be discussed only after lawful procurement, legal and professional authorization.",
         "milestones": [
           {
@@ -568,8 +707,30 @@
           "performance thresholds are locked at D30 from a real baseline rather than invented in advance",
           "failed acceptance cannot release payment or authorize diffusion"
         ],
-        "execution_boundary": "Template-structure evidence only; not a signed contract, procurement authorization, delivered service, market adoption or verified public benefit."
-      }
+        "execution_boundary": "Template-structure evidence only; not a signed contract, procurement authorization, delivered service, market adoption or verified public benefit.",
+        "problem_definition_ref": "visual/assets/fp01-contract.json#FP01-S07-PROBLEM-001",
+        "verification_script": "visual/assets/verify-fp01-contract.js",
+        "baseline_status": "unknown_pending_d0_measurement",
+        "receipt_event_types": [
+          "success",
+          "refusal",
+          "human_takeover",
+          "exit_restoration"
+        ],
+        "spatial_scale_ids": [
+          "SCALE-1-500",
+          "SCALE-1-100",
+          "SCALE-1-50"
+        ]
+      },
+      "primary_user_service_scenario_id": "S07",
+      "supporting_scenario_roles": {
+        "S03": "evaluation_support",
+        "S04": "interface_support"
+      },
+      "candidate_problem_id": "FP01-S07-PROBLEM-001",
+      "candidate_problem_status": "pending_d0_service_owner_and_user_panel_confirmation",
+      "baseline_status": "unknown_pending_d0_measurement"
     },
     {
       "id": "A-FLAGSHIP-FP02",
@@ -732,7 +893,7 @@
     {
       "id": "A-FLAGSHIP-FP03",
       "status": "conceptual_governance",
-      "statement": "FP03 Xiaoyuehe Scenario Co-Test Network is a concept implementation brief that bundles S02, S05, S06, S08 under the official spatial role PROVE; it is not an approved project, site, operator or procurement.",
+      "statement": "FP03 Xiaoyue River Scenario Co-Test Network is a concept implementation brief that bundles S02, S05, S06, S08 under the official spatial role PROVE; it is not an approved project, site, operator or procurement.",
       "impact": "The registry proves a complete proposed operator consortium, 90-day protocol, one-year indicator set, funding/space/data boundaries and five-gate conversion path. It does not prove authorization, budget, delivery, public benefit, market adoption or a published standard.",
       "affected_files": [
         "geometry/public_space.geojson",
@@ -758,7 +919,7 @@
       "replacement_action": "Replace concept roles and targets with signed records; preserve failed and stopped tests; populate the four outcome metrics only from dated, auditable operating evidence.",
       "pilot_id": "FP03",
       "title_zh": "小月河场景共测网",
-      "title_en": "Xiaoyuehe Scenario Co-Test Network",
+      "title_en": "Xiaoyue River Scenario Co-Test Network",
       "planning_role": "PROVE",
       "portfolio_role_zh": "以小月河场景赋能翼和绿脊界面的跨片区节点组成分布式共测网，把具身智能、公共服务、包容慢行与健康导引放在同一组人本安全条件下验证。",
       "scenario_ids": [
@@ -1224,7 +1385,7 @@
       "id": "A-GEOMETRY-CROSSCHECK-001",
       "status": "background_only_unresolved",
       "statement": "Independent community cross-checks report that the repository provisional SITE and Dazhongsi key-area polygons do not align with several namesake mapped features; these checks are reproducible background evidence, not official geometry corrections.",
-      "impact": "V0.8 keeps all coordinates unchanged, separates the announced relational design tasks from the provisional placeholder polygons, and prohibits parcel, station-exit or engineering claims until official geometry is released.",
+      "impact": "V0.10 retains V0.8's zero-coordinate-movement decision, separates the announced relational design tasks from the provisional placeholder polygons, and prohibits parcel, station-exit or engineering claims until official geometry is released.",
       "affected_files": [
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
@@ -1258,6 +1419,391 @@
       ],
       "resolution_trigger": "Trusted rights-cleared official SITE_BOUNDARY and all three KEY_AREA polygons are released.",
       "replacement_action": "Replace provisional geometry, relocate or verify every dependent feature, and regenerate all geometry-derived metrics, figures, HTML and PDFs; retire the background cross-check after official reconciliation."
+    },
+    {
+      "id": "A-FP01-CONCRETE-PROTOTYPE-001",
+      "status": "conceptual_prototype_pending_d0_confirmation",
+      "statement": "FP01 is deepened around one candidate service question: whether a fictional composite early-career wheelchair user without a smartphone can obtain one learning or career referral at a staffed, accessible window, with AI limited to catalogue access, explanation and routing and with immediate human fallback.",
+      "impact": "The package can prove one defined problem, one seven-step design journey, three concept spatial scales and four illustrative receipt event types. It cannot prove the persona represents an observed resident, that the site is confirmed, or that any baseline, threshold, service result or public benefit has been measured.",
+      "affected_files": [
+        "visual/assets/fp01-contract.json",
+        "visual/assets/verify-fp01-contract.js",
+        "geometry/public_space.geojson",
+        "metrics.json",
+        "proposal.md",
+        "proposal.en.md",
+        "assets/figures/fp01-first-use-100-days.png",
+        "assets/figures/fp01-spatial-prototype.png",
+        "visual/index.html",
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "affected_metric_ids": [
+        "fp01_concrete_service_problem_count",
+        "fp01_receipt_event_type_coverage_ratio",
+        "fp01_spatial_prototype_scale_count",
+        "fp01_observed_human_baseline_task_completion_rate"
+      ],
+      "problem_id": "FP01-S07-PROBLEM-001",
+      "design_persona_id": "FP01-PERSONA-COMPOSITE-001",
+      "design_persona_status": "fictional_composite_not_observed_person",
+      "primary_service_scenario_id": "S07",
+      "supporting_evaluation_scenario_id": "S03",
+      "supporting_interface_scenario_id": "S04",
+      "carrier_feature_ids": [
+        "PROV-KEY-002",
+        "PUBLIC-TEST-001",
+        "ROOM-TEST-001"
+      ],
+      "baseline_status": "unknown_pending_d0_measurement",
+      "spatial_scale_ids": [
+        "SCALE-1-500",
+        "SCALE-1-100",
+        "SCALE-1-50"
+      ],
+      "receipt_event_types": [
+        "success",
+        "refusal",
+        "human_takeover",
+        "exit_restoration"
+      ],
+      "resolution_trigger": "At D0, an accountable service owner and accessibility/user panel confirm or replace the candidate problem and persona, survey the carrier, and measure the same task through the staffed non-AI baseline.",
+      "replacement_action": "Replace the fictional persona and provisional dimensions with consented co-design and survey evidence; populate observed metrics only from dated records while retaining failed, refused, takeover and exit-restoration evidence."
+    },
+    {
+      "id": "A-BRAND-COMPONENT-001",
+      "status": "concept_system_unapproved_unimplemented",
+      "statement": "The single master brand, five flagship descriptors, four operating rhythms, five evidence-based contribution classes, three landmark concepts and six reversible public-space components form one proposal-internal architecture. They are not separate official brands, an approved logo system, implemented events, awarded honors, confirmed sites or delivered installations.",
+      "impact": "The package can verify a coherent five-layer naming and endorsement grammar plus complete internal mappings from the master brand to FP01-FP05 and from all three landmarks to the component family. It cannot prove public adoption, logo or emblem approval, event delivery, award recipients, confirmed siting, operation, budget, procurement, construction or performance.",
+      "affected_files": [
+        "visual/assets/brand-component-architecture.json",
+        "visual/assets/verify-brand-component-architecture.js",
+        "metrics.json",
+        "compliance_matrix.json",
+        "standard_matrix.json",
+        "design_depth_matrix.json",
+        "proposal.md",
+        "proposal.en.md",
+        "assets/figures/brand-component-architecture.png",
+        "visual/index.html",
+        "drawings/a3-booklet.pdf",
+        "drawings/a3-booklet.en.pdf",
+        "drawings/a0-boards.pdf",
+        "drawings/a0-boards.en.pdf"
+      ],
+      "affected_metric_ids": [
+        "brand_architecture_layer_count",
+        "brand_flagship_mapping_coverage_ratio",
+        "reversible_public_space_component_count",
+        "landmark_component_mapping_coverage_ratio",
+        "honor_contribution_class_count"
+      ],
+      "master_brand_count": 1,
+      "flagship_descriptor_count": 5,
+      "operating_rhythm_count": 4,
+      "contribution_class_count": 5,
+      "landmark_concept_count": 3,
+      "reversible_component_count": 6,
+      "contribution_classes": [
+        "public_problem",
+        "open_build",
+        "independent_verification",
+        "rights_stewardship",
+        "failure_correction_and_capability_return"
+      ],
+      "formal_logo_status": "concept_direction_only_not_approved",
+      "official_emblem_status": "not_claimed",
+      "award_recipient_status": "none_selected_or_claimed",
+      "resolution_trigger": "An authorized brand owner, public-space and heritage reviewers, accountable operators and affected-user representatives separately approve or replace the identity, naming, contribution and component system.",
+      "replacement_action": "Version the concept architecture, record approvals and objections, replace unapproved marks or mappings, and keep each component temporary and removable until site-specific authorization is complete."
+    },
+    {
+      "id": "A-DELIVERY-READINESS-001",
+      "status": "conceptual_stop_gates_pending_named_evidence",
+      "statement": "H0 through H4 are proposal-internal responsibility, evidence and stop gates: public problem and ordinary human baseline; surveyed carrier plus accountable operator, budget and procurement route; data, safety, accessibility and non-digital path; independent evidence, appeal and redress; and separate authorization, opening, exit and handover. They do not establish that any gate has been passed.",
+      "impact": "The package can verify that all five hold points name responsible role classes, evidence requirements and a stop action. Surveyed carriers, named accountable operators, budgets, procurement, D0 baselines, utilities, fire, transport, authorization and observed outcomes remain unknown; missing evidence keeps the relevant element concept-only or stops progression.",
+      "affected_files": [
+        "visual/assets/brand-component-architecture.json",
+        "visual/assets/verify-brand-component-architecture.js",
+        "metrics.json",
+        "compliance_matrix.json",
+        "standard_matrix.json",
+        "design_depth_matrix.json",
+        "proposal.md",
+        "proposal.en.md",
+        "assets/figures/brand-component-architecture.png",
+        "drawings/a3-booklet.pdf",
+        "drawings/a3-booklet.en.pdf",
+        "drawings/a0-boards.pdf",
+        "drawings/a0-boards.en.pdf"
+      ],
+      "affected_metric_ids": [
+        "reversible_public_space_component_count",
+        "landmark_component_mapping_coverage_ratio",
+        "delivery_hold_point_coverage_ratio"
+      ],
+      "hold_point_ids": [
+        "H0",
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "unknown_delivery_evidence": [
+        "surveyed_carriers",
+        "named_accountable_operators",
+        "approved_budgets",
+        "lawful_procurement_routes",
+        "dated_D0_baselines",
+        "utilities_review",
+        "fire_review",
+        "transport_review",
+        "opening_authorization",
+        "observed_outcomes"
+      ],
+      "missing_evidence_rule": "If a required record is absent, contradictory or expired, the related proposal remains concept-only or stops at the current hold point.",
+      "resolution_trigger": "Each accountable authority or operator supplies dated, attributable and independently reviewable evidence for its hold point, with a named human go, revise or stop decision.",
+      "replacement_action": "Replace role-class placeholders with authorized accountable entities, populate observed baselines and approvals, and publish the resulting go, revise or stop record without converting proposal metrics into performance claims."
+    },
+    {
+      "id": "A-FP01-EVIDENCE-READINESS-001",
+      "status": "pending_external_evidence",
+      "statement": "V0.17 retains the evidence-acquisition and verification register for FP01 gates H0 through H4. It defines required artifacts, role classes, independent review, stop actions and transitions, but it contains no fieldwork result, named operator commitment, approved budget, professional approval, operating test result or implementation authorization.",
+      "impact": "The package can prove five gate definitions and a complete machine-checkable anti-fabrication structure. The verified gate count and verified external-artifact count correctly remain zero until dated, attributable, rights-cleared and independently reviewable external records are supplied.",
+      "affected_files": [
+        "visual/assets/fp01-evidence-readiness.json",
+        "visual/assets/verify-fp01-evidence-readiness.js",
+        "report/narrative.md",
+        "metrics.json",
+        "compliance_matrix.json",
+        "standard_matrix.json",
+        "design_depth_matrix.json",
+        "proposal.md",
+        "proposal.en.md",
+        "assets/figures/evidence-readiness.png",
+        "assets/figures/evidence-readiness.en.png",
+        "visual/index.html",
+        "visual/index.en.html",
+        "drawings/a3-booklet.pdf",
+        "drawings/a3-booklet.en.pdf",
+        "drawings/a0-boards.pdf",
+        "drawings/a0-boards.en.pdf",
+        "manifest.json",
+        "self_check.json"
+      ],
+      "affected_metric_ids": [
+        "fp01_evidence_gate_count",
+        "fp01_evidence_gate_definition_coverage_ratio",
+        "fp01_evidence_verified_gate_count",
+        "fp01_external_evidence_artifact_verified_count"
+      ],
+      "gate_ids": [
+        "H0",
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "current_evidence_status": "pending_external_evidence",
+      "verified_gate_count": 0,
+      "verified_external_artifact_count": 0,
+      "anti_fabrication_rule": "No gate or artifact may be marked verified without a date, accountable signatory or authority, source reference, rights status, review record and an explicit go, revise or stop disposition where applicable.",
+      "resolution_trigger": "Authorized external contributors populate the register with genuine records; the accountable gate owner and independent reviewer confirm completeness, currency, rights and the resulting go, revise or stop decision.",
+      "replacement_action": "Replace null placeholders only with attributable external records, preserve failed and contradictory evidence, rerun the verifier, refresh metrics and matrices, and never infer approval from silence or from proposal-internal completeness."
+    },
+    {
+      "id": "A-FP01-DELIVERY-CONTROL-001",
+      "status": "concept_delivery_control_model_unexecuted",
+      "statement": "V0.17 retains the V0.15 upgrade of the FP01 concept delivery-control book into a participant-controlled pre-feasibility decision package: three key-area interface prototypes; four scales from 1:500 through 1:20; six D0 methods; sixteen role classes with one decision owner at each H0-H4 gate; six design-test quantity lines; a ten-step dependency path; capacity/egress and staffing/FTE templates; three dimensionless ROM CAPEX/OPEX sensitivities; an exit-restoration reserve template; daily, weekly, quarterly and annual maintenance; twelve acceptance indicators; six conditional release stages; and four gate-, cost- and permission-linked fallback alternatives. These are design controls, not external delivery evidence.",
+      "impact": "The package can demonstrate how a professional and operating team would measure, assign, quantify, sequence, staff, test capacity and egress, compare order-of-magnitude sensitivities, maintain, accept, stop, substitute and restore the pilot without inventing a site, approved capacity, actual quantity, unit price, budget, named entity, staffing roster, sign-off, authorization or field result. Eight acceptance indicators are reviewable as proposal structure; four require field or authorization evidence. All external actuals remain null or zero, verified cost inputs and external releases remain zero, and FP01 stays at HOLD.",
+      "affected_files": [
+        "visual/assets/fp01-delivery-control.json",
+        "visual/assets/verify-fp01-delivery-control.js",
+        "metrics.json",
+        "compliance_matrix.json",
+        "standard_matrix.json",
+        "design_depth_matrix.json",
+        "proposal.md",
+        "proposal.en.md",
+        "assets/figures/technical-delivery-sheet.png",
+        "assets/figures/technical-delivery-sheet.en.png",
+        "visual/index.html",
+        "visual/index.en.html",
+        "drawings/a3-booklet.pdf",
+        "drawings/a3-booklet.en.pdf",
+        "drawings/a0-boards.pdf",
+        "drawings/a0-boards.en.pdf",
+        "manifest.json",
+        "self_check.json"
+      ],
+      "affected_metric_ids": [
+        "key_area_interface_prototype_count",
+        "fp01_d0_measurement_method_coverage_ratio",
+        "fp01_hold_point_raci_coverage_ratio",
+        "fp01_design_test_boq_item_count",
+        "fp01_critical_dependency_step_count",
+        "fp01_delivery_role_class_count",
+        "fp01_hold_point_single_decision_owner_ratio",
+        "fp01_acceptance_indicator_count",
+        "fp01_immediately_judgeable_acceptance_indicator_count",
+        "fp01_field_dependent_acceptance_indicator_count",
+        "fp01_release_stage_count",
+        "fp01_external_release_granted_count",
+        "fp01_fallback_alternative_count",
+        "fp01_cost_plan_class_count",
+        "fp01_verified_cost_input_count",
+        "fp01_documented_authorized_site_action_count",
+        "fp01_pre_feasibility_scale_count",
+        "fp01_original_parameter_envelope_count",
+        "fp01_capacity_egress_template_count",
+        "fp01_staffing_fte_template_count",
+        "fp01_rom_sensitivity_scenario_count",
+        "fp01_exit_restoration_reserve_template_count",
+        "fp01_maintenance_cycle_count",
+        "fp01_gate_cost_permission_alternative_mapping_ratio",
+        "fp01_external_evidence_receipt_required_field_count",
+        "fp01_accepted_external_evidence_receipt_count",
+        "fp01_pre_feasibility_external_release_granted_count"
+      ],
+      "design_test_quantity_rule": "Design-test quantities express the smallest reviewable kit only. They must be replaced by surveyed actual quantities and rights-cleared cost evidence before any budget, procurement or construction decision.",
+      "formative_observation_rule": "The planned 30 task sessions across at least three service days are a proposal-defined formative floor, not statistical power, a real sample, public consent or a performance claim; responsible parties and applicable ethics or data review may raise or reject it.",
+      "current_actual_boq_verified_item_count": 0,
+      "current_verified_external_signoff_count": 0,
+      "current_external_release_granted_count": 0,
+      "current_verified_cost_input_count": 0,
+      "current_documented_authorized_site_action_count": 0,
+      "pre_feasibility_boundary": "The 1:20 detail, parameter envelopes, capacity/egress formula, FTE range, ROM multipliers, reserve range and maintenance cycles are original participant design assumptions. They are not code conclusions, survey, quotation, formal estimate, funded reserve, staffing commitment, permit, professional sign-off or implementation result.",
+      "resolution_trigger": "H0 and H1 supply a real problem, service owner, candidate carrier, responsibility acceptance and cost/procurement basis; H2 supplies applicable professional conditions; H3 and H4 supply rehearsal, authorization and handover evidence.",
+      "replacement_action": "Populate only dated and attributable actual fields, retain the design-test baseline for comparison, rerun both delivery-control and evidence-readiness verifiers, and publish the resulting go, revise or stop record."
+    },
+    {
+      "id": "A-FP01-EXECUTION-KIT-001",
+      "status": "blank_execution_templates_unexecuted",
+      "statement": "V0.17 retains the seven bilingual blank execution forms and common record-metadata contract added for FP01 in V0.15: candidate-carrier survey, responsibility acceptance and conflicts, D0 observation and missingness, quantity/cost/procurement basis, professional review and gate acceptance, rehearsal/maintenance/exit handover, and reference programme/RAID/change control. The forms define what an authorized delivery team must record; they do not claim that any record has been executed.",
+      "impact": "The submission can hand over machine-checkable and printable instruments for measurement, responsibility acceptance, evidence provenance, quantity take-off, comparable-cost normalization, non-binding procurement packaging, professional review, threshold acceptance, controlled rehearsal, maintenance, exit restoration, scheduling and change control. Named parties, surveyed conditions, permissions, staffing, quotations, budgets, procurement decisions, professional opinions, signatures, actual dates and field results remain null or unknown, so the kit adds execution readiness without manufacturing external evidence or changing the applicable HOLD state.",
+      "affected_files": [
+        "visual/assets/fp01-execution-kit.json",
+        "visual/assets/verify-fp01-execution-kit.js",
+        "assets/media/fp01-execution-workbook.md",
+        "assumptions.json"
+      ],
+      "form_ids": [
+        "EX-01",
+        "EX-02",
+        "EX-03",
+        "EX-04",
+        "EX-05",
+        "EX-06",
+        "EX-07"
+      ],
+      "current_actual_record_count": 0,
+      "current_verified_external_record_count": 0,
+      "current_named_signatory_count": 0,
+      "current_verified_cost_input_count": 0,
+      "current_field_result_count": 0,
+      "anti_fabrication_rule": "Only authorized, dated and attributable external records may replace null values. Unknown requires a reason, owner, disposition and review and never means pass. A blank form, proposal-internal reference or synthetic example cannot prove approval, cost, compliance, performance or implementation.",
+      "synthetic_fixture_rule": "Any future synthetic example must be marked synthetic_fixture_not_observed and excluded from field sample, observed-value, pass-rate, cost and implementation metrics.",
+      "resolution_trigger": "Authorized parties execute the applicable forms with source, method/sample, limitations/missingness, rights/publication class, independent review and conflict disclosure, disposition and sign-off, and the relevant H0-H4 gate records a dated go, revise or stop decision.",
+      "replacement_action": "Create versioned execution copies without overwriting the blank masters, populate only attributable external facts, preserve failures and contradictions, rerun the execution-kit verifier, and update metrics or claims only from verified records."
+    },
+    {
+      "id": "A-FP01-REL00-DESK-REPLAY-001",
+      "status": "executed_participant_side_synthetic_design_time_only",
+      "statement": "V0.17 runs a deterministic participant-side REL00 interface replay against twelve synthetic fixtures: the four contract event classes success, refusal, human takeover and exit restoration, plus eight fail-closed injections for AI-only service, smartphone dependency, missing human confirmation, missing refusal reason, missing appeal, a direct-identifier flag without an identifier value, an unverified deletion-completion claim and release beyond REL00 without external authorization.",
+      "impact": "The replay advances the package from a readable template to a reproducible design-time interface test. It demonstrates only that the participant-authored rule function produces the recorded transition or block result for the supplied synthetic inputs. It is not a field sample, real service, H3 independent rehearsal, security certification, professional opinion, operator acceptance, cost verification, site authorization, performance result or public-benefit measurement.",
+      "affected_files": [
+        "visual/assets/fp01-rel00-desk-replay.json",
+        "visual/assets/verify-fp01-rel00-desk-replay.js",
+        "assets/figures/fp01-implementation-verdict.png",
+        "assets/figures/fp01-implementation-verdict.en.png",
+        "metrics.json",
+        "assumptions.json",
+        "proposal.md",
+        "proposal.en.md",
+        "visual/index.html",
+        "visual/index.en.html",
+        "drawings/a3-booklet.pdf",
+        "drawings/a3-booklet.en.pdf",
+        "drawings/a0-boards.pdf",
+        "drawings/a0-boards.en.pdf"
+      ],
+      "positive_case_ids": [
+        "REL00-POS-01-SUCCESS",
+        "REL00-POS-02-REFUSAL",
+        "REL00-POS-03-HUMAN-TAKEOVER",
+        "REL00-POS-04-EXIT-RESTORATION"
+      ],
+      "negative_control_ids": [
+        "REL00-NEG-01-AI-ONLY",
+        "REL00-NEG-02-SMARTPHONE",
+        "REL00-NEG-03-NO-HUMAN-CONFIRMATION",
+        "REL00-NEG-04-NO-REFUSAL-REASON",
+        "REL00-NEG-05-NO-APPEAL",
+        "REL00-NEG-06-DIRECT-IDENTIFIER",
+        "REL00-NEG-07-FALSE-DELETION",
+        "REL00-NEG-08-UNAUTHORIZED-RELEASE"
+      ],
+      "current_synthetic_fixture_count": 12,
+      "current_positive_transition_match_ratio": 1.0,
+      "current_negative_control_block_ratio": 1.0,
+      "current_external_evidence_credit_count": 0,
+      "current_h0_h4_verified_gate_count": 0,
+      "current_external_release_state": "HOLD",
+      "evidence_boundary": "The replay belongs only to REL00 desk review and open correction. Every external actual, named party, field result, verified cost, professional sign-off and authorization state remains 0, null, unknown or HOLD; no replay result may be counted toward H0-H4.",
+      "resolution_trigger": "An accountable delivery team starts H0-H4 with a confirmed real problem, site, parties, D0 baseline, rights and professional conditions, independent controlled rehearsal and separate authorization.",
+      "replacement_action": "Retain the REL00 replay as design provenance; record real evidence only in versioned execution copies with attributable source, method, limitations, rights, independent review, disposition and sign-off, without overwriting or reclassifying the synthetic fixtures."
+    },
+    {
+      "id": "A-AGENT-PARTICIPATION-METHOD-001",
+      "status": "public_process_partially_observed_urban_implementation_unverified",
+      "statement": "The open call can be treated as a project-level institutional prototype in which Agents participate in complex public-interest professional work through structured tasks, traceable sources and assumptions, reviewable artifacts, deterministic checks, versioned Issue/PR collaboration, and a rule reserving formal selection, professional deepening and rights-affecting decisions for accountable people and institutions. PR 4306 documents one failure-detection, participant-repair, deterministic-recheck, advisory-reassessment, repository-intake and merge cycle; PR 4308 documents the succeeding V0.15 validation, advisory 100/100, formal-review-ready and featured-candidate recommendations, intake acceptance and merge; PR 4313 documents V0.16's font repair, final four-gate PASS, advisory 96/100, the same recommendations, intake acceptance and merge. This is a proposal interpretation grounded in public repository records, not a government-conferred historical designation.",
+      "impact": "PR 4306 documents the V0.14/V0.14.1 repair and intake process with a final 96/100 Review Agent advisory result. PR 4308 documents the V0.15 repository process with deterministic PASS, a 100/100 Review Agent advisory result, formal-review-ready and featured-candidate recommendations, intake-accepted label and merge. PR 4313 documents V0.16's font repair, final deterministic PASS, a 96/100 Review Agent advisory result, the same recommendations, intake-accepted label and merge. None of the advisory results is formal jury scoring, and intake or merge is not Gallery publication, selection, adoption, statutory approval, field implementation, public benefit, national-pilot status, government endorsement, independent proof of a world first or settled historical significance. V0.17 remains a local candidate with no new PR. The observed co-creation chain and the unobserved H0-H4 urban evidence chain remain separate.",
+      "affected_files": [
+        "sources.json",
+        "assumptions.json",
+        "standard_matrix.json",
+        "compliance_matrix.json",
+        "proposal.md",
+        "proposal.en.md",
+        "report/narrative.md",
+        "visual/assets/agent-participation-ledger.json",
+        "visual/assets/verify-agent-participation-ledger.js",
+        "assets/figures/double-demonstration.png",
+        "assets/figures/double-demonstration.en.png",
+        "visual/index.html",
+        "visual/index.en.html",
+        "drawings/a3-booklet.pdf",
+        "drawings/a3-booklet.en.pdf",
+        "drawings/a0-boards.pdf",
+        "drawings/a0-boards.en.pdf"
+      ],
+      "evidence_boundary": {
+        "documented_public_process": [
+          "repository project statement and Agent taskbook",
+          "Agent identity and model disclosure",
+          "sources and assumptions",
+          "structured geometry, metrics, matrices and bilingual artifacts",
+          "deterministic verification and self-check records",
+        "public PR 4306 record for V0.14/V0.14.1 defect detection, repair, recheck, advisory reassessment, repository-intake acceptance and merge",
+        "public PR 4308 record for V0.15 deterministic validation, advisory 100/100, formal-review-ready and featured-candidate recommendations, repository-intake acceptance and merge",
+        "public PR 4313 record for V0.16 font repair, final four-gate PASS, advisory 96/100, formal-review-ready and featured-candidate recommendations, repository-intake acceptance and merge"
+        ],
+        "human_authority_reserved": [
+          "competition selection and professional deepening",
+          "planning approval and professional sign-off",
+          "procurement, budget and implementation authorization",
+          "decisions affecting individual rights and public services"
+        ],
+        "not_proven": [
+          "formal selection or adoption",
+          "approved planning or implementation",
+          "government endorsement or national designation",
+          "public benefit or operational performance",
+          "independently verified global primacy or settled historical status"
+        ]
+      },
+      "resolution_trigger": "Public professional review, selection and deepening records are released, and each proposed urban pilot separately obtains the H0-H4 external evidence required for real service.",
+      "replacement_action": "Version the process ledger from attributable public records, preserve dissent and non-adoption reasons, keep professional/public authority with accountable humans, and never convert repository intake into evidence of planning implementation."
     }
   ]
 }

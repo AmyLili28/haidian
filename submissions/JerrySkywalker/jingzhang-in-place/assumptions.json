@@ -19,8 +19,8 @@
       "id": "A-GEOMETRY-002",
       "status": "known_context_mismatch",
       "statement": "The provisional south key-area rectangle is materially displaced from the contextual Dazhongsi station anchor.",
-      "impact": "South work remains a typological grade-separated station-city field, never a parcel or station-corner plan.",
-      "closure": "Use official key-area geometry and surveyed exits before precise design."
+      "impact": "South work remains a typological grade-separated station-city field, never a parcel or station-corner plan; four-quadrant connectivity is structured as a conceptual design organization around verified station access (Line 13 Exits A/B, Line 12 Exits D/E) and contextual street interfaces.",
+      "closure": "Reconcile provisional geometry with verified station access (Line 13 Exits A/B, Line 12 Exits D/E) and official key-area polygons before detailed design delivery."
     },
     {
       "id": "A-BUILDING-001",
@@ -77,6 +77,48 @@
       "statement": "No named organization, carrier, model, dataset, operator or partnership is committed to the three bounded AI task packets.",
       "impact": "AI spaces are reversible typologies with NO-BUILD outcomes, not promised facilities or endorsements.",
       "closure": "Confirm task owner, authorization, minimum resource, qualified review, carrier and exit agreement."
+    },
+    {
+      "id": "A-AUTHORITY-001",
+      "status": "statutory_and_operational_roles_must_be_confirmed",
+      "statement": "The taskbook establishes a concept boundary but does not appoint a local operator, reviewer, safety lead, owner, approval body or legal stop authority for any scenario.",
+      "impact": "Role names in the proposal are proposed operational role types; they are not statutory facts or appointments.",
+      "closure": "Confirm rights-holder, operator and statutory/professional responsibilities before any field-facing activity."
+    },
+    {
+      "id": "A-FUNDING-001",
+      "status": "funding_mechanism_options_only",
+      "statement": "No budget, grant, investor, procurement route, public-funding promise or cost approval is provided for the proposed operational cycle or spatial deltas.",
+      "impact": "The proposal presents only conditional funding mechanism options and removes delivery cost claims.",
+      "closure": "Confirm an authorized budget path and the responsible rights-holder/operator before procurement or delivery."
+    },
+    {
+      "id": "A-READINESS-001",
+      "status": "participant_package_complete_ready_for_g1_external_verification_external_releases_hold",
+      "statement": "The participant-authored pre-feasibility and professional handoff package is complete for G1 external verification: it contains unpriced quantities, role-hour effort, relative sensitivities, lifecycle/exit allowance, a null-date dependency programme, gate-addressed recipients, competence/cadence/procurement controls, and measurable layered acceptance.",
+      "impact": "PARTICIPANT_PRE_FEASIBILITY_PACKAGE_COMPLETE, PROFESSIONAL_HANDOFF_COMPLETE, READY_FOR_G1_EXTERNAL_VERIFICATION and NEXT_DECISION_PACKAGE_COMPLETE are true only within participant scope. EXTERNAL_RELEASES_OPEN=false and P0_GO=false; no scenario is field-ready, approved, funded, commissioned, operational, or task-authorized.",
+      "closure": "G1 and later gates require applicable survey, rights/access evidence, authorized role assignment, qualified professional acceptance, field observation, market/budget/funding evidence, approval, and supervised commissioning/reset before any physical session."
+    },
+    {
+      "id": "A-QUANT-001",
+      "status": "participant_reference_unpriced_relative_sensitivity_only",
+      "statement": "The 12 unpriced lots, 20/26/38 role-hour cases, CAPEX indices 0.82/1.00/1.48, OPEX indices 0.74/1.00/1.62, and exit-reserve indices 0.10/0.18/0.30 are participant planning references normalized to a reference case, not market or monetary facts.",
+      "impact": "They make quantity, effort, lifecycle, storage/transport, inspection, maintenance, replacement, and restoration drivers comparable without creating CNY totals, quotations, budgets, funding, staffing appointments, operator capacity, or liability discharge.",
+      "closure": "Recalculate only after a verified carrier/task, professionally accepted specification, real quantities, authorized cadence, applicable scope/date/location-matched quotations, and observed maintenance/failure conditions exist."
+    },
+    {
+      "id": "A-DELIVERY-001",
+      "status": "participant_delivery_controls_complete_external_execution_hold",
+      "statement": "The nine-stage dependency programme, 13 gate-addressed recipient types, 10 competence rows, six cadence classes, six-step unpriced procurement path, and 16-item acceptance ledger are complete participant-authored controls; actual dates, assignments, professional results, field results, and authorizations remain null or HOLD_EXTERNAL.",
+      "impact": "DP-00 is complete in participant scope and DP-01 is ready to receive external verification. DP-02 through DP-08 do not start, procurement does not open, and P0 does not activate until their real entry evidence closes without contradiction.",
+      "closure": "Future authorized roles must populate the same-scope dated ledger with real evidence; any absence, expiry, conflict, failed check, or incomplete restoration preserves HOLD/NO-GO/QUARANTINED."
+    },
+    {
+      "id": "A-P0-S01-001",
+      "status": "design_assumption_with_external_holds",
+      "statement": "The 12 m x 9 m zero-coordinate S01 P0 envelope, its role positions, components and session cap are a participant-authored conceptual reference only.",
+      "impact": "It does not establish a site, carrier, clearance, egress, loading, anchorage, utility capacity, code compliance, approved operation, cost, budget or field performance.",
+      "closure": "A future rights-holder, qualified professionals and field observation must independently confirm carrier, access, safety, accessibility, capacity, roles, stop/reset rehearsal and ordinary-baseline restoration before any physical test is considered."
     }
   ]
 }

@@ -115,11 +115,14 @@
         "submissions/lqqk7/every-sense-jingzhang/report/proposal.html",
         "submissions/lqqk7/every-sense-jingzhang/risk.json",
         "submissions/lqqk7/every-sense-jingzhang/self_check.json",
+        "submissions/lqqk7/every-sense-jingzhang/simulation.json",
         "submissions/lqqk7/every-sense-jingzhang/sources.json",
         "submissions/lqqk7/every-sense-jingzhang/standard_matrix.json",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/alignment-reference.json",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/braille-core-statement.json",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/changelog-archive.json",
+        "submissions/lqqk7/every-sense-jingzhang/visual/assets/cjk-webfont-provenance.json",
+        "submissions/lqqk7/every-sense-jingzhang/visual/assets/cjk-webfont.css",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/concept-design-register.json",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/district-strategy.json",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/ethics-protocol.json",
@@ -151,6 +154,7 @@
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/seb-change-receipt-v03.json",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/seb-change-receipt-v04.json",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/seb-change-receipt-v05.json",
+        "submissions/lqqk7/every-sense-jingzhang/visual/assets/seb-crosscheck-run.js",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/seb-license-grant.json",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/seb-op04-90day-pack.json",
         "submissions/lqqk7/every-sense-jingzhang/visual/assets/seb-op04-chain-data.json",
@@ -175,7 +179,7 @@
       "ai_package_stages": {
         "submissions/lqqk7/every-sense-jingzhang": "formal"
       },
-      "total_bytes": 41639798,
+      "total_bytes": 41915211,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -234,7 +238,7 @@
       "issues": [],
       "metrics_seen": {
         "site_area_sqm": 11412825.386,
-        "building_footprint_area_sqm": 372890.97,
+        "building_footprint_area_sqm": 372890.968,
         "green_ratio": 0.213097,
         "public_space_ratio": 0.181781,
         "scenario_card_count": 16.0,
@@ -257,7 +261,7 @@
       "summary": {
         "standard_matrix_items": 9,
         "design_depth_items": 15,
-        "known_metric_refs_required": 35,
+        "known_metric_refs_required": 39,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {

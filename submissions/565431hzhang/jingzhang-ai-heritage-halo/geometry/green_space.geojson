@@ -14,12 +14,7 @@
         "green_type": "park_green",
         "name_zh": "遗址公园服务绿脊(南段)",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "S",
-        "serves_wing": "M",
-        "serves_clusters": [
-          "SM"
-        ],
-        "block_id": "BLOCK-SM"
+        "eco_function": "南北生态主轴(大钟寺段)"
       },
       "geometry": {
         "type": "Polygon",
@@ -61,12 +56,7 @@
         "green_type": "park_green",
         "name_zh": "遗址公园服务绿脊(中段)",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "C",
-        "serves_wing": "M",
-        "serves_clusters": [
-          "CM"
-        ],
-        "block_id": "BLOCK-CM"
+        "eco_function": "南北生态主轴(原点段)"
       },
       "geometry": {
         "type": "Polygon",
@@ -108,12 +98,7 @@
         "green_type": "park_green",
         "name_zh": "遗址公园服务绿脊(北段)",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "N",
-        "serves_wing": "M",
-        "serves_clusters": [
-          "NM"
-        ],
-        "block_id": "BLOCK-NM"
+        "eco_function": "南北生态主轴(众智园段)"
       },
       "geometry": {
         "type": "Polygon",
@@ -155,12 +140,7 @@
         "green_type": "community_park",
         "name_zh": "西侧社区公园A",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "S",
-        "serves_wing": "W",
-        "serves_clusters": [
-          "SW"
-        ],
-        "block_id": "BLOCK-SW"
+        "eco_function": "西侧社区生态节点"
       },
       "geometry": {
         "type": "Polygon",
@@ -202,12 +182,7 @@
         "green_type": "community_park",
         "name_zh": "西侧社区公园B",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "S",
-        "serves_wing": "W",
-        "serves_clusters": [
-          "SW"
-        ],
-        "block_id": "BLOCK-SW"
+        "eco_function": "西侧社区生态节点"
       },
       "geometry": {
         "type": "Polygon",
@@ -249,12 +224,7 @@
         "green_type": "community_park",
         "name_zh": "西侧社区公园C",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "C",
-        "serves_wing": "W",
-        "serves_clusters": [
-          "CW"
-        ],
-        "block_id": "BLOCK-CW"
+        "eco_function": "西侧社区生态节点"
       },
       "geometry": {
         "type": "Polygon",
@@ -296,12 +266,7 @@
         "green_type": "community_park",
         "name_zh": "东侧社区公园A",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "S",
-        "serves_wing": "E",
-        "serves_clusters": [
-          "SE"
-        ],
-        "block_id": "BLOCK-SE"
+        "eco_function": "东侧社区生态节点"
       },
       "geometry": {
         "type": "Polygon",
@@ -343,12 +308,7 @@
         "green_type": "community_park",
         "name_zh": "东侧社区公园B",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "C",
-        "serves_wing": "E",
-        "serves_clusters": [
-          "CE"
-        ],
-        "block_id": "BLOCK-CE"
+        "eco_function": "东侧社区生态节点"
       },
       "geometry": {
         "type": "Polygon",
@@ -390,12 +350,7 @@
         "green_type": "community_park",
         "name_zh": "东侧社区公园C",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "N",
-        "serves_wing": "E",
-        "serves_clusters": [
-          "NE"
-        ],
-        "block_id": "BLOCK-NE"
+        "eco_function": "东侧社区生态节点"
       },
       "geometry": {
         "type": "Polygon",
@@ -437,12 +392,7 @@
         "green_type": "community_park",
         "name_zh": "东侧社区公园D",
         "ecological_status": "concept_pending_flood_ecology_review",
-        "serves_zone": "N",
-        "serves_wing": "E",
-        "serves_clusters": [
-          "NE"
-        ],
-        "block_id": "BLOCK-NE"
+        "eco_function": "东侧社区生态节点"
       },
       "geometry": {
         "type": "Polygon",

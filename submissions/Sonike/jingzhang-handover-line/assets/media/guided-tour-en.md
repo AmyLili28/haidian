@@ -1,20 +1,20 @@
 # Jing-Zhang Handover Line · three-minute guided tour (transcript and shot list)
 
-This video introduces no new claim: the audio track is identical to `audio-guide.m4a`, the captions match `guided-tour-en.vtt` sentence for sentence, and every frame comes from a figure already in the package. **Cuts are not evenly spaced but follow what the narration is saying** — F/03 while it describes the three handover yards, F/10 at the public handover table, F/05's 96-cell matrix when it reaches the refusal state of all twelve scenarios.
+This video introduces no new claim. **Three provenance statements need to be separated precisely.** (1) The audio track is the **same synthesised narration in the same alignment** as `audio-guide-en.m4a`, but the two are encoded independently, so the samples are not bit-identical — measured Pearson r = 0.999964 at zero offset, 0.5 s RMS envelope correlation 0.999997, mean absolute difference 17/32768, duration difference 2.9 ms; “identical” overstated it, so the measurement is given instead. (2) The captions match `guided-tour-en.vtt` sentence for sentence, and that file is **byte-identical** to `audio-guide-en.vtt` (same sha256) because it carries the same words. (3) **Not every frame comes from a figure already in the package**: body segments use F/01–F/05, F/10 and F/12 from the package, while the opening and closing segments (0–22.8 s and after 167 s, about 21% of the running time) use a **programmatic cover card** — same layout as `assets/media/cover.png` but **without the gpt-image-2 generated illustration background**, and not shipped as a file. **That permits a stronger statement: no generated image material appears anywhere in this video; every frame is programmatically rendered.** The English edition's cover card was in Chinese until 2026-08-22 and was replaced with the English one; this round stream-copies the audio again while replacing only two static intervals. **Cuts follow the narration rather than an even split** — F/05 for the current five-scale technical board, F/03 for the three yards, F/10 for the public handover table, and F/12's visible REFUSED / smart-layer-off ledger when the narration reaches refusal of all twelve scenarios.
 
 ## Shot list
 
 | Start | Frame | Note |
 | --- | --- | --- |
-| 0.0s–22.8s | `assets/media/cover.png` | 封面：一句话判据 |
-| 22.8s–42.0s | `assets/figures/metrics-evidence.en.png` | F/05 可复算指标与规则检查矩阵 |
+| 0.0s–22.8s | Programmatic cover card, English edition (same layout as `assets/media/cover.png` but **without the generated illustration background**; rendered by the video build step and **not shipped as a file**) | Cover: the one-line test |
+| 22.8s–42.0s | `assets/figures/metrics-evidence.en.png` | F/05 P0 five-scale technical board and field-evidence boundary |
 | 42.0s–48.8s | `assets/figures/site-overview.en.png` | F/01 总平面：一条交接线串起三座交接场 |
 | 48.8s–82.5s | `assets/figures/key-areas.en.png` | F/03 三座交接场放大平面 |
 | 82.5s–89.5s | `assets/figures/mobility-bluegreen.en.png` | F/04 一轴八缝与十二个接管点 |
 | 89.5s–127.7s | `assets/figures/spatial-prototype.en.png` | F/10 空间原型：公开交接桌 |
 | 127.7s–147.1s | `assets/figures/land-use-structure.en.png` | F/02 用地结构与临时边界 |
-| 147.1s–167.0s | `assets/figures/metrics-evidence.en.png` | F/05 十二个场景的拒收状态 |
-| 167.0s–176.5s | `assets/media/cover.png` | 封面：结语 |
+| 147.1s–167.0s | `assets/figures/shift-ledger.en.png` | F/12 visible REFUSED, smart-layer-off and not-executed boundary |
+| 167.0s–176.5s | Programmatic cover card, English edition (as above) | Cover: closing line |
 
 ## Transcript
 
@@ -59,7 +59,7 @@ This video introduces no new claim: the audio track is identical to `audio-guide
 
 **Licence.** This package carries the `COMMUNITY-DISPLAY-ONLY` identifier; the rights holders additionally grant that **any use complying with CC BY-NC 4.0 (attribution, non-commercial, changes indicated) is licensed**, and the attribution must carry the sentence "this proposal is open co-creation advice and represents no government decision or approval". This paragraph is identical to the risk-and-compliance section of `proposal.md` and to `report/copyright_statement.md`. The audio and video are locally synthesised and procedurally generated, and contain no real likeness, no real voice sample and no third-party material.
 
-## Short Alternative Text for the Five Core Figures
+## Short Alternative Text for the Six Core Figures
 
 For screen readers and plain-text environments. Each entry states four fixed things: the conclusion of the figure, the key numbers on it, the provisional nature of the boundary, and the conclusions that cannot be drawn from it. Alternative text differs from a caption: a caption explains how to read the figure, while alternative text gives someone who cannot see it the same judgement.
 
@@ -103,12 +103,32 @@ For screen readers and plain-text environments. Each entry states four fixed thi
 
 **Cannot be concluded from this figure.** Road redlines, engineering feasibility, or any dimension from the section.
 
-### F/05 The First Pilot Already Has a Reviewable Proof Chain (`assets/figures/metrics-evidence.en.png`)
+### F/05 The First Pilot Has a Recalculable Five-scale Technical Board (`assets/figures/metrics-evidence.en.png`)
 
-**Conclusion.** The seven-step proof chain from space to rollback has been replayed on the offline tabletop; the P0 Public Handover Table is made of six removable components.
+**Conclusion.** The P0 1:100 control plan, 1:50 capacity/queue/three-seat overlay, 1:20 two-face service interface, outside-in screening and restoration, together with reference capacity, roster, cost, maintenance/removal and four alternatives, now appear on one recalculable board. Its lower strip separately binds eleven implementation-plan classes and a six-step future cost method to the fallback gates; no alternative bypasses the eight gates.
 
-**Key numbers.** Offline tasks 12/12, takeover assertions 48/48, field tasks 0/12; twelve scenarios × four takeover checks; cost class S = removable equipment E + maintenance M + training T + independent verification V + 10% contingency.
+**Key numbers.** Five drawing scales from 1:500 to 1:20; four nested screens at 24→12→7.2→6 m; a 7.2 × 7.2 m control envelope, 6 × 6 m patch, eight public + three seats, queue stop at six, twelve removable component lines, IP01–IP11 mapped 11/11, six CST01–CST06 method steps, approximately CNY 0.12–0.29m/90 days and CNY 0.30–0.65m/year, four alternatives and an untested four-hour removal target; field 0/12, implementation-class external receipts zero, documentary-gate receipts 0/12, quotations 0/3, budget and insurance null.
 
-**Provisional boundary.** All of it is participant-controlled synthetic data and offline tabletop replay, touching no live service and using no personal information.
+**Provisional boundary.** Space, occupancy, rates and targets are participant concept-screening or sensitivity inputs. They touch no live service, use no personal information and provide no field, code, quotation or budget evidence.
 
-**Cannot be concluded from this figure.** Field safety, measured accessibility, public acceptance, or approval by a competent authority.
+**Cannot be concluded from this figure.** Site authorisation, statutory occupancy, market prices, insurance, professional sign-off, field safety, measured accessibility, public acceptance or approval by a competent authority.
+
+### F/06 From 1:500 Screening to a 1:20 Interface (`assets/figures/implementation-handoff.en.png`)
+
+**Conclusion.** Participant-controlled spatial screening, scaled drawings, projects, packages, modules, documentary gates, professional roles, conditional programme, unpriced quantities and handoff acceptance now form one transferable design-evidence chain; every action that depends on a real authorised party remains on HOLD.
+
+**Key numbers.** Four nested envelopes at 24 → 12 → 7.2 → 6 m; five drawings at 1:500, 1:200, 1:100, 1:50 and 1:20; four release states, nine projects, six delivery packages and eleven physical/operating modules; a separate IP01–IP11 map of eleven implementation-plan classes and six future CST01–CST06 cost steps; all twelve documentary gates on HOLD with zero receipts; twelve unappointed role classes; an unstarted T00–T11 fifteen-week conditional programme; sixteen derived quantity lines with no formal rate or amount; twelve handoff indicators, eight judgeable from the package and four reserved for future field evidence.
+
+**Provisional boundary.** The outer 24 m screen tests siting, rescue, conflict and adjacency only; it is neither a selected site nor a new-works extent. The inner dimensions are participant reference envelopes. Formal drawings, site, quantities and appointments await verification by future authorised professionals.
+
+**Cannot be concluded from this figure.** Site rights, named appointments, documentary receipts, real quotations or budget, insurance, professional sign-off, construction or opening, a started fifteen-week clock, or passed field acceptance.
+
+### F/07 Three Seats, Four People, Two Keys and a Future Baseline (`assets/figures/operational-readiness.en.png`)
+
+**Conclusion.** Without a real site, workload, release authority, package acceptance, failure fallback, commissioning/retirement and future sampling forms can still be calculated and frozen in advance. They are transferable design controls, not records of completed operation.
+
+**Key numbers.** 1,000 public hours × three seats = 3,000 staffed seat-hours; `3000 ÷ 1680 × 1.2 = 2.143 FTE`, with 3 planning FTE and minimum four-person break cover; two-key receipts 0/2; all six packages carry a quantity basis and acceptance test; four alternatives state advantages and named fallback gates; commissioning/retirement execution 0/8; the future field baseline spans five periods × seven forms, with authorised participants, observations and values all zero or null.
+
+**Provisional boundary.** FTE, headcount and uncovered-hour targets are participant roster assumptions. The two keys specify future roles. Commissioning checks and baseline forms are blank protocols. Labour rules, appointments, site conditions, professional acceptance and sampling methods require post-authorisation confirmation.
+
+**Cannot be concluded from this figure.** An assembled team, appointment receipts, completed commissioning, observed people, passed field acceptance, real quotations/budget/insurance or an opening approval.

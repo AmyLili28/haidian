@@ -1,0 +1,666 @@
+{
+  "schema_version": "1.0.0",
+  "register_id": "JZ-HANDOVER-IMPLEMENTATION-HANDOFF-01",
+  "title_zh": "京张交接线：从 1:500 到 1:20 的专业实施交接登记表",
+  "title_en": "Jing-Zhang Handover Line: professional implementation handoff from 1:500 to 1:20",
+  "claim_state": "PARTICIPANT_DESIGN_HANDOFF_READY",
+  "activation_state": "EXTERNAL_HOLD_NOT_STARTED",
+  "claim_zh": "本表只证明参赛者已经把概念方案拆成可复算、可拒收、可由专业团队接续的交付接口；它不是测绘、工程设计、正式工程量清单、询价、预算、任命、许可、施工、开放或现场绩效记录。",
+  "claim_en": "This register proves only that the participant concept has been decomposed into recalculable, rejectable handoff interfaces for future professionals. It is not a survey, engineering design, bill of quantities, quotation, budget, appointment, permit, construction, opening or field-performance record.",
+  "current_external_evidence": {
+    "official_siting_received": false,
+    "site_right_or_access_received": false,
+    "field_measurement_count": 0,
+    "documentary_gate_receipt_count": 0,
+    "named_role_appointment_count": 0,
+    "formal_unit_rate_receipt_count": 0,
+    "vendor_quote_count": 0,
+    "insurance_document_count": 0,
+    "approved_budget_cny": null,
+    "professional_signoff_count": 0,
+    "construction_or_opening_release_count": 0,
+    "field_task_count": 0,
+    "valid_two_key_receipt_count": 0,
+    "commissioning_execution_count": 0,
+    "future_baseline_observation_count": 0
+  },
+  "implementation_policy_basis": {
+    "status": "PARTICIPANT_MAPPING_COMPLETE_EXTERNAL_PROCEDURE_NOT_STARTED",
+    "source_refs": [
+      "BEIJING-URBAN-RENEWAL-IMPLEMENTATION-GUIDE-2024",
+      "BEIJING-URBAN-RENEWAL-JOINT-REVIEW-2024",
+      "BEIJING-COST-BASIS-2026",
+      "BEIJING-COST-INFORMATION-2026"
+    ],
+    "mapping_rule_zh": "京建发〔2024〕182号只用于把参赛者交接包按十一类实施方案内容重新编目；联合审查办法只解释未来文件门为何必须由有权主体和专业意见关闭；京建法〔2026〕1号及造价信息索引只定义未来正式计价方法。四项公开来源均不证明本项目已报审、获批、计价、采购、实施或开放。",
+    "mapping_rule_en": "The 2024 implementation guide is used only to re-index the participant handoff across eleven implementation-plan content classes; the joint-review measure explains why future documentary gates require authorised entities and professional opinions; the 2026 cost basis and cost-information index define only a future formal pricing method. None proves filing, approval, pricing, procurement, delivery or opening.",
+    "programme_level_module_count": 11,
+    "programme_level_modules_mapped_count": 11,
+    "programme_level_mapping_ratio": 1.0,
+    "external_module_receipt_count": 0,
+    "joint_review_file_number": null,
+    "appointed_coordinating_entity": null,
+    "appointed_implementation_entity": null
+  },
+  "implementation_scheme_module_register": [
+    {
+      "module_id": "IP01",
+      "title_zh": "项目基本信息",
+      "participant_input": "PJ01—PJ09、四级条件放行状态、临时范围与统一项目编号",
+      "future_external_receipt": "有权统筹主体、实施主体、项目范围、权利边界与正式项目编号",
+      "package_ids": ["WP01"],
+      "gate_ids": ["G01", "G02", "G03"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP02",
+      "title_zh": "前期评估",
+      "participant_input": "九类临时几何、资料分级、五级筛查链、现状未知清单与整包重绑定规则",
+      "future_external_receipt": "测绘、权属、逐栋、交通、市政、消防、文保、生态与授权现场基线",
+      "package_ids": ["WP01", "WP02"],
+      "gate_ids": ["G01", "G02", "G04", "G05"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP03",
+      "title_zh": "功能与公共价值",
+      "participant_input": "BUILD→VERIFY→SHARE→SERVE、十二场景、六类群体、无AI同任务与公共利益硬门",
+      "future_external_receipt": "权利人、运营者、服务对象代表与适用主管方共同确认的功能任务书",
+      "package_ids": ["WP02", "WP06"],
+      "gate_ids": ["G04", "G10", "G11"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP04",
+      "title_zh": "规划与空间落位",
+      "participant_input": "约9.5 km公共脊、八条联系、三座交接场、二十单元与1:500—1:20拒收链",
+      "future_external_receipt": "正式边界、控规、道路与轨道控制、站点关系、法定指标和专业空间复核",
+      "package_ids": ["WP01", "WP03"],
+      "gate_ids": ["G01", "G03", "G05", "G08"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP05",
+      "title_zh": "建筑、临时构筑与接口",
+      "participant_input": "三场概念剖面、P0 7.2×7.2 m控制区、6×6 m可撤面及2.4×1.2 m双面服务岛",
+      "future_external_receipt": "实测场地、既有建筑、结构、消防、无障碍、机电、市政、材料与耐久专业签认",
+      "package_ids": ["WP03", "WP05"],
+      "gate_ids": ["G05", "G06", "G07", "G08", "G12"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP06",
+      "title_zh": "土地与使用权",
+      "participant_input": "不改变权属的低干预原则、场地授权门、使用边界与恢复义务模板",
+      "future_external_receipt": "权属、租用或使用权文件、开放时段、占用边界及恢复责任",
+      "package_ids": ["WP01"],
+      "gate_ids": ["G01", "G02"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP07",
+      "title_zh": "未登记建筑与既有物核查",
+      "participant_input": "unknown清单与不拆、不改、不锚固、不把临时图当现状调查的停止规则",
+      "future_external_receipt": "逐栋调查、登记状态、结构安全、历史与文保核查及处置意见",
+      "package_ids": ["WP01", "WP03"],
+      "gate_ids": ["G01", "G03", "G05", "G07"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP08",
+      "title_zh": "资金、计价与采购",
+      "participant_input": "十六行未计价数量、90天与年度敏感性、三方询价槽、10%恢复储备规则与超支停止线",
+      "future_external_receipt": "冻结基准日的正式价格信息、市场询价、保险、正式概算、批准预算与资金承诺",
+      "package_ids": ["WP04"],
+      "gate_ids": ["G09", "G10"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP09",
+      "title_zh": "运营、维护与保险",
+      "participant_input": "三席四人、3000岗位小时、2.143→3 FTE、双钥匙、维护周期、投诉删除与退役规则",
+      "future_external_receipt": "具名运营者、劳动与值班安排、保险、持续预算、维护合同和两钥匙任命回执",
+      "package_ids": ["WP04", "WP06"],
+      "gate_ids": ["G10", "G11", "G12"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP10",
+      "title_zh": "条件时序与关闭",
+      "participant_input": "T00文件前提、T01—T11十五周参考链、PRE-D0—D90有限试点与S0—S3释放状态",
+      "future_external_receipt": "真实T0文件、批准进度、采购与加工回执、调试、开放、撤场和恢复关闭记录",
+      "package_ids": ["WP01", "WP05", "WP06"],
+      "gate_ids": ["G01", "G02", "G09", "G10", "G12"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    },
+    {
+      "module_id": "IP11",
+      "title_zh": "协商、共测与意见处理",
+      "participant_input": "五个区域条件接口、六类公共群体、24场未来共测下限、异议账与失败—修复—复测模板",
+      "future_external_receipt": "有权主体、区域对方、授权参与者、合理便利与独立评估的真实确认和回执",
+      "package_ids": ["WP02", "WP06"],
+      "gate_ids": ["G04", "G11", "G12"],
+      "status": "MAPPED_EXTERNAL_HOLD"
+    }
+  ],
+  "formal_cost_method": {
+    "status": "METHOD_MAPPED_FORMAL_PRICING_NOT_STARTED",
+    "method_source_refs": ["BEIJING-COST-BASIS-2026", "BEIJING-COST-INFORMATION-2026"],
+    "participant_sensitivity_source": "p0-pre-feasibility-envelope.json#participant_cost_sensitivity_90_day",
+    "formal_unit_rate_receipt_count": 0,
+    "comparable_vendor_quote_count": 0,
+    "required_comparable_vendor_quote_count": 3,
+    "formal_cost_information_period": null,
+    "formal_price_base_date": null,
+    "formal_estimate_cny": null,
+    "approved_budget_cny": null,
+    "funding_commitment_cny": null,
+    "method_steps": [
+      {
+        "step_id": "CST01",
+        "action_zh": "以授权测量冻结十六行数量、规格、单位与适用范围",
+        "current_state": "participant_unpriced_quantity_schedule_only",
+        "release_gate": "G02+G08+G09"
+      },
+      {
+        "step_id": "CST02",
+        "action_zh": "冻结正式价格基准日与造价信息期次，逐行登记来源",
+        "current_state": "null",
+        "release_gate": "G09"
+      },
+      {
+        "step_id": "CST03",
+        "action_zh": "取得三方同口径市场询价或等同可核依据并解释异常值",
+        "current_state": "0_of_3",
+        "release_gate": "G09"
+      },
+      {
+        "step_id": "CST04",
+        "action_zh": "分列工程量、直接价格、措施、管理、利润、税费与专业服务，不以一个系数吞并未知项",
+        "current_state": "template_only",
+        "release_gate": "G09"
+      },
+      {
+        "step_id": "CST05",
+        "action_zh": "把三席运营、维护、合理便利、保险与恢复储备同采购包一起闭合",
+        "current_state": "participant_sensitivity_only_insurance_null",
+        "release_gate": "G09+G10"
+      },
+      {
+        "step_id": "CST06",
+        "action_zh": "由有权主体批准总预算、持续预算、资金来源与超支停止线",
+        "current_state": "null",
+        "release_gate": "G09+G10"
+      }
+    ],
+    "boundary_zh": "公开计价政策只提供未来方法，不能验证本包任何参赛者费率。正式价格信息、市场询价、保险、概算、预算和资金承诺未到位时，WP04 与 G09—G10 保持 HOLD。",
+    "boundary_en": "Public cost policy supplies only a future method and validates none of the participant-set rates. WP04 and G09-G10 remain on HOLD until formal price information, market enquiries, insurance, estimate, budget and funding commitment exist."
+  },
+  "nested_scale_envelopes": {
+    "site_screening_window": {
+      "length_m": 24,
+      "width_m": 24,
+      "area_sqm": 576,
+      "status": "participant_orientation_screen_not_a_site",
+      "purpose_zh": "在候选位置周边同时筛查既有通行、两处开敞边、树木与遗产线索、装卸救援、照明排水和可撤场路径；不据此认定真实落位。",
+      "purpose_en": "Screens existing passage, two open edges, trees and heritage traces, loading/rescue, lighting/drainage and removal access around a candidate; it does not establish a real site."
+    },
+    "coordination_court": {
+      "length_m": 12,
+      "width_m": 12,
+      "area_sqm": 144,
+      "status": "participant_no_fixed_work_coordination_reserve",
+      "purpose_zh": "给排队分流、无 AI 旁路、两处回转、工作人员换班和撤场暂存留出协调余量；不是新增铺装或占地许可。",
+      "purpose_en": "Reserves coordination room for queue diversion, the no-AI bypass, two turning spaces, shift change and temporary removal staging; it is neither new paving nor an occupation permit."
+    },
+    "control_envelope": {
+      "length_m": 7.2,
+      "width_m": 7.2,
+      "area_sqm": 51.84,
+      "source": "p0-pre-feasibility-envelope.json#reference_spatial_envelope.screening_control_envelope"
+    },
+    "reversible_operating_patch": {
+      "length_m": 6,
+      "width_m": 6,
+      "area_sqm": 36,
+      "source": "p0-pre-feasibility-envelope.json#reference_spatial_envelope.reversible_operating_patch"
+    },
+    "binding_rule_zh": "四级尺寸只可由外向内筛选，不得把 6×6 m 桌面方案直接缩放到未知场地。24×24 m 或 12×12 m 条件失败时，必须切换 A1/A3 或 A0，不得压缩连续通行、回转、开口和人工服务。",
+    "binding_rule_en": "The four scales screen from outside inward; the 6×6 m table scheme may not be scaled directly onto an unknown site. If the 24×24 m or 12×12 m conditions fail, switch to A1/A3 or A0 rather than compressing continuous passage, turning, openings or staffed service."
+  },
+  "drawing_chain": [
+    {
+      "drawing_id": "D01",
+      "scale": "1:500",
+      "title_zh": "候选位置筛查",
+      "title_en": "candidate-position screen",
+      "checks": ["24×24 m context window", "existing public path", "two open edges", "loading/rescue approach", "tree/heritage/metro/utility conflict placeholders"],
+      "status": "participant_reference_not_surveyed"
+    },
+    {
+      "drawing_id": "D02",
+      "scale": "1:200",
+      "title_zh": "协调区与既有遮蔽关系剖面",
+      "title_en": "coordination court and existing-shelter relationship section",
+      "checks": ["12×12 m coordination reserve", "no-AI bypass", "weather fallback", "no permanent foundation", "remove-to-original-state rule"],
+      "status": "participant_reference_not_engineered"
+    },
+    {
+      "drawing_id": "D03",
+      "scale": "1:100",
+      "title_zh": "P0 控制平面",
+      "title_en": "P0 control plan",
+      "checks": ["7.2×7.2 m control", "6×6 m patch", "1.8 m clear loop", "two 1.8 m openings", "two Ø1.5 m turning spaces"],
+      "status": "participant_reference_not_compliance_plan"
+    },
+    {
+      "drawing_id": "D04",
+      "scale": "1:50",
+      "title_zh": "容量、队列与三席运营叠图",
+      "title_en": "capacity, queue and three-seat operating overlay",
+      "checks": ["8-public cap", "3 simultaneous role seats", "6-person queue stop", "two non-consumption seats", "smart-layer-off diversion"],
+      "status": "participant_operating_screen_not_observed"
+    },
+    {
+      "drawing_id": "D05",
+      "scale": "1:20",
+      "title_zh": "双面服务岛、停用与线缆接口",
+      "title_en": "two-face service island, stop and cable interface",
+      "checks": ["2.4×1.2 m unanchored island", "seated and standing approach", "reachable physical stop", "paper/tactile carrier", "protected removable cable and lighting"],
+      "status": "participant_interface_reference_not_product_detail"
+    }
+  ],
+  "technical_figure_binding": {
+    "surface_id": "F/05-v2.0-p0-technical-board-revision-20260831",
+    "figure_zh": "assets/figures/metrics-evidence.png",
+    "figure_en": "assets/figures/metrics-evidence.en.png",
+    "builder": "visual/assets/governance/build-p0-feasibility-figure.js",
+    "views": [
+      {
+        "view_id": "V01-control-plan",
+        "drawing_ids": ["D03"],
+        "source_paths": [
+          "p0-pre-feasibility-envelope.json#reference_spatial_envelope",
+          "p0-delivery-contract.json#component_schedule"
+        ],
+        "visible_checks": ["7.2×7.2 m control", "6×6 m patch", "two 1.8 m openings", "two Ø1.5 m turning spaces", "12 removable component lines"]
+      },
+      {
+        "view_id": "V02-operating-overlay",
+        "drawing_ids": ["D04"],
+        "source_paths": [
+          "p0-pre-feasibility-envelope.json#capacity_and_queue_screening",
+          "p0-pre-feasibility-envelope.json#reference_operating_roster"
+        ],
+        "visible_checks": ["8-public cap", "3 simultaneous role seats", "6-person queue stop", "two non-consumption seats", "smart-layer-off rule"]
+      },
+      {
+        "view_id": "V03-two-face-interface",
+        "drawing_ids": ["D05"],
+        "source_paths": [
+          "p0-pre-feasibility-envelope.json#reference_spatial_envelope.staffed_service_island",
+          "p0-delivery-contract.json#component_schedule"
+        ],
+        "visible_checks": ["2.4×1.2 m unanchored island", "seated and standing approach", "physical stop", "paper/tactile carrier", "removable cable interface"]
+      },
+      {
+        "view_id": "V04-screen-and-restore",
+        "drawing_ids": ["D01", "D02"],
+        "source_paths": [
+          "implementation-handoff-register.json#nested_scale_envelopes",
+          "p0-pre-feasibility-envelope.json#rollback_and_restoration",
+          "p0-pre-feasibility-envelope.json#participant_cost_sensitivity_90_day"
+        ],
+        "visible_checks": ["24→12→7.2→6 m outside-in screen", "36 sqm restoration surface", "10% restoration reserve", "4 h untested target", "90-day and annual participant sensitivities"]
+      },
+      {
+        "view_id": "V05-release-chain",
+        "drawing_ids": ["D01", "D02", "D03", "D04", "D05"],
+        "source_paths": [
+          "implementation-handoff-register.json#drawing_chain",
+          "implementation-handoff-register.json#implementation_policy_basis",
+          "implementation-handoff-register.json#implementation_scheme_module_register",
+          "implementation-handoff-register.json#formal_cost_method",
+          "implementation-handoff-register.json#alternative_gate_binding",
+          "implementation-handoff-register.json#documentary_release_gates"
+        ],
+        "visible_checks": ["five-scale refusal chain", "eleven implementation-plan classes mapped", "six-step future cost method", "four fallback alternatives", "G01–G12 remain HOLD", "two-key release remains closed"]
+      }
+    ],
+    "claim_boundary_zh": "F/05 是由包内数据确定性生成的参赛者参考技术图，不是测绘、施工图、消防或无障碍合规图、报价、专业签认、开工或开放批准。",
+    "claim_boundary_en": "F/05 is a deterministically generated participant reference technical drawing, not a survey, construction drawing, fire or accessibility compliance plan, quotation, professional sign-off, construction release or opening approval."
+  },
+  "capacity_and_open_edge_screen": {
+    "operational_public_cap_persons": 8,
+    "simultaneous_staff_positions": 3,
+    "operational_total_cap_persons": 11,
+    "queue_stop_persons": 6,
+    "opposed_opening_count": 2,
+    "opening_clear_width_m_each": 1.8,
+    "combined_opening_target_m": 3.6,
+    "control_envelope_half_diagonal_m": 5.091,
+    "half_diagonal_formula": "sqrt((7.2/2)^2 + (7.2/2)^2)",
+    "status": "participant_geometry_screen_not_statutory_occupancy_or_egress",
+    "hold_zh": "5.091 m 只是概念控制区中心至角点的几何距离，3.6 m 只是两处开口目标总宽；均不是疏散时间、出口能力、烟控、消防或法定人数结论。",
+    "hold_en": "5.091 m is only the geometric centre-to-corner distance of the concept control envelope and 3.6 m only the combined target width of two openings. Neither is an egress-time, exit-capacity, smoke-control, fire-safety or statutory-occupancy conclusion."
+  },
+  "release_states": [
+    {
+      "state_id": "S0_EVIDENCE_FREEZE",
+      "title_zh": "证据冻结与官方重绑定",
+      "status": "HOLD",
+      "release_condition": "G01-G04 receipts accepted",
+      "rollback": "retain provisional package and do not site P0"
+    },
+    {
+      "state_id": "S1_P0_HUMAN_FLOOR",
+      "title_zh": "SCN-05 人工底盘与可撤 P0",
+      "status": "HOLD",
+      "release_condition": "G01-G12 receipts accepted for the bounded P0",
+      "rollback": "A0 existing human floor; smart layer off"
+    },
+    {
+      "state_id": "S2_THREE_YARDS_AND_LINKS",
+      "title_zh": "三座交接场与八条联系的条件深化",
+      "status": "HOLD",
+      "release_condition": "P0 closeout accepted plus official geometry and professional coordinated design",
+      "rollback": "retain ordinary public path and reduce to lower-intervention modules"
+    },
+    {
+      "state_id": "S3_CORRIDOR_OPERATION_AND_RETIREMENT",
+      "title_zh": "走廊运营、年度演练与退役",
+      "status": "HOLD",
+      "release_condition": "named operator, sustained budget, annual rights review and renewal decision",
+      "rollback": "remove smart modules; preserve staffed and non-digital public floor"
+    }
+  ],
+  "delivery_projects": [
+    {"project_id": "PJ01", "title_zh": "官方底图与九类几何整包重绑定", "release_state": "S0_EVIDENCE_FREEZE", "status": "HOLD"},
+    {"project_id": "PJ02", "title_zh": "SCN-05 公开交接桌 P0", "release_state": "S1_P0_HUMAN_FLOOR", "status": "HOLD"},
+    {"project_id": "PJ03", "title_zh": "北部研制交接场受控验证界面", "release_state": "S2_THREE_YARDS_AND_LINKS", "status": "HOLD"},
+    {"project_id": "PJ04", "title_zh": "中部开源交接场协作界面", "release_state": "S2_THREE_YARDS_AND_LINKS", "status": "HOLD"},
+    {"project_id": "PJ05", "title_zh": "南部城市交接场有人服务界面", "release_state": "S2_THREE_YARDS_AND_LINKS", "status": "HOLD"},
+    {"project_id": "PJ06", "title_zh": "八条东西联系的连续通行与人工服务审核", "release_state": "S2_THREE_YARDS_AND_LINKS", "status": "HOLD"},
+    {"project_id": "PJ07", "title_zh": "二十个成对更新单元的低干预开闸", "release_state": "S2_THREE_YARDS_AND_LINKS", "status": "HOLD"},
+    {"project_id": "PJ08", "title_zh": "四季活动、年度交接账与公共申诉运营", "release_state": "S3_CORRIDOR_OPERATION_AND_RETIREMENT", "status": "HOLD"},
+    {"project_id": "PJ09", "title_zh": "智能构件退役、数据关闭与场地恢复", "release_state": "S3_CORRIDOR_OPERATION_AND_RETIREMENT", "status": "HOLD"}
+  ],
+  "delivery_packages": [
+    {
+      "package_id": "WP01",
+      "title_zh": "官方资料、权属与适用程序回执包",
+      "status": "HOLD",
+      "gate_ids": ["G01", "G02", "G03"],
+      "quantity_basis": "three release-critical documentary receipts plus an applicability index",
+      "acceptance_test": "independent cross-check of extent, site right, restoration duty and authority route"
+    },
+    {
+      "package_id": "WP02",
+      "title_zh": "授权现场、公共路径与权利基线包",
+      "status": "HOLD",
+      "gate_ids": ["G02", "G04", "G06", "G11"],
+      "quantity_basis": "five future observation periods x seven field forms x six required public groups",
+      "acceptance_test": "authorised, disaggregated and anonymised baseline index with zero missing consent or route records"
+    },
+    {
+      "package_id": "WP03",
+      "title_zh": "1:500—1:20 协同设计与独立专业复核包",
+      "status": "HOLD",
+      "gate_ids": ["G03", "G05", "G06", "G07", "G08"],
+      "quantity_basis": "five scaled drawings plus one coordinated interface and assumption-replacement register",
+      "acceptance_test": "same-source geometry, life-safety, accessibility, temporary-works and MEP interface review"
+    },
+    {
+      "package_id": "WP04",
+      "title_zh": "数量、询价、预算、采购、运营与保险包",
+      "status": "HOLD",
+      "gate_ids": ["G09", "G10"],
+      "quantity_basis": "sixteen unpriced lines, three comparable quote slots and one roster/cost sensitivity model",
+      "acceptance_test": "all rates trace to receipts; approved sustained budget, operator, maintenance, insurance and restoration reserve close together"
+    },
+    {
+      "package_id": "WP05",
+      "title_zh": "场外预装、现场装配与调试回执包",
+      "status": "HOLD",
+      "gate_ids": ["G05", "G06", "G07", "G08", "G12"],
+      "quantity_basis": "eleven implementation modules, asset labels and the two-opening/clear-loop screen",
+      "acceptance_test": "off-site configuration, protected assembly, continuous human floor and independently witnessed physical stop"
+    },
+    {
+      "package_id": "WP06",
+      "title_zh": "有限运营、独立评估、撤场与恢复关闭包",
+      "status": "HOLD",
+      "gate_ids": ["G10", "G11", "G12"],
+      "quantity_basis": "eight commissioning checks, one bounded co-test window and one complete removal/restoration closeout",
+      "acceptance_test": "two-key rollback, no-device same-task route, deletion receipt and four-hour removal target independently witnessed"
+    }
+  ],
+  "implementation_modules": [
+    {"module_id": "M01", "title_zh": "双面有人服务岛", "removable": true},
+    {"module_id": "M02", "title_zh": "连续无 AI／无设备通行环线", "removable": false},
+    {"module_id": "M03", "title_zh": "两处对向开敞边与分流", "removable": false},
+    {"module_id": "M04", "title_zh": "固定大字、形状编码与非数字导视", "removable": true},
+    {"module_id": "M05", "title_zh": "触觉图、易读卡与人工回读", "removable": true},
+    {"module_id": "M06", "title_zh": "物理停用、隔离与智能层清空", "removable": true},
+    {"module_id": "M07", "title_zh": "双联值班簿与投诉／删除回执", "removable": true},
+    {"module_id": "M08", "title_zh": "可撤线缆、低眩光照明与防绊", "removable": true},
+    {"module_id": "M09", "title_zh": "队列、陪同与非消费等候位", "removable": true},
+    {"module_id": "M10", "title_zh": "维护、耗材、备件与当班储存", "removable": true},
+    {"module_id": "M11", "title_zh": "撤场、恢复、资产与临时数据关闭", "removable": true}
+  ],
+  "documentary_release_gates": [
+    {"gate_id": "G01", "title_zh": "官方范围与可核底图", "maps_to_entry_gate": "site_authorisation", "required_receipt": "official extent/base receipt", "status": "HOLD", "receipt": null},
+    {"gate_id": "G02", "title_zh": "场地权利、边界、时段与恢复责任", "maps_to_entry_gate": "site_authorisation", "required_receipt": "signed site-right/access/restoration document", "status": "HOLD", "receipt": null},
+    {"gate_id": "G03", "title_zh": "规划、文保、轨道及适用程序", "maps_to_entry_gate": "fire_transport_utilities", "required_receipt": "applicability and authority-route matrix", "status": "HOLD", "receipt": null},
+    {"gate_id": "G04", "title_zh": "公共路径、使用者权利与现场基线", "maps_to_entry_gate": "co_testing_consent_accommodation", "required_receipt": "authorised rights and baseline record", "status": "HOLD", "receipt": null},
+    {"gate_id": "G05", "title_zh": "消防、救援、人数与开敞边复核", "maps_to_entry_gate": "fire_transport_utilities", "required_receipt": "qualified life-safety review", "status": "HOLD", "receipt": null},
+    {"gate_id": "G06", "title_zh": "无障碍路线、回转与合理便利复核", "maps_to_entry_gate": "safety_accessibility", "required_receipt": "qualified accessibility review", "status": "HOLD", "receipt": null},
+    {"gate_id": "G07", "title_zh": "临时构件、稳定、固定与撤除复核", "maps_to_entry_gate": "safety_accessibility", "required_receipt": "temporary-works/structure review", "status": "HOLD", "receipt": null},
+    {"gate_id": "G08", "title_zh": "用电、照明、通信、排水、交通与线缆接口", "maps_to_entry_gate": "fire_transport_utilities", "required_receipt": "coordinated MEP/utility/movement review", "status": "HOLD", "receipt": null},
+    {"gate_id": "G09", "title_zh": "数量、三方询价、批准预算与采购路径", "maps_to_entry_gate": "cost_quotes_sustained_budget", "required_receipt": "approved budget and procurement route", "status": "HOLD", "receipt": null},
+    {"gate_id": "G10", "title_zh": "具名运营、排班、维护、保险与持续资金", "maps_to_entry_gate": "insurance_maintenance", "required_receipt": "signed operator/insurance/maintenance package", "status": "HOLD", "receipt": null},
+    {"gate_id": "G11", "title_zh": "数据最小化、同意、异议、删除与公众决定", "maps_to_entry_gate": "data_minimisation_deletion", "required_receipt": "rights/data/consent/closure record", "status": "HOLD", "receipt": null},
+    {"gate_id": "G12", "title_zh": "装配、调试、开放、停用与恢复放行", "maps_to_entry_gate": "independent_roles", "required_receipt": "independent assembly/opening/removal release", "status": "HOLD", "receipt": null}
+  ],
+  "professional_role_classes": [
+    {"role_id": "R01", "role_class": "coordinating_client", "title_zh": "协调与委托主体", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R02", "role_class": "site_rights_holder", "title_zh": "场地权利与恢复责任主体", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R03", "role_class": "public_realm_planner", "title_zh": "公共空间与实施策划", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R04", "role_class": "survey_rebind_lead", "title_zh": "测绘与官方重绑定", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R05", "role_class": "temporary_architecture_lead", "title_zh": "建筑与可拆临时构件协同", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R06", "role_class": "life_safety_checker", "title_zh": "消防与生命安全独立复核", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R07", "role_class": "accessibility_cotest_lead", "title_zh": "无障碍与真实共测主持", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R08", "role_class": "mep_utility_movement_interface", "title_zh": "机电、市政与交通接口", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R09", "role_class": "quantity_procurement_lead", "title_zh": "工程量、造价与采购", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R10", "role_class": "operator_maintenance_insurance_lead", "title_zh": "运营、维护与保险", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R11", "role_class": "data_rights_dissent_steward", "title_zh": "数据、权利与异议管理员", "appointment_status": "unappointed", "named_party": null},
+    {"role_id": "R12", "role_class": "independent_commissioning_closeout_panel", "title_zh": "独立调试、开放与关闭小组", "appointment_status": "unappointed", "named_party": null}
+  ],
+  "conditional_programme": {
+    "programme_id": "JZ-P0-CONDITIONAL-15W",
+    "reference_duration_weeks": 15,
+    "absolute_start_date": null,
+    "t0_achieved_at": null,
+    "clock_status": "NOT_STARTED_EXTERNAL_HOLD",
+    "tasks": [
+      {"task_id": "T00", "title_zh": "核对程序、任命与前置文件，声明文件 T0", "week_window": "before W1", "gate_ids": ["G01", "G02", "G03"], "accountable_role_id": "R01", "site_action": false, "status": "HOLD"},
+      {"task_id": "T01", "title_zh": "官方几何重绑定与获准现场测绘", "week_window": "W1-W2", "gate_ids": ["G01", "G02", "G03"], "accountable_role_id": "R04", "site_action": true, "status": "HOLD"},
+      {"task_id": "T02", "title_zh": "公共路径、权利、无障碍与服务基线", "week_window": "W3-W4", "gate_ids": ["G02", "G04", "G06", "G11"], "accountable_role_id": "R07", "site_action": true, "status": "HOLD"},
+      {"task_id": "T03", "title_zh": "冻结经测绘复核的 P0 设计依据", "week_window": "W5", "gate_ids": ["G01", "G02", "G03", "G04"], "accountable_role_id": "R03", "site_action": false, "status": "HOLD"},
+      {"task_id": "T04", "title_zh": "完成 1:500—1:20 协同图纸与接口表", "week_window": "W5-W6", "gate_ids": ["G05", "G06", "G07", "G08"], "accountable_role_id": "R05", "site_action": false, "status": "HOLD"},
+      {"task_id": "T05", "title_zh": "完成消防、无障碍、结构、机电与交通独立复核", "week_window": "W6-W7", "gate_ids": ["G05", "G06", "G07", "G08"], "accountable_role_id": "R12", "site_action": false, "status": "HOLD"},
+      {"task_id": "T06", "title_zh": "替换参赛者数量表并发出同口径询价", "week_window": "W7-W8", "gate_ids": ["G09"], "accountable_role_id": "R09", "site_action": false, "status": "HOLD"},
+      {"task_id": "T07", "title_zh": "关闭预算、采购、运营、维护与保险交接", "week_window": "W8-W9", "gate_ids": ["G09", "G10", "G11"], "accountable_role_id": "R01", "site_action": false, "status": "HOLD"},
+      {"task_id": "T08", "title_zh": "场外预装、构件编号与工厂验收", "week_window": "W9-W10", "gate_ids": ["G07", "G08", "G09", "G10"], "accountable_role_id": "R05", "site_action": false, "status": "HOLD"},
+      {"task_id": "T09", "title_zh": "保护现场、装配 P0 并检查连续人工底盘", "week_window": "W11", "gate_ids": ["G02", "G05", "G06", "G07", "G08", "G12"], "accountable_role_id": "R12", "site_action": true, "status": "HOLD"},
+      {"task_id": "T10", "title_zh": "调试后开展有界、可退出的 24 场共测窗口", "week_window": "W12-W14", "gate_ids": ["G02", "G06", "G10", "G11", "G12"], "accountable_role_id": "R10", "site_action": true, "status": "HOLD"},
+      {"task_id": "T11", "title_zh": "继续／修复／终止决策，撤除并恢复关闭", "week_window": "W15", "gate_ids": ["G02", "G10", "G11", "G12"], "accountable_role_id": "R12", "site_action": true, "status": "HOLD"}
+    ]
+  },
+  "unpriced_quantity_schedule": {
+    "schedule_type": "participant_design_reference_not_formal_boq",
+    "currency": "CNY",
+    "formal_quantity_survey": null,
+    "formal_estimate_cny": null,
+    "rate_source_receipt_count": 0,
+    "lines": [
+      {"line_id": "Q00", "scope_zh": "场地筛查窗口", "quantity": 576, "unit": "sqm", "derivation": "24×24", "construction_quantity": false, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q01", "scope_zh": "无固定工程协调区", "quantity": 144, "unit": "sqm", "derivation": "12×12", "construction_quantity": false, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q02", "scope_zh": "P0 控制包络", "quantity": 51.84, "unit": "sqm", "derivation": "7.2×7.2", "construction_quantity": false, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q03", "scope_zh": "可撤工作面与恢复面", "quantity": 36, "unit": "sqm", "derivation": "6×6", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q04", "scope_zh": "无锚固双面服务岛", "quantity": 2.88, "unit": "sqm", "derivation": "2.4×1.2", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q05", "scope_zh": "两处开口目标总净宽", "quantity": 3.6, "unit": "linear_m", "derivation": "2×1.8", "construction_quantity": false, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q06", "scope_zh": "轮椅回转位置", "quantity": 2, "unit": "count", "derivation": "two Ø1.5 m design reserves", "construction_quantity": false, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q07", "scope_zh": "双面服务面", "quantity": 2, "unit": "count", "derivation": "two-face island", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q08", "scope_zh": "非消费等候座位", "quantity": 2, "unit": "count", "derivation": "component schedule P0-C10", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q09", "scope_zh": "同时在岗角色席位", "quantity": 3, "unit": "seat", "derivation": "outgoing + incoming + independent dissent", "construction_quantity": false, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q10", "scope_zh": "固定导视牌", "quantity": 4, "unit": "count", "derivation": "component schedule P0-C06", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q11", "scope_zh": "单任务易读卡", "quantity": 24, "unit": "count", "derivation": "component schedule P0-C05", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q12", "scope_zh": "触觉与高对比路线图", "quantity": 1, "unit": "set", "derivation": "component schedule P0-C03", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q13", "scope_zh": "物理停用控件", "quantity": 1, "unit": "set", "derivation": "component schedule P0-C07", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q14", "scope_zh": "可撤线缆、照明与撤场包", "quantity": 1, "unit": "set", "derivation": "component schedule P0-C11 + P0-C12", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null},
+      {"line_id": "Q15", "scope_zh": "撤除、地面恢复与复测", "quantity": 36, "unit": "sqm", "derivation": "same 6×6 reversible patch", "construction_quantity": true, "field_verified_quantity": null, "unit_rate_cny": null, "amount_cny": null}
+    ],
+    "line_invariant": "Every line has field_verified_quantity=null, unit_rate_cny=null and amount_cny=null until authorised survey, formal measurement and rate receipts are obtained."
+  },
+  "handoff_acceptance_indicators": [
+    {"indicator_id": "A01", "title_zh": "四级包络算术一致", "judgeable_now": true, "current_result": "PASS_PARTICIPANT_ARITHMETIC", "field_result": null},
+    {"indicator_id": "A02", "title_zh": "五张分尺度图引用同一数据源", "judgeable_now": true, "current_result": "PASS_REFERENCE_CHAIN", "field_result": null},
+    {"indicator_id": "A03", "title_zh": "两个开口、环线与回转不得被设备占用", "judgeable_now": true, "current_result": "PASS_DESIGN_RULE", "field_result": null},
+    {"indicator_id": "A04", "title_zh": "四个备选均绑定失败门且 A0 永远可回退", "judgeable_now": true, "current_result": "PASS_FALLBACK_BINDING", "field_result": null},
+    {"indicator_id": "A05", "title_zh": "9 项项目、6 包、11 模块具备唯一编号", "judgeable_now": true, "current_result": "PASS_PORTFOLIO_INDEX", "field_result": null},
+    {"indicator_id": "A06", "title_zh": "12 道外部门全部 HOLD、回执为空", "judgeable_now": true, "current_result": "PASS_EVIDENCE_BOUNDARY", "field_result": null},
+    {"indicator_id": "A07", "title_zh": "12 类角色全部未任命、无具名主体", "judgeable_now": true, "current_result": "PASS_APPOINTMENT_BOUNDARY", "field_result": null},
+    {"indicator_id": "A08", "title_zh": "16 行数量有推导且无正式单价金额", "judgeable_now": true, "current_result": "PASS_UNPRICED_SCHEDULE", "field_result": null},
+    {"indicator_id": "A09", "title_zh": "真实连续无障碍路线与两处开敞边实测", "judgeable_now": false, "current_result": "HOLD_FIELD", "field_result": null},
+    {"indicator_id": "A10", "title_zh": "消防、结构、机电、交通与无障碍专业签认", "judgeable_now": false, "current_result": "HOLD_PROFESSIONAL", "field_result": null},
+    {"indicator_id": "A11", "title_zh": "至少 24 场真实任务及服务等价共测", "judgeable_now": false, "current_result": "HOLD_FIELD", "field_result": null},
+    {"indicator_id": "A12", "title_zh": "四小时撤场、恢复与数据关闭真实复测", "judgeable_now": false, "current_result": "HOLD_FIELD", "field_result": null}
+  ],
+  "alternative_gate_binding": [
+    {
+      "alternative_id": "ALT-0_EXISTING_HUMAN_FLOOR",
+      "alternative_advantage_dimensions": ["lowest capital exposure", "no new site or temporary-work risk", "immediate service continuity"],
+      "fallback_gate_ids": ["ANY_APPLICABLE_GATE_HOLD"],
+      "gate_rule": "automatic fallback whenever any applicable gate remains HOLD",
+      "pilot_activation_allowed": false
+    },
+    {
+      "alternative_id": "ALT-1_MOBILE_CART",
+      "alternative_advantage_dimensions": ["smaller footprint", "lower component cost", "same-shift removal to existing storage"],
+      "fallback_gate_ids": ["G07", "G08"],
+      "gate_rule": "use only when the temporary-works or outdoor-interface route fails but every other applicable receipt closes; never bypass G02, G04-G06 or G09-G12",
+      "pilot_activation_allowed": true
+    },
+    {
+      "alternative_id": "ALT-2_PUBLIC_HANDOVER_TABLE_REFERENCE",
+      "alternative_advantage_dimensions": ["two-face parallel handover", "public visibility", "queue and dissent legibility"],
+      "fallback_gate_ids": [],
+      "gate_rule": "reference scheme requires all G01-G12 receipts",
+      "pilot_activation_allowed": true
+    },
+    {
+      "alternative_id": "ALT-3_BORROWED_INDOOR_ROOM",
+      "alternative_advantage_dimensions": ["weather continuity", "controlled lighting", "secure storage"],
+      "fallback_gate_ids": ["G08"],
+      "gate_rule": "use when the outdoor utility/weather interface cannot close, while retaining indoor G05/G06 review and every other applicable receipt",
+      "pilot_activation_allowed": true
+    }
+  ],
+  "maintenance_and_restoration_binding": {
+    "maintenance_source": "p0-pre-feasibility-envelope.json#maintenance_cycles",
+    "restoration_source": "p0-pre-feasibility-envelope.json#rollback_and_restoration",
+    "restoration_reserve_ratio": 0.1,
+    "same_day_removal_target_hours": 4,
+    "field_tested": false,
+    "opening_rule": "No approved and ring-fenced restoration reserve, maintenance roster or G10/G12 receipts means no assembly and no public opening."
+  },
+  "operating_roster_coverage": {
+    "simultaneous_role_seats": 3,
+    "public_open_hours_per_year": 1000,
+    "staffed_seat_hours_per_year": 3000,
+    "productive_hours_per_fte_year_assumption": 1680,
+    "leave_training_factor": 1.2,
+    "calculated_minimum_coverage_fte": 2.143,
+    "coverage_fte_formula": "3000 / 1680 * 1.2",
+    "planning_coverage_fte": 3,
+    "minimum_roster_headcount_for_break_cover": 4,
+    "target_uncovered_public_hours": 0,
+    "current_named_roster_headcount": 0,
+    "appointment_status": "HOLD_UNAPPOINTED",
+    "hold_rule": "Three seats, the relief plan and both future keys must be present for every smart-layer window; otherwise the smart layer remains off and the existing staffed human floor continues."
+  },
+  "two_key_release_control": {
+    "required_key_count": 2,
+    "current_valid_key_receipt_count": 0,
+    "current_status": "HOLD_UNAPPOINTED",
+    "independent_release_role_id": "R12",
+    "keys": [
+      {
+        "key_id": "K-SERVICE-CONTINUITY",
+        "future_holder_role_id": "R10",
+        "purpose": "verify staffed human-floor continuity, shift coverage, maintenance and operational rollback",
+        "current_named_holder": null,
+        "appointment_receipt": null
+      },
+      {
+        "key_id": "K-RIGHTS-SAFETY-VETO",
+        "future_holder_role_id": "R11",
+        "purpose": "independently veto unsafe, inaccessible, coercive, over-collecting or unreceipted operation",
+        "current_named_holder": null,
+        "appointment_receipt": null
+      }
+    ],
+    "release_rule": "Both valid independent key receipts plus the R12 opening receipt are required; one missing or one veto keeps smart_layer=off."
+  },
+  "commissioning_and_decommissioning_checks": [
+    {"check_id": "C01", "title_zh": "场外配置、构件编号与备件资产表", "site_action": false, "current_status": "HOLD_UNEXECUTED", "receipt": null},
+    {"check_id": "C02", "title_zh": "获准装配、两处开口与连续环线检查", "site_action": true, "current_status": "HOLD_UNEXECUTED", "receipt": null},
+    {"check_id": "C03", "title_zh": "三席在岗、四人轮休与零漏班演练", "site_action": true, "current_status": "HOLD_UNEXECUTED", "receipt": null},
+    {"check_id": "C04", "title_zh": "无需设备的同任务人工路线与合理便利", "site_action": true, "current_status": "HOLD_UNEXECUTED", "receipt": null},
+    {"check_id": "C05", "title_zh": "双钥匙停用、断电、接管与回滚演练", "site_action": true, "current_status": "HOLD_UNEXECUTED", "receipt": null},
+    {"check_id": "C06", "title_zh": "临时记录删除、投诉与关闭回执核对", "site_action": true, "current_status": "HOLD_UNEXECUTED", "receipt": null},
+    {"check_id": "C07", "title_zh": "队列、开口、导视与异常时段压力检查", "site_action": true, "current_status": "HOLD_UNEXECUTED", "receipt": null},
+    {"check_id": "C08", "title_zh": "完整撤除、地面恢复与人工底盘再开放", "site_action": true, "current_status": "HOLD_UNEXECUTED", "receipt": null}
+  ],
+  "future_field_baseline_protocol": {
+    "periods": ["ordinary_public_window", "shift_change_peak", "rain_heat_or_cold", "low_light_or_night", "digital_or_power_outage"],
+    "required_public_groups": ["residents", "youth_talent", "enterprises", "universities", "visitors", "marginalized_groups"],
+    "forms": ["continuous_route_and_openings", "queue_wait_and_diversion", "no_ai_same_task", "accessibility_and_assistance", "complaint_stop_delete_receipt", "shift_maintenance_and_spares", "removal_restoration_and_reopen"],
+    "authorised_participant_count": 0,
+    "field_observation_count": 0,
+    "values": null,
+    "publication_rule": "No field claim without written authority, method, group coverage, anonymised receipt, failure record and independent review."
+  },
+  "recalculation_invariants": [
+    "24×24=576",
+    "12×12=144",
+    "7.2×7.2=51.84",
+    "6×6=36",
+    "2.4×1.2=2.88",
+    "2×1.8=3.6",
+    "sqrt((7.2/2)^2+(7.2/2)^2)=5.091168...",
+    "release_states=4",
+    "delivery_projects=9",
+    "delivery_packages=6",
+    "implementation_modules=11",
+    "documentary_release_gates=12",
+    "professional_role_classes=12",
+    "conditional_tasks=12",
+    "unpriced_quantity_lines=16",
+    "handoff_acceptance_indicators=12",
+    "judgeable_now_indicators=8",
+    "3000/1680*1.2=2.142857...",
+    "planning_coverage_fte=3",
+    "minimum_roster_headcount=4",
+    "package_acceptance_tests=6",
+    "named_alternative_gate_bindings=4",
+    "two_key_controls=2",
+    "current_valid_key_receipts=0",
+    "commissioning_checks=8",
+    "commissioning_executed=0",
+    "future_baseline_periods=5",
+    "future_baseline_forms=7",
+    "future_baseline_observations=0"
+  ]
+}
