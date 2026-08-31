@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "package_id": "jz-openline",
   "project_id": "centennial-jingzhang-ai-belt",
   "site_package_version": "0.1.0",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "0fa57b5ef6ed7a62a2bdb062ce1f9183bf5171d421921b39daa3839e3ef7932d"
+      "sha256": "454730c039f72e31a9c7865eb4b995615526bda85f82228be20b1e61fed5388a"
     },
     {
       "path": "compliance_matrix.json",
@@ -287,9 +287,10 @@
     },
     {
       "path": "simulation.json",
-      "role": "simulation",
+      "role": "other",
       "required": false,
-      "sha256": "160e6fae853f103ea10bab08c604849e3831f3e6b6be6a5e46dc39c061f6d877"
+      "sha256": "160e6fae853f103ea10bab08c604849e3831f3e6b6be6a5e46dc39c061f6d877",
+      "role_detail": "simulation"
     },
     {
       "path": "assets/figures/build-sequence.png",
@@ -308,31 +309,35 @@
     },
     {
       "path": "assets/renders/park-commons.png",
-      "role": "design_rendering",
+      "role": "other",
       "required": false,
       "language": "neutral",
-      "sha256": "8794ecf4bb7efe2284d42167eaacedf4d07c322b3e102acbd76f936130fefdc0"
+      "sha256": "8794ecf4bb7efe2284d42167eaacedf4d07c322b3e102acbd76f936130fefdc0",
+      "role_detail": "design_rendering"
     },
     {
       "path": "assets/renders/origin-community.png",
-      "role": "design_rendering",
+      "role": "other",
       "required": false,
       "language": "neutral",
-      "sha256": "eb98cced6e4737856d15e168b656b2c712f7fcf81a76117dec539d9119a6e5fa"
+      "sha256": "eb98cced6e4737856d15e168b656b2c712f7fcf81a76117dec539d9119a6e5fa",
+      "role_detail": "design_rendering"
     },
     {
       "path": "assets/renders/test-yard.png",
-      "role": "design_rendering",
+      "role": "other",
       "required": false,
       "language": "neutral",
-      "sha256": "3f5a8bd04d13df1e60fde3fa7ede6855bc99a4ca2d97c6e069afaaac586f33c6"
+      "sha256": "3f5a8bd04d13df1e60fde3fa7ede6855bc99a4ca2d97c6e069afaaac586f33c6",
+      "role_detail": "design_rendering"
     },
     {
       "path": "assets/renders/dazhongsi-market.png",
-      "role": "design_rendering",
+      "role": "other",
       "required": false,
       "language": "neutral",
-      "sha256": "288931db8a7b21fbe2014c2197baa911ca154d2cd82ba36ea9948c13a5d80d70"
+      "sha256": "288931db8a7b21fbe2014c2197baa911ca154d2cd82ba36ea9948c13a5d80d70",
+      "role_detail": "design_rendering"
     },
     {
       "path": "assets/figures/typical-sections.png",
