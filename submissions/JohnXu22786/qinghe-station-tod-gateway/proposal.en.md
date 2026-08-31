@@ -24,11 +24,43 @@ The concept uses the public brief, public urban-design and land-use references, 
 
 Macro studies station/corridor interfaces; meso studies arrival, interchange, walking, industry services and community stitching; micro studies reversible pilots. The three zones/two wings are pending interfaces: Zhongzhi Park AI Accelerator, Beijing AI Origin Community, Dazhongsi AI Industry Cluster; Zhongguancun technology-service wing and Xiaoyue River scenario-enablement wing. Boundaries await official verification. The spatial–industry–operation loop is northern demand aggregation → Qinghe–Shangdi–Zhongguancun R&D/translation → three zones/two wings for scenarios, services and talent → east–west stitching and north–south continuity → public review. Jingzhang culture is a pending lead, not confirmed heritage.
 
+### Hierarchy: official three zones/two wings versus three concept nodes
+
+The taskbook objects and the station-level service carriers are deliberately separated. The three zones/two wings are the formal taskbook layer; the three nodes are concept anchors and do not rename, redraw or administratively reassign the formal objects.
+
+|Layer|Object|Role in this package|Boundary/status|
+|---|---|---|---|
+|Formal three zones|Beijing AI Origin Community; Zhongzhiyuan AI Autonomous Innovation Accelerator; Dazhongsi AI Industry Cluster|Life experience, innovation acceleration and industry-cluster interfaces|Names follow the taskbook; boundaries, tenure and existing industry await official verification|
+|Formal two wings|Zhongguancun Technology Service Wing; Xiaoyuehe Scenario Enablement Wing|Technology-service/translation and public-scenario/experience interfaces|No existing organization or data-sharing relationship is assumed|
+|Concept three nodes|Pivot Light Hall; Rail Pivot Platform; Pivot Commons|Arrival, interchange/testing and community operations in a One Station–One Pivot loop|Concept anchors only; not zones, new official districts or existing landmarks|
+
+The relationship is “formal zones/wings set interfaces → three nodes carry reversible services → scenario cards return to human review and annual review.”
+
 ## Coordination-scope industry and future-city research
 
 This is not an investment promise. The service chain is demand → open application → ethics/privacy/accessibility/safety/maintenance review → small pilot → review → attraction/conversion or exit. Eight resource classes record source, permission, cost, owner and stop condition: land/space, industry, funding, talent, compute, data, scenarios and professional services.
 
-Pending interface matrix: Qinghe–Shangdi–Zhongguancun (commuting/R&D/service/walking links to verify; demand, test space, talent events and anonymous aggregates; regional working group); Beiwei Community (bodies, service gaps and feeder demand to verify; resident and paper feedback; community council); Future Science City (industry/scenario/talent links to verify; applications and expertise; industry interface); Huairou Science City (research translation/facilities/mobility to verify; research demand and peer review; research interface); E-Town (manufacturing/application/supply chain to verify; industrial test objects and attraction leads; industry interface); Beijing–Tianjin–Hebei (cross-area talent/industry/transport to verify; events and peer review; regional task group). Every interface has a quarterly or annual review and no presumed data sharing.
+Pending interface matrix (each row is a two-way concept interface, not an existing partnership):
+
+|Interface|Fact to verify|Input/source level|AI/human action|Bilateral value|Owner/gate|Status|
+|---|---|---|---|---|---|---|
+|Qinghe–Shangdi–Zhongguancun|Commuting, R&D, service and walking links|Demand list, survey, anonymous aggregates; no individual traces|AI organizes needs/routes; regional group confirms|Qinghe gets service/test entry; partner gets auditable demand|Regional working group; verify body, authorization and safety quarterly|Pending|
+|Beiwei Community|Community body, service gaps, feeder demand|Resident topics, paper feedback, age-friendly tests|AI clusters topics; council keeps dissent verbatim|Community gets manual-service fixes; proposal gets usage feedback|Community council; human confirmation and complaints gate|Pending|
+|Future Science City|Industry, scenario and talent links|Public applications, service directory, event intent|AI proposes matches; interface lead checks facts/permission|Transferable test leads both ways|Industry interface; data boundary first|Pending|
+|Huairou Science City|Research translation, test conditions, mobility|Research demand, validation resources, peer review|AI organizes demand; experts decide entry|Research translation leads and city-test questions|Research interface; no presumed data sharing|Pending|
+|E-Town|Manufacturing, application and supply chain|Industrial test objects, public leads, maintenance conditions|AI drafts test list; industry lead checks safety/maintenance|Application validation and scenario/talent leads|Industry interface; application-only access|Pending|
+|Beijing–Tianjin–Hebei|Cross-area talent, industry and transport|Events, public cases, peer review; no default cross-area data|AI summarizes differences; task group peer-reviews|Comparative learning both ways|Regional task group; annual review|Pending|
+
+### agent.1–6 delivery index
+
+|Agent|Required output|Exact evidence location|
+|---|---|---|
+|agent.1|Concept/name/logo, three orientations/five functions, hierarchy and structure|Hierarchy table; focus-area response; `assets/figures/logo-update-hub.en.png`, `site-overview.en.png`; Table A1-1|
+|agent.2|Cases, ecosystem map, autonomous stack, two-wing interfaces and eight resources|Regional matrix; Table A2-1; `assets/figures/ecosystem-map.en.png`|
+|agent.3|≥10 cards, ≥3 protocols, personas and Xiaoyuehe experience|Table A3-1 and A3-2; inclusion matrix; Xiaoyuehe differentiated architecture|
+|agent.4|Public-space stitching, east-west/north-south continuity, Dazhongsi smart-native commerce and landmarks|Focus-area tables; inclusion matrix; `key-areas.en.png`, `mobility-bluegreen.en.png`|
+|agent.5|Cultural systems, wayfinding and international narrative|Design-basis cultural rule; rights section; bilingual outputs and copyright ledger|
+|agent.6|Annual events, brand IP, developer community, test/exit, international communication and conversion|Table A6-1 and A6-2; `metrics.json` annual_program_count=4|
 
 ## Overall urban-design and regulatory-depth study
 
@@ -66,6 +98,21 @@ Differentiated area AI architecture matrix (participant proposal, not an officia
 |Zhongzhiyuan|Shared test cell; park operator + developer community|Authorized compute/data dictionary/evaluation set → test script, subgroup-error report, paper brief|Data steward and experts sign off; unauthorized fields, drift or maintenance break stops and purges|
 |Dazhongsi|Commercial/business interface and Commons service unit; merchant/building operator|Anonymous interval counts, service requests and event applications → roster/event/wayfinding options|Merchant and resident representatives confirm; repeated complaints or equity failure withdraws|
 |Xiaoyue River|Blue-green candidate node; public-space operator + resident council|Paper feedback, observation, weather and access checks → experience route and maintenance list|Staff facilitator keeps dissent verbatim; unresolved safety, drainage or care gap means no opening|
+
+### Logo and wayfinding direction (original working mark; no official endorsement)
+
+|Element|Concept direction|Verification/use constraint|
+|---|---|---|
+|Core mark|`QPR`/Qinghe Pivot Realm: hub ring, sleeper rhythm and one data node for One Station–One Pivot and three-node stitching|Original package drawing; no imitation or borrowing of the overall “Yidai” logo; trademark/owner pending|
+|Construction|Outer ring=station-city public interface; 20 rhythm ticks=rail/time; center-to-diagonal node=demand-to-service interface|Fixed working geometry; not a registered mark claim|
+|Palette|Rail brick red `#9C1C1C`, tech blue `#0E7490`, AI pulse teal `#0F6E5B`; dark field with white type|Black/white version supplied; concept colours are not an institutional palette|
+|Type and bilingual use|Geometric sans; Qinghe Pivot Realm/RAIL.JZ and 清河枢境/站城融环 on one baseline|Local redistributable Noto Sans SC; no CJK left in English figures; license remains in rights ledger|
+|Minimum/avoid|Digital minimum 24 px high; print minimum 8 mm; ring+dot simplified below that|No stretch, gradient, government mark, endorsement implication or unlicensed commercial registration|
+|Wayfinding|Station/node signs, paper routes and event cards use dark field, white type and ring motif; each node adds name+functional subtitle|Reversible mock-up and contrast test before physical installation; see `logo-concept.en.png`|
+
+![](assets/figures/logo-update-hub.en.png)
+
+> The mark, node names and event hierarchy are working concepts only; trademark and ownership verification is incomplete.
 
 ## AI innovation ecosystem, talent and AI+ scenarios
 
