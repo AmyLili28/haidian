@@ -47,6 +47,13 @@
         "submissions/AmyLili28/living-manual/assets/identity/living-manual-mark.svg",
         "submissions/AmyLili28/living-manual/assets/media/living-manual-cover.en.webp",
         "submissions/AmyLili28/living-manual/assets/media/living-manual-cover.webp",
+        "submissions/AmyLili28/living-manual/assets/media/lm-axonometric-v1.jpg",
+        "submissions/AmyLili28/living-manual/assets/media/lm-condition-pavilion-v1.jpg",
+        "submissions/AmyLili28/living-manual/assets/media/lm-corridor-aerial-v1.jpg",
+        "submissions/AmyLili28/living-manual/assets/media/lm-handover-spine-v1.jpg",
+        "submissions/AmyLili28/living-manual/assets/media/lm-polyphonic-table-v1.jpg",
+        "submissions/AmyLili28/living-manual/assets/media/lm-scenario-mosaic-v1.jpg",
+        "submissions/AmyLili28/living-manual/assets/media/lm-staffed-street-v1.jpg",
         "submissions/AmyLili28/living-manual/assumptions.json",
         "submissions/AmyLili28/living-manual/changelog.md",
         "submissions/AmyLili28/living-manual/compliance_matrix.json",
@@ -82,7 +89,7 @@
       "ai_package_stages": {
         "submissions/AmyLili28/living-manual": "formal"
       },
-      "total_bytes": 7326395,
+      "total_bytes": 34309208,
       "maintainer_bypass": false
     },
     "stderr": ""
