@@ -1,117 +1,255 @@
 {
+  "ok": true,
+  "submission_dir": "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor",
+  "pr_author": "weponusa",
+  "stage": "formal",
+  "deterministic_validation": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/proposal.md: a paragraph/block contains 4 consecutive evidence markers; attach no more than 3 to one claim; legacy proposal remains compatible and the viewer will condense it",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/proposal.md: a paragraph/block contains 5 consecutive evidence markers; attach no more than 3 to one claim; legacy proposal remains compatible and the viewer will condense it",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/alignment-precision.png: bilingual contract requires en display counterpart `assets/figures/alignment-precision.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/brand-identity.png: bilingual contract requires en display counterpart `assets/figures/brand-identity.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/key-areas.webp: bilingual contract requires en display counterpart `assets/figures/concept/key-areas.en.webp`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/land-use-structure.webp: bilingual contract requires en display counterpart `assets/figures/concept/land-use-structure.en.webp`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/metrics-evidence.webp: bilingual contract requires en display counterpart `assets/figures/concept/metrics-evidence.en.webp`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/mobility-bluegreen.webp: bilingual contract requires en display counterpart `assets/figures/concept/mobility-bluegreen.en.webp`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/site-overview.webp: bilingual contract requires en display counterpart `assets/figures/concept/site-overview.en.webp`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/twelve-hours.webp: bilingual contract requires en display counterpart `assets/figures/concept/twelve-hours.en.webp`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/differentiation.png: bilingual contract requires en display counterpart `assets/figures/differentiation.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/global-ops.png: bilingual contract requires en display counterpart `assets/figures/global-ops.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/twelve-hours.png: bilingual contract requires en display counterpart `assets/figures/twelve-hours.en.png`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/proposal.md: bilingual contract requires en display counterpart `proposal.en.md`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible"
+      ],
+      "proposal_files": [
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/proposal.md"
+      ],
+      "changelog_files": [
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/changelog.md"
+      ],
+      "changed_files": [
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/agent.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/alignment-precision.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/brand-identity.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/key-areas.webp",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/land-use-structure.webp",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/metrics-evidence.webp",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/mobility-bluegreen.webp",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/site-overview.webp",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/twelve-hours.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/twelve-hours.webp",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/differentiation.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/global-ops.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/key-areas.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/land-use-structure.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/metrics-evidence.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/mobility-bluegreen.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/site-overview.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/twelve-hours.png",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assumptions.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/changelog.md",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/compliance_matrix.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/design_depth_matrix.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/drawings/a0-boards.pdf",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/drawings/a3-booklet.pdf",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/buildings.geojson",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/constraints.geojson",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/green_space.geojson",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/key_areas.geojson",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/land_use.geojson",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/phasing.geojson",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/public_space.geojson",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/roads.geojson",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/geometry/site_boundary.geojson",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/manifest.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/metrics.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/proposal.md",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/report/copyright_statement.md",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/report/narrative.md",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/report/proposal.html",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/self_check.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/sources.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/standard_matrix.json",
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/visual/index.html"
+      ],
+      "ai_package_stages": {
+        "submissions/weponusa/jingzhang-hmf-embodied-chain-corridor": "formal"
+      },
+      "total_bytes": 24434692,
+      "maintainer_bypass": false
+    },
+    "stderr": ""
+  },
+  "spatial_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "stage": "formal",
+      "issues": [
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-001",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-002",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-003",
+          "expected": null,
+          "actual": null
+        }
+      ],
+      "metrics": {
+        "site_area_sqm": 11412825.386,
+        "green_space_area_sqm": 4168828.946,
+        "public_space_area_sqm": 1537928.763,
+        "building_footprint_area_sqm": 534406.03,
+        "green_ratio": 0.365276,
+        "public_space_ratio": 0.134754
+      }
+    },
+    "stderr": ""
+  },
+  "visual_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "metrics_seen": {
+        "site_area_sqm": 11412825.386,
+        "green_ratio": 0.365276,
+        "public_space_ratio": 0.134754,
+        "corridor_aspect_ratio_ns_ew": 7.08,
+        "key_area_share_of_overall": 0.323,
+        "ai_scenario_node_count": 12.0,
+        "ai_scenario_card_count": 13.0,
+        "hmf_twelve_hours_count": 12.0,
+        "spine_length_m": 9664.892,
+        "road_network_length_m": 41539.676,
+        "scenario_node_key_area_containment_ratio": 0.8333
+      }
+    },
+    "stderr": ""
+  },
+  "professional_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "summary": {
+        "standard_matrix_items": 6,
+        "design_depth_items": 15,
+        "known_metric_refs_required": 22,
+        "proposal_format_version": "1",
+        "evidence_contract": "legacy-exhaustive-inline",
+        "proposal_reference_counts": {
+          "source": 15,
+          "standard": 6,
+          "depth": 15,
+          "data": 18,
+          "metric": 30
+        }
+      }
+    },
+    "stderr": ""
+  },
+  "spatial_issue_ids": [
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL"
+  ],
+  "visual_issue_ids": [],
+  "professional_issue_ids": [],
+  "missing_review_dependencies": [],
+  "can_enter_formal_review": true,
+  "package_type": "professional_design_package",
+  "review_status": "formal-review-ready",
+  "next_actions": [
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/alignment-precision.png: bilingual contract requires en display counterpart `assets/figures/alignment-precision.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/brand-identity.png: bilingual contract requires en display counterpart `assets/figures/brand-identity.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/key-areas.webp: bilingual contract requires en display counterpart `assets/figures/concept/key-areas.en.webp`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/land-use-structure.webp: bilingual contract requires en display counterpart `assets/figures/concept/land-use-structure.en.webp`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/metrics-evidence.webp: bilingual contract requires en display counterpart `assets/figures/concept/metrics-evidence.en.webp`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/mobility-bluegreen.webp: bilingual contract requires en display counterpart `assets/figures/concept/mobility-bluegreen.en.webp`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/site-overview.webp: bilingual contract requires en display counterpart `assets/figures/concept/site-overview.en.webp`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/concept/twelve-hours.webp: bilingual contract requires en display counterpart `assets/figures/concept/twelve-hours.en.webp`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/differentiation.png: bilingual contract requires en display counterpart `assets/figures/differentiation.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/global-ops.png: bilingual contract requires en display counterpart `assets/figures/global-ops.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/assets/figures/twelve-hours.png: bilingual contract requires en display counterpart `assets/figures/twelve-hours.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/proposal.md: bilingual contract requires en display counterpart `proposal.en.md`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/report/proposal.html: bilingual contract requires en display counterpart `report/proposal.en.html`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/weponusa/jingzhang-hmf-embodied-chain-corridor/visual/index.html: bilingual contract requires en display counterpart `visual/index.en.html`; legacy v1 package remains compatible"
+  ],
   "schema_version": "0.1.0",
   "checks": [
     {
-      "check_id": "BOUNDARY_TRUST",
+      "check_id": "DETERMINISTIC_VALIDATION",
       "result": "pass",
-      "severity": "major",
-      "target": "geometry/site_boundary.geojson",
-      "message": "Provisional boundary is present; replace with official redline before professional scoring."
+      "severity": "blocking",
+      "target": "validate_local_submission.py",
+      "message": "deterministic_validation: PASS"
     },
     {
-      "check_id": "KEY_AREAS_TRUST",
+      "check_id": "SPATIAL_REVIEW",
       "result": "pass",
-      "severity": "major",
-      "target": "geometry/key_areas.geojson",
-      "message": "Three required key areas are provisional; replace with official polygons before professional scoring."
+      "severity": "blocking",
+      "target": "spatial_review.py",
+      "message": "spatial_review: PASS"
     },
     {
-      "check_id": "LAND_USE_TOPOLOGY",
+      "check_id": "VISUAL_PACKAGING",
       "result": "pass",
-      "severity": "major",
-      "target": "geometry/land_use.geojson",
-      "message": "Initial land-use polygons are derived from site boundary partitioning."
-    },
-    {
-      "check_id": "VISUAL_STATIC",
-      "result": "pass",
-      "severity": "info",
-      "target": "visual/index.html",
-      "message": "Static HTML visualization is generated without external dependencies."
+      "severity": "blocking",
+      "target": "visual_review.py",
+      "message": "visual_review: PASS"
     },
     {
       "check_id": "PROFESSIONAL_EVIDENCE",
       "result": "pass",
-      "severity": "major",
-      "target": "proposal.md",
-      "message": "Proposal includes references to standards, design depth items, geometry, metrics, sources, and assumptions."
-    },
-    {
-      "check_id": "HUMAN_MACHINE_FRIENDLY_V3",
-      "result": "pass",
-      "severity": "info",
-      "target": "proposal.md",
-      "message": "v3.0 concept prioritizes human rights and universal access, uses H0-H3 graded access, five scenarios by five friendliness dimensions, human fallback, auditable governance, and unknown-baseline disclosure."
-    },
-    {
-      "check_id": "GEOMETRY_REGISTRATION_V31",
-      "result": "pass",
-      "severity": "major",
-      "target": "geometry/roads.geojson",
-      "message": "Spine RD-001 rebuilt as an 82-vertex curve (9664.9 m), lies fully inside the green corridor and the site, and intersects all three key areas; RD-014/015 are genuinely closed loops inside their key areas; no road leaves the site boundary."
-    },
-    {
-      "check_id": "SCENARIO_NODE_PLACEMENT_V31",
-      "result": "pass",
-      "severity": "major",
-      "target": "geometry/constraints.geojson",
-      "message": "10 of 12 scenario nodes now sit inside their assigned key area; SN-005 and SN-009 are explicitly declared corridor-segment nodes with key_area_id=null. Every node carries within_key_area, distance_to_spine_m and location_uncertainty_m."
-    },
-    {
-      "check_id": "DRAWING_PRECISION_DISCLOSURE",
-      "result": "pass",
-      "severity": "major",
-      "target": "assets/figures/alignment-precision.png",
-      "message": "Figure 06 renders the submitted GeoJSON directly with scale bar, north arrow, four-level precision grades (A recomputable / B structurally credible / C schematic +-200m / D unavailable) and the six mandatory P0 field-survey items."
-    },
-    {
-      "check_id": "METRICS_RESYNC_V31",
-      "result": "pass",
-      "severity": "major",
-      "target": "metrics.json",
-      "message": "Road length updated to 41539.676 m and node density recomputed against the spine; green ratio, public space ratio, building footprint and land-use coverage are unchanged because no area layer geometry moved."
-    },
-    {
-      "check_id": "CONCEPT_FIGURE_CORRECTION_V31",
-      "result": "pass",
-      "severity": "major",
-      "target": "assets/figures/concept/",
-      "message": "The five generative concept figures were corrected rather than discarded: the unsupported 20km/h claim is removed, corridor extents are restated as 9.7km x 1.4km, the G1-G3 right-of-way set is replaced by H0-H3, the fabricated 3.0m machine-lane width is withdrawn, and the KPI radars no longer draw filled polygons that would imply a measured baseline."
-    },
-    {
-      "check_id": "FIGURE_PROVENANCE_DISCLOSURE",
-      "result": "pass",
-      "severity": "major",
-      "target": "proposal.md",
-      "message": "Proposal declares two coexisting figure sets, names the generative model used for the concept figures, grades them as C schematic, and states that the deterministic technical figures and machine-readable data prevail on any conflict."
-    },
-    {
-      "check_id": "CONCEPT_FIGURE_DATA_SYNC",
-      "result": "pass",
-      "severity": "minor",
-      "target": "assets/figures/concept/metrics-evidence.webp",
-      "message": "Figures now quote road length 41.5 km, spine 9.665 km / 82 vertices, 12 scenario nodes at 1.24 per km, 10/12 key-area containment and FAR unknown, matching metrics.json."
-    },
-    {
-      "check_id": "BRAND_IDENTITY_PAGE_V32",
-      "result": "pass",
-      "severity": "major",
-      "target": "assets/figures/brand-identity.png",
-      "message": "Added a dedicated brand identity board for 人机友好京张 with mark construction, bilingual naming, application surfaces, palette and allow/deny use rules."
-    },
-    {
-      "check_id": "GLOBAL_OPS_BATTLEMAP_V32",
-      "result": "pass",
-      "severity": "major",
-      "target": "assets/figures/global-ops.png",
-      "message": "Added an agent.6 international outreach battle map with Q1-Q4 cadence, see-arrive-join-deposit funnel, reusable assets and non-commitment boundaries."
-    },
-    {
-      "check_id": "FIELD_DIFFERENTIATION_V32",
-      "result": "pass",
-      "severity": "major",
-      "target": "assets/figures/differentiation.png",
-      "message": "Added an explicit differentiation board against crowded Commons and Chevron-line narratives, anchoring this package on enforceable H0-H3 shared-spine rules and evidence honesty."
+      "severity": "blocking",
+      "target": "professional_review.py",
+      "message": "professional_review: PASS"
     }
   ]
 }

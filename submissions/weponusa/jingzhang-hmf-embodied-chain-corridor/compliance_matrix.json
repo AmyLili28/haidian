@@ -1163,7 +1163,8 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "京张人机友好十二时辰（分时共行表）"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1184,7 +1185,8 @@
         "human_takeover_response_time_s",
         "near_miss_events_per_1000km",
         "manual_service_availability_ratio",
-        "ai_scenario_card_count"
+        "ai_scenario_card_count",
+        "hmf_twelve_hours_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1193,7 +1195,8 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "十二时辰"
       ],
       "source_ids": [
         "SITE-PACKAGE",

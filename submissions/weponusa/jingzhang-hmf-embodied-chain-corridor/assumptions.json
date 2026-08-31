@@ -100,7 +100,7 @@
     {
       "id": "A-FIG-CONCEPT-001",
       "status": "pending_professional_confirmation",
-      "statement": "assets/figures/concept/ 下的五张概念表现图由图像生成模型绘制，已按 v3.1 正文与 metrics.json 逐项校订，但其中的建筑基底、街道名称、断面尺寸、人物与场景插图仍为表现性绘制，整体按 C 级位置示意声明。",
+      "statement": "assets/figures/concept/ 下的六张概念表现图由图像生成模型绘制；C-01至C-05已按 v3.1 正文与 metrics.json 逐项校订，C-06 为 v3.5 十二时辰场景效果图。其中的建筑基底、街道名称、断面尺寸、人物与场景插图仍为表现性绘制，整体按 C 级位置示意声明。",
       "impact": "概念表现图仅用于意图传达；量算、放样、招商与绩效承诺须使用 assets/figures/ 下的技术校核图与机器可读数据，两者冲突时以后者为准。"
     },
     {
@@ -108,6 +108,12 @@
       "status": "pending_professional_confirmation",
       "statement": "本方案同时提交技术校核图与概念表现图两套图件，前者可由脚本从提交几何确定性复现，后者不可逐像素复现。",
       "impact": "评审复核与第三方复算应以技术校核图为准；概念表现图的作用是可读性与表达，不作为一致性判据。"
+    },
+    {
+      "id": "A-HMF-HOURS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "京张人机友好十二时辰是概念分时共行表，把一日十二条条款挂在 RD-001 与既有场景节点上；时段划分借用传统时辰时钟结构，内容不照搬复兴岛低空配送、自驾编队或 L4–L5 全无人场景。",
+      "impact": "图面与正文不得把该表写成已批准运营时刻表；试行前须完成交通、文保、社区与应急专项核定。"
     }
   ]
 }

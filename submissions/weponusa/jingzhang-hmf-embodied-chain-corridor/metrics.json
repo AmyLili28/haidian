@@ -151,6 +151,21 @@
         "场景卡可复用空间节点，因此13张卡对应12个SCENARIO_NODE；S01/S11锚定RD-001，S04锚定PLZ-004"
       ]
     },
+    "hmf_twelve_hours_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "assets/figures/twelve-hours.png",
+        "assets/figures/concept/twelve-hours.webp"
+      ],
+      "formula": "count(Jing-Zhang human-machine-friendly hour clauses 子-亥)",
+      "confidence": "high",
+      "assumptions": [
+        "十二条为概念运营条款，不是法定时刻表；开放与禁入时段须专项核定"
+      ]
+    },
     "ai_landmark_count": {
       "status": "known",
       "value": 4,
