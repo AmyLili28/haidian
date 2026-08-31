@@ -1,5 +1,19 @@
 # 方案迭代记录 / Changelog
 
+## v102.0 - 2026-08-31
+
+**人工双语复核路径显性化 / Human Bilingual Review Wayfinding**
+
+- 已有能力：结构化双语等价文件已经定义 HUMAN-EQ-01—08 的独立抽检范围、成对工件位置、问题、允许结果与闭锁规则；中英 visual 也持续显示“0/8、未签署”。
+- 真实缺口：修复前，离线 visual 只把八项抽检压缩成四张主题摘要卡；审阅者必须另开 JSON 或固定页位，才能找到逐项工件路径和判断问题。自动闸门能确认文件及状态一致，不能证明人工工作表容易执行。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report、图件、媒体、四份 PDF、geometry、metrics、来源判断、现实状态、结构化抽检合同或 0/8 未签署状态。
+- 本轮实施：在中英离线 visual 的专业交接段完整公开 HUMAN-EQ-01—08，每项给出成对工件范围、独立判断问题和“未填写 / not reviewed”状态；双栏在窄屏退化为单栏，打印时每项避免跨页。没有表单或 JavaScript，也不预填审阅结果、审阅者身份、exact head 或签署。官方几何、批准、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
+
+- Existing capability: the structured bilingual-equivalence record already defines the HUMAN-EQ-01—08 independent sample scopes, paired artefact locations, questions, allowed results and fail-closed rule. Both visual pages also retain the visible “0/8, unsigned” status.
+- Real gap: before repair, the offline visual compressed eight samples into four topic-summary tiles. A reviewer had to open the JSON or fixed pages to find each artefact path and decision question. Automated gates can prove file and status consistency, not that the human worksheet is executable at the review entrance.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0–G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, reports, figures, media, all four PDFs, geometry, metrics, source judgements, real-world status, the structured sampling contract and the unsigned 0/8 state are unchanged.
+- Implemented this round: exposed HUMAN-EQ-01—08 in full inside the professional-handoff section of both offline visual pages, with paired artefact scope, independent decision question and “not reviewed” state for every item. The two-column sheet collapses to one column on narrow screens and keeps each item together in print. It adds no form or JavaScript and prefills no review result, reviewer identity, exact head or sign-off. Official geometry, approvals, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
+
 ## v101.0 - 2026-08-31
 
 **审阅历史收束 / Review-history Convergence**
