@@ -1,5 +1,16 @@
 # 方案迭代记录
 
+## v0.2 - 2026-08-31
+
+- 响应 AI 评审（PR #4336，七维 68/100）六项阻断修复：
+  1. **指标统一**：正文用地构成与分期面积改为 metrics.json 复算权威值（商业/商务 216 万㎡·18.9%、科研/教育 319 万㎡·27.9%、居住 263 万㎡·23.1%、绿地 344 万㎡·30.1%；分期 P1/P2/P3 = 470/446/226 万㎡），并在第 11 章新增"唯一指标对照表"。
+  2. **法规精度**：《无障碍环境建设法》第 39 条明确仅覆盖法定列举公共服务场所；其他场景人工并行通道表述为方案自愿采用的更高设计原则；国办发〔2020〕45 号明确标注 background_only 政策背景。
+  3. **数据置信度**：manifest `data_confidence` 改为 `mixed_provisional_and_conceptual`（与 provisional 边界及 medium/low 指标一致）。
+  4. **字体渲染**：中英文报告与可视化 HTML 内嵌本地 Noto Sans SC 子集字体（OFL-1.1，data URI 内嵌，离线渲染无方框）。
+  5. **图面表达**：总体图/用地图/交通蓝绿图改为编号引线 + 侧边标注，消除标签叠压；指标图新增概念用地构成子图。
+  6. **A0 展板**：改为 3 页组版（概念总览 / 用地与重点区 / 系统与指标），按最终输出尺度可读。
+- PR #4336 于 2026-08-31 提交，CI submission-validation PASS；本轮修订为 v0.2。
+
 ## v0.1 - 2026-08-30
 
 - 初始化 formal 提交包：scaffold → 真实设计内容替换。
@@ -8,7 +19,7 @@
 - 复算指标并写入 metrics.json：总体面积约 1141.3 公顷、绿地率约 30.1%、公共空间率约 8.5%、建筑基底约 264 公顷；容积率/高度等法定指标保持 unknown。
 - 撰写 proposal.md（中文）与 proposal.en.md（英文对照），覆盖公告 1.3/1.4/1.5 与 agent.1–agent.6：命名与 Logo 方向、6 个全球案例、12 张场景卡（含 4 张产业测试验证）、7 类用户画像、4 处 AI 朝圣地标、文化叙事、年度活动与长期运营。
 - 生成 5 张演示级图件、报告 HTML、A3/A0 图纸与离线 visual/index.html（中英）。
-- 资料登记：sources.json（23 条）、assumptions.json（5 条）、compliance_matrix.json（23 项）、standard_matrix.json（9 项）、design_depth_matrix.json（15 项）。
+- 资料登记：sources.json（24 条，含 Noto 字体）、assumptions.json（5 条）、compliance_matrix.json（23 项）、standard_matrix.json（9 项）、design_depth_matrix.json（15 项）。
 
 ## 待办 / Next Steps
 

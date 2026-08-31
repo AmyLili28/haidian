@@ -20,7 +20,7 @@ iteration: "v0.1"
 
 本方案所有空间成果均基于仓库维护者依据公告文字四至与面积推定、并在 EPSG:4548 下校核的临时粗略边界（总体设计范围约 11.4 平方公里）与三处重点区临时 polygon [source:SRC-PROVISIONAL-BOUNDARIES]。这些几何仅标注为 `provisional_constraint`，不得作为官方红线、审批依据、精确面积或法定控制结论；官方多边形发布后，用地、建筑、道路、绿地、公共空间、分期与全部面积类指标均须按官方几何重算 [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm]。本方案中的建筑高度、容积率、道路线位、土地权属与拆改留结论一律为**概念建议**，供专业团队深化研究，不构成政府审定结论。
 
-文化叙事使用公开史料：北京市档案馆藏《京张路工撮影》记录京张铁路建设历程，清华大学史料记载清华园车站与清华师生历史，作为"百年京张"叙事的公开依据 [source:SRC-JINGZHANG-HISTORY-ARCHIVES] [source:SRC-TSINGHUA-QINGHUAYUAN-STATION]。产业背景引用海淀区"1+X+1"产业体系与市科委"三区两翼"公开报道 [source:SRC-HAIDIAN-1X1] [source:SRC-BJ-KW-THREE-AREAS-WINGS]。治理机制锚定《无障碍环境建设法》（2023-09-01 施行）第 39 条现场指导与人工服务边界、《生成式人工智能服务管理暂行办法》（2023-08-15 施行）第 14、15 条内容处置与投诉渠道要求、国办发〔2020〕45 号传统服务与智能服务并行的政策方向 [standard:BARRIER-FREE-ENVIRONMENT-LAW] [standard:GENERATIVE-AI-INTERIM-MEASURES] [standard:ELDERLY-SMART-TECH-PLAN-2020-45]。
+文化叙事使用公开史料：北京市档案馆藏《京张路工撮影》记录京张铁路建设历程，清华大学史料记载清华园车站与清华师生历史，作为"百年京张"叙事的公开依据 [source:SRC-JINGZHANG-HISTORY-ARCHIVES] [source:SRC-TSINGHUA-QINGHUAYUAN-STATION]。产业背景引用海淀区"1+X+1"产业体系与市科委"三区两翼"公开报道 [source:SRC-HAIDIAN-1X1] [source:SRC-BJ-KW-THREE-AREAS-WINGS]。治理机制锚定《无障碍环境建设法》（2023-09-01 施行）第 39 条现场指导与人工服务边界、《生成式人工智能服务管理暂行办法》（2023-08-15 施行）第 14、15 条内容处置与投诉渠道要求；国办发〔2020〕45 号（传统服务与智能服务并行）仅作 background_only 政策背景参照，不构成场地法定控制 [standard:BARRIER-FREE-ENVIRONMENT-LAW] [standard:GENERATIVE-AI-INTERIM-MEASURES] [standard:ELDERLY-SMART-TECH-PLAN-2020-45]。
 
 ![资料证据链与提交包关系图](assets/figures/site-overview.png)
 
@@ -78,7 +78,7 @@ AI 场景卡（12 张，含 4 张产业测试验证场景；均为概念建议�
 | --- | --- | --- | --- | --- | --- |
 | S01 | 开源发布厅 | 原点社区 AI 原点广场 | 开发者、初创团队 | 聚合活动数据，不采集个人行为轨迹 | 人工审核发布内容；社区运营方 |
 | S02 | AI 素养课堂（轨道课堂） | 原点社区教育街区 | 学生、居民、银发群体 | 课堂内容公开，学习数据匿名化 | 教师/志愿者人工授课；教育机构 |
-| S03 | 适老 AI 服务站 | 社区站台（知春路等） | 老年居民 | 语音交互不存储身份信息 | 人工柜台并行服务（无障碍法第39条场景）[standard:BARRIER-FREE-ENVIRONMENT-LAW] |
+| S03 | 适老 AI 服务站 | 社区站台（知春路等） | 老年居民 | 语音交互不存储身份信息 | 人工柜台并行服务（本方案自愿采用的双轨原则；《无障碍环境建设法》第 39 条的人工服务要求仅适用于医疗、社会保障、金融、生活缴费等法定列举的公共服务场所）[standard:BARRIER-FREE-ENVIRONMENT-LAW] |
 | S04 | AI 健康驿站 | 社区站台+医疗设施 | 居民 | 健康数据本地化，不共享第三方 | 医护人工复核，AI 仅辅助分诊 |
 | S05 | 大模型评测沙盒（产业测试验证） | 众智园中央绿廊 | 模型企业、研究者 | 测试数据受控，脱敏后使用 | 评测结果人工抽检；专业评测机构 |
 | S06 | 安全治理展示场（产业测试验证） | 众智园安全治理街区 | 公众、企业、监管 | 演示数据为合成数据 | 展示内容人工审定 |
@@ -93,7 +93,7 @@ AI 场景卡（12 张，含 4 张产业测试验证场景；均为概念建议�
 
 ## 用地、建筑规模与拆改留方案
 
-用地分区（15 单元）与概念建筑（45 处）由同一套几何生成，面积、比例可从 GeoJSON 复算 [data:geometry/land_use.geojson#LU-007] [data:geometry/buildings.geojson#BLDG-001]。概念用地构成：商业与商务金融约 214 万平方米（约 18.8%）、科研与教育约 234 万平方米（约 20.5%）、居住约 172 万平方米（约 15.1%）[metric:commercial_land_area_sqm] [metric:research_education_land_area_sqm] [metric:residential_land_area_sqm]。公园与防护绿地约 344 万平方米，绿地率约 30.1% [metric:green_ratio]，其余为广场、道路与边界过渡空间。该构成体现"产业、居住、绿色、公共"四类公共利益空间的平衡，具体数值为临时几何下的概念值。
+用地分区（15 单元）与概念建筑（45 处）由同一套几何生成，面积、比例可从 GeoJSON 复算 [data:geometry/land_use.geojson#LU-007] [data:geometry/buildings.geojson#BLDG-001]。概念用地构成（以 `metrics.json` 复算值为准）：商业与商务金融约 216 万平方米（约 18.9%）、科研与教育约 319 万平方米（约 27.9%）、居住约 263 万平方米（约 23.1%）[metric:commercial_land_area_sqm] [metric:research_education_land_area_sqm] [metric:residential_land_area_sqm]。公园与防护绿地约 344 万平方米，绿地率约 30.1% [metric:green_ratio]，其余为广场、道路与边界过渡空间。该构成体现"产业、居住、绿色、公共"四类公共利益空间的平衡，具体数值为临时几何下的概念值，与正文、图件、HTML 中唯一指标对照表保持一致。
 
 拆改留逻辑为**概念分级**，不针对具体地块下结论：保留——京张铁路历史走廊沿线风貌、单位大院与优质居住组团；改造——低效产业空间、沿街界面与公共空间品质提升；新建——创新载体、站台公共空间与必要交通设施（概念位置）；待确认——涉及权属、控规、文保与工程条件的地块一律列为待确认事项 [depth:retain_renovate_demolish]。容积率、建筑高度、建筑密度与退线等法定指标保持 `unknown`，原因与复算路径记录于 `assumptions.json` 与 `metrics.json` [metric:building_height_m] [depth:development_intensity_controls]。概念建筑体量仅用于表达空间关系，不代表批准建设规模，也不构成任何投资或工程可行性结论。
 
@@ -109,7 +109,7 @@ AI 场景卡（12 张，含 4 张产业测试验证场景；均为概念建议�
 
 蓝绿空间以"**一廊两河三带**"组织：一廊为京张遗址公园活力带（南北约 9 公里概念连续绿廊，含 5 段公园绿地约 250 万平方米），两河为清河界面与小月河滨水绿带，三带为西缘、东缘防护绿带与横街绿轴 [data:geometry/green_space.geojson#GREEN-002] [metric:green_space_area_sqm] [depth:blue_green_public_space]。绿地率概念值约 30.1%，支撑"推窗见绿、步行进园"的人才生活品质，同时承担雨洪滞蓄与热岛缓解功能（具体工程条件待专业评估）。
 
-公共空间体系为"**站台网**"：8 处站台广场与滨水步道共约 97 万平方米（公共空间率约 8.5%），包括大钟寺站台广场、AI 原点广场、AI 测试展示广场、南北门户广场、社区站台广场与小月河滨水步道广场 [data:geometry/public_space.geojson#PUBLIC-001] [metric:public_space_ratio]。站台组件库（概念）：零高差铺装、连续盲道、适老座椅、人工服务角、可读信息屏（文字+语音双通道）、无障碍卫生间与母婴设施——所有组件遵循无障碍法第 39 条列举场景的人工服务边界与国办发〔2020〕45 号并行服务方向 [standard:BARRIER-FREE-ENVIRONMENT-LAW] [standard:ELDERLY-SMART-TECH-PLAN-2020-45]。
+公共空间体系为"**站台网**"：8 处站台广场与滨水步道共约 97 万平方米（公共空间率约 8.5%），包括大钟寺站台广场、AI 原点广场、AI 测试展示广场、南北门户广场、社区站台广场与小月河滨水步道广场 [data:geometry/public_space.geojson#PUBLIC-001] [metric:public_space_ratio]。站台组件库（概念）：零高差铺装、连续盲道、适老座椅、人工服务角、可读信息屏（文字+语音双通道）、无障碍卫生间与母婴设施。组件标准以本方案自愿采用的双轨原则为准；其中涉及医疗、社会保障、金融、生活缴费等法定列举公共服务场所的人工服务要求，对应《无障碍环境建设法》第 39 条的边界；国办发〔2020〕45 号仅作为传统服务与智能服务并行的 background_only 政策背景参照 [standard:BARRIER-FREE-ENVIRONMENT-LAW] [standard:ELDERLY-SMART-TECH-PLAN-2020-45]。
 
 城市风貌与 AI 朝圣地标（4 处，均为概念建议）：①**零号站台**（原点社区）——AI 起点时间轴装置，纪念京张铁路与中关村的精神接续，兼作成果发布舞台；②**京张勋章荣誉环廊**（众智园）——以铁路道钉与信号灯为元素的荣誉展示体系，展示开发者与贡献者的开源成就，呼应"百年京张、今刻 ID"的纪念传统；③**大钟寺 AI 时光钟**——以钟声与数据流声景构成的声音地标，报时与整点 AI 新闻摘要需内容审定；④**信号灯对话装置**（公园带）——红绿信号与行人互动的公共艺术，寓意"人与 AI 的对话"。城市气质"钢与光"落实为导视、铺装、家具与灯光的概念规范，文化导视与一带 Logo 系统分离管理，避免混淆 [depth:height_massing_character] [source:SRC-TSINGHUA-QINGHUAYUAN-STATION]。
 
@@ -130,9 +130,9 @@ AI 场景卡（12 张，含 4 张产业测试验证场景；均为概念建议�
 | JZ-09 | 众智园全栈创新街区更新 | 城市更新/产业 | 远期 | 控规强度、权属、工程条件 |
 | JZ-10 | 端侧算力与双轨服务试点 | 新型基础设施 | 近期试点 | 能源、算力、安全、运营主体 |
 
-实施政策建议（概念）："**双轨并行服务公约**"——任何面向公众的 AI 场景上线前须通过"人工并行通道、无障碍可达、隐私最小化、人工复核"四项检查，锚定公开法规；"站台准入"——公共空间 AI 装置须通过内容审定与安全评估备案边界审查；"场景开放"——按沙盒-试点-常态分级开放，测试场景不表述为已批准运营；"贡献记忆"——开发者与贡献者荣誉纳入京张勋章体系，长期沉淀品牌资产 [standard:GENERATIVE-AI-INTERIM-MEASURES] [source:SRC-AGENT-TASKBOOK]。
+实施政策建议（概念）："**双轨并行服务公约**"——本方案自愿采用的更高设计原则：任何面向公众的 AI 场景上线前须通过"人工并行通道、无障碍可达、隐私最小化、人工复核"四项检查；其中人工服务边界与公开法规一致的部分（如无障碍法第 39 条列举场所）按法定要求执行，其余场景的人工通道为本方案主动承诺，不表述为普遍法定义务；"站台准入"——公共空间 AI 装置须通过内容审定与安全评估备案边界审查；"场景开放"——按沙盒-试点-常态分级开放，测试场景不表述为已批准运营；"贡献记忆"——开发者与贡献者荣誉纳入京张勋章体系，长期沉淀品牌资产 [standard:GENERATIVE-AI-INTERIM-MEASURES] [source:SRC-AGENT-TASKBOOK]。
 
-分期实施：近期启动期（2026—2028，大钟寺与知春路段）以场景先行、站台公园与双轨服务试点为主；中期更新期（2029—2031，原点社区与公园北段）以近校转化与慢行缝合为主；远期提升期（2032—2035，众智园）以全栈创新街区与测试展示场为主，三期面积约 346/448/350 万平方米 [data:geometry/phasing.geojson#PHASE-P1] [metric:phasing_area_sqm]。征集周期（8 月 31 日截止）与实施分期明确区分：本方案提交的是概念设计，实施须经法定程序与专业深化。
+分期实施：近期启动期（2026—2028，大钟寺与知春路段）以场景先行、站台公园与双轨服务试点为主；中期更新期（2029—2031，原点社区与公园北段）以近校转化与慢行缝合为主；远期提升期（2032—2035，众智园）以全栈创新街区与测试展示场为主，三期面积约 470/446/226 万平方米 [data:geometry/phasing.geojson#PHASE-P1] [metric:phasing_area_sqm]。征集周期（8 月 31 日截止）与实施分期明确区分：本方案提交的是概念设计，实施须经法定程序与专业深化。
 
 长期运营（agent.6 任务）——年度活动体系（概念）：春季"京张 AI 开发者周"（开源黑客松+代码贡献），夏季"全球 AI 创新带论坛"（国际传播与招引），秋季"场景开放季"（沙盒与试点开放日），冬季"零号跨年·AI 文化节"（公共体验与荣誉颁发）。品牌 IP 与开发者社区：以"同轨"IP 与双轨符号延展活动视觉，开发者社区按"贡献积分→京张勋章→荣誉展示"机制运营，场景开放运营按"申请-评审-许可-评估"闭环执行；国际传播与招引转化以论坛、工作营与双语言内容沉淀为长期合作通道。所有活动、资金、招商与政策安排均为概念建议，不表述为已确定安排 [source:SRC-AGENT-TASKBOOK] [depth:renewal_project_list]。
 
@@ -143,6 +143,20 @@ AI 场景卡（12 张，含 4 张产业测试验证场景；均为概念建议�
 ![核心指标复算与证据链图](assets/figures/metrics-evidence.png)
 
 指标复算链路：`geometry/*.geojson` → EPSG:4548 面积计算 → `metrics.json` → 图件/HTML/PDF 一致展示，自检（确定性校验、空间复核、视觉复核、专业证据复核四门）结果写入 `self_check.json`。三项 formal 核心视觉指标（总体面积、绿地率、公共空间率）为可复算的 known 有限值，与 `visual/index.html` 中 `data-value` 一致；provisional 几何产生的低置信度概念值保留 provisional 标记、来源、公式与官方数据发布后的复算触发条件 [source:SRC-PROVISIONAL-BOUNDARIES]。
+
+**唯一指标对照表**（本版本正文、指标图、HTML、PDF 统一采用以下由提交几何复算的权威值；任何载体出现其他数值一律以本表为准）：
+
+| 指标 | 权威值（metrics.json 复算） | 单位 | 出处 |
+| --- | --- | --- | --- |
+| 总体设计范围面积 | 11,412,825 | m²（约 11.41 km²） | geometry/site_boundary.geojson |
+| 绿地面积/绿地率 | 3,437,066 / 0.301 | m² / ratio | geometry/green_space.geojson |
+| 公共空间面积/比例 | 970,363 / 0.085 | m² / ratio | geometry/public_space.geojson |
+| 商业与商务金融用地 | 2,155,015（18.9%） | m² | geometry/land_use.geojson |
+| 科研与教育用地 | 3,189,324（27.9%） | m² | geometry/land_use.geojson |
+| 居住用地 | 2,631,451（23.1%） | m² | geometry/land_use.geojson |
+| 建筑基底面积 | 2,641,273 | m² | geometry/buildings.geojson |
+| 分期面积 P1/P2/P3 | 4,696,450 / 4,457,162 / 2,259,238 | m² | geometry/phasing.geojson |
+| 容积率/建筑高度等法定指标 | unknown（待官方控规） | — | metrics.json |
 
 ## 风险、版权与合规说明
 

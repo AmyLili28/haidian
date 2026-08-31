@@ -37,3 +37,7 @@ This proposal is an open co-creation concept for the Centennial Jing-Zhang AI In
 ## 5. 复用与署名 / Reuse and Attribution
 
 本方案按征集规则以 COMMUNITY-DISPLAY-ONLY 许可在仓库展示。复用本方案内容须保留来源与署名（open-city-ai/haidian 仓库、提交者 Pancake447），并遵守各原始来源的许可条款。
+
+## 6. 本地字体 / Bundled Font
+
+报告与可视化 HTML 内嵌本地子集字体 **Noto Sans SC**（源自 googlefonts/noto-cjk，Adobe/Google 项目，**SIL Open Font License 1.1**，可再分发）。子集仅含本方案页面使用的字形，字体文件与 OFL 许可文本随包存放于 isual/assets/fonts/；记录于 sources.json（SRC-NOTO-SC-FONT）。

@@ -23,7 +23,12 @@
         "statutory planning control",
         "confirmed implementation commitment"
       ],
-      "topics": ["project_scope", "design_tasks", "submission_depth", "official_announcement"],
+      "topics": [
+        "project_scope",
+        "design_tasks",
+        "submission_depth",
+        "official_announcement"
+      ],
       "notes_zh": "公告可作为 formal 任务依据；文字四至与面积值不能替代 official GIS/CAD polygon。"
     },
     {
@@ -47,7 +52,13 @@
         "engineering feasibility conclusion",
         "government approval or implementation commitment"
       ],
-      "topics": ["agent_open_call", "ai_native_scenarios", "branding", "operation", "public_compliance"],
+      "topics": [
+        "agent_open_call",
+        "ai_native_scenarios",
+        "branding",
+        "operation",
+        "public_compliance"
+      ],
       "notes_zh": "更贴近 AI agent 任务要求，作为方案任务响应依据；不是官方空间红线或控规条件。"
     },
     {
@@ -64,8 +75,16 @@
         "planning limits and schemas",
         "standards and references"
       ],
-      "prohibited_uses": ["official redline", "statutory planning control"],
-      "topics": ["site_package", "enums", "schemas", "standards"],
+      "prohibited_uses": [
+        "official redline",
+        "statutory planning control"
+      ],
+      "topics": [
+        "site_package",
+        "enums",
+        "schemas",
+        "standards"
+      ],
       "notes_zh": "场地包是机器可读任务与规则来源。"
     },
     {
@@ -81,7 +100,10 @@
         "source-use boundary language"
       ],
       "prohibited_uses": [],
-      "topics": ["source_registry", "data_boundary"],
+      "topics": [
+        "source_registry",
+        "data_boundary"
+      ],
       "notes_zh": "不得把 background_only 或 provisional_only 资料升级为 official boundary、法定控规或实施承诺。"
     },
     {
@@ -105,7 +127,11 @@
         "formal professional scoring of boundaries",
         "approval or implementation basis"
       ],
-      "topics": ["provisional_geometry", "site_boundary", "key_areas"],
+      "topics": [
+        "provisional_geometry",
+        "site_boundary",
+        "key_areas"
+      ],
       "notes_zh": "依据公告文字四至、位置线索和约面积推定并在 EPSG:4548 校核；只用于生成、自检与展示。"
     },
     {
@@ -121,8 +147,16 @@
         "public space and city character requirements",
         "building height, volume, style, color and interface control references"
       ],
-      "prohibited_uses": ["site-specific planning approval", "site-specific quantitative control without official attachments"],
-      "topics": ["urban_design", "public_space", "city_character", "architecture_control"],
+      "prohibited_uses": [
+        "site-specific planning approval",
+        "site-specific quantitative control without official attachments"
+      ],
+      "topics": [
+        "urban_design",
+        "public_space",
+        "city_character",
+        "architecture_control"
+      ],
       "notes_zh": "专业标准响应依据。"
     },
     {
@@ -142,7 +176,11 @@
         "claiming this project has approved regulatory controls",
         "inventing FAR, height, road redline, ownership or municipal conclusions"
       ],
-      "topics": ["regulatory_detailed_planning", "planning_permission", "implementation_management"],
+      "topics": [
+        "regulatory_detailed_planning",
+        "planning_permission",
+        "implementation_management"
+      ],
       "notes_zh": "要求区分已知控制与待补控制。"
     },
     {
@@ -157,8 +195,14 @@
         "land-use classification terminology",
         "land-use code reference for structured GeoJSON and metrics"
       ],
-      "prohibited_uses": ["site-specific land-use approval", "replacement for official regulatory plan conditions"],
-      "topics": ["land_use_classification", "territorial_spatial_planning"],
+      "prohibited_uses": [
+        "site-specific land-use approval",
+        "replacement for official regulatory plan conditions"
+      ],
+      "topics": [
+        "land_use_classification",
+        "territorial_spatial_planning"
+      ],
       "notes_zh": "用于统一 land_use_code 语义。"
     },
     {
@@ -174,8 +218,15 @@
         "AI as core industry context",
         "technology service ecosystem context"
       ],
-      "prohibited_uses": ["site-specific implementation facts", "local quantitative claims beyond the page"],
-      "topics": ["industrial_system", "ai_industry", "technology_services"],
+      "prohibited_uses": [
+        "site-specific implementation facts",
+        "local quantitative claims beyond the page"
+      ],
+      "topics": [
+        "industrial_system",
+        "ai_industry",
+        "technology_services"
+      ],
       "notes_zh": "产业背景参照，不写成项目法定控制。"
     },
     {
@@ -191,8 +242,15 @@
         "three areas and two wings narrative",
         "industrial ecosystem context"
       ],
-      "prohibited_uses": ["site-specific planning control", "confirmed government arrangement"],
-      "topics": ["three_areas_two_wings", "industrial_context", "innovation_belt_context"],
+      "prohibited_uses": [
+        "site-specific planning control",
+        "confirmed government arrangement"
+      ],
+      "topics": [
+        "three_areas_two_wings",
+        "industrial_context",
+        "innovation_belt_context"
+      ],
       "notes_zh": "三区两翼叙事的公开依据。"
     },
     {
@@ -211,7 +269,11 @@
         "legal opinion or venue-specific compliance determination",
         "generalizing the human-service requirement to every public space"
       ],
-      "topics": ["accessibility", "public_service", "compliance"],
+      "topics": [
+        "accessibility",
+        "public_service",
+        "compliance"
+      ],
       "notes_zh": "2023-09-01 施行；第39条人工服务边界仅限正文列举服务事项的公共服务场所。"
     },
     {
@@ -232,7 +294,11 @@
         "inferring that a service completed filing",
         "generalizing to every AI application"
       ],
-      "topics": ["ai_governance", "public_service", "compliance"],
+      "topics": [
+        "ai_governance",
+        "public_service",
+        "compliance"
+      ],
       "notes_zh": "2023-08-15 施行；第14/15条用于场景边界语言，不推定备案状态。"
     },
     {
@@ -252,7 +318,11 @@
         "inferring local implementation facts",
         "treating as a site-specific statutory control"
       ],
-      "topics": ["elderly_inclusion", "public_service", "policy"],
+      "topics": [
+        "elderly_inclusion",
+        "public_service",
+        "policy"
+      ],
       "notes_zh": "2020-2022 阶段性目标已到期；只作背景与场景设计参照，不写成现行法定义务。"
     },
     {
@@ -263,9 +333,16 @@
       "url": "https://www.openstreetmap.org/copyright",
       "authority_level": "open_data_license",
       "usable_for_formal": "yes",
-      "allowed_uses": ["OSM data attribution", "license requirements"],
+      "allowed_uses": [
+        "OSM data attribution",
+        "license requirements"
+      ],
       "prohibited_uses": [],
-      "topics": ["open_geodata", "odbl", "attribution"],
+      "topics": [
+        "open_geodata",
+        "odbl",
+        "attribution"
+      ],
       "notes_zh": "若使用 OSM 公开数据作底图参照，遵守 ODbL 署名要求。"
     },
     {
@@ -281,8 +358,15 @@
         "cultural narrative public evidence",
         "museum and public display scenario content"
       ],
-      "prohibited_uses": ["reproduction of album images without archive terms", "engineering or planning conclusions"],
-      "topics": ["jingzhang_railway", "history", "cultural_heritage"],
+      "prohibited_uses": [
+        "reproduction of album images without archive terms",
+        "engineering or planning conclusions"
+      ],
+      "topics": [
+        "jingzhang_railway",
+        "history",
+        "cultural_heritage"
+      ],
       "notes_zh": "京张铁路由詹天佑主持修建、1909年建成通车的公开历史叙事依据；图像使用须遵守档案馆条款。"
     },
     {
@@ -297,8 +381,15 @@
         "Qinghuayuan station history narrative",
         "campus-adjacent community cultural context"
       ],
-      "prohibited_uses": ["campus internal data", "personal information"],
-      "topics": ["qinghuayuan_station", "tsinghua", "cultural_heritage"],
+      "prohibited_uses": [
+        "campus internal data",
+        "personal information"
+      ],
+      "topics": [
+        "qinghuayuan_station",
+        "tsinghua",
+        "cultural_heritage"
+      ],
       "notes_zh": "清华园车站为京张铁路重要节点，已成为文物保护单位的公开史料依据。"
     },
     {
@@ -313,8 +404,14 @@
         "railway-heritage regeneration case study",
         "innovation district mechanism reference"
       ],
-      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
-      "topics": ["case_study", "heritage_renewal", "innovation_district"],
+      "prohibited_uses": [
+        "site-specific comparison metrics for Haidian"
+      ],
+      "topics": [
+        "case_study",
+        "heritage_renewal",
+        "innovation_district"
+      ],
       "notes_zh": "公开案例参考，仅作机制借鉴。"
     },
     {
@@ -325,9 +422,17 @@
       "url": "https://news.mit.edu/2016/mit-presents-updated-kendall-square-initiative-plan-city-cambridge-0107",
       "authority_level": "A2",
       "usable_for_formal": "yes",
-      "allowed_uses": ["anchor-institution innovation district case study"],
-      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
-      "topics": ["case_study", "anchor_institution", "innovation_district"],
+      "allowed_uses": [
+        "anchor-institution innovation district case study"
+      ],
+      "prohibited_uses": [
+        "site-specific comparison metrics for Haidian"
+      ],
+      "topics": [
+        "case_study",
+        "anchor_institution",
+        "innovation_district"
+      ],
       "notes_zh": "公开案例参考。"
     },
     {
@@ -338,9 +443,18 @@
       "url": "https://www.jtc.gov.sg/find-land/jtc-key-estates/launchpad",
       "authority_level": "A2",
       "usable_for_formal": "yes",
-      "allowed_uses": ["mixed-use science park case study", "startup ecosystem mechanism reference"],
-      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
-      "topics": ["case_study", "science_park", "startup_ecosystem"],
+      "allowed_uses": [
+        "mixed-use science park case study",
+        "startup ecosystem mechanism reference"
+      ],
+      "prohibited_uses": [
+        "site-specific comparison metrics for Haidian"
+      ],
+      "topics": [
+        "case_study",
+        "science_park",
+        "startup_ecosystem"
+      ],
       "notes_zh": "公开案例参考。"
     },
     {
@@ -351,9 +465,18 @@
       "url": "https://wgly.hangzhou.gov.cn/art/2022/12/14/art_1229707580_58943488.html",
       "authority_level": "A2",
       "usable_for_formal": "yes",
-      "allowed_uses": ["developer-conference ecosystem case study", "scenario-open mechanism reference"],
-      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
-      "topics": ["case_study", "developer_ecosystem", "scenario_opening"],
+      "allowed_uses": [
+        "developer-conference ecosystem case study",
+        "scenario-open mechanism reference"
+      ],
+      "prohibited_uses": [
+        "site-specific comparison metrics for Haidian"
+      ],
+      "topics": [
+        "case_study",
+        "developer_ecosystem",
+        "scenario_opening"
+      ],
       "notes_zh": "公开案例参考。"
     },
     {
@@ -364,9 +487,17 @@
       "url": "https://www.adlershof.de/en/science-technology/overview",
       "authority_level": "A2",
       "usable_for_formal": "yes",
-      "allowed_uses": ["research-institute-driven science city case study"],
-      "prohibited_uses": ["site-specific comparison metrics for Haidian"],
-      "topics": ["case_study", "science_city", "research_institute"],
+      "allowed_uses": [
+        "research-institute-driven science city case study"
+      ],
+      "prohibited_uses": [
+        "site-specific comparison metrics for Haidian"
+      ],
+      "topics": [
+        "case_study",
+        "science_city",
+        "research_institute"
+      ],
       "notes_zh": "公开案例参考。"
     },
     {
@@ -377,10 +508,41 @@
       "url": "https://en.wikipedia.org/wiki/Shibuya",
       "authority_level": "A3",
       "usable_for_formal": "yes",
-      "allowed_uses": ["TOD renewal and creative-industry case background (encyclopedic reference)"],
-      "prohibited_uses": ["primary factual basis", "site-specific comparison metrics for Haidian"],
-      "topics": ["case_study", "tod", "creative_industry"],
+      "allowed_uses": [
+        "TOD renewal and creative-industry case background (encyclopedic reference)"
+      ],
+      "prohibited_uses": [
+        "primary factual basis",
+        "site-specific comparison metrics for Haidian"
+      ],
+      "topics": [
+        "case_study",
+        "tod",
+        "creative_industry"
+      ],
       "notes_zh": "百科参考，仅作背景。"
+    },
+    {
+      "id": "SRC-NOTO-SC-FONT",
+      "title": "Noto Sans SC (googlefonts/noto-cjk) 子集字体 — SIL Open Font License 1.1",
+      "publisher": "Adobe / Google Fonts (noto-cjk project)",
+      "published_date": null,
+      "url": "https://github.com/googlefonts/noto-cjk",
+      "authority_level": "open_source_license",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "locally bundled subset font for offline HTML rendering",
+        "redistribution under OFL-1.1 with license notice"
+      ],
+      "prohibited_uses": [
+        "trademark claims beyond OFL terms"
+      ],
+      "topics": [
+        "font",
+        "license",
+        "offline_rendering"
+      ],
+      "notes_zh": "OFL-1.1 许可，可再分发；子集仅含本方案 HTML 页面使用字形，随包分发 OFL.txt。"
     }
   ]
 }
