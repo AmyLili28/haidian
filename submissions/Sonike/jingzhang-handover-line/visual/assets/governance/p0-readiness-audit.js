@@ -111,6 +111,13 @@ const EXPECTED_ALTERNATIVES = [
 ];
 const EXPECTED_DRAWINGS = Array.from({ length: 5 }, (_, index) => `D${String(index + 1).padStart(2, "0")}`);
 const EXPECTED_DRAWING_SCALES = ["1:500", "1:200", "1:100", "1:50", "1:20"];
+const EXPECTED_TECHNICAL_VIEWS = {
+  "V01-control-plan": ["D03"],
+  "V02-operating-overlay": ["D04"],
+  "V03-two-face-interface": ["D05"],
+  "V04-screen-and-restore": ["D01", "D02"],
+  "V05-release-chain": ["D01", "D02", "D03", "D04", "D05"],
+};
 const EXPECTED_RELEASE_STATES = [
   "S0_EVIDENCE_FREEZE", "S1_P0_HUMAN_FLOOR", "S2_THREE_YARDS_AND_LINKS",
   "S3_CORRIDOR_OPERATION_AND_RETIREMENT",
@@ -411,6 +418,28 @@ if (handoffRegister) {
     drawings.map((item) => item.scale).join("|") === EXPECTED_DRAWING_SCALES.join("|") &&
     drawings.every((item) => Array.isArray(item.checks) && item.checks.length >= 5 &&
       String(item.status || "").startsWith("participant_")));
+
+  const technicalFigure = handoffRegister.technical_figure_binding || {};
+  const technicalViews = Array.isArray(technicalFigure.views) ? technicalFigure.views : [];
+  recordHandoff("F/05 技术图板表面未绑定到双语图件与确定性生成器",
+    technicalFigure.surface_id === "F/05-v2.0-p0-technical-board-revision-20260831" &&
+    technicalFigure.figure_zh === "assets/figures/metrics-evidence.png" &&
+    technicalFigure.figure_en === "assets/figures/metrics-evidence.en.png" &&
+    technicalFigure.builder === "visual/assets/governance/build-p0-feasibility-figure.js" &&
+    fs.existsSync(resolveIn(PKG, technicalFigure.figure_zh)) &&
+    fs.existsSync(resolveIn(PKG, technicalFigure.figure_en)) &&
+    fs.existsSync(resolveIn(PKG, technicalFigure.builder)));
+  recordHandoff("F/05 五个视图未逐项绑定 D01—D05、源路径与可见检查项",
+    exactSet(technicalViews.map((item) => item.view_id), Object.keys(EXPECTED_TECHNICAL_VIEWS)) &&
+    technicalViews.every((item) => exactSet(item.drawing_ids, EXPECTED_TECHNICAL_VIEWS[item.view_id]) &&
+      Array.isArray(item.source_paths) && item.source_paths.length >= 2 &&
+      item.source_paths.every((sourcePath) => String(sourcePath || "").includes(".json#")) &&
+      Array.isArray(item.visible_checks) && item.visible_checks.length >= 4));
+  recordHandoff("F/05 主张边界未明确排除测绘、施工、合规、报价、签认与开放批准",
+    ["测绘", "施工图", "合规图", "报价", "专业签认", "开放批准"].every((term) =>
+      String(technicalFigure.claim_boundary_zh || "").includes(term)) &&
+    ["survey", "construction drawing", "compliance plan", "quotation", "professional sign-off", "opening approval"].every((term) =>
+      String(technicalFigure.claim_boundary_en || "").includes(term)));
 
   const capacity = handoffRegister.capacity_and_open_edge_screen || {};
   recordHandoff("容量、开口与对角线筛查算术不一致",
@@ -874,7 +903,7 @@ const result = {
   pre_feasibility_checks_valid: validFeasibilityChecks,
   pre_feasibility_checks_expected: 12,
   implementation_handoff_checks_valid: validHandoffChecks,
-  implementation_handoff_checks_expected: 23,
+  implementation_handoff_checks_expected: 26,
   jury_paths_valid: validJuryPaths,
   jury_paths_expected: 3,
   rubric_dimensions_valid: validRubricDimensions,
@@ -892,7 +921,7 @@ const result = {
 
 if (process.argv.includes("--json")) console.log(JSON.stringify(result, null, 2));
 else if (result.ok) {
-  console.log("PASS  SCN-05 单场景 P0：8 门／5 阶段／10 RACI／12 构件／8 验收；预可研 12/12；专业交接 23/23（5 尺度／4 状态／9 项目／6 包逐包验收／11 模块／12 文件闸门／12 角色／三席四人排班／双钥匙／8 调试退役检查／5 时段 × 7 基线表／12 条件任务／16 未计价数量／12 交接验收）；评委路径 3/3／评分索引 7/7；6 类公共群体／12 场景硬门槛；资格证据 6/6／评审归类 7/7；离线原型 14/14；真实观察 0");
+  console.log("PASS  SCN-05 单场景 P0：8 门／5 阶段／10 RACI／12 构件／8 验收；预可研 12/12；专业交接 26/26（5 尺度／F/05 五视图绑定与边界／4 状态／9 项目／6 包逐包验收／11 模块／12 文件闸门／12 角色／三席四人排班／双钥匙／8 调试退役检查／5 时段 × 7 基线表／12 条件任务／16 未计价数量／12 交接验收）；评委路径 3/3／评分索引 7/7；6 类公共群体／12 场景硬门槛；资格证据 6/6／评审归类 7/7；离线原型 14/14；真实观察 0");
 } else {
   console.error("FAIL  P0 可实施性与公共利益就绪包不完整");
   for (const error of errors) console.error(`- ${error}`);

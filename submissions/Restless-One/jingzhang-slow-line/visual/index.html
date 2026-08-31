@@ -185,7 +185,8 @@
     .p0-status{display:inline-flex;gap:9px;flex-wrap:wrap;margin-top:14px;}
     .p0-status b{padding:7px 10px;border-radius:8px;background:#ba3a35;color:#fff;font-size:13px;letter-spacing:.04em;}
     .p0-status b.neutral{background:#527f67;}
-    @media(max-width:850px){.p0-hero-grid{grid-template-columns:1fr}.hero{min-height:0}}
+    .hero .lead{max-width:1180px;font-size:clamp(1.2rem,1.75vw,1.8rem);white-space:nowrap;}
+    @media(max-width:850px){.p0-hero-grid{grid-template-columns:1fr}.hero{min-height:0}.hero .lead{white-space:normal}}
   </style><!-- V1.3_P0_CSS_END -->
 
 </head>
@@ -193,18 +194,18 @@
     <main>
       <header class="hero">
     <div class="hero-copy">
-      <div class="eyebrow">京张慢线 · v1.3 P0 可实施性</div>
+      <div class="eyebrow">京张慢线 · v1.4 实施控制闭环</div>
       <h1>让城市跟上最慢的人</h1>
       <p class="lead">P0-ALL-STOP-01 · 尺寸可核验、责任可交接、失败可停止、退出可恢复</p>
       <div class="p0-status"><b>NOT_AUTHORIZED</b><b>HOLD</b><b class="neutral">unassigned/conditional</b><b class="neutral">prices null/TBC</b></div>
       <div class="p0-hero-grid">
-        <div class="p0-hero-card"><h3>30 秒 P0 摘要</h3><p>216 m² 非定位概念筛查包络；3.0 m 有效慢行净宽；12 项任务、16 行不计价 BOQ、8 类参数化成本。不是现场实测、选址、许可或工程签章。</p></div>
-        <div class="p0-hero-card"><h3>当前包内可判断</h3><p><span data-metric="p0_current_package_pass_count" data-value="6">6 PASS</span> / <span data-metric="p0_current_package_hold_count" data-value="2">2 HOLD</span>。审计与 AI-off 等价仍为 11/12，因此不得请求 G4。</p></div>
-        <div class="p0-hero-card"><h3>仍待现实条件</h3><p><span data-metric="p0_field_check_hold_count" data-value="12">12/12 HOLD</span>：现场使用、真人响应、冲突、环境、居民接受、排班与真实成本。任一群体关键失败，整体 HOLD。</p></div>
+        <div class="p0-hero-card"><h3>30 秒 P0 摘要</h3><p>216 m² 包络绑定 P0-CAND-01 临时重点区筛查关系；无坐标、不可放样。12 任务、16 BOQ、17 个声明角色。</p></div>
+        <div class="p0-hero-card"><h3>包内控制已闭环</h3><p><span data-metric="p0_current_package_pass_count" data-value="8">8 PASS</span> / <span data-metric="p0_current_package_hold_count" data-value="0">0 HOLD</span>；审计与 AI-off 人工等价均为 12/12。12 小时工作排班为 4 FTE。</p></div>
+        <div class="p0-hero-card"><h3>现实释放继续关闭</h3><p><span data-metric="p0_field_check_hold_count" data-value="12">12 field HOLD</span> · <span data-metric="p0_external_gate_hold_count" data-value="12">12 gate HOLD</span>。成本只有非正式敏感区间；角色、许可、报价、资金与现场数据均未取得。</p></div>
       </div>
     </div>
   </header>
-<section class="alt" id="p0-fixed-evidence"><h2>P0 固定评审证据</h2><p>同一数据源生成尺寸/接口图与任务/工程量/成本/验收图；关键信息不再只存在于独立试点附图。</p><div class="grid2"><div class="card"><img src="../assets/figures/key-areas.png" alt="P0 dimensioned launch unit"></div><div class="card"><img src="../assets/figures/metrics-evidence.png" alt="P0 task quantities cost acceptance"></div></div></section>
+<section class="alt" id="p0-fixed-evidence"><h2>P0 固定评审证据</h2><p>同一数据链生成尺寸、任务、排班、工作成本区间、外部门、备选和验收；v14 验证器检查假释放并保持现实条件 fail-closed。</p><div class="grid2"><div class="card"><img src="../assets/figures/key-areas.png" alt="P0 dimensioned launch unit"></div><div class="card"><img src="../assets/figures/metrics-evidence.png" alt="P0 task quantities cost acceptance"></div></div></section>
       <section>
         <h2>先回答：它在哪里，什么必须保留</h2>
         <p>
@@ -244,7 +245,7 @@
         </div>
       </section>
       <section>
-        <h2>失败没有被藏起来</h2>
+        <h2>故障阻断仍然可见</h2>
         <div class="metrics">
           <div
             class="metric"
@@ -256,29 +257,23 @@
           <div
             class="metric"
             data-metric="simulation_success_rate"
-            data-value="0.8333333333333334"
+            data-value="1"
           >
-            <strong>83.3%</strong><span>达到合成结果</span>
+            <strong>100%</strong><span>达到合成结果</span>
           </div>
-          <div
-            class="metric"
-            data-metric="tool_schema_pass_rate"
-            data-value="0.9166666666666666"
-          >
-            <strong>91.7%</strong><span>schema</span>
-          </div>
+          <div class="metric" data-metric="tool_schema_pass_rate" data-value="0.9166666666666666" data-valid-payload-rate="1" data-malformed-rejection-rate="1"><strong>11/11 + 1/1</strong><span>合法载荷 + 错误拦截（保留聚合 11/12）</span></div>
           <div
             class="metric"
             data-metric="audit_completeness"
-            data-value="0.9166666666666666"
+            data-value="1"
           >
-            <strong>91.7%</strong><span>审计完整</span>
+            <strong>100%</strong><span>审计完整</span>
           </div>
         </div>
         <img
           class="wide-img"
           src="../assets/figures/simulation-rehearsal.png"
-          alt="十二项离线演练的读数、两项失败和三项设计修正"
+          alt="十二项离线演练的包内闭环、故障阻断与人工热备"
         />
       </section>
       <section class="alt">
@@ -383,7 +378,7 @@
       <footer>
         结构化文件是证据层；图片、HTML 与 PDF
         是解释层。官方数据到位后整包复算。<br />COMMUNITY-DISPLAY-ONLY ·
-        Restless-One · v1.3 · 2026-08-30
+        Restless-One · v1.4 · 2026-08-31
       </footer>
     </main>
   </body>

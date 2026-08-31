@@ -205,6 +205,45 @@
       "assumptions": [
         "A-JINGJINJI-INTERFACE"
       ]
+    },
+    "brand_lockup_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(implementable_brand_applications) = belt + gate + paper + digital + event",
+      "confidence": "high",
+      "assumptions": [
+        "A-BRAND-SPEC"
+      ]
+    },
+    "tabletop_drill_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(tabletop_fail_drills) = 5 layer drills + 1 fence-on-spine drill; field verification not done",
+      "confidence": "high",
+      "assumptions": [
+        "A-TABLETOP-ONLY"
+      ]
+    },
+    "verifiable_interface_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(conceptual_interfaces) = IF-WALK + IF-BOOK + IF-OBJECTION + IF-CLOSE; not live APIs",
+      "confidence": "high",
+      "assumptions": [
+        "A-TABLETOP-ONLY"
+      ]
     }
   }
 }
