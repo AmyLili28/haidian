@@ -390,6 +390,25 @@
       ]
     },
     {
+      "id": "OFFICIAL-JZR-HERITAGE-20171027",
+      "title": "京张铁路南口段至八达岭段",
+      "publisher": "北京市文物局",
+      "published_date": "2017-10-27",
+      "url": "https://wwj.beijing.gov.cn/bjww/362771/362779/dqpqgzdwwbhdw/523544/index.html",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public_external",
+      "authority_level": "background_only",
+      "usable_for": [
+        "1905–1909 construction period of the Beijing–Zhangjiakou Railway",
+        "heritage significance of the independently designed and built railway",
+        "Qinglongqiao switchback principle used to reduce gradient"
+      ],
+      "not_usable_for": [
+        "claiming that the historic switchback is physically present in this representative segment",
+        "copying historic engineering geometry into the proposal without professional review"
+      ]
+    },
+    {
       "id": "OSM-CONTEXT-20260829",
       "title": "OpenStreetMap orientation snapshot for Dazhongsi–Zhichun Road context",
       "publisher": "OpenStreetMap contributors",

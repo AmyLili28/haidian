@@ -192,19 +192,19 @@
   <!-- DYNAMIC_EXPERIENCE_CSS_START --><style>
     .experience-lab{position:relative;overflow:hidden;padding:72px 5vw;background:#071522;color:#f7f3e9}
     .experience-lab::before{content:"";position:absolute;inset:-40% 38% 25% -18%;background:radial-gradient(circle,#2f849138 0,transparent 66%);pointer-events:none}
-    .experience-head{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:32px;max-width:1280px;margin:0 auto 34px}
+    .experience-head{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:32px;max-width:1280px;margin:0 auto 34px}.experience-head>div:first-child{min-width:0}
     .experience-kicker{display:block;margin-bottom:10px;color:#e9b43b;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
-    .experience-head h2{max-width:760px;margin:0;color:#fff;font-size:clamp(2.2rem,4.8vw,5rem);letter-spacing:-.045em}
+    .experience-head h2{max-width:820px;margin:0;color:#fff;font-size:clamp(2.2rem,4.35vw,4.6rem);letter-spacing:-.045em}.experience-head h2 .no-break{white-space:nowrap}
     .experience-head p{max-width:760px;margin:16px 0 0;color:#b9c8d4}
     .experience-controls{display:flex;align-items:center;gap:6px;padding:6px;border:1px solid #ffffff24;border-radius:14px;background:#ffffff0b;box-shadow:0 16px 38px #0004}
-    .experience-control{min-height:44px;padding:0 16px;border:0;border-radius:9px;background:transparent;color:#c7d2dc;font-weight:750;cursor:pointer;transition:background .22s,color .22s,transform .12s}
+    .experience-control{flex:0 0 auto;min-height:44px;padding:0 16px;border:0;border-radius:9px;background:transparent;color:#c7d2dc;font-weight:750;white-space:nowrap;cursor:pointer;transition:background .22s,color .22s,transform .12s}
     .experience-control:hover{background:#ffffff12;color:#fff}.experience-control:active{transform:scale(.96)}
     .experience-control[aria-pressed="true"]{background:#e9b43b;color:#172434;box-shadow:0 7px 18px #0004}
     .experience-control:focus-visible{outline:3px solid #65b7ff;outline-offset:2px}
     .experience-stage{--stage-accent:#e9b43b;position:relative;z-index:2;max-width:1280px;min-height:440px;margin:auto;overflow:hidden;border:1px solid #ffffff25;border-radius:28px;background:radial-gradient(circle at 74% 22%,#1d617055 0,transparent 25%),linear-gradient(145deg,#0d2434,#102c3c 54%,#0b1d2a);box-shadow:inset 0 1px #ffffff18,0 32px 70px #0007}
     .experience-stage::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:34px 34px;mask-image:linear-gradient(to bottom,#0008,transparent 88%)}
     .slow-path{position:absolute;left:6%;right:6%;top:45%;height:88px;border:1px solid #7db99a66;border-radius:999px;background:linear-gradient(90deg,#5c9e6c18,#74c18e32,#5c9e6c18);box-shadow:inset 0 0 32px #5c9e6c16}
-    .slow-path::before{content:"SLOW LINE · PEOPLE FIRST · EVERY STOP";position:absolute;left:4%;top:12px;color:#c3dccb;font-size:10px;font-weight:800;letter-spacing:.18em}
+    .slow-path::before{content:"SLOW LINE · PEOPLE FIRST · EVERY STOP";position:absolute;left:4%;top:-27px;color:#c3dccb;font-size:10px;font-weight:800;letter-spacing:.18em}
     .heritage-rail{position:absolute;left:6%;right:6%;top:69%;height:58px;background:repeating-linear-gradient(90deg,transparent 0 27px,#cbd5dd22 27px 30px)}
     .heritage-rail::before,.heritage-rail::after{content:"";position:absolute;left:0;right:0;height:3px;border-radius:99px;background:#96a5b2b8;box-shadow:0 1px #ffffff24}
     .heritage-rail::before{top:14px}.heritage-rail::after{bottom:14px}
@@ -236,280 +236,129 @@
     @keyframes walk-line{0%{left:0;transform:translateX(-50%)}100%{left:100%;transform:translateX(-50%)}}
     @keyframes robot-yield{0%,12%{transform:translateY(0)}46%,78%{transform:translateY(102px)}100%{transform:translateY(0)}}
     @keyframes signal-breathe{0%,100%{transform:scale(.9);box-shadow:0 0 0 5px #e95c4518,0 0 12px #e95c4575}50%{transform:scale(1);box-shadow:0 0 0 11px #e95c4520,0 0 24px #e95c45b5}}
-    @media(max-width:850px){.experience-lab{padding:52px 24px}.experience-head{grid-template-columns:1fr}.experience-controls{width:100%;overflow:auto}.experience-control{flex:1 0 auto}.experience-stage{min-height:500px;border-radius:20px}.human-booth{right:5%;width:110px}.experience-status{grid-template-columns:1fr;bottom:14px}.experience-reading{padding:9px 12px}.heritage-label{display:none}}
+    @media(max-width:1320px){.experience-head{grid-template-columns:1fr;align-items:start}.experience-controls{justify-self:start}}
+    @media(max-width:850px){.experience-lab{padding:52px 24px}.experience-controls{width:100%;overflow:auto}.experience-control{flex:1 0 auto}.experience-stage{min-height:500px;border-radius:20px}.human-booth{right:5%;width:110px}.experience-status{grid-template-columns:1fr;bottom:14px}.experience-reading{padding:9px 12px}.heritage-label{display:none}}
     @media(prefers-reduced-motion:reduce){.experience-control{transition:none}.walker,.robot,.gate-signal{animation:none!important}.walker{left:58%}.robot{transform:translateY(102px)}.experience-stage{scroll-behavior:auto}}
   </style><!-- DYNAMIC_EXPERIENCE_CSS_END -->
 
+  <!-- INTEGRATED_STORY_V15_START --><style>
+    :root{--sl-bg:#08141e;--sl-navy:#0d2231;--sl-ink:#152433;--sl-paper:#f3efe6;--sl-white:#fbfaf6;--sl-brass:#e9b43b;--sl-sage:#7fb48d;--sl-teal:#4a9baa;--sl-coral:#ef6a52;--sl-line:#c9d3d8;--sl-muted:#71808b}
+    body{background:var(--sl-bg);color:var(--sl-ink)}
+    main{max-width:none;overflow:hidden;background:var(--sl-paper)}
+    .route-nav{position:sticky;top:0;z-index:50;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:28px;min-height:64px;padding:0 clamp(20px,4vw,64px);border-bottom:1px solid #ffffff20;background:#08141ee9;color:#fff;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+    .route-brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:900;letter-spacing:.03em}.route-brand::before{content:"";width:10px;height:10px;border:3px solid var(--sl-brass);border-radius:50%;box-shadow:0 0 0 5px #e9b43b22}
+    .route-nav nav{display:flex;justify-content:center;gap:clamp(12px,2vw,30px)}.route-nav nav a,.route-lang{position:relative;color:#aebec9;text-decoration:none;font-size:12px;font-weight:750;letter-spacing:.08em;white-space:nowrap;transition:color .2s}.route-nav nav a::after{content:"";position:absolute;left:0;right:100%;bottom:-10px;height:2px;background:var(--sl-brass);transition:right .25s}.route-nav nav a:hover,.route-nav nav a[aria-current="true"],.route-lang:hover{color:#fff}.route-nav nav a[aria-current="true"]::after{right:0}.route-lang{justify-self:end;width:max-content;padding:8px 11px;border:1px solid #ffffff30;border-radius:99px;color:#fff}
+    .system-hero{position:relative;min-height:820px;padding:clamp(64px,8vw,118px) clamp(24px,7vw,112px);display:grid;place-items:center;overflow:hidden;color:#fff;background:radial-gradient(circle at 82% 28%,#28708355 0,transparent 30%),linear-gradient(135deg,#07131d 0%,#0d2637 58%,#143c4b 100%)}
+    .system-hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(to bottom,#000 10%,transparent 96%)}
+    .hero-shell{position:relative;z-index:2;width:min(1320px,100%);display:grid;grid-template-columns:minmax(0,1.02fr) minmax(430px,.98fr);align-items:center;gap:clamp(50px,7vw,110px)}
+    .hero-kicker,.section-kicker{display:flex;align-items:center;gap:10px;color:var(--sl-brass);font-size:12px;font-weight:850;letter-spacing:.16em;text-transform:uppercase}.hero-kicker::before,.section-kicker::before{content:"";width:28px;height:2px;background:currentColor}
+    .system-hero h1{max-width:750px;margin:22px 0 24px;font-size:clamp(4rem,8vw,8.5rem);line-height:.85;letter-spacing:-.075em}.system-hero h1 span{display:block;color:var(--sl-brass)}
+    .hero-statement{max-width:690px;margin:0;color:#d7e1e7;font-size:clamp(1.15rem,1.65vw,1.55rem);line-height:1.7}.hero-statement strong{color:#fff}
+    .hero-status{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}.hero-status b{padding:8px 11px;border:1px solid #ffffff2e;border-radius:6px;background:#ffffff0d;color:#d7e2e8;font-size:11px;letter-spacing:.08em}.hero-status b:first-child,.hero-status b:nth-child(2){border-color:#ef6a5277;color:#fff;background:#ef6a5220}
+    .route-board{position:relative;min-height:520px;padding:34px;border:1px solid #ffffff24;border-radius:28px;background:#07131dbd;box-shadow:inset 0 1px #ffffff16,0 40px 80px #0007;overflow:hidden}.route-board::before{content:"SYSTEM MAP / NOT TO SCALE";position:absolute;top:20px;right:24px;color:#728997;font-size:9px;font-weight:800;letter-spacing:.16em}
+    .route-board-title{max-width:350px;margin-top:12px;color:#edf3f5;font-size:22px;font-weight:800;line-height:1.3}.route-board-title small{display:block;margin-top:7px;color:#7f95a2;font-size:11px;font-weight:650;letter-spacing:.06em}
+    .route-diagram{position:absolute;left:9%;right:9%;top:48%;height:122px}.route-diagram::before{content:"";position:absolute;left:0;right:0;top:54px;height:5px;border-radius:99px;background:linear-gradient(90deg,var(--sl-sage),var(--sl-brass) 58%,var(--sl-teal));box-shadow:0 0 24px #e9b43b45}.route-diagram::after{content:"";position:absolute;left:0;top:47px;width:18px;height:18px;border:4px solid #fff;border-radius:50%;background:var(--sl-brass);box-shadow:0 0 0 8px #e9b43b28;animation:route-travel 8s ease-in-out infinite}
+    .route-stop{position:absolute;top:39px;display:grid;justify-items:center;gap:28px;width:62px;transform:translateX(-50%)}.route-stop::before{content:"";width:25px;height:25px;border:4px solid #dfe9ed;border-radius:50%;background:#173342;box-shadow:0 0 0 7px #ffffff0b}.route-stop b{color:#fff;font-size:12px;white-space:nowrap}.route-stop span{margin-top:-23px;color:#718692;font-size:9px;white-space:nowrap}.route-stop:nth-child(1){left:0}.route-stop:nth-child(2){left:20%}.route-stop:nth-child(3){left:40%}.route-stop:nth-child(4){left:60%}.route-stop:nth-child(5){left:80%}.route-stop:nth-child(6){left:100%}
+    .route-legend{position:absolute;left:34px;right:34px;bottom:30px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;border:1px solid #ffffff18;border-radius:14px;overflow:hidden;background:#ffffff12}.route-legend div{padding:14px;background:#0a1a25db}.route-legend strong{display:block;color:var(--sl-brass);font-size:23px}.route-legend span{display:block;margin-top:2px;color:#8da1ad;font-size:10px}
+    .route-section{position:relative;padding:clamp(72px,8vw,126px) clamp(24px,7vw,112px);background:var(--sl-paper)}.route-section::before{content:"";position:absolute;left:calc(clamp(24px,7vw,112px) + 31px);top:0;bottom:0;width:1px;background:#bcc8cd}.route-section.route-dark{background:var(--sl-bg);color:#fff}.route-section.route-dark::before{background:#ffffff25}.route-section.route-tint{background:#e7ece8}
+    .section-shell{position:relative;z-index:2;width:min(1320px,100%);margin:auto;display:grid;grid-template-columns:94px minmax(0,1fr);gap:clamp(28px,4vw,62px)}
+    .section-marker{align-self:start;position:sticky;top:92px;padding-top:4px}.section-marker::before{content:"";display:block;width:17px;height:17px;margin:0 0 17px 23px;border:5px solid var(--sl-paper);border-radius:50%;background:var(--sl-brass);box-shadow:0 0 0 2px #667a86}.route-tint .section-marker::before{border-color:#e7ece8}.route-dark .section-marker::before{border-color:var(--sl-bg)}.section-marker b,.section-marker span{display:block;font-size:10px;letter-spacing:.14em}.section-marker b{color:var(--sl-ink)}.route-dark .section-marker b{color:#fff}.section-marker span{margin-top:5px;color:var(--sl-muted)}
+    .section-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.56fr);align-items:end;gap:50px;margin-bottom:46px}.section-head h2{max-width:810px;margin:14px 0 0;font-size:clamp(2.6rem,5vw,5.7rem);letter-spacing:-.06em;line-height:.94}.section-intro{margin:0;color:#53636d;font-size:1.04rem;line-height:1.8}.route-dark .section-intro{color:#9db0bc}
+    .system-principles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}.principle{position:relative;min-height:230px;padding:26px;border:1px solid #cbd3d1;border-radius:18px;background:#f9f7f1;overflow:hidden}.principle::after{content:attr(data-no);position:absolute;right:16px;bottom:-15px;color:#1524330b;font-size:100px;font-weight:900;line-height:1}.principle em{color:var(--sl-teal);font-size:11px;font-style:normal;font-weight:850;letter-spacing:.12em}.principle h3{margin:36px 0 10px;font-size:24px}.principle p{margin:0;color:#61717a;font-size:14px;line-height:1.65}
+    .metric-rail{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin:30px 0;border:1px solid #bec9c8;border-radius:16px;overflow:hidden;background:#bec9c8}.metric-rail .metric{padding:21px;border:0;border-radius:0;box-shadow:none;background:#faf8f3}.metric-rail .metric strong{font-size:clamp(1.7rem,3vw,2.8rem);letter-spacing:-.04em}.metric-rail .metric span{display:block;margin-top:5px;font-size:11px;line-height:1.4}
+    .plate-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.plate{margin:0;overflow:hidden;border:1px solid #c8d2d0;border-radius:18px;background:#fff;box-shadow:0 16px 45px #1724340d}.plate img{display:block;width:100%;height:auto}.plate figcaption{display:flex;justify-content:space-between;gap:18px;padding:14px 18px;color:#586974;font-size:11px;line-height:1.45}.plate figcaption b{color:var(--sl-ink)}.plate.hero-plate{grid-column:1/-1}
+    .experience-lab.route-section{padding:clamp(72px,8vw,126px) clamp(24px,7vw,112px)}.experience-lab.route-section::before{left:calc(clamp(24px,7vw,112px) + 31px)}.experience-lab .section-shell{max-width:1320px}.experience-lab .section-content{min-width:0}.experience-lab .experience-head{grid-template-columns:minmax(0,1fr) auto;margin:0 0 34px}.experience-lab .experience-head h2{font-size:clamp(2.6rem,5vw,5.7rem)}.experience-lab .experience-stage{max-width:none}
+    .handoff-summary{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;margin-bottom:18px}.handoff-ledger{padding:28px;border-radius:18px;background:var(--sl-navy);color:#fff}.handoff-ledger h3{margin:0 0 22px;font-size:26px}.ledger-row{display:grid;grid-template-columns:1fr auto;gap:18px;padding:14px 0;border-top:1px solid #ffffff18}.ledger-row span{color:#a7b8c2;font-size:13px}.ledger-row strong{color:var(--sl-brass);font-size:14px}.hold-panel{padding:28px;border:1px solid #ef6a5266;border-radius:18px;background:#ef6a5210}.hold-panel h3{margin:0 0 12px;color:#b8382f}.hold-panel p{margin:0;color:#5f696d;font-size:14px;line-height:1.65}.hold-panel .status-word{display:block;margin-top:30px;color:var(--sl-coral);font-size:clamp(2.8rem,6vw,5.8rem);font-weight:900;letter-spacing:-.07em;line-height:.8}
+    .gate-line{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin:24px 0 34px}.gate{min-height:116px;padding:15px;border-top:5px solid var(--sl-coral);border-radius:10px;background:#fff;box-shadow:0 8px 20px #1724340b}.gate b{display:block;color:var(--sl-coral);font-size:12px}.gate span{display:block;margin-top:26px;color:#465863;font-size:11px;line-height:1.4}
+    .pilot-phases{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:30px}.pilot-phase{padding:22px;border:1px solid #cad2cf;border-radius:16px;background:#f9f7f1}.pilot-phase small{color:var(--sl-teal);font-weight:850}.pilot-phase h3{margin:16px 0 8px}.pilot-phase p{margin:0;color:#617079;font-size:13px;line-height:1.6}.workbook-link{display:inline-flex;align-items:center;gap:10px;margin:0 0 30px;padding:12px 16px;border-radius:99px;background:var(--sl-ink);color:#fff;text-decoration:none;font-size:13px;font-weight:750}.workbook-link::after{content:"↗";color:var(--sl-brass)}
+    .persona-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:42px}.persona{padding:18px;border:1px solid #c4cfcd;border-radius:14px;background:#faf8f2}.persona b{display:block;font-size:15px}.persona span{display:block;margin-top:10px;color:#66757d;font-size:12px;line-height:1.5}
+    .scenario-toolbar{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:20px 0}.scenario-toolbar h3{margin:0;font-size:28px}.scenario-filters{display:flex;gap:6px;padding:5px;border-radius:12px;background:#dbe2df}.scenario-filter{min-height:38px;padding:0 14px;border:0;border-radius:8px;background:transparent;color:#52626b;font-weight:750;cursor:pointer}.scenario-filter[aria-pressed="true"]{background:var(--sl-ink);color:#fff}.scenario-filter:focus-visible{outline:3px solid #298dd4;outline-offset:2px}
+    .scenario-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.scenario{position:relative;min-height:220px;padding:22px;border:1px solid #c7d1ce;border-radius:16px;background:#f9f7f1}.scenario[hidden]{display:none}.scenario small{color:var(--sl-teal);font-weight:850;letter-spacing:.08em}.scenario h3{margin:20px 0 7px;font-size:20px}.scenario .scenario-place{color:#7d8b91;font-size:11px}.scenario p{margin:25px 0 0;color:#53656e;font-size:13px;line-height:1.6}.scenario p b{color:var(--sl-ink)}.scenario[data-kind="test"]{border-top:5px solid var(--sl-brass)}.scenario[data-kind="public"]{border-top:5px solid var(--sl-sage)}
+    .spatial-lead{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px}.spatial-lead .plate img{aspect-ratio:16/10;object-fit:cover}.concept-note{padding:18px 20px;border-left:5px solid var(--sl-brass);background:#ffffff80;color:#566771;font-size:13px;line-height:1.6;margin:18px 0 32px}
+    .evidence-band{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-bottom:28px;border:1px solid #ffffff20;border-radius:16px;overflow:hidden;background:#ffffff20}.evidence-stat{padding:22px;background:#0d2231}.evidence-stat strong{display:block;color:var(--sl-brass);font-size:clamp(1.8rem,3.3vw,3.3rem);letter-spacing:-.05em}.evidence-stat span{display:block;margin-top:5px;color:#94a8b4;font-size:11px;line-height:1.45}.route-dark .plate{border-color:#ffffff1d;background:#0d2231;box-shadow:none}.route-dark .plate figcaption{color:#8fa4b0}.route-dark .plate figcaption b{color:#fff}
+    .honesty-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:16px;margin-top:26px}.honesty-card{padding:24px;border:1px solid #ffffff1d;border-radius:16px;background:#ffffff08}.honesty-card h3{margin:0 0 13px;color:#fff}.honesty-card p,.honesty-card li{color:#9db0bc;font-size:13px;line-height:1.65}.honesty-card ul{margin:0;padding-left:18px}.blank-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}.blank-item{padding:13px;border:1px dashed #ef6a5277;border-radius:9px;color:#dfb3ab;font-size:11px}.coverage-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.coverage-card{padding:18px;border-top:3px solid var(--sl-teal);background:#ffffff08}.coverage-card b{display:block;color:#fff}.coverage-card span{display:block;margin-top:7px;color:#8fa3af;font-size:11px;line-height:1.5}
+    .route-footer{display:grid;grid-template-columns:1fr auto;gap:40px;padding:48px clamp(24px,7vw,112px);background:#050d13;color:#91a4af}.route-footer strong{display:block;margin-bottom:8px;color:#fff;font-size:18px}.route-footer p{margin:0;font-size:12px;line-height:1.7}.route-footer .footer-code{text-align:right;color:var(--sl-brass);font-size:11px;font-weight:800;letter-spacing:.12em}
+    .reveal{opacity:1;transform:none}.has-js .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,1,.36,1)}.has-js .reveal.is-revealed{opacity:1;transform:none}
+    @keyframes route-travel{0%,8%{left:0}18%{left:20%}34%{left:40%}50%{left:60%}66%{left:80%}82%,100%{left:100%}}
+    @media(max-width:1080px){.route-nav nav{justify-content:flex-start;overflow:auto}.route-nav{grid-template-columns:auto minmax(0,1fr) auto}.hero-shell{grid-template-columns:1fr}.system-hero{min-height:auto}.route-board{min-height:500px}.section-head{grid-template-columns:1fr}.system-principles,.scenario-grid{grid-template-columns:repeat(2,1fr)}.persona-grid{grid-template-columns:repeat(2,1fr)}.handoff-summary,.honesty-grid{grid-template-columns:1fr}.gate-line{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:720px){.route-nav{gap:14px;min-height:58px;padding:0 16px}.route-brand{font-size:12px}.route-nav nav{display:none}.route-lang{font-size:10px}.system-hero{padding:72px 22px}.hero-shell{gap:42px}.system-hero h1{font-size:clamp(3.7rem,19vw,6rem)}.route-board{min-height:430px;padding:24px}.route-board-title{font-size:18px}.route-diagram{left:12%;right:12%;top:45%}.route-stop b{display:none}.route-stop span{transform:rotate(-50deg);transform-origin:center}.route-legend{left:18px;right:18px;bottom:18px}.route-legend div{padding:10px}.route-legend strong{font-size:19px}.route-section,.experience-lab.route-section{padding:70px 22px}.route-section::before,.experience-lab.route-section::before{display:none}.section-shell{grid-template-columns:1fr}.section-marker{position:relative;top:auto;display:flex;align-items:center;gap:8px}.section-marker::before{margin:0 5px 0 0}.section-marker span{margin:0}.section-head{gap:20px;margin-bottom:32px}.section-head h2,.experience-lab .experience-head h2{font-size:clamp(2.5rem,12vw,4rem)}.system-principles,.plate-grid,.spatial-lead,.scenario-grid{grid-template-columns:1fr}.metric-rail,.evidence-band{grid-template-columns:1fr 1fr}.pilot-phases,.persona-grid{grid-template-columns:1fr}.gate-line{grid-template-columns:1fr 1fr}.experience-lab .experience-head{grid-template-columns:1fr}.experience-lab .experience-controls{width:100%;overflow:auto}.experience-lab .experience-stage{min-height:520px}.scenario-toolbar{align-items:flex-start;flex-direction:column}.scenario-filters{width:100%;overflow:auto}.scenario-filter{flex:1 0 auto}.blank-list,.coverage-grid{grid-template-columns:1fr}.route-footer{grid-template-columns:1fr}.route-footer .footer-code{text-align:left}.plate.hero-plate{grid-column:auto}}
+    @media(prefers-reduced-motion:reduce){.route-diagram::after{animation:none;left:60%}.reveal,.has-js .reveal{opacity:1;transform:none;transition:none}.route-nav nav a::after{transition:none}}
+    .experience-context{max-width:920px;margin:18px 0 0;padding-left:16px;border-left:3px solid var(--sl-brass);color:#d6e1e6!important;font-size:15px!important;line-height:1.7!important}.experience-context strong{color:#fff}
+    .scenario-brief{display:grid;grid-template-columns:1.1fr 1fr 1fr 1.2fr;gap:1px;margin:0 0 20px;border:1px solid #ffffff20;border-radius:14px;overflow:hidden;background:#ffffff20}.scenario-brief div{min-height:92px;padding:15px 17px;background:#0b1c28}.scenario-brief small{display:block;color:#708794;font-size:9px;font-weight:850;letter-spacing:.12em}.scenario-brief b{display:block;margin-top:10px;color:#eef3f5;font-size:12px;line-height:1.45}.scenario-brief div:last-child b{color:var(--sl-brass)}
+    .experience-stage.contextual-stage{min-height:640px}.contextual-stage .slow-path{top:38%;height:82px}.contextual-stage .walker-track{top:41%}.contextual-stage .heritage-rail{top:73%}.contextual-stage .heritage-label{top:80%}.contextual-stage .service-spur{top:6%;height:57%}.contextual-stage .stop-line{top:29%}.contextual-stage .gate-signal{top:33%}.contextual-stage .robot{top:8%;animation:robot-transfer 10s linear infinite}.contextual-stage .human-route{top:10%;height:48%}.contextual-stage .human-booth{top:7%;right:5%}
+    .transfer-pocket{position:absolute;left:calc(69% - 25px);top:54%;display:grid;place-items:center;width:106px;height:67px;border:1px solid #7fb48d88;border-radius:12px;background:#7fb48d16;color:#b9d9c2;font-size:9px;font-weight:850;letter-spacing:.05em;text-align:center}.heritage-buffer{position:absolute;left:6%;right:6%;top:68%;height:1px;border-top:1px dashed #ef6a5270}.heritage-buffer::after{content:"RAIL HERITAGE BUFFER · NO SERVICE VEHICLES";position:absolute;right:0;top:8px;color:#ba8178;font-size:9px;font-weight:800;letter-spacing:.08em}.stage-label{position:absolute;z-index:2;padding:5px 8px;border-radius:99px;background:#071522d9;color:#a9bac4;font-size:8px;font-weight:850;letter-spacing:.08em}.stage-origin{left:64%;top:5%}.stage-conflict{left:calc(69% - 45px);top:24%;color:#ffd2ca}.stage-destination{left:calc(69% - 18px);top:51%;color:#c4e2cb}
+    .contextual-stage[data-mode="ai-off"] .robot{animation:none!important;transform:translateY(0);opacity:.16!important}.contextual-stage[data-mode="hold"] .robot{animation:none!important;transform:translateY(128px);opacity:.48!important}
+    @keyframes robot-transfer{0%,15%{transform:translateY(0);opacity:1}28%,60%{transform:translateY(128px);opacity:1}77%,88%{transform:translateY(286px);opacity:1}92%{transform:translateY(286px);opacity:0}93%{transform:translateY(0);opacity:0}100%{transform:translateY(0);opacity:1}}
+    .heritage-bridge{display:grid;grid-template-columns:minmax(260px,.72fr) minmax(0,1.28fr);gap:0;margin:24px 0 30px;overflow:hidden;border-radius:20px;background:#0d2231;color:#fff}.heritage-diagram{position:relative;display:grid;place-items:center;min-height:290px;padding:24px;background:radial-gradient(circle at 50% 52%,#e9b43b1f,transparent 48%),#091720}.heritage-diagram svg{width:min(330px,100%);height:auto}.heritage-mile{position:absolute;left:20px;top:18px;color:var(--sl-brass);font-size:10px;font-weight:850;letter-spacing:.14em}.heritage-copy{padding:clamp(28px,4vw,54px)}.heritage-copy small{color:var(--sl-brass);font-weight:850;letter-spacing:.14em}.heritage-copy h3{max-width:620px;margin:16px 0;font-size:clamp(2rem,3.4vw,3.7rem);letter-spacing:-.045em;line-height:1}.heritage-copy p{margin:0;color:#b4c3cc;font-size:14px;line-height:1.75}.heritage-copy a{display:inline-block;margin-top:20px;color:#fff;font-size:11px;text-underline-offset:4px}.heritage-methods{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:26px}.heritage-methods span{padding:12px;border:1px solid #ffffff18;border-radius:9px;color:#d7e1e5;font-size:10px;line-height:1.45}
+    .p0-web-label{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:34px 0 14px}.p0-web-label h3{margin:0;font-size:26px}.p0-web-label span{color:#697981;font-size:11px;letter-spacing:.08em}
+    .p0-native-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:16px}.p0-plan-card{padding:22px;border:1px solid #c7d1ce;border-radius:18px;background:#f9f7f1}.p0-plan-card header{display:flex;justify-content:space-between;gap:18px;margin-bottom:14px}.p0-plan-card header small{color:var(--sl-teal);font-weight:850;letter-spacing:.1em}.p0-plan-card header b{font-size:12px}.p0-plan-canvas{position:relative;aspect-ratio:3/2;overflow:hidden;border:1px solid #c8d1ce;border-radius:12px;background-image:linear-gradient(#1731420b 1px,transparent 1px),linear-gradient(90deg,#1731420b 1px,transparent 1px);background-size:24px 24px;background-color:#eef1eb}.p0-envelope{position:absolute;inset:9% 5%;border:2px dashed #547787}.p0-envelope::before{content:"18.0 × 12.0 m SCREENING ENVELOPE";position:absolute;left:9px;top:7px;color:#385766;font-size:9px;font-weight:850}.p0-apron{position:absolute;left:19%;right:19%;top:22%;bottom:20%;border:1px solid #4a9baa;background:#4a9baa12}.p0-apron::before{content:"12.0 × 8.0 m REVERSIBLE APRON";position:absolute;right:7px;top:7px;color:#2f7380;font-size:8px}.p0-clear-route{position:absolute;left:5%;right:5%;bottom:17%;height:21%;border:2px solid #6a9b75;background:#7fb48d38}.p0-clear-route::before{content:"3.0 m CONTINUOUS CLEAR ROUTE";position:absolute;left:10px;top:50%;transform:translateY(-50%);color:#315b3b;font-size:9px;font-weight:850}.p0-canopy{position:absolute;left:25%;top:29%;width:29%;height:27%;border:2px solid #e9b43b;background:#e9b43b19}.p0-canopy::before{content:"4.8 × 3.6 m DEMOUNTABLE CANOPY";position:absolute;left:7px;top:7px;color:#85610d;font-size:8px}.p0-desk{position:absolute;left:29%;top:48%;width:22%;height:8%;border-radius:3px;background:#172434;color:#fff}.p0-desk::after{content:"2.4 × 0.8 m STAFFED DESK";position:absolute;left:5px;top:50%;transform:translateY(-50%);font-size:7px;white-space:nowrap}.p0-bay{position:absolute;right:24%;top:31%;width:16%;height:16%;border:2px solid #ef6a52;background:#ef6a5218}.p0-bay::after{content:"ROBOT BAY";position:absolute;inset:0;display:grid;place-items:center;color:#9d3f32;font-size:8px;font-weight:800}.p0-plan-legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;color:#64747c;font-size:10px}.p0-plan-legend span::before{content:"";display:inline-block;width:8px;height:8px;margin-right:5px;border-radius:2px;background:var(--key)}
+    .p0-spec-stack{display:grid;gap:10px}.p0-spec{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;padding:18px;border:1px solid #c7d1ce;border-radius:14px;background:#fff}.p0-spec strong{min-width:80px;color:var(--sl-ink);font-size:25px;letter-spacing:-.04em}.p0-spec div b{display:block;font-size:13px}.p0-spec div span{display:block;margin-top:6px;color:#67767e;font-size:11px;line-height:1.5}.p0-spec.alert{border-color:#ef6a5260}.p0-spec.alert strong{color:var(--sl-coral)}
+    .p0-operation-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0 26px}.p0-operation-strip article{padding:18px;border-top:4px solid var(--sl-teal);border-radius:12px;background:#fff}.p0-operation-strip small{color:var(--sl-teal);font-weight:850}.p0-operation-strip b{display:block;margin:16px 0 7px}.p0-operation-strip p{margin:0;color:#67767e;font-size:11px;line-height:1.55}.source-drawer{border:1px solid #bdc9c6;border-radius:14px;background:#ffffff80}.source-drawer summary{padding:16px 18px;cursor:pointer;color:#394d58;font-size:12px;font-weight:800;list-style:none}.source-drawer summary::-webkit-details-marker{display:none}.source-drawer summary::after{content:"＋";float:right;color:var(--sl-teal)}.source-drawer[open] summary::after{content:"−"}.source-links{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:0 16px 16px}.source-links a{padding:12px;border-radius:8px;background:#e6ece8;color:#304852;font-size:10px;line-height:1.4;text-decoration:none}.source-links a:hover{text-decoration:underline}
+    @media(max-width:900px){.scenario-brief{grid-template-columns:1fr 1fr}.heritage-bridge,.p0-native-grid{grid-template-columns:1fr}.heritage-diagram{min-height:230px}.p0-operation-strip{grid-template-columns:1fr}.source-links{grid-template-columns:1fr 1fr}}
+    @media(max-width:720px){.scenario-brief{grid-template-columns:1fr 1fr}.scenario-brief div{min-height:84px}.experience-stage.contextual-stage{min-height:720px}.contextual-stage .heritage-rail{top:65%}.contextual-stage .heritage-label{top:70%}.contextual-stage .heritage-buffer{top:61%}.contextual-stage .transfer-pocket{top:49%}.contextual-stage .stage-destination{top:46%}.heritage-methods{grid-template-columns:1fr}.p0-plan-card{padding:14px}.p0-plan-card header{flex-direction:column}.p0-plan-canvas{aspect-ratio:1.1}.p0-envelope::before,.p0-apron::before,.p0-canopy::before{font-size:7px}.p0-desk::after{content:"STAFF DESK"}.p0-operation-strip{grid-template-columns:1fr}.source-links{grid-template-columns:1fr}}
+    @media(prefers-reduced-motion:reduce){.contextual-stage .robot{animation:none!important;transform:translateY(128px)}}
+  </style><!-- INTEGRATED_STORY_V15_END -->
+
 </head>
   <body>
+    <nav class="route-nav" aria-label="Page sections"><a class="route-brand" href="#top">THE SLOW LINE</a><nav><a href="#system" data-nav>01 SYSTEM</a><a href="#protocol" data-nav>02 PROTOCOL</a><a href="#handoff" data-nav>03 HAND-OFF</a><a href="#people" data-nav>04 SCENARIOS</a><a href="#space" data-nav>05 SPACE</a><a href="#evidence" data-nav>06 EVIDENCE</a></nav><a class="route-lang" href="index.html" lang="zh">中文</a></nav>
     <main>
-      <header class="hero">
-    <div class="hero-copy">
-      <div class="eyebrow">THE SLOW LINE · v1.5 PROFESSIONAL HAND-OFF</div>
-      <h1>Keep pace with the slowest person</h1>
-      <p class="lead">P0-ALL-STOP-01 · dimensioned, accountable, stoppable, restorable</p>
-      <div class="p0-status"><b>NOT_AUTHORIZED</b><b>HOLD</b><b class="neutral">unassigned/conditional</b><b class="neutral">prices null/TBC</b></div>
-      <div class="p0-hero-grid">
-        <div class="p0-hero-card"><h3>Ready to take over</h3><p>Seven bilingual blank forms and eighteen receipt fields cover survey, D0, cost, professional review, rehearsal/maintenance and change control.</p></div>
-        <div class="p0-hero-card"><h3>Four external decisions</h3><p><span data-metric="p0_external_decision_bundle_hold_count" data-value="4">4/4 HOLD</span>; losslessly covering twelve field metrics and twelve external gates. Capacity null; zero field-verified egress routes.</p></div>
-        <div class="p0-hero-card"><h3>Operations and exit fillable</h3><p>Four maintenance cycles and a 10–20% restoration-reserve template are defined; actual records, signatures, cost, funding and authorization remain zero/null.</p></div>
-      </div>
-    </div>
-  </header>
-      <section class="experience-lab" id="live-experience" aria-labelledby="experience-title">
-        <div class="experience-head">
-          <div>
-            <span class="experience-kicker">Live protocol · Every stop</span>
-            <h2 id="experience-title">See “slowest first” in motion</h2>
-            <p>Switch between three states to watch the robot yield at the stop line, the human service path take over when AI is off, and the whole system hold when field authorization is missing. This compact rehearsal explains an operating protocol; it is not a real traffic simulation.</p>
-          </div>
-          <div class="experience-controls" role="group" aria-label="Change rehearsal state">
-            <button class="experience-control" type="button" data-demo-mode="flow" data-walker="Priority passage" data-agent="Waiting at stop line" data-service="AI + human hot standby" aria-pressed="true">Flow rehearsal</button>
-            <button class="experience-control" type="button" data-demo-mode="ai-off" data-walker="Unaffected" data-agent="AI exited" data-service="Human desk takes over" aria-pressed="false">AI off</button>
-            <button class="experience-control" type="button" data-demo-mode="hold" data-walker="Safe pause" data-agent="Motion frozen" data-service="Awaiting field authority" aria-pressed="false">Hold all</button>
-          </div>
+      <header class="system-hero" id="top"><div class="hero-shell">
+        <div><div class="hero-kicker">Jingzhang Slow Line · v1.5</div><h1>Keep pace <span>with the slowest person</span></h1><p class="hero-statement">Heritage rail, continuous slow movement and AI-enabled public service become one <strong>“every stop” urban protocol</strong>: people pass first, machines yield; when AI exits, the service remains.</p><div class="hero-status"><b>NOT_AUTHORIZED</b><b>HOLD</b><b>UNASSIGNED / CONDITIONAL</b><b>PRICES NULL / TBC</b></div></div>
+        <div class="route-board" aria-label="Slow Line system diagram, not to scale"><div class="route-board-title">A slow line is more than a landscape corridor<small>It is a public-service system that can stop, transfer and exit</small></div><div class="route-diagram" aria-hidden="true"><div class="route-stop"><b>Co-design</b><span>G0</span></div><div class="route-stop"><b>Slowest user</b><span>G1</span></div><div class="route-stop"><b>Human parity</b><span>G2</span></div><div class="route-stop"><b>Review</b><span>G3</span></div><div class="route-stop"><b>Timed pilot</b><span>G4</span></div><div class="route-stop"><b>Restore</b><span>G5</span></div></div><div class="route-legend"><div><strong>1</strong><span>continuous slow line</span></div><div><strong>3</strong><span>civic slow yards</span></div><div><strong>6</strong><span>default-closed gates</span></div></div></div>
+      </div></header>
+
+      <section class="route-section" id="system" aria-labelledby="system-title"><div class="section-shell"><aside class="section-marker"><b>SEC.01</b><span>K+00</span></aside><div class="section-content">
+        <div class="section-head reveal"><div><div class="section-kicker">System map</div><h2 id="system-title">One line connects space, service and responsibility</h2></div><p class="section-intro">The Slow Line does not treat AI as a freestanding device. Each node is simultaneously a path, service interface and accountability point. If one is absent, the scenario does not open.</p></div>
+        <div class="system-principles reveal"><article class="principle" data-no="1"><em>THE LINE</em><h3>Continuous slow route</h3><p>A step-free, restable and helpable public route runs alongside the heritage railway without breaking heritage or emergency relationships.</p></article><article class="principle" data-no="3"><em>THE YARDS</em><h3>Three civic slow yards</h3><p>Origin Co-design Room, Login-free Commons and All-Stop Market host co-design, human service, learning and daily operation.</p></article><article class="principle" data-no="6"><em>THE GATES</em><h3>Six All-Stop Gates</h3><p>Rights, access, human parity, professional responsibility, timed operation and restoration remain closed by default and cannot be averaged away.</p></article></div>
+        <article class="heritage-bridge reveal"><div class="heritage-diagram"><span class="heritage-mile">K+1909 · QINGLONGQIAO</span><svg viewBox="0 0 340 220" role="img" aria-label="Abstract diagram of the Qinglongqiao switchback"><path d="M34 184 L170 38 L306 184" fill="none" stroke="#d9e4e8" stroke-width="11" stroke-linecap="round"/><path d="M34 184 L170 38 L306 184" fill="none" stroke="#e9b43b" stroke-width="3" stroke-dasharray="8 9"/><path d="M170 38 L170 184" fill="none" stroke="#587887" stroke-width="3" stroke-dasharray="6 8"/><circle cx="170" cy="38" r="11" fill="#08141e" stroke="#e9b43b" stroke-width="5"/><circle cx="34" cy="184" r="8" fill="#7fb48d"/><circle cx="306" cy="184" r="8" fill="#4a9baa"/><text x="170" y="213" text-anchor="middle" fill="#728792" font-size="11" letter-spacing="2">REVERSE · REDUCE · VERIFY</text></svg></div><div class="heritage-copy"><small>ZHAN TIANYOU + JINGZHANG RAILWAY · ENGINEERING METHOD</small><h3>Read the terrain before choosing the line</h3><p>Built from 1905 to 1909, the Beijing–Zhangjiakou Railway used a switchback near Qinglongqiao to reduce the gradient. The Slow Line does not copy that historic geometry. It inherits a method: constraints are not noise to hide; a system must find a verifiable, maintainable path within real boundaries.</p><div class="heritage-methods"><span>Admit the gradient<br>Do not fake the site</span><span>Allow reversal<br>Do not worship speed</span><span>Test first<br>Open later</span></div><a href="https://wwj.beijing.gov.cn/bjww/362771/362779/dqpqgzdwwbhdw/523544/index.html" target="_blank" rel="noopener">Beijing Municipal Cultural Heritage Bureau source ↗</a></div></article>
+        <div class="metric-rail reveal"><div class="metric" data-metric="site_area_sqm" data-value="11412825.385554"><strong>11.41 km²</strong><span>provisional study container, not a redline</span></div><div class="metric" data-metric="green_ratio" data-value="0.145367"><strong>14.5%</strong><span>concept green layer</span></div><div class="metric" data-metric="public_space_ratio" data-value="0.053963"><strong>5.4%</strong><span>concept public-space layer</span></div><div class="metric" data-metric="non_ai_fallback_coverage_ratio" data-value="1.0"><strong>100%</strong><span>textual AI-off coverage across 12 cards</span></div></div>
+      </div></div></section>
+
+      <section class="experience-lab route-section route-dark" id="protocol" aria-labelledby="experience-title"><div class="section-shell"><aside class="section-marker"><b>SEC.02</b><span>K+01</span></aside><div class="section-content">
+        <div class="experience-head reveal"><div><span class="experience-kicker">Live protocol · Every stop</span><h2 id="experience-title">See “slowest first” <span class="no-break">in motion</span></h2><p class="experience-context"><strong>Scenario:</strong> within the representative Xueyuan South Road–Zhichun Road segment, a low-speed document carrier travels from the community-side service entrance to a staffed hand-off pocket outside the rail heritage buffer. Its service spur crosses the continuous slow route, so it must stop, let the person clear the conflict, then enter the hand-off pocket. It never travels toward or into the railway.</p></div><div class="experience-controls" role="group" aria-label="Change rehearsal state"><button class="experience-control" type="button" data-demo-mode="flow" data-walker="Slow route retains full priority" data-agent="Entrance → stop line → hand-off" data-service="Service spur only; never enters rail buffer" aria-pressed="true">Normal hand-off</button><button class="experience-control" type="button" data-demo-mode="ai-off" data-walker="Slow route unaffected" data-agent="Carrier remains at entrance" data-service="Staff hand-carry to the hand-off" aria-pressed="false">AI off</button><button class="experience-control" type="button" data-demo-mode="hold" data-walker="Safe pause on slow route" data-agent="Frozen before stop line" data-service="Awaiting authority and safety staff" aria-pressed="false">Hold all</button></div></div>
+        <div class="scenario-brief reveal" aria-label="Rehearsal context"><div><small>TASK</small><b>Deliver one box of public information to the community hand-off</b></div><div><small>CONFLICT</small><b>Service spur crosses the continuous slow route</b></div><div><small>PRIORITY</small><b>People, wheelchairs and children always go first</b></div><div><small>HARD LIMIT</small><b>The carrier never enters the rail heritage buffer</b></div></div>
+        <div class="experience-stage contextual-stage reveal" data-experience-stage data-mode="flow" aria-label="Normal hand-off: the document carrier arrives from the community entrance, stops before the slow route, yields, and continues to the staffed pocket outside the rail buffer"><div class="slow-path" aria-hidden="true"></div><div class="heritage-rail" aria-hidden="true"></div><span class="heritage-label" aria-hidden="true">Jingzhang rail heritage · retained in parallel</span><div class="heritage-buffer" aria-hidden="true"></div><div class="service-spur" aria-hidden="true"></div><div class="stop-line" aria-hidden="true"></div><div class="gate-signal" aria-hidden="true"></div><div class="transfer-pocket" aria-hidden="true">COMMUNITY HAND-OFF<br>STAFF RECEIPT</div><span class="stage-label stage-origin" aria-hidden="true">01 COMMUNITY SERVICE ENTRANCE</span><span class="stage-label stage-conflict" aria-hidden="true">02 ALL-STOP CONFLICT</span><span class="stage-label stage-destination" aria-hidden="true">03 STAFFED HAND-OFF</span><div class="walker-track" aria-hidden="true"><span class="walker"><i></i><small>Slow route first</small></span></div><span class="robot" aria-hidden="true"><i></i><small>Document carrier</small></span><div class="human-route" aria-hidden="true"></div><div class="human-booth" aria-hidden="true"><b>Community service entrance</b><span>Staff · dispatch · E-stop</span></div><div class="experience-status" role="status" aria-live="polite"><div class="experience-reading"><span>Public slow route</span><strong data-demo-reading="walker">Slow route retains full priority</strong></div><div class="experience-reading"><span>Delivery task</span><strong data-demo-reading="agent">Entrance → stop line → hand-off</strong></div><div class="experience-reading"><span>Spatial limit</span><strong data-demo-reading="service">Service spur only; never enters rail buffer</strong></div></div></div>
+      </div></div></section>
+
+      <section class="route-section route-tint" id="handoff" aria-labelledby="handoff-title"><div class="section-shell"><aside class="section-marker"><b>SEC.03</b><span>K+02</span></aside><div class="section-content" id="p0-fixed-evidence">
+        <div class="section-head reveal"><div><div class="section-kicker">P0 professional hand-off</div><h2 id="handoff-title">First prove that one gate really stops</h2></div><p class="section-intro">v1.5 advances P0-ALL-STOP-01 from a concept view into professional blank forms and a traceable evidence chain—without dressing pending conditions as approvals.</p></div>
+        <div class="handoff-summary reveal"><div class="handoff-ledger"><h3>Hand-off ledger</h3><div class="ledger-row"><span>Bilingual fillable form families</span><strong>7</strong></div><div class="ledger-row"><span>Evidence receipt fields</span><strong>18</strong></div><div class="ledger-row"><span>Field metrics / external gates</span><strong>12 + 12</strong></div><div class="ledger-row"><span>Maintenance cycles</span><strong>4</strong></div><div class="ledger-row"><span>Restoration-reserve template</span><strong>10%–20%</strong></div></div><div class="hold-panel"><h3>Actual state</h3><p><span data-metric="p0_external_decision_bundle_hold_count" data-value="4">4/4 external decision bundles</span> remain on HOLD. Capacity is null; verified egress routes are zero; roles, prices, funding and authority are unfilled.</p><span class="status-word">HOLD</span></div></div>
+        <div class="gate-line reveal" aria-label="Six evidence gates"><div class="gate"><b>G0</b><span>Rights and statutory permission</span></div><div class="gate"><b>G1</b><span>Accessibility co-design</span></div><div class="gate"><b>G2</b><span>Human parity and roster</span></div><div class="gate"><b>G3</b><span>Privacy, safety and professional duty</span></div><div class="gate"><b>G4</b><span>Timed operation and independent observation</span></div><div class="gate"><b>G5</b><span>Restoration and public review</span></div></div>
+        <div class="pilot-phases reveal"><article class="pilot-phase"><small>DAY 00—30</small><h3>Baseline + co-design</h3><p>Four-party walk-through, same-task non-AI route, staffed hours and access baseline.</p></article><article class="pilot-phase"><small>DAY 31—60</small><h3>Closure + offline rehearsal</h3><p>Rehearse stop, takeover, high-risk refusal, service closure and audit gaps.</p></article><article class="pilot-phase"><small>DAY 61—90</small><h3>Time-boxed pilot</h3><p>Only after the first two gates: one time, one entry and one low-risk task.</p></article></div>
+        <a class="workbook-link" href="../assets/media/p0-execution-workbook.md">Open the bilingual P0 workbook</a>
+        <div class="p0-web-label reveal"><h3>Web reading view: understand the unit before opening the technical boards</h3><span>HTML NATIVE / NOT FOR SETTING OUT</span></div>
+        <div class="p0-native-grid reveal"><article class="p0-plan-card"><header><small>P0-ALL-STOP-01 · CONCEPT PLAN</small><b>All dimensions are design assumptions pending field review</b></header><div class="p0-plan-canvas" role="img" aria-label="Relationship among the 18 by 12 metre screening envelope, 12 by 8 metre reversible apron, 3 metre clear route, staffed desk, canopy and robot bay"><div class="p0-envelope"></div><div class="p0-apron"></div><div class="p0-canopy"></div><div class="p0-desk"></div><div class="p0-bay"></div><div class="p0-clear-route"></div></div><div class="p0-plan-legend"><span style="--key:#7fb48d">clear route</span><span style="--key:#e9b43b">canopy</span><span style="--key:#ef6a52">robot bay</span><span style="--key:#4a9baa">reversible apron</span></div></article><div class="p0-spec-stack"><article class="p0-spec"><strong>3.0 m</strong><div><b>Protect first: continuous clear route</b><span>Furniture, equipment and signs stay outside. Accessibility, traffic and fire reviewers must confirm the measured section.</span></div></article><article class="p0-spec"><strong>2.4 m</strong><div><b>A staffed desk, not an AI-only terminal</b><span>Paper, human service and E-stop zones; height and knee clearance await paid co-design.</span></div></article><article class="p0-spec"><strong>3.0 m</strong><div><b>Removal access route</b><span>Modules can leave without damage, while the slow route and existing emergency path stay clear.</span></div></article><article class="p0-spec alert"><strong>0</strong><div><b>Field-verified egress routes</b><span>No field evidence exists; capacity is also null. The concept plan cannot substitute for either result.</span></div></article></div></div>
+        <div class="p0-operation-strip reveal"><article><small>BEFORE OPEN</small><b>Who signs, stops and takes over</b><p>Execution, release, stop authority, human takeover, removal and acceptance stay with separate roles; all remain unassigned.</p></article><article><small>DURING PILOT</small><b>Same task, separate reporting</b><p>Wheelchair, low-vision, non-smartphone, carer, non-Chinese and night-operator results are never averaged over.</p></article><article><small>EXIT + RESTORE</small><b>Exit is not a footnote</b><p>Four maintenance cycles, before/after records and a 10%–20% reserve template exist; actual funding remains null.</p></article></div>
+        <details class="source-drawer reveal"><summary>Open the technical boards only when checking full dimensions, cost and evidence fields</summary><div class="source-links"><a href="../assets/figures/key-areas.en.png">P0 dimensions + interfaces ↗</a><a href="../assets/figures/metrics-evidence.en.png">Task, cost + acceptance matrix ↗</a><a href="../assets/figures/pilot-protocol.en.png">90-day pilot board ↗</a><a href="../drawings/a3-booklet.en.pdf">Complete A3 PDF ↗</a></div></details>
+      </div></div></section>
+
+      <section class="route-section" id="people" aria-labelledby="people-title"><div class="section-shell"><aside class="section-marker"><b>SEC.04</b><span>K+03</span></aside><div class="section-content">
+        <div class="section-head reveal"><div><div class="section-kicker">Scenarios + people</div><h2 id="people-title">Every innovation travels with an alternative</h2></div><p class="section-intro">Eight personas are a starting list for recruiting co-designers, not a substitute for their voices. Every scenario states its non-AI equivalent, human takeover and exit condition.</p></div>
+        <div class="persona-grid reveal"><div class="persona"><b>Low-vision developer</b><span>Voice, touch, visible focus and human explanation</span></div><div class="persona"><b>Older non-smartphone user</b><span>In-person, phone, paper, cash or ID routes</span></div><div class="persona"><b>Wheelchair user</b><span>Step-free continuity tested as a real journey</span></div><div class="persona"><b>Carer with child or stroller</b><span>Rest, care, toilets and movement tested together</span></div><div class="persona"><b>Non-Chinese researcher</b><span>Plain bilingual content, graphics and human check</span></div><div class="persona"><b>Courier / night operator</b><span>Night help, water, charging, stopping and appeal</span></div><div class="persona"><b>Small-business founder</b><span>Human enterprise service and legible pilot gates</span></div><div class="persona"><b>Public-service operator</b><span>Roster, takeover rights, incident log and budget first</span></div></div>
+        <div class="scenario-toolbar reveal"><h3>12 scenario cards</h3><div class="scenario-filters" role="group" aria-label="Filter scenarios"><button class="scenario-filter" data-scenario-filter="all" aria-pressed="true">All 12</button><button class="scenario-filter" data-scenario-filter="test" aria-pressed="false">Industry tests 4</button><button class="scenario-filter" data-scenario-filter="public" aria-pressed="false">Public services 8</button></div></div>
+        <div class="scenario-grid reveal">
+          <article class="scenario" data-kind="test"><small>T1 · TEST</small><h3>Robot stop + yield</h3><div class="scenario-place">Safe slow-speed yard</div><p><b>Non-AI:</b> manual carrying; safety staff; stop on any near miss.</p></article><article class="scenario" data-kind="test"><small>T2 · TEST</small><h3>Slowest-user junction</h3><div class="scenario-place">All-Stop Gate segment</div><p><b>Non-AI:</b> manual control; traffic takeover; stop if queues occupy the path.</p></article><article class="scenario" data-kind="test"><small>T3 · TEST</small><h3>Login-free terminal audit</h3><div class="scenario-place">Login-free Commons</div><p><b>Non-AI:</b> staffed window, paper or phone; remove terminal if task fails.</p></article><article class="scenario" data-kind="test"><small>T4 · TEST</small><h3>Accessible agent red team</h3><div class="scenario-place">All-Stop Market</div><p><b>Non-AI:</b> human adviser and original process; high-risk error takes it offline.</p></article>
+          <article class="scenario" data-kind="public"><small>S5 · SERVICE</small><h3>Health-service navigation</h3><div class="scenario-place">Login-free Commons</div><p><b>Non-AI:</b> guide or hotline; no diagnosis; danger routes directly to staff.</p></article><article class="scenario" data-kind="public"><small>S6 · SERVICE</small><h3>AI learning commons</h3><div class="scenario-place">Origin Co-design Room</div><p><b>Non-AI:</b> teacher, volunteer and paper; never replaces assessment or admission.</p></article><article class="scenario" data-kind="public"><small>S7 · SERVICE</small><h3>Legal-service navigation</h3><div class="scenario-place">Human signal kiosk</div><p><b>Non-AI:</b> legal-service staff; no legal opinions; disputes are referred.</p></article><article class="scenario" data-kind="public"><small>S8 · SERVICE</small><h3>Multilingual culture guide</h3><div class="scenario-place">Slow Line public nodes</div><p><b>Non-AI:</b> paper guide or volunteer; human fact check; mistranslation removed.</p></article><article class="scenario" data-kind="public"><small>S9 · SERVICE</small><h3>Slowest-route planning</h3><div class="scenario-place">Six All-Stop Gates</div><p><b>Non-AI:</b> static map or phone; no forced tracking; mark every break.</p></article><article class="scenario" data-kind="public"><small>S10 · SERVICE</small><h3>Low-speed delivery relay</h3><div class="scenario-place">Slow yard to service point</div><p><b>Non-AI:</b> human delivery and physical E-stop; never occupy walking space.</p></article><article class="scenario" data-kind="public"><small>S11 · SERVICE</small><h3>Time-shared kerb</h3><div class="scenario-place">All-Stop Market</div><p><b>Non-AI:</b> site manager; fixed accessible bays never enter bidding.</p></article><article class="scenario" data-kind="public"><small>S12 · SERVICE</small><h3>Post-event safety review</h3><div class="scenario-place">Three yards + gates</div><p><b>Non-AI:</b> human operations review; no face tracking; preserve dissent.</p></article>
         </div>
-        <div class="experience-stage" data-experience-stage data-mode="flow" aria-label="Flow rehearsal: person has priority, robot waits at stop line, human service is on standby">
-          <div class="slow-path" aria-hidden="true"></div>
-          <div class="heritage-rail" aria-hidden="true"></div>
-          <span class="heritage-label" aria-hidden="true">Heritage rail · no crossing</span>
-          <div class="service-spur" aria-hidden="true"></div>
-          <div class="stop-line" aria-hidden="true"></div>
-          <div class="gate-signal" aria-hidden="true"></div>
-          <div class="walker-track" aria-hidden="true"><span class="walker"><i></i><small>Person first</small></span></div>
-          <span class="robot" aria-hidden="true"><i></i><small>Robot yields</small></span>
-          <div class="human-route" aria-hidden="true"></div>
-          <div class="human-booth" aria-hidden="true"><b>Human service booth</b><span>Paper · phone · in-person help</span></div>
-          <div class="experience-status" role="status" aria-live="polite">
-            <div class="experience-reading"><span>Slow traveler</span><strong data-demo-reading="walker">Priority passage</strong></div>
-            <div class="experience-reading"><span>Agent</span><strong data-demo-reading="agent">Waiting at stop line</strong></div>
-            <div class="experience-reading"><span>Equivalent service</span><strong data-demo-reading="service">AI + human hot standby</strong></div>
-          </div>
-        </div>
-      </section>
-<section class="alt" id="p0-fixed-evidence"><h2>P0 fixed review evidence</h2><p>One data chain generates dimensions, tasks, roster, cost, four external decisions, capacity/egress, maintenance and exit templates; the v15 verifier checks coverage, hashes and false release. Human-fillable entry: <a href="../assets/media/p0-execution-workbook.md">p0-execution-workbook.md</a>.</p><div class="grid2"><div class="card"><img src="../assets/figures/key-areas.en.png" alt="P0 dimensioned launch unit"></div><div class="card"><img src="../assets/figures/metrics-evidence.en.png" alt="P0 task quantities cost acceptance"></div></div></section>
-      <section>
-        <h2>First answer: where is it, and what must remain</h2>
-        <p>
-          The representative segment is the Xueyuan South Road–Zhichun Road
-          community-vitality section. Orientation comes from an attributed OSM
-          snapshot; the heritage-rail corridor, continuous slow space, and
-          neighborhood edge come from textual facts in Beijing government
-          reporting. The orange band is not a redline and the working skeleton
-          is not a survey.
-        </p>
-        <img
-          class="wide-img"
-          src="../assets/figures/site-grounding.en.png"
-          alt="Actual orientation, text-only working skeleton, and reversible-overlay limits for the representative Xueyuan South Road to Zhichun Road segment"
-        />
-      </section>
-      <section class="alt">
-        <h2>Use real orientation without simulating existing conditions</h2>
-        <p>
-          The cover view was generated entirely from text, with no site
-          photograph supplied or referenced. It shows only an operating
-          relationship: heritage rails and an accessible slow path run in
-          parallel, a service spur meets the path at right angles, and the robot
-          waits behind its line. The kiosk, E-stop, and spur are conceptual; the
-          view is not an existing-conditions record, exact site, or official
-          rendering.
-        </p>
-        <img
-          class="wide-img"
-          src="../assets/media/slow-line-site-grounded.jpg"
-          alt="Text-only generated concept: robot stopped behind the side-spur line while the accessible slow path and heritage rails remain clear"
-        />
-      </section>
-      <section class="alt">
-        <h2>From twelve cards to one stoppable 90-day prototype</h2>
-        <img
-          class="wide-img"
-          src="../assets/figures/pilot-protocol.en.png"
-          alt="Diagram of the 90-day All-Stop Gate pilot, six evidence gates, and six reported groups"
-        />
-        <div class="card hold">
-          <h3>Six groups, reported separately</h3>
-          <p>
-            Wheelchair, blind/low-vision, older people without smartphones,
-            carers, non-Chinese speakers, and couriers/night maintainers. One
-            critical group failure places the whole pilot on HOLD.
-          </p>
-        </div>
-      </section>
-      <section>
-        <h2>Fail-closed handling remains visible</h2>
-        <div class="metrics">
-          <div
-            class="metric"
-            data-metric="simulation_task_count"
-            data-value="12"
-          >
-            <strong>12</strong><span>synthetic tasks</span>
-          </div>
-          <div
-            class="metric"
-            data-metric="simulation_success_rate"
-            data-value="1"
-          >
-            <strong>100%</strong><span>synthetic outcomes reached</span>
-          </div>
-          <div class="metric" data-metric="tool_schema_pass_rate" data-value="0.9166666666666666" data-valid-payload-rate="1" data-malformed-rejection-rate="1"><strong>11/11 + 1/1</strong><span>valid payloads + malformed rejection (reserved aggregate 11/12)</span></div>
-          <div
-            class="metric"
-            data-metric="audit_completeness"
-            data-value="1"
-          >
-            <strong>100%</strong><span>audit complete</span>
-          </div>
-        </div>
-        <img
-          class="wide-img"
-          src="../assets/figures/simulation-rehearsal.en.png"
-          alt="Package closure, fail-closed handling, and human hot backup across twelve offline tasks"
-        />
-      </section>
-      <section class="alt">
-        <h2>Space and evidence remain recomputable</h2>
-        <div class="metrics">
-          <div
-            class="metric"
-            data-metric="site_area_sqm"
-            data-value="11412825.385554"
-          >
-            <strong>11.41 km²</strong><span>provisional container</span>
-          </div>
-          <div class="metric" data-metric="green_ratio" data-value="0.145367">
-            <strong>14.5%</strong><span>concept green layer</span>
-          </div>
-          <div
-            class="metric"
-            data-metric="public_space_ratio"
-            data-value="0.053963"
-          >
-            <strong>5.4%</strong><span>concept public space</span>
-          </div>
-          <div
-            class="metric"
-            data-metric="non_ai_fallback_coverage_ratio"
-            data-value="1.0"
-          >
-            <strong>100%</strong><span>textual AI-off coverage</span>
-          </div>
-        </div>
-        <div class="grid2">
-          <div class="card">
-            <img
-              src="../assets/figures/site-overview.en.png"
-              alt="Overall concept and provisional spatial framework"
-            />
-          </div>
-          <div class="card">
-            <img
-              src="../assets/figures/land-use-structure.en.png"
-              alt="Concept land use and three scopes"
-            />
-          </div>
-          <div class="card">
-            <img
-              src="../assets/figures/mobility-bluegreen.en.png"
-              alt="Slow Line, All-Stop Gates, and mobility/blue-green gates"
-            />
-          </div>
-          <div class="card">
-            <img
-              src="../assets/figures/metrics-evidence.en.png"
-              alt="Metrics, evidence chain, and official data gaps"
-            />
-          </div>
-        </div>
-      </section>
-      <section>
-        <h2>Review navigator: task coverage and evidence location</h2>
-        <p>
-          These visible review tasks point to the page and structured files;
-          they do not add field claims.
-        </p>
-        <div class="grid2">
-          <div class="card">
-            <h3>Overview map · three scopes · key areas</h3>
-            <p>
-              The spatial set shows the overall container,
-              research–overall–key-area relationship, and three provisional key
-              areas.
-            </p>
-          </div>
-          <div class="card">
-            <h3>Land use · buildings · renewal projects</h3>
-            <p>
-              Concept land use, program-carrier envelopes, and nine
-              accountability/exit-first projects remain recomputable.
-            </p>
-          </div>
-          <div class="card">
-            <h3>Mobility · blue-green public space</h3>
-            <p>
-              The Slow Line, six All-Stop Gates, emergency clearance, continuous
-              shade, and public space share performance gates.
-            </p>
-          </div>
-          <div class="card">
-            <h3>AI scenarios · core metrics · task coverage</h3>
-            <p>
-              Twelve scenario cards, AI-off equivalents, pilot gates, and
-              offline rehearsal readings map to proposal, metrics, and
-              simulation.
-            </p>
-          </div>
-          <div class="card">
-            <h3>Self-check status</h3>
-            <p>
-              Deterministic, spatial, visual-packaging, and
-              professional-evidence gates persist in self_check.json.
-            </p>
-          </div>
-          <div class="card">
-            <h3>Sources · assumptions</h3>
-            <p>
-              Authority, use limits, and pending assumptions are registered in
-              sources.json and assumptions.json.
-            </p>
-          </div>
-        </div>
-      </section>
-      <footer>
-        Structured files are the evidence layer; images, HTML, and PDFs are the
-        explanation layer. Official data triggers a full rebuild.<br />COMMUNITY-DISPLAY-ONLY
-        · Restless-One · v1.5 · 2026-08-31
-      </footer>
+      </div></div></section>
+
+      <section class="route-section route-tint" id="space" aria-labelledby="space-title"><div class="section-shell"><aside class="section-marker"><b>SEC.05</b><span>K+04</span></aside><div class="section-content">
+        <div class="section-head reveal"><div><div class="section-kicker">Spatial grounding</div><h2 id="space-title">Real orientation constrains imagination; boundaries stay visible</h2></div><p class="section-intro">The representative segment is Xueyuan South Road–Zhichun Road. An attributed OSM snapshot gives orientation and public reporting supplies textual facts; overlays do not pose as redlines, surveys or official renderings.</p></div>
+        <div class="spatial-lead reveal"><figure class="plate"><img src="../assets/figures/site-grounding.en.png" alt="Real orientation, factual skeleton and overlay boundary"><figcaption><b>01 / Site grounding</b><span>Attributed base + textual facts</span></figcaption></figure><figure class="plate"><img src="../assets/media/slow-line-site-grounded.jpg" alt="Concept view of robot waiting behind the spur stop line"><figcaption><b>02 / Operating relationship</b><span>Text-only generated concept</span></figcaption></figure></div>
+        <div class="concept-note reveal">The image captures the document carrier waiting at the All-Stop line: the service spur crosses the slow route, the staffed hand-off remains outside the rail buffer, and the railway is retained only as a parallel heritage trace. The service entrance, E-stop, hand-off and paving spur are reversible concepts; no site photograph was supplied.</div>
+        <div class="plate-grid reveal"><figure class="plate"><img src="../assets/figures/site-overview.en.png" alt="Overall concept and provisional spatial framework"><figcaption><b>03 / Overall container</b><span>Research—overall—key area</span></figcaption></figure><figure class="plate"><img src="../assets/figures/land-use-structure.en.png" alt="Concept land use and three scopes"><figcaption><b>04 / Land use + carriers</b><span>Concept envelopes, recomputable</span></figcaption></figure><figure class="plate"><img src="../assets/figures/mobility-bluegreen.en.png" alt="Slow Line and mobility blue-green performance gates"><figcaption><b>05 / Mobility + blue-green</b><span>Shared performance gates</span></figcaption></figure><figure class="plate"><img src="../assets/figures/metrics-evidence.en.png" alt="Metrics, evidence chain and formal data gaps"><figcaption><b>06 / Metrics + gaps</b><span>Rebuild when official data arrives</span></figcaption></figure></div>
+      </div></div></section>
+
+      <section class="route-section route-dark" id="evidence" aria-labelledby="evidence-title"><div class="section-shell"><aside class="section-marker"><b>SEC.06</b><span>K+05</span></aside><div class="section-content">
+        <div class="section-head reveal"><div><div class="section-kicker">Metrics, evidence + limits</div><h2 id="evidence-title">What is proven—and what is not</h2></div><p class="section-intro">Offline synthetic rehearsal shows package closure, fail-closed handling and a retained human route. It does not prove site performance, staff, budget, approval or public-road operating conditions.</p></div>
+        <div class="evidence-band reveal"><div class="evidence-stat" data-metric="simulation_task_count" data-value="12"><strong>12</strong><span>offline synthetic tasks</span></div><div class="evidence-stat" data-metric="simulation_success_rate" data-value="1"><strong>100%</strong><span>synthetic outcomes reached</span></div><div class="evidence-stat" data-metric="tool_schema_pass_rate" data-value="0.9166666666666666" data-valid-payload-rate="1" data-malformed-rejection-rate="1"><strong>11/11 + 1/1</strong><span>valid payloads passed + malformed rejected</span></div><div class="evidence-stat" data-metric="audit_completeness" data-value="1"><strong>100%</strong><span>synthetic audit complete</span></div></div>
+        <figure class="plate hero-plate reveal"><img src="../assets/figures/simulation-rehearsal.en.png" alt="Twelve-task offline rehearsal, fail-closed handling and human backup"><figcaption><b>Offline rehearsal matrix</b><span>Synthetic evidence; no extrapolation to field performance</span></figcaption></figure>
+        <div class="honesty-grid reveal"><article class="honesty-card"><h3>Boundaries that cannot be crossed</h3><ul><li>Medical, educational, legal and safety judgments remain with professionals.</li><li>AI is never the only entry; the same task remains possible when AI is off.</li><li>One safety-critical group failure, closed human route or missing evidence holds all.</li><li>Structured files are evidence; images and HTML are explanation.</li></ul></article><article class="honesty-card"><h3>Deliberately blank</h3><div class="blank-list"><div class="blank-item">field capacity · null</div><div class="blank-item">verified egress · 0</div><div class="blank-item">role assignment · unassigned</div><div class="blank-item">actual price · TBC</div><div class="blank-item">funding source · null</div><div class="blank-item">authority · NOT_AUTHORIZED</div></div></article></div>
+        <div class="coverage-grid reveal"><div class="coverage-card"><b>Spatial tasks</b><span>Overview, scopes, land use, buildings, nine renewals, mobility and blue-green set</span></div><div class="coverage-card"><b>AI + operations</b><span>12 cards, 100% textual fallback, six gates, 90-day pilot, maintenance and exit</span></div><div class="coverage-card"><b>Review sources</b><span>Cross-check metrics, simulation, sources, assumptions and self_check</span></div></div>
+      </div></div></section>
+      <footer class="route-footer"><div><strong>京张慢线 / THE SLOW LINE</strong><p>Structured files are the evidence layer; images, HTML and PDF are the explanation layer. Official data triggers a full rebuild.</p></div><div class="footer-code">COMMUNITY-DISPLAY-ONLY<br>RESTLESS-ONE · V1.5 · 2026-08-31</div></footer>
     </main>
-    <script>
-      (() => {
-        document.documentElement.classList.add("has-js");
-        const stage = document.querySelector("[data-experience-stage]");
-        if (!stage) return;
-        const controls = [...document.querySelectorAll("[data-demo-mode]")];
-        const readings = Object.fromEntries(
-          [...document.querySelectorAll("[data-demo-reading]")].map((node) => [node.dataset.demoReading, node])
-        );
-        const activate = (control) => {
-          stage.dataset.mode = control.dataset.demoMode;
-          controls.forEach((item) => item.setAttribute("aria-pressed", String(item === control)));
-          readings.walker.textContent = control.dataset.walker;
-          readings.agent.textContent = control.dataset.agent;
-          readings.service.textContent = control.dataset.service;
-          stage.setAttribute("aria-label", `${control.dataset.walker}; ${control.dataset.agent}; ${control.dataset.service}`);
-        };
-        controls.forEach((control) => control.addEventListener("click", () => activate(control)));
-        if ("IntersectionObserver" in window) {
-          const observer = new IntersectionObserver(([entry]) => {
-            stage.classList.toggle("is-visible", entry.isIntersecting);
-          }, { rootMargin: "80px 0px" });
-          observer.observe(stage);
-        } else {
-          stage.classList.add("is-visible");
-        }
-      })();
-    </script>
+    <script>(()=>{document.documentElement.classList.add("has-js");const stage=document.querySelector("[data-experience-stage]"),controls=[...document.querySelectorAll("[data-demo-mode]")],readings=Object.fromEntries([...document.querySelectorAll("[data-demo-reading]")].map(node=>[node.dataset.demoReading,node]));const activate=control=>{if(!stage)return;stage.dataset.mode=control.dataset.demoMode;controls.forEach(item=>item.setAttribute("aria-pressed",String(item===control)));readings.walker.textContent=control.dataset.walker;readings.agent.textContent=control.dataset.agent;readings.service.textContent=control.dataset.service;stage.setAttribute("aria-label",`${control.dataset.walker}; ${control.dataset.agent}; ${control.dataset.service}`)};controls.forEach(control=>control.addEventListener("click",()=>activate(control)));const filterButtons=[...document.querySelectorAll("[data-scenario-filter]")],scenarios=[...document.querySelectorAll(".scenario[data-kind]")];filterButtons.forEach(button=>button.addEventListener("click",()=>{const filter=button.dataset.scenarioFilter;filterButtons.forEach(item=>item.setAttribute("aria-pressed",String(item===button)));scenarios.forEach(item=>{item.hidden=filter!=="all"&&item.dataset.kind!==filter})}));const revealItems=[...document.querySelectorAll(".reveal")],sections=[...document.querySelectorAll("section[id]")],navLinks=[...document.querySelectorAll("[data-nav]")];if("IntersectionObserver"in window){const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("is-revealed");revealObserver.unobserve(entry.target)}}),{rootMargin:"0px 0px -8%",threshold:.08});revealItems.forEach(item=>revealObserver.observe(item));const sectionObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting)navLinks.forEach(link=>link.setAttribute("aria-current",String(link.getAttribute("href")===`#${entry.target.id}`)))}),{rootMargin:"-35% 0px -55%",threshold:0});sections.forEach(section=>sectionObserver.observe(section));if(stage)new IntersectionObserver(([entry])=>stage.classList.toggle("is-visible",entry.isIntersecting),{rootMargin:"80px 0px"}).observe(stage)}else{revealItems.forEach(item=>item.classList.add("is-revealed"));if(stage)stage.classList.add("is-visible")}})();</script>
   </body>
 </html>
