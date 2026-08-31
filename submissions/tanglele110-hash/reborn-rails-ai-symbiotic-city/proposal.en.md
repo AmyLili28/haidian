@@ -1526,7 +1526,7 @@ The structured matrices map 23/23 mandatory announcement and Agent tasks, respon
 
 ### 11.6 Recalculation Triggers and Conclusion
 
-Recalculation is mandatory when boundaries, any of the nine GeoJSON layers, industrial baselines, target definitions, capacity, functional proportions, scenario counts, project counts, or phase logic change. Current metrics are directly reviewable but remain bounded by provisional geometry and missing formal data; full-package validation waits for the complete bilingual A3/A0 and offline HTML outputs.
+Recalculation is mandatory when boundaries, any of the nine GeoJSON layers, industrial baselines, target definitions, capacity, functional proportions, scenario counts, project counts, or phase logic change. Current metrics are directly reviewable but remain bounded by provisional geometry and missing formal data; the synchronized bilingual A3/A0 and offline HTML outputs passed all four local gates on 2026-08-31.
 
 > **Evidence references retained for bilingual traceability:** [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] [depth:metrics_recalculation] [source:CH3-HAIDIAN-AI-BASELINE] [metric:site_ai_active_enterprise_index_target_long_term] [metric:site_ai_talent_density_index_target_long_term] [metric:site_ai_industry_output_index_target_long_term] [metric:chapter04_innovation_production_share] [metric:chapter04_city_service_share] [metric:chapter04_public_support_share] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] [depth:three_key_area_detailed_design]
 ## Chapter 12 Risk, Copyright, and Compliance

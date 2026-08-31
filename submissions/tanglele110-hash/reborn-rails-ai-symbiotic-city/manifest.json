@@ -43,7 +43,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "4cee03dd961d1d73f50bf4f0e99e2a09464f1d6075b4e58e70b23fc89499963b"
+      "sha256": "71981fb1f3a97b107e672e706d16191461f6921c23cce1854fb84bab792c6871"
     },
     {
       "path": "agent.json",
@@ -67,19 +67,19 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "d597ee9d4f43a12291740452dba903203861a2119f4248bba6cbebd785883357"
+      "sha256": "bc2bff3099b129a248643afc52cd2320b062e360e92f7378e3a0eb8ddc1cdcab"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "70850a059379fecc66ad9de2a801675f15bf6f547e1ff866784d1b590665a76b"
+      "sha256": "db3dfbc04343ba6ed7caf7c37bee1b00653ed8285281fd26b113bf18352e41ef"
     },
     {
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "08c0794c1975fcace259e52fdc41dc795a0d4d86eff773823a8151469950d4fa"
+      "sha256": "d452963e01c8ef9a116df536fb336a2c830a83ca009f8fa03229075dcfbe2ed0"
     },
     {
       "path": "standard_matrix.json",
@@ -91,7 +91,7 @@
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "8f32b806651fc8cc0b93e2ca211010cb12afd275dfdd770e2981e8cc2197ccf5"
+      "sha256": "b9f14d6f127839aa357e7ba49449210445f8a6918d81517927f85ed2dde0fbfb"
     },
     {
       "path": "report/proposal.html",
@@ -117,7 +117,7 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "1a0cfe7e6a71059f116843448763b4664783738292ef31a5141de871eba3a1aa"
+      "sha256": "b54e8267de3f37b9d61ba3a6b14a12cf7cf98d8af8d8ebd1b4bbdd1b8f42b47e"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -125,14 +125,14 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "bca08239cbd32bc88edb020a97f196f4a39bbf3695afc07992e72492ac07c277"
+      "sha256": "767e5db8fa6255bfce7dae0c480239ecdcc72382daddca65b6084a68a3ab555c"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "bf0492a75023449ee6492eff9bdd3bad80c92f5965200cb8c61fb4260e6bcd27"
+      "sha256": "e7809e688d65259c76ed21e46593424adbc1ecfba752926f262f8ea5b5c977bd"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -140,7 +140,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "df071fe95943956625bd17b815bd851b474fdba976ac84a6789af8dc16941dbc"
+      "sha256": "7a1d7dfe75650b2c16759a648c63af0425cf6492d75116416a20eab76a6a7228"
     },
     {
       "path": "visual/index.html",
@@ -155,7 +155,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "2e6cb8c3d4b3774c8da9ff19940c1a94fc99b625fba58239666af64a10c7d469"
+      "sha256": "bf7b755143ee7aec852068450c8f5b81520d41fa27912393969debcbaee184bd"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -192,7 +192,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "fb3a442ba9f2ad048a58d05be437d7140354558681b4947ec9ac6ea288f4f7af"
+      "sha256": "b70105432401a75dd14c8b928fee4dae3aa8334f323a74eb81f6d1cf23ee02b0"
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
@@ -200,7 +200,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png",
-      "sha256": "89ca53f04b6c787f27a8001a777647baf28fc2ba10fca106bc787dec48075f57"
+      "sha256": "404350320507d6910cf4310175a4366f2fe0c2416f9fec2e605fcbf9901b6cd6"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
@@ -825,7 +825,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "1b992aca36e2a9278c4098d1ef5ea3b9285a86e412efc578f072ce3173403c23"
+      "sha256": "b0043c97b390d0354544fae2df8306a48bcb89d92709b2ec5c23c7f96c34e640"
     },
     {
       "path": "visual/assets/reborn-rails-cjk-fallback.css",
