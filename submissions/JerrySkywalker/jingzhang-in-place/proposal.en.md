@@ -103,7 +103,7 @@ The three landmarks are operationally AI-native and physically minimal reversibl
 
 ### Task 5: Culture Is Not an AI Decoration
 
-The Jing-Zhang railway switchback becomes “trading admission for resilience”; a crossing becomes “protect surface continuity first”; handover becomes “stop, sign, exit and reset.” Zhongguancun innovation culture and AI new culture are therefore not spectacle images but a testable, contestable public process that can return to ordinary city. Wayfinding uses the bilingual rule “place + STATUS + allowed ACTION + human help + stop/reset.” It is distinct from the overall Logo: the first answers where and what now; the second expresses the identity of the belt. The international line is: **“An ordinary city that earns every exceptional state - and can give it back.”** [data:visual/assets/taskbook-closure.json#public_space_and_culture]
+This proposal’s cultural translation is a participant-authored conceptual analogy, not a factual claim about exact railway engineering, operating protocols, or current spatial conditions: changing alignment becomes “trading admission for resilience”; a crossing becomes “protect surface continuity first”; and handover becomes “stop, sign, exit and reset.” Zhongguancun innovation culture and AI new culture are therefore not spectacle images but a testable, contestable public process that can return to ordinary city. Wayfinding uses the bilingual rule “place + STATUS + allowed ACTION + human help + stop/reset.” It is distinct from the overall Logo: the first answers where and what now; the second expresses the identity of the belt. The international line is: **“An ordinary city that earns every exceptional state - and can give it back.”** [data:visual/assets/taskbook-closure.json#public_space_and_culture]
 
 ### Task 6: A Stoppable Annual Operating Cycle
 
@@ -123,12 +123,12 @@ The three formal visual metrics remain calculated from participant-supplied prov
 
 ---
 
-## Historical Heritage & Spatial Precedents: Alignment, Crossing, and Handover
+## Cultural Translation & Spatial Analogies: Alignment, Crossing, and Handover
 
-The Jing-Zhang Railway left not merely a physical alignment, but engineering wisdom for navigating complex urban constraints:
-1. **Switchback Alignment (Trading Distance for Gradient)**: Jeme Tien Yow solved the steep mountain gradient at Qinglongqiao with a switchback ("人" shape). This proposal translates that into **"Trading Admission for Resilience"**—avoiding blanket corridor-wide AI deployment in favor of spatial graduation and reversible admission to handle technological uncertainty. [source:OFFICIAL-ANNOUNCEMENT]
-2. **Level Crossing Stitching (Grade Crossings and Separation)**: Historic level crossings evolved into contemporary urban stitching seams such as Tsinghua East Road and Zhichun Road. This proposal insists on continuous surface pedestrian routes and independent step-free paths, preventing technological apparatus from severing daily civic life. [source:PARK-PHASE1]
-3. **Handover Accountability (Dual-Confirmation Protocol)**: Railway handover protocols mandate that incoming and outgoing shifts verify status and unresolved items never disappear. This proposal establishes a complete `S0 Ordinary City → S1 Admitted Specialist State → S2 Reset/Exit` handover chain, ensuring every technological intervention has a designated signatory and an exit ticket. [source:AGENT-TASKBOOK]
+The following three are participant-authored cultural translations, not claims about the route's exact historical engineering, operational protocols, or current spatial condition:
+1. **Changing Alignment (Conceptual Analogy)**: A rail alignment that changes direction becomes **"Trading Admission for Resilience"**—the proposal avoids blanket corridor-wide AI deployment in favour of spatial graduation and reversible admission when technological uncertainty remains.
+2. **Crossing Stitching (Conceptual Analogy)**: A crossing becomes the rule **"protect surface continuity first."** The proposal therefore keeps continuous surface pedestrian routes and independent step-free paths ahead of any technical apparatus.
+3. **Handover Accountability (Conceptual Rule)**: Handover becomes **"stop, sign, exit and reset."** The proposal establishes an `S0 Ordinary City → S1 Admitted Specialist State → S2 Reset/Exit` chain so each proposed technological exception has a future accountable handoff and exit record.
 
 ---
 
