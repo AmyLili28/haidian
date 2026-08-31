@@ -280,6 +280,22 @@
       "formal_registry_status": "listed in source_registry_summary"
     },
     {
+      "id": "SRC-SITE-PACKAGE-PLANNING-LIMITS",
+      "path": "brief/site-package/ranges/planning_limits.json",
+      "source_type": "official_open_data",
+      "usage": "场地包内控规五项指标（容积率、建筑高度、建筑密度、绿地率、退线）状态文件：全部为 missing。正文据此声明不给任何审定指标。",
+      "usage_zh": "场地包内控规五项指标（容积率、建筑高度、建筑密度、绿地率、退线）状态文件：全部为 missing。正文据此声明不给任何审定指标。",
+      "publisher": "组织方仓库（open-city-ai/haidian）",
+      "publisher_role": "organiser repository",
+      "retrieved_at": "2026-08-30",
+      "spatial_temporal_coverage": "brief/site-package/ranges/planning_limits.json 当前版本",
+      "license": "仓库公开文件",
+      "transformation": "直接引用文件内 missing 状态，不作任何外推",
+      "known_limitations": "该文件只说明指标缺失状态，不提供任何控制值；任何强度指标仍待官方控规发布",
+      "classification": "formal-ready",
+      "formal_registry_status": "organiser site-package file; resolved in-package reference"
+    },
+    {
       "id": "SRC-HD00-1601-KONGGUI",
       "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202608/t20260812_4819212.html",
       "source_type": "official_public",
@@ -291,9 +307,9 @@
       "spatial_temporal_coverage": "京张铁路遗址公园沿线（人工智能创新街区重点地区）HD00-1601 等街区控规；『一带一轴、两心多点』结构",
       "license": "政府信息公开内容",
       "transformation": "逐字引用结构描述；具体地块指标与红线须以正式控规图为准",
-      "known_limitations": "未取得控规图精确矢量；本方案视为概念性控规锚点",
-      "classification": "pending review",
-      "formal_registry_status": "not listed in source_registry_summary; control-plan vector pending"
+      "known_limitations": "未取得控规图精确矢量；仅公开报道，正文仅作待复核背景信息使用，不作为审定依据",
+      "classification": "background",
+      "formal_registry_status": "not listed in source_registry_summary; control-plan vector pending; used as pending-verification background only"
     },
     {
       "id": "SRC-URBAN-PARTNER",
