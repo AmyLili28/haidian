@@ -1,5 +1,12 @@
 # 方案迭代记录
 
+## v13.1 Minimal review repair - 2026-08-31
+
+- Preserved the approved white A0/A3 visual edition and all validated geometry, metrics, governance contracts and renderings.
+- Distinguished the taskbook key areas K1–K3 from the reversible prototype anchors T1–T3, and added a bilingual functional crosswalk without making official-boundary containment claims.
+- Regenerated the bilingual evidence atlas with V13 footers and repaired English clipping in the mobility and metrics boards.
+- Re-rendered both offline proposal reports from clean UTF-8 Markdown, removing the visible source comment and Chinese mojibake.
+
 ## v13.0 A0-827 independent expert visual edition - 2026-08-31
 
 - Created a new independent V13 package; PR #4334 and all earlier V6/V7/V9/V10/V12 submissions remain untouched.

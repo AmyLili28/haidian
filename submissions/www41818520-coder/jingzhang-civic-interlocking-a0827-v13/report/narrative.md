@@ -11,13 +11,11 @@ tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
 ---
 
-<!-- PARTICIPANT-DESIGN: Jing-Zhang City as Agent. Prepared by Codex for www41818520-coder. All spatial moves are conceptual suggestions for professional deepening; provisional geometry is explicitly retained pending organiser-supplied official files. -->
-
 # 城市，即Agent：京张市民联锁 A0-827 专家视觉版
 
 > **核心命题：让城市有能力，人民有权力。人民提问，城市作答。**
 
-![三处重点区概念体验与市民联锁总览](assets/figures/expert-cover.png)
+![三处原型锚点概念体验与市民联锁总览](assets/figures/expert-cover.png)
 
 > **图面身份：** 上图三处空间场景为 AI 辅助的参赛者概念示意，不是现状照片、官方资料、审批成果或已建工程；五张必需图、指标、GeoJSON、风险与假设登记册构成可核验证据层。[assumption:A-RENDER-001]
 
@@ -37,7 +35,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 五道联锁分别是：L1 同一任务在无设备的普通路径上可完成；L2 现场能找到具名人工责任人；L3 数据、工具、权限和申诉边界已锁定；L4 版本、证据、异议和状态在断电时仍可读；L5 人工接管、撤除、删除和恢复已演练。任一锁缺失，智能支线保持不可见，普通/人工 H 线继续工作。每次决定生成十二字段“路线卡”，记录任务、场地、拓扑、普通路径、智能范围、人工责任、锁态、异议、结果、恢复、到期与哈希，不把成功分数当公共证明。[data:visual/assets/civic-interlocking-route-card-schema.json] [metric:interlocking_lock_count] [metric:interlocking_route_card_field_count]
 
-三处重点区不复制一个亭子，而形成三种关系：清华园旧站是 24×12 米“平行遗产月台”，无屏 H 线与两个 3×3 米可拆影子位平行；15号线到达口是 30×15 米“编织知识交叉场”，同一问题穿过两份有界建议后交给人工节点；大钟寺是 32×18 米“单队列三出口扇”，同一队列可选安静普通服务、人工复核或有边界的智能辅助。三者最小连续净宽 2.2 米、均预留直径 1.5 米回转空间，但这些只是标准化方案盒，G0 仍须由现场无障碍、消防、文保、交通和产权专业复核。[data:visual/assets/civic-interlocking-spatial-topologies.json] [metric:interlocking_spatial_topology_count] [assumption:A-INTERLOCK-001]
+三处**原型锚点**不复制一个亭子，而形成三种关系：T1 清华园旧站是 24×12 米“平行遗产月台”，无屏 H 线与两个 3×3 米可拆影子位平行；T2 15号线到达口是 30×15 米“编织知识交叉场”，同一问题穿过两份有界建议后交给人工节点；T3 大钟寺到达口是 32×18 米“单队列三出口扇”，同一队列可选安静普通服务、人工复核或有边界的智能辅助。T1—T3 是可逆空间原型，不是任务书三片区的替代名称，也不据此推断原型位于片区官方边界内。三者最小连续净宽 2.2 米、均预留直径 1.5 米回转空间，但这些只是标准化方案盒，G0 仍须由现场无障碍、消防、文保、交通和产权专业复核。[data:visual/assets/civic-interlocking-spatial-topologies.json] [metric:interlocking_spatial_topology_count] [assumption:A-INTERLOCK-001]
 
 方案生成没有从一个偏好答案直接出图。四条独立设计根在同一 120 米标准路径上比较：R1 中心信号塔、R2 分布式智能亭、R3 应用优先无感路线、R4 市民联锁场；它们按普通路径连续度、人工责任可见度、智能面积可逆率、夏季遮阴代理和流线冲突代理复算。前三者分别因单点权力、人工责任不可见或普通路径断裂触发硬退件，只有 R4 同时通过四道空间门后才进入设计评议；代理值只筛除不可接受状态，不替代专业选择。[data:visual/assets/civic-interlocking-design-roots.json] [metric:interlocking_design_root_count] [metric:interlocking_eligible_root_count]
 
@@ -123,7 +121,17 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ![三处重点区域索引与设计任务图](assets/figures/key-areas.png)
 
-### V13 场地锚点校核：三段独立可用，而非一条被承诺的连续步道
+### 任务书三片区与 T1—T3 原型锚点交叉表
+
+任务书三片区与沿线原型锚点是两套不同层级：K1—K3 承担片区级必答任务，T1—T3 仅用于检验空间拓扑和到达界面。组织方尚未提供三片区官方多边形，因此下表只声明功能传递，不声称 T1、T2 位于相应片区内部；大钟寺同名关系也仍须以正式边界确认。
+
+| 任务书片区 | 片区级必答成果 | 对应原型锚点 | 关系与边界状态 |
+| --- | --- | --- | --- |
+| K1 众智园AI自主创新加速区 | 公众验证、生态校准、高校—公园联合测试 | T1 清华园旧站·平行遗产月台 | 复用“公众验证”协议的沿线原型；不主张位于 K1 官方边界内 |
+| K2 北京AI原点社区 | 开源工具、城市工务、人工确认与责任签字 | T2 15号线到达口·编织知识交叉场 | 复用“协作—确认”协议的到达原型；不主张位于 K2 官方边界内 |
+| K3 大钟寺AI产业聚集区 | 日常服务、人工接管、争议复核与公共记忆 | T3 大钟寺到达口·单队列三出口扇 | 同名功能锚点；精确包含关系等待官方多边形确认 |
+
+### V13 原型锚点校核：三段独立可用，而非一条被承诺的连续步道
 
 以清华园车站旧址、清华东路西口地铁站（15号线）和大钟寺地铁站（12、13号线）作为体验推演锚点。2026年8月21日的高德服务快照锁定 3 个具名坐标、15 组一公里分类索引和 3 条两两步行核验：旧站—15号线约 1.59 km / 21 分钟，旧站—大钟寺约 4.13 km / 55 分钟，15号线—大钟寺约 4.56 km / 61 分钟。这个量级否定了“一条连续轻松漫步线”的先验，因此本方案把文化解释、知识抵达和日常服务做成三段可独立成立的公共接口。[source:AMAP-SPATIAL-SNAPSHOT-20260821] [metric:amap_named_anchor_count] [metric:amap_poi_snapshot_count]
 

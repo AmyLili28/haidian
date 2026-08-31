@@ -11,13 +11,11 @@ tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
 ---
 
-<!-- PARTICIPANT-DESIGN: Jing-Zhang City as Agent. Prepared by Codex for www41818520-coder. All spatial moves are conceptual suggestions for professional deepening; provisional geometry is explicitly retained pending organiser-supplied official files. -->
-
 # City as Agent: Jing-Zhang Civic Interlocking A0-827 Expert Visual Edition
 
 > **Core proposition: give the city capability and give people authority. People ask; the city responds.**
 
-![Concept experiences for three key areas and Civic Interlocking overview](assets/figures/expert-cover.en.png)
+![Concept experiences for three prototype anchors and Civic Interlocking overview](assets/figures/expert-cover.en.png)
 
 > **Image status:** the three spatial scenes above are AI-assisted participant concept visualisations, not site photographs, organiser material, approval drawings or built work. The five required figures, metrics, GeoJSON, and risk and assumption registers form the verifiable evidence layer. [assumption:A-RENDER-001]
 
@@ -37,7 +35,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 The five locks are: L1 the same task works on a no-device ordinary route; L2 a named human is findable on site; L3 data, tool, authority and appeal boundaries are locked; L4 version, evidence, dissent and status remain readable without power; L5 takeover, removal, deletion and recovery have been rehearsed. If any lock is absent, the AI siding stays invisible and the ordinary/staffed H line continues. Every decision emits a twelve-field Route Card: task, site, topology, ordinary route, agent scope, human owner, lock state, dissent, outcome, recovery, expiry and hash. A success score is never public proof. [data:visual/assets/civic-interlocking-route-card-schema.json] [metric:interlocking_lock_count] [metric:interlocking_route_card_field_count]
 
-The three key areas do not copy one kiosk. Tsinghua Yuan uses a 24×12 m Parallel Heritage Platform: a screen-free H line beside two removable 3×3 m shadow bays. The Line 15 arrival uses a 30×15 m Braided Knowledge Crossing: one question crosses two bounded proposals and reaches a human decision point. Dazhongsi uses a 32×18 m One-Queue Transfer Fan: one queue can choose quiet ordinary service, staffed review or bounded AI assistance. The minimum continuous clear width is 2.2 m and each provides a 1.5 m turning circle, but these are normalized design boxes; G0 still requires on-site accessibility, fire, heritage, transport and property review. [data:visual/assets/civic-interlocking-spatial-topologies.json] [metric:interlocking_spatial_topology_count] [assumption:A-INTERLOCK-001]
+The three **prototype anchors** do not copy one kiosk. T1 Tsinghua Yuan uses a 24×12 m Parallel Heritage Platform: a screen-free H line beside two removable 3×3 m shadow bays. T2 Line 15 arrival uses a 30×15 m Braided Knowledge Crossing: one question crosses two bounded proposals and reaches a human decision point. T3 Dazhongsi arrival uses a 32×18 m One-Queue Transfer Fan: one queue can choose quiet ordinary service, staffed review or bounded AI assistance. T1—T3 are reversible spatial prototypes, not substitute names for the taskbook's three key areas, and they do not prove that an anchor lies inside an official key-area boundary. The minimum continuous clear width is 2.2 m and each provides a 1.5 m turning circle, but these are normalized design boxes; G0 still requires on-site accessibility, fire, heritage, transport and property review. [data:visual/assets/civic-interlocking-spatial-topologies.json] [metric:interlocking_spatial_topology_count] [assumption:A-INTERLOCK-001]
 
 The design was not drawn from one preferred answer. Four independent roots share a normalized 120 m test path: R1 Central Signal Tower, R2 Distributed Smart Kiosks, R3 App-first Seamless Route and R4 Civic Interlocking Yards. They recalculate ordinary-route continuity, human-owner visibility, reversible AI area, summer-shade proxy and flow-conflict proxy. The first three trigger hard rejection through concentrated power, invisible responsibility or broken ordinary access. Only R4 passes all four spatial gates before qualitative design review; proxy values eliminate unacceptable states and never replace professional judgement. [data:visual/assets/civic-interlocking-design-roots.json] [metric:interlocking_design_root_count] [metric:interlocking_eligible_root_count]
 
@@ -123,7 +121,17 @@ Rail, commerce and community flows converge, yet complaints, scenario feedback a
 
 ![Index and design tasks for the three key areas](assets/figures/key-areas.en.png)
 
-### V13 anchor check: three independently useful segments, not one promised continuous walk
+### Crosswalk: Taskbook Key Areas and T1—T3 Prototype Anchors
+
+The taskbook key areas and corridor prototype anchors operate at different levels. K1—K3 carry the required area-scale responses; T1—T3 only test spatial topology and arrival interfaces. Because organiser-owned key-area polygons are not available, the crosswalk states functional transfer only. It does not claim that T1 or T2 lies inside the corresponding official area; even the same-name Dazhongsi relationship awaits an official boundary.
+
+| Taskbook key area | Required area-scale response | Prototype anchor | Relationship and boundary status |
+| --- | --- | --- | --- |
+| K1 Zhongzhiyuan AI Autonomous Innovation Acceleration Area | Public verification, ecological calibration, university–park testing | T1 Tsinghua Yuan · Parallel Heritage Platform | Corridor prototype reusing the public-verification protocol; no claim of containment within K1 |
+| K2 Beijing AI Origin Community | Open-source tools, civic works, human confirmation and accountable sign-off | T2 Line 15 arrival · Braided Knowledge Crossing | Arrival prototype reusing the collaboration–confirmation protocol; no claim of containment within K2 |
+| K3 Dazhongsi AI Industry Cluster | Everyday service, human takeover, dispute review and public memory | T3 Dazhongsi arrival · One-Queue Three-Exit Fan | Same-name functional anchor; exact containment awaits official geometry |
+
+### V13 prototype-anchor check: three independently useful segments, not one promised continuous walk
 
 The Tsinghua Yuan Former Station, Qinghua Donglu Xikou Metro Station (Line 15), and Dazhongsi Metro Station (Lines 12 and 13) are used as experience-planning anchors. An Amap service snapshot retrieved on 21 August 2026 fixes three named coordinates, fifteen one-kilometre category snapshots and three pairwise walking checks: former station—Line 15 about 1.59 km / 21 min; former station—Dazhongsi about 4.13 km / 55 min; Line 15—Dazhongsi about 4.56 km / 61 min. That scale rejects the prior assumption of one easy continuous promenade, so heritage interpretation, knowledge arrival and daily-life service become three independently useful public interfaces. [source:AMAP-SPATIAL-SNAPSHOT-20260821] [metric:amap_named_anchor_count] [metric:amap_poi_snapshot_count]
 
