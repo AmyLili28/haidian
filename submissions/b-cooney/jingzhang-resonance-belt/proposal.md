@@ -149,6 +149,8 @@ scenarios: ["ai-health-service-navigation", "ai-cultural-guide", "ai-traffic-wal
 
 AI 治理建议遵守数据最小化、公开来源、可解释与人工复核原则：城市智能体可辅助识别慢行断点、公共空间热力、设施维护与活动安全风险，但不替代规划审批、不输出未授权个人画像、不声称获得官方实施承诺。所有 AI 场景节点均进入结构化图层或合规矩阵，便于评审看到它们与产业、空间与公共利益的关系 [data:geometry/roads.geojson#ROAD-001] [data:geometry/green_space.geojson#GREEN-001]。
 
+**无障碍与包容性**：三处共鸣节点与声景公共空间设置**安静/低刺激时段与静音区**，为听觉敏感与神经多样性人群提供可随时退出的低唤醒环境；为听障人士提供**视觉与触觉替代体验**（灯光节律、震动座椅、字幕导视）；面向老年人与儿童提供**清晰、放缓、可预期**的声景与就近休憩；所有 AI 导航与服务均保留**传统人工与线下服务通道**，不以数字化为唯一入口。无障碍标准与实测须在深化阶段由专业团队与使用者共同验证，机器检查不构成无障碍合规认证 [source:HEALTH-EVIDENCE] [data:geometry/public_space.geojson#PUBLIC-001]。
+
 ## 用地、建筑规模与拆改留方案
 
 用地方案依据国土空间用途管制分类表达，形成完整、闭合、无缝的用地分区 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [data:geometry/land_use.geojson#LU-001]。建筑方案区分保留、改造、更新、新建或待确认对象，明确建筑基底、功能、规模与风貌控制的建议层级 [depth:height_massing_character] [depth:retain_renovate_demolish] [data:geometry/buildings.geojson#BLDG-001]。若缺少现状建筑、权属、控规与工程条件，方案只提出方法与待校准清单，不编造拆改留结论。
