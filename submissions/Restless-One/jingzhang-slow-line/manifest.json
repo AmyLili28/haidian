@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "cf6fda6d196c37b92d56d8fb68d3187be507be6ceac8b4e6e24fc2c19db938ad"
+      "sha256": "2b61ac834f5d2f95d922480b769d51457f4f4a1aa61114164c400ec893603f7d"
     },
     {
       "path": "compliance_matrix.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "6b9789edcba5f9eb48488b9ac0a10d5ce91fbbc4702b8ed7e0312748f1250374"
+      "sha256": "d8d164584181c22a0ccbcb79840649f78bd8887f0282cd6fb9ee424f030602de"
     },
     {
       "path": "report/narrative.md",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "98bfb66ee50a7e7716471fe43f936c3be342482dc5b1a0d8c50b14d1c223a507"
+      "sha256": "b049720fddc64741defeed66774b80dbfef4368d78290f82e8c4748845f3adb2"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -310,7 +310,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "57ead2b05afe004c38ac4001c26dc95bb789913add5ffafdbd1d7fd617b8fb95"
+      "sha256": "a2e77249f169e1c96870bc019fa6c762674bf1089030f2b04b224cb28f157a0e"
     },
     {
       "path": "assets/media/slow-line-experience.jpg",
