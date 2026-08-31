@@ -375,14 +375,14 @@
       "language": "en",
       "required": false,
       "translation_of": "report/proposal.html",
-      "sha256": "3bde956e3778108eb3c1a6a36054ba414c154b505c329a56d0464067624d0c7d"
+      "sha256": "fa80136b79450af6622f9515be10cb86a042897c4f8772597cd7873c185f7012"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "language": "zh",
       "required": true,
-      "sha256": "b255326cb859bb6b22d4583d0e8170aca9cdec50a5394c7a319765b5ab7612d1"
+      "sha256": "503c173df181824dcdf2934ecb57642d0d09f2800321064052141268328ec3e1"
     },
     {
       "path": "risk.json",
@@ -772,7 +772,7 @@
       "language": "en",
       "required": false,
       "translation_of": "visual/index.html",
-      "sha256": "9f81ddfc997bff626bef5aceaada409929e408dca6a58009c67448b6a15ce698"
+      "sha256": "8ab3e5a12a125702a8e261eb5f19d8b3e1e535e5e78fcb6715dd701455d7a4d0"
     },
     {
       "path": "visual/index.html",
