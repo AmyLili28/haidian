@@ -27,7 +27,9 @@
       ],
       "formula": "union(conceptual green polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Provisional geometry design model; recompute after official boundary and field survey."
+      ]
     },
     "public_space_area_sqm": {
       "status": "known",
@@ -38,7 +40,9 @@
       ],
       "formula": "union(conceptual public-space polygons, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Provisional geometry design model; recompute after official boundary and field survey."
+      ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
@@ -49,7 +53,9 @@
       ],
       "formula": "union(conceptual reuse-first envelopes, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Provisional geometry design model; recompute after official boundary and field survey."
+      ]
     },
     "green_ratio": {
       "status": "known",
@@ -61,7 +67,9 @@
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Provisional geometry design model; recompute after official boundary and field survey."
+      ]
     },
     "public_space_ratio": {
       "status": "known",
@@ -73,7 +81,9 @@
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Provisional geometry design model; recompute after official boundary and field survey."
+      ]
     },
     "road_network_length_m": {
       "status": "known",
@@ -84,7 +94,9 @@
       ],
       "formula": "sum(conceptual paths, EPSG:4548)",
       "confidence": "low",
-      "assumptions": []
+      "assumptions": [
+        "Provisional geometry design model; recompute after official boundary and field survey."
+      ]
     },
     "key_area_count": {
       "status": "known",
@@ -124,11 +136,14 @@
       "value": 3,
       "unit": "count",
       "source_files": [
+        "proposal.md",
         "geometry/public_space.geojson"
       ],
-      "formula": "count(scenario_type == ai_landmark)",
-      "confidence": "high",
-      "assumptions": []
+      "formula": "count(concept AI landmarks)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept/process count; not a claim of existing implementation."
+      ]
     },
     "scenario_node_count": {
       "status": "known",
@@ -148,32 +163,38 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(industry_validation scenario cards)",
+      "formula": "count(T1..T3 validation protocols)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Concept/process count; not a claim of existing implementation."
+      ]
     },
     "persona_count": {
       "status": "known",
-      "value": 5,
+      "value": 10,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(representative user groups)",
-      "confidence": "high",
-      "assumptions": []
+      "formula": "count(differentiated user/role groups)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept/process count; not a claim of existing implementation."
+      ]
     },
     "global_case_count": {
       "status": "known",
-      "value": 5,
+      "value": 7,
       "unit": "count",
       "source_files": [
         "proposal.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
-      "confidence": "high",
-      "assumptions": []
+      "formula": "count(first-party mechanism/spatial reference cases)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept/process count; not a claim of existing implementation."
+      ]
     },
     "phase_count": {
       "status": "known",
@@ -188,14 +209,30 @@
     },
     "annual_program_count": {
       "status": "known",
-      "value": 3,
+      "value": 4,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(annual event system)",
+      "formula": "count(annual operations programs)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept/process count; not a claim of existing implementation."
+      ]
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(SC-01..SC-12 structured cards)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Concept/process count; not a claim of existing implementation."
+      ]
     }
-  }
+  },
+  "generated_at": "2026-08-31T00:00:00Z"
 }

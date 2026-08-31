@@ -338,6 +338,277 @@
         "generation_method": "concept prompting + geometry program",
         "limitations": "low confidence conceptual envelopes"
       }
+    },
+    {
+      "source_id": "DATA-SRC-CASE-HELSINKI-3D",
+      "title": "Helsinki 3D City Model",
+      "publisher": "City of Helsinki",
+      "source_kind": "first_party_or_self_produced",
+      "url": "https://www.hel.fi/en/decision-making/information-on-helsinki/3d-city-model",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_or_local",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web_or_local",
+      "license_summary": "Case page is a citation-only mechanism reference; Noto Sans CJK is OFL-1.1; self-produced assets are package outputs.",
+      "review_status": "citation_only",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "claiming local adoption or existing condition",
+        "transferring third-party rights or outcomes"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_space",
+        "rights"
+      ],
+      "local_paths": [],
+      "notes_zh": "public 3D city-model mechanism"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+      "title": "Virtual Singapore",
+      "publisher": "Singapore National Research Foundation",
+      "source_kind": "first_party_or_self_produced",
+      "url": "https://www.nrf.gov.sg/programmes/virtual-singapore/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_or_local",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web_or_local",
+      "license_summary": "Case page is a citation-only mechanism reference; Noto Sans CJK is OFL-1.1; self-produced assets are package outputs.",
+      "review_status": "citation_only",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "claiming local adoption or existing condition",
+        "transferring third-party rights or outcomes"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_space",
+        "rights"
+      ],
+      "local_paths": [],
+      "notes_zh": "digital model and public-sector innovation mechanism"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-DECIDIM",
+      "title": "Decidim",
+      "publisher": "Decidim Association",
+      "source_kind": "first_party_or_self_produced",
+      "url": "https://decidim.org/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_or_local",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web_or_local",
+      "license_summary": "Case page is a citation-only mechanism reference; Noto Sans CJK is OFL-1.1; self-produced assets are package outputs.",
+      "review_status": "citation_only",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "claiming local adoption or existing condition",
+        "transferring third-party rights or outcomes"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_space",
+        "rights"
+      ],
+      "local_paths": [],
+      "notes_zh": "participatory governance mechanism"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-TFL-OPEN-DATA",
+      "title": "Open data users",
+      "publisher": "Transport for London",
+      "source_kind": "first_party_or_self_produced",
+      "url": "https://tfl.gov.uk/info-for/open-data-users/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_or_local",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web_or_local",
+      "license_summary": "Case page is a citation-only mechanism reference; Noto Sans CJK is OFL-1.1; self-produced assets are package outputs.",
+      "review_status": "citation_only",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "claiming local adoption or existing condition",
+        "transferring third-party rights or outcomes"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_space",
+        "rights"
+      ],
+      "local_paths": [],
+      "notes_zh": "transport data mechanism"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-NYC-OPEN-DATA",
+      "title": "NYC Open Data",
+      "publisher": "City of New York",
+      "source_kind": "first_party_or_self_produced",
+      "url": "https://opendata.cityofnewyork.us/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_or_local",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web_or_local",
+      "license_summary": "Case page is a citation-only mechanism reference; Noto Sans CJK is OFL-1.1; self-produced assets are package outputs.",
+      "review_status": "citation_only",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "claiming local adoption or existing condition",
+        "transferring third-party rights or outcomes"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_space",
+        "rights"
+      ],
+      "local_paths": [],
+      "notes_zh": "city data governance mechanism"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+      "title": "Amsterdam Smart City",
+      "publisher": "Amsterdam Smart City",
+      "source_kind": "first_party_or_self_produced",
+      "url": "https://amsterdamsmartcity.com/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_or_local",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web_or_local",
+      "license_summary": "Case page is a citation-only mechanism reference; Noto Sans CJK is OFL-1.1; self-produced assets are package outputs.",
+      "review_status": "citation_only",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "claiming local adoption or existing condition",
+        "transferring third-party rights or outcomes"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_space",
+        "rights"
+      ],
+      "local_paths": [],
+      "notes_zh": "ecosystem collaboration mechanism"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-HIGH-LINE",
+      "title": "High Line",
+      "publisher": "Friends of the High Line",
+      "source_kind": "first_party_or_self_produced",
+      "url": "https://www.thehighline.org/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_or_local",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web_or_local",
+      "license_summary": "Case page is a citation-only mechanism reference; Noto Sans CJK is OFL-1.1; self-produced assets are package outputs.",
+      "review_status": "citation_only",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "mechanism comparison"
+      ],
+      "prohibited_uses": [
+        "claiming local adoption or existing condition",
+        "transferring third-party rights or outcomes"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_space",
+        "rights"
+      ],
+      "local_paths": [],
+      "notes_zh": "linear-park spatial reference only"
+    },
+    {
+      "source_id": "DATA-SRC-NOTO-SANS-SC",
+      "title": "Noto Sans CJK SC",
+      "publisher": "Google Noto Fonts",
+      "source_kind": "first_party_or_self_produced",
+      "url": "https://github.com/notofonts/noto-cjk",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_or_local",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web_or_local",
+      "license_summary": "Case page is a citation-only mechanism reference; Noto Sans CJK is OFL-1.1; self-produced assets are package outputs.",
+      "review_status": "citation_only",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "local package display"
+      ],
+      "prohibited_uses": [
+        "claiming local adoption or existing condition",
+        "transferring third-party rights or outcomes"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_space",
+        "rights"
+      ],
+      "local_paths": [],
+      "notes_zh": "OFL-1.1 font source; locally embedded subset"
+    },
+    {
+      "source_id": "DATA-SRC-SELF-PRODUCED-ASSETS",
+      "title": "Self-produced figures and PDFs",
+      "publisher": "JohnXu22786",
+      "source_kind": "first_party_or_self_produced",
+      "url": "assets/figures/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_or_local",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web_or_local",
+      "license_summary": "Case page is a citation-only mechanism reference; Noto Sans CJK is OFL-1.1; self-produced assets are package outputs.",
+      "review_status": "citation_only",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "local package display"
+      ],
+      "prohibited_uses": [
+        "claiming local adoption or existing condition",
+        "transferring third-party rights or outcomes"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_space",
+        "rights"
+      ],
+      "local_paths": [],
+      "notes_zh": "self-produced conceptual outputs; no third-party base map"
     }
-  ]
+  ],
+  "generated_at": "2026-08-31T00:00:00Z"
 }

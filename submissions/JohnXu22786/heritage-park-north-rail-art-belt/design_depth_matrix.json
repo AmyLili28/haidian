@@ -28,13 +28,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -42,9 +45,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -52,15 +63,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘现状诊断图与资料缺口’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "three_level_scope_framework",
@@ -89,13 +104,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -103,9 +121,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -113,15 +139,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘三层范围工作框架’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "overall_spatial_structure",
@@ -150,13 +180,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -164,9 +197,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -174,15 +215,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘总体空间结构’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "land_use_layout",
@@ -211,13 +256,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -225,9 +273,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -235,15 +291,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘用地布局’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "development_intensity_controls",
@@ -272,13 +332,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -286,9 +349,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -296,15 +367,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘开发强度控制’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "height_massing_character",
@@ -333,13 +408,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -347,9 +425,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -357,15 +443,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘高度体量风貌’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "retain_renovate_demolish",
@@ -394,13 +484,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -408,9 +501,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -418,15 +519,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘拆改留方案’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "traffic_rail_slow_parking",
@@ -455,13 +560,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -469,9 +577,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -479,15 +595,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘交通轨道慢行停车’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "municipal_new_infrastructure",
@@ -516,13 +636,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -530,9 +653,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -540,15 +671,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘市政与新型基础设施’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "blue_green_public_space",
@@ -577,13 +712,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -591,9 +729,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -601,15 +747,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘蓝绿空间与公共空间’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "three_key_area_detailed_design",
@@ -638,13 +788,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -652,9 +805,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -662,15 +823,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘三处重点区域详细设计’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "renewal_project_list",
@@ -699,13 +864,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -713,9 +881,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -723,15 +899,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘更新项目清单’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "phasing_implementation",
@@ -760,13 +940,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -774,9 +957,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -784,15 +975,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘分期实施’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "metrics_recalculation",
@@ -821,13 +1016,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -835,9 +1033,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -845,15 +1051,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘指标复算’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     },
     {
       "item_id": "risk_missing_data",
@@ -882,13 +1092,16 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
         "annual_program_count",
-        "phase_count"
+        "phase_count",
+        "annual_program_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
@@ -896,9 +1109,17 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+        "DATA-SRC-CASE-HIGH-LINE",
+        "DATA-SRC-NOTO-SANS-SC",
+        "DATA-SRC-SELF-PRODUCED-ASSETS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -906,15 +1127,19 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-EVIDENCE-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘风险与资料缺口’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "以钢弦之带、一轨三节点和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、7个机制案例、3个AI地标、八要素生态图和权利台账均有正文与派生输出证据，空间和遗存属性保持provisional/待核验。"
     }
   ]
 }
