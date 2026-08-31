@@ -73,7 +73,7 @@
       "ai_package_stages": {
         "submissions/ppw1014/jingzhang-ai-vein": "formal"
       },
-      "total_bytes": 13974516,
+      "total_bytes": 13981115,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -111,42 +111,6 @@
           "target_feature_id": "PROV-KEY-003",
           "expected": null,
           "actual": null
-        },
-        {
-          "check_id": "METRIC_RECALC_DRIFT",
-          "severity": "minor",
-          "target_file": "metrics.json",
-          "message": "site_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
-          "target_feature_id": null,
-          "expected": 11412825.385554,
-          "actual": 11412800.0
-        },
-        {
-          "check_id": "METRIC_RECALC_DRIFT",
-          "severity": "minor",
-          "target_file": "metrics.json",
-          "message": "green_space_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
-          "target_feature_id": null,
-          "expected": 1372717.75706,
-          "actual": 1372700.0
-        },
-        {
-          "check_id": "METRIC_RECALC_DRIFT",
-          "severity": "minor",
-          "target_file": "metrics.json",
-          "message": "public_space_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
-          "target_feature_id": null,
-          "expected": 77225.0,
-          "actual": 77300.0
-        },
-        {
-          "check_id": "METRIC_RECALC_DRIFT",
-          "severity": "minor",
-          "target_file": "metrics.json",
-          "message": "building_footprint_area_sqm is within the legacy tolerance but drifts beyond ordinary reporting precision; reconcile before publication.",
-          "target_feature_id": null,
-          "expected": 329530.577077,
-          "actual": 332300.0
         }
       ],
       "metrics": {
@@ -167,10 +131,10 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "site_area_sqm": 11412800.0,
-        "green_ratio": 0.1203,
-        "public_space_ratio": 0.0068,
-        "building_coverage_ratio": 0.0291,
+        "site_area_sqm": 11412825.386,
+        "green_ratio": 0.120279,
+        "public_space_ratio": 0.006767,
+        "building_coverage_ratio": 0.028874,
         "land_use_zone_count": 4.0,
         "key_area_count": 3.0,
         "renewal_project_count": 6.0,
@@ -209,11 +173,7 @@
   "spatial_issue_ids": [
     "KEY_AREA_PROVISIONAL",
     "KEY_AREA_PROVISIONAL",
-    "KEY_AREA_PROVISIONAL",
-    "METRIC_RECALC_DRIFT",
-    "METRIC_RECALC_DRIFT",
-    "METRIC_RECALC_DRIFT",
-    "METRIC_RECALC_DRIFT"
+    "KEY_AREA_PROVISIONAL"
   ],
   "visual_issue_ids": [],
   "professional_issue_ids": [],

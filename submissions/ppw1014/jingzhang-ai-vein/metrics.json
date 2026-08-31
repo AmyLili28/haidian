@@ -7,7 +7,7 @@
   "metrics": {
     "site_area_sqm": {
       "status": "known",
-      "value": 11412800,
+      "value": 11412825.386,
       "unit": "sqm",
       "source_files": [
         "geometry/site_boundary.geojson"
@@ -16,7 +16,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
@@ -32,7 +32,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
@@ -48,7 +48,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
@@ -64,7 +64,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
@@ -81,7 +81,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
@@ -114,7 +114,7 @@
     },
     "green_space_area_sqm": {
       "status": "known",
-      "value": 1372700,
+      "value": 1372717.757,
       "unit": "sqm",
       "source_files": [
         "geometry/green_space.geojson"
@@ -123,14 +123,14 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
     },
     "green_ratio": {
       "status": "known",
-      "value": 0.1203,
+      "value": 0.120279,
       "unit": "ratio",
       "source_files": [
         "geometry/site_boundary.geojson"
@@ -139,14 +139,14 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
     },
     "public_space_area_sqm": {
       "status": "known",
-      "value": 77300,
+      "value": 77225.0,
       "unit": "sqm",
       "source_files": [
         "geometry/public_space.geojson"
@@ -155,7 +155,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算",
         "公共空间图层为用地内公共活动界面（复合利用），不与用地分区互斥"
       ],
       "provisional_boundary_derived": true,
@@ -163,7 +163,7 @@
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.0068,
+      "value": 0.006767,
       "unit": "ratio",
       "source_files": [
         "geometry/site_boundary.geojson"
@@ -172,14 +172,14 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
     },
     "building_footprint_area_sqm": {
       "status": "known",
-      "value": 332300,
+      "value": 329530.579,
       "unit": "sqm",
       "source_files": [
         "geometry/buildings.geojson"
@@ -188,9 +188,9 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算",
         "为示意设计建筑基底（design_proposal），非现状建筑调查底数",
-        "计算方法：对包内 geometry/buildings.geojson 全精度坐标环在 EPSG:4548 高斯-克吕格平面按 shoelace 复算得 332,249.6 m²，发布值 332300 为其整百舍入；WGS84 测地线面积等异法独立复算可偏差约 1%（如 329,530.6 m²），属方法差异而非数据不一致；官方边界发布后须以同一方法整体重算"
+        "计算方法：与空间复核同法——对包内 geometry/buildings.geojson 全精度坐标在 EPSG:4548 平面作 shapely union 后计面积，得 329,530.579 m² 即发布值；此前版本按四组团多边形直接求和为 332,249.6 m²，差异源于组团间少量重叠被 union 消解，非数据不一致；WGS84 测地线等异法亦存在约 1% 级方法差异。官方边界发布后须以同一方法整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
@@ -210,7 +210,7 @@
     },
     "building_coverage_ratio": {
       "status": "known",
-      "value": 0.0291,
+      "value": 0.028874,
       "unit": "ratio",
       "source_files": [
         "geometry/site_boundary.geojson"
@@ -219,7 +219,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算",
         "仅示意基底覆盖率，不代表开发强度或容积率结论"
       ],
       "provisional_boundary_derived": true,
@@ -236,7 +236,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算",
         "设计示意中心线长度，非道路红线或工程断面"
       ],
       "provisional_boundary_derived": true,
@@ -277,7 +277,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算",
         "公告约192.1公顷，临时多边形复算值供自检核对"
       ],
       "provisional_boundary_derived": true,
@@ -294,7 +294,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算",
         "公告约104.3公顷"
       ],
       "provisional_boundary_derived": true,
@@ -311,7 +311,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算",
         "公告约72.0公顷"
       ],
       "provisional_boundary_derived": true,
@@ -328,7 +328,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算",
         "公告重点区域范围约368.4公顷，临时复算合计供核对"
       ],
       "provisional_boundary_derived": true,
@@ -345,7 +345,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算",
         "一期为重点区场景启动的‘可讨论范围’，非建设范围承诺"
       ],
       "provisional_boundary_derived": true,
@@ -362,7 +362,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
@@ -378,7 +378,7 @@
       "confidence": "medium",
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
-        "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算"
+        "面积与比率按空间复核同法（EPSG:4548 平面 union 精确复算）展示：面积保留三位小数、比率保留六位小数；官方边界发布后全部派生指标须整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"

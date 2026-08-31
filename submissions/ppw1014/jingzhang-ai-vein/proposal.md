@@ -35,7 +35,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 | --- | --- | --- | --- |
 | 统筹研究范围 | 约 43.6 km² | AI 产业生态、三区两翼协同、未来城市形态与命名/VI 体系 | [data:geometry/site_boundary.geojson#SITE-001]、[metric:global_case_study_count] |
 | 总体设计范围 | 约 11.4 km² | 城市更新框架、用地结构、交通市政、遗址公园活力带与风貌 | [data:geometry/land_use.geojson#LU-001]、[data:geometry/roads.geojson#ROAD-001]、[metric:renewal_project_count] |
-| 重点区域范围 | 约 368.4 公顷 | 三处重点片区达到规划综合实施方案的概念深度 | [data:geometry/key_areas.geojson#PROV-KEY-001]、[data:geometry/key_areas.geojson#PROV-KEY-002]、[data:geometry/key_areas.geojson#PROV-KEY-003] |
+| 重点区域范围 | 约 369.3 公顷 | 三处重点片区达到规划综合实施方案的概念深度 | [data:geometry/key_areas.geojson#PROV-KEY-001]、[data:geometry/key_areas.geojson#PROV-KEY-002]、[data:geometry/key_areas.geojson#PROV-KEY-003] |
 
 三层不是互相割裂的图纸集合 [depth:overall_spatial_structure]：统筹研究决定创新链与城市形态判断，总体设计把判断落实为更新项目、空间结构与设施承载，重点区域验证具体地块、建筑、交通、公共空间与 AI 场景的可实施性。当前所有空间结论受 provisional 边界限制，官方边界到位后按假设 [data:geometry/constraints.geojson#CONSTRAINTS] 统一重算。
 
@@ -71,7 +71,7 @@ VI 方向在实际视觉证据中落地：命名树（带级—片区级—节�
 
 ### 总体空间结构与区域协同
 
-总体空间结构为“**一带三核、多点场景、蓝绿慢行复合环**”：一带是京张遗址公园活力带（历史与公共空间主轴，南北贯通）；三核是三处重点区；多点场景是十二个 AI 场景节点（4 个 E0 概念、5 个 E1 试点候选、3 个 TVS 试点设计，均非已批准运营或现场验证成果）[metric:scenario_lighting_e0_count] [metric:scenario_lighting_e1_count] [metric:scenario_lighting_e2_count]；复合环是串联三核、公园与两翼的蓝绿慢行环及轨道站点接驳 [depth:blue_green_public_space]。区域协同只表达基于已登记背景资料的**建议流动关系**：海淀侧承接研发、孵化与测试，未来科学城和怀柔科学城可作为科研协同方向，经开区可作为工程化与制造协同方向，京津冀可作为应用与供应链协同方向 [source:THREE-AREAS-TWO-WINGS] [source:HAIDIAN-1X1]。这些箭头不是已签约关系、官方分工或政府承诺；主体、项目、容量与时序均须另行确认。
+总体空间结构为“**一带三核、多点场景、蓝绿慢行复合环**”：一带是京张遗址公园活力带（历史与公共空间主轴，南北贯通）；三核是三处重点区；多点场景是十二个 AI 场景节点（4 个 E0 概念、5 个 E1 试点候选、3 个 TVS 试点设计，均非已批准运营或现场验证成果）[metric:scenario_lighting_e0_count] [metric:scenario_lighting_e1_count] [metric:scenario_lighting_e2_count]；复合环是串联三核、公园与两翼的蓝绿慢行环及轨道站点接驳 [depth:blue_green_public_space]。区域协同只表达基于已登记背景资料的**建议流动关系**：海淀侧承接研发、孵化与测试，未来科学城和怀柔科学城可作为科研协同方向，经开区可作为工程化与制造协同方向，京津冀可作为应用与供应链协同方向；北纬社区作为走廊沿线居住社区，本方案仅将其定位为「日常优先」原则与社区共治试点（SC-09 类生活场景）的利益相关方与反馈来源，暂不对其作出空间分工、机构合作或容量承诺层面的判断 [source:THREE-AREAS-TWO-WINGS] [source:HAIDIAN-1X1] [source:AGENT-TASKBOOK]。这些箭头不是已签约关系、官方分工或政府承诺；主体、项目、容量与时序均须另行确认。
 
 ### 统治性规则：先日常、后叠加；未过 G0，不点亮
 
@@ -220,7 +220,7 @@ VI 方向在实际视觉证据中落地：命名树（带级—片区级—节�
 
 ### 场景-空间-运营矩阵与小月河公共体验路径
 
-场景-空间-运营矩阵将 12 场景映射到空间节点、运营责任与成熟度（见上表与 A3 文册）。**小月河公共体验路径**（小月河场景赋能翼）串联 SC-06 清河低碳创新廊、SC-04 慢行导航、SC-09 生活服务样板街与 SC-10 活动周路线，形成沿小月河两岸“产业展示—城市生活—公共体验”的一小时步行/骑行环 [data:geometry/roads.geojson#ROAD-006] [depth:blue_green_public_space]。
+场景-空间-运营矩阵将 12 场景映射到空间节点、运营责任与成熟度（见上表与 A3 文册）。**小月河公共体验路径**（小月河场景赋能翼）串联 SC-06 清河低碳创新廊、SC-04 慢行导航、SC-09 生活服务样板街与 SC-10 活动周路线，形成沿小月河两岸“产业展示—城市生活—公共体验”的一小时步行/骑行环 [data:geometry/roads.geojson#ROAD-006] [depth:blue_green_public_space]。三处重点区的场景归属以本表为**唯一对照**：众智园＝SC-02/SC-03/SC-06；AI原点社区＝SC-01/SC-07/SC-09；大钟寺＝SC-05/SC-08/SC-10；SC-04/SC-11 落于走廊级慢行与接驳网络，SC-12 城市智能体运维台对应众智园治理馆、为走廊级治理设施，不重复计入单一重点区。
 
 ## 用地、建筑规模与拆改留方案
 
