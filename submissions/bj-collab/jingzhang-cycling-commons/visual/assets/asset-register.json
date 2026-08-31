@@ -728,7 +728,7 @@
     },
     {
       "path": "sources.json",
-      "sha256": "c5fb8997ae89714150852fc3e834d8e935c7e4db2e1baab7faf52f55c5ca0f07",
+      "sha256": "4701c9676157a763e83a1ad8555fa47e2b776a61af6527b372bd76917397a590",
       "asset_type": "structured_submission_data",
       "creator_or_tool": "official scaffold and participant-authored evidence records",
       "created_or_updated": "2026-08-31",
@@ -808,7 +808,7 @@
     },
     {
       "path": "proposal.md",
-      "sha256": "8b7b1d8cc5c3d48d966a33be95b92e5ccbb1444046979d74b75e8a237f35adeb",
+      "sha256": "0f9ed7990ff7dde2907caa946604f93c6879f7cf753d81e78c5dc4c594b05835",
       "asset_type": "participant_narrative",
       "creator_or_tool": "RuiQiLiu × Codex",
       "created_or_updated": "2026-08-31",
@@ -824,7 +824,7 @@
     },
     {
       "path": "proposal.en.md",
-      "sha256": "bc5c1558cb04dd9c699d299c62826feaf51508dd0d4e7390989fa80ab899fdb9",
+      "sha256": "1139fa7d4bc5270ca8fce8b6b75ef546a682ecc67ad2ef2259054e48557005f4",
       "asset_type": "participant_narrative",
       "creator_or_tool": "RuiQiLiu × Codex",
       "created_or_updated": "2026-08-31",
@@ -840,7 +840,7 @@
     },
     {
       "path": "changelog.md",
-      "sha256": "6bbe7511bab603a5de91057ecc7f63380ffaaee93d6e260037db4b2dac5c9d22",
+      "sha256": "bdb8f17d2817aaceb2807d347d789d43ce77d1ba26807bef710a8179433d0c73",
       "asset_type": "participant_narrative",
       "creator_or_tool": "RuiQiLiu × Codex",
       "created_or_updated": "2026-08-31",
@@ -856,7 +856,7 @@
     },
     {
       "path": "report/copyright_statement.md",
-      "sha256": "cfb72321c966040fe6f2459f9449102674e5e030c10f399826e939f729234531",
+      "sha256": "9cb95884d4227861fa2e186b0eece9bb98db4cda0f755f507c2a2032025870bd",
       "asset_type": "participant_narrative",
       "creator_or_tool": "RuiQiLiu × Codex",
       "created_or_updated": "2026-08-31",
@@ -936,7 +936,7 @@
     },
     {
       "path": "visual/index.en.html",
-      "sha256": "11718c92b14ecc51afd9c9c811065896934c31ed0bb9a9bdef29a3e7382ebde9",
+      "sha256": "348e65b42a8e639858b806d8b736a829a4bd691887757883237ac5899e0619e7",
       "asset_type": "offline_html",
       "creator_or_tool": "official proposal renderer or participant offline visual renderer",
       "created_or_updated": "2026-08-31",
@@ -952,7 +952,7 @@
     },
     {
       "path": "visual/index.html",
-      "sha256": "81582b93fb55be08448e7f28db0da020f4a7ca61966e0d000b936594d68b6ce9",
+      "sha256": "a126427838c270a6f6e85c297e5d7f21dffe07c6d3f68e0918f2120725663054",
       "asset_type": "offline_html",
       "creator_or_tool": "official proposal renderer or participant offline visual renderer",
       "created_or_updated": "2026-08-31",
@@ -968,7 +968,7 @@
     },
     {
       "path": "report/proposal.en.html",
-      "sha256": "46086f8098e12fe2f774c48c6259a6a48b5fdd7b9b37ed73d661328a4a09fcb0",
+      "sha256": "63f41e9d5d54cede147475d17f8cbd2928765d728a39c3272689ea9470fffc5b",
       "asset_type": "offline_html",
       "creator_or_tool": "official proposal renderer or participant offline visual renderer",
       "created_or_updated": "2026-08-31",
@@ -984,7 +984,7 @@
     },
     {
       "path": "report/proposal.html",
-      "sha256": "2511d461ffcc1d5e6fa89581f1b86a4391ebb1eab47607f1c24b408e211bd64a",
+      "sha256": "d8a59a9bf2c8a4a23e1ce30fd44a370814843defbc8434ed3a526b8b987973f0",
       "asset_type": "offline_html",
       "creator_or_tool": "official proposal renderer or participant offline visual renderer",
       "created_or_updated": "2026-08-31",
@@ -1000,7 +1000,7 @@
     },
     {
       "path": "visual/assets/offline-font.css",
-      "sha256": "5c5b9218f59e31af0c3a75375ab675b4070877ccd03fdc073d97d393ab8f9bde",
+      "sha256": "07dd2535cd5e248ccd7f9f5c5b15668906f52dda77c1115e084c248ca28ac2d6",
       "asset_type": "embedded_offline_font_stylesheet",
       "creator_or_tool": "Google Fonts Noto Sans SC subset by FontTools/Brotli",
       "created_or_updated": "2026-08-31",

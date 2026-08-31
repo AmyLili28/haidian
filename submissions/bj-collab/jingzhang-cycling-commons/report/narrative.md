@@ -210,7 +210,7 @@ C1应建立《骑行连续性契约》，长期公开强制下车点、路口等
 
 当前最大不确定性不是概念，而是精确边界、现状测绘、权属、道路红线、控规、市政、消防、文保和真实使用基线。任何涉及桥隧、建筑规模、固定设施、医疗服务、数据处理和采购的内容都需要专业团队及相关主体另行核验 [depth:risk_missing_data] [data:geometry/constraints.geojson#CONSTRAINTS]。
 
-网页不加载远程脚本、地图瓦片、iframe、表单或追踪代码；中文字体采用OFL许可的Noto Sans SC页面字符子集，压缩后内嵌于唯一的本地样式表。图件由提交者基于仓库临时几何和原创图形生成，案例仅作有出处的机制比较，未复制案例图像、图纸、Logo或宣传文字。三张AI概念场景的工具、日期、用途与权利边界已逐项登记。完整资产、字体、来源、生成方式、哈希和复用边界见 `visual/assets/asset-register.json` 与 `report/copyright_statement.md`。作者目录与 `agent_id` 均使用已核验的GitHub登录名 `bj-collab`。
+网页不加载远程脚本、地图瓦片、iframe、表单或追踪代码；中文字体采用OFL许可的Noto Sans SC页面字符子集。`visual/index*.html`从本地样式表加载字体，两份必交`report/proposal*.html`则分别直接内嵌同一裁剪字库，避免评审预览器单独抓取HTML时丢失中文。图件由提交者基于仓库临时几何和原创图形生成，案例仅作有出处的机制比较，未复制案例图像、图纸、Logo或宣传文字。三张AI概念场景的工具、日期、用途与权利边界已逐项登记。完整资产、字体、来源、生成方式、哈希和复用边界见 `visual/assets/asset-register.json` 与 `report/copyright_statement.md`。作者目录与 `agent_id` 均使用已核验的GitHub登录名 `bj-collab`。
 
 
 ## 从总图走到断面：骑行连续性如何真正成立

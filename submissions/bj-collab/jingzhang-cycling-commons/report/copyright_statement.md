@@ -4,7 +4,7 @@
 
 所有示意图由本地Python/Pillow根据方案文字、提交GeoJSON和原创图形绘制。GeoJSON沿用仓库明确标注的临时边界并叠加本案概念设计，不构成官方红线、现状测绘或法定规划。双语网页完全离线，不加载远程脚本、地图瓦片、iframe、表单或追踪代码。
 
-中文与拉丁文字采用Noto Sans SC可变字体，来源为Google Fonts / Noto。PDF按文档所需字符嵌入；网页版本使用FontTools按四个提交页面实际出现的字符裁剪并压缩为WOFF2，作为data URI仅内嵌一次于`visual/assets/offline-font.css`，不请求远程字体。该修改字体依据SIL Open Font License 1.1再分发，未使用上游保留字体名作为修改字体名；许可证全文见本文件附录A。未随包分发Microsoft YaHei或其他商业字体文件。
+中文与拉丁文字采用Noto Sans SC可变字体，来源为Google Fonts / Noto。PDF按文档所需字符嵌入；网页版本使用FontTools按四个提交页面实际出现的字符裁剪并压缩为WOFF2。`visual/index*.html`从`visual/assets/offline-font.css`读取data URI；两份必交`report/proposal*.html`各自直接内嵌同一字库，以适配单文件截图审查。所有页面均不请求远程字体。该修改字体依据SIL Open Font License 1.1再分发，未使用上游保留字体名作为修改字体名；许可证全文见本文件附录A。未随包分发Microsoft YaHei或其他商业字体文件。
 
 三张场景图由OpenAI图像生成服务于2026-08-25根据本方案文字提示生成；运行环境未暴露精确图像模型标识，故不作猜测。图像仅表达尺度、人物关系和技术克制，不代表现状、真实人物、测绘、法定设计或实施承诺。权利与使用受OpenAI适用条款及本提交包`COMMUNITY-DISPLAY-ONLY`许可共同约束。
 

@@ -148,7 +148,7 @@
       "source_type": "open_font",
       "retrieved_at": "2026-08-31",
       "license": "SIL Open Font License 1.1",
-      "usage": "Offline Chinese and Latin rendering in figures and PDFs; HTML uses a page-character WOFF2 subset embedded once in a local stylesheet under OFL 1.1.",
+      "usage": "Offline Chinese and Latin rendering in figures and PDFs; visual HTML uses a local WOFF2 subset stylesheet and each required report HTML directly embeds the same OFL 1.1 subset for single-file preview reliability.",
       "claim_boundary": "Font names and licence retained; no endorsement implied."
     },
     {
