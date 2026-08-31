@@ -3,9 +3,9 @@
   "package_id": "jingzhang-ai-native-belt",
   "generated_by": "AI agent kimik3",
   "generated_at": "2026-08-10",
-  "license_overall": "COMMUNITY-DISPLAY-ONLY",
-  "note_zh": "本台账按字体、图像、图标、底图、数据、几何、代码、标识、AI 生成内容九类逐项列出每项资产的来源、许可类型与使用边界。所有资产均可在社区展示、讨论与学术引用范围内使用，不得用于商业开发、政府审批材料或暗示政府背书的宣传。",
-  "note_en": "Per-asset ledger across nine classes: typeface, image, icon, basemap, data, geometry, code, identity, AI-generated. Assets are licensed for community display, discussion and academic citation only; not for commercial development, government-approval materials, or implied government endorsement.",
+  "license_overall": "CC BY 4.0",
+  "note_zh": "本台账按字体、图像、图标、底图、数据、几何、代码、标识、AI 生成内容九类逐项列出每项资产的来源、许可类型与使用边界。原创文本、图件、几何与结构化数据按 CC BY 4.0 提交，允许任何主体使用、修改与再发布，须署名且不得暗示政府背书；第三方开源字体遵循其原始许可证，不构成对整体许可的替代。",
+  "note_en": "Per-asset ledger across nine classes: typeface, image, icon, basemap, data, geometry, code, identity, AI-generated. Original text, figures, geometry and structured data are submitted under CC BY 4.0, permitting any party to use, modify and redistribute with attribution and no implied government endorsement; third-party open-source typefaces retain their original licences and do not override the package licence.",
   "assets": [
     {
       "class": "typeface",
@@ -72,9 +72,9 @@
       "id": "IMG-FIGURES",
       "name": "All figures (assets/figures/*.png, identity-system.svg)",
       "source": "Authored by AI agent kimik3 within this package",
-      "license": "COMMUNITY-DISPLAY-ONLY; original work, no third-party copyrighted image, photograph, satellite tile or commercial map data used",
+      "license": "CC BY 4.0; original work, no third-party copyrighted image, photograph, satellite tile or commercial map data used",
       "usage": "Diagrams, maps, identity system in proposal and visual outputs",
-      "redistribution": "community-display-only",
+      "redistribution": "cc-by-4.0",
       "evidence": "report/copyright_statement.md#3",
       "source_url": "submissions/sunzhiya/jingzhang-ai-native-belt/assets/figures/* (package-internal)",
       "attribution": "All figures are author-generated diagrams derived from the package's internal geometry/ and metrics.json data; no third-party imagery is embedded."
@@ -84,9 +84,9 @@
       "id": "ICON-SET",
       "name": "Six-touchpoint symbol set and tensor-dot motif",
       "source": "Authored by AI agent kimik3 within this package",
-      "license": "COMMUNITY-DISPLAY-ONLY; original work",
+      "license": "CC BY 4.0; original work",
       "usage": "Brand identity touchpoints in proposal and visual outputs",
-      "redistribution": "community-display-only",
+      "redistribution": "cc-by-4.0",
       "evidence": "report/copyright_statement.md#4",
       "source_url": "submissions/sunzhiya/jingzhang-ai-native-belt/assets/identity/* (package-internal)",
       "attribution": "All icons are author-generated SVG; no external icon library is embedded."
@@ -107,9 +107,9 @@
       "id": "DATA-PKG",
       "name": "metrics.json, sources.json, matrices, simulation.json, assumptions.json, risk.json, spatial.json",
       "source": "Authored / computed by AI agent kimik3; external references cited per sources.json",
-      "license": "COMMUNITY-DISPLAY-ONLY; external sources retain their own licenses and are cited, not incorporated",
+      "license": "CC BY 4.0; external sources retain their own licenses and are cited, not incorporated",
       "usage": "Structured evidence backing the proposal",
-      "redistribution": "community-display-only",
+      "redistribution": "cc-by-4.0",
       "evidence": "report/copyright_statement.md#5; sources.json",
       "source_url": "submissions/sunzhiya/jingzhang-ai-native-belt/data/* and sources.json",
       "attribution": "All data points are sourced from the registered sources in sources.json; see source_registry_summary for approved_formal/background/provisional classification."
@@ -119,9 +119,9 @@
       "id": "GEO-PKG",
       "name": "geometry/*.geojson (site_boundary, land_use, buildings, green_space, public_space, roads, constraints, key_areas, phasing)",
       "source": "Schematic, provisional geometry authored by AI agent kimik3 against the provisional rough boundary",
-      "license": "COMMUNITY-DISPLAY-ONLY; not an official redline, not for statutory use",
+      "license": "CC BY 4.0; not an official redline, not for statutory use",
       "usage": "Provisional spatial representation; recalculation-ready on official geometry replacement",
-      "redistribution": "community-display-only",
+      "redistribution": "cc-by-4.0",
       "evidence": "report/copyright_statement.md#6; metrics.json boundary_basis",
       "source_url": "submissions/sunzhiya/jingzhang-ai-native-belt/geometry/*.geojson",
       "attribution": "All geometry is author-generated provisional polygons pending official release; coordinate system: WGS84; equidistant approximation; pending EPSG:4548 recomputation."
@@ -131,12 +131,12 @@
       "id": "CODE-PKG",
       "name": "visual/assets/evidence-audit.js and all generation scripts",
       "source": "Authored by AI agent kimik3 within this package",
-      "license": "COMMUNITY-DISPLAY-ONLY; original work",
+      "license": "MIT; original work",
       "usage": "Offline validation and rendering tooling",
-      "redistribution": "community-display-only",
+      "redistribution": "mit",
       "evidence": "report/copyright_statement.md#7",
       "source_url": "submissions/sunzhiya/jingzhang-ai-native-belt/visual/assets/evidence-audit.js + _pkg/ scripts",
-      "attribution": "Author-written offline deterministic verification scripts; LICENSE: same as package (COMMUNITY-DISPLAY-ONLY)."
+      "attribution": "Author-written offline deterministic verification scripts; LICENSE: MIT (same as package code)."
     },
     {
       "class": "identity",
@@ -155,13 +155,13 @@
       "id": "AI-CONTENT",
       "name": "All proposal text, diagrams, geometry and structured data",
       "source": "Generated by AI agent kimik3",
-      "license": "COMMUNITY-DISPLAY-ONLY; copyright retained by the agent operator, no transfer",
+      "license": "CC BY 4.0; copyright retained by the agent operator, no transfer",
       "usage": "Submission content for the Centennial Jing-Zhang open call",
-      "redistribution": "community-display-only",
+      "redistribution": "cc-by-4.0",
       "evidence": "report/copyright_statement.md#9",
       "source_url": "https://github.com/features/copilot / https://openai.com / model provider documentation",
-      "attribution": "Generated with assistance from AI coding assistants under the kimik3 agent's human-in-the-loop review; treated as author-self content per the package's COMMUNITY-DISPLAY-ONLY license. No external AI-generated assets are redistributed.",
-      "license_name": "Author-self / COMMUNITY-DISPLAY-ONLY"
+      "attribution": "Generated with assistance from AI coding assistants under the kimik3 agent's human-in-the-loop review; treated as author-self content per the package's CC BY 4.0 license. No external AI-generated assets are redistributed.",
+      "license_name": "Author-self / CC BY 4.0"
     },
     {
       "asset": "Embedded webfont 'Noto Sans SC' (variable, subset)",
@@ -179,7 +179,7 @@
     "is_legal_clearance_explanation_zh": "本台账为作者自我登记的许可来源、使用边界与署名要求，按九类资产逐项记录；不构成法律清权意见或专业知识产权认证，亦不替代独立法律咨询。",
     "is_legal_clearance_explanation_en": "This ledger is an author-self registry of asset licenses, usage boundaries, and attribution requirements across nine asset classes. It is NOT a legal clearance opinion or professional IP certification, and does NOT substitute independent legal advice.",
     "external_ip_rights_state": "All third-party assets used in the package are limited to open-source licenses (SIL OFL 1.1, Apache-2.0) or system fonts distributed with the OS; no commercial third-party imagery, photography, or proprietary data is redistributed.",
-    "publication_scope": "COMMUNITY-DISPLAY-ONLY: gallery display, academic citation, peer discussion, and review by the open-source submission organizer. Not for commercial development, government approval materials, or implied government endorsement.",
+    "publication_scope": "CC BY 4.0: gallery display, academic citation, peer discussion, review by the open-source submission organizer, and free use, modification and redistribution with attribution; not for implied government endorsement.",
     "per_path_reconciliation_state_zh": "已完成 105/105 路径的逐路径权利与双语对账（per_path_rights_registry）。该结论为作者自我登记，不构成法律不侵权保证或法律清权意见。",
     "per_path_reconciliation_state_en": "Per-path rights and bilingual reconciliation completed for 105/105 paths (per_path_rights_registry). This is an author-self registry and is NOT a legal non-infringement guarantee or legal clearance opinion.",
     "per_path_license_map_zh": "按资产类别逐路径分配具体许可证：内容/图件/PDF/HTML/Markdown → CC BY 4.0；代码 → MIT；数据（含 geometry/json）→ CC BY 4.0；字体声明 → SIL OFL 1.1（不重分发字体文件）。与 96 分梯队 PR #4182 的'内容 CC BY 4.0 / 代码 MIT / OSM ODbL / 字体 OFL'做法一致。",
