@@ -912,7 +912,8 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "可问责场景、比较参照与运营接口"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -936,7 +937,10 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "一带品牌、文化与生态",
+        "三项可验证产业试验与长期运营",
+        "六项任务已落到可审查交付"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -945,7 +949,12 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "HELSINKI-AI-REGISTER",
+        "AMSTERDAM-ALGORITHM-REGISTER",
+        "SINGAPORE-OIP",
+        "SEOUL-SMART-CITY",
+        "WATERFRONT-TORONTO-MIDP"
       ],
       "assumption_ids": [
         "A-CONTROLS-001"
@@ -965,7 +974,8 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "可问责场景、比较参照与运营接口"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -989,7 +999,10 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "一带品牌、文化与生态",
+        "三项可验证产业试验与长期运营",
+        "六项任务已落到可审查交付"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -998,7 +1011,12 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "HELSINKI-AI-REGISTER",
+        "AMSTERDAM-ALGORITHM-REGISTER",
+        "SINGAPORE-OIP",
+        "SEOUL-SMART-CITY",
+        "WATERFRONT-TORONTO-MIDP"
       ],
       "assumption_ids": [
         "A-CONTROLS-001"
@@ -1018,7 +1036,8 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "可问责场景、比较参照与运营接口"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1042,7 +1061,10 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "一带品牌、文化与生态",
+        "三项可验证产业试验与长期运营",
+        "六项任务已落到可审查交付"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1051,7 +1073,12 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "HELSINKI-AI-REGISTER",
+        "AMSTERDAM-ALGORITHM-REGISTER",
+        "SINGAPORE-OIP",
+        "SEOUL-SMART-CITY",
+        "WATERFRONT-TORONTO-MIDP"
       ],
       "assumption_ids": [
         "A-CONTROLS-001"
@@ -1071,7 +1098,8 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "可问责场景、比较参照与运营接口"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1095,7 +1123,10 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "一带品牌、文化与生态",
+        "三项可验证产业试验与长期运营",
+        "六项任务已落到可审查交付"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1104,7 +1135,12 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "HELSINKI-AI-REGISTER",
+        "AMSTERDAM-ALGORITHM-REGISTER",
+        "SINGAPORE-OIP",
+        "SEOUL-SMART-CITY",
+        "WATERFRONT-TORONTO-MIDP"
       ],
       "assumption_ids": [
         "A-CONTROLS-001"
@@ -1124,7 +1160,8 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "可问责场景、比较参照与运营接口"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1148,7 +1185,10 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "一带品牌、文化与生态",
+        "三项可验证产业试验与长期运营",
+        "六项任务已落到可审查交付"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1157,7 +1197,12 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "HELSINKI-AI-REGISTER",
+        "AMSTERDAM-ALGORITHM-REGISTER",
+        "SINGAPORE-OIP",
+        "SEOUL-SMART-CITY",
+        "WATERFRONT-TORONTO-MIDP"
       ],
       "assumption_ids": [
         "A-CONTROLS-001"
@@ -1177,7 +1222,8 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "可问责场景、比较参照与运营接口"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1201,7 +1247,10 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "一带品牌、文化与生态",
+        "三项可验证产业试验与长期运营",
+        "六项任务已落到可审查交付"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1210,7 +1259,12 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "HELSINKI-AI-REGISTER",
+        "AMSTERDAM-ALGORITHM-REGISTER",
+        "SINGAPORE-OIP",
+        "SEOUL-SMART-CITY",
+        "WATERFRONT-TORONTO-MIDP"
       ],
       "assumption_ids": [
         "A-CONTROLS-001"

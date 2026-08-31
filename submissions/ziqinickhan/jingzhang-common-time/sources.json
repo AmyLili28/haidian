@@ -42,6 +42,51 @@
       "path": "brief/site-package/agent_taskbook.json",
       "source_type": "user_provided_cleared",
       "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "HELSINKI-AI-REGISTER",
+      "url": "https://ai.hel.fi/en/ai-register/",
+      "publisher": "City of Helsinki",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-31",
+      "usage": "Global precedent for a public AI use register; used only as a governance-method comparison.",
+      "limitations": "Does not establish a Beijing legal, institutional, or data arrangement."
+    },
+    {
+      "id": "AMSTERDAM-ALGORITHM-REGISTER",
+      "url": "https://www.amsterdam.nl/en/policy/digitalisation-technology/algorithm-register/",
+      "publisher": "City of Amsterdam",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-31",
+      "usage": "Global precedent for algorithm transparency and public explanation; comparison only.",
+      "limitations": "No Dutch governance mechanism is asserted to apply locally."
+    },
+    {
+      "id": "SINGAPORE-OIP",
+      "url": "https://www.openinnovation.gov.sg/",
+      "publisher": "Government Technology Agency of Singapore",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-31",
+      "usage": "Precedent for challenge-led innovation and test validation; comparison only.",
+      "limitations": "Does not establish a Singapore partnership or funding commitment."
+    },
+    {
+      "id": "SEOUL-SMART-CITY",
+      "url": "https://english.seoul.go.kr/policy/smart-city/",
+      "publisher": "Seoul Metropolitan Government",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-31",
+      "usage": "Precedent for inclusive public-service-oriented smart-city governance; comparison only.",
+      "limitations": "Does not establish Seoul conditions, budgets, facilities, or cooperation."
+    },
+    {
+      "id": "WATERFRONT-TORONTO-MIDP",
+      "url": "https://www.waterfrontoronto.ca/sites/default/files/documents/midp-volume-1.pdf",
+      "publisher": "Waterfront Toronto",
+      "source_type": "official_public",
+      "retrieved_at": "2026-08-31",
+      "usage": "Precedent for public oversight and data-governance lessons in a technology-led district; comparison only.",
+      "limitations": "Not a spatial, legal, or implementation precedent to be copied."
     }
   ]
 }

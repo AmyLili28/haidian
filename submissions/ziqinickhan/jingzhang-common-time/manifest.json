@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "8927827ffdff5ad8917443abb8dfa0f55dd3d9006e727b1f783d02913e05db5b"
+      "sha256": "f9245bb01a80ccc875d593ee624319b60b00443647f1d638c0816e3b4a77658c"
     },
     {
       "path": "agent.json",
@@ -50,19 +50,19 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "277f52ce872fad29938dfe266f8049d8250961b041a4bdd12169cf35e75f1079"
+      "sha256": "0ec43ac4aa565025f6232acbe3eb75ba9ef47801904ca2fe00df6e8ee5391d72"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "83ba0c5d131434610d77999e36dd12041cc7c6f5f33a205edc890af622c1086a"
+      "sha256": "f8aab38745bf3cdbd5db5e7a1dc5d90101e186c982e42b5c3012b6b69bc4564a"
     },
     {
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "63859b47aa58b2cef05fe6198c8d22e69232025e3de1784dee98f5c169d6bf96"
+      "sha256": "fca1e6c3cb9a390400ea952ce5f639f1fee6fe8ce8c07d6a1e92ae6ff3280ac3"
     },
     {
       "path": "standard_matrix.json",
@@ -81,13 +81,13 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "ecdc4544270d384c7d60aa2a7108b853cac6e7aa67d8e7f89d4c9597b24312b3"
+      "sha256": "414ec03987e62805e32d62e6d48ba2d9397851265f0eb7832b3844e2ace1743c"
     },
     {
       "path": "report/narrative.md",
       "role": "narrative",
       "required": false,
-      "sha256": "676ac18fb1f7e0abb46bc1ce62b4c45c557644cae4b47f4dfbd397b257141129"
+      "sha256": "23dbdab7e975aa69d6f442fe8ca04924ccced943ce484bc2c63804ebf1b6002f"
     },
     {
       "path": "report/copyright_statement.md",
@@ -100,56 +100,56 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "b845b729f9da15328e625e7ae48f9db1f2571954b8ae5b06ddf91e89503f29e6"
+      "sha256": "3c55289df58dc088c02190ac301ad2f65506dfccde99d90effd77368528e8b96"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "c420f01ed2c18bf7e2ecc9204c1a858438e25c53a770f1d3ea420ec60ba00447"
+      "sha256": "10b631a612484065af12318ac725f3c84abae2b10254ccfa134eec1e8ac4eab2"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "abe2def3990064d2b5f9753c0e3c797154d8ded8fbbdef7c08754975d4cb3f4e"
+      "sha256": "e920ba90ccbbddbebba0c88b205a94917900e3fabab27d7b8088244f00233fec"
     },
     {
       "path": "assets/figures/key-areas.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "472c1fdfc2c3c8fa0f915370ae06cfe9730073df8028ba967a859afcaaaf6f10"
+      "sha256": "42512eb29f2f43c6f76c42491db0719a671dae61c0207e5edd5b8ce718a03e02"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "a90202a4b89564c673babd15ae5078689b9e17eba923b7d202f4e6efdd66c1ee"
+      "sha256": "dcbf8503225e226ed5280c2cba2daf5e2f1e4e012c3f1f545c1a16244f5b471e"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "856cd301834a2e4aade751288cdb24b291c065a9d3c4c9e8a61af7a74af61b26"
+      "sha256": "b1c045dc8affa6780df30a8f70510010801feaaa4b71e223ab912548bc93b9d2"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "2c0ee3dd2583f393e61cc23814a2fc22478e335fd877d606ffec31b079f99e26"
+      "sha256": "88f052d15aa4768c2b0283cf2db89f47102365c02cf330c5d77cca993838f2c4"
     },
     {
       "path": "assets/figures/site-overview.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "a17ebc3659650718dc40f7fe1d0caaaed6b037eaabc8c34967822ecd49b53511"
+      "sha256": "602807356a1bb36f66cafc9d77272cbd53a945076346f50870f1370792db3099"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "df5690886186a0a164d37335f6e62ff7956c2f8e21446b9eccd375d216cf3237"
+      "sha256": "183dc7b28029f6dfcac08e24895d569c44d5ed133cdc408ce8e5b1227f875c14"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "09f970aa5013fd651d2c97f8e1faa48d08870783e88d645d804f211622ea264f"
+      "sha256": "8abeb31af951c2a8eb57ab7d1c4adf720ecadde6a5822af7d7c3481902962d09"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -227,7 +227,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "f37f0961bc0d4e796277f7c137176eb3e6562b3edf7ef67d8c42a7bbe8bbc1fd"
+      "sha256": "6a71fb7ac6b76ee4fddf5beb650c6a8d9276b7fa02972319f6eca60ae28d2cfe"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -235,7 +235,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "975234fb835b961ba6d7adea79be2edf82fbde51434529fa1a1ae08f6926f70e"
+      "sha256": "6a0ac764e40be8240e6881f78f676e95683dde8121c4333ddb87f171536a9063"
     },
     {
       "path": "visual/index.en.html",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "6f91ced9eb945a017bb76a17f10d79ac81fff8e5f2817943673570e6de22a5c2"
+      "sha256": "34ba5109c7733577308dc02cfcd4a13cbbcc4e6b3771d95ef57574675cc41b5d"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -251,7 +251,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/key-areas.png",
-      "sha256": "97839e34ea7141303036282dca141b504e06f4ab73c0bc88f0a129a3bc4dd8e3"
+      "sha256": "69c2fb9e9bfa8f9c2a258200325be637b2eb6e18c59cb387420a122cdfc53b2c"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
@@ -259,7 +259,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/land-use-structure.png",
-      "sha256": "5779de5fe90c59c7ff0c8aba0d701bfbf17912f16584686135e6baa4bba568b0"
+      "sha256": "52fa70ec9d60c8fade2341090bde5d53aa213a5ad4b4c186acaa5eb5577ffa42"
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
@@ -267,7 +267,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png",
-      "sha256": "9f8b703ffe42e11de06da85c60517b67eac501115d24c78aaa10884815bb75f2"
+      "sha256": "8ae550feb217baf17cd86e52c7b5248fc4117da27f667660a87add3535c48386"
     },
     {
       "path": "assets/figures/mobility-bluegreen.en.png",
@@ -275,7 +275,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/mobility-bluegreen.png",
-      "sha256": "b364ebe06003a6a01ac0a7a015a75a45633127e93032e6083d45ed2bf333825e"
+      "sha256": "be3c5f35417a621af8f281fddad4914baad0c1218a6166d567e5b50661c3c5dd"
     },
     {
       "path": "assets/figures/site-overview.en.png",
@@ -283,7 +283,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
-      "sha256": "9937d7d77872b62a1b3de5c18925e8942d8590b956c533a79f89e90dedb7cbf1"
+      "sha256": "b132e92b3c1a8d6ae3004b76deca17018a6978b2b59792c5054d826c80876023"
     }
   ],
   "validation_claim": {

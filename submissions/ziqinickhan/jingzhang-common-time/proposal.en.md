@@ -69,9 +69,27 @@ The conceptual first year has four cycles: listen and map; prototype under super
 
 ## Metrics, Area Recalculation, and Compliance Matrix
 
-The three required visual metrics are calculated from submitted provisional geometry: site area 11,412,825 sqm, green ratio 12.34%, and public-space ratio 7.33%. They are low-confidence design-model values and must be recomputed, along with all dependent geometry and artifacts, when official polygons arrive [metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio] [depth:metrics_recalculation].
+The three required visual metrics are calculated from submitted provisional geometry: site area approximately 11.41 km² (a provisional design-model value), green ratio 12.34%, and public-space ratio 7.33%. They are low-confidence design-model values and must be recomputed, along with all dependent geometry and artifacts, when official polygons arrive [metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio] [depth:metrics_recalculation].
 
 ![Evidence, limits and recalculation](assets/figures/metrics-evidence.en.png)
+
+## Accountable Scenarios, Precedents, and Operating Interfaces
+
+### Substantive task response and regional interfaces
+
+The three areas and two wings are not parallel labels. Zhongzhiyuan carries full-stack research and safety governance; AI Origin carries talent, open-source practice, and transfer; Dazhongsi carries urban display, exchange, and native intelligent consumption. The Zhongguancun service wing supplies professional-service and factor interfaces, while the Xiaoyuehe wing reconnects low-threshold public experience to everyday slow mobility. The task matrix identifies the spatial carrier, industry mechanism, scenario, operating interface, evidence, and pending condition for every positioning and function. Suggested interfaces with Bewei Community, Future Science City, Huairou Science City, Yizhuang, and the Beijing–Tianjin–Hebei region are only proposed exchanges of research, validation, talent, terminals, events, or non-sensitive problem lists; they require confirmation by each party [source:AGENT-TASKBOOK] [data:geometry/key_areas.geojson#PROV-KEY-001].
+
+### Brand, culture, and public-space kit
+
+The identity direction for **Jing-Zhang Common Time** is a time spine crossing three nodes: navy for a trusted civic ground, mint for slow mobility and ecology, ochre for cultural memory, and gold for shared civic moments. It defines bilingual wordmarks, monochrome use, minimum size, clear space, and misuse rules, and remains distinct from cultural wayfinding and event sub-brands. The cultural storyline is “railway-connected time—Zhongguancun problem-solving time—AI returning time to people.” Wayfinding has three layers: direction, interpretation, and participation; unverified history, marks, portraits, and institutional relationships are not stated as fact. The Common-Time Marker, Open-Source Echo Hall, and Exchange Platform are conceptual landmarks with an accessible, maintainable, and pausable component kit, to be checked by professionals [source:AGENT-TASKBOOK] [depth:public_space_character].
+
+### Global precedents, ecosystem map, and three trial contracts
+
+Barcelona, Helsinki, Amsterdam, Toronto, Singapore, Seoul, and London are used as reviewable precedents for digital rights, algorithm registers, public oversight, open innovation, inclusive governance, and bilingual notice—not as copied institutions or claims of partnership. Land/space, industry, resources, talent, compute, data, and scenarios are mapped to the three areas and two wings. `report/narrative.md` contains the full source-linked table, mechanism, evidence, transfer limit, and non-transferable condition. The walking-gap diagnostic, safety-governance sandbox, and public-service answer assistant each specify a location type, input/output, minimum data, limitations, human review, complaint/opt-out, pause trigger, candidate responsibility, and measurable test. Their complete contract matrix is in `report/narrative.md`; none enters real operation before site permission, data protection, accessibility, and safety review [source:AGENT-TASKBOOK] [data:geometry/roads.geojson#ROAD-001].
+
+### Annual operation and implementation upgrade
+
+JZ-01 through JZ-06 should use a common template: candidate lead/collaborator, stage gate, dependency, deliverable, resource band, KPI, complaint/exit, and conversion path. The proposed annual loop is spring problem walks, summer developer safety sandboxes, autumn scenario open days, and winter international dialogue/archive. Each phase is permitted and reviewed first, tested in a limited way second, and publicly reflected on third; unauthorized data, a safety incident, or an unresolved complaint can pause it. Events, community, scenario opening, public experience, and international communication are concept operating frameworks, not investment, recruitment, or government commitments. Detailed deliverables, cost bands, and acceptance measures are in `report/narrative.md` [depth:renewal_project_list] [source:AGENT-TASKBOOK].
 
 ## Risk, Copyright, and Compliance
 
