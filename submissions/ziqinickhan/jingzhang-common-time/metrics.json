@@ -13,9 +13,10 @@
         "geometry/site_boundary.geojson"
       ],
       "formula": "polygon_area(submitted_site_boundary)",
-      "confidence": "high",
+      "confidence": "low",
       "assumptions": [
-        "Trusted official boundary is present in the site package."
+        "Submitted provisional design boundary; not an official redline or official area basis.",
+        "Recalculate all area-derived metrics when organizer-released official geometry becomes available."
       ]
     },
     "building_footprint_area_sqm": {
@@ -26,8 +27,10 @@
         "geometry/buildings.geojson"
       ],
       "formula": "sum(polygon_area(building_footprints))",
-      "confidence": "medium",
-      "assumptions": []
+      "confidence": "low",
+      "assumptions": [
+        "Derived from submitted provisional design geometry; recalculate with official geometry."
+      ]
     },
     "green_ratio": {
       "status": "known",
@@ -38,8 +41,10 @@
         "geometry/site_boundary.geojson"
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
-      "confidence": "medium",
-      "assumptions": []
+      "confidence": "low",
+      "assumptions": [
+        "Derived from submitted provisional design geometry; recalculate with official geometry."
+      ]
     },
     "public_space_ratio": {
       "status": "known",
