@@ -289,7 +289,7 @@
         "name_zh": "红队沙盒·安全治理馆",
         "name_en": "Red-team Sandbox Governance Hall",
         "related_space_id": "PUBLIC-003",
-        "maturity": "试点验证",
+        "maturity": "试点设计级",
         "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
       },
       "geometry": {
@@ -427,7 +427,7 @@
         "name_zh": "数据要素会客厅",
         "name_en": "Data-element Meeting Room",
         "related_space_id": "LU大钟寺东",
-        "maturity": "试点验证",
+        "maturity": "试点设计级",
         "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
       },
       "geometry": {
@@ -496,7 +496,7 @@
         "name_zh": "自动驾驶接驳测试道",
         "name_en": "Autonomous Shuttle Test Lane",
         "related_space_id": "ROAD-001",
-        "maturity": "试点验证",
+        "maturity": "试点设计级",
         "note_zh": "AI场景卡空间落位节点，场景运营与治理边界见 proposal 场景卡与 TVS 蓝图"
       },
       "geometry": {

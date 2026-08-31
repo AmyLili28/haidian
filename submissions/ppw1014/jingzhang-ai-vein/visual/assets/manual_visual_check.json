@@ -1,12 +1,12 @@
 {
   "schema_version": "0.1.0",
-  "checked_date": "2026-08-29",
-  "method": "人工逐页目视检查：渲染 PNG 后逐张查看标题、图例、比例尺、指北针、标签压盖、出血、缺字（tofu）与中英文可读性；PDF 以逐页位图渲染检查版心、裁切与留白。",
+  "checked_date": "2026-09-01",
+  "method": "人工逐页目视检查：渲染 PNG 后逐张查看标题、图例、比例尺、指北针、标签压盖、出血、缺字（tofu）与中英文可读性；PDF 以逐页位图渲染检查版心、裁切与留白。；2026-09-01 对最终版本逐项复核并刷新哈希",
   "figures": [
     {
       "path": "assets/figures/site-overview.png",
       "language": "zh",
-      "sha256": "ffd6f4a1c2f93274bf7d84f50ec01d4891cbdd0b5a9d0c44734f9380788208dd",
+      "sha256": "d5fb3033c9d5c953d95b05c08418a279eb8e799662bb9cae40bea3f215ca573d",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -19,7 +19,7 @@
     {
       "path": "assets/figures/site-overview.en.png",
       "language": "en",
-      "sha256": "b7789eb9aa927dc5bec6b647b9a907f30b18c3680ff2bd9263f39c79bf90c987",
+      "sha256": "09ec6b56547d465e6b51f950a652b6d47bd9aebd9c29f3cf224cd2a49339802c",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -32,7 +32,7 @@
     {
       "path": "assets/figures/land-use-structure.png",
       "language": "zh",
-      "sha256": "dcad29aaa9221838fc1efc434f8486b987c83fe904ed17ed7f5f0ec565eb064c",
+      "sha256": "ca0e085b7a1ec000bf25e427289813b0a52fb9f8bd4863ce952ccc27629d523d",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -45,7 +45,7 @@
     {
       "path": "assets/figures/land-use-structure.en.png",
       "language": "en",
-      "sha256": "55342ea21875e9e2398560f11bec4251393a5f94a4351d380089e35d170ac83e",
+      "sha256": "9eec61cdbaa4e81680e548bfc7c40aca27a6a246350142f90ba784c4d4255561",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -58,7 +58,7 @@
     {
       "path": "assets/figures/key-areas.png",
       "language": "zh",
-      "sha256": "9bbe04df601bb4f2f5aa981a00b5bfdb989603bf0f31bfec0a484057c79e9d8a",
+      "sha256": "8d45d6275a502b77efc0e97bf213b9552143a21229dd58533b59c85211307472",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -71,7 +71,7 @@
     {
       "path": "assets/figures/key-areas.en.png",
       "language": "en",
-      "sha256": "5043c3bcdbeab0bcb6abbf602047bd7e90743350fcaab15e87ddac41f5eedd32",
+      "sha256": "83278e061f1391943bac03ff21e3fa06e71cf7ead588e9b829900b3216aa72eb",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -84,7 +84,7 @@
     {
       "path": "assets/figures/mobility-bluegreen.png",
       "language": "zh",
-      "sha256": "a908385cb68c5368c62b2fdc0a138dcd49d2c31da3afe8b2b3de3b426127b2df",
+      "sha256": "aaefc5213b4f66faebb00c1815eb973e5dbdee3ee0ad475be6fb8781c4ef121f",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -97,7 +97,7 @@
     {
       "path": "assets/figures/mobility-bluegreen.en.png",
       "language": "en",
-      "sha256": "278712cb1a6532822dc948f1843204640ed83f7bab94fc095b9eedf40d167295",
+      "sha256": "2df71f78f7d076dc361333f28aa0ee9b9dbe411dc79bbe0cbad8bbf825388f3b",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -110,7 +110,7 @@
     {
       "path": "assets/figures/metrics-evidence.png",
       "language": "zh",
-      "sha256": "25be070fc442749b52315e39816794bf7735908a536f63d7b2ceb338c68139ba",
+      "sha256": "5f3afcefa3d07256f9d8c60250443fd9b846a7714d86d698d778254b094ce28c",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -123,7 +123,7 @@
     {
       "path": "assets/figures/metrics-evidence.en.png",
       "language": "en",
-      "sha256": "729344fa7af3cad9abeeced5b563e2e36bb1ab48d250e9f6276155b80df3aa80",
+      "sha256": "4f3e8963deebde1b82f432ff498a8e0741426c5bfe3627c7f8d1f74522eb760e",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -164,7 +164,7 @@
     {
       "path": "drawings/a3-booklet.pdf",
       "language": "zh",
-      "sha256": "c21b036549ff1e22ecc4a26bcab811fb217177a5ad897ef7c47f5fd5960de072",
+      "sha256": "7c836c6f1cddb0489b0c211f8838b940e4d080f7f7a1a69ed5e17497cbd4509b",
       "checks": {
         "pages_rendered": "all",
         "title_clipping": "none (fit-to-width measured)",
@@ -176,7 +176,7 @@
     {
       "path": "drawings/a3-booklet.en.pdf",
       "language": "en",
-      "sha256": "7c13d9e494d524b97cec1852d3d4e6afcaad67cbce404461fc9d41b828759179",
+      "sha256": "d22db0064cdf6e5d0e5a7056c0b947844205154f420bd69e1f1a1b601ae26842",
       "checks": {
         "pages_rendered": "all",
         "title_clipping": "none (fit-to-width measured)",
@@ -188,7 +188,7 @@
     {
       "path": "drawings/a0-boards.pdf",
       "language": "zh",
-      "sha256": "87be5abdbe8d4cc9310115ff26059d2de4120759c7de7d50ad216d76903343a9",
+      "sha256": "bb54a101c1f3fb256be002614146c60a819df8a8214d7c6142a64cb4a885607c",
       "checks": {
         "pages_rendered": "all",
         "title_clipping": "none (fit-to-width measured)",
@@ -200,7 +200,7 @@
     {
       "path": "drawings/a0-boards.en.pdf",
       "language": "en",
-      "sha256": "cdddef994b398f25dfc8d9beeabb3311daa1645438faede69571e2be9ba5696a",
+      "sha256": "efa817b461a40170a173412d7c605ef80ed7a9eb3315843fd29c3880abe7c1e3",
       "checks": {
         "pages_rendered": "all",
         "title_clipping": "none (fit-to-width measured)",

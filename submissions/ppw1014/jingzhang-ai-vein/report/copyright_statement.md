@@ -34,7 +34,7 @@
 
 ## 4. 构建工具链
 
-Python 3.9（shapely 2.0.7 / pyproj 3.6.1 / matplotlib 3.9.4 / Pillow 11.3.0 / reportlab / pymupdf 仅用于本地质检渲染）。全部构建脚本随本包工作过程保留于提交历史；HTML 无任何远程资源、CDN、跟踪或表单。
+Python 3.9；核心库及许可：shapely 2.0.7（BSD）、pyproj 3.6.1（MIT，PROJ 9.x 坐标引擎）、matplotlib 3.9.4（Matplotlib License，BSD 兼容）、Pillow 11.3.0（MIT-CMU）、reportlab 5.0.0（BSD）、fonttools 4.60.2（MIT，用于 Noto 子集化与 woff2 内联）、pymupdf 1.26.5（AGPL-3.0——仅用于本地离线质检渲染，不随包再分发、不参与交付物生成）。全部构建脚本随本包工作过程保留于提交历史（HOC-002 系列），图件/图纸/HTML 由确定性脚本按 metrics.json 单一数据源生成，可依提交历史复现；HTML 无任何远程资源、CDN、跟踪或表单。
 
 ## 5. 未使用与禁止事项
 

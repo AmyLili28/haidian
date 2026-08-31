@@ -1,12 +1,12 @@
 {
   "schema_version": "0.1.0",
-  "checked_date": "2026-08-29",
+  "checked_date": "2026-09-01",
   "scope": "proposal.md ↔ proposal.en.md、visual/index.html ↔ index.en.html、图件 zh ↔ en、A3/A0 zh ↔ en",
   "checks": [
     {
       "item": "指标数值",
       "result": "pass",
-      "note": "38 项指标在两语言中同源（metrics.json），未发现数字不一致"
+      "note": "47 项指标（42 known + 5 unknown）在两语言中同源（metrics.json），未发现数字不一致"
     },
     {
       "item": "用地面积表",

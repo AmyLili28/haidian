@@ -33,8 +33,8 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 | 层级 | 公告范围 | 本方案回答的问题 | 数据落点 |
 | --- | --- | --- | --- |
-| 统筹研究范围 | 约 43.6 km² | AI 产业生态、三区两翼协同、未来城市形态与命名/VI 体系 | [data:geometry/site_boundary.geojson#SITE-001]、[metric:global_case_study_count] |
-| 总体设计范围 | 约 11.4 km² | 城市更新框架、用地结构、交通市政、遗址公园活力带与风貌 | [data:geometry/land_use.geojson#LU-001]、[data:geometry/roads.geojson#ROAD-001]、[metric:renewal_project_count] |
+| 统筹研究范围 | 约 43.6 km²（公告文字口径，无对应提交图层） | AI 产业生态、三区两翼协同、未来城市形态与命名/VI 体系 | [source:OFFICIAL-ANNOUNCEMENT]、[metric:global_case_study_count] |
+| 总体设计范围 | 约 11.4 km²（临时几何复算 11,412,825.386 m²，非官方精确面积） | 城市更新框架、用地结构、交通市政、遗址公园活力带与风貌 | [data:geometry/site_boundary.geojson#SITE-001]、[data:geometry/roads.geojson#ROAD-001]、[metric:renewal_project_count] |
 | 重点区域范围 | 公告约 368.4 公顷；临时几何复算约 369.3 公顷（非官方精确面积） [source:OFFICIAL-ANNOUNCEMENT] [source:PROVISIONAL-BOUNDARIES] | 三处重点片区达到规划综合实施方案的概念深度 | [data:geometry/key_areas.geojson#PROV-KEY-001]、[data:geometry/key_areas.geojson#PROV-KEY-002]、[data:geometry/key_areas.geojson#PROV-KEY-003] |
 
 三层不是互相割裂的图纸集合 [depth:overall_spatial_structure]：统筹研究决定创新链与城市形态判断，总体设计把判断落实为更新项目、空间结构与设施承载，重点区域验证具体地块、建筑、交通、公共空间与 AI 场景的可实施性。当前所有空间结论受 provisional 边界限制，官方边界到位后按假设 [data:geometry/constraints.geojson#CONSTRAINTS] 统一重算。
@@ -227,7 +227,7 @@ VI 方向在实际视觉证据中落地：命名树（带级—片区级—节�
 用地分类、建筑规模与拆改留方法见“总体设计范围”章节 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [depth:land_use_layout] [depth:retain_renovate_demolish]。要点重申：
 
 - 用地分区完整、闭合、无缝，由提交几何复算面积 [data:geometry/land_use.geojson#LU-001]。
-- 建筑基底为示意设计对象 [data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm]，不构成现状建筑底数 [depth:existing_conditions_diagnosis]。
+- 建筑基底为示意设计对象——158 栋、约 32.95 ha、四个组团 [data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm] [metric:building_count]，不构成现状建筑底数 [depth:existing_conditions_diagnosis]。
 - 缺现状建筑、权属、控规和工程条件时，只给出方法与待校准清单，不编造拆改留结论 [depth:development_intensity_controls]。
 - 建筑高度、强度、退线、绿地率等缺少官方条件时统一 `unknown` [metric:building_height_max_m] [metric:floor_area_ratio]，说明待补条件与重算路径。
 
@@ -333,14 +333,14 @@ VI 方向在实际视觉证据中落地：命名树（带级—片区级—节�
 
 指标按三类组织并全部进入 `metrics.json` [source:PROCESSED-FACT-PACK] [depth:metrics_recalculation]：
 
-1. **可由提交几何直接复算的空间指标**（known，33 项），按四组组织，完整清单见 metrics.json：
+1. **可由提交几何直接复算的空间指标**（known，共 42 项；其中可由提交几何直接复算的空间指标按五组组织如下，治理与契约类 known 指标见"AI 治理证据与点亮规则"章节），完整清单见 metrics.json：
    - 面积与比例：总体范围面积 [metric:site_area_sqm]，研发用地 [metric:land_use_area_0802_sqm] 与商服用地 [metric:land_use_area_05_sqm]，绿地面积 [metric:green_space_area_sqm] 与绿地率 [metric:green_ratio]，公共空间面积 [metric:public_space_area_sqm] 与其比率 [metric:public_space_ratio]；
    - 建筑与慢行：基底面积 [metric:building_footprint_area_sqm]、栋数 [metric:building_count] 与覆盖率 [metric:building_coverage_ratio]，慢行网络长度 [metric:slow_traffic_network_length_m] 与中心线计数 [metric:road_centerline_count]；
    - 重点区与分期：众智园 [metric:zhongzhiyuan_area_sqm]、原点社区 [metric:beijing_ai_origin_community_area_sqm]、大钟寺 [metric:dazhongsi_area_sqm] 与合计 [metric:key_area_total_area_sqm]；一期 [metric:phasing_phase_1_area_sqm]、二期 [metric:phasing_phase_2_area_sqm] 与三期 [metric:phasing_phase_3_area_sqm]；
    - 计数（空间）：用地区块 [metric:land_use_parcel_count]、重点区 [metric:key_area_count]、广场 [metric:public_plaza_count] 与场景节点 [metric:scenario_node_count]；
    - 计数（内容）：更新项目 [metric:renewal_project_count]、场景卡 [metric:scenario_card_count]、TVS [metric:testing_validation_scenario_count]、画像 [metric:persona_count]、朝圣地标 [metric:pilgrimage_landmark_count]、全球案例 [metric:global_case_study_count] 与年度活动主题 [metric:annual_event_theme_count]。
 
-   所有空间指标在 EPSG:4548 下按公式复算：面积按整百平方米舍入、比率保留四位小数，逐项标注 `provisional_boundary_derived` 与中文警示字段，随 provisional 边界变化整体重算。
+   所有空间指标在 EPSG:4548 下按与空间复核相同的规范算法（全精度坐标平面 union 后计面积）精确复算：面积保留三位小数、比率保留六位小数，逐项标注 `provisional_boundary_derived` 与中文警示字段，随 provisional 边界变化整体重算。
 2. **需官方控规或任务书附件支撑的管控指标**（unknown，5 项）：容积率 [metric:floor_area_ratio]、总建筑规模 [metric:total_floor_area_sqm]、建筑高度 [metric:building_height_max_m]、道路面积与比例 [metric:road_area_sqm] [metric:road_ratio]，均说明原因与重算触发条件。
 3. **需运营/产业数据持续校准的绩效指标**：AI 创新指数、人才密度、产业服务满意度、慢行可达性、活动参与度与场景使用频次等，作为运营复盘指标而非审定规划条件。
 
