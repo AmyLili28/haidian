@@ -22,6 +22,8 @@ Lend a Hand is therefore neither a volunteer marketplace nor furniture placed in
 
 ![Overview map: six human entrances, three landmarks, and the responsibility relay](assets/figures/site-overview.en.png)
 
+*Generation and evidence note: ImageGen synthetic concept base + deterministic Pillow evidence overlay; not site or approval evidence.* [source:MEDIA-LH-CORRIDOR-AERIAL-V1]
+
 ## Design Basis and Source List
 
 The official announcement controls the three scope levels, three key areas, objectives, design tasks, and deliverable context. The agent taskbook supplies the agent-facing positions, functions, and six required tasks [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]. Repository snapshots for urban design, regulatory planning, land-use classification, architectural depth, accessibility, generative AI, and ageing inclusion operate as review checklists. They do not turn a concept package into a statutory plan [standard:PROJECT-OFFICIAL-ANNOUNCEMENT].
@@ -39,6 +41,8 @@ At the strategic level, a Civic Capability Supply Protocol requires firms to spo
 Six desks are spatial capacity, not a promise that six stations open simultaneously. A fixed primary hub and scheduled pop-ups open only when two trained paid people are present, paper and digital versions match, and the current formal-referral sheet is valid. Otherwise the interface visibly shows closed status and the nearest formal channel. One coordinator may not cover two stations, remotely double as safety lead, or fill sick leave with a volunteer [assumption:A-STAFF-001].
 
 ![Concept land use and responsibility-relay structure](assets/figures/land-use-structure.en.png)
+
+*Generation and evidence note: ImageGen synthetic concept base + deterministic Pillow evidence overlay; not site or approval evidence.* [source:MEDIA-LH-AXONOMETRIC-V1]
 
 ## Taskbook Mapping and Regional Collaboration Interfaces
 
@@ -133,6 +137,8 @@ Movement logic requires same-day paper/digital synchronisation, two-person field
 
 ![Movement, green, forecourts, and staffed nodes](assets/figures/mobility-bluegreen.en.png)
 
+*Generation and evidence note: ImageGen synthetic concept base + deterministic Pillow evidence overlay; not site or approval evidence.* [source:MEDIA-LH-RESPONSIBILITY-ROUTE-V1]
+
 ## Detailed Design of Key Areas
 
 The three key areas combine different space, operations, and accountability rather than three colour themes.
@@ -150,6 +156,8 @@ AI Origin's Human Transfer Hub is the primary referral node. A visible counter s
 Dazhongsi's Repair & Reuse Commons includes locked tools, clean material sorting, a low-risk bench, an isolation/refusal bay, and an aggregate ledger wall. Clothing and simple non-powered objects may proceed under supervision. Amber objects require a second decision. Mains electrical, gas, lithium batteries, medical devices, child-safety items, structural objects, and locks are refused and referred. A liability waiver cannot replace reasonable control. The Repair Ledger Wall publishes aggregate repair, refusal, and referral reasons, never a personal repair file [data:geometry/key_areas.geojson#PROV-KEY-003].
 
 ![Three areas, three operating models, and three stop conditions](assets/figures/key-areas.en.png)
+
+*Generation and evidence note: three ImageGen synthetic concept bases + deterministic Pillow evidence overlay; not site or approval evidence.* [source:MEDIA-LH-CAPABILITY-LAB-V1] [source:MEDIA-LH-HUMAN-INTERCHANGE-V1] [source:MEDIA-LH-REPAIR-WORKSHOP-V1]
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
@@ -186,6 +194,8 @@ S02 shows the boundary in practice. Construction information enters the Source &
 S10 follows a different protocol. The owner remains present and describes the problem. The workshop lead classifies the object. Red is refused; amber proceeds only with tools, PPE, capacity, and competence; green invites the owner to take part. Completion does not promise “as new.” The lead checks obvious safety, explains residual risk, and records only aggregate object category/outcome. Injury, tool loss of control, unknown material, or an unsupervised minor stops the session and isolates the tool pending review.
 
 ![Twelve neutral action lenses and a separate scenario-contract register; no one-to-one depiction and imagery is not scenario validation](assets/figures/scenario-matrix.en.png)
+
+*Generation and evidence note: the ImageGen synthetic mosaic is not a one-to-one depiction; Pillow adds action and contract text, and imagery is not scenario validation.* [source:MEDIA-LH-SCENARIO-MOSAIC-V1]
 
 ## Industry Validation Cards: A Scenario Must Be Refusable Before It Enters the District
 
@@ -349,6 +359,8 @@ The compliance matrix covers announcement tasks, three scales, overall work, key
 
 ![Known, low-confidence, and pilot-only evidence](assets/figures/metrics-evidence.en.png)
 
+*Generation and evidence note: ImageGen synthetic concept base + deterministic Pillow evidence overlay; not site or performance evidence.* [source:MEDIA-LH-CORRIDOR-AERIAL-V1]
+
 ## Risk, Copyright, and Compliance
 
 The primary risk is not one wrong AI sentence; it is warm language hiding responsibility. Six hard limits follow: volunteers do not replace paid, statutory, or professional roles; minors and vulnerable adults are not assigned to an unaccompanied volunteer; red requests are neither matched nor attempted; repair refusal overrides social pressure; personal data is minimal and no-account by default; AI does not rank people or make final eligibility, priority, safety, diagnosis, legal, procurement, or emergency decisions [assumption:A-SAFETY-001].
@@ -365,7 +377,7 @@ Default records contain request category, station, time band, outcome, referral 
 
 Repair never uses a disclaimer in place of insurance and reasonable control. A qualified operator, locked tools, PPE, material isolation, capacity, guardian rules, output check, refusal/referral list, incident report, and stop authority are prerequisites. High-risk categories remain excluded. The concrete applicability of public-place, activity, volunteer, personal-information, and AI duties must be assessed by qualified local reviewers; citations route risks rather than certify compliance.
 
-Text, coded geometry, figures, visual pages, and PDFs were independently generated by Codex under AmyLili28's direction from public sources and repository inputs. External cases are summarised only for mechanisms. No unauthorised corporate marks, portraits, interview quotations, or long copyrighted passages are used. Figures are deterministically drawn with Pillow; ImageGen is not claimed. COMMUNITY-DISPLAY-ONLY describes display permission for this submission and cannot override third-party rights.
+The narrative, structured data, coded geometry, layout, and deterministic labels were created by Codex × AmyLili28 for this submission. Seven unlettered concept bases were completed with OpenAI ImageGen through the Codex built-in image-generation service: six are text-to-image outputs, while `lh-human-interchange-v1.jpg` is a second-pass edit of an earlier ImageGen text-to-image draft from the same session, changing only the entrance into a continuous step-free interface. The client did not expose an exact model identifier, and every base is registered as `MEDIA-LH-*` in `sources.json`. AmyLili28 set the LEND A HAND direction, human tone, separately generated spatial-image requirement, and no-fake-text rule; Codex translated the approved concept, taskbook, and descriptions of provisional geometry into prompts, selected or edited the bases, and then used Pillow to overlay checkable titles, identifiers, metrics, provisional locators, and evidence limits. No site photograph, web image, map tile, identifiable person, trademark, peer drawing, or artist-style reference was uploaded or used in generation; the only image input was that same-session self-generated draft. All people and places are synthetic scenarios. Under the cited OpenAI Terms of Use and Service Terms, as between OpenAI and the user and to the extent permitted by law, output rights belong to or are assigned to the user; outputs may not be unique, and the submitter remains responsible for inputs, outputs, third-party rights, and fitness for each use [source:OPENAI-TERMS-OF-USE-2026-08-31] [source:OPENAI-SERVICE-TERMS-2026-08-31]. Per-asset prompt summaries, human direction, inputs, transformations, synthetic status, terms basis, and restrictions are recorded in `sources.json` and `report/copyright_statement.md`; `COMMUNITY-DISPLAY-ONLY` is not a warranty of copyrightability, exclusivity, non-infringement, or downstream commercial permission.
 
 Unified boundary: this is an agent-generated concept proposal, not an approved statutory plan. It does not represent approval, funding, employment, insurance, venue access, or service commitment by government, owners, operators, or communities. Every location, metric, role, hour, and procedure requires official data, site investigation, professional review, and confirmation by accountable bodies before implementation [depth:risk_missing_data].
 

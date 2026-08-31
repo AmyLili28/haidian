@@ -12,7 +12,7 @@
     "agent_name": "Codex × AmyLili28",
     "model": "OpenAI Codex",
     "model_family": "gpt",
-    "model_detail": "Codex desktop agent; exact serving model identifier is not exposed to the agent."
+    "model_detail": "Codex desktop agent for text, data, code, and deterministic rendering; OpenAI ImageGen via the Codex built-in image-generation service for seven synthetic concept bases (six text-to-image outputs and one edit of a same-session ImageGen draft). Exact serving model identifiers are not exposed to the agent."
   },
   "generated_at": "2026-08-31T07:02:34Z",
   "files": [
@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "5bd0da213106579168cbc4a85b5bb30b128848a92de06c9023cbd47959e1d79e"
+      "sha256": "74226811804c0348badd4befa9c88a5a669aa678d2da3d82a2f1f3a6ed503cd5"
     },
     {
       "path": "proposal.en.md",
@@ -34,13 +34,13 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "99e338a6bccfd61961871a58a97727535d72e6f0114a14ff8b391d621feb4558"
+      "sha256": "66941af0d5a396422b867a6d25208a35eff4d959d88f059ca637763bdb2f9566"
     },
     {
       "path": "agent.json",
       "role": "agent_card",
       "required": true,
-      "sha256": "a8ae73fef39965599d6c7d3faf5eaea5bddd70c50c058d5ab1405e54407e55f7"
+      "sha256": "ab5164bcd0200822419b206f3ef5dc7d1ab077808ba33aef287ebe51377c3a11"
     },
     {
       "path": "metrics.json",
@@ -58,13 +58,13 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "3b1d732f89e89ab210b16419ccd6f446932bd63ea5df178e64dfd4f30959c346"
+      "sha256": "db11708c578954295db73e6fd5c683b73a01e95e186e2f935749998a521a317f"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "ff53246f73138bea03182d994034d34194d5597e5d463b0fb2e0ab286fc8b795"
+      "sha256": "afeb9994b2698f374376718191a73eade3d6f411cd59930b1248177bc0942b6d"
     },
     {
       "path": "compliance_matrix.json",
@@ -89,7 +89,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "cf3c0cea7087212306642032dbd2e3cd7d9396f3966cd75cfbe2c715ed300a13"
+      "sha256": "12ab16774418468ee035c9f38507974dad8431e3b3f3aacec3c86414e1825784"
     },
     {
       "path": "report/proposal.en.html",
@@ -97,7 +97,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "0b35ff15088ac520a6bc1cc6be06014b383e106529067094a8ec89c70dcc6c79"
+      "sha256": "a6538b43ef7b96fc1b84eb0c0cad407e604a0a169022705660a7e2315fe8a93b"
     },
     {
       "path": "report/narrative.md",
@@ -109,7 +109,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "6d95078e5e577bb7be5aa7e04e28a6739257378631f0815a198fee3a79d60ab1"
+      "sha256": "48219dae17185543a1ddfc2f24f5059a4f8cf7ab8bd892a87d5f14e4af20e9c6"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -146,7 +146,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "720297c665ad441ce9fdb68db8c10c9dfad84d79a80e12153eaa77428cac1156"
+      "sha256": "e8c4b89208ca5b3f54df928406964bd3a4c8d8aaa916ac22e4b268c6b031e619"
     },
     {
       "path": "visual/index.en.html",
@@ -154,13 +154,13 @@
       "required": false,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "250283467a3e5aa85162abd4a063adead9edf542e5d3b035c74eaa24001c9478"
+      "sha256": "dfc9568b691311d04e84415040d7e14cc606733b33ef97aace8a2be222634fb0"
     },
     {
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "604e420ed882ea4fd30425749b59db7091f9983763d5cb842c86aa9be281b5e5"
+      "sha256": "5837152543a3ae062882fe64146108328195e2d65457cd1ad3046fe9e107603a"
     },
     {
       "path": "assets/media/lend-a-hand-cover-v2.png",
@@ -179,7 +179,7 @@
       "role": "asset",
       "required": true,
       "language": "neutral",
-      "sha256": "77b23bfd6be29c39fa38a1f6bbb9ccf10448ea3f98772c9bb64c396a877a5ecf"
+      "sha256": "ef8be6f145210892bf7dac25d752d37ff27f135366430cd36d52e8cba7e6b188"
     },
     {
       "path": "assets/figures/agent-backstage.en.png",
@@ -435,6 +435,10 @@
       "role": "media_poster",
       "required": false,
       "language": "neutral",
+      "title_zh": "陪伴廊道合成概念底图",
+      "title_en": "Companion corridor synthetic concept base",
+      "description_zh": "OpenAI ImageGen 文字生成的合成概念底图；来源 ID 为 MEDIA-LH-CORRIDOR-AERIAL-V1；非现场照片、测绘或绩效证据。",
+      "description_en": "Synthetic text-to-image concept base generated with OpenAI ImageGen; source ID MEDIA-LH-CORRIDOR-AERIAL-V1; not a site photograph, survey, or performance record.",
       "sha256": "4f400f208157bcbc65470aacf6ccfc3fad860b89459ceea9cbdf1028c08ae79d"
     },
     {
@@ -442,6 +446,10 @@
       "role": "media_poster",
       "required": false,
       "language": "neutral",
+      "title_zh": "搭把手街区合成概念底图",
+      "title_en": "Lend-a-hand district synthetic concept base",
+      "description_zh": "OpenAI ImageGen 文字生成的合成概念底图；来源 ID 为 MEDIA-LH-AXONOMETRIC-V1；非现场照片、测绘或审批证据。",
+      "description_en": "Synthetic text-to-image concept base generated with OpenAI ImageGen; source ID MEDIA-LH-AXONOMETRIC-V1; not a site photograph, survey, or approval record.",
       "sha256": "4d8bab45b11a6af40adb72c87651a296fc19e7490858885a44de58c56b82a365"
     },
     {
@@ -449,6 +457,10 @@
       "role": "media_poster",
       "required": false,
       "language": "neutral",
+      "title_zh": "能力工坊合成概念底图",
+      "title_en": "Capability lab synthetic concept base",
+      "description_zh": "OpenAI ImageGen 文字生成的合成概念底图；来源 ID 为 MEDIA-LH-CAPABILITY-LAB-V1；人物与场所均为合成情境，非服务或容量证据。",
+      "description_en": "Synthetic text-to-image concept base generated with OpenAI ImageGen; source ID MEDIA-LH-CAPABILITY-LAB-V1; people and place are synthetic, not service or capacity evidence.",
       "sha256": "8efcfa653e68db3b11ee2f0c77ec5605cd286a0ab0ee79950b271e23fc58039f"
     },
     {
@@ -456,6 +468,10 @@
       "role": "media_poster",
       "required": false,
       "language": "neutral",
+      "title_zh": "人情换乘厅合成概念底图",
+      "title_en": "Human interchange synthetic concept base",
+      "description_zh": "OpenAI ImageGen 对同会话自生成草稿作入口无台阶化编辑的合成概念底图；来源 ID 为 MEDIA-LH-HUMAN-INTERCHANGE-V1；非无障碍合规或使用者研究证据。",
+      "description_en": "Synthetic ImageGen edit of a same-session self-generated draft, changing the entrance to a continuous step-free interface; source ID MEDIA-LH-HUMAN-INTERCHANGE-V1; not accessibility-compliance or user-research evidence.",
       "sha256": "59434b111eecfdac412d6d6cb19864e073e9a30c354f233ccf58bce50c897434"
     },
     {
@@ -463,6 +479,10 @@
       "role": "media_poster",
       "required": false,
       "language": "neutral",
+      "title_zh": "修补工坊合成概念底图",
+      "title_en": "Repair workshop synthetic concept base",
+      "description_zh": "OpenAI ImageGen 文字生成的合成概念底图；来源 ID 为 MEDIA-LH-REPAIR-WORKSHOP-V1；人物与场所均为合成情境，非合作或服务记录。",
+      "description_en": "Synthetic text-to-image concept base generated with OpenAI ImageGen; source ID MEDIA-LH-REPAIR-WORKSHOP-V1; people and place are synthetic, not a partnership or service record.",
       "sha256": "928a5b825579fb0da1d32357e12fcb1f75a21e9dd8c3be79bd4698e0d2551fb1"
     },
     {
@@ -470,6 +490,10 @@
       "role": "media_poster",
       "required": false,
       "language": "neutral",
+      "title_zh": "责任慢行环合成概念底图",
+      "title_en": "Responsibility loop synthetic concept base",
+      "description_zh": "OpenAI ImageGen 文字生成的合成概念底图；来源 ID 为 MEDIA-LH-RESPONSIBILITY-ROUTE-V1；非现场照片、精确路线或安全绩效证据。",
+      "description_en": "Synthetic text-to-image concept base generated with OpenAI ImageGen; source ID MEDIA-LH-RESPONSIBILITY-ROUTE-V1; not a site photograph, precise route, or safety-performance record.",
       "sha256": "ed883e25c1317b4ea8ab4103069efc40ebeb264dbd8b0c49c397d9f5f3f8e6fb"
     },
     {
@@ -477,6 +501,10 @@
       "role": "media_poster",
       "required": false,
       "language": "neutral",
+      "title_zh": "日常情境合成概念底图",
+      "title_en": "Everyday scenarios synthetic concept base",
+      "description_zh": "OpenAI ImageGen 文字生成的合成概念底图；来源 ID 为 MEDIA-LH-SCENARIO-MOSAIC-V1；人物与事件均为合成情境，非公众同意或运营绩效证据。",
+      "description_en": "Synthetic text-to-image concept base generated with OpenAI ImageGen; source ID MEDIA-LH-SCENARIO-MOSAIC-V1; people and events are synthetic, not public-consent or operational-performance evidence.",
       "sha256": "0d11bfb9c49b364b3efcee7bc6d4e1f81eee9d12ffbd105021c77bbc1fcce2ba"
     }
   ],
