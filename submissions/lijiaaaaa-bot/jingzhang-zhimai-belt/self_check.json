@@ -15,7 +15,7 @@
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 9 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 6 consecutive evidence markers; attach no more than 3 to one claim; legacy proposal remains compatible and the viewer will condense it",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 29 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
-        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 10 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
+        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 16 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/framework.png: bilingual contract requires en display counterpart `assets/figures/framework.en.png`; legacy v1 package remains compatible",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/hero-zhongzhiyuan-rendering.png: bilingual contract requires en display counterpart `assets/figures/hero-zhongzhiyuan-rendering.en.png`; legacy v1 package remains compatible",
@@ -94,7 +94,7 @@
       "ai_package_stages": {
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt": "formal"
       },
-      "total_bytes": 25207205,
+      "total_bytes": 29320579,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -175,7 +175,7 @@
         "proposal_format_version": "1",
         "evidence_contract": "legacy-exhaustive-inline",
         "proposal_reference_counts": {
-          "source": 7,
+          "source": 13,
           "standard": 6,
           "depth": 15,
           "data": 17,

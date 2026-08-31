@@ -115,7 +115,7 @@ Formal 依据、资料登记与证据链见开篇「设计依据与资料清单�
 
 ## AI 创新生态、人才画像与 AI+ 场景
 
-本方案建立面向 AI 人才与企业的空间需求画像，覆盖研发办公、开源协作、成果发布、企业服务、人才居住、社交学习、消费生活、运动休闲和国际交往九类需求。10 张 AI+ 场景卡（见上表）分别说明服务对象、空间位置（对应 GeoJSON feature id）、数据来源、隐私边界、人工复核机制与运营主体。
+本方案建立面向 AI 人才与企业的空间需求画像，覆盖研发办公、开源协作、成果发布、企业服务、人才居住、社交学习、消费生活、运动休闲和国际交往九类需求。10 张 AI+ 场景卡以 `compliance_matrix.json#ai_scenario_registry` 为唯一口径（SC-01 至 SC-10），分别说明服务对象、空间位置（对应 GeoJSON feature id）、数据边界、人工复核机制、运营主体与分期。
 
 AI 场景必须落到空间和治理边界：公共空间场景引用 [data:geometry/public_space.geojson#PUBLIC-001]，慢行与交通场景引用 [data:geometry/roads.geojson#ROAD-001]，开放空间场景引用 [data:geometry/green_space.geojson#GREEN-001] 和 [metric:public_space_ratio]、[metric:green_ratio]。这些引用让评审者知道场景不是口号，而是位于具体图层和指标中的设计对象。面向智能体任务书要求不少于10张AI场景卡、不少于3个产业测试验证场景和不少于5类用户画像；本方案已将场景卡、画像表、隐私边界、人工复核和运营主体写入正文、HTML、A3/A0 和合规矩阵。
 
@@ -127,18 +127,18 @@ AI 场景必须落到空间和治理边界：公共空间场景引用 [data:geom
 | 周边居民 | 通勤、休闲、社区服务、低扰动更新 | 京张遗址公园慢行环、社区服务嵌入、夜间照明和活动分级 | 不将居民画像用于商业推荐 |
 | 高校师生 | 成果转化、跨校协作、日常慢行 | 校区-园区慢行缝合、成果转化驿站、AI教育体验点 | 校园数据和科研成果需授权 |
 
-| 场景卡 | 空间载体 | 设计说明 |
-| --- | --- | --- |
-| 01 开源发布厅 | 北京AI原点社区 | 面向高校、开源社区和初创团队，提供成果发布、代码贡献展示和小型路演空间 |
-| 02 安全治理沙盒 | 众智园 | 将标准制定、安全评测、模型红队测试转译为可参观、可预约、可监管的展示和协作节点 |
-| 03 端侧算力驿站 | 总体设计范围节点 | 与公共服务、企业服务和低碳能源策略结合，作为待深化的新型基础设施原型 |
-| 04 AI慢行导航 | 京张遗址公园活力带 | 用可解释导视和低侵入传感帮助识别慢行断点、拥挤节点和无障碍需求 |
-| 05 大钟寺国际路演客厅 | 大钟寺AI产业聚集区 | 服务智能体、智能终端和内容消费企业的展示、洽谈、媒体发布和国际交流 |
-| 06 清河低碳创新廊 | 众智园临清河界面 | 把绿色空间、雨洪、步行骑行和AI展示结合，作为园区公共客厅 |
-| 07 近校成果转化街 | 北京AI原点社区 | 面向高校成果转化，组织孵化、展示、法务、知识产权和投融资服务 |
-| 08 数据要素会客厅 | 大钟寺片区 | 以合规、授权、可审计为前提，展示数据要素和数字资产流通的城市服务界面 |
-| 09 AI生活服务样板街 | 社区与商业交汇处 | 将医疗、教育、法律、生活服务等AI+场景落到可运营的小尺度街区空间 |
-| 10 全球AI活动周路线 | 一带公共空间系统 | 形成从遗址文化、开源社区、产业展示到国际路演的可步行、可传播体验路线 |
+| ID | 中文名 / English | 服务对象 | 空间 feature_id | 数据边界 | 人工复核 | 运营主体 | 分期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SC-01 | 开源发布厅 / Open-Source Release Hall | 高校师生、开源开发者、初创团队 | PUBLIC-001 | 仅授权仓库聚合统计；不采集个人行为轨迹 | 发布内容与徽章墙人工复核 | 高校—园区联合运营 | PHASE-001 |
+| SC-02 | 安全治理沙盒 / Safety Governance Sandbox | 企业、标准组织、公众 | GREEN-001 | 测试数据脱敏；不展示原始日志 | 评测案例与展示轮换须人工终审 | 园区公共环境运营 | PHASE-001 |
+| SC-03 | 端侧算力驿站 / Edge Compute Kiosk | 开发者、游客、维护人员 | CONSTRAINTS-001 | 不持久化用户输入；仅服务日志 | 能耗与安全审计人工复核 | 新基建与公服联合体 | PHASE-002 |
+| SC-04 | AI慢行导航 / AI Slow-Mobility Navigation | 步行者、维护人员、无障碍需求者 | ROAD-001 | 不采集个人轨迹；仅聚合断点计数 | 断点候选须人工复核后生成工单 | 公共空间运营联合体 | PHASE-001 |
+| SC-05 | 大钟寺国际路演客厅 / Dazhongsi International Roadshow Lounge | 企业、投资人、公众 | PUBLIC-001 | 路演材料须清权；不直播未授权内容 | 多语字幕与内容合规人工终审 | 站城一体运营 | PHASE-002 |
+| SC-06 | 清河低碳创新廊 / Qinghe Low-Carbon Innovation Corridor | 企业、居民、运动者 | GREEN-001 | 仅设施运行数据；不含个人位置 | 雨季巡检与海绵设施读数人工校核 | 园区公共环境运营 | PHASE-002 |
+| SC-07 | 近校成果转化街 / Near-Campus Transfer Street | 高校师生、初创团队 | BLDG-001 | 校园数据与科研成果须授权 | 法务、知识产权与路演清单人工审核 | 高校—园区联合运营 | PHASE-001 |
+| SC-08 | 数据要素会客厅 / Data-Element Reception Lounge | 企业、要素平台、公众 | PUBLIC-001 | 合规授权可审计；不展示未授权商业数据 | 展示内容清权后上架 | 站城一体运营 | PHASE-002 |
+| SC-09 | AI生活服务样板街 / AI Daily-Service Pilot Street | 周边居民、家庭、数字能力较弱群体 | PUBLIC-001 | 不将居民画像用于商业推荐 | 生活服务场景人工值守与非数字兜底 | 街道—社区服务商 | PHASE-003 |
+| SC-10 | 全球AI活动周路线 / Global AI Activity Week Route | 开发者、游客、公众 | PHASE-001 | 预约信息最小化；活动结束删除 | 活动许可与安全方案人工审批 | 活动品牌运营 | PHASE-001 |
 
 agent 生成的AI治理建议必须遵守数据最小化、公开来源、可解释和人工复核原则。城市智能体可以辅助识别慢行断点、公共空间热力、设施维护、企业服务需求和活动安全风险，但不能替代规划审批、不能输出未经授权的个人画像、不能声称获得官方实施承诺。所有AI场景节点应进入结构化图层或合规矩阵，便于评审者看到它们与产业、空间和公共利益之间的关系。
 
@@ -212,11 +212,22 @@ agent 生成的AI治理建议必须遵守数据最小化、公开来源、可解
 
 ### 专项二 AI 全栈自主创新与世界级生态
 
-方案梳理 6 个全球 AI 创新生态参考案例及转化机制：硅谷 Stanford-Industry Loop（近校转化）、蒙特利尔 Mila 开源协作（社区驱动）、新加坡 Punggol Digital District（产城融合）、东京 Tsukuba AI 测试场（公共沙盒）、深圳河套深港科创（跨境要素）、波士顿 Kendall Square（资本与人才密度）。转化机制包括：开源贡献积分墙、标准治理工作坊、近校成果转化驿站、国际路演客厅和数据要素合规会客厅，分别对应 [data:geometry/public_space.geojson#PUBLIC-001] 与 [data:geometry/buildings.geojson#BLDG-001]。产业测试验证场景不少于 3 个：安全治理沙盒（众智园）、端侧算力驿站（总体设计节点）、数据要素剧场（大钟寺），见 [metric:green_ratio] 与 [depth:three_key_area_detailed_design]。
+方案梳理 6 个全球 AI 创新生态**背景案例/设计类比**（不得升级为本项目正式规划依据）。逐项公开来源见 `sources.json`：[source:CASE-STANFORD]、[source:CASE-MILA]、[source:CASE-PUNGGOL]、[source:CASE-TSUKUBA]、[source:CASE-HETAO]、[source:CASE-KENDALL]。
+
+| 案例 | 发布主体 | 访问路径 | 使用状态 | 仅支撑的设计类比 |
+| --- | --- | --- | --- | --- |
+| Stanford / 硅谷近校转化 | Stanford University OTL | https://otl.stanford.edu/ | 背景案例/设计类比 | 原点社区近校转化街 SC-07 [source:CASE-STANFORD] |
+| Mila 开源协作 | Mila – Quebec AI Institute | https://mila.quebec/en | 背景案例/设计类比 | 开源发布厅 SC-01 [source:CASE-MILA] |
+| Punggol Digital District | JTC Corporation | https://www.jtc.gov.sg/punggoldigitaldistrict | 背景案例/设计类比 | 产城融合节点组织 [source:CASE-PUNGGOL] |
+| 筑波科学城 | University of Tsukuba | https://www.tsukuba.ac.jp/en/ | 背景案例/设计类比 | 安全治理沙盒 SC-02 [source:CASE-TSUKUBA] |
+| 河套深港科创合作区 | 河套深圳园区发展署 | https://htcz.sz.gov.cn/ | 背景案例/设计类比 | 数据要素会客厅 SC-08 [source:CASE-HETAO] |
+| Kendall Square | City of Cambridge CDD | https://www.cambridgema.gov/Departments/communitydevelopment/kendallsquare | 背景案例/设计类比 | 国际路演客厅 SC-05 [source:CASE-KENDALL] |
+
+转化机制（开源贡献积分墙、标准治理工作坊、近校成果转化驿站、国际路演客厅、数据要素合规会客厅）对应 [data:geometry/public_space.geojson#PUBLIC-001] 与 [data:geometry/buildings.geojson#BLDG-001]，均为概念建议。产业测试验证场景不少于 3 个：SC-02 安全治理沙盒、SC-03 端侧算力驿站、SC-08 数据要素会客厅，见 [metric:green_ratio] 与 [depth:three_key_area_detailed_design]。
 
 ### 专项三 AI+ 场景赋能与智能化活力城市
 
-正文已提供 10 张 AI 场景卡（见「AI 创新生态、人才画像与 AI+ 场景」章节），覆盖交通、服务、消费、医疗、教育、法律与生活服务。5 类用户画像（开源开发者、初创团队、头部企业访客、周边居民、高校师生）已映射到 [data:geometry/roads.geojson#ROAD-001]、[data:geometry/green_space.geojson#GREEN-001] 及 [metric:public_space_ratio]。城市智能体仅辅助识别慢行断点、公共空间热力与设施维护，遵守数据最小化与人工复核，不输出未授权个人画像。
+正文已提供 10 张 AI 场景卡（canonical ID SC-01 至 SC-10，见「AI 创新生态、人才画像与 AI+ 场景」章节与 `compliance_matrix.json#ai_scenario_registry`），覆盖交通、服务、消费、医疗、教育、法律与生活服务。5 类用户画像（开源开发者、初创团队、头部企业访客、周边居民、高校师生）已映射到 [data:geometry/roads.geojson#ROAD-001]、[data:geometry/green_space.geojson#GREEN-001] 及 [metric:public_space_ratio]。城市智能体仅辅助识别慢行断点、公共空间热力与设施维护，遵守数据最小化与人工复核，不输出未授权个人画像。
 
 ### 专项四 AI 公共空间、智能原生新业态与朝圣地标
 
@@ -264,8 +275,8 @@ agent 生成的AI治理建议必须遵守数据最小化、公开来源、可解
 | 大钟寺聚集区 | 站城一体 | 路演内容 | 国际路演客厅 | [data:geometry/key_areas.geojson#PROV-KEY-003] | 轨道、企业 |
 | 北纬社区 | 居住创新复合 | 社区需求 | 生活服务样板 | [data:geometry/public_space.geojson#PUBLIC-001] | 街道、社区 |
 | 未来科学城 | 算力测试 | 模型任务 | 端侧算力驿站 | JZ-05 | 算力运营 |
-| 怀柔科学城 | 大科学策源 | 科研成果 | 路演季叙事 | 场景 01 | 科研机构 |
-| 北京经开区 | 智能制造 | 终端样机 | 要素会客厅 | 场景 08 | 制造企业 |
+| 怀柔科学城 | 大科学策源 | 科研成果 | 路演季叙事 | SC-01 | 科研机构 |
+| 北京经开区 | 智能制造 | 终端样机 | 要素会客厅 | SC-08 | 制造企业 |
 | 京津冀协同 | 活动传播 | 开发者 | 活动周路线 | JZ-06 | 活动品牌方 |
 
 ### 荣誉展示体系（Honor Display System）
@@ -354,4 +365,4 @@ GeoJSON 锚点见上表 `geojson_ref` 字段及 [data:geometry/public_space.geoj
 - data/processed/agent_task_requirements.csv
 - data/processed/source_use_matrix.csv
 - data/processed/missing_data_checklist.csv
-- 机器可读引用索引：[source:OFFICIAL-ANNOUNCEMENT]、[source:AGENT-TASKBOOK]、[source:SITE-PACKAGE]、[source:SOURCE-REGISTRY]、[source:PROCESSED-FACT-PACK]、[standard:PROJECT-OFFICIAL-ANNOUNCEMENT]、[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]、[depth:metrics_recalculation]、[data:geometry/site_boundary.geojson#SITE-001]、[metric:site_area_sqm]
+- 机器可读引用索引：[source:OFFICIAL-ANNOUNCEMENT]、[source:AGENT-TASKBOOK]、[source:SITE-PACKAGE]、[source:SOURCE-REGISTRY]、[source:PROCESSED-FACT-PACK]、[source:CASE-STANFORD]、[source:CASE-MILA]、[source:CASE-PUNGGOL]、[source:CASE-TSUKUBA]、[source:CASE-HETAO]、[source:CASE-KENDALL]、[standard:PROJECT-OFFICIAL-ANNOUNCEMENT]、[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]、[depth:metrics_recalculation]、[data:geometry/site_boundary.geojson#SITE-001]、[metric:site_area_sqm]

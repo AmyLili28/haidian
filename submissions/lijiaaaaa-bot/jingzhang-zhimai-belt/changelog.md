@@ -1,5 +1,17 @@
 # 方案迭代记录
 
+## v0.4.5 - 2026-09-01
+
+### 改动摘要（关 CocoSgt 本轮 3 条阻断）
+
+1. **canonical 10 场景登记**：`compliance_matrix.json#ai_scenario_registry` 固定 SC-01—SC-10 的中英名、服务对象、feature_id、数据边界、人工复核、运营主体与分期；proposal / visual / 框架图 / A3·A0 同一口径。
+2. **6 个全球案例来源**：`sources.json` 增补 CASE-STANFORD / MILA / PUNGGOL / TSUKUBA / HETAO / KENDALL（发布主体、访问路径、使用状态=背景案例/设计类比）；正文案例表同步，不得当正式规划依据。
+3. **图面临时边界警示**：site-overview、land-use-structure、key-areas、mobility-bluegreen、metrics-evidence 等独立地图/指标图内嵌「临时工作边界/非官方红线；数值须在官方几何发布后复算」；A3/A0/HTML 引用同步。
+
+### 采纳反馈
+
+- AI review `58984be`（73/100）风险与合规 + 表达完整度 3 项 blocking。
+
 ## v0.4.4 - 2026-08-31
 
 ### 改动摘要（离线 CJK 字体）
