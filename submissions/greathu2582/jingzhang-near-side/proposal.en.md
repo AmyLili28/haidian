@@ -359,6 +359,80 @@ This proposal does not provide FAR, building height, building density, setback, 
 
 Honour-display system: each near-side unit has an "indicator board" publicly showing its entrance count, accessibility-break count, room opening hours, robot-yield record and audit results. Along the green spine, developer contribution honour-wall nodes are established and updated annually by the community and experts.
 
+**Public-space component library (five components × seven fields):** the tables below fully define agent.4's five public-space components — near-side room, crossing square, 24-hour equivalent passage, indicator board and robot yield-stop interface. Each component specifies applicable space, primary users, opening/closing rules, accessibility and human paths, data boundaries, linked NU unit / geometry IDs and phasing. Definitions stay consistent with `geometry/public_space.geojson`, `geometry/roads.geojson` and `visual/assets/near_side_units.json`, and must be recomputed as a whole when official boundaries are published.
+
+#### Component 1: Near-Side Room
+
+| Field | Content |
+|------|------|
+| **Component ID** | `near_side_room` |
+| **Geometry IDs** | `PUBLIC-NU-01` – `PUBLIC-NU-33` (`geometry/public_space.geojson`) |
+| **Applicable space** | One room per ~300 m along the inferred spine inside the 0–300 m near-side band; declared area ≈ 31,000 m² each (`area_sqm_declared`); positions recompute as a whole with official park-edge face. |
+| **Primary users** | Everyone: residents, commuters, seniors, people with disabilities, children, international visitors. The room is a public interface that can be questioned, closed and counted. |
+| **Opening/closing rules** | Default **24/7 open** (concept). May close temporarily for safety, weather, construction or maintenance; closure must be announced on the indicator board with reason, duration and alternative routes. Closure authority belongs to the near-side unit role, not decided by AI. |
+| **Accessibility & human paths** | (a) step-free entrance or ramp ≤1:12; (b) access path ≥1.8 m wide; (c) continuous lighting; (d) at least one paper-based, AI-independent information point. |
+| **Data boundary** | Aggregated counts only (flow direction, hour heat) on active approach; **no** biometric data (faces, gait); processed locally, not uploaded centrally. |
+| **Linked NU units** | NU-01 → PUBLIC-NU-01 … NU-33 → PUBLIC-NU-33; full ledger in each unit's `near_side_room` field of `visual/assets/near_side_units.json`. |
+| **Phasing** | Phase 1 (0–90 d): 1 room per 6 pilot units; Phase 2 (90–365 d): all 33. |
+
+#### Component 2: Crossing Square
+
+| Field | Content |
+|------|------|
+| **Component ID** | `crossing_square` |
+| **Geometry IDs** | `PUBLIC-X-01` – `PUBLIC-X-09` (`geometry/public_space.geojson`) |
+| **Applicable space** | Public crossing plazas where east-west roads meet the green spine (north-south main vein); each ≈ 12,000–14,000 m²; spaced ≈ 1.5 km along the spine, 9 total. |
+| **Primary users** | Crossers (north-south transit), resters, small public-event participants. |
+| **Opening/closing rules** | Default **24/7 open**. Local closure allowed for events/maintenance while keeping at least one ≥3 m through pedestrian corridor. |
+| **Accessibility & human paths** | (a) level surface without steps; (b) tactile paving at adjacent road junctions; (c) paper plans and staffed inquiry point (Phase 1). |
+| **Data boundary** | Aggregated crossing-heat only (period, direction, density); no individual identity; retention ≤90 days then auto-deleted. |
+| **Linked NU units** | Not bound to a single NU; each square serves 1–2 surrounding units; see `near_unit_id` in `public_space.geojson`. |
+| **Phasing** | Phase 1: squares ≤800 m from transit/entrances first (≈2–3); Phase 2: all 9. |
+
+#### Component 3: 24-Hour Equivalent Access Passage
+
+| Field | Content |
+|------|------|
+| **Component ID** | `equivalent_access_path` |
+| **Geometry IDs** | `ROAD-PASS-001` – `ROAD-PASS-033` (`geometry/roads.geojson`, `road_class: pedestrian`) |
+| **Applicable space** | Public passage through each 300 m near-side unit so non-digital people can move without gating or AI systems; declared length ≈ 1,000 m (`length_m_declared`), roughly parallel to the spine. |
+| **Primary users** | Non-digital people (no devices, offline devices, data-decliners), late-night crossers, emergency passage. |
+| **Opening/closing rules** | **Mandatory 24/7, non-closable** — the C5 "human-equivalent path". No AI gate or robot may block it. Physical closure only for structural-safety emergencies, restored within 30 min. |
+| **Accessibility & human paths** | (a) ≥1.8 m wide, level; (b) night lighting both sides; (c) no AI gate, no electronic toll; (d) paper passage allowed, no QR/face verification. |
+| **Data boundary** | **Zero data collection**; no sensors or cameras deployed. The design itself is a "data-minimisation" negative-space commitment. |
+| **Linked NU units** | P-001 → NU-01 … P-033 → NU-33; coverage metric `equivalent_access_coverage_ratio` = 33/33 = 1.0 (`metrics.json`). |
+| **Phasing** | Phase 1: 6 pilot passages; Phase 2: all 33. **All passages must be built before their unit opens.** |
+
+#### Component 4: Indicator Board
+
+| Field | Content |
+|------|------|
+| **Component ID** | `indicator_board` |
+| **Geometry IDs** | Not in GeoJSON; a near-side room facility recorded per unit in the `facility_zh` field of `near_side_units.json`. |
+| **Applicable space** | One physical board (or equivalent screen/paper notice) at each near-side room entrance as the core "questionable" interface, ≤2 min on foot from the passage entry. |
+| **Primary users** | Residents, visitors, complainants and researchers reaching a near-side unit; a citizen entry point to understand and question AI decisions. |
+| **Opening/closing rules** | 24/7 visible, unobstructed. Content includes unit status (open/close/maintenance), recent AI intervention count, complaint channels (phone + paper forms) and appeal process. |
+| **Accessibility & human paths** | (a) large-type (≥32 pt) bilingual; (b) QR for full metrics (paper copy always also posted); (c) at least one annual offline open day with professional staff. |
+| **Data boundary** | The board collects no data; shown values come from anonymised aggregated metrics in `metrics.json`. |
+| **Linked NU units** | One per NU-01…NU-33; Phase 1 first on the 6 pilot units. |
+| **Phasing** | Phase 1 (0–90 d): 3; Phase 2 (90–365 d): all 33, each within 15 days of its unit opening. |
+
+#### Component 5: Robot Yield-Stop Interface
+
+| Field | Content |
+|------|------|
+| **Component ID** | `robot_yield_stop_interface` |
+| **Geometry IDs** | Not in GeoJSON; a facility at near-side room / passage crossing nodes, recorded per unit in `facility_zh` of `near_side_units.json`. |
+| **Applicable space** | Shared nodes of robots and pedestrians: inside rooms, crossing squares, 24h passage crossings. Interface = (a) floor/wall marks; (b) light/sound cues; (c) physical stop line. |
+| **Primary users** | Pedestrians (esp. visually/hearing-impaired, children, seniors) and autonomous devices (patrol/cleaning robots, delivery carts). |
+| **Opening/closing rules** | Robots must slow to ≤1 m/s and fully stop within ≤1.5 m of a person. They may not force past a non-yielding pedestrian; on conflict robots yield and log the event without exposing conflict stats (avoids psychological pressure). Robots never autonomously block the 24h passage. |
+| **Accessibility & human paths** | (a) tactile stop line (tactile-paving junctures widened to ≥0.6 m); (b) light cues visible to hearing-impaired (custom LED blink), low-frequency buzz + voice to visually-impaired; (c) physical "force-yield button" — no app or voice required. |
+| **Data boundary** | Conflict events logged only as aggregates (location, time, direction); **no** pedestrian imagery or robot trajectory paths; local storage ≤7 days then cleared. |
+| **Linked NU units** | Deployed at room/passage crossings of NU-01…NU-33; exact positions fixed by consultants after official boundaries. |
+| **Phasing** | Phase 1: manual + physical yield marks (line + tactile stop line) in pilot nodes, no electronics; Phase 2: sensing aids (camera/ultrasonic) + light/sound cues; Phase 3 (>365 d): full autonomous robot collaboration, only after ≥6 months of Phase 2 conflict-free data. |
+
+**Component index & geometry mapping:** 33 near-side rooms (`public_space.geojson`, `PUBLIC-NU-01`–`PUBLIC-NU-33`); 9 crossing squares (`public_space.geojson`, `PUBLIC-X-01`–`PUBLIC-X-09`); 33 passages (`roads.geojson`, `ROAD-PASS-001`–`ROAD-PASS-033`); 33 indicator boards (Phase 1: 3; facility ledger `near_side_units.json`); 33 robot-yield interfaces (Phase 1: 6; facility ledger). All components are currently `concept` (not officially approved); they move to `pilot` in Phase 1 and `deployed` in Phase 2; components 1–4 may be temporarily `suspended` for safety/maintenance (the 24h passage excepted).
+
 ## Renewal Project List, Implementation Policy and Phasing
 
 All projects map onto the three phases in `geometry/phasing.geojson` [data:geometry/phasing.geojson#PHASE_1] [depth:phasing_implementation], and each states an explicit exit-on-failure condition. A project may fail, but it may not continue silently.

@@ -8,7 +8,7 @@
 
 **agent.4 公共空间组件库（任务书相关性）**
 
-- 新增 `public_space_component_library.md`，将 agent.4 由「三个朝圣地标」扩为完整的公共空间组件库，覆盖五大组件：近端客厅（`PUBLIC-NU-01`~`PUBLIC-NU-33`）、穿行广场（`PUBLIC-X-01`~`PUBLIC-X-09`）、24 小时公共穿越通道（`ROAD-PASS-001`~`ROAD-PASS-033`）、近端指标牌、机器人让行/停止接口。
+- 将「公共空间组件库」作为独立章节内嵌于正文 agent.4（经评审发现投稿目录不允许新增根目录独立 .md 文件，故改为内嵌），将 agent.4 由「三个朝圣地标」扩为完整的公共空间组件库，覆盖五大组件：近端客厅（`PUBLIC-NU-01`~`PUBLIC-NU-33`）、穿行广场（`PUBLIC-X-01`~`PUBLIC-X-09`）、24 小时公共穿越通道（`ROAD-PASS-001`~`ROAD-PASS-033`）、近端指标牌、机器人让行/停止接口。
 - 每个组件逐项给出评审要求的七个字段：适用空间、主要用户、开放/关闭规则、无障碍与人工路径、数据边界、关联 NU 单元/几何编号、分期。配套组件状态图例与几何要素对照附录。
 - 组件定义与 `geometry/public_space.geojson`、`geometry/roads.geojson`、`visual/assets/near_side_units.json` 保持一致，机器人接口分三期递进（物理标识 → 感知辅助 → 自主协作），24 小时通道保持零数据采集。
 
@@ -20,8 +20,8 @@
 **索引同步与清单一致性（本评审轮收尾）**
 
 - 将 `proposal.md`/`proposal.en.md` 迭代号升为 `v1.5.0`，与 changelog 与组件库脚注一致。
-- 在 `visual/index.html`、`visual/index.en.html` 的 agent.4 行补入公共空间组件库引用（此前仅正文、附录 B 与 report 版 HTML 已索引），使「正文、附录 B 与中英文可视成果」三处索引齐全。
-- 将渲染 HTML 落盘到 `report/proposal.html`、`report/proposal.en.html`、`visual/index.html`、`visual/index.en.html`，并按实际字节重建 `manifest.json` 中本地存在文件的 SHA-256（30/30 一致），`generated_at` 更新为 2026-08-31。
+- 在 `visual/index.html`、`visual/index.en.html` 的 agent.4 行标注公共空间组件库「已内嵌于正文 agent.4 章节」（此前仅正文、附录 B 与 report 版 HTML 已索引），使「正文、附录 B 与中英文可视成果」三处索引齐全，且根目录不再新增独立 .md 文件。
+- 将渲染 HTML 落盘到 `report/proposal.html`、`report/proposal.en.html`、`visual/index.html`、`visual/index.en.html`，并按 git-blob（LF）字节重建 `manifest.json` 中文件 SHA-256，移除已内嵌的 `public_space_component_library.md` 条目，`generated_at` 更新到本轮。
 
 ## v1.4.0 - 2026-08-30
 
