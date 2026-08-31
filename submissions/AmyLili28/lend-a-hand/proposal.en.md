@@ -185,7 +185,7 @@ S02 shows the boundary in practice. Construction information enters the Source &
 
 S10 follows a different protocol. The owner remains present and describes the problem. The workshop lead classifies the object. Red is refused; amber proceeds only with tools, PPE, capacity, and competence; green invites the owner to take part. Completion does not promise “as new.” The lead checks obvious safety, explains residual risk, and records only aggregate object category/outcome. Injury, tool loss of control, unknown material, or an unsupervised minor stops the session and isolates the tool pending review.
 
-![Twelve scenarios, human gates, and red lines](assets/figures/scenario-matrix.en.png)
+![Twelve neutral action lenses and a separate scenario-contract register; no one-to-one depiction and imagery is not scenario validation](assets/figures/scenario-matrix.en.png)
 
 ## Industry Validation Cards: A Scenario Must Be Refusable Before It Enters the District
 

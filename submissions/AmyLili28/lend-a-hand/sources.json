@@ -164,6 +164,76 @@
       "publisher": "open-city-ai/haidian contributor",
       "accessed_date": "2026-08-31",
       "usage": "Quality benchmark for site-grounded figures, simulation ledgers, and stop metrics only; no content or geometry copied."
+    },
+    {
+      "id": "MEDIA-LH-CORRIDOR-AERIAL-V1",
+      "path": "assets/media/lh-corridor-aerial-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "OpenAI ImageGen under AmyLili28 direction",
+      "accessed_date": "2026-08-31",
+      "usage": "Atmospheric base for site-overview and metrics-evidence; exact geometry and metrics are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-AXONOMETRIC-V1",
+      "path": "assets/media/lh-axonometric-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "OpenAI ImageGen under AmyLili28 direction",
+      "accessed_date": "2026-08-31",
+      "usage": "Atmospheric base for land-use-structure; zones, counts, areas, and approval boundaries are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-CAPABILITY-LAB-V1",
+      "path": "assets/media/lh-capability-lab-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "OpenAI ImageGen under AmyLili28 direction",
+      "accessed_date": "2026-08-31",
+      "usage": "Concept scene for the Zhongzhiyuan Civic Skills Roster Lab; location, role, capacity, and stop labels are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-HUMAN-INTERCHANGE-V1",
+      "path": "assets/media/lh-human-interchange-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "OpenAI ImageGen under AmyLili28 direction",
+      "accessed_date": "2026-08-31",
+      "usage": "Concept scene for the AI Origin Human Transfer Hub; staffed-service and non-commitment labels are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-REPAIR-WORKSHOP-V1",
+      "path": "assets/media/lh-repair-workshop-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "OpenAI ImageGen under AmyLili28 direction",
+      "accessed_date": "2026-08-31",
+      "usage": "Concept scene for the Dazhongsi Repair and Reuse Commons; professional-lead and prohibited-object labels are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-RESPONSIBILITY-ROUTE-V1",
+      "path": "assets/media/lh-responsibility-route-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "OpenAI ImageGen under AmyLili28 direction",
+      "accessed_date": "2026-08-31",
+      "usage": "Atmospheric base for the responsibility-relay route; route length, entrances, forecourts, and provisional geometry are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-SCENARIO-MOSAIC-V1",
+      "path": "assets/media/lh-scenario-mosaic-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "OpenAI ImageGen under AmyLili28 direction",
+      "accessed_date": "2026-08-31",
+      "usage": "Text-free twelve-cell concept mosaic. Neutral A01-A12 action descriptions are overlaid on the imagery; a separate S01-S12 register reproduces the proposal contract titles without claiming one-to-one depiction or completed validation.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, or performance evidence."
     }
   ]
 }
