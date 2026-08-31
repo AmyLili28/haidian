@@ -820,7 +820,7 @@ scenarios: ["ai-traffic-walkability", "ai-health-service-navigation", "robot-del
 | 指标 | 数据来源 | 状态 | 备注 |
 | --- | --- | --- | --- |
 | site_area_sqm（总体设计范围实算面积） | `geometry/site_boundary.geojson#SITE-001` | provisional | 约 11.41 km²（provisional 几何复算；43.6 km² 为公告统筹研究范围口径，官方边界到位后全量复算） |
-| key_area_count（重点区域数量） | `geometry/key_areas.geojson#PROV-KEY-001/002/003` | provisional | 3 处重点区域（众智园 192.1ha / 原点社区 104.3ha / 大钟寺 72.0ha） |
+| key_area_count（重点区域数量） | `geometry/key_areas.geojson#PROV-KEY-001/002/003` | provisional | 3 处重点区域（众智园 约192ha / 原点社区 约104ha / 大钟寺 约72ha，临时几何推算、非精确面积） |
 | building_footprint_area_sqm（建筑基底面积） | `geometry/buildings.geojson#BLDG-001` | provisional | 待 official polygons 后复算 |
 | green_ratio（绿地比例） | `geometry/green_space.geojson#GREEN-001` | provisional | 待 official polygons 后复算 |
 | public_space_ratio（公共空间比例） | `geometry/public_space.geojson#PUBLIC-001` | provisional | 待 official polygons 后复算 |

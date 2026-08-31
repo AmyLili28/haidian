@@ -650,7 +650,7 @@ Indicator recalculation depth is governed by [depth:metrics_recalculation]. This
 | Indicator | Data Source | Status | Note |
 | --- | --- | --- | --- |
 | site_area_sqm (calculated overall design area) | `geometry/site_boundary.geojson#SITE-001` | provisional | ~11.41 km² (provisional geometry recalculation; 43.6 km² is the announced coordinated research area; full recalculation once official boundary available) |
-| key_area_count (key area count) | `geometry/key_areas.geojson#PROV-KEY-001/002/003` | provisional | 3 key areas (Zhongzhiyuan 192.1ha / Origin Community 104.3ha / Dazhongsi 72.0ha) |
+| key_area_count (key area count) | `geometry/key_areas.geojson#PROV-KEY-001/002/003` | provisional | 3 key areas (Zhongzhiyuan ~192ha / Origin Community ~104ha / Dazhongsi ~72ha, provisional geometry estimates, not precise areas) |
 | building_footprint_area_sqm | `geometry/buildings.geojson#BLDG-001` | provisional | Recalculate after official polygons |
 | green_ratio | `geometry/green_space.geojson#GREEN-001` | provisional | Recalculate after official polygons |
 | public_space_ratio | `geometry/public_space.geojson#PUBLIC-001` | provisional | Recalculate after official polygons |
