@@ -525,7 +525,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "五类AI+场景（跨线感知、无障碍辅助、设施巡检、舒适度建议、安全告警复核）遵循自设设计治理规则，严守匿名聚合与人工兜底底线。",
+   "evidence_summary_zh": "12张AI+场景卡（含跨线感知、无障碍辅助、设施巡检、舒适度建议、安全告警复核等）遵循自设设计治理规则，严守匿名聚合与人工兜底底线。",
    "review_status": null,
    "status": "complete"
   },
@@ -931,7 +931,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "单一口径指标体系：绿地率约13.4%、公共空间率约0.32%、5类场景卡、5类画像、4个国际案例、4个国内对标，官方数据发布后统一复算。",
+   "evidence_summary_zh": "单一口径指标体系：绿地率约13.4%、公共空间率约0.32%、12张场景卡、5类画像、6个全球案例、4个国内对标，官方数据发布后统一复算。",
    "review_status": null,
    "status": "complete"
   },
@@ -1113,7 +1113,7 @@
   },
   {
    "requirement_id": "agent.3",
-   "title_zh": "五类AI+场景：匿名聚合感知与人本设计治理",
+   "title_zh": "12张AI+场景卡：匿名聚合感知与人本设计治理",
    "mandatory": true,
    "report_sections": [
     "AI 创新生态、人才画像与 AI+ 场景"
@@ -1165,7 +1165,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "八大要素机制覆盖土地、空间、产业、资金、人才、算力、数据、场景；众智园、AI原点社区及两翼的接收、转译与输出关系已在四承载者流转表中明确，五类AI+场景仅为概念卡。",
+   "evidence_summary_zh": "八大要素机制覆盖土地、空间、产业、资金、人才、算力、数据、场景；众智园、AI原点社区及两翼的接收、转译与输出关系已在四承载者流转表中明确，12张AI+场景卡仅为概念卡。",
    "review_status": null,
    "status": "complete"
   },

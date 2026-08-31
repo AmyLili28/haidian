@@ -915,6 +915,264 @@
         "VISUAL_STATIC"
       ],
       "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘风险与资料缺口’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+    },
+    {
+      "item_id": "brand_identity",
+      "title_zh": "品牌识别与原创机制",
+      "professional_dimension": "review_closure",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "任务书逐项闭环与区域协同回路",
+        "agent.4—agent.6空间与运营闭环"
+      ],
+      "drawing_refs": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf",
+        "assets/figures/site-overview.png",
+        "assets/figures/key-areas.png"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/roads.geojson"
+      ],
+      "metric_refs": [
+        "scenario_card_count",
+        "industry_test_scenario_count",
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "REGIONAL-COLLABORATION-INTERFACES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-DATA-001",
+        "A-PRIVACY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "proposal.md 附录一、任务书闭环段落、缝合客厅/STITCH·JZ及Logo权利边界；图件采用穿针母题。"
+    },
+    {
+      "item_id": "regional_synergy",
+      "title_zh": "区域协同",
+      "professional_dimension": "review_closure",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "任务书逐项闭环与区域协同回路",
+        "agent.4—agent.6空间与运营闭环"
+      ],
+      "drawing_refs": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf",
+        "assets/figures/site-overview.png",
+        "assets/figures/key-areas.png"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/roads.geojson"
+      ],
+      "metric_refs": [
+        "scenario_card_count",
+        "industry_test_scenario_count",
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "REGIONAL-COLLABORATION-INTERFACES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-DATA-001",
+        "A-PRIVACY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "proposal.md 三层范围区域五列回路；REGIONAL-COLLABORATION-INTERFACES；主体待确认。"
+    },
+    {
+      "item_id": "planning_innovation",
+      "title_zh": "AI规划创新",
+      "professional_dimension": "review_closure",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "任务书逐项闭环与区域协同回路",
+        "agent.4—agent.6空间与运营闭环"
+      ],
+      "drawing_refs": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf",
+        "assets/figures/site-overview.png",
+        "assets/figures/key-areas.png"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/roads.geojson"
+      ],
+      "metric_refs": [
+        "scenario_card_count",
+        "industry_test_scenario_count",
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "REGIONAL-COLLABORATION-INTERFACES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-DATA-001",
+        "A-PRIVACY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "SC01-SC12及T1-T3协议；八要素表；生态图。"
+    },
+    {
+      "item_id": "industry_support",
+      "title_zh": "产业支撑",
+      "professional_dimension": "review_closure",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "任务书逐项闭环与区域协同回路",
+        "agent.4—agent.6空间与运营闭环"
+      ],
+      "drawing_refs": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf",
+        "assets/figures/site-overview.png",
+        "assets/figures/key-areas.png"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/roads.geojson"
+      ],
+      "metric_refs": [
+        "scenario_card_count",
+        "industry_test_scenario_count",
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "REGIONAL-COLLABORATION-INTERFACES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-DATA-001",
+        "A-PRIVACY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "众智园/两翼输入输出与责任边界；3项冻结协议。"
+    },
+    {
+      "item_id": "scenario_perceptibility",
+      "title_zh": "场景可感知度",
+      "professional_dimension": "review_closure",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "任务书逐项闭环与区域协同回路",
+        "agent.4—agent.6空间与运营闭环"
+      ],
+      "drawing_refs": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf",
+        "assets/figures/site-overview.png",
+        "assets/figures/key-areas.png"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/roads.geojson"
+      ],
+      "metric_refs": [
+        "scenario_card_count",
+        "industry_test_scenario_count",
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "REGIONAL-COLLABORATION-INTERFACES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-DATA-001",
+        "A-PRIVACY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "12张卡逐卡写节点、空间触点、输出和人工复核。"
+    },
+    {
+      "item_id": "spatial_clarity",
+      "title_zh": "空间明确性",
+      "professional_dimension": "review_closure",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "任务书逐项闭环与区域协同回路",
+        "agent.4—agent.6空间与运营闭环"
+      ],
+      "drawing_refs": [
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf",
+        "assets/figures/site-overview.png",
+        "assets/figures/key-areas.png"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/roads.geojson"
+      ],
+      "metric_refs": [
+        "scenario_card_count",
+        "industry_test_scenario_count",
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "REGIONAL-COLLABORATION-INTERFACES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-DATA-001",
+        "A-PRIVACY-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "site-overview/key-areas/mobility figures include north, scale, roads, stations, east-west link and node section."
     }
   ]
 }

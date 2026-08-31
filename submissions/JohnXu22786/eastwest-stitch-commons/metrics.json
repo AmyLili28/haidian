@@ -165,15 +165,18 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 4,
+      "value": 6,
       "unit": "count",
       "source_files": [
         "proposal.md",
+        "proposal.en.md",
         "sources.json"
       ],
-      "formula": "count(global ecosystem mechanism cases)",
+      "formula": "count(SOURCE-GLOBAL-* records)",
       "confidence": "high",
-      "assumptions": []
+      "assumptions": [
+        "Global cases are transferable references, not site facts."
+      ]
     },
     "phase_count": {
       "status": "known",
@@ -196,6 +199,19 @@
       "formula": "count(annual event system)",
       "confidence": "high",
       "assumptions": []
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "proposal.en.md"
+      ],
+      "formula": "count(SC01..SC12 explicit scenario cards)",
+      "confidence": "medium",
+      "intended_use": "concept design audit only",
+      "recompute_trigger": "freeze against field baseline before any live pilot"
     }
   }
 }

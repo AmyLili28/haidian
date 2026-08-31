@@ -1,3 +1,10 @@
+## 2026-08-31 · Round 6 review-closure repair for CocoSgt 5061555909
+
+- Kept the “Stitch Living Room — One Belt, Three Nodes” concept and made the official Two Wings, five positions/functions, five regional collaboration interfaces, eight-factor ecosystem, 12 scenario cards, and T1–T3 test protocols explicit in both proposal languages and matrices.
+- Added six global precedent records with original title/publisher/date/facts/comparability/rights or screenshot state/verifier, plus the rights ledger covering fonts, geometry/basemap, cases, historical media, code, and licenses.
+- Reconciled the 12-card/global-case metrics and provisional boundary language across proposals, matrices, HTML, figures, and print boards; rebuilt bilingual site-overview and key-areas figures with separated legends, north arrows, scales, safe text zones, and formal/local-wing labels.
+- Regenerated both A0 boards and A3 booklets, refreshed embedded-font HTML and manifest hashes, and retained no push or PR-state changes.
+
 ## 2026-08-31 · Direct substantive repair for review 5047235192
 
 - Reconciled Chinese/English proposal, matrices, static figure labels, and HTML around the two official taskbook wings: Zhongguancun Technology Service Wing and Xiaoyuehe Scenario Empowerment Wing. University Intelligence and International Living are explicitly retained only as self-defined east/west local interfaces.

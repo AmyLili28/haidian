@@ -338,6 +338,220 @@
         "generation_method": "concept prompting + geometry program",
         "limitations": "low confidence conceptual envelopes"
       }
+    },
+    {
+      "source_id": "SOURCE-GLOBAL-HIGH-LINE",
+      "title": "About the High Line",
+      "publisher": "Friends of the High Line",
+      "source_kind": "global_case_reference",
+      "url": "https://www.thehighline.org/about/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_page",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_page",
+      "license_summary": "public page may support title/fact citation; no image/logo reuse; screenshot status: not stored",
+      "review_status": "provisional_reference",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "cite original page title, publisher, date status and stated fact",
+        "type/operations comparison with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "reuse images or logos",
+        "claim site fact, partnership, approval or transferability",
+        "commercial reuse without permission"
+      ],
+      "topics": [
+        "global_case",
+        "heritage_public_space",
+        "operations"
+      ],
+      "notes_zh": "原始标题=About the High Line；发布者=Friends of the High Line；日期=date_not_stated_on_page；事实=elevated railway heritage park with non-profit stewardship；可比性=comparable: heritage corridor and operating model; not comparable: land assembly, funding, approvals；许可/截图=public page may support title/fact citation; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
+    },
+    {
+      "source_id": "SOURCE-GLOBAL-SEOUL-7017",
+      "title": "Seoullo 7017",
+      "publisher": "Seoul Metropolitan Government",
+      "source_kind": "global_case_reference",
+      "url": "https://english.seoul.go.kr/seoullo-7017/",
+      "published_date": "2017-05-20",
+      "accessed_date": "2026-08-31",
+      "file_type": "web_page",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_page",
+      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
+      "review_status": "provisional_reference",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "cite original page title, publisher, date status and stated fact",
+        "type/operations comparison with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "reuse images or logos",
+        "claim site fact, partnership, approval or transferability",
+        "commercial reuse without permission"
+      ],
+      "topics": [
+        "global_case",
+        "heritage_public_space",
+        "operations"
+      ],
+      "notes_zh": "原始标题=Seoullo 7017；发布者=Seoul Metropolitan Government；日期=2017-05-20；事实=elevated pedestrian garden opened as a public urban connection；可比性=comparable: crossing and public-space stitching; not comparable: Seoul road/approval conditions；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
+    },
+    {
+      "source_id": "SOURCE-GLOBAL-PROMENADE-PLANTEE",
+      "title": "Coulée verte René-Dumont",
+      "publisher": "Paris je t’aime",
+      "source_kind": "global_case_reference",
+      "url": "https://parisjetaime.com/eng/culture/la-coulee-verte-rene-dumont-promenade-plantee-p3578",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_page",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_page",
+      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
+      "review_status": "provisional_reference",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "cite original page title, publisher, date status and stated fact",
+        "type/operations comparison with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "reuse images or logos",
+        "claim site fact, partnership, approval or transferability",
+        "commercial reuse without permission"
+      ],
+      "topics": [
+        "global_case",
+        "heritage_public_space",
+        "operations"
+      ],
+      "notes_zh": "原始标题=Coulée verte René-Dumont；发布者=Paris je t’aime；日期=date_not_stated_on_page；事实=linear park on a former railway viaduct and corridor；可比性=comparable: linear heritage landscape; not comparable: Paris ownership and management；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
+    },
+    {
+      "source_id": "SOURCE-GLOBAL-THE-606",
+      "title": "The 606",
+      "publisher": "Chicago Park District",
+      "source_kind": "global_case_reference",
+      "url": "https://www.the606.org/about/",
+      "published_date": "2015-06-06",
+      "accessed_date": "2026-08-31",
+      "file_type": "web_page",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_page",
+      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
+      "review_status": "provisional_reference",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "cite original page title, publisher, date status and stated fact",
+        "type/operations comparison with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "reuse images or logos",
+        "claim site fact, partnership, approval or transferability",
+        "commercial reuse without permission"
+      ],
+      "topics": [
+        "global_case",
+        "heritage_public_space",
+        "operations"
+      ],
+      "notes_zh": "原始标题=The 606；发布者=Chicago Park District；日期=2015-06-06；事实=rail corridor converted into a multi-community trail and park；可比性=comparable: community connectivity; not comparable: Chicago governance and capital conditions；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
+    },
+    {
+      "source_id": "SOURCE-GLOBAL-BROOKLYN-BRIDGE-PARK",
+      "title": "About Brooklyn Bridge Park",
+      "publisher": "Brooklyn Bridge Park Corporation",
+      "source_kind": "global_case_reference",
+      "url": "https://www.brooklynbridgepark.org/about/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web_page",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_page",
+      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
+      "review_status": "provisional_reference",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "cite original page title, publisher, date status and stated fact",
+        "type/operations comparison with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "reuse images or logos",
+        "claim site fact, partnership, approval or transferability",
+        "commercial reuse without permission"
+      ],
+      "topics": [
+        "global_case",
+        "heritage_public_space",
+        "operations"
+      ],
+      "notes_zh": "原始标题=About Brooklyn Bridge Park；发布者=Brooklyn Bridge Park Corporation；日期=date_not_stated_on_page；事实=public park operated by a dedicated not-for-profit corporation；可比性=comparable: operating governance; not comparable: waterfront structures and finance；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
+    },
+    {
+      "source_id": "SOURCE-GLOBAL-COAL-DROPS-YARD",
+      "title": "Coal Drops Yard",
+      "publisher": "Argent",
+      "source_kind": "global_case_reference",
+      "url": "https://www.coaldropsyard.com/",
+      "published_date": "2018-10-26",
+      "accessed_date": "2026-08-31",
+      "file_type": "web_page",
+      "authority_level": "PUBLIC_REFERENCE",
+      "timeliness_level": "T1",
+      "public_access_status": "public_page",
+      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
+      "review_status": "provisional_reference",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "cite original page title, publisher, date status and stated fact",
+        "type/operations comparison with explicit boundary"
+      ],
+      "prohibited_uses": [
+        "reuse images or logos",
+        "claim site fact, partnership, approval or transferability",
+        "commercial reuse without permission"
+      ],
+      "topics": [
+        "global_case",
+        "heritage_public_space",
+        "operations"
+      ],
+      "notes_zh": "原始标题=Coal Drops Yard；发布者=Argent；日期=2018-10-26；事实=heritage coal-drop structures reused as a public-facing mixed-use destination；可比性=comparable: heritage reuse and public programming; not comparable: development rights and market context；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
+    },
+    {
+      "source_id": "REGIONAL-COLLABORATION-INTERFACES",
+      "title": "区域协同建议接口与核验状态",
+      "publisher": "JohnXu22786",
+      "source_kind": "agent_generated_design",
+      "url": "proposal.md#三层范围工作框架",
+      "published_date": "2026-08-31",
+      "accessed_date": "2026-08-31",
+      "file_type": "markdown",
+      "authority_level": "SELF-DECLARED",
+      "timeliness_level": "T0",
+      "public_access_status": "concept_only",
+      "license_summary": "Original concept table; no collaboration claim.",
+      "review_status": "provisional",
+      "usable_for_formal": "provisional_only",
+      "allowed_uses": [
+        "concept interface mapping",
+        "review traceability"
+      ],
+      "prohibited_uses": [
+        "claiming cooperation, funding or institutional endorsement"
+      ],
+      "topics": [
+        "regional_synergy",
+        "concept_interface"
+      ],
+      "notes_zh": "五个区域接口均为建议回路，主体待确认，进入条件和反馈机制已写明。"
     }
   ]
 }
