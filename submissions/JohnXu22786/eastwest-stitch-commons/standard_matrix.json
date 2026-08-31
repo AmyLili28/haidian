@@ -8,9 +8,8 @@
       "mandatory": true,
       "review_status": "addressed",
       "proposal_sections": [
-        "三层范围工作框架",
         "设计依据与资料清单",
-        "风险、版权与合规说明（法规适用范围收窄）"
+        "风险、版权与合规说明"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -20,10 +19,10 @@
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/buildings.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
@@ -31,14 +30,22 @@
         "green_ratio",
         "public_space_ratio",
         "landmark_count",
-        "scenario_node_count"
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "DATA-SRC-AGENT-TASKBOOK-20260518",
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -54,8 +61,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "公告1.3/1.4/1.5主控依据：三层范围约43.6 km²/约11.4 km²/约368.4 ha写入三层框架；征集规则驱动权属与合规说明，明确标注provisional边界。",
-      "status": "complete"
+      "evidence_summary_zh": "以「缝合客厅（STITCH·JZ）」把京张铁路遗址公园绿带组织为东西缝合的公共界面概念：以遗址公园为缝合界面，组织东西两侧街区的功能互补与公共空间联通，把铁路原线曾长期割裂的两侧转译为可跨越、可停留、可交谈的城市客厅，「一带三件」——缝合桥庭（跨线连桥与桥下广场）、东西市集廊（两侧功能互换的市集走廊）、缝合轴（贯穿东西的慢行缝合轴线与AI公共空间），五类AI+场景（跨线通行需求匿名感知与信号调配、AI无障碍通行辅助、公共空间设施状态巡检AI、环境数据匿名感知与舒适度建议、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，交通慢行优先、缝合轴贯通东西慢行并加密跨线节点，分期实施+年度活动体系（东西社区缝合节、桥下市集月、慢行探访日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
     },
     {
       "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
@@ -64,9 +70,8 @@
       "mandatory": true,
       "review_status": "addressed",
       "proposal_sections": [
-        "统筹研究范围产业与未来城市研究",
-        "AI 创新生态与八大要素机制",
-        "重点区域详细设计"
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -76,24 +81,33 @@
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/buildings.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
         "scenario_node_count",
+        "industry_test_scenario_count",
         "persona_count",
+        "global_case_count",
         "annual_program_count",
-        "green_ratio"
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "DATA-SRC-AGENT-TASKBOOK-20260518",
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -109,8 +123,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "任务书对齐：严格落实「中关村科技服务翼」与「小月河场景赋能翼」官方两翼；8大要素机制（土地/空间/产业/资金/人才/算力/数据/场景）系统映射三大重点区域。",
-      "status": "complete"
+      "evidence_summary_zh": "以「缝合客厅（STITCH·JZ）」把京张铁路遗址公园绿带组织为东西缝合的公共界面概念：以遗址公园为缝合界面，组织东西两侧街区的功能互补与公共空间联通，把铁路原线曾长期割裂的两侧转译为可跨越、可停留、可交谈的城市客厅，「一带三件」——缝合桥庭（跨线连桥与桥下广场）、东西市集廊（两侧功能互换的市集走廊）、缝合轴（贯穿东西的慢行缝合轴线与AI公共空间），五类AI+场景（跨线通行需求匿名感知与信号调配、AI无障碍通行辅助、公共空间设施状态巡检AI、环境数据匿名感知与舒适度建议、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，交通慢行优先、缝合轴贯通东西慢行并加密跨线节点，分期实施+年度活动体系（东西社区缝合节、桥下市集月、慢行探访日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
     },
     {
       "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
@@ -119,8 +132,8 @@
       "mandatory": true,
       "review_status": "addressed",
       "proposal_sections": [
-        "总体设计范围城市更新与控规深度城市设计",
-        "蓝绿空间、公共空间与城市风貌"
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -130,23 +143,33 @@
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/buildings.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
+        "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "road_network_length_m"
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "DATA-SRC-AGENT-TASKBOOK-20260518",
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -158,11 +181,11 @@
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "城市设计管理办法：绿带为轴、慢行贯通，桥下空间微介入活化，铁路工业风貌当代转译，兼顾人本尺度与空间韧性。",
-      "status": "complete"
+      "evidence_summary_zh": "以「缝合客厅（STITCH·JZ）」把京张铁路遗址公园绿带组织为东西缝合的公共界面概念：以遗址公园为缝合界面，组织东西两侧街区的功能互补与公共空间联通，把铁路原线曾长期割裂的两侧转译为可跨越、可停留、可交谈的城市客厅，「一带三件」——缝合桥庭（跨线连桥与桥下广场）、东西市集廊（两侧功能互换的市集走廊）、缝合轴（贯穿东西的慢行缝合轴线与AI公共空间），五类AI+场景（跨线通行需求匿名感知与信号调配、AI无障碍通行辅助、公共空间设施状态巡检AI、环境数据匿名感知与舒适度建议、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，交通慢行优先、缝合轴贯通东西慢行并加密跨线节点，分期实施+年度活动体系（东西社区缝合节、桥下市集月、慢行探访日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
     },
     {
       "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
@@ -171,8 +194,8 @@
       "mandatory": true,
       "review_status": "addressed",
       "proposal_sections": [
-        "总体设计范围城市更新与控规深度城市设计",
-        "用地、建筑规模与拆改留方案"
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -182,24 +205,33 @@
         "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson",
         "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
         "geometry/roads.geojson",
         "geometry/green_space.geojson",
         "geometry/public_space.geojson",
-        "geometry/buildings.geojson",
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "land_use_zone_count"
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
         "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "DATA-SRC-AGENT-TASKBOOK-20260518",
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -211,34 +243,57 @@
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
-        "LAND_USE_TOPOLOGY"
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "控规深度：单一口径复算27个用地图斑，绿地率约13.4%，不提供未经审批的法定容积率或拆改留绝对数值，留待官方测绘后依法审批。",
-      "status": "complete"
+      "evidence_summary_zh": "以「缝合客厅（STITCH·JZ）」把京张铁路遗址公园绿带组织为东西缝合的公共界面概念：以遗址公园为缝合界面，组织东西两侧街区的功能互补与公共空间联通，把铁路原线曾长期割裂的两侧转译为可跨越、可停留、可交谈的城市客厅，「一带三件」——缝合桥庭（跨线连桥与桥下广场）、东西市集廊（两侧功能互换的市集走廊）、缝合轴（贯穿东西的慢行缝合轴线与AI公共空间），五类AI+场景（跨线通行需求匿名感知与信号调配、AI无障碍通行辅助、公共空间设施状态巡检AI、环境数据匿名感知与舒适度建议、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，交通慢行优先、缝合轴贯通东西慢行并加密跨线节点，分期实施+年度活动体系（东西社区缝合节、桥下市集月、慢行探访日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
     },
     {
       "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
-      "requirement_zh": "用地分类名称参照现行《国土空间调查、规划、用途管制用地用海分类指南》。",
-      "professional_dimension": "土地利用",
+      "requirement_zh": "用地分类引用国土空间调查规划用途管制用地用海分类指南的公开子集。",
+      "professional_dimension": "规划/城市设计",
       "mandatory": true,
       "review_status": "addressed",
       "proposal_sections": [
-        "总体设计范围城市更新与控规深度城市设计",
-        "用地、建筑规模与拆改留方案"
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
         "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
-        "geometry/land_use.geojson"
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
       ],
       "metric_refs": [
-        "land_use_zone_count",
-        "green_ratio"
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
       ],
       "source_ids": [
-        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -249,89 +304,22 @@
         "A-EVENT-001"
       ],
       "self_check_ids": [
-        "LAND_USE_TOPOLOGY"
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "国标用地分类：land_use.geojson采用公园绿地(1401)、科研用地(0802)、文化用地(0803)、商业用地(0901)、商务金融(0902)等标准二/三级分类代码。",
-      "status": "complete"
-    },
-    {
-      "standard_id": "BARRIER-FREE-ENVIRONMENT-LAW-ART39",
-      "requirement_zh": "无障碍环境建设法第39条人工服务要求仅限于条文列举场所，方案人工服务为自设设计治理机制。",
-      "professional_dimension": "无障碍与人本治理",
-      "mandatory": true,
-      "review_status": "addressed",
-      "proposal_sections": [
-        "AI 创新生态与八大要素机制",
-        "风险、版权与合规说明（法规适用范围收窄）"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson",
-        "geometry/key_areas.geojson",
-        "geometry/land_use.geojson",
-        "geometry/roads.geojson",
-        "geometry/green_space.geojson",
-        "geometry/public_space.geojson",
-        "geometry/buildings.geojson",
-        "geometry/phasing.geojson"
-      ],
-      "metric_refs": [
-        "persona_count",
-        "scenario_node_count"
-      ],
-      "source_ids": [
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
-      ],
-      "assumption_ids": [
-        "A-PRIVACY-001"
-      ],
-      "self_check_ids": [
-        "PROFESSIONAL_EVIDENCE"
-      ],
-      "evidence_summary_zh": "收窄无障碍法引用：明确法定义务仅适用于医疗、社保等法定场所，本案设置的人工导览台与无障碍辅助为自设人本设计治理规则，非普遍法定合规结论。",
-      "status": "complete"
-    },
-    {
-      "standard_id": "GENERATIVE-AI-INTERIM-MEASURES",
-      "requirement_zh": "生成式AI暂行办法主要规范向公众提供的生成式AI服务，不自动覆盖所有非生成式城市感知系统；适用性取决于服务是否属于公众生成式AI服务，方案安全审核为自设治理规则。",
-      "professional_dimension": "AI治理与合规",
-      "mandatory": true,
-      "review_status": "addressed",
-      "proposal_sections": [
-        "AI 创新生态与八大要素机制",
-        "风险、版权与合规说明（法规适用范围收窄）"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson",
-        "geometry/key_areas.geojson",
-        "geometry/land_use.geojson",
-        "geometry/roads.geojson",
-        "geometry/green_space.geojson",
-        "geometry/public_space.geojson",
-        "geometry/buildings.geojson",
-        "geometry/phasing.geojson"
-      ],
-      "metric_refs": [
-        "scenario_node_count"
-      ],
-      "source_ids": [
-        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
-      ],
-      "assumption_ids": [
-        "A-PRIVACY-001"
-      ],
-      "self_check_ids": [
-        "PROFESSIONAL_EVIDENCE"
-      ],
-      "evidence_summary_zh": "收窄生成式AI暂行办法：明确其不自动覆盖所有非生成式感知系统，适用性取决于服务是否属于公众生成式AI服务；人工复核、匿名聚合、误报申诉与一键退出为自设人本治理标准。",
-      "status": "complete"
+      "evidence_summary_zh": "以「缝合客厅（STITCH·JZ）」把京张铁路遗址公园绿带组织为东西缝合的公共界面概念：以遗址公园为缝合界面，组织东西两侧街区的功能互补与公共空间联通，把铁路原线曾长期割裂的两侧转译为可跨越、可停留、可交谈的城市客厅，「一带三件」——缝合桥庭（跨线连桥与桥下广场）、东西市集廊（两侧功能互换的市集走廊）、缝合轴（贯穿东西的慢行缝合轴线与AI公共空间），五类AI+场景（跨线通行需求匿名感知与信号调配、AI无障碍通行辅助、公共空间设施状态巡检AI、环境数据匿名感知与舒适度建议、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，交通慢行优先、缝合轴贯通东西慢行并加密跨线节点，分期实施+年度活动体系（东西社区缝合节、桥下市集月、慢行探访日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
     }
-  ]
+  ],
+  "evidence_addendum": {
+    "rights_ledger": "report/copyright_statement.md",
+    "domestic_benchmark_sources": [
+      "DATA-SRC-DOMESTIC-SHOUGANG-20231227",
+      "DATA-SRC-DOMESTIC-XUHUI-WEST-BUND-2026",
+      "DATA-SRC-DOMESTIC-DASHA-RIVER-202306",
+      "DATA-SRC-DOMESTIC-MENGZHUIWAN-20230324"
+    ],
+    "boundary_note": "Conceptual/provisional; no official approval, statutory control or third-party endorsement is inferred."
+  }
 }

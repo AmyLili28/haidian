@@ -1,17 +1,19 @@
-# Copyright and Source-Rights Statement
+# Copyright and provenance statement
 
-- Proposal text, bilingual HTML, diagrams, PDF layouts, and package geometry are original concept outputs prepared for this submission. No site photographs, logos, partner marks, portraits, or third-party image assets are embedded.
-- The 12 static figures and four print PDFs were regenerated locally from this package’s declared GeoJSON, metrics, and design sources. Geometry is provisional and illustrative; it is not a survey, an official boundary, or an approval record.
-- The embedded display font is derived from the repository-provided refs/fonts/NotoSansSC-Static.ttf. This package claims no rights beyond the supplied font resource and keeps the source ledger in sources.json and the package manifest.
-- Public references and their permitted uses are listed in sources.json; legal references are used only within the narrowed scopes stated in the proposal and standard matrix. Self-imposed governance rules are not presented as universal statutory conclusions.
-- The historical generation provenance in agent.json and manifest.json is retained. The 2026-08-31 repair is a local package edit and does not claim field survey, collaboration, funding, policy, approval, or measured effects.
+The narrative, geometry, diagrams, figures, HTML and PDFs are original concept-package outputs by JohnXu22786, assembled for review. No third-party image, logo or downloaded benchmark media is embedded. Names and the STITCH·JZ wordmark remain pending rights verification; see `asset_rights_ledger.md` for dated scope, provenance, permitted use and replacement triggers. Public source pages are text-only references with attribution, URLs, access dates and reuse boundaries in `sources.json`. This statement is not legal clearance or an implementation authorization.
 
-- Item-level rights register (the single declared rights entry for this package):
-  - **Internal working names:** 缝合客厅 / STITCH·JZ / 一带三件 / 缝合桥庭 / 东西市集廊 / 缝合轴. Trademark and prior-rights search is not complete; no registration, commercialisation or external licensing before agency clearance.
-  - **Font:** `refs/fonts/NotoSansSC-Static.ttf`, repository-provided; the package claims no rights beyond the supplied resource. HTML subsets are display-only.
-  - **Basemap/geometry:** package `geometry/*.geojson`, self-generated conceptual geometry; provisional, with no official redline, survey or construction right.
-  - **Figures/PDF/HTML:** generated from package data and declared text; original concept outputs for review/display only.
-  - **Global cases:** official pages are used only for original title, publisher, date status and factual summary. No third-party images, logos or screenshots are embedded; screenshot status is not stored.
-  - **Sound/history:** no sound, archival image, portrait, logo or third-party historical media is embedded. Any future reuse requires item-level permission and attribution.
-  - **Code/dependencies:** local Python/matplotlib/Pillow/GeoJSON generation; dependency licenses remain those of the repository/runtime.
-  - **Allowed use:** repository review, concept display and machine validation only. **Prohibited:** commercial use, trademark filing, official endorsement, partner claim, or construction/approval inference.
+
+## Asset rights, provenance and permitted-use ledger
+
+# 权利、来源与使用边界台账 / Rights, provenance and permitted-use ledger
+
+更新日期：2026-08-31。以下是本概念包的工作台账，不是商标、著作权或不正当竞争法律意见，也不是“已清权”证明。检索范围以公开网页与本包留存记录为限；未附官方注册数据库的可复核检索结果时，均按待核验处理。
+
+| Asset / term | Dated scoped prior-rights review | Creator / provenance | Permitted use in this package | Boundary / action |
+|---|---|---|---|---|
+| Stitch Living Room / 缝合客厅 | 2026-08-31; public web/name screening scope: Chinese/English exact phrase and close variants; PRC-facing concept-package context; no official trademark-register result attached | JohnXu22786 concept narrative and deterministic package build; phrase is a project naming proposal | Internal concept title, bilingual narrative, figures and offline HTML only; attribution to this package | Pending formal trademark/copyright review. Replace the public-facing name before implementation if a conflicting right is identified. |
+| STITCH·JZ | 2026-08-31; public web/name screening scope: exact “STITCH JZ”, “STITCH·JZ”, and close variants; PRC/English web context; no official register result attached | JohnXu22786 concept identity system; typesetting generated for this package | Package cover, figure labels and internal concept navigation only | No claim of exclusivity. Do not use as a registered mark or launch brand without clearance. |
+| One Belt, Three Pieces / 一带三件 | 2026-08-31; public web/name screening scope: exact bilingual phrase and close variants; planning/design context; no official register result attached | JohnXu22786 concept framework naming the three spatial pieces | Descriptive internal framework label in proposal, drawings and visual index | Descriptive/provisional wording; replace if collision or confusion appears in formal clearance. |
+| Logo / STITCH·JZ wordmark | 2026-08-31; scoped review of package-created wordmark treatment and public-web visual similarity; no official trademark or image-search clearance attached | Original typographic composition generated in this package; no external logo/image imported | Offline package display and review only; no third-party asset is asserted or reused | Do not publish, register, merchandise or imply endorsement before formal clearance. Remove/replace on conflict. |
+
+Evidence and reuse rule: the package contains no downloaded benchmark images or logos. Domestic benchmark facts are text-only, narrowly paraphrased, and linked to `sources.json`; each source record states its claim boundary and reuse terms. Geometry, figures and diagrams are original concept outputs from this package and remain provisional.

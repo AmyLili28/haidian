@@ -99,7 +99,7 @@
     },
     "land_use_zone_count": {
       "status": "known",
-      "value": 27,
+      "value": 24,
       "unit": "count",
       "source_files": [
         "geometry/land_use.geojson"
@@ -165,18 +165,15 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 6,
+      "value": 4,
       "unit": "count",
       "source_files": [
         "proposal.md",
-        "proposal.en.md",
         "sources.json"
       ],
-      "formula": "count(SOURCE-GLOBAL-* records)",
+      "formula": "count(global ecosystem mechanism cases)",
       "confidence": "high",
-      "assumptions": [
-        "Global cases are transferable references, not site facts."
-      ]
+      "assumptions": []
     },
     "phase_count": {
       "status": "known",
@@ -199,19 +196,6 @@
       "formula": "count(annual event system)",
       "confidence": "high",
       "assumptions": []
-    },
-    "scenario_card_count": {
-      "status": "known",
-      "value": 12,
-      "unit": "count",
-      "source_files": [
-        "proposal.md",
-        "proposal.en.md"
-      ],
-      "formula": "count(SC01..SC12 explicit scenario cards)",
-      "confidence": "medium",
-      "intended_use": "concept design audit only",
-      "recompute_trigger": "freeze against field baseline before any live pilot"
     }
   }
 }

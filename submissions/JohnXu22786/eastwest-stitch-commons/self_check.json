@@ -10,7 +10,8 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/eastwest-stitch-commons/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+        "submissions/JohnXu22786/eastwest-stitch-commons/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
+        "submissions/JohnXu22786/eastwest-stitch-commons/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/eastwest-stitch-commons/proposal.md"
@@ -20,12 +21,12 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/eastwest-stitch-commons/agent.json",
-        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/ai-innovation-ecosystem.en.png",
-        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/ai-innovation-ecosystem.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/key-areas.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/logo-stitch-jz.en.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/logo-stitch-jz.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/mobility-bluegreen.en.png",
@@ -67,7 +68,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/eastwest-stitch-commons": "formal"
       },
-      "total_bytes": 16838151,
+      "total_bytes": 4928969,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -127,13 +128,7 @@
       "metrics_seen": {
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.134275,
-        "public_space_ratio": 0.003167,
-        "persona_count": 5.0,
-        "global_case_count": 6.0,
-        "annual_program_count": 3.0,
-        "industry_test_scenario_count": 3.0,
-        "scenario_node_count": 8.0,
-        "scenario_card_count": 12.0
+        "public_space_ratio": 0.003167
       }
     },
     "stderr": ""
@@ -145,9 +140,9 @@
       "ok": true,
       "issues": [],
       "summary": {
-        "standard_matrix_items": 7,
-        "design_depth_items": 21,
-        "known_metric_refs_required": 18,
+        "standard_matrix_items": 5,
+        "design_depth_items": 15,
+        "known_metric_refs_required": 17,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
@@ -155,7 +150,7 @@
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 5
+          "metric": 2
         }
       }
     },
@@ -172,7 +167,9 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [],
+  "next_actions": [
+    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/eastwest-stitch-commons/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible"
+  ],
   "schema_version": "0.1.0",
   "checks": [
     {

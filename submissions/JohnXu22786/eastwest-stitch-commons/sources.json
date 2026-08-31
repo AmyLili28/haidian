@@ -340,218 +340,124 @@
       }
     },
     {
-      "source_id": "SOURCE-GLOBAL-HIGH-LINE",
-      "title": "About the High Line",
-      "publisher": "Friends of the High Line",
-      "source_kind": "global_case_reference",
-      "url": "https://www.thehighline.org/about/",
-      "published_date": null,
+      "source_id": "DATA-SRC-DOMESTIC-SHOUGANG-20231227",
+      "title": "关于政协第十四届全国委员会第一次会议第03557号（文体宣传类244号）提案答复的函",
+      "publisher": "北京市人民政府",
+      "source_kind": "official_public_page",
+      "url": "https://www.beijing.gov.cn/gongkai/cbqgjyta/202312/t20231227_3513390.html",
+      "published_date": "2023-12-27",
       "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "PUBLIC_REFERENCE",
+      "file_type": "html",
+      "authority_level": "A0",
       "timeliness_level": "T1",
-      "public_access_status": "public_page",
-      "license_summary": "public page may support title/fact citation; no image/logo reuse; screenshot status: not stored",
-      "review_status": "provisional_reference",
+      "public_access_status": "public_web",
+      "license_summary": "Public government page used for attribution and narrow text reference; no image, logo or page-layout reuse. Reuse remains subject to the publisher's terms.",
+      "review_status": "approved_for_narrow_reference",
       "usable_for_formal": "reference_only",
       "allowed_uses": [
-        "cite original page title, publisher, date status and stated fact",
-        "type/operations comparison with explicit boundary"
+        "narrowly compare the publicly stated industrial-heritage protection, functional improvement and public-activity direction"
       ],
       "prohibited_uses": [
-        "reuse images or logos",
-        "claim site fact, partnership, approval or transferability",
-        "commercial reuse without permission"
+        "claiming this package is an official Shougang plan",
+        "copying page text, images or marks",
+        "inferring site-specific targets or implementation approval"
       ],
+      "claim_boundary": "Only the page's stated policy/renewal direction is used; no project metrics, boundaries, costs or approval are inferred.",
+      "reuse_terms": "Text-only attribution and paraphrase; no downloaded media or logo reuse.",
       "topics": [
-        "global_case",
-        "heritage_public_space",
-        "operations"
-      ],
-      "notes_zh": "原始标题=About the High Line；发布者=Friends of the High Line；日期=date_not_stated_on_page；事实=elevated railway heritage park with non-profit stewardship；可比性=comparable: heritage corridor and operating model; not comparable: land assembly, funding, approvals；许可/截图=public page may support title/fact citation; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
+        "domestic_benchmark",
+        "industrial_heritage"
+      ]
     },
     {
-      "source_id": "SOURCE-GLOBAL-SEOUL-7017",
-      "title": "Seoullo 7017",
-      "publisher": "Seoul Metropolitan Government",
-      "source_kind": "global_case_reference",
-      "url": "https://english.seoul.go.kr/seoullo-7017/",
-      "published_date": "2017-05-20",
+      "source_id": "DATA-SRC-DOMESTIC-XUHUI-WEST-BUND-2026",
+      "title": "上海市徐汇区人民政府关于印发《徐汇滨江功能区“十五五”发展规划》的通知",
+      "publisher": "上海市徐汇区人民政府",
+      "source_kind": "official_public_page",
+      "url": "https://www.xuhui.gov.cn/zhengwu/jyh/2026/233/542973.html",
+      "published_date": "2026-01-01",
       "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "PUBLIC_REFERENCE",
-      "timeliness_level": "T1",
-      "public_access_status": "public_page",
-      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
-      "review_status": "provisional_reference",
-      "usable_for_formal": "reference_only",
-      "allowed_uses": [
-        "cite original page title, publisher, date status and stated fact",
-        "type/operations comparison with explicit boundary"
-      ],
-      "prohibited_uses": [
-        "reuse images or logos",
-        "claim site fact, partnership, approval or transferability",
-        "commercial reuse without permission"
-      ],
-      "topics": [
-        "global_case",
-        "heritage_public_space",
-        "operations"
-      ],
-      "notes_zh": "原始标题=Seoullo 7017；发布者=Seoul Metropolitan Government；日期=2017-05-20；事实=elevated pedestrian garden opened as a public urban connection；可比性=comparable: crossing and public-space stitching; not comparable: Seoul road/approval conditions；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
-    },
-    {
-      "source_id": "SOURCE-GLOBAL-PROMENADE-PLANTEE",
-      "title": "Coulée verte René-Dumont",
-      "publisher": "Paris je t’aime",
-      "source_kind": "global_case_reference",
-      "url": "https://parisjetaime.com/eng/culture/la-coulee-verte-rene-dumont-promenade-plantee-p3578",
-      "published_date": null,
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "PUBLIC_REFERENCE",
-      "timeliness_level": "T1",
-      "public_access_status": "public_page",
-      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
-      "review_status": "provisional_reference",
-      "usable_for_formal": "reference_only",
-      "allowed_uses": [
-        "cite original page title, publisher, date status and stated fact",
-        "type/operations comparison with explicit boundary"
-      ],
-      "prohibited_uses": [
-        "reuse images or logos",
-        "claim site fact, partnership, approval or transferability",
-        "commercial reuse without permission"
-      ],
-      "topics": [
-        "global_case",
-        "heritage_public_space",
-        "operations"
-      ],
-      "notes_zh": "原始标题=Coulée verte René-Dumont；发布者=Paris je t’aime；日期=date_not_stated_on_page；事实=linear park on a former railway viaduct and corridor；可比性=comparable: linear heritage landscape; not comparable: Paris ownership and management；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
-    },
-    {
-      "source_id": "SOURCE-GLOBAL-THE-606",
-      "title": "The 606",
-      "publisher": "Chicago Park District",
-      "source_kind": "global_case_reference",
-      "url": "https://www.the606.org/about/",
-      "published_date": "2015-06-06",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "PUBLIC_REFERENCE",
-      "timeliness_level": "T1",
-      "public_access_status": "public_page",
-      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
-      "review_status": "provisional_reference",
-      "usable_for_formal": "reference_only",
-      "allowed_uses": [
-        "cite original page title, publisher, date status and stated fact",
-        "type/operations comparison with explicit boundary"
-      ],
-      "prohibited_uses": [
-        "reuse images or logos",
-        "claim site fact, partnership, approval or transferability",
-        "commercial reuse without permission"
-      ],
-      "topics": [
-        "global_case",
-        "heritage_public_space",
-        "operations"
-      ],
-      "notes_zh": "原始标题=The 606；发布者=Chicago Park District；日期=2015-06-06；事实=rail corridor converted into a multi-community trail and park；可比性=comparable: community connectivity; not comparable: Chicago governance and capital conditions；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
-    },
-    {
-      "source_id": "SOURCE-GLOBAL-BROOKLYN-BRIDGE-PARK",
-      "title": "About Brooklyn Bridge Park",
-      "publisher": "Brooklyn Bridge Park Corporation",
-      "source_kind": "global_case_reference",
-      "url": "https://www.brooklynbridgepark.org/about/",
-      "published_date": null,
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "PUBLIC_REFERENCE",
-      "timeliness_level": "T1",
-      "public_access_status": "public_page",
-      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
-      "review_status": "provisional_reference",
-      "usable_for_formal": "reference_only",
-      "allowed_uses": [
-        "cite original page title, publisher, date status and stated fact",
-        "type/operations comparison with explicit boundary"
-      ],
-      "prohibited_uses": [
-        "reuse images or logos",
-        "claim site fact, partnership, approval or transferability",
-        "commercial reuse without permission"
-      ],
-      "topics": [
-        "global_case",
-        "heritage_public_space",
-        "operations"
-      ],
-      "notes_zh": "原始标题=About Brooklyn Bridge Park；发布者=Brooklyn Bridge Park Corporation；日期=date_not_stated_on_page；事实=public park operated by a dedicated not-for-profit corporation；可比性=comparable: operating governance; not comparable: waterfront structures and finance；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
-    },
-    {
-      "source_id": "SOURCE-GLOBAL-COAL-DROPS-YARD",
-      "title": "Coal Drops Yard",
-      "publisher": "Argent",
-      "source_kind": "global_case_reference",
-      "url": "https://www.coaldropsyard.com/",
-      "published_date": "2018-10-26",
-      "accessed_date": "2026-08-31",
-      "file_type": "web_page",
-      "authority_level": "PUBLIC_REFERENCE",
-      "timeliness_level": "T1",
-      "public_access_status": "public_page",
-      "license_summary": "public page fact citation only; no image/logo reuse; screenshot status: not stored",
-      "review_status": "provisional_reference",
-      "usable_for_formal": "reference_only",
-      "allowed_uses": [
-        "cite original page title, publisher, date status and stated fact",
-        "type/operations comparison with explicit boundary"
-      ],
-      "prohibited_uses": [
-        "reuse images or logos",
-        "claim site fact, partnership, approval or transferability",
-        "commercial reuse without permission"
-      ],
-      "topics": [
-        "global_case",
-        "heritage_public_space",
-        "operations"
-      ],
-      "notes_zh": "原始标题=Coal Drops Yard；发布者=Argent；日期=2018-10-26；事实=heritage coal-drop structures reused as a public-facing mixed-use destination；可比性=comparable: heritage reuse and public programming; not comparable: development rights and market context；许可/截图=public page fact citation only; no image/logo reuse; screenshot status: not stored；核验人=Codex SA; second-person review pending。"
-    },
-    {
-      "source_id": "REGIONAL-COLLABORATION-INTERFACES",
-      "title": "区域协同建议接口与核验状态",
-      "publisher": "JohnXu22786",
-      "source_kind": "agent_generated_design",
-      "url": "proposal.md#三层范围工作框架",
-      "published_date": "2026-08-31",
-      "accessed_date": "2026-08-31",
-      "file_type": "markdown",
-      "authority_level": "SELF-DECLARED",
+      "file_type": "html",
+      "authority_level": "A0",
       "timeliness_level": "T0",
-      "public_access_status": "concept_only",
-      "license_summary": "Original concept table; no collaboration claim.",
-      "review_status": "provisional",
-      "usable_for_formal": "provisional_only",
+      "public_access_status": "public_web",
+      "license_summary": "Public government page used for attribution and narrow text reference; no image, logo or page-layout reuse. Reuse remains subject to the publisher's terms.",
+      "review_status": "approved_for_narrow_reference",
+      "usable_for_formal": "reference_only",
       "allowed_uses": [
-        "concept interface mapping",
-        "review traceability"
+        "narrowly compare waterfront public-space, culture/innovation and co-governance directions stated by the plan"
       ],
       "prohibited_uses": [
-        "claiming cooperation, funding or institutional endorsement"
+        "claiming endorsement or transferability to Jingzhang",
+        "copying page text, images or marks",
+        "inventing targets, boundaries or implementation commitments"
       ],
+      "claim_boundary": "Only the plan's stated strategic direction is used as a comparison lens; no Xuhui metric is imported into this package.",
+      "reuse_terms": "Text-only attribution and paraphrase; no downloaded media or logo reuse.",
       "topics": [
-        "regional_synergy",
-        "concept_interface"
+        "domestic_benchmark",
+        "waterfront_public_space"
+      ]
+    },
+    {
+      "source_id": "DATA-SRC-DOMESTIC-DASHA-RIVER-202306",
+      "title": "大沙河生态长廊",
+      "publisher": "深圳市城市管理和综合执法局",
+      "source_kind": "official_public_page",
+      "url": "https://cgj.sz.gov.cn/xsmh/gysz/csgy/content/post_10774645.html",
+      "published_date": "2023-06-01",
+      "accessed_date": "2026-08-31",
+      "file_type": "html",
+      "authority_level": "A0",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web",
+      "license_summary": "Public government page used for attribution and narrow text reference; no image, logo or page-layout reuse. Reuse remains subject to the publisher's terms.",
+      "review_status": "approved_for_narrow_reference",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "narrowly compare connected river-corridor, slow-mobility and public-facility organization"
       ],
-      "notes_zh": "五个区域接口均为建议回路，主体待确认，进入条件和反馈机制已写明。"
+      "prohibited_uses": [
+        "claiming the corridor proves feasibility here",
+        "copying page text, images or marks",
+        "transferring Shenzhen dimensions or performance claims"
+      ],
+      "claim_boundary": "Only the described corridor mechanism is compared; no Shenzhen geometry, area, visitor count or performance indicator is reused.",
+      "reuse_terms": "Text-only attribution and paraphrase; no downloaded media or logo reuse.",
+      "topics": [
+        "domestic_benchmark",
+        "blue_green_corridor"
+      ]
+    },
+    {
+      "source_id": "DATA-SRC-DOMESTIC-MENGZHUIWAN-20230324",
+      "title": "让街道回归市民生活",
+      "publisher": "成都市规划和自然资源局（公开发布于人民网四川频道）",
+      "source_kind": "official_public_page",
+      "url": "https://sc.people.com.cn/n2/2023/0324/c407540-40350323.html",
+      "published_date": "2023-03-24",
+      "accessed_date": "2026-08-31",
+      "file_type": "html",
+      "authority_level": "A0",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web",
+      "license_summary": "Public government/planning communication page used for attribution and narrow text reference; no image, logo or page-layout reuse. Reuse remains subject to publisher terms.",
+      "review_status": "approved_for_narrow_reference",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "narrowly compare street integration, public-life governance and incremental renewal practice"
+      ],
+      "prohibited_uses": [
+        "claiming an official Chengdu template or endorsement",
+        "copying page text, images or marks",
+        "inferring this package's funding, governance or outcomes"
+      ],
+      "claim_boundary": "Only the reported renewal mechanism is a comparison prompt; no Chengdu project metric or outcome is stated as a Jingzhang fact.",
+      "reuse_terms": "Text-only attribution and paraphrase; no downloaded media or logo reuse.",
+      "topics": [
+        "domestic_benchmark",
+        "incremental_renewal"
+      ]
     }
   ]
 }

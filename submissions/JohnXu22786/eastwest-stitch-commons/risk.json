@@ -1,70 +1,120 @@
 {
-  "schema_version": "0.1.0",
-  "version": 1,
-  "dimensions": [
-    {
-      "id": "data_privacy",
-      "label": "数据隐私与监控边界",
-      "score": 2,
-      "note": "人流与通行数据严格遵循最小必要与匿名聚合原则，严禁人脸识别与个人轨迹留存；AI决策设人工复核。",
-      "mitigation": "明确声明人工兜底、匿名聚合、误报申诉与一键停用为自设设计治理规则，在图件与文本中醒目公示退出通道。",
-      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-    },
-    {
-      "id": "implementation_complexity",
-      "label": "实施复杂度与跨线协调",
-      "score": 3,
-      "note": "跨线天桥、地下通道与桥下空间活化涉及铁路权属、市政、交通多部门协同，工程落地跨度大。",
-      "mitigation": "方案明确为概念建议，分期实施（1-3年试点/3-5年成型/5-10年完善），预留专项论证与法定审批接口。",
-      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-    },
-    {
-      "id": "public_acceptance",
-      "label": "公众接受度与技术感知",
-      "score": 2,
-      "note": "AI感知设备与智能设施可能引发老年人或无设备人群‘数字鸿沟’及‘过度科技化’疑虑。",
-      "mitigation": "设置人工导览台、纸质地图与离线人工服务兜底；设施采用低侵入、可拆卸、可关闭设计，作为本方案自设治理规则而非普遍法定义务。",
-      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-    },
-    {
-      "id": "operations_cost",
-      "label": "运营与长期维护成本",
-      "score": 2,
-      "note": "桥下空间、市集设施与慢行道存在持续保洁、机电维护与活动运营成本。",
-      "mitigation": "建立政府引导、多元主体共建与轻资产渐进式微更新模式；设施采用模块化可逆设计降低重置成本。",
-      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-    },
-    {
-      "id": "policy_uncertainty",
-      "label": "政策不确定性与法定衔接",
-      "score": 3,
-      "note": "桥下空间经营利用、低空感知与公共数据共享政策仍在演进，审批路径未定型。",
-      "mitigation": "严格以现行法规为参照，收窄无障碍法第39条与生成式AI办法引用范围；第39条仅按条文列举的服务场所理解，生成式AI办法不自动覆盖非生成式感知；正式实施前完成法定审批程序。",
-      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-    },
-    {
-      "id": "spatial_dispute",
-      "label": "空间边界与指标争议",
-      "score": 2,
-      "note": "全部空间几何与指标基于provisional边界，正式边界发布后面积与指标可能有变。",
-      "mitigation": "已在geometry、矩阵与指标复算说明中标注provisional状态与单一口径复算条件，官方数据到位后整体复算。",
-      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-    },
-    {
-      "id": "technology_maturity",
-      "label": "技术成熟度与误报风险",
-      "score": 2,
-      "note": "AI人流感知、设施巡检与微气候建议算法可能存在误报或环境适应性波动。",
-      "mitigation": "以成熟传感器与人工值守兜底，关键安全告警一律人工复核；新场景先在原点社区生活实验室测试后推广。",
-      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-    },
-    {
-      "id": "equity_inclusion",
-      "label": "公平性与全龄包容度",
-      "score": 2,
-      "note": "跨线慢行与数字服务可能产生适老化与无障碍门槛。",
-      "mitigation": "全线贯彻连续无障碍坡道设计，提供轮椅动线指引；所有场景均配置离线人工替代与多语种服务。",
-      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
-    }
-  ]
+ "schema_version": "0.1.0",
+ "risks": [
+  {
+   "risk_id": "R-BOUNDARY",
+   "title_zh": "边界精度",
+   "category": "data_gap",
+   "severity": "medium",
+   "description_zh": "全部几何基于 provisional 边界；正式图形到位后需重新计算面积与指标并调整图件。",
+   "mitigation_zh": "已在正文、矩阵与图件中标明 provisional 状态与复算触发条件。"
+  },
+  {
+   "risk_id": "R-TRANSIT",
+   "title_zh": "跨线交通与日常运营协调",
+   "category": "policy",
+   "severity": "high",
+   "description_zh": "缝合节点跨铁路遗址带与城市道路布设，跨线设施建设与节事交通组织涉及多部门审批，实施路径未定型。",
+   "mitigation_zh": "方案仅表达概念意图，跨线设施选型与交通组织须经主管部门依法审定。"
+  },
+  {
+   "risk_id": "R-PRIVACY",
+   "title_zh": "通行感知与环境数据边界",
+   "category": "data_boundary",
+   "severity": "medium",
+   "description_zh": "跨线通行感知与环境采集涉及人员活动信息，若未设边界可能造成隐私风险。",
+   "mitigation_zh": "仅处理匿名聚合数据，个人与轨迹信息不跨场景留存，关键决策人工复核。"
+  },
+  {
+   "risk_id": "R-CONTROL",
+   "title_zh": "法定控制缺位",
+   "category": "statutory",
+   "severity": "medium",
+   "description_zh": "控规指标与轨道保护区控制未公开，开发强度与退距表述仅限概念层面。",
+   "mitigation_zh": "不给出数值结论，全部表述为‘可供专业团队深化研究’。"
+  },
+  {
+   "risk_id": "R-TECH",
+   "title_zh": "AI通行辅助与感知技术成熟度",
+   "category": "technology",
+   "severity": "medium",
+   "description_zh": "无障碍通行辅助与需求感知等技术仍在迭代，设备运维成本较高。",
+   "mitigation_zh": "以成熟技术与人工值守兜底，新场景先试点验证后规模化。"
+  },
+  {
+   "risk_id": "R-ACCEPTANCE",
+   "title_zh": "缝合改造与公众接受度",
+   "category": "public_acceptance",
+   "severity": "medium",
+   "description_zh": "跨线设施建设与桥下空间活化可能引发风貌与使用争议，公众接受度存在不确定性。",
+   "mitigation_zh": "方案仅保留概念意图，桥下空间利用设经营准入与公示机制，重大事项依法公示与听证。"
+  }
+ ],
+ "version": 1,
+ "dimensions": [
+  {
+   "id": "data_privacy",
+   "label": "数据隐私",
+   "score": 2,
+   "note": "人流与轨迹数据仅采用匿名聚合，不做个体识别；AI生成内容全部人工复核后发布。",
+   "mitigation": "在文本与图件中声明仅聚合不识别，发布流程设人工复核岗。",
+   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+  },
+  {
+   "id": "implementation_complexity",
+   "label": "实施复杂度",
+   "score": 3,
+   "note": "滨水设施需水利、结构、机电多专业协同，概念到落地跨度大。",
+   "mitigation": "方案明确为概念建议，各专项预留深化接口与分阶段决策点。",
+   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+  },
+  {
+   "id": "public_acceptance",
+   "label": "公众接受度",
+   "score": 3,
+   "note": "AI观测装置与数据展示可能引发隐私与‘过度科技化’疑虑。",
+   "mitigation": "匿名聚合+人工复核边界明确披露，设施以低侵入、可关闭设计为主。",
+   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+  },
+  {
+   "id": "operations_cost",
+   "label": "运维成本",
+   "score": 2,
+   "note": "监测设备、数据平台与亲水设施存在持续运维成本。",
+   "mitigation": "统一建设、多元运营模式建议；设施采用模块化可逆设计。",
+   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+  },
+  {
+   "id": "policy_uncertainty",
+   "label": "政策不确定性",
+   "score": 3,
+   "note": "河道管理、蓝线与数据开放政策仍在演进，审批路径未定型。",
+   "mitigation": "以现行法规为参照，保留弹性接口；正式实施前完成法定审批。",
+   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+  },
+  {
+   "id": "spatial_dispute",
+   "label": "空间争议",
+   "score": 3,
+   "note": "全部几何基于 provisional 边界，正式边界发布后面积与指标可能有变。",
+   "mitigation": "已在 geometry、矩阵与指标复算说明中标注 provisional 状态与复算条件。",
+   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+  },
+  {
+   "id": "technology_maturity",
+   "label": "技术成熟度",
+   "score": 3,
+   "note": "水面机器人、AI生态识别技术仍在迭代。",
+   "mitigation": "以成熟技术与人工值守兜底，新场景先测试验证后规模化。",
+   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+  },
+  {
+   "id": "equity_inclusion",
+   "label": "公平与包容性",
+   "score": 2,
+   "note": "滨水体验设施可能造成使用门槛，需兼顾无障碍与适老化。",
+   "mitigation": "无障碍与适老化标准同步设计，科普与体验内容提供离线人工替代路径。",
+   "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+  }
+ ]
 }
