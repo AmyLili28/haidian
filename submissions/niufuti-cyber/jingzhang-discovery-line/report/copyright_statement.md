@@ -105,7 +105,7 @@
 
 | 包内使用位置 | 作者 | 许可证 | 来源 URL | 使用方式 |
 | --- | --- | --- | --- | --- |
-| `triptych-zhongzhiyuan{,.en}.webp` 第 1 格 | ping lin | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [小月河 - panoramio.jpg](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%9C%88%E6%B2%B3_-_panoramio.jpg) | 作为小月河场景锚点嵌入；非介入点位 |
+| `triptych-zhongzhiyuan{,.en}.webp` 第 1 格 | N509FZ | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Guangji Bridge, Beijing (20240408120420).jpg](https://commons.wikimedia.org/wiki/File:Guangji_Bridge,_Beijing_(20240408120420).jpg) | 作为广济桥与小月河场景锚点嵌入；非介入点位 |
 | `triptych-ai-yuandian{,.en}.webp` 第 1 格 | 李汉宗（Lhzss8） | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [QINGHUAYUAN STATION OLD HOUSE 202310.jpg](https://commons.wikimedia.org/wiki/File:QINGHUAYUAN_STATION_OLD_HOUSE_202310.jpg) | 作为清华园站旧址现实锚点嵌入 |
 | `triptych-dazhongsi{,.en}.webp` 第 1 格 | N509FZ | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Exit E of Dazhongsi Station (20240802145454).jpg](https://commons.wikimedia.org/wiki/File:Exit_E_of_Dazhongsi_Station_(20240802145454).jpg) | 作为大钟寺站 E 口现实锚点嵌入；非介入点位 |
 
@@ -117,9 +117,9 @@
 - F2 三张平面锚定图与 F5 时间轴总图均补记 `© OpenStreetMap contributors` 和 ODbL 1.0 指针；图内已有署名，`sources.json` 另以 `availability=bundled` 登记包内承载路径。
 - 中文构建方式：项目脚本按固定顺序确定性生成 SVG，再调用 `rsvg-convert` 栅格化并用 Pillow 做规格复核；不调用生成式图像模型，不加载远程瓦片。构建与修订记录日期为 2026-08-22，并存项目工作区留档。
 - 英文构建方式：项目双语脚本从中文 SVG 的文字层生成等义英文 SVG／PNG，并把格内排版约束纳入门禁，日期为 2026-08-22。非文字 SVG 签名、数字、UNKNOWN 与边界句按审计记录保持。
-- 装配后处理：本轮把已终审成品归位到包内登记路径；40 张正式图保持 PNG，六张 F2 三格图原尺寸改为 WebP，proposal、visual、PDF 构建器、manifest、sources 和版权台账同步改名。PNG 路线仅做调色板与元数据体积适配；三格图在 900% 下复核文字和照片渐变。既有 12 个场景位保持装配前字节，另新增 195B-v4 概念集成总图，源工作区保持不变，包内最终 SHA 由 `sources.json`、manifest 与执行回执登记。
+- 装配后处理：本轮把已终审成品归位到包内登记路径；46 张正式图中 10 张保持 PNG、36 张原尺寸改为 WebP（其中六张为 F2 三格图），proposal、visual、PDF 构建器、manifest、sources 和版权台账同步改名。PNG 路线仅做调色板与元数据体积适配；三格图在 900% 下复核文字和照片渐变。既有 12 个场景位保持装配前字节，另新增 195B-v4 概念集成总图，源工作区保持不变，包内最终 SHA 由 `sources.json`、manifest 与执行回执登记。
 - 数据来源：本包 `geometry/*.geojson` 九层、冻结的机制／场景合同、任务书摘录、结构化指标与本地标准摘录。九层中含 OSM 派生要素，适用 §6 的 ODbL 登记；官方／临时边界状态仍以 `sources.json` 和图面声明为准。
-- 许可/归属：项目自研脚本和原创图面编排属于项目原创部分；底层数据和实拍不因此改变原许可，mobility 概念底料继续适用 §3.1 的生成视觉边界。40 张 PNG 与六张 WebP 随包再分发；SVG 与构建脚本不在当前 manifest 中，不随包。
+- 许可/归属：项目自研脚本和原创图面编排属于项目原创部分；底层数据和实拍不因此改变原许可，mobility 概念底料继续适用 §3.1 的生成视觉边界。10 张 PNG 与 36 张 WebP 随包再分发；SVG 与构建脚本不在当前 manifest 中，不随包。
 
 ## 5. 矢量化与图像构建工具链
 
@@ -130,7 +130,7 @@
 | Inkscape / `libpotrace` | GNU GPL；各自许可仅覆盖工具及其使用边界 | 历史候选路线，未进入当前自绘 Logo | 工具、helper 与历史候选均不随包 | 历史记录存项目工作区留档，不作为当前权利依据 |
 | Lovart 在线转换 | 当前未取得可核验的平台条款，不据此主张公开投稿或再分发权 | 被替换的历史转换路线，未进入当前自绘 Logo | 被替换版及候选不随包 | 历史记录存项目工作区留档，不作为当前权利依据 |
 | visioncortex VTracer 0.6.5 | `MIT OR Apache-2.0` | 历史候选路线，未进入当前自绘 Logo | 工具与历史候选不随包 | 历史记录存项目工作区留档，不作为当前权利依据 |
-| librsvg / `rsvg-convert` 2.62.3 | LGPL-2.1；本机安装包所附 `COPYING.LIB` | 上游正式图链把中英文 SVG 确定性栅格化为当前 46 张 PNG；当前 PDF 构建器另把页级 SVG 转成矢量 PDF 页 | 工具不随包；46 张正式图（10 张合同锁定 PNG、36 张原生分辨率 WebP） 与四份 PDF 随包 | 本机安装的 librsvg / `rsvg-convert` 2.62.3；调用记录存项目工作区留档，未随包分发 |
+| librsvg / `rsvg-convert` 2.62.3 | LGPL-2.1；本机安装包所附 `COPYING.LIB` | 上游正式图链把中英文 SVG 确定性栅格化为 46 张 PNG，其中 36 张此后转为 WebP；当前 PDF 构建器另把页级 SVG 转成矢量 PDF 页 | 工具不随包；46 张正式图（10 张合同锁定 PNG、36 张原生分辨率 WebP） 与四份 PDF 随包 | 本机安装的 librsvg / `rsvg-convert` 2.62.3；调用记录存项目工作区留档，未随包分发 |
 | Pillow 10.0.1 | HPND；本机安装包随附许可证 | 上游图链做 PNG 规格、像素与文字包围盒复核；当前 PDF 构建器从原生分辨率正式图生成 PDF 内嵌 JPEG 流。重排后实测：A3 首页约 162 ppi、其余内嵌图约 136–215 ppi；A0 首页约 55 ppi、其余内嵌图约 91–143 ppi | 库不随包；其输出按各资产边界随包 | 本机安装的 Pillow 10.0.1；调用记录存项目工作区留档，未随包分发 |
 | Shapely 2.1.2 | BSD 3-Clause；本机安装包元数据与随附许可证，GEOS 许可另见安装包所附文件 | 上游九层 GeoJSON 生产与空间复核使用；不是当前构件核心图成图或当前 PDF 构建器的直接依赖 | 库不随包；派生几何仍按各自数据来源与 ODbL 边界登记 | 本机安装的 Shapely 2.1.2；本包派生结果见 `geometry/*.geojson` |
 | pyproj 3.7.2 | MIT；本机安装包元数据 `License-Expression: MIT` 及随附许可证，PROJ 许可另见安装包所附文件 | 上游几何尺度、面积与 EPSG:4548 复核使用；不是当前构件核心图成图或当前 PDF 构建器的直接依赖 | 库不随包；复算结果不改变输入数据许可和正式／临时状态 | 本机安装的 pyproj 3.7.2；本包派生结果见 `geometry/*.geojson` |
@@ -178,7 +178,8 @@
 | --- | --- | --- | --- |
 | Source Han Sans SC Regular / Bold | A3 中英正文与强调、正式图正文与图例 | SIL Open Font License 1.1；实际使用文件来自 adobe-fonts 官方 release | A3 仅嵌入该家族子集；图件以该家族确定性栅格化 |
 | Source Han Serif SC Regular / Bold | A3 中文标题与衬线角色 | SIL Open Font License 1.1；实际使用文件来自 adobe-fonts 官方 release | A3 仅嵌入该家族子集 |
-| Source Han Serif SC Heavy | 当前 Logo 字标轮廓和离线中文子集的来源字体 | SIL Open Font License 1.1；转轮廓 SVG 不依赖字体文件运行，离线子集按许可证改名 | 字体来源与实际派生关系分别登记，不把轮廓图形写成字体文件嵌入 |
+| Source Han Serif SC Heavy | 当前 Logo 字标轮廓的来源字体 | SIL Open Font License 1.1；转轮廓 SVG 不依赖字体文件运行 | 字体来源与实际派生关系分别登记，不把轮廓图形写成字体文件嵌入 |
+| Source Han Serif SC Regular（0831 增补子集） | 网页与 report HTML 离线中文子集的补字来源：v1.2 子集 JZ Offline CJK 186H 收 1238 字，未覆盖此后白话化改写与网页改造引入的 33 个字，也未覆盖 `visual/assets/geometry-sequence.js` 运行时注入界面文案的 8 个字；在无中文字体的渲染环境上这些字会显示为方框。按同一许可、用与 186H 相同的那份 Regular 源（SHA-256 `78aa7a328fd974df2d688c8a9fd74a33d8334dfa84ab24d9d11efb2ffc464117`，release 2.003R，已登记于 `RIGHTS-SOURCE-HAN-SERIF-OFL-20260828`）建 41 字增补子集 JZ Offline CJK Supp 0831，追加进 `visual/assets/offline-cjk-font.css` | SIL Open Font License 1.1；增补子集按许可证改名——name ID 1、2、3、4、6 重写为不含保留字体名，name ID 0、13、14 保留许可与版权记录，做法与 186H 子集一致 | 两个子集同为 usWeightClass 400，补字与正文同字重；增补子集 SHA-256 `3b8267da53c3cfeb8a69630bd1b0e60948a7aabb72f732692e58515a890256a5`。子集由 fontTools 构建并写入构建时间戳，同一输入重建不会得到相同输出字节，此处登记的是嵌入子集的实测哈希 |
 
 当前 A3/A0 中英文 PDF 和本单重渲正式图只使用思源宋体／思源黑体家族，不再以 Arial、Hiragino、PingFang、Songti、STSong 或其他系统字体作为生成链常量。四份当前 PDF 的 `pdffonts` 实测只出现 Source Han 字体对象且全部嵌入。技术嵌入与字体许可分别核验，不能互相替代。
 
@@ -208,7 +209,7 @@
 
 签署人：`niufuti-cyber`  
 签署日期：`2026-08-28`  
-对应包 SHA / commit：`8bf54f8128576f24dfdd79576b3da21d1cafcbc35dbba937859e19937b97c86e`  
+对应包 SHA / commit：签署当日（2026-08-28）取值 `8bf54f8128576f24dfdd79576b3da21d1cafcbc35dbba937859e19937b97c86e`。该值不随后续修订自动更新——它写在包内文件里，写进去就会改变被计算的包指纹，结构上无法自洽。**已提交字节的权威记录是 `manifest.json`**，官方确定性校验也以它为准；本声明的适用对象是随附 `manifest.json` 所登记的那一份包。  
 说明：此值为装配内容态指纹（不含本声明回填及清单再生带来的后续变更），最终冻结值见回执。
 
 ### English
@@ -224,7 +225,7 @@ I, submitting in my personal capacity under the GitHub account `niufuti-cyber`, 
 
 Signatory: `niufuti-cyber`  
 Date: `2026-08-28`  
-Package SHA / commit: `8bf54f8128576f24dfdd79576b3da21d1cafcbc35dbba937859e19937b97c86e`  
+Package SHA / commit: `8bf54f8128576f24dfdd79576b3da21d1cafcbc35dbba937859e19937b97c86e`, as measured on the signing date (2026-08-28). This value is not auto-updated by later revisions: it lives inside the package, so writing it changes the very fingerprint being computed, and it cannot be self-consistent. **The authoritative record of the submitted bytes is `manifest.json`**, which is also what the organizer's deterministic validator checks; this declaration applies to the package as registered in the accompanying `manifest.json`.  
 Note: This is the assembled-content fingerprint; it excludes this declaration backfill and the later manifest/self-check regeneration. See the receipt for the final frozen value.
 
 ## 8. Node 直接依赖
@@ -257,7 +258,7 @@ Note: This is the assembled-content fingerprint; it excludes this declaration ba
 | `COPY-COV-04` | `drawings/*.pdf` | 4 | §5.2、§7 | `BUILD-CURRENT-PDF-20260822` |
 | `COPY-COV-05` | `geometry/*.geojson` | 9 | §4、§6 | `DATA-SRC-PROVISIONAL-BOUNDARIES-20260605`、`OSM-2026-OVERPASS-SNAPSHOT`、`PACKAGE-PROJECT-ORIGINAL-20260822` |
 | `COPY-COV-06` | `visual/assets/slot-*`（A—K 加 V15） | 12 | §3.2 | `ASSET-PAGE-SCENE-RETAINED-20260817-19`、`ASSET-SCENE-FAMILY-20260822` |
-| `COPY-COV-07` | `visual/assets/brand-lockup-paper.svg`、`visual/assets/film-history-engineering-v1.webp`、`visual/assets/geometry-sequence-data.js`、`visual/assets/geometry-sequence.js`、`visual/assets/offline-cjk-font.css`、`visual/assets/p4-catalog-*.webp` 四件、`visual/assets/vision-masterplan-v4.jpg` | 10 | §3.4、§3.5、§3.6、§5.1 | `RIGHTS-GPT-IMAGE-2026`、`ASSET-GEOMETRY-SEQUENCE-20260820`、`ASSET-OFFLINE-CJK-FONT-20260828`、`ASSET-VISION-MASTERPLAN-20260830`、`ASSET-P4-REVERSIBLE-CATALOG-20260830` |
+| `COPY-COV-07` | `visual/assets/brand-lockup-paper.svg`、`visual/assets/film-history-engineering-v1.webp`、`visual/assets/geometry-sequence-data.js`、`visual/assets/geometry-sequence.js`、`visual/assets/offline-cjk-font.css`、`visual/assets/p4-catalog-*.webp` 四件、`visual/assets/vision-masterplan-v4.jpg` | 10 | §3.4、§3.5、§3.6、§5.1 | `RIGHTS-GPT-IMAGE-2026`、`ASSET-GEOMETRY-SEQUENCE-20260820`、`ASSET-OFFLINE-CJK-FONT-20260828`、`ASSET-VISION-MASTERPLAN-20260830`、`ASSET-P4-REVERSIBLE-CATALOG-20260830`、`RIGHTS-SOURCE-HAN-SERIF-SUPP-SUBSET-20260831` |
 | `COPY-COV-08` | `report/narrative.md`、`visual/assets/run-record-*.json` | 5 | §2、§9 | 项目自说明的证据索引与四份脱敏桌面运行记录；不复制外部内容，不新增外部来源 |
 | `COPY-COV-09` | `changelog.md`、`risk.json`、`simulation.json`、`spatial.json` | 4 | §2 | `PACKAGE-PROJECT-ORIGINAL-20260822`、`PACKAGE-SELF-DOCUMENTING-METADATA-20260822` |
 | `COPY-COV-10` | `assets/media/cover.jpg` | 1 | §3.2 | `ASSET-SCENE-FAMILY-20260822`、`RIGHTS-GPT-IMAGE-2026` |
@@ -274,7 +275,7 @@ Note: This is the assembled-content fingerprint; it excludes this declaration ba
 4. **不构成批准或实施承诺**：本方案、图件、Logo、数据推演和场景卡均不表示征集方、政府部门、产权方、运营方或其他机构已批准、授权、采用、建设或实施。临时边界、候选数据和未知项按原状态显示。
 5. **离线资产**：当前 `visual/index.html` 不依赖 CDN、远程地图瓦片、远程字体、iframe、表单、外部 API 或跟踪代码；官方 `visual_review.py` 与剥脚本副本结果已验证，记录存项目工作区留档，未随包分发，应评审要求可出示。当前 manifest 已登记该静态页及随包本地资产，并已完成路径与哈希对齐；这不改变任何版权、许可或再分发边界。
 
-## 11. 十一项结论与诚实披露
+## 11. 十二项结论与诚实披露
 
 1. **署名已关闭**：投稿与项目原创内容以 GitHub 账号 **niufuti-cyber 个人名义**署名。
 2. **AI 公开口径已关闭**：投稿人已确认同意公开披露本项目使用 AI 工具；公开口径为“投稿包构建、装配、确定性检查、打包与内部对抗审查由 OpenAI Codex 执行；概念视觉由 OpenAI 内置 `image_gen`（GPT Image 2）生成；面向人的中文表达层由 DeepSeek 执笔；方案设计、跨路并行审查、意见裁决与交付前终审核验由 Anthropic Claude 执行；不对具体运行时模型标识作断言；事实核对、权利判断与最终选用由人工负责”；生成日期按现有批次记录披露到日。
@@ -287,6 +288,7 @@ Note: This is the assembled-content fingerprint; it excludes this declaration ba
 9. **Barlow 处置已明确**：V2 `public/` 和 `dist/` 仍有未引用的 Barlow Condensed TTF；本次静态包不携带该字体目录。若改为分发 V2 bundle，必须同时携带 OFL 正文和来源记录。
 10. **JS 依赖边界已明确**：当前静态页只含项目自写内联脚本，不携带 V2 第三方 bundle，因而本次静态包没有传递依赖 notice 缺口；若以后装入 bundle，必须以实际随包代码生成 license inventory。
 11. **离线页面与 manifest 已核**：当前 `visual/index.html` 的零远程依赖与本地资产存在性已经实跑核验，记录存项目工作区留档，未随包分发，应评审要求可出示；当前 manifest 已登记并对齐该页面及本地资产的路径与哈希。这只证明本地装配一致，不表示版权许可、对外提交、受理、入选或实施已经完成。
+12. **CC BY-SA 同许可传导未被伪造关闭**：三张随包实拍均为 CC BY-SA 4.0，作者、许可证、许可证 URL 和来源 URL 见上表，图注同时署名。本项目未对「三格并置图整体是否构成需要同许可传导的演绎作品」做法律分类；当前按 ShareAlike 的保守口径处理：三格图不主张任何比其中实拍更宽的许可，第三方如需再使用，应按上表所列的原始许可证与作者署名对待，不声称分类已完成。
 
 ## 附录：SIL Open Font License 1.1 全文
 

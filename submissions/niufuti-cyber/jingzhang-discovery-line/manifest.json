@@ -390,7 +390,7 @@
       "role": "changelog",
       "required": true,
       "language": "neutral",
-      "sha256": "2f3956e9e88a1006e07a558274adaa1904589667b2f9de3ee0c438502f64359b"
+      "sha256": "1c12018ac807b0c64d1c1236719501ff075e1b0a32cf22388d9122e8f5ad3be0"
     },
     {
       "path": "compliance_matrix.json",
@@ -427,14 +427,14 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "39c681a7e092b3445fb754254c66ad03bb9b9e8432f08663bbb5287fafd97574"
+      "sha256": "6131d7eb8417e3e2bb908266635a8dea07df984828ef2470e877519059b74080"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "3b0cd8968ceb3b726c30b01796db0ffcc4dc385ace556e91d71056367f9f9aba"
+      "sha256": "f6c8aa83377c6713e7567b0479b90d41d1717017a48ffbfde121e4208d5ff05f"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -518,28 +518,28 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "c38341dcaa7e4b47e4d99a1a7461c1533b26b5581c70a850b29c064bd22f2f4a"
+      "sha256": "3ef88c1618eeb00e58839ce384bbba43bd1e602dd0981074c7bb558c8e476fbb"
     },
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "67783473a44ee89c0316b87f65a1a7265e6eff7d467c776e7b7e3cd79d0031ec"
+      "sha256": "6edb92efd91f74e76a640cef533eb1df16b5326313359195a470873899c8bf41"
     },
     {
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
       "language": "neutral",
-      "sha256": "ffc2d6e4bd68116333356aabb46cbaaa81200ba6e6ae3e9a32430e4eb773fd34"
+      "sha256": "a4f6e4279dbc33ac94c540a9f298e3fa5d16e30f50d0e475d2d9038d5e7c48c5"
     },
     {
       "path": "report/narrative.md",
       "role": "evidence_data",
       "required": true,
       "language": "neutral",
-      "sha256": "98f62dbe6a2832b6beb821ce048b51f8dec0a677ccabba78f46a9060d28faf8f"
+      "sha256": "c0e334cc2855e693c11e161879e51dfa6d011b3980e1a32753205813c789b2c5"
     },
     {
       "path": "report/proposal.en.html",
@@ -547,14 +547,14 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "c56643025ed45e6c4f1c8c71ca2fb69cc022b843236bafc439c91ebe4eb94465"
+      "sha256": "184b39aa9dc2d43e2125edf32c0ed4277c2d447f53a1e63022f0fdb3fc9a9376"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "5c91d9cb1c7de9ef1b7074931d2d24ab979e25b36b7c421dc8a60f36a20b9825"
+      "sha256": "1c020104322f05414eed59b2a6aa383714e0e67a99b60de834b9161649f26230"
     },
     {
       "path": "risk.json",
@@ -569,7 +569,7 @@
       "role": "self_check",
       "required": true,
       "language": "neutral",
-      "sha256": "4d75657c28494f0dfe2434db029d10ee9e26d4250789fabffec85da2108da850"
+      "sha256": "cd30ccf6363bc09ef01baed8ba15b0bf9f97ffbb60d16f207a757bff27914f2d"
     },
     {
       "path": "simulation.json",
@@ -584,7 +584,7 @@
       "role": "sources",
       "required": true,
       "language": "neutral",
-      "sha256": "e0877344352ce38dd9748ae2ebc3f4b56f719cd92c90d36d8874c533e8dd1626"
+      "sha256": "af103f5d07d64ef572d5db57b316f04bd6ea8941053cd4b19202ecf6b496e53c"
     },
     {
       "path": "spatial.json",
@@ -634,7 +634,7 @@
       "role": "asset",
       "required": true,
       "language": "neutral",
-      "sha256": "b425314ce04d966dd4848b7aff35643f9526d1d91efd8336127af10e94cb6514"
+      "sha256": "46bf895fe1f028122ef24dd285c196b901fcbf3154847592c12b2843ea95efe7"
     },
     {
       "path": "visual/assets/p4-catalog-ai-origin-question-cylinder.webp",
@@ -845,14 +845,14 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "cd7616ad008538e56922cd55a9a0cb03c5f83d4058c885f5dfdf5a7da343ec4e"
+      "sha256": "ced16cfb825d23d6c9ec1138052591cc148331b7f1671cb938a20893afbf3945"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "624ad310a74427e07e2b7e3a8f722fcc0269c5e2a284f4734906a769f1bc7f54"
+      "sha256": "9ff7ec89c2516e01ab94011c8b68077e16018317fa6d127cf3d4aabf5a38d65a"
     }
   ],
   "validation_claim": {

@@ -221,15 +221,15 @@ M01 是责任链展开得最深的候选。它把固定时段与人工引导、�
 
 **众智园“复测工场”**的概念定位是把小月河等场景送来的观察变成可复核证据。空间上建议容纳可预约校准台、版本与误差说明、公众解释窗、设备隔离与退役界面；交通上优先检查人员、仪器与公共参观能否互不干扰；AI 下线后仍留下标准协议、人工仪器、公开结果和复测空间。建筑是否保留、修缮或改造，须等正式普查与专业鉴定。建筑团队可先按校准、解释、隔离和退役四类需求准备普查清单。
 
-![众智园三联图｜CC 实拍＋OSM 锚定＋概念示意；非介入点位、非现状](assets/figures/triptych-zhongzhiyuan.webp)
+![众智园三联图｜CC 实拍＋OSM 锚定＋概念示意；非介入点位、非现状；实拍作者 N509FZ，CC BY-SA 4.0](assets/figures/triptych-zhongzhiyuan.webp)
 
 **AI 原点“问题与验证前厅”**的概念定位是让问题先说清再验证。空间上建议保留纸笔、电话、现场共走、人工译题桌和手工采样课；AI 只做归类、冲突提示和错误解释，不自动排优先级，也不采学生脸、声纹或家庭轨迹。公共空间要能容纳无 App 人群、照护者和轮椅使用者，建筑体量、材料、界面与具体点位仍待专业资料确认。空间团队可先沿五种问题入口和三类使用者组织平面关系。[standard:BARRIER-FREE-ENVIRONMENT-LAW]
 
-![AI 原点三联图｜CC 实拍＋OSM 锚定＋概念示意；非介入点位、非现状](assets/figures/triptych-ai-yuandian.webp)
+![AI 原点三联图｜CC 实拍＋OSM 锚定＋概念示意；非介入点位、非现状；实拍作者 李汉宗（Lhzss8），CC BY-SA 4.0](assets/figures/triptych-ai-yuandian.webp)
 
 **大钟寺“首用与退出街室”**的概念定位是比较真实生活中的得失。候选单元把首层、路缘、公园接口和社区安静边界放在一起，先比较固定时段、静态车位和人工引导，再决定是否需要匿名计数或可撤调度。只有路权、消防、无障碍、装卸、场地、数据与运营责任都关闭，才可能进入有限首用；责任未接清，不进试验。专业团队可从这七项条件开始现场核查，并把可行时段、恢复动作和维护责任写回候选单元。[standard:MOHURD-ARCH-DESIGN-DEPTH-2016] [depth:height_massing_character]
 
-![大钟寺三联图｜CC 实拍＋OSM 锚定＋概念示意；非介入点位、非现状](assets/figures/triptych-dazhongsi.webp)
+![大钟寺三联图｜CC 实拍＋OSM 锚定＋概念示意；非介入点位、非现状；实拍作者 N509FZ，CC BY-SA 4.0](assets/figures/triptych-dazhongsi.webp)
 
 大钟寺“首用与退出街室”可将智能体铭牌墙、人工窗口和可快拆智能终端作为概念表达，责任人、版本、退役日、终端点位、授权与运营状态均为 UNKNOWN。该界面不扩张 C02 职责：AI 仍只聚合比较安静、平衡、活力三案，人工问询、静态导视、固定活动表和无活动对照日继续保留。
 
@@ -342,7 +342,7 @@ V09 仅作为同一视角下“未来公园×百年遗存”的概念表达：�
 
 在实施阶段，我们先把每一项工作放进“五本账”和“六道门”里，再谈什么时候动工。五本账分别是规划设计、公共基础设施、场景验证、运营维护和社会协同；六道门分别是数据与边界、问题价值、科学协议、城市首次使用、项目与资金、建设运营。一个项目要六道门都通过才能进入下一步，而且每过一个阶段都要留下负责人、资料和复核记录。 **动词短语组：** 第一道门只认两样：正式材料、责任人 第二道门先问：对大家有没有价值？边界在哪？影响谁？谁负责？ 第三道门：方案变协议，桌面查一遍，再独立复测 第四道门：批了才可能小范围试，没批就是没批 第五道门：地、钱、建设承诺没着落，先停一停 第六道门：正式选址、运维、清权、法律条件都定了，再开工 [source:HD-2025-URBAN-RENEWAL]
 
-| 对象 | 中文第一行：独立核验分工 | 中文第二行：签认格式 |
+| 对象 | 独立核验分工 | 签认格式 |
 |---|---|---|
 | 第一道门｜数据与边界 | 建议角色：由未参与该项底图整理、数据录入或边界绘制的规划、测绘或数据复核职能角色独立核验来源、范围、版本与 UNKNOWN；本句不表示任何角色已获安排。 | 建议签认格式：核验人姓氏＋工号＋日期；机构名、群聊确认或空白签名栏均不构成通过。 |
 | 第二道门｜问题价值 | 建议角色：由未参与问题包装的公共价值、受影响者参与或社会影响复核职能角色独立核验问题是否服务公共利益、影响谁、边界在哪里；本句不表示任何角色已获安排。 | 建议签认格式：核验人姓氏＋工号＋日期；未记录受影响者与异议入口时保持不通过。 |
@@ -407,7 +407,7 @@ agent.6 以现有四季循环作为运行时钟：城市出题季收问题，校
 | 不用智能设备，仍能按固定装卸时段、静态车位和人工引导完成送货路缘任务。 | 授权、资源或运营条件未齐，非 AI 通道缺失，撤回或恢复失败，责任无人接，或 M01 记录发生漂移。 | 拒绝继续推进并熄灭 AI 层；任一卡复测不过，整线降一级，不只补最差一卡。 | 恢复原状和非 AI 时刻表，由人决定下一步；责任人、叫停人、复测日和恢复费用仍为 UNKNOWN。 |
 
 
-另有一份与上述三态记录分名并存、互不混算的离线任务演练账。它采用确定性协议走查：24 个任务的读数直接取自任务表，读者可按同一字段复算；任务总数取 [`simulation.json#/tasks`](simulation.json#/tasks) 的数组长度，并与 [`simulation.json#/task_count`](simulation.json#/task_count) 交叉核对。[metric:simulation_task_count] 结果如实保留达到预期和未达预期的判定：[`simulation.json#/tasks/*/outcome`](simulation.json#/tasks/*/outcome) 中 20 项为 `success` 或以 `_success` 结尾（其中 6 项为按规则正确拦截的拒绝类任务），4 项未达预期，以 [`simulation.json#/tasks`](simulation.json#/tasks) 为分母，合计 20/24。[metric:simulation_success_rate] 调度指令格式合规 23/24，分子取 [`simulation.json#/tasks/*/dispatch_schema_valid`](simulation.json#/tasks/*/dispatch_schema_valid) 的 `true` 计数，分母取 [`simulation.json#/tasks`](simulation.json#/tasks)；余下 1 条非法指令被数据与边界门按规则拦下。[metric:tool_schema_pass_rate] 能耗超预算 3 条，由 [`simulation.json#/tasks/*/energy_used_kwh`](simulation.json#/tasks/*/energy_used_kwh) 逐项大于 [`simulation.json#/tasks/*/energy_budget_kwh`](simulation.json#/tasks/*/energy_budget_kwh) 的计数得到。[metric:energy_budget_violations] 审计完整度为 21/24，分子取 [`simulation.json#/tasks/*/audit_complete`](simulation.json#/tasks/*/audit_complete) 的 `true` 计数，分母取 [`simulation.json#/tasks`](simulation.json#/tasks)。[metric:audit_completeness] 账内六道门逐项对应正文的数据与边界、问题价值、科学协议、城市首用、项目与资金、建设运营六门。以上读数来自桌面上的离线走查，没有进入现场，也不能用来证明项目真实成效。前述三态记录与双计数属同一次桌面推演，包内最小副本可以核对条目和判定，但没有携带执行程序，不能从包内独立重跑；本演练账则可直接由 `simulation.json` 逐字段复算，不计入该锁，也不与之相加。
+另有一份与上述三态记录分名并存、互不混算的离线任务演练账。它采用确定性协议走查：24 个任务的读数直接取自任务表，读者可按同一字段复算；任务总数取 `simulation.json#/tasks` 的数组长度，并与 `simulation.json#/task_count` 交叉核对。[metric:simulation_task_count] 结果如实保留达到预期和未达预期的判定：`simulation.json#/tasks/*/outcome` 中 20 项为 `success` 或以 `_success` 结尾（其中 6 项为按规则正确拦截的拒绝类任务），4 项未达预期，以 `simulation.json#/tasks` 为分母，合计 20/24。[metric:simulation_success_rate] 调度指令格式合规 23/24，分子取 `simulation.json#/tasks/*/dispatch_schema_valid` 的 `true` 计数，分母取 `simulation.json#/tasks`；余下 1 条非法指令被数据与边界门按规则拦下。[metric:tool_schema_pass_rate] 能耗超预算 3 条，由 `simulation.json#/tasks/*/energy_used_kwh` 逐项大于 `simulation.json#/tasks/*/energy_budget_kwh` 的计数得到。[metric:energy_budget_violations] 审计完整度为 21/24，分子取 `simulation.json#/tasks/*/audit_complete` 的 `true` 计数，分母取 `simulation.json#/tasks`。[metric:audit_completeness] 账内六道门逐项对应正文的数据与边界、问题价值、科学协议、城市首用、项目与资金、建设运营六门。以上读数来自桌面上的离线走查，没有进入现场，也不能用来证明项目真实成效。前述三态记录与双计数属同一次桌面推演，包内最小副本可以核对条目和判定，但没有携带执行程序，不能从包内独立重跑；本演练账则可直接由 `simulation.json` 逐字段复算，不计入该锁，也不与之相加。
 
 | 关键指标条目 | 数值 | availability |
 |---|---:|---|
@@ -568,11 +568,11 @@ agent.6 以现有四季循环作为运行时钟：城市出题季收问题，校
 
 | 审计项 | 数值 | 计算公式 | 源字段指针 | 限制 |
 |---|---:|---|---|---|
-| 任务总数 | 24 | `length(tasks) = task_count = 24` | [`simulation.json#/tasks`](simulation.json#/tasks)；[`simulation.json#/task_count`](simulation.json#/task_count) | offline · synthetic · 非现场 |
-| 成功 | 20/24 | `count(outcome == "success" 或 ends_with("_success")) / length(tasks) = 20/24` | [`simulation.json#/tasks/*/outcome`](simulation.json#/tasks/*/outcome)；[`simulation.json#/tasks`](simulation.json#/tasks) | offline · synthetic · 非现场 |
-| 调度合规 | 23/24 | `count(dispatch_schema_valid == true) / length(tasks) = 23/24` | [`simulation.json#/tasks/*/dispatch_schema_valid`](simulation.json#/tasks/*/dispatch_schema_valid)；[`simulation.json#/tasks`](simulation.json#/tasks) | offline · synthetic · 非现场 |
-| 审计完整 | 21/24 | `count(audit_complete == true) / length(tasks) = 21/24` | [`simulation.json#/tasks/*/audit_complete`](simulation.json#/tasks/*/audit_complete)；[`simulation.json#/tasks`](simulation.json#/tasks) | offline · synthetic · 非现场 |
-| 能耗超预算 | 3 | `count(energy_used_kwh > energy_budget_kwh) = 3` | [`simulation.json#/tasks/*/energy_used_kwh`](simulation.json#/tasks/*/energy_used_kwh)；[`simulation.json#/tasks/*/energy_budget_kwh`](simulation.json#/tasks/*/energy_budget_kwh) | offline · synthetic · 非现场 |
+| 任务总数 | 24 | `length(tasks) = task_count = 24` | `simulation.json#/tasks`；`simulation.json#/task_count` | offline · synthetic · 非现场 |
+| 成功 | 20/24 | `count(outcome == "success" 或 ends_with("_success")) / length(tasks) = 20/24` | `simulation.json#/tasks/*/outcome`；`simulation.json#/tasks` | offline · synthetic · 非现场 |
+| 调度合规 | 23/24 | `count(dispatch_schema_valid == true) / length(tasks) = 23/24` | `simulation.json#/tasks/*/dispatch_schema_valid`；`simulation.json#/tasks` | offline · synthetic · 非现场 |
+| 审计完整 | 21/24 | `count(audit_complete == true) / length(tasks) = 21/24` | `simulation.json#/tasks/*/audit_complete`；`simulation.json#/tasks` | offline · synthetic · 非现场 |
+| 能耗超预算 | 3 | `count(energy_used_kwh > energy_budget_kwh) = 3` | `simulation.json#/tasks/*/energy_used_kwh`；`simulation.json#/tasks/*/energy_budget_kwh` | offline · synthetic · 非现场 |
 
 
 | 项目 | 完整事实 | 包内证据入口 | 可复核边界 |
