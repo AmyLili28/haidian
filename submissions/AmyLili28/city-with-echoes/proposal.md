@@ -427,7 +427,7 @@ scenarios: ["public-safety-operations-review", "ai-traffic-walkability", "enterp
 7. **临时图形产生伪精确**：所有面积与线长标低置信度；正式边界/控制/现状到位触发整包重算。
 8. **文化叙事被生成式幻觉污染**：关键历史双源核验；无来源即标争议或撤下。
 
-本方案正文、结构化数据、数据驱动图件、视觉标记和版式由 Codex × AmyLili28 为本次投稿生成；封面由 OpenAI ImageGen 生成并在来源表登记 [source:GENERATED-COVER-SECOND-ENCOUNTER]。未复用外部地图瓦片、商标、同行图片或长段文本；同行方案只用于差异化检查 [source:PEER-OBSERVABLE-JZ] [source:PEER-MEND-JZ]。具体字体、生成方式、使用边界与第三方权利见 `report/copyright_statement.md`。社区展示许可不等于外部资料授权，后续实施须重新核验个人信息、内容、字体、软件、地图与商标权利。
+本方案正文、结构化数据、视觉标记和版式由 Codex × AmyLili28 为本次投稿生成。封面及七张无文字概念底图由 OpenAI ImageGen 生成，并在 `sources.json` 分别登记为 `GENERATED-COVER-SECOND-ENCOUNTER` 与七项 `GENERATED-SE-*` 来源；十四张中英最终图在底图之上通过 Pillow 后叠准确标题、编号、指标、临时几何索引、证据边界与试点状态。区域协同、案例生态、组件、RACI 与试点运营五组中英图仍为确定性信息图。所有生成底图只提供气氛、人物、材料与空间体验，不作为现状照片、测绘、访谈、公众同意、审定规划、实施成效或机构承诺。未复用外部地图瓦片、商标、同行图片或长段文本；同行方案只用于差异化检查 [source:PEER-OBSERVABLE-JZ] [source:PEER-MEND-JZ]。具体字体、生成方式、使用边界与第三方权利见 `report/copyright_statement.md`。社区展示许可不等于外部资料授权，后续实施须重新核验个人信息、内容、字体、软件、地图与商标权利。
 
 ## 参考资料
 

@@ -45,6 +45,13 @@
         "submissions/AmyLili28/city-with-echoes/assets/figures/site-overview.en.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/site-overview.png",
         "submissions/AmyLili28/city-with-echoes/assets/identity/second-encounter-mark.svg",
+        "submissions/AmyLili28/city-with-echoes/assets/media/se-accessible-return-route-v1.jpg",
+        "submissions/AmyLili28/city-with-echoes/assets/media/se-care-workshop-v1.jpg",
+        "submissions/AmyLili28/city-with-echoes/assets/media/se-corridor-aerial-v1.jpg",
+        "submissions/AmyLili28/city-with-echoes/assets/media/se-creation-pavilion-v1.jpg",
+        "submissions/AmyLili28/city-with-echoes/assets/media/se-encounter-table-v1.jpg",
+        "submissions/AmyLili28/city-with-echoes/assets/media/se-scenario-mosaic-v1.jpg",
+        "submissions/AmyLili28/city-with-echoes/assets/media/se-temporal-axonometric-v1.jpg",
         "submissions/AmyLili28/city-with-echoes/assets/media/second-encounter-cover-v1.png",
         "submissions/AmyLili28/city-with-echoes/assumptions.json",
         "submissions/AmyLili28/city-with-echoes/changelog.md",
@@ -81,7 +88,7 @@
       "ai_package_stages": {
         "submissions/AmyLili28/city-with-echoes": "formal"
       },
-      "total_bytes": 14642863,
+      "total_bytes": 39561434,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -159,7 +166,7 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 19,
+          "source": 18,
           "standard": 0,
           "depth": 3,
           "data": 7,

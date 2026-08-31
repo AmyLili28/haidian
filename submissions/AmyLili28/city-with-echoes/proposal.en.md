@@ -392,6 +392,10 @@ Reviewable claims are contract completeness, shared-source geometry/metrics/draw
 7. **Provisional shapes create false precision:** all area/length values stay low-confidence and official data triggers full regeneration.
 8. **Generated cultural hallucination:** critical history needs two-source review; otherwise mark disputed or withdraw.
 
+## 15. Visual provenance
+
+The narrative, structured data, visual mark and layout were authored by Codex × AmyLili28 for this submission. The cover and seven unlettered conceptual base images were generated with OpenAI ImageGen and are registered individually in `sources.json`; fourteen bilingual final figures add exact titles, identifiers, metrics, provisional geometry locators, evidence limits and pilot status deterministically with Pillow. Five bilingual sets—regional collaboration, case ecosystem, components, RACI and pilot operations—remain deterministic information graphics. Generated bases supply atmosphere, people, material and spatial experience only: they are not site photographs, survey, interviews, evidence of consent, approved plans, operational outcomes or institutional commitments. See `report/copyright_statement.md` for font, generation, reuse and third-party-rights boundaries.
+
 ## Conclusion
 
 The Second Encounter does not ask the city to remember every person. It asks the city to remember its promise. It does not demand that residents become better AI users. It asks projects and organisations behind AI to return. A humane system is not one that always answers; it is one that can find a person when the answer is insufficient, say “this did not help you,” and turn the next meeting into visible repair.
