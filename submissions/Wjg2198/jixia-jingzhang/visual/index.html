@@ -10,27 +10,26 @@
 body{font-family:"Noto Serif SC","Songti SC",serif;background:var(--paper);color:var(--ink);line-height:1.8}
 .header{background:var(--ink);color:var(--paper);padding:2rem;text-align:center}
 .header h1{font-size:2rem;margin-bottom:.5rem}
-.header .subtitle{font-size:1rem;opacity:.8}
-.status{display:inline-block;padding:.2rem .8rem;border-radius:4px;font-size:.85rem;margin:.5rem}
+.header .subtitle{font-size:1rem;opacity:.85}
+.status{display:inline-block;padding:.2rem .8rem;border-radius:4px;font-size:.85rem;margin:.3rem}
 .status.pass{background:#27ae60;color:#fff}
-.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;padding:2rem;max-width:1200px;margin:0 auto}
-.metric-card{background:#fff;border-radius:8px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,.1);text-align:center}
-.metric-card .value{font-size:2rem;font-weight:bold;color:var(--rational)}
-.metric-card .label{font-size:.9rem;color:#666;margin-top:.3rem}
-.zones{max-width:1200px;margin:0 auto;padding:1rem 2rem}
-.zone{border-left:4px solid;padding:1.5rem;margin:1rem 0;border-radius:0 8px 8px 0;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.05)}
-.zone.rational{border-color:var(--rational)}
-.zone.natural{border-color:var(--natural)}
-.zone.pragmatic{border-color:var(--pragmatic)}
-.zone h3{margin-bottom:.5rem}
+section{max-width:1200px;margin:0 auto;padding:1.2rem 2rem}
+h2{margin:.6rem 0;border-left:5px solid var(--rational);padding-left:.7rem}
+figure{margin:1rem 0}
+figure img{width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+figcaption{font-size:.85rem;color:#777}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
+.metric-card{background:#fff;border-radius:8px;padding:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.1);text-align:center}
+.metric-card .value{font-size:1.7rem;font-weight:bold;color:var(--rational)}
+.metric-card .label{font-size:.88rem;color:#666;margin-top:.3rem}
+.zones .zone{border-left:4px solid;padding:1.2rem;margin:1rem 0;border-radius:0 8px 8px 0;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.zone.rational{border-color:var(--rational)}.zone.natural{border-color:var(--natural)}.zone.pragmatic{border-color:var(--pragmatic)}
 .zone .persona{font-style:italic;color:#666;font-size:.9rem}
-.tasks{max-width:1200px;margin:0 auto;padding:1rem 2rem}
 .task-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
 .task-item{background:#fff;border-radius:8px;padding:1rem;box-shadow:0 2px 4px rgba(0,0,0,.05)}
 .task-item .id{font-weight:bold;color:var(--accent)}
-.sources{max-width:1200px;margin:0 auto;padding:1rem 2rem 3rem}
-.sources table{width:100%;border-collapse:collapse;font-size:.85rem}
-.sources th,.sources td{padding:.5rem;border-bottom:1px solid #ddd;text-align:left}
+table{width:100%;border-collapse:collapse;font-size:.85rem;background:#fff}
+th,td{padding:.5rem;border-bottom:1px solid #ddd;text-align:left}
 .footer{text-align:center;padding:2rem;font-size:.85rem;color:#999;border-top:1px solid #ddd}
 </style>
 </head>
@@ -39,67 +38,90 @@ body{font-family:"Noto Serif SC","Songti SC",serif;background:var(--paper);color
 <h1>京张稷下 · 百家争鸣</h1>
 <p class="subtitle">Jingzhang Jixia · The AI Agora — 百年京张AI创新带城市设计概念方案</p>
 <p class="subtitle">Agent: Jixia Academy (稷下书院) · Author: Wjg2198</p>
-<span class="status pass">SELF-CHECKED</span>
+<span class="status pass">自检状态：SELF-CHECKED</span>
 <span class="status pass">PACKAGE: ready_for_review</span>
 </div>
 
-<h2 style="max-width:1200px;margin:2rem auto .5rem;padding:0 2rem">核心指标 Core Metrics</h2>
+<section>
+<h2>总览地图 · 三大学派空间</h2>
+<figure><img src="../assets/figures/site-overview.png" alt="总体设计范围与三大学派空间总览">
+<figcaption>总览地图：众智园（名家）· AI原点社区（道家）· 大钟寺（墨家），辩论走廊串联。</figcaption></figure>
+</section>
+
+<section>
+<h2>三层范围工作框架</h2>
+<p><strong>统筹研究范围 43.6 km² ≈ 学宫</strong>（战略底座）· <strong>总体设计范围 11.4 km² ≈ 讲堂</strong>（三所讲堂）· <strong>重点区域 368.4 ha ≈ 辩论场</strong>。所有边界为 provisional，待官方数据复算。</p>
+</section>
+
+<section class="zones">
+<h2>重点区域 · 三所讲堂</h2>
+<div class="zone rational"><h3 style="color:var(--rational)">众智园 AI 自主创新加速区 — 名家讲堂（192.1 ha）</h3>
+<p class="persona">主持人格：公孙龙·理性之师</p><p>逻辑轴四簇 + 论道台；AI治理话语权中心。</p></div>
+<div class="zone natural"><h3 style="color:var(--natural)">北京 AI 原点社区 — 道家讲堂（104.3 ha）</h3>
+<p class="persona">主持人格：庄子·自然之师</p><p>知识湿地三圈层；低层低密度学舍模式。</p></div>
+<div class="zone pragmatic"><h3 style="color:var(--pragmatic)">大钟寺 AI 产业集聚区 — 墨家讲堂（72.0 ha）</h3>
+<p class="persona">主持人格：墨子·实用之师</p><p>AI场景大市场；前店后厂产业街区。</p></div>
+</section>
+
+<section>
+<h2>用地分区 · 建筑规模</h2>
+<figure><img src="../assets/figures/land-use-structure.png" alt="用地结构与三所讲堂空间布局">
+<figcaption>用地分区：讲堂内混合用地，走廊绿地与公共空间。建筑规模与拆改留为概念建议（待官方控规）。</figcaption></figure>
+</section>
+
+<section>
+<h2>交通慢行 · 蓝绿公共空间</h2>
+<figure><img src="../assets/figures/mobility-bluegreen.png" alt="交通慢行与蓝绿公共空间复合系统">
+<figcaption>交通慢行：游学路线南北主廊 + 东西对话桥。蓝绿公共空间：两水一脊 + 辩论花园。</figcaption></figure>
+</section>
+
+<section>
+<h2>更新项目 · 分期计划</h2>
+<p>近期「立论期」1-3年 → 中期「辩难期」3-5年 → 远期「沉淀期」5-10年。追加式演化，不推倒重来。</p>
+</section>
+
+<section>
+<h2>AI 场景 · 人才画像</h2>
+<p>12 张场景卡（含 3 个测试验证场景）· 5 类用户画像（游学少年/论道先生/百工匠人/邻里居士/朝圣旅人）。</p>
+</section>
+
+<section>
+<h2>核心指标 Core Metrics</h2>
 <div class="metrics">
-<div class="metric-card"><div class="value" data-value="11412825">11.41 km²</div><div class="label">总体设计面积 Site Area<br><small>provisional · EPSG:4548</small></div></div>
-<div class="metric-card"><div class="value" data-value="0.35">35%</div><div class="label">绿地比例 Green Ratio<br><small>concept design value</small></div></div>
-<div class="metric-card"><div class="value" data-value="0.18">18%</div><div class="label">公共空间比例 Public Space<br><small>concept design value</small></div></div>
-<div class="metric-card"><div class="value">368.4 ha</div><div class="label">三处重点区域 Key Areas<br><small>provisional</small></div></div>
-<div class="metric-card"><div class="value">12</div><div class="label">AI场景卡 Scenarios</div></div>
-<div class="metric-card"><div class="value">3</div><div class="label">朝圣地标 Landmarks</div></div>
+<div class="metric-card"><div class="value" data-metric="site_area_sqm" data-value="11412825.386">11.41 km²</div><div class="label">总体设计面积 Site Area<br><small>provisional · EPSG:4548</small></div></div>
+<div class="metric-card"><div class="value" data-metric="green_ratio" data-value="0.35">35%</div><div class="label">绿地比例 Green Ratio</div></div>
+<div class="metric-card"><div class="value" data-metric="public_space_ratio" data-value="0.18">18%</div><div class="label">公共空间比例 Public Space</div></div>
+<div class="metric-card"><div class="value">368.4 ha</div><div class="label">三处重点区域</div></div>
 </div>
+</section>
 
-<h2 style="max-width:1200px;margin:2rem auto .5rem;padding:0 2rem">三所讲堂 · 哲学人格主持 Three Academies</h2>
-<div class="zones">
-<div class="zone rational">
-<h3 style="color:var(--rational)">众智园 AI 自主创新加速区 — 名家讲堂</h3>
-<p class="persona">主持人格：公孙龙·理性之师（名家/逻辑学家）</p>
-<p>192.1 ha · 理性主义驱动的全栈自主创新体系与AI治理话语权中心。空间以「逻辑轴」为骨干，中央论道台为标志建筑。</p>
-</div>
-<div class="zone natural">
-<h3 style="color:var(--natural)">北京 AI 原点社区 — 道家讲堂</h3>
-<p class="persona">主持人格：庄子·自然之师（道家/自然主义者）</p>
-<p>104.3 ha · 自然主义驱动的AI创新原点，校园界面开放化，知识湿地式空间组织。低层低密度「学舍」模式。</p>
-</div>
-<div class="zone pragmatic">
-<h3 style="color:var(--pragmatic)">大钟寺 AI 产业集聚区 — 墨家讲堂</h3>
-<p class="persona">主持人格：墨子·实用之师（墨家/实用主义者）</p>
-<p>72.0 ha · 实用主义驱动的场景大市场，前店后厂产业街区。底层开放为公共体验层，高效灵活。</p>
-</div>
-</div>
-
-<h2 style="max-width:1200px;margin:2rem auto .5rem;padding:0 2rem">任务覆盖 Task Coverage</h2>
-<div class="tasks">
+<section>
+<h2>任务覆盖 Task Coverage</h2>
 <div class="task-grid">
-<div class="task-item"><span class="id">agent.1</span> 总体概念与命名：「京张稷下」品牌体系 + Logo方向</div>
-<div class="task-item"><span class="id">agent.2</span> 创新生态：8个全球案例 + 三大学派生态回路</div>
-<div class="task-item"><span class="id">agent.3</span> AI场景：12张场景卡 + 5类画像 + 3个验证场景</div>
-<div class="task-item"><span class="id">agent.4</span> 公共空间：3处朝圣地标 + 辩论走廊系统</div>
-<div class="task-item"><span class="id">agent.5</span> 文化叙事：京张铁路 × 稷下学宫 × AI新时代</div>
-<div class="task-item"><span class="id">agent.6</span> 长期运营：年度「稷下论道」+ 开发者社区</div>
+<div class="task-item"><span class="id">agent.1</span> 命名「京张稷下」+ Logo方向</div>
+<div class="task-item"><span class="id">agent.2</span> 8个全球案例 + 生态回路</div>
+<div class="task-item"><span class="id">agent.3</span> 12场景卡 + 5画像</div>
+<div class="task-item"><span class="id">agent.4</span> 3处朝圣地标 + 辩论走廊</div>
+<div class="task-item"><span class="id">agent.5</span> 文化叙事三层叠加</div>
+<div class="task-item"><span class="id">agent.6</span> 年度「稷下论道」运营</div>
 </div>
-</div>
+</section>
 
-<h2 style="max-width:1200px;margin:2rem auto .5rem;padding:0 2rem">来源与假设 Sources &amp; Assumptions</h2>
-<div class="sources">
+<section>
+<h2>来源与假设 Sources &amp; Assumptions</h2>
 <table>
 <tr><th>来源/假设</th><th>类型</th><th>说明</th></tr>
-<tr><td>SITE-PACKAGE</td><td>formal-ready</td><td>场地数据包，面积与重点区域定义</td></tr>
-<tr><td>AGENT-TASKBOOK</td><td>formal-ready</td><td>智能体任务书六项要求</td></tr>
-<tr><td>PROVISIONAL-BOUNDARIES</td><td>provisional_only</td><td>临时矩形边界，非官方红线</td></tr>
-<tr><td>BJ-GH-QUAL-PREANNOUNCEMENT</td><td>formal-ready</td><td>北京规自委资格预审公告</td></tr>
-<tr><td>ASSUM-001</td><td>assumption</td><td>所有边界为provisional，待官方数据复算</td></tr>
-<tr><td>ASSUM-002</td><td>assumption</td><td>容积率/建筑高度等控制指标缺失</td></tr>
+<tr><td>SITE-PACKAGE</td><td>formal-ready</td><td>场地数据包</td></tr>
+<tr><td>AGENT-TASKBOOK</td><td>formal-ready</td><td>智能体任务书</td></tr>
+<tr><td>PROVISIONAL-BOUNDARIES</td><td>provisional_only</td><td>临时矩形边界</td></tr>
+<tr><td>假设 ASSUM-001</td><td>assumption</td><td>边界待官方复算</td></tr>
+<tr><td>假设 ASSUM-002</td><td>assumption</td><td>控规指标缺失</td></tr>
 </table>
-</div>
+</section>
 
 <div class="footer">
 <p>京张稷下·百家争鸣 · 概念方案 · 所有空间建议均为概念建议，不替代正式规划</p>
-<p>Package: ready_for_review · Self-checked: true · Boundary: provisional_constraint</p>
+<p>自检状态：self-checked · Boundary: provisional_constraint</p>
 <p>Generated by Jixia Academy (稷下书院) Multi-Agent Debate Framework · 2026-08-31</p>
 </div>
 </body>

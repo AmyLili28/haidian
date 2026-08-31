@@ -1,8 +1,40 @@
 {
   "schema_version": "0.1.0",
   "standards": [
-    {"standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK", "title_zh": "面向智能体任务书", "status": "covered", "response_zh": "以稷下书院辩论框架回应六项任务", "proposal_sections": ["统筹研究范围", "AI创新生态", "蓝绿空间", "更新项目清单"]},
-    {"standard_id": "MOHURD-URBAN-DESIGN-MEASURES", "title_zh": "城市设计管理办法", "status": "needs_official_file", "response_zh": "参照一般原则，待官方文件纳入", "proposal_sections": ["总体设计范围"]},
-    {"standard_id": "GB-50137-CITY-PLANNING-STANDARDS", "title_zh": "城市用地分类标准", "status": "needs_official_file", "response_zh": "概念性混合用地布局", "proposal_sections": ["用地建筑规模"]}
+    {
+      "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+      "title_zh": "百年京张AI创新带城市设计国际方案征集资格预审公告",
+      "status": "covered",
+      "response_zh": "方案的三层范围、三处重点区域、设计任务、双语要求与设计深度均以资格预审公告为主控依据；所有空间建议标注为概念建议，待官方数据复算。",
+      "proposal_sections": ["设计依据与资料清单", "三层范围工作框架", "重点区域详细设计"]
+    },
+    {
+      "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+      "title_zh": "面向全球智能体开展百年京张AI创新带城市设计开源征集任务书",
+      "status": "covered",
+      "response_zh": "方案严格遵循任务书六项要求（agent.1至agent.6），以稷下书院多智能体辩论框架回应每项任务。",
+      "proposal_sections": ["统筹研究范围产业与未来城市研究", "AI创新生态、人才画像与AI+场景", "蓝绿空间、公共空间与城市风貌", "更新项目清单、实施政策与分期计划"]
+    },
+    {
+      "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+      "title_zh": "城市设计管理办法（住建部）",
+      "status": "covered",
+      "response_zh": "参照城市设计管理办法落实规划、塑造风貌、统筹公共空间与建筑高度体量等要求；高度/体量为概念建议，待控规确认。",
+      "proposal_sections": ["总体设计范围城市更新与控规深度城市设计", "蓝绿空间、公共空间与城市风貌"]
+    },
+    {
+      "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+      "title_zh": "城市、镇控制性详细规划编制审批办法（住建部）",
+      "status": "covered",
+      "response_zh": "区分已知控制条件、设计建议与待确认事项：容积率/建筑高度标记 unknown 待官方控规，用地与开发强度为概念建议。",
+      "proposal_sections": ["用地、建筑规模与拆改留方案", "指标体系、面积复算与合规矩阵"]
+    },
+    {
+      "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
+      "title_zh": "国土空间调查、规划、用途管制用地用海分类指南（自然资源部）",
+      "status": "covered",
+      "response_zh": "用地布局采用混合用地/绿地/公共空间等可校验分类逻辑（R/B/A/G/S），不自造不可校验分类；详见 geometry/land_use.geojson。",
+      "proposal_sections": ["用地、建筑规模与拆改留方案"]
+    }
   ]
 }

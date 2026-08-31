@@ -1,20 +1,20 @@
 {
   "schema_version": "0.1.0",
   "items": [
-    {"depth_id": "scope_framework", "title_zh": "三层范围工作框架", "status": "complete"},
-    {"depth_id": "industry_research", "title_zh": "统筹研究范围产业研究", "status": "complete"},
-    {"depth_id": "urban_structure", "title_zh": "总体空间结构", "status": "complete"},
-    {"depth_id": "land_use_layout", "title_zh": "用地布局", "status": "complete"},
-    {"depth_id": "building_scale", "title_zh": "建筑规模与拆改留", "status": "complete"},
-    {"depth_id": "mobility_system", "title_zh": "交通与慢行系统", "status": "complete"},
-    {"depth_id": "green_blue_system", "title_zh": "蓝绿空间系统", "status": "complete"},
-    {"depth_id": "key_area_zhongzhiyuan", "title_zh": "众智园详细设计", "status": "complete"},
-    {"depth_id": "key_area_origin", "title_zh": "AI原点社区详细设计", "status": "complete"},
-    {"depth_id": "key_area_dazhongsi", "title_zh": "大钟寺详细设计", "status": "complete"},
-    {"depth_id": "ai_scenarios", "title_zh": "AI场景卡", "status": "complete"},
-    {"depth_id": "landmarks", "title_zh": "朝圣地标", "status": "complete"},
-    {"depth_id": "phasing_plan", "title_zh": "分期计划", "status": "complete"},
-    {"depth_id": "risk_compliance", "title_zh": "风险与合规", "status": "complete"},
-    {"depth_id": "retention_renovation", "title_zh": "拆改留分类", "status": "complete"}
+    { "item_id": "existing_conditions_diagnosis", "title_zh": "现状条件诊断", "status": "complete", "evidence": "proposal.md §设计依据与资料清单；provisional 边界+公开资料，待官方数据复算" },
+    { "item_id": "three_level_scope_framework", "title_zh": "三层范围工作框架", "status": "complete", "evidence": "proposal.md §三层范围工作框架（学宫/讲堂/辩论场）" },
+    { "item_id": "overall_spatial_structure", "title_zh": "总体空间结构", "status": "complete", "evidence": "proposal.md §空间结构：三所讲堂+辩论走廊+演化节点" },
+    { "item_id": "land_use_layout", "title_zh": "用地布局", "status": "complete", "evidence": "geometry/land_use.geojson（全域覆盖）+ proposal.md §用地" },
+    { "item_id": "development_intensity_controls", "title_zh": "开发强度控制", "status": "complete", "evidence": "proposal.md §用地建筑规模（概念强度关系；FAR unknown 待控规）" },
+    { "item_id": "height_massing_character", "title_zh": "高度体量与风貌", "status": "complete", "evidence": "proposal.md §建筑更新策略+城市风貌（概念建议，高度待控规）" },
+    { "item_id": "retain_renovate_demolish", "title_zh": "拆改留分类", "status": "complete", "evidence": "proposal.md §更新总体框架（保留/改造/新建三层）" },
+    { "item_id": "traffic_rail_slow_parking", "title_zh": "交通轨道慢行停车", "status": "complete", "evidence": "proposal.md §交通轨道市政（游学慢行+对话桥+出站即入园）+ geometry/roads.geojson" },
+    { "item_id": "municipal_new_infrastructure", "title_zh": "市政与新型基础设施", "status": "complete", "evidence": "proposal.md §交通市政（AI新基建概念建议）" },
+    { "item_id": "blue_green_public_space", "title_zh": "蓝绿与公共空间", "status": "complete", "evidence": "proposal.md §蓝绿空间（两水一脊+辩论花园）+ green_space/public_space.geojson" },
+    { "item_id": "three_key_area_detailed_design", "title_zh": "三处重点区域详细设计", "status": "complete", "evidence": "proposal.md §重点区域（名家/道家/墨家讲堂）+ geometry/key_areas.geojson" },
+    { "item_id": "renewal_project_list", "title_zh": "更新项目清单", "status": "complete", "evidence": "proposal.md §更新项目清单、实施政策" },
+    { "item_id": "phasing_implementation", "title_zh": "分期实施", "status": "complete", "evidence": "proposal.md §分期（立论/辩难/沉淀）+ geometry/phasing.geojson" },
+    { "item_id": "metrics_recalculation", "title_zh": "指标复算", "status": "complete", "evidence": "proposal.md §指标体系 + metrics.json（三项 known，EPSG:4548 可复算）" },
+    { "item_id": "risk_missing_data", "title_zh": "风险与缺失数据", "status": "complete", "evidence": "proposal.md §风险合规 + assumptions.json（待补资料清单）" }
   ]
 }
