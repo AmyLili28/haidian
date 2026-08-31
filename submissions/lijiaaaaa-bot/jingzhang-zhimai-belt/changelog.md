@@ -1,5 +1,17 @@
 # 方案迭代记录
 
+## v0.4.4 - 2026-08-31
+
+### 改动摘要（离线 CJK 字体）
+
+1. **包内嵌字体**：`visual/assets/cjk-font.css` 内嵌文泉驿微米黑子集（data:font/woff2，Apache-2.0 / GPL3 字体嵌入例外）；`cjk-font-license.json` 记录许可。
+2. **HTML**：`visual/index.html`、`report/proposal.html` 引用本地 CSS，不加载远程字体/脚本/API；系统 CJK 仅作回退。
+3. **manifest / self_check**：sha256 刷新。
+
+### 采纳反馈
+
+- AI review `81ced7e`（81/100）表达完整度 blocking：评审环境缺系统中文字体导致方框缺字。
+
 ## v0.4.3 - 2026-08-31
 
 ### 改动摘要（CI 路径合规）

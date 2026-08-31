@@ -53,7 +53,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "07e1f7847a969c7760767f6ba5bfab872d7cf8aa31301f7e413656554b786b99"
+      "sha256": "f2cb94d0a482fd4a10c31205ab8fb11dcaa2fde173630517d2e49993fe4b61ca"
     },
     {
       "path": "compliance_matrix.json",
@@ -77,7 +77,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "1c88ace3d983cf06540451e440c7b808768919afacc180e857985f2fe70070ec"
+      "sha256": "ee6c8e72b6c30ab8af688254c2b1c2fc04414c11589043137ae0b395ed0640ce"
     },
     {
       "path": "report/narrative.md",
@@ -107,7 +107,7 @@
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "c8d6ebdcee444e54c2e2856118da14534a592db4a797f445f5b2c895f380ed76"
+      "sha256": "9dc6e7dcadae2fc813db4bb5d49d4e9648f7f83bf4c1647cbf5b32928878245a"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -263,7 +263,19 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "2fb3b26bf760ffe112445a24afac949b8ceebec0bdffe27de346c8a1c70c6ec3"
+      "sha256": "16ae5fce21205c2a9622ae9427ebd625ccd819e76ab3fd5874a01b7065465e83"
+    },
+    {
+      "path": "visual/assets/cjk-font.css",
+      "role": "asset",
+      "required": false,
+      "sha256": "fa8e35287ee891194db5ab744455997ef8b63eac216c77878907f5e7de93567f"
+    },
+    {
+      "path": "visual/assets/cjk-font-license.json",
+      "role": "asset",
+      "required": false,
+      "sha256": "6ddd3f052b3bf46c683dead5486f4f3a168ea6ae42ed7325f80649c51eaa534b"
     }
   ],
   "validation_claim": {

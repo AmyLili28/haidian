@@ -87,12 +87,14 @@
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/self_check.json",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/sources.json",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/standard_matrix.json",
+        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/visual/assets/cjk-font-license.json",
+        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/visual/assets/cjk-font.css",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt": "formal"
       },
-      "total_bytes": 25095873,
+      "total_bytes": 25207205,
       "maintainer_bypass": false
     },
     "stderr": ""
