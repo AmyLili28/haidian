@@ -1,5 +1,5 @@
 ---
-title: "Jing-Zhang Resonance Belt 京张共鸣带"
+title: "Jing-Zhang Resonance Belt 京张·共鸣带"
 author_github: "b-cooney"
 language: "en"
 proposal_format_version: "2"
@@ -11,7 +11,7 @@ tracks: ["youth-friendly-public-space", "ai-public-services", "jingzhang-heritag
 scenarios: ["ai-health-service-navigation", "ai-cultural-guide", "ai-traffic-walkability"]
 ---
 
-# Jing-Zhang Resonance Belt 京张共鸣带
+# Jing-Zhang Resonance Belt 京张·共鸣带
 
 > One-line concept: let a living urban sound be the first thing people *hear* of the Centennial Jing-Zhang AI Innovation Belt — always unique, relaxing, adapting to crowds and time of day — turning AI from an algorithm behind a screen into a public experience everyone can feel.
 
