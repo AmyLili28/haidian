@@ -231,6 +231,20 @@
       "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
       "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
       "known_limitations": "Direct use of Barcelona land-use ratios, development rights, or district performance claims."
+    },
+    {
+      "id": "THREE-AREAS-TWO-WINGS-OFFICIAL",
+      "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtcyfz/202604/t20260403_4573808.html",
+      "publisher": "Beijing Municipal Science & Technology Commission / Administrative Commission of Zhongguancun Science Park",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Official public background for the overall Three Areas and Two Wings spatial structure and the April 2026 spatial-industry description. The page uses the earlier northern-node name Xuebeiyuan; the current Zhongzhiyuan name and taskbook baseline-role mapping are sourced separately from AGENT-TASKBOOK and OFFICIAL-ANNOUNCEMENT.",
+      "not_usable_for": "Exact polygons, site control, named partners, budgets, authorised cooperation, or evidence that this proposal has been adopted.",
+      "collection_method": "Manual review of the named official public page; no automated scraping or personal data collection.",
+      "spatial_temporal_coverage": "Published programme or project description available at the access date; geography is the named external jurisdiction or the generated submission asset.",
+      "license_or_reuse": "Facts paraphrased with attribution; no external image, map, logo, or long-form text reused.",
+      "transformations": "Short analytical paraphrase and transferability/limitation note added for this proposal.",
+      "known_limitations": "The April page calls the northern node Xuebeiyuan AI Autonomous Innovation Accelerator, not Zhongzhiyuan. It is not standalone evidence for the current five-node naming; nor does it establish exact polygons, site control, named partners, budgets, authorised cooperation, or adoption of this proposal."
     }
   ]
 }

@@ -38,6 +38,8 @@
         "submissions/AmyLili28/city-with-echoes/assets/figures/people-rights.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/pilot-operations.en.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/pilot-operations.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/regional-collaboration.en.png",
+        "submissions/AmyLili28/city-with-echoes/assets/figures/regional-collaboration.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/scenario-contracts.en.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/scenario-contracts.png",
         "submissions/AmyLili28/city-with-echoes/assets/figures/site-overview.en.png",
@@ -72,13 +74,14 @@
         "submissions/AmyLili28/city-with-echoes/self_check.json",
         "submissions/AmyLili28/city-with-echoes/sources.json",
         "submissions/AmyLili28/city-with-echoes/standard_matrix.json",
+        "submissions/AmyLili28/city-with-echoes/visual/assets/JingZhangCJK.css",
         "submissions/AmyLili28/city-with-echoes/visual/index.en.html",
         "submissions/AmyLili28/city-with-echoes/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/AmyLili28/city-with-echoes": "formal"
       },
-      "total_bytes": 22812463,
+      "total_bytes": 14642863,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -156,7 +159,7 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 18,
+          "source": 19,
           "standard": 0,
           "depth": 3,
           "data": 7,

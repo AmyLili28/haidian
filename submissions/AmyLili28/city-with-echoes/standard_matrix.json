@@ -47,6 +47,8 @@
       "mandatory": true,
       "review_status": "addressed",
       "proposal_sections": [
+        "三区两翼协同回路",
+        "区域协同对象",
         "统筹研究范围产业与未来城市研究",
         "AI 创新生态、人才画像与 AI+ 场景",
         "重点区域详细设计"
@@ -66,7 +68,8 @@
         "landmark_count"
       ],
       "source_ids": [
-        "AGENT-TASKBOOK"
+        "AGENT-TASKBOOK",
+        "THREE-AREAS-TWO-WINGS-OFFICIAL"
       ],
       "assumption_ids": [
         "A-PERSONA-001",
@@ -78,7 +81,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "用8案例、6人物、12场景、3地标、组件/荣誉系统和年度运营逐项回应agent.1–agent.6。"
+      "evidence_summary_zh": "五个节点逐项并列任务书基础角色（来源）与本方案回路职责（提案），再以区域非承诺接口、8案例、6人物、12场景、3地标、组件/荣誉系统和年度运营逐项回应 agent.1–agent.6。"
     },
     {
       "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",

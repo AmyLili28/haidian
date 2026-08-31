@@ -673,6 +673,8 @@
       "mandatory": true,
       "report_sections": [
         "三层范围工作框架",
+        "三区两翼协同回路",
+        "区域协同对象",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计"
       ],
@@ -693,11 +695,13 @@
       ],
       "visual_sections": [
         "总体结构",
-        "三区三个时刻"
+        "三区三个时刻",
+        "三区两翼任务书基础角色／方案回路职责与区域协同边界"
       ],
       "source_ids": [
         "AGENT-TASKBOOK",
-        "OFFICIAL-ANNOUNCEMENT"
+        "OFFICIAL-ANNOUNCEMENT",
+        "THREE-AREAS-TWO-WINGS-OFFICIAL"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -708,14 +712,16 @@
         "KEY_AREAS_TRUST",
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
-      ]
+      ],
+      "evidence_summary_zh": "五个节点在中英文正文、报告、区域协同图与 A3/A0 图纸中逐项并列任务书基础角色（来源）与本方案回路职责（提案）；外部区域对象仅作研究接口。"
     },
     {
       "requirement_id": "agent.2",
       "title_zh": "AI全栈自主创新体系与世界级AI创新生态设计",
       "mandatory": true,
       "report_sections": [
-        "统筹研究范围产业与未来城市研究"
+        "统筹研究范围产业与未来城市研究",
+        "三区两翼协同回路"
       ],
       "geojson_layers": [
         "geometry/land_use.geojson",
@@ -732,9 +738,11 @@
       ],
       "visual_sections": [
         "8案例",
-        "八要素生态"
+        "八要素生态",
+        "三区两翼与区域协同边界"
       ],
       "source_ids": [
+        "THREE-AREAS-TWO-WINGS-OFFICIAL",
         "CASE-HELSINKI-TESTBED",
         "CASE-ONE-NORTH",
         "CASE-BARCELONA-22AT"
