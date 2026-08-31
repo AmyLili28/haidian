@@ -1,0 +1,2353 @@
+{
+  "schema_version": "1.0.0",
+  "audit_scope": "Chinese-English material equivalence for the current formal package",
+  "audit_method": "Human-defined invariant checklist plus deterministic structure, identifier, figure-pair and DOM comparison. Translation equivalence means the same substantive claim, value, evidence state, warning and ID; it does not require literal word order.",
+  "governing_text": "proposal.md",
+  "translation": "proposal.en.md",
+  "reviewed_at": "2026-08-31T00:00:00Z",
+  "proposal_structure": {
+    "zh": {
+      "path": "proposal.md",
+      "sha256": "ca0eb2704284f5995db78a12ab43ffc23159e6ea3da009015d18640c85e05989",
+      "heading_levels": [
+        1,
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        2,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "heading_count": 47,
+      "image_paths": [
+        "assets/figures/ai-native-eight-step-loop.png",
+        "assets/figures/ai-native-overall-thinking.png",
+        "assets/figures/jingzhang-ai-civilization-panorama-v28.png",
+        "assets/figures/ai-era-paradigm-shift.png",
+        "assets/figures/ai-era-planning-object.png",
+        "assets/figures/ai-native-five-actions.png",
+        "assets/figures/site-overview.png",
+        "assets/figures/base-map-atlas.png",
+        "assets/figures/three-scales-spatial-structure.png",
+        "assets/figures/land-use-structure.png",
+        "assets/figures/six-agents-five-gates.png",
+        "assets/figures/key-areas.png",
+        "assets/figures/mobility-bluegreen.png",
+        "assets/figures/metrics-evidence.png"
+      ],
+      "image_count": 14,
+      "evidence_ids": [
+        "D2SRC-B2-001",
+        "D2SRC-B2-006",
+        "D2SRC-B2-009",
+        "D2SRC-B2-011",
+        "D2SRC-B2-014",
+        "D2SRC-B2-016",
+        "D2SRC-B2-020",
+        "D2SRC-SHARED-014",
+        "DEPTH-2016",
+        "JZ-01",
+        "JZ-02",
+        "JZ-03",
+        "JZ-04",
+        "JZ-05",
+        "JZ-06",
+        "SCN-B3-01"
+      ]
+    },
+    "en": {
+      "path": "proposal.en.md",
+      "sha256": "24ba1498455befcac8138054f3c8e387926a20087820036626de28d634dfc2b3",
+      "heading_levels": [
+        1,
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        2,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "heading_count": 47,
+      "image_paths": [
+        "assets/figures/ai-native-eight-step-loop.en.png",
+        "assets/figures/ai-native-overall-thinking.en.png",
+        "assets/figures/jingzhang-ai-civilization-panorama-v28.png",
+        "assets/figures/ai-era-paradigm-shift.en.png",
+        "assets/figures/ai-era-planning-object.en.png",
+        "assets/figures/ai-native-five-actions.en.png",
+        "assets/figures/site-overview.en.png",
+        "assets/figures/base-map-atlas.en.png",
+        "assets/figures/three-scales-spatial-structure.en.png",
+        "assets/figures/land-use-structure.en.png",
+        "assets/figures/six-agents-five-gates.en.png",
+        "assets/figures/key-areas.en.png",
+        "assets/figures/mobility-bluegreen.en.png",
+        "assets/figures/metrics-evidence.en.png"
+      ],
+      "image_count": 14,
+      "evidence_ids": [
+        "D2SRC-B2-001",
+        "D2SRC-B2-006",
+        "D2SRC-B2-009",
+        "D2SRC-B2-011",
+        "D2SRC-B2-014",
+        "D2SRC-B2-016",
+        "D2SRC-B2-020",
+        "D2SRC-SHARED-014",
+        "DEPTH-2016",
+        "JZ-01",
+        "JZ-02",
+        "JZ-03",
+        "JZ-04",
+        "JZ-05",
+        "JZ-06",
+        "SCN-B3-01"
+      ]
+    },
+    "heading_level_sequence_equal": true,
+    "image_sequence_equal": true,
+    "evidence_identifier_sets_equal": true
+  },
+  "rendered_html": {
+    "proposal_zh": {
+      "path": "report/proposal.html",
+      "sha256": "857e30dab1b7d02d3f093f9722400657f8d72dfb4c1de4941210a028f6027f15",
+      "selected_dom_counts": {
+        "section": 1,
+        "article": 0,
+        "img": 14,
+        "button": 0,
+        "canvas": 0,
+        "table": 14,
+        "tr": 80,
+        "td": 303
+      },
+      "ids": [],
+      "data_attributes": [
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "LIANG-PLAN-FUTURE-I-20260828"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "LIANG-PLAN-FUTURE-II-20260829"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "OFFICIAL-ANNOUNCEMENT"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "AGENT-TASKBOOK"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "existing_conditions_diagnosis"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SOURCE-REGISTRY"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "PROCESSED-FACT-PACK"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "PROJECT-SCOPE-SUMMARY"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "AGENT-TASK-REQUIREMENTS"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SITE-PACKAGE"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/site_boundary.geojson#SITE-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "D2SRC-SHARED-014"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "visual/assets/base-map-manifest.json"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "PROJECT-OFFICIAL-ANNOUNCEMENT"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "three_level_scope_framework"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "overall_spatial_structure"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/land_use.geojson#LU-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/buildings.geojson#BLDG-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/roads.geojson#ROAD-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "land_use_layout"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SOURCE-USE-MATRIX"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "PROJECT-AGENT-OPEN-CALL-TASKBOOK"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MOHURD-URBAN-DESIGN-MEASURES"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "overall_spatial_structure"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MNR-LAND-USE-CLASSIFICATION-GUIDE"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MOHURD-CONTROL-DETAILED-PLANNING"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "development_intensity_controls"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MOHURD-ARCH-DESIGN-DEPTH-2016"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "height_massing_character"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "retain_renovate_demolish"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-002"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-003"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "three_key_area_detailed_design"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-002"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-003"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "blue_green_public_space"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "traffic_rail_slow_parking"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "municipal_new_infrastructure"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "blue_green_public_space"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "renewal_project_list"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "traffic_rail_slow_parking"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/roads.geojson#ROAD-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "municipal_new_infrastructure"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/constraints.geojson#CONSTRAINTS"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/green_space.geojson#GREEN-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/public_space.geojson#PUBLIC-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "blue_green_public_space"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "renewal_project_list"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "phasing_implementation"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/phasing.geojson#PHASE-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "site_area_sqm"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "key_area_count"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "building_footprint_area_sqm"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "green_ratio"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "public_space_ratio"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "metrics_recalculation"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "monitoring_parent_metric_count"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "visual/assets/review_evidence_matrix.json"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "risk_missing_data"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MISSING-DATA-CHECKLIST"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SOURCE-USE-MATRIX"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "visual/assets/asset_rights_register.json"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "visual/assets/generated_visuals_manifest.json"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SITE-PACKAGE"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "LIANG-PLAN-FUTURE-I-20260828"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "LIANG-PLAN-FUTURE-II-20260829"
+        ]
+      ],
+      "image_paths": [
+        "../assets/figures/ai-native-eight-step-loop.png",
+        "../assets/figures/ai-native-overall-thinking.png",
+        "../assets/figures/jingzhang-ai-civilization-panorama-v28.png",
+        "../assets/figures/ai-era-paradigm-shift.png",
+        "../assets/figures/ai-era-planning-object.png",
+        "../assets/figures/ai-native-five-actions.png",
+        "../assets/figures/site-overview.png",
+        "../assets/figures/base-map-atlas.png",
+        "../assets/figures/three-scales-spatial-structure.png",
+        "../assets/figures/land-use-structure.png",
+        "../assets/figures/six-agents-five-gates.png",
+        "../assets/figures/key-areas.png",
+        "../assets/figures/mobility-bluegreen.png",
+        "../assets/figures/metrics-evidence.png"
+      ],
+      "replacement_character_count": 0
+    },
+    "proposal_en": {
+      "path": "report/proposal.en.html",
+      "sha256": "2a3e93f0c4a35bc621ffa911ca0b0b38812c9143acad50cd843c4b5e501c397c",
+      "selected_dom_counts": {
+        "section": 1,
+        "article": 0,
+        "img": 14,
+        "button": 0,
+        "canvas": 0,
+        "table": 14,
+        "tr": 80,
+        "td": 303
+      },
+      "ids": [],
+      "data_attributes": [
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "LIANG-PLAN-FUTURE-I-20260828"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "LIANG-PLAN-FUTURE-II-20260829"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "OFFICIAL-ANNOUNCEMENT"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "AGENT-TASKBOOK"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "existing_conditions_diagnosis"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SOURCE-REGISTRY"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "PROCESSED-FACT-PACK"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "PROJECT-SCOPE-SUMMARY"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "AGENT-TASK-REQUIREMENTS"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SITE-PACKAGE"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/site_boundary.geojson#SITE-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "D2SRC-SHARED-014"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "visual/assets/base-map-manifest.json"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "PROJECT-OFFICIAL-ANNOUNCEMENT"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "three_level_scope_framework"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "overall_spatial_structure"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/land_use.geojson#LU-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/buildings.geojson#BLDG-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/roads.geojson#ROAD-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "land_use_layout"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SOURCE-USE-MATRIX"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "PROJECT-AGENT-OPEN-CALL-TASKBOOK"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MOHURD-URBAN-DESIGN-MEASURES"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "overall_spatial_structure"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MNR-LAND-USE-CLASSIFICATION-GUIDE"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MOHURD-CONTROL-DETAILED-PLANNING"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "development_intensity_controls"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "standard"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MOHURD-ARCH-DESIGN-DEPTH-2016"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "height_massing_character"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "retain_renovate_demolish"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-002"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-003"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "three_key_area_detailed_design"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-002"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/key_areas.geojson#PROV-KEY-003"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "blue_green_public_space"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "traffic_rail_slow_parking"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "municipal_new_infrastructure"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "blue_green_public_space"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "renewal_project_list"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "traffic_rail_slow_parking"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/roads.geojson#ROAD-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "municipal_new_infrastructure"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/constraints.geojson#CONSTRAINTS"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/green_space.geojson#GREEN-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/public_space.geojson#PUBLIC-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "blue_green_public_space"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "renewal_project_list"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "phasing_implementation"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "geometry/phasing.geojson#PHASE-001"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "site_area_sqm"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "key_area_count"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "building_footprint_area_sqm"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "green_ratio"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "public_space_ratio"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "metrics_recalculation"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "metric"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "monitoring_parent_metric_count"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "visual/assets/review_evidence_matrix.json"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "depth"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "risk_missing_data"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "MISSING-DATA-CHECKLIST"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SOURCE-USE-MATRIX"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "visual/assets/asset_rights_register.json"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "data"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "visual/assets/generated_visuals_manifest.json"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "SITE-PACKAGE"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "LIANG-PLAN-FUTURE-I-20260828"
+        ],
+        [
+          "sup",
+          "data-evidence-kind",
+          "source"
+        ],
+        [
+          "sup",
+          "data-evidence-value",
+          "LIANG-PLAN-FUTURE-II-20260829"
+        ]
+      ],
+      "image_paths": [
+        "../assets/figures/ai-native-eight-step-loop.en.png",
+        "../assets/figures/ai-native-overall-thinking.en.png",
+        "../assets/figures/jingzhang-ai-civilization-panorama-v28.png",
+        "../assets/figures/ai-era-paradigm-shift.en.png",
+        "../assets/figures/ai-era-planning-object.en.png",
+        "../assets/figures/ai-native-five-actions.en.png",
+        "../assets/figures/site-overview.en.png",
+        "../assets/figures/base-map-atlas.en.png",
+        "../assets/figures/three-scales-spatial-structure.en.png",
+        "../assets/figures/land-use-structure.en.png",
+        "../assets/figures/six-agents-five-gates.en.png",
+        "../assets/figures/key-areas.en.png",
+        "../assets/figures/mobility-bluegreen.en.png",
+        "../assets/figures/metrics-evidence.en.png"
+      ],
+      "replacement_character_count": 0
+    },
+    "visual_zh": {
+      "path": "visual/index.html",
+      "sha256": "9abb31b9deb762f05ce2a0e9874438eb5154f5779a6355f11db9b26f795923b4",
+      "selected_dom_counts": {
+        "section": 14,
+        "article": 56,
+        "img": 27,
+        "button": 5,
+        "canvas": 1,
+        "table": 0,
+        "tr": 0,
+        "td": 0
+      },
+      "ids": [
+        "ai-native-method",
+        "filter-status",
+        "prototype-canvas"
+      ],
+      "data_attributes": [
+        [
+          "button",
+          "data-filter",
+          "all"
+        ],
+        [
+          "button",
+          "data-filter",
+          "developer"
+        ],
+        [
+          "button",
+          "data-filter",
+          "resident"
+        ],
+        [
+          "button",
+          "data-filter",
+          "older"
+        ],
+        [
+          "button",
+          "data-filter",
+          "operator"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "site_area_sqm"
+        ],
+        [
+          "strong",
+          "data-value",
+          "11412825.386"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "green_ratio"
+        ],
+        [
+          "strong",
+          "data-value",
+          "0.123423"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "public_space_ratio"
+        ],
+        [
+          "strong",
+          "data-value",
+          "0.073281"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "data_asset_records"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "satellite_base_maps"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "professional_depth_contracts"
+        ],
+        [
+          "article",
+          "data-users",
+          "developer / professional reviewer"
+        ],
+        [
+          "article",
+          "data-users",
+          "developer / resident"
+        ],
+        [
+          "article",
+          "data-users",
+          "developer / student"
+        ],
+        [
+          "article",
+          "data-users",
+          "student / resident"
+        ],
+        [
+          "article",
+          "data-users",
+          "developer / public reader"
+        ],
+        [
+          "article",
+          "data-users",
+          "contributor / public"
+        ],
+        [
+          "article",
+          "data-users",
+          "resident / caregiver"
+        ],
+        [
+          "article",
+          "data-users",
+          "resident / visitor"
+        ],
+        [
+          "article",
+          "data-users",
+          "shopper / operator"
+        ],
+        [
+          "article",
+          "data-users",
+          "older / disabled user"
+        ],
+        [
+          "article",
+          "data-users",
+          "international visitor"
+        ],
+        [
+          "article",
+          "data-users",
+          "public / enterprise"
+        ],
+        [
+          "article",
+          "data-users",
+          "community / operator"
+        ]
+      ],
+      "image_paths": [
+        "../assets/figures/ai-era-paradigm-shift.png",
+        "../assets/figures/ai-era-planning-object.png",
+        "../assets/figures/ai-native-overall-thinking.png",
+        "../assets/figures/ai-native-five-actions.png",
+        "../assets/figures/ai-native-eight-step-loop.png",
+        "../assets/figures/six-agents-five-gates.png",
+        "../assets/figures/three-scales-spatial-structure.png",
+        "../assets/figures/identity-brand.png",
+        "../assets/figures/ecosystem-cases.png",
+        "../assets/figures/scenario-grid.png",
+        "../assets/figures/scenario-cards-detail.png",
+        "../assets/figures/landmark-components.png",
+        "../assets/figures/culture-narrative.png",
+        "../assets/figures/operations-calendar.png",
+        "../assets/figures/user-journey.png",
+        "../assets/figures/professional-evidence.png",
+        "../assets/figures/agent-taskboard.png",
+        "../assets/figures/site-overview.png",
+        "../assets/figures/land-use-structure.png",
+        "../assets/figures/key-areas.png",
+        "assets/base_maps/01_research_context_satellite_raw.png",
+        "assets/base_maps/02_corridor_three_areas_satellite_raw.png",
+        "assets/base_maps/03_north_zhongzhiyuan_satellite_raw.png",
+        "assets/base_maps/04_middle_ai_origin_satellite_raw.png",
+        "assets/base_maps/05_south_dazhongsi_satellite_raw.png",
+        "../assets/figures/mobility-bluegreen.png",
+        "../assets/figures/metrics-evidence.png"
+      ],
+      "replacement_character_count": 0
+    },
+    "visual_en": {
+      "path": "visual/index.en.html",
+      "sha256": "aedf007b3e9ddbfce5bcf1333d3893ba8c2b27a93eabd9c32b316c1a53f577f8",
+      "selected_dom_counts": {
+        "section": 14,
+        "article": 56,
+        "img": 27,
+        "button": 5,
+        "canvas": 1,
+        "table": 0,
+        "tr": 0,
+        "td": 0
+      },
+      "ids": [
+        "ai-native-method",
+        "filter-status",
+        "prototype-canvas"
+      ],
+      "data_attributes": [
+        [
+          "button",
+          "data-filter",
+          "all"
+        ],
+        [
+          "button",
+          "data-filter",
+          "developer"
+        ],
+        [
+          "button",
+          "data-filter",
+          "resident"
+        ],
+        [
+          "button",
+          "data-filter",
+          "older"
+        ],
+        [
+          "button",
+          "data-filter",
+          "operator"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "site_area_sqm"
+        ],
+        [
+          "strong",
+          "data-value",
+          "11412825.386"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "green_ratio"
+        ],
+        [
+          "strong",
+          "data-value",
+          "0.123423"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "public_space_ratio"
+        ],
+        [
+          "strong",
+          "data-value",
+          "0.073281"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "data_asset_records"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "satellite_base_maps"
+        ],
+        [
+          "strong",
+          "data-metric",
+          "professional_depth_contracts"
+        ],
+        [
+          "article",
+          "data-users",
+          "developer / professional reviewer"
+        ],
+        [
+          "article",
+          "data-users",
+          "developer / resident"
+        ],
+        [
+          "article",
+          "data-users",
+          "developer / student"
+        ],
+        [
+          "article",
+          "data-users",
+          "student / resident"
+        ],
+        [
+          "article",
+          "data-users",
+          "developer / public reader"
+        ],
+        [
+          "article",
+          "data-users",
+          "contributor / public"
+        ],
+        [
+          "article",
+          "data-users",
+          "resident / caregiver"
+        ],
+        [
+          "article",
+          "data-users",
+          "resident / visitor"
+        ],
+        [
+          "article",
+          "data-users",
+          "shopper / operator"
+        ],
+        [
+          "article",
+          "data-users",
+          "older / disabled user"
+        ],
+        [
+          "article",
+          "data-users",
+          "international visitor"
+        ],
+        [
+          "article",
+          "data-users",
+          "public / enterprise"
+        ],
+        [
+          "article",
+          "data-users",
+          "community / operator"
+        ]
+      ],
+      "image_paths": [
+        "../assets/figures/ai-era-paradigm-shift.en.png",
+        "../assets/figures/ai-era-planning-object.en.png",
+        "../assets/figures/ai-native-overall-thinking.en.png",
+        "../assets/figures/ai-native-five-actions.en.png",
+        "../assets/figures/ai-native-eight-step-loop.en.png",
+        "../assets/figures/six-agents-five-gates.en.png",
+        "../assets/figures/three-scales-spatial-structure.en.png",
+        "../assets/figures/identity-brand.en.png",
+        "../assets/figures/ecosystem-cases.en.png",
+        "../assets/figures/scenario-grid.en.png",
+        "../assets/figures/scenario-cards-detail.en.png",
+        "../assets/figures/landmark-components.en.png",
+        "../assets/figures/culture-narrative.en.png",
+        "../assets/figures/operations-calendar.en.png",
+        "../assets/figures/user-journey.en.png",
+        "../assets/figures/professional-evidence.en.png",
+        "../assets/figures/agent-taskboard.en.png",
+        "../assets/figures/site-overview.en.png",
+        "../assets/figures/land-use-structure.en.png",
+        "../assets/figures/key-areas.en.png",
+        "assets/base_maps/01_research_context_satellite_raw.png",
+        "assets/base_maps/02_corridor_three_areas_satellite_raw.png",
+        "assets/base_maps/03_north_zhongzhiyuan_satellite_raw.png",
+        "assets/base_maps/04_middle_ai_origin_satellite_raw.png",
+        "assets/base_maps/05_south_dazhongsi_satellite_raw.png",
+        "../assets/figures/mobility-bluegreen.en.png",
+        "../assets/figures/metrics-evidence.en.png"
+      ],
+      "replacement_character_count": 0
+    },
+    "visual_dom_counts_equal": true,
+    "visual_ids_and_data_equal": true
+  },
+  "core_claim_equivalence": [
+    {
+      "claim_id": "scope_43_6_km2",
+      "zh_marker": "43.6",
+      "en_marker": "43.6",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "scope_11_4_km2",
+      "zh_marker": "11.4",
+      "en_marker": "11.4",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "corridor_368_4_ha",
+      "zh_marker": "368.4",
+      "en_marker": "368.4",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "three_focus_areas_six_prototypes",
+      "zh_marker": "三区六点",
+      "en_marker": "three areas and six points",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "thirteen_scenarios",
+      "zh_marker": "13个场景",
+      "en_marker": "13 scenarios",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "seven_global_cases",
+      "zh_marker": "7个案例",
+      "en_marker": "seven cases",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "nineteen_activities",
+      "zh_marker": "19项活动",
+      "en_marker": "19 activities",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "fifteen_parent_metrics_unknown",
+      "zh_marker": "15项运行父指标",
+      "en_marker": "15 runtime parent metrics",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "thirty_nine_child_metrics",
+      "zh_marker": "39项子指标",
+      "en_marker": "39 child metrics",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "package_metric_population",
+      "zh_marker": "10条known",
+      "en_marker": "10 known records",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "maturity_states",
+      "zh_marker": "G0—G3/X",
+      "en_marker": "G0–G3/X",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "spatial_warning",
+      "zh_marker": "NTS / provisional / not deployed",
+      "en_marker": "NTS / provisional / not deployed",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "formal_eight_stage_chain",
+      "zh_marker": "R科研 → O开源 → C算力 → D数据 → T测试 → I孵化 → F资本 → M市场",
+      "en_marker": "R Research -> O Open Source -> C Compute -> D Data -> T Testing -> I Incubation -> F Capital -> M Market",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "naming_l3",
+      "zh_marker": "L3一带三区两翼",
+      "en_marker": "L3 One Belt–Three Areas–Two Wings",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "route_prototypes",
+      "zh_marker": "R1一眼看懂京张",
+      "en_marker": "R1 Jingzhang at a Glance",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "implementation_handoff_contract",
+      "zh_marker": "visual/assets/implementation_handoff_register.json",
+      "en_marker": "visual/assets/implementation_handoff_register.json",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "public_co_definition_protocol",
+      "zh_marker": "visual/assets/public_co_definition_protocol.json",
+      "en_marker": "visual/assets/public_co_definition_protocol.json",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "dissent_changes_plan",
+      "zh_marker": "C2冲突/少数意见台账",
+      "en_marker": "C2 conflict and dissent register",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "g2_blocked_without_real_evidence",
+      "zh_marker": "未解决即阻断G2",
+      "en_marker": "blocks G2",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "human_takeover",
+      "zh_marker": "人工接管",
+      "en_marker": "human takeover",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "exit_rule",
+      "zh_marker": "退出",
+      "en_marker": "exit",
+      "status": "equivalent_verified"
+    },
+    {
+      "claim_id": "official_geometry_missing",
+      "zh_marker": "正式多边形",
+      "en_marker": "official polygons",
+      "status": "equivalent_verified"
+    }
+  ],
+  "figure_records": [
+    {
+      "figure_id": "FIG-01",
+      "zh_path": "assets/figures/site-overview.png",
+      "en_path": "assets/figures/site-overview.en.png",
+      "zh_sha256": "dfc2699ac130f2bec4c19eca5baeffe3200f41adaeaf54164ab0f84a5885d812",
+      "en_sha256": "c959854c39a26b8030671b1d048877844fe0e7e3f48f6bb9a122160ee67bb0fe",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-02",
+      "zh_path": "assets/figures/land-use-structure.png",
+      "en_path": "assets/figures/land-use-structure.en.png",
+      "zh_sha256": "8eaf271da87d8b35e8c28cf196f0ab6054d4a1d0a662729ea6b71a9829d40441",
+      "en_sha256": "572d12fba5bc2fff46ed8c78bc7f629edf30f1058e26959949dca839be4a84c6",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-03",
+      "zh_path": "assets/figures/key-areas.png",
+      "en_path": "assets/figures/key-areas.en.png",
+      "zh_sha256": "6361a09a9491159c2ca8356e9cf7b9ebbe6dc72032a4b2e348314e78dcb63111",
+      "en_sha256": "3f8c9e37f164cb51999abc64619f7c242e75a329806ca4aa6e78ffc32088605b",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-04",
+      "zh_path": "assets/figures/mobility-bluegreen.png",
+      "en_path": "assets/figures/mobility-bluegreen.en.png",
+      "zh_sha256": "e7f09b9db10a7f9b56a3cbd2bb8a7078b13877d6382c86ee02cad2fa8254cd4b",
+      "en_sha256": "da2d618cc4b93694afb3c402347e549475371c5de17ecfee00b7204a46719b07",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-05",
+      "zh_path": "assets/figures/metrics-evidence.png",
+      "en_path": "assets/figures/metrics-evidence.en.png",
+      "zh_sha256": "e1877954470b22f482895aa551a0d4a8ee6f7beb1313c69bb81f7c3f00ef4532",
+      "en_sha256": "81f61287c6dec9de83e11920caca5f5d527a5f3177a39cd952f40e959ed85de2",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-06",
+      "zh_path": "assets/figures/agent-taskboard.png",
+      "en_path": "assets/figures/agent-taskboard.en.png",
+      "zh_sha256": "807f323cab4999110185d1d5564ae81b1da524a62f6f877cce07b4ceaf9505d1",
+      "en_sha256": "eb9b32e2b1012d8eca733f4941a30d887885d52a2cc7b170543aad010d37c1c3",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-07",
+      "zh_path": "assets/figures/ecosystem-cases.png",
+      "en_path": "assets/figures/ecosystem-cases.en.png",
+      "zh_sha256": "d7a412c8869ce4808db64ce03e551383305f85d8b26ea24b442aee9fa7210853",
+      "en_sha256": "4a4c6af5d4102d2696fbf812bd53b8f4b3cfb1750e98729adb4d6418cb25f1af",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-08",
+      "zh_path": "assets/figures/scenario-grid.png",
+      "en_path": "assets/figures/scenario-grid.en.png",
+      "zh_sha256": "d5c244d022fc0ec7ffff06b5ab0879fe9a7dc3d9c1c4b4e8fa072f2dd437365d",
+      "en_sha256": "58de8d227dad947e04c6ec1de045ebdea497fc77f6dddf278f538eb6752fdff2",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-09",
+      "zh_path": "assets/figures/operations-calendar.png",
+      "en_path": "assets/figures/operations-calendar.en.png",
+      "zh_sha256": "4e9cf37b3ad21170dce28ecda971652d698a69c61a77207f07ced62066ea2825",
+      "en_sha256": "8f52b5a6782a111e15b5413e979a1d5650ddef6a303efecb0afcee2b91e5bc68",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-10",
+      "zh_path": "assets/figures/user-journey.png",
+      "en_path": "assets/figures/user-journey.en.png",
+      "zh_sha256": "4f61a59bbe5ad302a63b8ccbdf03ae9cd134b744c34b4e049b2cd682f319de19",
+      "en_sha256": "2c5c3de86c153813934a953ef66ee87cefd0a799899a7a85cb60d52d9c9dc7c9",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-11",
+      "zh_path": "assets/figures/landmark-components.png",
+      "en_path": "assets/figures/landmark-components.en.png",
+      "zh_sha256": "74e94358c9b7cb82b0d5dd8223cb7d8d87ecfe188b009c697724ba731f9e7ff5",
+      "en_sha256": "f274d133f6ae1ed6b300cd4e50c6c3f116e53a38e681dcd6022ed58d82afe490",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-12",
+      "zh_path": "assets/figures/identity-brand.png",
+      "en_path": "assets/figures/identity-brand.en.png",
+      "zh_sha256": "60b81444a941d60d560aec4dd9f99961a9f51bb82d9485501c471e03dca5443c",
+      "en_sha256": "38d1ef64e8230c793f663a4fc35c029280a2ec842811da0ca234037a1da3a4d8",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-13",
+      "zh_path": "assets/figures/scenario-cards-detail.png",
+      "en_path": "assets/figures/scenario-cards-detail.en.png",
+      "zh_sha256": "44f008471437bc94a9a40b72cebee9e5cfd13cc8b2e3ae28fed4b95ed4dac321",
+      "en_sha256": "05a40ceb25a08c3b61e9ec8dde62c384790571c07d2679c9a9028faa67d77968",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-14",
+      "zh_path": "assets/figures/culture-narrative.png",
+      "en_path": "assets/figures/culture-narrative.en.png",
+      "zh_sha256": "f2592b85ca06ada9354898fc22a293d378f4892cf7f9d468db9f05363a27158a",
+      "en_sha256": "6549d13bd76144b96ac5113e24aa5c0875471048387f47fb61e02df7fe1de355",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-15",
+      "zh_path": "assets/figures/professional-evidence.png",
+      "en_path": "assets/figures/professional-evidence.en.png",
+      "zh_sha256": "19a34e99a3c51720f4735485be9e4d0d18bfd686653be72b2b4665fdc4ad49e3",
+      "en_sha256": "e98c70267e0062b3a97b4df358fc51c185996d073815bd9985827459da72cd2c",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-16",
+      "zh_path": "assets/figures/base-map-atlas.png",
+      "en_path": "assets/figures/base-map-atlas.en.png",
+      "zh_sha256": "ec7cc908bccbed1a5a7e52c27b9b60cd9788d5ee1826f25fd4c7b72c4db34bf6",
+      "en_sha256": "29357192763929da5099b3f762efe198d120cd04ce365c439e2c3fa10c99ec2d",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-17",
+      "zh_path": "assets/figures/ai-era-paradigm-shift.png",
+      "en_path": "assets/figures/ai-era-paradigm-shift.en.png",
+      "zh_sha256": "f7156b4617a84e10b116fd3f7eadd777905daddbbff8ab03a6ad76aa6adfd740",
+      "en_sha256": "505797305120931def14e1f248cea929c8e1c8a0126849e81af318457e9863d8",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-18",
+      "zh_path": "assets/figures/ai-era-planning-object.png",
+      "en_path": "assets/figures/ai-era-planning-object.en.png",
+      "zh_sha256": "87b647e7be3b8876fe016dc986afcbf59bb23bf46e7b6fc346645d17eb0a5b5c",
+      "en_sha256": "6673f69198155f634694aa208a4dac4e38ba365cc088901ffc56efd14d905541",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-19",
+      "zh_path": "assets/figures/jingzhang-ai-civilization-panorama-v28.png",
+      "en_path": "assets/figures/jingzhang-ai-civilization-panorama-v28.png",
+      "zh_sha256": "ed7b48ea94c9b81d27d3ec48991635046556042befe8905e4081673f2f51223e",
+      "en_sha256": "ed7b48ea94c9b81d27d3ec48991635046556042befe8905e4081673f2f51223e",
+      "language_form": "shared_language_neutral_asset",
+      "status": "shared_neutral_asset_verified"
+    },
+    {
+      "figure_id": "FIG-20",
+      "zh_path": "assets/figures/ai-native-eight-step-loop.png",
+      "en_path": "assets/figures/ai-native-eight-step-loop.en.png",
+      "zh_sha256": "c9484314c74c0cfd94a0e9e3db0bfd63db0ea46e4610c546705c3005797d05b5",
+      "en_sha256": "0dda9301b991f3f877af7dcb53eaa923273414c54306a44b86ffe574f8b99ef4",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-21",
+      "zh_path": "assets/figures/ai-native-overall-thinking.png",
+      "en_path": "assets/figures/ai-native-overall-thinking.en.png",
+      "zh_sha256": "cd0c0b19229734372e17d0a6bc9d26b99b1675afcc68b18cfb0142c5984e3be3",
+      "en_sha256": "cf0654dbc3ba465e06e5ac4eadc025a5c7f618503bb1c48c006f183e7bef669f",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-22",
+      "zh_path": "assets/figures/ai-native-five-actions.png",
+      "en_path": "assets/figures/ai-native-five-actions.en.png",
+      "zh_sha256": "78d9293d1499a8f39f7115706c34eec322f8cdab9f811371ef261ce2cd5dcd5a",
+      "en_sha256": "55b34f4f3fa5819e9ed1ff492529abdb1593cbb4f409b59f8979c174cbacf96d",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-23",
+      "zh_path": "assets/figures/three-scales-spatial-structure.png",
+      "en_path": "assets/figures/three-scales-spatial-structure.en.png",
+      "zh_sha256": "d4b1a09b4f4c4fb4c3306c742c3d5780e98c84cea825c857444004f190b8fae1",
+      "en_sha256": "ac0cc80430b68a81e588f2ae13507707f820ada86d59f7165e198f4e3463f0bb",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    },
+    {
+      "figure_id": "FIG-24",
+      "zh_path": "assets/figures/six-agents-five-gates.png",
+      "en_path": "assets/figures/six-agents-five-gates.en.png",
+      "zh_sha256": "72f2aa6bba5d3d0ce527b2977be26a07b89af729e928c819f53a27277d9ab46d",
+      "en_sha256": "54947843c537ec85ab7369b49733f8e1116024b33c3a407d6872ad905dfbda34",
+      "language_form": "bilingual_pair",
+      "status": "equivalent_pair_verified"
+    }
+  ],
+  "figure_record_count": 24,
+  "bilingual_pair_count": 23,
+  "shared_neutral_asset_count": 1,
+  "discrepancies": [],
+  "status": "pass",
+  "human_equivalence_record": "The Chinese and English three-part structure, site-specific claims for the 43.6 km², 11.4 km² and 368.4 ha levels, Zhongzhiyuan, AI Origin Community, Dazhongsi and the railway heritage park, numerical values, evidence levels, provisional/not-deployed warnings, figure numbers, and scenario/action IDs were reviewed as substantively equivalent after the v3.0 systematic planning repair."
+}

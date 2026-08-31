@@ -1,194 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
-<title id="title">三处重点区｜可审计概念界面模式</title>
-<desc id="desc">概念界面模式｜不按比例｜临时范围｜全部节点仍为 G0</desc>
-<defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#19324A" flood-opacity="0.08"/></filter></defs>
-<rect x="0" y="0" width="1800" height="1100" fill="#F7FAFC" stroke="none" stroke-width="1" rx="0"/>
-<text x="40" y="52" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="900" fill="#19324A" text-anchor="start" letter-spacing="0.2"><tspan x="40" dy="0">三处重点区｜可审计概念界面模式</tspan></text>
-<text x="40" y="78" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="600" fill="#64748B" text-anchor="start" letter-spacing="0"><tspan x="40" dy="0">同一证据语法：日常优先、非 AI 等价、人工可接管、服务可暂停、叠层可撤回</tspan></text>
-<rect x="40" y="96" width="1720" height="60" fill="#FFF7ED" stroke="#F3C69E" stroke-width="1.5" rx="14"/>
-<text x="900" y="122" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="900" fill="#A74F18" text-anchor="middle" letter-spacing="0.7"><tspan x="900" dy="0">概念界面模式｜不按比例｜临时范围｜全部节点仍为 G0</tspan></text>
-<text x="900" y="147" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="800" fill="#A74F18" text-anchor="middle" letter-spacing="0.3"><tspan x="900" dy="0">证据边界：0 批准｜0 现场测试｜0 已知结果</tspan></text>
-<text x="1756" y="78" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="800" fill="#64748B" text-anchor="end" letter-spacing="0.5"><tspan x="1756" dy="0">非地理方向示意</tspan></text>
-<rect x="40" y="176" width="560" height="874" fill="#FFFFFF" stroke="#D8E2EA" stroke-width="1.5" rx="22"/>
-<rect x="58" y="194" width="158" height="30" fill="#E5F2F8" stroke="#B7D8E7" stroke-width="1" rx="10"/><text x="137.0" y="213.55" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="700" fill="#277DA1" text-anchor="middle" letter-spacing="0"><tspan x="137.0" dy="0">VERIFY｜验证站</tspan></text>
-<text x="230" y="219" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="800" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="230" dy="0">众智园 AI 自主创新加速区</tspan></text>
-<text x="60" y="245" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#64748B" text-anchor="start" letter-spacing="0"><tspan x="60" dy="0">PROV-KEY-001 · PUBLIC-001 · I05 / GATE-05 / PUBLIC-008</tspan></text>
-<rect x="54" y="258" width="532" height="342" fill="#FBFDFE" stroke="#D8E2EA" stroke-width="1.5" rx="18"/>
-<text x="70" y="283" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#64748B" text-anchor="start" letter-spacing="0.4"><tspan x="70" dy="0">概念平面｜临时边界为淡色虚线</tspan></text>
-<path d="M 96 318 L 512 304 L 554 382 L 526 548 L 122 566 L 82 470 Z" fill="#F4F7F9" stroke="#AAB7C2" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 20" opacity="0.42"/>
-<text x="318" y="588" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="800" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="318" dy="0">一园、一栈、两界面</tspan></text>
-<path d="M 135 360 C 190 320 275 340 296 392 C 318 449 262 502 182 490 C 115 480 96 404 135 360 Z" fill="#E2F4EE" stroke="#A6D8C9" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="358" y="352" width="126" height="112" fill="#E5F2F8" stroke="#277DA1" stroke-width="2" rx="16"/>
-<circle cx="172" cy="510" r="22" fill="#FFF7DE" stroke="#B98A32" stroke-width="2"/>
-<text x="172" y="515" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="172" dy="0">PUBLIC-001</tspan></text>
-<path d="M 104 522 C 185 546 276 515 340 482 S 451 475 540 520" fill="none" stroke="#168B72" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M 126 385 C 222 356 300 422 368 410 S 467 381 522 344" fill="none" stroke="#277DA1" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 8" opacity="0.9"/>
-<rect x="132" y="393" width="168" height="30" fill="#F3FBF8" stroke="#B7DDD1" stroke-width="1" rx="10"/><text x="216.0" y="412.55" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="700" fill="#0F6B59" text-anchor="middle" letter-spacing="0"><tspan x="216.0" dy="0">低风险共测花园</tspan></text>
-<rect x="365" y="389" width="112" height="30" fill="#F2F8FB" stroke="#B7D8E7" stroke-width="1" rx="10"/><text x="421.0" y="408.55" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="700" fill="#277DA1" text-anchor="middle" letter-spacing="0"><tspan x="421.0" dy="0">验证栈</tspan></text>
-<circle cx="328" cy="510" r="13" fill="#FFF7DE" stroke="#B98A32" stroke-width="2"/><circle cx="324" cy="508" r="2.5" fill="#B98A32" stroke="none" stroke-width="1"/><circle cx="332" cy="508" r="2.5" fill="#B98A32" stroke="none" stroke-width="1"/><line x1="322" y1="515" x2="334" y2="515" stroke="#B98A32" stroke-width="2" stroke-linecap="round"/><text x="347" y="516" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="347" dy="0">人工交接</tspan></text>
-<rect x="394" y="505" width="144" height="30" fill="#F1F5F9" stroke="#D8E2EA" stroke-width="1" rx="10"/><text x="466.0" y="524.2" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="466.0" dy="0">I05 · PUBLIC-008</tspan></text>
-<rect x="447" y="395" width="26" height="26" fill="#FFF0E6" stroke="#E4772E" stroke-width="2" rx="6"/><rect x="455" y="402" width="3" height="12" fill="#E4772E" stroke="none" stroke-width="1" rx="1"/><rect x="462" y="402" width="3" height="12" fill="#E4772E" stroke="none" stroke-width="1" rx="1"/><text x="479" y="414" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="479" dy="0">停止 / 恢复</tspan></text>
-<line x1="68" y1="622" x2="114" y2="622" stroke="#168B72" stroke-width="6" stroke-linecap="round"/>
-<text x="124" y="628" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="124" dy="0">连续非 AI / 无障碍路径</tspan></text>
-<line x1="360" y1="622" x2="406" y2="622" stroke="#277DA1" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 7"/>
-<text x="416" y="628" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="416" dy="0">可逆 AI 服务叠层</tspan></text>
-<text x="60" y="660" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="800" fill="#64748B" text-anchor="start" letter-spacing="0.5"><tspan x="60" dy="0">服务叠层与现有节点</tspan></text>
-<text x="60" y="682" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="60" dy="0">AI-ZONE-001｜众智园可验证模型公共栈</tspan></text>
-<rect x="60" y="696" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="70" y="713" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="70" dy="0">SCENE-001</tspan></text>
-<text x="148" y="722" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="148" dy="0">低速配送安全沙盒</tspan></text>
-<rect x="320" y="696" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="330" y="713" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="330" dy="0">SCENE-002</tspan></text>
-<text x="408" y="722" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="408" dy="0">公共空间能耗助手</tspan></text>
-<rect x="60" y="744" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="70" y="761" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="70" dy="0">SCENE-003</tspan></text>
-<text x="148" y="770" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="148" dy="0">安全事件辅助研判</tspan></text>
-<rect x="320" y="744" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="330" y="761" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="330" dy="0">SCENE-004</tspan></text>
-<text x="408" y="770" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="408" dy="0">失败与修正公开档案</tspan></text>
-<rect x="58" y="798" width="524" height="130" fill="#FAFBFC" stroke="#D8E2EA" stroke-width="1" rx="14"/>
-<text x="74" y="823" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15" font-weight="900" fill="#E4772E" text-anchor="start" letter-spacing="0.5"><tspan x="74" dy="0">进入 G1 前必须补齐</tspan></text>
-<circle cx="79" cy="849" r="4" fill="#E4772E" stroke="none" stroke-width="1"/>
-<text x="93" y="855" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="93" dy="0">确认场地 / 通行与安全责任角色</tspan></text>
-<circle cx="79" cy="874" r="4" fill="#E4772E" stroke="none" stroke-width="1"/>
-<text x="93" y="880" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="93" dy="0">完成场地、消防、网络、数据与实体急停审查</tspan></text>
-<circle cx="79" cy="899" r="4" fill="#E4772E" stroke="none" stroke-width="1"/>
-<text x="93" y="905" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="93" dy="0">固定非 AI 基线；建立申诉与独立复测包</tspan></text>
-<rect x="58" y="944" width="126" height="88" fill="#E2F4EE" stroke="#A6D8C9" stroke-width="1" rx="11"/>
-<text x="121" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#0F6B59" text-anchor="middle" letter-spacing="0"><tspan x="121" dy="0">生态日常</tspan></text>
-<text x="121" y="993" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="121" dy="0">测试环关闭</tspan></text>
-<rect x="189" y="944" width="126" height="88" fill="#FFF7DE" stroke="#DEC378" stroke-width="1" rx="11"/>
-<text x="252" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#B98A32" text-anchor="middle" letter-spacing="0"><tspan x="252" dy="0">预约离线验证</tspan></text>
-<text x="252" y="993" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="252" dy="0">公众在环外</tspan></text>
-<rect x="320" y="944" width="126" height="88" fill="#FFF0E6" stroke="#F2BE96" stroke-width="1" rx="11"/>
-<text x="383" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#E4772E" text-anchor="middle" letter-spacing="0"><tspan x="383" dy="0">未来获批</tspan><tspan x="383" dy="14">限域共测</tspan></text>
-<text x="383" y="1007" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="383" dy="0">碰撞 / 越界即停</tspan></text>
-<rect x="451" y="944" width="126" height="88" fill="#EEF1F4" stroke="#C7CED5" stroke-width="1" rx="11"/>
-<text x="514" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#6B7280" text-anchor="middle" letter-spacing="0"><tspan x="514" dy="0">事故隔离</tspan></text>
-<text x="514" y="993" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="514" dy="0">复测后重启</tspan></text>
-<rect x="620" y="176" width="560" height="874" fill="#FFFFFF" stroke="#D8E2EA" stroke-width="1.5" rx="22"/>
-<rect x="638" y="194" width="158" height="30" fill="#E5F2F8" stroke="#B7D8E7" stroke-width="1" rx="10"/><text x="717.0" y="213.55" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="700" fill="#277DA1" text-anchor="middle" letter-spacing="0"><tspan x="717.0" dy="0">CO-CREATE｜共创站</tspan></text>
-<text x="810" y="219" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="800" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="810" dy="0">北京 AI 原点社区</tspan></text>
-<text x="640" y="245" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#64748B" text-anchor="start" letter-spacing="0"><tspan x="640" dy="0">PROV-KEY-002 · PUBLIC-002 · I04 / GATE-04 / PUBLIC-007</tspan></text>
-<rect x="634" y="258" width="532" height="342" fill="#FBFDFE" stroke="#D8E2EA" stroke-width="1.5" rx="18"/>
-<text x="650" y="283" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#64748B" text-anchor="start" letter-spacing="0.4"><tspan x="650" dy="0">概念平面｜临时边界为淡色虚线</tspan></text>
-<path d="M 676 318 L 1092 304 L 1134 382 L 1106 548 L 702 566 L 662 470 Z" fill="#F4F7F9" stroke="#AAB7C2" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 20" opacity="0.42"/>
-<text x="898" y="588" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="800" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="898" dy="0">一街、两院、四节点</tspan></text>
-<rect x="712" y="342" width="142" height="104" fill="#FFF7DE" stroke="#DEC378" stroke-width="1.5" rx="18"/>
-<rect x="944" y="404" width="142" height="104" fill="#E2F4EE" stroke="#A6D8C9" stroke-width="1.5" rx="18"/>
-<line x1="690" y1="474" x2="1104" y2="354" stroke="#168B72" stroke-width="8" stroke-linecap="round"/>
-<path d="M 690 425 C 778 496 860 330 944 386 S 1050 514 1120 446" fill="none" stroke="#277DA1" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 8"/>
-<circle cx="740" cy="516" r="18" fill="#E5F2F8" stroke="#277DA1" stroke-width="2"/>
-<text x="740" y="521" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10" font-weight="800" fill="#277DA1" text-anchor="middle" letter-spacing="0"><tspan x="740" dy="0">SCENE-005</tspan></text>
-<circle cx="854" cy="492" r="18" fill="#E5F2F8" stroke="#277DA1" stroke-width="2"/>
-<text x="854" y="497" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10" font-weight="800" fill="#277DA1" text-anchor="middle" letter-spacing="0"><tspan x="854" dy="0">SCENE-006</tspan></text>
-<circle cx="974" cy="342" r="18" fill="#E5F2F8" stroke="#277DA1" stroke-width="2"/>
-<text x="974" y="347" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10" font-weight="800" fill="#277DA1" text-anchor="middle" letter-spacing="0"><tspan x="974" dy="0">SCENE-007</tspan></text>
-<circle cx="1088" cy="326" r="18" fill="#E5F2F8" stroke="#277DA1" stroke-width="2"/>
-<text x="1088" y="331" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10" font-weight="800" fill="#277DA1" text-anchor="middle" letter-spacing="0"><tspan x="1088" dy="0">SCENE-008</tspan></text>
-<rect x="730" y="378" width="106" height="30" fill="#FFF9E8" stroke="#E7CF8E" stroke-width="1" rx="10"/><text x="783.0" y="397.375" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12.5" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="783.0" dy="0">共创院</tspan></text>
-<rect x="962" y="440" width="106" height="30" fill="#F3FBF8" stroke="#B7DDD1" stroke-width="1" rx="10"/><text x="1015.0" y="459.375" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12.5" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="1015.0" dy="0">评议院</tspan></text>
-<rect x="816" y="360" width="160" height="30" fill="#F3FBF8" stroke="#B7DDD1" stroke-width="1" rx="10"/><text x="896.0" y="379.375" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12.5" font-weight="700" fill="#0F6B59" text-anchor="middle" letter-spacing="0"><tspan x="896.0" dy="0">开源发布街</tspan></text>
-<rect x="674" y="306" width="124" height="29" fill="#F1F5F9" stroke="#D8E2EA" stroke-width="1" rx="10"/><text x="736.0" y="324.7" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="736.0" dy="0">PUBLIC-002</tspan></text>
-<rect x="979" y="528" width="139" height="29" fill="#F1F5F9" stroke="#D8E2EA" stroke-width="1" rx="10"/><text x="1048.5" y="546.7" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="1048.5" dy="0">I04 · PUBLIC-007</tspan></text>
-<circle cx="890" cy="534" r="13" fill="#FFF7DE" stroke="#B98A32" stroke-width="2"/><circle cx="886" cy="532" r="2.5" fill="#B98A32" stroke="none" stroke-width="1"/><circle cx="894" cy="532" r="2.5" fill="#B98A32" stroke="none" stroke-width="1"/><line x1="884" y1="539" x2="896" y2="539" stroke="#B98A32" stroke-width="2" stroke-linecap="round"/><text x="909" y="540" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="909" dy="0">人工交接</tspan></text>
-<rect x="1012" y="467" width="26" height="26" fill="#FFF0E6" stroke="#E4772E" stroke-width="2" rx="6"/><rect x="1020" y="474" width="3" height="12" fill="#E4772E" stroke="none" stroke-width="1" rx="1"/><rect x="1027" y="474" width="3" height="12" fill="#E4772E" stroke="none" stroke-width="1" rx="1"/><text x="1044" y="486" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1044" dy="0">停止 / 恢复</tspan></text>
-<line x1="648" y1="622" x2="694" y2="622" stroke="#168B72" stroke-width="6" stroke-linecap="round"/>
-<text x="704" y="628" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="704" dy="0">连续非 AI / 无障碍路径</tspan></text>
-<line x1="940" y1="622" x2="986" y2="622" stroke="#277DA1" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 7"/>
-<text x="996" y="628" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="996" dy="0">可逆 AI 服务叠层</tspan></text>
-<text x="640" y="660" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="800" fill="#64748B" text-anchor="start" letter-spacing="0.5"><tspan x="640" dy="0">服务叠层与现有节点</tspan></text>
-<text x="640" y="682" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="640" dy="0">AI-ZONE-002｜开源共创与公共评议区</tspan></text>
-<rect x="640" y="696" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="650" y="713" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="650" dy="0">SCENE-005</tspan></text>
-<text x="728" y="722" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="728" dy="0">京张可信文化导览</tspan></text>
-<rect x="900" y="696" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="910" y="713" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="910" dy="0">SCENE-006</tspan></text>
-<text x="988" y="722" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="988" dy="0">开源协作匹配</tspan></text>
-<rect x="640" y="744" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="650" y="761" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="650" dy="0">SCENE-007</tspan></text>
-<text x="728" y="770" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="728" dy="0">教育体验工坊</tspan></text>
-<rect x="900" y="744" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="910" y="761" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="910" dy="0">SCENE-008</tspan></text>
-<text x="988" y="770" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="988" dy="0">气候与无障碍共测</tspan></text>
-<rect x="638" y="798" width="524" height="130" fill="#FAFBFC" stroke="#D8E2EA" stroke-width="1" rx="14"/>
-<text x="654" y="823" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15" font-weight="900" fill="#E4772E" text-anchor="start" letter-spacing="0.5"><tspan x="654" dy="0">进入 G1 前必须补齐</tspan></text>
-<circle cx="659" cy="849" r="4" fill="#E4772E" stroke="none" stroke-width="1"/>
-<text x="673" y="855" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="673" dy="0">确认场地 / 保障条件及项目、权利责任角色</tspan></text>
-<circle cx="659" cy="874" r="4" fill="#E4772E" stroke="none" stroke-width="1"/>
-<text x="673" y="880" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="673" dy="0">完成来源、版权、同意与撤回审查</tspan></text>
-<circle cx="659" cy="899" r="4" fill="#E4772E" stroke="none" stroke-width="1"/>
-<text x="673" y="905" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="673" dy="0">保证技术 / 非技术 / 非 AI 等价参与并独立复测</tspan></text>
-<rect x="638" y="944" width="126" height="88" fill="#E2F4EE" stroke="#A6D8C9" stroke-width="1" rx="11"/>
-<text x="701" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#0F6B59" text-anchor="middle" letter-spacing="0"><tspan x="701" dy="0">社区日常</tspan></text>
-<text x="701" y="993" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="701" dy="0">匹配推荐关闭</tspan></text>
-<rect x="769" y="944" width="126" height="88" fill="#FFF7DE" stroke="#DEC378" stroke-width="1" rx="11"/>
-<text x="832" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#B98A32" text-anchor="middle" letter-spacing="0"><tspan x="832" dy="0">问题门诊</tspan><tspan x="832" dy="14">与共学</tspan></text>
-<text x="832" y="1007" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="832" dy="0">不强制账号</tspan></text>
-<rect x="900" y="944" width="126" height="88" fill="#FFF0E6" stroke="#F2BE96" stroke-width="1" rx="11"/>
-<text x="963" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#E4772E" text-anchor="middle" letter-spacing="0"><tspan x="963" dy="0">未来获批</tspan><tspan x="963" dy="14">共创共测</tspan></text>
-<text x="963" y="1007" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="963" dy="0">撤回 / 保障触线即停</tspan></text>
-<rect x="1031" y="944" width="126" height="88" fill="#EEF1F4" stroke="#C7CED5" stroke-width="1" rx="11"/>
-<text x="1094" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#6B7280" text-anchor="middle" letter-spacing="0"><tspan x="1094" dy="0">静音与</tspan><tspan x="1094" dy="14">保障恢复</tspan></text>
-<text x="1094" y="1007" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="1094" dy="0">纸面 + 人工保留</tspan></text>
-<rect x="1200" y="176" width="560" height="874" fill="#FFFFFF" stroke="#D8E2EA" stroke-width="1.5" rx="22"/>
-<rect x="1218" y="194" width="158" height="30" fill="#E5F2F8" stroke="#B7D8E7" stroke-width="1" rx="10"/><text x="1297.0" y="213.55" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="700" fill="#277DA1" text-anchor="middle" letter-spacing="0"><tspan x="1297.0" dy="0">PUBLISH｜发布站</tspan></text>
-<text x="1390" y="219" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="800" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1390" dy="0">大钟寺 AI 产业聚集区</tspan></text>
-<text x="1220" y="245" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#64748B" text-anchor="start" letter-spacing="0"><tspan x="1220" dy="0">PROV-KEY-003 · PUBLIC-003 · I01 / GATE-01 / PUBLIC-004 · I02 / GATE-02 / PUBLIC-005</tspan></text>
-<rect x="1214" y="258" width="532" height="342" fill="#FBFDFE" stroke="#D8E2EA" stroke-width="1.5" rx="18"/>
-<text x="1230" y="283" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#64748B" text-anchor="start" letter-spacing="0.4"><tspan x="1230" dy="0">概念平面｜临时边界为淡色虚线</tspan></text>
-<path d="M 1256 318 L 1672 304 L 1714 382 L 1686 548 L 1282 566 L 1242 470 Z" fill="#F4F7F9" stroke="#AAB7C2" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 20" opacity="0.42"/>
-<text x="1478" y="588" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="800" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="1478" dy="0">四象限步行 + 一厅一台</tspan></text>
-<rect x="1408" y="370" width="144" height="112" fill="#FFF7DE" stroke="#B98A32" stroke-width="2" rx="20"/>
-<rect x="1586" y="456" width="98" height="54" fill="#FFF0E6" stroke="#E4772E" stroke-width="2" rx="12"/>
-<line x1="1264" y1="426" x2="1700" y2="426" stroke="#168B72" stroke-width="8" stroke-linecap="round"/>
-<line x1="1480" y1="322" x2="1480" y2="550" stroke="#168B72" stroke-width="8" stroke-linecap="round"/>
-<path d="M 1272 500 C 1360 350 1455 520 1540 356 S 1650 346 1694 520" fill="none" stroke="#277DA1" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 8"/>
-<rect x="1244" y="320" width="146" height="29" fill="#F1F5F9" stroke="#D8E2EA" stroke-width="1" rx="10"/><text x="1317.0" y="338.7" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="1317.0" dy="0">I01 · PUBLIC-004</tspan></text>
-<rect x="1552" y="320" width="146" height="29" fill="#F1F5F9" stroke="#D8E2EA" stroke-width="1" rx="10"/><text x="1625.0" y="338.7" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="1625.0" dy="0">I02 · PUBLIC-005</tspan></text>
-<rect x="1422" y="411" width="116" height="30" fill="#FFF9E8" stroke="#E7CF8E" stroke-width="1" rx="10"/><text x="1480.0" y="430.55" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="1480.0" dy="0">PUBLIC-003</tspan></text>
-<rect x="1590" y="468" width="90" height="30" fill="#FFF6EF" stroke="#F2BE96" stroke-width="1" rx="10"/><text x="1635.0" y="487.2" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="700" fill="#19324A" text-anchor="middle" letter-spacing="0"><tspan x="1635.0" dy="0">人工服务台</tspan></text>
-<circle cx="1312" cy="530" r="13" fill="#FFF7DE" stroke="#B98A32" stroke-width="2"/><circle cx="1308" cy="528" r="2.5" fill="#B98A32" stroke="none" stroke-width="1"/><circle cx="1316" cy="528" r="2.5" fill="#B98A32" stroke="none" stroke-width="1"/><line x1="1306" y1="535" x2="1318" y2="535" stroke="#B98A32" stroke-width="2" stroke-linecap="round"/><text x="1331" y="536" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1331" dy="0">人工交接</tspan></text>
-<rect x="1589" y="367" width="26" height="26" fill="#FFF0E6" stroke="#E4772E" stroke-width="2" rx="6"/><rect x="1597" y="374" width="3" height="12" fill="#E4772E" stroke="none" stroke-width="1" rx="1"/><rect x="1604" y="374" width="3" height="12" fill="#E4772E" stroke="none" stroke-width="1" rx="1"/><text x="1621" y="386" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1621" dy="0">停止 / 恢复</tspan></text>
-<line x1="1228" y1="622" x2="1274" y2="622" stroke="#168B72" stroke-width="6" stroke-linecap="round"/>
-<text x="1284" y="628" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1284" dy="0">连续非 AI / 无障碍路径</tspan></text>
-<line x1="1520" y1="622" x2="1566" y2="622" stroke="#277DA1" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 7"/>
-<text x="1576" y="628" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="700" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1576" dy="0">可逆 AI 服务叠层</tspan></text>
-<text x="1220" y="660" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="800" fill="#64748B" text-anchor="start" letter-spacing="0.5"><tspan x="1220" dy="0">服务叠层与现有节点</tspan></text>
-<text x="1220" y="682" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="1220" dy="0">AI-ZONE-003｜城市服务与成果转化区</tspan></text>
-<rect x="1220" y="696" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="1230" y="713" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="1230" dy="0">SCENE-009</tspan></text>
-<text x="1308" y="722" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1308" dy="0">无障碍路径助手</tspan></text>
-<rect x="1480" y="696" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="1490" y="713" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="1490" dy="0">SCENE-010</tspan></text>
-<text x="1568" y="722" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1568" dy="0">慢行拥堵提示</tspan></text>
-<rect x="1220" y="744" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="1230" y="761" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="1230" dy="0">SCENE-011</tspan></text>
-<text x="1308" y="770" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1308" dy="0">企业服务智能体</tspan></text>
-<rect x="1480" y="744" width="248" height="40" fill="#F8FAFC" stroke="#D8E2EA" stroke-width="1" rx="9"/>
-<text x="1490" y="761" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="800" fill="#277DA1" text-anchor="start" letter-spacing="0"><tspan x="1490" dy="0">SCENE-012</tspan></text>
-<text x="1568" y="770" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1568" dy="0">社区健康导航</tspan></text>
-<rect x="1218" y="798" width="524" height="130" fill="#FAFBFC" stroke="#D8E2EA" stroke-width="1" rx="14"/>
-<text x="1234" y="823" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15" font-weight="900" fill="#E4772E" text-anchor="start" letter-spacing="0.5"><tspan x="1234" dy="0">进入 G1 前必须补齐</tspan></text>
-<circle cx="1239" cy="849" r="4" fill="#E4772E" stroke="none" stroke-width="1"/>
-<text x="1253" y="855" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1253" dy="0">确认路线 / 场所 / 服务来源与人工窗口责任</tspan></text>
-<circle cx="1239" cy="874" r="4" fill="#E4772E" stroke="none" stroke-width="1"/>
-<text x="1253" y="880" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1253" dy="0">完成交通、消防、隐私、无障碍和来源维护审查</tspan></text>
-<circle cx="1239" cy="899" r="4" fill="#E4772E" stroke="none" stroke-width="1"/>
-<text x="1253" y="905" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="600" fill="#19324A" text-anchor="start" letter-spacing="0"><tspan x="1253" dy="0">同任务三路对照；正式错误即停并独立复测</tspan></text>
-<rect x="1218" y="944" width="126" height="88" fill="#E2F4EE" stroke="#A6D8C9" stroke-width="1" rx="11"/>
-<text x="1281" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#0F6B59" text-anchor="middle" letter-spacing="0"><tspan x="1281" dy="0">通勤与休憩</tspan></text>
-<text x="1281" y="993" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="1281" dy="0">智能叠层关闭</tspan></text>
-<rect x="1349" y="944" width="126" height="88" fill="#FFF7DE" stroke="#DEC378" stroke-width="1" rx="11"/>
-<text x="1412" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#B98A32" text-anchor="middle" letter-spacing="0"><tspan x="1412" dy="0">预约证据发布</tspan></text>
-<text x="1412" y="993" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="1412" dy="0">让位通勤与办事</tspan></text>
-<rect x="1480" y="944" width="126" height="88" fill="#FFF0E6" stroke="#F2BE96" stroke-width="1" rx="11"/>
-<text x="1543" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#E4772E" text-anchor="middle" letter-spacing="0"><tspan x="1543" dy="0">未来获批</tspan><tspan x="1543" dy="14">服务试用</tspan></text>
-<text x="1543" y="1007" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="1543" dy="0">过期 / 冲突 / 转接失败即停</tspan></text>
-<rect x="1611" y="944" width="126" height="88" fill="#EEF1F4" stroke="#C7CED5" stroke-width="1" rx="11"/>
-<text x="1674" y="966" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="850" fill="#6B7280" text-anchor="middle" letter-spacing="0"><tspan x="1674" dy="0">来源与</tspan><tspan x="1674" dy="14">服务恢复</tspan></text>
-<text x="1674" y="1007" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle" letter-spacing="0"><tspan x="1674" dy="0">更正复测后重启</tspan></text>
-<text x="40" y="1082" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="800" fill="#64748B" text-anchor="start" letter-spacing="0"><tspan x="40" dy="0">概念界面模式｜不按比例｜临时范围｜全部节点仍为 G0</tspan></text>
-<text x="1760" y="1082" font-family="Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14" font-weight="800" fill="#64748B" text-anchor="end" letter-spacing="0"><tspan x="1760" dy="0">JZ-AIOS · G0</tspan></text>
+<title id="title">一次空间裁决，三处给出不可互换的答案</title><desc id="desc">三处概念平面分别拒绝验证穿越普通路径、验证节点占用居民街和服务设施占据通勤中心，并保留旁置证明园、退后两院和路外人工服务。</desc>
+<defs>
+<style>.sans{font-family:"Microsoft YaHei","Noto Sans CJK SC","Segoe UI",Arial,sans-serif}.kicker{font-size:17px;font-weight:900;letter-spacing:1.6px}.head{font-size:38px;font-weight:900}.sub{font-size:21px;font-weight:650}.label{font-size:27px;font-weight:900}.body{font-size:21px;font-weight:760}.small{font-size:18px;font-weight:720}.micro{font-size:16px;font-weight:650}.tiny{font-size:14px;font-weight:650}.number{font-size:42px;font-weight:950}</style>
+<marker id="greenArrow" viewBox="0 0 16 16" refX="13" refY="8" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L15 8 L1 15 Z" fill="#087E68"/></marker>
+<marker id="blueArrow" viewBox="0 0 16 16" refX="13" refY="8" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L15 8 L1 15 Z" fill="#167FA5"/></marker>
+<marker id="coralArrow" viewBox="0 0 16 16" refX="13" refY="8" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L15 8 L1 15 Z" fill="#D75D45"/></marker>
+</defs>
+<rect width="1800" height="1100" fill="#F5F1E8"/><rect width="1800" height="142" fill="#102A43"/>
+<text x="56" y="48" class="sans kicker" fill="#D6A21D" text-anchor="start">S03 / THREE PLAN PROTOTYPES / 三处平面</text>
+<text x="56" y="104" class="sans head" fill="#FFFFFF" text-anchor="start">一次空间裁决，三处给出不可互换的答案</text>
+<text x="1740" y="48" class="sans kicker" fill="#F8D56A" text-anchor="end">G0 · PROVISIONAL · NOT TO SCALE</text>
+<text x="56" y="178" class="sans sub" fill="#526675" text-anchor="start">共同裁决：验证不得接管普通地面；三处分别用旁置、退院、路外作出不同空间回答。G0 · 临时关系 · 非批准。</text>
+<line x1="602" y1="228" x2="602" y2="970" stroke="#C7D0CC" stroke-width="2" stroke-dasharray="8 9"/>
+<line x1="1200" y1="228" x2="1200" y2="970" stroke="#C7D0CC" stroke-width="2" stroke-dasharray="8 9"/>
+<text x="55" y="258" class="sans kicker" fill="#167FA5" text-anchor="start">01 VERIFY · 众智园</text>
+<text x="55" y="302" class="sans label" fill="#102A43" text-anchor="start">平行绕行 + 旁置证明园</text>
+<text x="55" y="337" class="sans micro" fill="#526675" text-anchor="start"><tspan x="55" dy="0">普通路径不穿越验证边</tspan><tspan x="55" dy="27">人工交接位于两条路径之间</tspan></text>
+<rect x="55" y="380" width="240" height="42" rx="13" fill="#F8E4DE" stroke="#D75D45" stroke-width="2"/><text x="175" y="407" class="sans micro" fill="#D75D45" text-anchor="middle">拒绝：验证穿路</text>
+<rect x="315" y="380" width="230" height="42" rx="13" fill="#DFF1EA" stroke="#087E68" stroke-width="2"/><text x="430" y="407" class="sans micro" fill="#087E68" text-anchor="middle">保留：旁置</text>
+<path d="M90 500 C150 420 390 420 510 510 C555 545 555 630 500 670 C380 755 165 715 95 650 C55 612 52 548 90 500 Z" fill="#DCEEF4" stroke="#167FA5" stroke-width="5"/>
+<path d="M145 520 C220 470 385 472 460 535 C492 563 487 610 448 633 C355 688 205 658 145 610 C115 586 115 545 145 520 Z" fill="#FFFFFF" stroke="#167FA5" stroke-width="4" stroke-dasharray="13 9"/>
+<text x="300" y="555" class="sans body" fill="#167FA5" text-anchor="middle">证明园</text>
+<text x="300" y="590" class="sans micro" fill="#526675" text-anchor="middle">围合 · 可观察 · 可物理停止</text>
+<path d="M70 790 C190 748 330 812 555 755" fill="none" stroke="#DFF1EA" stroke-width="75" stroke-linecap="round"/>
+<path d="M70 790 C190 748 330 812 555 755" fill="none" stroke="#087E68" stroke-width="12" stroke-linecap="round" marker-end="url(#greenArrow)"/>
+<text x="280" y="850" class="sans small" fill="#087E68" text-anchor="middle">普通绕行 / NON-AI CONTINUES</text>
+<rect x="420" y="690" width="125" height="54" rx="18" fill="#FFF4D9" stroke="#B77A13" stroke-width="3"/>
+<text x="482" y="724" class="sans small" fill="#B77A13" text-anchor="middle">人工交接</text>
+<line x1="505" y1="660" x2="485" y2="690" stroke="#B77A13" stroke-width="4"/>
+<circle cx="105" cy="455" r="15" fill="#B9DCCF" stroke="#087E68" stroke-width="2"/>
+<circle cx="98" cy="457" r="10" fill="#DFF1EA"/>
+<circle cx="112" cy="458" r="10" fill="#95C8B5"/>
+<circle cx="105" cy="455" r="4" fill="#087E68"/>
+<circle cx="500" cy="450" r="15" fill="#B9DCCF" stroke="#087E68" stroke-width="2"/>
+<circle cx="493" cy="452" r="10" fill="#DFF1EA"/>
+<circle cx="507" cy="453" r="10" fill="#95C8B5"/>
+<circle cx="500" cy="450" r="4" fill="#087E68"/>
+<circle cx="110" cy="752" r="6" fill="#102A43"/>
+<path d="M110 758 L110 782 M110 767 L98 776 M110 767 L122 776 M110 782 L98 800 M110 782 L122 800" stroke="#102A43" stroke-width="3" stroke-linecap="round" fill="none"/>
+<circle cx="390" cy="762" r="6" fill="#102A43"/>
+<path d="M390 768 L390 792 M390 777 L378 786 M390 777 L402 786 M390 792 L378 810 M390 792 L402 810" stroke="#102A43" stroke-width="3" stroke-linecap="round" fill="none"/>
+<text x="635" y="258" class="sans kicker" fill="#B77A13" text-anchor="start">02 CO-CREATE · 原点社区</text>
+<text x="635" y="302" class="sans label" fill="#102A43" text-anchor="start">一街两院 + 四个撤回节点</text>
+<text x="635" y="337" class="sans micro" fill="#526675" text-anchor="start"><tspan x="635" dy="0">居民街持续开放</tspan><tspan x="635" dy="27">验证从街边进入，不接管街道</tspan></text>
+<rect x="635" y="380" width="250" height="42" rx="13" fill="#F8E4DE" stroke="#D75D45" stroke-width="2"/><text x="760" y="407" class="sans micro" fill="#D75D45" text-anchor="middle">拒绝：节点占街</text>
+<rect x="905" y="380" width="250" height="42" rx="13" fill="#DFF1EA" stroke="#087E68" stroke-width="2"/><text x="1030" y="407" class="sans micro" fill="#087E68" text-anchor="middle">保留：退院</text>
+<rect x="650" y="445" width="215" height="190" rx="8" fill="#FFF4D9" stroke="#B77A13" stroke-width="5"/>
+<path d="M690 495 L825 495 L825 595 L690 595 Z" fill="#FFFFFF" stroke="#B77A13" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="758" y="550" class="sans small" fill="#B77A13" text-anchor="middle">问题院</text>
+<rect x="965" y="435" width="200" height="205" rx="8" fill="#DCEEF4" stroke="#167FA5" stroke-width="5"/>
+<path d="M1004 485 L1126 485 L1126 600 L1004 600 Z" fill="#FFFFFF" stroke="#167FA5" stroke-width="3"/>
+<text x="1065" y="550" class="sans small" fill="#167FA5" text-anchor="middle">评议院</text>
+<path d="M620 742 C760 700 920 770 1180 710" fill="none" stroke="#DFF1EA" stroke-width="92" stroke-linecap="round"/>
+<path d="M620 742 C760 700 920 770 1180 710" fill="none" stroke="#087E68" stroke-width="12" stroke-linecap="round" marker-end="url(#greenArrow)"/>
+<text x="900" y="830" class="sans small" fill="#087E68" text-anchor="middle">居民街 / ORDINARY STREET</text>
+<circle cx="700" cy="722" r="21" fill="#FFFFFF" stroke="#D75D45" stroke-width="4"/>
+<text x="700" y="728" class="sans tiny" fill="#D75D45" text-anchor="middle">1</text>
+<circle cx="820" cy="735" r="21" fill="#FFFFFF" stroke="#D75D45" stroke-width="4"/>
+<text x="820" y="741" class="sans tiny" fill="#D75D45" text-anchor="middle">2</text>
+<circle cx="960" cy="737" r="21" fill="#FFFFFF" stroke="#D75D45" stroke-width="4"/>
+<text x="960" y="743" class="sans tiny" fill="#D75D45" text-anchor="middle">3</text>
+<circle cx="1080" cy="720" r="21" fill="#FFFFFF" stroke="#D75D45" stroke-width="4"/>
+<text x="1080" y="726" class="sans tiny" fill="#D75D45" text-anchor="middle">4</text>
+<rect x="775" y="875" width="250" height="54" rx="18" fill="#DCEEF4" stroke="#167FA5" stroke-width="3"/>
+<text x="900" y="909" class="sans small" fill="#167FA5" text-anchor="middle">纸面 / 口述 / 人工交接</text>
+<circle cx="620" cy="650" r="12" fill="#B9DCCF" stroke="#087E68" stroke-width="2"/>
+<circle cx="614" cy="652" r="8" fill="#DFF1EA"/>
+<circle cx="626" cy="653" r="8" fill="#95C8B5"/>
+<circle cx="620" cy="650" r="4" fill="#087E68"/>
+<circle cx="1160" cy="650" r="12" fill="#B9DCCF" stroke="#087E68" stroke-width="2"/>
+<circle cx="1154" cy="652" r="8" fill="#DFF1EA"/>
+<circle cx="1166" cy="653" r="8" fill="#95C8B5"/>
+<circle cx="1160" cy="650" r="4" fill="#087E68"/>
+<circle cx="660" cy="705" r="5" fill="#102A43"/>
+<path d="M660 710 L660 730 M660 718 L650 725 M660 718 L670 725 M660 730 L650 745 M660 730 L670 745" stroke="#102A43" stroke-width="3" stroke-linecap="round" fill="none"/>
+<circle cx="1130" cy="690" r="5" fill="#102A43"/>
+<path d="M1130 695 L1130 715 M1130 703 L1120 710 M1130 703 L1140 710 M1130 715 L1120 730 M1130 715 L1140 730" stroke="#102A43" stroke-width="3" stroke-linecap="round" fill="none"/>
+<text x="1230" y="258" class="sans kicker" fill="#D75D45" text-anchor="start">03 PUBLISH · 大钟寺</text>
+<text x="1230" y="302" class="sans label" fill="#102A43" text-anchor="start">四向通勤 + 路外人工服务</text>
+<text x="1230" y="337" class="sans micro" fill="#526675" text-anchor="start"><tspan x="1230" dy="0">中心保持通行，不承载验证</tspan><tspan x="1230" dy="27">信息厅与人工台退出主路</tspan></text>
+<rect x="1230" y="380" width="250" height="42" rx="13" fill="#F8E4DE" stroke="#D75D45" stroke-width="2"/><text x="1355" y="407" class="sans micro" fill="#D75D45" text-anchor="middle">拒绝：服务占中</text>
+<rect x="1500" y="380" width="230" height="42" rx="13" fill="#DFF1EA" stroke="#087E68" stroke-width="2"/><text x="1615" y="407" class="sans micro" fill="#087E68" text-anchor="middle">保留：路外</text>
+<line x1="1480" y1="430" x2="1480" y2="840" stroke="#DFF1EA" stroke-width="100"/>
+<line x1="1260" y1="635" x2="1705" y2="635" stroke="#DFF1EA" stroke-width="100"/>
+<line x1="1480" y1="420" x2="1480" y2="850" stroke="#087E68" stroke-width="13"/>
+<line x1="1250" y1="635" x2="1715" y2="635" stroke="#087E68" stroke-width="13"/>
+<circle cx="1480" cy="635" r="45" fill="#FFFFFF" stroke="#087E68" stroke-width="6"/>
+<text x="1480" y="642" class="sans tiny" fill="#087E68" text-anchor="middle">通行</text>
+<path d="M1265 430 L1420 430 L1420 545 L1265 545 Z" fill="#F8E4DE" stroke="#D75D45" stroke-width="4" stroke-dasharray="12 8"/>
+<text x="1342" y="480" class="sans small" fill="#D75D45" text-anchor="middle">路外信息厅</text>
+<text x="1342" y="512" class="sans tiny" fill="#526675" text-anchor="middle">来源 · 拒绝 · 申诉</text>
+<rect x="1560" y="730" width="145" height="80" rx="22" fill="#DCEEF4" stroke="#167FA5" stroke-width="4"/>
+<text x="1632" y="780" class="sans small" fill="#167FA5" text-anchor="middle">人工台</text>
+<rect x="1250" y="745" width="150" height="72" rx="28" fill="#FFFFFF" stroke="#526675" stroke-width="3"/>
+<text x="1325" y="790" class="sans small" fill="#526675" text-anchor="middle">安静休憩</text>
+<circle cx="1460" cy="507" r="6" fill="#102A43"/>
+<path d="M1460 513 L1460 537 M1460 522 L1448 531 M1460 522 L1472 531 M1460 537 L1448 555 M1460 537 L1472 555" stroke="#102A43" stroke-width="3" stroke-linecap="round" fill="none"/>
+<circle cx="1370" cy="602" r="6" fill="#102A43"/>
+<path d="M1370 608 L1370 632 M1370 617 L1358 626 M1370 617 L1382 626 M1370 632 L1358 650 M1370 632 L1382 650" stroke="#102A43" stroke-width="3" stroke-linecap="round" fill="none"/>
+<circle cx="1585" cy="602" r="6" fill="#102A43"/>
+<path d="M1585 608 L1585 632 M1585 617 L1573 626 M1585 617 L1597 626 M1585 632 L1573 650 M1585 632 L1597 650" stroke="#102A43" stroke-width="3" stroke-linecap="round" fill="none"/>
+<circle cx="1695" cy="465" r="14" fill="#B9DCCF" stroke="#087E68" stroke-width="2"/>
+<circle cx="1688" cy="467" r="9" fill="#DFF1EA"/>
+<circle cx="1702" cy="468" r="9" fill="#95C8B5"/>
+<circle cx="1695" cy="465" r="4" fill="#087E68"/>
+<rect x="50" y="1018" width="1700" height="48" rx="16" fill="#102A43"/>
+<text x="900" y="1049" class="sans micro" fill="#FFFFFF" text-anchor="middle">三处均先保持普通路径与非 AI 入口 · 故障只停验证对象 · 恢复先还场、再复核，不代表批准、授权或 G1 · FIELD / GO / RIGHTS 仍受证据门约束</text>
 </svg>

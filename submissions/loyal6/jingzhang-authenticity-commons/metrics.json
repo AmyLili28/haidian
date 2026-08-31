@@ -1,0 +1,585 @@
+{
+  "schema_version": "0.1.0",
+  "units": {
+    "length": "m",
+    "area": "sqm"
+  },
+  "metrics": {
+    "site_area_sqm": {
+      "status": "known",
+      "value": 11412825.386,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "polygon_area(provisional_site_boundary, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "Repository maintainer-defined provisional polygon; not an official redline."
+      ]
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 603093.475,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "sum(conceptual renewal-unit footprint area, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept design footprints; existing-building survey is unavailable."
+      ]
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.161588,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "union(green_space_area) / provisional_site_area",
+      "confidence": "medium",
+      "assumptions": [
+        "Design-space ratio only; not a statutory green-space ratio."
+      ]
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.009275,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "sum(six_station_public_space_area) / provisional_site_area",
+      "confidence": "medium",
+      "assumptions": [
+        "Six illustrative staffed station footprints."
+      ]
+    },
+    "slow_mobility_length_m": {
+      "status": "known",
+      "value": 14555.56,
+      "unit": "m",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "sum(submitted design centerline lengths, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept centerlines; road redlines and detailed alignments pending."
+      ]
+    },
+    "verification_station_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "count(staffed_verification_space)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "scenario_count": {
+      "status": "known",
+      "value": 15,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/scenarios.json"
+      ],
+      "formula": "count(scenario records)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "persona_journey_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/persona-journeys.json"
+      ],
+      "formula": "count(complete persona journeys)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "industry_validation_scenario_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/scenarios.json"
+      ],
+      "formula": "count(category=industry_validation)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "key_area_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(required key areas)",
+      "confidence": "high",
+      "assumptions": [
+        "Geometry is provisional; names and announced areas follow the official announcement."
+      ]
+    },
+    "correction_right_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/correction-protocol.json"
+      ],
+      "formula": "count(rights)",
+      "confidence": "high",
+      "assumptions": [
+        "These are proposal rights and operating tests, not enacted statutory rights."
+      ]
+    },
+    "station_contract_complete_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "count(features with accountable_role, human_handover_channel, correction_return_channels, pause_trigger, shutdown_trigger and recovery_action)",
+      "confidence": "high",
+      "assumptions": [
+        "Completeness measures proposal readiness, not live service performance."
+      ]
+    },
+    "same_channel_contract_coverage_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "stations with one or more named correction_return_channels / all staffed stations",
+      "confidence": "high",
+      "assumptions": [
+        "Named channels are conceptual contractual fields and require field verification before operation."
+      ]
+    },
+    "human_handover_contract_coverage_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "stations with a named human_handover_channel / all staffed stations",
+      "confidence": "high",
+      "assumptions": [
+        "Coverage indicates a documented route, not current staffing availability."
+      ]
+    },
+    "pilot_duration_days": {
+      "status": "known",
+      "value": 90,
+      "unit": "day",
+      "source_files": [
+        "visual/assets/pilot-playbook.json"
+      ],
+      "formula": "declared reversible pilot duration",
+      "confidence": "high",
+      "assumptions": [
+        "The pilot is a proposal and has not been authorized or operated."
+      ]
+    },
+    "global_case_count": {
+      "status": "known",
+      "value": 11,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/global-cases.json"
+      ],
+      "formula": "count(case records)",
+      "confidence": "high",
+      "assumptions": [
+        "Each record includes a primary or official source plus transfer and non-transfer limits."
+      ]
+    },
+    "pilgrimage_landmark_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/brand-operations.json",
+        "spatial.json"
+      ],
+      "formula": "count(conceptual pilgrimage landmark records)",
+      "confidence": "high",
+      "assumptions": [
+        "Count describes design concepts, not constructed or approved landmarks."
+      ]
+    },
+    "annual_program_cycle_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/brand-operations.json"
+      ],
+      "formula": "count(annual program seasons)",
+      "confidence": "high",
+      "assumptions": [
+        "The annual cycle is an operating proposal, not a confirmed event calendar."
+      ]
+    },
+    "human_handover_time_min": {
+      "status": "unknown",
+      "value": null,
+      "unit": "min",
+      "source_files": [
+        "visual/assets/pilot-playbook.json"
+      ],
+      "formula": "median(minutes from intake to qualified human acceptance), disaggregated by access mode",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "No authorized live service or baseline observation exists; the 90-day pilot would establish it."
+    },
+    "same_channel_correction_time_h": {
+      "status": "unknown",
+      "value": null,
+      "unit": "hour",
+      "source_files": [
+        "visual/assets/pilot-playbook.json"
+      ],
+      "formula": "median(hours from approved correction to confirmation across every affected channel)",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Affected channels and service agreements have not yet been field-inventoried."
+    },
+    "screenless_parity_completion_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/pilot-playbook.json"
+      ],
+      "formula": "screenless users completing the same core decision and appeal journey / all observed screenless users",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Requires accessible field observation with consent; no participant data is fabricated."
+    },
+    "appeal_reversal_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/pilot-playbook.json"
+      ],
+      "formula": "appeals resulting in changed or withdrawn adverse conclusions / resolved appeals",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "No live cases exist; future reporting must also publish unresolved and withdrawn cases."
+    },
+    "user_understanding_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/pilot-playbook.json"
+      ],
+      "formula": "participants who can explain that provenance does not prove truth / participants completing an accessible comprehension check",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Requires a reviewed multilingual and accessible field instrument."
+    },
+    "asset_data_recovery_completion_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/phasing.geojson",
+        "visual/assets/pilot-playbook.json"
+      ],
+      "formula": "retired services with confirmed data deletion or export and physical asset restoration / all retired services",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Requires actual retirement events and independent recovery records."
+    },
+    "complaint_review_closure_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/preimplementation-package.json",
+        "visual/assets/execution-contract.json"
+      ],
+      "formula": "complaints with review-conditioned closure / all complaints accepted for review, with unresolved and withdrawn cases reported separately",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "No live service, complaint docket, named reviewer or field baseline exists."
+    },
+    "p0_reference_envelope_sqm": {
+      "status": "known",
+      "value": 96.0,
+      "unit": "sqm",
+      "source_files": [
+        "visual/assets/preimplementation-package.json"
+      ],
+      "formula": "12 m participant reference width * 8 m participant reference depth",
+      "confidence": "high",
+      "assumptions": [
+        "Participant reference test fit only; not a measured or selected site and not an approved building area."
+      ]
+    },
+    "p0_reference_capacity_index": {
+      "status": "known",
+      "value": 2.0,
+      "unit": "index",
+      "source_files": [
+        "visual/assets/preimplementation-package.json"
+      ],
+      "formula": "min(60 / 15, 60 / 30, 60 / 30, 60 / 30) participant cases per hour",
+      "confidence": "low",
+      "assumptions": [
+        "Capacity screening from participant service-time assumptions; not a field SLA, observed demand or operator commitment."
+      ]
+    },
+    "p0_reference_staff_hours": {
+      "status": "known",
+      "value": 780,
+      "unit": "none",
+      "source_files": [
+        "visual/assets/preimplementation-package.json"
+      ],
+      "formula": "4 hours * 3 windows per week * 13 weeks * 5 concurrent seats",
+      "confidence": "medium",
+      "assumptions": [
+        "Ninety-day participant staffing screen only; annual FTE and real roster remain unknown."
+      ]
+    },
+    "p0_external_gate_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/preimplementation-package.json"
+      ],
+      "formula": "count(external_gates)",
+      "confidence": "high",
+      "assumptions": [
+        "Gates are participant-defined release controls, not statutory approvals."
+      ]
+    },
+    "p0_external_gate_open_count": {
+      "status": "known",
+      "value": 0,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/preimplementation-package.json"
+      ],
+      "formula": "count(external_gates where status = OPEN)",
+      "confidence": "high",
+      "assumptions": [
+        "No named appointee, authorization, professional sign-off, quote or funding is represented as obtained."
+      ]
+    },
+    "p0_conditional_branch_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/preimplementation-package.json"
+      ],
+      "formula": "count(conditional_implementation_branches)",
+      "confidence": "high",
+      "assumptions": [
+        "Branches are safe operating states, not replacements for the primary three-area spatial scheme."
+      ]
+    },
+    "p0_procurement_package_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/preimplementation-package.json"
+      ],
+      "formula": "count(procurement_cost_plan.packages)",
+      "confidence": "high",
+      "assumptions": [
+        "Scope packages and percentage shares are participant pre-costing structure; monetary values remain null."
+      ]
+    },
+    "p0_unregistered_channel_count": {
+      "status": "known",
+      "value": 0,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/correction-receipt-demo.json"
+      ],
+      "formula": "count(case propagation channels not present in case_dossier.intake_receipt.registered_channel_ids)",
+      "confidence": "high",
+      "assumptions": [
+        "Synthetic two-channel drill only; this is not evidence about a live publication network."
+      ]
+    },
+    "p0_illegal_pause_bypass_transition_count": {
+      "status": "known",
+      "value": 0,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/preimplementation-package.json",
+        "visual/assets/preimplementation-test.js"
+      ],
+      "formula": "count(permitted institutional-state transitions that bypass PAUSE before REVIEW)",
+      "confidence": "high",
+      "assumptions": [
+        "Protocol-structure result, not an observed field-event count."
+      ]
+    },
+    "p0_review_conflict_count": {
+      "status": "known",
+      "value": 0,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/correction-receipt-demo.json",
+        "visual/assets/correction-engine-test.js"
+      ],
+      "formula": "case_dossier.independent_review_record.conflict_count in the synthetic fixture",
+      "confidence": "high",
+      "assumptions": [
+        "Synthetic role test only; no real reviewer has been appointed or cleared."
+      ]
+    },
+    "p0_same_channel_ack_coverage_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/correction-receipt-demo.json",
+        "visual/assets/correction-engine-test.js"
+      ],
+      "formula": "acknowledged original drill channels / registered original drill channels",
+      "confidence": "high",
+      "assumptions": [
+        "Two of two controlled offline drill channels; not a live correction KPI."
+      ]
+    },
+    "p0_backend_only_closure_count": {
+      "status": "known",
+      "value": 0,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/correction-engine-test.js",
+        "visual/assets/correction-engine-results.json"
+      ],
+      "formula": "count(backend-only failure injections evaluated as CLOSED)",
+      "confidence": "high",
+      "assumptions": [
+        "Local deterministic protocol test, not observed service performance."
+      ]
+    },
+    "p0_restore_before_retest_count": {
+      "status": "known",
+      "value": 0,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/correction-engine-test.js",
+        "visual/assets/correction-engine-results.json"
+      ],
+      "formula": "count(incomplete-retest or self-authorized-restoration injections evaluated as CLOSED)",
+      "confidence": "high",
+      "assumptions": [
+        "Local deterministic protocol test, not observed service performance."
+      ]
+    },
+    "p0_unclosed_recovery_item_count": {
+      "status": "known",
+      "value": 0,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/correction-receipt-demo.json"
+      ],
+      "formula": "case_dossier.recovery_retirement_receipt.unclosed_item_count",
+      "confidence": "high",
+      "assumptions": [
+        "Synthetic drill reset only; real asset, cache, backup and space recovery remain field-dependent."
+      ]
+    },
+    "p0_screenless_path_blocker_count": {
+      "status": "known",
+      "value": 0,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/correction-receipt-demo.json",
+        "visual/assets/preimplementation-package.json"
+      ],
+      "formula": "case_dossier.intake_receipt.critical_path_blockers for the synthetic screenless script",
+      "confidence": "medium",
+      "assumptions": [
+        "Script-level result only; it is not an accessibility-compliance or actual-user co-test conclusion."
+      ]
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "total_floor_area_sqm / official_site_area_sqm",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Approved FAR controls, official polygon and verified floor-area inventory are absent."
+    },
+    "building_height_m": {
+      "status": "unknown",
+      "value": null,
+      "unit": "m",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "approved height control",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Approved height controls and heritage/aviation constraints are absent."
+    },
+    "building_density": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "verified_building_footprint / official_site_area",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Existing-building survey and official site polygon are absent."
+    },
+    "statutory_green_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "approved_green_area / official_site_area",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "The submitted green ratio is a design-space measure, not a statutory control."
+    },
+    "setback_m": {
+      "status": "unknown",
+      "value": null,
+      "unit": "m",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "approved setback control",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Road redlines, parcel lines and approved setbacks are absent."
+    }
+  }
+}

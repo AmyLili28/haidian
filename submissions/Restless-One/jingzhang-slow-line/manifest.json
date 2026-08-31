@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "package_id": "jingzhang-slow-line",
   "project_id": "centennial-jingzhang-ai-belt",
   "site_package_version": "0.1.0",
@@ -14,7 +14,7 @@
     "model_family": "gpt",
     "model_detail": "gpt-5.6-sol via pi; reasoning level max"
   },
-  "generated_at": "2026-08-09T14:46:22Z",
+  "generated_at": "2026-08-31T00:00:00.000Z",
   "files": [
     {
       "path": "manifest.json",
@@ -26,43 +26,43 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "14cc6a0bcc97be136af6d375b32c60444445dacfd05875572dd27249f6d3dc86"
+      "sha256": "3aeb1f398c40a2f905e038af532611dd7b6a06e171d44e0548fb8a2fe7f18599"
     },
     {
       "path": "agent.json",
       "role": "agent_card",
       "required": true,
-      "sha256": "292500a48df144636d0cd43239c25420230a0f00bf4b246bbe7a6a02d4348e03"
+      "sha256": "9f4e2887ff2ae918eaea6e06538aacf1710e229676da89e6fb544ca7ce31282b"
     },
     {
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "1fd851f4488f502489d142c04ef10fd72335dc2f67e63930712dd0525ea0ab4c"
+      "sha256": "eec8c24da8361f244542dbbcc9028f2a40db5dee6dc3a35e107c9063a22a8ac2"
     },
     {
       "path": "assumptions.json",
       "role": "assumptions",
       "required": true,
-      "sha256": "dd5840a70fc524d42e5d8c3fc1643a4e9959e40dd8e13589ecce48378894e806"
+      "sha256": "fab80b8f4a7649827abcd0487efeb16ca3fae4328c27d6a1585e114f6bafc40d"
     },
     {
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "e862ec070dd4c14c18cb3480ab0eadbec2183921b01c8ba43b8208bf6f535fea"
+      "sha256": "8d5f535faa3774dbf7e7715d3a3e809289c96d19d583a36aa243ced7d75d4e2f"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "345ff04eb8104e42f1a36b5c93c51f4a751fa4ce00ee6ec52180ee6375515854"
+      "sha256": "fc512d0166fdb627e4ee89814fb95404ef7c45cc189171f22cef9d8dc536f6ad"
     },
     {
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "3d02060663caf6141266f5040ef75648392ecfc483367e65834537674eed45d7"
+      "sha256": "ea67648567e1be73f1048e8705df2b7dba5c48e286ac26c43e48d0c2fdec50e6"
     },
     {
       "path": "standard_matrix.json",
@@ -74,68 +74,68 @@
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "ecb7d7951d3f091e2d7abf0760c80e3a908c59e12eba6c8a77fe71a4768c3097"
+      "sha256": "df23d8a63cc02656f0f1e7ae3ae2dceecdf643113fe81be3cf0242dcf6efd497"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "195ad39fed97cd695dc5d2ed076cc77cb3a02ac2e334be1c861274a0bb636e70"
+      "sha256": "d8d164584181c22a0ccbcb79840649f78bd8887f0282cd6fb9ee424f030602de"
     },
     {
       "path": "report/narrative.md",
       "role": "narrative",
       "required": false,
-      "sha256": "83624a79f87b1e085898c9e4c7e90b4917aac8ededb01125e21d55e7fe017ff5"
+      "sha256": "4e64516dc8cbb3da9ca49d265ce6b6b7f25d4cd56187901861c505473c4b0b56"
     },
     {
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "80adc8705465d0d2dce89116c81c4de241b173b588d3002fc23033763fed9d06"
+      "sha256": "02c0362fd692814a637ece49b829c5a6118be8d50622732e8f038eaca3621fd0"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "bf56c974f81a5543a5970e83b98f8a8fbb6575cbad9ad7afc50c211e59b5ff2d"
+      "sha256": "4f5b32a426e1fbacc19da474301dece900888b22a95c64079f2dd0ea99649b2b"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "b3db73d2990cca86252e1b872ee44fa5ca690e8abd8bca5e6ec073a60e903a63"
+      "sha256": "c56b2facb0ab8b804a397cb90fa14a230f4ef18b5bf8a047c572871a4a434534"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "ce4d9fad643738c3a3fb18e940df625567c9536e486832d74b598a7d701702ed"
+      "sha256": "24d6bb6e006dd41350a924a70b7124fd30f4775727f9b92847a109aafe2d6918"
     },
     {
       "path": "assets/figures/key-areas.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "071d118a39ecbc9844c724f69c6d505026fd4c542f6dce8b3c370d82941dd1bb"
+      "sha256": "ccec8b334873bf79f888a0bd143c8656a5d08dffaa82c1f78ce58d90551fe72c"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "06f354ac04f7025bc58f84d560a394c1b7fcc76b47b3e32f6f92d98fdbea941e"
+      "sha256": "408aef0916380b657b2702d60d366c85deb18b9dbd7cdbad2f34abcb67930f23"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "6fd63870c417bed82eb1be2cfc673e531d6750fe499d96dfd5a6b1d95498db49"
+      "sha256": "c09750a52df19eca7eea9bafe74b3d7803606e7d6776c86430a448c5e0080617"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "39a2298ace553b85951a8a974d6d03266db97b6b3a39d9c956ee6ff64ad5c47e"
+      "sha256": "d24670b69c9989ea3182be2fc552599d4d9f6c2a485bc4787404e0c26ba0a702"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "741557be2a69c9264d8749b419ee3d807cd3a40c21a2a6b0206e83897465a5d7"
+      "sha256": "b049720fddc64741defeed66774b80dbfef4368d78290f82e8c4748845f3adb2"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -227,7 +227,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "2f9c47bb6211c9ee76b20df865a9cde53468cb7b1a117409befab0bff9eb8e9e"
+      "sha256": "eed02a3d3133f20e49f671b7ba8ee264e3f6d7755a9702c3f47056631527cc85"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -235,7 +235,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "ddd9a19639361e74b1de44cedc79a5f9016c888ebf65ecd7255814a96ad3e3b8"
+      "sha256": "450dfe378e88b1d12e54cdb63c98d4acc0923453a52a09bf92c33e511d1f6732"
     },
     {
       "path": "visual/index.en.html",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "125574b91696a22b55e862b4ddade65b273382b1f52823c680f7a64a98218970"
+      "sha256": "5bfa9b02340ab463884c464685b77760242b7932df84ded866f2df030c6708a3"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -251,7 +251,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/key-areas.png",
-      "sha256": "fbf6159028a6ce34e859b6136526eb0050a7fb8d7fdac4fca7966bf4ba7c0210"
+      "sha256": "01cdcf2cd90f4acab19b08725f9b7cbce0351255f579b07d56ef89bdba26401f"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
@@ -259,7 +259,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/land-use-structure.png",
-      "sha256": "e9f319273acd856798412a3f2c9dbdaf062be40a56b85e943d0b6cd653cc7bc4"
+      "sha256": "68821af02195b0ea781f5a931001d37c32374a9c148d42e4a1e15f169130fb42"
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
@@ -267,7 +267,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png",
-      "sha256": "8fdd38f6b1828fd209bc42ea6f9d276d2b7fd0826693756e601bb0bd01e0e253"
+      "sha256": "a4eb10227121d66a7557a444de05daa76519c890cd209551dd93b675a71ec122"
     },
     {
       "path": "assets/figures/mobility-bluegreen.en.png",
@@ -284,11 +284,170 @@
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
       "sha256": "da8fb21580dbdeb622f7732fa82fb02ab42ed889bf5eaa92d59525a766224ed3"
+    },
+    {
+      "path": "risk.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "758bc36696b9d85e165137a3832fd83fd911a33928a439c54d54b4fdcdc3c549"
+    },
+    {
+      "path": "spatial.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "ef3f695ecfea7cc3e99a83326b5d187dcaf79135d15c0b1f6230b17e0469e2da"
+    },
+    {
+      "path": "simulation.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "53f4eaa8c667e7d2073937b8b7225711100cd96609fe5e72b06448d7df24caf1"
+    },
+    {
+      "path": "changelog.md",
+      "role": "changelog",
+      "required": false,
+      "sha256": "5ffbef2677d3083780f662545e36bafc93c5d5e02b02992d1a018ef371e4569f"
+    },
+    {
+      "path": "assets/media/slow-line-experience.jpg",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "京张慢线人本空间体验",
+      "title_en": "Human-scale Slow Line experience",
+      "description_zh": "AI 生成的非定位概念展示：机器人停下，真人服务与无障碍公共空间继续工作。",
+      "description_en": "AI-generated unlocated concept display: the robot stops while staffed service and accessible public space keep working.",
+      "sha256": "d8565fb2918e4fc985fea58f29f87413bf991247d33de8b5dcae1493a8fae591"
+    },
+    {
+      "path": "assets/media/slow-line-site-grounded.jpg",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "代表性铁路遗产慢行走廊概念图",
+      "title_en": "Representative railway-heritage slow-corridor concept",
+      "description_zh": "从纯文本生成的概念图：遗产铁轨与无障碍慢行道平行，机器人停在正交侧向支路停止线后；无照片输入，非现状记录、精确选址或批准方案。",
+      "description_en": "Text-only generated concept: heritage rails and an accessible slow path run in parallel, and the robot stops behind the perpendicular side-spur line. No photo input; not an existing-conditions record, exact site, or approved plan.",
+      "sha256": "c98d6b5de46aaf75e841f002e90828ef543c11ff6c60376a6bfa4011988b1912"
+    },
+    {
+      "path": "assets/figures/site-grounding.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "54e60ad77fe994e17b3277a6445794bdc9aba3a89e153af894e0301340371aeb"
+    },
+    {
+      "path": "assets/figures/site-grounding.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/site-grounding.png",
+      "sha256": "1d9a28f8eca5ca54846e7ed6f1cffe6378e76d4984b369d1865ae460dd10796a"
+    },
+    {
+      "path": "assets/figures/pilot-protocol.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "79b1611ec79aca0adeb6209383cd8e7c8961e3a71c6bbb8f35a4beeeb7659047"
+    },
+    {
+      "path": "assets/figures/pilot-protocol.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/pilot-protocol.png",
+      "sha256": "208fe34bfd1a13e783671273cfda2c63c110e99dea3dee585c03e0e4968b80c1"
+    },
+    {
+      "path": "assets/figures/simulation-rehearsal.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "825ac1158e0e6aad59403fb43062c78c8e3a179a973e831c3fca234e4444282c"
+    },
+    {
+      "path": "assets/figures/simulation-rehearsal.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/simulation-rehearsal.png",
+      "sha256": "d75b950fd5620ed6d2016b3ddb8f17c1b5e5b7815e7cce6b289137e48986892a"
+    },
+    {
+      "path": "visual/assets/v13-implementation.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "7ca7c6405409178547bf6b0e80314c6255b5062a628febf6fceff97916624827"
+    },
+    {
+      "path": "visual/assets/build-v13.js",
+      "role": "verification_script",
+      "required": false,
+      "language": "neutral",
+      "sha256": "e826651d89856db6aa14ec37652e87a533d051c077c6f63ecb9a8bb1d0a28bee"
+    },
+    {
+      "path": "visual/assets/v14-delivery-control.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "874cfb901c51b2d1fea90d4d57184a12ad6d8a0410959aec383d605ca007e028"
+    },
+    {
+      "path": "visual/assets/v14-verification.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "1d06208b1b34f278dcdc7c0c3a0ed644b7642eb9029e0e1b683b9f324b423b0d"
+    },
+    {
+      "path": "visual/assets/verify-v14.js",
+      "role": "verification_script",
+      "required": false,
+      "language": "neutral",
+      "sha256": "0d82c0e0c60376165b9a1376d6764ca1c655ac2f14d6e1ff28c210af5955ac2b"
+    },
+    {
+      "path": "assets/media/p0-execution-workbook.md",
+      "role": "transcript",
+      "required": false,
+      "language": "neutral",
+      "sha256": "1965186f0185d51b30a1f4558ea30e505b63273c9ebbe65a6c23ab6fe294815e"
+    },
+    {
+      "path": "visual/assets/v15-execution-kit.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "cd84fb3a15dc52c19599af1f119f22f2ff70157aac3c13dba362ce734adbf03e"
+    },
+    {
+      "path": "visual/assets/v15-verification.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "e4dc034bf2f57e5bb0ba9774a185e8cf4e32aeb0bfdb2cbb7d9427a3bee3bc15"
+    },
+    {
+      "path": "visual/assets/verify-v15.js",
+      "role": "verification_script",
+      "required": false,
+      "language": "neutral",
+      "sha256": "32e51444cb30ce3919ad21fe320fe305dd8447759249461930475bde27e282c9"
     }
   ],
   "validation_claim": {
     "self_checked": true,
     "known_blockers": [],
-    "data_confidence": "low"
-  }
+    "data_confidence": "mixed_provisional_and_conceptual",
+    "readiness_contract": "persisted-self-check-v1"
+  },
+  "cover_image": "assets/media/slow-line-site-grounded.jpg"
 }

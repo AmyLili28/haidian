@@ -1,5 +1,98 @@
 # 方案迭代记录
 
+## v1.6.3 - 2026-08-30
+
+### 改动摘要（按官方 AI 评审 88 分轮唯一阻断项修复）
+
+- 修正 `visual/index.en.html` 英文面积单位：指标卡 "1,141.3 ha x10"→"1,141.3 ha"、"362.3 ha x10"→"362.3 ha"；分期清单三处 "(~147.4 / 204.8 / 96.5 ha x10)" 同步去掉 x10（1 万㎡ = 1 ha，数值不变，仅删错误后缀）。
+- 按评审要求逐项核对中英可视化全部核心指标：data-metric 属性值、面积/比率/里程换算、分期与重点区面积均与 `metrics.json` 一致（程序化核对 25/25 项通过），中英指标数值、单位与含义实质等价。
+- 其余内容不变：图件、PDF、报告 HTML 与矩阵均为 v1.6.2 已通过版本；manifest 哈希全量刷新后重跑四门自检。
+
+### 采纳反馈
+
+- 逐条关闭评审"当前版本逐维修复项"1 项：英文可视化面积单位修正 + 中英指标等价性核对。
+
+### 暂未采纳或待复核事项
+
+- `simulation.json` 仍不提供：48 小时故障演练只有设计剧本（未执行），无可复算任务台账。
+- 同前：官方边界与控规指标缺失，待 official 数据发布后整包重算。
+
+## v1.6.2 - 2026-08-30
+
+### 改动摘要（按官方 AI 评审表达完整度阻断项修复）
+
+- 五组必选图件（中英双语共 10 张）整版重制：右侧说明列采用实测宽度自动换行、图例标题与括注按顺序排版，消除 `land-use-structure.en.png`、`mobility-bluegreen.en.png` 的右缘裁切与 `site-overview`、`key-areas` 的图例标题重叠；指标卡与证据链盒子改为按内容测高，文字不再溢出边框。
+- 数据一致性修正：用地图例 0803/0804 名称对齐 `land_use.geojson` 权威值（0803 文化用地、0804 教育用地），原中英图例互换的口径一并纠正；图例补充各用地分类单元数。
+- A3 文册与 A0 展板（中英共 4 个 PDF）重建：保持 12 页文册、7 块展板的既有结构逐页重排；地图改为按地块纵横比的矢量 SVG；A0 版式按版面尺度放大；更新项目、供给规则、指标大数等版面内容补齐；页眉页脚与临时边界披露保持原口径。
+- CJK 字体内嵌：`report/proposal.html`、`report/proposal.en.html`、`visual/index.html`、`visual/index.en.html` 及全部 PDF 按 SIL OFL 1.1 内嵌 Noto Sans SC 400/700 子集（base64 woff2、data URI、族名 HaidianEmbed、不使用保留名），无 CJK 字体的环境下不再出现方框；字体来源与限制登记于 `sources.json`（FONT-NOTO-SANS-SC）与 `report/copyright_statement.md`。
+- 图件、HTML、PDF 全部由同一组 GeoJSON、metrics 与矩阵派生；provisional 几何与 unknown 控规指标披露口径不变。
+
+### 采纳反馈
+
+- 逐条关闭评审"当前版本逐维修复项"3 项：中文离线渲染字体、英文静态图件裁切与重叠、修复传播至关联 HTML/PDF 并刷新哈希与自检。
+
+### 暂未采纳或待复核事项
+
+- `simulation.json` 仍不提供：48 小时故障演练只有设计剧本（未执行），无可复算任务台账。
+- 同前：官方边界与控规指标缺失，待 official 数据发布后整包重算。
+
+## v1.6.1 - 2026-08-29
+
+### 改动摘要（按官方 AI 评审意见修复）
+
+- 统一三色信号语义：大钟寺片区身份色由 RED-BLUE 改为 BLUE，新增"品牌色与状态色分轨"规则（品牌色只作身份识别，状态色只作状态公告，RED 只保留"停用与回滚"一个公共含义）；中英文正文、图件、HTML 与 PDF 同步修订。
+- 按 source_registry 用途边界修订全部合规表述：生成式 AI 暂行办法第 14 条限缩为违法内容的停止要求，第 15 条不声称法规设定具体时限天数；无障碍法第 39 条限定于条文列明的公共服务场所；国办发〔2020〕45 号降为 background_only 政策背景参照；通用回滚、等价路径与响应时限改为本方案自设人本运营目标，与法定要求分栏。
+- 表达可读性：中英文 HTML 字体栈补充 Noto Sans CJK SC 等本地系统回退；重制五组中英文图件（修复边距、换行、裁切与重叠）；统一英文面积单位（如 1,141.3 ha / 341.6 ha，不再出现 "ha ×10" 组合）；A3/A0 同步重制。
+- `sources.json`：POLICY-GUOBAN-2020-45 的 evidence_class 改为 background_only 并新增禁止用途；两条法规来源补充适用范围说明。
+- 按既有流水线完成：双语渲染 → LF 归一 → 哈希全量重刷 → 官方四门 gate 自检 → 持久化 self_check.json → 哈希复核 → participant_preflight PASS。
+
+### 采纳反馈
+
+- 逐条关闭评审阻断项：三色语义唯一化、合规表述限缩与分栏、双语可读性与单位一致性；provisional 几何与 unknown 控规指标保持原有披露口径，不制造伪精确。
+
+### 暂未采纳或待复核事项
+
+- `simulation.json` 仍不提供：48 小时故障演练只有设计剧本（未执行），无可复算任务台账。
+- 同前：官方边界与控规指标缺失，待 official 数据发布后整包重算。
+
+## v1.6 - 2026-08-29
+
+### 改动摘要（按最新官方要求收敛）
+
+- 对齐最新 `docs/formal-submission-guide.md` 英文正式章节标题表：`proposal.en.md` 全部主章节改用官方英文标题（Design Basis and Source List / Regulatory-Plan-Level Urban Design / Detailed Design of Key Areas 等），使英文译稿可独立通过结构校验；中文正文章节与证据锚点不变。
+- 新增 `risk.json`：把第 13 章风险矩阵落为八个维度的 1–5 分结构化登记（政策不确定性 4、实施复杂度 4 均附人工复核路径），portal 可展示最高风险项；与正文表格口径一致，不新增任何承诺。
+- 新增 `spatial.json`：把「一脊三核双翼」落为 9 项概念节点/廊道/区域清单（disclaimer=concept-only，不含坐标与官方线位），并与任务书场景 ID 建立关联；正文第 2 章、第 13 章补充指向说明。
+- 正文双语同步：第 2 章补 `spatial.json` 指向段、第 13 章补 `risk.json` 指向段；front matter `iteration` 升级为 v1.6。
+- 按既有流水线完成：渲染双语 HTML → LF 归一 → 哈希全量重刷 → 官方四门 gate 自检 → 持久化 self_check.json → 哈希复核 → participant_preflight PASS。
+
+### 采纳反馈
+
+- 依据最新官方指南对英文正式章节标题的要求逐条对齐；新增两个官方 schema 支持的可选结构化工件，把已有判断的出处写实（结构化风险矩阵与概念空间清单），不增加伪精确承诺。
+
+### 暂未采纳或待复核事项
+
+- `simulation.json` 暂不提供：48 小时故障演练目前只有设计剧本（未执行），无可复算任务台账，待实际执行后再登记。
+- 同前：官方边界与控规指标缺失，待 official 数据发布后整包重算。
+
+## v1.5 - 2026-08-11
+
+### 改动摘要（v2 契约升级与 agent 披露更新）
+
+- `proposal.md` / `proposal.en.md` front matter 新增 `proposal_format_version: "2"` 与 `bilingual_contract_version: "1"`，正式采用 v2 提案契约与双语门禁：正文只保留 claim 邻近的 1–3 个证据锚点，穷尽索引留在 sources/metrics/geometry/矩阵等结构化文件；校验器按 v2 规则将引用密度问题（单块 >8、连续 >3）升级为阻断性 error。
+- 按 v2 密度规则重构中英文正文引用：精简重复的 `[data:...]` 用地/绿地/公共空间引用（用地分类、设计逻辑与指标数值一字未删）；删除第 14 章 v2 禁止的"机器可读引用索引"整行堆叠（17 个标记）；第 14 章引导句补 `[source:SITE-PACKAGE]` 锚点以满足必需章节引用要求。
+- `agent.json`：agent_name 更新为 Reasonix，model/model_family/model_detail 同步更新为 Reasonix Agent（agent_id 保持 sLingli 与提交目录一致）；`manifest.json.agent` 三字段同步。
+- `self_check.json`：v2 内容定型后重跑官方四项 gate 并持久化；`generated_at` 更新为 2026-08-11T11:26:42Z，`input_sha256` 对最终内容重算。
+- `manifest.json`：哈希全量重刷，`generated_at` 与 self_check 对齐；包状态保持 ready_for_review / formal-review-ready。
+
+### 采纳反馈
+
+- 按最新 SKILL 要求将包从 v1 兼容升级到 v2 契约：双语材料此前已齐备（proposal.en.md、5 张英文图、英文 PDF/HTML），本轮补齐 v2 声明并把引用密度收敛到 v2 规范，使新契约校验从 revision-requested 修复至 formal-review-ready。
+- 用户指示 agent 披露名称采用 Reasonix（模型即 Reasonix Agent），与 manifest.agent 保持双处一致。
+
+### 暂未采纳或待复核事项
+
+- 同前：官方边界与控规指标缺失，待 official 数据发布后整包重算；图纸套数（A3 六页）未扩充，待后续迭代评估。
+
 ## v1.4.1 - 2026-08-09
 
 ### 改动摘要（证据新鲜度与状态语义修复）

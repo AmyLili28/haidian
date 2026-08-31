@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.1.0",
+  "tested_at": "2026-08-31T00:00:00Z",
+  "browser": "Playwright Chromium 1.58.0",
+  "network_mode": "offline clean browser contexts; no reused storage",
+  "scope": "All four current HTML deliverables at 1440 px desktop and 390 px mobile",
+  "checks": [
+    "embedded cleared CJK font load",
+    "body font application",
+    "zero external HTTP(S) requests",
+    "all images complete with non-zero natural size",
+    "zero U+FFFD replacement characters",
+    "no page-level horizontal overflow at 390 px",
+    "visual screenshots of page top, corrected metrics area and mobile top"
+  ],
+  "pages": [
+    {
+      "page": "report/proposal.html",
+      "url": "file:///Volumes/%E5%A4%96%E6%8C%82%E7%A3%81%E7%9B%98/mcpgpt/workspace/jz_cityplan/%E5%8F%82%E8%80%83%E4%BB%93%E5%BA%93/haidian-main/submissions/wolnlow/ai-native-jingzhang-planning/report/proposal.html",
+      "font_loaded": true,
+      "computed_body_font_family": "\"JZ Offline CJK\", \"Noto Sans CJK SC\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "replacement_character_count": 0,
+      "visible_text_characters": 25472,
+      "image_count": 14,
+      "broken_images": [],
+      "external_http_requests": [],
+      "request_failures": [],
+      "desktop_layout": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "bodyScrollWidth": 1440
+      },
+      "mobile": {
+        "font_loaded": true,
+        "replacement_character_count": 0,
+        "image_count": 14,
+        "broken_images": [],
+        "external_http_requests": [],
+        "request_failures": [],
+        "layout": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "bodyScrollWidth": 390
+        },
+        "page_level_horizontal_overflow": false
+      },
+      "screenshots": [
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/report-zh-top.png",
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/report-zh-metrics.png",
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/report-zh-mobile.png"
+      ]
+    },
+    {
+      "page": "report/proposal.en.html",
+      "url": "file:///Volumes/%E5%A4%96%E6%8C%82%E7%A3%81%E7%9B%98/mcpgpt/workspace/jz_cityplan/%E5%8F%82%E8%80%83%E4%BB%93%E5%BA%93/haidian-main/submissions/wolnlow/ai-native-jingzhang-planning/report/proposal.en.html",
+      "font_loaded": true,
+      "computed_body_font_family": "\"JZ Offline CJK\", \"Noto Sans CJK SC\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "replacement_character_count": 0,
+      "visible_text_characters": 80028,
+      "image_count": 14,
+      "broken_images": [],
+      "external_http_requests": [],
+      "request_failures": [],
+      "desktop_layout": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "bodyScrollWidth": 1440
+      },
+      "mobile": {
+        "font_loaded": true,
+        "replacement_character_count": 0,
+        "image_count": 14,
+        "broken_images": [],
+        "external_http_requests": [],
+        "request_failures": [],
+        "layout": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "bodyScrollWidth": 390
+        },
+        "page_level_horizontal_overflow": false
+      },
+      "screenshots": [
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/report-en-top.png",
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/report-en-metrics.png",
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/report-en-mobile.png"
+      ]
+    },
+    {
+      "page": "visual/index.html",
+      "url": "file:///Volumes/%E5%A4%96%E6%8C%82%E7%A3%81%E7%9B%98/mcpgpt/workspace/jz_cityplan/%E5%8F%82%E8%80%83%E4%BB%93%E5%BA%93/haidian-main/submissions/wolnlow/ai-native-jingzhang-planning/visual/index.html",
+      "font_loaded": true,
+      "computed_body_font_family": "\"JZ Offline CJK\", \"Noto Sans CJK SC\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "replacement_character_count": 0,
+      "visible_text_characters": 8113,
+      "image_count": 27,
+      "broken_images": [],
+      "external_http_requests": [],
+      "request_failures": [],
+      "desktop_layout": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "bodyScrollWidth": 1440
+      },
+      "mobile": {
+        "font_loaded": true,
+        "replacement_character_count": 0,
+        "image_count": 27,
+        "broken_images": [],
+        "external_http_requests": [],
+        "request_failures": [],
+        "layout": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "bodyScrollWidth": 390
+        },
+        "page_level_horizontal_overflow": false
+      },
+      "screenshots": [
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/visual-zh-top.png",
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/visual-zh-metrics.png",
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/visual-zh-mobile.png"
+      ]
+    },
+    {
+      "page": "visual/index.en.html",
+      "url": "file:///Volumes/%E5%A4%96%E6%8C%82%E7%A3%81%E7%9B%98/mcpgpt/workspace/jz_cityplan/%E5%8F%82%E8%80%83%E4%BB%93%E5%BA%93/haidian-main/submissions/wolnlow/ai-native-jingzhang-planning/visual/index.en.html",
+      "font_loaded": true,
+      "computed_body_font_family": "\"JZ Offline CJK\", \"Noto Sans CJK SC\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "replacement_character_count": 0,
+      "visible_text_characters": 18839,
+      "image_count": 27,
+      "broken_images": [],
+      "external_http_requests": [],
+      "request_failures": [],
+      "desktop_layout": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "bodyScrollWidth": 1440
+      },
+      "mobile": {
+        "font_loaded": true,
+        "replacement_character_count": 0,
+        "image_count": 27,
+        "broken_images": [],
+        "external_http_requests": [],
+        "request_failures": [],
+        "layout": {
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "bodyScrollWidth": 390
+        },
+        "page_level_horizontal_overflow": false
+      },
+      "screenshots": [
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/visual-en-top.png",
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/visual-en-metrics.png",
+        "/Volumes/外挂磁盘/mcpgpt/workspace/jz_cityplan/tmp/html-qa/systematic-v30-final/visual-en-mobile.png"
+      ]
+    }
+  ],
+  "status": "pass"
+}

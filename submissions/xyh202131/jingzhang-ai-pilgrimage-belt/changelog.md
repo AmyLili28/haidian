@@ -1,121 +1,205 @@
 # 方案迭代记录 / Changelog
 
-> 本日志仅记录本投稿包的可追溯变化，不是审批、实施、现场测试、权利清除或 trusted CI 证明。每次内容变化后，均须从最终 Git blob 重新生成 manifest，并以绑定最终 PR head 的仓库验证为准。
->
-> This log records traceable changes to this submission package only. It is not evidence of approval, implementation, field testing, rights clearance, or trusted CI. After any content change, regenerate the manifest from the final Git blobs and rely on repository validation attached to the final PR head.
+## v103.0 - 2026-08-31
 
-## v2.10 - 2026-08-10
+**当前工件权威地图 / Current Artefact Authority Map**
 
-**Readiness evidence closure / 可行性证据关闭合同**
+- 已有能力：当前包已经在结构化交接索引中声明工件权威顺序、manifest Git blob 哈希绑定、双语阅读路线与外部评审 exact-head 边界；中英 visual 的证据段也给出核心指标、四份 PDF 图谱和若干深层入口。
+- 真实缺口：修复前，visual 只用一句箭头文字压缩权威顺序，底部链接又把正文、指标、来源、临时几何、合同和图纸并列呈现。审阅者能打开文件，却不能在同一屏判断“哪一层回答什么、哪一层不得覆盖什么”；结构化索引能证明规则存在，不能证明入口可被快速执行。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report、图件、媒体、四份 PDF、geometry、metrics、矩阵内容、来源判断、现实状态、0/8 人工双语签署或既有结构化交接合同。
+- 本轮实施：在中英离线 visual 的证据段之后增加四层当前工件地图，分别指向空间与指标、正式矩阵、来源/假设/自检/权利、正文与出版物；每层同时说明用途和不得推导的结论。当前状态仍须由最终 PR exact head 上的 manifest Git blob 与 self-check 回读绑定，外部评审只能绑定其明确 reviewed head。页面仍无 JavaScript、无远程资源、键盘可达、窄屏单栏且可打印；官方几何、批准、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
 
-- 新增 `readiness-closure-contract.json`，不扩展 JZ-01—JZ-08 或 T-01—T-03 的内容，只把既有 RACI、审批、禁采数据、停机恢复、社区共测和独立复测要求统一为九类现实交付材料。
-- Added `readiness-closure-contract.json` without expanding JZ-01—JZ-08 or T-01—T-03. It normalizes the existing RACI, approval, prohibited-data, stop/recovery, community co-test, and independent-retest requirements into nine real-world handoff categories.
-- 固定“九类全部关闭才可讨论 G1、任一缺失即 NO-GO、停止条件优先于旧授权”的规则；11 项共 99 个关闭槽当前全部开放，已关闭 0，11 项决定均为 NO-GO，不把规范字段完整冒充现实可行性。
-- Fixed the rule that all nine categories must close before G1 can be considered, any missing category means NO-GO, and active stop conditions override prior authorization. All 99 slots across 11 items remain open, 0 are closed, and all 11 decisions remain NO-GO; specification completeness is not presented as real-world feasibility.
-- 同步双语正文、报告 HTML、离线展示、验收记录、A3、权利台账和 manifest；不新增规划点、场景、几何、伙伴、批准、现场测试或结果，`not_fully_cleared` 与临时边界保持不变。
-- Synchronized bilingual prose, report HTML, offline visuals, acceptance records, A3, the rights ledger, and manifest. No planning point, scene, geometry, partner, approval, field test, or result is added; `not_fully_cleared` and provisional geometry remain unchanged.
+- Existing capability: the current package already declares artefact authority order, manifest Git-blob hash binding, bilingual reading routes and the external-review exact-head boundary in its structured handoff index. Both visual pages also expose core metrics, four complete PDF atlases and selected deep evidence entrances.
+- Real gap: before repair, the visual compressed authority order into one arrow sentence, while its footer presented proposal, metrics, sources, provisional geometry, contracts and drawings as peer links. A reviewer could open files but could not decide on one screen which layer answers which question or which layer may not override another. The structured index proves that the rule exists, not that the review entrance makes it executable.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0–G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, reports, figures, media, all four PDFs, geometry, metrics, matrix content, source judgements, real-world status, the unsigned 0/8 human bilingual review and existing structured handoff contracts are unchanged.
+- Implemented this round: added a four-layer current-artefact map after the evidence section of both offline visual pages, routing separately to space and metrics, formal matrices, provenance/assumptions/self-check/rights, and narrative/publication artefacts. Each layer states both its use and its prohibited inference. Current state still binds through the manifest Git blob and self-check readback on the final PR exact head; external review binds only its explicit reviewed head. The pages remain script-free, remote-free, keyboard reachable, single-column on narrow screens and printable. Official geometry, approvals, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
 
-## v2.9 - 2026-08-10
+## v102.0 - 2026-08-31
 
-**Existing key-area mode alignment / 既有重点区模式对齐**
+**人工双语复核路径显性化 / Human Bilingual Review Wayfinding**
 
-- 将 `key-areas` 平面图底部原先三列重复的通用四态，替换为 v2.8 已在剖面图、正文和 `key-area-evidence-matrix.json` 中确立的三组差异化名称与停止提示；空间结构、G1 前置、场景节点和几何均未改变。
-- Replaced the three repeated generic four-mode rows in the `key-areas` plans with the area-specific names and stop cues already established in v2.8 sections, prose, and `key-area-evidence-matrix.json`. Spatial structures, G1 prerequisites, scene nodes, and geometry are unchanged.
-- 同步中英文离线展示页的图像替代文字与四态对照说明，使平面、剖面、正文和机器矩阵使用同一术语；未新增规划点、指标、伙伴、批准、现场测试或运行结果。
-- Synchronized bilingual offline-page alt text and mode crosswalk copy so plans, sections, prose, and the machine matrix use one vocabulary. No planning concept, metric, partner, approval, field test, or operating result is added.
-- 继续保留临时边界、全部节点 G0、`not_fully_cleared`、0 现场审计、0 批准和 0 已知结果，并要求从最终包字节重新生成 PDF、权利台账和 manifest。
-- Provisional geometry, all-G0 status, `not_fully_cleared`, zero field audits, zero approvals, and zero known results remain. PDFs, the rights ledger, and manifest must be regenerated from the final package bytes.
+- 已有能力：结构化双语等价文件已经定义 HUMAN-EQ-01—08 的独立抽检范围、成对工件位置、问题、允许结果与闭锁规则；中英 visual 也持续显示“0/8、未签署”。
+- 真实缺口：修复前，离线 visual 只把八项抽检压缩成四张主题摘要卡；审阅者必须另开 JSON 或固定页位，才能找到逐项工件路径和判断问题。自动闸门能确认文件及状态一致，不能证明人工工作表容易执行。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report、图件、媒体、四份 PDF、geometry、metrics、来源判断、现实状态、结构化抽检合同或 0/8 未签署状态。
+- 本轮实施：在中英离线 visual 的专业交接段完整公开 HUMAN-EQ-01—08，每项给出成对工件范围、独立判断问题和“未填写 / not reviewed”状态；双栏在窄屏退化为单栏，打印时每项避免跨页。没有表单或 JavaScript，也不预填审阅结果、审阅者身份、exact head 或签署。官方几何、批准、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
 
-## v2.8 - 2026-08-10
+- Existing capability: the structured bilingual-equivalence record already defines the HUMAN-EQ-01—08 independent sample scopes, paired artefact locations, questions, allowed results and fail-closed rule. Both visual pages also retain the visible “0/8, unsigned” status.
+- Real gap: before repair, the offline visual compressed eight samples into four topic-summary tiles. A reviewer had to open the JSON or fixed pages to find each artefact path and decision question. Automated gates can prove file and status consistency, not that the human worksheet is executable at the review entrance.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0–G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, reports, figures, media, all four PDFs, geometry, metrics, source judgements, real-world status, the structured sampling contract and the unsigned 0/8 state are unchanged.
+- Implemented this round: exposed HUMAN-EQ-01—08 in full inside the professional-handoff section of both offline visual pages, with paired artefact scope, independent decision question and “not reviewed” state for every item. The two-column sheet collapses to one column on narrow screens and keeps each item together in print. It adds no form or JavaScript and prefills no review result, reviewer identity, exact head or sign-off. Official geometry, approvals, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
 
-**Differentiated key-area operating sections / 差异化重点区运行剖面**
+## v101.0 - 2026-08-31
 
-- 重绘中英文重点区剖面，不再用同一骨架复刻三处重点区。众智园明确公众观察边、低风险测试花园环和维护/急停边；原点社区明确连续日常街、问题共创院、公共评议院和四个可撤节点；大钟寺明确四向步行、钟轨会客厅、人工服务台和静音休憩。
-- Redrew the bilingual key-area sections so the three areas no longer repeat one generic skeleton. Zhongzhiyuan separates public observation, the low-risk test-garden loop, and the service/physical-stop edge; Origin Community separates the daily street, problem court, public-review court, and four removable nodes; Dazhongsi separates four-way walking, the Bell-Rail Commons, staffed desk, and quiet rest.
-- 将每处的日常、预约、未来获批限域、停止恢复四态写入 `key-area-evidence-matrix.json`，共 3 组差异化剖面和 12 个 G0 概念状态；每态记录日常基线、谁先让位、如何还场和重启门，不新增批准、现场测试、责任主体或运行成绩。
-- Added area-specific daily, booked, future-approved bounded, and stop/recovery states to `key-area-evidence-matrix.json`: three differentiated sections and twelve G0 concept states. Each state records the protected baseline, what yields first, how ordinary use returns, and what blocks restart; no approval, field test, accountable owner, or operating result is added.
-- 同步双语主稿、指标、SVG/PNG、离线 HTML、A3/A0、manifest 与权利台账；临时边界、`not_fully_cleared`、0 现场核验和 0 已知结果边界保持不变。
-- Synchronized the bilingual proposals, metrics, SVG/PNG, offline HTML, A3/A0, manifest, and rights ledger. Provisional geometry, `not_fully_cleared`, zero field checks, and zero known results remain unchanged.
+**审阅历史收束 / Review-history Convergence**
 
-## v2.7 - 2026-08-10
+- 已有能力：v100 已闭合前序评审出处；当前包同时具备 30 秒、3 分钟、15 分钟和追证路线，四份 PDF 全页图谱、双语 report/visual、CJK 离线字体与结构化证据入口均可直接审阅。
+- 真实缺口：修复前，v99—v59 的 41 轮完整双语记录占 `changelog.md` 657 行、约 123 KB；重复的冻结边界和未知项说明把当前状态与设计主线埋在维护流水中。自动闸门只检查文件存在与大小，不判断历史日志的信息密度。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report/visual、图件、媒体、四份 PDF、geometry、metrics、来源判断、现实状态或 0/8 人工双语签署。
+- 本轮实施：保留 v100 和 v58.5—v58.0 全文，把 v99—v59 收束为按主题分组、逐版本可定位的双语历史索引；完整原文继续可从 `main@7fa55c6827bdf8ca52c0ff213cf1b352cc03c3f3` 的同一路径逐字恢复。该收束不刷新证据日期、外部评审、权利、现场、批准或成熟度。官方几何、批准、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
 
-**T-02 G0 synthetic governance replay / T-02 G0 合成治理回放**
+- Existing capability: v100 closed predecessor-review provenance. The current package already exposes 30-second, three-minute, 15-minute and evidence-tracing routes, four all-page PDF atlases, paired bilingual reports/visuals, an offline CJK font and structured evidence entrances.
+- Real gap: before repair, 41 full bilingual records from v99 through v59 occupied 657 lines and about 123 KB of `changelog.md`. Repeated frozen-boundary and unknown-state paragraphs buried the current state and design through-line inside maintenance chronology. Automated gates check file presence and size, not history-log information density.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0–G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, report/visual pages, figures, media, all four PDFs, geometry, metrics, source judgements, real-world status and the unsigned 0/8 human bilingual review are unchanged.
+- Implemented this round: retained v100 and v58.5–v58.0 in full, while converging v99–v59 into a bilingual, theme-grouped index with every revision still locatable. The complete text remains recoverable byte-for-byte from the same path at `main@7fa55c6827bdf8ca52c0ff213cf1b352cc03c3f3`. This convergence refreshes no evidence date, external review, right, field fact, approval or maturity. Official geometry, approvals, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
 
-- 将既有 T-02 离线企业服务基线升级为严格机器合同，新增 10 个无个人信息合成夹具、零依赖 Node.js 22.x 回放器和确定性结果。默认与 `--check` 只读，只有显式 `--write` 写入结果；来源 ID 必须在冻结闭包内，未知字段、未知枚举和未知请求均 fail-closed。
-- Upgraded the existing T-02 offline enterprise-service baseline into a strict machine contract with 10 PII-free synthetic fixtures, a zero-dependency Node.js 22.x runner, and a deterministic result. Default and `--check` modes are read-only; only explicit `--write` writes the result. Source IDs must remain in the frozen closure, and unknown fields, enums, and requests fail closed.
-- 1 次合成治理回放取得 10/10 决策精确匹配；4/4 个不同的已声明停止事件均精确映射到各自恢复动作；13/13 负向变异控制覆盖样例/合同未知字段、枚举、合同回答模式漂移、来源闭包、禁采数据优先级、canonical RACI 闭包、现实服务授权与摘要计数篡改。该结果只证明 G0 合同逻辑可复放，不生成实质回答，也不调用模型、API 或现实服务。
-- One synthetic governance replay produced 10/10 exact decision matches. All four distinct declared stop events map to their exact recovery actions, and 13/13 negative mutation controls cover unknown fixture/contract fields, enums, answer-mode drift, source closure, prohibited-data precedence, canonical RACI closure, real-service authorization, and summary-count tampering. The result proves only replayable G0 contract logic; it produces no substantive answer and calls no model, API, or real service.
-- 回放证据同步至 G1-011、JZ-05/T-02、PARITY-002、假设、指标、矩阵、双语正文、离线 HTML、视觉首页、自检、agent 与权利披露。实质回答、模型/API/现实服务/现场交互、审批、已确认责任主体、现实独立复测、现实非 AI 同权与 G1 结果保持 0 或 unknown；当前门级仍为 G0，总体权利状态仍为 `not_fully_cleared`。
-- Synchronized the replay evidence across G1-011, JZ-05/T-02, PARITY-002, assumptions, metrics, matrices, bilingual prose, offline HTML, visual homepages, self-check, agent provenance, and rights disclosures. Substantive answers, model/API/real-service/field interactions, approvals, confirmed accountable parties, real independent retests, real non-AI parity, and G1 outcomes remain 0 or unknown. The gate stays G0 and overall rights remain `not_fully_cleared`.
+## v100.0 - 2026-08-30
 
-## v2.6 - 2026-08-10
+**前序评审出处闭合 / Predecessor-review Provenance Closure**
 
-**Source–asset–rights evidence loop / 来源—资产—权利证据闭环**
+- 已有能力：R99 已把证据内容日期与导航绑定日期解耦；PR #4278 在 exact head `eb1ff0d05a5be8e81fd2554342ea9ebba69b57db` 完成 96/100、无阻断项评审，并以 merge SHA `6d4c930f8302c433f961081fcda741a1bf00ac30` 进入实时 canonical main。
+- 真实缺口：修复前，当前交接索引及其包级镜像仍把 PR #4272 / R96 写成“前序评审”，落后于已合并的 R97—R99；自动 gate 不比较前序评审出处，审阅者可能把三轮前的 exact head 误读为最近评审依据。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report/visual 页面、图件、媒体、四份 PDF、geometry、metrics、来源判断、现实状态或 0/8 人工双语签署。
+- 本轮实施：把交接索引、包级镜像和三区矩阵导航回链统一绑定到 `JZ-REVIEW-HANDOFF-R100.0`，并把前序评审精确更新为 PR #4278 的 reviewed head 与 canonical merge SHA。该记录只证明前序版本的仓库评审，不预填新 exact head 的外部结论，也不建立矩阵证据、时效性、成熟度、权利、现场事实或批准。官方几何、批准、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
 
-- 新增 `source-rights-evidence.schema.json` 与实例：29/29 条来源具有稳定反向指针，10 个仓库来源固定到审计 HEAD 的 Git object，4 个网页保留包外抓取摘要，15 个网页明确无内容摘要；缺失发布日期、原始格式或条款时保持 unknown，不以 URL 或文件名推断冒充核验。
-- Added a schema and instance for source-rights evidence: all 29 sources have stable reverse pointers; 10 repository sources are fixed to Git objects at the audited HEAD, four web sources retain external capture digests, and 15 web sources explicitly have no content digest. Missing dates, original formats, or terms stay unknown rather than being promoted from locator inference.
-- 仅对 `geometry/constraints.geojson` 的既有 120 个 OSM 要素补入 `source_id=OSM-CONTEXT`，不改坐标、图层、名称、way ID 或设计内容；element-level 记录保留署名，并明确固定查询与快照摘要缺失，`RIGHTS-OPEN-03` 继续为 P0 open。
-- Added `source_id=OSM-CONTEXT` to the existing 120 OSM features in `geometry/constraints.geojson` without changing coordinates, layers, names, way IDs, or design content. Element-level records retain attribution and disclose the missing fixed query and snapshot digest; `RIGHTS-OPEN-03` remains P0 open.
-- 保留原 5 个权利粗组作为兼容视图，并新增与最终 manifest 严格等集的 62 条逐文件记录，逐项串联来源、父资产、工具、嵌入组件、配方状态、审计状态、摘要与未决事项。manifest 和 ledger 两个不可自引用项使用 null + 原因，其余摘要必须等于最终 manifest。
-- Retained the five coarse rights groups as a compatibility view and added 62 file-level records equal to the final manifest path set, linking sources, parents, tools, embedded components, recipe state, review state, digests, and open items. Manifest and ledger use null plus explicit self-reference reasons; every other digest must equal the final manifest.
-- 补充稳定工具 ID 与输出映射；更正字体事实为“四份 PDF 内含 Noto 子集程序、A3 引用未嵌入 Helvetica、SVG 转 PNG 的实际解析字体未知”，不再把“未提供独立源字体文件”误写成“包内没有字体二进制”。
-- Added stable tool IDs and output mappings. Corrected the font facts to embedded Noto subset programs in all four PDFs, unembedded Helvetica references in A3, and unknown concrete font resolution during SVG-to-PNG rasterization; no longer conflates absence of a standalone source-font file with absence of embedded font programs.
-- 总体状态继续为 `not_fully_cleared`，独立逐文件清权审计完成数仍为 0，P0 `RIGHTS-OPEN-01/02/03` 全部 open，公共或专业复用继续 `blocked_pending_terms_and_audit`。任何 schema、路径覆盖或验证 PASS 只表示披露可审计，不表示许可已取得。
-- Overall status remains `not_fully_cleared`, completed independent file-level clearance audits remain 0, P0 `RIGHTS-OPEN-01/02/03` all remain open, and public or professional reuse remains `blocked_pending_terms_and_audit`. Schema, path coverage, or validation PASS proves auditability only, not permission.
+- Existing capability: R99 separated the evidence-content date from the navigation-binding date. PR #4278 completed a 96/100 review with no blocking modification on exact head `eb1ff0d05a5be8e81fd2554342ea9ebba69b57db` and entered live canonical main as merge SHA `6d4c930f8302c433f961081fcda741a1bf00ac30`.
+- Real gap: before repair, the current handoff index and its package mirror still named PR #4272 / R96 as the predecessor review, lagging the merged R97-R99 sequence. Automated gates do not compare predecessor-review provenance, so a reviewer could mistake a three-round-old exact head for the latest reviewed basis.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0-G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, report/visual pages, figures, media, all four PDFs, geometry, metrics, source judgements, real-world status and the unsigned 0/8 human bilingual review are unchanged.
+- Implemented this round: aligned the handoff index, package mirror and key-area matrix navigation backlink on `JZ-REVIEW-HANDOFF-R100.0`, and updated predecessor-review provenance to PR #4278's reviewed head and canonical merge SHA. This records only the predecessor package's repository review; it does not prefill an external verdict for the new exact head or establish matrix evidence, freshness, maturity, rights, field truth or approval. Official geometry, approvals, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
 
-## v2.5 - 2026-08-10
+## v99.0—v59.0 - 2026-08-30—2026-08-25
 
-**Key-area spatial-reading integration / 重点区空间读法整合**
+**聚焦深化索引 / Focused-development index**
 
-- 新增中英文可编辑 SVG 与确定性 PNG，以既有 `PROV` / `PUBLIC` / `I-GATE` / `AI-ZONE` / `SCENE` ID 深化三处临时重点区，并展示三层关系、连续非 AI / 无障碍路径、人工交接、停止/恢复、可撤回叠层与四种模式。
-- 在双语正文和离线视觉首页配对整合两组图件；每处重点区仅新增一段“图面读法 / 尚缺资料”，不重复完整矩阵。
-- All bilingual editable SVG and deterministic PNG deepen the three provisional areas using only existing `PROV` / `PUBLIC` / `I-GATE` / `AI-ZONE` / `SCENE` IDs, with three-layer relationships, continuous non-AI / accessible routes, staffed handoff, stop/recovery, removable overlays, and four modes.
-- Both figure pairs are integrated into the bilingual proposal and offline visual indexes; each key area gains only one reading/missing-evidence paragraph, without duplicating the complete matrix.
-- 所有图面仍不按比例、临时且为 G0；批准、现场审计、测试执行和已知结果均为 0，权利状态仍为 `not_fully_cleared`。geometry、metrics 与规划内容未改；未新增项目、节点、路线、地块、伙伴、批准、现场或运营结果。
-- All diagrams remain not to scale, provisional, and G0; approvals, field audits, test executions, and known results remain 0, and rights remain `not_fully_cleared`. Geometry, metrics, and planning content are unchanged; no projects, nodes, routes, parcels, partners, approvals, field results, or operating results are added.
+为让审阅者先看到当前状态，以下 41 轮重复长篇记录收束为主题索引。每个版本号与主题均保留；完整中英文原文可从 `main@7fa55c6827bdf8ca52c0ff213cf1b352cc03c3f3` 的本文件恢复。本索引不改变当时事实、边界、验证结果或提交历史。
 
-**PDF and package-evidence integration / PDF 与包证据整合**
+- **v99—v89：证据与交接导航。** v99 证据日期/导航日期解耦；v98 三区矩阵导航出处；v97 索引角色边界；v96 完整性声明；v95 镜像一致性；v94 双语精确路由；v93 当前包验证合同；v92 深层结构引用；v91 片段路由；v90 离线追证入口；v89 当前交接摘要。
+- **v88—v78：长报告的键盘与语义阅读。** v88 章节落点反馈；v87 章节焦点交接；v86 主导航焦点交接；v85 页内定位反馈；v84 高频控件触达；v83 媒体文字替代直达；v82 小屏表格提示；v81 审阅工具栏；v80 章节索引；v79 评审深链；v78 离线语义导航。
+- **v77.1—v72：出版入口与全页可见性。** v77.1 报告离线 CJK 修复；v77 四份 PDF 全页图谱；v76 首屏白话状态；v75 原型深链焦点；v74 角色卡精确落点；v73 角色到任务入口；v72 完整审阅包首屏。
+- **v71—v67：渐进阅读与审计入口。** v71 渐进阅读路线；v70 三区同屏判读；v69 人本任务 demo；v68 评审状态与 exact head 绑定；v67 审计入口闭合。
+- **v66.1—v64：政策、权利与接责。** v66.1 精确包权利计数；v66 政策—公共任务防误读层；v65.1 精确包权利消歧；v65 独立人工复核交接；v64 可拒绝的责任接收门。
+- **v63—v61：人本前台与出版身份。** v63 一人一事一处；v62.1 R62 离线 CJK 回归；v62 出版身份与首屏一致性；v61.1 离线报告 CJK 阻断修复；v61 评审可见信息效率。
+- **v60：出版可访问性。** A0 远读重构与出版可访问性收束。
+- **v59.1—v59：权利与四态体验。** v59.1 当前精确包权利闭合；v59 四态空间体验化。
 
-- 将八组双语 PNG 展示对（包含新增的重点区剖面展示对）与两组双语 SVG 可编辑源对纳入最终包合同；manifest 现覆盖 60 个路径/59 个非 manifest 内容文件，权利台账按相同路径集合逐项归组。新增 SVG 只补足两组重点区图件的可编辑源，不代表其他 PNG/PDF 已具有完整可编辑布局源，也不将 `not_fully_cleared` 或 0 次独立逐文件审计升级。
-- Integrated eight bilingual PNG display pairs, including the new key-area-sections pair, plus two bilingual SVG editable-source pairs into the final package contract. The manifest now covers 60 paths / 59 non-manifest content files, and the rights ledger groups the identical path set once each. These SVGs provide editable sources only for the two key-area figure pairs; they do not complete editable-layout coverage for the other PNG/PDF outputs or upgrade `not_fully_cleared` and 0 independent file-level audits.
-- 用最终正文和八组 1800×1100 图件离线重生四份 PDF：为避免整板缩放掩盖小字，中文/英文 A3 将每组图件拆为三个带 30px 重叠的 620×892 竖向细节页，分别为 33/36 页；双语 A0 各 8 页并保留整板总览。A3 两种语言各含 8 组/24 个裁片且不再嵌入 1800×1100 整图，有效最小文字指标分别为 10.865pt/9.297pt，live text 不低于 9pt，443/443 个逻辑块可搜索。最终 pass A 与独立 pass B 在新 Python 进程运行且四份 PDF 逐文件字节相同；SHA-256 分别为 `a1364afa…73d2`, `2ac3cc0c…e7dd`, `77bcce2d…`, `53ac76d1…`。生成工具为 Python 3.13.12、ReportLab 5.0.0、fontTools 4.63.0、PyMuPDF 1.27.2.3 与 Pillow 12.2.0；页面、顺序、字体、裁片覆盖和内容边界 QA 覆盖全部 85 页。
-- Regenerated all four PDFs offline from the final narratives and eight 1800 × 1100 figure pairs. To prevent whole-board scaling from hiding small evidence text, every figure in the Chinese/English A3 booklet is split into three 620 × 892 portrait detail panels with 30 px overlap, producing 33/36 pages; both A0 languages retain eight whole-board overview pages. Each A3 language now contains 8 sets/24 crops and no embedded 1800 × 1100 whole-board image; the minimum effective text metrics are 10.865 pt/9.297 pt, live text stays at or above 9 pt, and 443/443 logical blocks are searchable. Final pass A and independent pass B ran in fresh Python processes and all four PDFs are byte-identical file by file; their SHA-256 values begin `a1364afa…73d2`, `2ac3cc0c…e7dd`, `77bcce2d…`, and `53ac76d1…`. The actual toolchain was Python 3.13.12, ReportLab 5.0.0, fontTools 4.63.0, PyMuPDF 1.27.2.3, and Pillow 12.2.0; page, order, font, crop-coverage, and content-bound QA covered all 85 pages.
-- A3/PDF 文字由旧 Arial Unicode MS 路径替换为 `NotoSansSC-VF.ttf` 的确定性 400/700 内存实例与嵌入子集；记录源版本 `2.04;241114210130;non-release`、SHA-256 `76314658…074a` 和本地 name table 的 SIL OFL 1.1 声明，且不随包分发字体二进制。该元数据记录不等于独立许可合规结论。
-- Replaced the prior Arial Unicode MS path with deterministic in-memory 400/700 instances and embedded subsets from `NotoSansSC-VF.ttf`; recorded source version `2.04;241114210130;non-release`, SHA-256 `76314658…074a`, and the local name table's SIL OFL 1.1 declaration, without shipping the font binary. This metadata record is not an independent license-compliance conclusion.
-- 本轮只整合展示与包证据；只读 Git 对比确认 `geometry/*.geojson` 与 `metrics.json` 的 Git blobs 未变。最终 PR head 的 trusted CI 与维护者人工内容、视觉、版权审查仍未发生，不能由本日志预先勾选。
-- This increment integrates presentation and package evidence only; a read-only Git comparison confirms that the Git blobs for `geometry/*.geojson` and `metrics.json` did not change. Trusted CI on the final PR head and maintainer human content, visual, and rights reviews have not occurred and are not pre-claimed here.
+To put the current state first, the 41 repeated long-form records below are converged into a thematic index. Every revision number and subject remains listed; the complete Chinese and English text is recoverable from this file at `main@7fa55c6827bdf8ca52c0ff213cf1b352cc03c3f3`. This index changes no historical fact, boundary, validation result or commit history.
 
-## v2.4 - 2026-08-09
+- **v99–v89: evidence and handoff navigation.** v99 evidence/navigation dates; v98 key-area matrix provenance; v97 index role boundary; v96 integrity claim; v95 mirror coherence; v94 exact bilingual routes; v93 current-package validation contract; v92 deep structured references; v91 fragment routes; v90 offline evidence entrance; v89 current handoff summary.
+- **v88–v78: keyboard and semantic reading for long reports.** v88 destination feedback; v87 chapter focus transfer; v86 primary-navigation focus transfer; v85 in-page orientation; v84 frequent-control targets; v83 direct text alternatives; v82 narrow-screen table cue; v81 review toolbar; v80 chapter index; v79 review deep link; v78 offline semantic navigation.
+- **v77.1–v72: publication entrances and all-page visibility.** v77.1 offline report CJK repair; v77 four all-page PDF atlases; v76 plain-language first view; v75 prototype deep-link focus; v74 persona exact destinations; v73 persona-to-task entry; v72 complete review pack first view.
+- **v71–v67: progressive reading and audit entrances.** v71 progressive routes; v70 three-place one-board reading; v69 human-task demo; v68 exact-head review binding; v67 audit entrance closure.
+- **v66.1–v64: policy, rights and duty acceptance.** v66.1 exact-package rights count; v66 policy-to-public-task firewall; v65.1 exact-package rights disambiguation; v65 independent-human-review handoff; v64 refusable duty-acceptance gate.
+- **v63–v61: human frontstage and publication identity.** v63 one person/one task/one place; v62.1 R62 offline CJK regression; v62 publication identity and first-screen coherence; v61.1 offline-report CJK blocker repair; v61 reviewer-visible information efficiency.
+- **v60: publication accessibility.** A0 distance-read recomposition and publication-accessibility convergence.
+- **v59.1–v59: rights and four-state experience.** v59.1 current exact-package rights closure; v59 four-state spatial experience.
 
-**Skill contract alignment and publication QA / Skill 合同对齐与发布质量复核**
+## v58.5 - 2026-08-24
 
-### 已采纳 / Accepted
+**下一评审缺口预防与出版去重 / Anticipatory Review-Gap and Publication De-duplication**
 
-- 将 #998 的三处重点区证据交叉表纳入同一完整增量；三条记录只证明映射字段齐全，不证明现场覆盖、责任主体确认、批准、测试或结果。
-- 按最新投稿 skill 补齐必需指标族：九类用地代码面积、三期面积、三处临时重点区面积；建筑密度与道路比例因正式资料缺失而明确保持待补，不用体量原型或道路中心线代替。
-- 同步主线 `provisional_boundaries_basis.md` 的空间不确定性：OSM 背景核查与临时总体范围的 0% 相交和约 412.5 m 最近距离不裁决边界正误，也不触发非官方改线。
-- 将当时已有的双语主稿、HTML、视觉首页、A3/A0 和文字图件在 manifest 中全部标为必交；本轮新增重点区剖面 PNG 对与两组 SVG 可编辑源对后，最终合同为八组双语 PNG 展示对、两组双语 SVG 可编辑源对，中英文主张、指标和限制保持配对。
-- 补齐来源采集方法、时空覆盖、复用边界、转换和已知限制；中央来源使用稳定 ID，来源新鲜度策略仍不把访问日期写成完成刷新审计。
-- 重排中英文 A0，使每张 1800×1100 核心板图占据 A0 主要安全版心；图件放大不提升数据精度或现实成熟度。
-- 刷新 agent/toolchain 披露和 checked-in `self_check.json`，消除旧包体积、旧指标数量和旧变更清单快照。
+- 反向审计实际评审可见入口，识别并修复 A3 中五组“页题不同、正文画面相同”的出版缺陷；从同一确定性源完整重建中英文 A3 各 14 页与 A0 各 8 页，不增加页数，并对全部页面执行正文指纹去重与逐页渲染检查。
+- 以投稿方原创图解在原路径重制“普通生活旅程”：众智园是连续旁路与旁置验证庭，原点社区是一街两院四个撤回节点，大钟寺是四向通勤与路外人工服务；人物仅为通用比例符号，不是现场人员、公众反馈、无障碍结果或建成证据。
+- 压缩 visual 首屏高度，30 秒入口先展示概念和空间图；补充跳转主内容、键盘焦点和五张首要图件的双语描述性替代文本。许可提示改为按组件陈述，继续明确整包公共或专业复用受条款和独立审计阻断。
+- 将正文、visual、交接索引和 Agent 溯源版本统一为 58.5；历史 RED 基线增加机器可读的“修复前记录”语义和当前处理摘要，避免把历史缺口误读为当前失败。
+- 本轮没有新增生成媒体，不改变 geometry、`metrics.json`、12/8/3/36、G0 / NO-GO、provisional、现实结果 0、审批 0、专业接责 0 或权利未完全清结边界。
 
-### 未采纳 / Not adopted
+- Reverse-audited the surfaces actually exposed to review and repaired five A3 pairs whose page titles differed while their body images were identical. Rebuilt the 14-page Chinese and English A3 books and the 8-board Chinese and English A0 sets from one deterministic source, without adding pages, then checked body-image fingerprints and rendered every page.
+- Rebuilt the contributor-authored ordinary-life journey in place: Zhongzhiyuan uses a continuous bypass and side verification court; Origin Community uses one street, two courts and four withdrawal nodes; Dazhongsi uses a four-way commute and off-route staffed service. Human figures are generic scale symbols, not site participants, public feedback, accessibility results or built evidence.
+- Reduced the visual hero height so the first 30-second view reaches spatial content; added a main-content skip target, keyboard focus and bilingual descriptive alt text for the five primary figures. Licence language is now component-scoped while package-wide public or professional reuse remains blocked pending terms and independent audit.
+- Aligned proposal, visual, handoff-index and agent-provenance revisions at 58.5. The historical RED baseline now declares its before-state role and current disposition so old findings cannot be mistaken for current failures.
+- This revision adds no generated media and changes no geometry, `metrics.json`, 12/8/3/36 count, G0 / NO-GO, provisional, zero-real-result, zero-approval, zero-professional-acceptance or not-fully-cleared boundary.
 
-- 未新增第四套“全包总矩阵”；现有 compliance、standard、design-depth、pilot-readiness 与 key-area crosswalk 已分别承担任务、专业深度、交接门和重点区证据职责，重复矩阵会增加漂移风险。
-- 未将同行方案的具体命名、代码、JSON 结构或图形资产复制进本包；只使用公开评审中可复述的抽象方法，并保留各自许可边界。
-- 未把临时 geometry、公开背景、机器 PASS、字段覆盖率或本地生成记录写成官方红线、法定指标、合作承诺、现场成果或发布许可。
+## v58.4 - 2026-08-24
 
-### 仍待外部完成 / Still external or pending
+**96 分 exact-head 评审的预注册与发布硬门 / Preregistration and Release Gates for the Exact-Head 96-Point Review**
 
-- 官方 polygon、现状测绘、权属、控规、道路/铁路/水务/文保/市政/消防条件到位后，完成差异比对与 EPSG:4548 全量复算。
-- 责任主体、审批、参与者保护、场地时窗和独立复测条件成立后，才可执行 G1；当前全部场景仍为 G0，现实执行与已知结果均为 0。
-- 权利状态继续为 `not_fully_cleared`；完整 `COMMUNITY-DISPLAY-ONLY` 条款、OSM ODbL 处理、PDF 字体与工具输出、Logo/商标和可编辑源仍需独立复核。
-- 当前增量的本地门槛与最终 trusted `submission-validation` 必须在最终字节、最终 manifest 和最终 PR head 上重新运行；不得继承历史快照的勾选状态。
+- 将唯一候选 `JZ-05 × SCENE-011 × T-02` 的专业包升级到 2.1.0：只有责任接受、准确批准范围和合法现场准入同时成立后，才能填写带日期踏勘、普通/非 AI 同任务基线、高峰/静音窗观察、无障碍共测、分母/阈值锁定与四类恢复对象。所有现实字段继续为空或 0，禁止从目标、行业值或 T-02 合成回放倒填。
+- 为任何未来公共装置、永久地标或外部品牌发布增加九项权利硬门，覆盖作者与贡献记录、CC BY/MIT、OSM ODbL、OFL 字体、第三方内容、商标/史实、生成内容标识、无障碍替代与撤回下架；当前公共装置和外部品牌部署均为 0。
+- 固定正式评审的精简入口为“一条裁决—三种原型—四种状态—一个候选”，后台来源、权利、现场采集、双语抽检和数据缺口登记只按需展开；阅读顺序的压缩不改变 G0、provisional、not to scale、not approved 和现实结果 0。
+- 将独立人工双语抽检细化为七项、固定 exact head 后执行的签核合同，增加差异严重度定义和 fail-closed 规则；投稿方预检发现的实质差异为 0，但人工结果、身份和签名仍保持空白。
+- 将最新评论六项公开行动逐条绑定到交付路径，并单列可实施性、权利发布和双语实质等价三类仍需外部完成的事实边界。几何、`metrics.json`、12/8/3/36、PDF、图像和媒体均未改变。
 
-## English summary
+- Upgraded the sole `JZ-05 × SCENE-011 × T-02` candidate packet to 2.1.0. A dated walk-through, ordinary/same-task non-AI baseline, peak/quiet observations, accessibility co-test, denominator/threshold lock and four restoration objects can be populated only after duty acceptance, exact approval and lawful site access. Every real field remains null or zero; targets, industry values and the T-02 synthetic replay cannot backfill them.
+- Added a nine-item rights gate for any future public installation, permanent landmark or external brand release, covering authorship, CC BY/MIT, OSM ODbL, OFL fonts, third-party content, trademark/history, generated-content labeling, accessible alternatives and takedown. Current public-installation and external-brand deployment counts remain zero.
+- Fixed the concise formal-review route as one ruling, three prototypes, four states and one candidate, with source, rights, field-intake, bilingual and gap registers opened on demand. A shorter reading order does not alter G0, provisional, not-to-scale, not-approved or zero-real-result status.
+- Expanded the independent human bilingual sample into a seven-item exact-head execution and signoff contract with discrepancy severity and fail-closed rules. Contributor precheck finds zero material discrepancy, while human results, identity and signature remain blank.
+- Bound the six published exact-head actions to delivery paths and separated feasibility, public-release rights and substantive bilingual equivalence conditions that still require external completion. Geometry, `metrics.json`, 12/8/3/36 counts, PDFs, figures and media are unchanged.
 
-- Consolidates the #998 key-area crosswalk into one complete increment without treating documentation coverage as field evidence.
-- Completes required metric families while keeping unsupported density, road, statutory, and operational values pending.
-- Carries the main-branch boundary cross-check as uncertainty evidence only; it neither proves an error nor authorizes a replacement boundary.
-- Makes every bilingual counterpart required, normalizes source provenance, enlarges the A0 boards to a usable safe frame, and refreshes tool/self-check records.
-- Adds no approval, partner, funding, construction, operation, test, rights-clearance, or trusted-CI result. All scenes remain G0 and public/professional reuse remains blocked pending the stated rights work.
+## v58.3 - 2026-08-24
+
+**96 分评审的专业交接落实 / Professional Handoff Response to the 96-Point Review**
+
+- 把 `JZ-05 × SCENE-011 × T-02` 从简短候选摘要扩展为单一专业审查包，集中呈现来源维护责任、正式程序边界、人工窗口、普通任务基线、无障碍/公共同权共测、唯一主指标及分母、四项停止硬门、批准范围和独立复测计划。
+- 将 H01—H07 逐项写成可签署的关闭条件，并为 D01—D08 建立八条候选材料记录，具备来源/接收者、保管者、专业审查者、日期、版本、定位符、哈希、质量门和处置字段；真实附件、责任接受、批准、现场值和独立复测仍为 0，不以目标或模拟值填充。
+- 为独立人工中英文实质等价抽检准备七项签核包，覆盖摘要、三原型、全部可见数字与结构化指标、来源等级、G0/批准边界、图号/版位和实施门；签名字段保持空白，不冒充人工确认。
+- 继续冻结 geometry、`metrics.json`、12/8/3/36 计数、四份 PDF 页数、媒体与权利边界；10/10 T-02 合成回放不写成服务准确率。
+
+- Expanded `JZ-05 × SCENE-011 × T-02` from a short candidate summary into one professional review packet covering source maintenance, formal-procedure limits, staffed window, ordinary-task baseline, accessibility/public-parity co-test, the sole primary metric and denominator, four stop hard gates, approval scope and independent retest.
+- Turned H01-H07 into signable closure conditions and created eight candidate-scoped D01-D08 material records with source/receiver, custodian, professional reviewer, date, version, locator, hash, quality-gate and disposition fields. Real attachments, duty acceptance, approvals, field values and independent retest remain zero and are not filled with targets or simulations.
+- Prepared a seven-item independent human bilingual sampling/signoff packet covering the summary, three prototypes, every visible number and structured metric, source classes, G0/approval limits, figure/page positions and implementation gates. Signature fields remain empty and no human confirmation is claimed.
+- Geometry, `metrics.json`, 12/8/3/36 counts, all four PDF page counts, media and rights boundaries remain frozen; the 10/10 T-02 synthetic replay is not service accuracy.
+
+## v58.2 - 2026-08-24
+
+**93 分 exact-head 评审定向修复 / Exact-Head 93-Point Review Repair**
+
+- 将英文主稿中的中文品牌名从代码语义改为正文强调，消除 Linux/打包预览对等宽字体回退的依赖；本地离线 CJK 子集仍明确覆盖“`双轨京张`”全部字形。
+- 把区域协同从一段角色枚举改为六行条件式接力矩阵。北纬社区只作为与原点社区并列但不可互换的社区语境对照点；所有外部节点继续为未确认可选角色，只接收最小 G0 任务/协议与匿名或合成证据包，没有书面接责、合法数据边界、普通任务基线及适用 H01—H07 时不启动。
+- 将双语实质等价记录扩展为八项关键主张的逐项位置映射，覆盖总纲、三原型、四态、冻结计数、G0/NO-GO、区域接力、权利来源和定页出版。明确标注这是投稿方侧 Agent 审校；独立人工确认与认证翻译尚未提供，不作虚假闭合。
+- 本次不改变 geometry、`metrics.json`、12/8/3/36 计数、四份 PDF 页数或既有媒体状态；区域接力为正文澄清，不制造伙伴、现场、批准、预算、现实结果或成熟度升级。
+
+- Changed the Chinese brand name in the English source from code semantics to ordinary emphasized text, removing dependence on platform monospace fallback while retaining explicit glyph coverage in the local offline CJK subset.
+- Replaced the regional-coordination role list with a six-row conditional relay matrix. Beiwei Community is only an optional community-context comparator beside, not interchangeable with, Origin Community. Every external node remains unconfirmed and accepts only a minimum G0 task/protocol plus anonymized or synthetic evidence; no relay starts without written role acceptance, a lawful data boundary, an ordinary-task baseline and applicable H01-H07 materials.
+- Expanded the bilingual material-equivalence record into an eight-claim location map covering the thesis, prototypes, four states, frozen counts, G0/NO-GO, regional relay, rights/sources and fixed-page publication. It explicitly remains contributor-side agent QA; independent human confirmation and certified translation are not provided.
+- This repair changes no geometry, `metrics.json`, 12/8/3/36 count, PDF page count or media status, and creates no partnership, field result, approval, budget or maturity advancement.
+
+## v58.1 - 2026-08-24
+
+**评审可读性与权利证据定向修复 / Targeted Readability and Rights-Evidence Repair**
+
+- 响应 PR #3932 exact-head 评审：为中英 report/visual 共用一份本地 Noto Sans SC WOFF2 子集，覆盖四份 HTML 的完整字符并集与符号字符；干净 Chromium 截图不再出现中文方框，仍保持离线、无 JavaScript、无远程字体。
+- 英文 `site-overview` 的页首长标题、说明与面板标题改为有界短句/双行说明，并同步重建英文 PNG 与引用它的 A3/A0；不改变空间事实、数字或冻结几何。
+- 删除中英正文重复的第 13 章提示；两版仍保持 13 个正式章节、同一图件位置和证据边界。
+- 定向复核 `CASE-22AT` 与 `CASE-KINGS-CROSS`：前者在 Barcelona 市政府页面确认可访问；后者原 workspace URL 仍为 403，改用同一项目运营方可访问的公共咨询页。两者继续仅作背景比较，不承担海淀控制、现实绩效或成熟度证据。
+- 新增覆盖当前分发树每个路径的投稿方权利清单，记录 CC BY 4.0、MIT、ODbL、OFL、仓库临时输入与 citation-only 处理。独立法律意见、独立逐文件审计和商标检索仍为 0，不冒充外部专业结论。
+- 新增双语实质等价记录与数据缺口关闭登记：投稿方可控的字体、越界、来源新鲜度、权利清单和双语审校已经闭合；官方 polygon/CAD/控规、现场审计、责任接收、预算、批准、真实复测和独立清权继续保持 unknown/0，且逐项记录责任来源、触发器和禁止替代物。
+- 全页接触表进一步发现旧构建器的 CJK cmap 让中文版页眉/页题/页脚显示成错误汉字；改用 OFL 静态字面生成本地 2× 透明文字层，四份 PDF 保持 14+14 与 8+8 页并通过两次新进程字节一致构建。最终 SHA-256：中文 A3 `8f25771d6b943458805cf4bfc7db8038c5c5ea281d546352538da0f6076c93a5`、英文 A3 `4c0f273492f21c398904f7ff904c7354c996ce5a8cbaabed6bb28b19e6f3fee4`、中文 A0 `5fbc7f86c920cff1f3064fa81f4285ac2d9e5f2c343d0c3d32b3d9b2461ba0b8`、英文 A0 `4472306577021d01b80a34ba2a0efb4a94db4b4d7adbd73912c851b43444ca61`。
+
+- Responded to the exact-head PR #3932 review by sharing one local Noto Sans SC WOFF2 subset across both report and visual counterparts. It covers the complete four-HTML character union and symbols; clean Chromium screenshots show no CJK tofu while the package remains offline, script-free and remote-font-free.
+- Rebounded the English `site-overview` header, explanatory copy and panel heading, then rebuilt the English PNG and the A3/A0 outputs that cite it. No spatial fact, count or frozen geometry changed.
+- Removed the duplicated Chapter 13 cue in both proposals while preserving all 13 formal chapters, figure positions and evidence boundaries.
+- Narrowly refreshed `CASE-22AT` and `CASE-KINGS-CROSS`. The Barcelona City Council page is accessible; the former King's Cross workspace URL remains 403 and is replaced by an accessible public-consultation page from the same project operator. Both remain background comparisons only.
+- Added a contributor rights decision for every current distribution path across CC BY 4.0, MIT, ODbL, OFL, repository provisional input and citation-only classes. Independent legal advice, independent file-level audit and trademark search remain zero.
+- Added material bilingual-equivalence evidence and a data-gap closure register. Contributor-controlled typography, clipping, source freshness, rights inventory and bilingual review gaps are closed; official polygons/CAD/controls, field audit, accepted responsibility, budget, approvals, real retest and independent clearance remain unknown/zero with named source, trigger and invalid substitute.
+- Full-page contact sheets exposed an additional legacy CJK cmap defect in Chinese page headers/titles/footers. Local 2x transparent text layers generated from OFL static faces replace that faulty mapping. The four PDFs retain 14+14 and 8+8 pages and match byte-for-byte across two fresh-process builds. Final SHA-256: ZH A3 `8f25771d6b943458805cf4bfc7db8038c5c5ea281d546352538da0f6076c93a5`; EN A3 `4c0f273492f21c398904f7ff904c7354c996ce5a8cbaabed6bb28b19e6f3fee4`; ZH A0 `5fbc7f86c920cff1f3064fa81f4285ac2d9e5f2c343d0c3d32b3d9b2461ba0b8`; EN A0 `4472306577021d01b80a34ba2a0efb4a94db4b4d7adbd73912c851b43444ca61`.
+
+## v58.0 - 2026-08-24
+
+**终稿收敛重建 / Final Convergence Rebuild**
+
+- 从 canonical `main@37f5541dfab74d7f89aa0f57bf1c64ab542b036b` 建立新分支；前序 PR #3904 已关闭并由本轮替代，同包无其他开放 PR，开工树洁净。
+- 修复前基线写入 `visual/assets/convergence-baseline.json`：156 个路径、23,720,803 字节、双语正文各 640 行、四份 PDF 共 44 页、9 个可选媒体路径；九份 geometry 与 `metrics.json` 的 Git-blob SHA-256 被锁定。RED-01—04 是投稿方编辑/包审查，不是公众反馈、专家意见、现场观察、审批或评审结果。
+- 权利与来源不再用互相矛盾的总开关表达。`report/copyright_statement.md` 完整记录投稿方内容 CC BY 4.0、代码 MIT、OSM ODbL、Noto Sans SC OFL 与第三方排除；48 条来源保留中央正式/临时/背景、投稿方自采或包内自编身份。独立法律意见、逐文件独立权利审计和商标检索仍为 0，不冒充专业结论。
+- 清退 9 个非必要模型媒体路径与 10 个旧漫游/样式/重复入口。新增双语普通生活、四态和专业交接三组原创静态 SVG/PNG；visual 收束为 6 个导航、6 个可见段落、0 JavaScript、0 远程资源、0 autoplay，并显式覆盖总览、三层范围、重点区、用地、交通、蓝绿、建筑、更新项目、AI 场景、指标、任务、自检和假设。
+- 仅把既有 `JZ-05 × SCENE-011 × T-02` 设为 pre-G1 专业核验候选。其 10 个合成回放、10 个决策匹配与 4/4 停止恢复分支不升级成熟度；H01—H07 任一缺失、拒绝或过期均保持 G0 / NO-GO，现实服务、现场测试、批准、采购、责任接受与恢复时长均为 0 或 unknown。
+- 四份 PDF 不增页，保持 A3 14+14、A0 8+8，共 44 页。首次逐页 QA 发现页眉/页脚字体子集 glyph ID 错位，修复后重建；空白页、替换字形与加密页均为 0。两次新进程逐文件字节一致：中文 A3 `8c176a11e728495e95e701ba45d0df47c610836fe00ce53c5be3fca1c3bfcec5`、英文 A3 `c4b08b805115eed429dc632d8caf7912bd2b9e0c90e0f51447332c1506d72828`、中文 A0 `186ee3983dade183dce138472d6708d36c8350d45200c267bc57a940f807c910`、英文 A0 `c03f457c268191e313ea3d73c8e188074d310ac30a97f7671a72ab7428d2cfcb`。
+- 最终树保留 148 个路径，双语正文各 642 行。十个冻结对象（九份 geometry 与 `metrics.json`）SHA-256 与基线 10/10 一致；12/8/3/36、唯一“双轨京张”、三处不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、NO-GO、provisional、现实结果 0、完整非 AI 路径、故障只停验证叠层、恢复非授权/批准/G1 与专业否决全部冻结。
+- T-02 为 10/10 exact、4/4 停止恢复分支、13/13 控制项，模型/网络/现实服务调用均为 0。严格评分、空间、视觉、专业、marked self-check、participant preflight、manifest、作者与范围检查绑定最终 exact head；临时边界警告按真实性要求保留。
+
+- Built from canonical `main@37f5541dfab74d7f89aa0f57bf1c64ab542b036b`; closed PR #3904 is replaced, no competing package PR existed, and the start tree was clean.
+- The RED baseline records 156 paths, 23,720,803 bytes, 640 lines in each proposal, 44 PDF pages, nine optional media paths and ten frozen geometry/metrics blob hashes. The four findings are contributor editorial/package audits, not public feedback, expert opinion, field observation, approval or a jury result.
+- Component rights are explicit: CC BY 4.0 for contributor content, MIT for contributor code, ODbL for OSM derivatives, OFL for the embedded Noto Sans SC subset, and third-party exclusions. Forty-eight sources retain their central or package-local governance status. Independent legal advice, file-level audit and trademark search remain zero.
+- Nine optional model-media paths and ten obsolete walkthrough/style/redundant entrances are removed. Three bilingual original static SVG/PNG families carry ordinary life, four states and professional handoff. The visual has six navigation items, six visible sections, zero JavaScript, zero remote resource and zero autoplay.
+- Only `JZ-05 × SCENE-011 × T-02` is named as a pre-G1 professional review candidate. Any missing, rejected or expired H01-H07 item keeps G0 / NO-GO; no field result, approval, procurement, accepted duty, duration or G1 is claimed.
+- Four PDFs keep 14+14 A3 and 8+8 A0 pages. Full-page QA exposed and repaired a subset-glyph mapping defect. The four byte-identical hashes are recorded above; blank, replacement-glyph and encrypted pages are zero.
+- The final tree retains 148 paths and both proposals have 642 lines. All ten frozen geometry/metrics hashes match baseline. T-02 is 10/10 exact, 4/4 stop/recovery and 13/13 controls with zero model, network or real-service call.
+
+## 历史索引 / Historical index
+
+为保持人读可用并满足 Markdown 256 KiB 上限，v56.0—v2.4 的重复长篇中英记录在 v58 收束为索引。完整原文仍在本轮基线提交 `37f5541dfab74d7f89aa0f57bf1c64ab542b036b` 的 `changelog.md` 中，可逐行恢复和比较；本索引不改变当时事实、边界或提交 SHA。
+
+To keep the log human-readable and below the 256 KiB Markdown gate, repeated bilingual prose for v56.0–v2.4 is compacted into this index. The complete prior text remains recoverable at baseline commit `37f5541dfab74d7f89aa0f57bf1c64ab542b036b`; this index does not alter historical facts, boundaries or commit SHAs.
+
+- 2026-08-23: v56.0 — 已批规划语境对位与前台图件去重。
+- 2026-08-21: v55.0 — 海淀日常证据化与前后台压缩；v54.0 — 空间裁决前置与前台去元叙事。
+- 2026-08-20: v53.0 — 评审图集完整性与定页出版终审；v52.0 — 公共地面详细设计图集；v51.0 — 人尺度行动剖面；v50.0 — 终稿证据缺口关闭；v49.0 — 城市代谢与退出成本。
+- 2026-08-19: v48.0 — 最终预检与提交冻结；v47.0 — PDF 出版终审；v46.1/v46.0 — 证据新鲜度与现场对位；v45.0 — 视听真实性；v44.0 — 可访问公共信号。
+- 2026-08-18: v43.0 — 实施移交矩阵；v42.0 — 故障治理写回；v41.0 — 非 AI 同任务服务蓝图；v40.0 — 冷读修复。
+- 2026-08-17: v39.0 — 冷读基线；v38.0/v37.0 — 前序终稿链收束。
+- 2026-08-15: v36.0—v22.0 — 权利、专业交接、维护、失败、气候、公共利益、可逆构件与出版多轮深化。
+- 2026-08-14: v21.0—v19.0 — 终稿视觉、证据与双语质量深化。
+- 2026-08-13: v18.0—v12.0 — 普通生活、四态、三处原型、视觉与移交合同深化。
+- 2026-08-12: v11.0—v5.0 — 运营、场景、文化、产业、AI 基础设施与空间系统深化。
+- 2026-08-11—10: v4.0—v2.5 — 早期方案与正式包结构演进。
+- 2026-08-09: v2.4 — 初始正式化记录。
+
+所有历史轮次均受当时仓库规则与其记录的 provisional/G0/rights 边界约束；较早的“就绪”表述不得覆盖 v59 当前分层许可、来源治理、现实结果 0 与 H01—H07 未接受状态。

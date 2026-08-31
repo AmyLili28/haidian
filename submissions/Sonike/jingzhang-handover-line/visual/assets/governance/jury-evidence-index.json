@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "title_zh": "评委 30 秒／3 分钟／15 分钟证据索引",
+  "title_en": "Juror 30-second / 3-minute / 15-minute evidence index",
+  "scope_note_zh": "这是一张阅读路径，不是评分结论、官方认可或新增实施事实。每条路径都同时展示方案主张和证据边界。",
+  "scope_note_en": "This is a reading path, not a score, official endorsement or new implementation fact. Every path shows both the proposition and its evidence boundary.",
+  "review_paths": [
+    {
+      "path_id": "JURY-30S",
+      "time_seconds": 30,
+      "question_zh": "这是什么、落在哪里、为什么不是空泛 AI 园区？",
+      "answer_zh": "一条 9.5 公里公共梳背串联三座责任不同的交接场；F/05 把公开交接桌画成从 1:500 到 1:20、可拒绝且可原状恢复的第一个 P0。",
+      "evidence_refs": [
+        "proposal.md#京张交接线--jing-zhang-handover-line",
+        "assets/figures/site-overview.png",
+        "assets/figures/metrics-evidence.png",
+        "visual/assets/governance/p0-pre-feasibility-envelope.json#decision_boundary_zh"
+      ],
+      "boundary_zh": "现场 0/12、门回执 0/12；技术图为参赛者概念筛选，预算、保险与专业签认仍为空。"
+    },
+    {
+      "path_id": "JURY-3M",
+      "time_seconds": 180,
+      "question_zh": "空间、服务与实施是否形成同一条证据链？",
+      "answer_zh": "依次看总体梳状结构、三场剖面、十二场景接管、F/05 同源控制平面/运营叠图/双面接口/恢复链，以及 F/06 的专业交付梯。",
+      "evidence_refs": [
+        "proposal.md#总体设计范围城市更新与控规深度城市设计",
+        "proposal.md#重点区域详细设计",
+        "proposal.md#更新项目清单实施政策与分期计划",
+        "drawings/a0-boards.pdf#p01",
+        "drawings/a0-boards.pdf#p06",
+        "drawings/a0-boards.pdf#p07",
+        "assets/figures/metrics-evidence.png",
+        "assets/figures/implementation-handoff.png",
+        "visual/index.html#p0-prototype"
+      ],
+      "boundary_zh": "12/12 与 48/48 是合成离线证据；真实授权、主体和专业签认未取得。"
+    },
+    {
+      "path_id": "JURY-15M",
+      "time_seconds": 900,
+      "question_zh": "能否复算、拒收、回滚，并交给专业团队继续深化？",
+      "answer_zh": "完整核对 A3 图册、指标与几何、八门五阶段合同、公共服务等价、预可行性试算、风险矩阵和版权来源。",
+      "evidence_refs": [
+        "drawings/a3-booklet.pdf#p01",
+        "drawings/a3-booklet.pdf#p02",
+        "drawings/a3-booklet.pdf#p03",
+        "drawings/a3-booklet.pdf#p05",
+        "drawings/a3-booklet.pdf#p10",
+        "drawings/a3-booklet.pdf#p12",
+        "drawings/a3-booklet.pdf#p13",
+        "drawings/a3-booklet.pdf#p14",
+        "metrics.json",
+        "design_depth_matrix.json",
+        "visual/assets/governance/p0-delivery-contract.json",
+        "visual/assets/governance/p0-pre-feasibility-envelope.json",
+        "visual/assets/governance/implementation-handoff-register.json",
+        "visual/assets/governance/public-service-equivalence-contract.json",
+        "assumptions.json",
+        "sources.json"
+      ],
+      "boundary_zh": "正式几何、权属、报价、保险、许可、专业结论与现场绩效均继续由各自门槛阻断。"
+    }
+  ],
+  "rubric_evidence_index": [
+    {
+      "dimension_id": "brief_alignment",
+      "focus_zh": "任务书、三层范围、三区两翼、产业与公共治理",
+      "primary_refs": ["proposal.md#三层范围工作框架", "compliance_matrix.json#taskbook_entry_map", "drawings/a0-boards.pdf#p01"],
+      "boundary_ref": "assumptions.json#A-BOUNDARY-001"
+    },
+    {
+      "dimension_id": "originality",
+      "focus_zh": "以铁路双联交班重构 AI 进入城市的空间与责任机制",
+      "primary_refs": ["proposal.md#京张交接线--jing-zhang-handover-line", "assets/figures/site-overview.png", "assets/figures/logo-identity.png"],
+      "boundary_ref": "sources.json#sources"
+    },
+    {
+      "dimension_id": "ai_planning_innovation",
+      "focus_zh": "BUILD→VERIFY→SHARE→SERVE→RETURN、十二场景、人工接管与无 AI 等价",
+      "primary_refs": ["proposal.md#ai能力建设与场景导则", "simulation.json", "visual/assets/governance/public-service-equivalence-contract.json"],
+      "boundary_ref": "metrics.json#field_rehearsal_task_count"
+    },
+    {
+      "dimension_id": "implementation_feasibility",
+      "focus_zh": "F/05 同源 1:100 控制平面、1:50 运营叠图、1:20 双面接口与恢复链，以及 5 级图纸、4 级释放、9 项目、6 包、11 个物理运营模块、11 类实施方案、6 步正式计价方法、12 文件闸门与条件工期",
+      "primary_refs": ["assets/figures/metrics-evidence.png", "visual/assets/governance/implementation-handoff-register.json#technical_figure_binding", "assets/figures/implementation-handoff.png", "visual/assets/governance/p0-pre-feasibility-envelope.json", "visual/assets/governance/implementation-handoff-register.json", "visual/assets/governance/implementation-handoff-register.json#implementation_policy_basis", "visual/assets/governance/implementation-handoff-register.json#implementation_scheme_module_register", "visual/assets/governance/implementation-handoff-register.json#formal_cost_method", "metrics.json#implementation_policy_module_mapping_ratio", "metrics.json#implementation_cost_method_step_count", "visual/assets/governance/p0-delivery-contract.json", "drawings/a3-booklet.pdf#p14"],
+      "boundary_ref": "visual/assets/governance/implementation-handoff-register.json#current_external_evidence"
+    },
+    {
+      "dimension_id": "public_interest_inclusion",
+      "focus_zh": "六类群体、八类需求、拒绝算法不受罚、非消费公共底盘",
+      "primary_refs": ["proposal.md#公共利益是开闸条件", "visual/assets/governance/public-benefit-gate.json", "visual/assets/governance/public-service-equivalence-contract.json"],
+      "boundary_ref": "metrics.json#real_user_accessibility_observation_count"
+    },
+    {
+      "dimension_id": "risk_compliance",
+      "focus_zh": "公开数据边界、隐私、版权、专业签认、失败关闭与撤场恢复",
+      "primary_refs": ["proposal.md#风险版权与合规说明", "sources.json", "assumptions.json", "standard_matrix.json"],
+      "boundary_ref": "visual/assets/governance/formal-review-readiness-matrix.json"
+    },
+    {
+      "dimension_id": "expression_completeness",
+      "focus_zh": "双语正文、六张核心图、四套图纸、离线原型、指标与证据矩阵",
+      "primary_refs": ["manifest.json", "proposal.en.md", "drawings/a0-boards.en.pdf", "visual/index.en.html", "design_depth_matrix.json"],
+      "boundary_ref": "self_check.json"
+    }
+  ],
+  "consistency_rule_zh": "任一载体如出现比本索引更强的现场、成本、容量或批准主张，以 p0-delivery-contract.json 与 implementation-handoff-register.json 的 current_external_evidence 为上限；不得把阅读索引当作事实来源。",
+  "consistency_rule_en": "If any carrier makes a stronger field, cost, capacity or approval claim than this index, the current_external_evidence boundaries in p0-delivery-contract.json and implementation-handoff-register.json govern. The reading index is never itself a factual source."
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "ASSUMP-001",
+      "title": "Provisional boundary used as design boundary",
+      "detail": "The provisional boundary supplied in the site package is used as the design boundary for all geometry, metrics, and compliance mappings. Official redline has not yet been published.",
+      "scope": "geometry",
+      "impact": "All area calculations, land-use allocations, and compliance checks are based on a provisional boundary that may differ from the official redline.",
+      "mitigation": "Replace with official boundary when published; all metrics and geometry are structured for straightforward swap."
+    },
+    {
+      "id": "ASSUMP-002",
+      "title": "Land use allocation based on conceptual design, not official zoning",
+      "detail": "Land use zones are proposed by the agent based on design logic and existing urban fabric analysis. They do not represent approved regulatory zoning.",
+      "scope": "planning",
+      "impact": "Land use codes and zone areas are design proposals subject to professional review and regulatory approval.",
+      "mitigation": "Zoning must be confirmed by licensed planner against official control detailed planning documents."
+    },
+    {
+      "id": "ASSUMP-003",
+      "title": "Building footprints are conceptual, not engineering designs",
+      "detail": "All building footprint polygons represent conceptual massing and placement. They are not structural, MEP, or construction-ready designs.",
+      "scope": "architecture",
+      "impact": "Building areas, heights, and densities are indicative only and require professional architectural and structural engineering confirmation.",
+      "mitigation": "Engage licensed architects and engineers for detailed design development."
+    },
+    {
+      "id": "ASSUMP-004",
+      "title": "Road network supplements existing infrastructure",
+      "detail": "The proposed road network includes both new roads and upgrades to existing roads. Road centerlines are conceptual alignments.",
+      "scope": "transportation",
+      "impact": "Road lengths, connectivity metrics, and traffic capacity estimates are approximate and require traffic engineering validation.",
+      "mitigation": "Traffic impact assessment to be conducted by qualified transportation engineer using official road redline data."
+    },
+    {
+      "id": "ASSUMP-005",
+      "title": "Green space ratio target based on similar innovation districts",
+      "detail": "The 15% green space ratio target is derived from benchmarking against comparable innovation districts globally (e.g., Cambridge Innovation Cluster, Shenzhen Bay Eco-Tech Park).",
+      "scope": "landscape",
+      "impact": "Actual green space ratio may need adjustment based on detailed ecological survey and municipal green space standards.",
+      "mitigation": "Confirm with landscape architect against Beijing municipal green space planning standards."
+    },
+    {
+      "id": "ASSUMP-006",
+      "title": "Phase timing assumes continued policy support",
+      "detail": "The three-phase implementation timeline (2025-2027, 2028-2030, 2031-2035) assumes continued municipal and national policy support for AI innovation belt development.",
+      "scope": "implementation",
+      "impact": "Phase durations and sequencing may shift if policy priorities, funding, or regulatory frameworks change.",
+      "mitigation": "Implementation schedule should be reviewed annually against updated policy directives."
+    },
+    {
+      "id": "ASSUMP-007",
+      "title": "Scenario cards represent plausible near-term AI capabilities",
+      "detail": "The 12 AI+ scenario cards describe plausible applications of current and near-term AI technology in urban life. They are design provocations, not guaranteed product specifications.",
+      "scope": "narrative",
+      "impact": "Scenario feasibility depends on technology maturation, regulatory approval, and market adoption.",
+      "mitigation": "Scenario cards are framed as aspirational; implementation requires technology partner validation."
+    },
+    {
+      "id": "ASSUMP-008",
+      "title": "User personas based on Haidian demographic patterns",
+      "detail": "The 6 user personas are constructed from Haidian district demographic data, AI industry workforce profiles, and typical urban user archetypes.",
+      "scope": "narrative",
+      "impact": "Personas are representative archetypes, not statistically validated user segments.",
+      "mitigation": "User research and community engagement should validate and refine personas during detailed design."
+    },
+    {
+      "id": "ASSUMP-009",
+      "title": "Global case studies used as reference, not direct templates",
+      "detail": "Six global innovation-district cases are referenced for design inspiration and lessons learned: Shenzhen Huaqiangbei, Boston Innovation District (Seaport), Tel Aviv (Silicon Wadi), Singapore Jurong Lake District, London King's Cross Central, and Barcelona 22@/Superblocks. Each is individually registered as a CASE-* entry in sources.json with its own URL and access date, and corresponds one-to-one with the abstract case cards under assets/cases/. They are not direct planning templates.",
+      "scope": "narrative",
+      "impact": "Direct transfer of strategies from different regulatory, cultural, and climatic contexts may not be appropriate.",
+      "mitigation": "Case study lessons are adapted to the Beijing/Haidian context through the design process; the abstract case cards are participant-authored and contain no third-party photographs, logos, or map tiles."
+    },
+    {
+      "id": "ASSUMP-010",
+      "title": "Jacquard governance protocol is conceptual, not implemented",
+      "detail": "The Jacquard governance protocol (multi-stakeholder coordination mechanism inspired by Jacquard loom pattern logic) is a conceptual design proposal for the AI belt's long-term management.",
+      "scope": "governance",
+      "impact": "Governance structures require legal, institutional, and stakeholder validation before implementation.",
+      "mitigation": "Governance framework to be developed with legal counsel and municipal government stakeholders."
+    },
+    {
+      "id": "ASSUMP-011",
+      "title": "Heritage references are interpretive, not authenticated",
+      "detail": "References to Beijing-Zhangjiakou Railway heritage and Jacquard loom historical connections are interpretive design narratives. They have not been authenticated by heritage authorities.",
+      "scope": "cultural",
+      "impact": "Heritage claims may require verification by cultural heritage authorities before public communication.",
+      "mitigation": "Engage Beijing heritage preservation authorities for authentication and endorsement."
+    },
+    {
+      "id": "ASSUMP-012",
+      "title": "A-CONTROLS-001: Detailed regulatory controls require professional confirmation",
+      "detail": "Detailed regulatory controls, road redlines, ownership, municipal utilities, and engineering constraints must be confirmed from official attachments before statutory use.",
+      "scope": "compliance",
+      "impact": "The package can be reviewed as a formal AI submission only for provided official boundaries and submitted design layers; statutory controls still need professional confirmation.",
+      "mitigation": "Replace provisional data with official documents before professional scoring."
+    },
+    {
+      "id": "ASSUMP-013",
+      "title": "Two-wing structure adopted from public official reporting",
+      "detail": "The west Zhongguancun Sci-Tech Service Wing and east Xiaoyuehe Scenario-Empowerment Wing follow the \"Three Zones, Two Wings\" wording in an April 2026 article on the Beijing Municipal Science and Technology Commission website. Wing extents are not bounded by any official geometry, and the reported ~37 km2 scale differs from the taskbook 43.6 km2 coordinated research scope.",
+      "scope": "regional_structure",
+      "impact": "Wing contents are coordination-level concepts without site boundaries or development-intensity assumptions; area figures from the media report are never mixed into this proposal's metrics.",
+      "mitigation": "All wing content is woven into existing streets, canal blue lines, and public space; when official boundary and waterway data become available, alignments and indicators are recalculated and official naming takes precedence."
+    },
+    {
+      "id": "ASSUMP-014",
+      "title": "Regional collaboration counterparts are conceptual and non-binding",
+      "detail": "Regional counterparts named in Section 9.5 (Zhongguancun AI Beiwai Community, the Three Cities and One Area platform, Zhangjiakou, neighboring sub-districts, global nodes) are described from public reporting as conceptual collaboration directions. No agreement, authorization, or commitment exists with any counterpart.",
+      "scope": "regeneration_implementation",
+      "impact": "None of the described collaborations can be read as signed partnerships, service guarantees, or investment commitments.",
+      "mitigation": "Any implementation requires separate authorization from the counterpart institutions; monitored indicators are limited to voluntary referrals and feedback, and collaboration remains appealable and exitable."
+    },
+    {
+      "id": "ASSUMP-015",
+      "title": "Accessibility baseline pending on-site audit",
+      "detail": "accessibility_completion remains unknown until a real sidewalk audit (curb ramps, dropped kerbs, crossing facilities) is carried out. The measurement plan registered in metrics.json defines the formula, data source, and quarterly re-measurement cadence.",
+      "scope": "public_interest",
+      "impact": "Inclusive-performance claims stay qualitative during the concept stage; no accessibility value is fabricated.",
+      "mitigation": "Publish the audit protocol and baseline results when operational data becomes available; until then the metric stays unknown by design rather than being backfilled."
+    },
+    {
+      "id": "ASSUMP-016",
+      "title": "Honor-display system is non-authoritative and fully revocable",
+      "detail": "The AI-contributor honor wall described in Section 9.4.1 publishes voluntary GitHub IDs and public contribution links only after contributor confirmation, under a CC BY 4.0 display-level license.",
+      "scope": "public_interest",
+      "impact": "Honor display must not be read as a competition rating, acceptance promise, organizer endorsement, or government recognition.",
+      "mitigation": "Annual refresh, 10-working-day complaint review, and immediate takedown with archived records when a license lapses, on the contributor's request, or on failed verification."
+    }
+  ]
+}

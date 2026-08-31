@@ -1,60 +1,35 @@
-# Formal Narrative
+# 设计执行摘要 / Design Delivery Summary
 
-This narrative is derived from the structured AI package. Geometry, metrics, compliance matrix, drawings, and visual/index.html remain cross-checked deliverables.
+京张铁路遗址公园已经是一条承载散步、通勤、休息和穿越的公共线，沿线两侧同时分布科研园区、校园、社区、轨道站点、商业与蓝绿空间。X京张提出的城市价值是：**AI不是投放给城市的成品，而是城市共同做成的公共能力。** 九公里城市生活因此成为九公里AI研发环境，居民经验、研究方法、工程能力、公共空间和日常服务共同参与产品定义、制作、开放与修改。
 
-## Agent task output appendix
+方案把京张定义为一条城市AI共同开发环境。社区、校园、轨道、生态、产业和文化六类知识沿线接入；众智园让公众知识进入工程，AI原点让一个团队的成果被别人继续开发，大钟寺让生活经验直接写出下一轮任务。铁路的核心价值由此不是控制，而是把差异地点连接成连续系统，让同一个问题在不同条件下被交接、修改并继续运行。
 
-### Logo/VI and Regional Coordination
+典型故事从大钟寺无障碍到达问题出发：72岁非数字用户周阿姨与轮椅使用者代表、服务人员和开发者共同移动路缘、停靠样带与人群标记，把身体经验写成工程工况；AI原点把方法、接口和限制留在公共原型长桌，让另一团队继续修改；回到大钟寺后，日常使用又发现停靠与围观影响转弯，新问题再次进入研发。具身产品只是候选工具，票据、状态机和验证器保留为质量底盘。
 
-- Wordmark: 有据京张 | JINGZHANG LEDGER LINE.
-- Symbol direction: an original rail-spine plus ledger-node mark; no third-party logo, trademark, or proprietary font is used.
-- VI colors: ledger blue, civic green, event amber, and night ink.
-- Regional interfaces: 北纬社区 for inclusive service, 未来科学城 for joint open scenarios, 怀柔科学城 for research-to-demo conversion, 经开区 for intelligent terminal industrialization, and 京津冀 for annual cross-regional standards and talent exchange.
+## 可审查成果
 
-### Global Case References
+- 14个七段双翼用地单元、概念建筑接口、13条路线、7处绿地单元、15处场景与地标节点、3个实施阶段。
+- 12张场景运营卡，含4个产业测试验证场景，并逐项明确责任主体、数据期限、人工接管、响应时限、衡量指标、停止条件和复原动作。
+- 5个区域协同接口、8个一手案例、7要素保障、12项实施项目、年度运营与社区治理。
+- 原创标志方向、3处地标、8类组件、8类用户画像和无AI等价服务底线。
+- 三处重点区平面与公共剖面、连续无障碍验收链、总体鸟瞰证据对照和12项专业移交责任表。
+- 一位不使用智能手机的72岁复合人物，从大钟寺到AI原点的8步旅程；一件具身AI产品从0.8失败、0.9复测到0.10返回的9事件全生命周期。
+- TEST、RELEASE、USE三站分别签发测试回执、发布票和公众裁决，三类失败均有触发、人工动作、空间复原与再次进入条件。
+- X Census、生命周期状态机和三站概念拓扑继续随包保存，分别承担内部语汇审计、失败路径复核和空间关系复核；具体计数下沉到机器证据，不作为现场结论或原创性证明。
+- 双语网页、A3图册与A0展板优先展示城市问题、总体空间、三站差异和物理折返；专业验证、来源、假设与清单集中到后部审查层。
+- 双语三张英雄图分别说明九公里共同开发环境、三种共同开发空间和一个无障碍到达问题如何被一群人持续修改；A3前八页与五张A0按WHY、HOW、ONE STORY、CITY SYSTEM、PROOF重排。
 
-1. Kendall Square / MIT area: university-enterprise-prototype district.
-2. Toronto MaRS Discovery District: innovation service platform near transit.
-3. London King's Cross Knowledge Quarter: heritage rail land plus research, culture, and public realm.
-4. Paris-Saclay: research campus and regional mobility/service support.
-5. Singapore one-north: mixed innovation district with talent life services.
-6. Pittsburgh Robotics Row: robotics and AI testing ecosystem.
+## 数据状态
 
-These cases are background method references only and do not replace local data, official boundaries, or professional design judgment.
+总体和重点区边界均为临时约束。图层和指标用于概念设计、拓扑、自检与内容评审，不用于官方红线、审批、权属、工程或精确面积判断。official polygon是尚未发布的组织方外部输入；该输入发布后才触发参与者整链重建。
 
-### Scenario operation matrix
+## 当前正式评审准备状态
 
-| Scenario | Industry test | Spatial anchor | Candidate operator | Data boundary | Review / exit / KPI |
-| --- | --- | --- | --- | --- | --- |
-| Open-source Release Hall | yes | AI Origin | university + open-source community + district service platform | licensed project metadata and event registration | human review before launch; stop if license/privacy/accessibility test fails; KPI: pilot completion and response time |
-| Safety Governance Sandbox | yes | Zhongzhi Park | standards body + platform operator | test protocol, risk log, public notice | red-team and public-risk review; stop on unresolved safety issue |
-| Edge Compute Node | no | public service node | utility operator + platform maintainer | energy status and anonymized device health | energy/safety review; stop if utility interface is not confirmed |
-| Slow-Mobility Gap Review | no | heritage park route | transport planner + community reviewer | public map, site survey, manual audit | human confirmation before route advice; KPI: accessible route coverage |
-| International Demo Lounge | yes | Dazhongsi | industry service platform | cleared demo material and participant consent | copyright and event permit review; stop on unlicensed content |
-| Qinghe Low-Carbon Interface | no | Zhongzhi Park river edge | park operator + environmental reviewer | non-personal environmental sensor data | flood/ecology review; KPI: public-space comfort |
-| Campus Conversion Street | no | AI Origin | university tech-transfer office + community service | licensed IP service metadata | IP and privacy review; stop on authorization gap |
-| Data Element Salon | yes | Dazhongsi | data compliance service + legal reviewer | authorized data catalog only | legal and human review; stop on unclear data rights |
-| AI Life Service Prototype Street | no | community/commercial edge | community service center | voluntary service requests and offline alternatives | equal-service check; stop if non-digital users are excluded |
-| Global AI Event Route | no | one-line public route | event committee + public-space operator | event schedule, crowd plan, public feedback | event safety review; KPI: complaint response and accessibility |
+- 当前参与者可控制的包内阻断项：`NONE`。
+- 四项 trusted gates：`PASS / PASS / PASS / PASS`。
+- 本版本双语等价与当前资产来源：`CLOSED`。
+- 仓库测试与合成演练：`PACKAGE / SYNTHETIC`，不证明现场安全、合规、认证、公众接受或批准。
+- 空间与边界：`CONCEPT / PROVISIONAL`；正式边界为`EXTERNAL`组织方输入。
+- 七项PRE-PILOT授权：`FUTURE-TRIGGERED`，只阻断真实现场启动，不阻断当前概念包专业评审。
 
-### Landmarks, Honor Display, Components, and Operations
-
-- LM-01 Rail Ledger Gate: AI Origin / heritage route, pilgrimage landmark.
-- LM-02 Open Contribution Wall: Zhongzhi Park, honor display; names shown only after contributor authorization.
-- LM-03 Dazhongsi Demo Beacon: Dazhongsi station interface, industry showcase landmark; enterprise content requires license.
-- Component kit: ledger bench, low-glare light, offline service panel, rain-garden sensor plinth, accessible tactile map, non-AI help point.
-- Annual operations: spring open-source release week, summer safety-governance sandbox month, autumn global AI event week, winter community review and recalculation forum.
-- Scenario opening flow: proposal intake, data/privacy review, site capacity check, public notice, limited pilot, human review, KPI report, continue/revise/stop decision.
-
-### Inclusion appendix
-
-| Group | Need | Design response |
-| --- | --- | --- |
-| Older adults | offline service, legible signs, rest points | non-AI help point, tactile map, frequent seating |
-| Children and caregivers | safe crossings and shaded waiting | low-speed public route and staffed nodes |
-| Disabled users | continuous accessible routes and alternate interfaces | step-free route target, tactile panels, screen-reader text in HTML |
-| Night workers | safe lighting and service availability | low-glare route, staffed event nodes, public reporting path |
-| Non-digital users | equal service without app use | paper guide, on-site desk, phone and human review channel |
-
-Required checks: color contrast review, keyboard navigation for HTML, alt text for figures, offline non-AI service path, complaint and stop mechanism.
-
+详细状态与证据路径见 `visual/assets/formal-review-readiness-closure.json`。

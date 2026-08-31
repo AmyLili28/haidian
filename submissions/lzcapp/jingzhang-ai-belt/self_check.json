@@ -1,40 +1,226 @@
 {
+  "ok": true,
+  "submission_dir": "submissions\\lzcapp\\jingzhang-ai-belt",
+  "pr_author": "lzcapp",
+  "stage": "formal",
+  "deterministic_validation": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "submissions/lzcapp/jingzhang-ai-belt/proposal.md: 可能涉及非公开或敏感资料; maintainer review required",
+        "submissions/lzcapp/jingzhang-ai-belt/manifest.json: published schema legacy advisory: files[0]: Additional properties are not allowed ('size' was unexpected); files[1]: Additional properties are not allowed ('size' was unexpected); files[2]: Additional properties are not allowed ('size' was unexpected); files[5]: Additional properties are not allowed ('size' was unexpected); files[6]: Additional properties are not allowed ('size' was unexpected); ... 25 more; update this manifest before adopting schema 0.2.x",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+      ],
+      "proposal_files": [
+        "submissions/lzcapp/jingzhang-ai-belt/proposal.md"
+      ],
+      "changelog_files": [
+        "submissions/lzcapp/jingzhang-ai-belt/changelog.md"
+      ],
+      "changed_files": [
+        "submissions/lzcapp/jingzhang-ai-belt/agent.json",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/key-areas.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/key-areas.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/key-areas.v1.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/key-areas.v1.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/land-use-structure.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/land-use-structure.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/land-use-structure.v1.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/land-use-structure.v1.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/metrics-evidence.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/metrics-evidence.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/metrics-evidence.v1.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/metrics-evidence.v1.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/mobility-bluegreen.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/mobility-bluegreen.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/mobility-bluegreen.v1.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/mobility-bluegreen.v1.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/site-overview.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/site-overview.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/site-overview.v1.en.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assets/figures/site-overview.v1.png",
+        "submissions/lzcapp/jingzhang-ai-belt/assumptions.json",
+        "submissions/lzcapp/jingzhang-ai-belt/changelog.md",
+        "submissions/lzcapp/jingzhang-ai-belt/compliance_matrix.json",
+        "submissions/lzcapp/jingzhang-ai-belt/design_depth_matrix.json",
+        "submissions/lzcapp/jingzhang-ai-belt/drawings/a0-boards.en.pdf",
+        "submissions/lzcapp/jingzhang-ai-belt/drawings/a0-boards.pdf",
+        "submissions/lzcapp/jingzhang-ai-belt/drawings/a3-booklet.en.pdf",
+        "submissions/lzcapp/jingzhang-ai-belt/drawings/a3-booklet.pdf",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/buildings.geojson",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/constraints.geojson",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/green_space.geojson",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/key_areas.geojson",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/land_use.geojson",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/phasing.geojson",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/public_space.geojson",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/roads.geojson",
+        "submissions/lzcapp/jingzhang-ai-belt/geometry/site_boundary.geojson",
+        "submissions/lzcapp/jingzhang-ai-belt/manifest.json",
+        "submissions/lzcapp/jingzhang-ai-belt/metrics.json",
+        "submissions/lzcapp/jingzhang-ai-belt/proposal.en.md",
+        "submissions/lzcapp/jingzhang-ai-belt/proposal.md",
+        "submissions/lzcapp/jingzhang-ai-belt/report/copyright_statement.md",
+        "submissions/lzcapp/jingzhang-ai-belt/report/narrative.md",
+        "submissions/lzcapp/jingzhang-ai-belt/report/proposal.en.html",
+        "submissions/lzcapp/jingzhang-ai-belt/report/proposal.html",
+        "submissions/lzcapp/jingzhang-ai-belt/risk.json",
+        "submissions/lzcapp/jingzhang-ai-belt/self_check.json",
+        "submissions/lzcapp/jingzhang-ai-belt/simulation.json",
+        "submissions/lzcapp/jingzhang-ai-belt/sources.json",
+        "submissions/lzcapp/jingzhang-ai-belt/standard_matrix.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/brand_system.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/brand_system.svg",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/case_studies.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/cultural_symbols.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/cultural_symbols.svg",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/ecosystem_map.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/landmarks.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/landmarks_board.svg",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/logo_direction.svg",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/operations.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/persona_table.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/renewal_projects.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/scenario_cards.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/assets/scenarios.json",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/index.en.html",
+        "submissions/lzcapp/jingzhang-ai-belt/visual/index.html"
+      ],
+      "ai_package_stages": {
+        "submissions/lzcapp/jingzhang-ai-belt": "formal"
+      },
+      "total_bytes": 9177768,
+      "maintainer_bypass": false
+    },
+    "stderr": ""
+  },
+  "spatial_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "stage": "formal",
+      "issues": [
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-001",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-002",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-003",
+          "expected": null,
+          "actual": null
+        }
+      ],
+      "metrics": {
+        "site_area_sqm": 11412825.386,
+        "green_space_area_sqm": 2119034.951,
+        "public_space_area_sqm": 762163.783,
+        "building_footprint_area_sqm": 3105899.839,
+        "green_ratio": 0.185671,
+        "public_space_ratio": 0.066781
+      }
+    },
+    "stderr": ""
+  },
+  "visual_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "metrics_seen": {
+        "green_ratio": 0.185671,
+        "public_space_ratio": 0.066781,
+        "site_area_sqm": 11412825.386
+      }
+    },
+    "stderr": ""
+  },
+  "professional_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "summary": {
+        "standard_matrix_items": 6,
+        "design_depth_items": 15,
+        "known_metric_refs_required": 10,
+        "proposal_format_version": "2",
+        "evidence_contract": "section-anchors-plus-structured-audit",
+        "proposal_reference_counts": {
+          "source": 33,
+          "standard": 6,
+          "depth": 15,
+          "data": 15,
+          "metric": 10
+        }
+      }
+    },
+    "stderr": ""
+  },
+  "spatial_issue_ids": [
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL"
+  ],
+  "visual_issue_ids": [],
+  "professional_issue_ids": [],
+  "missing_review_dependencies": [],
+  "can_enter_formal_review": true,
+  "package_type": "professional_design_package",
+  "review_status": "formal-review-ready",
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {
-      "check_id": "BOUNDARY_TRUST",
+      "check_id": "DETERMINISTIC_VALIDATION",
       "result": "pass",
-      "severity": "major",
-      "target": "geometry/site_boundary.geojson",
-      "message": "Provisional boundary is present and marked official_boundary=false; it does not block content scoring. Site boundary, key areas, land use, roads, green space, public space, buildings, phasing and metrics must be fully recalculated once official polygons are supplied."
+      "severity": "blocking",
+      "target": "validate_local_submission.py",
+      "message": "deterministic_validation: PASS"
     },
     {
-      "check_id": "KEY_AREAS_TRUST",
+      "check_id": "SPATIAL_REVIEW",
       "result": "pass",
-      "severity": "major",
-      "target": "geometry/key_areas.geojson",
-      "message": "Three required key areas are provisional and marked official_boundary=false; this does not block content scoring. They must be replaced with official polygons and the design recomputed before any formal professional scoring that depends on exact geometry."
+      "severity": "blocking",
+      "target": "spatial_review.py",
+      "message": "spatial_review: PASS"
     },
     {
-      "check_id": "LAND_USE_TOPOLOGY",
+      "check_id": "VISUAL_PACKAGING",
       "result": "pass",
-      "severity": "major",
-      "target": "geometry/land_use.geojson",
-      "message": "Initial land-use polygons are derived from site boundary partitioning."
-    },
-    {
-      "check_id": "VISUAL_STATIC",
-      "result": "pass",
-      "severity": "info",
-      "target": "visual/index.html",
-      "message": "Static HTML visualization is generated without external dependencies."
+      "severity": "blocking",
+      "target": "visual_review.py",
+      "message": "visual_review: PASS"
     },
     {
       "check_id": "PROFESSIONAL_EVIDENCE",
       "result": "pass",
-      "severity": "major",
-      "target": "proposal.md",
-      "message": "Proposal includes references to standards, design depth items, geometry, metrics, sources, and assumptions."
+      "severity": "blocking",
+      "target": "professional_review.py",
+      "message": "professional_review: PASS"
     }
   ]
 }

@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "pending_official_data",
+      "statement": "The repository provisional overall design polygon and three key-area polygons are used only for generation, display and relative metrics.",
+      "impact": "All design layers, figures and ratios must be recomputed as a package after cleared official polygons arrive."
+    },
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "FAR, height, density, statutory green ratio, setbacks and building control lines are unavailable.",
+      "impact": "They remain unknown; no design suggestion is an approved control."
+    },
+    {
+      "id": "A-EXISTING-002",
+      "status": "pending_survey",
+      "statement": "Existing building, parcel, ownership, vacancy, condition and heritage inventories are unavailable.",
+      "impact": "The twelve renewal units illustrate retain/adapt programs and make no demolition commitment."
+    },
+    {
+      "id": "A-ENGINEERING-003",
+      "status": "pending_engineering_data",
+      "statement": "Road redlines, utilities, drainage, flood, energy, fire and structural conditions are unavailable.",
+      "impact": "Mobility and infrastructure alignments are conceptual and require discipline review."
+    },
+    {
+      "id": "A-OPERATIONS-004",
+      "status": "concept_governance",
+      "statement": "Named stations and operators are proposal roles, not existing institutions or government commitments.",
+      "impact": "Service-level targets become binding only through future operating agreements."
+    },
+    {
+      "id": "A-EVALUATION-005",
+      "status": "continuous_validation",
+      "statement": "Media-forensics performance varies by model, language, device and attack.",
+      "impact": "Results expire, show uncertainty, permit appeal and cannot become irreversible reputation scores."
+    },
+    {
+      "id": "A-PILOT-006",
+      "status": "pending_authorization_and_baseline",
+      "statement": "The 90-day pilot, four correction rights, station service contracts and operating roles are design proposals rather than current public services or enacted legal rights.",
+      "impact": "No performance target is presented as achieved. Human handover, same-channel correction, screenless parity, appeal reversal, user understanding and asset/data recovery require authorized field baselines."
+    },
+    {
+      "id": "A-COST-007",
+      "status": "pending_quantity_and_cost_evidence",
+      "statement": "Building quantities, ownership, condition, staffing agreements and authoritative local cost references are unavailable.",
+      "impact": "Projects use S/M/L resource bands and cost-component formulas only; monetary ranges must be added after quantity-based professional costing."
+    },
+    {
+      "id": "A-P0-008",
+      "status": "participant_reference_test_fit",
+      "statement": "Version 1.6 retains the separate 12 m by 8 m participant reference test fit for one P0 only and treats it as the minimum physical carrier of an institutional protocol; the source adjacency diagram remains non-metric and no site placement is selected.",
+      "impact": "The 96 sqm envelope and internal zones may support capacity and procurement screening, but must be rebound to a measured, authorized room before physical release."
+    },
+    {
+      "id": "A-CAPACITY-009",
+      "status": "participant_operational_screening",
+      "statement": "Fifteen-minute intake, thirty-minute independent review, thirty-minute two-channel correction and thirty-minute retest/recovery handover are participant service-time assumptions.",
+      "impact": "The derived two-case-per-hour bottleneck, eight-person waiting limit and 780 staff-hour schedule are screening values, not field baselines or service promises."
+    },
+    {
+      "id": "A-BUDGET-010",
+      "status": "share_based_pre_costing",
+      "statement": "Six procurement-package shares allocate a participant reference budget structure without currency, quantities, unit rates, quotes or funding.",
+      "impact": "The shares support scope and recovery-reserve review only; monetary bands require dated, authoritative or professionally cleared rates and owner review."
+    },
+    {
+      "id": "A-GATES-011",
+      "status": "all_external_gates_hold",
+      "statement": "All ten external gates are HOLD and no named organization, signature, field survey, professional sign-off, quote or funding commitment is asserted.",
+      "impact": "The P0 may be reviewed as a pre-implementation package but cannot open for field service; a failed gate selects a bounded safe state or retirement, never an unsupported release."
+    },
+    {
+      "id": "A-INSTITUTION-012",
+      "status": "synthetic_protocol_evidence_not_field_operation",
+      "statement": "The eight-state machine, seven operating receipt classes, closure record, separation-of-duties rules and A01-A08 results are participant-authored protocol evidence exercised on one controlled synthetic dossier.",
+      "impact": "They demonstrate internal executability and failure closure but do not appoint real organizations, authorize a live case, prove field accessibility or establish operational performance; A09-A12 remain baseline-required and null."
+    }
+  ]
+}

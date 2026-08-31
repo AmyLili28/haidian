@@ -1,0 +1,178 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-GEOM-001",
+      "status": "open_data_gap",
+      "statement": "The organizers have not supplied verifiable official polygons for the three scope levels or the three named key areas. Submitted SITE_BOUNDARY and KEY_AREA geometries are rough provisional substitutes derived from public text and approximate areas under DATA-SRC-PROVISIONAL-BOUNDARIES-20260605.",
+      "impact": "All geometry-derived areas, ratios, diagrams and spatial relationships are provisional-only. With prominent provisional labeling they may support intake self-check, offline visualization, design discussion and review of proposal content, but they must not be scored as official boundaries, precise spatial evidence, statutory conclusions, approval or implementation bases.",
+      "affected_files": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/buildings.geojson",
+        "geometry/green_space.geojson",
+        "geometry/land_use.geojson",
+        "geometry/phasing.geojson",
+        "geometry/public_space.geojson",
+        "geometry/roads.geojson",
+        "metrics.json",
+        "assets/figures/",
+        "drawings/",
+        "report/",
+        "visual/"
+      ],
+      "recalculation_trigger": "Replace provisional scope and key-area polygons with organizer-issued, coordinate-system-verified geometry; rerun topology, clipping, areas, ratios, figures, HTML and PDFs as one versioned batch."
+    },
+    {
+      "id": "A-SURVEY-001",
+      "status": "open_data_gap",
+      "statement": "No verified site survey, georeferenced field photography, building inventory, structural condition, ground-floor use, tree-canopy/shade survey, pedestrian count, accessibility audit or maintenance record is present in the package.",
+      "impact": "Existing-condition, accessibility and performance statements remain hypotheses or design intentions. The submission must not claim surveyed compliance, existing-condition completeness or engineering feasibility.",
+      "affected_files": [
+        "geometry/buildings.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/roads.geojson",
+        "assets/figures/",
+        "report/",
+        "visual/"
+      ],
+      "recalculation_trigger": "Register fieldwork date, method, coverage, consent, collection rights and limitations; reconcile every surveyed feature and performance baseline before upgrading confidence."
+    },
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Approved regulatory controls, cadastral ownership, road redlines, heritage boundaries, ecological controls, municipal utilities, fire safety, daylight, underground space and engineering constraints are unavailable.",
+      "impact": "FAR, height, density, setbacks, demolition/retention, road and infrastructure proposals cannot be treated as statutory, approved or buildable conclusions. The constraints layer intentionally remains empty rather than fabricating official geometry.",
+      "affected_files": [
+        "geometry/constraints.geojson",
+        "geometry/buildings.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "metrics.json"
+      ],
+      "recalculation_trigger": "Obtain official or expressly cleared control documents and geometries, register their authority and reuse limits, and complete professional planning and engineering review."
+    },
+    {
+      "id": "A-OPS-001",
+      "status": "open_data_gap",
+      "statement": "Operators, asset owners, delivery partners, budgets, procurement routes, staffing, maintenance capacity, pilot durations and binding service commitments have not been verified.",
+      "impact": "Programs, events, AI services, 24-hour support, financing and phased projects are proposals with entry/exit conditions, not commitments by government, owners or partners.",
+      "affected_files": [
+        "geometry/phasing.geojson",
+        "report/",
+        "visual/"
+      ],
+      "recalculation_trigger": "Confirm accountable entities, approvals, budget ranges, staffing, maintenance frequencies, pilot periods, success metrics, human takeover and stop actions in a project-level implementation table."
+    },
+    {
+      "id": "A-REGION-001",
+      "status": "open_data_gap",
+      "statement": "No verified cooperation agreements, operating interfaces or current datasets establish project-level links with Beiwei Community, Future Science City, Huairou Science City, the taskbook-named Economic-Technological Development Area scope (exact entity unresolved) or the Beijing-Tianjin-Hebei region.",
+      "impact": "Regional collaboration loops and external resource flows are conceptual network hypotheses only; named organizations must not be presented as committed partners.",
+      "affected_files": [
+        "report/",
+        "visual/",
+        "assets/figures/",
+        "visual/assets/regional-interface-contracts.json",
+        "design_depth_matrix.json#/items/11/implementation_projects[implementation_id=IM12]"
+      ],
+      "recalculation_trigger": "Add current first-party sources and, where any exchange or commitment is proposed, separately scoped written authorization from competent roles; rerun the regional-interface audit and distinguish the participant-authored design hypothesis from any later local agreement."
+    },
+    {
+      "id": "A-RIGHTS-001",
+      "status": "cleared_for_submission",
+      "statement": "A final path-level rights reconciliation was completed on 2026-08-29 after all current source retrievals and R4 generation. The dated, hash-bound audit covers the two distinct OSM evidence groups, R3-E metadata, fonts and OFL records, all bilingual figures and HTML, four PDFs, the cover, structured evidence and generation scripts at visual/assets/r5-final-snapshot-audit.json#/rights_audit.",
+      "impact": "The final audit supports redistribution of this exact hashed submission snapshot under each registered item-level limit. It does not convert provisional or background data into official evidence and is not a legal non-infringement guarantee; any later byte change reopens the audit.",
+      "affected_files": [
+        "report/copyright_statement.md",
+        "assets/figures/",
+        "drawings/",
+        "report/",
+        "visual/"
+      ],
+      "recalculation_trigger": "Any added or regenerated asset, source or font change, third-party media, audit-scope change, or manifest hash change requires a new dated path-level reconciliation and refreshed audit hashes before publication."
+    },
+    {
+      "id": "A-BILINGUAL-001",
+      "status": "reviewed_2026-08-29",
+      "statement": "A final manual bilingual equivalence review was completed on 2026-08-29 after the current Markdown, figures, HTML and PDFs were generated. It covers section and claim order, every material number and source/limit marker, the two-OSM non-substitution statement, figure identifiers and positions, 11 figure pairs, four HTML files and four PDFs; paired path hashes and the conclusion are recorded at visual/assets/r5-final-snapshot-audit.json#/bilingual_audit.",
+      "impact": "The exact hashed bilingual snapshot is cleared for review as substantively equivalent without raised confidence or dropped limitations. This is not a legal-translation certification; any later byte change to a paired artifact reopens the review.",
+      "affected_files": [
+        "proposal.md",
+        "proposal.en.md",
+        "assets/figures/",
+        "drawings/",
+        "report/proposal.html",
+        "report/proposal.en.html",
+        "visual/index.html",
+        "visual/index.en.html"
+      ],
+      "recalculation_trigger": "After any paired-artifact change, repeat the dated human review across claims, numbers, sources and limitations, identifiers, figure positions, HTML and PDFs, then refresh paired hashes."
+    },
+    {
+      "id": "A-CX-001",
+      "status": "candidate_not_surveyed",
+      "statement": "CX01–CX12 are stable candidate analysis paths clipped to the provisional site. Only CX02, CX05 and CX10 carry representative relationship-section design targets; none is a surveyed street section, accessibility audit, pedestrian count, road redline or engineering alignment.",
+      "impact": "Coordinates support repeatable comparison and fieldwork planning only. All existing widths, gradients, obstructions, crossings, user counts, ownership and maintenance duties remain unverified.",
+      "affected_files": [
+        "geometry/roads.geojson",
+        "metrics.json",
+        "assets/figures/mobility-bluegreen.png",
+        "assets/figures/mobility-bluegreen.en.png",
+        "proposal.md",
+        "proposal.en.md"
+      ],
+      "recalculation_trigger": "Register rights-cleared fieldwork with date, method, coverage, coordinates, consent, accessibility method and accountable reviewer; then replace candidate geometry and recalculate all dependent files."
+    },
+    {
+      "id": "A-DIMENSION-001",
+      "status": "mixed_evidence_status",
+      "statement": "Every Phase 2 dimension is tagged open-data-derived, design-target or unknown. Announced approximate key-area values are open-data-derived; 400 m comparison frames and representative-section bands are design targets; official extents, redlines and existing widths remain unknown.",
+      "impact": "No design target may be read as a measured fact or statutory control.",
+      "affected_files": [
+        "geometry/key_areas.geojson",
+        "geometry/roads.geojson",
+        "assets/figures/key-areas.png",
+        "assets/figures/mobility-bluegreen.png",
+        "proposal.md",
+        "proposal.en.md"
+      ],
+      "recalculation_trigger": "Any authoritative dimension or survey replaces only the matching field, then regenerates metrics, figures, HTML and PDFs."
+    },
+    {
+      "id": "A-OPEN-DATA-NEGATIVE-001",
+      "status": "background_only_negative_result",
+      "statement": "The repository boundary-basis note records a 0% OSM heritage-park intersection and a 667 m average offset to four named OSM street centre-lines from an early 2026-08-14 mismatch check. Its raw response is not registered. The separate 2026-08-28 R3 site-recognition group does include four replayable raw Overpass snapshots, but it has different queries and purposes and is not the source or recomputation basis for these two values.",
+      "impact": "The two early adverse results remain non-replayable warnings. The later replayable site-recognition background does not backfill them; neither group validates or invalidates the provisional polygon or supports survey, heritage-control, official-boundary or road-redline conclusions.",
+      "affected_files": [
+        "visual/assets/phase2-source-freeze.json",
+        "metrics.json",
+        "assets/figures/metrics-evidence.png",
+        "proposal.md",
+        "proposal.en.md"
+      ],
+      "recalculation_trigger": "Acquire the attributable raw response for the exact 2026-08-14 mismatch check and/or authoritative geometry, register its hash and rights, and rerun; never substitute the separate 2026-08-28 R3 snapshots."
+    },
+    {
+      "id": "A-PROTOCOL-001",
+      "status": "design_target_requires_legal_and_operational_review",
+      "statement": "Phase 3 defines auditable operating contracts for SC01–SC12, a shared lifecycle, Human Takeover, data minimization, complaint/appeal, red-team tests and SC10+IM06 preflight. Named controllers/operators, case-specific lawful bases, numeric durations and response thresholds, on-site staffing, accessibility, fire, energy, safety and removal feasibility remain unverified.",
+      "impact": "The contracts can structure later procurement, review, rehearsal and stop decisions, but cannot be read as legal compliance, consent, appointment, certification, public-service commitment or evidence of operation.",
+      "affected_files": [
+        "visual/assets/phase3-protocol-contracts.json",
+        "visual/assets/phase3-data-governance.json",
+        "visual/assets/phase3-red-team.json",
+        "assets/figures/scenario-matrix.png",
+        "assets/figures/scenario-matrix.en.png",
+        "assets/figures/operations-pathway.png",
+        "assets/figures/operations-pathway.en.png",
+        "proposal.md",
+        "proposal.en.md",
+        "drawings/",
+        "visual/"
+      ],
+      "recalculation_trigger": "Obtain written appointment and permission, complete case-specific legal/professional/accessibility/safety review, run documented preflight and tabletop tests, then update only the matching fields and regenerate affected Phase 3 outputs."
+    }
+  ]
+}

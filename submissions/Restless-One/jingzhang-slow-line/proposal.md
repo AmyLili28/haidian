@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "把百年京张 AI 创新带设想为一条服务最慢者的公共线：一线、三慢场、六座全停门与十二个均保留非 AI 等价路径的场景，使机器人会停、智能服务会等、城市创新不跳过任何一站。全部空间表达基于仓库临时边界，仅为可撤回、待共同设计和专业深化的概念建议。"
 tracks: ["robotics-autonomous-mobility", "ai-public-services", "youth-friendly-public-space"]
 scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "ai-traffic-walkability", "enterprise-service-copilot", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: "v0.1"
+iteration: "v1.5-professional-handoff"
 ---
 
 # 京张慢线 THE SLOW LINE：让城市跟上最慢的人
@@ -19,6 +19,15 @@ iteration: "v0.1"
 > 一项 AI 服务如果只能被跑得快、看得清、有智能手机、懂中文、白天有空的人使用，它还没有抵达城市。京张慢线提出一条简单的城市规则：**每一站都停**。任何机器人、智能终端或城市智能体进入公共空间前，都必须说明最难使用它的人是谁、没有 AI 时怎样得到等价服务、真人在哪里接管、谁有权让它停下。
 
 本方案所有空间、项目、活动、政策与运营内容均为开放共创的**概念建议、参考方案或可供专业团队深化研究的材料**，不替代正式规划，不构成政府审定、投资、建设、招商、活动或审批承诺。仓库临时几何只作为生成和自检容器；官方资料到位后必须整包复算。
+
+### 30 秒 P0 专业交接摘要
+
+> **P0-ALL-STOP-01 · 专业执行交接单元 · `NOT_AUTHORIZED` · `HOLD`**
+> 216 m² 概念筛查包络继续绑定 P0-CAND-01，但无坐标、不可放样。12 项任务、16 行 BOQ、17 个未指派角色和包内 8/8 PASS 均保持；12 项现场指标与 12 道外部门被无损聚合为 4 个外部决策包，当前 4/4 HOLD。新增 7 类双语执行空表、18 个证据回执字段、容量/疏散公式、4 个维护周期和恢复储备模板；真实记录、容量、签认、成本、资金与授权仍为 0/null/HOLD。
+
+专业团队可从工作簿直接接手调查、责任接受、D0 基线、成本、专业复核、复演维护和变更控制；四个外部决策包继续全部 HOLD。 [metric:p0_execution_form_count] [metric:p0_external_decision_bundle_count] [metric:p0_external_decision_bundle_hold_count]
+
+容量/疏散、维护和恢复储备均已有填写模板；工作簿自身不构成现场证据或放行。 [metric:p0_capacity_egress_template_count] [metric:p0_maintenance_cycle_count] [metric:p0_restoration_reserve_template_count]
 
 ## 设计依据与资料清单
 
@@ -30,9 +39,23 @@ iteration: "v0.1"
 
 本方案还阅读了已合并方案目录与开放 Issues，避免重复“智脉、开源轨、可验证主线”等高度收敛的母题。Issue #846 报告仓库临时总体边界与 OSM 已测绘遗址公园段存在 412.5 米最近距离；该测量与 OSM 都不能替代官方边界，所以本方案**不据此改画红线**，而是把差异列为风险，拒绝把示意慢线描述成真实公园线位。[source:ISSUE-846-BOUNDARY-AUDIT] [source:BOUNDARY-SOURCE]
 
+本次迭代进一步把“场地背景”从合成氛围中独立出来。2026 年 8 月获批的京张铁路遗址公园街区控规公开摘要确认了约 9 公里的南北公园创新带以及大钟寺、五道口等结构节点；2026 年 7 月北京市政府对开放段的报道则确认，学院南路—知春路属于社区活力段，保留老铁轨，慢行空间位于铁轨东侧，并可见声屏障、铁路路堤改造与社区城市界面。本方案因此选择**学院南路—知春路社区活力段**作为代表性区段，只用于校准方向、材料和日常使用背景，不把公开报道推演成精确工程线位。[source:OFFICIAL-JZR-CONTROL-PLAN-20260812] [source:OFFICIAL-JZR-PARK-20260730]
+
+![真实方位、文字事实工作骨架与可逆设计叠加边界](assets/figures/site-grounding.png)
+
+场地校准图明确分开三件事：A 栏的 OSM 快照只提供学院南路、北三环、知春路与遗址公园走向的方位关系，橙色框不是红线；B 栏把官方报道的文字事实转成不含实景复刻的工作骨架，只表达遗产铁路走廊、连续慢行空间、绿化缓冲与社区界面，不能被当作现状测绘；C 栏才是本方案新增的真人服务亭、实体急停和短距服务支路。机器人不得进入主慢行道，更不得跨越遗产铁轨。OSM 数据仅作开放地理背景，不能替代测绘、权属或规划审批。[source:OSM-CONTEXT-20260829] [source:OFFICIAL-JZR-PARK-20260730]
+
+![代表性铁路遗产慢行走廊的纯文本生成概念图：轨道与无障碍慢行道平行，机器人停在侧向支路停止线后](assets/media/slow-line-site-grounded.jpg)
+
+上图是**纯文本生成的代表性铁路遗产慢行走廊概念图**，没有输入照片、实景截图、同行图件或可识别真人，也不复刻任何具体相机视角。画面只解释设计关系：一对遗产铁轨与连续无障碍慢行道平行，短距服务支路与慢行道正交；机器人停在线后，不占用慢行道、不越轨；结构完整的自行车沿主慢行道通行。它不是现场照片、现状记录、官方效果图、精确选址、批准方案或工程证据；实际落位仍须测绘、权属、交通、文保与运营审批。
+
 ![总体概念、三处慢场与最慢者测试图](assets/figures/site-overview.png)
 
-成果权威顺序为 GeoJSON、metrics、三个矩阵、manifest/来源/假设/自检、正文、图件、HTML、PDF。正文负责让人读懂设计，结构化文件负责复算；图面没有远程底图、外部图片、企业商标或人物肖像。建筑与道路图层均为低置信度的概念包络和联系线，不代表测绘、权属、拆除或工程方案。[depth:existing_conditions_diagnosis] [data:geometry/site_boundary.geojson#SITE-001]
+![京张慢线人本空间体验：机器人停下、真人服务与全停市集并行](assets/media/slow-line-experience.jpg)
+
+最后一张仍保留为**非定位操作原型图**：横向低速服务车道与纵向步行穿越严格正交，机器人停在停止线外；连续无障碍通行、结构完整的单辆自行车、真人服务亭、纸本/电话路径、骑手休息与雨庭用于解释可迁移的服务规则。它不再承担场地背景说明，也不参与边界、面积或工程判断。
+
+成果权威顺序为 GeoJSON、metrics、三个矩阵、manifest/来源/假设/自检、正文、图件、HTML、PDF。正文负责让人读懂设计，结构化文件负责复算；投稿图面没有远程底图、企业商标或可识别人物肖像。场地校准图只使用署名的 OSM 派生方位线和官方报道的文字事实；主视觉从纯文本生成，不使用任何现场照片作为输入或参考。建筑与道路图层均为低置信度的概念包络和联系线，不代表测绘、权属、拆除或工程方案。[depth:existing_conditions_diagnosis] [data:geometry/site_boundary.geojson#SITE-001]
 
 ## 三层范围工作框架
 
@@ -164,6 +187,288 @@ iteration: "v0.1"
 
 “场景—空间—运营”映射遵循一条硬规则：空间节点提供停止、等候、人工帮助和清晰边界；服务卡提供目的、数据和替代路径；运营方提供排班、预算、申诉和退出。三者缺一，场景不得上线。医疗、教育、法律、安全等专业领域必须由相应人员作最终判断，AI 不得成为唯一入口。
 
+### 90 天首启样板：先证明一座全停门会停
+
+本轮不再把十二张场景卡都写成“下一步可试”，而选择一个**非定位、可撤回的全停门样板**作为最小交接单元。它只承接 S9 最慢路线规划与人工服务导航，不先承接诊断、审批、实时布控或开放道路机器人运行。现实授权状态仍为 `NOT_AUTHORIZED`；位置、运营者、共同设计者和专业复核者均未指定，任何设备采购与公众试用都必须等待现场基线、权属许可和责任签署。[metric:pilot_gate_count]
+
+| 研究窗 | 只做什么 | 必须留下的证据 | 立即 HOLD 的条件 |
+| --- | --- | --- | --- |
+| 第 0—30 天：基线与共同设计 | 四方现场走查、同任务无 AI 路径、人工开放时段、零台阶/遮荫/休息与投诉基线 | 路径发布图、障碍清单、付费共同设计记录、异议台账 | 权属或消防不清；无法提供人工等价；受影响群体拒绝 |
+| 第 31—60 天：闭环与离线演练 | 在不接入真实个人数据和公共道路的条件下，演练停止、转人工、拒绝高风险请求、服务关闭与审计缺口 | 急停演练、班次草案、数据清单、十二项合成任务台账、失败复盘 | 任何失败被平均值掩盖；缺审计；关闭人工路径时 AI 仍开放 |
+| 第 61—90 天：限时小试 | 只有前两门通过后，才讨论一个时段、一个入口、一个低风险任务的限时试用 | 逐组同任务结果、人工响应时间、投诉与删除记录、恢复前后对照 | 任一安全关键失败；任一组无法完成同一任务；退出后不能恢复原服务 |
+
+六道证据门依次为 **G0 权属与法定许可、G1 无障碍共同设计、G2 人工等价与排班、G3 隐私/安全/专业责任、G4 限时运行与独立观察、G5 恢复与公开复盘**。六门默认关闭，且不能用总分互相抵消。最小责任组合为场地权利方、无障碍共同设计方、服务运营方、安全/隐私专业方与独立复核方；当前全部为 `unassigned`。人员与成本不填虚构金额，而交付计算式：`所需人工量 = 已确认开放工时 ÷ 经运营方确认的每 FTE 可服务工时`；`ROM 成本 = 可逆空间改造 + 人工服务 + 付费共同设计 + 安全/隐私复核 + 退出恢复 + 专业造价团队确认的预备费`。
+
+### v1.5 P0-ALL-STOP-01：专业执行交接
+
+稳定对象 ID 为 `P0-ALL-STOP-01`。v1.5 保留 v1.4 的尺寸、任务、数量、排班、成本敏感性和 fail-closed 控制，并将专业团队接手所需的调查、责任接受、D0 基线、成本、专业复核、复演维护和变更控制整理为 7 类可填写双语表单。对象仍只绑定 `P0-CAND-01` 概念筛查关系，无坐标、地块、权属、许可或放样权限；17 个角色仍未指派，正式价格与资金仍为 `null/TBC`。
+
+![P0-ALL-STOP-01 场地关系、平面、断面、关键接口与条件动作](assets/figures/key-areas.png)
+
+#### 尺寸登记：每一个数都带依据和确认触发
+
+| ID | 对象 | 数值/推导 | 设计假设边界 | 确认角色 / 触发 |
+| --- | --- | --- | --- | --- |
+| P0-D01 | 概念筛查包络 | 18.0 m x 12.0 m [metric:p0_screening_envelope_area_sqm] | 用于比较既有路径、服务区与拆除通道是否能同时容纳的设计假设；不是地块面积或现场实测。 | `A-P0-RIGHTS + R-P0-SURVEY` / candidate site nominated and rights holder permits baseline survey |
+| P0-D02 | 可逆地面范围 | 12.0 m x 8.0 m service apron within the screening envelope [metric:p0_reversible_ground_area_sqm] | 用于不破坏原地面的可拆铺装、标线和服务构件布置；现场材料相容性与排水仍为 TBC。 | `R-P0-ACCESS + R-P0-DRAINAGE + A-P0-RIGHTS` / surface, level and drainage baseline complete |
+| P0-D03 | 有效慢行净宽 | continuous 18.0 m x 3.0 m unobstructed strip [metric:p0_clear_route_width_m] | 为轮椅、陪同行人与低速会车留出保守操作余量的设计假设；不声称等于法定最小值，须由无障碍、交通和消防角色按现场标准复核。 | `R-P0-ACCESS + R-P0-TRAFFIC + R-P0-FIRE` / measured cross-section and applicable public standards confirmed |
+| P0-D04 | 轮椅回转空间 | one clear circle at the service decision point and one at the staffed desk [metric:p0_wheelchair_turn_diameter_m] | 用于概念平面避免以最小设备尺寸挤压回转的设计假设；最终形状与数值由付费共同设计和无障碍专业复核。 | `R-P0-CODESIGN + R-P0-ACCESS` / co-design mock-up and measured route test |
+| P0-D05 | 人工服务桌 | 2.4 m x 0.8 m demountable module; accessible approach and counter height TBC [metric:p0_staffed_desk_length_m] | 长度用于容纳纸本、人工办理和急停控制的分区；台面高度、膝部净空和设备型号不得在无障碍复核前冻结。 | `R-P0-CODESIGN + R-P0-SERVICE + R-P0-ACCESS` / paid mock-up acceptance |
+| P0-D06 | 值守视线 | unobstructed concept sight triangle from desk to both route entries and robot stop line [metric:p0_staffed_sightline_m] | 用于平面筛查的最大观察距离假设，不是人员响应承诺；遮挡、夜间和真实响应时间必须现场测试。 | `R-P0-SERVICE + R-P0-SAFETY` / day/night sightline walk-through |
+| P0-D07 | 机器人停靠包络 | 2.4 m x 1.8 m marked bay [metric:p0_robot_bay_area_sqm] | 仅用于最坏包络筛查，不对应具体设备；设备外廓、制动、救援和充电条件均为 TBC。 | `R-P0-SAFETY + R-P0-EQUIPMENT` / specific equipment and controlled test protocol proposed |
+| P0-D08 | 机器人不可进入区 | 3.2 m x 2.0 m buffer between 3.2 m stop line and slow route [metric:p0_robot_no_entry_area_sqm] | 在算法判断之外提供可见物理边界的设计假设；最终停止距离由受控测试和安全专业方确认，只能增大不能在未复核时缩小。 | `R-P0-SAFETY + R-P0-EQUIPMENT` / braking and rescue test passed in a contained site |
+| P0-D09 | 构件至有效路径退距 | minimum concept furniture/equipment/sign setback outside the 3.0 m clear strip [metric:p0_component_setback_m] | 避免设备、座椅和标识侵入净宽的筛查值；触觉/高对比边界属于路径接口，不按普通家具处理，做法为 TBC。 | `R-P0-ACCESS + R-P0-MAINTENANCE` / full-size tape-out and maintenance walk-through |
+| P0-D10 | 维护/拆除作业净空 | clear working band around demountable frame and equipment cabinet [metric:p0_maintenance_clearance_m] | 供人工检查、搬运和无损拆除的概念余量；不能占用慢行净宽或既有应急路径。 | `R-P0-INSTALL + R-P0-MAINTENANCE + R-P0-FIRE` / installation and removal method statement reviewed |
+| P0-D11 | 拆除进出通道 | one 3.0 m clear concept route to the screening-envelope edge [metric:p0_removal_access_width_m] | 按最大可拆模块的人工/小型搬运筛查，不授权车辆进入；实际应急和搬运净宽由现场管理、消防与安装方确认。 | `R-P0-INSTALL + R-P0-FIRE + A-P0-RIGHTS` / logistics and emergency plan accepted |
+| P0-D12 | 可拆遮蔽 | 4.8 m x 3.6 m weighted-base canopy; 2.4 m concept clear height [metric:p0_canopy_area_sqm] | 只用于平面、断面和工程量计算；风、雪、结构、净高、文保、消防和基础承载均为 TBC，未签放不得安装。 | `R-P0-STRUCTURE + R-P0-FIRE + A-P0-RIGHTS` / site-specific structural and fire review |
+
+六类现场接口继续为 TBC：触觉做法、高对比与夜间可读性、照度/眩光/电力容量、坡度/排水/出水口、应急净宽与消防控制、设备电力/数据/充电与线缆保护。任何线缆不得穿越有效路径；既有应急净宽不得因 P0 缩减；没有文保/管线/结构许可时不做穿透式固定。 [metric:p0_tbc_interface_count]
+
+#### 权力与责任：执行、签放、叫停、接管、拆除与验收分开
+
+- `R-P0-EXEC` — P0 实施协调人: `unassigned/conditional`; coordinates tasks and evidence; cannot self-authorize opening
+- `A-P0-RIGHTS` — 场地权利方/委托责任槽位: `unassigned/conditional`; accountable for final release, removal instruction, ground-restoration acceptance, and records retention; release depends on all required professional evidence
+- `R-P0-CODESIGN` — 付费无障碍共同设计牵头人: `unassigned/conditional`; may place the work on immediate HOLD for exclusion, inaccessible equivalence, or safeguarding failure
+- `R-P0-SERVICE` — 人工服务与接管运营角色: `unassigned/conditional`; executes staffed equivalent service, immediate takeover, opening/closing parity, and may stop operation
+- `R-P0-SAFETY` — 当班安全/隐私专业角色: `unassigned/conditional`; independent immediate stop authority; controls incident scene and evidence preservation
+- `R-P0-INSTALL` — 可拆构件安装与恢复角色: `unassigned/conditional`; installs, maintains, dismantles, removes waste, restores the surface, and submits as-left records
+- `R-P0-EVAL` — 独立无障碍/运行评估角色: `unassigned/conditional`; observes without operating the pilot; signs evidence completeness, not government or engineering approval
+- `R-P0-SURVEY` — 测绘与基线记录专业角色: `unassigned/conditional`; records levels, obstacles, condition, utilities and reinstatement reference only after authorization
+- `R-P0-ACCESS` — 无障碍专业复核角色: `unassigned/conditional`; reviews route, turning, tactile, contrast, counter and same-task equivalence; may require redesign or HOLD
+- `R-P0-TRAFFIC` — 交通与慢行接口复核角色: `unassigned/conditional`; reviews pedestrian, cycle, curb, logistics and conflict conditions without authorizing road use
+- `R-P0-FIRE` — 消防与应急通道复核角色: `unassigned/conditional`; may stop any proposal that reduces an existing emergency route or lacks an accepted emergency method
+- `R-P0-STRUCTURE` — 结构与临时构件复核角色: `unassigned/conditional`; reviews wind, snow, bearing, fixing, clearance and dismantling before any assembly release
+- `R-P0-ELECTRICAL` — 电气、照明与隔离复核角色: `unassigned/conditional`; reviews capacity, cable protection, isolation, lighting and safe shutdown
+- `R-P0-DRAINAGE` — 地面、标高与排水复核角色: `unassigned/conditional`; reviews levels, ponding, outfall, wet-weather access and restoration baseline
+- `R-P0-EQUIPMENT` — 设备停止、救援与接口角色: `unassigned/conditional`; defines contained stop, braking, rescue, charging and isolation evidence for any nominated equipment
+- `R-P0-LIGHTING` — 照明与视觉可读性复核角色: `unassigned/conditional`; reviews task lighting, glare, contrast and day/night readability with affected users
+- `R-P0-MAINTENANCE` — 维护、备件与恢复角色: `unassigned/conditional`; owns inspection windows, spares, defect closure and maintenance-to-removal escalation
+
+最终签放槽位是场地权利方/委托责任槽位，但不得绕过无障碍、消防、结构、电气、隐私、安全与独立证据记录。付费共同设计牵头、人工服务运营、当班安全/隐私角色拥有平行立即叫停权；任何使用者或工作人员都可无惩罚触发实体急停。人工接管由人工服务运营角色执行；安装恢复角色负责拆除、清运和地面恢复；场地责任槽位对恢复验收负责，独立评估角色只签证据完整性，不冒充政府或工程批准。
+
+#### 90 天交付任务链
+
+| task_id | 窗口 | 责任角色 | Accountable | 输入/输出摘要 | Gate | HOLD | 恢复或退出证据 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| P0-T01 | D00-D05 | `R-P0-EXEC` | `A-P0-RIGHTS` | 角色与停权登记 | G0 | no accountable rights holder; stop authority refused; human-takeover role absent | dated role acceptance or written no-go; versioned responsibility register |
+| P0-T02 | D01-D10 | `R-P0-EXEC + R-P0-SURVEY` | `A-P0-RIGHTS` | 候选点筛查 | G0 | heritage rail crossed; existing slow route or emergency route narrowed; rights or utilities unknown | screen-out record with reason; alternative candidate trigger |
+| P0-T03 | D06-D15 | `R-P0-SURVEY` | `A-P0-RIGHTS` | 现场基线 | G0 | baseline cannot be audited; unsafe access; official constraint conflicts | sealed baseline dataset by appointed professional; written site rejection |
+| P0-T04 | D11-D22 | `R-P0-CODESIGN` | `A-P0-RIGHTS` | 付费共同设计 | G1 | unpaid or token participation; affected group rejects pilot; accessible equivalent cannot be defined | recruitment correction; participant-approved no-go or revised brief |
+| P0-T05 | D18-D30 | `R-P0-EXEC + R-P0-SERVICE` | `A-P0-RIGHTS` | 条件设计与 BOQ | G1+G2 | clear route intersects any object; desk cannot see route entries and stop line; AI can open while human service is closed | revised clash-free package; recorded withdrawal if equivalence cannot be staffed |
+| P0-T06 | D21-D40 | `R-P0-SAFETY` | `A-P0-RIGHTS` | 许可/专业复核 | G0+G3 | any required approval missing; ground penetration proposed without clearance; personal-data purpose or retention unresolved | closed review comments; formal no-go and protected records |
+| P0-T07 | D31-D45 | `R-P0-EXEC + R-P0-INSTALL` | `A-P0-RIGHTS` | 中性采购与方法书 | G2+G3 | single-source lock-in without exit; removal/restoration omitted; unit rates or funds unverified | reissued neutral schedule; procurement cancellation record |
+| P0-T08 | D41-D52 | `R-P0-INSTALL + R-P0-SERVICE` | `A-P0-RIGHTS` | 全尺样机与急停 | G2+G3 | turning/approach fails; physical stop fails; defect lacks owner or closure evidence | closed defect record; scrap/rework trace |
+| P0-T09 | D53-D60 | `R-P0-INSTALL + R-P0-SAFETY` | `A-P0-RIGHTS` | 安装及 AI-off 演练 | G0+G1+G2+G3+G4 | route obstruction > 0; audit completeness < 100%; AI-off equivalent < 100%; malformed input does not HOLD | corrected rehearsal ledger; closed/opening refused record; removal instruction if correction fails |
+| P0-T10 | D61-D75 | `R-P0-SERVICE + R-P0-SAFETY` | `A-P0-RIGHTS` | 限时小试 | G4 | any safety-critical failure; equivalent service unavailable; any group cannot exit; roster gap | incident package; human-takeover record; restart or permanent-stop decision |
+| P0-T11 | D76-D84 | `R-P0-EVAL` | `A-P0-RIGHTS` | 独立评估与决策 | G4+G5 | missing record; averages mask a failed group; reviewer not independent | qualified/failed evaluation with unresolved items visible; accountable decision trail |
+| P0-T12 | D85-D90 | `R-P0-INSTALL` | `A-P0-RIGHTS` | 拆除、恢复、验收 | G5 | surface not restored; waste/asset destination unknown; baseline comparison or acceptance missing | before/after comparison; remediation invoice/record with rates redacted or TBC as applicable; signed acceptance by accountable role and independent evidence reviewer |
+
+任务链共 12 项，保持 D00—D90 研究窗与 G0—G5 六道证据门。v1.4 复演后，审计完整度与 AI-off 人工等价均达到 12/12，错误输入仍为 1/1 触发已审计 HOLD；这只关闭包内缺口，不会自动打开 G4，现实外部门仍全部关闭。 [metric:p0_task_chain_count] [metric:p0_gate_default_closed_ratio] [metric:p0_route_obstruction_count]
+
+错误输入测试必须保持 1/1 触发 HOLD；失败时不能用其他任务的平均结果覆盖。 [metric:p0_malformed_input_hold_ratio]
+
+#### 不计价工程量清单
+
+| boq_id | 项目 | 数量 | 推导 | 计价状态 |
+| --- | --- | --- | --- | --- |
+| P0-Q01 | 可拆构架 | 1 set | 6 weighted-base posts + 16.8 m perimeter beams | `null/TBC` |
+| P0-Q02 | 可拆遮蔽 | 17.28 sqm | 4.8 m x 3.6 m | `null/TBC` |
+| P0-Q03 | 可逆地面 | 96 sqm | 12.0 m x 8.0 m service apron | `null/TBC` |
+| P0-Q04 | 人工服务桌 | 1 module | 2.4 m x 0.8 m demountable desk | `null/TBC` |
+| P0-Q05 | 实体急停设施 | 2 unit | 1 public-facing + 1 staff-side; final specification TBC | `null/TBC` |
+| P0-Q06 | 纸本信息架 | 1 unit | adjacent to staffed desk and outside clear route | `null/TBC` |
+| P0-Q07 | 多通道导视点 | 5 point | 2 entries + 1 staffed desk + 1 robot stop + 1 exit/restoration notice | `null/TBC` |
+| P0-Q08 | 触觉/高对比引导接口 | 18 linear_m | one continuous route-edge interface; detailed pattern TBC | `null/TBC` |
+| P0-Q09 | 机器人停止线 | 3.2 linear_m | full service-spur width | `null/TBC` |
+| P0-Q10 | 机器人不可进入区标识 | 6.4 sqm | 3.2 m x 2.0 m | `null/TBC` |
+| P0-Q11 | 座椅与轮椅同伴位 | 3 seat_plus_1_bay | 3 movable seats and 1 unoccupied companion bay under/near shelter | `null/TBC` |
+| P0-Q12 | 可拆照明点 | 4 point | plan-count only; illuminance, glare and power TBC | `null/TBC` |
+| P0-Q13 | 设备接口柜与接口点 | 1 cabinet_plus_2_points | 1 lockable cabinet + 2 protected power/data points; capacities TBC | `null/TBC` |
+| P0-Q14 | 安装与开场前检查 | 1 lot_plus_4_inspections | install lot + accessibility/safety/electrical/operations checks | `null/TBC` |
+| P0-Q15 | 计划维护 | 13 weekly_visit | ceil(90 days / 7); daily pre-open checks depend on authorized open days | `null/TBC` |
+| P0-Q16 | 拆除、清运、地面恢复与验收 | 1 lot | remove all P0 objects + before/after condition comparison + acceptance | `null/TBC` |
+
+BOQ 共 16 行，并归入 6 个不计价采购包。数量可由图纸或任务复算；市场单价、供应商报价、正式估算、招标价与资金承诺仍为 0/null。v1.4 只增加带基准日的参与者 CAPEX/OPEX 工作区间，用于比较排班与备选方案。 [metric:p0_boq_line_count] [metric:p0_market_rate_known_count]
+
+#### 参数化成本模型：公式完整，价格不造
+
+`C_P0 = C_REV + C_HUMAN + C_CODESIGN + C_ACCESS_SAFETY + C_PRIVACY_EVAL + C_OM + C_REMOVE_RESTORE + C_RESERVE`
+
+- `C_REV` 可逆空间改造: `sum(BOQ quantity_i x verified unit_rate_i) + installation labour`; value = `null`.
+- `C_HUMAN` 人工服务: `H_open x r_staff + H_training x r_staff + H_supervision x r_supervisor`; value = `null`.
+- `C_CODESIGN` 付费共同设计: `N_participants x H_participant x r_participant + access_support + travel + care`; value = `null`.
+- `C_ACCESS_SAFETY` 无障碍及安全复核: `H_access x r_access + H_safety x r_safety + H_fire x r_fire + H_structure x r_structure`; value = `null`.
+- `C_PRIVACY_EVAL` 隐私与独立评估: `H_privacy x r_privacy + H_independent x r_evaluator`; value = `null`.
+- `C_OM` 运维维护: `W x visits_per_week x H_visit x r_maint + consumables + utilities + incident_allowance`; value = `null`.
+- `C_REMOVE_RESTORE` 拆除和场地恢复: `H_remove x r_remove + A_remediation x r_remediation + waste_trace + acceptance`; value = `null`.
+- `C_RESERVE` 预备费/恢复储备: `max(verified C_REMOVE_RESTORE, p_contingency x subtotal); p_contingency TBC by cost/risk professionals`; value = `null`.
+
+人员公式为 `FTE_required = annual staffed hours / 1680 productive hours x 1.2 leave-training factor`. v1.4 以 1680 小时/FTE·年和 1.2 请假培训系数比较 8/12/18 小时服务窗；12 小时情景计算为 3.129 FTE，向上取整为 4 FTE，模型未覆盖时长为 0。工作区间并非运营承诺或正式造价；具名运营者、报价、资金、税费与恢复储备签放仍待外部证据。 [metric:p0_cost_component_count] [metric:p0_market_price_total] [metric:p0_staffing_fte]
+
+正式总价保持 null，不能由概念数量反推成报价或资金承诺。 [metric:p0_formal_total_cost]
+
+#### 两层验收 A：当前包内即可判断
+
+| metric_id | 指标 | 公式 | 数据源 | 阈值状态 | 责任 | 当前状态 | 触发 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| P0-A01 | 路径连通性 | connected entry-to-exit route pairs / 1 required pair | 1:100 concept graph in key-areas figure + v13 source | SET: 1/1 and zero disconnected segment | `R-P0-EXEC` | **PASS_IN_PACKAGE_NOT_FIELD** | any plan revision |
+| P0-A02 | 障碍或侵占数量 | count(BOQ objects intersecting the 18.0 m x 3.0 m clear route) | 1:100 plan object boxes | SET: 0 | `R-P0-ACCESS` | **PASS_IN_PACKAGE=0** | object, setback, or route-width change |
+| P0-A03 | 非 AI 等价覆盖 | scenario cards with a stated non-AI equivalent / 12 scenario cards | proposal scenario table | SET: 12/12 | `R-P0-SERVICE` | **PASS_TEXT_PROTOCOL=12/12** | scenario or service change |
+| P0-A04 | Gate 默认状态 | gates default closed / 6 gates | task chain and gate register | SET: 6/6 closed before evidence | `R-P0-EXEC` | **PASS_IN_PACKAGE=6/6** | gate logic change |
+| P0-A05 | 审计记录完整度 | synthetic tasks with complete audit record / 12 tasks | simulation.json | SET: 12/12 before G4 | `R-P0-SAFETY` | **PASS_SYNTHETIC=12/12** | simulation schema, audit fields, or task set changes |
+| P0-A06 | 错误输入触发 HOLD | malformed-input tests resulting in HOLD / malformed-input tests | simulation.json malformed dispatch case | SET: 1/1 | `R-P0-SAFETY` | **PASS_SYNTHETIC=1/1** | schema or dispatch change |
+| P0-A07 | AI 关闭后人工任务仍可完成 | AI-off same-task cases completed through staffed/paper/phone/fixed spatial paths / 12 tasks | simulation.json + visual/assets/v14-delivery-control.json | SET: 12/12 before G4 | `R-P0-SERVICE` | **PASS_SYNTHETIC=12/12** | service window, hot-backup rule, or task set changes |
+| P0-A08 | 退出和恢复流程完整 | specified evidence slots / 6 required slots | P0-T12 | SET: 6/6 specified; execution remains field HOLD | `R-P0-INSTALL` | **PASS_PROCESS_SPECIFIED=6/6** | removal method or acceptance role change |
+
+A 层 8 项当前为 8 PASS / 0 HOLD。缺失审计记录已改为错误载荷拒绝后的完整审计 HOLD；人工桌不可用已改为人工电话/文字热备，同一任务仍以 AI-off 方式完成。真实执行和现场效果仍属于 B 层。 [metric:p0_current_package_pass_count] [metric:p0_current_package_hold_count] [metric:p0_exit_evidence_slot_count]
+
+#### 两层验收 B：必须等待现场基线
+
+| metric_id | 指标 | 公式 | 数据源 | 阈值状态 | 责任 | 当前状态 | 触发 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| P0-B01 | 轮椅使用者实际完成 | successful same-task completions / valid attempts, reported with critical failures | authorized field task log | TBC_PAID_CODESIGN_PREREGISTRATION; zero safety-critical failures | `R-P0-CODESIGN + R-P0-EVAL` | **HOLD_NO_FIELD_BASELINE** | G0-G3 pass and group approves protocol |
+| P0-B02 | 低视力/盲人实际完成 | successful same-task completions / valid attempts, reported with critical failures | authorized field task log | TBC_PAID_CODESIGN_PREREGISTRATION; zero safety-critical failures | `R-P0-CODESIGN + R-P0-EVAL` | **HOLD_NO_FIELD_BASELINE** | G0-G3 pass and tactile/audio/contrast interfaces confirmed |
+| P0-B03 | 无智能手机老人取得人工服务时间 | P90(time from envelope entry to confirmed human assistance) | timestamped authorized field task log | TBC_PAID_CODESIGN_PREREGISTRATION | `R-P0-SERVICE + R-P0-EVAL` | **HOLD_NO_FIELD_BASELINE** | staff roster and opening hours confirmed |
+| P0-B04 | 真人响应时间 | P90(time from help request to two-way human response), disaggregated by period | staffed-service log | TBC_OPERATOR_AND_CODESIGN_PREREGISTRATION | `R-P0-SERVICE` | **HOLD_NO_FIELD_BASELINE** | named operator accepts roster |
+| P0-B05 | 人流冲突 | observed conflicts / valid traversals, with every safety-critical event separately reported | independent manual observation | TBC_TRAFFIC_REVIEW; zero safety-critical conflicts | `R-P0-EVAL + R-P0-SAFETY` | **HOLD_NO_FIELD_BASELINE** | authorized observation plan |
+| P0-B06 | 噪声 | baseline and operating sound levels by agreed period/location | professional site measurement | TBC_ACOUSTIC_BASELINE_AND_APPLICABLE_STANDARD | `R-P0-SAFETY` | **HOLD_NO_FIELD_BASELINE** | day/night baseline permission |
+| P0-B07 | 照明与眩光 | measured task/route illuminance plus glare/contrast review at agreed points | professional night measurement + co-design walk-through | TBC_LIGHTING_AND_ACCESSIBILITY_REVIEW | `R-P0-LIGHTING + R-P0-CODESIGN` | **HOLD_NO_FIELD_BASELINE** | night access and fixture schedule confirmed |
+| P0-B08 | 排水 | count of ponding/blockage events plus before/after surface-level and outlet check | level survey, rainfall observation, maintenance log | TBC_DRAINAGE_BASELINE; zero blocked accessible route | `R-P0-DRAINAGE + R-P0-MAINTENANCE` | **HOLD_NO_FIELD_BASELINE** | survey and wet-weather observation available |
+| P0-B09 | 微气候 | shade availability and agreed thermal/wind observations by operating period | site baseline + field observation | TBC_CODESIGN_AND_ENVIRONMENTAL_REVIEW | `R-P0-EVAL` | **HOLD_NO_FIELD_BASELINE** | season/period and method preregistered |
+| P0-B10 | 居民接受度 | reported response distribution by affected group; dissent remains visible | authorized, consented engagement record | TBC_STAKEHOLDER_PREREGISTRATION; no average may override critical group rejection | `R-P0-CODESIGN + R-P0-EVAL` | **HOLD_NO_FIELD_BASELINE** | affected parties and consent protocol confirmed |
+| P0-B11 | 运营排班覆盖 | staffed equivalent hours delivered / authorized digital-service hours | signed roster and attendance log | SET: 100% opening parity | `R-P0-SERVICE` | **HOLD_NO_OPERATOR** | named operator and funded roster |
+| P0-B12 | 真实成本完整度 | cost components with verified quantity, unit rate, source, basis date, and payer / 8 components | authorized cost plan, quotations, payroll/fees, maintenance and restoration records | SET: 8/8 evidence fields complete before cost claim; market values remain TBC | `A-P0-RIGHTS + appointed cost professional` | **HOLD_NULL_RATES_AND_NO_FUNDING** | site, procurement route, rate sources, basis date, and funding authority confirmed |
+
+B 层 12 项仍全部 HOLD，并被无损聚合为 4 个外部决策包供交接；每项原始 metric_id、数据源、阈值、责任角色和触发条件都继续保留。表单只让专业团队知道由谁、用何方法、在何时补齐什么证据，不能替代真实参与者、实测、签认、报价或许可。任一群体关键失败，整体 HOLD。 [metric:p0_field_check_hold_count]
+
+#### v1.4 实施控制闭环：内部可执行，外部门继续关闭
+
+P0 不再保持完全非定位，而是绑定三个公开临时重点区中的参与者筛查候选关系；首选 P0-CAND-01 只表示优先进入 G0 文件筛查，不是选址、坐标、权属或许可。 [metric:p0_candidate_screening_count]
+
+| candidate | 筛查关系 | 优势 | HOLD | status |
+| --- | --- | --- | --- | --- |
+| P0-CAND-01 | 众智园安全慢速场边缘原型 | controlled-test function is compatible with fail-closed rehearsal; robot holding and human-takeover can be tested before any public-road claim; removal and restoration can be treated as first-class acceptance tasks | no parcel, coordinate, rights holder, survey, fire route, utility or drainage confirmation; provisional key-area polygon cannot be used for set-out | PREFERRED_FOR_G0_SCREENING_ONLY_NOT_AUTHORIZED |
+| P0-CAND-02 | AI 原点免登录公地门槛原型 | strong fit with staffed, paper, phone and no-account public service; directly tests same-task equivalence | higher safeguarding, privacy and community-consent burden; no property, operating-hour or service-operator evidence | FALLBACK_IF_G0_AND_G1_DOCUMENTARY_GATES_CLOSE |
+| P0-CAND-03 | 大钟寺全停市集服务边缘原型 | tests ordinary commercial and curb-service exclusion risk; high visibility for no-skip service rules | metro, heritage, crowd, curb, fire and rights interfaces are unresolved; no field capacity or emergency-route evidence | FALLBACK_ONLY_AFTER_G0_G1_AND_G3_CLOSE |
+
+人工等价采用“AI 开放时长不得超过已覆盖的人工服务时长”硬规则。人工桌不可用时先切换到同一服务窗内的人工电话/文字热备；两条人工路径都不可用时，AI 同步关闭并生成审计 HOLD。以下均为参与者排班敏感性，不是运营承诺。
+
+| scenario | service window | annual staffed hours | calculated FTE | working roster | uncovered hours |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| ROSTER-8H | 8 h/day | 2920 h | 2.086 | 3 | 0 |
+| ROSTER-12H | 12 h/day | 4380 h | 3.129 | 4 | 0 |
+| ROSTER-18H | 18 h/day | 6570 h | 4.693 | 5 | 0 |
+
+选定 ROSTER-12H 作为中值工作情景：参与者暂按 07:00—19:00 比较，它比 8 小时回退情景更完整覆盖早晚公共服务，又不把 18 小时压力情景当作既定承诺；计算为 3.129 FTE，向上取整 4 FTE，模型未覆盖工时为 0。具体时段仍须由具名运营者和付费共同设计确认或替换。 [metric:p0_working_roster_fte]
+
+CAPEX ROM 工作带为 850,000—2,100,000 CNY；基准日 2026-08-31。 [metric:p0_working_capex_rom_low_cny] [metric:p0_working_capex_rom_high_cny]
+
+年度 OPEX 工作带为 900,000—2,200,000 CNY。这些区间只比较概念 BOQ 与排班，不是市场单价、正式估算、供应商报价、招标价或资金承诺。 [metric:p0_working_opex_low_cny] [metric:p0_working_opex_high_cny]
+
+十二道外部门均要求独立回执，当前 12/12 HOLD；任何缺失不得由包内 PASS 抵消。 [metric:p0_external_gate_hold_count]
+
+| gate | subject | accountable | required receipt | current |
+| --- | --- | --- | --- | --- |
+| DG01 | candidate extent and survey access | A-P0-RIGHTS | signed candidate and survey-access record | HOLD |
+| DG02 | site rights and heritage constraints | A-P0-RIGHTS | rights and heritage applicability record | HOLD |
+| DG03 | paid accessibility co-design | R-P0-CODESIGN | paid participation and issue-closure register | HOLD |
+| DG04 | fire, emergency and traffic route | R-P0-FIRE | coordinated emergency and traffic review | HOLD |
+| DG05 | structure, wind, snow and fixing | R-P0-STRUCTURE | site-specific structural review | HOLD |
+| DG06 | power, lighting and data interface | R-P0-ELECTRICAL | capacity, isolation and cable-protection record | HOLD |
+| DG07 | surface, levels and drainage | R-P0-DRAINAGE | surveyed drainage and restoration baseline | HOLD |
+| DG08 | equipment stop and rescue | R-P0-EQUIPMENT | contained braking, stop and rescue test | HOLD |
+| DG09 | privacy, safety and incident response | R-P0-SAFETY | signed privacy, safety and incident protocol | HOLD |
+| DG10 | operator, roster, hot backup and insurance | R-P0-SERVICE | named operator and funded zero-gap roster | HOLD |
+| DG11 | cost, procurement and restoration reserve | A-P0-RIGHTS | verified cost plan, funding and ring-fenced restoration reserve | HOLD |
+| DG12 | trial, opening and restoration release | A-P0-RIGHTS | signed release and closeout record after all prerequisite gates | HOLD |
+
+释放链只允许参与者设计交接状态为 READY；尽调、冻结、采购、组装、限时开放和恢复验收六个外部阶段全部 HOLD。 [metric:p0_release_stage_hold_count]
+
+| stage | state | required gates | current |
+| --- | --- | --- | --- |
+| S00 | PARTICIPANT_DESIGN_HANDOFF_READY | internal | READY_DESIGN_ONLY |
+| S01 | T0_DUE_DILIGENCE | DG01+DG02+DG03 | HOLD |
+| S02 | DESIGN_FREEZE_REVIEW | DG04+DG05+DG06+DG07+DG08+DG09 | HOLD |
+| S03 | PROCUREMENT_READINESS_REVIEW | DG10+DG11 | HOLD |
+| S04 | SITE_ASSEMBLY_RELEASE | DG01+DG02+DG04+DG05+DG06+DG07+DG11+DG12 | HOLD |
+| S05 | LIMITED_OPENING_RELEASE | DG03+DG08+DG09+DG10+DG12 | HOLD |
+| S06 | RESTORATION_CLOSEOUT | DG01+DG02+DG07+DG11+DG12 | HOLD |
+
+四组 A/B 备选均绑定回退门；备选比较不构成批准。 [metric:p0_alternative_count]
+
+| alternative | question | option A | option B | fallback | status |
+| --- | --- | --- | --- | --- | --- |
+| ALT-01 | candidate area | P0-CAND-01 Zhongzhiyuan controlled edge | P0-CAND-02 AI Origin service threshold | DG01 | participant_design_comparison_not_approval |
+| ALT-02 | weather protection | weighted demountable canopy | marking and movable furniture without canopy | DG05 | participant_design_comparison_not_approval |
+| ALT-03 | robot interface | marked holding bay with physical no-entry buffer | human-service-only P0 with no robot admitted | DG08 | participant_design_comparison_not_approval |
+| ALT-04 | service coverage | 12-hour staffed desk plus funded human hot backup | 8-hour service window with AI synchronously closed outside the window | DG10 | participant_design_comparison_not_approval |
+
+交接包同时映射北京市城市更新实施方案编制工作指南的 11 个模块；这只检查交接完整度，不产生实施主体、联审、批准、资金或场地权利。确定性验证已检查角色引用、任务依赖、单一 Accountable、排班、成本边界、门禁、双钥匙、备选回退和假释放，结果为 PASS。 [metric:p0_urban_renewal_module_count]
+
+#### v1.5 专业执行交接：可填写、可接收、可复核
+
+v1.5 不增加总体概念、场景或角色，而把既有控制转换为七类双语执行空表、机器镜像和反假释放校验。每份外部证据必须填写 18 个统一字段，包括版本、来源、方法、样本、局限、缺失、权利、利益冲突、独立复核、签认与 SHA-256。当前已接收并核验的外部记录仍为 0。 [metric:p0_execution_form_count] [metric:p0_external_evidence_receipt_field_count] [metric:p0_verified_external_record_count]
+
+| form | 工作面 | 责任槽位 | 专用必填字段 | current |
+| --- | --- | --- | ---: | --- |
+| EX-01 | 候选载体调查与证据请求 | A-P0-RIGHTS + R-P0-SURVEY | 14 | 空表 / 未执行 |
+| EX-02 | 责任接受、权限边界与利益冲突 | A-P0-RIGHTS + R-P0-EXEC + R-P0-EVAL | 12 | 空表 / 未执行 |
+| EX-03 | D0 基线、数据字典与缺失值 | R-P0-CODESIGN + R-P0-SERVICE + R-P0-EVAL | 14 | 空表 / 未执行 |
+| EX-04 | 工程量、成本依据与非约束采购包 | R-P0-EXEC + R-P0-INSTALL + A-P0-RIGHTS | 14 | 空表 / 未执行 |
+| EX-05 | 专业复核、门槛与验收 | R-P0-ACCESS + R-P0-FIRE + R-P0-TRAFFIC + R-P0-STRUCTURE + R-P0-ELECTRICAL + R-P0-DRAINAGE + R-P0-EQUIPMENT + R-P0-LIGHTING | 12 | 空表 / 未执行 |
+| EX-06 | 复演、维护、停止与退出交接 | R-P0-SAFETY + R-P0-SERVICE + R-P0-MAINTENANCE + R-P0-INSTALL + R-P0-EVAL | 14 | 空表 / 未执行 |
+| EX-07 | 进度、RAID 与变更控制 | R-P0-EXEC + A-P0-RIGHTS + R-P0-EVAL | 14 | 空表 / 未执行 |
+
+底层 12 项现场指标与 12 道外部门均保留，首屏只聚合成四个不可互相抵消的专业决策包。聚合不减少证据；任何一个底层指标或 Gate 缺失，相应决策包继续 HOLD。 [metric:p0_external_decision_bundle_count] [metric:p0_external_decision_bundle_hold_count]
+
+| bundle | 专业决策入口 | raw metrics | external gates | forms | current |
+| --- | --- | --- | --- | --- | --- |
+| B-EXT-01 | 真实使用者与同任务人工基线 | P0-B01, P0-B02, P0-B03, P0-B04, P0-B10 | DG03 | EX-02, EX-03 | HOLD |
+| B-EXT-02 | 场地、容量疏散与专业条件 | P0-B05, P0-B06, P0-B07, P0-B08, P0-B09 | DG01, DG02, DG04, DG05, DG06, DG07 | EX-01, EX-05 | HOLD |
+| B-EXT-03 | 运营覆盖、设备停止与独立复演 | P0-B11 | DG08, DG09, DG10 | EX-02, EX-06 | HOLD |
+| B-EXT-04 | 真实成本、授权与退出交接 | P0-B12 | DG11, DG12 | EX-04, EX-06, EX-07 | HOLD |
+
+容量不采用单一设计人数，而按四个可核输入的最小值裁定：
+
+`min(net_area_divided_by_approved_occupant_factor, fire_life_safety_approved_capacity, accessible_service_position_capacity, staffed_role_coverage_capacity)`
+
+实测净面积、人均面积、消防/生命安全核定、无障碍服务位和已落实岗位覆盖均为 null；概念上检查两条独立退出路径，但现场核实路径为 0、核实净宽为 null。 [metric:p0_capacity_egress_template_count] [metric:p0_concept_egress_route_count] [metric:p0_field_verified_egress_route_count]
+
+因此容量保持 unknown/HOLD。 [metric:p0_calculated_field_capacity]
+
+维护与退出按四个周期进入交接： [metric:p0_maintenance_cycle_count]
+
+| cycle | frequency | scope | decision | current |
+| --- | --- | --- | --- | --- |
+| MC-01 | before_each_opening | clear route, stop controls, staffed channel, paper/phone fallback, visible status | open_or_hold | template_not_executed |
+| MC-02 | weekly | fixings, lighting, drainage, spares, logs, complaints and unresolved defects | continue_repair_or_hold | template_not_executed |
+| MC-03 | quarterly_or_after_major_change | independent accessibility, safety, privacy, operating and failure review | continue_revise_or_stop | template_not_executed |
+| MC-04 | annual_or_before_renewal | whole-life cost, public value, operator acceptance, restoration and renewal | renew_reduce_remove_or_restore | template_not_executed |
+
+恢复储备模板采用“经核可拆 CAPEX × 10%–20% + 场地专项恢复 + 拆运 + 废弃物 + 独立收口”；该比例只是参与者敏感性。 [metric:p0_restoration_reserve_template_count] [metric:p0_restoration_reserve_ratio_low] [metric:p0_restoration_reserve_ratio_high]
+
+当前经核 CAPEX、储备金额和锁定资金仍为 null/false。 [metric:p0_restoration_reserve_amount]
+
+人工工作簿见 `assets/media/p0-execution-workbook.md`，机器镜像与确定性收据见 `visual/assets/v15-execution-kit.json` 和 `visual/assets/v15-verification.json`。表单完整永远不能自动打开现场 Gate。
+
+![P0 任务链、工程量、成本结构和两层验收矩阵](assets/figures/metrics-evidence.png)
+
+### 同一任务、逐组验收：平均值不能掩盖任何群体遭遇的服务失败
+
+现场小试前，由共同设计方预注册样本、时段与阈值；本包不伪造这些尚未形成的数值。验收至少分列轮椅使用者、低视力/盲人、不使用智能手机的老人、儿童照护者、非中文母语者、骑手/夜班运维者六组。每组都执行同一项“到达—理解—取得非 AI 服务—请求真人—拒绝数据—退出恢复”任务；**任一组出现安全关键失败、等价服务缺失或无法退出，整体即 HOLD**，不得用总体平均成功率覆盖。[metric:group_acceptance_cohort_count]
+
+合成人物旅程只用于暴露设计漏洞，不冒充真实访谈：低视力访客“陈岚”（虚构）不安装活动应用、不提供精确位置，从公共路径进入全停门，先通过触觉/高对比标识找到人工桌，再取得纸本路线；当低速机器人接近时，物理停止优先于预测；若人工桌未值守，数字服务同步关闭并显示下一次人工开放时段；离开后不保留个人轨迹。这个旅程把“有替代路径”从一句承诺变成六个可逐步失败、可逐步复核的界面。
+
+### 离线演练：把不利读数写进方案
+
+`simulation.json` 登记 12 项固定清单的离线合成任务，不调用在线模型、不接入真实机器人、不使用个人数据，也不代表现场绩效。v1.5 保留 v1.4 的包内读数：12/12 任务达到预登记合成结果；11/11 合法调度载荷通过 schema；1/1 预登记错误载荷被拒绝并触发完整审计 HOLD；12/12 审计记录完整；AI 关闭后的人工等价演练为 12/12。人工桌不可用时转入人工电话/文字热备，两条人工路径都不可用时数字服务同步关闭。保留指标 `tool_schema_pass_rate` 仍按仓库规则以全部 12 项为分母复算为 11/12，不代表一个未关闭的包内缺口。 [metric:simulation_task_count] [metric:simulation_success_rate] [metric:audit_completeness]
+
+合法载荷与错误拦截分项分别为 11/11 和 1/1，二者共同组成 12/12 预期行为。 [metric:valid_dispatch_payload_schema_pass_rate] [metric:malformed_dispatch_rejection_rate]
+
+这些读数只证明台账可复算，并已经改变设计：人工窗口和数字服务采用同开同关；缺审计默认不放行；高风险请求只允许转人工；每次恢复都要保留前后对照。它们不证明真人响应、无障碍体验或机器人性能已经达标，现场基线仍为待补。[metric:ai_off_rehearsal_success_rate]
+
+![十二项离线演练的包内闭环、故障阻断与人工热备](assets/figures/simulation-rehearsal.png)
+
 ## 用地、建筑规模与拆改留方案
 
 `land_use.geojson` 用三列六行的共享切线从同一临时边界裁切，形成 18 个无缝、无重叠概念分区。代码采用国土空间用地分类子集：科研约 193.18 万平方米、居住约 178.56 万平方米、社区服务约 78.74 万平方米、商业约 110.28 万平方米、文化约 66.10 万平方米、教育约 101.19 万平方米、公园绿地约 339.40 万平方米、广场约 73.84 万平方米。它们是测试功能关系的完整剖分，不是现状或拟批地块。[standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [metric:land_use_coverage_ratio]
@@ -244,6 +549,9 @@ iteration: "v0.1"
 | 重点区几何合计 | 3,692,893 m² | 临时包络复算，不能替代公告约 368.4 ha 或官方边界 |
 | 场景/测试/画像 | 12 / 4 / 8 | 任务书可读交付数量 |
 | 非 AI 等价覆盖 | 12/12 = 100% | 文本协议完整，仍需现场验证人员和预算 |
+| 离线演练任务 | 12 项；12/12 达到预登记合成结果 | 固定任务台账，可复算；不是现场绩效 |
+| 合法载荷 / 错误拦截 / 审计 / AI-off 等价 | 11/11 / 1/1 / 12/12 / 12/12 | 全部预期行为通过；保留的 `tool_schema_pass_rate` 因按 12 项总分母计算仍为 11/12 |
+| 分群验收 | 6 组，任一关键失败即 HOLD | 样本、时段和数值阈值待共同设计后预注册 |
 | 容积率/总建筑面积/高度 | 待正式数据补齐 | 不用猜测数值制造专业确定性 |
 
 所有已知空间值由 GeoJSON 投影至 EPSG:4548 复算，数值、来源文件、公式、置信度与假设记录在 `metrics.json`。面积变化超过图层容差、官方边界发布、重点区更新或设计图层修改，都触发图片、网页和 PDF 再生成。[metric:metrics_recalculation] [metric:green_ratio]
@@ -262,7 +570,7 @@ iteration: "v0.1"
 
 版权方面，本方案文字、Logo 几何、图件、网页与 PDF 版式均为本次任务原创生成；未复制同行方案素材。公开来源、国际案例、工具版本与用途限制记录在 `sources.json`，系统字体仅本地栅格化且不分发字体文件。投稿许可为 `COMMUNITY-DISPLAY-ONLY`，并接受赛事公告所述项目内展示、评议、署名与深化边界；详细声明见 `report/copyright_statement.md`。
 
-模型为 OpenAI GPT-5.6，通过 pi coding agent 运行；Agent 读取仓库、社区讨论和公开网页，生成文字、结构化数据、图件、HTML 与 PDF。人类账号所有者提出参赛授权，但未替代专业审查。任何法律、规划、建筑、交通、市政、文保、运营或安全判断最终由相应人类团队负责。[source:PROCESSED-FACT-PACK]
+原始方案由 OpenAI GPT-5.6 通过 pi coding agent 生成；v1.0—v1.2 迭代由 Codex desktop agent 在重新读取当前规则、公开同行评审结果和原包后完成，并使用内置图像生成/编辑、Pillow、ReportLab 与 fonttools 重建展示层。各轮 Agent 均生成文字、结构化数据、图件、HTML 与 PDF；人类账号所有者提出参赛和迭代授权，但未替代专业审查。任何法律、规划、建筑、交通、市政、文保、运营或安全判断最终由相应人类团队负责。[source:PROCESSED-FACT-PACK] [source:TOOL-OPENAI-IMAGEGEN-20260828]
 
 官方红线、重点区、控规、道路、建筑、权属、文保和市政资料到位后，方案必须在新分支上记录变更、整包复算并重新自检。不得仅更换视觉底图，也不得把当前临时 PASS 沿用为新版本证据。
 
