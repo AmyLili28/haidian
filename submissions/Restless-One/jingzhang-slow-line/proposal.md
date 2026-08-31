@@ -9,10 +9,8 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "把百年京张 AI 创新带设想为一条服务最慢者的公共线：一线、三慢场、六座全停门与十二个均保留非 AI 等价路径的场景，使机器人会停、智能服务会等、城市创新不跳过任何一站。全部空间表达基于仓库临时边界，仅为可撤回、待共同设计和专业深化的概念建议。"
 tracks: ["robotics-autonomous-mobility", "ai-public-services", "youth-friendly-public-space"]
 scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "ai-traffic-walkability", "enterprise-service-copilot", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: "v1.5-professional-handoff"
+iteration: "v1.6-communication-hierarchy"
 ---
-
-# 京张慢线 THE SLOW LINE：让城市跟上最慢的人
 
 > **“慢”不是降低创新速度，而是把最慢者的安全、理解与选择写进城市的延迟预算。**
 >
@@ -20,14 +18,26 @@ iteration: "v1.5-professional-handoff"
 
 本方案所有空间、项目、活动、政策与运营内容均为开放共创的**概念建议、参考方案或可供专业团队深化研究的材料**，不替代正式规划，不构成政府审定、投资、建设、招商、活动或审批承诺。仓库临时几何只作为生成和自检容器；官方资料到位后必须整包复算。
 
-### 30 秒 P0 专业交接摘要
+## 先选阅读深度
 
-> **P0-ALL-STOP-01 · 专业执行交接单元 · `NOT_AUTHORIZED` · `HOLD`**
-> 216 m² 概念筛查包络继续绑定 P0-CAND-01，但无坐标、不可放样。12 项任务、16 行 BOQ、17 个未指派角色和包内 8/8 PASS 均保持；12 项现场指标与 12 道外部门被无损聚合为 4 个外部决策包，当前 4/4 HOLD。新增 7 类双语执行空表、18 个证据回执字段、容量/疏散公式、4 个维护周期和恢复储备模板；真实记录、容量、签认、成本、资金与授权仍为 0/null/HOLD。
+| 用时 | 回答的问题 | 入口 |
+| --- | --- | --- |
+| **30 秒** | 概念是什么、保护谁、哪些条件仍未成立？ | 本摘要、网页首屏、A3/A0 第一页 |
+| **3 分钟** | 一个全停门如何工作，为什么现在不能开？ | `key-areas.png` + `metrics-evidence.png` |
+| **专业交接** | 由谁补什么证据、何时停、如何恢复？ | 技术附图、正文详表与 P0 工作簿 |
 
-专业团队可从工作簿直接接手调查、责任接受、D0 基线、成本、专业复核、复演维护和变更控制；四个外部决策包继续全部 HOLD。 [metric:p0_execution_form_count] [metric:p0_external_decision_bundle_count] [metric:p0_external_decision_bundle_hold_count]
+### 30 秒 P0 摘要
 
-容量/疏散、维护和恢复储备均已有填写模板；工作簿自身不构成现场证据或放行。 [metric:p0_capacity_egress_template_count] [metric:p0_maintenance_cycle_count] [metric:p0_restoration_reserve_template_count]
+> **P0-ALL-STOP-01 · `NOT_AUTHORIZED` · `HOLD`**
+> 先保护 3.0 m 连续慢行净宽；真人、纸本与电话必须与 AI 同开同关。包内逻辑为 8/8 PASS，但这不是现场绩效。四个外部决策包仍为 4/4 HOLD：真实使用者、场地与专业复核、运营与叫停、真实成本与退出。容量为 null，现场核实退出路径为 0，17 个角色未指派，正式总价、资金、许可与恢复储备均未成立。
+
+专业证据没有被删减：高密度尺寸、任务、BOQ、成本与验收内容从固定评审图移入技术附图，公众速读图只保留一个问题一个面板。 [metric:communication_public_fixed_figure_count] [metric:communication_technical_companion_figure_count]
+
+三层阅读路径已经固定；中英受控检查点覆盖标题、状态、关键数字与限制语 12/12。这不是独立人工翻译或无障碍认证。 [metric:communication_reader_layer_count] [metric:communication_bilingual_checkpoint_pair_ratio]
+
+7 类执行空表与 18 个回执字段继续保留；工作簿自身不构成现场证据或放行。 [metric:p0_execution_form_count] [metric:p0_external_evidence_receipt_field_count]
+
+容量/疏散公式、4 个维护周期和恢复储备模板同样保留，但都必须由现实证据填写。 [metric:p0_capacity_egress_template_count] [metric:p0_maintenance_cycle_count]
 
 ## 设计依据与资料清单
 
@@ -203,7 +213,7 @@ iteration: "v1.5-professional-handoff"
 
 稳定对象 ID 为 `P0-ALL-STOP-01`。v1.5 保留 v1.4 的尺寸、任务、数量、排班、成本敏感性和 fail-closed 控制，并将专业团队接手所需的调查、责任接受、D0 基线、成本、专业复核、复演维护和变更控制整理为 7 类可填写双语表单。对象仍只绑定 `P0-CAND-01` 概念筛查关系，无坐标、地块、权属、许可或放样权限；17 个角色仍未指派，正式价格与资金仍为 `null/TBC`。
 
-![P0-ALL-STOP-01 场地关系、平面、断面、关键接口与条件动作](assets/figures/key-areas.png)
+![P0-ALL-STOP-01 场地关系、平面、断面、关键接口与条件动作](assets/figures/key-areas-technical.png)
 
 #### 尺寸登记：每一个数都带依据和确认触发
 
@@ -451,7 +461,7 @@ v1.5 不增加总体概念、场景或角色，而把既有控制转换为七类
 
 人工工作簿见 `assets/media/p0-execution-workbook.md`，机器镜像与确定性收据见 `visual/assets/v15-execution-kit.json` 和 `visual/assets/v15-verification.json`。表单完整永远不能自动打开现场 Gate。
 
-![P0 任务链、工程量、成本结构和两层验收矩阵](assets/figures/metrics-evidence.png)
+![P0 任务链、工程量、成本结构和两层验收矩阵](assets/figures/metrics-evidence-technical.png)
 
 ### 同一任务、逐组验收：平均值不能掩盖任何群体遭遇的服务失败
 

@@ -151,6 +151,13 @@
       "statement": "v1.5 defines four maintenance cycles and a restoration-reserve sensitivity of 10%–20% of verified removable CAPEX plus site-specific restoration, removal transport, waste treatment and independent closeout. Verified CAPEX, reserve amount and ring-fenced funding remain null/false.",
       "impact": "Maintenance and removal become explicit decision interfaces without presenting a participant percentage as a cost estimate or funded reserve.",
       "recalculation_trigger": "Verified quantities and costs, named maintenance responsibility, site-specific restoration method, funding authority and independent closeout acceptance."
+    },
+    {
+      "id": "A-COMMS-001",
+      "status": "participant_communication_audit_not_independent_certification",
+      "statement": "v1.6 separates a 30-second summary, a three-minute public decision layer and a professional evidence layer. Two large-type fixed figures replace dense review images while two technical companions retain the complete dimension, task, BOQ, cost, role and acceptance content. Twelve controlled Chinese-English checkpoints compare the title, status tokens, key numbers and limitation language.",
+      "impact": "The package can be read quickly without deleting professional evidence or turning HOLD items into PASS. Canvas text floors and paired-source checks are participant controls only; they do not certify WCAG conformance, physical print legibility, independent human translation or semantic equivalence.",
+      "recalculation_trigger": "Any revision to the proposal title, P0 status, controlled counts, fixed figures, HTML first screen, PDFs or either language version."
     }
   ]
 }
