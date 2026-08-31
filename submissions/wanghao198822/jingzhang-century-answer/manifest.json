@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "569620038eea5a6db187b1e3cd7c960734e9d2e6401587748955de2ffb7ed234"
+      "sha256": "0e86f3a6f16667290d30d857853c54d8358c563c71eb74393a8927ff5bd38778"
     },
     {
       "path": "agent.json",
@@ -38,13 +38,13 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "398a0ba678d72f781b3f80311483a39182bebafa5065d54b2065da2c91fe1cc1"
+      "sha256": "26a18e6fe79deae84904703bf78a93b68015ab9d2197401af1eb29d3ec741411"
     },
     {
       "path": "assumptions.json",
       "role": "assumptions",
       "required": true,
-      "sha256": "1a60c3d4fae1926ac8c476ac916b628e8ef933fb9b1df9651ba1ddd76881dcf8"
+      "sha256": "0492bd7e3f9e8530ef80409cb1080651e7f1a9e9a7ae08eb67f249b7ae5656f7"
     },
     {
       "path": "sources.json",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "796664a84b4d35f231b575d98a0f293541044580e58bafbad881eaa05e85d0d8"
+      "sha256": "75b0692e42bbf5ce7dcbbc5e885a0a08d4d812115253a857fe907e6ab04416ae"
     },
     {
       "path": "compliance_matrix.json",
@@ -99,7 +99,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "a0f0f1bce674180e6f3022bb56490026969cebd8eb5fedf645f1aac16006abb1"
+      "sha256": "5b37b2b49fdffa8a6bc4a6e2447b88dca948622902c0145a46a0603ef776ea4c"
     },
     {
       "path": "report/narrative.md",
@@ -132,7 +132,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "047c2f3758c5261fe7ae4a02585c93aafd5e5d3dfce3fe42d4c54414794f253c"
+      "sha256": "426a75e9ba6098038804dcf6b029dcf82b894c8a39ab50746726bb44663af963"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -229,7 +229,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "ef259514304c21a3a2bdf169fabbc9f9eea8a9e160f0c6549e576fdf3ba352f0"
+      "sha256": "cc5d8441ff5c657fbcf4054aaa6c7fa07c4ea71dbb29b1d9160c4d8f58141e18"
     },
     {
       "path": "report/proposal.en.html",
@@ -237,7 +237,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "3075eeedd706b571ff507781694b60e355caa57fac902f20aa40a752da864aa0"
+      "sha256": "2c80e63ad6af72ee5071b47cecbac7a126cc6f861fabcd82f04cd6baab409f36"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -261,7 +261,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "5392a7859c136b6e3cd0b8faa759303b99a7c259c0a83bbca0f733fd89a4b92c"
+      "sha256": "db8b27dd6c11db4b4940721d8c75fb1f3db9f6ecf86193e7f491e858a5d4a92a"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -508,7 +508,16 @@
       "path": "visual/assets/data/metrics_snapshot.js",
       "role": "evidence_data",
       "required": false,
-      "sha256": "7bc03382f38bb262f3a4e1f7ea74616edd3c8284d3d1cb840d85b0a2d872a5a1"
+      "sha256": "af0662fd2ef700da13e686466c461ef705aeff8dee94dfbafc6ae1fc7de97e0c"
+    },
+    {
+      "path": "visual/assets/ops-ledger.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "f6b828439837f926374c8d2224eaf9547d6eaeedbb740b28975e77f7bd41d06c",
+      "description_zh": "运维台账：明示情景系数下的一次代入（59 计入点 × 52 次/年 × 0.5–1.0 人时 ＝ 年 1,534–3,068 人时，档位推断）。两系数系包外情景设定、无实测依据，不构成概算、承诺、安全结论或运营方案；PRE-09 运营主体实测系数到位后按同一算式整表替换。口径与敏感性见文件内 honesty_contract 与 sensitivity。",
+      "description_en": "Care ledger: one run under declared scenario coefficients (59 counted points x 52 visits a year x 0.5-1.0 person-hours = 1,534-3,068 person-hours a year, tier inferred). Both coefficients are scenario settings from outside the package with no measured basis; not a cost estimate, commitment, safety conclusion or operating plan. Replaced wholesale through the same formula once the operator's measured coefficients arrive (PRE-09)."
     },
     {
       "path": "visual/assets/geo_core.js",
