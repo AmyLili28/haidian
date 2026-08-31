@@ -1,6 +1,6 @@
 ---
 title: "JZ OPENLINE 京张共智线"
-author_github: "Jianxiong2333"
+author_github: "Jones-Qiu"
 language: "zh"
 proposal_format_version: "2"
 bilingual_contract_version: "1"

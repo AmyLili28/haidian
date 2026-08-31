@@ -1,6 +1,6 @@
 ---
 title: "JZ OPENLINE | Jing-Zhang Shared-Intelligence Line"
-author_github: "Jianxiong2333"
+author_github: "Jones-Qiu"
 language: "en"
 proposal_format_version: "2"
 bilingual_contract_version: "1"

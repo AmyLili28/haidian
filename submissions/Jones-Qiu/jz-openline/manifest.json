@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "68fe411b27a9f9e64647a1777321d7a0bbaeec4ad59f1cde141b687d31d33493"
+      "sha256": "28cf8a6e5dd73456fb404b06ea50ae0b1c320ea822ccfefc51caea58bedfb930"
     },
     {
       "path": "agent.json",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "d7d05b03ce712e15437cb1daa6275b7ed46a0a1caeda50bfe9437d99e3cedf44"
+      "sha256": "e910925b829cdf689e37f6f2c0db7a57af9068a9496cee88474e3b90e58a31f3"
     },
     {
       "path": "report/proposal.en.html",
