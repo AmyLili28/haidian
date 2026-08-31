@@ -47,6 +47,8 @@ The proposal serves five personas: residents, students, researchers/developers, 
 
 Three bounded evaluation scenarios are: (1) accessible wayfinding against an offline route, (2) heritage interpretation against an analogue guide, and (3) small-team service navigation against a staffed counter. In all three, a human reviewer, a visible withdrawal route, a minimum-data statement and a stop condition are mandatory [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
 
+The six scenario contracts make those safeguards auditable: each specifies location type, candidate operator, minimum data, human review, offline equivalent, pause rule and metric. Prototype trials are conceptual only: they do not use unauthorised personal data, control traffic, or replace public-service decisions. Comparative references to Barcelona, Helsinki, Amsterdam, Seoul, Toronto and Singapore are used only to test governance methods and non-transferable conditions; they do not imply an institutional partnership, policy transfer or commitment in Haidian.
+
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
 The land-use partition is a conceptual coverage model for the submitted boundary. Existing buildings are not assigned a definitive retain/renovate/demolish status because ownership, condition, heritage, fire, accessibility and statutory evidence are not provided. The recommended sequence is: retain public value, share under agreement, make reversible light-touch adaptations, then assess any physical increase only through professional confirmation [data:geometry/buildings.geojson#BLDG-001] [depth:retain_renovate_demolish]. FAR, height, density and control lines remain pending official data.
