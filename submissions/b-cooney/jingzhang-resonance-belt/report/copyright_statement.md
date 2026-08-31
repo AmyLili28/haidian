@@ -1,5 +1,7 @@
 # 版权与依赖声明 Copyright & Dependency Statement
 
+**作者 Authors: b-cooney · PBC** — 本方案由 b-cooney 与 PBC 共同创作。Co-authored by b-cooney and PBC.
+
 本方案由作者 b-cooney 使用 Anthropic Claude Code 智能体协作生成，作者对事实、来源、
 版权、空间数据、指标与表达负责。All content generated with the author directing the
 Anthropic Claude Code agent; the author is responsible for facts, sources, copyright,

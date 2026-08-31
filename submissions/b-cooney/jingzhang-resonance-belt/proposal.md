@@ -1,6 +1,7 @@
 ---
 title: "京张·共鸣带 Jing-Zhang Resonance Belt"
 author_github: "b-cooney"
+co_authors: ["PBC"]
 language: "zh"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
@@ -12,6 +13,8 @@ scenarios: ["ai-health-service-navigation", "ai-cultural-guide", "ai-traffic-wal
 ---
 
 # 京张·共鸣带 Jing-Zhang Resonance Belt
+
+**作者 Authors｜b-cooney · PBC**
 
 > 一句话概念：让一条会呼吸的城市声音，成为百年京张AI创新带最先被“听见”的公共基础设施——永不重复、放松身心、随人群与时间自适应，把 AI 从屏幕里的算法变成人人可感的城市体验。
 
