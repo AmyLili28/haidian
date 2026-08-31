@@ -493,9 +493,10 @@ function drawFigure(lang) {
   text(ctx, t.kicker, 64, 55, lang === "zh" ? 18 : 15, 800, C.red);
   text(ctx, t.title, 64, 108, lang === "zh" ? 42 : 34, 800, C.coal);
   text(ctx, t.subtitle, 64, 140, lang === "zh" ? 15 : 11, 600, C.muted);
-  rounded(ctx, 1240, 37, 296, 84, 10, C.black);
+  rounded(ctx, 1240, 37, 296, 100, 10, C.black);
   text(ctx, "DESIGN REFERENCE", 1260, 68, 11, 800, C.yellowFill);
-  wrap(ctx, lang === "zh" ? "11类实施字段 · 6步计价 · 外部回执0" : "11 PLAN CLASSES · 6 COST STEPS · RECEIPTS 0", 1260, 92, 252, 14, lang === "zh" ? 9 : 8, 700, C.white, 2);
+  text(ctx, lang === "zh" ? "4级 · 9项目 · 6包 · 11方案类" : "4 STATES · 9 PROJECTS · 6 PACKAGES · 11 CLASSES", 1260, 93, lang === "zh" ? 9 : 7.1, 700, C.white);
+  text(ctx, lang === "zh" ? "12门 · 6步计价 · 外部回执0" : "12 GATES · 6 COST STEPS · RECEIPTS 0", 1260, 111, lang === "zh" ? 9 : 7.1, 700, C.white);
 
   drawControlPlan(ctx, lang, 64, 170, 740, 548);
   drawOperatingOverlay(ctx, lang, 828, 170, 338, 266);

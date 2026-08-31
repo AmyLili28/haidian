@@ -5,8 +5,8 @@
   "css_path": "visual/assets/governance/noto-cjk-subset.css",
   "font_payload": {
     "format": "WOFF2",
-    "sha256": "63842382b955a9c2d74fd483faf8233cd6ced663947196d5f9f56018be262c2c",
-    "bytes": 287048
+    "sha256": "ef63a81d32657d4e2353e0d98cd9d509edbe31135326579e12fa539f83dbeba0",
+    "bytes": 287992
   },
   "license": {
     "identifier": "OFL-1.1",

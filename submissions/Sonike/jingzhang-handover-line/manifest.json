@@ -75,7 +75,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "017479b60196a5f85cd845fe24c64a7a9ce5418043ea6b21aa8cc0be2b0ca9cc"
+      "sha256": "e0aafa9ae5645cb105121e83cf3db02450d5abaad844093fb47ae12c1a6788c9"
     },
     {
       "path": "agent.json",
@@ -105,13 +105,13 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "47474400386d86c4a6a870cbe2af3df9c9686eae7b97d2ce55926e50cbb2e243"
+      "sha256": "338d5195e14f7e1efb7d2c822ffe8a2ea7c40d96bb2357bc0f819b8178d8092b"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "0bda075d6292bc53cd3bc0a71817cfdea95e9ee37fd5e5f9e5118fba23ed7af5"
+      "sha256": "00457a6b85854b2cb25424d35e0d3ca20694b9929ee9aee672299d4a2d58b10a"
     },
     {
       "path": "compliance_matrix.json",
@@ -129,14 +129,14 @@
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "8583ed79957709e5488a0647f5c14ffa3f5a250e83928be2ca771324551c48a9"
+      "sha256": "d7787f96ca19ab63069801b30f2dbfc3caa59ccee8427f142d21dad45e0521ef"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "b37a97e34d4ae7be035a5f55e14aea09e1139f309cdfbbef1b4641e85c60cdec"
+      "sha256": "cded59e0871908f0cf4cd55e3ccf47f3aad55ae37b57b4a8f891884b0affb5f4"
     },
     {
       "path": "report/narrative.md",
@@ -155,14 +155,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "f1f1606613367dff63684f198f1437747601c6ecf5e7b60e0c852d035961f05c"
+      "sha256": "0f6da0e7cc621329fcd67c5655bdd0df86697e19facddb00cc4c0f6b1c035766"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "a22266c405f11755d8c443b231c4fab0807ae260469d399ec70dc842bfd097ac"
+      "sha256": "eeda6eec5fc10545061e689fa3b83661bba960e7241c2a96b07df2332ced7310"
     },
     {
       "path": "visual/index.html",
@@ -198,7 +198,7 @@
       "title_en": "F/05 | P0 five-scale technical board",
       "description_zh": "用同一组受控数据画出1:100控制平面、1:50容量／队列／三席运营叠图、1:20双面接口、24→12→7.2→6m由外向内筛查与36㎡原状恢复，并并列12项构件、成本排班、维护撤场和四个替代方案；现场0/12、文件闸回执0/12、报价0/3、保险与正式预算为空。",
       "description_en": "Draws a 1:100 control plan, 1:50 capacity/queue/three-seat operating overlay, 1:20 two-face interface, 24→12→7.2→6 m outside-in screen and restoration of the same 36 m² surface from one controlled data set, alongside twelve component lines, cost, roster, maintenance, removal and four alternatives; field tasks remain 0/12, documentary-gate receipts 0/12, quotes 0/3 and insurance/formal budget null.",
-      "sha256": "13d57346dfdc1d97e25070f19084a0239f027c3d6703b0d207e32adfeabf1fd8"
+      "sha256": "ada3ca49e1a6697c98fd70a91df4b3a29bfabdf7cce597b14b398ea715aa99c4"
     },
     {
       "path": "assets/figures/implementation-handoff.png",
@@ -296,7 +296,7 @@
       "required": false,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "5859645724b155d33e22633f92564624a35dbc1ac8525aa8c59c24ebc8350cbb"
+      "sha256": "9e94fe80a9dd92e821f799ec03f66297e9a6b590b65c12f32471fc6601335d32"
     },
     {
       "path": "report/proposal.en.html",
@@ -304,7 +304,7 @@
       "required": false,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "b48cc74dd283a6b1b9c3b0645382a5699e63abe802fc2a98409577c6d6f98501"
+      "sha256": "660ebf966fae3899afd2781c29af83e366c8e1bfb02796ecd7015ae98e9bf3d8"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -312,7 +312,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "ef488edc3f5efdd2cff064afca85d71f723110f76dfebda31407a8e009a6b642"
+      "sha256": "2f70c49216ae49a83b72e876bc0722ecd1ff9f0c055822b46ced766a198ef059"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -320,7 +320,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "e2cbec9b261e5fc7a9431b5eed356ca92409047e0199320dca44b0ab4f1e2ecf"
+      "sha256": "30dac3905719ea06530e608ab4b663ae3a8881fca3e91051428561f1a1c5ec65"
     },
     {
       "path": "visual/index.en.html",
@@ -360,7 +360,7 @@
       "title_en": "F/05 | P0 five-scale technical board (English)",
       "description_zh": "中文F/05的英文同构版本，五个视图、图纸编号、数值、边界与替代方案逐项一致。",
       "description_en": "English structural twin of F/05, with the same five views, drawing IDs, values, boundaries and alternatives.",
-      "sha256": "2541db6b2fb67d3833cbe7590acd18b1ee5fe34b3c247a675e239dc5a5dec74b"
+      "sha256": "a794e35f5ee9e00ace921cbaddba2352b18d5792798994d1e1759433c15e1b12"
     },
     {
       "path": "assets/figures/implementation-handoff.en.png",
@@ -467,7 +467,7 @@
       "role": "narrative",
       "required": false,
       "language": "neutral",
-      "sha256": "af53f07aeec6132de9af38125d039e268e651d77965267a0b4326d6c0af242c9"
+      "sha256": "a918f170baba5776b7c5378df5461de56d9481ce4a52386c273f62b358c5c31e"
     },
     {
       "path": "assets/figures/spatial-prototype.png",
@@ -551,7 +551,7 @@
       "path": "visual/assets/governance/claims-audit.js",
       "role": "governance_validation",
       "required": false,
-      "sha256": "3f9bfd5ecf2726596d6ff4cd003ff2c4169069baa8a3fa4e4cde23514a361c9c",
+      "sha256": "026a9c265458466fc7b7ba12d0173b00ed0858196bdc0c639229198772b939e0",
       "title_zh": "正文数值声明审计器",
       "title_en": "Prose claim auditor",
       "description_zh": "只读、离线、零网络依赖的69项声明审计：复算指标、几何、二十单元、断面、布局对照、矩阵引用、来源深度、许可一致性、PDF文字层、四份HTML包内CJK字体、全载体v2.0可见版本、七类用地在六个载体中的非颜色纹理冗余、十二场景无AI等价路线与八类无障碍需求夹具，以及P0的8门／5节点／10 RACI／12构件／8判据／12组预可研检查／3档评委路径／7项评分索引／6群体／12公共利益闸／14项原型检查与26项专业交接闸。全部一致退出0，任一回归退出1。",
@@ -561,7 +561,7 @@
       "path": "visual/assets/governance/audit-selftest.js",
       "role": "governance_validation",
       "required": false,
-      "sha256": "f03162a7e8c7809221e196dcfb1098b1b2c79686b66922a18a4365aa0ce84093",
+      "sha256": "88501505031a9276ea5a378b44e25bc8e6a8971bd52662723b024aa2aa739fb5",
       "title_zh": "自检脚本的回归测试",
       "title_en": "Regression test for the self-check scripts",
       "description_zh": "对六条审计链做66例回归测试：2例正向锁定69项声明、A0内嵌图4/4像素一致、12账、96规则、48断言、12/12无AI路线、8/8无障碍需求夹具和P0准备度审计；64例阴性逐一注入已知缺陷并要求对应检查失败，含P0成本、预算、评委路径、排班FTE、工作包验收、回退门、双钥匙回执、调试执行和未来本底伪造。注入只写系统临时目录，不改投稿包。",
@@ -779,7 +779,7 @@
       "path": "assets/media/guided-tour.mp4",
       "role": "video",
       "required": false,
-      "sha256": "6c8c8e826e417e9d129fb93d2d7b3b78a3f9db98338dc7bbd5987aaac085b986",
+      "sha256": "8761ed9aba44e92e036a38d4224586c2f0d0d5c247dded95db756394a689617a",
       "title_zh": "京张交接线 · 三分钟导览视频（中文）",
       "title_en": "Jing-Zhang Handover Line · three-minute guided tour (Chinese)",
       "description_zh": "三分钟中文导览，不引入正文之外的新主张。音轨与audio-guide.m4a同一解说和对齐但独立编码（实测r=0.999964、零偏移、平均绝对差17／32768、时长差2.9ms）；guided-tour.vtt与audio-guide.vtt逐字节相同。正文画面使用F/01–F/05、F/10与F/12，首尾约21%为不含生成式插画的程序化封面卡，因此全片画面100%程序化。2026-08-31已把22.8–42.0秒更新为当前F/05五级比例P0技术板，147.1–167.0秒继续绑定F/12双联交接账；音轨、字幕和181.750秒总时长不变。",
@@ -792,7 +792,7 @@
       "path": "assets/media/guided-tour.en.mp4",
       "role": "video",
       "required": false,
-      "sha256": "de189175f310f2cb2defdfa8f165bd8e7720a7616b7f7b0913e77a49f5fa15d4",
+      "sha256": "f5a0949f07d82b224b14292859b6a419722aca665d576a0e75246b8c4aa67a60",
       "title_zh": "京张交接线 · 三分钟导览视频（英文）",
       "title_en": "Jing-Zhang Handover Line · three-minute guided tour (English)",
       "description_zh": "英文版导览与中文版结构同构，使用英文图件与英文程序化封面卡；音轨、字幕和总时长176.500秒保持不变。2026-08-31已把22.8–42.0秒更新为英文F/05五级比例P0技术板，147.1–167.0秒继续绑定英文F/12双联交接账；首尾约21%仍为不含生成式插画的英文程序化封面卡。",
@@ -874,31 +874,31 @@
       "path": "visual/assets/governance/version-stamp-report.json",
       "role": "asset",
       "required": false,
-      "sha256": "17d1072898d101459a49c610b73ff785fa0d660fd4e9b9c95aa9d1d185504060"
+      "sha256": "fea407829a9022b9e42493b98eb1a5aa1f2c280755f2887d3d83eab68aaf331e"
     },
     {
       "path": "visual/assets/governance/pdf-version-report.json",
       "role": "asset",
       "required": false,
-      "sha256": "a8e86822c5ad190bf38da7c9be385fa4d7e36341bd61fac8d308f64b175b493d"
+      "sha256": "5c08210135676a5b064ad01936a536cc4b788a836561277c566a11217a8d3bc9"
     },
     {
       "path": "visual/assets/governance/noto-cjk-subset.css",
       "role": "asset",
       "required": true,
-      "sha256": "69d9c65c606d05661928e9fc6da1f3d2ac2c5fb37fe3b172292eced978f41d49"
+      "sha256": "63638f73230756579436c1b1b32fca8588141c749d3169d20e6fdd4a3ca072d5"
     },
     {
       "path": "visual/assets/governance/noto-cjk-subset.coverage.json",
       "role": "asset",
       "required": true,
-      "sha256": "5ea371c496f9282873fa773bea3591c525d2b9c2685a9de7ff07eab5684ac646"
+      "sha256": "46ae26c10defaafe48b60c1e18a6f5142a967e517bf712b77316977a55c0267c"
     },
     {
       "path": "visual/assets/governance/noto-cjk-subset.rights.json",
       "role": "asset",
       "required": true,
-      "sha256": "152e8e0155b1c73a90845fb5a7df2e48888d65aabc9ba284e0a3664bbf4d2672"
+      "sha256": "a2a1de1ef1f98b824b2b4a1aa2d5a51b68ceca3ebf2f6e446206c465fcf5eef6"
     },
     {
       "path": "visual/assets/public-handover-table-3d.json",
@@ -949,7 +949,7 @@
       "title_en": "P0 five-scale technical-board generator",
       "description_zh": "读取预可研包络、P0交付合同与专业实施交接登记，确定性生成中英F/05的1:100／1:50／1:20视图及1:500—1:20释放链；空间、容量、成本、构件、闸门HOLD、外部证据0/null或正式预算null任一漂移即拒绝输出。",
       "description_en": "Deterministically builds bilingual F/05 1:100, 1:50 and 1:20 views plus the 1:500–1:20 release chain from the pre-feasibility envelope, P0 delivery contract and professional-handoff register; it refuses any drift in space, capacity, cost, components, HOLD gates, zero/null external evidence or the null formal budget.",
-      "sha256": "e8fd57a7e291fbb77f092c5d9db6fa99eef5260bc7a43b3eb580a434019f413b"
+      "sha256": "59ca965a983caa46783545a34fc050faab5df703a22fc9dac0edf30febb8726f"
     },
     {
       "path": "visual/assets/governance/build-implementation-handoff-figure.js",

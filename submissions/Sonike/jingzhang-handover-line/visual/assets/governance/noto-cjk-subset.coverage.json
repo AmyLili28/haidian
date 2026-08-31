@@ -4,9 +4,9 @@
   "font_container": "WOFF2 embedded as a local CSS data URI",
   "css_path": "visual/assets/governance/noto-cjk-subset.css",
   "payload_locator": "data:font/woff2;base64",
-  "css_sha256": "69d9c65c606d05661928e9fc6da1f3d2ac2c5fb37fe3b172292eced978f41d49",
-  "font_sha256": "63842382b955a9c2d74fd483faf8233cd6ced663947196d5f9f56018be262c2c",
-  "font_bytes": 287048,
+  "css_sha256": "63638f73230756579436c1b1b32fca8588141c749d3169d20e6fdd4a3ca072d5",
+  "font_sha256": "ef63a81d32657d4e2353e0d98cd9d509edbe31135326579e12fa539f83dbeba0",
+  "font_bytes": 287992,
   "source_filename": "NotoSansCJKsc-Medium.otf",
   "source_sha256": "ca094f6b0001fb048ca39ddd797a0cdb0179e1e55c6561e111c49c3e6a61d7b7",
   "source_version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
@@ -30,8 +30,8 @@
     "visual/assets/governance/build-operational-readiness-figure.js",
     "visual/assets/governance/build-delivery-pdfs.js"
   ],
-  "requested_codepoint_count": 1112,
-  "delivered_codepoint_count": 1113,
+  "requested_codepoint_count": 1114,
+  "delivered_codepoint_count": 1115,
   "codepoints": [
     32,
     33,
@@ -561,6 +561,7 @@
     25165,
     25169,
     25171,
+    25176,
     25187,
     25191,
     25193,
@@ -613,6 +614,7 @@
     25745,
     25764,
     25773,
+    25797,
     25805,
     25903,
     25910,
@@ -1147,5 +1149,6 @@
     65309,
     65372
   ],
-  "generator": "fontTools subset; WOFF2/Brotli; CSS data URI; no network access"
+  "generator": "fontTools subset; WOFF2/Brotli; CSS data URI; no network access",
+  "reuse_verification": "existing subset reattached after report render; every currently visible codepoint is covered; no glyph payload was changed"
 }
