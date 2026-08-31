@@ -125,6 +125,14 @@ const EXPECTED_RELEASE_STATES = [
 const EXPECTED_DELIVERY_PROJECTS = Array.from({ length: 9 }, (_, index) => `PJ${String(index + 1).padStart(2, "0")}`);
 const EXPECTED_DELIVERY_PACKAGES = Array.from({ length: 6 }, (_, index) => `WP${String(index + 1).padStart(2, "0")}`);
 const EXPECTED_IMPLEMENTATION_MODULES = Array.from({ length: 11 }, (_, index) => `M${String(index + 1).padStart(2, "0")}`);
+const EXPECTED_IMPLEMENTATION_SCHEME_MODULES = Array.from({ length: 11 }, (_, index) => `IP${String(index + 1).padStart(2, "0")}`);
+const EXPECTED_COST_METHOD_STEPS = Array.from({ length: 6 }, (_, index) => `CST${String(index + 1).padStart(2, "0")}`);
+const EXPECTED_IMPLEMENTATION_POLICY_SOURCES = [
+  "BEIJING-URBAN-RENEWAL-IMPLEMENTATION-GUIDE-2024",
+  "BEIJING-URBAN-RENEWAL-JOINT-REVIEW-2024",
+  "BEIJING-COST-BASIS-2026",
+  "BEIJING-COST-INFORMATION-2026",
+];
 const EXPECTED_DOCUMENTARY_GATES = Array.from({ length: 12 }, (_, index) => `G${String(index + 1).padStart(2, "0")}`);
 const EXPECTED_ROLE_CLASSES = Array.from({ length: 12 }, (_, index) => `R${String(index + 1).padStart(2, "0")}`);
 const EXPECTED_PROGRAMME_TASKS = Array.from({ length: 12 }, (_, index) => `T${String(index).padStart(2, "0")}`);
@@ -481,9 +489,41 @@ if (handoffRegister) {
 
   const modules = Array.isArray(handoffRegister.implementation_modules)
     ? handoffRegister.implementation_modules : [];
-  recordHandoff("十一项实施模块不完整",
+  const schemeModules = Array.isArray(handoffRegister.implementation_scheme_module_register)
+    ? handoffRegister.implementation_scheme_module_register : [];
+  const policyBasis = handoffRegister.implementation_policy_basis || {};
+  const costMethod = handoffRegister.formal_cost_method || {};
+  const costSteps = Array.isArray(costMethod.method_steps) ? costMethod.method_steps : [];
+  recordHandoff("十一项物理运营模块、十一类实施方案与六步计价方法不完整",
     exactSet(modules.map((item) => item.module_id), EXPECTED_IMPLEMENTATION_MODULES) &&
-    modules.every((item) => typeof item.removable === "boolean" && String(item.title_zh || "").trim()));
+    modules.every((item) => typeof item.removable === "boolean" && String(item.title_zh || "").trim()) &&
+    exactSet(schemeModules.map((item) => item.module_id), EXPECTED_IMPLEMENTATION_SCHEME_MODULES) &&
+    schemeModules.every((item) => item.status === "MAPPED_EXTERNAL_HOLD" &&
+      String(item.participant_input || "").trim() &&
+      String(item.future_external_receipt || "").trim() &&
+      Array.isArray(item.package_ids) && item.package_ids.length >= 1 &&
+      Array.isArray(item.gate_ids) && item.gate_ids.length >= 1) &&
+    policyBasis.status === "PARTICIPANT_MAPPING_COMPLETE_EXTERNAL_PROCEDURE_NOT_STARTED" &&
+    exactSet(policyBasis.source_refs, EXPECTED_IMPLEMENTATION_POLICY_SOURCES) &&
+    policyBasis.programme_level_module_count === 11 &&
+    policyBasis.programme_level_modules_mapped_count === 11 &&
+    policyBasis.programme_level_mapping_ratio === 1 &&
+    policyBasis.external_module_receipt_count === 0 &&
+    policyBasis.joint_review_file_number === null &&
+    policyBasis.appointed_coordinating_entity === null &&
+    policyBasis.appointed_implementation_entity === null &&
+    costMethod.status === "METHOD_MAPPED_FORMAL_PRICING_NOT_STARTED" &&
+    exactSet(costMethod.method_source_refs, EXPECTED_IMPLEMENTATION_POLICY_SOURCES.slice(2)) &&
+    exactSet(costSteps.map((item) => item.step_id), EXPECTED_COST_METHOD_STEPS) &&
+    costSteps.every((item) => String(item.action_zh || "").trim() &&
+      String(item.current_state || "").trim() && String(item.release_gate || "").trim()) &&
+    costMethod.formal_unit_rate_receipt_count === 0 &&
+    costMethod.comparable_vendor_quote_count === 0 &&
+    costMethod.required_comparable_vendor_quote_count === 3 &&
+    costMethod.formal_cost_information_period === null &&
+    costMethod.formal_price_base_date === null &&
+    costMethod.formal_estimate_cny === null && costMethod.approved_budget_cny === null &&
+    costMethod.funding_commitment_cny === null);
 
   const roles = Array.isArray(handoffRegister.professional_role_classes)
     ? handoffRegister.professional_role_classes : [];
@@ -921,7 +961,7 @@ const result = {
 
 if (process.argv.includes("--json")) console.log(JSON.stringify(result, null, 2));
 else if (result.ok) {
-  console.log("PASS  SCN-05 单场景 P0：8 门／5 阶段／10 RACI／12 构件／8 验收；预可研 12/12；专业交接 26/26（5 尺度／F/05 五视图绑定与边界／4 状态／9 项目／6 包逐包验收／11 模块／12 文件闸门／12 角色／三席四人排班／双钥匙／8 调试退役检查／5 时段 × 7 基线表／12 条件任务／16 未计价数量／12 交接验收）；评委路径 3/3／评分索引 7/7；6 类公共群体／12 场景硬门槛；资格证据 6/6／评审归类 7/7；离线原型 14/14；真实观察 0");
+  console.log("PASS  SCN-05 单场景 P0：8 门／5 阶段／10 RACI／12 构件／8 验收；预可研 12/12；专业交接 26/26（5 尺度／F/05 五视图绑定与边界／4 状态／9 项目／6 包逐包验收／11 物理运营模块／11 类实施方案／6 步计价方法／12 文件闸门／12 角色／三席四人排班／双钥匙／8 调试退役检查／5 时段 × 7 基线表／12 条件任务／16 未计价数量／12 交接验收）；评委路径 3/3／评分索引 7/7；6 类公共群体／12 场景硬门槛；资格证据 6/6／评审归类 7/7；离线原型 14/14；真实观察 0");
 } else {
   console.error("FAIL  P0 可实施性与公共利益就绪包不完整");
   for (const error of errors) console.error(`- ${error}`);

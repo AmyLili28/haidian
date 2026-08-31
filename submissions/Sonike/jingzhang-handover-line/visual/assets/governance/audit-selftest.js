@@ -305,6 +305,14 @@ negP0("六个交付包删掉一项验收测试 —— 包号和闸门仍齐全�
   (d) => { delete d.delivery_packages[0].acceptance_test; },
   "六个交付包必须逐包给出数量依据与验收测试");
 
+negP0("十一类实施方案映射少一类 —— 物理运营模块仍齐全也不得自称实施闭环",
+  (d) => { d.implementation_scheme_module_register.pop(); },
+  "十一项物理运营模块、十一类实施方案与六步计价方法不完整");
+
+negP0("正式计价方法伪装成已有三方报价 —— 没有真实回执时必须拒绝",
+  (d) => { d.formal_cost_method.comparable_vendor_quote_count = 3; },
+  "十一项物理运营模块、十一类实施方案与六步计价方法不完整");
+
 negP0("替代方案删掉具名回退门 —— 优势描述仍在也不能形成失败后的可执行选择",
   (d) => { d.alternative_gate_binding.find((item) => item.alternative_id === "ALT-1_MOBILE_CART").fallback_gate_ids = []; },
   "四个替代方案必须给出优势维度与具名回退门");
@@ -447,10 +455,10 @@ negInput("场景卡把落点写回「城市交接场维修驿」—— 复刻 20
 negInput("连接段卡片只把里程数字改错 0.5 km —— 落点归属仍对，只有里程对不上几何",
   { [EVIDENCE]: textOf(EVIDENCE).replace("主轴里程约 7.2 km", "主轴里程约 7.7 km") }, ["G5"]);
 
-negInput("英文正文的指标计数退回上一版 119/105 —— 中文写对、英文漏掉十二项运营就绪指标，且英文内部算术自洽（119−105＝14）所以只看英文看不出来",
+negInput("英文正文的指标计数退回旧版 119/105 —— 中文写对、英文漏掉运营就绪与实施政策计价指标，且英文内部算术自洽（119−105＝14）所以只看英文看不出来",
   { "proposal.en.md": textOf("proposal.en.md")
-      .replace("**131 metrics, 117 of them valued", "**119 metrics, 105 of them valued")
-      .replace("The 117 valued metrics", "The 105 valued metrics") }, ["M9"]);
+      .replace("**137 metrics, 123 of them valued", "**119 metrics, 105 of them valued")
+      .replace("The 123 valued metrics", "The 105 valued metrics") }, ["M9"]);
 
 negInput("正文删掉任务书 required_wording_zh 里的「参考方案」—— 复刻 2026-08-22 补齐前的状态，其余措辞仍在所以读起来毫无异样",
   { "proposal.md": textOf("proposal.md").replace(/参考方案/g, "") }, ["T1"]);

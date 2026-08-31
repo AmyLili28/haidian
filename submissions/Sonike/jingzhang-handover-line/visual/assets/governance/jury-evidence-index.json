@@ -83,8 +83,8 @@
     },
     {
       "dimension_id": "implementation_feasibility",
-      "focus_zh": "F/05 同源 1:100 控制平面、1:50 运营叠图、1:20 双面接口与恢复链，以及 5 级图纸、4 级释放、9 项目、6 包、11 模块、12 文件闸门与条件工期",
-      "primary_refs": ["assets/figures/metrics-evidence.png", "visual/assets/governance/implementation-handoff-register.json#technical_figure_binding", "assets/figures/implementation-handoff.png", "visual/assets/governance/p0-pre-feasibility-envelope.json", "visual/assets/governance/implementation-handoff-register.json", "visual/assets/governance/p0-delivery-contract.json", "drawings/a3-booklet.pdf#p14"],
+      "focus_zh": "F/05 同源 1:100 控制平面、1:50 运营叠图、1:20 双面接口与恢复链，以及 5 级图纸、4 级释放、9 项目、6 包、11 个物理运营模块、11 类实施方案、6 步正式计价方法、12 文件闸门与条件工期",
+      "primary_refs": ["assets/figures/metrics-evidence.png", "visual/assets/governance/implementation-handoff-register.json#technical_figure_binding", "assets/figures/implementation-handoff.png", "visual/assets/governance/p0-pre-feasibility-envelope.json", "visual/assets/governance/implementation-handoff-register.json", "visual/assets/governance/implementation-handoff-register.json#implementation_policy_basis", "visual/assets/governance/implementation-handoff-register.json#implementation_scheme_module_register", "visual/assets/governance/implementation-handoff-register.json#formal_cost_method", "metrics.json#implementation_policy_module_mapping_ratio", "metrics.json#implementation_cost_method_step_count", "visual/assets/governance/p0-delivery-contract.json", "drawings/a3-booklet.pdf#p14"],
       "boundary_ref": "visual/assets/governance/implementation-handoff-register.json#current_external_evidence"
     },
     {

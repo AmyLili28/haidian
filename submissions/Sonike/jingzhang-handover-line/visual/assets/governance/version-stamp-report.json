@@ -104,7 +104,7 @@
     },
     {
       "path": "assets/figures/implementation-handoff.en.png",
-      "file_sha256": "acd70721afb13e146d62df3970ee9ccbdb48855bcd934fe633766d0b45297bd7",
+      "file_sha256": "d8f214425b75e943aa966025e13da5af1591332b9540a1ce8a4c044453447005",
       "stamp_rect": [
         1188,
         958,
@@ -116,7 +116,7 @@
     },
     {
       "path": "assets/figures/implementation-handoff.png",
-      "file_sha256": "21ba416c88a655576e5894149de5c31432992a11c8b5e5d2df5d8b72abb11443",
+      "file_sha256": "ba68d0ee37adbec31b7b2d056e409605398916772fceb93d4acf13eb14ca88a6",
       "stamp_rect": [
         1188,
         958,
@@ -200,7 +200,7 @@
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
-      "file_sha256": "9adc5a6872d042e79cb73d83bb9a934fa083c8b2bc92e93b1c1dbbed58c2bd30",
+      "file_sha256": "2541db6b2fb67d3833cbe7590acd18b1ee5fe34b3c247a675e239dc5a5dec74b",
       "stamp_rect": [
         1188,
         958,
@@ -212,7 +212,7 @@
     },
     {
       "path": "assets/figures/metrics-evidence.png",
-      "file_sha256": "930f4fb3cfe342873a264db67d5dc74ab3478b93a463a0b7ac987b5805fd98a6",
+      "file_sha256": "13d57346dfdc1d97e25070f19084a0239f027c3d6703b0d207e32adfeabf1fd8",
       "stamp_rect": [
         1188,
         958,
