@@ -601,7 +601,7 @@ JZ-Parts / <编号>
 
 - **视频**：`assets/media/gauge-mechanism.mp4` 为本方案自制，画面全部由本包已提交的几何与指标数据程序化绘制，未使用任何第三方影像、素材库画面、航拍照片或卫星影像。该视频为无声视频，不含语音、音乐或音效，因此不涉及配乐、音效库或配音授权。`assets/media/gauge-mechanism.md` 记录其分段内容与权利说明，`assets/media/gauge-mechanism.vtt` 提供完整字幕。
 - **三维巡览代码**：`visual/assets/gauge-tour.js`（386 行）为自写 WebGL 1 渲染器，未引入 Three.js 等任何第三方运行库；`visual/assets/gauge-tour-data.js` 为本包几何数据的静态导出。两者运行时均不发起网络请求。
-- **字体**：`visual/index.html` 与 `report/proposal.html` 均不内嵌字体文件、不含 `@font-face` 声明，仅声明系统字体栈按序回退，不涉及字体文件的分发或授权。
+- **字体**：`report/proposal.html`、`report/proposal.en.html`、`visual/index.html` 与 `visual/index.en.html` 各在自身 `<style>` 内以一条 `@font-face` 规则内嵌一份 Noto Sans CJK SC Regular 的 WOFF2 子集（base64 `data:` URI，只含该页面实际用到的非 ASCII 字符，字符数写在该规则旁的注释里），目的是在没有任何中文系统字体的机器（例如无头 Linux 评审环境）上，四份页面的中文仍以正常字形显示而不退化为方框。该字体以 SIL Open Font License 1.1 授权；子集属于 OFL 意义上的修改版本，已按第 3 条更名为「JZ Gauge CJK」，原版权、商标与许可声明记录保留在字体内，完整许可文本见 `report/copyright_statement.md` 附录 A。包内不新增任何独立字体文件，字体只随这四份 HTML 一起离线打开，不发起网络请求；其余系统字体栈按序回退不变。
 - **标志与识别系统**：`assets/identity/jz-gauge-logo.svg` 与 `assets/identity/jz-gauge-identity.svg` 为本方案原创矢量绘制，全部由矩形与文本构成，未描摹、未改绘任何既有标志，未使用图库图形、字体轮廓转曲或第三方图标集；两份 SVG 内不内嵌字体文件，仅声明系统字体栈。页眉内联的标志与独立文件同源。
 - **封面与海报**：`assets/media/cover.webp`（1600×900）、`assets/media/gauge-mechanism.webp`（1280×720）与 `assets/media/gauge-tour-still.webp`（1280×720，三维巡览默认总览视角的渲染静帧）均为上述自制内容的导出，权利状态同上。
 
