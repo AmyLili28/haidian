@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "把百年京张 AI 创新带设想为一条服务最慢者的公共线：一线、三慢场、六座全停门与十二个均保留非 AI 等价路径的场景，使机器人会停、智能服务会等、城市创新不跳过任何一站。全部空间表达基于仓库临时边界，仅为可撤回、待共同设计和专业深化的概念建议。"
 tracks: ["robotics-autonomous-mobility", "ai-public-services", "youth-friendly-public-space"]
 scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "ai-traffic-walkability", "enterprise-service-copilot", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: "v1.4-delivery-control"
+iteration: "v1.5-professional-handoff"
 ---
 
 # 京张慢线 THE SLOW LINE：让城市跟上最慢的人
@@ -20,18 +20,14 @@ iteration: "v1.4-delivery-control"
 
 本方案所有空间、项目、活动、政策与运营内容均为开放共创的**概念建议、参考方案或可供专业团队深化研究的材料**，不替代正式规划，不构成政府审定、投资、建设、招商、活动或审批承诺。仓库临时几何只作为生成和自检容器；官方资料到位后必须整包复算。
 
-### 30 秒 P0 实施摘要
+### 30 秒 P0 专业交接摘要
 
-> **P0-ALL-STOP-01 · 实施控制交接单元 · `NOT_AUTHORIZED` · `HOLD`**
-> 216 m² 概念筛查包络已绑定众智园安全慢速场的参与者首选候选关系，但无坐标、不可放样；12 项任务、16 行 BOQ、17 个已声明但未指派角色。8 项包内验收为 8 PASS / 0 HOLD，审计与 AI-off 人工等价均为 12/12；12 项现场验收、12 道外部门和 6 个外部释放阶段继续全部 HOLD。12 小时工作排班为 4 FTE；CAPEX/OPEX 只有非正式敏感区间，正式总价、报价、资金与许可仍为 null/TBC。
+> **P0-ALL-STOP-01 · 专业执行交接单元 · `NOT_AUTHORIZED` · `HOLD`**
+> 216 m² 概念筛查包络继续绑定 P0-CAND-01，但无坐标、不可放样。12 项任务、16 行 BOQ、17 个未指派角色和包内 8/8 PASS 均保持；12 项现场指标与 12 道外部门被无损聚合为 4 个外部决策包，当前 4/4 HOLD。新增 7 类双语执行空表、18 个证据回执字段、容量/疏散公式、4 个维护周期和恢复储备模板；真实记录、容量、签认、成本、资金与授权仍为 0/null/HOLD。
 
-尺寸与接口的固定入口见下文及 `assets/figures/key-areas.png`；这些是概念筛查值，不是现场测量。 [metric:p0_screening_envelope_area_sqm] [metric:p0_clear_route_width_m]
+专业团队可从工作簿直接接手调查、责任接受、D0 基线、成本、专业复核、复演维护和变更控制；四个外部决策包继续全部 HOLD。 [metric:p0_execution_form_count] [metric:p0_external_decision_bundle_count] [metric:p0_external_decision_bundle_hold_count]
 
-任务、工程量和责任角色见 `assets/figures/metrics-evidence.png` 与控制数据源。 [metric:p0_task_chain_count] [metric:p0_boq_line_count] [metric:p0_role_slot_count]
-
-包内验收已闭环；现场验收继续关闭，不能由合成结果替代。 [metric:p0_current_package_pass_count] [metric:p0_current_package_hold_count] [metric:p0_field_check_hold_count]
-
-外部门与工作排班见 `visual/assets/v14-delivery-control.json`；它们不构成许可、签约或工程签章。 [metric:p0_external_gate_hold_count] [metric:p0_working_roster_fte]
+容量/疏散、维护和恢复储备均已有填写模板；工作簿自身不构成现场证据或放行。 [metric:p0_capacity_egress_template_count] [metric:p0_maintenance_cycle_count] [metric:p0_restoration_reserve_template_count]
 
 ## 设计依据与资料清单
 
@@ -203,9 +199,9 @@ iteration: "v1.4-delivery-control"
 
 六道证据门依次为 **G0 权属与法定许可、G1 无障碍共同设计、G2 人工等价与排班、G3 隐私/安全/专业责任、G4 限时运行与独立观察、G5 恢复与公开复盘**。六门默认关闭，且不能用总分互相抵消。最小责任组合为场地权利方、无障碍共同设计方、服务运营方、安全/隐私专业方与独立复核方；当前全部为 `unassigned`。人员与成本不填虚构金额，而交付计算式：`所需人工量 = 已确认开放工时 ÷ 经运营方确认的每 FTE 可服务工时`；`ROM 成本 = 可逆空间改造 + 人工服务 + 付费共同设计 + 安全/隐私复核 + 退出恢复 + 专业造价团队确认的预备费`。
 
-### v1.4 P0-ALL-STOP-01：实施控制闭环
+### v1.5 P0-ALL-STOP-01：专业执行交接
 
-稳定对象 ID 为 `P0-ALL-STOP-01`。v1.4 将其绑定到 `P0-CAND-01` 众智园安全慢速场边缘的参与者首选筛查关系；该关系只引用临时重点区和概念空间对象，仍无放样坐标、地块、权属或许可。当前状态保持 `NOT_AUTHORIZED`、`HOLD`，17 个角色均为 `unassigned/conditional`，正式价格与资金为 `null/TBC`。图件继续以 1:500、1:100、1:50 和 1:20 表达同一对象，不冒充正式选址或工程设计。
+稳定对象 ID 为 `P0-ALL-STOP-01`。v1.5 保留 v1.4 的尺寸、任务、数量、排班、成本敏感性和 fail-closed 控制，并将专业团队接手所需的调查、责任接受、D0 基线、成本、专业复核、复演维护和变更控制整理为 7 类可填写双语表单。对象仍只绑定 `P0-CAND-01` 概念筛查关系，无坐标、地块、权属、许可或放样权限；17 个角色仍未指派，正式价格与资金仍为 `null/TBC`。
 
 ![P0-ALL-STOP-01 场地关系、平面、断面、关键接口与条件动作](assets/figures/key-areas.png)
 
@@ -343,7 +339,7 @@ A 层 8 项当前为 8 PASS / 0 HOLD。缺失审计记录已改为错误载荷�
 | P0-B11 | 运营排班覆盖 | staffed equivalent hours delivered / authorized digital-service hours | signed roster and attendance log | SET: 100% opening parity | `R-P0-SERVICE` | **HOLD_NO_OPERATOR** | named operator and funded roster |
 | P0-B12 | 真实成本完整度 | cost components with verified quantity, unit rate, source, basis date, and payer / 8 components | authorized cost plan, quotations, payroll/fees, maintenance and restoration records | SET: 8/8 evidence fields complete before cost claim; market values remain TBC | `A-P0-RIGHTS + appointed cost professional` | **HOLD_NULL_RATES_AND_NO_FUNDING** | site, procurement route, rate sources, basis date, and funding authority confirmed |
 
-B 层 12 项仍全部 HOLD：没有真实轮椅/低视力任务、老人取得人工服务用时、真人响应、人流冲突、噪声、照明、排水、微气候、居民接受、已签排班或真实成本。4 FTE 和成本区间只是参与者敏感性，不能替代现场与签约证据。任一群体关键失败，整体 HOLD。 [metric:p0_field_check_hold_count]
+B 层 12 项仍全部 HOLD，并被无损聚合为 4 个外部决策包供交接；每项原始 metric_id、数据源、阈值、责任角色和触发条件都继续保留。表单只让专业团队知道由谁、用何方法、在何时补齐什么证据，不能替代真实参与者、实测、签认、报价或许可。任一群体关键失败，整体 HOLD。 [metric:p0_field_check_hold_count]
 
 #### v1.4 实施控制闭环：内部可执行，外部门继续关闭
 
@@ -409,6 +405,52 @@ CAPEX ROM 工作带为 850,000—2,100,000 CNY；基准日 2026-08-31。 [metric
 
 交接包同时映射北京市城市更新实施方案编制工作指南的 11 个模块；这只检查交接完整度，不产生实施主体、联审、批准、资金或场地权利。确定性验证已检查角色引用、任务依赖、单一 Accountable、排班、成本边界、门禁、双钥匙、备选回退和假释放，结果为 PASS。 [metric:p0_urban_renewal_module_count]
 
+#### v1.5 专业执行交接：可填写、可接收、可复核
+
+v1.5 不增加总体概念、场景或角色，而把既有控制转换为七类双语执行空表、机器镜像和反假释放校验。每份外部证据必须填写 18 个统一字段，包括版本、来源、方法、样本、局限、缺失、权利、利益冲突、独立复核、签认与 SHA-256。当前已接收并核验的外部记录仍为 0。 [metric:p0_execution_form_count] [metric:p0_external_evidence_receipt_field_count] [metric:p0_verified_external_record_count]
+
+| form | 工作面 | 责任槽位 | 专用必填字段 | current |
+| --- | --- | --- | ---: | --- |
+| EX-01 | 候选载体调查与证据请求 | A-P0-RIGHTS + R-P0-SURVEY | 14 | 空表 / 未执行 |
+| EX-02 | 责任接受、权限边界与利益冲突 | A-P0-RIGHTS + R-P0-EXEC + R-P0-EVAL | 12 | 空表 / 未执行 |
+| EX-03 | D0 基线、数据字典与缺失值 | R-P0-CODESIGN + R-P0-SERVICE + R-P0-EVAL | 14 | 空表 / 未执行 |
+| EX-04 | 工程量、成本依据与非约束采购包 | R-P0-EXEC + R-P0-INSTALL + A-P0-RIGHTS | 14 | 空表 / 未执行 |
+| EX-05 | 专业复核、门槛与验收 | R-P0-ACCESS + R-P0-FIRE + R-P0-TRAFFIC + R-P0-STRUCTURE + R-P0-ELECTRICAL + R-P0-DRAINAGE + R-P0-EQUIPMENT + R-P0-LIGHTING | 12 | 空表 / 未执行 |
+| EX-06 | 复演、维护、停止与退出交接 | R-P0-SAFETY + R-P0-SERVICE + R-P0-MAINTENANCE + R-P0-INSTALL + R-P0-EVAL | 14 | 空表 / 未执行 |
+| EX-07 | 进度、RAID 与变更控制 | R-P0-EXEC + A-P0-RIGHTS + R-P0-EVAL | 14 | 空表 / 未执行 |
+
+底层 12 项现场指标与 12 道外部门均保留，首屏只聚合成四个不可互相抵消的专业决策包。聚合不减少证据；任何一个底层指标或 Gate 缺失，相应决策包继续 HOLD。 [metric:p0_external_decision_bundle_count] [metric:p0_external_decision_bundle_hold_count]
+
+| bundle | 专业决策入口 | raw metrics | external gates | forms | current |
+| --- | --- | --- | --- | --- | --- |
+| B-EXT-01 | 真实使用者与同任务人工基线 | P0-B01, P0-B02, P0-B03, P0-B04, P0-B10 | DG03 | EX-02, EX-03 | HOLD |
+| B-EXT-02 | 场地、容量疏散与专业条件 | P0-B05, P0-B06, P0-B07, P0-B08, P0-B09 | DG01, DG02, DG04, DG05, DG06, DG07 | EX-01, EX-05 | HOLD |
+| B-EXT-03 | 运营覆盖、设备停止与独立复演 | P0-B11 | DG08, DG09, DG10 | EX-02, EX-06 | HOLD |
+| B-EXT-04 | 真实成本、授权与退出交接 | P0-B12 | DG11, DG12 | EX-04, EX-06, EX-07 | HOLD |
+
+容量不采用单一设计人数，而按四个可核输入的最小值裁定：
+
+`min(net_area_divided_by_approved_occupant_factor, fire_life_safety_approved_capacity, accessible_service_position_capacity, staffed_role_coverage_capacity)`
+
+实测净面积、人均面积、消防/生命安全核定、无障碍服务位和已落实岗位覆盖均为 null；概念上检查两条独立退出路径，但现场核实路径为 0、核实净宽为 null。 [metric:p0_capacity_egress_template_count] [metric:p0_concept_egress_route_count] [metric:p0_field_verified_egress_route_count]
+
+因此容量保持 unknown/HOLD。 [metric:p0_calculated_field_capacity]
+
+维护与退出按四个周期进入交接： [metric:p0_maintenance_cycle_count]
+
+| cycle | frequency | scope | decision | current |
+| --- | --- | --- | --- | --- |
+| MC-01 | before_each_opening | clear route, stop controls, staffed channel, paper/phone fallback, visible status | open_or_hold | template_not_executed |
+| MC-02 | weekly | fixings, lighting, drainage, spares, logs, complaints and unresolved defects | continue_repair_or_hold | template_not_executed |
+| MC-03 | quarterly_or_after_major_change | independent accessibility, safety, privacy, operating and failure review | continue_revise_or_stop | template_not_executed |
+| MC-04 | annual_or_before_renewal | whole-life cost, public value, operator acceptance, restoration and renewal | renew_reduce_remove_or_restore | template_not_executed |
+
+恢复储备模板采用“经核可拆 CAPEX × 10%–20% + 场地专项恢复 + 拆运 + 废弃物 + 独立收口”；该比例只是参与者敏感性。 [metric:p0_restoration_reserve_template_count] [metric:p0_restoration_reserve_ratio_low] [metric:p0_restoration_reserve_ratio_high]
+
+当前经核 CAPEX、储备金额和锁定资金仍为 null/false。 [metric:p0_restoration_reserve_amount]
+
+人工工作簿见 `assets/media/p0-execution-workbook.md`，机器镜像与确定性收据见 `visual/assets/v15-execution-kit.json` 和 `visual/assets/v15-verification.json`。表单完整永远不能自动打开现场 Gate。
+
 ![P0 任务链、工程量、成本结构和两层验收矩阵](assets/figures/metrics-evidence.png)
 
 ### 同一任务、逐组验收：平均值不能掩盖任何群体遭遇的服务失败
@@ -419,7 +461,7 @@ CAPEX ROM 工作带为 850,000—2,100,000 CNY；基准日 2026-08-31。 [metric
 
 ### 离线演练：把不利读数写进方案
 
-`simulation.json` 登记 12 项固定清单的离线合成任务，不调用在线模型、不接入真实机器人、不使用个人数据，也不代表现场绩效。v1.4 的包内读数为：12/12 任务达到预登记合成结果；11/11 合法调度载荷通过 schema；1/1 预登记错误载荷被拒绝并触发完整审计 HOLD；12/12 审计记录完整；AI 关闭后的人工等价演练为 12/12。人工桌不可用时转入人工电话/文字热备，两条人工路径都不可用时数字服务同步关闭。保留指标 `tool_schema_pass_rate` 仍按仓库规则以全部 12 项为分母复算为 11/12，不代表一个未关闭的包内缺口。 [metric:simulation_task_count] [metric:simulation_success_rate] [metric:audit_completeness]
+`simulation.json` 登记 12 项固定清单的离线合成任务，不调用在线模型、不接入真实机器人、不使用个人数据，也不代表现场绩效。v1.5 保留 v1.4 的包内读数：12/12 任务达到预登记合成结果；11/11 合法调度载荷通过 schema；1/1 预登记错误载荷被拒绝并触发完整审计 HOLD；12/12 审计记录完整；AI 关闭后的人工等价演练为 12/12。人工桌不可用时转入人工电话/文字热备，两条人工路径都不可用时数字服务同步关闭。保留指标 `tool_schema_pass_rate` 仍按仓库规则以全部 12 项为分母复算为 11/12，不代表一个未关闭的包内缺口。 [metric:simulation_task_count] [metric:simulation_success_rate] [metric:audit_completeness]
 
 合法载荷与错误拦截分项分别为 11/11 和 1/1，二者共同组成 12/12 预期行为。 [metric:valid_dispatch_payload_schema_pass_rate] [metric:malformed_dispatch_rejection_rate]
 

@@ -10,7 +10,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "The Centennial Jing-Zhang AI Innovation Belt becomes a civic line for its slowest users: one line, three slow yards, six all-stop gates, and twelve scenarios that all retain an equivalent non-AI path. Robots learn to stop, smart services learn to wait, and innovation skips no stop. Every spatial move uses repository-provisional geometry and remains a reversible concept requiring co-design and professional development."
 tracks: ["robotics-autonomous-mobility", "ai-public-services", "youth-friendly-public-space"]
 scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "ai-traffic-walkability", "enterprise-service-copilot", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: "v1.4-delivery-control"
+iteration: "v1.5-professional-handoff"
 ---
 
 # THE SLOW LINE: Keep pace with the slowest person
@@ -21,18 +21,14 @@ iteration: "v1.4-delivery-control"
 
 Every spatial move, project, event, policy, and operating model in this proposal is an open co-creation **concept, reference scheme, or item for professional development**. Nothing replaces formal planning or constitutes a government approval, investment, construction, recruitment, event, or permitting commitment. Repository-provisional geometry is only a generation and self-check container; the entire package must be recalculated when official data arrives.
 
-### 30-second P0 implementation summary
+### 30-second P0 professional hand-off summary
 
-> **P0-ALL-STOP-01 · delivery-control hand-off unit · `NOT_AUTHORIZED` · `HOLD`**
-> The 216 m² concept envelope is bound to a participant-preferred candidate relationship at the Zhongzhiyuan safe-speed yard, but has no coordinates and cannot be set out. It has 12 tasks, 16 BOQ lines, and 17 declared but unappointed roles. Package acceptance is 8 PASS / 0 HOLD; audit and AI-off human equivalence are both 12/12. All 12 field checks, 12 external gates, and six external release stages remain HOLD. The 12-hour working roster is four FTE; CAPEX/OPEX are non-formal sensitivity bands only, while formal total, quotation, funding, and permission remain null/TBC.
+> **P0-ALL-STOP-01 · professional execution hand-off unit · `NOT_AUTHORIZED` · `HOLD`**
+> The 216 m² concept-screening envelope remains bound to P0-CAND-01 but has no coordinates and cannot be set out. Twelve tasks, 16 BOQ lines, 17 unappointed roles and package 8/8 PASS remain. Twelve field metrics and twelve external gates are losslessly aggregated into four external decision bundles, all 4/4 HOLD. v1.5 adds seven bilingual blank execution forms, eighteen evidence-receipt fields, a capacity/egress formula, four maintenance cycles and a restoration-reserve template; actual records, capacity, signatures, cost, funding and authorization remain zero/null/HOLD.
 
-The fixed entry for dimensions and interfaces is below and in `assets/figures/key-areas.en.png`; these are concept-screening values, not field measurements. [metric:p0_screening_envelope_area_sqm] [metric:p0_clear_route_width_m]
+Professional teams can directly take over survey, responsibility acceptance, D0 baseline, cost, professional review, rehearsal/maintenance and change control from the workbook; all four external decision bundles remain HOLD. [metric:p0_execution_form_count] [metric:p0_external_decision_bundle_count] [metric:p0_external_decision_bundle_hold_count]
 
-Tasks, quantities, and accountable roles are shown in `assets/figures/metrics-evidence.en.png` and the control source. [metric:p0_task_chain_count] [metric:p0_boq_line_count] [metric:p0_role_slot_count]
-
-Package acceptance is closed; field acceptance remains closed and cannot be replaced by synthetic results. [metric:p0_current_package_pass_count] [metric:p0_current_package_hold_count] [metric:p0_field_check_hold_count]
-
-External gates and the working roster are in `visual/assets/v14-delivery-control.json`; they are not permission, appointment, or engineering sign-off. [metric:p0_external_gate_hold_count] [metric:p0_working_roster_fte]
+Capacity/egress, maintenance and restoration reserve now have fillable templates; the workbook itself is not field evidence or release. [metric:p0_capacity_egress_template_count] [metric:p0_maintenance_cycle_count] [metric:p0_restoration_reserve_template_count]
 
 ## Design Basis and Source Inventory
 
@@ -204,9 +200,9 @@ This iteration no longer leaves all twelve cards as generic “next pilots.” I
 
 The six evidence gates are **G0 tenure and statutory permission, G1 accessibility co-design, G2 staffed equivalence and roster, G3 privacy/safety/professional duty, G4 time-limited operation and independent observation, and G5 restoration and public review**. All six default closed and cannot compensate for one another through a total score. The minimum accountability set is the site rights holder, accessibility co-designer, service operator, safety/privacy professional, and independent reviewer; all are currently `unassigned`. Staffing and cost are expressed as hand-off formulae rather than invented prices: `staff required = confirmed staffed opening hours ÷ operator-confirmed productive hours per FTE`; `ROM cost = reversible works + staffed service + paid co-design + safety/privacy review + exit/restoration + contingency confirmed by the professional cost team`.
 
-### v1.4 P0-ALL-STOP-01: delivery-control closure
+### v1.5 P0-ALL-STOP-01: professional execution hand-off
 
-The stable object ID is `P0-ALL-STOP-01`. v1.4 binds it to participant-preferred screening candidate `P0-CAND-01` at the Zhongzhiyuan safe-speed-yard edge. The relationship cites only a provisional key area and concept spatial object and still has no set-out coordinate, parcel, right, or permission. Current states remain `NOT_AUTHORIZED` and `HOLD`; all 17 roles are `unassigned/conditional`, and formal price/funding remains `null/TBC`. The 1:500, 1:100, 1:50, and 1:20 chain still describes the same object without pretending formal siting or engineering design.
+The stable object ID is `P0-ALL-STOP-01`. v1.5 retains the v1.4 dimensions, tasks, quantities, roster, cost sensitivities and fail-closed controls, then packages survey, responsibility acceptance, D0 baseline, cost, professional review, rehearsal/maintenance and change control into seven fillable bilingual forms for professional takeover. The object remains bound only to concept-screening relationship `P0-CAND-01`, with no coordinates, parcel, right, permission or set-out authority; all 17 roles remain unappointed and formal price/funding remain `null/TBC`.
 
 ![P0-ALL-STOP-01 site relation, plan, section, key interface, and conditional actions](assets/figures/key-areas.en.png)
 
@@ -344,7 +340,7 @@ Layer A now records 8 PASS / 0 HOLD. The missing audit record becomes a complete
 | P0-B11 | Operating-roster coverage | staffed equivalent hours delivered / authorized digital-service hours | signed roster and attendance log | SET: 100% opening parity | `R-P0-SERVICE` | **HOLD_NO_OPERATOR** | named operator and funded roster |
 | P0-B12 | Actual-cost completeness | cost components with verified quantity, unit rate, source, basis date, and payer / 8 components | authorized cost plan, quotations, payroll/fees, maintenance and restoration records | SET: 8/8 evidence fields complete before cost claim; market values remain TBC | `A-P0-RIGHTS + appointed cost professional` | **HOLD_NULL_RATES_AND_NO_FUNDING** | site, procurement route, rate sources, basis date, and funding authority confirmed |
 
-All 12 Layer-B items remain HOLD: no real wheelchair/low-vision tasks, older-person time to human help, human response, flow conflict, noise, lighting, drainage, microclimate, resident acceptance, signed roster, or actual cost exists. Four FTE and the cost bands are participant sensitivities and cannot substitute for field or appointment evidence. Any group critical failure holds the whole unit. [metric:p0_field_check_hold_count]
+All 12 Layer-B items remain HOLD and are losslessly aggregated into four external decision bundles for hand-off; every raw metric_id, source, threshold, responsible role and trigger remains intact. The forms tell a professional team who must obtain which evidence, by what method and when; they cannot substitute for real participants, measurements, signatures, quotations or permission. Any group critical failure holds the whole unit. [metric:p0_field_check_hold_count]
 
 #### v1.4 delivery-control closure: internally executable, externally fail-closed
 
@@ -410,6 +406,52 @@ Four A/B alternatives bind explicit fallback gates; comparison is not approval. 
 
 The package also maps all eleven modules of the Beijing urban-renewal implementation-plan guide. This tests hand-off completeness only and creates no implementation entity, joint review, approval, funding, or site right. Deterministic verification checks role references, task dependencies, single accountability, roster, cost boundaries, gates, two-key control, alternative fallback, and false release; result: PASS. [metric:p0_urban_renewal_module_count]
 
+#### v1.5 professional execution hand-off: fillable, receivable, verifiable
+
+v1.5 adds no overall concept, scenario or role. It converts the existing controls into seven bilingual blank execution forms, a machine mirror, and false-release verification. Every external record must carry eighteen common fields including version, source, method, sample, limitations, missingness, rights, conflict, independent review, sign-off and SHA-256. Current accepted and verified external records remain zero. [metric:p0_execution_form_count] [metric:p0_external_evidence_receipt_field_count] [metric:p0_verified_external_record_count]
+
+| form | Work surface | Role slots | Specific required fields | current |
+| --- | --- | --- | ---: | --- |
+| EX-01 | Candidate Carrier Survey and Evidence Request | A-P0-RIGHTS + R-P0-SURVEY | 14 | blank / not executed |
+| EX-02 | Responsibility Acceptance, Authority Boundary and Conflict | A-P0-RIGHTS + R-P0-EXEC + R-P0-EVAL | 12 | blank / not executed |
+| EX-03 | D0 Baseline, Data Dictionary and Missingness | R-P0-CODESIGN + R-P0-SERVICE + R-P0-EVAL | 14 | blank / not executed |
+| EX-04 | Quantity, Cost Basis and Non-binding Procurement Pack | R-P0-EXEC + R-P0-INSTALL + A-P0-RIGHTS | 14 | blank / not executed |
+| EX-05 | Professional Review, Gate and Acceptance | R-P0-ACCESS + R-P0-FIRE + R-P0-TRAFFIC + R-P0-STRUCTURE + R-P0-ELECTRICAL + R-P0-DRAINAGE + R-P0-EQUIPMENT + R-P0-LIGHTING | 12 | blank / not executed |
+| EX-06 | Rehearsal, Maintenance, Stop and Exit Handover | R-P0-SAFETY + R-P0-SERVICE + R-P0-MAINTENANCE + R-P0-INSTALL + R-P0-EVAL | 14 | blank / not executed |
+| EX-07 | Programme, RAID and Change Control | R-P0-EXEC + A-P0-RIGHTS + R-P0-EVAL | 14 | blank / not executed |
+
+All twelve raw field metrics and twelve external gates remain. The first screen aggregates them into four non-compensating professional decision bundles only. Aggregation removes no evidence: one missing raw metric or gate keeps its bundle on HOLD. [metric:p0_external_decision_bundle_count] [metric:p0_external_decision_bundle_hold_count]
+
+| bundle | Professional decision entry | raw metrics | external gates | forms | current |
+| --- | --- | --- | --- | --- | --- |
+| B-EXT-01 | Real Users and Same-task Human Baseline | P0-B01, P0-B02, P0-B03, P0-B04, P0-B10 | DG03 | EX-02, EX-03 | HOLD |
+| B-EXT-02 | Site, Capacity/Egress and Professional Conditions | P0-B05, P0-B06, P0-B07, P0-B08, P0-B09 | DG01, DG02, DG04, DG05, DG06, DG07 | EX-01, EX-05 | HOLD |
+| B-EXT-03 | Operating Coverage, Equipment Stop and Independent Replay | P0-B11 | DG08, DG09, DG10 | EX-02, EX-06 | HOLD |
+| B-EXT-04 | Actual Cost, Authorization and Exit Handover | P0-B12 | DG11, DG12 | EX-04, EX-06, EX-07 | HOLD |
+
+Capacity is not a single participant-designed number. It is decided by the minimum of four verifiable inputs:
+
+`min(net_area_divided_by_approved_occupant_factor, fire_life_safety_approved_capacity, accessible_service_position_capacity, staffed_role_coverage_capacity)`
+
+Surveyed net area, occupant factor, fire/life-safety approval, accessible service positions and appointed staffing coverage are all null. Two independent egress routes are tested conceptually, but field-verified routes are zero and verified clear width is null. [metric:p0_capacity_egress_template_count] [metric:p0_concept_egress_route_count] [metric:p0_field_verified_egress_route_count]
+
+Capacity therefore remains unknown/HOLD. [metric:p0_calculated_field_capacity]
+
+Maintenance and exit enter hand-off through four cycles: [metric:p0_maintenance_cycle_count]
+
+| cycle | frequency | scope | decision | current |
+| --- | --- | --- | --- | --- |
+| MC-01 | before_each_opening | clear route, stop controls, staffed channel, paper/phone fallback, visible status | open_or_hold | template_not_executed |
+| MC-02 | weekly | fixings, lighting, drainage, spares, logs, complaints and unresolved defects | continue_repair_or_hold | template_not_executed |
+| MC-03 | quarterly_or_after_major_change | independent accessibility, safety, privacy, operating and failure review | continue_revise_or_stop | template_not_executed |
+| MC-04 | annual_or_before_renewal | whole-life cost, public value, operator acceptance, restoration and renewal | renew_reduce_remove_or_restore | template_not_executed |
+
+The restoration-reserve template uses verified removable CAPEX × 10%–20% plus site-specific restoration, removal transport, waste and independent closeout. The ratio is a participant sensitivity only. [metric:p0_restoration_reserve_template_count] [metric:p0_restoration_reserve_ratio_low] [metric:p0_restoration_reserve_ratio_high]
+
+Verified CAPEX, reserve amount and ring-fenced funding remain null/false. [metric:p0_restoration_reserve_amount]
+
+The human workbook is `assets/media/p0-execution-workbook.md`; its machine mirror and deterministic receipt are `visual/assets/v15-execution-kit.json` and `visual/assets/v15-verification.json`. Form completeness can never open a field gate automatically.
+
 ![P0 task chain, quantities, cost structure, and two-layer acceptance matrix](assets/figures/metrics-evidence.en.png)
 
 ### Same task, group-by-group acceptance: averages cannot hide service failures experienced by any group
@@ -420,7 +462,7 @@ A synthetic journey is used only to expose interface defects, never as a real in
 
 ### Offline rehearsal: keep adverse readings in the proposal
 
-`simulation.json` records twelve tasks from a fixed offline synthetic list. It calls no online model, connects to no real robot, uses no personal data, and represents no field performance. The v1.4 package readings are: 12/12 tasks reached their preregistered synthetic outcome; 11/11 valid dispatch payloads passed schema; the 1/1 preregistered malformed payload was rejected and triggered a complete audited HOLD; 12/12 audit records are complete; and AI-off human-equivalent rehearsal is 12/12. An unavailable staffed desk transfers to human telephone/text hot backup, and digital service closes synchronously when both human paths are unavailable. The reserved `tool_schema_pass_rate` still recomputes to 11/12 under the repository rule that uses all twelve tasks as its denominator; this does not represent an unclosed package gap. [metric:simulation_task_count] [metric:simulation_success_rate] [metric:audit_completeness]
+`simulation.json` records twelve tasks from a fixed offline synthetic list. It calls no online model, connects to no real robot, uses no personal data, and represents no field performance. v1.5 retains the v1.4 package readings: 12/12 tasks reached their preregistered synthetic outcome; 11/11 valid dispatch payloads passed schema; the 1/1 preregistered malformed payload was rejected and triggered a complete audited HOLD; 12/12 audit records are complete; and AI-off human-equivalent rehearsal is 12/12. An unavailable staffed desk transfers to human telephone/text hot backup, and digital service closes synchronously when both human paths are unavailable. The reserved `tool_schema_pass_rate` still recomputes to 11/12 under the repository rule that uses all twelve tasks as its denominator; this does not represent an unclosed package gap. [metric:simulation_task_count] [metric:simulation_success_rate] [metric:audit_completeness]
 
 Valid-payload and malformed-rejection components are 11/11 and 1/1 respectively, together forming 12/12 expected behaviours. [metric:valid_dispatch_payload_schema_pass_rate] [metric:malformed_dispatch_rejection_rate]
 
@@ -529,7 +571,7 @@ Implementation complexity and operating cost are also high. Staff rosters, acces
 
 The proposal's writing, geometric logo, diagrams, visual pages, and PDF layouts are original outputs for this task; no peer-submission assets are copied. Public sources, international cases, tool versions, and use limitations are listed in `sources.json`. Noto Sans SC is subsetted and embedded in the offline HTML under SIL Open Font License 1.1; PDF and figure text is rasterized. The submission uses `COMMUNITY-DISPLAY-ONLY` and accepts the event announcement's project-display, review, attribution, and development boundaries; details appear in `report/copyright_statement.md`.
 
-The original proposal was generated by OpenAI GPT-5.6 through the pi coding agent. The v1.0-v1.4 iterations were completed by the Codex desktop agent after re-reading the current rules, public peer-review results, and the original package, using built-in image generation/editing, Pillow, ReportLab, and fonttools to rebuild the presentation layer. Across the iterations, the Agents generated prose, structured data, figures, HTML, and PDFs. The human account owner authorized participation and iteration but did not replace professional review. Relevant human teams retain final responsibility for legal, planning, architectural, mobility, municipal, heritage, operating, and safety judgments.[source:PROCESSED-FACT-PACK] [source:TOOL-OPENAI-IMAGEGEN-20260828]
+The original proposal was generated by OpenAI GPT-5.6 through the pi coding agent. The v1.0-v1.5 iterations were completed by the Codex desktop agent after re-reading the current rules, public peer-review results, and the original package, using built-in image generation/editing, Pillow, ReportLab, and fonttools to rebuild the presentation layer. Across the iterations, the Agents generated prose, structured data, figures, HTML, and PDFs. The human account owner authorized participation and iteration but did not replace professional review. Relevant human teams retain final responsibility for legal, planning, architectural, mobility, municipal, heritage, operating, and safety judgments.[source:PROCESSED-FACT-PACK] [source:TOOL-OPENAI-IMAGEGEN-20260828]
 
 When official redlines, key areas, statutory controls, roads, buildings, tenure, heritage, and utilities arrive, the proposal must record the change in a new branch, rebuild the whole package, and rerun self-checks. A visual basemap swap alone is insufficient, and the present provisional PASS cannot be reused as evidence for a future version.
 
