@@ -221,8 +221,7 @@
    "assumptions": [
     "A-BOUNDARY-001"
    ],
-   "note_zh": "三处临时重点区域复算合计 369.3 ha，与公告 368.4 ha 相差 0.9 ha，差异来自临时粗略边界。",
-   "note_en": "Recomputed total 369.3 ha versus the announced 368.4 ha; the 0.9 ha gap comes from the provisional boundary."
+   "note_zh": "三处临时重点区域复算合计 369.3 ha，与公告 368.4 ha 相差 0.9 ha，差异来自临时粗略边界。"
   },
   "key_area_count": {
    "status": "known",
@@ -294,8 +293,8 @@
    "assumptions": [
     "A-BOUNDARY-001"
    ],
-   "note_zh": "用地代码 0803（教育科研用地）复算面积。",
-   "note_en": "Land-use code 0803 (education/research) recomputed area."
+   "note_zh": "用地代码 0803（文化用地）复算面积。",
+   "note_en": "Land-use code 0803 (cultural) recomputed area."
   },
   "land_use_area_0804_sqm": {
    "status": "known",
@@ -309,8 +308,8 @@
    "assumptions": [
     "A-BOUNDARY-001"
    ],
-   "note_zh": "用地代码 0804（医疗卫生用地）复算面积。",
-   "note_en": "Land-use code 0804 (medical) recomputed area."
+   "note_zh": "用地代码 0804（教育用地）复算面积。",
+   "note_en": "Land-use code 0804 (education) recomputed area."
   },
   "land_use_area_0901_sqm": {
    "status": "known",
