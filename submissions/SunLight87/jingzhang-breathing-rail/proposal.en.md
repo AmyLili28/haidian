@@ -12,7 +12,7 @@ technical_slug: "jingzhang-breathing-rail"
 summary: "JINGZHANG STRATA treats railway heritage as a version base and layers public life, innovation industry, and trustworthy intelligence into civic infrastructure that can be calibrated, challenged, corrected, and withdrawn. One base, three fields, two wings, and twelve prototypes organize the concept; all placements remain on provisional geometry and make no air-quality, medical, control-plan, engineering, or implementation conclusion."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v2.3"
+iteration: "v2.7"
 ---
 
 # JINGZHANG STRATA
@@ -353,7 +353,20 @@ The landmarks are content and service nodes, not sculptural claims; each install
 
 ### STR RACI and annual mechanism (authorization pending)
 
-`str-raci-matrix.json` is the governance entry for STR-01–08, registering one unique A, at least one R, acceptance evidence, complaint route, rollback, maintenance, and sunset for each item. It uses generic roles only; resource levels are L0–L2 with no L3. Quarterly calibration and scenario review, semiannual model/data audit, and an annual open challenge are reviewable proposed mechanisms, not commitments; service windows are `not_committed`, with no institutional, funding, capacity, or SLA promise.[data:visual/assets/str-raci-matrix.json#packages]
+`str-raci-matrix.json` is the governance entry for STR-01–08, registering one unique A, at least one R, acceptance evidence, complaint route, rollback, maintenance, and sunset for each item. It uses generic roles only; resource levels are L0–L2 with no L3. Each package now carries a planning cost band, capacity assumption, five `D01–15 / D16–30 / D31–60 / D61–75 / D76–90` milestones, and a maintenance cycle, so reviewers can inspect who owns it, how much it serves, when it passes, and how it exits.[data:visual/assets/str-raci-matrix.json#packages]
+
+| Package | Planning cost band | Capacity assumption, unverified | 90-day control focus | Maintenance | Acceptance, stop, and rollback |
+| --- | ---: | --- | --- | --- | --- |
+| STR-01 | CNY 0.10–0.30M | ≤300 records/batch; ≤1 version review/week | clearance/reference conditions → human baseline → calibration/challenge/recovery rehearsal → cross-review → acceptance pack | monthly; immediately on official-data change | verify provenance, calibration, versions, and human judgement; without reference conditions keep education display only, withdraw unverified output, and restore the last reviewed version |
+| STR-02 | CNY 0.30–0.50M | ≤6 devices/batch, ≤3 batches/day; staffed windows only | space/power/network prerequisites → 14-day baseline → co-location/drift/removal rehearsal → safety/maintenance review → human disposition | before every batch; weekly maintenance; immediate stop on exceptions | verify authorisation, separation, maintenance, and static alternative; stop and remove on drift, rights, or maintenance gaps |
+| STR-03 | CNY 0.20–0.50M | ≤20 assisted interactions/staffed window; opening frequency uncommitted | consent/rights/duty holder → equivalent-service baseline → translation/loan/deletion rehearsal → accessibility review → accept/stop | opening/closing each staffed window; weekly content/accessibility review | verify consent, training, duty, and paper/voice/staffed routes; stop public advice without an accountable human |
+| STR-04 | CNY 0.50–0.80M | ≤8 voluntary participants/day, ≤30 min/person | property/MEP/fire prerequisites → 10-day staffed baseline → non-public sandbox → safety/privacy/removal rehearsal → human disposition | daily pre-opening; per-session record; immediate stop for major events | verify authorisation, usability, complaint/exit, and equivalent non-AI path; stop and withdraw if any fails |
+| STR-05 | CNY 0.20–0.40M | 6 interfaces/round; 1–2 interfaces/audit day | freeze questions → lawful-safe passage baseline → phased field audit → professional review → publish verified interfaces only | before each audit; repeat on street/construction/tenure change | verify survey, transport, accessibility, tenure, and reroute; withdraw unverified relationship lines and reroute if lawful-safe passage fails |
+| STR-06 | CNY 0.40–0.80M | 12 prototypes; ≤3 components active/site, each with human gate | component/rights/maintenance register → removal baseline → rehearse ≤3 representatives → trigger review → item-level disposition | weekly; rights/safety check before each event | verify component, permit, staffed alternative, and complaint route; disable and remove on expiry, inaccuracy, rights, or maintenance failure |
+| STR-07 | CNY 0.10–0.30M | ≤20 bilingual modules/batch; unverified items withheld | fact/rights/translation rules → bilingual/plain-language baseline → first static batch → multi-role review → bounded release | monthly fact/rights/translation review; quarterly archive | verify provenance, rights, translation, and accessibility; blank, pause, or withdraw when facts or rights cannot be confirmed |
+| STR-08 | CNY 0.20–0.40M | ≤1 full version review/quarter; no SLA | challenge/accountability/stop rules → staffed intake baseline → issue/rollback rehearsal → bilingual recovery review → open only after authorisation | monthly ledger check; quarterly recovery rehearsal | verify version, responsibility, complaint, rollback, and archive; keep internal and make no public commitment without an operator |
+
+All cost, capacity, service-window, and maintenance entries are **planning assumptions, not quotations, approved budgets, partner commitments, site authorisation, or SLAs**. Quarterly calibration/scenario review, semiannual model/data audit, and an annual open challenge remain reviewable mechanisms only. No public pilot starts before real owners, resources, professional conditions, and candidate-level `HumanDecision` exist.[data:visual/assets/str-raci-matrix.json#implementation_control_boundary]
 
 ### 90-day implementation-readiness packs for three representative nodes (not procurement or authorization)
 

@@ -2841,7 +2841,7 @@
       "input_id": "site_boundary",
       "ref": "geometry/site_boundary.geojson#SITE-001",
       "role": "provisional_geometry_reference",
-      "sha256": "91b652fbb32ed74d8907ae43b7f619e9925e8f82632b79997222f4546af2561f",
+      "sha256": "f40a0dceb6c2eed8a4d52b944f7251ba593a135e04ae3f71e3f574e1370e6c1b",
       "source_available_at_generation": true
     },
     {
@@ -2890,7 +2890,7 @@
       "input_id": "experiment_allocation_program",
       "ref": "visual/assets/experiment-allocation.js",
       "role": "replay_program",
-      "sha256": "74c138f4bd47e64480e83ae4e67993ca3a0aa4706ddc82825380d7a31f042d42",
+      "sha256": "d3b63b6145ed3185273fda79a0d90625fe741f281222ac450a94848650bb9eee",
       "source_available_at_generation": true
     }
   ]

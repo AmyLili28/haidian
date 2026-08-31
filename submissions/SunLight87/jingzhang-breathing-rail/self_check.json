@@ -33,12 +33,14 @@
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/cover-rights.md",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/cover.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design-media-rights.md",
+        "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/agent-decision-loop.en.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/agent-decision-loop.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/central-aerial-4k.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/central-human-view.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/central-local-plan-4k.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/central-section.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/design-actions.webp",
+        "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/function-structure.en.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/function-structure.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/height-massing.webp",
         "submissions/SunLight87/jingzhang-breathing-rail/assets/media/design/implementation-phasing.webp",
@@ -99,7 +101,7 @@
       "ai_package_stages": {
         "submissions/SunLight87/jingzhang-breathing-rail": "formal"
       },
-      "total_bytes": 38411240,
+      "total_bytes": 36718891,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -180,7 +182,7 @@
           "source": 18,
           "standard": 4,
           "depth": 15,
-          "data": 26,
+          "data": 27,
           "metric": 21
         }
       }

@@ -117,7 +117,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标、20 张设计媒体及自检项共同支撑；其中 16 张为 Imagegen 生成/清理的概念表达（4 张鸟瞰为 3840×2160、12 张为支撑图），另有 4 张 OpenFreeMap / OpenStreetMap 公开底图叠加总平图为 3840×1412。设计媒体仅用于表达，不是权威现场数据；OpenAI 条款版本、OSM ODbL、OpenFreeMap 署名/允许用途、Noto OFL 和 COMMUNITY-DISPLAY-ONLY 兼容边界已登记，当前哈希包已完成赛事提交、公开仓库展示和带署名整体再分发复核。",
+      "evidence_summary_zh": "本条标准响应通过proposal.md正文引用、A3/A0图纸、GeoJSON图层、metrics.json指标、22张设计媒体及自检项共同支撑；其中14张为Imagegen生成/清理的概念表达，4张为参赛者自制双语4K Agent比较/空间语法图，另有4张OpenFreeMap / OpenStreetMap公开底图叠加总平图为3840×1412。设计媒体仅用于表达，不是权威现场数据；OpenAI条款版本、OSM ODbL、OpenFreeMap署名/允许用途、Noto OFL和COMMUNITY-DISPLAY-ONLY兼容边界已登记，当前哈希包已完成赛事提交、公开仓库展示和带署名整体再分发复核。",
       "evidence_files": [
         "visual/assets/regional-coordination-matrix.json",
         "visual/assets/scenario-operations-matrix.json",

@@ -1,5 +1,44 @@
 # 方案迭代记录
 
+## v2.7 - 2026-08-31
+
+**94分基线精选补强与离线字体闭环 / Selective Uplift on the 94-Point Baseline with Offline-Font Closure**
+
+- 本版本以已获仓库自动专业评审94/100并合入主线的 `93ae62b2acfcf61a19ccff3b064a209862a63186` 为事实基线，选择性保留上一候选中已形成的STR-01—08实施控制、城市叠代空间语法、Agent候选比较与高清A0/A3图纸；未改变临时几何、真实授权、专业/公众评审和候选级 `HumanDecision` 的事实边界。
+- 修复上一未合入候选的离线中文字体回归：从当前中英文report/visual四个HTML的完整字符并集重建Noto Sans SC 2.004-H2 WOFF2子集，登记源字体的cmap覆盖全部所需可打印字符；同一子集重新内嵌于四个HTML，避免依赖Windows、macOS或Linux系统中文字体。
+- 新字体子集SHA-256为 `B10026B8DD2475868696E1FD99CB2C6A2019F0EB95D27447F7D6622B2BEA3116`；源字体仍为已登记的 `NotoSansSC-Regular.ttf`，SHA-256 `AE82F4E2A55E1316A55BCC1D05E9555CE08D8BDA07E893B486896B626FD852FF`，许可继续为SIL OFL 1.1。
+- 修复离线实验程序自哈希受Windows CRLF检出影响的问题：`experiment-allocation.js` 现按规范LF文本计算自身SHA-256；重新生成三项实验记录后，紧接的 `--check-only` 复放保持55/6/3/6/0/10结果且零漂移。
+- 本版本的推送、评审和合入状态以对应PR的固定head SHA为准；本日志不把本地门禁、自动评审或历史94分外推为新版本已经获批，也不记录成熟案例借鉴过程。
+
+## v2.6 - 2026-08-31
+
+**评审后证据、实施控制与原创空间语法补强 / Post-review Evidence, Delivery Control, and Spatial-Grammar Reinforcement**
+
+### Agent 候选比较与原创空间语法
+
+- 新增中英文4K Agent比较图，把固定种子 `20260821`、55个可行分配、6个Pareto分配、3个展示候选、6/6负例拒绝和0次坐标修改组织为“清权输入—硬约束—候选比较—定性敏感性阅读—失败边界—HumanDecision”证据链；敏感性只作权重取舍的定性阅读，没有重新运行优化器，也不证明现场绩效、自动审批或候选级人工决定已经完成。
+- 修复离线回放器在独立 Git worktree 中无法定位冻结 authoring baseline 的路径问题，并让 `--check-only` 真正执行只读一致性检查；`experiment-inputs.json`、`experiment-run.json` 与 `simulation.json` 现共享同一输入哈希，第二次 `--check-only` 运行保持工作树逐字不变。该修复只增强可复放性，不改变固定种子、55/6/3、6/6负例拒绝、0坐标修改或 `HumanDecision=not_run` 的实验结论。
+- 新增中英文4K“城市叠代空间语法”，将方案差异化收敛为三层：遗产基底不被静默抹平、公共生活界面优先修补、Agent协议层负责暴露方案族、负例、人工闸和退出；同时明确其与普通AI公园、只读数字孪生和单一算法最优方案的差异。
+- 上述两组分析图已同步进入双语方案、报告/视觉HTML、五张核心图、A3文册和A0展板；图中文字和数值来自投稿结构化证据，支撑视觉为已登记概念媒体，不增加新的场地事实或实施主张。
+
+### STR-01—08 完整实施控制
+
+- 将八个策略包逐项补齐规划成本带、服务容量、D01—15至D76—90五段里程碑、逐包RACI、维护周期、验收证据、停止、回滚和sunset，并统一声明为待核规划假设；不把区间写成采购报价、预算批复、伙伴承诺、SLA、场地授权或现场部署证据。
+- 双语Markdown保留八包完整表，双语视觉HTML增加九卡控制摘要；A3由16页扩展为18页，新增两页STR-01—08完整控制表；A0第三板增加八包速览，使实施逻辑进入正式图面而不只停留在文字附件。
+
+### 清晰度、权利与载体一致性
+
+- 优先提升总体总平、三片区总平和Agent/空间语法大图的PDF代理分辨率；最终确定性重建结果为A0中英文各3页、最低有效DPI 121.0，A3中英文各18页、最低有效DPI 164.0，全部可见字体嵌入且未发现越界文本块；最终包体积与文件哈希以本版本收口后刷新生成的manifest和participant preflight复核结果为准。
+- 设计媒体由20张更新为22张：14张Imagegen生成/清理概念媒体、4张参赛者自制双语4K分析图和4张OpenFreeMap/OpenStreetMap公开底图叠加图。三张曾用于较早PPT草稿的Wikimedia照片已从当前v4.3 PPT移除，历史来源记录仅留在影像台账作审计轨迹，不再计入现役设计媒体或当前PPT资产。
+- 仓库外竞赛汇报审核候选更新为 `JINGZHANG_STRATA_城市叠代_竞赛汇报_v4.3.pptx`，共41页；新增Agent比较、实施控制、空间语法和差异矩阵专页。PPTX仍不是当前manifest必交项，不进入本投稿目录。
+
+### 评审与发布边界
+
+- 本轮补强从已获仓库intake的 `93ae62b2acfcf61a19ccff3b064a209862a63186` 建立独立候选分支；基础稿曾获自动专业评审94/100、`APPROVED`与`featured-candidate`，但该结论只适用于被评审的基础commit，不自动覆盖本轮未评审改动，也不等于画廊发布、获奖、政府背书或实施许可。
+- 最终本地收口重新刷新78项manifest与持久化self-check：投稿包为36,232,038 bytes，确定性、空间、视觉、专业四门通过并保持 `formal-review-ready`，9项数据源登记通过，participant preflight及push dry-run无阻塞，`git diff --check`无空白错误；临时SITE/KEY_AREA警告和3项重点区minor仍按事实保留。上述结果仅是本分支本地机器门禁，不是本轮补强已获新评分、reviewer接受或官方合入。
+- 本轮继续保留临时几何、正式资料触发、专业核验、真实公众参与、伙伴与资源未承诺、候选级 `HumanDecision=pending/not_run` 等边界；在全量门禁和人工复核完成前不推送，不重启已完成的正式CI。
+- 本日志只记录本项目实际形成的修改、验证与事实边界，不记录成熟案例借鉴过程。
+
 ## v2.5 - 2026-08-31
 
 **自动专业评审整改与 Agent 真实规划证据闭环 / Automated Professional Review Remediation and Agent Planning Evidence Closeout**
