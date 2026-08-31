@@ -32,7 +32,7 @@
     {
       "assumption_id": "A-PRIVACY-001",
       "statement_zh": "安检客流通行辅助与排队引导及客流感知仅提供匿名聚合与人工复核兜底，法定安检由人工执行，AI仅辅助排队引导与分流，不设个体识别采集，不设无法人工终止的自动决定。",
-      "statement_en": "Security Flow Guidance & Queue Assistance: Statutory security checks are conducted by human personnel; AI processes anonymized aggregates for queue estimation and flow diversion only, with human review as backstop.",
+      "statement_en": "Station Flow Guidance & Queue Assistance: statutory screening remains outside the model and is performed by authorized personnel; AI processes anonymized aggregates for queue estimation and flow diversion only, with human review as backstop.",
       "category": "privacy",
       "status": "concept"
     },
@@ -41,6 +41,27 @@
       "statement_zh": "高铁快闪展、轨上交汇论坛与分期实施等均为建议性设计，不代表已确定的政府安排或投资承诺。",
       "statement_en": "The event system and phasing are design suggestions, not confirmed government or investment commitments.",
       "category": "operation",
+      "status": "concept"
+    },
+    {
+      "assumption_id": "A-REGION-001",
+      "statement_zh": "北纬社区、未来科学城、怀柔科学城、经开区及京津冀均为待确认协同接口，不预设已建立联系或数据共享。",
+      "statement_en": "Beiwei Community, Future Science City, Huairou Science City, E-Town and Beijing-Tianjin-Hebei are pending interfaces; no established relationship or data sharing is presumed.",
+      "category": "regional_interface",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-IMPLEMENTATION-001",
+      "statement_zh": "三个节点的选址、权属、结构、轨道安全、消防、客流、无障碍和维护条件均须现状调查及责任主体核验后才能进入示范。",
+      "statement_en": "Node siting, tenure, structure, rail safety, fire, flow, accessibility and maintenance conditions require survey and owner verification before a pilot.",
+      "category": "implementation",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-PUBLIC-001",
+      "statement_zh": "公共利益指标为试点验收阈值，不能替代居民协商、人工服务和法定审批。",
+      "statement_en": "Public-benefit metrics are pilot acceptance thresholds; they do not replace resident deliberation, staffed service or statutory approval.",
+      "category": "public_interest",
       "status": "concept"
     }
   ]

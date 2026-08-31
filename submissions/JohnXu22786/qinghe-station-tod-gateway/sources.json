@@ -338,6 +338,199 @@
         "generation_method": "concept prompting + geometry program",
         "limitations": "low confidence conceptual envelopes"
       }
+    },
+    {
+      "source_id": "DATA-SRC-CASE-HELSINKI-3D",
+      "title": "Helsinki 3D city model",
+      "publisher": "City of Helsinki",
+      "source_kind": "first_party_case",
+      "url": "https://www.hel.fi/en/decision-making/information-on-helsinki/3d-city-model",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web",
+      "license_summary": "Public mechanism reference; use only for description of the published mechanism.",
+      "review_status": "pending_manual_review",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "auditable mechanism comparison",
+        "case source register"
+      ],
+      "prohibited_uses": [
+        "claiming Qinghe adoption",
+        "transferring external outcomes",
+        "claiming local existing conditions"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_service",
+        "data_governance"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作一手机制案例索引，不将外部成效或事实移植为清河现状。"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+      "title": "Virtual Singapore",
+      "publisher": "Singapore GovTech",
+      "source_kind": "first_party_case",
+      "url": "https://www.nrf.gov.sg/programmes/virtual-singapore/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web",
+      "license_summary": "Public mechanism reference; use only for description of the published mechanism.",
+      "review_status": "pending_manual_review",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "auditable mechanism comparison",
+        "case source register"
+      ],
+      "prohibited_uses": [
+        "claiming Qinghe adoption",
+        "transferring external outcomes",
+        "claiming local existing conditions"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_service",
+        "data_governance"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作一手机制案例索引，不将外部成效或事实移植为清河现状。"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-DECIDIM",
+      "title": "Decidim official project",
+      "publisher": "Decidim Association",
+      "source_kind": "first_party_case",
+      "url": "https://decidim.org/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web",
+      "license_summary": "Public mechanism reference; use only for description of the published mechanism.",
+      "review_status": "pending_manual_review",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "auditable mechanism comparison",
+        "case source register"
+      ],
+      "prohibited_uses": [
+        "claiming Qinghe adoption",
+        "transferring external outcomes",
+        "claiming local existing conditions"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_service",
+        "data_governance"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作一手机制案例索引，不将外部成效或事实移植为清河现状。"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-TFL-OPEN-DATA",
+      "title": "Open data users",
+      "publisher": "Transport for London",
+      "source_kind": "first_party_case",
+      "url": "https://tfl.gov.uk/info-for/open-data-users/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web",
+      "license_summary": "Public mechanism reference; use only for description of the published mechanism.",
+      "review_status": "pending_manual_review",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "auditable mechanism comparison",
+        "case source register"
+      ],
+      "prohibited_uses": [
+        "claiming Qinghe adoption",
+        "transferring external outcomes",
+        "claiming local existing conditions"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_service",
+        "data_governance"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作一手机制案例索引，不将外部成效或事实移植为清河现状。"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-NYC-OPEN-DATA",
+      "title": "NYC Open Data",
+      "publisher": "City of New York",
+      "source_kind": "first_party_case",
+      "url": "https://opendata.cityofnewyork.us/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web",
+      "license_summary": "Public mechanism reference; use only for description of the published mechanism.",
+      "review_status": "pending_manual_review",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "auditable mechanism comparison",
+        "case source register"
+      ],
+      "prohibited_uses": [
+        "claiming Qinghe adoption",
+        "transferring external outcomes",
+        "claiming local existing conditions"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_service",
+        "data_governance"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作一手机制案例索引，不将外部成效或事实移植为清河现状。"
+    },
+    {
+      "source_id": "DATA-SRC-CASE-AMSTERDAM-SMART-CITY",
+      "title": "Amsterdam Smart City",
+      "publisher": "Amsterdam Smart City",
+      "source_kind": "first_party_case",
+      "url": "https://amsterdamsmartcity.com/",
+      "published_date": null,
+      "accessed_date": "2026-08-31",
+      "file_type": "web",
+      "authority_level": "B1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_web",
+      "license_summary": "Public mechanism reference; use only for description of the published mechanism.",
+      "review_status": "pending_manual_review",
+      "usable_for_formal": "citation_only",
+      "allowed_uses": [
+        "auditable mechanism comparison",
+        "case source register"
+      ],
+      "prohibited_uses": [
+        "claiming Qinghe adoption",
+        "transferring external outcomes",
+        "claiming local existing conditions"
+      ],
+      "topics": [
+        "ai_ecosystem",
+        "public_service",
+        "data_governance"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作一手机制案例索引，不将外部成效或事实移植为清河现状。"
     }
-  ]
+  ],
+  "generated_at": "2026-08-31T00:00:00Z"
 }

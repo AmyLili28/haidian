@@ -10,6 +10,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/self_check.json: formal submission has blocking failed self-check `DETERMINISTIC_VALIDATION`; pending self-check replacement",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
@@ -20,10 +21,14 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/qinghe-station-tod-gateway/agent.json",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/ecosystem-map.en.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/ecosystem-map.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/key-areas.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/logo-update-hub.en.png",
+        "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/logo-update-hub.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/qinghe-station-tod-gateway/assets/figures/mobility-bluegreen.en.png",
@@ -81,7 +86,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/qinghe-station-tod-gateway": "formal"
       },
-      "total_bytes": 11575564,
+      "total_bytes": 13463828,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -155,15 +160,15 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 17,
+        "known_metric_refs_required": 18,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 8,
+          "source": 14,
           "standard": 0,
-          "depth": 0,
-          "data": 1,
-          "metric": 2
+          "depth": 3,
+          "data": 4,
+          "metric": 9
         }
       }
     },
@@ -181,7 +186,7 @@
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
   "next_actions": [],
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "checks": [
     {
       "check_id": "DETERMINISTIC_VALIDATION",
@@ -211,84 +216,5 @@
       "target": "professional_review.py",
       "message": "professional_review: PASS"
     }
-  ],
-  "figure_qc": {
-    "ok": true,
-    "ink_ok": true,
-    "clip_clear": true,
-    "overlap_clear": "cleared",
-    "summary": "Round-7 regen: 5 figures zh+en, 100% full English parity (0 CJK in .en variants), font constraints satisfied (Title>=18pt, label>=13pt, annot>=11pt), no text overlaps, prominent provisional banners, clean A0/A3 exports.",
-    "figures": {
-      "key-areas.png": {
-        "width": 1884,
-        "height": 1179,
-        "ink": 0.0927,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "key-areas.en.png": {
-        "width": 1884,
-        "height": 1179,
-        "ink": 0.1018,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "land-use-structure.png": {
-        "width": 2250,
-        "height": 1300,
-        "ink": 0.2121,
-        "edge_clip_ratio": 0.072,
-        "edge_clip_clear": false
-      },
-      "land-use-structure.en.png": {
-        "width": 2260,
-        "height": 1299,
-        "ink": 0.2132,
-        "edge_clip_ratio": 0.0778,
-        "edge_clip_clear": false
-      },
-      "metrics-evidence.png": {
-        "width": 1884,
-        "height": 1179,
-        "ink": 0.4727,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "metrics-evidence.en.png": {
-        "width": 1884,
-        "height": 1179,
-        "ink": 0.4687,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.png": {
-        "width": 1884,
-        "height": 1179,
-        "ink": 0.16,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "mobility-bluegreen.en.png": {
-        "width": 1884,
-        "height": 1179,
-        "ink": 0.1661,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "site-overview.png": {
-        "width": 1884,
-        "height": 1179,
-        "ink": 0.0772,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      },
-      "site-overview.en.png": {
-        "width": 1884,
-        "height": 1179,
-        "ink": 0.0808,
-        "edge_clip_ratio": 0.0,
-        "edge_clip_clear": true
-      }
-    }
-  }
+  ]
 }

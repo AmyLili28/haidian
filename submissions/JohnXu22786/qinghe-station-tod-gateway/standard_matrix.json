@@ -29,8 +29,10 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
@@ -43,9 +45,14 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -53,15 +60,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-PUBLIC-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、安检客流通行辅助与排队引导（法定安检由安检人员执行，AI仅辅助排队引导与分流）、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+      "evidence_summary_zh": "以清河枢境、一站一枢、三节点织网和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、区域待核验接口、公共利益分群阈值和provisional边界均有正文与派生输出证据。"
     },
     {
       "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
@@ -91,8 +101,10 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
@@ -105,9 +117,14 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -115,15 +132,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-PUBLIC-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、安检客流通行辅助与排队引导（法定安检由安检人员执行，AI仅辅助排队引导与分流）、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+      "evidence_summary_zh": "以清河枢境、一站一枢、三节点织网和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、区域待核验接口、公共利益分群阈值和provisional边界均有正文与派生输出证据。"
     },
     {
       "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
@@ -153,8 +173,10 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
@@ -167,9 +189,14 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -177,15 +204,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-PUBLIC-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、安检客流通行辅助与排队引导（法定安检由安检人员执行，AI仅辅助排队引导与分流）、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+      "evidence_summary_zh": "以清河枢境、一站一枢、三节点织网和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、区域待核验接口、公共利益分群阈值和provisional边界均有正文与派生输出证据。"
     },
     {
       "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
@@ -215,8 +245,10 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
@@ -229,9 +261,14 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -239,15 +276,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-PUBLIC-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、安检客流通行辅助与排队引导（法定安检由安检人员执行，AI仅辅助排队引导与分流）、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+      "evidence_summary_zh": "以清河枢境、一站一枢、三节点织网和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、区域待核验接口、公共利益分群阈值和provisional边界均有正文与派生输出证据。"
     },
     {
       "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
@@ -277,8 +317,10 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
+        "key_area_count",
         "landmark_count",
         "scenario_node_count",
+        "scenario_card_count",
         "industry_test_scenario_count",
         "persona_count",
         "global_case_count",
@@ -291,9 +333,14 @@
         "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
         "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
-        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+        "DATA-SRC-CASE-HELSINKI-3D",
+        "DATA-SRC-CASE-SINGAPORE-VIRTUAL",
+        "DATA-SRC-CASE-DECIDIM",
+        "DATA-SRC-CASE-TFL-OPEN-DATA",
+        "DATA-SRC-CASE-NYC-OPEN-DATA",
+        "DATA-SRC-CASE-AMSTERDAM-SMART-CITY"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -301,15 +348,18 @@
         "A-DATA-001",
         "A-DESIGN-001",
         "A-PRIVACY-001",
-        "A-EVENT-001"
+        "A-EVENT-001",
+        "A-REGION-001",
+        "A-IMPLEMENTATION-001",
+        "A-PUBLIC-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "以「清河枢境（Qinghe Pivot Realm）」组织清河站TOD门户概念：以清河站综合交通枢纽（沿带真实高铁站点）为锚，把高铁的「到达」转化为创新的「汇聚」，构成百年京张AI创新带的北部门户；「一站一枢、三节点织网」——枢光客厅（站前城市客厅：到达广场+活动智慧预约）、轨上枢台（轨上创新服务综合体：上盖开发+连廊直通+分层分流）、枢合里（站北科创社区缝合节点），五类AI+场景（枢纽级智慧出行助手、安检客流通行辅助与排队引导（法定安检由安检人员执行，AI仅辅助排队引导与分流）、站前广场活动智慧预约、个性化出行接驳规划、枢纽商业与办公智慧服务）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控，TOD集约开发以「上盖增值反哺公共空间」为概念机制，慢行绿廊串联京张铁路遗址公园与上地/中关村软件园，分期实施+活动体系（高铁快闪展、轨上交汇论坛、站前周末市集）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+      "evidence_summary_zh": "以清河枢境、一站一枢、三节点织网和决策—示范—监督闭环回应任务；12张场景卡、3个测试协议、区域待核验接口、公共利益分群阈值和provisional边界均有正文与派生输出证据。"
     }
   ]
 }
