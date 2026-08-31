@@ -59,10 +59,10 @@
     },
     {
       "id": "A-AI-EVALUATION-001",
-      "status": "pending_reproducible_experiment",
-      "statement": "The current package specifies AI scenario governance but does not yet contain a reproducible planning baseline, algorithm run, ablation, error analysis or multi-option evaluation.",
-      "impact": "AI-planning innovation remains a design hypothesis and must not be described as validated performance.",
-      "next_action": "Define one data-sufficient planning question, run the smallest reusable baseline and candidate comparison, record versions/seed/error/sensitivity, and retain professional and public human selection."
+      "status": "minimum_offline_experiment_completed_human_decision_pending",
+      "statement": "A narrow-scope, project-authored, internal-ordinal offline experiment has completed three role-allocation comparisons and negative-fixture rejection; it includes no model call, field performance, ablation, public or professional selection, or HumanDecision.",
+      "impact": "Results support only deterministic replay of the internal ordinal assignment log; no performance, generalization, operational, public-interest, approval or implementation conclusion may be extrapolated.",
+      "next_action": "Retain professional review and human decision gates; obtain authorized professional and public/human selection before treating any candidate as a pilot or implementation choice."
     },
     {
       "id": "A-PRIVACY-001",
@@ -70,6 +70,13 @@
       "statement": "Public scenarios are designed without face recognition, plate recognition, personal movement traces, health profiles or compulsory account creation.",
       "impact": "Any later service that requires personal or sensitive data falls outside this concept and triggers a new legal, ethical and security review.",
       "next_action": "Use public, cleared, aggregate or synthetic data by default; document purpose, minimization, retention, access, withdrawal and human alternatives before adding any personal data."
+    },
+    {
+      "id": "A-IMAGERY-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Sentinel-2 10 m TCI and three public anchors support broad-context reading only; they are not surveying, redline, tenure, floor, engineering or partner evidence. Esri/Vantor high-resolution mosaic is local reference only and excluded from the public package. Formal use requires cleared official or survey data and professional review.",
+      "impact": "Imagery and anchors can orient broad water-green, urban-texture and node relationships, but cannot establish official geometry, ownership, floor or engineering conditions, partnerships or implementation feasibility.",
+      "next_action": "For formal or implementation use, clear the official or survey source, record its license and attribution, and complete planning, survey, tenure, engineering, heritage and stakeholder review before relying on it."
     }
   ]
 }

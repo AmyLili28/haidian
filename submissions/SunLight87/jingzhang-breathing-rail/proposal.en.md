@@ -12,7 +12,7 @@ technical_slug: "jingzhang-breathing-rail"
 summary: "JINGZHANG STRATA treats railway heritage as a version base and layers public life, innovation industry, and trustworthy intelligence into civic infrastructure that can be calibrated, challenged, corrected, and withdrawn. One base, three fields, two wings, and twelve prototypes organize the concept; all placements remain on provisional geometry and make no air-quality, medical, control-plan, engineering, or implementation conclusion."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v2.1"
+iteration: "v2.3"
 ---
 
 # JINGZHANG STRATA
@@ -32,7 +32,7 @@ In 1909, the Jing-Zhang Railway made measurement, checking, and operating discip
 
 The distinction is not another “AI landscape.” It is a version system for urban design: railway heritage is the version base; a linear heritage park becomes three relay interfaces; AI produces a constrained family of options rather than one answer; drawings, numbers, and evidence derive from the same structured inputs; and a person or professional team with authority signs `HumanDecision`. Every public service keeps a staffed, paper, static, or voice equivalent and a visible stop, withdrawal, complaint, and rollback path.[source:AGENT-TASKBOOK] [depth:overall_spatial_structure]
 
-Intelligence therefore helps people compare alternatives and expose uncertainty; it does not decide the city in their place. This package does not claim live AI operation, a digital twin, reinforcement learning, or deep reinforcement learning. If those methods later have sufficient data, they belong in an isolated, reversible sandbox and cannot become public release or engineering judgment by default.[data:geometry/constraints.geojson#CONSTRAINT-001] [depth:risk_missing_data]
+Intelligence therefore helps people compare alternatives and expose uncertainty; it does not decide the city in their place. This package does not claim live AI operation, a digital twin, reinforcement learning, or deep reinforcement learning. If those methods later have sufficient data, they belong in an isolated, reversible sandbox and cannot become public release or engineering judgment by default.[data:geometry/constraints.geojson#data_gap] This empty constraints layer records a data gap; the missing-data trigger is `assumptions.json#A-CONTROLS-001`.[depth:risk_missing_data]
 
 ## Design Basis and Source List
 
@@ -73,13 +73,14 @@ The taskbook controls these mappings. Status describes content maturity only, ne
 
 ## Three-Level Scope Framework
 
-The three levels progress from strategy to city structure to district prototypes. They do not present one rough map at three false levels of precision.[standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework]
+The official task uses three range levels from strategy to city structure to district design. This proposal preserves that chapter and validation contract while adding representative nodes as a fourth design-depth layer; it does not present one rough map at multiple false precisions.[standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework]
 
 | Level | Question | Deliverable | Boundary discipline |
 | --- | --- | --- | --- |
 | 43.6 sq km coordinated research | How can trustworthy intelligence enter a world-class innovation ecosystem without a false redline? | Three positions, five functions, six-layer value chain, 7 method precedents, and three-area/two-wing collaboration | Official text area and strategic relationships only; no unpublished coordinated-area polygon |
-| 11.4 sq km overall design | How can heritage park, campuses, districts, communities, and stations form enterable civic infrastructure? | One base, three fields, two wings, twelve prototypes, concept land use, blue-green/environment sensing module, mobility interfaces, public realm, and phasing | Provisional SITE-001; all geometry and areas remain low-confidence concept recomputations |
+| c.11.4 sq km overall design (11.41 sq km from the submitted provisional polygon) | How can heritage park, campuses, districts, communities, and stations form enterable civic infrastructure? | One base, three fields, two wings, twelve prototypes, concept land use, blue-green/environment sensing module, mobility interfaces, public realm, and phasing | Provisional SITE-001; all geometry and areas remain low-confidence concept recomputations |
 | 368.4 ha key-area design | How can calibration, translation, and adoption become spatially accessible? | Zhongzhiyuan Calibration Field, AI Origin Community Civic Translation Field, Dazhongsi Adoption Field | Three rough envelopes are not parcels, roads, tenure, or construction boundaries |
+| 3 representative nodes | How are prototypes translated into plan, section, use sequence, and eye-level space? | S01 Calibration Yard, S05 Civic Translation Room, S03 Adoption Forecourt; remaining prototypes stay in the reusable library | Concept development, not construction drawings, verified coordinates, or approved pilots |
 
 When official polygons arrive, replace `site_boundary` and `key_areas` first. Recut `land_use/buildings/roads/green_space/public_space/phasing` through the same topology process, recalculate all spatial metrics in EPSG:4548, and regenerate the five figures, HTML, A3/A0, and manifest hashes as one chain; do not edit only one map.[data:geometry/key_areas.geojson#PROV-KEY-001] [metric:key_area_count]
 
@@ -100,9 +101,40 @@ The three positions connect one evidence chain: **Centennial Jing-Zhang Culture 
 
 ### Trustworthy-intelligence loop: an option family, never a single answer
 
-Every scenario follows: `cleared input → constraint check → AI option family → professional and public comparison → HumanDecision sign-off → small trial → operating feedback → version rollback/exit`. Options may vary by route prompt, information format, component combination, or time window, but cannot pass over legal passage, accessibility, heritage, privacy, fire-safety, or data-authorization hard gates. AI proposes; authorized humans carry publication and stop responsibility.[source:AGENT-TASKBOOK] [data:geometry/constraints.geojson#CONSTRAINT-001]
+Every scenario follows: `cleared input → constraint check → AI option family → professional and public comparison → HumanDecision sign-off → small trial → operating feedback → version rollback/exit`. Options may vary by route prompt, information format, component combination, or time window, but cannot pass over legal passage, accessibility, heritage, privacy, fire-safety, or data-authorization hard gates. AI proposes; authorized humans carry publication and stop responsibility.[source:AGENT-TASKBOOK] [data:geometry/constraints.geojson#data_gap] This is the empty constraints layer's data gap; the missing-data trigger is `assumptions.json#A-CONTROLS-001`.
 
 Drawings, metrics, and evidence derive from one structured package: GeoJSON supports spatial relations, `metrics.json` supports recomputable quantities, and sources/assumptions/matrices support explanation and boundaries. Figures serve the human reading layer and do not replace authoritative geometry. The package has not run a validated reinforcement-learning, digital-twin, or DRL experiment; any future work must use cleared/synthetic data, an isolated sandbox, reproducible versions, and explicit failure thresholds before it can be considered for review.[data:geometry/site_boundary.geojson#SITE-001] [depth:metrics_recalculation]
+
+### Minimal reproducible experiment: assign field roles, not coordinates
+
+To test the smallest loop in which AI generates an option family, the experiment assigns S01–S12 to `source_calibration_yard`, `civic_translation_commons`, and `adoption_market_court` without changing any coordinate. The baseline is `authored_baseline`; the alternatives are `public_interest_balance` and `low_burden_operable` (3 candidates including the baseline), with seed `20260821`. Hard constraints are fixed S01/S02/S03/S12 assignments; 3–5 prototypes per field; unique S01–S12 coverage; a staffed or static fallback for every scenario; no `PII`, `biometrics`, `medical`, `regulatory`, or `approval` flags; and `coordinate_patch=[]`. Any hard-constraint violation, prohibited flag, coordinate change, or input/output inconsistency rejects the output.
+
+The experimental baseline temporarily assigns S12 to `civic_translation_commons` only to freeze and replay one field-role allocation. The spatial-design baseline keeps S12 as a cross-field multilingual-guidance prototype that may move among north, central, and south. This experimental role is not an exclusive central construction location, changes no coordinate, and does not replace the final `HumanDecision`.
+
+The eight frozen project-internal ordinal formulas in `experiment-inputs.json` are summarized only here; they are not field-performance or engineering claims:
+
+- `fallback_strength_min`: minimum across the three fields of the summed staffed/non-digital fallback strength, maximize; each field must have at least one fallback prototype.
+- `maintenance_burden_max`: maximum across fields of the summed ordinal maintenance burden, minimize.
+- `persona_coverage_min`: minimum across fields of the deduplicated persona count, maximize.
+- `public_interest_score`: `2*persona_coverage_min + 2*fallback_strength_min + reversibility_sum_min + role_affinity_total`, a project-internal ordinal.
+- `reversibility_sum_min`: minimum across fields of the summed reversibility ordinal, maximize.
+- `role_affinity_total`: sum of project-internal ordinal affinity scores for prototypes assigned to their fields, maximize (`court` is a compatibility field).
+- `role_load_spread`: maximum minus minimum of each field's unknown-dependency ordinal sum plus maintenance-burden ordinal sum, minimize.
+- `unknown_dependency_burden_max`: maximum across fields of the summed unknown-dependency ordinal, minimize.
+
+The real offline run produced 55 feasible assignments, 6 Pareto assignments, 3 candidate evaluations, 6 negative-fixture rejections, 0 coordinate changes, and 10 `simulation` tasks; `simulation_success_rate=1.0`. These results represent offline field-role allocation only. Model invocation, field trial, runtime or latency, energy consumption, public feedback, approval, and `HumanDecision` are all `not_run`.[data:visual/assets/experiment-inputs.json#boundaries] [data:visual/assets/experiment-run.json#counts] [data:simulation.json#derived]
+
+### The Agent's real-planning responsibilities and human boundary
+
+| Planning stage | Agent work | Reviewable output | Human responsibility |
+| --- | --- | --- | --- |
+| Cleared input | Register and cross-check source, rights, date, confidence, coordinate role, and missing data | `sources.json`, `assumptions.json`, imagery ledger, provisional-geometry declaration | Confirm rights, official-data version, accountable party, and allowed use |
+| Existing-condition diagnosis | Detect heritage, public-realm, transport-interface, service, and evidence breaks on one base | Diagnosis figure, constraint/gap layer, problem-to-action map | Field survey, mapping, heritage, tenure, transport, and utility judgment |
+| Multi-scale generation | Produce constrained overall–district–node candidate families rather than one answer | Overall plan/aerial, north-central-south plans/sections/eye-levels, S01/S05/S03 node chains | Judge spatial value, cultural fit, public interest, and entry into comparison |
+| Comparison and critique | Recompute area/ratios and run Pareto, negative-case, cross-artifact consistency, and exit checks | Five core figures, `metrics.json`, `simulation.json`, review matrices | Experts and public supply counter-evidence and confirm weights, thresholds, and unacceptable risks |
+| Decision and delivery | Record release / modify / reject / pause / rollback / exit and form reversible-pilot inputs | `HumanDecision` template, phasing and RACI interfaces, rollback and sunset conditions | Authorized sign-off, resources, field pilot, operation, complaint handling, and shutdown |
+
+Accordingly, “the first real urban plan given to an Agent” does not mean letting a model decide the city. It means the Agent assumes the complete planning work surface from evidence organization through spatial-option generation, comparison, and version logging, while professional responsibility, public value judgment, and legal authority remain human. This local package completes the first four machine-executable categories and their artifacts; real professional/public review, authorization, and `HumanDecision` remain pending.[source:AGENT-TASKBOOK] [depth:risk_missing_data]
 
 ### Identity and cultural translation
 
@@ -129,6 +161,10 @@ Four overall-design decisions are therefore frozen. First, move from `43.6 sq km
 
 The chain is `sensors and edge compute → cleared data and calibration → environmental models and uncertainty → safety/standards/ethics → small urban trials → public-service and market adoption`. Zhongzhiyuan concentrates calibration, AI Origin translates and gathers feedback, and Dazhongsi tests usability and adoption; the two wings provide services and validation. No company, investment, compute, revenue, recruitment, or event-effect number is invented.[source:URBAN-RENEWAL-GUIDE] [depth:overall_spatial_structure]
 
+### Regional coordination interfaces (verification only)
+
+The regional entry records five relationship objects: Beiwei Community, Future Science City, Huairou Science City, Beijing Economic-Technological Development Area, and Beijing-Tianjin-Hebei. The eight mechanisms are `land`, `space`, `industry`, `funding`, `talent`, `compute`, `data`, and `scenario`. Each item proposes only an exchange question, candidate interface, and trigger condition for later verification; all record `partner_commitment=false` and `capacity=null`, with no claim of confirmed cooperation, partners, budget, compute capacity, SLA, or policy commitment.[data:visual/assets/regional-coordination-matrix.json#relationships] [data:visual/assets/regional-coordination-matrix.json#resource_mechanisms]
+
 | Precedent | Borrow | Do not copy |
 | --- | --- | --- |
 | Breathe London | Community, school, and hospital sensor locations with reference co-location and public communication | Device count, legal authority, London governance, or partner relationships |
@@ -139,7 +175,7 @@ The chain is `sensors and edge compute → cleared data and calibration → envi
 | Mila | Research, entrepreneurship, policy, and responsible-AI bridges | Institutional scale, academic system, or research agenda |
 | Cornell Tech | Public space connecting research, enterprise, living, and resilience | Campus area, investment, or engineering systems |
 
-Full URLs, access dates, rights, and limitations are in [sources.json](sources.json). [source:BREATHE-LONDON] [source:OPENAQ] [source:US-EPA-AIR-SENSOR]
+Full URLs, access dates, rights, and limitations are in `sources.json`. [source:BREATHE-LONDON] [source:OPENAQ] [source:US-EPA-AIR-SENSOR]
 
 ## Overall-Design-Area Urban Renewal and Control-Plan-Depth Urban Design
 
@@ -151,6 +187,23 @@ Low-impact, reversible, reuse-first measures are suggested: shared ground-floor 
 
 FAR, height, density, setbacks, road widths, and facility capacities are pending official data. Character guidance is non-numeric: keep railway traces legible; make components removable and maintainable; keep ground floors enterable; allow screens to switch off; avoid glare; keep staffed help visible. Nothing here becomes a permit condition.[standard:MOHURD-CONTROL-DETAILED-PLANNING] [metric:floor_area_ratio]
 
+### Overall spatial-design output: retain grain, stitch interfaces, build a loop
+
+The c.11.41 km² provisional overall area is treated as an **existing urban network**, not a narrow railway-landscape strip. Railway heritage is the legible north-south version base. Existing primary streets, mature neighborhoods, campuses, and industrial fabric are retained first. The three separated focus areas carry the higher-intensity roles of calibration, civic translation, and adoption. New space begins with open ground floors, shared courts, shaded active mobility, interchange forecourts, and movable service components; it assumes neither wholesale rebuilding nor a new supertall district.[depth:overall_spatial_structure] [depth:building_height_volume_style]
+
+![11.41 km² overall urban-design concept masterplan: three separated focus areas form a relay network with railway heritage and public space; OpenFreeMap Positron / OpenStreetMap public-basemap composite with participant concept overlay, not a redline or survey](assets/media/design/overall-masterplan-4k.webp)
+
+![Overall urban-design concept aerial: broad low/mid-rise grain is retained while focus areas and heritage-public interfaces receive controlled emphasis; 4K Imagegen concept expression, not a site photograph or official rendering](assets/media/design/overall-aerial-4k.webp)
+
+The overall scheme uses four spatial actions—**retain, stitch, transform, test**:
+
+- **Retain:** railway heritage, mature neighborhoods, campuses, and usable industrial/public buildings first. `BLDG-001` is one concept footprint capable of hosting nine program types; it is not nine surveyed buildings.[data:geometry/buildings.geojson#BLDG-001]
+- **Stitch:** repair east-west breaks through walking, cycling, public-transport interchange, accessible interfaces, and legible wayfinding. The six relationship lines require field audit and do not automatically become road works.[data:geometry/roads.geojson#ROAD-001]
+- **Transform:** adapt underused ground floors, courtyards, residual land, and existing-complex interfaces for staffed service, civic translation, innovation collaboration, and all-weather public space.
+- **Test:** begin new structures, terminals, and service components as movable, reversible, low-impact prototypes; maintenance, accessibility, equity, and complaint feedback determine scale-up, revision, or exit.[depth:phasing_implementation]
+
+Built-form control is non-numeric: a **continuous low/mid-rise base with controlled emphasis**. Urban identity comes first from open ground floors, continuous interfaces, shared courts, public roofs, and a legible heritage skyline—not from invented supertalls. Any height increase requires daylight, transport, fire, heritage, tenure, and statutory review. Blue-green design begins with real green space, shade, infiltration, and small rain gardens; roofs, construction covers, and sports grounds are not depicted as water.[depth:blue_green_public_space]
+
 ## Key-Area Detailed Design
 
 All three areas use the same fields—role, spatial move, building approach, mobility/public realm, prototypes, and dependencies. Rough rectangles are concept envelopes only. The design fields are reference schemes that place an evidence relay into ordinary space; they are not established institutions or projects.[depth:three_key_area_detailed_design] [metric:key_area_count]
@@ -160,27 +213,57 @@ All three areas use the same fields—role, spatial move, building approach, mob
 ### Zhongzhiyuan Calibration Field
 
 - **Role:** northern calibration interface for environmental sensing, edge inference, model safety, and standards validation.
-- **Spatial move:** in consented existing open space, consider removable co-location racks, a synthetic-data sandbox, a maintenance bench, and a public model-card gallery; do not infer water, wind, power, or tenure conditions.
-- **Building prototypes:** a small calibration lab and staffed release room; reuse/new-build status waits for survey, structure, and fire review.
-- **Mobility and public realm:** separate maintenance and public reading; accessibility, rest, and human explanation precede automated demonstration.
+- **District plan and program placement:** retain the campus, neighborhood, streets, and most building grain; organize a calibration yard, shared lab ground floor, model-card gallery, maintenance back-of-house, and pocket plazas as a reversible point-line system, not a tower district.
+- **Retain/renovate/new and massing:** retention and adaptation lead. New elements remain low, demountable, or continuous with existing height; real demolition or extension waits for survey, tenure, structure, fire, and heritage review.
+- **Mobility, parking, and public realm:** separate maintenance and public reading. A walking loop, accessible route, shared courts, shade, seating, and human explanation precede automation; parking remains in the existing system pending transport survey.
 - **Prototype mapping:** S01 multi-sensor co-location, S02 model-drift red team, and S08 blue-green inspection.
+- **Representative node:** S01 Calibration Yard links co-location equipment, shaded waiting, maintenance access, and a public model card in one plan-section sequence; footprint and equipment parameters remain for professional development.
+- **Phasing:** verify reference equipment, power, maintenance, and access; run a demountable pilot; discuss scaling only after calibration, care, and public-safety thresholds are met.
 - **Dependencies and exit:** without regulatory reference data, co-location, maintenance responsibility, or professional sign-off, retain education-only display and remove it.[data:geometry/key_areas.geojson#PROV-KEY-001] [source:US-EPA-AIR-SENSOR]
+
+![North Zhongzhiyuan Calibration Field concept plan: retain existing street and campus grain while inserting low-impact calibration/public interfaces; OpenFreeMap Positron / OpenStreetMap public-basemap composite with participant concept overlay](assets/media/design/north-local-plan-4k.webp)
+
+![North representative node S01 Calibration Yard at eye level: shaded active mobility, demountable co-location rigs, and maintenance interface; Imagegen concept expression](assets/media/design/north-human-view.webp)
 
 ### AI Origin Community Civic Translation Field
 
 - **Role:** translate model candidates into ordinary services that residents can understand, contest, and exit.
-- **Spatial move:** candidate campus–district–community interfaces host an open worktable, data-license wall, static bulletin, paper/Braille route, and staffed desk; no new floor area is assumed.
-- **Building and passage:** reuse existing ground floors and time-share first; audit accessibility and temporary wayfinding on middle interfaces, without promising campus opening, wall removal, or connection works.
+- **District plan and program placement:** candidate campus–district–community interfaces host a translation gallery, open worktable, data-license wall, staffed desk, community room, and continuous active-mobility network; no new floor area is assumed.
+- **Retain/renovate/new and massing:** reuse existing ground floors, connect courtyards, and time-share first. New massing remains low/mid-rise, fine-grained, and permeable; no wholesale AI-city rebuild.
+- **Mobility, parking, and public realm:** audit accessibility, crossings, and temporary wayfinding on east-west interfaces. Walking, cycling, and public transport take priority; parking supply, campus opening, and right-of-way remain for verification.
 - **Prototype mapping:** S04 low-exposure active-mobility prompt, S05 accessible service post, S07 pollen/dust bulletin, and S11 community sensor loan and learning.
+- **Representative node:** S05 Civic Translation Room places the accessible route, static/voice explanation, staffed service, and question-ready interface in one section; core service remains available when the digital layer is off.
+- **Phasing:** audit accessibility, privacy, and opening hours; pilot within an existing ground floor; use real participation records and staffing capacity to scale or exit.
 - **Dependencies and exit:** campus access, privacy, accuracy, maintenance, participation, and staffed duty require accountable parties; without an equivalent human path, do not publish advice.[data:geometry/key_areas.geojson#PROV-KEY-002] [source:BARRIER-FREE-LAW]
+
+![Central AI Origin Community concept plan: retain fine-grain campus and neighborhood fabric while opening ground floors and active-mobility links; OpenFreeMap Positron / OpenStreetMap public-basemap composite with participant concept overlay](assets/media/design/central-local-plan-4k.webp)
+
+![Central representative node S05 Civic Translation Room at eye level: staffed help, accessible movement, and question-ready public interface in parallel; Imagegen concept expression](assets/media/design/central-human-view.webp)
 
 ### Dazhongsi Adoption Field / 大钟寺转化场
 
 - **Role:** southern adoption interface for environmental-AI terminals, indoor/outdoor information, AI-native consumption, and international exchange.
-- **Spatial move:** at existing station-adjacent or commercial public nodes, test a movable “read data—ask a human—try a terminal—submit feedback” loop; do not alter traffic, green, or heritage controls.
-- **Building prototypes:** a terminal-usability lab, information display, and shift-worker service post; mechanical, fire, and indoor-ventilation engineering are separate.
+- **District plan and program placement:** organize a multimodal forecourt, all-weather walking, a terminal-usability lab, shift-worker service post, and feedback interface within existing mobility, commercial, and community edges; no invented mega-complex, underground station, or new station-city.
+- **Retain/renovate/new and massing:** improve existing-complex ground floors, forecourts, and connectors first. Additions remain medium-scale and context-compatible; extensions, MEP, fire, and ventilation are separate designs.
+- **Mobility, parking, and public realm:** separate pedestrian, cycling, interchange, loading, and equipment-maintenance flows by space and time. Crossing, accessibility, and weather protection lead; parking and transport capacity await formal survey.
 - **Prototype mapping:** S03 indoor/outdoor terminal usability, S06 ventilation advice, S09 event/construction air notice, and S10 shift-worker post.
+- **Representative node:** S03 Adoption Forecourt follows “arrive—ask a human—try a terminal—submit feedback—pause if needed,” while plan geometry separates interchange, dwell, loading, and maintenance.
+- **Phasing:** verify property management, fire, transport, and consumer rights; run a movable pilot; adopt long-term only while equity, maintenance, and safety thresholds remain satisfied.
 - **Dependencies and exit:** station/property management, measurements, fire safety, market fairness, consumer rights, and staffed duty remain pending; on-site staff decide loading, accessibility, and safety conflicts.[data:geometry/key_areas.geojson#PROV-KEY-003] [source:GENERATIVE-AI-MEASURES]
+
+![South Dazhongsi Adoption Field concept plan: improve existing mobility/commercial edges with a multimodal forecourt and pausable service prototypes; OpenFreeMap Positron / OpenStreetMap public-basemap composite with participant concept overlay](assets/media/design/south-local-plan-4k.webp)
+
+![South representative node S03 Adoption Forecourt at eye level: all-weather walking, staffed service, and terminal adoption in parallel; Imagegen concept expression](assets/media/design/south-human-view.webp)
+
+### Three representative nodes and the depth boundary for the remaining prototypes
+
+| Node | Plan focus | Section focus | Eye-level focus | HumanDecision |
+| --- | --- | --- | --- | --- |
+| S01 Calibration Yard / north | Separate co-location rigs, public waiting, and maintenance back-of-house | Low demountable frame, shade, equipment care, campus/heritage interface | Equipment remains readable without overwhelming the everyday street | Equipment, power, care, access, and calibration responsibility pending |
+| S05 Civic Translation Room / central | Accessible route, staffed desk, static/voice explanation together | Open ground floor, shared court, digital layer can switch off | Residents can understand, contest, switch to human, and exit | Campus access, privacy, staffing, and participation rules pending |
+| S03 Adoption Forecourt / south | Separate interchange, dwell, loading, maintenance, and feedback | All-weather connector, medium-scale edge, service can pause | Ask a human before trying a terminal; public service is not conditional on purchase | Property, fire, transport, equity, and consumer-rights sign-off pending |
+
+All three nodes appear in the A3 booklet and A0 boards through synchronized district plan–key section–eye-level–aerial chains. S04–S12 remain a reusable prototype library. S12 multilingual guidance can move across fields and is not a fixed construction point. Images support comparison of spatial intent, scale, and character; they cannot prove real placement or engineering conditions.[depth:three_key_area_detailed_design] [depth:renewal_project_list]
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
@@ -219,11 +302,15 @@ All twelve prototypes are small, pausable, exitable concept trials; none is an i
 
 The minimum industry-validation set is S01, S02, and S03. S06 can become a fourth only after mechanical, venue, and data authorization. Counts and locations are auditable design deliverables; they do not claim deployment, procurement, operation, or effect.[metric:industrial_validation_count] [data:geometry/public_space.geojson#PUBLIC-001]
 
+### Unified S01–S12 scenario-operations matrix (authorization pending)
+
+`scenario-operations-matrix.json` registers users, space status, data rights, baseline, metrics, human gate, static/staffed fallback, and exit, complaint, and sunset paths for S01–S12. It is a concept operation interface, not an approved service; every `HumanDecision` remains `pending`. The S04 and S08 Xiaoyuehe candidate experience/inspection routes are non-redline concept suggestions only; they do not change road, waterway, or tenure determinations, and static or staffed alternatives remain available.[data:visual/assets/scenario-operations-matrix.json#scenarios]
+
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
 Concept land use covers provisional SITE-001 through a single-source partition. Its four `LU-*` features have a 1.0 internal coverage ratio, but that ratio describes only provisional concept topology, not existing land certification or statutory rezoning.[data:geometry/land_use.geojson#LU-001] [metric:land_use_coverage_ratio] [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]
 
-Nine `BLDG-*` features are spatial prototypes for calibration, red team, data licensing, civic translation, accessible service, terminal testing, shift-worker service, maintenance, and international exchange. The package recomputes their footprint total as 310,807.184 sq m at low confidence; existing status, floors, structure, ownership, and retain/renovate/demolish/new-build decisions are pending official data and survey. The prototypes are not existing buildings or development quantities.[data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm] [depth:development_intensity_controls]
+`BLDG-001` is one low-confidence conceptual building footprint intended to accommodate nine program-prototype types: calibration, red team, data licensing, civic translation, accessible service, terminal testing, shift-worker service, maintenance, and international exchange. It is not nine surveyed buildings. The package recomputes this single conceptual footprint as about 0.31 million sq m; existing status, floors, structure, ownership, and retain/renovate/demolish/new-build decisions remain pending official data and survey. It is not an existing-building or development-quantity claim.[data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm] [depth:development_intensity_controls]
 
 The decision sequence is survey → tenure → structure/fire → heritage/control plan → public value → reversible trial → `HumanDecision`. Until professional review, this proposal makes no parcel-level retain/renovate/demolish decision and no conclusion about FAR, height, density, investment, or construction scale.[depth:retain_renovate_demolish] [metric:building_height_m]
 
@@ -233,13 +320,13 @@ The road layer expresses one north–south heritage-continuity relationship, six
 
 Environmental advice never overrides mobility safety: legal, accessible, staff-confirmed passage is a hard gate; predicted exposure is secondary. Emergencies, closures, and rail operations defer to operators and authorities. Cycling, delivery, device maintenance, and walking are coordinated by time and staff without plates, faces, or individual traces.[source:BARRIER-FREE-LAW] [depth:traffic_rail_slow_parking]
 
-The lightweight infrastructure stack is sensor → edge gateway → cleared-data zone → model sandbox → public bulletin. Public output contains only necessary time/location granularity, confidence, and human contact. Power, communications, regulatory monitoring, mechanical systems, fire safety, drainage, and cybersecurity require professional capacity checks; no utility, energy, or HVAC quantity is proposed.[depth:municipal_new_infrastructure] [data:geometry/constraints.geojson#CONSTRAINT-001]
+The lightweight infrastructure stack is sensor → edge gateway → cleared-data zone → model sandbox → public bulletin. Public output contains only necessary time/location granularity, confidence, and human contact. Power, communications, regulatory monitoring, mechanical systems, fire safety, drainage, and cybersecurity require professional capacity checks; no utility, energy, or HVAC quantity is proposed.[depth:municipal_new_infrastructure] [data:geometry/constraints.geojson#data_gap] This is the empty constraints layer's data gap; the missing-data trigger is `assumptions.json#A-CONTROLS-001`.
 
 ![Active mobility, blue-green space, and public-air nodes](assets/figures/mobility-bluegreen.en.png)
 
 ## Blue-Green Network, Public Space, and Urban Character
 
-`GREEN-*` features are concept green-priority bands along heritage continuity and east–west interfaces. `PUBLIC-*` features are concept fields and prototype nodes. Neither is a surveyed park, waterway, statutory green line, or blue line. The green ratio 0.123423 and public-space ratio 0.073281 are low-confidence allocations on provisional geometry, not statutory ratios or existing supply; canopy, stormwater, river, and airflow performance require ecology, water, meteorology, and wind studies.[data:geometry/green_space.geojson#GREEN-001] [metric:green_ratio] [metric:public_space_ratio]
+`GREEN-*` features are concept green-priority bands along heritage continuity and east–west interfaces. `PUBLIC-*` features are concept fields and prototype nodes. Neither is a surveyed park, waterway, statutory green line, or blue line. The green ratio is about 12.3% and the public-space ratio about 7.3%; both are low-confidence allocations on provisional geometry, not statutory ratios or existing supply. Canopy, stormwater, river, and airflow performance require ecology, water, meteorology, and wind studies.[data:geometry/green_space.geojson#GREEN-001] [metric:green_ratio] [metric:public_space_ratio]
 
 The component library is legible, removable, and maintainable: a two-sided data board with source/time/confidence/human contact, co-location rack, shaded seat, water/charging interface, Braille/high-contrast paper map, low-glare light, staffed desk, and recyclable event frame. A QR code is never the only entrance; offline asking, resting, reading, challenging, and complaining remain possible.[depth:blue_green_public_space]
 
@@ -264,12 +351,18 @@ The landmarks are content and service nodes, not sculptural claims; each install
 | STR-07 | Bilingual identity and railway narrative system | Park nodes | History, copyright, translation review | Withhold any unverified fact/right |
 | STR-08 | Open challenge and version-maintenance crew | Three areas/two wings | Operator, rules, resources to be confirmed | No public commitment without accountable operator |
 
+### STR RACI and annual mechanism (authorization pending)
+
+`str-raci-matrix.json` is the governance entry for STR-01–08, registering one unique A, at least one R, acceptance evidence, complaint route, rollback, maintenance, and sunset for each item. It uses generic roles only; resource levels are L0–L2 with no L3. Quarterly calibration and scenario review, semiannual model/data audit, and an annual open challenge are reviewable proposed mechanisms, not commitments; service windows are `not_committed`, with no institutional, funding, capacity, or SLA promise.[data:visual/assets/str-raci-matrix.json#packages]
+
 Four phases are a suggested governance sequence, not investment or construction commitments:[data:geometry/phasing.geojson#PHASE-001] [metric:phase_count]
 
 1. **Verify the base, years 0–1:** obtain official geometry, controls, tenure, and existing-condition surveys; audit accessibility, air evidence, heritage rights, and reference co-location. Every public output shows source, time, confidence, and a human channel.
 2. **Pilot light layers, years 1–3:** in consented existing spaces, run S01–S03 and a few public prototypes; pass safety, accessibility, rights, privacy, and `HumanDecision` gates; stop, withdraw, or restore a static version at any time.
 3. **Professional iteration, years 3–5:** connect the fields and prototypes only through verified existing passages. Building, transport, mechanical, heritage, and municipal actions require professional review; AI remains an option-family generator.
 4. **Continuing stewardship, year 5+:** quarterly calibration and scenario review, semiannual model/data audit, annual open challenge; retain version log, public challenges, rollback, and sunset. Reinforcement learning, digital twins, and DRL remain isolated future experiments and cannot enter public service without independent validation.
+
+The spatial boundary must be read from the registry separately: only `STAGE-02` / `PHASE-001` is a `provisional_spatial_feature`; `STAGE-01`, `STAGE-03`, and `STAGE-04` are `not_spatially_mapped`. No footprint or boundary for another stage may be inferred from `PHASE-001`.[data:geometry/phasing.geojson#PHASE-001]
 
 Operations use a dual professional/public gate: environmental and urban professionals confirm evidence and spatial safety, while residents and users confirm legibility, exit, and public value. No event, partner, funding, recruitment, or attraction-effect claim is made without authorization. GitHub submission status remains separate from official professional eligibility.[source:AGENT-TASKBOOK] [source:OFFICIAL-ANNOUNCEMENT]
 
@@ -279,9 +372,9 @@ Only recomputable geometry and authored deliverable counts are marked as package
 
 | Metric | Current status | Human-readable meaning |
 | --- | --- | --- |
-| Provisional overall area | Recomputable, low confidence: 11,412,825.386 sq m | EPSG:4548 recomputation of the submitted provisional polygon, not an official redline for the announced 11.4 sq km [metric:site_area_sqm] |
-| Prototype building footprint | Recomputable, low confidence: 310,807.184 sq m | Sum of nine spatial prototypes, not existing buildings or development quantity [metric:building_footprint_area_sqm] |
-| Concept green/public-space ratios | Recomputable, low confidence: 0.123423 / 0.073281 | Provisional allocation only, not statutory green ratio or existing supply [metric:green_ratio] [metric:public_space_ratio] |
+| Provisional overall area | Recomputable, low confidence: about 11.41 sq km | EPSG:4548 recomputation of the submitted provisional polygon, not an official redline for the announced 11.4 sq km [metric:site_area_sqm] |
+| Prototype building footprint | Recomputable, low confidence: about 0.31 million sq m | Area of the single `BLDG-001` conceptual footprint; it may accommodate nine program-prototype types, but it is neither nine surveyed buildings nor a development quantity [metric:building_footprint_area_sqm] |
+| Concept green/public-space ratios | Recomputable, low confidence: about 12.3% / 7.3% | Provisional allocation only, not statutory green ratio or existing supply [metric:green_ratio] [metric:public_space_ratio] |
 | Land-use coverage | Recomputable, low confidence: 1.0; 4 features | Internal coverage of the provisional concept partition, not statutory land-use coverage [metric:land_use_coverage_ratio] [metric:land_use_feature_count] |
 | Fields, prototypes, validations, personas, landmarks, phases | Recomputable, high confidence: 3 / 12 / 3 / 7 / 3 / 4 | Authored deliverable counts, not construction, operation, or effect [metric:key_area_count] [metric:scenario_node_count] |
 | East–west interfaces | Recomputable, low confidence: 6 | Concept relationship count, not surveyed roads, bridges, tunnels, or engineering quantity [metric:cross_link_count] |
@@ -298,10 +391,14 @@ Only recomputable geometry and authored deliverable counts are marked as package
 - **Space and engineering:** every boundary, land-use, building, road, green/public-space, and phase feature is a concept suggestion. No control-plan, parcel-level building action, bridge/tunnel, underground work, utility capacity, airflow, energy, investment, or construction conclusion is made.[standard:MOHURD-CONTROL-DETAILED-PLANNING]
 - **Human judgment:** AI suggests option families only; public release, spatial trial, or version upgrade requires an authorized person/professional team to complete `HumanDecision`, with a manual fallback and stop control.[source:AGENT-TASKBOOK]
 - **Accessibility:** paper, voice, static, and staffed equivalents remain beside digital interfaces; field continuity audits precede implementation.[source:BARRIER-FREE-LAW]
-- **Heritage and rights:** only original geometry, programmatic figures, and registered public material are distributed. No third-party font, photo, logo, portrait, or map tile is bundled. See [report/copyright_statement.md](report/copyright_statement.md).
+- **Heritage and rights:** only original geometry, programmatic figures, and registered public material are distributed. The four offline HTML files embed only the registered SIL OFL 1.1 Noto Sans SC subset; no uncleared proprietary font, third-party photograph, logo, portrait, raw map tile, or tile cache is bundled. See `report/copyright_statement.md`.
 - **Submission boundary:** the official prequalification was for qualified legal entities/consortia. This AI-agent open-source PR is a concept submission and does not claim official applicant, selection, government recognition, or implementation.[source:OFFICIAL-ANNOUNCEMENT]
 
-Unresolved inputs include official SITE/KEY_AREA polygons, control plan and tenure, existing buildings and public space, road/rail/parking, utilities and fire, heritage controls, regulatory air baseline, reference co-location, device maintenance, accountable operators, and public-participation records. When any is missing, the claim remains pending official data and does not expand into an engineering or implementation commitment.[data:geometry/constraints.geojson#CONSTRAINT-001] [depth:risk_missing_data]
+### Imagery evidence entry
+
+Sentinel-2 scene `S2B_50TMK_20260715_0_L2A` supports broad water-green, built-texture, and node-relationship context only. `CROP-001` and `ANCHOR-001`–`ANCHOR-003` are low-confidence public location anchors, not boundary, tenure, or partner evidence. The Esri/Vantor high-resolution mosaic is `local_reference_only` and is excluded from the public package.[data:visual/assets/imagery-source-ledger.json#scene] [data:visual/assets/imagery-source-ledger.json#anchor_records] [data:visual/assets/imagery-source-ledger.json#restricted_reference_notice]
+
+Unresolved inputs include official SITE/KEY_AREA polygons, control plan and tenure, existing buildings and public space, road/rail/parking, utilities and fire, heritage controls, regulatory air baseline, reference co-location, device maintenance, accountable operators, and public-participation records. When any is missing, the claim remains pending official data and does not expand into an engineering or implementation commitment.[data:geometry/constraints.geojson#data_gap] This empty constraints layer records the data gap; the missing-data trigger is `assumptions.json#A-CONTROLS-001`.[depth:risk_missing_data]
 
 ## References
 
@@ -312,12 +409,14 @@ Unresolved inputs include official SITE/KEY_AREA polygons, control plan and tenu
 5. MOHURD urban-design and control-plan measures; MNR land-use classification guide.
 6. London City Hall, *Breathe London*; OpenAQ, *About Us*; US EPA, *Air Sensor Toolbox*.
 7. Official pages of JTC LaunchPad, Station F, Mila, and Cornell Tech.
-8. Full URLs, access dates, use limits, and rights notes are in [sources.json](sources.json); structured recomputation is in [metrics.json](metrics.json), and missing-data triggers are in [assumptions.json](assumptions.json). [source:SOURCE-REGISTRY]
+8. Full URLs, access dates, use limits, and rights notes are in `sources.json`; structured recomputation is in `metrics.json`, and missing-data triggers are in `assumptions.json`. [source:SOURCE-REGISTRY]
 
 ## Evidence and Delivery Entry Points
 
 The human reading layer explains judgments and limits; the machine-audit layer retains complete source, assumption, metric, matrix, and geometry indexes.
 
-- [Metrics and recalculation](metrics.json) · [Source registry](sources.json) · [Assumptions and data gaps](assumptions.json)
-- [Task coverage matrix](compliance_matrix.json) · [Professional standards matrix](standard_matrix.json) · [Design-depth matrix](design_depth_matrix.json)
-- [Formal narrative report](report/narrative.md) · [Copyright statement](report/copyright_statement.md)
+`review-response-matrix.json` records 9 remediation responses, all currently `evidence_created`; it represents package evidence formed and locally structurally checked, not reviewer acceptance or issue closure.[data:visual/assets/review-response-matrix.json#items]
+
+- Metrics and recalculation: `metrics.json` · Source registry: `sources.json` · Assumptions and data gaps: `assumptions.json`
+- Task coverage matrix: `compliance_matrix.json` · Professional standards matrix: `standard_matrix.json` · Design-depth matrix: `design_depth_matrix.json`
+- Formal narrative report: `report/narrative.md` · Copyright statement: `report/copyright_statement.md`

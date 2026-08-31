@@ -233,7 +233,109 @@
       "formula": "count(authored_recommended_stages)",
       "confidence": "high",
       "assumptions": [
-        "The four stages are a suggested governance sequence, not an approved construction schedule; geometry/phasing.geojson does not yet map all four stages."
+        "The four-stage registry exists, but only STAGE-02 is spatialized in geometry/phasing.geojson; STAGE-01, STAGE-03 and STAGE-04 are marked not_spatially_mapped. The sequence is a suggested governance order, not an approved construction schedule."
+      ]
+    },
+    "feasible_assignment_count": {
+      "status": "known",
+      "value": 55,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/experiment-run.json"
+      ],
+      "formula": "visual/assets/experiment-run.json#counts.feasible_assignment_count",
+      "confidence": "high",
+      "assumptions": [
+        "High confidence only for replaying the frozen local offline log; this is not field, model, approval or HumanDecision evidence.",
+        "The offline role allocation uses project-authored internal ordinal values; these do not represent field performance, engineering feasibility, public choice or HumanDecision."
+      ]
+    },
+    "pareto_assignment_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/experiment-run.json"
+      ],
+      "formula": "visual/assets/experiment-run.json#counts.pareto_assignment_count",
+      "confidence": "high",
+      "assumptions": [
+        "High confidence only for replaying the frozen local offline log; this is not field, model, approval or HumanDecision evidence.",
+        "The offline role allocation uses project-authored internal ordinal values; these do not represent field performance, engineering feasibility, public choice or HumanDecision."
+      ]
+    },
+    "selected_candidate_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/experiment-run.json"
+      ],
+      "formula": "visual/assets/experiment-run.json#counts.selected_candidate_count",
+      "confidence": "high",
+      "assumptions": [
+        "High confidence only for replaying the frozen local offline log; this is not field, model, approval or HumanDecision evidence.",
+        "The offline role allocation uses project-authored internal ordinal values; these do not represent field performance, engineering feasibility, public choice or HumanDecision."
+      ]
+    },
+    "negative_fixture_rejection_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/experiment-run.json"
+      ],
+      "formula": "visual/assets/experiment-run.json#counts.negative_fixture_rejections",
+      "confidence": "high",
+      "assumptions": [
+        "High confidence only for replaying the frozen local offline log; this is not field, model, approval or HumanDecision evidence.",
+        "The offline role allocation uses project-authored internal ordinal values; these do not represent field performance, engineering feasibility, public choice or HumanDecision.",
+        "This value counts deterministic rejection checks for authored negative fixtures; it is not a safety, regulatory or deployment performance result."
+      ]
+    },
+    "coordinate_change_count": {
+      "status": "known",
+      "value": 0,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/experiment-run.json"
+      ],
+      "formula": "visual/assets/experiment-run.json#counts.coordinate_change_count",
+      "confidence": "high",
+      "assumptions": [
+        "High confidence only for replaying the frozen local offline log; this is not field, model, approval or HumanDecision evidence.",
+        "The offline role allocation uses project-authored internal ordinal values; these do not represent field performance, engineering feasibility, public choice or HumanDecision.",
+        "The value records the frozen attribute-only policy and does not validate official geometry, engineering feasibility or implementation."
+      ]
+    },
+    "simulation_task_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "count",
+      "source_files": [
+        "simulation.json"
+      ],
+      "formula": "count(simulation.json#tasks)",
+      "confidence": "high",
+      "assumptions": [
+        "High confidence only for replaying the frozen local offline log; this is not field, model, approval or HumanDecision evidence.",
+        "The offline role allocation uses project-authored internal ordinal values; these do not represent field performance, engineering feasibility, public choice or HumanDecision.",
+        "The value is count(tasks) in the local offline simulation log; it does not represent deployed or field-tested tasks."
+      ]
+    },
+    "simulation_success_rate": {
+      "status": "known",
+      "value": 1,
+      "unit": "ratio",
+      "source_files": [
+        "simulation.json"
+      ],
+      "formula": "count(simulation.json#tasks where outcome == success or outcome ends_with _success) / simulation.json#task_count",
+      "confidence": "high",
+      "assumptions": [
+        "High confidence only for replaying the frozen local offline log; this is not field, model, approval or HumanDecision evidence.",
+        "The offline role allocation uses project-authored internal ordinal values; these do not represent field performance, engineering feasibility, public choice or HumanDecision.",
+        "The ratio follows the logged task outcome rule; it does not represent model quality, field reliability, public acceptance, approval or HumanDecision."
       ]
     }
   }

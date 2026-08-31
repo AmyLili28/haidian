@@ -1,5 +1,164 @@
 {
   "schema_version": "0.1.0",
+  "presentation_artifacts": {
+    "status": "present_for_local_review",
+    "overall_design": {
+      "scope_label": "11.41 km² package-polygon recalculation; not an official exact area",
+      "media_refs": [
+        "visual/assets/design-media-index.json",
+        "assets/media/design/overall-masterplan-4k.webp",
+        "assets/media/design/overall-aerial-4k.webp"
+      ],
+      "spatial_boundary": "provisional; official SITE/KEY_AREA geometry remains pending"
+    },
+    "drawings": [
+      {
+        "path": "drawings/a3-booklet.pdf",
+        "language": "zh",
+        "page_count": 16,
+        "status": "present_for_local_review"
+      },
+      {
+        "path": "drawings/a3-booklet.en.pdf",
+        "language": "en",
+        "page_count": 16,
+        "status": "present_for_local_review"
+      },
+      {
+        "path": "drawings/a0-boards.pdf",
+        "language": "zh",
+        "page_count": 3,
+        "status": "present_for_local_review"
+      },
+      {
+        "path": "drawings/a0-boards.en.pdf",
+        "language": "en",
+        "page_count": 3,
+        "status": "present_for_local_review"
+      }
+    ],
+    "key_areas": [
+      {
+        "area_id": "zhongzhiyuan_ai_acceleration_area",
+        "role": "north / S01 Calibration Yard",
+        "media_refs": [
+          "assets/media/design/north-local-plan-4k.webp",
+          "assets/media/design/north-aerial-4k.webp",
+          "assets/media/design/north-section.webp",
+          "assets/media/design/north-human-view.webp"
+        ],
+        "geometry_status": "provisional",
+        "human_decision": "pending"
+      },
+      {
+        "area_id": "beijing_ai_origin_community",
+        "role": "central / S05 Civic Translation Room",
+        "media_refs": [
+          "assets/media/design/central-local-plan-4k.webp",
+          "assets/media/design/central-aerial-4k.webp",
+          "assets/media/design/central-section.webp",
+          "assets/media/design/central-human-view.webp"
+        ],
+        "geometry_status": "provisional",
+        "human_decision": "pending"
+      },
+      {
+        "area_id": "dazhongsi_ai_industry_cluster",
+        "role": "south / S03 Adoption Forecourt",
+        "media_refs": [
+          "assets/media/design/south-local-plan-4k.webp",
+          "assets/media/design/south-aerial-4k.webp",
+          "assets/media/design/south-section.webp",
+          "assets/media/design/south-human-view.webp"
+        ],
+        "geometry_status": "provisional",
+        "human_decision": "pending"
+      }
+    ],
+    "representative_nodes": [
+      {
+        "node_id": "S01",
+        "name": "Calibration Yard",
+        "area": "north",
+        "design_depth": "area plan + section + human/aerial concept",
+        "status": "concept_proposal",
+        "human_decision": "pending"
+      },
+      {
+        "node_id": "S05",
+        "name": "Civic Translation Room",
+        "area": "central",
+        "design_depth": "area plan + section + human/aerial concept",
+        "status": "concept_proposal",
+        "human_decision": "pending"
+      },
+      {
+        "node_id": "S03",
+        "name": "Adoption Forecourt",
+        "area": "south",
+        "design_depth": "area plan + section + human/aerial concept",
+        "status": "concept_proposal",
+        "human_decision": "pending"
+      }
+    ],
+    "agent_workflow": {
+      "stage_count": 5,
+      "status": "machine_artifacts_present_human_release_pending",
+      "stages": [
+        {
+          "stage_id": "01_input_clearance",
+          "name": "清权输入",
+          "agent_outputs": [
+            "sources.json",
+            "assumptions.json",
+            "visual/assets/imagery-source-ledger.json"
+          ],
+          "human_boundary": "Confirm rights, official versions, responsible parties and permitted use."
+        },
+        {
+          "stage_id": "02_existing_diagnosis",
+          "name": "现状诊断",
+          "agent_outputs": [
+            "geometry/site_boundary.geojson",
+            "geometry/key_areas.geojson",
+            "geometry/constraints.geojson"
+          ],
+          "human_boundary": "Confirm survey, heritage, tenure, transport, municipal and existing-condition facts."
+        },
+        {
+          "stage_id": "03_multiscale_generation",
+          "name": "多尺度生成",
+          "agent_outputs": [
+            "assets/media/design/overall-masterplan-4k.webp",
+            "assets/media/design/north-local-plan-4k.webp",
+            "assets/media/design/central-local-plan-4k.webp",
+            "assets/media/design/south-local-plan-4k.webp"
+          ],
+          "human_boundary": "Compare spatial value, cultural fit, public interest and whether an option may enter review."
+        },
+        {
+          "stage_id": "04_compare_critique",
+          "name": "比较与批评",
+          "agent_outputs": [
+            "metrics.json",
+            "simulation.json",
+            "visual/assets/experiment-run.json"
+          ],
+          "human_boundary": "Set weights and thresholds, challenge unsupported claims and reject unacceptable risk."
+        },
+        {
+          "stage_id": "05_decision_implementation",
+          "name": "决策与实施",
+          "agent_outputs": [
+            "geometry/phasing.geojson",
+            "visual/assets/str-raci-matrix.json",
+            "visual/assets/review-response-matrix.json"
+          ],
+          "human_boundary": "Authorize, resource, trial, operate, respond to complaints and release/pause/rollback/exit."
+        }
+      ]
+    }
+  },
   "requirements": [
     {
       "requirement_id": "1.3.1",
@@ -48,10 +207,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -101,10 +259,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -154,10 +311,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -207,10 +363,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -260,10 +415,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -313,10 +467,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -366,10 +519,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -419,10 +571,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -472,10 +623,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -525,10 +675,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -578,10 +727,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -631,10 +779,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -684,10 +831,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -737,10 +883,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -790,10 +935,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -843,10 +987,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -896,10 +1039,9 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ]
     },
     {
@@ -940,16 +1082,18 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "SENTINEL2-TCI-20260715",
+        "DESIGN-MEDIA-IMAGEGEN-20260830"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-IMAGERY-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
         "PROFESSIONAL_EVIDENCE"
       ],
       "required_outputs": [
@@ -958,8 +1102,16 @@
         "总体空间结构和区域协同关系",
         "空间—产业融合与综合规划创新机制"
       ],
-      "current_content_status": "needs_evidence",
-      "next_evidence": "补一页任务覆盖矩阵和一张不作为法定红线的三区两翼总体结构图。"
+      "current_content_status": "package_artifacts_present_review_pending",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "evidence_files": [
+        "visual/assets/regional-coordination-matrix.json",
+        "geometry/phasing.geojson",
+        "visual/assets/imagery-source-ledger.json",
+        "visual/assets/design-media-index.json",
+        "assets/media/design/overall-masterplan-4k.webp",
+        "assets/media/design/function-structure.webp"
+      ]
     },
     {
       "requirement_id": "agent.2",
@@ -980,7 +1132,10 @@
         "key_area_count",
         "land_use_feature_count",
         "building_footprint_area_sqm",
-        "industrial_validation_count"
+        "industrial_validation_count",
+        "feasible_assignment_count",
+        "pareto_assignment_count",
+        "selected_candidate_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -996,17 +1151,23 @@
         "URBAN-RENEWAL-GUIDE",
         "BREATHE-LONDON",
         "OPENAQ",
-        "US-EPA-AIR-SENSOR"
+        "US-EPA-AIR-SENSOR",
+        "EXPERIMENT-PROGRAM-ALLOCATION",
+        "EXPERIMENT-INPUTS-20260823",
+        "EXPERIMENT-RUN-20260823",
+        "DESIGN-MEDIA-IMAGEGEN-20260830"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-EXISTING-001",
         "A-SENSOR-001",
-        "A-OPERATIONS-001"
+        "A-OPERATIONS-001",
+        "A-AI-EVALUATION-001"
       ],
       "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
         "PROFESSIONAL_EVIDENCE",
-        "VISUAL_STATIC"
+        "VISUAL_PACKAGING"
       ],
       "required_outputs": [
         "5—8个全球AI创新生态案例及可借与不可照搬边界",
@@ -1014,8 +1175,16 @@
         "众智园、AI原点与中关村科技服务翼的协作机制",
         "土地、空间、产业、资金、人才、算力、数据和场景资源机制"
       ],
-      "current_content_status": "needs_evidence",
-      "next_evidence": "把环境技术案例与全球AI创新城区案例分层，补生态图谱和资源机制，不虚构企业、资金或算力。"
+      "current_content_status": "package_artifacts_present_review_pending",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "evidence_files": [
+        "visual/assets/regional-coordination-matrix.json",
+        "visual/assets/experiment-inputs.json",
+        "visual/assets/experiment-run.json",
+        "visual/assets/design-media-index.json",
+        "assets/media/design/function-structure.webp",
+        "assets/media/design/agent-decision-loop.webp"
+      ]
     },
     {
       "requirement_id": "agent.3",
@@ -1036,7 +1205,14 @@
         "scenario_node_count",
         "industrial_validation_count",
         "persona_count",
-        "phase_count"
+        "phase_count",
+        "feasible_assignment_count",
+        "pareto_assignment_count",
+        "selected_candidate_count",
+        "negative_fixture_rejection_count",
+        "coordinate_change_count",
+        "simulation_task_count",
+        "simulation_success_rate"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1052,7 +1228,11 @@
         "BARRIER-FREE-LAW",
         "GENERATIVE-AI-MEASURES",
         "BREATHE-LONDON",
-        "US-EPA-AIR-SENSOR"
+        "US-EPA-AIR-SENSOR",
+        "EXPERIMENT-PROGRAM-ALLOCATION",
+        "EXPERIMENT-INPUTS-20260823",
+        "EXPERIMENT-RUN-20260823",
+        "DESIGN-MEDIA-IMAGEGEN-20260830"
       ],
       "assumption_ids": [
         "A-AIR-BASELINE-001",
@@ -1062,8 +1242,9 @@
         "A-PRIVACY-001"
       ],
       "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
         "PROFESSIONAL_EVIDENCE",
-        "VISUAL_STATIC"
+        "VISUAL_PACKAGING"
       ],
       "required_outputs": [
         "不少于10张AI场景卡",
@@ -1071,8 +1252,18 @@
         "不少于5类用户画像",
         "小月河场景赋能翼及场景—空间—运营映射"
       ],
-      "current_content_status": "partially_covered",
-      "next_evidence": "把12卡统一为用户、空间、数据、运营者、基线、评价、人审、退出和风险字段，并补一条可复现规划实验。"
+      "current_content_status": "package_artifacts_present_review_pending",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "evidence_files": [
+        "visual/assets/scenario-operations-matrix.json",
+        "visual/assets/experiment-inputs.json",
+        "visual/assets/experiment-run.json",
+        "simulation.json",
+        "geometry/phasing.geojson",
+        "visual/assets/design-media-index.json",
+        "assets/media/design/prototype-matrix.webp",
+        "assets/media/design/agent-decision-loop.webp"
+      ]
     },
     {
       "requirement_id": "agent.4",
@@ -1110,18 +1301,21 @@
         "JZ-PARK-PLANNING-2021",
         "JZ-PARK-PHASE1-2023",
         "URBAN-RENEWAL-GUIDE",
-        "PROVISIONAL-BOUNDARIES"
+        "PROVISIONAL-BOUNDARIES",
+        "SENTINEL2-TCI-20260715",
+        "DESIGN-MEDIA-IMAGEGEN-20260830"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
         "A-EXISTING-001",
         "A-TRANSPORT-001",
-        "A-HERITAGE-001"
+        "A-HERITAGE-001",
+        "A-IMAGERY-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "VISUAL_STATIC",
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
       "required_outputs": [
@@ -1130,8 +1324,17 @@
         "不少于3处AI朝圣地标和贡献荣誉展示",
         "可逆、无障碍、低扰动的空间组件库"
       ],
-      "current_content_status": "partially_covered",
-      "next_evidence": "补结构图、采用闭环、荣誉系统和组件编码；全部地点保持概念建议并等待文保、交通和权属核验。"
+      "current_content_status": "package_artifacts_present_review_pending",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "evidence_files": [
+        "visual/assets/scenario-operations-matrix.json",
+        "visual/assets/imagery-source-ledger.json",
+        "visual/assets/design-media-index.json",
+        "assets/media/design/overall-aerial-4k.webp",
+        "assets/media/design/north-local-plan-4k.webp",
+        "assets/media/design/central-local-plan-4k.webp",
+        "assets/media/design/south-local-plan-4k.webp"
+      ]
     },
     {
       "requirement_id": "agent.5",
@@ -1163,13 +1366,18 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "JZ-PARK-PLANNING-2021",
-        "JZ-PARK-PHASE1-2023"
+        "JZ-PARK-PHASE1-2023",
+        "SENTINEL2-TCI-20260715",
+        "FONT-NOTO-SANS-SC-2.004-H2-OFL",
+        "DESIGN-MEDIA-IMAGEGEN-20260830"
       ],
       "assumption_ids": [
-        "A-HERITAGE-001"
+        "A-HERITAGE-001",
+        "A-IMAGERY-001"
       ],
       "self_check_ids": [
-        "VISUAL_STATIC",
+        "DETERMINISTIC_VALIDATION",
+        "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
       "required_outputs": [
@@ -1178,8 +1386,15 @@
         "中英文国际传播文本与静态人工讲解回退",
         "历史、字体、图像、肖像和商标权利清单"
       ],
-      "current_content_status": "needs_evidence",
-      "next_evidence": "补史实和权利登记、文化时间线、导视规范及可直接使用的中英文传播短文。"
+      "current_content_status": "package_artifacts_present_review_pending",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "evidence_files": [
+        "visual/assets/scenario-operations-matrix.json",
+        "visual/assets/imagery-source-ledger.json",
+        "report/copyright_statement.md",
+        "visual/assets/design-media-index.json",
+        "assets/media/design/design-actions.webp"
+      ]
     },
     {
       "requirement_id": "agent.6",
@@ -1215,7 +1430,8 @@
         "AGENT-TASKBOOK",
         "URBAN-RENEWAL-GUIDE",
         "BARRIER-FREE-LAW",
-        "GENERATIVE-AI-MEASURES"
+        "GENERATIVE-AI-MEASURES",
+        "DESIGN-MEDIA-IMAGEGEN-20260830"
       ],
       "assumption_ids": [
         "A-OPERATIONS-001",
@@ -1223,8 +1439,9 @@
         "A-PRIVACY-001"
       ],
       "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
         "PROFESSIONAL_EVIDENCE",
-        "VISUAL_STATIC"
+        "VISUAL_PACKAGING"
       ],
       "required_outputs": [
         "年度AI创新活动和品牌传播节奏",
@@ -1232,8 +1449,16 @@
         "公共地标运营、国际传播和成果转化机制",
         "责任角色、输入输出、指标、人工兜底、退出和sunset"
       ],
-      "current_content_status": "needs_evidence",
-      "next_evidence": "补活动—对象—频率—责任—输入输出—退出矩阵；全部写作建议机制，不作伙伴、资金或招商承诺。"
+      "current_content_status": "package_artifacts_present_review_pending",
+      "next_evidence": "本地正文、结构化证据、图件、HTML 与 A0/A3 PDF 已形成并进入复核；官方数据、专业条件、Imagegen 媒体专项权利复核、真实 HumanDecision 与 reviewer acceptance 仍待完成，不得标记为 resolved.",
+      "evidence_files": [
+        "visual/assets/str-raci-matrix.json",
+        "geometry/phasing.geojson",
+        "visual/assets/review-response-matrix.json",
+        "visual/assets/design-media-index.json",
+        "assets/media/design/agent-decision-loop.webp",
+        "assets/media/design/implementation-phasing.webp"
+      ]
     }
   ]
 }

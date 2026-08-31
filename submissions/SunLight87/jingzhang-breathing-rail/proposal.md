@@ -12,7 +12,7 @@ technical_slug: "jingzhang-breathing-rail"
 summary: "以百年京张遗产为版本基底，把公共生活、创新产业与可信智能叠置为一套可校准、可质疑、可修正、可撤回的城市智能基础设施；以一基、三场、两翼、十二原型组织概念建议。所有空间落位仍基于 provisional geometry，不构成空气质量、医疗、控规、工程或实施结论。"
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v2.1"
+iteration: "v2.3"
 ---
 
 # 百年京张·城市叠代 / JINGZHANG STRATA
@@ -34,7 +34,7 @@ iteration: "v2.1"
 
 本方案的差异化不在于增加一个“AI 景观”，而在于把城市设计做成可追溯的版本系统：铁路遗产是版本基底，线性遗产公园被组织成三个接力接口，AI 只生成受约束的方案族而不是唯一答案，图、数、证据从同一套结构化输入派生，最终由拥有权限的人类和专业团队签署 `HumanDecision`。任何公众服务都同时提供人工、纸质、静态或语音路径，并设置停用、撤回、投诉和回滚。[source:AGENT-TASKBOOK] [depth:overall_spatial_structure]
 
-这意味着“智能”不是替人决定空间，而是让候选关系更快被比较、让不确定性更早被看见。当前包没有宣称已完成现场 AI 运行、数字孪生、强化学习或深度强化学习；这些技术若未来有足够数据，只能在隔离沙盒中作为可撤回实验，不得直接成为公共发布或工程判断。[data:geometry/constraints.geojson#CONSTRAINT-001] [depth:risk_missing_data]
+这意味着“智能”不是替人决定空间，而是让候选关系更快被比较、让不确定性更早被看见。当前包没有宣称已完成现场 AI 运行、数字孪生、强化学习或深度强化学习；这些技术若未来有足够数据，只能在隔离沙盒中作为可撤回实验，不得直接成为公共发布或工程判断。[data:geometry/constraints.geojson#data_gap] 这一空约束层只记录资料缺口；缺资料触发条件见 `assumptions.json#A-CONTROLS-001`。[depth:risk_missing_data]
 
 ## 设计依据与资料清单
 
@@ -80,13 +80,14 @@ iteration: "v2.1"
 
 ## 三层范围工作框架
 
-三层范围采用“战略—城市—街区”递进，避免把同一张临时底图伪装成三种精度。[standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework]
+官方任务采用“战略—城市—街区”三层范围；本方案在不改变该章节和验收口径的前提下，增加“代表节点”作为第四个设计深化层，避免把同一张临时底图伪装成不同精度。[standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework]
 
 | 层级 | 核心问题 | 本方案成果 | 边界纪律 |
 | --- | --- | --- | --- |
 | 43.6 km² 统筹研究 | 如何把可信智能嵌入世界级创新生态，而不制造伪精确红线 | 三大定位、五大功能、六层价值链、7 个方法案例、三区两翼协同 | 只采用公告文字面积和战略关系，不绘制未发布的统筹 polygon |
-| 11.4 km² 总体设计 | 如何让遗产公园、园区、校园、社区与站点形成可进入的智能基础设施 | 一基三场两翼十二原型、概念用地、蓝绿—环境感知模块、慢行接口、公共空间和分期 | 使用临时 SITE-001；所有几何和面积均为低置信概念复算 |
+| 约 11.4 km² 总体设计（包内临时几何复算 11.41 km²） | 如何让遗产公园、园区、校园、社区与站点形成可进入的智能基础设施 | 一基三场两翼十二原型、概念用地、蓝绿—环境感知模块、慢行接口、公共空间和分期 | 使用临时 SITE-001；所有几何和面积均为低置信概念复算 |
 | 368.4 ha 重点区域 | 如何把校准、共译、转化三种能力变成可体验的城市空间 | 众智园校准场、AI 原点社区共译场、大钟寺转化场 | 三个临时包络不是地块、道路、权属或建设边界 |
+| 3 个代表节点 | 如何把原型转译为平面、剖面、使用序列和人视空间 | S01 校准庭、S05 共译客厅、S03 转化前场；其余原型保留为可复用库 | 节点是概念深化，不是施工图、真实坐标或获批试点 |
 
 收到官方 polygon 后，先替换 `site_boundary` 与 `key_areas`，再按同一拓扑流程重裁 `land_use/buildings/roads/green_space/public_space/phasing`，在 EPSG:4548 重算全部空间指标，并重新生成五图、HTML、A3/A0 和 manifest 哈希；不能只改一张图。[data:geometry/key_areas.geojson#PROV-KEY-001] [metric:key_area_count]
 
@@ -107,9 +108,40 @@ iteration: "v2.1"
 
 ### 可信智能闭环：方案族而非唯一答案
 
-每个场景遵循“清权输入 → 约束检查 → AI 候选方案族 → 专业与公众比较 → `HumanDecision` 签字 → 小规模试验 → 运行反馈 → 版本回滚/退出”的顺序。候选可以是不同的路径提示、信息表达、组件组合或时段安排，但不能越过合法通行、无障碍、文保、隐私、消防和数据授权等硬门；AI 提建议，人类承担发布与停用责任。[source:AGENT-TASKBOOK] [data:geometry/constraints.geojson#CONSTRAINT-001]
+每个场景遵循“清权输入 → 约束检查 → AI 候选方案族 → 专业与公众比较 → `HumanDecision` 签字 → 小规模试验 → 运行反馈 → 版本回滚/退出”的顺序。候选可以是不同的路径提示、信息表达、组件组合或时段安排，但不能越过合法通行、无障碍、文保、隐私、消防和数据授权等硬门；AI 提建议，人类承担发布与停用责任。[source:AGENT-TASKBOOK] [data:geometry/constraints.geojson#data_gap] 这里是空约束层的 data gap；缺资料触发条件见 `assumptions.json#A-CONTROLS-001`。
 
 图件、指标和证据由同一批结构化输入派生：GeoJSON 支撑空间关系，`metrics.json` 支撑可复算量，来源/假设/矩阵支撑解释和边界，图片只承担人类阅读层，不替代权威几何。当前尚未运行可验证的强化学习、数字孪生或 DRL；若未来进入研究，只能以合成/清权数据、隔离沙盒、可复现版本和明确失败阈值开展，不得把试验结果直接当作现场绩效。[data:geometry/site_boundary.geojson#SITE-001] [depth:metrics_recalculation]
+
+### 最小可复现实验：只分配场角色，不改坐标
+
+为检验“AI 只生成方案族”的最小闭环，实验问题是把 S01—S12 分配给 `source_calibration_yard`、`civic_translation_commons` 和 `adoption_market_court` 三场，同时不修改任何坐标。基线为 `authored_baseline`，候选为 `public_interest_balance` 与 `low_burden_operable`（连同基线共 3 个候选），seed 为 `20260821`。硬约束为：固定 S01/S02/S03/S12 的场归属；每场 3—5 个原型；S01—S12 唯一覆盖；每个场景保留人工或静态回退；禁止 `PII`、`biometrics`、`medical`、`regulatory` 和 `approval` 标记；`coordinate_patch=[]`。任一硬约束、禁用标记、坐标变更或输入输出不一致，均拒绝该输出。
+
+实验基线把 S12 临时分配给 `civic_translation_commons`，只为冻结并复放一组场角色；空间设计基准仍把 S12 定义为可在北—中—南迁移的跨场多语导览原型。该实验归属不是中部唯一建设落位，不改变坐标，也不替代最终 `HumanDecision`。
+
+指标只概述 `experiment-inputs.json` 中冻结的 8 个项目内部序数公式，不是现场绩效或工程结论：
+
+- `fallback_strength_min`：三场人工/非数字回退强度总和的最小值，maximize；每场至少有一个回退原型。
+- `maintenance_burden_max`：三场维护负担序数总和的最大值，minimize。
+- `persona_coverage_min`：三场各自覆盖的去重画像数量的最小值，maximize。
+- `public_interest_score`：`2*persona_coverage_min + 2*fallback_strength_min + reversibility_sum_min + role_affinity_total`，项目内部序数。
+- `reversibility_sum_min`：三场可逆性序数总和的最小值，maximize。
+- `role_affinity_total`：各原型分配至所属场的项目内部序数亲和分总和，maximize（`court` 为兼容字段）。
+- `role_load_spread`：三场“未知依赖序数总和 + 维护负担序数总和”的最大值减最小值，minimize。
+- `unknown_dependency_burden_max`：三场未知依赖序数总和的最大值，minimize。
+
+真实离线运行得到 55 个可行分配、6 个 Pareto 分配、3 个候选评估、6 个负例夹具拒绝、0 次坐标变更和 10 项 `simulation` 任务；`simulation_success_rate=1.0`。这些结果只代表离线场角色分配。模型调用、现场试验、运行时或时延、能耗、公众反馈、批准和 `HumanDecision` 均为 `not_run`。[data:visual/assets/experiment-inputs.json#boundaries] [data:visual/assets/experiment-run.json#counts] [data:simulation.json#derived]
+
+### Agent 在真实城市规划中的职责与人工边界
+
+| 规划环节 | Agent 处理 | 形成的可审查成果 | 必须由人完成 |
+| --- | --- | --- | --- |
+| 清权输入 | 对来源、许可、时间、置信度、坐标角色和缺资料进行登记与冲突检查 | `sources.json`、`assumptions.json`、影像台账、临时几何声明 | 确认权利、官方数据版本、责任主体和资料可用范围 |
+| 现状诊断 | 在同一底图上识别遗产、公共空间、交通接口、服务与资料断点 | 现状诊断图、约束/缺口图层、问题—设计动作映射 | 现场踏勘、测绘、文保、权属、交通与市政专业判断 |
+| 多尺度生成 | 在硬约束内形成总体—片区—节点候选方案族，而非唯一答案 | 总体总平/鸟瞰、北中南总平/剖面/人视、S01/S05/S03 节点链 | 判断空间价值、文化适切性、公共利益和是否进入比较 |
+| 比较与批评 | 复算面积/比例，运行 Pareto、负例、跨载体一致性和退出条件检查 | 5 张核心图、`metrics.json`、`simulation.json`、审查矩阵 | 专业和公众提出反证，确认权重、阈值与不可接受风险 |
+| 决策与实施 | 记录 release / modify / reject / pause / rollback / exit 状态，形成可逆试验输入 | `HumanDecision` 模板、分期和 RACI 接口、回滚与 sunset 条件 | 授权者签字、资源配置、现场小试、运营、投诉处理与停用 |
+
+因此“第一次真实城市规划交给 Agent”在本方案中不是“让模型替城市拍板”，而是让 Agent 首次承担从证据整理、空间候选生成、指标比较到版本记录的完整规划工作面；同时把专业责任、公众价值判断和法定权力明确留在人类一侧。当前本地包已完成前四类机器可执行工作及对应制品，真实专业/公众复核、授权和 `HumanDecision` 仍为 pending。[source:AGENT-TASKBOOK] [depth:risk_missing_data]
 
 ### 视觉识别与文化转译
 
@@ -136,6 +168,10 @@ iteration: "v2.1"
 
 六层链条为 `传感器与端侧算力 → 清权数据与校准 → 环境模型与不确定性 → 安全/标准/伦理 → 城市小规模试验 → 公共服务与市场采用`。众智园校准场重在前四层，AI 原点社区共译场重在校地共研、公共解释和反馈，大钟寺转化场重在终端可用性与采用；两翼提供服务与验证。任何企业、投资、算力、产值、招商或活动效果数字均不在本方案中推定。[source:URBAN-RENEWAL-GUIDE] [depth:overall_spatial_structure]
 
+### 区域协同接口（仅作待核验问题）
+
+区域关系入口只登记 5 个对象：北纬社区、未来科学城、怀柔科学城、北京经开区、京津冀；8 类机制为 `land`、`space`、`industry`、`funding`、`talent`、`compute`、`data`、`scenario`。每一项只提出可交换的资料、方法或场景问题、候选接口与触发条件；全部记录 `partner_commitment=false`、`capacity=null`，不代表已确认的合作、伙伴、预算、算力容量、SLA 或政策承诺。[data:visual/assets/regional-coordination-matrix.json#relationships] [data:visual/assets/regional-coordination-matrix.json#resource_mechanisms]
+
 | 案例 | 可借鉴的方法 | 不可照搬的条件 |
 | --- | --- | --- |
 | Breathe London | 传感器与社区、学校、医院及参考站共置，数据面向公众 | 设备数量、法定权威、伦敦治理权限和伙伴关系 |
@@ -146,7 +182,7 @@ iteration: "v2.1"
 | Mila | 研究、创业、公共政策与负责任 AI 的桥接 | 机构规模、学术体系与研究方向 |
 | Cornell Tech | 公共开放空间连接科研、创业、居住和韧性设施 | 校园面积、投资和工程系统 |
 
-案例只支持方法判断；完整 URL、获取日期、许可和限制见 [sources.json](sources.json)。[source:BREATHE-LONDON] [source:OPENAQ] [source:US-EPA-AIR-SENSOR]
+案例只支持方法判断；完整 URL、获取日期、许可和限制见 `sources.json`。[source:BREATHE-LONDON] [source:OPENAQ] [source:US-EPA-AIR-SENSOR]
 
 ## 总体设计范围城市更新与控规深度城市设计
 
@@ -158,6 +194,23 @@ iteration: "v2.1"
 
 容积率、高度、密度、退线、道路宽度和设施容量均待正式数据补齐。风貌只给非数值原则：轨迹可读、组件可拆、首层可进入、材料可维护、屏幕可关闭、夜间低眩光、人工服务可见；不把本方案转换为许可条件。[standard:MOHURD-CONTROL-DETAILED-PLANNING] [metric:floor_area_ratio]
 
+### 总体空间设计成果：保肌理、织接口、建闭环
+
+总体城市设计把约 11.41 km² 临时总体范围视为一个**存量城区网络**，而不是一条狭长铁路景观带。铁路遗产承担南北可读的版本基底，既有主路网、成熟住区、校园和产业建筑形成需要优先保留的城市肌理；三处相互分散的重点区只承担校准、共译、转化三种高强度设计职责。新增空间从开放首层、共享庭院、遮荫慢行、换乘前场和可移动服务组件开始，不预设整片拆建，也不虚构超高层新区。[depth:overall_spatial_structure] [depth:building_height_volume_style]
+
+![11.41 km² 总体城市设计概念总平：三处重点区相互分散，铁路遗产与公共空间形成接力网络；OpenFreeMap Positron / OpenStreetMap 公开底图叠加参赛者概念标注，非红线、非测绘](assets/media/design/overall-masterplan-4k.webp)
+
+![总体城市设计概念鸟瞰：保持大范围低中层城市肌理，以重点区和遗产公共界面形成受控增强；4K Imagegen 概念表达，非现场或官方效果图](assets/media/design/overall-aerial-4k.webp)
+
+总体方案采用“留—缝—转—试”四类空间动作：
+
+- **留**：铁路遗产、成熟住区、校园以及仍可继续使用的产业和公共建筑优先保留；`BLDG-001` 只是一个可容纳九类程序的概念 footprint，不是九栋已测建筑。[data:geometry/buildings.geojson#BLDG-001]
+- **缝**：用步行、自行车、公共交通接驳、无障碍界面和可读导视修补东西断点；六条关系线先做现场审计，不自动升级为道路工程。[data:geometry/roads.geojson#ROAD-001]
+- **转**：低效首层、院落、边角地和既有综合体界面优先适配性再利用，导入人工服务、公众共译、创新协作和全天候公共空间。
+- **试**：新增构筑物、信息终端和服务组件从可移动、可逆、低扰动原型开始，以维护、可达、公平和投诉反馈决定扩散、修改或退出。[depth:phasing_implementation]
+
+建筑高度采取“低中层连续基底、节点受控增强”的非数值控制：不追求用超高层制造视觉标志，先以首层开放、界面连续、庭院共享、屋顶公共性和遗产天际线可读性形成城市特色；任何高度增量必须经过日照、交通、消防、文保、权属和控规复核。蓝绿设计以真实存在的绿地、树荫、渗透设施与小尺度雨水花园为起点，不把施工覆盖、运动场或屋面误画成水体。[depth:blue_green_public_space]
+
 ## 重点区域详细设计
 
 三个重点区采用“定位—空间—建筑—交通/公共空间—原型—依赖”的同一叙事模板；临时矩形只作概念包络。三场不是已经成立的机构或项目，而是把证据接力放进日常空间的参考方案。[depth:three_key_area_detailed_design] [metric:key_area_count]
@@ -167,27 +220,57 @@ iteration: "v2.1"
 ### 众智园校准场 / Zhongzhiyuan Calibration Field
 
 - **定位**：为环境传感、边缘推理、模型安全与标准验证提供北部校准接口。
-- **空间动作**：在取得同意的既有开放空间中，优先讨论可拆共置架、合成数据沙盒、维护台和公开模型卡廊；不判断河道、风环境、供电或产权。
-- **建筑原型**：小型校准实验室、人工发布室和资料展示界面，改造/新建留待现状、结构和消防核验。
-- **交通与公共空间**：设备运维与公众阅读分流；无障碍路线、休息和人工解释先于自动化演示。
+- **片区总平与功能落位**：保留园区、住区、道路和大部分建筑肌理；把校准庭、共享实验首层、模型卡廊、维护后场和口袋广场布置为可撤回的点—线组合，不形成塔楼新区。
+- **拆改留与体量**：以保留和适配性改造为主；新增只讨论低层、可拆或与既有高度连续的组件，真实建筑拆改必须等待测绘、权属、结构、消防和文保核验。
+- **交通、停车与公共空间**：设备运维和公众阅读分流；步行环、无障碍路线、共享庭院、遮荫休息和人工解释先于自动化演示；停车沿用既有系统并待交通调查后校核。
 - **映射原型**：S01 多传感器共置校准、S02 模型漂移红队、S08 蓝绿设施巡检。
+- **代表节点**：S01 校准庭以“共置设备—遮荫等候—维护通道—公开模型卡”为平面与剖面主线；占地和设备参数仍待专业深化。
+- **分期**：先核验参考设备、供电、维护和开放条件；再做可拆小试；达到校准、维护和公共安全阈值后才讨论扩散。
 - **依赖与退出**：没有监管级参考数据、设备共置、维护责任或专业签字时，只保留教育展示并可撤下。[data:geometry/key_areas.geojson#PROV-KEY-001] [source:US-EPA-AIR-SENSOR]
+
+![北部众智园校准场概念总平：保留现状路网和园区肌理，以低扰动公共界面承载校准；OpenFreeMap Positron / OpenStreetMap 公开底图叠加参赛者概念标注](assets/media/design/north-local-plan-4k.webp)
+
+![北部代表节点 S01 校准庭人视：林荫慢行、可拆共置架与维护界面；Imagegen 概念表达](assets/media/design/north-human-view.webp)
 
 ### AI 原点社区共译场 / AI Origin Community Civic Translation Field
 
 - **定位**：把模型候选翻译成居民能理解、能质疑、能退出的日常服务。
-- **空间动作**：以校园—园区—社区既有接口为候选，配置开放工作台、数据许可墙、静态公报、纸质/盲文路线和人工服务台；不预设新建面积。
-- **建筑与通行**：优先存量首层共享和时段复用；中段东西接口先做无障碍审计和临时指引，不承诺打通、拆墙或开放校园。
+- **片区总平与功能落位**：以校园—园区—社区既有接口为候选，组织共译廊、开放工作台、数据许可墙、人工服务台、社区客厅和连续慢行网；不预设新建面积。
+- **拆改留与体量**：优先存量首层共享、院落连通和时段复用；新增体量保持低中层、细颗粒、可穿行，不以整体重建制造“AI 新城”。
+- **交通、停车与公共空间**：东西接口先做无障碍审计、过街安全和临时指引；步行、自行车和公共交通接驳优先，停车供需、校园开放和路权均待核验。
 - **映射原型**：S04 低暴露慢行提示、S05 无障碍服务点、S07 花粉/扬尘公报、S11 社区传感器借用与共学。
+- **代表节点**：S05 共译客厅把无障碍路径、静态/语音说明、人工服务和可质疑界面组织在同一剖面中；数字界面关闭后仍能完成核心服务。
+- **分期**：先做无障碍、隐私和开放时间审计；以既有首层小试；依据真实参与记录和人工值守能力决定扩散或退出。
 - **依赖与退出**：校园开放、隐私、信息准确性、设备维护、公众参与和人工值守均需责任主体确认；不能提供等效人工路径时不发布建议。[data:geometry/key_areas.geojson#PROV-KEY-002] [source:BARRIER-FREE-LAW]
+
+![中部 AI 原点社区共译场概念总平：保留细颗粒住区与校园肌理，以开放首层和慢行网进行微更新；OpenFreeMap Positron / OpenStreetMap 公开底图叠加参赛者概念标注](assets/media/design/central-local-plan-4k.webp)
+
+![中部代表节点 S05 共译客厅人视：人工服务、无障碍路径与可质疑公共界面并行；Imagegen 概念表达](assets/media/design/central-human-view.webp)
 
 ### 大钟寺转化场 / Dazhongsi Adoption Field
 
 - **定位**：为环境 AI 终端、室内外信息、智能原生消费和国际交流提供南部采用接口。
-- **空间动作**：在既有站点周边或商业公共节点中，以可移动组件试验“看数据—问人工—试终端—提交反馈”的闭环；不改变交通、绿地或文保控制。
-- **建筑原型**：终端可用性实验室、信息展示界面和夜班服务驿，机电、消防和室内通风工程另行设计。
+- **片区总平与功能落位**：在既有交通、商业和社区界面中组织复合换乘前场、全天候步行、终端可用性实验室、夜班服务驿和反馈界面；不虚构巨型综合体、地下站或全新站城。
+- **拆改留与体量**：优先优化既有综合体首层、前场和连廊；新增采用与周边一致的中等体量，任何扩建、机电、消防和室内通风工程另行设计。
+- **交通、停车与公共空间**：人流、骑行、接驳、装卸和设备维护分时分线；过街、无障碍与全天候遮蔽优先，停车与交通承载力由正式调查复核。
 - **映射原型**：S03 室内外终端可用性、S06 通风建议、S09 活动/施工空气提示、S10 夜班服务点。
+- **代表节点**：S03 转化前场以“到达—问人工—试终端—提交反馈—可暂停”为场景序列，平面上分离换乘、停留、装卸和维护路径。
+- **分期**：先核实物业、消防、交通和消费者权益；再以可移动组件小试；只有公平、维护和安全阈值持续满足才进入长期采用。
 - **依赖与退出**：站点/物业管理、通风实测、消防、商业公平、消费者权益和人工值守待确认；装卸、无障碍和安全冲突由现场人员最终决定。[data:geometry/key_areas.geojson#PROV-KEY-003] [source:GENERATIVE-AI-MEASURES]
+
+![南部大钟寺转化场概念总平：优化既有交通商业界面，形成换乘前场与可暂停服务原型；OpenFreeMap Positron / OpenStreetMap 公开底图叠加参赛者概念标注](assets/media/design/south-local-plan-4k.webp)
+
+![南部代表节点 S03 转化前场人视：全天候步行、人工服务与终端采用并行；Imagegen 概念表达](assets/media/design/south-human-view.webp)
+
+### 三个代表节点与其余原型的深度边界
+
+| 节点 | 平面重点 | 剖面重点 | 人视重点 | HumanDecision |
+| --- | --- | --- | --- | --- |
+| S01 校准庭 / 北部 | 共置设备、公众等候和维护后场分流 | 低层可拆构架、遮荫、设备维护与遗产/园区界面 | 设备可读但不压迫日常街道 | 设备、供电、维护、开放和校准责任待签 |
+| S05 共译客厅 / 中部 | 无障碍路径、人工服务台、静态/语音说明并置 | 首层开放、院落共享、数字界面可关闭 | 居民可理解、质疑、转人工和退出 | 校园开放、隐私、值守和参与规则待签 |
+| S03 转化前场 / 南部 | 换乘、停留、装卸、维护和反馈分流 | 全天候连廊、中等体量界面、服务可暂停 | 先问人工再试终端，不以消费换取公共服务 | 物业、消防、交通、公平和消费者权益待签 |
+
+三节点均在 A3 文册和 A0 展板中以“片区总平—关键剖面—人视—鸟瞰”同步表达；其余 S04—S12 保留为可复用原型库。其中 S12 多语导览允许跨场迁移，不等同于一个固定建设点。图像只用于空间意图、尺度和风貌比较，不能反向证明真实落位或工程条件。[depth:three_key_area_detailed_design] [depth:renewal_project_list]
 
 ## AI 创新生态、人才画像与 AI+ 场景
 
@@ -226,11 +309,15 @@ iteration: "v2.1"
 
 最低产业测试验证为 S01、S02、S03；S06 只有在机电、场地和数据授权到位后才可能成为第四项。场景数量和分布是可审计的设计交付，不代表部署、采购、运行或效果。[metric:industrial_validation_count] [data:geometry/public_space.geojson#PUBLIC-001]
 
+### S01—S12 场景运营统一矩阵（待授权）
+
+`scenario-operations-matrix.json` 对 S01—S12 统一登记用户、空间状态、数据权利、基线、指标、人工闸、静态/人工回退，以及退出、投诉和 sunset；它是概念运营接口，不是已批准服务，所有 `HumanDecision` 仍为 `pending`。S04 与 S08 的小月河候选体验/巡检路径仅是非红线概念建议，不改变道路、河道或权属判断，并始终保留静态或人工替代。[data:visual/assets/scenario-operations-matrix.json#scenarios]
+
 ## 用地、建筑规模与拆改留方案
 
 概念用地通过同源切片完整覆盖临时 SITE-001；四个 `LU-*` 图斑的覆盖率为 1.0，但这是临时概念层内部拓扑，不是现状用地认证或法定调地。[data:geometry/land_use.geojson#LU-001] [metric:land_use_coverage_ratio] [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]
 
-九个 `BLDG-*` 是校准、红队、数据许可、公共共译、无障碍服务、终端测试、夜班服务、运维和国际交流的空间原型。包内复算建筑基底为 310,807.184 m²、低置信；现状属性、层数、结构、所有权和保留/改造/拆除/新建均待正式数据补齐，不得把原型当作现状建筑或开发量。[data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm] [depth:development_intensity_controls]
+`BLDG-001` 是一个低置信的概念建筑基底，用于容纳校准、红队、数据许可、公共共译、无障碍服务、终端测试、夜班服务、运维和国际交流九类空间原型，而不是九栋已测绘建筑。包内复算该单一概念基底约 31.1 万平方米；现状属性、层数、结构、所有权和保留/改造/拆除/新建均待正式数据补齐，不得把它当作现状建筑或开发量。[data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm] [depth:development_intensity_controls]
 
 建议决策顺序是“普查 → 权属 → 结构/消防 → 文保/控规 → 公共利益 → 可逆试用 → `HumanDecision` 再决定”。在专业判断之前，本方案不做具体地块拆改留、容积率、建筑高度、密度、投资或建设规模结论。[depth:retain_renovate_demolish] [metric:building_height_m]
 
@@ -240,13 +327,13 @@ iteration: "v2.1"
 
 环境提示不能压过交通安全：合法、无障碍、人工确认的通行条件是硬门，空气预测只是次级偏好；紧急事件、临时封闭和轨道运营以现场人员与主管部门信息为准。自行车、配送、设备维护与步行在人流密集点采用时段和人工协调，不采车牌、人脸或个人轨迹。[source:BARRIER-FREE-LAW] [depth:traffic_rail_slow_parking]
 
-新型基础设施采用分层隔离：传感器 → 边缘网关 → 清权数据区 → 模型沙盒 → 公共公报。公报只发布必要的时间、位置粒度、置信度与人工联系人；供电、通信、监管监测、机电、消防、排水和网络安全容量均待专业核定，本方案不提出管线、能源或 HVAC 工程量。[depth:municipal_new_infrastructure] [data:geometry/constraints.geojson#CONSTRAINT-001]
+新型基础设施采用分层隔离：传感器 → 边缘网关 → 清权数据区 → 模型沙盒 → 公共公报。公报只发布必要的时间、位置粒度、置信度与人工联系人；供电、通信、监管监测、机电、消防、排水和网络安全容量均待专业核定，本方案不提出管线、能源或 HVAC 工程量。[depth:municipal_new_infrastructure] [data:geometry/constraints.geojson#data_gap] 这里是空约束层的 data gap；缺资料触发条件见 `assumptions.json#A-CONTROLS-001`。
 
 ![慢行、蓝绿与公共空气节点复合系统](assets/figures/mobility-bluegreen.png)
 
 ## 蓝绿空间、公共空间与城市风貌
 
-`GREEN-*` 是沿遗产连续关系和东西接口的概念绿化优先带，`PUBLIC-*` 是三场与十二原型的概念公共节点；二者均由设计几何生成，不是现状绿地、河道蓝线或法定绿线。绿地率 0.123423、公共空间比例 0.073281 都是临时几何的低置信概念分配，不是法定指标；树冠、雨洪、河岸和通风绩效须以生态、水务、气象和风环境调查为准。[data:geometry/green_space.geojson#GREEN-001] [metric:green_ratio] [metric:public_space_ratio]
+`GREEN-*` 是沿遗产连续关系和东西接口的概念绿化优先带，`PUBLIC-*` 是三场与十二原型的概念公共节点；二者均由设计几何生成，不是现状绿地、河道蓝线或法定绿线。绿地率约 12.3%、公共空间比例约 7.3% 都是临时几何的低置信概念分配，不是法定指标；树冠、雨洪、河岸和通风绩效须以生态、水务、气象和风环境调查为准。[data:geometry/green_space.geojson#GREEN-001] [metric:green_ratio] [metric:public_space_ratio]
 
 组件库坚持“可读、可拆、可维护”：双面数据牌（来源/时间/置信度/人工联系人）、共置传感架、遮荫座椅、饮水与充电接口、盲文/高对比纸图、低眩光灯、人工服务台和可回收活动展架。二维码从不作为唯一入口；断网时仍可问路、休息、阅读、质疑和投诉。[depth:blue_green_public_space]
 
@@ -271,12 +358,18 @@ iteration: "v2.1"
 | STR-07 | 双语身份与铁路叙事系统 | 公园节点 | 文史、版权、双语译校 | 史实/权利不能确认则不发布 |
 | STR-08 | 开放挑战与版本运维工班 | 三区两翼 | 运营主体、规则、资源另行确认 | 无责任主体则不对外承诺 |
 
+### STR RACI 与年度机制（待授权）
+
+`str-raci-matrix.json` 为 STR-01—08 登记唯一 A、至少一个 R、验收证据、投诉路径、回滚、维护和 sunset 的治理入口；只使用通用角色，资源级别仅 L0—L2，不设 L3。季度校准与场景复盘、半年模型/数据审查、年度开放挑战只是可审查的建议机制，服务时段为 `not_committed`；不构成机构、资金、容量或 SLA 承诺。[data:visual/assets/str-raci-matrix.json#packages]
+
 四阶段是建议的治理顺序，不是投资或建设承诺：[data:geometry/phasing.geojson#PHASE-001] [metric:phase_count]
 
 1. **底层核验（0—1 年）**：补官方边界、控规、权属与现状调查；做无障碍、空气资料、史料权利和参考共置审计。所有公开输出显示来源、时效、置信度和人工通道。
 2. **轻层试验（1—3 年）**：在获同意的既有空间运行 S01—S03 和少量公共原型；通过安全、无障碍、版权、隐私和 `HumanDecision` 五道闸，可随时停用、撤回或恢复静态版本。
 3. **专业叠代（3—5 年）**：仅基于核验后的既有通行关系连接三场与十二原型；建筑、交通、机电、文保和市政动作须先完成专业复核，AI 仍只提供候选方案族。
 4. **持续治理（5 年以上）**：季度校准与场景复盘、半年模型/数据审查、年度开放挑战；保留版本日志、公众质疑、回滚和 sunset。强化学习、数字孪生、DRL 等后续能力必须留在隔离实验中，未通过独立验证不得进入公共服务。
+
+空间化边界必须单独读取 registry：只有 `STAGE-02` / `PHASE-001` 是 `provisional_spatial_feature`；`STAGE-01`、`STAGE-03` 和 `STAGE-04` 均为 `not_spatially_mapped`，不能从 `PHASE-001` 推断其他阶段的占地或边界。[data:geometry/phasing.geojson#PHASE-001]
 
 运营采用“专业双门槛”：环境/城市专业组确认数据与空间安全，居民/使用者组确认可理解、可退出与公共价值；任何活动、招商、资金、伙伴或招引效果都须获得明确授权，GitHub 投稿状态也必须与官方资格通道分开。[source:AGENT-TASKBOOK] [source:OFFICIAL-ANNOUNCEMENT]
 
@@ -286,9 +379,9 @@ iteration: "v2.1"
 
 | 指标 | 当前状态 | 人类可读含义 |
 | --- | --- | --- |
-| 临时总体边界面积 | 可复算，低置信：11,412,825.386 m² | EPSG:4548 对提交的临时 polygon 做数量级复算，不是约 11.4 km² 的官方红线面积 [metric:site_area_sqm] |
-| 建筑原型基底 | 可复算，低置信：310,807.184 m² | 九个空间原型的面积合计，不是现状建筑或开发量 [metric:building_footprint_area_sqm] |
-| 概念绿地/公共空间比例 | 可复算，低置信：0.123423 / 0.073281 | 只描述临时概念分配，不是法定绿地率或现状供给 [metric:green_ratio] [metric:public_space_ratio] |
+| 临时总体边界面积 | 可复算，低置信：约 1141 万平方米（约 11.41 平方公里） | EPSG:4548 对提交的临时 polygon 做数量级复算，不是约 11.4 km² 的官方红线面积 [metric:site_area_sqm] |
+| 建筑原型基底 | 可复算，低置信：约 31.1 万平方米 | 单一 `BLDG-001` 概念基底的面积；可容纳九类空间原型，但不是九栋现状建筑或开发量 [metric:building_footprint_area_sqm] |
+| 概念绿地/公共空间比例 | 可复算，低置信：约 12.3% / 7.3% | 只描述临时概念分配，不是法定绿地率或现状供给 [metric:green_ratio] [metric:public_space_ratio] |
 | 用地覆盖 | 可复算，低置信：1.0；4 个图斑 | 只证明临时概念切片内部无缝覆盖，不是法定用地覆盖 [metric:land_use_coverage_ratio] [metric:land_use_feature_count] |
 | 三场、十二原型、产业验证、画像、地标、阶段 | 可复算，高置信：3 / 12 / 3 / 7 / 3 / 4 | 属于已写入方案的设计交付数量，不代表建设、运行或效果 [metric:key_area_count] [metric:scenario_node_count] |
 | 东西接口 | 可复算，低置信：6 | 是概念关系数量，未逐条测绘，不是道路、桥隧或工程数量 [metric:cross_link_count] |
@@ -305,10 +398,14 @@ iteration: "v2.1"
 - **空间与工程**：所有边界、用地、建筑、道路、绿地、公共空间和分期都是概念建议；不构成控规、拆改留、桥隧、地下工程、市政容量、风场、能源、投资或建设结论。[standard:MOHURD-CONTROL-DETAILED-PLANNING]
 - **人类判断**：AI 只建议候选族；对外发布、空间试点或版本升级必须由有权限的人类/专业团队完成 `HumanDecision`，并保留人工回退和停止按钮。[source:AGENT-TASKBOOK]
 - **无障碍**：数字界面之外保留纸质、语音、静态和人工等效路径；正式落地前做现场连续性审计。[source:BARRIER-FREE-LAW]
-- **遗产与版权**：只分发原创几何、程序化图件和已登记公开资料；不打包第三方字体、照片、Logo、肖像或地图瓦片。完整说明见 [report/copyright_statement.md](report/copyright_statement.md)。
+- **遗产与版权**：只分发原创几何、程序化图件和已登记公开资料；四个离线 HTML 仅内嵌已登记、采用 SIL OFL 1.1 的 Noto Sans SC 子集，不打包未清权专有字体、第三方照片、Logo、肖像、原始地图瓦片或缓存。完整说明见 `report/copyright_statement.md`。
 - **投稿边界**：官方资格预审面向符合条件的法人/联合体；本包是 AI agent 开源 PR 概念投稿，不声称官方应征人、中选、政府认可或已落地。[source:OFFICIAL-ANNOUNCEMENT]
 
-主要未决项是官方 SITE/KEY_AREA polygon、控规和权属、现状建筑与公共空间、道路/轨道/停车、市政和消防、文保控制、监管级空气基线、参考站共置条件、设备维护、运营主体和公众参与记录。任一项缺失时，相关结论保持“待正式数据补齐”，不向工程或实施承诺扩展。[data:geometry/constraints.geojson#CONSTRAINT-001] [depth:risk_missing_data]
+### 影像证据入口
+
+Sentinel-2 场景 `S2B_50TMK_20260715_0_L2A` 仅支持宽域水绿、建成区肌理和节点关系的上下文阅读；`CROP-001` 与 `ANCHOR-001`—`ANCHOR-003` 是低置信公开定位锚点，不是边界、权属或伙伴证据。Esri/Vantor 高清拼图仅为 `local_reference_only`，不进入公开包。[data:visual/assets/imagery-source-ledger.json#scene] [data:visual/assets/imagery-source-ledger.json#anchor_records] [data:visual/assets/imagery-source-ledger.json#restricted_reference_notice]
+
+主要未决项是官方 SITE/KEY_AREA polygon、控规和权属、现状建筑与公共空间、道路/轨道/停车、市政和消防、文保控制、监管级空气基线、参考站共置条件、设备维护、运营主体和公众参与记录。任一项缺失时，相关结论保持“待正式数据补齐”，不向工程或实施承诺扩展。[data:geometry/constraints.geojson#data_gap] 这里是空约束层记录的资料缺口；缺资料触发条件见 `assumptions.json#A-CONTROLS-001`。[depth:risk_missing_data]
 
 ## 参考资料
 
@@ -320,12 +417,14 @@ iteration: "v2.1"
 6. 住房和城乡建设部，《城市设计管理办法》与《城市、镇控制性详细规划编制审批办法》；自然资源部，《国土空间调查、规划、用途管制用地用海分类指南》，2023。
 7. London City Hall, *Breathe London*；OpenAQ, *About Us*；US EPA, *Air Sensor Toolbox*。
 8. JTC, *LaunchPad*；Station F；Mila；Cornell Tech 官方案例页面。
-9. 完整 URL、获取日期、用途、许可/条款和限制见 [sources.json](sources.json)；结构化复算见 [metrics.json](metrics.json)，缺资料与触发条件见 [assumptions.json](assumptions.json)。[source:SOURCE-REGISTRY]
+9. 完整 URL、获取日期、用途、许可/条款和限制见 `sources.json`；结构化复算见 `metrics.json`，缺资料与触发条件见 `assumptions.json`。[source:SOURCE-REGISTRY]
 
 ## 证据与交付入口
 
 人类阅读层与机器审计层保持分工：正文说明判断和限制，结构化文件保留完整来源、假设、指标、矩阵和几何索引。
 
-- [指标与复算](metrics.json) · [来源登记](sources.json) · [假设与缺资料](assumptions.json)
-- [任务覆盖矩阵](compliance_matrix.json) · [专业标准矩阵](standard_matrix.json) · [设计深度矩阵](design_depth_matrix.json)
-- [正式叙事报告](report/narrative.md) · [版权说明](report/copyright_statement.md)
+`review-response-matrix.json` 登记 9 项整改回应，当前均为 `evidence_created`；它只代表包内证据已形成并通过本地结构复核，不代表 reviewer 接受或问题关闭。[data:visual/assets/review-response-matrix.json#items]
+
+- 指标与复算：`metrics.json` · 来源登记：`sources.json` · 假设与缺资料：`assumptions.json`
+- 任务覆盖矩阵：`compliance_matrix.json` · 专业标准矩阵：`standard_matrix.json` · 设计深度矩阵：`design_depth_matrix.json`
+- 正式叙事报告：`report/narrative.md` · 版权说明：`report/copyright_statement.md`

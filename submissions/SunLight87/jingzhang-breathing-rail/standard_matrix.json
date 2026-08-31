@@ -46,12 +46,15 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。",
+      "evidence_files": [
+        "geometry/phasing.geojson",
+        "visual/assets/review-response-matrix.json"
+      ]
     },
     {
       "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
@@ -83,7 +86,14 @@
         "building_footprint_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "key_area_count",
+        "feasible_assignment_count",
+        "pareto_assignment_count",
+        "selected_candidate_count",
+        "negative_fixture_rejection_count",
+        "coordinate_change_count",
+        "simulation_task_count",
+        "simulation_success_rate"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -92,18 +102,32 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "EXPERIMENT-PROGRAM-ALLOCATION",
+        "EXPERIMENT-INPUTS-20260823",
+        "EXPERIMENT-RUN-20260823",
+        "DESIGN-MEDIA-IMAGEGEN-20260830"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-AI-EVALUATION-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标、20 张设计媒体及自检项共同支撑；其中 16 张为 Imagegen 生成/清理的概念表达（4 张鸟瞰为 3840×2160、12 张为支撑图），另有 4 张 OpenFreeMap / OpenStreetMap 公开底图叠加总平图为 3840×1412。设计媒体仅用于表达，不是权威现场数据，生成媒体与公开底图仍需赛事专项权利复核。",
+      "evidence_files": [
+        "visual/assets/regional-coordination-matrix.json",
+        "visual/assets/scenario-operations-matrix.json",
+        "visual/assets/str-raci-matrix.json",
+        "visual/assets/review-response-matrix.json",
+        "visual/assets/experiment-run.json",
+        "simulation.json",
+        "visual/assets/design-media-index.json",
+        "assets/media/design-media-rights.md"
+      ]
     },
     {
       "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
@@ -150,12 +174,16 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。",
+      "evidence_files": [
+        "visual/assets/regional-coordination-matrix.json",
+        "visual/assets/scenario-operations-matrix.json",
+        "geometry/phasing.geojson"
+      ]
     },
     {
       "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
@@ -202,12 +230,15 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文、结构化矩阵、metrics.json 与 geometry/constraints.geojson#data_gap 共同支撑；A-CONTROLS-001 明确官方控制条件仍缺失，data_gap 不是空间要素。现有 HTML/PDF 视觉审计已完成，但官方控制条件与专业复核仍待完成。",
+      "evidence_files": [
+        "geometry/phasing.geojson",
+        "geometry/constraints.geojson"
+      ]
     },
     {
       "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
@@ -254,12 +285,14 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。",
+      "evidence_files": [
+        "visual/assets/scenario-operations-matrix.json"
+      ]
     },
     {
       "standard_id": "MOHURD-ARCH-DESIGN-DEPTH-2016",
@@ -306,12 +339,16 @@
         "A-CONTROLS-001"
       ],
       "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "KEY_AREAS_TRUST",
-        "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。",
+      "evidence_files": [
+        "visual/assets/scenario-operations-matrix.json",
+        "visual/assets/imagery-source-ledger.json",
+        "report/copyright_statement.md"
+      ]
     }
   ]
 }

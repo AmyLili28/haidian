@@ -1,5 +1,62 @@
 # 方案迭代记录
 
+## v2.4 - 2026-08-31
+
+**提交资料终检与本地门禁收口 / Submission Package Recheck and Local Gate Closeout**
+
+### 官方提交合同与材料覆盖
+
+- 按 `upstream/main=3b5da26808f45c3c5e4ef5f1efafe88ed0385796` 的现行 formal 投稿合同复核，manifest 中 39 项 `required=true` 文件全部存在；74 文件候选包无空文件、无未登记文件，73 项可校验 SHA-256 与磁盘内容一致。
+- 中英文方案 Markdown、报告 HTML、视觉 HTML、A3 文册、A0 展板和五组核心图均已配对；9 个 GeoJSON、指标、来源、假设、版权说明、三类矩阵、manifest 与持久化自检记录齐备。
+- `compliance_matrix.json` 覆盖 23 项必需任务，5 项 mandatory 标准均已响应，`design_depth_matrix.json` 的 15 项核心深度均登记为 `complete`；可选的 `simulation.json` 已纳入包内，10 项任务台账与聚合计数一致。
+
+### 本地验证与证据边界
+
+- strict manifest、local submission、9 项 data registry、确定性/空间/视觉/专业四门 self-check、participant preflight 和 Git 空白检查均通过，当前本地状态为 `formal-review-ready`；该状态只表示候选包满足当前仓库机器合同，不代表官方收件、专业评分、评委接受、PR 合并或实施许可。
+- 20 张登记设计媒体继续按“16 张 Imagegen 生成/清理的概念表达 + 4 张 OpenFreeMap / OpenStreetMap 公开底图叠加图”分类；赛事专项权利复核保持 `pending`，不将完成登记与本地渲染通过误写为赛事清权。
+- 3 项 `known_blockers` 与 3 个 `KEY_AREA_PROVISIONAL` minor 继续保留：SITE/KEY_AREA 及派生几何仍待官方输入复核，权属、文保、测绘、控规和工程条件仍待专业核实，独立专业/公众评审及真实候选级 `HumanDecision` 尚未完成；官方数据到位后仍须重裁几何并重算依赖指标。
+
+## v2.3 - 2026-08-29
+
+**可复现实验与治理接口 / Reproducible Experiment and Governance Interfaces**
+
+### 可复现 AI 实验与证据边界
+
+- 新增 `simulation.json`、固定输入、可复核运行记录和离线分配程序，以 seed `20260821` 记录 55 个可行分配、6 个 Pareto 分配、3 个候选评估、6 个正确拒绝的负例、0 次坐标变更和 10 项 simulation 任务；`simulation_success_rate=1.0` 只表示这 10 项已登记离线任务的成功率。
+- 加固离线分配程序：在枚举前拒绝不合格目录并限制搜索预算，禁止经符号链接写出，并以同目录临时文件、`fsync` 和原子替换更新三份结果，降低异常输入、进程中断和局部写入造成的卡顿或产物不一致风险。
+- 本轮实验仅比较 S01—S12 在三场中的角色分配，不改变 SITE/KEY_AREA 坐标，也不证明模型调用、现场试验、运行时或时延、能耗、公众反馈、批准或真实 `HumanDecision`；这些项目继续登记为 `not_run` 或 `pending`。
+- 修正过时的空间约束引用，将缺失的法定控制、权属、测绘和工程输入继续指向结构化 data gap 与假设记录；`geometry/constraints.geojson` 保持为空，不以推定几何补齐缺失事实。
+
+### 区域协同、场景运营与阶段治理
+
+- 新增区域协同、S01—S12 场景运营、STR-01—STR-08 责任接口和评审回应矩阵，统一登记证据路径、人工闸、静态/人工替代、退出与 sunset 条件；所有角色均为未承诺的通用角色，不构成合作、资金、容量、服务水平或实施承诺。
+- 将四阶段治理规则写入 `geometry/phasing.geojson`：仅 `STAGE-02 / PHASE-001` 登记为可逆轻层试验的 `provisional_spatial_feature`，其余三个阶段均明确为 `not_spatially_mapped`，避免用虚构阶段面掩盖官方资料和专业复核缺口。
+- 三层范围、一基三场两翼十二原型和北—中—南分散尺度保持不变；所有低置信面积、比例与坐标继续使用临时证据精度，不升级为红线、权属、现状测绘或审批依据。
+
+### 来源许可与双语成果
+
+- 新增公开影像来源台账：Sentinel-2 仅用于 10 m 级宽域上下文判读并保留规定署名；三个公开位置锚点保持低置信定位；Esri/Vantor 高清参考及其可还原衍生物明确排除在公开投稿包之外。
+- 四个中英文离线 HTML 内嵌经登记的 Noto Sans SC WOFF2 子集，并在 `sources.json` 与版权说明中保留源文件、SHA-256 和 SIL Open Font License 1.1 记录；离线页面不依赖远程字体或网络资源。
+- 同步重生成中英文方案正文、HTML、十张正式图件以及中英文 A0 展板和 A3 方案册；机器校验通过不替代最终逐页人工视觉验收或评审方接受。
+
+### 投稿清单、自检与未决条件
+
+- 将本轮 9 个新增证据文件纳入 manifest，投稿清单由 43 项更新为 52 项，并按投稿包实际文件内容刷新 SHA-256；随后重新生成持久化 `self_check.json`。
+- 修正跨载体一致性与可移植性：建筑原型统一表述为单一低置信 `BLDG-001` 概念基底、九类功能原型而非九栋建筑；HTML 不再显示未解析的 Markdown 链接；场景矩阵以包内 `experiment-inputs.json` 作为来源入口，不保留本机绝对路径。
+- 确定性、空间、视觉和专业证据四门本地自检均通过，当前本地状态为 `formal-review-ready`；该状态只代表投稿包通过当前机器门禁，不等同于官方审核、专业评分、评委接受、平台提交或实施许可。
+- `known_blockers`、临时 SITE/KEY_AREA 几何、权属、文保、测绘、建筑高度、管线、消防、交通、责任主体、独立专业复核、公众参与和候选级真实 `HumanDecision` 仍未完成；官方数据到位后仍须重裁几何并重算依赖指标。
+
+### 概念媒体登记与多尺度呈现 / Concept Media Registration
+
+- 将已被正文与离线 HTML 引用的 20 张设计媒体（16 张 Imagegen 生成/清理的概念表达与 4 张 OpenFreeMap Positron / OpenStreetMap 公开底图叠加图）、`assets/media/design-media-rights.md` 和 `visual/assets/design-media-index.json` 纳入 manifest，投稿包登记项由 52 项扩展为 74 项，并为新增文件保留 SHA-256。
+- 新增媒体覆盖总体总平、总体与片区鸟瞰、北中南片区总平、剖面、人视、功能结构、体量控制、设计动作、十二原型、Agent 决策闭环和分期实施，均服务于概念沟通，不替代 GeoJSON、指标和专业审查证据。
+- 调整最终 PDF 的大幅面图像代理策略：A0-03 的 Agent 决策闭环、十二原型、实施分期和指标证据改为保留登记源图宽度，不再统一降至 1100 px；同时在不改变像素宽度、版式、文字、指标和证据边界的前提下优化 JPEG 编码，使本次投稿变更总量保持在官方 40 MiB 门禁内。
+- 最终收口时在停止并发写入、确认 20 张登记媒体均非零且哈希稳定后，重新生成四份 PDF 并连续两次确定性重建，逐文件 SHA-256 保持一致；外部竞赛汇报审阅副本 `v4.1` 仅修正第 35 页纵向 Agent 决策闭环图的比例拉伸，不改变方案、指标、权利或证据边界，且 PPTX 仍不属于本 manifest 的必交项。
+- 最终治理复盘按媒体索引统一“16 张 Imagegen 生成/清理的概念表达 + 4 张 OpenFreeMap / OpenStreetMap 公开底图叠加图”的分类，并将权利说明、来源登记、版权声明、报告叙事和成果矩阵中旧的“底图仍待替换/哈希待复核”表述更新为当前已打包、已登记哈希状态；同时移除双语视觉门户中孤立且不一致的 `v3.3/v3.0` 标签，改用不与投稿迭代号或外部 PPT 版本混淆的 `CURRENT`。赛事专项权利复核仍保持 pending，不将完成打包误写为已清权。
+- 收尾复盘进一步把四张公开底图叠加总平在双语正文中的来源标注与媒体台账统一，并将 PR 回应矩阵及双语视觉摘要从 `planned` 更新为 `evidence_created`；该状态仅表示包内证据已形成并通过本地结构复核，不表示 reviewer acceptance 或问题关闭。
+- 最终一致性复核将 PR 回应矩阵中的目录型证据入口改为明确文件路径，修正四张总平已打包后的现役版权措辞，将媒体索引的总量字段明确为 `registered_design_media_count=20`（其中 `imagegen_media_count=16`、`public_basemap_composite_count=4`），并统一声明四个离线 HTML 只内嵌已登记的 SIL OFL 1.1 Noto Sans SC 子集；不将字体回退或本地渲染通过误写为赛事清权或 reviewer acceptance。
+- 16 张生成媒体的权利状态继续标记为 `pending_final_competition_specific_review`；4 张公开底图叠加图保留 OSM/OpenFreeMap 署名并继续等待赛事专项复核，同时保留“非现场照片/非官方红线/非工程图纸”的说明，不将登记误写为赛事或商业清权。
+
 ## v2.2 - 2026-08-28
 
 **高清场地证据复核 / High-resolution Site Evidence Review**
