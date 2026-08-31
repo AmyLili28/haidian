@@ -22,6 +22,8 @@
         "submissions/bj-collab/jingzhang-cycling-commons/agent.json",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/area-prototypes.en.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/area-prototypes.png",
+        "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/cases-eight-factors.en.png",
+        "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/cases-eight-factors.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/five-personas.en.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/five-personas.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/governance-staffing.en.png",
@@ -42,8 +44,12 @@
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/scenario-atlas.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/site-overview.en.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/site-overview.png",
+        "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/taskbook-alignment.en.png",
+        "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/taskbook-alignment.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/typical-sections.en.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/typical-sections.png",
+        "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/xiaoyuehe-programme.en.png",
+        "submissions/bj-collab/jingzhang-cycling-commons/assets/figures/xiaoyuehe-programme.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/media/scene-ai-origin.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/media/scene-dazhongsi-arrival.png",
         "submissions/bj-collab/jingzhang-cycling-commons/assets/media/scene-zhongzhiyuan-forge.png",
@@ -75,13 +81,16 @@
         "submissions/bj-collab/jingzhang-cycling-commons/self_check.json",
         "submissions/bj-collab/jingzhang-cycling-commons/sources.json",
         "submissions/bj-collab/jingzhang-cycling-commons/standard_matrix.json",
+        "submissions/bj-collab/jingzhang-cycling-commons/visual/assets/asset-register.json",
+        "submissions/bj-collab/jingzhang-cycling-commons/visual/assets/formal-scoring-crosswalk.json",
+        "submissions/bj-collab/jingzhang-cycling-commons/visual/assets/offline-font.css",
         "submissions/bj-collab/jingzhang-cycling-commons/visual/index.en.html",
         "submissions/bj-collab/jingzhang-cycling-commons/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/bj-collab/jingzhang-cycling-commons": "formal"
       },
-      "total_bytes": 26248359,
+      "total_bytes": 29868361,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -159,7 +168,7 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 7,
+          "source": 13,
           "standard": 1,
           "depth": 6,
           "data": 10,

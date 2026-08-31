@@ -1,5 +1,5 @@
 ---
-title: "Jing-Zhang Cycling Commons | Ride to Work, Find Room to Breathe"
+title: "Jing-Zhang Cycling Commons | C1 Century Wheel Trace and Public-AI Adoption Corridor"
 author_github: "bj-collab"
 language: "en"
 proposal_format_version: "2"
@@ -45,13 +45,42 @@ The research area addresses industry links and future urban life. The overall de
 
 The spatial idea is easy to remember: one uninterrupted C1 cycling spine; two public rights, namely the right to produce nothing and the right to complete ordinary services without AI; three key areas with separate duties; and four visible AI states, off, background, on request and controlled test.
 
+<!-- FORMAL-REPAIR:taskbook:START -->
+## Taskbook alignment: one identity, three positionings, five functions, three areas and two wings
+
+“Centennial Jing-Zhang AI Innovation Belt” remains the official umbrella identity. “Jing-Zhang Cycling Commons” is the public-facing place brand, while “C1 Century Wheel Trace” is the route name that can appear on pavement, racks, paper maps and programmes. The mark combines one continuous deep-green line with repairable orange breaks. Green means an everyday cycling route; orange marks a problem that is found, tested, repaired and publicly closed. No corporate logo is incorporated. The compact lock-up keeps only the two lines and C1; bilingual long names are reserved for entrances and formal material.
+
+| Official positioning | Spatial and institutional response | Reviewable output |
+| --- | --- | --- |
+| Centennial Jing-Zhang cultural belt | C3 links Zhan Tianyou, autonomous construction, a century of maintenance and shared correction at cycling speed | Century Wheel Trace, source-led archive tables and a maintainers' milestone wall |
+| Urban AI life experience belt | Four visible AI states plus the right to produce nothing and the right to use an ordinary fallback | Twelve scenario cards, five timed days and age-inclusive services |
+| AI fusion innovation belt | Real problem, manual baseline, controlled test, limited adoption and an open failure record | T01–T03, a public AI admission sheet and retirement record |
+
+The five functions become accountable work. Full-stack autonomy is expressed through Zhongzhiyuan's test sandbox, maintenance Skills, data minimisation and auditable compute quotas. A world-class ecosystem is expressed through eight factor mechanisms, open Forge sessions and an international landing pathway. AI+ scenario empowerment is carried by the Xiaoyuehe wing and twelve cards with ordinary baselines. A smart and vibrant city is carried by C1–C4, three stations and age-inclusive daily services. Global AI-governance influence is carried by admission, human takeover, retirement, a bilingual ledger and a reusable governance Skill.
+
+![Identity, positionings, functions, areas and wings](assets/figures/taskbook-alignment.en.png)
+<!-- FORMAL-REPAIR:taskbook:END -->
+
 ![Land use, public space and cycling framework](assets/figures/land-use-structure.en.png)
 
 ## Coordinated Research Area: Industry and Future City Research
 
 The district does not need a larger exhibition hall to prove that it has AI capacity. Universities, laboratories, open-source groups, firms, capital and public settings are already close. What is missing is a legible route to urban adoption. Residents and operators first define a real problem. AI Origin turns it into an open problem card. Zhongzhiyuan tests the baseline, safety and maintenance chain. Dazhongsi adopts only services that pass and have an accountable operator. Failed trials also enter the shared library.
 
-Six international case types can inform later research without copying their appearance: incubation density at Station F, research-to-market links at Toronto MaRS, university-industry proximity at Kendall Square, long-term park operation at the New York High Line, phased public access along Hong Kong's harbourfront, and commuter-network thinking in Copenhagen's Cycle Superhighways. The transferable lesson is the operating mechanism.
+Cases compare mechanisms only. They do not establish facts about this site and no external image, drawing, logo or promotional copy is reproduced. Sources are first-party pages from the projects or their operating organisations.
+
+| Case and primary source | Transferable mechanism | Adopt / explicitly do not copy |
+| --- | --- | --- |
+| Station F, Paris [source:CASE-STATION-F] | One platform hosts independent programmes and shared resources | Use a shared base with multiple programmes; avoid a closed campus and brand density |
+| MaRS, Toronto [source:CASE-MARS] | Research, founders, capital, customers, talent and adoption are connected | Use the science-to-adoption service chain; do not import its governance or real-estate model |
+| Kendall Square, Cambridge [source:CASE-KENDALL] | An association connects academia, firms and street life through continuous programmes | Use street-level exchange and free everyday events; avoid rent-led clustering |
+| High Line, New York [source:CASE-HIGH-LINE] | Public ownership and a nonprofit operating partner divide long-term duties | Make responsibility and budgets legible; do not treat tourism intensity as the success metric |
+| Hong Kong harbourfront public space [source:CASE-HK-HARBOUR] | Section-by-section continuity, hinterland access, opening and management shape public value | Connect first and make scenery second; do not copy waterfront aesthetics |
+| Capital Region Cycle Superhighways [source:CASE-CYCLE-SUPERHIGHWAYS] | Cross-boundary collaboration serves commuter needs through a coherent network | Use continuity audits and a coordination office; do not copy speeds or sections directly |
+
+Eight factors surround one urban-adoption loop. Land means reuse, short licences and restoration clauses. Space means three stations, distributed Forges and an ordinary service base. Industry is organised by problem cards, trial sheets and maintenance tickets. Capital combines trial costs carried by participating firms, lawful purchase of necessary services and philanthropy without exclusivity. Talent combines university mentors, resident reviewers, paid engineers in residence and bilingual international partners. Compute uses metered enterprise or campus sandbox quotas with cost and energy records; no new compute centre is assumed. Data begins with synthetic data, manual baselines and minimum fields, while sensitive data stays out of open Skills. Scenarios are co-defined by the accountable service operator and retain a human route, stop rule and restoration.
+
+![Six mechanism cases and the eight-factor urban-adoption ecosystem](assets/figures/cases-eight-factors.en.png)
 
 Regional cooperation exchanges defined assets. Jing-Zhang can share the cycling-maintenance Skill, public AI admission sheet and failure register. Partner nodes may contribute specialist test environments, manufacturing verification or independent review. No partnership is presented as confirmed [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
 
@@ -78,6 +107,16 @@ People can arrive without presenting a job, degree or project. A quiet zone has 
 ### Dazhongsi: cycling arrival and urban adoption station
 
 Dazhongsi first resolves interchange conflicts among metro, bus, walking, cycling, shared bikes, taxis and car drop-off. Public services that passed earlier tests may be adopted on a limited basis. Their purpose, responsible party, data boundary, ordinary fallback and operating state remain visible. Toilets, water and basic seating are not tied to consumption [data:geometry/key_areas.geojson#PROV-KEY-003].
+
+<!-- FORMAL-REPAIR:wings:START -->
+### Three areas and two wings are not five interchangeable campuses
+
+AI Origin supports the world-class innovation ecosystem and adds a scarce capacity: people in a high-pressure knowledge district can recover without presenting a résumé or being tracked, and may opt into public problem discussions. Zhongzhiyuan supports full-stack autonomy and global governance influence through testing, standards, maintenance, takeover and retirement. Dazhongsi supports smart-native business by fixing interchange, repair, lockers, ordinary food and public services first, then offering a limited urban-adoption window to services that pass.
+
+The Zhongguancun technology-service wing brings IP, compliance, capital, talent, market and international landing support to the three stations and the open problem register instead of building another exhibition hall. The Xiaoyuehe scenario-empowerment wing is not a fourth key area. It is an everyday public verification route: rail arrival and paper map; the first C1 kilometre; shade, water and toilets; family cycling and age-inclusive activity; railway archive and quiet recovery; and an opt-in open Forge. A 45-minute journey covers the commute, 90 minutes covers everyday leisure, and only a half-day version enters industry exchange. No app is required.
+
+![Xiaoyuehe scenario-empowerment wing and year-round operation](assets/figures/xiaoyuehe-programme.en.png)
+<!-- FORMAL-REPAIR:wings:END -->
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
@@ -134,6 +173,18 @@ An initial staffing assumption is 4 to 5.5 paid or explicitly assigned full-time
 
 Five minimum documents make the model transferable: co-governance meeting rules; a responsibility and ticket-routing table; volunteer roles and prohibited tasks; the public AI trial sheet and register; and a quarterly open ledger. Together they form a localisable governance Skill for other parks, campuses and neighbourhoods.
 
+<!-- FORMAL-REPAIR:programme:START -->
+## Annual programme, developer commons and international conversion
+
+The programme brand is “Century Wheel Trace · Urban Adoption Season”. Its job is to move one technology from a pitch into accountable service, not to create another large technology festival. A no-pitch repair and public-problem table opens weekly. A C1 night-ride audit and Skill clinic run monthly. Each quarter, “Repair One Kilometre” publishes before-and-after conditions, human effort, false positives and unresolved work. Four annual anchors are a spring railway-history slow ride, a summer “AI Quiet Week” that switches selected systems off to test the ordinary service, an autumn Urban Adoption Season and a winter maintenance and retirement report. Every event files an occupation plan; stages, queues and markets may not occupy C1.
+
+The developer commons is organised around open problems rather than a company list. Each public Skill includes a problem card, ordinary baseline, minimum data, reproducible test, human review, maintainer, licence and retirement record. Residents, cleaners, maintenance workers, disabled users and community staff may serve as paid or properly supported reviewers. The public repository accepts only non-sensitive data and reproducible methods; an ordinary room whiteboard is not uploaded by default.
+
+International teams follow a 30-day conversion path. Days 1–3 provide a bilingual arrival brief and pair the team with a local accountable operator. Days 4–10 review scenario, safety, data and IP. Days 11–20 reproduce the claim with synthetic data or a manual baseline. Days 21–27 allow one bounded Zhongzhiyuan test. Days 28–30 produce a bilingual adopt, revise, reject or retire memo. International reputation alone does not qualify a service for Dazhongsi; it needs a local operator, maintenance budget and exit plan.
+
+Minimum annual public outputs are a C1 continuity ledger, a public AI admission and retirement register, one reusable maintenance Skill, an independent accessibility and data review, and a bilingual report that includes cost and added community-worker time. These outputs serve the developer community, open operation, international attraction and urban conversion without treating footfall or media exposure as the main result.
+<!-- FORMAL-REPAIR:programme:END -->
+
 ## Metrics, Area Recalculation, and Compliance Matrix
 
 ![Metrics and pilot evidence chain](assets/figures/metrics-evidence.en.png)
@@ -153,7 +204,7 @@ Performance targets follow four weeks of baseline observation. Candidate measure
 
 The main uncertainties are precise boundaries, surveys, ownership, road controls, statutory planning, utilities, fire safety, heritage controls and a real use baseline. Bridges, building scale, fixed equipment, medical services, data processing and procurement require separate professional and institutional review [depth:risk_missing_data] [data:geometry/constraints.geojson#CONSTRAINTS].
 
-The offline website loads no remote scripts, tiles, fonts, forms or tracking. Figures are generated from repository geometry and original graphic elements. Case references compare mechanisms only. The author directory and `agent_id` use the verified GitHub login `bj-collab`.
+The offline website loads no remote scripts, map tiles, iframes, forms or tracking. An OFL-licensed page-character subset of Noto Sans SC is compressed and embedded once in a local stylesheet. Figures use provisional repository geometry and original graphics; cases are source-led mechanism comparisons with no copied image, drawing, logo or promotional text. Each AI concept scene records its tool, date, purpose and rights boundary. `visual/assets/asset-register.json` and `report/copyright_statement.md` provide per-asset provenance, hashes, font and reuse status. The author directory and `agent_id` use the verified GitHub login `bj-collab`.
 
 
 ## From masterplan to section: making cycling continuity real
@@ -249,4 +300,6 @@ Haidian does not lack intelligence or speed. It needs a place where knowledge re
 - Agent open-call taskbook [source:AGENT-TASKBOOK]
 - Repository site package, provisional geometry and standards [source:SITE-PACKAGE] [source:BOUNDARY-SOURCE]
 - Source registry, fact pack and missing-data list [source:SOURCE-REGISTRY] [source:PROCESSED-FACT-PACK]
+- First-party mechanism cases: Station F, MaRS, Kendall Square, High Line, Hong Kong Harbourfront and Capital Region Cycle Superhighways [source:CASE-STATION-F] [source:CASE-MARS] [source:CASE-KENDALL] [source:CASE-HIGH-LINE] [source:CASE-HK-HARBOUR] [source:CASE-CYCLE-SUPERHIGHWAYS]
+- Per-asset provenance and rights: `visual/assets/asset-register.json` and `report/copyright_statement.md`
 - See `sources.json` for the machine-readable source and use register
