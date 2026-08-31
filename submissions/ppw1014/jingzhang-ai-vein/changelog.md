@@ -1,5 +1,13 @@
 # 方案迭代记录
 
+## v0.5.1 - 2026-08-31（响应第二轮 AI 评审：两项阻断修复）
+
+第二轮 AI 评审（七维 86.0/100，request-changes，本地四 gate 全 PASS）仅列两项可立即关闭的阻断项，本次全部修复：
+
+- **场景成熟度表述统一（风险与合规）**：撤回全部"12 个可运营 AI 场景节点 / 12 operable AI scenario nodes"表述，改为与证据一致的分级措辞（4 个 E0 概念 · 5 个 E1 试点候选 · 3 个 TVS 试点设计，均非已批准运营或现场验证成果）。覆盖 proposal.md、proposal.en.md（含 frontmatter summary）、中英总览图 f_3 文案、A3 文册与 A0 展板，并与 metrics.json 的 scenario_lighting_e0/e1/e2_count 指标对齐。
+- **离线中文渲染修复（表达完整度）**：HTML 页面内嵌 Noto Sans SC（SIL OFL 1.1 开源授权，可再分发）Regular/Bold 静态子集 woff2（按包内实际用字 1031 字符裁剪，各约 156 KB），以 base64 data URI 内联进 report/proposal.html(.en) 与 visual/index(.en).html 四页，`file://` 与 http 离线环境均不再依赖宿主机 CJK 系统字体；依 OFL 要求在 report/copyright_statement.md 附录 A 附版权声明与许可证全文（字体二进制不另立文件，符合 assets/ 仅允许图片的包结构约束）。
+- **配套修正**：PDF 页脚作者名同步账号改名（Winnie1014→ppw1014）；building_footprint_area_sqm 增补计算方法与异法复算偏差说明（EPSG:4548 平面 shoelace 332,249.6 m² 整百舍入 vs 测地线异法约 1% 偏差）。
+
 ## v0.5 - 2026-08-29（内涵升级：可检验的治理证据与统治性规则）
 
 对标 featured-candidate 档（评审发布建议）的内涵升级，让治理规则"可检验"而不只是"可朗读"：

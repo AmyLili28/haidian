@@ -6,7 +6,7 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "以京张遗址公园为历史与公共空间主轴，以众智园、北京AI原点社区、大钟寺三处重点片区为创新锚点，以中关村科技服务翼与小月河场景赋能翼为协同两翼，构建'一带三核、多点场景、蓝绿慢行复合环'的可运营AI城市设计方案。"
+summary: "以京张遗址公园为历史与公共空间主轴，以众智园、北京AI原点社区、大钟寺三处重点片区为创新锚点，以中关村科技服务翼与小月河场景赋能翼为协同两翼，构建'一带三核、多点场景、蓝绿慢行复合环'的AI城市设计方案；十二个AI场景节点按 E0 概念、E1 试点候选、TVS 试点设计三级成熟度管理，均非已批准运营。"
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
 ---
@@ -71,7 +71,7 @@ VI 方向在实际视觉证据中落地：命名树（带级—片区级—节�
 
 ### 总体空间结构与区域协同
 
-总体空间结构为“**一带三核、多点场景、蓝绿慢行复合环**”：一带是京张遗址公园活力带（历史与公共空间主轴，南北贯通）；三核是三处重点区；多点场景是十二个可运营 AI 场景节点；复合环是串联三核、公园与两翼的蓝绿慢行环及轨道站点接驳 [depth:blue_green_public_space]。区域协同只表达基于已登记背景资料的**建议流动关系**：海淀侧承接研发、孵化与测试，未来科学城和怀柔科学城可作为科研协同方向，经开区可作为工程化与制造协同方向，京津冀可作为应用与供应链协同方向 [source:THREE-AREAS-TWO-WINGS] [source:HAIDIAN-1X1]。这些箭头不是已签约关系、官方分工或政府承诺；主体、项目、容量与时序均须另行确认。
+总体空间结构为“**一带三核、多点场景、蓝绿慢行复合环**”：一带是京张遗址公园活力带（历史与公共空间主轴，南北贯通）；三核是三处重点区；多点场景是十二个 AI 场景节点（4 个 E0 概念、5 个 E1 试点候选、3 个 TVS 试点设计，均非已批准运营或现场验证成果）[metric:scenario_lighting_e0_count] [metric:scenario_lighting_e1_count] [metric:scenario_lighting_e2_count]；复合环是串联三核、公园与两翼的蓝绿慢行环及轨道站点接驳 [depth:blue_green_public_space]。区域协同只表达基于已登记背景资料的**建议流动关系**：海淀侧承接研发、孵化与测试，未来科学城和怀柔科学城可作为科研协同方向，经开区可作为工程化与制造协同方向，京津冀可作为应用与供应链协同方向 [source:THREE-AREAS-TWO-WINGS] [source:HAIDIAN-1X1]。这些箭头不是已签约关系、官方分工或政府承诺；主体、项目、容量与时序均须另行确认。
 
 ### 统治性规则：先日常、后叠加；未过 G0，不点亮
 

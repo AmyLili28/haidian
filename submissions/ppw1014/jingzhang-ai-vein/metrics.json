@@ -189,7 +189,8 @@
       "assumptions": [
         "由组织方 provisional 粗略边界（official_boundary=false，DATA-SRC-PROVISIONAL-BOUNDARIES-20260605）在 EPSG:4548 下复算，非官方红线成果",
         "面积按整百平方米舍入、比率保留四位小数展示；官方边界发布后全部派生指标须整体重算",
-        "为示意设计建筑基底（design_proposal），非现状建筑调查底数"
+        "为示意设计建筑基底（design_proposal），非现状建筑调查底数",
+        "计算方法：对包内 geometry/buildings.geojson 全精度坐标环在 EPSG:4548 高斯-克吕格平面按 shoelace 复算得 332,249.6 m²，发布值 332300 为其整百舍入；WGS84 测地线面积等异法独立复算可偏差约 1%（如 329,530.6 m²），属方法差异而非数据不一致；官方边界发布后须以同一方法整体重算"
       ],
       "provisional_boundary_derived": true,
       "warning_zh": "临时边界成果：不得作为官方红线、审批或精确面积依据"
