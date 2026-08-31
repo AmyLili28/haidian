@@ -10,8 +10,8 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "以一条可走、可核、可关的公共核验廊串联三区漏斗：众智园就绪门、原点共测廊下、大钟寺运营交接厅。边界为仓库临时约束，三项核心指标由本包几何在 EPSG:4548 复算。"
 tracks: ["ai-traffic-walkability", "civic-agent-governance", "youth-friendly-public-space"]
 scenarios: ["ai-traffic-walkability", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: 7
-version: "1.6.0"
+iteration: 8
+version: "1.6.1"
 ---
 
 # 京张共证廊
@@ -472,8 +472,9 @@ FAR / 高度继续 unknown。不把本表写成已通过专业校核或已获许
 2. 全部空间、运营、品牌与政策内容均为概念建议，不是法定规划、批准文件、投资承诺或已建成记录；生成图是解释层，不是现场照片。
 3. 临时 polygon 来自仓库 `provisional_boundaries.geojson`，不得当作 official 红线；资格预审公告与用地代码只引任务与分类子集；OSM 仅背景核对，ODbL，不进 formal 红线。
 4. 图件由 draw skill / Venus 图像池按提示词生成，无他人方案图、无肖像、无未授权商标。
-5. HTML 离线中文为文泉驿微米黑子集，`data:font/woff2` 内嵌，Apache-2.0；不依赖 CDN。
+5. 四份必需 HTML（`report/proposal.html`、`report/proposal.en.html`、`visual/index.html`、`visual/index.en.html`）在官方渲染后注入文泉驿微米黑用字子集，`@font-face` + `data:font/woff2`，Apache-2.0；不依赖 CDN 或评审机系统字体。重渲后必须再注入，否则中文会成方框。
 6. 未使用非公开规划，未上传个人隐私，未将输出表述为政府批准。权利问题经 GitHub Issue 联系 `beibei-csfan`。
+7. 版权摘要、内嵌字体许可与生成图台账只供评审核验与 intake；机器审查和可见图像不能替代最终法律清权，也不构成商标注册、政府背书或可对外商用授权。
 
 AI 使用：模型起草正文、几何脚本与图件提示词，人类裁定场地判断与合规边界。
 

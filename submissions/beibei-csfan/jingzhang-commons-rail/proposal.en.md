@@ -10,8 +10,8 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "A walkable, verifiable, switch-off public gallery stitches a three-gate funnel: Ready Gate at Zhongzhiyuan, Shared-Measure Gallery at Origin Community, and Operations Handover Hall at Dazhongsi. Boundaries are provisional; three core metrics are recalculated from this package in EPSG:4548."
 tracks: ["ai-traffic-walkability", "civic-agent-governance", "youth-friendly-public-space"]
 scenarios: ["ai-traffic-walkability", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: 7
-version: "1.6.0"
+iteration: 8
+version: "1.6.1"
 ---
 
 # Jingzhang Commons Gallery
@@ -472,8 +472,9 @@ Copyright statement, in raw text for the review packet (full file: `report/copyr
 2. All spatial, operational, brand, and policy content is a concept suggestion, not a statutory plan, approval, investment pledge, or built record; generated images are an explanation layer, not photographs.
 3. Provisional polygons come from the repository `provisional_boundaries.geojson` and must not be treated as official redlines; the qualification announcement and land-use codes are cited only for tasks and the classification subset; OSM is background only (ODbL) and not a formal redline.
 4. Figures are generated with the draw skill / Venus image pool from prompts; no peer-proposal images, portraits, or uncleared marks.
-5. Offline Chinese in HTML is a WenQuanYi Micro Hei subset embedded as `data:font/woff2` under Apache-2.0; no CDN.
+5. The four required HTML files (`report/proposal.html`, `report/proposal.en.html`, `visual/index.html`, `visual/index.en.html`) embed a WenQuanYi Micro Hei used-glyph subset after the official HTML render, via `@font-face` + `data:font/woff2`, Apache-2.0; no CDN and no review-machine system fonts. Re-render without re-injection produces tofu boxes.
 6. No non-public plans, no personal privacy uploads, no output framed as government approval. Rights questions go to GitHub Issues for `beibei-csfan`.
+7. The copyright digest, embedded-font licence and generated-image ledger are for review and intake only; machine review and visible images do not replace final legal clearance, and do not constitute trademark registration, government endorsement, or a commercial licence.
 
 AI use: the model drafted prose, geometry scripts, and figure prompts; humans adjudicate site judgement and compliance.
 
