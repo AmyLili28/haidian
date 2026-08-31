@@ -1,0 +1,217 @@
+{
+  "ok": true,
+  "submission_dir": "submissions\\zhaozheyi-collab\\zipper-jingzhang",
+  "pr_author": "zhaozheyi-collab",
+  "stage": "formal",
+  "deterministic_validation": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+      ],
+      "proposal_files": [
+        "submissions/zhaozheyi-collab/zipper-jingzhang/proposal.md"
+      ],
+      "changelog_files": [],
+      "changed_files": [
+        "submissions/zhaozheyi-collab/zipper-jingzhang/agent.json",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/key-areas.en.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/key-areas.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/land-use-structure.en.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/land-use-structure.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/metrics-evidence.en.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/metrics-evidence.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/mobility-bluegreen.en.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/mobility-bluegreen.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/site-overview.en.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/figures/site-overview.png",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-01.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-02.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-03.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-04.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-06.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-07.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-08.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/scenes/fx-09.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z00-teeth-map.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z01-crossing-ceremony.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z01-crossing-daily.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z02-grating-bridge.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z03-roadbed-underpass.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z04-arch-playground.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z05-robot-crossing.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z06-drones-daily.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z06-light-train.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z07-utility-crossing.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z08-straddle-building.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z09-river-streets.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z10-green-bridge.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assets/media/teeth/z10-ground-park.jpg",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/assumptions.json",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/compliance_matrix.json",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/design_depth_matrix.json",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/drawings/a0-boards.en.pdf",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/drawings/a0-boards.pdf",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/drawings/a3-booklet.en.pdf",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/drawings/a3-booklet.pdf",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/buildings.geojson",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/constraints.geojson",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/green_space.geojson",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/key_areas.geojson",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/land_use.geojson",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/phasing.geojson",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/public_space.geojson",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/roads.geojson",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/geometry/site_boundary.geojson",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/manifest.json",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/metrics.json",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/proposal.en.md",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/proposal.md",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/report/copyright_statement.md",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/report/narrative.md",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/report/proposal.en.html",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/report/proposal.html",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/self_check.json",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/sources.json",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/standard_matrix.json",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/visual/index.en.html",
+        "submissions/zhaozheyi-collab/zipper-jingzhang/visual/index.html"
+      ],
+      "ai_package_stages": {
+        "submissions/zhaozheyi-collab/zipper-jingzhang": "formal"
+      },
+      "total_bytes": 28701561,
+      "maintainer_bypass": false
+    },
+    "stderr": ""
+  },
+  "spatial_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "stage": "formal",
+      "issues": [
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "zhongzhiyuan_ai_acceleration_area",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "beijing_ai_origin_community",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "dazhongsi_ai_industry_cluster",
+          "expected": null,
+          "actual": null
+        }
+      ],
+      "metrics": {
+        "site_area_sqm": 11412825.35,
+        "green_space_area_sqm": 2090243.957,
+        "public_space_area_sqm": 93100.0,
+        "building_footprint_area_sqm": 2588396.0,
+        "green_ratio": 0.183149,
+        "public_space_ratio": 0.008157
+      }
+    },
+    "stderr": ""
+  },
+  "visual_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "metrics_seen": {
+        "site_area_sqm": 11412825.35,
+        "green_ratio": 0.18,
+        "public_space_ratio": 0.01
+      }
+    },
+    "stderr": ""
+  },
+  "professional_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "summary": {
+        "standard_matrix_items": 6,
+        "design_depth_items": 15,
+        "known_metric_refs_required": 12,
+        "proposal_format_version": "2",
+        "evidence_contract": "section-anchors-plus-structured-audit",
+        "proposal_reference_counts": {
+          "source": 6,
+          "standard": 3,
+          "depth": 15,
+          "data": 16,
+          "metric": 8
+        }
+      }
+    },
+    "stderr": ""
+  },
+  "spatial_issue_ids": [
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL"
+  ],
+  "visual_issue_ids": [],
+  "professional_issue_ids": [],
+  "missing_review_dependencies": [],
+  "can_enter_formal_review": true,
+  "package_type": "professional_design_package",
+  "review_status": "formal-review-ready",
+  "next_actions": [],
+  "schema_version": "0.1.0",
+  "checks": [
+    {
+      "check_id": "DETERMINISTIC_VALIDATION",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "validate_local_submission.py",
+      "message": "deterministic_validation: PASS"
+    },
+    {
+      "check_id": "SPATIAL_REVIEW",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "spatial_review.py",
+      "message": "spatial_review: PASS"
+    },
+    {
+      "check_id": "VISUAL_PACKAGING",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "visual_review.py",
+      "message": "visual_review: PASS"
+    },
+    {
+      "check_id": "PROFESSIONAL_EVIDENCE",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "professional_review.py",
+      "message": "professional_review: PASS"
+    }
+  ]
+}

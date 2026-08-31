@@ -1,0 +1,54 @@
+{
+ "schema_version": "0.1.0",
+ "assumptions": [
+  {
+   "id": "A-CONTROLS-001",
+   "status": "pending_professional_confirmation",
+   "statement": "Detailed regulatory controls (FAR, building height, density, setback, road redline), ownership, municipal utilities, and engineering constraints are missing from public sources and must be confirmed from official attachments before statutory use.",
+   "impact": "floor_area_ratio and related control metrics remain status=unknown; proposed building envelopes are design suggestions only and are not used to back-calculate FAR.",
+   "recalc_trigger": "publication of approved regulatory planning conditions or official design brief attachments"
+  },
+  {
+   "id": "A-BOUNDARY-001",
+   "status": "provisional_constraint",
+   "statement": "SITE-001 and KEY-A1/A2/A3 use the site package's provisional rough polygons (official_boundary=false, boundary_precision=provisional_rough). All areas, ratios and counts derived from them are provisional design-model values with low confidence.",
+   "impact": "Computed site area 11,412,825 m2 differs from the announced 11,400,000 m2 by about 0.1%, within rough-boundary tolerance; all geometry-derived numbers, figures, drawings and visual data-values must be recalculated when official polygons arrive.",
+   "recalc_trigger": "publication of trusted official SITE_BOUNDARY and KEY_AREA GeoJSON under brief/site-package/geometry/"
+  },
+  {
+   "id": "A-RAIL-001",
+   "status": "design_assumption",
+   "statement": "The sandbox contains no surveyed rail alignment. The 120 m Chain Band axis (CONSTRAINTS-RAIL) is a design assumption used only to organize the zipper concept; the actual Jingzhang heritage rail alignment and heritage control lines are not represented.",
+   "impact": "All ten teeth positions (Z-01..Z-10) are concept placements along the assumed axis and must be re-seated when official rail/heritage geometry is published.",
+   "recalc_trigger": "publication of official rail alignment or heritage protection line data"
+  },
+  {
+   "id": "A-BLDG-001",
+   "status": "method_only",
+   "statement": "No existing-building survey, ownership or regulatory parcel data is available. geometry/buildings.geojson contains proposed massing envelopes only (design_action='新增（建议体量包络）').",
+   "impact": "The package makes no retain/renovate/demolish conclusions; the renewal project list is conceptual and depends on official existing-condition data.",
+   "recalc_trigger": "official existing building, ownership and regulatory parcel datasets"
+  },
+  {
+   "id": "A-IMAGE-001",
+   "status": "conceptual_illustration",
+   "statement": "The 13 teeth scene images under assets/media/teeth/ are AI-generated conceptual illustrations (Lovart AI, free model nano-banana-pro) with verbatim prompts archived in report/copyright_statement.md Appendix A (SHA-256 per prompt) and machine-readable trainedAlgorithmicMedia XMP preserved. They express design intent only.",
+   "impact": "Images are clearly separated from the factual evidence layer (GeoJSON/metrics); they must not be used as boundary, area or planning-control evidence.",
+   "recalc_trigger": "not applicable (illustrative media; rights and provenance recorded in sources.json AI-GENERATED-VISUALS)"
+  },
+  {
+   "id": "A-METRICS-001",
+   "status": "low_confidence_design_model",
+   "statement": "The three formal core visual metrics (site_area_sqm, green_ratio, public_space_ratio) are recomputed from submitted provisional geometry in EPSG:4548; they are finite and reproducible but retain low confidence and a provisional role.",
+   "impact": "Values shown in visual/index.html data-value attributes must stay numerically identical to metrics.json; both must be regenerated together after any geometry change.",
+   "recalc_trigger": "same as A-BOUNDARY-001"
+  },
+  {
+   "id": "A-PHASING-001",
+   "status": "conceptual_suggestion",
+   "statement": "The three-phase plan and renewal project list (JZ-01..JZ-06) are conceptual suggestions without funding, implementation bodies or approval paths.",
+   "impact": "No implementation, investment or government-action commitments are made; lightweight operations and activities are the only near-term items suggested.",
+   "recalc_trigger": "official implementation program or statutory planning approval process"
+  }
+ ]
+}

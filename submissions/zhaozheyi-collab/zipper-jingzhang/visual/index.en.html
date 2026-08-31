@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zipper Jingzhang 拉链京张 · 百年京张AI创新带城市设计</title>
+<style>
+:root{--ink:#1c1c1c;--paper:#f6f4ee;--line:#ddd8cb;--red:#b03030;--green:#2e7d32;--gold:#8a6d00;--mute:#6a675e}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header{background:#23211c;color:#f4f1e8;padding:34px 0 26px}
+header h1{font-size:30px;letter-spacing:.02em} header h1 span{opacity:.75;font-weight:400;font-size:20px;margin-left:10px}
+header p.sub{color:#c9c4b4;margin-top:6px;font-size:13.5px}
+.badges{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+.badge{border:1px solid #55503f;border-radius:999px;padding:3px 12px;font-size:12px;color:#e8e2cf}
+.badge.red{border-color:#c96a5a;color:#f0b6a8}.badge.green{border-color:#7da87f;color:#bcd9bd}
+nav.toc{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:16px 0 0;font-size:13px;display:flex;flex-wrap:wrap;gap:6px 16px}
+nav.toc a{color:#12407a;text-decoration:none}
+section{padding:30px 0 6px}
+h2{font-size:20px;border-left:5px solid var(--red);padding-left:12px;margin-bottom:4px}
+h2 span{font-weight:400;color:var(--mute);font-size:13px;margin-left:8px}
+p.note{color:var(--mute);font-size:12.5px;margin:2px 0 14px}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.mc{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.mc b{font-size:30px;color:var(--red);font-variant-numeric:tabular-nums}
+.mc i{display:block;font-style:normal;color:var(--mute);font-size:12px;margin-top:4px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px} @media(max-width:900px){.grid2{grid-template-columns:1fr}}
+figure.fig,figure.tooth{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+figure img{width:100%;display:block}
+figcaption{padding:9px 12px;font-size:13px} figcaption span{display:block;color:var(--mute);font-size:11.5px}
+.teeth{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.scns{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:10px}
+.scn{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 14px;display:flex;gap:12px;align-items:flex-start}
+.scn.star{border-color:#d8a468;background:#fdf7ee}
+.scn .no{font-weight:800;color:var(--red);min-width:34px;font-size:17px}
+.scn b{font-size:14px} .scn i{display:block;font-style:normal;color:var(--mute);font-size:11.5px}
+.scn em{display:block;font-style:normal;font-size:12px;color:#3c5a8c;margin-top:3px}
+.pers{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.per{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.per b{font-size:14px} .per i{display:block;font-style:normal;color:var(--mute);font-size:11.5px;margin-bottom:6px}
+.per p{font-size:12.5px;color:#444}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
+th,td{padding:8px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#efece2;font-size:12.5px}
+.cols{display:grid;grid-template-columns:1.2fr .8fr;gap:16px} @media(max-width:900px){.cols{grid-template-columns:1fr}}
+.src,.asm{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:8px;font-size:12.5px}
+.src p,.asm p{color:#555;margin-top:4px} .asm em{color:var(--gold);font-style:normal;font-size:11.5px}
+ul.reqs{columns:2;gap:24px;font-size:12.5px;color:#444} @media(max-width:800px){ul.reqs{columns:1}}
+ul.reqs li{margin-bottom:4px}
+.gates{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-top:10px}
+.gate{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:12.5px}
+.gate b{display:block;font-size:13px}
+footer{margin-top:34px;border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:12px}
+code{background:#efece2;border-radius:4px;padding:1px 5px;font-size:11.5px}
+#lb{position:fixed;inset:0;background:rgba(22,20,15,.93);display:none;flex-direction:column;align-items:center;justify-content:center;z-index:999;cursor:zoom-out}
+#lb.on{display:flex}
+#lb img{max-width:94vw;max-height:84vh;object-fit:contain;box-shadow:0 8px 40px rgba(0,0,0,.6)}
+#lb .cap{color:#e8e2cf;margin-top:12px;font-size:14px;max-width:90vw;text-align:center}
+#lb .x{position:absolute;top:12px;right:22px;font-size:34px;color:#fff;cursor:pointer;line-height:1}
+#lb .nav{position:absolute;top:50%;transform:translateY(-50%);font-size:44px;color:#fff;cursor:pointer;padding:12px 18px;user-select:none;opacity:.75}
+#lb .nav:hover{opacity:1}
+#lb .prev{left:8px} #lb .next{right:8px}
+</style></head>
+<body>
+<header><div class="wrap">
+<h1>Zipper Jingzhang<span>拉链京张</span></h1>
+<p class="sub">Centennial Jing-Zhang AI Innovation Belt Open Call · conceptual urban design proposal</p>
+<div class="badges"><span class="badge red">provisional rough boundary official_boundary=false</span><span class="badge black">CONCEPTUAL SUGGESTION</span><span class="badge black">COMMUNITY-DISPLAY-ONLY</span><span class="badge green">package_state: ready_for_review</span><span class="badge black">self_check: recorded</span></div>
+<nav class="toc"><a href="#map">Site Overview Map</a><a href="#scope">Three-Level Scope</a><a href="#landuse">Land-Use Zones</a><a href="#mobility">Mobility</a><a href="#bluegreen">Blue-Green Public Space</a><a href="#projects">Renewal Projects</a><a href="#metrics">Core Metrics</a><a href="#selfcheck">Self-Check Status</a><a href="#teeth">Ten-Teeth Gallery</a><a href="#fx">Scene Renderings</a><a href="#scenarios">AI Scenario Cards</a><a href="#personas">User Personas</a><a href="#evidence">Sources & Assumptions</a></nav>
+</div></header>
+<div class="wrap">
+
+<section id="metrics"><h2>Core Metrics (核心指标)<span>Three formal core visual metrics are known and recomputable, matching this page's data-value; FAR stays unknown</span></h2>
+<p class="note">provisional 低置信度设计模型值；官方 SITE_BOUNDARY / KEY_AREA 发布后整体重算。Provisional low-confidence design-model values; recalculated when official geometry publishes.</p>
+<div class="metrics">
+<div class="mc"><b data-metric="site_area_sqm" data-value="11412825.35">11,412,825.35</b> m²<i>Overall design area (announced 11,400,000; provisional recomputation differs ~0.1%)<br>site_area_sqm · EPSG:4548</i></div>
+<div class="mc"><b data-metric="green_ratio" data-value="0.18">18%</b><i>Green ratio (band + protective green + A1 park)<br>green_ratio · from submitted geometry</i></div>
+<div class="mc"><b data-metric="public_space_ratio" data-value="0.01">1.0%</b><i>Public space ratio (Zipper-Head plaza + ten teeth squares)<br>public_space_ratio · from submitted geometry</i></div>
+<div class="mc"><b>9.72</b> km<i>Band slow spine ｜ 10 teeth ｜ 44 parcels<br>green_axis_length_m / tooth_count / land_use_parcel_count</i></div>
+</div></section>
+
+<section id="map"><h2>Site Overview Map (总览地图)<span>One band, three cores, ten teeth: the 9.72 km band, teeth take every crossing</span></h2>
+<figure class="fig"><img src="../assets/figures/site-overview.png" alt="site overview"><figcaption>site-overview.png</figcaption></figure>
+</section>
+
+<section id="scope"><h2>Three-Level Scope (三层范围)<span>Coordinated research 43.6 km² | overall design 11.4 km² | key areas 368.4 ha (192.1/104.3/72.0)</span></h2>
+<table><tr><th>Scope</th><th>Area</th><th>Task</th></tr><tr><td>统筹研究范围 Coordinated research</td><td>43.6 km²</td><td>AI 产业生态与未来城市形态 Industry & future-city</td></tr><tr><td>总体设计范围 Overall design</td><td>11.4 km²</td><td>控规深度城市更新 Urban renewal at regulatory depth</td></tr><tr><td>重点区域范围 Key areas</td><td>368.4 ha</td><td>A1 192.1 / A2 104.3 / A3 72.0 公顷详细设计 Detailed design</td></tr></table>
+</section>
+
+<section id="landuse"><h2>Land-Use Zones (用地分区)<span>44 parcels, full coverage without overlaps; differentiated core mixes; official codes only</span></h2>
+<figure class="fig"><img src="../assets/figures/land-use-structure.png" alt="land use" loading="lazy"><figcaption>land-use-structure.png</figcaption></figure>
+</section>
+
+<section id="mobility"><h2>Mobility (交通慢行)<span>Local streets stop at the band; east-west links cross via the ten teeth — what makes a zipper more than a greenway</span></h2>
+<figure class="fig"><img src="../assets/figures/mobility-bluegreen.png" alt="mobility" loading="lazy"><figcaption>mobility-bluegreen.png</figcaption></figure>
+</section>
+
+<section id="bluegreen"><h2>Blue-Green Public Space (蓝绿公共空间)<span>Green ratio 18%, public space ratio 1%, recomputed from submitted geometry</span></h2>
+<p class="note">geometry/green_space.geojson（3）+ geometry/public_space.geojson（11：拉链头运营广场 + 十齿广场 Z-01..Z-10）</p>
+</section>
+
+<section id="projects"><h2>Renewal Projects (更新项目)<span>Conceptual list; implementation presupposes ownership, funding and approvals (no delivery claims)</span></h2>
+<table><tr><th>ID</th><th>Project</th><th>Type</th><th>Evidence</th></tr><tr><td><code>JZ-01</code></td><td>Band slow-spine & crossing stitches (Z-01/Z-02 first)</td><td>公共空间/交通</td><td><code>geometry/…#ROAD-001</code></td></tr><tr><td><code>JZ-02</code></td><td>A1 Qinghe low-carbon interface (S06/10★)</td><td>蓝绿/产业</td><td><code>geometry/…#GREEN-001</code></td></tr><tr><td><code>JZ-03</code></td><td>A2 campus tech-transfer street (S01/07)</td><td>更新/产业服务</td><td><code>geometry/…#BLDG-001</code></td></tr><tr><td><code>JZ-04</code></td><td>A3 station-district quadrant links (Z-04/Z-08)</td><td>轨道一体化/慢行</td><td><code>geometry/…#Z-08</code></td></tr><tr><td><code>JZ-05</code></td><td>Zipper-Head ops system & edge-compute nodes</td><td>新基建/公共服务</td><td><code>geometry/…#CONSTRAINTS-RAIL</code></td></tr><tr><td><code>JZ-06</code></td><td>Global AI Week public route (S11)</td><td>运营/品牌</td><td><code>geometry/…#PHASE-001</code></td></tr></table>
+</section>
+
+<section id="fx"><h2>Scene Renderings (场景效果图)<span>AI-generated concept renders (16:9) · prompts archived · separated from evidence; built imagery for cores and scenario cards</span></h2>
+<div class="teeth"><figure class="tooth"><img src="../assets/media/scenes/fx-01.jpg" alt="Chain Band panorama · everyday (zipped)" loading="lazy"><figcaption><b>Chain Band panorama · everyday (zipped)</b><span>链带全景 · 平时（拉合）</span></figcaption></figure><figure class="tooth"><img src="../assets/media/scenes/fx-02.jpg" alt="Chain Band panorama · memorial (unzipped)" loading="lazy"><figcaption><b>Chain Band panorama · memorial (unzipped)</b><span>链带全景 · 纪念（拉开）</span></figcaption></figure><figure class="tooth"><img src="../assets/media/scenes/fx-03.jpg" alt="A1 Qinghe riverside garden interface" loading="lazy"><figcaption><b>A1 Qinghe riverside garden interface</b><span>A1 众智园 · 清河花园型界面</span></figcaption></figure><figure class="tooth"><img src="../assets/media/scenes/fx-04.jpg" alt="Open model test field (S10★)" loading="lazy"><figcaption><b>Open model test field (S10★)</b><span>A1 开放测试场（场景10★）</span></figcaption></figure><figure class="tooth"><img src="../assets/media/scenes/fx-06.jpg" alt="Campus tech-transfer street (S07)" loading="lazy"><figcaption><b>Campus tech-transfer street (S07)</b><span>A2 近校成果转化街（场景07）</span></figcaption></figure><figure class="tooth"><img src="../assets/media/scenes/fx-07.jpg" alt="Straddle building &amp; station quadrants (Z-08)" loading="lazy"><figcaption><b>Straddle building &amp; station quadrants (Z-08)</b><span>A3 跨轨建筑与站城四象限（Z-08）</span></figcaption></figure><figure class="tooth"><img src="../assets/media/scenes/fx-08.jpg" alt="Intl roadshow lounge (S05)" loading="lazy"><figcaption><b>Intl roadshow lounge (S05)</b><span>A3 国际路演客厅（场景05）</span></figcaption></figure><figure class="tooth"><img src="../assets/media/scenes/fx-09.jpg" alt="Riverside streets by night (Z-09)" loading="lazy"><figcaption><b>Riverside streets by night (Z-09)</b><span>两岸商业街夜景（Z-09）</span></figcaption></figure></div>
+</section>
+
+<section id="teeth"><h2>Ten-Teeth Gallery (十齿示意图)<span>AI-generated (Lovart free model nano-banana-pro) · prompts archived · trainedAlgorithmicMedia preserved · separated from evidence</span></h2>
+<div class="teeth"><figure class="tooth"><img src="../assets/media/teeth/z01-crossing-daily.jpg" alt="Z-01 Crossing Plaza · everyday (zipped)" loading="lazy"><figcaption><b>Z-01 Crossing Plaza · everyday (zipped)</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z01-crossing-ceremony.jpg" alt="Z-01 Crossing Plaza · memorial (unzipped)" loading="lazy"><figcaption><b>Z-01 Crossing Plaza · memorial (unzipped)</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z02-grating-bridge.jpg" alt="Z-02 Grating Bridge" loading="lazy"><figcaption><b>Z-02 Grating Bridge</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z03-roadbed-underpass.jpg" alt="Z-03 Roadbed Underpass Gallery" loading="lazy"><figcaption><b>Z-03 Roadbed Underpass Gallery</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z04-arch-playground.jpg" alt="Z-04 Arch Playground" loading="lazy"><figcaption><b>Z-04 Arch Playground</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z05-robot-crossing.jpg" alt="Z-05 Robot Delivery Crossing" loading="lazy"><figcaption><b>Z-05 Robot Delivery Crossing</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z06-drones-daily.jpg" alt="Z-06 Drone Corridor · everyday" loading="lazy"><figcaption><b>Z-06 Drone Corridor · everyday</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z06-light-train.jpg" alt="Z-06 Drone Light-Train · memorial" loading="lazy"><figcaption><b>Z-06 Drone Light-Train · memorial</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z07-utility-crossing.jpg" alt="Z-07 Utility Duct Perpendicular Crossing" loading="lazy"><figcaption><b>Z-07 Utility Duct Perpendicular Crossing</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z08-straddle-building.jpg" alt="Z-08 Straddle Building" loading="lazy"><figcaption><b>Z-08 Straddle Building</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z09-river-streets.jpg" alt="Z-09 Twin Riverside Streets" loading="lazy"><figcaption><b>Z-09 Twin Riverside Streets</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z10-green-bridge.jpg" alt="Z-10 Eco Green Bridge" loading="lazy"><figcaption><b>Z-10 Eco Green Bridge</b></figcaption></figure><figure class="tooth"><img src="../assets/media/teeth/z10-ground-park.jpg" alt="Z-10 Ground Park" loading="lazy"><figcaption><b>Z-10 Ground Park</b></figcaption></figure></div>
+</section>
+
+<section id="scenarios"><h2>AI Scenario Cards (11 · ★=industry test-validation)<span>Six elements per card: users / location / data source / privacy boundary / human review / operator</span></h2>
+<div class="scns"><div class="scn"><div class="no">01</div><div><b>Open-Source Release Hall</b><i>开源发布厅</i><em>A2 ｜ Z-01/Z-05</em></div></div><div class="scn star"><div class="no">02★</div><div><b>Safety Governance Sandbox</b><i>安全治理沙盒</i><em>A1 众智园 ｜ Z-02/Z-10</em></div></div><div class="scn"><div class="no">03</div><div><b>Edge-Compute Waystation</b><i>端侧算力驿站</i><em>总体设计范围 ｜ —</em></div></div><div class="scn"><div class="no">04</div><div><b>AI Walk Navigation</b><i>AI 慢行导航</i><em>链带全线 ｜ 全线</em></div></div><div class="scn"><div class="no">05</div><div><b>Dazhongsi Intl Roadshow Lounge</b><i>大钟寺国际路演客厅</i><em>A3 ｜ Z-04/Z-08</em></div></div><div class="scn"><div class="no">06</div><div><b>Qinghe Low-Carbon Corridor</b><i>清河低碳创新廊</i><em>A1 ｜ Z-10</em></div></div><div class="scn"><div class="no">07</div><div><b>Campus Tech-Transfer Street</b><i>近校成果转化街</i><em>A2 ｜ Z-01/Z-05</em></div></div><div class="scn star"><div class="no">08★</div><div><b>Data-Element Salon</b><i>数据要素会客厅</i><em>A3 ｜ Z-04/Z-08</em></div></div><div class="scn"><div class="no">09</div><div><b>AI Life-Service Street</b><i>AI 生活服务样板街</i><em>社区商业交汇 ｜ Z-09</em></div></div><div class="scn star"><div class="no">10★</div><div><b>Open Model Test Field</b><i>自主模型开放测试场</i><em>A1 ｜ Z-02/Z-10</em></div></div><div class="scn"><div class="no">11</div><div><b>Global AI Week Route</b><i>全球 AI 活动周路线</i><em>一带 ｜ 全线</em></div></div></div>
+</section>
+
+<section id="personas"><h2>User Personas (五类用户画像)<span>Spatial responses and self-check boundaries per card</span></h2>
+<div class="pers"><div class="per"><b>Open-source developers</b><i>开源开发者</i><p>Release hall, public code wall, night co-working</p></div><div class="per"><b>Startup teams</b><i>初创团队</i><p>Shared test field, edge-compute waystation, standards consulting</p></div><div class="per"><b>Enterprise visitors</b><i>头部企业访客</i><p>Intl roadshow lounge, station shuttle, nearby public space</p></div><div class="per"><b>Residents</b><i>周边居民</i><p>Band slow-loop, embedded services, tiered night lighting</p></div><div class="per"><b>Faculty & students</b><i>高校师生</i><p>Tech-transfer street, transfer station, AI education spots</p></div></div>
+</section>
+
+<section id="selfcheck"><h2>Self-Check Status (自检状态)<span>Four gates (deterministic / bilingual / spatial / visual) — authoritative record in self_check.json</span></h2>
+<div class="gates"><div class="gate"><b>Deterministic</b>geometry / metrics / proposal v2 structure and evidence markers</div><div class="gate"><b>Bilingual packaging</b>proposal.en.md + figures .en.png + visual .en + A3/A0 .en</div><div class="gate"><b>Spatial review</b>land_use zero-overlap full coverage; key_areas carry official area_id</div><div class="gate"><b>Visual packaging</b>8 required section keywords visible; core metric data-values consistent</div></div>
+<p class="note" style="margin-top:10px">package_state: ready_for_review ｜ self_check: recorded ｜ 复算触发 recalc trigger：official SITE_BOUNDARY / KEY_AREA → zipper-v2/pipeline 重跑 rerun</p>
+</section>
+
+<section id="evidence"><div class="cols">
+<div><h2>Sources & Assumptions (来源与假设)<span>sources.json</span></h2><div class="src"><code>SITE-PACKAGE</code> <span>brief/site-package/</span><p>Project brief, enums, allowed design space, ranges, schemas, and standards references.</p></div><div class="src"><code>SOURCE-REGISTRY</code> <span>data/source_registry.json</span><p>Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials.</p></div><div class="src"><code>PROCESSED-FACT-PACK</code> <span>data/processed/agent_fact_pack.md</span><p>Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist.</p></div><div class="src"><code>BOUNDARY-SOURCE</code> <span>brief/site-package/geometry/provisional_boundaries.geojson</span><p>Submitted site boundary geometry source (PROV-SITE-001, provisional).</p></div><div class="src"><code>KEY-AREA-SOURCE</code> <span>brief/site-package/geometry/provisional_boundaries.geojson</span><p>Three required detailed-design key area boundaries (PROV-KEY-001/002/003, provisional).</p></div><div class="src"><code>OFFICIAL-ANNOUNCEMENT</code> <span>https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html</span><p>Official announcement tasks 1.3/1.4/1.5, three-level scopes, official area values (43.6/11.4/368.4 ha-scale values), positioning, deliverables, and IP/licensing terms (8.1).</p></div><div class="src"><code>AGENT-TASKBOOK</code> <span>brief/site-package/agent_taskbook.json</span><p>Agent-facing open-call principles, six required agent tasks (naming/logo, five functions, three areas two wings, scenario cards, personas, landmarks, cultural narrative, long-term operations), formal visual metrics contract, and conceptual-suggestion boundary clause.</p></div><div class="src"><code>DESIGN-CONCEPT-NOTE</code> <span>proposal.md</span><p>Design rationale of the Zipper Jingzhang concept (three openings, chain band / chain teeth / zipper head, ten teeth methods with per-tooth statements, scenario embedding) — embedded in proposal.md chapters; full rationale text archived in the authoring workspace.</p></div><div class="src"><code>AI-GENERATED-VISUALS</code> <span>assets/media/teeth/ + assets/media/scenes/</span><p>13 ten-teeth illustrations + 8 scene renderings (fx-01..fx-08; fx-05/fx-10 pending regeneration). z00 map and five figures are pipeline-drawn.</p></div></div>
+<div><h2>Assumptions<span>assumptions.json</span></h2><div class="asm"><code>A-CONTROLS-001</code> <em>pending_professional_confirmation</em><p>Detailed regulatory controls (FAR, building height, density, setback, road redline), ownership, municipal utilities, and engineering constraints are missing from public sources and must be confirmed from official attachments before statutory use.</p></div><div class="asm"><code>A-BOUNDARY-001</code> <em>provisional_constraint</em><p>SITE-001 and KEY-A1/A2/A3 use the site package&#x27;s provisional rough polygons (official_boundary=false, boundary_precision=provisional_rough). All areas, ratios and counts derived from them are provisional design-model values with low confidence.</p></div><div class="asm"><code>A-RAIL-001</code> <em>design_assumption</em><p>The sandbox contains no surveyed rail alignment. The 120 m Chain Band axis (CONSTRAINTS-RAIL) is a design assumption used only to organize the zipper concept; the actual Jingzhang heritage rail alignment and heritage control lines are not represented.</p></div><div class="asm"><code>A-BLDG-001</code> <em>method_only</em><p>No existing-building survey, ownership or regulatory parcel data is available. geometry/buildings.geojson contains proposed massing envelopes only (design_action=&#x27;新增（建议体量包络）&#x27;).</p></div><div class="asm"><code>A-IMAGE-001</code> <em>conceptual_illustration</em><p>The 13 teeth scene images under assets/media/teeth/ are AI-generated conceptual illustrations (Lovart AI, free model nano-banana-pro) with verbatim prompts archived in report/copyright_statement.md Appendix A (SHA-256 per prompt) and machine-readable trainedAlgorithmicMedia XMP preserved. They express design intent only.</p></div><div class="asm"><code>A-METRICS-001</code> <em>low_confidence_design_model</em><p>The three formal core visual metrics (site_area_sqm, green_ratio, public_space_ratio) are recomputed from submitted provisional geometry in EPSG:4548; they are finite and reproducible but retain low confidence and a provisional role.</p></div><div class="asm"><code>A-PHASING-001</code> <em>conceptual_suggestion</em><p>The three-phase plan and renewal project list (JZ-01..JZ-06) are conceptual suggestions without funding, implementation bodies or approval paths.</p></div>
+<div class="asm"><b>unknown 指标 metrics</b><p>floor_area_ratio：官方控规条件缺失 official controls missing（planning_limits.json status=missing）；建议体量包络不用于反推 FAR。任务覆盖 coverage：23 条必选要求 required tasks。</p>
+<ul class="reqs" style="columns:1"><li><code>1.3.1</code> 构建世界级AI创新生态体系</li><li><code>1.3.2</code> 建设适配AI新质生产力的新型城市形态</li><li><code>1.3.3</code> 打造全球AI创新人才向往的高品质城区</li><li><code>1.4.1</code> 统筹研究范围</li><li><code>1.4.2</code> 总体设计范围</li><li><code>1.4.3</code> 重点区域范围</li><li><code>1.5.1.1</code> 统筹研究范围：AI创新生态体系</li><li><code>1.5.1.2</code> 统筹研究范围：适配人工智能的未来城市形态</li><li><code>1.5.2.1</code> 总体设计范围：产业目标与功能布局</li><li><code>1.5.2.2</code> 总体设计范围：城市更新总体框架</li><li><code>1.5.2.3</code> 总体设计范围：交通轨道市政配套设施</li><li><code>1.5.2.4</code> 总体设计范围：京张遗址公园活力带</li><li><code>1.5.2.5</code> 总体设计范围：城市风貌</li><li><code>1.5.3.required</code> 重点区域范围详细设计必选项</li><li><code>1.5.3.1</code> 众智园AI自主创新加速区</li><li><code>1.5.3.2</code> 北京AI原点社区</li><li><code>1.5.3.3</code> 大钟寺AI产业聚集区</li><li><code>agent.1</code> 一带总体概念与功能统筹方案设计</li><li><code>agent.2</code> AI全栈自主创新体系与世界级AI创新生态设计</li><li><code>agent.3</code> AI+场景赋能新范式与智能化AI活力城市设计</li><li><code>agent.4</code> AI公共空间、智能原生新业态与朝圣地标设计</li><li><code>agent.5</code> 百年京张文化、中关村文化与AI新文化融合叙事设计</li><li><code>agent.6</code> 一带全球AI创新活动体系与长期运营设计</li></ul></div></div>
+</div></section>
+
+<footer><div class="wrap">Generated by zipper-v2 pipeline (deterministic; one-command recompute) | 2026-08-30 | Offline static page: no CDN / remote tiles / external scripts / tracking | Conceptual suggestion, not statutory planning or an implementation commitment.</div></footer>
+</div>
+<script>
+(function(){
+  var overlay=null, big=null, cap=null, list=[], idx=0;
+  function build(){
+    overlay=document.createElement('div'); overlay.id='lb';
+    var x=document.createElement('span'); x.className='x'; x.textContent='×'; x.title='关闭 Close';
+    var prev=document.createElement('span'); prev.className='nav prev'; prev.textContent='‹';
+    var next=document.createElement('span'); next.className='nav next'; next.textContent='›';
+    big=document.createElement('img'); big.alt='';
+    cap=document.createElement('div'); cap.className='cap';
+    overlay.appendChild(prev); overlay.appendChild(big); overlay.appendChild(next); overlay.appendChild(cap); overlay.appendChild(x);
+    overlay.addEventListener('click', function(e){ if(e.target===overlay) close(); });
+    x.addEventListener('click', close);
+    prev.addEventListener('click', function(e){ e.stopPropagation(); nav(-1); });
+    next.addEventListener('click', function(e){ e.stopPropagation(); nav(1); });
+    document.body.appendChild(overlay);
+  }
+  function collect(img){
+    var sec=img.closest('section') || document;
+    return [].slice.call(sec.querySelectorAll('figure img'));
+  }
+  function captionOf(img){
+    var f=img.closest('figure');
+    var fc=f ? f.querySelector('figcaption') : null;
+    return fc ? fc.textContent.replace(/\s+/g,' ').trim() : (img.alt || '');
+  }
+  function show(i){
+    idx=(i+list.length)%list.length;
+    big.src=list[idx].currentSrc || list[idx].src;
+    big.alt=list[idx].alt || '';
+    cap.textContent=captionOf(list[idx]) + '  ·  ' + (idx+1) + '/' + list.length;
+  }
+  function openLb(img){
+    if(!overlay) build();
+    list=collect(img);
+    overlay.classList.add('on');
+    show(list.indexOf(img));
+    document.documentElement.style.overflow='hidden';
+  }
+  function close(){
+    if(!overlay) return;
+    overlay.classList.remove('on');
+    document.documentElement.style.overflow='';
+  }
+  function nav(d){ if(list.length) show(idx+d); }
+  document.addEventListener('click', function(e){
+    var t=e.target;
+    if(t && t.tagName==='IMG' && t.closest('.tooth,.fig')) openLb(t);
+  });
+  document.addEventListener('keydown', function(e){
+    if(!overlay || !overlay.classList.contains('on')) return;
+    if(e.key==='Escape') close();
+    else if(e.key==='ArrowRight') nav(1);
+    else if(e.key==='ArrowLeft') nav(-1);
+  });
+})();
+</script>
+</body>
+</html>

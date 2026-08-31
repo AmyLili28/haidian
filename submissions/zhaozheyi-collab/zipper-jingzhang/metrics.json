@@ -1,0 +1,185 @@
+{
+ "schema_version": "0.1.0",
+ "units": {
+  "length": "m",
+  "area": "sqm"
+ },
+ "metrics": {
+  "site_area_sqm": {
+   "status": "known",
+   "value": 11412825.35,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/site_boundary.geojson"
+   ],
+   "formula": "polygon_area(submitted site_boundary, EPSG:4548)",
+   "confidence": "low",
+   "assumptions": [
+    "provisional 粗略边界（official_boundary=false）：官方四至发布后必须全部重算（复算触发：brief/site-package/geometry 正式 SITE_BOUNDARY/KEY_AREA 发布）",
+    "计算值 11,412,825 m² 与公告值 11,400,000 m² 相差约 0.1%（provisional 粗化误差范围内）"
+   ]
+  },
+  "green_ratio": {
+   "status": "known",
+   "value": 0.18,
+   "unit": "ratio",
+   "source_files": [
+    "geometry/green_space.geojson",
+    "geometry/site_boundary.geojson"
+   ],
+   "formula": "area(union(green_space) ∩ site) / site_area (EPSG:4548)",
+   "confidence": "low",
+   "assumptions": [
+    "provisional 粗略边界（official_boundary=false）：官方四至发布后必须全部重算（复算触发：brief/site-package/geometry 正式 SITE_BOUNDARY/KEY_AREA 发布）",
+    "绿地=链带公园绿地1401+两侧防护绿地1402+A1花园型公园绿地；链齿广场1403计入公共空间不计入绿地"
+   ]
+  },
+  "public_space_ratio": {
+   "status": "known",
+   "value": 0.01,
+   "unit": "ratio",
+   "source_files": [
+    "geometry/public_space.geojson",
+    "geometry/site_boundary.geojson"
+   ],
+   "formula": "area(union(public_space) ∩ site) / site_area (EPSG:4548)",
+   "confidence": "low",
+   "assumptions": [
+    "provisional 粗略边界（official_boundary=false）：官方四至发布后必须全部重算（复算触发：brief/site-package/geometry 正式 SITE_BOUNDARY/KEY_AREA 发布）",
+    "公共空间=拉链头运营广场+十齿广场（10 个链齿节点）"
+   ]
+  },
+  "building_footprint_area_sqm": {
+   "status": "known",
+   "value": 2588396.0,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/buildings.geojson"
+   ],
+   "formula": "sum(polygon_area(building_footprint)) (EPSG:4548)",
+   "confidence": "medium",
+   "assumptions": [
+    "全部为建议建筑体量包络（design_action=新增建议），非拆改留结论"
+   ]
+  },
+  "key_area_count": {
+   "status": "known",
+   "value": 3,
+   "unit": "count",
+   "source_files": [
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "count(key_area features)",
+   "confidence": "low",
+   "assumptions": [
+    "provisional 粗略边界（official_boundary=false）：官方四至发布后必须全部重算（复算触发：brief/site-package/geometry 正式 SITE_BOUNDARY/KEY_AREA 发布）"
+   ]
+  },
+  "floor_area_ratio": {
+   "status": "unknown",
+   "value": null,
+   "unit": null,
+   "source_files": [
+    "brief/site-package/ranges/planning_limits.json"
+   ],
+   "formula": null,
+   "confidence": null,
+   "assumptions": [
+    "待批准的控规条件或任务书附件发布后填入；建议建筑包络不用于反推 FAR"
+   ],
+   "reason": "官方控规容积率条件缺失（planning_limits.json official_planning_controls.floor_area_ratio.status=missing）"
+  },
+  "green_axis_length_m": {
+   "status": "known",
+   "value": 9716.12,
+   "unit": "m",
+   "source_files": [
+    "geometry/roads.geojson"
+   ],
+   "formula": "length(ROAD-001 slow_traffic_spine, EPSG:4548)",
+   "confidence": "low",
+   "assumptions": [
+    "provisional 粗略边界（official_boundary=false）：官方四至发布后必须全部重算（复算触发：brief/site-package/geometry 正式 SITE_BOUNDARY/KEY_AREA 发布）",
+    "链带慢行主轴（京张遗址公园链带）南北纵贯长度"
+   ]
+  },
+  "tooth_count": {
+   "status": "known",
+   "value": 10,
+   "unit": "count",
+   "source_files": [
+    "geometry/public_space.geojson"
+   ],
+   "formula": "count(public_space features with tooth_id)",
+   "confidence": "medium",
+   "assumptions": [
+    "十齿 = 十种过轨连接方法（Z-01..Z-10），每齿含平时拉合/纪念拉开双态机制"
+   ]
+  },
+  "land_use_parcel_count": {
+   "status": "known",
+   "value": 44,
+   "unit": "count",
+   "source_files": [
+    "geometry/land_use.geojson"
+   ],
+   "formula": "count(land_use features)",
+   "confidence": "medium",
+   "assumptions": [
+    "用地剖分全覆盖无缝隙（gap<1 m²）、无重叠（>1 m² 重叠对=0，管线自检输出）"
+   ]
+  },
+  "road_total_length_m": {
+   "status": "known",
+   "value": 24928.12,
+   "unit": "m",
+   "source_files": [
+    "geometry/roads.geojson"
+   ],
+   "formula": "sum(length(road_centerline)) (EPSG:4548)",
+   "confidence": "medium",
+   "assumptions": [
+    "仅含设计微循环街道与链带主轴；不含无数据的外围既有干道（EXISTING_PRIMARY_ROAD 缺失）"
+   ]
+  },
+  "phase_count": {
+   "status": "known",
+   "value": 3,
+   "unit": "count",
+   "source_files": [
+    "geometry/phasing.geojson"
+   ],
+   "formula": "count(phase features)",
+   "confidence": "medium",
+   "assumptions": [
+    "三期概念分期：近校启动段→站城段→花园段"
+   ]
+  },
+  "scenario_card_count": {
+   "status": "known",
+   "value": 11,
+   "unit": "count",
+   "source_files": [
+    "proposal.md"
+   ],
+   "formula": "count(AI scenario cards in proposal chapter 'AI 创新生态、人才画像与 AI+ 场景')",
+   "confidence": "medium",
+   "assumptions": [
+    "11 张场景卡含 3 个产业测试验证场景（02/08/10★），满足任务书 ≥10 卡、≥3 产业验证场景"
+   ]
+  },
+  "user_persona_count": {
+   "status": "known",
+   "value": 5,
+   "unit": "count",
+   "source_files": [
+    "proposal.md"
+   ],
+   "formula": "count(user personas)",
+   "confidence": "medium",
+   "assumptions": [
+    "开源开发者/初创团队/头部企业访客/周边居民/高校师生"
+   ]
+  }
+ }
+}
