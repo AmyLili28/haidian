@@ -14,6 +14,12 @@ iteration: "v0.2-content-framework"
 
 # Jing-Zhang Symbiotic Innovation Belt
 
+## Brand and visual identity
+
+“Centennial Jing-Zhang AI Innovation Belt” is the long-term master brand, while “Jing-Zhang Symbiotic Innovation Belt” is the proposal concept name. The mark is built as a living courtyard: an open civic interface surrounds everyday life, with green growth and intelligent connection embedded in the form. Jing-Zhang is not drawn as a train or track; it is translated into a reliable, continuous engineering structure facing the future. Navy, green and engineering gold stand for public trust, liveability and the human centre. The identity can extend to wayfinding, public facilities, annual programmes and digital services, while remaining distinct from dedicated Zhan Tianyou cultural interpretation.
+
+![Centennial Jing-Zhang AI Innovation Belt mark](assets/brand/logo-mark.svg)
+
 ## Design Basis and Source List
 
 This proposal responds first to the organizer's announcement, the site package, and the Agent Open-Call Taskbook. It retains the three-level scope, the three key areas, and the seven design requirements. Public material can support positioning, needs analysis, spatial relationships, and conceptual renewal strategies, but cannot prove exact parcel boundaries, ownership, statutory land use, road boundaries, building safety, institutional commitments, or permits for professional testing. These matters remain pending official data or implementation-stage studies. [source:OFFICIAL-ANNOUNCEMENT] [source:SITE-PACKAGE] [source:AGENT-TASKBOOK]

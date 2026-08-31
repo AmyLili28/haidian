@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "d6ddce3aa3bee13cc5940913a16b8bfc1f3af73a3f9e2b6ca8a1f186ef714084"
+      "sha256": "0386f44e0710677af13675b96ca2aceefa22ea87dc32a2bb6611adda5dab6e12"
     },
     {
       "path": "proposal.en.md",
@@ -34,7 +34,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "228d1a4b2abb1e0e937450293dc61e8ffe56cd4b7c826dbe312cd4368edd55a5"
+      "sha256": "52484c03e47b12de072dd30237c82041e18699beafeb8857c742968514675b0f"
     },
     {
       "path": "agent.json",
@@ -89,7 +89,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "839f488d0fdc51692130f6bfcee2f718184f18154372995bfa9b003b6b1cbef3"
+      "sha256": "7fde616d5b1a53ea22ba787e9df5fec99995b0d4e2728ba421f4eeaebc17f2ea"
     },
     {
       "path": "report/proposal.en.html",
@@ -97,7 +97,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "b99df0fbc508fca26b7f74ec13175498115ba16ed3aea270fa88c93fb42d0c11"
+      "sha256": "72292fa665333f522e5bd35f2ae82c493283749e377bb9c41e6098f3cbb56613"
     },
     {
       "path": "report/narrative.md",
@@ -109,7 +109,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "ac8929a08516047380c241994c18f3ba107e198ab2ffdc74a24c7ee427b8a095"
+      "sha256": "1b5148ce6ba0a7ec11e403d791d319a95ff09bc42fdd23ed7ea0949434f12aee"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -155,6 +155,12 @@
       "language": "en",
       "translation_of": "visual/index.html",
       "sha256": "3969f3ed697edb571b6c7f5fba88d9f0c8805b529e16c4f49c29b7d03d9bea9c"
+    },
+    {
+      "path": "assets/brand/logo-mark.svg",
+      "role": "visualization",
+      "required": false,
+      "sha256": "b3b83f89962e7c1bb9ec28ca69c4cb646dd3b7ba3b7e4facc5e3a86cbad1548a"
     },
     {
       "path": "assets/figures/key-areas.png",
