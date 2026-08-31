@@ -1,5 +1,19 @@
 # 方案迭代记录 / Changelog
 
+## v104.0 - 2026-08-31
+
+**已批控规公开文字边界显性化 / Published Approved-plan Text Boundary**
+
+- 已有能力：中英正文已经引用北京市政府门户 2026 年 8 月 12 日公开页面，区分“沿线街区控规获批及其公开文字方向”与“本包并未取得批复正文、图则或官方空间控制数据”；`sources.json` 也把该来源限定为 `official_approval_status_and_textual_context`。
+- 真实缺口：修复前，快速 visual 只显示 provisional、非批准和 NO-GO，没有把“规划已批”与“投稿包没有法定图则”放在同一审阅屏。审阅者若只看体验台，容易把公开报道的 1668.2 公顷和文字结构误读为本包边界、36 单元或工程控制依据；自动闸门不会检查这类跨层误读。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report、图件、媒体、四份 PDF、geometry、metrics、矩阵内容、来源判断、现实状态、0/8 人工双语签署或既有结构化合同。
+- 本轮实施：在中英离线 visual 增加三步来源边界卡，分别说明公开页面能确认什么、当前包仍缺什么、设计因此只能推进到哪一步；并回链到来源记录和正文对应章节。页面仍无 JavaScript、无远程资源、键盘可达、窄屏单栏且可打印。官方几何、批准文件与图则、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
+
+- Existing capability: both proposals already cite the Beijing Municipal Government portal page of 12 August 2026 and separate the reported approval and published textual directions from the approval instrument, drawings and official spatial-control data that the package does not possess. `sources.json` likewise limits the record to `official_approval_status_and_textual_context`.
+- Real gap: before repair, the quick visual showed provisional, not approved and NO-GO states but did not place “the plan is reported approved” beside “this package has no statutory drawings” on one review screen. A visual-only reader could mistake the published 1,668.2 hectares and textual structure for this package's boundary, 36 units or engineering controls; automated gates do not test this cross-layer misreading.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0–G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, reports, figures, media, all four PDFs, geometry, metrics, matrix content, source judgements, real-world status, the unsigned 0/8 human bilingual review and existing structured contracts are unchanged.
+- Implemented this round: added a three-step source-boundary card to both offline visual pages, stating what the public page can confirm, what the current package still lacks and how far design may therefore proceed, with links to the source record and matching proposal section. The pages remain script-free, remote-free, keyboard reachable, single-column on narrow screens and printable. Official geometry, approval instruments and drawings, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
+
 ## v103.0 - 2026-08-31
 
 **当前工件权威地图 / Current Artefact Authority Map**
