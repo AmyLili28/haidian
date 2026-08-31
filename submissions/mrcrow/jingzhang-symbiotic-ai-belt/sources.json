@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "PARTICIPANT-DESIGN-BASIS",
+      "path": "report/narrative.md",
+      "source_type": "participant_derived_reference",
+      "usage": "Participant-authored register of the Jing-Zhang axis maps, facility evidence, five people-time-scenario studies, talent chain, overall framework, and southern-segment design used to derive this concept; not an official or statutory source."
+    },
+    {
+      "id": "OFFICIAL-JZ-CONTROL-PLAN-20260812",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202608/t20260812_4819212.html",
+      "source_type": "official_public",
+      "usage": "Confirms approval of the Jing-Zhang corridor street-level regulatory plan, Dazhongsi as one of two centers, north-south and east-west walking/cycling connections, existing-building renewal, public services, and infrastructure directions; does not provide the 72 ha key-area polygon or parcel controls."
+    },
+    {
+      "id": "OFFICIAL-JZ-PHASE2-20260730",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202607/t20260730_4799453.html",
+      "source_type": "official_public",
+      "usage": "Confirms the recently opened Phase II community-active segment and the North Third Ring gateway with terraces, an accessible ramp, a wall museum, and a city balcony; does not replace as-built drawings or prove east-west crossing of Metro Line 13."
+    },
+    {
+      "id": "OFFICIAL-LINE13-BARRIER-20241029",
+      "url": "https://zyk.bjhd.gov.cn/zwdt/hygq/202410/t20241029_4730047.shtml",
+      "source_type": "official_public",
+      "usage": "Confirms that Metro Line 13 obstructs community access to the park between Dazhongsi and Zhichunlu and that a north-side entrance was planned; does not confirm an approved or completed cross-line bridge."
+    },
+    {
+      "id": "OFFICIAL-DZ-INTERCHANGE-20241213",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202412/t20241213_3964726.html",
+      "source_type": "official_public",
+      "usage": "Confirms opening of Metro Line 12 and its interchange with Line 13 at Dazhongsi; does not prove that paid-area interchange passages function as public urban crossings."
+    },
+    {
+      "id": "OFFICIAL-SHUNXIN-20260602",
+      "url": "https://www.beijing.gov.cn/tsbj/tpzj/202606/t20260602_4682490.html",
+      "source_type": "official_public",
+      "usage": "Confirms opening and public-resource relationships of Dazhongsi Shunxin Park at Dazhongsi East Road and the North Third Ring; does not prove a continuous link to the Jing-Zhang spine or a cross-Line-13 route."
+    },
+    {
+      "id": "CASE-ONE-NORTH",
+      "url": "https://www.jtc.gov.sg/find-land/jtc-key-estates/launchpad",
+      "source_type": "official_public",
+      "usage": "Official JTC evidence for LaunchPad incubation, flexible space, community programming, and the staged testing logic referenced together with Punggol Digital District."
+    },
+    {
+      "id": "CASE-PARIS-SACLAY",
+      "url": "https://www.universite-paris-saclay.fr/en/about/universite-paris-saclay-scientific-framework/innovation-and-technology-transfer",
+      "source_type": "official_public",
+      "usage": "Official university and public-development evidence for innovation education, proof of concept, industry interfaces, user feedback, and temporary activation."
+    },
+    {
+      "id": "CASE-MARS-VECTOR",
+      "url": "https://www.marsdd.com/about/",
+      "source_type": "official_public",
+      "usage": "Official operator evidence for entrepreneurship support, innovation real estate, commercialization, AI talent, and layered public access."
+    },
+    {
+      "id": "CASE-MARIA-01",
+      "url": "https://www.hel.fi/en/news/recent-report-record-funding-for-maria-01-startups",
+      "source_type": "official_public",
+      "usage": "Official City of Helsinki evidence for adaptive reuse, a dedicated operator, startup-community services, and linked public-realm improvements."
+    },
+    {
+      "id": "CASE-HAZELWOOD-CMU",
+      "url": "https://www.cmu.edu/cdfd/buildings/ric/index.html",
+      "source_type": "official_public",
+      "usage": "Official project, university, and city evidence for industrial-site regeneration, controlled robotics testing, public education, green space, and community planning."
+    }
+  ]
+}

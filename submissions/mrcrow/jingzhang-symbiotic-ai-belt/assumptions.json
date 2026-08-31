@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "pending_official_data",
+      "statement": "The organizer's textual scope descriptions and area figures are authoritative. The submitted overall-site polygon remains provisional, while the three provisional key-area polygons cannot support detailed design. PROV-KEY-003 is spatially inconsistent because it does not contain Dazhongsi Station.",
+      "impact": "The Dazhongsi design uses a boundary-independent framework based on verified anchors and interfaces. No provisional key-area polygon supports parcel decisions, land-use shares, key-area metrics, ownership, or engineering conclusions; all key-area layers and metrics must be generated or recalculated when official polygons are supplied."
+    },
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Detailed regulatory controls, road redlines, ownership, heritage limits, municipal utilities, fire-safety conditions, and engineering constraints have not been confirmed from official attachments.",
+      "impact": "FAR, height, setbacks, exact road works, parcel-level retain-renovate-demolish decisions, housing quantities, and construction scale remain pending and cannot be presented as approved controls."
+    },
+    {
+      "id": "A-INSTITUTION-001",
+      "status": "pending_operating_agreement",
+      "statement": "No general commitment has been obtained from universities, innovation parks, communities, or firms to open internal roads, rooms, equipment, data, courses, or services.",
+      "impact": "Campus-city interfaces, lectures, joint studios, time-shared facilities, and professional service windows are conceptual mechanisms that require voluntary agreements, published access rules, and accountable operators."
+    },
+    {
+      "id": "A-TESTING-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Routes, vehicle or robot types, permits, safety cases, data access, operators, and insurance for T01-T03 testing and validation scenarios are not confirmed.",
+      "impact": "The proposal defines controlled testing principles, human takeover, immediate stop, substitute services, exit, and site recovery, but does not establish a public test route or authorize operation."
+    },
+    {
+      "id": "A-DETAIL-001",
+      "status": "design_in_progress",
+      "statement": "All three key areas have confirmed official names, textual area figures, roles, and concept directions, but complete detailed urban designs have not yet been produced; the southern study is only a development basis for part of Dazhongsi.",
+      "impact": "Land use, buildings, mobility, municipal systems, public services, blue-green space, project lists, metrics, and phasing must still be completed for Zhongzhiyuan, Beijing AI Origin Community, and the full Dazhongsi area before detailed-design requirements can be claimed as complete."
+    },
+    {
+      "id": "A-OPERATIONS-001",
+      "status": "pending_operating_agreement",
+      "statement": "Operators, budgets, schedules, and public-sector commitments for the urban resource-coordination system, annual AI program, developer community, and public experience routes are not confirmed.",
+      "impact": "The proposal may define service flows, responsibilities, fallback rules, and a phased operating model, but all organizations and events remain conceptual recommendations until agreements are reached."
+    },
+    {
+      "id": "A-ASSET-001",
+      "status": "pending_rights_review",
+      "statement": "The final bilingual figures, A3 booklet, A0 boards, optional cover, fonts, icons, photographs, and third-party visual assets have not yet been selected and fully rights-cleared.",
+      "impact": "Only locally generated placeholder visuals may be used at this stage; every final asset must be recorded in sources.json or report/copyright_statement.md before review readiness."
+    }
+  ]
+}
