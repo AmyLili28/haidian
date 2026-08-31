@@ -8,6 +8,6 @@
 
 Pillow 中文图件使用当前 macOS 系统提供的 STHeiti，英文图件使用系统 Arial；均只输出栅格结果，不分发系统字体。PDF 由 ReportLab 生成；中文使用当前系统 `/System/Library/Fonts/Supplemental/Arial Unicode.ttf` 并嵌入子集，英文使用 PDF 标准 Helvetica。未把系统字体文件放入投稿包，也不对其外部再分发权作授权声明。
 
-离线 HTML 使用随包提供的 `visual/assets/JingZhangCJK.css`。该 CSS 以 data URI 内嵌 Noto Sans SC 字符子集，并在文件头完整保留 SIL Open Font License 1.1 文本；不依赖远程字体服务。子集只为保证本投稿现有中英文字符在离线 Linux、macOS 与 Windows 环境可读，不用于商标或政府标识。
+离线 HTML 使用随包提供的 `visual/assets/JingZhangCJK.css`。该 CSS 以 data URI 内嵌 Noto Sans SC 字符子集，并在文件头完整保留 SIL Open Font License 1.1 文本；不依赖远程字体服务。2026-08-31 的回归修复按 `report/proposal.html`、`report/proposal.en.html`、`visual/index.html` 与 `visual/index.en.html` 四份最终文件重建子集，确认其中 974 个非 ASCII 唯一码位全部有字形；中文协议按钮强制继承该字体，英文首屏的语言切换则使用纯英文真实文本以消除加载时序依赖。子集只为保证本投稿现有中英文字符在离线 Linux、macOS 与 Windows 环境可读，不用于商标或政府标识。
 
 外部事实与案例仅通过 `sources.json` 登记的公开链接引用；未复制外部网页图片、地图瓦片、字体、商标或同行方案资产。同行方案仅用于差异化比较。所有空间落地建议均为概念建议、参考方案或可供专业团队深化研究，不替代正式规划，不构成政府审定结论。

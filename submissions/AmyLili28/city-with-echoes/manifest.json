@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "c45c9c2c1ecd70a5127d28ab3230b978dafdadf423279042b523690ee87b3eb3"
+      "sha256": "c656e7f7adfe3068d32aa95b78d18f58def485fac41283d48919c9d7d60aacba"
     },
     {
       "path": "compliance_matrix.json",
@@ -93,7 +93,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "116f7ca5a26f3a502a9313b1320e138316a0f5300df9b213162f64aaea332836"
+      "sha256": "f8f3fc7f1776b1c62f3ff57597379f23db77235a3231d6929ec4b2af67a5465c"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -114,7 +114,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "7bc412b4480a56815c5a11d2bd94887303362fae5afe61ecd9e0a36ed4c0ad29"
+      "sha256": "d23804b11d8f5dde0f05fa0f1086a430a5d9d60ceaa1d9e2afffb95d9c275183"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -217,7 +217,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "4c746b05ed95403a31f248d844ec26f50091fc40435c038693422887c51acd86"
+      "sha256": "5e6995f966180b2125c833215f53c458f595e9c72cbc4827408210ea23084974"
     },
     {
       "path": "assets/media/second-encounter-cover-v1.png",
@@ -239,7 +239,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "65f91909f4fd8277aa4ff837de609d7175160011a06eb47aefab9ccb36a8f3fa"
+      "sha256": "e47bafff5ce7aa68e28ee09c7a8a21e73e4329429a0f48b13d3e0e16aa927812"
     },
     {
       "path": "visual/index.en.html",
@@ -247,7 +247,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "95b9c0ffa617ae54b3496bd60b4c9ddfa6da9d6e051b18f2a2b209c266b6b51c"
+      "sha256": "4db71d7f837a95540aeba06c617fd4a75667f6d7bf8f98e6d174e088625e5789"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -415,7 +415,7 @@
       "role": "asset",
       "required": true,
       "language": "neutral",
-      "sha256": "77b23bfd6be29c39fa38a1f6bbb9ccf10448ea3f98772c9bb64c396a877a5ecf"
+      "sha256": "2529bdc57bdd9bc288defb4704857804fd9d6ce9e8febe4f821473c8088da955"
     },
     {
       "path": "assets/media/se-corridor-aerial-v1.jpg",
