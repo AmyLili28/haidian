@@ -20,11 +20,13 @@ iteration: "v0.2-content-framework"
 
 ![Centennial Jing-Zhang AI Innovation Belt mark](assets/brand/logo-mark.svg)
 
+Core application rules use the gold centre dot diameter as `1x`, with at least `1x` clear space on every side. Minimum width is 32 px on screen and 10 mm in print. Dark backgrounds use a white or monochrome reverse; proportions, colours, and geometry must not be distorted or decorated with shadows. The palette is public-trust navy `#142933`, ecological-life green `#287A5A`, and engineering-and-human gold `#C58B26`. Wayfinding, furniture, and digital terminals use this palette and the open, rounded-corner language without covering public space in repeated logos.
+
 ## Design Basis and Source List
 
 This proposal responds first to the organizer's announcement, the site package, and the Agent Open-Call Taskbook. It retains the three-level scope, the three key areas, and the seven design requirements. Public material can support positioning, needs analysis, spatial relationships, and conceptual renewal strategies, but cannot prove exact parcel boundaries, ownership, statutory land use, road boundaries, building safety, institutional commitments, or permits for professional testing. These matters remain pending official data or implementation-stage studies. [source:OFFICIAL-ANNOUNCEMENT] [source:SITE-PACKAGE] [source:AGENT-TASKBOOK]
 
-The design also draws on the project's Jing-Zhang axis maps, facility inventory, online evidence register, five people-time-scenario studies, talent-development chain, and southern-segment design. They support problem definition and option comparison but are not elevated to statutory evidence. Their scope, permitted use, and evidentiary limits are registered in `report/design-basis-register.md`. [source:PARTICIPANT-DESIGN-BASIS] [depth:existing_conditions_diagnosis]
+The design also draws on the project's Jing-Zhang axis maps, facility inventory, online evidence register, five people-time-scenario studies, talent-development chain, and southern-segment design. They support problem definition and option comparison but are not elevated to statutory evidence. Their scope, permitted use, and evidentiary limits are registered in `report/narrative.md`. [source:PARTICIPANT-DESIGN-BASIS] [depth:existing_conditions_diagnosis]
 
 The current site and key-area layers are provisional constraints. Figures and metrics must retain `official_boundary=false`; they must not be described as an official planning boundary, a survey-grade area, or an approval basis. When official polygons become available, land use, roads, green space, public space, buildings, phasing, and metrics must be recalculated together. B0 is the overall mapping base, while the registered detailed map provides local existing-condition evidence. M0 is used only as a reference for the self-defined 2 km facility inventory and not for its key-area divisions. The 2 km extent and the three key-area shapes are working models, not organizer-issued statutory boundaries or official redlines. [data:geometry/site_boundary.geojson#SITE-001] [data:geometry/key_areas.geojson#PROV-KEY-001] [depth:risk_missing_data]
 
@@ -39,6 +41,25 @@ The three levels answer different questions. The 2-kilometre facility-survey ban
 | Three Key-Area Detailed Design Areas | 368.4 ha in total | Test functions, spatial form, buildings, mobility, public space, and implementation logic | Three detailed area designs and enlarged nodes |
 
 The coordinated study establishes direction; the overall design translates it into spatial networks and renewal projects; the key-area designs test how these moves enter streets, building interfaces, and daily operations. Only official textual descriptions and area figures are currently available. Exact polygons remain pending, so this document confirms tasks and structure without deriving statutory controls from provisional shapes. [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework] [metric:key_area_count]
+
+### Human-readable taskbook alignment
+
+| Official framework | Proposal response | Verifiable carrier |
+| --- | --- | --- |
+| Centennial Jing-Zhang Cultural Belt | Green public spine and interpretation of Zhan Tianyou's engineering spirit | Cultural nodes, annual results display, P07 |
+| Metropolitan AI Life Experience Belt | All-age daily life, active mobility, resilience, and optional AI services | S01–S05, P02–P04 |
+| AI Integrated Innovation Belt | Learning–project–validation–incubation–adoption chain | S06–S07, T01–T03, P05 and P09 |
+| Five functions | Full-stack independent innovation; world-class ecosystem; AI+ scenarios; intelligent vibrant city; AI-governance voice | Three-core division, eight-factor flow, ten scenario cards, human gates and exit rules |
+| Three Zones and Two Wings | AI Origin Community, Zhongzhiyuan, Dazhongsi; Zhongguancun Technology Service Wing and Xiaoyue River Scenario Empowerment Wing | Three detailed-area designs, professional-service interfaces, public-experience route |
+
+| Agent task | Delivery | Main evidence |
+| --- | --- | --- |
+| agent.1 Overall concept | One spine, three cores, four connections, green base | F01–F03 and spatial framework |
+| agent.2 Innovation ecosystem | Talent chain, eight-factor flow, professional division | Cases, ecosystem flow, regional interfaces |
+| agent.3 AI+ scenarios | S01–S07 and T01–T03 | Ten full scenario cards and human boundaries |
+| agent.4 Public space and new uses | Three landmarks, six components, separation of testing and daily life | Component library and P02–P05 |
+| agent.5 Culture and international expression | Zhan Tianyou narrative, bilingual package, brand rules | Mark, bilingual proposal, P07 |
+| agent.6 Long-term operation | Annual programme, developer community, scenario opening, conversion | Nine-project and operating ledgers |
 
 ## Coordinated Research Area: Industry and Future City Research
 
@@ -68,6 +89,8 @@ Five international cases test how space can support an innovation chain; their b
 | Pittsburgh Hazelwood Green / CMU | Industrial heritage, controlled robotics testing, public education, and green space are layered | High-risk testing stays in professional sites; the green corridor hosts only low-risk demonstration and feedback | Do not copy a large brownfield test site or assume that technology occupancy automatically creates community benefit. [source:CASE-HAZELWOOD-CMU] |
 
 The shared mechanism is a professional division of labor across the three key areas, an open but controlled public interface along the Jing-Zhang green spine, and a long-term operating platform that organizes universities, companies, communities, and city agencies into an accountable feedback loop.
+
+External collaboration is expressed as an interface, not as a signed partnership. Proposed exchanges include youth briefs and community feedback with AI North Latitude Community; research talent and validation needs with Future Science City; research translation and evaluation experience with Huairou Science City; intelligent manufacturing, robotics, vehicle-industry and adoption feedback with Beijing E-Town; and talent, manufacturing, and market resources across Jing-Jin-Ji through the Zhongguancun Technology Service Wing. Every interface remains proposed and subject to agreement; none is a promise of facility access, funding, investment attraction, procurement, or regional agreement.
 
 ## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
 
@@ -101,6 +124,21 @@ Dazhongsi is the industry-clustering core for product integration, market valida
 
 The proposal serves at least five groups: university students and early-career researchers; start-up teams and company employees; existing residents and families; older people, children, and people with reduced mobility; and night-shift, delivery, maintenance, and other urban service workers. International visitors, developers, and business partners are cross-cutting users, but they do not displace the objective of improving life for existing residents.
 
+The ecosystem defines how eight factors enter a project, are used, and return accountable results:
+
+| Factor | Admission threshold | Role across the three cores | Feedback and accountability |
+| --- | --- | --- | --- |
+| Land | Official boundary, use, tenure, and approval | Supports reviewed renewal projects | Missing condition keeps a proposal outside the construction list |
+| Space | Voluntary agreement, hours, capacity, safety, accessibility | Courses, projects, validation, public services | Use, failure, and complaint review |
+| Industry | Real problem, confidentiality, accountable owner | Frontier courses, prototypes, validation, adoption | Result, failure cause, and adoption feedback |
+| Capital | Budget, conflict-of-interest, performance review | Reviewed public or innovation projects | Spending, milestone, and stop-condition record |
+| Talent | Voluntary participation, fitness, rights, time | Lectures, briefs, validation, co-creation | Learning result, contribution, and right to exit |
+| Compute | Account, cost, energy, security, purpose limits | Approved R&D, education, services | Usage, cost, failure, and service-level review |
+| Data | Lawful source, purpose limitation, minimization, access control | Minimum necessary AI service only | Logs, human review, correction, deletion |
+| Scenarios and professional services | Risk tier, permit, insurance, takeover, alternative service | Controlled experience, testing, public service, adoption | Incident report, stop, recovery, public feedback |
+
+The common flow is need or event → verified resource state → admission and accountability → AI-assisted matching → execution by an authorized actor → outcome confirmation → review. Resources without an agreement remain unavailable for dispatch.
+
 | Scenario | Primary users and time | Spatial and service move | AI role and human boundary |
 | --- | --- | --- | --- |
 | S01 Peak commute | Residents, students, workers, cyclists on weekday peaks | Continuous routes, crossings, interchange, parking, accessibility | Status and alternative-route information; people retain traffic management and response |
@@ -115,6 +153,19 @@ The proposal serves at least five groups: university students and early-career r
 | T03 Unmanned last-mile delivery validation | Operators and recipients during park logistics periods | Controlled logistics routes, loading, and handover nodes | Dispatch and status prompts; human takeover is always available and public movement has priority |
 
 The scenarios use a shared resource-coordination back end but retain different access rules, data permissions, human review, and exit conditions. AI creates value by organizing dispersed people, spaces, supplies, facilities, and mobility capacity, thereby shortening resource discovery and cross-organizational coordination. It does not replace physical space, public institutions, or professional staff. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] [data:geometry/public_space.geojson#PUBLIC-001]
+
+### Full operating cards for the ten scenarios
+
+- **S01 Peak commute:** weekday residents, students, staff, and cyclists trigger assistance through crowding, faults, or an accessibility break. AI uses verified opening state, crowd ranges, weather, and reports to explain alternatives. Transport and site operators confirm; fixed signs, human guidance, and ordinary transit remain. Expired or conflicting data and emergency takeover stop recommendations. Metrics: discontinuities, detour time, closure time.
+- **S02 Lunchtime innovation exchange:** a student, researcher, start-up, or resident asks for a meeting, advice, or space. AI uses published events, bookable hours, accessibility, and language preference to draft candidates, translation, and booking. The institution decides access; phone, reception, and a public calendar remain. Refusal, full capacity, or withdrawal exits. Metrics: valid match, attendance, cancellation reason.
+- **S03 Evening life and quiet:** lighting, opening, or equipment failure triggers a quiet route-home and basic-service response. AI consolidates status, fault tickets, transit, and noise complaints. Community, property, and service operators respond; fixed night signs, staffed points, and telephone remain. High risk transfers to people. Metrics: alternative activation, recovery time, repeated complaints.
+- **S04 Weekend all-age activity:** families, children, older people, and visitors opt into all-age routes, nature learning, or Zhan Tianyou interpretation. AI uses capacity, accessibility, weather, and a voluntary age band for interpretation, lower-crowd routes, and rest suggestions. Organizers approve and staff the activity; paper and human interpretation remain. Users may exit at any time and no cross-scenario child profile is built. Metrics: reach, rest accessibility, exit reason.
+- **S05 Extreme-weather resilience:** authoritative warnings or human reports trigger shelter, water, supplies, gathering, fallback routes, and emergency mobility. AI uses only authoritative warnings and verified resources to identify gaps, suggest matches, prepare handovers, and track outcomes. Emergency authorities decide dispatch; broadcasts, patrols, fixed signs, and telephone chains remain. Command takeover, conflicting data, or resource failure stops automatic matching. Metrics: response, handover completion, priority-user feedback closure.
+- **S06 Frontier awareness:** an approved term-time lecture, product demonstration, or failure review is triggered by a published event or course need. AI uses approved speakers, topics, capacities, and materials for question clustering, background retrieval, and anonymized feedback. Teachers, speakers, and site operators approve. Unclear rights, withdrawal, or failed review cancels. Metrics: student reach, response rate, project conversion.
+- **S07 Project practice:** a real brief confirmed by a company or community problem owner triggers a joint studio and low-risk prototype. AI uses published problems, skills, time, and spatial conditions for team suggestions, source indexing, and feedback lists. Mentors and problem owners jointly review; manual team formation and offline review remain. Withdrawal, increased risk, or lack of team consent exits. Metrics: completion, owner feedback, student contribution.
+- **T01 Service-robot validation:** after risk tiering, operator, and takeover are confirmed, R&D teams, professionals, and voluntary testers use indoor, building-interface, or enclosed modules. AI records device state, scripts, obstacle events, and takeover. A competent test operator is responsible and human service remains. Boundary breach, communication fault, person intrusion, or takeover failure causes immediate stop. Metrics: takeover, recovery, incident rate.
+- **T02 Low-speed shared shuttle validation:** it starts only after a specific supplementary need, permit, safety case, insurance, and substitute service are confirmed; the north tests first, the south may later apply, and the middle retains walking priority. AI assists dispatch, arrival state, and alerts. An approved operator monitors and takes over; walking, accessibility, transit, and human shuttle remain. Boundary, speed, perception, weather, or human thresholds stop operation. Metrics: takeover, punctuality, substitute activation, complaints.
+- **T03 Unmanned last-mile delivery validation:** after tenure, fire safety, route, and human accountability are confirmed, it uses controlled back-of-house hours, routes, loading, and handover points. AI uses minimum order data, device state, route opening, and handover confirmation for dispatch and incident tickets. Logistics and site operators share responsibility and human delivery remains. Blocking the only accessible route, conflict with people, cargo anomaly, or failure stops operation. Metrics: handover, takeover, movement interference.
 
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
@@ -138,11 +189,29 @@ The cultural narrative foregrounds the spirit of Zhan Tianyou rather than repeat
 
 Three landmark prototypes are proposed: the southern AI Industry and Community Gateway, the central Campus-City Co-Creation Living Room, and the northern Engineering Incubation Co-Creation Workshop. They create public interfaces between industry and daily life, campus and city, and R&D and validation. Contribution displays, annual results, and the spirit of Zhan Tianyou can establish public anchors for achievement display and engineering-value learning. Exact sites and construction forms remain pending boundary, heritage, ownership, and operating conditions. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
 
+Six combinable public-space components allow small construction steps, operating tests, and evidence-led iteration: (1) shaded active-mobility module with trees, permeability, rest, and accessibility; (2) east-west interface with visible entrance, crossing, direction, and night safety; (3) all-age daily-life module with water, seating, toilet, care, first aid, and human help; (4) campus-city co-creation module with lecture, work surface, display, and booking; (5) professional validation module with separation, monitoring, takeover, stop, and recovery; and (6) resilience module with water, supplies, shelter, communication, and human handover. Each records everyday use, AI enhancement, non-AI fallback, accountable operator, and stop condition. A smart device alone is not treated as urban design.
+
 ## Renewal Projects, Implementation Policy, and Phasing
 
 The first project set contains nine outputs: an urban resource-coordination system; an all-weather walking, cycling, and accessibility network; metro–park–campus–innovation-park interchange nodes; an all-age basic-service network; institutional time-sharing and professional service windows; day-night operating rules; a public narrative connecting Zhan Tianyou with contemporary innovation; all-age activities and courses; and controlled validation for robots, autonomous mobility, and unmanned delivery. Phasing proceeds from reversible near-term repairs, through medium-term adaptation of existing space, to long-term work after official boundaries and regulatory controls are available. Governance maps R1–R7, without changing their official meanings, to project accountability, evidence, and review. Each project has one primary requirement and records users, time, spatial action, AI role, non-AI fallback, accountable organization, metric, and prerequisites. [data:geometry/phasing.geojson#PHASE-001] [depth:renewal_project_list]
 
+| Project | Proposed lead / collaborators | First verifiable output | Start/stop gate | Core metric |
+| --- | --- | --- | --- | --- |
+| P01 Resource coordination | Public-service digital operator / site and professional agencies | Need–resource–handover–confirmation–review prototype | Unverifiable state is not matched | Match and closure time |
+| P02 All-weather active mobility | Road and park / community and transport professionals | Interface audit and reversible repair | Never occupy the only accessible route | Breaks and detour time |
+| P03 Transit–park–campus–park interchange | Transport and site / universities and parks | Service inventory and alternatives | No construction with unclear tenure or safety | Transfer time and continuity |
+| P04 All-age basic services | Community and public services / park and property | Shade, water, rest, toilet, care, human-help inventory | No AI without basic fallback | Coverage and recovery |
+| P05 Time-sharing and professional windows | Institution / university, park, service wing | Access, booking, accountability templates | No voluntary agreement, no opening | Booking fulfillment |
+| P06 Day-night operation | Park, community, industrial park / transport and property | Time zones, quiet rules, degradation table | Complaint or safety threshold degrades service | Complaint closure and fallback activation |
+| P07 Zhan Tianyou and innovation narrative | Culture and education / university, company, public | Evidence–engineering choice–current responsibility framework | Unclear history or rights is removed | Understanding feedback |
+| P08 All-age programmes | Education and events / community, companies, incubators | Rotating lectures, nature learning, project open day | Capacity, safety, or review failure cancels | Reach, return, project conversion |
+| P09 T01–T03 validation | Approved test operator / site, transport, fire, insurer | Risk gates, takeover, stop, alternative, recovery templates | Any permit or takeover failure stops | Incident, takeover, recovery time |
+
 Near-term work prioritizes reversible, low-risk walking and cycling repairs, basic services, public interfaces, and resource inventories. The medium term adapts existing spaces, key-area public interfaces, and controlled validation environments. The long term uses official boundaries, Regulatory Detailed Planning controls, demand data, and operational evaluation to decide new buildings, complex transport, and major public-space works. The annual program combines frontier lectures, open briefs, result exhibitions, developer co-creation, public experience, and international exchange; outputs feed back into education, testing, incubation, industry services, and spatial improvements. [depth:phasing_implementation]
+
+Long-term operation has six workstreams. The annual AI-and-urban-life programme records delivery, user reach, and problems converted to projects; the developer community records active projects, mentor response, and reviews; scenario opening records admission time, incidents, and recovery; public experience records accessibility, understanding, exits, and complaint closure; international communication records bilingual consistency, citation accuracy, and corrections; conversion records validation–incubation–adoption stages and failure causes. Every stream provides complaint, stop, and exit routes.
+
+Inclusion begins with six collectable baselines rather than invented targets: accessible-route breaks; weekly hours with reachable human assistance; available shade, water, and rest coverage; time from night failure to substitute service; priority-user feedback closure; and time from an authoritative extreme-weather trigger to completed resource handover. Sources are inspections, rosters, fault tickets, anonymous cases, and human-confirmed drills or events; no cross-scenario child profile is created.
 
 ## Metrics, Area Recalculation, and Compliance Matrix
 

@@ -27,9 +27,9 @@
     },
     {
       "id": "A-DETAIL-001",
-      "status": "design_in_progress",
-      "statement": "All three key areas have confirmed official names, textual area figures, roles, and concept directions, but complete detailed urban designs have not yet been produced; the southern study is only a development basis for part of Dazhongsi.",
-      "impact": "Land use, buildings, mobility, municipal systems, public services, blue-green space, project lists, metrics, and phasing must still be completed for Zhongzhiyuan, Beijing AI Origin Community, and the full Dazhongsi area before detailed-design requirements can be claimed as complete."
+      "status": "concept_design_complete_statutory_detail_pending",
+      "statement": "Concept-level detailed urban design is complete for all three key areas: each has an official textual role and area figure, user/time profile, spatial typologies, AI service, accountable operator type, decision gates, project interfaces, metrics method, and phasing logic. Parcel design, statutory controls, engineering quantities, and approval drawings are not claimed because official polygons and professional base data are unavailable.",
+      "impact": "The design_depth_matrix complete status means the required concept-design evidence is present and auditable; it does not certify official boundaries, FAR, height, setbacks, ownership, building safety, road works, utilities, permits, budgets, or construction readiness. Those matters remain limited by A-BOUNDARY-001 and A-CONTROLS-001."
     },
     {
       "id": "A-OPERATIONS-001",
@@ -39,9 +39,9 @@
     },
     {
       "id": "A-ASSET-001",
-      "status": "pending_rights_review",
-      "statement": "The final bilingual figures, A3 booklet, A0 boards, optional cover, fonts, icons, photographs, and third-party visual assets have not yet been selected and fully rights-cleared.",
-      "impact": "Only locally generated placeholder visuals may be used at this stage; every final asset must be recorded in sources.json or report/copyright_statement.md before review readiness."
+      "status": "resolved_for_current_package",
+      "statement": "Every asset family distributed in the current package is registered in report/copyright_statement.md. Formal figures and PDFs use self-drawn planning context generated only from submitted participant GeoJSON and contain no Amap, commercial-map screenshot, remote tile, stock photo, third-party icon, enterprise mark, or remote font. The logo is an original SVG. HTML uses a system-font fallback stack and does not redistribute font files.",
+      "impact": "The current package may be reviewed and redistributed under its declared package terms with the source citations and limitations retained. Earlier stitched or commercial-map screenshots remain process references outside the submitted package and must not be reintroduced without a separately verified licence or authorisation."
     }
   ]
 }
