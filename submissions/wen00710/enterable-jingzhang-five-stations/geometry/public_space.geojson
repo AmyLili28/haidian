@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "name": "public_space_scaffold",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PUBLIC-001",
+      "properties": {
+        "id": "PUBLIC-001",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "公共活动界面",
+        "area_sqm_declared": 836345.643,
+        "r1_design_intent": "ordinary public-space base with human service and recovery",
+        "provisional_design_model": true,
+        "official_boundary": false,
+        "replacement_trigger": "official geometry or professional control input changes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34734399999999,
+              39.967
+            ],
+            [
+              116.34734399999999,
+              40.00025
+            ],
+            [
+              116.349996,
+              40.00025
+            ],
+            [
+              116.349996,
+              39.967
+            ],
+            [
+              116.34734399999999,
+              39.967
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "r1_candidate_version": "0.9.0",
+  "evidence_status": "interpretive"
+}

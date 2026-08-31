@@ -1,0 +1,259 @@
+{
+  "schema_version": "0.1.0",
+  "units": {
+    "length": "m",
+    "area": "sqm"
+  },
+  "metrics": {
+    "site_area_sqm": {
+      "status": "known",
+      "value": 11412825.386,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "polygon_area(submitted_site_boundary)",
+      "confidence": "low",
+      "assumptions": [
+        "Calculated from repository provisional rough geometry; not suitable for official area or statutory claims; recalculate after official polygons arrive."
+      ]
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 310807.184,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "sum(polygon_area(building_footprints))",
+      "confidence": "low",
+      "assumptions": [
+        "Calculated from repository provisional rough geometry; not suitable for official area or statutory claims; recalculate after official polygons arrive."
+      ]
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.123423,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "green_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Calculated from repository provisional rough geometry; not suitable for official area or statutory claims; recalculate after official polygons arrive."
+      ]
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.073281,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "public_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Calculated from repository provisional rough geometry; not suitable for official area or statutory claims; recalculate after official polygons arrive."
+      ]
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "total_floor_area_sqm / official_site_area_sqm",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Approved FAR controls and official site boundary are not present in the public site package."
+    },
+    "key_area_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(key_detailed_design_areas)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "station_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "sources.json"
+      ],
+      "formula": "count(canonical_route_station_ids)",
+      "confidence": "high",
+      "assumptions": [
+        "corridor is an overview state and is not counted as a sixth station."
+      ]
+    },
+    "direct_entry_station_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "sources.json"
+      ],
+      "formula": "count(canonical stations with declared direct-entry URL state at runtime checkpoint)",
+      "confidence": "high",
+      "assumptions": [
+        "Bounded to runtime checkpoint 3d59d727704b84ccf580d1021f5dc6e0e583f3a3."
+      ]
+    },
+    "chapter_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(frozen_narrative_chapters)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "mechanism_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(M1 through M4 coordinated mechanisms)",
+      "confidence": "high",
+      "assumptions": [
+        "Mechanisms are conceptual recommendations and do not represent confirmed operators or partnerships."
+      ]
+    },
+    "verified_wave1_segment_duration_seconds": {
+      "status": "known",
+      "value": 20.5,
+      "unit": "s",
+      "source_files": [
+        "sources.json",
+        "assumptions.json"
+      ],
+      "formula": "verified bounded runtime segment duration at declared checkpoint",
+      "confidence": "high",
+      "assumptions": [
+        "Covers Dazhongsi to Future Learning Space to AI Origin only; it is not a complete guided tour."
+      ]
+    },
+    "full_guided_tour_verified": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "sources.json",
+        "assumptions.json"
+      ],
+      "formula": "complete approximately 53-second guided-tour verification",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Only a 20.5-second Wave 1 middle segment is verified; the complete approximately 53-second tour has not been verified."
+    },
+    "portfolio_explore_completion_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "sources.json",
+        "assumptions.json"
+      ],
+      "formula": "verified complete Portfolio Explore requirements / total complete Portfolio Explore requirements",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "A bounded learning-space free-explore prototype exists, but complete Portfolio Explore has not been verified."
+    },
+    "planning_baseline_score": {
+      "status": "known",
+      "value": 0.631921,
+      "unit": "ratio",
+      "source_files": [
+        "sources.json",
+        "assumptions.json"
+      ],
+      "formula": "transparent weighted score after non-compensable hard gates",
+      "confidence": "low",
+      "assumptions": [
+        "Interpretive policy weights; actual_test_data=false."
+      ]
+    },
+    "planning_a1_score": {
+      "status": "known",
+      "value": 0.991476,
+      "unit": "ratio",
+      "source_files": [
+        "sources.json",
+        "assumptions.json"
+      ],
+      "formula": "transparent weighted score after non-compensable hard gates",
+      "confidence": "low",
+      "assumptions": [
+        "Provisional local-metre design model; actual_test_data=false."
+      ]
+    },
+    "planning_a2_score": {
+      "status": "known",
+      "value": 0.957285,
+      "unit": "ratio",
+      "source_files": [
+        "sources.json",
+        "assumptions.json"
+      ],
+      "formula": "transparent weighted score after non-compensable hard gates",
+      "confidence": "low",
+      "assumptions": [
+        "Provisional local-metre design model; actual_test_data=false."
+      ]
+    },
+    "planning_a1_win_share": {
+      "status": "known",
+      "value": 0.666667,
+      "unit": "ratio",
+      "source_files": [
+        "sources.json",
+        "assumptions.json"
+      ],
+      "formula": "sensitivity cases won / 27",
+      "confidence": "low",
+      "assumptions": [
+        "Three service radii × three buffer deltas × three weight sets."
+      ]
+    },
+    "planning_sensitivity_case_count": {
+      "status": "known",
+      "value": 27,
+      "unit": "count",
+      "source_files": [
+        "sources.json",
+        "assumptions.json"
+      ],
+      "formula": "3 service radii * 3 device-buffer deltas * 3 weight sets",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "accessible_continuity_strict": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "sources.json",
+        "assumptions.json"
+      ],
+      "formula": "step-free path satisfying surveyed width and slope constraints",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Surveyed slopes are unavailable; the flat design-model proxy is interpretive only."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Official regulatory controls, road redlines, ownership, municipal utilities, heritage-control geometry, fire, and engineering constraints are unavailable.",
+      "impact": "FAR, height, demolition, alignment, capacity, heritage intervention, approval, budget, and construction conclusions remain unavailable."
+    },
+    {
+      "id": "A-OFFICIAL-GEOMETRY-001",
+      "status": "provisional",
+      "statement": "Repository provisional rough polygons are used for local generation and recalculation only; official_boundary remains false.",
+      "impact": "All precision-sensitive geometry, metrics, figures, HTML, and PDFs must be rebuilt after official polygons arrive."
+    },
+    {
+      "id": "A-LOCAL-MODEL-001",
+      "status": "interpretive",
+      "statement": "The three announced key-area spatial models and five runtime station anchors use design-model coordinates rather than survey control.",
+      "impact": "Widths, buffers, camera positions, clearances, and visual matches are concept values, not survey or construction dimensions."
+    },
+    {
+      "id": "A-ACCESSIBILITY-SLOPE-001",
+      "status": "unavailable",
+      "statement": "Surveyed slopes and a professional accessibility audit are unavailable.",
+      "impact": "Strict accessible continuity remains unknown; only a flat-model comparison and basic interface checks are described."
+    },
+    {
+      "id": "A-OPERATIONS-001",
+      "status": "unavailable",
+      "statement": "No operator, pilot approval, insurance, budget, DPIA, maintenance agreement, investment, or implementation commitment is evidenced.",
+      "impact": "M1-M4, operations, pilots, and phasing remain conceptual recommendations with refusal and ordinary-use recovery gates."
+    },
+    {
+      "id": "A-OWNER-001",
+      "status": "documented",
+      "statement": "GitHub author wen00710 is declared for this package, but final push and PR authorization remains an owner action after mandatory gates pass.",
+      "impact": "Package generation and checks may proceed; no push, PR, upload, or submission is implied by this declaration."
+    },
+    {
+      "id": "A-RUNTIME-SCOPE-001",
+      "status": "documented",
+      "statement": "Runtime evidence is bounded by private source HEAD 8995821c467e96add6524d346d77cd51acb6b8fa and checkpoint 3d59d727704b84ccf580d1021f5dc6e0e583f3a3.",
+      "impact": "Five direct entries and a 20.5-second Wave 1 middle segment may be stated; a complete approximately 53-second tour and complete Portfolio Explore may not be stated as verified."
+    },
+    {
+      "id": "A-STATION-IDENTITY-001",
+      "status": "documented",
+      "statement": "qinghuayuan-knowledge is a canonical machine ID whose public identity is Future Library/Learning Space without institutional affiliation.",
+      "impact": "The package must not infer a university, authorization, existing building, campus identity, logo, or historical conclusion from the machine ID."
+    },
+    {
+      "id": "A-PLANNING-WEIGHTS-001",
+      "status": "interpretive",
+      "statement": "The planning scores in metrics.json are frozen low-confidence results from the private R1 provenance layer, using declared policy weights and 40/60/80 m service-radius sensitivity; executable methods and internal QA files are intentionally excluded from this public package.",
+      "impact": "The frozen values are not independently recomputable from this public package. Raw spatial metrics and hard gates take precedence; any recalculation must occur in the private source and undergo human and professional review, and no planning score validates the R2 runtime."
+    },
+    {
+      "id": "A-COPYRIGHT-001",
+      "status": "documented",
+      "statement": "Submission presentation assets are project-authored from structured data, procedural Three.js/Canvas expression, and approved original WebP files.",
+      "impact": "No commercial map tiles, source imagery, third-party models, official logos, remote fonts, or other external media are redistributed."
+    },
+    {
+      "id": "A-VISUAL-EVIDENCE-001",
+      "status": "interpretive",
+      "statement": "The compiled visual and five figure pairs communicate a conceptual future condition and runtime behavior, not an as-built record.",
+      "impact": "Visual realism cannot be used as evidence of construction feasibility, authorization, official geometry, operations, or real user outcomes."
+    }
+  ]
+}
