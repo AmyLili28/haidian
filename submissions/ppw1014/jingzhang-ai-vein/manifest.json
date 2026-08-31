@@ -122,7 +122,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "d6e67b8d98d366122a2e4eeab72550eda72f7a460a75ccf96c16b14f94260f8c"
+      "sha256": "5e1def52df34c20a152b203b00be5ec87ea2e5d958fcccc4c0a081b313f3235d"
     },
     {
       "path": "compliance_matrix.json",
@@ -141,7 +141,7 @@
       "role": "drawing",
       "required": true,
       "language": "en",
-      "sha256": "4d71cea6a2c5f5b69d95617b10e7bfe1bb1f604e79d8456b2fa99d169023470a",
+      "sha256": "7182a66633e0febeae3e0b399b422f20e95f8213d1aeeaffc7d82038a3242279",
       "translation_of": "drawings/a0-boards.pdf"
     },
     {
@@ -149,14 +149,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "e7b1961c530047b3659c9acc4d89fda24674e223d7dde70588c8654312dee971"
+      "sha256": "6e13b58704f69d7bbd88ada1f832a495bb21eafbc83391c047bd76fff60233b1"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
       "role": "drawing",
       "required": true,
       "language": "en",
-      "sha256": "7e16570c0ec84d4f6585a40d46611a9352c065373f7245d3db1d141d229f3e56",
+      "sha256": "3a61c3a0d8ee8d8fdda48c8e186f0b23a34fc4efb403e46ee4df0f4c91d8e148",
       "translation_of": "drawings/a3-booklet.pdf"
     },
     {
@@ -164,7 +164,7 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "053e2ee258217ace4fca48005e5ad950d672bac66b74b34be82bd540fc88f62b"
+      "sha256": "752d52ea773fdf4e8db1e189298dd02eb9d57c29190dabbbe3be591934941724"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -229,14 +229,14 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "2f3d00235d7506e273c09b0a180b7de3eaf03c388912e8e51629c3355eb25dac"
+      "sha256": "6d243884ac136a208ff0a08fd29120e5325a00198dcae1e0d93a39176b4667e4"
     },
     {
       "path": "proposal.en.md",
       "role": "narrative",
       "required": true,
       "language": "en",
-      "sha256": "64ec9c4a6f2426b9d7dd108e36a77c4f106fdc251ece597ab5d0103660d8e2bb",
+      "sha256": "8ce06d44a754992ce7d1cb898e3527ee79f0edca947b56a7af67f32f14957e8b",
       "translation_of": "proposal.md"
     },
     {
@@ -244,7 +244,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "b01d7d29b72b1b9ae3d6cb874d3a4844ea4560a53bfff125bb00cfb16edf5d25"
+      "sha256": "35b60f7b84bf7dc89a10b46f6927abf0434f1927cab524cfecbfcbae6f13c4a2"
     },
     {
       "path": "report/copyright_statement.md",
@@ -263,7 +263,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "en",
-      "sha256": "bbc8ffcde75cc779e5552fadc86dd96a5b9951514b7a17d62c9daf47b470d7ac",
+      "sha256": "c87c69790a459c4c03c2711e62e41e7190bcc524264a2bf6ca5b0b200802e14c",
       "translation_of": "report/proposal.html"
     },
     {
@@ -271,13 +271,13 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "92d5338675dad09c3200941cd9236f866fa651d171226cef601225219d3f2c4c"
+      "sha256": "488f3081a7fbc465afdefd706efa59b621b5ac42c7c83355dd7fb8963ee20256"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "187ab23db1c94a32eaab932a579df01ebaea8ef733cf6b68764e6616bca0f9c4"
+      "sha256": "b831bcdec212ca9ee5062a585aba154eacb9c409028d76460e7939191a5ac3c8"
     },
     {
       "path": "sources.json",
@@ -345,7 +345,7 @@
       "role": "visualization",
       "required": true,
       "language": "en",
-      "sha256": "59a3d1fe3c290bb89568afdf266800d85a35e941335ddbef2af74806c6e37def",
+      "sha256": "fcc552ebfd700495601fca3d594d8253a14f665f5a710fc1caae6bcc203c9e25",
       "translation_of": "visual/index.html"
     },
     {
@@ -353,7 +353,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "2a61c34f34ca921ac27276e121fede11eba47d527090e6dcae046ed7ff9a47a6"
+      "sha256": "e8b53570680085c206f36ac753580aad84bfe7b4114f5210ffeafd5123568cdc"
     }
   ],
   "validation_claim": {
