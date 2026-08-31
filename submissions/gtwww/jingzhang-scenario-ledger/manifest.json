@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "d171130655ad3f1143cd86166265ecb2e289750daa5cb5014eaefe39bcc73faa"
+      "sha256": "54181ccd239f426eb615f55e6e1be90e7c519509a622d7eb0349c032d432de72"
     },
     {
       "path": "compliance_matrix.json",
@@ -100,14 +100,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "1a33e6391c0514fe198dece103c7dda52e2e33c4a793b0bae5752841565fa9f8"
+      "sha256": "0f028f0e4d0c9dfb1d670cf6743b131292b142b600b967dd7b3d1a5f57a7efd9"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "8d72ea94cf6d47c4a898fc4858b93de76eed735427e0fbe06b0abde0f460af87"
+      "sha256": "889153bbd922e5b6bf288992e23ec4039d36b74df21ed9fd25ce5e0023300e6d"
     },
     {
       "path": "visual/index.html",
@@ -121,7 +121,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "64d2caebea7c539471b5012d1c10b2022d2ff9460c72e8d8f91b7431389fba8f"
+      "sha256": "f40f2cbc82c53461777d76a13a9d070128b1869ca877a7102d5f8dac14fc96a1"
     },
     {
       "path": "assets/figures/land-use-structure.png",
@@ -227,7 +227,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "fb71c37332d82a304a1f0f58234ef9d920abb708a9fc84d5a43e47c6cac68fa9"
+      "sha256": "778d2bdff9efc13bc1d7a470902cd9cf04a270e8e07f00f9bb8a2acc977eaa69"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -235,7 +235,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "cab13de17a4c32502eb2cc307bef3be19b111c95ec9027ef374f24a5ae4466c8"
+      "sha256": "1711e836e28f678a841e46550bf440b59ac9f5159f7547c7c425122c47d50798"
     },
     {
       "path": "visual/index.en.html",
@@ -251,7 +251,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/key-areas.png",
-      "sha256": "6f8840e0f13d8bc0d3af4982e57f2e7724caed388d14a7c2270ae808e55b22bc"
+      "sha256": "e2dc455df916b101ea00aaceccad4a2e7492bcc9cc9ba5535f53ff4d9ffeb25c"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
