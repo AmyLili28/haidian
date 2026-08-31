@@ -1,5 +1,12 @@
 # 方案迭代记录
 
+## v0.16.1 - 2026-08-31
+
+- Closed PR #4313's only blocking Review Agent finding: the final report regeneration had removed the submission-local CJK fallback stylesheet link from both `report/proposal.html` and `report/proposal.en.html`, while the paired visual exhibits still loaded the shared embedded font correctly.
+- Restored both report files to the same offline Noto Sans SC WOFF2 subset used by `visual/index.html` and `visual/index.en.html`. The font payload, licence disclosure and recorded font hashes remain unchanged because the existing subset already covers all characters in the four current HTML files.
+- Rechecked the four HTML artifacts at 1600 px, 1050 px and 720 px widths and reproduced the maintainer's 1440 × 1600 `file://` screenshot environment. The shared local font loads in every artifact, Chinese text is readable, bilingual links remain local, no remote resources are requested and no horizontal overflow is introduced.
+- This portability repair changes no proposal thesis, geometry, metrics, scenario, implementation state, external evidence or authorization claim. The PR #4313 advisory score before repair remains a non-formal review result; any post-repair result must come from a new review of the repaired package hash.
+
 ## v0.16 - 2026-08-31
 
 - Preserved the stable master brand **京张，再次开路 / JING-ZHANG BREAKS NEW GROUND** and made the different Chinese roles across two industrial revolutions explicit: learning, absorbing and transforming a Western-origin railway-industrial system into independent engineering in the earlier wave; using accountable real-city experimentation to help define and seek to lead the AI-driven wave.
