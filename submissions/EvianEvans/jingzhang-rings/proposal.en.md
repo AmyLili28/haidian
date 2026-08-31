@@ -395,12 +395,12 @@ The meaning of each item is explained in the text, not only left in JSON. The th
 
 > **On the three names for one facility.** This proposal uses **li courtyard** throughout: the square is its space, the kiosk is its building, the post is its fixture, one place with three aspects. Where the text says "li courtyard square", "li courtyard kiosk" or "li post stopping point", it means the same facility.
 
-The composition of each numerator is listed here in full, matching the assumptions in `metrics.json`:
+The composition of each numerator is listed here in full, matching the assumptions in `metrics.json`. The two ratios measure **framework coverage** — broken down by component below; **they are not "all newly designed by this proposal"**:
 
-| Metric | Numerator composition | Nature |
+| Metric | Numerator composition (by component) | Nature |
 |---|---|---|
-| `green_ratio` ≈ 0.2158 | Jing-Zhang heritage park green axis, Xiaoyuehe waterfront green belt, Qinghe confluence ecological buffer, three ring-hall node greens | **newly designed** quantity proposed or brought into maintenance by this proposal |
-| `public_space_ratio` ≈ 0.1054 | the two continuous slow-traffic spines, 22 east-west stitching greenways, 19 li courtyards, three ring-hall forecourts | **public-space design** quantity proposed by this proposal |
+| `green_ratio` ≈ 0.2158 | Jing-Zhang heritage park green axis (existing + commissioned maintenance), Xiaoyuehe waterfront green belt (commissioned / under construction), Qinghe confluence ecological buffer (newly designed by this proposal), three ring-hall node greens (newly designed by this proposal) | **Framework coverage** — the first two items are existing or commissioned states, and this proposal's role is mainly maintenance and coordination; the latter two items are new concepts from this proposal |
+| `public_space_ratio` ≈ 0.1054 | two continuous slow-traffic spines (existing + new), 22 east-west stitching greenways (mixed: maintenance + new), 19 li courtyards (new), three ring-hall forecourts (new) | **Framework coverage** — includes existing, commissioned and newly designed items; not all new |
 
 **One exclusion has to be stated plainly.** The existing open grounds inside the Eight Great Colleges and other institutional ownership are **not** counted in the `green_ratio` numerator. That land is classified earlier in this proposal as **restricted**: this proposal does not enter it, does not alter it and does not open it. Counting it would make the ratio measure what already exists on the site rather than what this proposal designs, contradicting its own definition as a design quantity. Its role here is background condition for ecological observation, not design output.
 
