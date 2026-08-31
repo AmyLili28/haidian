@@ -1,6 +1,13 @@
 {
   "type": "FeatureCollection",
-  "name": "roads_scaffold",
+  "name": "mobility_and_safety_network",
+  "design_contract": {
+    "project_record_field": "project_record_id",
+    "root_field": "root_ids",
+    "gate_field": "evidence_gate",
+    "status_field": "concept_only",
+    "note": "Feature properties remain conceptual design attributes; geometry and area values are unchanged."
+  },
   "features": [
     {
       "type": "Feature",
@@ -11,19 +18,228 @@
         "source_type": "agent_generated_design",
         "confidence": "medium",
         "geometry_role": "design_proposal",
+        "name_zh": "京张共智线主廊道",
+        "name_en": "Jing-Zhang Openline spine",
         "road_class": "greenway",
-        "name_zh": "慢行与创新服务廊道"
+        "network_role": "walk_cycle_service",
+        "phase": "phase_1",
+        "owner": "transport_and_public_realm_operator",
+        "metric": "interface_reachability",
+        "trigger": "accessibility audit / emergency drill",
+        "dependency": "road redline, rail and utility confirmation"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            116.340948,
-            39.9845
+            116.3456,
+            39.9435
           ],
           [
-            116.35374,
-            39.9845
+            116.3456,
+            40.0245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-002",
+      "properties": {
+        "id": "ROAD-002",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "众智园东西接口",
+        "name_en": "Zhongzhiyuan east-west interface",
+        "road_class": "transit_connection",
+        "network_role": "walk_cycle_service",
+        "phase": "phase_1",
+        "owner": "transport_and_public_realm_operator",
+        "metric": "interface_reachability",
+        "trigger": "accessibility audit / emergency drill",
+        "dependency": "road redline, rail and utility confirmation"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3438,
+            40.015
+          ],
+          [
+            116.3525,
+            40.015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-003",
+      "properties": {
+        "id": "ROAD-003",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "原点社区东西接口",
+        "name_en": "Origin community east-west interface",
+        "road_class": "transit_connection",
+        "network_role": "walk_cycle_service",
+        "phase": "phase_1",
+        "owner": "transport_and_public_realm_operator",
+        "metric": "interface_reachability",
+        "trigger": "accessibility audit / emergency drill",
+        "dependency": "road redline, rail and utility confirmation"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3435,
+            39.9895
+          ],
+          [
+            116.3528,
+            39.9895
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-004",
+      "properties": {
+        "id": "ROAD-004",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺东西接口",
+        "name_en": "Dazhongsi east-west interface",
+        "road_class": "transit_connection",
+        "network_role": "walk_cycle_service",
+        "phase": "phase_1",
+        "owner": "transport_and_public_realm_operator",
+        "metric": "interface_reachability",
+        "trigger": "accessibility audit / emergency drill",
+        "dependency": "road redline, rail and utility confirmation"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3435,
+            39.9515
+          ],
+          [
+            116.353,
+            39.9515
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-005",
+      "properties": {
+        "id": "ROAD-005",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "遗址公园慢行回路",
+        "name_en": "Heritage park slow loop",
+        "road_class": "greenway",
+        "network_role": "walk_cycle_service",
+        "phase": "phase_1",
+        "owner": "transport_and_public_realm_operator",
+        "metric": "interface_reachability",
+        "trigger": "accessibility audit / emergency drill",
+        "dependency": "road redline, rail and utility confirmation"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.344,
+            39.946
+          ],
+          [
+            116.344,
+            39.965
+          ],
+          [
+            116.348,
+            39.965
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-006",
+      "properties": {
+        "id": "ROAD-006",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "校园—社区安全支路",
+        "name_en": "Campus-community safe spur",
+        "road_class": "pedestrian",
+        "network_role": "walk_cycle_service",
+        "phase": "phase_1",
+        "owner": "transport_and_public_realm_operator",
+        "metric": "interface_reachability",
+        "trigger": "accessibility audit / emergency drill",
+        "dependency": "road redline, rail and utility confirmation"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.347,
+            39.978
+          ],
+          [
+            116.3515,
+            39.978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-007",
+      "properties": {
+        "id": "ROAD-007",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "首发场应急接管线",
+        "name_en": "Launch-area emergency takeover",
+        "road_class": "local_access",
+        "network_role": "walk_cycle_service",
+        "phase": "phase_1",
+        "owner": "transport_and_public_realm_operator",
+        "metric": "interface_reachability",
+        "trigger": "accessibility audit / emergency drill",
+        "dependency": "road redline, rail and utility confirmation"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.349,
+            39.945
+          ],
+          [
+            116.349,
+            39.956
           ]
         ]
       }

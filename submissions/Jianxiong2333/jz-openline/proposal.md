@@ -60,6 +60,19 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ![资料证据链与提交包关系图](assets/figures/site-overview.png)
 
+### 根系—选择—对象:为什么这条线在海淀成立
+
+JZ OPENLINE 看起来超前,但不从空中落下。它把四种可以在历史和日常中被看见的根系,翻译成空间与运行选择；根系只解释“为什么是这里”,不替代法定边界、控规或实测数据（根系映射：R-01 / R-02 / R-03 / R-04）。
+
+| 根系 | 设计选择 | 可复核对象 |
+| --- | --- | --- |
+| 自立 | 把研究、工程、标准、安全评价和产品转化放进同一条 CREATE→VERIFY→ADOPT 链 | `PROV-KEY-002`、`PROV-KEY-001`、`PROV-KEY-003`；`BLDG-003/004`；场景验证卡 05/06/07 |
+| 共享 | 公园先是居民日常公共空间,创新以低侵入方式回到社区,拒绝智能服务不降低服务水平 | `GREEN-001..003`、`PUBLIC-001..005`；场景卡 03/08/10/12 |
+| 韧性 | 小步试验、阶段门、人工接管、退出审计和场地复原同时存在,资源按证据释放 | `CONSTRAINT-001..005`、`PHASE-001..003`；NO EXIT, NO ENTRY |
+| 节制 | 90% 安静公共生活、10% 高强度节点,优先存量更新、可移动设施和分级照明 | `BLDG-001/002/006`、`GREEN-001..003`；场景卡 04/09/10 |
+
+历史线索也因此不只是展板：京张铁路提供工程连接的起点,中关村提供成果转化的城市经验,遗址公园提供存量更新与公共共享的载体,AI 只在这条已有的城市关系上增加可验证的运行层。`simulation.json#rooted_design_matrix` 保存完整映射、来源和置信度；这些内容是设计解释,不是政策背书。
+
 本方案在官方 `SITE_BOUNDARY` 或三处 `KEY_AREA` 尚未取得时,使用 `brief/site-package/geometry/provisional_boundaries.geojson` 生成临时 formal 包。提交包中的 `geometry/site_boundary.geojson` 与 `geometry/key_areas.geojson` 均标注为 `provisional_constraint`、`official_boundary=false`,只能用于方案生成、自检、可视化和设计讨论,不能作为 official redline、审批依据、精确面积依据或法定控制结论。替换 official polygons 后,site boundary、key areas、land use、roads、green space、public space、buildings、phasing 和 metrics 均需重算。边界解释可回到总体范围图层和面积复算 [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm],三处重点区由独立图层和数量指标核对 [data:geometry/key_areas.geojson#PROV-KEY-001] [metric:key_area_count]。
 
 除场地包外,本方案规划(尚未取用)三层外部公开数据,全部进入 `assumptions.json` 待授权清单,取用时按许可登记进 `sources.json`:法定与现状层(北京公共数据开放平台、海淀开放数据、规自委公开图则、教育/卫健部门公开机构名录)、城市行为层(高德交通态势、百度慧眼人流、经许可的平台聚合数据)、创新网络层(OpenAlex 开放科研数据、CNIPA 专利检索、公开企业/投融资信息)。在取得之前,正文所有相关判断只写方法与待校准项,不写数值结论。
@@ -132,6 +145,54 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 | 众智园 AI 自主创新加速区 | TEST|试验场 | 技术真的可行、安全吗? | 花园型全栈自主创新与测试街区 | Physical AI Test Yard(机器人、感知、导航、安全评价低风险实测);标准制定与安全治理展示;清河低碳创新界面;对外交通组织 | [data:geometry/key_areas.geojson#PROV-KEY-001]、[depth:three_key_area_detailed_design] |
 | 大钟寺 AI 产业聚集区 | ADOPT|首发场 | 人们真的愿意用吗? | 全球 AI 城市产品首发区(非"AI 商业街") | Agent 服务、智能终端、AI 消费产品、智能教育、AI 健康服务、机器人商业、AI 文化产品在此进入真实市场并被观测;大钟寺站一体化与路口四象限步行连通;URBAN SERVICE HUB 主站 | [data:geometry/key_areas.geojson#PROV-KEY-003]、[metric:key_area_count] |
 
+### 重点区空间动作台账:从概念到可复核对象
+
+三处重点区不再只由名称和概念描述,而由一组可以在地图、指标和运行记录中互相校核的对象组成。这里统一使用**重点区项目档案(Project Record)**,它是设计审查对象而不是行政证照；对象均为概念建议,其绝对落位仍受 provisional 边界约束。
+
+| 重点区 | 项目档案与空间对象 | 先做什么 | 通过什么门 |
+| --- | --- | --- | --- |
+| 大钟寺 ADOPT | `BLDG-004/005` 首发厅与 URBAN SERVICE HUB、`PUBLIC-003` 首发前厅、`ROAD-003/004/007` 接口与应急接管线 | 90 天内完成一条真实用户全链路回执;保持人工柜台、纸质地图和人工接管 | 真实用户观察 + 零公共空间侵入 + 退出演练 |
+| AI 原点 ORIGINATE | `BLDG-001/002/006` 转化工坊、健康导航、城市观测站; `PUBLIC-002/004/005` 邻里客厅、共享台阶、观测台; `ROAD-006` 安全支路 | 把成果发布、技术转移、社区健康和公开读数放到同一条步行链 | 人工基线对比 + 数据最小化 + 社区复核 |
+| 众智园 TEST | `BLDG-003` 物理 AI 安全测试场、`GREEN-001` 清河创新生态段、`PUBLIC-001` 接口广场 | 先在封闭、可复原的试验环境完成安全评价,再向公园接口迁移 | 安全评价通过 + 独立复核 + 未过门不扩容 |
+
+空间对象与责任、依赖和阶段同步写入 `geometry/*.geojson`;12 张场景卡的基线、阈值、回退、人工路径和审计字段写入 `simulation.json`。其中 `defined_not_run` 明确表示“已定义、尚未实测”,不把模拟结果冒充现场绩效 [data:geometry/buildings.geojson#BLDG-004] [data:geometry/phasing.geojson#PHASE-001] [source:SIMULATION-CONCEPT-REGISTRY]。
+
+**项目档案字段契约:**每一份档案固定记录 `project_id`、`purpose`、`spatial_objects`、`operator_candidate`、`evidence_gate`、`fallback`、`sunset_condition`、`source_refs` 和 `status`。`status=concept_only` 表示缺少正式责任或运行证据时只能讨论,不能进入工程承诺；场景验证卡、运行回执和城市版本记录是档案的三个附属件,分别回答“能不能试”“试过什么”“下一版改什么”。
+
+**实施最小单元:**每个节点必须同时具备空间对象、运营主体、证据门、回退路径和日落条件;缺少任一项就停留在概念层。预算和编制只采用敏感性区间,待权属、消防、管线、采购与维护审计后再定,不构成投资或政府承诺。
+
+### 公园设计图集：把“怎么建、怎么用、怎么退”放到一张图里
+
+下面四张渲染不是把未来想象成一张漂亮效果图，而是把建设动作翻译成人能直接读懂的空间画面：先把铁路遗产和日常生活留住，再做存量建筑适应性再利用；试验必须在可封闭、可复原的边界内进行；最后才把经过验证的服务放进普通人的市场、街道和公园。画面中的具体建筑、树木和人物均为概念表达，真正落位以正式边界、权属、文保、交通和工程条件为准 [source:AI-RENDER-ATLAS]。
+
+![公园公共生活：保留铁路痕迹，补齐慢行和人工服务，形成安静连续的公共绿廊](assets/renders/park-commons.png)
+
+**01｜先把公园建成“可用的日常”。** 铁路遗存不被抹平，慢行线、座椅、雨洪花园和人工服务台先到位；AI 只做看不见的导航和维护辅助，不抢走公共空间。
+
+![北京 AI 原点社区：存量建筑适应性再利用，连接校园、社区和成果转化](assets/renders/origin-community.png)
+
+**02｜再把存量建筑变成“能一起工作”的院落。** 原点社区不是封闭园区，而是把发布、技术转移、社区健康和邻里交流放在一条可步行的公共链上；保留、改造和新插入的界面都要先过权属与消防核查。
+
+![众智园测试场：封闭、透明、可复原的物理 AI 安全测试，与公园人流清晰分流](assets/renders/test-yard.png)
+
+**03｜测试先在边界内完成。** 测试场与公园之间有看得见的安全缓冲、人工控制台和紧急停止；不满足独立复核和退出演练，就不把设备推向公共路径。
+
+![大钟寺生活化采用节点：小型首发市场、骑手友好服务和步行/配送分流](assets/renders/dazhongsi-market.png)
+
+**04｜最后才进入真实生活。** 大钟寺节点的重点不是造一条“AI 商业街”，而是让居民、商户、骑手和老人都能在人工柜台、纸质地图和可回退服务仍然存在的前提下，低风险地试用新服务。
+
+四张图对应 `simulation.json` 的三份项目档案和 12 张场景卡：公共绿廊是共享底座，原点社区承担源出，众智园承担试验，大钟寺承担采用。它们是空间叙事与专业团队深化的入口，不是官方效果图或施工图。
+
+![建设叙事四步图：保护、连接、试验、采用，以及对应的建设构成与证据门](assets/figures/build-sequence.png)
+
+为了避免效果图停留在“看起来不错”，三类最容易发生冲突的空间被进一步拆成典型剖面：遗址公园把铁路轨迹、慢行、雨洪花园与人工服务并排讲清；众智园把公众路径、种植缓冲、透明边界、试验场和人工急停分开；大钟寺把步行前厅、服务枢纽、改造建筑与配送通道分流。剖面不虚构现场米数，但每个构件都回指 `GREEN/ROAD/PUBLIC/BLDG/CONSTRAINT` 对象，方便下一阶段接实测、权属、消防和管线资料后定尺深化 [source:DESIGN-SECTION-PHASING-ATLAS]。
+
+![三种典型空间界面：静谧遗址公园、受控试验边界与生活化采用前厅](assets/figures/typical-sections.png)
+
+未来建设也不被画成一次到位的终局。P0 先核验正式边界、权属、消防、管线、无障碍和责任人；P1 只释放保护与连通的轻量项目；P2 在边界内完成独立复核；P3 才进入 90 天真实采用窗口；P4 根据运行回执选择分段扩容或复原。任何阶段出现安全下降、投诉累积、审计不完整或超预算，都沿 RETURN 路径停止、人工接管、公布差异并退回上一阶段 [data:geometry/phasing.geojson#PHASE-001] [source:SIMULATION-CONCEPT-REGISTRY]。
+
+![未来发展路径：核验、保护连通、受控试验、真实采用、扩展或复原](assets/figures/future-development.png)
+
 三引擎共同构成 CREATE→VERIFY→LAUNCH 的空间前段;ADOPT→SCALE→RETURN 则由大钟寺、两翼与城市数据反馈完成。功能业态、建筑规模、拆改留分类、公共空间系统、交通组织、慢行连通和实施项目在 HTML、A3 文册与 A0 展板中展开;暂无边界的精确指标一律 pending。
 
 ## AI 创新生态、人才画像与 AI+ 场景
@@ -170,7 +231,7 @@ AI 不是屏幕。AI 可以是少绕 5 分钟路、少排 20 分钟队、老人�
 
 ## 京张遗址公园:四线叠合、九接口与城市服务枢纽
 
-京张铁路遗址公园二期已于 2026 年 8 月建成开放,形成约 9 公里带状公共空间,直接服务约 70 个社区、45 万居民(背景事实,来源待按许可登记)。因此**绝不能按空地重新设计**:这里首先是 45 万居民的日常公园,然后才是 AI 创新带。设计原则:**90% 保持安静,10% 高强度创新节点**,不一路 LED 屏。
+一条尚未完成主来源登记的公开新闻线索称,遗址公园二期可能于 2026 年 8 月开放,形成约 9 公里带状公共空间,服务约 70 个社区、45 万居民(待主来源核验,不作为正式证据)。**绝不能按空地重新设计**:在公园清单核验前,先把日常公共生活作为保护优先级,再叠加 AI 创新带。设计原则:**90% 保持安静,10% 高强度创新节点**,不一路 LED 屏。
 
 **四线叠合——同一条铁路上叠四条线:**
 
@@ -244,7 +305,7 @@ AI 不是屏幕。AI 可以是少绕 5 分钟路、少排 20 分钟队、老人�
 
 **CITY CHANGELOG|城市版本系统(运营即治理):** 一年一个城市版本——JZ 2027.1、JZ 2028.1、JZ 2029.1……借用完整的软件发版语义:每个版本公开 **diff**(新增/变更/撤掉了什么)、**rollback**(哪些场景被回滚到上一稳定版、触发条件是什么)、**deprecation**(哪些服务进入淘汰倒计时、替代路径是什么)、**known issues**(哪些投诉最多、哪些指标恶化了)。失败与成功等量公示——只展示成功的版本墙是广告牌,不是 changelog。**未合并未来档案**同步公开:被否决的场景提案连同否决理由归档可查,让"没有发生的事"也成为公共证据。每个 AI 场景带**日落条款**:到期不默认续期,须凭运行回执与公共价值证据重新过闸。"错误可以被发现并推翻"是系统的核心机制:数据观察线提供证据,Annual Commit 提供仪式,NO EXIT, NO ENTRY 提供规则。需要区分:CITY CHANGELOG 是**城市版本系统**(记录城市自身的演化与回滚),不是评测基准发布,也不是评价榜单——它回答"城市去年变了什么、错了什么、改了什么",而不是"哪个 AI 最强"。这比单纯办论坛有辨识度得多。
 
-**转化闭环:** 全球征题 → 开发者报名 → 短期驻留 → 京张 Living Lab 测试 → 居民/专业机构评价 → 企业采购或资本连接 → 城市场景扩大 → 发布开放案例 → Annual Commit → 下一年继续。**SCALE 环是整条走廊的外向出口:AI 在京张获得的不只是本地落地,而是进入下一座城市的资格。** 因此本方案把转化机制本身封装为一件可取走即用的公共产品——《JZ OPENLINE ADMISSION|城市 AI 准入开放基准》(概念 v0.1):场景卡七字段、双闸规则、运行回执、退出复原三联、城市版本语义,五件套以开放文档形式发布,任何城市可以免费拿走、本地化、再回馈改进。京张 thus 从"一条创新带"升级为"准入标准的发行方"——这是"全球 AI 城市转化与验证走廊"定位的最终落点。活动品牌视觉沿用四色与线路语法;运营对象、频率、责任边界、转化路径与风险在 A3 文册运营章展开。
+**转化闭环:** 全球征题 → 开发者报名 → 短期驻留 → 京张 Living Lab 测试 → 居民/专业机构评价 → 企业采购或资本连接 → 城市场景扩大 → 发布开放案例 → Annual Commit → 下一年继续。**SCALE 环是整条走廊的外向出口:AI 在京张获得的不只是本地落地,而是进入下一座城市的可复用经验。** 因此本方案把转化机制本身封装为一件可取走即用的公共产品——《JZ OPENLINE 城市场景验证工具包》(概念 v0.1):场景验证卡、双阶段门、运行回执、退出复原三联、城市版本语义,五件套以开放文档形式发布,任何城市可以免费本地化并回馈改进。京张由此不是“城市试验规则的发行方”,而是**把城市试验做成可复用方法样本**——这正是“全球 AI 城市转化与验证走廊”定位的落点。活动品牌视觉沿用四色与线路语法;运营对象、频率、责任边界、转化路径与风险在 A3 文册运营章展开。
 
 ## 用地、建筑规模与拆改留方案
 
@@ -254,7 +315,7 @@ AI 不是屏幕。AI 可以是少绕 5 分钟路、少排 20 分钟队、老人�
 
 ## 交通、轨道、市政与公共服务设施
 
-交通方案回应轨道站点一体化、道路微循环、慢行断点、对外交通、停车、非机动车停放和绿色交通系统要求,重点覆盖北五环、遗址公园跨环路节点、五道口、清华东路西口、大钟寺站及重点企业周边联系。道路和慢行图层保持在提交边界内,并与公共空间、绿地、产业节点和重点片区相互校核;边界为 provisional 时,交通结论仅作临时设计讨论。专业深度由 [depth:traffic_rail_slow_parking] 与 [depth:municipal_new_infrastructure] 约束,图层证据引用 [data:geometry/roads.geojson#ROAD-001]、[data:geometry/public_space.geojson#PUBLIC-001] 和 [data:geometry/constraints.geojson#CONSTRAINTS]。
+交通方案回应轨道站点一体化、道路微循环、慢行断点、对外交通、停车、非机动车停放和绿色交通系统要求,重点覆盖北五环、遗址公园跨环路节点、五道口、清华东路西口、大钟寺站及重点企业周边联系。道路和慢行图层保持在提交边界内,并与公共空间、绿地、产业节点和重点片区相互校核;边界为 provisional 时,交通结论仅作临时设计讨论。专业深度由 [depth:traffic_rail_slow_parking] 与 [depth:municipal_new_infrastructure] 约束,图层证据引用 [data:geometry/roads.geojson#ROAD-001]、[data:geometry/public_space.geojson#PUBLIC-001] 和 [data:geometry/constraints.geojson#CONSTRAINT-001]。
 
 本方案的交通研究特色是把"增加东西联系"从口号变成计算:**East-West Barrier Index** 用直线距离/实际步行距离、绕行时间、过街等待、入口密度、自行车连续性、地铁站到公园可达性找出真正需要"缝"的位置——9 个接口的落位即由此决定(数据接入后计算,当前为方法声明)。这与"统一观测断面"类基准线思路对立互补:基准线解决南北向的可比性,缝合指数解决东西向的可达性——一条 9 公里窄带,两个方向的问题需要两套工具。
 
@@ -278,9 +339,9 @@ AI 不是屏幕。AI 可以是少绕 5 分钟路、少排 20 分钟队、老人�
 | JZ-02 | ZERO MILESTONE + Km 导视系统 | 文化/导视 | 遗产节点清权、文保条件 | [data:geometry/public_space.geojson#PUBLIC-001] |
 | JZ-03 | OPEN SOURCE WALK 开源散步道 | 文化/公共空间 | 展陈内容清权、低侵入设施 | [data:geometry/green_space.geojson#GREEN-001] |
 | JZ-04 | URBAN SERVICE HUB(大钟寺主站+校园分站) | 公共服务/新就业形态 | 场地权属、电力与换电安全、平台协作 | [data:geometry/buildings.geojson#BLDG-001] |
-| JZ-05 | Physical AI Test Yard(众智园) | 产业测试/安全 | 安全评价规范、保险与责任机制 | [data:geometry/constraints.geojson#CONSTRAINTS] |
+| JZ-05 | Physical AI Test Yard(众智园) | 产业测试/安全 | 安全评价规范、保险与责任机制 | [data:geometry/constraints.geojson#CONSTRAINT-001] |
 | JZ-06 | 大钟寺首发场与四象限步行连通 | 轨道一体化/商业更新 | 轨道站点、道路交叉口、市政管线 | [data:geometry/public_space.geojson#PUBLIC-001] |
-| JZ-07 | 数据观察线与 City Observatory | 新基建/治理 | 传感合规、数据公开机制 | [data:geometry/constraints.geojson#CONSTRAINTS] |
+| JZ-07 | 数据观察线与 City Observatory | 新基建/治理 | 传感合规、数据公开机制 | [data:geometry/constraints.geojson#CONSTRAINT-004] |
 | JZ-08 | CITY CHANGELOG 运营体系与 ANNUAL COMMIT | 运营/品牌 | 公共空间许可、活动安全、版权清权 | [data:geometry/phasing.geojson#PHASE-001] |
 
 分期与征集设计周期区分:近期以轻量设施、运营活动和服务平台启动(导视、散步道、HUB 试点、活动体系),中期推进接口工程与片区更新,长期形成治理框架;正式控规、市政、交通和权属条件确认前不进入工程结论。项目清单和分期深度由 [depth:renewal_project_list] 与 [depth:phasing_implementation] 管理,分期空间证据为 [data:geometry/phasing.geojson#PHASE-001]。
@@ -309,9 +370,9 @@ AI 不是屏幕。AI 可以是少绕 5 分钟路、少排 20 分钟队、老人�
 
 ## 风险、版权与合规说明
 
-**要求双语言。** 本主文件为中文,完整英文对照见 `proposal.en.md`;A3/A0、HTML 和含文字图件将提供对应语言副本(当前为脚手架占位,见 self_check 待办),译法优先使用 `docs/terminology-glossary.md` 的赛事推荐译法。所有图片、图纸、图标、数据和代码资产在 `sources.json` 或 `report/copyright_statement.md` 中说明来源、许可和授权状态。HTML 页面不加载远程脚本、远程地图瓦片、远程字体、iframe、表单或外部 API,不跟踪评审者行为。
+**要求双语言。** 本主文件为中文,完整英文对照见 `proposal.en.md`;A3/A0、HTML 和含文字图件均已提供对应语言副本,译法优先使用 `docs/terminology-glossary.md` 的赛事推荐译法。所有图片、图纸、图标、数据和代码资产在 `sources.json` 或 `report/copyright_statement.md` 中说明来源、许可和授权状态。HTML 页面不加载远程脚本、远程地图瓦片、远程字体、iframe、表单或外部 API,不跟踪评审者行为。
 
-风险和缺资料清单由风险深度项、约束图层和场地包共同校核 [depth:risk_missing_data] [data:geometry/constraints.geojson#CONSTRAINTS] [source:SITE-PACKAGE]。`missing_data_checklist.csv` 列出的 official boundary、key area、控规、道路、地块、建筑、市政、文保和公共服务缺口已进入 `assumptions.json`、自检和本章;任何缺少官方条件的结论均降级为待确认事项,完整专业核对保存在标准矩阵中。
+风险和缺资料清单由风险深度项、约束图层和场地包共同校核 [depth:risk_missing_data] [data:geometry/constraints.geojson#CONSTRAINT-004] [source:SITE-PACKAGE]。`missing_data_checklist.csv` 列出的 official boundary、key area、控规、道路、地块、建筑、市政、文保和公共服务缺口已进入 `assumptions.json`、自检和本章;任何缺少官方条件的结论均降级为待确认事项,完整专业核对保存在标准矩阵中。
 
 **社区核查的主动披露与致谢:** 本方案使用两项公开征集中的社区独立核查作为边界语境 [source:COMMUNITY-ISSUE-846] [source:COMMUNITY-ISSUE-1029]:其一,基于 OSM/Overpass 的背景核对显示临时边界与京张铁路遗址公园存在距离(最近约 412.5m,不相交);其二,大钟寺重点区临时多边形的质心被指存在偏移(约 2.26km)。因此本方案明确分界:**相对逻辑成立**(三区南北顺序、功能分工、接口落位方法),**绝对落位待官方边界**(精确坐标、面积、点位不作为结论);空间动作绑定公告命名的三处重点区(众智园、AI 原点社区、大钟寺),而非临时坐标。我们感谢并引用社区公共证据,不主张对临时边界的独立修正权——官方边界发布前,所有图层保持 provisional 标记;发布后按整体重算门一次性重建。
 

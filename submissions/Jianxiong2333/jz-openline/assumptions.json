@@ -14,12 +14,6 @@
       "impact": "Keeps the package within the open-call boundary clause; reviewers should read every design statement as advisory."
     },
     {
-      "id": "A-DATA-003",
-      "status": "pending_licensed_data",
-      "statement": "The five-tier evidence stack (L1 statutory space, L2 facilities, L3 behavior, L4 labor, L5 innovation networks) is planned but not yet acquired; all related judgments are method statements. Current metrics are computed from provisional geometry only.",
-      "impact": "Evidence maps (Barrier Index, 24H Pulse, Innovation Leakage, Delivery Friction, etc.) and the 9 interface locations remain pending until licensed data is registered in sources.json."
-    },
-    {
       "id": "A-BOUNDARY-004",
       "status": "pending_official_release",
       "statement": "Official site boundary and key-area polygons have not been released; submitted boundary layers are provisional_constraint with official_boundary=false.",
@@ -30,6 +24,30 @@
       "status": "pending_source_registration",
       "statement": "Background fact 'heritage park phase II opened 2026-08, ~9km, serving ~70 communities / ~450k residents' is cited from public news memory and not yet registered with a licensed source.",
       "impact": "Must be registered into sources.json with a verified public source before it can support formal scoring arguments."
+    },
+    {
+      "id": "A-IMPLEMENTATION-006",
+      "status": "pending_cost_and_owner_audit",
+      "statement": "The implementation queue names candidate owners, dependencies, gates, and fallback paths; capital cost, staffing, procurement, ownership, fire, seismic, utility, and maintenance figures require a professional audit before any commitment.",
+      "impact": "Scenario cards can be reviewed as reversible operating logic, but no budget, staffing level, procurement award, or government action is implied."
+    },
+    {
+      "id": "A-DATA-003",
+      "status": "pending_licensed_data",
+      "statement": "The five-tier evidence stack (L1 statutory space, L2 facilities, L3 behavior, L4 labor, L5 innovation networks) is planned but not yet acquired; current spatial objects and metrics are design propositions recomputable from submitted geometry, not observed conditions.",
+      "impact": "Barrier Index, 24H Pulse, Innovation Leakage, Delivery Friction, and the 9 interface locations remain hypotheses until licensed data is registered in sources.json."
+    },
+    {
+      "id": "A-ROOTS-007",
+      "status": "context_only",
+      "statement": "The four roots in simulation.json#rooted_design_matrix (self-reliant making, shared commons, reversible resilience, quiet intensity) interpret historical and public planning context; they are not policy endorsements, statutory controls, official scoring criteria, or government commitments.",
+      "impact": "Roots may explain why a spatial choice is appropriate to Haidian, but every claim still requires a submitted geometry object, an evidence/source reference, and a stated uncertainty or fallback."
+    },
+    {
+      "id": "A-TERMINOLOGY-008",
+      "status": "standing_disclaimer",
+      "statement": "Project Record, Scenario Verification Card, Run Receipt, City Changelog, and Delivery Card are design-review objects. They do not confer administrative permission or access rights.",
+      "impact": "The package keeps a clear distinction between an auditable design stage gate and any future statutory approval or procurement process."
     }
   ]
 }

@@ -13,25 +13,27 @@
         "geometry/site_boundary.geojson"
       ],
       "formula": "polygon_area(submitted_site_boundary)",
-      "confidence": "high",
+      "confidence": "medium",
       "assumptions": [
-        "Trusted official boundary is present in the site package."
+        "Submitted site boundary is provisional; value is recomputable from geometry and must be replaced when official redline is released."
       ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
-      "value": 310807.184,
+      "value": 472442.44,
       "unit": "sqm",
       "source_files": [
         "geometry/buildings.geojson"
       ],
       "formula": "sum(polygon_area(building_footprints))",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Six conceptual renewal footprints; parcel ownership and regulatory controls remain pending."
+      ]
     },
     "green_ratio": {
       "status": "known",
-      "value": 0.123423,
+      "value": 0.122413,
       "unit": "ratio",
       "source_files": [
         "geometry/green_space.geojson",
@@ -39,11 +41,13 @@
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Three non-overlapping design polygons; provisional boundary and ecological survey remain pending."
+      ]
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.073281,
+      "value": 0.074302,
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",
@@ -51,7 +55,9 @@
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Five non-overlapping concept plazas; ownership and accessibility audit remain pending."
+      ]
     },
     "floor_area_ratio": {
       "status": "unknown",
@@ -75,6 +81,32 @@
       "formula": "count(key_detailed_design_areas)",
       "confidence": "high",
       "assumptions": []
+    },
+    "green_space_area_sqm": {
+      "status": "known",
+      "value": 1397075.451,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/green_space.geojson"
+      ],
+      "formula": "area(unary_union(green_space_features))",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept network; official green-space inventory pending."
+      ]
+    },
+    "public_space_area_sqm": {
+      "status": "known",
+      "value": 848000.897,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "area(unary_union(public_space_features))",
+      "confidence": "medium",
+      "assumptions": [
+        "Concept interfaces; ownership and accessibility audit pending."
+      ]
     }
   }
 }

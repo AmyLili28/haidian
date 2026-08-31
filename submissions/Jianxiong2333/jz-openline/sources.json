@@ -54,6 +54,90 @@
       "url": "https://github.com/open-city-ai/haidian/issues/1029",
       "source_type": "community_public_review",
       "usage": "Community finding that the provisional Dazhongsi key-area polygon centroid is offset (~2.26 km). Used to scope relative-vs-absolute claims pending official boundary."
+    },
+    {
+      "id": "DESIGN-GEOMETRY-ENHANCEMENT",
+      "path": "geometry/*.geojson",
+      "source_type": "agent_generated_design",
+      "usage": "Named conceptual design objects for park segments, public interfaces, renewal footprints, mobility links, provisional constraints, and evidence-gated phasing; not official redlines."
+    },
+    {
+      "id": "SIMULATION-CONCEPT-REGISTRY",
+      "path": "simulation.json",
+      "source_type": "agent_generated_design",
+      "usage": "Reproducible 12-scenario pilot queue with owners, baselines, thresholds, fallback, human path, and audit fields; not empirical evidence."
+    },
+    {
+      "id": "HISTORY-JINGZHANG",
+      "url": "https://www.nra.gov.cn/tlfc/tpsy/202204/t20220405_293018.shtml",
+      "source_type": "official_public",
+      "usage": "Historical context for the 1905-1909 Jing-Zhang railway engineering lineage; design reference only, not a boundary or approval source.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "HAIDIAN-INNOVATION-HISTORY",
+      "url": "https://zyk.bjhd.gov.cn/jbdt/auto10489_51767/zfwj_59297/zfwj_57927/zfwj_57927/201812/t20181217_4165739_hd.shtml",
+      "source_type": "official_public",
+      "usage": "Haidian/Zhongguancun innovation history and research-to-industry context; design reference only.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "JINGZHANG-HERITAGE-PARK-PLAN",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zxzt/wsghs/2021dej/d5j/202112/t20211216_2562970.html",
+      "source_type": "official_public",
+      "usage": "Public interpretation of Jing-Zhang heritage park planning, historic inheritance, open sharing, green ecology and implementation orientation; design reference only.",
+      "use_class": "design_reference"
+    },
+    {
+      "id": "BEIJING-OVERALL-PLAN-2016-2035",
+      "url": "https://www.beijing.gov.cn/gongkai/guihua/wngh/csztgh/201907/t20190701_100008.html",
+      "source_type": "official_public",
+      "usage": "Beijing overall plan context for innovation, historic-cultural heritage, ecological livability and people-oriented urban development; design reference only.",
+      "use_class": "design_reference"
+    },
+    {
+      "id": "BEIJING-15FIVE-PROPOSAL",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202511/t20251126_4305109.html",
+      "source_type": "official_public",
+      "usage": "Beijing medium-term development direction including innovation, concept validation, digital economy, AI governance and public well-being; design interpretation only, not a scoring or approval claim.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "NDRC-SMART-CITY-GUIDANCE",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202405/t20240520_1386326_ext.html",
+      "source_type": "official_public",
+      "usage": "Smart-city digital transformation guidance used to support reversible pilots, data governance and measurable public-service improvement; design method reference only.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "HAIDIAN-DOUBLE-TEN-TWO-HEAVY",
+      "url": "https://www.bjhd.gov.cn/ztzx/2026/sslz/",
+      "source_type": "official_public",
+      "usage": "Haidian 2026 public priorities used as context for AI innovation, city renewal, safe/resilient city, green low-carbon and public services; not an implementation commitment.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "HAIDIAN-2026-RENEWAL",
+      "url": "https://zyk.bjhd.gov.cn/jbdt/auto4498_51793/auto4498_52869/auto4498/auto4498/202601/t20260119_4802162.shtml",
+      "source_type": "official_public",
+      "usage": "Haidian city-renewal and public-works context used to support stock-renewal and phased implementation logic; design reference only.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "AI-RENDER-ATLAS",
+      "path": "assets/renders/*.png",
+      "source_type": "agent_generated_design",
+      "usage": "Four text-free conceptual park and node renderings for human-readable design communication; generated 2026-08-31 with the built-in image tool. They are not existing-condition photographs, official renderings, boundary evidence, or construction documents.",
+      "use_class": "visual_reference",
+      "license": "project-generated; no external image inputs; reuse within this submission package"
+    },
+    {
+      "id": "DESIGN-SECTION-PHASING-ATLAS",
+      "path": "assets/figures/typical-sections*.png; assets/figures/future-development*.png",
+      "source_type": "agent_generated_design",
+      "usage": "Bilingual conceptual sections and trigger-based development path derived from geometry/*.geojson and simulation.json. They map structured object IDs, retain/adapt/insert/stop actions, evidence gates and RETURN conditions without inventing surveyed dimensions. They are not construction drawings, statutory plans, schedules, funding commitments, or measured outcomes.",
+      "use_class": "design_reference",
+      "license": "project-generated; derived only from submission-owned structured design files"
     }
   ]
 }
