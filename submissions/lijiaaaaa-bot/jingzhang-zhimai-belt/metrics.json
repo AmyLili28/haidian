@@ -58,8 +58,27 @@
       ],
       "formula": "sum(polygon_area(PROV-KEY-001..003, EPSG:4548))",
       "confidence": "medium",
+      "definition_zh": "三处重点区域 polygon 面积之和（EPSG:4548 复算）；包内 canonical 口径。",
+      "display_ha": 369.268,
+      "official_announcement_ha": 368.4,
+      "area_reconciliation_note": "公告约 368.4 ha（192.1+104.3+72.0）；GeoJSON 复算 369.268 ha，差异来自 provisional polygon 精度，正式红线发布后重算。",
       "assumptions": [
-        "Provisional geometry; EPSG:4548 recalc"
+        "Provisional geometry; EPSG:4548 recalc",
+        "Canonical package value is 369.268 ha; official announcement rounds to 368.4 ha"
+      ]
+    },
+    "key_detailed_design_area_ha": {
+      "status": "known",
+      "value": 369.268,
+      "unit": "none",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "key_detailed_design_area_sqm / 10000",
+      "confidence": "medium",
+      "definition_zh": "重点区域面积（公顷），由 sqm 复算；canonical 展示值。",
+      "assumptions": [
+        "Derived from EPSG:4548 recalc; official announcement cites 368.4 ha"
       ]
     },
     "zhongzhiyuan_ai_acceleration_area_sqm": {
@@ -280,19 +299,6 @@
       "assumptions": [],
       "reason": "Generic ratio placeholder; see green_ratio/public_space_ratio for known values."
     },
-    "phase_1_area_sqm": {
-      "status": "known",
-      "value": 4240859.884,
-      "unit": "sqm",
-      "source_files": [
-        "geometry/phasing.geojson"
-      ],
-      "formula": "phase polygon area EPSG:4548",
-      "confidence": "medium",
-      "assumptions": [
-        "Provisional geometry; EPSG:4548 recalc"
-      ]
-    },
     "phase_001_area_sqm": {
       "status": "known",
       "value": 2921251.337,
@@ -302,8 +308,13 @@
       ],
       "formula": "polygon_area(PHASE-001, EPSG:4548)",
       "confidence": "medium",
+      "definition_zh": "近期试点（PHASE-001）：京张遗址公园段＋原点社区近校段，2025–2027，关联 JZ-01/JZ-06。",
+      "phase_id": "PHASE-001",
+      "phase_horizon": "2025-2027",
+      "related_jz_projects": ["JZ-01", "JZ-06"],
       "assumptions": [
-        "Provisional geometry; EPSG:4548 recalc"
+        "Provisional geometry; EPSG:4548 recalc",
+        "Phase polygons may spatially overlap; areas are not summed across phases"
       ]
     },
     "phase_002_area_sqm": {
@@ -315,8 +326,13 @@
       ],
       "formula": "polygon_area(PHASE-002, EPSG:4548)",
       "confidence": "medium",
+      "definition_zh": "中期更新（PHASE-002）：众智园清河界面＋原点深化＋大钟寺站四象限，2028–2031，关联 JZ-02/JZ-03/JZ-04。",
+      "phase_id": "PHASE-002",
+      "phase_horizon": "2028-2031",
+      "related_jz_projects": ["JZ-02", "JZ-03", "JZ-04"],
       "assumptions": [
-        "Provisional geometry; EPSG:4548 recalc"
+        "Provisional geometry; EPSG:4548 recalc",
+        "Phase polygons may spatially overlap; areas are not summed across phases"
       ]
     },
     "phase_003_area_sqm": {
@@ -328,8 +344,29 @@
       ],
       "formula": "polygon_area(PHASE-003, EPSG:4548)",
       "confidence": "medium",
+      "definition_zh": "长期治理（PHASE-003）：廊道全线贯通＋端侧算力网络＋活动常态化，2032–2035+，关联 JZ-05/JZ-06。",
+      "phase_id": "PHASE-003",
+      "phase_horizon": "2032-2035+",
+      "related_jz_projects": ["JZ-05", "JZ-06"],
       "assumptions": [
-        "Provisional geometry; EPSG:4548 recalc"
+        "Provisional geometry; EPSG:4548 recalc",
+        "Phase polygons may spatially overlap; areas are not summed across phases"
+      ]
+    },
+    "phase_1_area_sqm": {
+      "status": "known",
+      "value": 2921251.337,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/phasing.geojson"
+      ],
+      "formula": "alias(phase_001_area_sqm)",
+      "confidence": "medium",
+      "definition_zh": "legacy alias：等同 phase_001_area_sqm（近期试点 PHASE-001）。勿与三阶段面积求和混用。",
+      "alias_of": "phase_001_area_sqm",
+      "assumptions": [
+        "Deprecated naming; prefer phase_001_area_sqm",
+        "Not a sum of all implementation phases"
       ]
     }
   }

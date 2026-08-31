@@ -12,6 +12,7 @@
       "warnings": [
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 4 consecutive evidence markers; attach no more than 3 to one claim; legacy proposal remains compatible and the viewer will condense it",
+        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 9 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 6 consecutive evidence markers; attach no more than 3 to one claim; legacy proposal remains compatible and the viewer will condense it",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 29 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/proposal.md: a paragraph/block contains 10 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
@@ -24,8 +25,10 @@
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/location-context.png: bilingual contract requires en display counterpart `assets/figures/location-context.en.png`; legacy v1 package remains compatible",
+        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/logo-naming-direction.png: bilingual contract requires en display counterpart `assets/figures/logo-naming-direction.en.png`; legacy v1 package remains compatible",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
+        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/regional-synergy.png: bilingual contract requires en display counterpart `assets/figures/regional-synergy.en.png`; legacy v1 package remains compatible",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/three-cores.png: bilingual contract requires en display counterpart `assets/figures/three-cores.en.png`; legacy v1 package remains compatible",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
@@ -52,8 +55,10 @@
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/key-areas.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/land-use-structure.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/location-context.png",
+        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/logo-naming-direction.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/metrics-evidence.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/mobility-bluegreen.png",
+        "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/regional-synergy.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/site-overview.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/technical-analysis-summary.png",
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/three-cores.png",
@@ -86,7 +91,7 @@
       "ai_package_stages": {
         "submissions/lijiaaaaa-bot/jingzhang-zhimai-belt": "formal"
       },
-      "total_bytes": 16749566,
+      "total_bytes": 16865638,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -147,6 +152,7 @@
         "site_area_sqm": 11412842.042,
         "green_ratio": 0.152,
         "public_space_ratio": 0.176,
+        "key_detailed_design_area_sqm": 3692680.72,
         "building_feature_count": 25.0,
         "building_footprint_area_sqm": 339750.0
       }
@@ -162,7 +168,7 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 20,
+        "known_metric_refs_required": 21,
         "proposal_format_version": "1",
         "evidence_contract": "legacy-exhaustive-inline",
         "proposal_reference_counts": {
@@ -170,7 +176,7 @@
           "standard": 6,
           "depth": 15,
           "data": 17,
-          "metric": 20
+          "metric": 21
         }
       }
     },
@@ -197,8 +203,10 @@
     "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/location-context.png: bilingual contract requires en display counterpart `assets/figures/location-context.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/logo-naming-direction.png: bilingual contract requires en display counterpart `assets/figures/logo-naming-direction.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/regional-synergy.png: bilingual contract requires en display counterpart `assets/figures/regional-synergy.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/assets/figures/three-cores.png: bilingual contract requires en display counterpart `assets/figures/three-cores.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/lijiaaaaa-bot/jingzhang-zhimai-belt/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",

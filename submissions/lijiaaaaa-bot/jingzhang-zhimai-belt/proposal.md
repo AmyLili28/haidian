@@ -35,11 +35,11 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 | **10 场景节点** | AI+ 公共服务、产业测试与日常体验的可运营落点 | 见下文场景表、10 张 AI 场景卡 |
 | **蓝绿复合环** | 绿地、公共空间与慢行网络联动 | [metric:green_ratio] [metric:public_space_ratio] |
 
-统筹研究 **43.6 km²** → 总体设计 **11.4 km²** [metric:coordinated_research_area_sqm] [metric:overall_design_area_sqm] → 重点区域 **368.4 ha** 三片详细设计 [metric:key_detailed_design_area_sqm]。
+统筹研究 **43.6 km²** → 总体设计 **11.4 km²** [metric:coordinated_research_area_sqm] [metric:overall_design_area_sqm] → 重点区域 **369.268 ha**（GeoJSON 复算 canonical；公告约 368.4 ha）三片详细设计 [metric:key_detailed_design_area_sqm] [metric:key_detailed_design_area_ha]。
 
 ## 三层范围工作框架
 
-方案按公告三层范围组织：统筹研究 **43.6 km²** 定 AI 创新链与城市形态判断；总体设计 **11.4 km²** 把判断落实为用地、建筑、道路、绿地与公共空间图层 [metric:coordinated_research_area_sqm] [metric:overall_design_area_sqm]；重点区域 **368.4 ha** 三片验证建筑体量、交通组织、慢行连通与 AI 场景可实施性 [metric:key_detailed_design_area_sqm] [data:geometry/key_areas.geojson#PROV-KEY-001]。三层在 `compliance_matrix.json` 中逐条映射公告 1.3–1.5 与 agent.1–agent.6，保证章节、图层、指标、A3/A0 与 HTML 证据闭环 [depth:three_level_scope_framework] [depth:overall_spatial_structure] [standard:MOHURD-URBAN-DESIGN-MEASURES] [standard:MOHURD-CONTROL-DETAILED-PLANNING]。
+方案按公告三层范围组织：统筹研究 **43.6 km²** 定 AI 创新链与城市形态判断；总体设计 **11.4 km²** 把判断落实为用地、建筑、道路、绿地与公共空间图层 [metric:coordinated_research_area_sqm] [metric:overall_design_area_sqm]；重点区域 **369.268 ha**（canonical 复算，公告约 368.4 ha）三片验证建筑体量、交通组织、慢行连通与 AI 场景可实施性 [metric:key_detailed_design_area_sqm] [metric:key_detailed_design_area_ha] [data:geometry/key_areas.geojson#PROV-KEY-001]。三层在 `compliance_matrix.json` 中逐条映射公告 1.3–1.5 与 agent.1–agent.6，保证章节、图层、指标、A3/A0 与 HTML 证据闭环 [depth:three_level_scope_framework] [depth:overall_spatial_structure] [standard:MOHURD-URBAN-DESIGN-MEASURES] [standard:MOHURD-CONTROL-DETAILED-PLANNING]。
 
 统筹研究不新增伪精确红线，而回接 [data:geometry/land_use.geojson#LU-001]、[data:geometry/public_space.geojson#PUBLIC-001] 说明产业策略如何落到可见空间结构；总体设计按 [standard:MOHURD-ARCH-DESIGN-DEPTH-2016] 把控规深度内容拆成可审查对象；现状诊断与缺资料事项以 [depth:existing_conditions_diagnosis] 约束，凡无官方控规条件处一律标注「待正式数据确认」，不以推测值冒充审定指标。
 
@@ -183,7 +183,7 @@ agent 生成的AI治理建议必须遵守数据最小化、公开来源、可解
 | JZ-05 | AI公共服务与端侧算力节点 | 新基建/公共服务 | 能源、算力、安全和运营主体 | [data:geometry/constraints.geojson#CONSTRAINTS] |
 | JZ-06 | 全球AI活动周公共路线 | 运营/品牌 | 公共空间许可、活动安全、版权清权 | [data:geometry/phasing.geojson#PHASE-001] |
 
-分期与 100 天征集设计周期区分：征集周期是成果提交时限，实施分期是城市更新推进路径。本方案提出近期试点（PHASE-001，[metric:phase_001_area_sqm]）、中期更新（PHASE-002，[metric:phase_002_area_sqm]）与长期治理（PHASE-003，[metric:phase_003_area_sqm]），合计 [metric:phase_1_area_sqm]；轻量设施与运营活动可先启动，正式控规、市政、交通与权属确认后再深化建设。年度活动体系、开发者社区运营、场景开放日、公共体验路线与国际传播机制见 agent.6 节，含运营对象、频率、责任边界与风险说明。
+分期与 100 天征集设计周期区分：征集周期是成果提交时限，实施分期是城市更新推进路径。本方案提出近期试点（PHASE-001，[metric:phase_001_area_sqm]）、中期更新（PHASE-002，[metric:phase_002_area_sqm]）与长期治理（PHASE-003，[metric:phase_003_area_sqm]）；三阶段 polygon 可能空间重叠，**不得**将面积简单求和。`compliance_matrix.json#operational_governance` 将 JZ-01 至 JZ-06 与四季活动体系交叉映射。轻量设施与运营活动可先启动，正式控规、市政、交通与权属确认后再深化建设。年度活动体系、开发者社区运营、场景开放日、公共体验路线与国际传播机制见 agent.6 节，含运营对象、频率、责任边界与风险说明。
 
 ## 指标体系、面积复算与合规矩阵
 
@@ -224,7 +224,98 @@ agent 生成的AI治理建议必须遵守数据最小化、公开来源、可解
 
 ### 专项六 全球 AI 创新活动体系与长期运营
 
-年度活动体系包括：春季开源发布周、夏季 AI 场景开放日、秋季国际路演季、冬季开发者冬令营。开发者社区运营依托原点社区开源发布厅与线上贡献积分；场景开放运营由聚合统计与人工复核保障隐私；公共体验路线「全球 AI 活动周路线」串联 JZ-01 至 JZ-06 更新项目，见 [data:geometry/phasing.geojson#PHASE-001] 与 [depth:phasing_implementation]。国际传播与招引转化机制写为运营概念，不承诺政府活动安排或投资落地。
+年度活动体系包括：春季开源发布周、夏季 AI 场景开放日、秋季国际路演季、冬季开发者冬令营。开发者社区运营依托原点社区开源发布厅与线上贡献积分；场景开放运营由聚合统计与人工复核保障隐私；公共体验路线「全球 AI 活动周路线」串联 JZ-01 至 JZ-06 更新项目，见 [data:geometry/phasing.geojson#PHASE-001] 与 [depth:phasing_implementation] 及 `operational_governance.json`。国际传播与招引转化机制写为运营概念，不承诺政府活动安排或投资落地。
+
+## 品牌识别、区域协同与运营体系
+
+本节回应 agent.1、agent.4、agent.5、agent.6 对命名体系、区域协同、荣誉展示、组件库与长期运营的要求；结构化数据嵌入 `compliance_matrix.json`（`regional_synergy`、`component_library`、`operational_governance` 节）。
+
+### 英文命名层级（English Naming Hierarchy）
+
+| 层级 | 中文 | English | 用途 |
+| --- | --- | --- | --- |
+| 主名称 | 京张智脉共生带 | Jingzhang Intelligence Pulse Symbiosis Belt | 方案总称、国际传播 |
+| 简称 | 智脉带 | JZ Pulse Belt | 导视、活动品牌 |
+| 慢行主轴 | 京张慢行脊 | Jingzhang Slow-Mobility Spine | 空间结构、线路叙事 |
+| 三核① | 众智园 AI 自主创新加速区 | Zhongzhiyuan AI Innovation Acceleration Zone | 重点区详图、产业展示 |
+| 三核② | 北京 AI 原点社区 | Beijing AI Origin Community | 近校转化、开源社区 |
+| 三核③ | 大钟寺 AI 产业聚集区 | Dazhongsi AI Industry Cluster | 站城一体、国际路演 |
+| 朝圣地标 | 京张 AI 记忆站 | JZ AI Memory Station | 铁路文脉节点 |
+| 活动品牌 | 全球 AI 活动周 | Global AI Activity Week | 四季活动体系总称 |
+
+![Logo 与命名方向示意](assets/figures/logo-naming-direction.png)
+
+主色：深蓝 `#172235`、京张金 `#c79838`、AI 紫 `#4f46e5`。Logo 方向为「铁路轨枕 × 神经网络节点 × 慢行环」抽象组合，强调历史文脉与 AI 原生协作的共生关系 [depth:overall_spatial_structure]。
+
+### 区域创新协同
+
+方案与北纬社区、未来科学城、怀柔科学城、北京经开区及京津冀形成创新协同回路；机制为概念建议，不构成跨区实施承诺。
+
+![区域创新协同关系图](assets/figures/regional-synergy.png)
+
+| 协同节点 | 方向 | 空间/项目锚点 | 机制摘要 |
+| --- | --- | --- | --- |
+| 中关村 AI 原点社区 | 高校策源与开源协作 | [data:geometry/key_areas.geojson#PROV-KEY-002] | 近校转化、开源发布周、开发者社区 |
+| 众智园加速区 | 全栈自主与安全治理 | [data:geometry/key_areas.geojson#PROV-KEY-001] | 标准工作坊、安全沙盒、清河界面 |
+| 大钟寺聚集区 | 站城一体智能经济 | [data:geometry/key_areas.geojson#PROV-KEY-003] | 四象限连通、数据要素、国际路演 |
+| 北纬社区 | 居住—学习—创新复合 | [data:geometry/public_space.geojson#PUBLIC-001] | AI 生活服务样板街、低扰动更新 |
+| 未来科学城 | 算力与硬科技测试 | JZ-05 | 端侧算力驿站、模型红队测试联动 |
+| 怀柔科学城 | 大科学装置策源 | 场景 01 开源发布厅 | 成果发布、国际路演季叙事 |
+| 北京经开区 | 智能制造场景落地 | 场景 08 数据要素会客厅 | 智能终端展示、要素流通界面 |
+| 京津冀协同 | 要素流动与活动传播 | JZ-06 | 全球 AI 活动周路线、开发者冬令营 |
+
+完整节点定义见 `compliance_matrix.json#regional_synergy`（RS-001 至 RS-008）。
+
+### 荣誉展示体系（Honor Display System）
+
+3 类荣誉展示与 3 个朝圣地标联动，均须清权与人工复核：
+
+| 类型 | 名称 | 空间载体 | 展示内容 | 隐私边界 |
+| --- | --- | --- | --- | --- |
+| 铁路文脉 | 京张 AI 记忆站 | 清华园火车站节点 | 铁路时间轴、开源贡献墙 | 不采集个人行为轨迹 |
+| 治理展示 | 安全治理沙盒廊 | 众智园 GREEN-001 | 标准制定、可信评测案例 | 测试数据脱敏后展示 |
+| 国际发布 | 全球 AI 路演客厅 | 大钟寺 PUBLIC-001 | 智能体、终端、内容消费发布 | 企业标识须清权 |
+| 社区荣誉 | 开源贡献积分墙 | 原点社区 PUBLIC-001 | 聚合贡献统计、项目徽章 | 仅授权贡献与聚合统计 |
+
+荣誉展示组件纳入 `compliance_matrix.json#component_library`（PSC-02、PSC-06），与 [depth:blue_green_public_space] 校核。
+
+### 公共空间组件库（Public Space Component Library）
+
+`compliance_matrix.json#component_library` 定义 8 类可复用公共空间组件，覆盖导视、荣誉、沙盒、算力、路演、遗产、蓝绿与活动模块：
+
+| 组件 ID | 名称 | 类型 | GeoJSON 锚点 |
+| --- | --- | --- | --- |
+| PSC-01 | 慢行断点诊断节点 | 传感+导视 | [data:geometry/roads.geojson#ROAD-001] |
+| PSC-02 | 开源贡献荣誉墙 | 荣誉展示 | [data:geometry/public_space.geojson#PUBLIC-001] |
+| PSC-03 | 安全治理沙盒廊 | 展览+工作坊 | [data:geometry/green_space.geojson#GREEN-001] |
+| PSC-04 | 端侧算力驿站 | 微基建 | [data:geometry/constraints.geojson#CONSTRAINTS-001] |
+| PSC-05 | 国际路演客厅 | 活动场地 | [data:geometry/public_space.geojson#PUBLIC-001] |
+| PSC-06 | 京张记忆站导视 | 遗产导视 | [data:geometry/green_space.geojson#GREEN-001] |
+| PSC-07 | 蓝绿海绵复合带 | 景观基建 | [data:geometry/green_space.geojson#GREEN-001] |
+| PSC-08 | 场景开放日模块 | 快闪运营 | [data:geometry/phasing.geojson#PHASE-001] |
+
+### 运营治理矩阵（JZ-01–06 × 四季活动）
+
+`compliance_matrix.json#operational_governance` 将 6 项更新项目与四季活动交叉映射：
+
+| 项目 | 春季 | 夏季 | 秋季 | 冬季 | 运营主体（概念） |
+| --- | --- | --- | --- | --- | --- |
+| JZ-01 慢行断点缝合 | 筹备 | 试点 | 复盘 | 维护 | 公共空间运营联合体 |
+| JZ-02 清河创新界面 | 方案 | 建设 | 发布 | 维护 | 园区公共环境运营 |
+| JZ-03 近校转化街 | 发布 | 运营 | 路演 | 冬令营 | 高校—园区联合运营 |
+| JZ-04 四象限连通 | 方案 | 试点 | 发布 | 维护 | 站城一体运营 |
+| JZ-05 端侧算力节点 | 筹备 | 试点 | 复盘 | 运营 | 新基建与公服联合体 |
+| JZ-06 活动周路线 | 发布 | 运营 | 高峰 | 总结 | 活动品牌运营 |
+
+四季活动：春季开源发布周、夏季 AI 场景开放日、秋季国际路演季、冬季开发者冬令营。所有运营机制为概念建议，责任主体、资金与审批路径待正式确认。
+
+### 英文传播单元（English Communications Unit）
+
+**Tagline:** *From Rails to Intelligence: Where Heritage Meets AI Innovation.*
+
+**Introduction (128 words):** The Jingzhang Intelligence Pulse Symbiosis Belt reimagines the century-old Jingzhang Railway corridor as a continuous public realm for AI-native urban life. Three innovation anchors—Zhongzhiyuan, the Beijing AI Origin Community, and Dazhongsi—connect through the Jingzhang Slow-Mobility Spine and ten operable AI scenario nodes. The belt integrates open-source collaboration, safety governance sandboxes, edge compute service points, and global roadshow lounges within a blue-green composite loop. Provisional geometry supports design discussion; all regulatory controls remain pending official confirmation. This concept proposal offers a transferable framework for professional teams to deepen land use, mobility, public space components, and seasonal operation—without claiming statutory approval or guaranteed implementation.
+
+**Core English Names:** Jingzhang Intelligence Pulse Symbiosis Belt · JZ Pulse Belt · Jingzhang Slow-Mobility Spine · Zhongzhiyuan AI Innovation Acceleration Zone · Beijing AI Origin Community · Dazhongsi AI Industry Cluster · Global AI Activity Week · JZ AI Memory Station
 
 ## 风险、版权与合规说明
 

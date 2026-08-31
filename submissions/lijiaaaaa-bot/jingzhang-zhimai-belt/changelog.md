@@ -1,5 +1,22 @@
 # 方案迭代记录
 
+## v0.4 - 2026-08-31
+
+### 改动摘要（AI review 10 项修复）
+
+1. **metrics.json**：重点区域 canonical 口径 369.268 ha；新增 `key_detailed_design_area_ha`；phase_001/002/003 补全 definition、horizon、JZ 关联；`phase_1_area_sqm` 修正为 phase_001 alias。
+2. **assumptions.json**：A-CONTROLS-001 将 green_ratio/public_space_ratio 移出法定控规项，标注为设计复算指标。
+3. **proposal.md**：新增英文命名层级、区域协同表、荣誉展示体系、公共空间组件库、运营治理矩阵（JZ-01–06 × 四季）、英文传播单元（tagline + 128w intro）。
+4. **结构化数据**：区域协同、组件库、运营治理矩阵嵌入 `compliance_matrix.json`。
+5. **新图件**：`regional-synergy.png`、`logo-naming-direction.png`（matplotlib 生成）。
+6. **HTML 字体**：`visual/index.html`、`report/proposal.html` 离线 CJK 字体栈（PingFang SC / Hiragino Sans GB / Microsoft YaHei / Noto Sans SC）。
+7. **A0 PDF**：仓库无 A0 再生成脚本，保留现有 `drawings/a0-boards.pdf`；变更记录于本 changelog。
+8. **self_check**：upstream `self_check_submission.py --mark-self-checked` 刷新。
+
+### 采纳反馈
+
+- AI review CHANGES_REQUESTED（68/100）十项 blocking repair 逐项落地。
+
 ## v0.3 - 2026-08-28
 
 ### 改动摘要
