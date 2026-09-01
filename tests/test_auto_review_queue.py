@@ -18,6 +18,7 @@ from auto_review_queue import (  # noqa: E402
     apply_review,
     ci_state,
     created_at_on_or_before,
+    create_review_worktree,
     decide,
     has_current_head_formal_review,
     load_cached_review,
@@ -142,6 +143,32 @@ class AutoReviewQueueTests(unittest.TestCase):
             self.assertFalse(
                 has_current_head_formal_review("open-city-ai/haidian", 42, head_sha, ROOT)
             )
+
+    def test_review_worktree_uses_sparse_checkout(self) -> None:
+        worktree = ROOT / ".pr-worktree" / "test"
+        with patch("auto_review_queue.run") as run_mock:
+            create_review_worktree(
+                ROOT,
+                worktree,
+                "refs/review/head",
+                "submissions/alice/plan",
+            )
+        self.assertEqual(
+            [
+                "git",
+                "worktree",
+                "add",
+                "--detach",
+                "--no-checkout",
+                str(worktree),
+                "refs/review/head",
+            ],
+            run_mock.call_args_list[0].args[0],
+        )
+        sparse_command = run_mock.call_args_list[1].args[0]
+        self.assertEqual(["git", "sparse-checkout", "set", "--no-cone", "--"], sparse_command[:5])
+        self.assertIn("submissions/alice/plan", sparse_command)
+        self.assertIn("brief/site-package/agent_taskbook.json", sparse_command)
 
     def test_accepts_score_at_threshold_when_intake_ready_even_if_not_publishable(self) -> None:
         review = {
