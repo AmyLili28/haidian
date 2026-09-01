@@ -110,7 +110,7 @@
     {
       "path": "assets/figures/metrics-evidence.png",
       "language": "zh",
-      "sha256": "5f3afcefa3d07256f9d8c60250443fd9b846a7714d86d698d778254b094ce28c",
+      "sha256": "d8e351690adba5434cf997f8bc0460676d4d166290d13d7f75c557ae38b03637",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -123,7 +123,7 @@
     {
       "path": "assets/figures/metrics-evidence.en.png",
       "language": "en",
-      "sha256": "4f3e8963deebde1b82f432ff498a8e0741426c5bfe3627c7f8d1f74522eb760e",
+      "sha256": "5324cf8982c190d70a0b2bb7c803872dfc3382298c5980cccca5511ca4e463d6",
       "checks": {
         "tofu_glyphs": 0,
         "title_clipping": "none",
@@ -164,7 +164,7 @@
     {
       "path": "drawings/a3-booklet.pdf",
       "language": "zh",
-      "sha256": "7c836c6f1cddb0489b0c211f8838b940e4d080f7f7a1a69ed5e17497cbd4509b",
+      "sha256": "d56bcf6dc738428bffc6b4a7b444883261087bd7d9d412b6debb98fb8ec22b02",
       "checks": {
         "pages_rendered": "all",
         "title_clipping": "none (fit-to-width measured)",
@@ -176,7 +176,7 @@
     {
       "path": "drawings/a3-booklet.en.pdf",
       "language": "en",
-      "sha256": "d22db0064cdf6e5d0e5a7056c0b947844205154f420bd69e1f1a1b601ae26842",
+      "sha256": "e94b347453a902d31e8be77ed04c88bf1e1186165a7e25497a2f9d1becddf90a",
       "checks": {
         "pages_rendered": "all",
         "title_clipping": "none (fit-to-width measured)",
@@ -188,7 +188,7 @@
     {
       "path": "drawings/a0-boards.pdf",
       "language": "zh",
-      "sha256": "bb54a101c1f3fb256be002614146c60a819df8a8214d7c6142a64cb4a885607c",
+      "sha256": "78b21096fe18d41556541ee9137e56ada3e5ae8c46291dd7fe0094e225e0913b",
       "checks": {
         "pages_rendered": "all",
         "title_clipping": "none (fit-to-width measured)",
@@ -200,7 +200,7 @@
     {
       "path": "drawings/a0-boards.en.pdf",
       "language": "en",
-      "sha256": "efa817b461a40170a173412d7c605ef80ed7a9eb3315843fd29c3880abe7c1e3",
+      "sha256": "ccb81601fff5c7846ad87fe48dd9816026d39b6e5ad5b5f55f66b7dc599e7341",
       "checks": {
         "pages_rendered": "all",
         "title_clipping": "none (fit-to-width measured)",
