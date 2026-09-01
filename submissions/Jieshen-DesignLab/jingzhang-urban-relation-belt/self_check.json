@@ -65,7 +65,7 @@
       "ai_package_stages": {
         "submissions/Jieshen-DesignLab/jingzhang-urban-relation-belt": "formal"
       },
-      "total_bytes": 40574678,
+      "total_bytes": 40562095,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -151,7 +151,7 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 18,
+          "source": 17,
           "standard": 5,
           "depth": 15,
           "data": 11,

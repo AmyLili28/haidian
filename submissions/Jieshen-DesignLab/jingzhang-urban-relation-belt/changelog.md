@@ -3,6 +3,19 @@
 本文件记录本投稿包的版本变化、已采纳的反馈与待复核事项。权威数据仍以包内 `geometry/*.geojson`、
 `metrics.json`、`sources.json`、`assumptions.json` 与三个矩阵为准。
 
+## v0.1.3 - 2026-09-01
+
+### 修复 / Fixed（回应 2026-09-01 AI 评审的 3 项阻断）
+
+- 版权：撤除文册第 24 页的市规自委公开发布照片（未取得可核验的再分发许可），换为参赛方自绘的蓝景地块
+  区位示意图（底图 © OpenStreetMap contributors，ODbL 1.0）；`proposal.md`／`proposal.en.md`、
+  `sources.json`（删除 `OFFICIAL-PHOTO-LANJING-BMPNR-20260612`）与 `report/copyright_statement.md`
+  统一为「已移除」单一状态，OFFICIAL_PHOTO_USED = NO。
+- 可读性：修复 `report/proposal.html` 离线中文渲染——字体注入脚本此前误改了 `font-family` 属性名，
+  导致内嵌 Noto Sans SC 子集从未被应用；现已修正并重新注入，正文、标题、表格、注释离线均以内嵌字体显示。
+- 可读性：修复 `drawings/a3-booklet.en.pdf` 首页顶部四色母公式标题重叠——该标题块改为按实测宽度自动
+  排布并缩字号，页面其余几何、图位与中英页序不变；英文 A3 重新导出。
+
 ## v0.1.2 - 2026-08-31
 
 ### 修正 / Fixed

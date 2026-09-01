@@ -75,16 +75,15 @@ License 1.0 提供（<https://www.openstreetmap.org/copyright>）。由该数据
 
 ## 3. 现场影像 / Site photographs
 
-最终文册第 24 页使用四张现场影像：三张取自 Wikimedia Commons（`sources.json` 中登记为
-`B14-COMMONS-IMAGERY`），许可明确、可署名，页面上**逐张印出作者与许可**；另一张为政府公开发布
-影像（见表末行与 `OFFICIAL-PHOTO-LANJING-BMPNR-20260612`），按诚实口径登记。
+最终文册第 24 页使用三张现场影像，均取自 Wikimedia Commons（`sources.json` 中登记为
+`B14-COMMONS-IMAGERY`），许可明确、可署名，页面上**逐张印出作者与许可**；第四格为参赛方自绘的
+蓝景地块区位示意图（底图 © OpenStreetMap contributors，ODbL 1.0，见第 2 节 OSM 条目），不含任何第三方影像。
 
 | 文件 | 内容 | 作者 | 许可 | 来源 | 修改方式 | 取得日期 |
 | --- | --- | --- | --- | --- | --- | --- |
 | `Exit_A_of_Dazhong_Si_Station_(Feb_2025).jpg` | 大钟寺站 A 口（2025-02-22 摄） | RobertSchwandI | **CC BY-SA 4.0** | <https://commons.wikimedia.org/wiki/File:Exit_A_of_Dazhong_Si_Station_(Feb_2025).jpg> | 仅等比缩放与 JPEG 重编码置入版面，未裁切、未调色、未合成 | 2026-08-31 |
 | `Exit_B_of_Dazhongsi_Station_(20210409120947).jpg` | 大钟寺站 B 口（2021-04-09 摄） | N509FZ | **CC BY-SA 4.0** | <https://commons.wikimedia.org/wiki/File:Exit_B_of_Dazhongsi_Station_(20210409120947).jpg> | 同上 | 2026-08-31 |
 | `Outside_Dazhongsi_Station_in_Beijing.JPG` | 大钟寺站站外 | Siyuwj | **CC BY-SA 3.0** | <https://commons.wikimedia.org/wiki/File:Outside_Dazhongsi_Station_in_Beijing.JPG> | 同上 | 2026-08-31 |
-| `04_蓝景丽家改造前照片_规自委发布_20260612.jpg` | 蓝景丽家地块改造前（更新窗口期语境） | 北京市规划和自然资源委员会（公开发布，2026-06-12） | **政府公开发布影像；已注明来源；再分发许可未经独立核实** / publicly released government image; source credited; reuse permission not independently verified | <https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zxzt/csgx/csgxfjszt/fjsztalzs/202606/t20260612_4698370.html> | 仅等比缩放与 JPEG 压缩 | 2026-08-31 |
 
 **CC BY-SA 归属与同协议共享声明：** 上述三张影像分别依 CC BY-SA 4.0 与 CC BY-SA 3.0 提供；本包在
 使用处保留原作者署名、许可名称与来源链接。任何人再使用这三张影像，须继续保留同样的署名与许可，
@@ -151,7 +150,7 @@ License 1.0 提供（<https://www.openstreetmap.org/copyright>）。由该数据
 | 素材 | 原位置 | 排除原因 | 处理方式 |
 | --- | --- | --- | --- |
 | 街景平台全景截图（`09_站前全景尝试.png`，百度全景，2026-08 截取） | 主线现场观察页 BOARD_14 | **商业地图平台截图，无可援引的再分发许可**；平台服务条款未授权第三方在投稿成果中复制与公开展示 | 连同 BOARD_14 整页从 A3 文册与 A0 展板中移除 |
-| 蓝景丽家地块改造前照片（市规自委 2026-06-12 公开发布） | 主线现场观察页 BOARD_14 | 官方公开发布不等于授予再分发许可 | **2026-08-31 裁决后移出本表**：按“政府公开发布影像、注明来源、再分发许可未经独立核实”的诚实口径在第 3 节登记，并在最终文册第 24 页使用 |
+| 蓝景丽家地块改造前照片（市规自委 2026-06-12 公开发布，`04_蓝景丽家改造前照片_规自委发布_20260612.jpg`） | 文册第 24 页第三格（2026-08-31 曾短暂登记为“再分发许可未经独立核实”） | 官方公开发布不等于授予再分发许可，且未取得书面授权 | **2026-09-01 评审后彻底移除**：从中英 A3 文册、HTML 与全部必交成果撤下；替代素材＝参赛方自绘蓝景地块区位示意图（作者 Jieshen-DesignLab，底图 © OpenStreetMap contributors，ODbL 1.0；文件 `90_P24_REPLACEMENT_ASSET/lanjing_parcel_osm.png`）；适用文件：`drawings/a3-booklet.pdf` 与 `drawings/a3-booklet.en.pdf` 第 24 页。`sources.json` 中对应条目已删除。 |
 | 上海定位漂移的街景测试截图 | 主线工作过程 | 定位错误且无许可，主线已判废 | 从未进入成果版 |
 
 **最终版口径：** 最终 A3 文册为 28 页设计文册，其第 24 页《T1 场地事实与现场》直接承载现场影像
