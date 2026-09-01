@@ -340,7 +340,7 @@
       "published_or_effective_at": "2026-01-01",
       "retrieved_at": "2026-08-31",
       "relevant_terms": "As between the user and OpenAI, the user owns Output and OpenAI assigns any rights it has in Output. The user remains responsible for Input rights; output may not be unique.",
-      "usage": "Rights basis for the sixteen participant-authored Imagegen concept outputs included in the current package.",
+      "usage": "Rights basis for the fourteen participant-authored Imagegen concept outputs and four participant-authored bilingual analytical plates included in the current package.",
       "limitations": "Does not clear an input the user had no right to provide, does not guarantee uniqueness, and is not a legal opinion."
     },
     {
@@ -389,7 +389,7 @@
       "license_url": "https://openfontlicense.org/open-font-license-official-text/",
       "license_or_terms": "SIL Open Font License 1.1 permits use, study, copy, merge, embedding, modification, redistribution, and sale with software subject to the license; the font may not be sold by itself.",
       "rights_review_status": "cleared_for_embedding_and_attributed_package_redistribution_under_ofl_1_1",
-      "usage": "Approved offline font source. A WOFF2 subset with SHA-256 0432B34268540DDEFD75F7EF7C16AE77CBDA91BDE8B77EEB5AA2570DC40A3E41 is embedded as a data URI in both report HTML files and both visual HTML files.",
+      "usage": "Approved offline font source. A WOFF2 subset with SHA-256 B10026B8DD2475868696E1FD99CB2C6A2019F0EB95D27447F7D6622B2BEA3116 is embedded as a data URI in both report HTML files and both visual HTML files.",
       "limitations": "The submission carries the subset inside the four offline HTML files rather than as a standalone font file because the participant asset whitelist does not admit WOFF2 or text-license sidecars. The source font and license terms remain registered here and in report/copyright_statement.md; the embedded subset is a presentation dependency, not planning evidence."
     },
     {
@@ -397,10 +397,11 @@
       "path": "visual/assets/design-media-index.json",
       "rights_note": "assets/media/design-media-rights.md",
       "publisher": "SunLight87 submission",
-      "source_type": "participant_authored_imagegen_concept_media",
+      "source_type": "participant_authored_generated_and_composed_concept_media",
       "generated_at": "2026-08-29/2026-08-30 (Asia/Shanghai)",
-      "generated_media_count": 16,
-      "four_k_media_count": 4,
+      "registered_design_media_count": 22,
+      "imagegen_media_count": 14,
+      "participant_composed_analytical_plate_count": 4,
       "public_basemap_composite_count": 4,
       "rights_review_status": "cleared_for_current_competition_submission_repository_display_and_attributed_package_redistribution",
       "terms_urls": [
@@ -409,7 +410,7 @@
       ],
       "license_or_terms": "OpenAI Terms of Use published/effective 2026-01-01: as between the user and OpenAI, the user owns Output and OpenAI assigns any rights it has in Output; the user remains responsible for Input rights and output may not be unique. OpenAI Service Terms updated 2026-06-12 require necessary rights and consents for visual inputs and people. Current clearance is scoped to this hashed competition/repository package, not a blanket legal opinion or unrelated downstream reuse.",
       "usage": "Concept-only communication for the 11.41 km² overall design, north/central/south area studies, representative node narratives, design strategies, sections, aerial views and Agent workflow diagrams; four plan-oriented package files carry locally rendered OpenFreeMap/OSM public basemaps with participant concept overlays.",
-      "limitations": "The 16 Imagegen items are concept expressions, not site photographs, survey drawings, official redlines, statutory plans, engineering drawings or proof of implementation. The only explicitly logged local site-image inputs for the early north/central/south site-grounded concepts are three processed Sentinel-2 crops whose hashes are registered in design-media-index.json; no Esri/Vantor image is recorded as an Imagegen upload. The later Esri/Vantor mosaic remained a local human plausibility reference and is excluded with all crops, tiles, service responses and reconstructable cache. The four packaged public-basemap composites are display maps with participant overlays, not official boundary or survey evidence. None may establish geometry, building heights, water extent, ownership, approval, field performance or public acceptance."
+      "limitations": "The 18 participant-authored generated/composed concept outputs (14 Imagegen items and four bilingual analytical plates) are concept expressions, not site photographs, survey drawings, official redlines, statutory plans, engineering drawings or proof of implementation. The only explicitly logged local site-image inputs for the early north/central/south site-grounded concepts are three processed Sentinel-2 crops whose hashes are registered in design-media-index.json; no Esri/Vantor image is recorded as an Imagegen upload. The later Esri/Vantor mosaic remained a local human plausibility reference and is excluded with all crops, tiles, service responses and reconstructable cache. The four packaged public-basemap composites are display maps with participant overlays, not official boundary or survey evidence. None may establish geometry, building heights, water extent, ownership, approval, field performance or public acceptance."
     },
     {
       "id": "MAP-OPENFREEMAP-OVERALL-20260830",
@@ -516,7 +517,8 @@
       "source_type": "public_photo_with_cc_by_sa_4_0",
       "retrieved_at": "2026-08-28",
       "captured_at": "2022-08-08T11:30:55+08:00",
-      "ppt_slide": "S14",
+      "ppt_slide": null,
+      "historical_ppt_slide": "S14",
       "source_file_name": "Xueqing Rd at Linyedaxue N Rd (20220808113055).jpg",
       "source_manifest_ref": "workbench/site-photo-materials/2026-08-28/acquisition/source-manifest.json#assets[asset_id=GND-NORTH-XUEQING-LINYEDAXUE-20220808]",
       "source_bytes": 12842041,
@@ -525,12 +527,12 @@
       "display_coordinates_epsg4326": [116.3461, 40.008775],
       "coordinate_order": "longitude,latitude",
       "attribution": "N509FZ, Xueqing Rd at Linyedaxue N Rd (20220808113055).jpg, Wikimedia Commons, CC BY-SA 4.0",
-      "transformation": "Cropped to the inherited external-PPT S14 image frame; no generative alteration.",
+      "transformation": "Historical audit record only; removed from the current v4.3 PPT and replaced by participant-generated concept media.",
       "license_or_terms": "CC BY-SA 4.0; attribution, license link and same-license/share-alike obligations apply. Third-party people, vehicles, signs, buildings and property rights require separate review.",
-      "usage": "S14 north-area context reference for street section, planting and first-floor interface; not evidence of the provisional focus-area boundary or a 2026 field survey.",
-      "limitations": "Public context photograph only; capture date, viewpoint and currentness do not establish present conditions, ownership, survey, approval or design authorization. This source is referenced in the external PPT and is not copied into the repository submission package.",
-      "package_asset_status": "external_ppt_reference_only",
-      "rights_review_status": "external_ppt_only_not_in_repository_package; cc_by_sa_4_0_attribution_recorded; excluded_from_current_package_clearance"
+      "usage": "Historical source audit only; no current PPT slide or repository artifact depends on this record.",
+      "limitations": "Removed from the current v4.3 PPT and excluded from the repository submission package; it cannot support current-condition, ownership, survey, approval, or design-authorization claims.",
+      "package_asset_status": "historical_reference_removed_from_current_ppt",
+      "rights_review_status": "not_in_current_ppt_or_repository_package"
     },
     {
       "id": "PHOTO-WIKIMEDIA-CENTRAL-WUDAOKOU-20250212",
@@ -541,7 +543,8 @@
       "source_type": "public_photo_with_cc_by_sa_4_0",
       "retrieved_at": "2026-08-28",
       "captured_at": "2025-02-12T15:57:08+08:00",
-      "ppt_slide": "S18",
+      "ppt_slide": null,
+      "historical_ppt_slide": "S18",
       "source_file_name": "U-Center, Wudaokou (20250212155708).jpg",
       "source_manifest_ref": "workbench/site-photo-materials/2026-08-28/acquisition/source-manifest.json#assets[asset_id=GND-CENTRAL-WUDAOKOU-UCENTER-20250212]",
       "source_bytes": 8893959,
@@ -550,12 +553,12 @@
       "display_coordinates_epsg4326": [116.331703, 39.991375],
       "coordinate_order": "longitude,latitude",
       "attribution": "N509FZ, U-Center, Wudaokou (20250212155708).jpg, Wikimedia Commons, CC BY-SA 4.0",
-      "transformation": "Cropped to the inherited external-PPT S18 image frame; no generative alteration.",
+      "transformation": "Historical audit record only; removed from the current v4.3 PPT and replaced by participant-generated concept media.",
       "license_or_terms": "CC BY-SA 4.0; attribution, license link and same-license/share-alike obligations apply. Commercial signs, people, vehicles, buildings and property rights require separate review.",
-      "usage": "S18 central-area context reference for commercial frontage and public-life interface; not evidence of the provisional focus-area boundary.",
-      "limitations": "Public context photograph only; capture date, viewpoint and currentness do not establish present conditions, ownership, survey, approval or design authorization. This source is referenced in the external PPT and is not copied into the repository submission package.",
-      "package_asset_status": "external_ppt_reference_only",
-      "rights_review_status": "external_ppt_only_not_in_repository_package; cc_by_sa_4_0_attribution_recorded; excluded_from_current_package_clearance"
+      "usage": "Historical source audit only; no current PPT slide or repository artifact depends on this record.",
+      "limitations": "Removed from the current v4.3 PPT and excluded from the repository submission package; it cannot support current-condition, ownership, survey, approval, or design-authorization claims.",
+      "package_asset_status": "historical_reference_removed_from_current_ppt",
+      "rights_review_status": "not_in_current_ppt_or_repository_package"
     },
     {
       "id": "PHOTO-WIKIMEDIA-SOUTH-GRAND-BELL-20240125",
@@ -566,7 +569,8 @@
       "source_type": "public_photo_with_cc_by_sa_4_0",
       "retrieved_at": "2026-08-28",
       "captured_at": "2024-01-25T14:22:11+08:00",
-      "ppt_slide": "S22",
+      "ppt_slide": null,
+      "historical_ppt_slide": "S22",
       "source_file_name": "Entrance of Grand Bell Temple (20240125142211).jpg",
       "source_manifest_ref": "workbench/site-photo-materials/2026-08-28/acquisition/source-manifest.json#assets[asset_id=GND-SOUTH-GRAND-BELL-20240125]",
       "source_bytes": 3986307,
@@ -575,12 +579,12 @@
       "display_coordinates_epsg4326": [116.332104, 39.966644],
       "coordinate_order": "longitude,latitude",
       "attribution": "N509FZ, Entrance of Grand Bell Temple (20240125142211).jpg, Wikimedia Commons, CC BY-SA 4.0",
-      "transformation": "Cropped to the inherited external-PPT S22 image frame; no generative alteration.",
+      "transformation": "Historical audit record only; removed from the current v4.3 PPT and replaced by participant-generated concept media.",
       "license_or_terms": "CC BY-SA 4.0; attribution, license link and same-license/share-alike obligations apply. Cultural-heritage, people, signs and venue/property rights require separate review.",
-      "usage": "S22 south-area context reference for heritage-entry atmosphere and public-space interface; not evidence of a station boundary or underground condition.",
-      "limitations": "Public context photograph only; capture date, viewpoint and currentness do not establish present conditions, heritage control line, ownership, survey, approval or design authorization. This source is referenced in the external PPT and is not copied into the repository submission package.",
-      "package_asset_status": "external_ppt_reference_only",
-      "rights_review_status": "external_ppt_only_not_in_repository_package; cc_by_sa_4_0_attribution_recorded; excluded_from_current_package_clearance"
+      "usage": "Historical source audit only; no current PPT slide or repository artifact depends on this record.",
+      "limitations": "Removed from the current v4.3 PPT and excluded from the repository submission package; it cannot support current-condition, heritage-control, ownership, survey, approval, or design-authorization claims.",
+      "package_asset_status": "historical_reference_removed_from_current_ppt",
+      "rights_review_status": "not_in_current_ppt_or_repository_package"
     }
   ]
 }

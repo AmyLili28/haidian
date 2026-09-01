@@ -327,7 +327,7 @@
     "seed": 20260821
   },
   "input_bundle_ref": "visual/assets/experiment-inputs.json",
-  "input_bundle_sha256": "25da7c03fc073bb16f2bcad7fe61e35d2b143424151f65d65a77bc7c8ada71d7",
+  "input_bundle_sha256": "7ecdd19e7409a0e55be035ed9d5be5401774e8c8a4d0f9337956729325733c8a",
   "limitations": [
     "The experiment only ranks authored role assignments; it does not call a model or simulate a field trial.",
     "All objective values are internal ordinal metadata and remain high-uncertainty until professional and public review.",

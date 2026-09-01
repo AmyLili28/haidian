@@ -298,7 +298,8 @@
       "source_id": "PHOTO-WIKIMEDIA-NORTH-XUEQING-20220808",
       "name_zh": "学清路与林业大学北路街道视角",
       "name_en": "Xueqing Road at Linyedaxue North Road",
-      "ppt_slide": "S14",
+      "ppt_slide": null,
+      "historical_ppt_slide": "S14",
       "package_path": null,
       "source_file_name": "Xueqing Rd at Linyedaxue N Rd (20220808113055).jpg",
       "source_manifest_ref": "workbench/site-photo-materials/2026-08-28/acquisition/source-manifest.json#assets[asset_id=GND-NORTH-XUEQING-LINYEDAXUE-20220808]",
@@ -321,13 +322,13 @@
         40.008775
       ],
       "coordinate_order": "longitude,latitude",
-      "transformation": "Cropped to the inherited external-PPT image frame; no generative alteration.",
-      "use_zh": "仅作北部道路断面、绿化和首层街道界面上下文参考。",
-      "use_en": "North-area context reference for street section, planting and first-floor interface only.",
+      "transformation": "Historical audit record only; removed from the current v4.3 PPT and replaced by participant-generated concept media.",
+      "use_zh": "历史审计记录；当前 v4.3 PPT 与仓库投稿包均不再使用。",
+      "use_en": "Historical audit record; no longer used in the current v4.3 PPT or repository submission package.",
       "limitation_zh": "不是现场照片复测、官方边界或2026年现状证明；人物、车辆、标识、建筑和物业权利仍需单独复核。",
       "limitation_en": "Not a field re-survey, official boundary or 2026 existing-condition proof; people, vehicles, signs, buildings and property rights require separate review.",
-      "rights_status": "cc_by_sa_4_0_attributed; third_party_elements_review_pending",
-      "package_asset_status": "external_ppt_reference_only"
+      "rights_status": "not_in_current_ppt_or_repository_package",
+      "package_asset_status": "historical_reference_removed_from_current_ppt"
     },
     {
       "record_id": "PHOTO-WIKIMEDIA-CENTRAL-WUDAOKOU-20250212",
@@ -335,7 +336,8 @@
       "source_id": "PHOTO-WIKIMEDIA-CENTRAL-WUDAOKOU-20250212",
       "name_zh": "五道口U-Center商业街区视角",
       "name_en": "U-Center, Wudaokou",
-      "ppt_slide": "S18",
+      "ppt_slide": null,
+      "historical_ppt_slide": "S18",
       "package_path": null,
       "source_file_name": "U-Center, Wudaokou (20250212155708).jpg",
       "source_manifest_ref": "workbench/site-photo-materials/2026-08-28/acquisition/source-manifest.json#assets[asset_id=GND-CENTRAL-WUDAOKOU-UCENTER-20250212]",
@@ -358,13 +360,13 @@
         39.991375
       ],
       "coordinate_order": "longitude,latitude",
-      "transformation": "Cropped to the inherited external-PPT image frame; no generative alteration.",
-      "use_zh": "仅作中部商业首层界面与公共生活氛围上下文参考。",
-      "use_en": "Central-area context reference for commercial frontage and public-life atmosphere only.",
+      "transformation": "Historical audit record only; removed from the current v4.3 PPT and replaced by participant-generated concept media.",
+      "use_zh": "历史审计记录；当前 v4.3 PPT 与仓库投稿包均不再使用。",
+      "use_en": "Historical audit record; no longer used in the current v4.3 PPT or repository submission package.",
       "limitation_zh": "不是现场照片复测、官方边界或现状证明；商业标识、人物、车辆、建筑和物业权利仍需单独复核。",
       "limitation_en": "Not a field re-survey, official boundary or existing-condition proof; commercial signs, people, vehicles, buildings and property rights require separate review.",
-      "rights_status": "cc_by_sa_4_0_attributed; third_party_elements_review_pending",
-      "package_asset_status": "external_ppt_reference_only"
+      "rights_status": "not_in_current_ppt_or_repository_package",
+      "package_asset_status": "historical_reference_removed_from_current_ppt"
     },
     {
       "record_id": "PHOTO-WIKIMEDIA-SOUTH-GRAND-BELL-20240125",
@@ -372,7 +374,8 @@
       "source_id": "PHOTO-WIKIMEDIA-SOUTH-GRAND-BELL-20240125",
       "name_zh": "大钟寺入口文化遗产视角",
       "name_en": "Entrance of Grand Bell Temple",
-      "ppt_slide": "S22",
+      "ppt_slide": null,
+      "historical_ppt_slide": "S22",
       "package_path": null,
       "source_file_name": "Entrance of Grand Bell Temple (20240125142211).jpg",
       "source_manifest_ref": "workbench/site-photo-materials/2026-08-28/acquisition/source-manifest.json#assets[asset_id=GND-SOUTH-GRAND-BELL-20240125]",
@@ -395,13 +398,13 @@
         39.966644
       ],
       "coordinate_order": "longitude,latitude",
-      "transformation": "Cropped to the inherited external-PPT image frame; no generative alteration.",
-      "use_zh": "仅作南部文化遗产入口氛围与公共空间界面上下文参考。",
-      "use_en": "South-area context reference for heritage-entry atmosphere and public-space interface only.",
+      "transformation": "Historical audit record only; removed from the current v4.3 PPT and replaced by participant-generated concept media.",
+      "use_zh": "历史审计记录；当前 v4.3 PPT 与仓库投稿包均不再使用。",
+      "use_en": "Historical audit record; no longer used in the current v4.3 PPT or repository submission package.",
       "limitation_zh": "不是现场照片复测、官方边界或地下条件证明；文保范围、人物、标识、场地和物业权利仍需单独复核。",
       "limitation_en": "Not a field re-survey, official boundary or underground-condition proof; heritage controls, people, signs, venue and property rights require separate review.",
-      "rights_status": "cc_by_sa_4_0_attributed; third_party_elements_review_pending",
-      "package_asset_status": "external_ppt_reference_only"
+      "rights_status": "not_in_current_ppt_or_repository_package",
+      "package_asset_status": "historical_reference_removed_from_current_ppt"
     }
   ],
   "figure_generation_chain": {
