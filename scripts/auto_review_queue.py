@@ -406,24 +406,31 @@ def create_review_worktree(
     submission_dir: str,
 ) -> None:
     """Create a minimal checkout containing only trusted review inputs."""
-    run(
-        ["git", "worktree", "add", "--detach", "--no-checkout", str(worktree), ref],
-        cwd=repo_root,
-    )
-    run(
-        [
-            "git",
-            "sparse-checkout",
-            "set",
-            "--no-cone",
-            "--",
-            submission_dir,
-            "brief/site-package/agent_taskbook.json",
-            ADVISORY_REVIEW_SCHEMA_PATH,
-        ],
-        cwd=worktree,
-    )
-    run(["git", "checkout", "--detach", ref], cwd=worktree)
+    added = False
+    try:
+        run(
+            ["git", "worktree", "add", "--detach", "--no-checkout", str(worktree), ref],
+            cwd=repo_root,
+        )
+        added = True
+        run(
+            [
+                "git",
+                "sparse-checkout",
+                "set",
+                "--no-cone",
+                "--",
+                submission_dir,
+                "brief/site-package/agent_taskbook.json",
+                ADVISORY_REVIEW_SCHEMA_PATH,
+            ],
+            cwd=worktree,
+        )
+        run(["git", "checkout", "--detach", ref], cwd=worktree)
+    except Exception:
+        if added:
+            run(["git", "worktree", "remove", "--force", str(worktree)], cwd=repo_root)
+        raise
 
 
 def apply_review(
