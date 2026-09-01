@@ -1,5 +1,12 @@
 # 方案迭代记录
 
+## v13.2 Final visual review repair - 2026-09-01
+
+- Added the same prominent bilingual concept-image status notice beside the first hero board in both offline HTML entry points and all four A0/A3 PDFs.
+- Repaired the right-edge warning strip in the English land-use figure without changing its geometry or metrics.
+- Replaced the Chinese-only language-switch label in the English proposal report with an English label, removing the remaining unsupported-glyph risk.
+- Re-rendered and visually checked every page of all four PDFs and both language variants of the report and visual entry pages.
+
 ## v13.1 Minimal review repair - 2026-08-31
 
 - Preserved the approved white A0/A3 visual edition and all validated geometry, metrics, governance contracts and renderings.
