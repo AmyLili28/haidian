@@ -20,7 +20,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ## 设计依据与资料清单
 
-本方案以《百年京张 AI 创新带城市设计国际方案征集资格预审公告》为第一依据，机器可读证据来自 `brief/site-package/`、`data/source_registry.json` 与提交包内 GeoJSON / metrics [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK] [source:SITE-PACKAGE] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]。
+本方案以《百年京张 AI 创新带城市设计国际方案征集资格预审公告》为第一依据，机器可读证据来自 `brief/site-package/`、本包 `sources.json` 与提交包内 GeoJSON / metrics [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK] [source:SITE-PACKAGE] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]。`data/source_registry.json` 只作为组织方资料登记路径被引用；评审侧提供的 `source_registry_summary` 现为 total=0，approved / background / provisional / needs-review 列表均为空，本包不复述任何 registry 计数，也不把任何条目自称 registry-approved [source:SOURCE-REGISTRY]。
 
 **边界状态：** 组织方尚未公开精确 official polygon。本包 `geometry/site_boundary.geojson` 与三处 `key_areas.geojson` 均为 `provisional_constraint`、`official_boundary=false`，仅用于方案讨论、自检与展示；**不阻断内容评分**，正式红线到位后须重算全部几何与指标 [source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE] [metric:site_area_sqm]。
 
@@ -63,7 +63,25 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ## 资料清单与合规证据
 
-Formal 依据、资料登记与证据链见开篇「设计依据与资料清单」；`data/source_registry.json` 摘要：formal 14 / background 7 / provisional-only 1，agent 不得把 background 或 provisional 资料升级为 official boundary、法定控规或正式评分依据。[source:PROCESSED-FACT-PACK] 仅为阅读导航，事实判断仍回 [source:OFFICIAL-ANNOUNCEMENT]、[source:AGENT-TASKBOOK]、[source:BOUNDARY-SOURCE] 与 [source:KEY-AREA-SOURCE]。
+公开依据与证据链见开篇「设计依据与资料清单」。评审提供的 `source_registry_summary` 为 total=0，approved / background / provisional / needs-review 均为空；本包不以 registry 计数或 approved 状态作依据 [source:SOURCE-REGISTRY]。agent 不得把 background 或 provisional 资料升级为 official boundary、法定控规或正式评分依据。[source:PROCESSED-FACT-PACK] 仅为阅读导航，事实判断仍回 [source:OFFICIAL-ANNOUNCEMENT]、[source:AGENT-TASKBOOK]、[source:BOUNDARY-SOURCE] 与 [source:KEY-AREA-SOURCE]。
+
+本包资料用途分层如下（proposal-local 声明，**不是** registry 批准）：
+
+| 用途分层 | 条目 | 发布主体 / 访问路径 | 本包声明 |
+| --- | --- | --- | --- |
+| 公开原文直接引用 | OFFICIAL-ANNOUNCEMENT | 北京市规划和自然资源委员会 / https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html | 任务、范围与公告口径；不自称 registry-approved |
+| 公开原文直接引用 | SITE-PACKAGE | 仓库 `brief/site-package/` | 任务书、枚举、schema、允许设计空间；不自称 registry-approved |
+| 公开原文直接引用 | AGENT-TASKBOOK | `brief/site-package/agent_taskbook.json` | 六项智能体任务与边界条款；待 registry 审核 |
+| 背景案例 / 设计类比 | CASE-STANFORD | Stanford OTL / https://otl.stanford.edu/ | background_case_design_analogy；非海淀实施依据 |
+| 背景案例 / 设计类比 | CASE-MILA | Mila / https://mila.quebec/en | 同上 |
+| 背景案例 / 设计类比 | CASE-PUNGGOL | JTC / https://www.jtc.gov.sg/punggoldigitaldistrict | 同上 |
+| 背景案例 / 设计类比 | CASE-TSUKUBA | University of Tsukuba / https://www.tsukuba.ac.jp/en/ | 同上 |
+| 背景案例 / 设计类比 | CASE-HETAO | 河套深港科技创新合作区深圳园区发展署 / https://htcz.sz.gov.cn/ | 同上 |
+| 背景案例 / 设计类比 | CASE-KENDALL | City of Cambridge CDD / https://www.cambridgema.gov/Departments/communitydevelopment/kendallsquare | 同上 |
+| 临时几何 | BOUNDARY-SOURCE | `brief/site-package/geometry/provisional_boundaries.geojson` | SITE-001 工作边界；provisional，非官方红线 |
+| 临时几何 | KEY-AREA-SOURCE | 同上 | PROV-KEY-001–003；provisional，正式几何发布后复算 |
+| 待 registry 审核 | SOURCE-REGISTRY | `data/source_registry.json` | 仅登记路径；当前 summary 为空，不导出 approved 状态 |
+| 待 registry 审核 | PROCESSED-FACT-PACK | `data/processed/agent_fact_pack.md` | 阅读导航，非新的权威来源 |
 
 ![区位与总体设计范围](assets/figures/location-context.png)
 

@@ -23,7 +23,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "67c4c7b43962073ebc466480acb95096842cab04be0a501d3b86d18ab4bb20b2"
+      "sha256": "2d9b778ce1b8e783117ceba32996365ae677c2b1f58e79493f25e60e9ec6ed24"
     },
     {
       "path": "agent.json",
@@ -47,13 +47,13 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "1492416a1dc6b2e1295949d05c5fea04806df270882d023f0a310afd36d520f2"
+      "sha256": "faa1c6966435537224ee73035422cf49677f58990ca763f72a7e0ce9cfc14bba"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "6e3a07cda9d056309f31f6d57fd2483ba0bb9bdb3d87f440b3d30d8783490d14"
+      "sha256": "13637f5fbd0f8c5a2ba5f5415e34124a57a0ea981193be1005984dcf03497455"
     },
     {
       "path": "compliance_matrix.json",
@@ -77,7 +77,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "ff946dbc40d2af41b5582af3d99170a848c803819734efb0e13c3fc4661bf45b"
+      "sha256": "92ac1ac3c964900dee8935f92fb28c9208ccd5ed93efeeb0f3b2fae64f4ffb22"
     },
     {
       "path": "report/narrative.md",
@@ -263,7 +263,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "de1143548093542982baf5c3cd54caba9e29ab377c7db7456617fa3b4a5fe8b0"
+      "sha256": "399d8f5470ae140a5988b42987d1dfaddee98aacb9d9670d68d6902078a9893e"
     },
     {
       "path": "visual/assets/cjk-font.css",

@@ -1,5 +1,17 @@
 # 方案迭代记录
 
+## v0.4.6 - 2026-09-01
+
+### 改动摘要（关 CocoSgt 本轮 1 条阻断）
+
+1. **对齐空 registry 摘要**：删除 `proposal.md` / `report/proposal.html` 中「formal 14 / background 7 / provisional-only 1」；写明评审侧 `source_registry_summary` 为 total=0、approved 列表为空。
+2. **本包资料用途表**：公开原文直接引用 / 背景案例 / 临时几何 / 待 registry 审核四层分开，发布主体与访问路径可核，不自称 registry-approved。
+3. **SOURCE-REGISTRY**：`sources.json` 改为只引用登记路径，不把当前 registry 当作已分类清单。
+
+### 采纳反馈
+
+- AI review `7b4cf8d`（85/100）风险与合规 1 项 blocking。
+
 ## v0.4.5 - 2026-09-01
 
 ### 改动摘要（关 CocoSgt 本轮 3 条阻断）

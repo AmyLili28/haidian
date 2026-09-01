@@ -73,6 +73,20 @@ code {
   padding: 0.03em 0.32em;
   font-size: 0.92em;
 }
+
+.source-use-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px;
+  font-size: 14px;
+}
+.source-use-table th, .source-use-table td {
+  border: 1px solid var(--line);
+  padding: 8px 10px;
+  vertical-align: top;
+  text-align: left;
+}
+.source-use-table th { background: #eef2f7; }
 @media (max-width: 720px) {
   main { padding: 26px 16px 52px; }
   h1 { font-size: 26px; }
@@ -92,7 +106,7 @@ code {
 <figure class="proposal-figure"><img src="../assets/figures/three-cores.png" alt="三核锚点分工与联动关系"><figcaption>三核锚点分工与联动关系</figcaption></figure>
 <figure class="proposal-figure"><img src="../assets/figures/site-overview.png" alt="总体设计范围空间总览"><figcaption>总体设计范围空间总览</figcaption></figure>
 <h2>设计依据与资料清单</h2>
-<p>本方案以《百年京张 AI 创新带城市设计国际方案征集资格预审公告》为第一依据，机器可读证据来自 <code>brief/site-package/</code>、<code>data/source_registry.json</code> 与提交包内 GeoJSON / metrics <span class="evidence evidence-source">[source:OFFICIAL-ANNOUNCEMENT]</span> <span class="evidence evidence-source">[source:AGENT-TASKBOOK]</span> <span class="evidence evidence-source">[source:SITE-PACKAGE]</span> <span class="evidence evidence-standard">[standard:PROJECT-OFFICIAL-ANNOUNCEMENT]</span>。</p>
+<p>本方案以《百年京张 AI 创新带城市设计国际方案征集资格预审公告》为第一依据，机器可读证据来自 <code>brief/site-package/</code>、本包 <code>sources.json</code> 与提交包内 GeoJSON / metrics <span class="evidence evidence-source">[source:OFFICIAL-ANNOUNCEMENT]</span> <span class="evidence evidence-source">[source:AGENT-TASKBOOK]</span> <span class="evidence evidence-source">[source:SITE-PACKAGE]</span> <span class="evidence evidence-standard">[standard:PROJECT-OFFICIAL-ANNOUNCEMENT]</span>。<code>data/source_registry.json</code> 只作为组织方资料登记路径被引用；评审侧提供的 <code>source_registry_summary</code> 现为 total=0，approved / background / provisional / needs-review 列表均为空，本包不复述任何 registry 计数，也不把任何条目自称 registry-approved <span class="evidence evidence-source">[source:SOURCE-REGISTRY]</span>。</p>
 <p>**边界状态：** 组织方尚未公开精确 official polygon。本包 <code>geometry/site_boundary.geojson</code> 与三处 <code>key_areas.geojson</code> 均为 <code>provisional_constraint</code>、<code>official_boundary=false</code>，仅用于方案讨论、自检与展示；**不阻断内容评分**，正式红线到位后须重算全部几何与指标 <span class="evidence evidence-source">[source:BOUNDARY-SOURCE]</span> <span class="evidence evidence-source">[source:KEY-AREA-SOURCE]</span> <span class="evidence evidence-metric">[metric:site_area_sqm]</span>。</p>
 <h2>总体概念</h2>
 <p>「京张智脉共生带」把公告三层范围转译为可落图、可复核的空间组织：</p>
@@ -109,7 +123,26 @@ code {
 <p>| 重点片区 | 定位 | 核心空间动作 | | --- | --- | --- | | 众智园 AI 自主创新加速区 | 花园型全栈创新街区 | 清河界面、标准治理、低碳交往 | | 北京 AI 原点社区 | 近校成果转化社区 | 开源发布、校企转化、人才服务 | | 大钟寺 AI 产业聚集区 | 站城一体智能经济 | 四象限连通、数据要素、国际路演 |</p>
 <p>---</p>
 <h2>资料清单与合规证据</h2>
-<p>Formal 依据、资料登记与证据链见开篇「设计依据与资料清单」；<code>data/source_registry.json</code> 摘要：formal 14 / background 7 / provisional-only 1，agent 不得把 background 或 provisional 资料升级为 official boundary、法定控规或正式评分依据。<span class="evidence evidence-source">[source:PROCESSED-FACT-PACK]</span> 仅为阅读导航，事实判断仍回 <span class="evidence evidence-source">[source:OFFICIAL-ANNOUNCEMENT]</span>、<span class="evidence evidence-source">[source:AGENT-TASKBOOK]</span>、<span class="evidence evidence-source">[source:BOUNDARY-SOURCE]</span> 与 <span class="evidence evidence-source">[source:KEY-AREA-SOURCE]</span>。</p>
+<p>公开依据与证据链见开篇「设计依据与资料清单」。评审提供的 <code>source_registry_summary</code> 为 total=0，approved / background / provisional / needs-review 均为空；本包不以 registry 计数或 approved 状态作依据 <span class="evidence evidence-source">[source:SOURCE-REGISTRY]</span>。agent 不得把 background 或 provisional 资料升级为 official boundary、法定控规或正式评分依据。<span class="evidence evidence-source">[source:PROCESSED-FACT-PACK]</span> 仅为阅读导航，事实判断仍回 <span class="evidence evidence-source">[source:OFFICIAL-ANNOUNCEMENT]</span>、<span class="evidence evidence-source">[source:AGENT-TASKBOOK]</span>、<span class="evidence evidence-source">[source:BOUNDARY-SOURCE]</span> 与 <span class="evidence evidence-source">[source:KEY-AREA-SOURCE]</span>。</p>
+<p>本包资料用途分层如下（proposal-local 声明，**不是** registry 批准）：</p>
+<table class="source-use-table">
+<thead><tr><th>用途分层</th><th>条目</th><th>发布主体 / 访问路径</th><th>本包声明</th></tr></thead>
+<tbody>
+<tr><td>公开原文直接引用</td><td>OFFICIAL-ANNOUNCEMENT</td><td>北京市规划和自然资源委员会 / https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html</td><td>任务、范围与公告口径；不自称 registry-approved</td></tr>
+<tr><td>公开原文直接引用</td><td>SITE-PACKAGE</td><td>仓库 <code>brief/site-package/</code></td><td>任务书、枚举、schema、允许设计空间；不自称 registry-approved</td></tr>
+<tr><td>公开原文直接引用</td><td>AGENT-TASKBOOK</td><td><code>brief/site-package/agent_taskbook.json</code></td><td>六项智能体任务与边界条款；待 registry 审核</td></tr>
+<tr><td>背景案例 / 设计类比</td><td>CASE-STANFORD</td><td>Stanford OTL / https://otl.stanford.edu/</td><td>background_case_design_analogy；非海淀实施依据</td></tr>
+<tr><td>背景案例 / 设计类比</td><td>CASE-MILA</td><td>Mila / https://mila.quebec/en</td><td>同上</td></tr>
+<tr><td>背景案例 / 设计类比</td><td>CASE-PUNGGOL</td><td>JTC / https://www.jtc.gov.sg/punggoldigitaldistrict</td><td>同上</td></tr>
+<tr><td>背景案例 / 设计类比</td><td>CASE-TSUKUBA</td><td>University of Tsukuba / https://www.tsukuba.ac.jp/en/</td><td>同上</td></tr>
+<tr><td>背景案例 / 设计类比</td><td>CASE-HETAO</td><td>河套深港科技创新合作区深圳园区发展署 / https://htcz.sz.gov.cn/</td><td>同上</td></tr>
+<tr><td>背景案例 / 设计类比</td><td>CASE-KENDALL</td><td>City of Cambridge CDD / https://www.cambridgema.gov/Departments/communitydevelopment/kendallsquare</td><td>同上</td></tr>
+<tr><td>临时几何</td><td>BOUNDARY-SOURCE</td><td><code>brief/site-package/geometry/provisional_boundaries.geojson</code></td><td>SITE-001 工作边界；provisional，非官方红线</td></tr>
+<tr><td>临时几何</td><td>KEY-AREA-SOURCE</td><td>同上</td><td>PROV-KEY-001–003；provisional，正式几何发布后复算</td></tr>
+<tr><td>待 registry 审核</td><td>SOURCE-REGISTRY</td><td><code>data/source_registry.json</code></td><td>仅登记路径；当前 summary 为空，不导出 approved 状态</td></tr>
+<tr><td>待 registry 审核</td><td>PROCESSED-FACT-PACK</td><td><code>data/processed/agent_fact_pack.md</code></td><td>阅读导航，非新的权威来源</td></tr>
+</tbody>
+</table>
 <figure class="proposal-figure"><img src="../assets/figures/location-context.png" alt="区位与总体设计范围"><figcaption>区位与总体设计范围</figcaption></figure>
 <p>本次提交状态：**临时边界，保留精度警示并待正式数据发布后复算；不阻断内容评分**。空间结构、场景与指标均按可讨论、可复核、可替换官方边界后重算的原则写入；边界更新后须重跑脚手架、自检与图纸/HTML 生成。边界与重点区证据：<span class="evidence evidence-data">[data:geometry/site_boundary.geojson#SITE-001]</span>、<span class="evidence evidence-data">[data:geometry/key_areas.geojson#PROV-KEY-001]</span>、<span class="evidence evidence-metric">[metric:site_area_sqm]</span>、<span class="evidence evidence-metric">[metric:key_area_count]</span>。</p>
 <h2>现状参考与设计图层分工</h2>

@@ -11,7 +11,7 @@
       "id": "SOURCE-REGISTRY",
       "path": "data/source_registry.json",
       "source_type": "repository_public_registry",
-      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+      "usage": "Organizer source-usability registry path only. Review-supplied source_registry_summary is currently total=0 with empty approved/background/provisional/needs-review lists. This package does not treat any cited item as registry-approved and does not restate registry counts."
     },
     {
       "id": "PROCESSED-FACT-PACK",
