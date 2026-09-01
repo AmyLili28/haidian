@@ -8,7 +8,10 @@
     "site_area_sqm": {
       "status": "known",
       "value": 11412825.385554,
+      "audit_value": 11412825.385554,
       "display_value": "~11.4 million sqm (provisional)",
+      "display_value_numeric": 11413000,
+      "display_rounding": "nearest 1,000 sqm; display_value is a low-precision human label",
       "unit": "sqm",
       "source_files": [
         "geometry/site_boundary.geojson"
@@ -24,7 +27,10 @@
     "green_space_area_sqm": {
       "status": "known",
       "value": 1418042.030107,
+      "audit_value": 1418042.030107,
       "display_value": "~1.42 million sqm (provisional)",
+      "display_value_numeric": 1418000,
+      "display_rounding": "nearest 1,000 sqm; display_value is a low-precision human label",
       "unit": "sqm",
       "source_files": [
         "geometry/green_space.geojson"
@@ -39,7 +45,10 @@
     "public_space_area_sqm": {
       "status": "known",
       "value": 51250.0,
+      "audit_value": 51250.0,
       "display_value": "~51,000 sqm (provisional)",
+      "display_value_numeric": 51000,
+      "display_rounding": "nearest 1,000 sqm; display_value is a low-precision human label",
       "unit": "sqm",
       "source_files": [
         "geometry/public_space.geojson"
@@ -68,7 +77,11 @@
     "green_ratio": {
       "status": "known",
       "value": 0.12424986646180651,
+      "audit_value": 0.12424986646180651,
       "display_value": "~12.4% (provisional)",
+      "display_value_numeric": 0.124,
+      "display_value_percent": 12.4,
+      "display_rounding": "ratio rounded to 3 decimals; percent display rounded to 1 decimal",
       "unit": "ratio",
       "source_files": [
         "geometry/green_space.geojson",
@@ -84,7 +97,11 @@
     "public_space_ratio": {
       "status": "known",
       "value": 0.004490562000963465,
+      "audit_value": 0.004490562000963465,
       "display_value": "~0.45% (provisional)",
+      "display_value_numeric": 0.004,
+      "display_value_percent": 0.45,
+      "display_rounding": "ratio rounded to 3 decimals; percent display rounded to 2 decimals",
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",

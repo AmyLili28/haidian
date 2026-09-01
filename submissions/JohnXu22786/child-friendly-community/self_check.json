@@ -94,7 +94,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/child-friendly-community": "formal"
       },
-      "total_bytes": 27612742,
+      "total_bytes": 16945965,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -153,6 +153,7 @@
       "issues": [],
       "metrics_seen": {
         "site_area_sqm": 11412825.385554,
+        "green_space_area_sqm": 1418042.030107,
         "green_ratio": 0.12424986646180651,
         "public_space_ratio": 0.004490562000963465
       }
@@ -167,7 +168,7 @@
       "issues": [],
       "summary": {
         "standard_matrix_items": 5,
-        "design_depth_items": 15,
+        "design_depth_items": 20,
         "known_metric_refs_required": 17,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",

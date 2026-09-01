@@ -41,7 +41,13 @@
         "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
         "DATA-SRC-PROVISIONAL-BOUNDARIES",
         "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
-        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021",
+        "DATA-SRC-CERN-OPENLAB",
+        "DATA-SRC-AIST-ABCI",
+        "DATA-SRC-IMDA-AI-VERIFY",
+        "DATA-SRC-EUROHPC-AI-FACTORIES",
+        "DATA-SRC-VECTOR-INSTITUTE",
+        "DATA-SRC-MILA-ECOSYSTEM"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -57,7 +63,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "对应三大定位之「构建世界级AI创新生态体系」：生态图谱以数据（仅匿名聚合）、算力（统筹协调机制，概念）、资本（无金额结论）、人才（开发者社区）四要素与五个AI+服务形成回路（见AI生态图谱与场景卡节）。"
+    "evidence_summary_zh": "对应三大定位之「构建世界级AI创新生态体系」：生态图谱以数据（仅匿名聚合）、算力（统筹协调机制，概念）、资本（无金额结论）、人才（开发者社区）四要素与五个AI+服务形成回路；六项全球AI生态案例在sources.json逐项登记日期、许可、适用边界与转译机制（见AI生态图谱与场景卡节）。"
     },
     {
       "requirement_id": "1.3.2",

@@ -300,7 +300,7 @@ AI 运行质量控制（概念协议）：数据质量（来源登记、标注�
 | green_ratio | 绿地 union 面积 / 场地 union 面积 | geometry/green_space.geojson 与 site_boundary | 低（provisional） | 仅作设计模型值 | 官方绿地数据发布后复算 |
 | public_space_ratio | 公共空间 union 面积 / 场地 union 面积 | geometry/public_space.geojson 与 site_boundary | 低（provisional） | 仅作设计模型值 | 官方公共空间数据发布后复算 |
 
-人读显示只保留低精度约数：场地面积约 11.4 百万平方米、设计绿地率约 12.4%、公共空间率约 0.45%；这些是临时几何的设计模型显示，不是规划精度。机器审计值、公式和复算结果只存于 metrics.json 的 value 字段，另以 display_value 字段声明人读口径；site_area_sqm、green_space_area_sqm、green_ratio、public_space_ratio 均由本包 geometry 按 EPSG:4548 复算，官方边界/绿地/公共空间数据到位后按同一公式更新审计值与全部显示。用地分类占比与设计绿地率两个口径的差异及其引用规则见用地章节；比例与计数分轴作图，避免视觉等效误导（见指标证据图）。容积率、建筑高度等依赖未公开官方控制条件的指标保持 unknown、数值置空并说明原因，不以占位值替代。合规矩阵逐条连接任务书 agent.1—6、三大定位、五大功能、三区两翼与边界条款（见 compliance_matrix.json），并对照禁止性表述清单自查。
+人读显示只保留低精度约数，并在机器字段中单独登记展示数值：场地面积约 11.4 百万平方米（display_value_numeric=11,413,000 sqm）、设计绿地率约 12.4%（display_value_numeric=0.124；display_value_percent=12.4）、公共空间率约 0.45%（display_value_numeric=0.004；display_value_percent=0.45）。这些是临时几何的设计模型显示，不是规划精度。机器审计值与展示值分别记录在 metrics.json 的 audit_value/value 与 display_value_numeric/display_value 字段，且每项有 display_rounding；site_area_sqm、green_space_area_sqm、green_ratio、public_space_ratio 均由本包 geometry 按 EPSG:4548 复算，官方边界/绿地/公共空间数据到位后按同一公式更新审计值与全部显示。用地分类占比与设计绿地率两个口径的差异及其引用规则见用地章节；比例与计数分轴作图，避免视觉等效误导（见指标证据图）。容积率、建筑高度等依赖未公开官方控制条件的指标保持 unknown、数值置空并说明原因，不以占位值替代。合规矩阵逐条连接任务书 agent.1—6、三大定位、五大功能、三区两翼与边界条款（见 compliance_matrix.json），并对照禁止性表述清单自查。
 
 ![核心指标证据图（比例与计数分轴）](assets/figures/metrics-evidence.png)
 

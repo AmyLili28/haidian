@@ -900,6 +900,203 @@
         "VISUAL_STATIC"
       ],
       "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘风险与资料缺口’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+    },
+    {
+      "item_id": "traceability_positionings_functions_areas_agents",
+      "title_zh": "三大定位—五大功能—三区两翼—agent.1至6追踪",
+      "professional_dimension": "城市设计与AI生态",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "总体设计范围城市更新与控规深度城市设计",
+        "AI 创新生态、人才画像与 AI+ 场景"
+      ],
+      "drawing_refs": [
+        "assets/figures/site-overview.png",
+        "assets/figures/ai-ecosystem-map.png",
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson"
+      ],
+      "metric_refs": [
+        "key_area_count",
+        "persona_count",
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "正文追踪表逐行写出三大定位、五大功能、AI原点社区/众智园/大钟寺及中关村科技服务翼/小月河赋能翼的输入、输出、空间接口、运营主体和退出条件，并逐项落到agent.1—6。"
+    },
+    {
+      "item_id": "global_ai_ecosystem_case_registry",
+      "title_zh": "全球AI生态案例与许可边界",
+      "professional_dimension": "AI生态与产业",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "统筹研究范围产业与未来城市研究",
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "assets/figures/ai-ecosystem-map.png"
+      ],
+      "geometry_refs": [
+        "geometry/key_areas.geojson",
+        "geometry/public_space.geojson"
+      ],
+      "metric_refs": [
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-CERN-OPENLAB",
+        "DATA-SRC-AIST-ABCI",
+        "DATA-SRC-IMDA-AI-VERIFY",
+        "DATA-SRC-EUROHPC-AI-FACTORIES",
+        "DATA-SRC-VECTOR-INSTITUTE",
+        "DATA-SRC-MILA-ECOSYSTEM"
+      ],
+      "assumption_ids": [
+        "A-CONTENT-001",
+        "A-DATA-001"
+      ],
+      "self_check_ids": [
+        "PROFESSIONAL_EVIDENCE",
+        "VISUAL_PACKAGING"
+      ],
+      "evidence_summary_zh": "六项全球AI生态案例逐项登记URL、日期、许可/复用边界与机制转译；儿童/慢行六案例仍明确为背景机制，不计入global_case_count。"
+    },
+    {
+      "item_id": "three_node_decision_cards",
+      "title_zh": "三节点实施决策卡与可逆闸门",
+      "professional_dimension": "实施与治理",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "更新项目清单、实施政策与分期计划"
+      ],
+      "drawing_refs": [
+        "assets/figures/key-areas.png",
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/key_areas.geojson"
+      ],
+      "metric_refs": [
+        "key_area_count",
+        "industry_test_scenario_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-PRIVACY-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "SPATIAL_REVIEW",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "安全通学路、童趣公园、亲子驿站各自列明已知、未知/现场核验、决策闸门、A/C角色、过程指标与停止/撤收动作；所有节点均为concept/provisional。"
+    },
+    {
+      "item_id": "metric_audit_display_sync",
+      "title_zh": "指标审计值与展示值一致性",
+      "professional_dimension": "指标与证据",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "指标体系、面积复算与合规矩阵"
+      ],
+      "drawing_refs": [
+        "assets/figures/metrics-evidence.png",
+        "drawings/a0-boards.pdf",
+        "drawings/a3-booklet.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_space_area_sqm",
+        "public_space_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "source_ids": [
+        "DATA-SRC-PROVISIONAL-BOUNDARIES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-DATA-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "VISUAL_PACKAGING"
+      ],
+      "evidence_summary_zh": "metrics.json分离audit_value/value与display_value_numeric/display_value，并登记display_rounding；正文、图件、HTML与PDF只使用同一套低精度展示口径。"
+    },
+    {
+      "item_id": "bilingual_visual_pdf_qa",
+      "title_zh": "中英图件、HTML与PDF可视化质检",
+      "professional_dimension": "表达与交付",
+      "required": true,
+      "status": "complete",
+      "proposal_sections": [
+        "总体设计范围城市更新与控规深度城市设计",
+        "重点区域详细设计",
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "指标体系、面积复算与合规矩阵"
+      ],
+      "drawing_refs": [
+        "drawings/a0-boards.pdf",
+        "drawings/a0-boards.en.pdf",
+        "drawings/a3-booklet.pdf",
+        "drawings/a3-booklet.en.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson"
+      ],
+      "metric_refs": [
+        "key_area_count",
+        "global_case_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-PROVISIONAL-BOUNDARIES"
+      ],
+      "assumption_ids": [
+        "A-CONTENT-001"
+      ],
+      "self_check_ids": [
+        "VISUAL_STATIC",
+        "VISUAL_PACKAGING"
+      ],
+      "evidence_summary_zh": "中英文图件分别使用对应文字资产，统一嵌入中文字体或英文字体，采用留白、换行、图例独立栏与provisional水印；PDF首屏渲染和文本抽取后复核。"
     }
   ]
 }
