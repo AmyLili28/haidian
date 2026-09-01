@@ -1,0 +1,451 @@
+{
+  "type": "FeatureCollection",
+  "name": "mobility_and_urban_stitches_design",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "MOB-001",
+      "properties": {
+        "id": "MOB-001",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "南北公共慢行主链",
+        "name_en": "North–South Public Mobility Chain",
+        "road_class": "greenway",
+        "mode": "walk_cycle",
+        "design_status": "conceptual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3480904716866,
+            39.94071111407175
+          ],
+          [
+            116.34729102444362,
+            40.02477454864943
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ORG-MOB-01",
+      "properties": {
+        "id": "ORG-MOB-01",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "原点共享街",
+        "name_en": "Origin Shared Street",
+        "road_class": "local_access",
+        "mode": "walk_cycle_service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34284181857672,
+            39.988272577516945
+          ],
+          [
+            116.35216121611877,
+            39.98832504238158
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-MOB-01",
+      "properties": {
+        "id": "DZS-MOB-01",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺站城步行主链",
+        "name_en": "Dazhongsi Station–City Walking Chain",
+        "road_class": "pedestrian",
+        "mode": "walk_cycle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34275452554037,
+            39.9470060149959
+          ],
+          [
+            116.35424268412754,
+            39.94707057417131
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-P-01",
+      "properties": {
+        "id": "ST-P-01",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "园区针脚01",
+        "name_en": "Park Stitch 01",
+        "road_class": "pedestrian",
+        "stitch_type": "park",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3433977491014,
+            40.01263773653444
+          ],
+          [
+            116.35367844242855,
+            40.01269552970102
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-B-01",
+      "properties": {
+        "id": "ST-B-01",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "蓝绿针脚01",
+        "name_en": "Blue-Green Stitch 01",
+        "road_class": "pedestrian",
+        "stitch_type": "blue_green",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34380918301466,
+            40.01635243614493
+          ],
+          [
+            116.35319641152088,
+            40.016405210716506
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-P-02",
+      "properties": {
+        "id": "ST-P-02",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "园区针脚02",
+        "name_en": "Park Stitch 02",
+        "road_class": "pedestrian",
+        "stitch_type": "park",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34355010703612,
+            40.02006333566517
+          ],
+          [
+            116.35338487924459,
+            40.020118630538484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-X-01",
+      "properties": {
+        "id": "ST-X-01",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "屏障针脚01",
+        "name_en": "Barrier Stitch 01",
+        "road_class": "pedestrian",
+        "stitch_type": "barrier",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34522116653878,
+            40.008935681722164
+          ],
+          [
+            116.34507213608616,
+            40.024526784996205
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-C-01",
+      "properties": {
+        "id": "ST-C-01",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "校园针脚01",
+        "name_en": "Campus Stitch 01",
+        "road_class": "pedestrian",
+        "stitch_type": "campus",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34253116867445,
+            39.985956572575326
+          ],
+          [
+            116.3525159006057,
+            39.986012780349334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-C-02",
+      "properties": {
+        "id": "ST-C-02",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "校园针脚02",
+        "name_en": "Campus Stitch 02",
+        "road_class": "pedestrian",
+        "stitch_type": "campus",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34248583081963,
+            39.990685420052074
+          ],
+          [
+            116.35247125116165,
+            39.99074163718745
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-R-02",
+      "properties": {
+        "id": "ST-R-02",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "轨道针脚02",
+        "name_en": "Rail Stitch 02",
+        "road_class": "pedestrian",
+        "stitch_type": "rail",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34532391060226,
+            39.98395999429346
+          ],
+          [
+            116.34523745895537,
+            39.99301523891041
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-N-01",
+      "properties": {
+        "id": "ST-N-01",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "社区针脚01",
+        "name_en": "Neighborhood Stitch 01",
+        "road_class": "pedestrian",
+        "stitch_type": "neighborhood",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34998236211429,
+            39.984086832270975
+          ],
+          [
+            116.34989843312478,
+            39.992940857407994
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-R-01",
+      "properties": {
+        "id": "ST-R-01",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "轨道针脚01",
+        "name_en": "Rail Stitch 01",
+        "road_class": "pedestrian",
+        "stitch_type": "rail",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34262511039748,
+            39.94688702017222
+          ],
+          [
+            116.35437434326974,
+            39.94695304632656
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-N-02",
+      "properties": {
+        "id": "ST-N-02",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "社区针脚02",
+        "name_en": "Neighborhood Stitch 02",
+        "road_class": "pedestrian",
+        "stitch_type": "neighborhood",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34355476210426,
+            39.94523663249877
+          ],
+          [
+            116.35347609741993,
+            39.94529238466658
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-X-02",
+      "properties": {
+        "id": "ST-X-02",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "屏障针脚02",
+        "name_en": "Barrier Stitch 02",
+        "road_class": "pedestrian",
+        "stitch_type": "barrier",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34352198262117,
+            39.94866601814292
+          ],
+          [
+            116.35344381327228,
+            39.948721777046224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST-R-03",
+      "properties": {
+        "id": "ST-R-03",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "站点目的地针脚",
+        "name_en": "Station–Destination Stitch",
+        "road_class": "pedestrian",
+        "stitch_type": "rail",
+        "location_status": "candidate_within_provisional_key_area",
+        "field_verification_required": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.35009090502382,
+            39.94432736808494
+          ],
+          [
+            116.35004166521662,
+            39.949530580684446
+          ]
+        ]
+      }
+    }
+  ]
+}
