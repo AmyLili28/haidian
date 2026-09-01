@@ -135,7 +135,7 @@
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(QICE Gate, Explainable Loop, Co-create Bell concept landmarks)",
+      "formula": "count(SCENARIO Gate, Explainable Loop, Co-create Bell concept landmarks)",
       "confidence": "low",
       "assumptions": [
         "Participant proposal; populate after field/operations evidence."
@@ -178,12 +178,12 @@
     },
     "global_case_count": {
       "status": "known",
-      "value": 6,
+      "value": 7,
       "unit": "count",
       "source_files": [
         "proposal.md"
       ],
-      "formula": "count(6 first-party global mechanism cases in proposal.md and sources.json)",
+      "formula": "count(CASE-GLOBAL-01..07 first-party global AI mechanism cases in proposal.md and sources.json)",
       "confidence": "low",
       "assumptions": [
         "Participant proposal; populate after field/operations evidence."

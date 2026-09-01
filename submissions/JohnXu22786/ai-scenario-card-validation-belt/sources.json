@@ -340,58 +340,170 @@
       }
     },
     {
-      "id": "CASE-MCITY",
-      "title": "Mcity official site",
-      "type": "case_primary",
+      "source_id": "CASE-GLOBAL-01",
+      "title": "Mcity: autonomous vehicle testing and research facility",
+      "publisher": "University of Michigan",
+      "source_kind": "case_primary",
       "url": "https://mcity.umich.edu/",
-      "accessed": "2026-08-31",
-      "license_or_terms": "Official public information; cite for mechanism comparison only",
-      "use_boundary": "No image reuse or partnership claim; controlled testing mechanism reference."
+      "published_date": "not_stated_on_source",
+      "accessed_date": "2026-09-01",
+      "file_type": "web_page",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "First-party public information; citation and link only. No image, logo, data or trademark reuse is cleared.",
+      "review_status": "mechanism_reviewed",
+      "usable_for_formal": "method_reference_only",
+      "allowed_uses": [
+        "compare the mechanism of a controlled, instrumented test environment and research interface",
+        "translate the separation of test operator, observer and human safety control into a proposed N1 checklist"
+      ],
+      "prohibited_uses": [
+        "claiming a Mcity partnership, local certification or equivalent site conditions",
+        "copying photographs, maps, logos, data, performance results or operating rules"
+      ],
+      "topics": ["ai_ecosystem", "robotics_testing", "scenario_validation"],
+      "notes_zh": "来源日期：页面未标注发布日期；访问日期 2026-09-01。机制转译为 N1 的受控面—观察边—人工领航—急停—复盘链；不移植场地、设备、许可或合作关系。"
     },
     {
-      "id": "CASE-ASTAZERO",
-      "title": "AstaZero official site",
-      "type": "case_primary",
+      "source_id": "CASE-GLOBAL-02",
+      "title": "AstaZero: full-scale test environment for automated transport",
+      "publisher": "AstaZero / RISE / Chalmers",
+      "source_kind": "case_primary",
       "url": "https://www.astazero.com/",
-      "accessed": "2026-08-31",
-      "license_or_terms": "Official public information; cite for mechanism comparison only",
-      "use_boundary": "No image reuse or partnership claim; test-site operating mechanism reference."
+      "published_date": "not_stated_on_source",
+      "accessed_date": "2026-09-01",
+      "file_type": "web_page",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "First-party public information; citation and link only. Site terms govern any reuse.",
+      "review_status": "mechanism_reviewed",
+      "usable_for_formal": "method_reference_only",
+      "allowed_uses": [
+        "compare multi-scenario transport testing and a staged validation organization",
+        "translate scenario parameters such as obstacle, weather, time and failure mode into T1 card fields"
+      ],
+      "prohibited_uses": [
+        "claiming local access, certification, test performance or copied safety thresholds",
+        "copying site imagery, branding, datasets or test procedures"
+      ],
+      "topics": ["ai_ecosystem", "automated_transport", "safety_testing"],
+      "notes_zh": "来源日期：页面未标注发布日期；访问日期 2026-09-01。仅转译多场景参数化与分阶段验证机制，不将其认证、测试条件或数字结果作为本地依据。"
     },
     {
-      "id": "CASE-CETRAN",
-      "title": "CETRAN official site",
-      "type": "case_primary",
+      "source_id": "CASE-GLOBAL-03",
+      "title": "CETRAN: Centre of Excellence for Testing and Research of Autonomous Vehicles",
+      "publisher": "CETRAN / Nanyang Technological University",
+      "source_kind": "case_primary",
       "url": "https://cetran.sg/",
-      "accessed": "2026-08-31",
-      "license_or_terms": "Official public information; cite for mechanism comparison only",
-      "use_boundary": "No image reuse or partnership claim; urban test method reference."
+      "published_date": "not_stated_on_source",
+      "accessed_date": "2026-09-01",
+      "file_type": "web_page",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "First-party public information; citation and link only. No reuse or collaboration permission inferred.",
+      "review_status": "mechanism_reviewed",
+      "usable_for_formal": "method_reference_only",
+      "allowed_uses": [
+        "compare an urban-scale autonomous-vehicle test and evaluation interface",
+        "translate separation of application, observation, expert evaluation and responsibility into N1/N2 gate roles"
+      ],
+      "prohibited_uses": [
+        "treating Singapore permissions, regulations, facilities or scores as local approval",
+        "copying images, test data, names or claiming institutional cooperation"
+      ],
+      "topics": ["ai_ecosystem", "urban_testing", "evaluation_governance"],
+      "notes_zh": "来源日期：页面未标注发布日期；访问日期 2026-09-01。机制转译为申请—观察—专家评估—责任链，不把新加坡许可或监管规则视为海淀依据。"
     },
     {
-      "id": "CASE-GOMENTUM",
-      "title": "GoMentum Station official site",
-      "type": "case_primary",
-      "url": "https://gomentumstation.net/",
-      "accessed": "2026-08-31",
-      "license_or_terms": "Official public information; cite for mechanism comparison only",
-      "use_boundary": "No image reuse or partnership claim; controlled industry validation reference."
+      "source_id": "CASE-GLOBAL-04",
+      "title": "MLPerf benchmarks and MLCommons ecosystem",
+      "publisher": "MLCommons",
+      "source_kind": "case_primary",
+      "url": "https://mlcommons.org/benchmarks/",
+      "published_date": "not_stated_on_source",
+      "accessed_date": "2026-09-01",
+      "file_type": "web_page",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "First-party public benchmark information; cite/link only. Benchmark rules, results and marks remain governed by MLCommons terms.",
+      "review_status": "mechanism_reviewed",
+      "usable_for_formal": "method_reference_only",
+      "prohibited_uses": [
+        "copying benchmark results, hardware numbers, task data or marks",
+        "claiming MLCommons endorsement, equivalence or a local benchmark certification"
+      ],
+      "topics": ["ai_ecosystem", "compute", "benchmarking", "evaluation"],
+      "notes_zh": "来源日期：当前基准页面未标注单一发布日期；访问日期 2026-09-01。转译为 N2 的任务集版本、指标公式、分组结果和双人复核；不移植外部榜单或硬件结果。"
     },
     {
-      "id": "CASE-NDT",
-      "title": "UK National Digital Twin programme official overview",
-      "type": "case_primary",
-      "url": "https://www.cdbb.cam.ac.uk/what-we-do/national-digital-twin-programme",
-      "accessed": "2026-08-31",
-      "license_or_terms": "Official public information; cite for method comparison only",
-      "use_boundary": "No data reuse; trusted-data governance mechanism reference."
+      "source_id": "CASE-GLOBAL-05",
+      "title": "AI Risk Management Framework and AI Resource Center",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "source_kind": "case_primary",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "published_date": "2023-01-26",
+      "accessed_date": "2026-09-01",
+      "file_type": "web_page",
+      "authority_level": "A0",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "U.S. government public framework information; cite/link with source attribution. This record does not clear third-party page assets or imply legal equivalence.",
+      "review_status": "mechanism_reviewed",
+      "usable_for_formal": "method_reference_only",
+      "prohibited_uses": [
+        "claiming NIST certification, endorsement or compliance determination",
+        "treating the framework as a substitute for Chinese law, professional safety review or local approval"
+      ],
+      "topics": ["ai_ecosystem", "ai_governance", "risk_management"],
+      "notes_zh": "NIST AI RMF 1.0 发布日期 2023-01-26；访问日期 2026-09-01。转译为每卡风险—证据—人工复核—申诉—停止字段；不声称 NIST 认证或本地法规等效。"
     },
     {
-      "id": "CASE-MIT-LIVING-LAB",
-      "title": "MIT Living Lab official site",
-      "type": "case_primary",
-      "url": "https://livinglab.mit.edu/",
-      "accessed": "2026-08-31",
-      "license_or_terms": "Official public information; cite for method comparison only",
-      "use_boundary": "No image reuse or partnership claim; campus real-world testing reference."
+      "source_id": "CASE-GLOBAL-06",
+      "title": "Hugging Face Hub: models, datasets and Spaces collaboration platform",
+      "publisher": "Hugging Face",
+      "source_kind": "case_primary",
+      "url": "https://huggingface.co/",
+      "published_date": "not_stated_on_source",
+      "accessed_date": "2026-09-01",
+      "file_type": "web_page",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public platform information; cite/link only. Each model/dataset/Space has its own license and terms; public visibility is not authorization.",
+      "review_status": "mechanism_reviewed",
+      "usable_for_formal": "method_reference_only",
+      "prohibited_uses": [
+        "copying models, datasets, code, images or marks without asset-level permission",
+        "assuming a public page grants local data processing, redistribution or deployment rights"
+      ],
+      "topics": ["ai_ecosystem", "models", "datasets", "developer_community"],
+      "notes_zh": "来源日期：平台首页未标注单一发布日期；访问日期 2026-09-01。转译为来源/许可/版本/可撤回卡片和开发者 schema；公共页面不等于授权。"
+    },
+    {
+      "source_id": "CASE-GLOBAL-07",
+      "title": "UK AI Security Institute: AI safety evaluation and research",
+      "publisher": "UK AI Security Institute",
+      "source_kind": "case_primary",
+      "url": "https://www.aisi.gov.uk/",
+      "published_date": "not_stated_on_source",
+      "accessed_date": "2026-09-01",
+      "file_type": "web_page",
+      "authority_level": "A1",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "First-party public information; cite/link only. No institutional cooperation, data reuse or mark reuse is cleared.",
+      "review_status": "mechanism_reviewed",
+      "usable_for_formal": "method_reference_only",
+      "prohibited_uses": [
+        "claiming AISI cooperation, security certification or transfer of research findings",
+        "copying reports, datasets, imagery or treating UK policy as local legal advice"
+      ],
+      "topics": ["ai_ecosystem", "ai_security", "red_teaming", "evaluation"],
+      "notes_zh": "来源日期：机构首页未标注单一发布日期；访问日期 2026-09-01。转译为 N2 红队桌面测试、失败模式、公开摘要和撤回；不声称合作或安全认证。"
     }
   ]
 }

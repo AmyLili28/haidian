@@ -19,13 +19,16 @@
     "geometry/buildings.geojson",
     "geometry/phasing.geojson"
    ],
-   "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
-   ],
+    "metrics": [
+     "annual_program_count",
+     "building_footprint_area_sqm",
+     "building_unit_count",
+     "global_case_count",
+     "green_ratio",
+     "scenario_card_count",
+     "industry_protocol_count",
+     "scenario_node_count"
+    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
@@ -952,8 +955,8 @@
    "evidence_summary_zh": "合规矩阵覆盖公告、任务书与法规参照（用地、文保、绿线蓝线、测试安全、数据合规与无障碍等）；标准矩阵与设计深度矩阵见对应 JSON。"
   },
   {
-   "requirement_id": "agent.1",
-   "title_zh": "一带总体概念与功能统筹方案设计",
+    "requirement_id": "agent.1",
+    "title_zh": "一带总体概念与功能统筹方案设计",
    "mandatory": true,
    "report_sections": [
     "三层范围工作框架",
@@ -969,13 +972,16 @@
     "geometry/buildings.geojson",
     "geometry/phasing.geojson"
    ],
-   "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
-   ],
+    "metrics": [
+     "annual_program_count",
+     "building_footprint_area_sqm",
+     "building_unit_count",
+     "global_case_count",
+     "green_ratio",
+     "scenario_card_count",
+     "industry_protocol_count",
+     "scenario_node_count"
+    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
@@ -1006,7 +1012,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "一带总体概念：京张场景场——AI场景卡与产业测试验证带的总体统筹。"
+    "evidence_summary_zh": "agent.1 实质交付：SCENARIO·JZ 主名、三定位五功能三区两翼、三层空间框架与空间—产业—运营回路；正文、5张双语图件、三节点决策卡和指标/矩阵共同落证。三处区域和两翼均为任务接口，待联系人、场地、授权、安全与复盘日期核验后实施。"
   },
   {
    "requirement_id": "agent.2",
@@ -1026,13 +1032,15 @@
     "geometry/buildings.geojson",
     "geometry/phasing.geojson"
    ],
-   "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
-   ],
+    "metrics": [
+     "annual_program_count",
+     "building_footprint_area_sqm",
+     "building_unit_count",
+     "global_case_count",
+     "green_ratio",
+     "scenario_node_count",
+     "industry_protocol_count"
+    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
@@ -1063,7 +1071,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "具身智能验证场、大模型评测场与场景卡共创工坊三节点，支撑验证、评测与共创的全链条场景表达。"
+    "evidence_summary_zh": "agent.2 实质交付：CASE-GLOBAL-01—07 七个全球 AI 生态机制案例、来源/日期/许可边界与八要素（空间、产业、资金、人才、算力、数据、场景、治理）图谱，转译到三节点和区域接口；只作机制参考，不主张合作、认证或资产复用。"
   },
   {
    "requirement_id": "agent.3",
@@ -1082,13 +1090,16 @@
     "geometry/buildings.geojson",
     "geometry/phasing.geojson"
    ],
-   "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
-   ],
+    "metrics": [
+     "annual_program_count",
+     "building_footprint_area_sqm",
+     "building_unit_count",
+     "global_case_count",
+     "green_ratio",
+     "scenario_card_count",
+     "industry_protocol_count",
+     "persona_count"
+    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
@@ -1119,7 +1130,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "五类AI+场景：场景卡AI辅助生成与版本管理、测试数据匿名采集与合规脱敏、评测过程可解释记录AI、测试预约与秩序调度AI、内容与安全告警人工复核，全部数据匿名聚合+人工复核。"
+    "evidence_summary_zh": "agent.3 实质交付：SC-01—SC-12 共12张可阅读场景卡逐项写明输入、空间、输出、人工职责、隐私边界、指标公式、失败模式与退出条件；T1—T3 三个产业测试协议各自对应 N1—N3，另有8类画像、人工兜底、申诉、删除与物理急停。"
   },
   {
    "requirement_id": "agent.4",
@@ -1139,13 +1150,16 @@
     "geometry/buildings.geojson",
     "geometry/phasing.geojson"
    ],
-   "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
-   ],
+    "metrics": [
+     "annual_program_count",
+     "building_footprint_area_sqm",
+     "building_unit_count",
+     "global_case_count",
+     "green_ratio",
+     "scenario_node_count",
+     "industry_protocol_count",
+     "public_space_area_sqm"
+    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
@@ -1176,7 +1190,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "场景验证公共空间与三处创新节点：具身智能验证场、大模型评测场、场景卡共创工坊，含人工服务兜底与测试安全机制。"
+    "evidence_summary_zh": "agent.4 实质交付：N1具身智能验证场、N2大模型评测场、N3场景卡共创工坊的空间—产业—运营分工，东西慢行/展示缝合、南北入口贯通、小月河公共体验翼和大钟寺消费商务接口；每节点均有已知/unknown、现场核验、决策门、角色、过程指标与停止撤收。"
   },
   {
    "requirement_id": "agent.5",
@@ -1196,13 +1210,15 @@
     "geometry/buildings.geojson",
     "geometry/phasing.geojson"
    ],
-   "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
-   ],
+    "metrics": [
+     "annual_program_count",
+     "building_footprint_area_sqm",
+     "building_unit_count",
+     "global_case_count",
+     "green_ratio",
+     "persona_count",
+     "scenario_card_count"
+    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
@@ -1233,7 +1249,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "百年京张「场景」叙事：从百年铁路试验精神到AI场景验证的文化表达。"
+    "evidence_summary_zh": "agent.5 实质交付：百年京张历史材料核验→中关村创新文化→AI公共文化的三段叙事，非色彩依赖的中英双语导视、触读/人工讲解、国际传播文案与逐项权利清单；历史素材未获权利前不进入图件或活动。"
   },
   {
    "requirement_id": "agent.6",
@@ -1252,13 +1268,15 @@
     "geometry/buildings.geojson",
     "geometry/phasing.geojson"
    ],
-   "metrics": [
-    "annual_program_count",
-    "building_footprint_area_sqm",
-    "building_unit_count",
-    "global_case_count",
-    "green_ratio"
-   ],
+    "metrics": [
+     "annual_program_count",
+     "building_footprint_area_sqm",
+     "building_unit_count",
+     "global_case_count",
+     "green_ratio",
+     "industry_protocol_count",
+     "complaint_close_rate"
+    ],
    "drawings": [
     "drawings/a3-booklet.pdf",
     "drawings/a0-boards.pdf"
@@ -1289,7 +1307,7 @@
     "VISUAL_PACKAGING",
     "PROFESSIONAL_EVIDENCE"
    ],
-   "evidence_summary_zh": "年度活动体系：场景卡开放征集季、AI产业测试开放周、年度场景评测日，辅以月度常规活动（概念）。"
+    "evidence_summary_zh": "agent.6 实质交付：春季场景卡开放征集季、夏季AI产业测试开放周、秋季年度场景评测日与冬季复盘撤牌报告，配季度开发者 schema 诊所、人工/纸本服务、志愿转换与退出维护；活动、招商、转化和资源均标注 proposed/to_verify，不作承诺。"
   }
  ]
 }

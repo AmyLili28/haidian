@@ -21,10 +21,14 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/agent.json",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/ai-ecosystem-map.en.png",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/ai-ecosystem-map.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/key-areas.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/land-use-structure.en.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/land-use-structure.png",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/logo-jz.en.png",
+        "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/logo-jz.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/metrics-evidence.en.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/ai-scenario-card-validation-belt/assets/figures/mobility-bluegreen.en.png",
@@ -66,7 +70,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/ai-scenario-card-validation-belt": "formal"
       },
-      "total_bytes": 3279009,
+      "total_bytes": 8406689,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -146,9 +150,9 @@
         "proposal_reference_counts": {
           "source": 8,
           "standard": 0,
-          "depth": 1,
-          "data": 2,
-          "metric": 2
+          "depth": 2,
+          "data": 7,
+          "metric": 6
         }
       }
     },
