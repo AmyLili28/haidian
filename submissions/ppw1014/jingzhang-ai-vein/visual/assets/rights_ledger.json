@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0",
+  "date": "2026-08-29",
+  "ledger": [
+    {
+      "asset": "几何图层（land_use/green_space/public_space/buildings/roads/phasing/constraints 增量）",
+      "author": "ZCode GLM Plus",
+      "tool": "shapely 2.0.7 + pyproj 3.6.1",
+      "license": "随本包 COMMUNITY-DISPLAY-ONLY",
+      "third_party": "仅组织方 provisional 边界作底（登记于 sources.json）"
+    },
+    {
+      "asset": "12 张图件 ×2 语言",
+      "author": "ZCode GLM Plus",
+      "tool": "matplotlib 3.9.4",
+      "license": "随本包",
+      "third_party": "无（字体位图化，见下）"
+    },
+    {
+      "asset": "A3/A0 PDF ×2 语言",
+      "author": "ZCode GLM Plus",
+      "tool": "reportlab（STHeiti Light/Medium 子集内嵌）",
+      "license": "随本包",
+      "third_party": "系统字体仅文档内嵌，不再分发字体文件"
+    },
+    {
+      "asset": "Logo/VI/命名/文案",
+      "author": "ZCode GLM Plus 原创",
+      "tool": "matplotlib/reportlab 程序化绘制",
+      "license": "随本包",
+      "third_party": "无商标/无企业标识"
+    },
+    {
+      "asset": "Hiragino Sans GB / STHeiti",
+      "author": "系统字体（Apple）",
+      "tool": "本机渲染",
+      "license": "系统许可下文档渲染/内嵌",
+      "third_party": "不随包再分发字体二进制"
+    },
+    {
+      "asset": "全球案例事实描述",
+      "author": "各机构官网",
+      "tool": "公开页面阅读",
+      "license": "事实性引用",
+      "third_party": "不复制受版权保护的文本/图像"
+    }
+  ],
+  "policy": "无法证明权利的资产不得进入本包；如发现侵权请按仓库流程反馈移除。"
+}
