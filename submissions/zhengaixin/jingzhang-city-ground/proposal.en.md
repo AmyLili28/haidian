@@ -43,7 +43,7 @@ The proposed identity converts the Jingzhang railway's paired-track memory into 
 | Colour | G0 `#D85B48`; G1 `#4F8C69`; G2 `#D49B3F`; G3 `#3F79A8`; G4 `#7567A6`; ink `#17252D`; paper `#F5F2EA` | Preserve contrast and the G0-G4 order; do not infer regulatory zoning |
 | Monochrome | 100% black, or white reversed on a single dark field | No gradients, shadows or recolouring of individual bands |
 | Minimum size | Symbol only from 16 px / 6 mm; full bilingual lockup from 96 px / 34 mm | Below the threshold use the symbol or plain text, not compressed lettering |
-| Typeface | Locally bundled Noto Sans CJK SC subset, licensed under SIL Open Font License 1.1 | Source, licence and derived subset are recorded in `sources.json` and the copyright statement |
+| Typeface | The Chinese offline HTML embeds a Noto Sans CJK SC subset directly as a Data URI under SIL Open Font License 1.1; English uses a system sans-serif stack | Source and the complete licence text are recorded in `sources.json` and `report/copyright_statement.md`; no remote or standalone font file is required |
 | Incorrect use | No stretching, rotation, glow, perspective distortion, unofficial partner lockups or placement over low-contrast imagery | Partner marks require separate permission and a documented clear-space rule |
 | Cultural wayfinding boundary | The brand identifies this proposal and its programmes; the Jingzhang heritage wayfinding system carries historical interpretation and statutory information | The brand may support a route, but may not overwrite heritage plaques, official transit signs or emergency guidance |
 
