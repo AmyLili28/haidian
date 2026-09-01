@@ -42,6 +42,34 @@
       "statement_en": "The event system and phasing are design suggestions, not confirmed government or investment commitments.",
       "category": "operation",
       "status": "concept"
+    },
+    {
+      "assumption_id": "A-REGIONAL-001",
+      "statement_zh": "北纬社区、未来科学城、怀柔科学城、经开区和京津冀均为概念学习接口，不代表已确定合作或资源到位。",
+      "statement_en": "Beiwei, Future Science City, Huairou Science City, the BDA and Beijing-Tianjin-Hebei are concept learning interfaces, not confirmed cooperation or available resources.",
+      "category": "regional_interface",
+      "status": "concept"
+    },
+    {
+      "assumption_id": "A-PRIVACY-002",
+      "statement_zh": "隐私、保留、删除、申诉和影响评估均为拟议治理要求，真实数据试验前必须由专业团队和责任主体确认。",
+      "statement_en": "Privacy, retention, deletion, appeal and impact assessment are proposed governance requirements to be confirmed before real-data testing.",
+      "category": "data_governance",
+      "status": "concept"
+    },
+    {
+      "assumption_id": "A-REGIONAL-001",
+      "statement_zh": "北纬社区、未来科学城、怀柔科学城、经开区和京津冀均为概念学习接口，不代表已确定合作或资源到位。",
+      "statement_en": "Beiwei, Future Science City, Huairou Science City, the BDA and Beijing-Tianjin-Hebei are concept learning interfaces, not confirmed cooperation or available resources.",
+      "category": "regional_interface",
+      "status": "concept"
+    },
+    {
+      "assumption_id": "A-PRIVACY-002",
+      "statement_zh": "隐私、保留、删除、申诉和影响评估均为拟议治理要求，真实数据试验前必须由专业团队和责任主体确认。",
+      "statement_en": "Privacy, retention, deletion, appeal and impact assessment are proposed governance requirements to be confirmed before real-data testing.",
+      "category": "data_governance",
+      "status": "concept"
     }
   ]
 }

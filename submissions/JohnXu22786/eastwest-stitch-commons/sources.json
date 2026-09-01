@@ -458,6 +458,270 @@
         "domestic_benchmark",
         "incremental_renewal"
       ]
+    },
+    {
+      "source_id": "SRC-GLOBAL-HIGH-LINE",
+      "title": "The High Line",
+      "publisher": "Friends of the High Line",
+      "source_kind": "global_case_reference",
+      "url": "https://www.thehighline.org/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; no image or logo reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "textual precedent comparison",
+        "mechanism inspiration with attribution",
+        "case-study reference"
+      ],
+      "prohibited_uses": [
+        "copying images, logos, plans, or branding",
+        "claiming local partnership or performance transfer",
+        "treating as local survey or statutory evidence"
+      ],
+      "topics": [
+        "adaptive_reuse",
+        "public_space",
+        "operations"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作可追溯案例参照；不主张图像/标识复用，不代表合作或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-SEOU-LLO",
+      "title": "Seoullo 7017 Skygarden",
+      "publisher": "Seoul Metropolitan Government",
+      "source_kind": "global_case_reference",
+      "url": "https://english.seoul.go.kr/seoullo-7017-skygarden/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; no image or logo reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "textual precedent comparison",
+        "mechanism inspiration with attribution",
+        "case-study reference"
+      ],
+      "prohibited_uses": [
+        "copying images, logos, plans, or branding",
+        "claiming local partnership or performance transfer",
+        "treating as local survey or statutory evidence"
+      ],
+      "topics": [
+        "elevated_public_space",
+        "mobility",
+        "operations"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作可追溯案例参照；不主张图像/标识复用，不代表合作或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-COULEE",
+      "title": "Coulée verte René-Dumont",
+      "publisher": "Ville de Paris",
+      "source_kind": "global_case_reference",
+      "url": "https://www.paris.fr/pages/la-coulee-verte-rene-dumont-2654",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; no image or logo reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "textual precedent comparison",
+        "mechanism inspiration with attribution",
+        "case-study reference"
+      ],
+      "prohibited_uses": [
+        "copying images, logos, plans, or branding",
+        "claiming local partnership or performance transfer",
+        "treating as local survey or statutory evidence"
+      ],
+      "topics": [
+        "linear_park",
+        "heritage",
+        "public_space"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作可追溯案例参照；不主张图像/标识复用，不代表合作或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-606",
+      "title": "The 606",
+      "publisher": "The Trust for Public Land / The 606",
+      "source_kind": "global_case_reference",
+      "url": "https://www.the606.org/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; no image or logo reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "textual precedent comparison",
+        "mechanism inspiration with attribution",
+        "case-study reference"
+      ],
+      "prohibited_uses": [
+        "copying images, logos, plans, or branding",
+        "claiming local partnership or performance transfer",
+        "treating as local survey or statutory evidence"
+      ],
+      "topics": [
+        "rail_trail",
+        "community",
+        "operations"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作可追溯案例参照；不主张图像/标识复用，不代表合作或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-FAB",
+      "title": "Fab Foundation",
+      "publisher": "Fab Foundation",
+      "source_kind": "global_case_reference",
+      "url": "https://fabfoundation.org/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; no image or logo reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "textual precedent comparison",
+        "mechanism inspiration with attribution",
+        "case-study reference"
+      ],
+      "prohibited_uses": [
+        "copying images, logos, plans, or branding",
+        "claiming local partnership or performance transfer",
+        "treating as local survey or statutory evidence"
+      ],
+      "topics": [
+        "maker_ecosystem",
+        "talent",
+        "open_network"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作可追溯案例参照；不主张图像/标识复用，不代表合作或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-STATIONF",
+      "title": "Station F",
+      "publisher": "Station F",
+      "source_kind": "global_case_reference",
+      "url": "https://stationf.co/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; no image or logo reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "textual precedent comparison",
+        "mechanism inspiration with attribution",
+        "case-study reference"
+      ],
+      "prohibited_uses": [
+        "copying images, logos, plans, or branding",
+        "claiming local partnership or performance transfer",
+        "treating as local survey or statutory evidence"
+      ],
+      "topics": [
+        "incubation",
+        "talent",
+        "enterprise_conversion"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作可追溯案例参照；不主张图像/标识复用，不代表合作或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-AIVERIFY",
+      "title": "AI Verify Foundation",
+      "publisher": "AI Verify Foundation",
+      "source_kind": "global_case_reference",
+      "url": "https://aiverifyfoundation.sg/",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; no image or logo reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "textual precedent comparison",
+        "mechanism inspiration with attribution",
+        "case-study reference"
+      ],
+      "prohibited_uses": [
+        "copying images, logos, plans, or branding",
+        "claiming local partnership or performance transfer",
+        "treating as local survey or statutory evidence"
+      ],
+      "topics": [
+        "ai_governance",
+        "testing",
+        "trust"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作可追溯案例参照；不主张图像/标识复用，不代表合作或本地绩效。"
+    },
+    {
+      "source_id": "SRC-GLOBAL-NIST-AI-RMF",
+      "title": "Artificial Intelligence Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology",
+      "source_kind": "global_case_reference",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "published_date": null,
+      "accessed_date": "2026-09-01",
+      "file_type": "web",
+      "authority_level": "A2",
+      "timeliness_level": "T1",
+      "public_access_status": "public_url",
+      "license_summary": "Public reference page; no image or logo reuse assumed.",
+      "review_status": "reference_only",
+      "usable_for_formal": "reference_only",
+      "allowed_uses": [
+        "textual precedent comparison",
+        "mechanism inspiration with attribution",
+        "case-study reference"
+      ],
+      "prohibited_uses": [
+        "copying images, logos, plans, or branding",
+        "claiming local partnership or performance transfer",
+        "treating as local survey or statutory evidence"
+      ],
+      "topics": [
+        "ai_governance",
+        "risk",
+        "testing"
+      ],
+      "local_paths": [],
+      "notes_zh": "仅作可追溯案例参照；不主张图像/标识复用，不代表合作或本地绩效。"
     }
   ]
 }

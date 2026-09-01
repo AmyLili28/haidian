@@ -10,8 +10,8 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/JohnXu22786/eastwest-stitch-commons/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/JohnXu22786/eastwest-stitch-commons/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible"
+        "submissions/JohnXu22786/eastwest-stitch-commons/proposal.md: 可能涉及非公开或敏感资料; maintainer review required",
+        "submissions/JohnXu22786/eastwest-stitch-commons/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
         "submissions/JohnXu22786/eastwest-stitch-commons/proposal.md"
@@ -21,6 +21,8 @@
       ],
       "changed_files": [
         "submissions/JohnXu22786/eastwest-stitch-commons/agent.json",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/ecosystem-atlas.en.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/ecosystem-atlas.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/key-areas.en.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/key-areas.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/land-use-structure.en.png",
@@ -31,8 +33,14 @@
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/metrics-evidence.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/mobility-bluegreen.en.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/mobility-bluegreen.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/node-mechanisms.en.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/node-mechanisms.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/scenario-cards.en.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/scenario-cards.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/site-overview.en.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assets/figures/site-overview.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/previews/visual-index.en.png",
+        "submissions/JohnXu22786/eastwest-stitch-commons/assets/previews/visual-index.png",
         "submissions/JohnXu22786/eastwest-stitch-commons/assumptions.json",
         "submissions/JohnXu22786/eastwest-stitch-commons/changelog.md",
         "submissions/JohnXu22786/eastwest-stitch-commons/compliance_matrix.json",
@@ -68,7 +76,7 @@
       "ai_package_stages": {
         "submissions/JohnXu22786/eastwest-stitch-commons": "formal"
       },
-      "total_bytes": 4928969,
+      "total_bytes": 6407920,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -142,15 +150,15 @@
       "summary": {
         "standard_matrix_items": 5,
         "design_depth_items": 15,
-        "known_metric_refs_required": 17,
+        "known_metric_refs_required": 18,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 8,
+          "source": 2,
           "standard": 0,
           "depth": 0,
           "data": 1,
-          "metric": 2
+          "metric": 0
         }
       }
     },
@@ -167,9 +175,7 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [
-    "Review legacy bilingual compatibility warning: submissions/JohnXu22786/eastwest-stitch-commons/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible"
-  ],
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {
