@@ -1,14 +1,90 @@
-# FITNESS LOOP (FIT.JZ): Public Fitness & Smart Sports Facility Network (Concept)
+---
+title: "FIT·JZ: Public Fitness and Smart Sports Facility Network (Concept Proposal)"
+author_github: "JohnXu22786"
+language: "en"
+translation_of: "proposal.md"
+proposal_format_version: "2"
+license: "COMMUNITY-DISPLAY-ONLY"
+summary: "A reversible, human-reviewed public fitness network linking the Jingzhang heritage corridor, AI innovation ecosystem and everyday healthy mobility."
+---
 
-**English convenience summary** (full binding narrative is the Chinese proposal.md; this summary may lag the zh text).
+# FIT·JZ: Public Fitness and Smart Sports Facility Network
 
-以「活力智环（FIT·JZ · 全民健身与智慧体育设施网络）」构建沿京张AI创新带的全民健身专项概念（对应公开任务书体育设施与健康生活维度、青年友好公共空间 track 运动维度，以及全民健身公开政策方向）：以「一心一环一角」组织体育设施网络，「全民健身中心」为园区级综合体育服务节点（室内场馆、体质监测、运动康复服务意向，众智园侧）、「智慧步道环」为沿绿带组织的智慧健身步道与户外运动环（运动数据匿名统计、里程打卡、健身指导节点，AI原点社区侧）、「社区运动角」为嵌入式社区体育设施点（健身器材、球类场地、老年与儿童运动区，大钟寺侧），三节点沿京张绿带组织连续运动动线；五类AI+场景（运动处方AI、场馆预约AI、体质监测AI、赛事组局AI、安全监测AI）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控（不进行个体识别式追踪）；要素机制均为概念建议：场馆分时共享、运动积分、社会体育指导员轮值、赛事活动报备、年度开放运营公示；对标案例（全民健身场地设施建设公开政策方向、日本社区综合体育俱乐部、新加坡ActiveSG公开体系、纽约公园跑步道公开经验）仅按公开渠道信息概述；交通慢行优先、蓝绿空间低干预融合布置，三项formal核心指标（site_area_sqm、green_ratio、public_space_ratio）以本包几何复算、面积以官方文本口径为底，分期实施+年度复算与公示计划。全部为概念建议、参考方案，不给出容积率、建筑高度、具体拆改留、场馆规模、运动量、投资测算或工程实施结论，不编造任何官方数据、场馆数量、参与人次或政策承诺，不把设想写成已确定安排，基于 provisional 边界，官方数据发布后复算。
+> English counterpart of `proposal.md`. All figures, metrics and boundaries are synchronized with the Chinese proposal. This is a concept proposal, not an approved plan, statutory control, engineering design or implementation commitment.
 
-## Outline
-- 一带总体概念：活力智环——全民健身与智慧体育设施网络的总体统筹（含主名称、英文名称与命名体系）。
-- 体育设施作为要素机制一环：健身中心、步道环与运动角构建「场馆-步道-社区」协同回路；对标案例（全民健身公开政策方向、日本社区综合体育俱乐部、新加坡ActiveSG、纽约公园跑步道）仅按公开渠道信息概述。
-- 五类AI+场景：运动处方AI、场馆预约AI、体质监测AI、赛事组局AI、安全监测AI，全部数据匿名聚合+人工复核。
-- 体育公共空间：健身中心共享大厅、步道环打卡节点、运动角全龄场地，含人工服务兜底与意见复核机制。
-- 「活力智环」叙事：铁路工人工间操与全民健身的叙事对话——一带曾以身体劳动筑路，如今以全民运动筑健康（概念叙事）。
-- 体育运营体系：场馆分时共享与运动积分、社会体育指导员轮值、年度活动体系（一带运动节、智慧步道挑战季、社区运动开放周等概念活动），机制为概念建议。
-- Three formal core metrics (site_area_sqm, green_ratio, public_space_ratio) are recomputed from this package's geometry; all figures are concept suggestions on a provisional boundary; recompute when official data is published.
+## 1. Design basis and source list
+
+The proposal responds to the three requested identities—Century Jingzhang Cultural Belt, Urban AI Life Experience Belt, and AI Integrated Innovation Belt—and the five functions: full-stack AI innovation, world-class AI ecosystem, AI+ scenario enablement, an intelligent active city, and global AI governance discourse. Official task material and the source/rights ledger are authoritative for scope. Provisional geometry is used only for reproducible diagrams; no official redline is claimed.
+
+## 2. Three-layer scope framework
+
+The coordinated research area, overall design area and key detailed-design areas are treated as three different scales. The concept network uses one heart, one ring, one corner and one chain: a service heart, a slow-mobility ring, a neighborhood sports corner and a Jingzhang-linked chain. Geometry, area and ratios are provisional and must be recalculated when official GIS is released.
+
+## 3. Industry and future-city research
+
+FIT·JZ turns anonymized exercise demand into a public AI test entry point. The three positioning statements are: heritage as a cultural interface; sport as an everyday AI experience; and a testable innovation belt with reversible governance. The five functions land in a rules sandbox, an eight-element ecosystem, ten scenario cards, a walking/cycling network, and transparent public review.
+
+The three areas and two wings are:
+
+| Requested area/interface | Concept role | Boundary |
+|---|---|---|
+| Beijing AI Origin Community | public trail and community co-creation interface | direction only, pending community deliberation |
+| Zhongzhi Park AI Autonomous Innovation Acceleration Area | professional service heart and developer test interface | no promised tenants or facilities |
+| Dazhongsi AI Industry Cluster Area | daily sports corner, business and consumption interface | no land/ownership/招商 conclusion |
+| Zhongguancun Science-Service Wing | method, talent and service exchange | research interface only |
+| Xiaoyuehe Scenario-Enablement Wing | open-space and scenario continuity | no engineering or approval claim |
+| Beiwei Community | child/elder friendly everyday entry | requires community co-design |
+| Future Science City | research and evaluation exchange | no partnership claimed |
+| Huairou Science City | science communication and outdoor health exchange | no venue/resource claimed |
+| E-town | device, public-service and manufacturing test reference | no supplier selected |
+| Beijing–Tianjin–Hebei | portable data/indicator/rule interface | no regional cooperation claimed |
+
+## 4. Overall urban design and regulatory depth
+
+The concept is reuse-first and reversible: preserve heritage memory, add light public interfaces, and avoid specifying FAR, height, demolition, road redlines, bridge works, municipal capacity or investment. East–west stitching follows the Jingzhang memory line; north–south penetration links communities, workplaces, stations and blue-green spaces. All boundaries, path alignments and areas remain provisional.
+
+## 5. Key-area detailed design
+
+The heart provides a staffed service desk, inclusive training, health referral and model-review room. The ring provides low-speed walking/cycling, rest points, multilingual interpretation and anonymous aggregate counters. The corner provides low-cost daily exercise, children/older-adult zones, manual assistance and complaint access. Three concept landmarks—起跑门 / Start Gate, 里程环廊 / Milestone Loop, 众练台 / Commons Training Deck—are original working names, not official brands. A component library covers shade, seating, tactile guidance, bilingual signs, timing marks, privacy notices and removable sensors.
+
+## 6. AI innovation ecosystem, personas and AI+ scenarios
+
+The mechanism is: anonymous need aggregation → model/rule candidate → spatial touchpoint → human decision → public review → pause or exit. The model never issues an autonomous medical or safety decision. Eight ecosystem elements are land/space, industry, funding, talent, compute, data, scenes and governance; each has an owner, public interface and stop condition in the Chinese proposal.
+
+Seven mechanism references are retained with independent links and rights boundaries: Singapore ActiveSG, Japan community comprehensive sports clubs, UK OpenActive, Strava Metro, PlaySight, Catapult and Barcelona Esports. They are mechanism references only; no logo, image, performance number, partner, funding or result is transferred to Haidian.
+
+Eight user groups are considered: older adults, children/caregivers, youth and students, people with disabilities, low-income residents, visitors, workers/researchers, and enterprises/developers. Ten scenario cards (SC-01–SC-10) each specify input, model/rule, spatial touchpoint, output, human duty, failure/appeal, privacy, KPI and exit. The three industry protocols are: TP-01 anonymous demand and accessibility test; TP-02 equipment/edge inference and maintenance test; TP-03 event safety, fairness and public appeal test. Protocols are sandbox tests, not procurement or clinical trials.
+
+## 7. Land, building scale and removal/retention options
+
+Retain and adapt before replace; use removable, low-impact interfaces. Building area, FAR, height, demolition quantities and capacity are unknown. Any future change requires official data, accessibility review, safety review, rights clearance and public consultation.
+
+## 8. Mobility, rail, municipal and public-service facilities
+
+The ring is a concept for slow mobility and service continuity, not a road or rail design. Station, bus, bicycle, emergency, lighting and sanitation interfaces are to be verified by responsible professionals. No precise route, capacity or construction claim is made.
+
+## 9. Blue-green space, public realm and city character
+
+The palette uses deep blue for public service, green for blue-green movement, orange for staffed assistance/warnings and grey for unknown conditions. The cultural narrative combines Jingzhang railway memory, Zhongguancun experimentation and a new AI culture of transparent public service. Signs are bilingual, legible and accessible; international communication explains the mechanism without claiming official partnership.
+
+## 10. Project list, implementation policy and phasing
+
+Phase 1 (1–3 years): co-design, baseline, one removable pilot per node, and public privacy/appeal tests. Phase 2 (3–5 years): compare protocols, publish evidence, expand only if thresholds pass. Phase 3 (5–10 years): portable rule package, annual public review and optional regional exchange. RACI: public authority—scope and accountability; community—co-design and appeal; professional health/safety reviewers—human decisions; operators—service and maintenance; developers—sandbox code and documentation; researchers—evaluation; users—consent, feedback and exit.
+
+The open-operations package includes a quarterly developer clinic, versioned API/data dictionary with synthetic data only, annual open-scenario call, community instructor rotation, public landmark maintenance log, an accessible paper channel, and a conversion review for any future pilot. No deployment or commercial conversion is presumed.
+
+## 11. Metrics, recalculation and compliance matrix
+
+Formal core metrics are geometry-recomputable but provisional: site area 11,412,825.386 sqm, green ratio 12.5671%, and public-space ratio 0.4569%. Public displays round these values and label them provisional; the exact data-value is retained for reproducibility. Other metrics—10 scenario cards, 3 industry protocols, 8 personas, 7 cases, 3 landmarks and 3 phases—are content counts, not statutory commitments. A yearly review may pause a scenario for unsafe output, unfair access, privacy breach, unresolved appeal, maintenance failure or missing rights.
+
+## 12. Risk, rights and compliance
+
+Health information is not stored by default. The concept uses data minimization, purpose limitation, local aggregation, role-based access, a short retention window, deletion verification, re-identification prohibition, incident response and a public data register. A human reviewer must approve health-adjacent advice, safety alerts, publication and any escalation. Every case and font has a source, license/allowed-use note and prohibited-use note. No third-party logos or images are packaged.
+
+Unknowns include official boundary, land ownership, approvals, engineering conditions, capacity, vendor availability, clinical validity, operating budget and community acceptance. These are not filled by inference.
+
+## 13. References
+
+See `sources.json`, `assumptions.json`, `report/copyright_statement.md`, `geometry/` and the Chinese proposal for the full source URLs, formulas, rights ledger, decision cards, scenario cards and validation evidence. The package is offered for open review only.
+
+**Status:** Conceptual, provisional, bilingual and human-reviewed in design intent; not a statutory, engineering, medical, procurement or investment document.

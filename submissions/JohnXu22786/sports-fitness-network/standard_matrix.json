@@ -52,7 +52,9 @@
         "A-DATA-001",
         "A-PRIVACY-001",
         "A-CONTENT-001",
-        "A-HEALTH-001"
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -113,7 +115,9 @@
         "A-DATA-001",
         "A-PRIVACY-001",
         "A-CONTENT-001",
-        "A-HEALTH-001"
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -174,7 +178,9 @@
         "A-DATA-001",
         "A-PRIVACY-001",
         "A-CONTENT-001",
-        "A-HEALTH-001"
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -235,7 +241,9 @@
         "A-DATA-001",
         "A-PRIVACY-001",
         "A-CONTENT-001",
-        "A-HEALTH-001"
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -296,7 +304,9 @@
         "A-DATA-001",
         "A-PRIVACY-001",
         "A-CONTENT-001",
-        "A-HEALTH-001"
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",

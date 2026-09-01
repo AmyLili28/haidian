@@ -274,7 +274,7 @@
     {
       "source_id": "PACKAGE-GEOMETRY",
       "title": "本方案 geometry 层(provisional 概念设计)",
-      "publisher": "JohnXu22786 / agent-oc-haidian",
+      "publisher": "JohnXu22786 / Codex direct",
       "source_kind": "agent_generated_design",
       "url": "geometry/",
       "published_date": "2026-08-24",
@@ -300,10 +300,226 @@
       ],
       "notes_zh": "方案自产设计几何，标注 provisional。",
       "provenance": {
-        "generator": "opencode (FIT.JZ concept prompting) + deterministic build script",
-        "generation_method": "concept prompting + geometry program",
+        "generator": "Direct Codex deterministic package revision",
+        "generation_method": "human-directed concept editing plus deterministic geometry/figure generation",
         "limitations": "low confidence conceptual envelopes"
       }
+    },
+    {
+      "title": "ActiveSG official public fitness network",
+      "accessed_date": "2026-09-01",
+      "source_id": "DATA-SRC-ACTIVESG-OFFICIAL",
+      "timeliness_level": "T1",
+      "source_kind": "official_program_page",
+      "prohibited_uses": [
+        "transferring outcomes, branding, participation numbers or partnership claims to Haidian"
+      ],
+      "publisher": "Sport Singapore",
+      "public_access_status": "public_web",
+      "authority_level": "FIRST_PARTY",
+      "topics": [
+        "global_case",
+        "public_sport",
+        "operations"
+      ],
+      "file_type": "web",
+      "published_date": null,
+      "review_status": "referenced",
+      "license_summary": "Public program page cited for mechanism description only; no logo, image or proprietary content is packaged.",
+      "url": "https://www.activesgcircle.gov.sg/",
+      "usable_for_formal": "no",
+      "allowed_uses": [
+        "mechanism comparison: public entry points, facilities and programs"
+      ]
+    },
+    {
+      "title": "Comprehensive community sports clubs",
+      "accessed_date": "2026-09-01",
+      "source_id": "DATA-SRC-JAPAN-COMMUNITY-SPORTS",
+      "timeliness_level": "T1",
+      "source_kind": "official_program_page",
+      "prohibited_uses": [
+        "copying program claims, identity, performance or organizational arrangements"
+      ],
+      "publisher": "Japan Sports Association",
+      "public_access_status": "public_web",
+      "authority_level": "FIRST_PARTY",
+      "topics": [
+        "global_case",
+        "community_sport",
+        "operations"
+      ],
+      "file_type": "web",
+      "published_date": null,
+      "review_status": "referenced",
+      "license_summary": "Public first-party reference; mechanism summary only.",
+      "url": "https://www.japan-sports.or.jp/local/",
+      "usable_for_formal": "no",
+      "allowed_uses": [
+        "mechanism comparison: multi-sport community operation"
+      ]
+    },
+    {
+      "title": "OpenActive open activity data standard",
+      "accessed_date": "2026-09-01",
+      "source_id": "DATA-SRC-OPENACTIVE",
+      "timeliness_level": "T1",
+      "source_kind": "official_standard_page",
+      "prohibited_uses": [
+        "claiming compatibility, certification or results for this proposal"
+      ],
+      "publisher": "OpenActive",
+      "public_access_status": "public_web",
+      "authority_level": "FIRST_PARTY",
+      "topics": [
+        "global_case",
+        "open_data",
+        "developer_ecosystem"
+      ],
+      "file_type": "web",
+      "published_date": null,
+      "review_status": "referenced",
+      "license_summary": "Public standard reference; no code or brand asset repackaged.",
+      "url": "https://www.openactive.io/",
+      "usable_for_formal": "no",
+      "allowed_uses": [
+        "mechanism comparison: open activity data and interoperability"
+      ]
+    },
+    {
+      "title": "Strava Metro public planning data service",
+      "accessed_date": "2026-09-01",
+      "source_id": "DATA-SRC-STRAVA-METRO",
+      "timeliness_level": "T1",
+      "source_kind": "official_service_page",
+      "prohibited_uses": [
+        "claiming access to Strava data or transferring efficacy"
+      ],
+      "publisher": "Strava Metro",
+      "public_access_status": "public_web",
+      "authority_level": "FIRST_PARTY",
+      "topics": [
+        "global_case",
+        "privacy",
+        "aggregate_data"
+      ],
+      "file_type": "web",
+      "published_date": null,
+      "review_status": "referenced",
+      "license_summary": "Public service reference; no user data, logo or proprietary output is copied.",
+      "url": "https://metro.strava.com/",
+      "usable_for_formal": "no",
+      "allowed_uses": [
+        "mechanism comparison: aggregated mobility data boundary"
+      ]
+    },
+    {
+      "title": "PlaySight smart sports technology",
+      "accessed_date": "2026-09-01",
+      "source_id": "DATA-SRC-PLAYSIGHT",
+      "timeliness_level": "T1",
+      "source_kind": "official_product_page",
+      "prohibited_uses": [
+        "medical, safety or performance claims for the proposal"
+      ],
+      "publisher": "PlaySight",
+      "public_access_status": "public_web",
+      "authority_level": "FIRST_PARTY",
+      "topics": [
+        "global_case",
+        "sports_ai",
+        "human_review"
+      ],
+      "file_type": "web",
+      "published_date": null,
+      "review_status": "referenced",
+      "license_summary": "Public product reference; no product asset or performance claim is packaged.",
+      "url": "https://playsight.com/",
+      "usable_for_formal": "no",
+      "allowed_uses": [
+        "mechanism comparison: assisted sports analysis"
+      ]
+    },
+    {
+      "title": "Catapult sports performance technology",
+      "accessed_date": "2026-09-01",
+      "source_id": "DATA-SRC-CATAPULT",
+      "timeliness_level": "T1",
+      "source_kind": "official_product_page",
+      "prohibited_uses": [
+        "claiming product deployment, health validity or performance results"
+      ],
+      "publisher": "Catapult",
+      "public_access_status": "public_web",
+      "authority_level": "FIRST_PARTY",
+      "topics": [
+        "global_case",
+        "sports_data",
+        "rights_boundary"
+      ],
+      "file_type": "web",
+      "published_date": null,
+      "review_status": "referenced",
+      "license_summary": "Public product reference; no device, data or logo is packaged.",
+      "url": "https://www.catapult.com/",
+      "usable_for_formal": "no",
+      "allowed_uses": [
+        "mechanism comparison: device/service boundary"
+      ]
+    },
+    {
+      "title": "Barcelona City Council sports service",
+      "accessed_date": "2026-09-01",
+      "source_id": "DATA-SRC-BARCELONA-ESPORTS",
+      "timeliness_level": "T1",
+      "source_kind": "official_city_page",
+      "prohibited_uses": [
+        "partnership, outcome, tourism or branding claims"
+      ],
+      "publisher": "Barcelona City Council",
+      "public_access_status": "public_web",
+      "authority_level": "FIRST_PARTY",
+      "topics": [
+        "global_case",
+        "city_sport",
+        "international_communication"
+      ],
+      "file_type": "web",
+      "published_date": null,
+      "review_status": "referenced",
+      "license_summary": "Public city-service reference; no municipal identity or image is reused.",
+      "url": "https://ajuntament.barcelona.cat/esports/en",
+      "usable_for_formal": "no",
+      "allowed_uses": [
+        "mechanism comparison: city sports organization and public communication"
+      ]
+    },
+    {
+      "title": "Noto Sans CJK SC font and SIL Open Font License",
+      "accessed_date": "2026-09-01",
+      "source_id": "DATA-SRC-NOTO-SANS-SC-OFL",
+      "timeliness_level": "T1",
+      "source_kind": "official_license_page",
+      "prohibited_uses": [
+        "removing license notice or implying font endorsement"
+      ],
+      "publisher": "Noto Fonts project",
+      "public_access_status": "public_web_reference_embedded_subset",
+      "authority_level": "FIRST_PARTY",
+      "topics": [
+        "font",
+        "rights",
+        "bilingual_delivery"
+      ],
+      "file_type": "license",
+      "published_date": null,
+      "review_status": "referenced",
+      "license_summary": "SIL Open Font License 1.1 reference for the Noto font subset embedded in bilingual HTML and the font embedded in PDFs; no standalone font binary is distributed.",
+      "url": "https://github.com/notofonts/noto-cjk/blob/main/SIL%20Open%20Font%20License.txt",
+      "usable_for_formal": "yes",
+      "allowed_uses": [
+        "rendering this package and derivative display materials under the license"
+      ]
     }
   ]
 }

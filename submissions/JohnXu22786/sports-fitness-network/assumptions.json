@@ -1,47 +1,61 @@
 {
-  "schema_version": "0.1.0",
   "assumptions": [
     {
-      "assumption_id": "A-BOUNDARY-001",
       "statement_zh": "组织方尚未发布官方总体边界与重点区域 polygon，本方案全部几何为 provisional 临时粗略约束，仅用于内容组织、讨论与返修，官方几何发布后整体复算。",
+      "assumption_id": "A-BOUNDARY-001",
       "statement_en": "No official boundary or key-area polygons are published yet; all geometry is provisional.",
-      "category": "boundary",
-      "status": "accepted_limitation"
+      "status": "accepted_limitation",
+      "category": "boundary"
     },
     {
-      "assumption_id": "A-CONTROLS-001",
       "statement_zh": "体育设施涉及的绿地蓝线、文物保护与建设控制条件未知，本方案不给出任何具体数值结论，仅保留概念口径的示意。",
+      "assumption_id": "A-CONTROLS-001",
       "statement_en": "Statutory protection and control conditions are unknown; concept-level only.",
-      "category": "statutory_control",
-      "status": "accepted_limitation"
+      "status": "accepted_limitation",
+      "category": "statutory_control"
     },
     {
-      "assumption_id": "A-DATA-001",
       "statement_zh": "体育设施数量、参与人次与场馆数据仅有公开口径，本方案不引用未核实数值，不编造场馆数量或参与人次数据。",
+      "assumption_id": "A-DATA-001",
       "statement_en": "No unverified facility, attendance, or venue figures are cited.",
-      "category": "data_boundary",
-      "status": "accepted_limitation"
+      "status": "accepted_limitation",
+      "category": "data_boundary"
     },
     {
-      "assumption_id": "A-PRIVACY-001",
       "statement_zh": "运动处方与体质监测均以匿名聚合为边界，不进行个体识别式追踪、不建立大规模行为画像，关键决策人工复核。",
+      "assumption_id": "A-PRIVACY-001",
       "statement_en": "Anonymized aggregation only; no individual-identifying tracking; human review for key decisions.",
-      "category": "privacy",
-      "status": "accepted_limitation"
+      "status": "accepted_limitation",
+      "category": "privacy"
     },
     {
-      "assumption_id": "A-CONTENT-001",
       "statement_zh": "AI生成的运动指导内容须经人工审核后发布，遵守版权与署名要求，不夸大健身效果、不把设想写成已确定安排。",
+      "assumption_id": "A-CONTENT-001",
       "statement_en": "AI-generated fitness guidance requires human review; no overstated claims.",
-      "category": "content_governance",
-      "status": "accepted_limitation"
+      "status": "accepted_limitation",
+      "category": "content_governance"
     },
     {
-      "assumption_id": "A-HEALTH-001",
       "statement_zh": "运动处方与体质监测仅为公共健康服务方向的概念建议，不构成医疗诊断或处方。",
+      "assumption_id": "A-HEALTH-001",
       "statement_en": "Fitness guidance is a concept-level public-health service suggestion, not medical advice.",
-      "category": "health",
-      "status": "accepted_limitation"
+      "status": "accepted_limitation",
+      "category": "health"
+    },
+    {
+      "statement_zh": "健康相关输入默认不落库；如试点经授权需要短期保存，只允许目的限定、角色分权、短保留期、删除核验、禁止再识别、事故上报和公众登记。",
+      "assumption_id": "A-HEALTH-DATA-002",
+      "statement_en": "Health-related inputs are not stored by default; any authorized short-term retention requires purpose limitation, role-based access, deletion verification, re-identification prohibition, incident response and a public register.",
+      "status": "accepted_limitation",
+      "category": "health_data_governance"
+    },
+    {
+      "statement_zh": "北纬社区、未来科学城、怀柔科学城、经开区和京津冀均为研究性接口，不暗示已建立合作、资源或审批关系。",
+      "assumption_id": "A-REGIONAL-003",
+      "statement_en": "Regional interfaces are research directions only; no partnership, resource or approval is implied.",
+      "status": "accepted_limitation",
+      "category": "regional_synergy"
     }
-  ]
+  ],
+  "schema_version": "0.1.0"
 }
