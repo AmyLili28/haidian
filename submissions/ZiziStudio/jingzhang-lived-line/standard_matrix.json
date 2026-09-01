@@ -1,0 +1,560 @@
+{
+  "schema_version": "0.1.0",
+  "standards": [
+    {
+      "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+      "requirement_zh": "公告对目的、三层范围、重点区和成果深度的主控要求。",
+      "professional_dimension": "规划统筹",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "三层范围工作框架",
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "building_footprint_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "key_area_count",
+        "lived_work_order_count"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE",
+        "SOURCE-REGISTRY",
+        "OFFICIAL-ANNOUNCEMENT",
+        "AGENT-TASKBOOK",
+        "BOUNDARY-SOURCE",
+        "BJ-JZRHP-2021",
+        "BJ-JZRHP-2024",
+        "BJ-JZRHP-2026",
+        "FIELDWORK-PROTOCOL"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-FIELDWORK-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-AI-TRIAL-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "NON_AI_GATE",
+        "PRIVACY_MINIMIZATION",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "正文明确区分法定要求、设计建议、临时边界和待补条件，并以图层、指标、图纸和自检交叉验证。"
+    },
+    {
+      "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+      "requirement_zh": "智能体任务书对品牌、全球案例、场景卡、测试场景、画像、地标和长期运营的要求。",
+      "professional_dimension": "智能体任务",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "统筹研究范围产业与未来城市研究",
+        "重点区域详细设计",
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "蓝绿空间、公共空间与城市风貌"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "building_footprint_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "key_area_count",
+        "lived_work_order_count"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE",
+        "SOURCE-REGISTRY",
+        "OFFICIAL-ANNOUNCEMENT",
+        "AGENT-TASKBOOK",
+        "BOUNDARY-SOURCE",
+        "BJ-JZRHP-2021",
+        "BJ-JZRHP-2024",
+        "BJ-JZRHP-2026",
+        "FIELDWORK-PROTOCOL"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-FIELDWORK-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-AI-TRIAL-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "NON_AI_GATE",
+        "PRIVACY_MINIMIZATION",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "正文明确区分法定要求、设计建议、临时边界和待补条件，并以图层、指标、图纸和自检交叉验证。"
+    },
+    {
+      "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+      "requirement_zh": "统筹公共空间、城市风貌、建筑与实施衔接。",
+      "professional_dimension": "城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "总体设计范围城市更新与控规深度城市设计",
+        "蓝绿空间、公共空间与城市风貌",
+        "更新项目清单、实施政策与分期计划"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "building_footprint_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "key_area_count",
+        "lived_work_order_count"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE",
+        "SOURCE-REGISTRY",
+        "OFFICIAL-ANNOUNCEMENT",
+        "AGENT-TASKBOOK",
+        "BOUNDARY-SOURCE",
+        "BJ-JZRHP-2021",
+        "BJ-JZRHP-2024",
+        "BJ-JZRHP-2026",
+        "FIELDWORK-PROTOCOL"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-FIELDWORK-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-AI-TRIAL-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "NON_AI_GATE",
+        "PRIVACY_MINIMIZATION",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "正文明确区分法定要求、设计建议、临时边界和待补条件，并以图层、指标、图纸和自检交叉验证。"
+    },
+    {
+      "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+      "requirement_zh": "控制性详细规划成果、程序和专业协同要求。",
+      "professional_dimension": "控规衔接",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "总体设计范围城市更新与控规深度城市设计",
+        "指标体系、面积复算与合规矩阵",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "building_footprint_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "key_area_count",
+        "lived_work_order_count"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE",
+        "SOURCE-REGISTRY",
+        "OFFICIAL-ANNOUNCEMENT",
+        "AGENT-TASKBOOK",
+        "BOUNDARY-SOURCE",
+        "BJ-JZRHP-2021",
+        "BJ-JZRHP-2024",
+        "BJ-JZRHP-2026",
+        "FIELDWORK-PROTOCOL"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-FIELDWORK-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-AI-TRIAL-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "NON_AI_GATE",
+        "PRIVACY_MINIMIZATION",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "正文明确区分法定要求、设计建议、临时边界和待补条件，并以图层、指标、图纸和自检交叉验证。"
+    },
+    {
+      "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
+      "requirement_zh": "用地分类采用赛事提供的官方分类子集并保持拓扑闭合。",
+      "professional_dimension": "用地分类",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "用地、建筑规模与拆改留方案"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "building_footprint_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "key_area_count",
+        "lived_work_order_count"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE",
+        "SOURCE-REGISTRY",
+        "OFFICIAL-ANNOUNCEMENT",
+        "AGENT-TASKBOOK",
+        "BOUNDARY-SOURCE",
+        "BJ-JZRHP-2021",
+        "BJ-JZRHP-2024",
+        "BJ-JZRHP-2026",
+        "FIELDWORK-PROTOCOL"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-FIELDWORK-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-AI-TRIAL-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "NON_AI_GATE",
+        "PRIVACY_MINIMIZATION",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "正文明确区分法定要求、设计建议、临时边界和待补条件，并以图层、指标、图纸和自检交叉验证。"
+    },
+    {
+      "standard_id": "MOHURD-ARCH-DESIGN-DEPTH-2016",
+      "requirement_zh": "建筑单体深度须在测绘、结构、权属、文保和控规资料齐备后深化。",
+      "professional_dimension": "建筑深度",
+      "mandatory": false,
+      "review_status": "data_gap",
+      "proposal_sections": [
+        "用地、建筑规模与拆改留方案",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "building_footprint_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "key_area_count",
+        "lived_work_order_count"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE",
+        "SOURCE-REGISTRY",
+        "OFFICIAL-ANNOUNCEMENT",
+        "AGENT-TASKBOOK",
+        "BOUNDARY-SOURCE",
+        "BJ-JZRHP-2021",
+        "BJ-JZRHP-2024",
+        "BJ-JZRHP-2026",
+        "FIELDWORK-PROTOCOL"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-FIELDWORK-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-AI-TRIAL-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "NON_AI_GATE",
+        "PRIVACY_MINIMIZATION",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "正文明确区分法定要求、设计建议、临时边界和待补条件，并以图层、指标、图纸和自检交叉验证。"
+    },
+    {
+      "standard_id": "GENERATIVE-AI-INTERIM-MEASURES",
+      "requirement_zh": "公共生成式 AI 场景采用合法数据、数据最小化、投诉渠道和人工复核。",
+      "professional_dimension": "AI 合规",
+      "mandatory": false,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "交通、轨道、市政与公共服务设施"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "building_footprint_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "key_area_count",
+        "lived_work_order_count"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE",
+        "SOURCE-REGISTRY",
+        "OFFICIAL-ANNOUNCEMENT",
+        "AGENT-TASKBOOK",
+        "BOUNDARY-SOURCE",
+        "BJ-JZRHP-2021",
+        "BJ-JZRHP-2024",
+        "BJ-JZRHP-2026",
+        "FIELDWORK-PROTOCOL"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-FIELDWORK-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-AI-TRIAL-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "NON_AI_GATE",
+        "PRIVACY_MINIMIZATION",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "正文明确区分法定要求、设计建议、临时边界和待补条件，并以图层、指标、图纸和自检交叉验证。"
+    },
+    {
+      "standard_id": "BARRIER-FREE-ENVIRONMENT-LAW",
+      "requirement_zh": "无障碍连续性由相关使用者参与测试，AI 导航不得替代物理修复和人工服务。",
+      "professional_dimension": "无障碍",
+      "mandatory": false,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "交通、轨道、市政与公共服务设施"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "building_footprint_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "key_area_count",
+        "lived_work_order_count"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE",
+        "SOURCE-REGISTRY",
+        "OFFICIAL-ANNOUNCEMENT",
+        "AGENT-TASKBOOK",
+        "BOUNDARY-SOURCE",
+        "BJ-JZRHP-2021",
+        "BJ-JZRHP-2024",
+        "BJ-JZRHP-2026",
+        "FIELDWORK-PROTOCOL"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-FIELDWORK-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-AI-TRIAL-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "NON_AI_GATE",
+        "PRIVACY_MINIMIZATION",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "正文明确区分法定要求、设计建议、临时边界和待补条件，并以图层、指标、图纸和自检交叉验证。"
+    },
+    {
+      "standard_id": "ELDERLY-SMART-TECH-PLAN-2020-45",
+      "requirement_zh": "仅作为传统服务与智能服务并行的背景依据，不将过期阶段目标写成现行法定义务。",
+      "professional_dimension": "数字包容",
+      "mandatory": false,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "交通、轨道、市政与公共服务设施"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "building_footprint_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "key_area_count",
+        "lived_work_order_count"
+      ],
+      "source_ids": [
+        "SITE-PACKAGE",
+        "SOURCE-REGISTRY",
+        "OFFICIAL-ANNOUNCEMENT",
+        "AGENT-TASKBOOK",
+        "BOUNDARY-SOURCE",
+        "BJ-JZRHP-2021",
+        "BJ-JZRHP-2024",
+        "BJ-JZRHP-2026",
+        "FIELDWORK-PROTOCOL"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-FIELDWORK-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-AI-TRIAL-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "NON_AI_GATE",
+        "PRIVACY_MINIMIZATION",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "正文明确区分法定要求、设计建议、临时边界和待补条件，并以图层、指标、图纸和自检交叉验证。"
+    }
+  ]
+}

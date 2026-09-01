@@ -1,0 +1,113 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Competition brief, allowed design space, enums, ranges, schemas, standards snapshots, and provisional geometry guidance."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "official_public",
+      "usage": "Repository source-use registry; used to distinguish formal, background-only, and provisional materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "official_public",
+      "usage": "Repository navigation layer for scopes, tasks, and missing-data checks; not an independent authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Provisional Overall Design Area and three key-area polygons for package validation only; not an official boundary or precise location basis."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Same provisional source used for the three required key-area polygons; not a precise location or official planning boundary."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official Open Call scope, tasks, key areas, and deliverables."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent tasks, global-case, persona, scenario-card, validation-scenario, landmark, narrative, and long-term operation requirements."
+    },
+    {
+      "id": "BJ-JZRHP-2021",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zxzt/wsghs/2021dej/d5j/202112/t20211216_2562970.html",
+      "source_type": "official_public",
+      "usage": "Official background on the approximately 9 km corridor, railway undergrounding, multi-level breaks, adjacent institutions, phasing, and public participation."
+    },
+    {
+      "id": "BJ-JZRHP-2024",
+      "url": "https://fgw.beijing.gov.cn/gzdt/fgzs/mtbdx/bzwlxw/202409/t20240909_3798433.htm",
+      "source_type": "official_public",
+      "usage": "Official figures for corridor length, approximate park area, entrances, Phase I, community activity areas, and the three-path plus green-space system."
+    },
+    {
+      "id": "BJ-JZRHP-2026",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202607/t20260730_4799453.html",
+      "source_type": "official_public",
+      "usage": "Current official reporting on Phase II, connected communities and population, daily rhythms, and observed activities along the park."
+    },
+    {
+      "id": "BJ-AI-BELT-2026",
+      "url": "https://zyk.bjhd.gov.cn/ywdt/hdywx/202603/t20260330_4810093.shtml",
+      "source_type": "official_public",
+      "usage": "Current official Haidian description of the three scopes, 9 km belt, and implementation/deepening context."
+    },
+    {
+      "id": "CASE-HELSINKI",
+      "url": "https://ai.hel.fi/en/ai-register/",
+      "source_type": "official_public",
+      "usage": "Official City of Helsinki AI Register; transparency, system information, and public feedback precedent."
+    },
+    {
+      "id": "CASE-AMSTERDAM",
+      "url": "https://algoritmeregister.amsterdam.nl/",
+      "source_type": "official_public",
+      "usage": "Official City of Amsterdam algorithm register; citywide visibility and responsibility precedent."
+    },
+    {
+      "id": "CASE-PUNGGOL",
+      "url": "https://www.jtc.gov.sg/punggoldigitaldistrict/story-articles/pdd-odp---5-levels-of-the-digital-twin",
+      "source_type": "official_public",
+      "usage": "Singapore JTC description of Punggol Digital District's Open Digital Platform and digital-twin testing."
+    },
+    {
+      "id": "CASE-SEOUL",
+      "url": "https://smartcity.go.kr/en/2024/06/26/%EC%84%9C%EC%9A%B8%EC%8B%9C-%EB%8F%84%EC%8B%9C%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%EC%97%90-%EC%B4%88%EC%8B%A4%EA%B0%90%ED%98%95-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8A%B8%EC%9C%88-%EB%8F%84%EC%9E%85/",
+      "source_type": "official_public",
+      "usage": "Korea Smart City portal report on Seoul's high-fidelity digital-twin demonstrations for defined urban tasks."
+    },
+    {
+      "id": "CASE-DECIDIM",
+      "url": "https://docs.decidim.org/en/develop/understand/about.html",
+      "source_type": "official_public",
+      "usage": "Official Decidim documentation on open, traceable, public-common and hybrid participation infrastructure."
+    },
+    {
+      "id": "CASE-QUAYSIDE",
+      "url": "https://www.toronto.ca/legdocs/mmis/2020/ex/bgrd/backgroundfile-158871.pdf",
+      "source_type": "official_public",
+      "usage": "Official City of Toronto update on Quayside and Sidewalk Labs' withdrawal; used as a caution on governance, scope, and expansion."
+    },
+    {
+      "id": "FIELDWORK-PROTOCOL",
+      "path": "report/narrative.md",
+      "source_type": "agent_generated_design",
+      "usage": "Two-walk field protocol, evidence typing, privacy rules, minimum sample, and non-extrapolation statement. Actual observations will be added only after user-cleared fieldwork."
+    }
+  ]
+}

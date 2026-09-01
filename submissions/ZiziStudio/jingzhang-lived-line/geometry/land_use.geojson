@@ -1,0 +1,631 @@
+{
+  "type": "FeatureCollection",
+  "name": "lived_line_land_use_partition",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LU-001",
+      "properties": {
+        "id": "LU-001",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "LAND_USE",
+        "land_use_code": "1401",
+        "name_zh": "生活实测线连续公园绿地",
+        "name_en": "Lived Line continuous park green space",
+        "official_positionings": [
+          "centennial_jingzhang_culture",
+          "urban_ai_life_experience",
+          "ai_convergence_innovation"
+        ],
+        "three_zones_two_wings_role": "shared_public_calibration_spine",
+        "status_note": "Conceptual partition under provisional boundary; not statutory land use.",
+        "area_sqm_declared": 1920814.901
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3474866,
+              39.9518989
+            ],
+            [
+              116.3475591,
+              39.9570254
+            ],
+            [
+              116.3474899,
+              39.96215
+            ],
+            [
+              116.3472822,
+              39.9672758
+            ],
+            [
+              116.3469614,
+              39.9724059
+            ],
+            [
+              116.3465716,
+              39.9775428
+            ],
+            [
+              116.3461678,
+              39.9826875
+            ],
+            [
+              116.345808,
+              39.98784
+            ],
+            [
+              116.3455428,
+              39.9929992
+            ],
+            [
+              116.3454079,
+              39.9981625
+            ],
+            [
+              116.3454172,
+              40.003327
+            ],
+            [
+              116.3455613,
+              40.0084893
+            ],
+            [
+              116.3458085,
+              40.0136466
+            ],
+            [
+              116.3461102,
+              40.0187968
+            ],
+            [
+              116.3464096,
+              40.0239431
+            ],
+            [
+              116.3488671,
+              40.0238585
+            ],
+            [
+              116.3485675,
+              40.0187121
+            ],
+            [
+              116.348266,
+              40.0135692
+            ],
+            [
+              116.3480198,
+              40.0084342
+            ],
+            [
+              116.3478764,
+              40.0033054
+            ],
+            [
+              116.3478669,
+              39.9981802
+            ],
+            [
+              116.3480007,
+              39.9930555
+            ],
+            [
+              116.348264,
+              39.9879281
+            ],
+            [
+              116.3486223,
+              39.9827952
+            ],
+            [
+              116.3490256,
+              39.9776548
+            ],
+            [
+              116.3494161,
+              39.9725065
+            ],
+            [
+              116.3497383,
+              39.9673507
+            ],
+            [
+              116.3499473,
+              39.9621892
+            ],
+            [
+              116.3500168,
+              39.9570249
+            ],
+            [
+              116.3499435,
+              39.951861
+            ],
+            [
+              116.3497475,
+              39.9467006
+            ],
+            [
+              116.3494689,
+              39.9415484
+            ],
+            [
+              116.347014,
+              39.941627
+            ],
+            [
+              116.3472918,
+              39.9467675
+            ],
+            [
+              116.3474866,
+              39.9518989
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-002",
+      "properties": {
+        "id": "LU-002",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "LAND_USE",
+        "land_use_code": "0802",
+        "name_zh": "模型到现实科研验证界面",
+        "name_en": "Model-to-world research and validation interface",
+        "official_positionings": [
+          "urban_ai_life_experience",
+          "ai_convergence_innovation"
+        ],
+        "three_zones_two_wings_role": "zhongzhiyuan_full_stack_validation",
+        "status_note": "Conceptual partition under provisional boundary; not statutory land use.",
+        "area_sqm_declared": 1083406.748
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3417,
+              40.006
+            ],
+            [
+              116.3427,
+              40.0265
+            ],
+            [
+              116.3472519,
+              40.0265002
+            ],
+            [
+              116.3472765,
+              40.0239133
+            ],
+            [
+              116.3464096,
+              40.0239431
+            ],
+            [
+              116.3461102,
+              40.0187968
+            ],
+            [
+              116.3458085,
+              40.0136466
+            ],
+            [
+              116.3455613,
+              40.0084893
+            ],
+            [
+              116.3454172,
+              40.003327
+            ],
+            [
+              116.3454079,
+              39.9981625
+            ],
+            [
+              116.3454298,
+              39.9973253
+            ],
+            [
+              116.3411386,
+              39.997301
+            ],
+            [
+              116.3417,
+              40.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-003",
+      "properties": {
+        "id": "LU-003",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "LAND_USE",
+        "land_use_code": "0803",
+        "name_zh": "公开评测与有用失败文化界面",
+        "name_en": "Public evaluation and useful-failure cultural interface",
+        "official_positionings": [
+          "urban_ai_life_experience",
+          "ai_convergence_innovation"
+        ],
+        "three_zones_two_wings_role": "zhongzhiyuan_ai_governance_and_useful_failure",
+        "status_note": "Conceptual partition under provisional boundary; not statutory land use.",
+        "area_sqm_declared": 1761841.771
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3553,
+              40.0265
+            ],
+            [
+              116.3537038,
+              39.9973718
+            ],
+            [
+              116.3478889,
+              39.9973392
+            ],
+            [
+              116.3478669,
+              39.9981802
+            ],
+            [
+              116.3478764,
+              40.0033054
+            ],
+            [
+              116.3480198,
+              40.0084342
+            ],
+            [
+              116.348266,
+              40.0135692
+            ],
+            [
+              116.3485675,
+              40.0187121
+            ],
+            [
+              116.3488671,
+              40.0238585
+            ],
+            [
+              116.3472765,
+              40.0239133
+            ],
+            [
+              116.3472519,
+              40.0265002
+            ],
+            [
+              116.3553,
+              40.0265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-004",
+      "properties": {
+        "id": "LU-004",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "LAND_USE",
+        "land_use_code": "0804",
+        "name_zh": "近校开源教育协作界面",
+        "name_en": "University-linked open-source education interface",
+        "official_positionings": [
+          "urban_ai_life_experience",
+          "ai_convergence_innovation"
+        ],
+        "three_zones_two_wings_role": "ai_origin_open_source_and_incubation",
+        "status_note": "Conceptual partition under provisional boundary; not statutory land use.",
+        "area_sqm_declared": 1648023.584
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3411386,
+              39.997301
+            ],
+            [
+              116.3454298,
+              39.9973253
+            ],
+            [
+              116.3455428,
+              39.9929992
+            ],
+            [
+              116.345808,
+              39.98784
+            ],
+            [
+              116.3461678,
+              39.9826875
+            ],
+            [
+              116.3465716,
+              39.9775428
+            ],
+            [
+              116.3469614,
+              39.9724059
+            ],
+            [
+              116.3472278,
+              39.9681452
+            ],
+            [
+              116.3398917,
+              39.9681037
+            ],
+            [
+              116.3397,
+              39.975
+            ],
+            [
+              116.3411386,
+              39.997301
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-005",
+      "properties": {
+        "id": "LU-005",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "LAND_USE",
+        "land_use_code": "0702",
+        "name_zh": "社区服务与公众协议界面",
+        "name_en": "Community service and civic-protocol interface",
+        "official_positionings": [
+          "urban_ai_life_experience",
+          "ai_convergence_innovation"
+        ],
+        "three_zones_two_wings_role": "xiaoyue_river_scenario_enablement_interface",
+        "status_note": "Conceptual partition under provisional boundary; not statutory land use.",
+        "area_sqm_declared": 1472447.034
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3533,
+              39.99
+            ],
+            [
+              116.355045,
+              39.968189
+            ],
+            [
+              116.3496878,
+              39.9681591
+            ],
+            [
+              116.3494161,
+              39.9725065
+            ],
+            [
+              116.3490256,
+              39.9776548
+            ],
+            [
+              116.3486223,
+              39.9827952
+            ],
+            [
+              116.348264,
+              39.9879281
+            ],
+            [
+              116.3480007,
+              39.9930555
+            ],
+            [
+              116.3478889,
+              39.9973392
+            ],
+            [
+              116.3537038,
+              39.9973718
+            ],
+            [
+              116.3533,
+              39.99
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-006",
+      "properties": {
+        "id": "LU-006",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "LAND_USE",
+        "land_use_code": "05",
+        "name_zh": "站城产业与商业服务界面",
+        "name_en": "Station-city industry and commercial-service interface",
+        "official_positionings": [
+          "urban_ai_life_experience",
+          "ai_convergence_innovation"
+        ],
+        "three_zones_two_wings_role": "dazhongsi_ai_native_business_interface",
+        "status_note": "Conceptual partition under provisional boundary; not statutory land use.",
+        "area_sqm_declared": 1977499.662
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3407,
+              39.939
+            ],
+            [
+              116.3398917,
+              39.9681037
+            ],
+            [
+              116.3472278,
+              39.9681452
+            ],
+            [
+              116.3472822,
+              39.9672758
+            ],
+            [
+              116.3474899,
+              39.96215
+            ],
+            [
+              116.3475591,
+              39.9570254
+            ],
+            [
+              116.3474866,
+              39.9518989
+            ],
+            [
+              116.3472918,
+              39.9467675
+            ],
+            [
+              116.347014,
+              39.941627
+            ],
+            [
+              116.3480594,
+              39.9415935
+            ],
+            [
+              116.348084,
+              39.9390002
+            ],
+            [
+              116.3407,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-007",
+      "properties": {
+        "id": "LU-007",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "LAND_USE",
+        "land_use_code": "0701",
+        "name_zh": "人才与社区生活支持界面",
+        "name_en": "Talent and community-life support interface",
+        "official_positionings": [
+          "urban_ai_life_experience",
+          "ai_convergence_innovation"
+        ],
+        "three_zones_two_wings_role": "zhongguancun_technology_services_and_talent_support",
+        "status_note": "Conceptual partition under provisional boundary; not statutory land use.",
+        "area_sqm_declared": 1548791.685
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3553,
+              39.965
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.348084,
+              39.9390002
+            ],
+            [
+              116.3480594,
+              39.9415935
+            ],
+            [
+              116.3494689,
+              39.9415484
+            ],
+            [
+              116.3497475,
+              39.9467006
+            ],
+            [
+              116.3499435,
+              39.951861
+            ],
+            [
+              116.3500168,
+              39.9570249
+            ],
+            [
+              116.3499473,
+              39.9621892
+            ],
+            [
+              116.3497383,
+              39.9673507
+            ],
+            [
+              116.3496878,
+              39.9681591
+            ],
+            [
+              116.355045,
+              39.968189
+            ],
+            [
+              116.3553,
+              39.965
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
