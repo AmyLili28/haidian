@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Organizer source-usability registry path only. Review-supplied source_registry_summary is currently total=0 with empty approved/background/provisional/needs-review lists. This package does not treat any cited item as registry-approved and does not restate registry counts."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "CASE-STANFORD",
+      "url": "https://otl.stanford.edu/",
+      "source_type": "official_public",
+      "publisher": "Stanford University Office of Technology Licensing",
+      "access_path": "https://otl.stanford.edu/",
+      "use_status": "background_case_design_analogy",
+      "supported_claim_zh": "近校成果转化与大学—产业技术转移循环可作为原点社区开源发布/转化街的设计类比，不构成海淀实施依据。",
+      "usage": "Background case only: Stanford-Industry technology-transfer loop as a design analogy for near-campus conversion. Not a formal planning basis for this project."
+    },
+    {
+      "id": "CASE-MILA",
+      "url": "https://mila.quebec/en",
+      "source_type": "official_public",
+      "publisher": "Mila – Quebec AI Institute",
+      "access_path": "https://mila.quebec/en",
+      "use_status": "background_case_design_analogy",
+      "supported_claim_zh": "开源科研社区与协作网络可作为开源发布厅/贡献墙的设计类比，不构成海淀实施依据。",
+      "usage": "Background case only: Mila open-research collaboration as a design analogy for community-driven open source. Not a formal planning basis."
+    },
+    {
+      "id": "CASE-PUNGGOL",
+      "url": "https://www.jtc.gov.sg/punggoldigitaldistrict",
+      "source_type": "official_public",
+      "publisher": "JTC Corporation, Singapore",
+      "access_path": "https://www.jtc.gov.sg/punggoldigitaldistrict",
+      "use_status": "background_case_design_analogy",
+      "supported_claim_zh": "产教城融合与数字产业园区组织可作为站城/产业节点的设计类比，不构成海淀实施依据。",
+      "usage": "Background case only: Punggol Digital District industry-campus-city integration as a design analogy. Not a formal planning basis."
+    },
+    {
+      "id": "CASE-TSUKUBA",
+      "url": "https://www.tsukuba.ac.jp/en/",
+      "source_type": "official_public",
+      "publisher": "University of Tsukuba",
+      "access_path": "https://www.tsukuba.ac.jp/en/",
+      "use_status": "background_case_design_analogy",
+      "supported_claim_zh": "科学城公共测试与科研开放环境可作为安全治理沙盒的设计类比，不构成海淀实施依据。",
+      "usage": "Background case only: Tsukuba science-city public research setting as a design analogy for a public sandbox. Not a formal planning basis."
+    },
+    {
+      "id": "CASE-HETAO",
+      "url": "https://htcz.sz.gov.cn/",
+      "source_type": "official_public",
+      "publisher": "河套深港科技创新合作区深圳园区发展署",
+      "access_path": "https://htcz.sz.gov.cn/",
+      "use_status": "background_case_design_analogy",
+      "supported_claim_zh": "跨境要素与合作区治理叙事可作为数据要素会客厅的设计类比，不构成海淀实施依据。",
+      "usage": "Background case only: Hetao Shenzhen-Hong Kong Science and Technology Innovation Cooperation Zone as a design analogy for cross-boundary factor flows. Not a formal planning basis."
+    },
+    {
+      "id": "CASE-KENDALL",
+      "url": "https://www.cambridgema.gov/Departments/communitydevelopment/kendallsquare",
+      "source_type": "official_public",
+      "publisher": "City of Cambridge Community Development Department",
+      "access_path": "https://www.cambridgema.gov/Departments/communitydevelopment/kendallsquare",
+      "use_status": "background_case_design_analogy",
+      "supported_claim_zh": "高密度人才与资本集聚街区可作为大钟寺国际路演客厅的设计类比，不构成海淀实施依据。",
+      "usage": "Background case only: Kendall Square talent-and-capital density as a design analogy. Not a formal planning basis."
+    }
+  ]
+}

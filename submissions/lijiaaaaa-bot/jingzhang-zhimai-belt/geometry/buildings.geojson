@@ -1,0 +1,1281 @@
+{
+  "type": "FeatureCollection",
+  "name": "buildings.geojson",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLDG-ZZY-01",
+      "properties": {
+        "id": "BLDG-ZZY-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "ai_r_and_d",
+        "land_use_code": "0802",
+        "name_zh": "众智园研发办公（测试场序列起锚）",
+        "height_m": 34.5,
+        "height_range_m": [
+          24,
+          45
+        ],
+        "floors": "6-12",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 32500.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3460873254876,
+              40.010226578514086
+            ],
+            [
+              116.3444125619,
+              40.0102265781736
+            ],
+            [
+              116.3444126040979,
+              40.01227346021242
+            ],
+            [
+              116.34608728328634,
+              40.01227345987361
+            ],
+            [
+              116.3460873254876,
+              40.010226578514086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-ZZY-02",
+      "properties": {
+        "id": "BLDG-ZZY-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "land_use_code": "0803",
+        "name_zh": "众智园文化展示（安全治理展示廊）",
+        "height_m": 19.5,
+        "height_range_m": [
+          15,
+          24
+        ],
+        "floors": "3-6",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 11500.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34782936646043,
+              40.013721024510154
+            ],
+            [
+              116.3486705184544,
+              40.01372102428645
+            ],
+            [
+              116.34867054643524,
+              40.0122790016964
+            ],
+            [
+              116.34782933848201,
+              40.01227900147183
+            ],
+            [
+              116.34782936646043,
+              40.013721024510154
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-ZZY-03",
+      "properties": {
+        "id": "BLDG-ZZY-03",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "ai_r_and_d",
+        "land_use_code": "0802",
+        "name_zh": "众智园清河界面低强度研发（保留/更新）",
+        "height_m": 15.0,
+        "height_range_m": [
+          12,
+          18
+        ],
+        "floors": "3-5",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "retain",
+        "area_sqm_declared": 16000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35277785288821,
+              40.02235064313199
+            ],
+            [
+              116.35172205346953,
+              40.022350642904584
+            ],
+            [
+              116.35172208199546,
+              40.02394938191231
+            ],
+            [
+              116.35277782436009,
+              40.023949381685775
+            ],
+            [
+              116.35277785288821,
+              40.02235064313199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-ZZY-04",
+      "properties": {
+        "id": "BLDG-ZZY-04",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "mixed_use",
+        "land_use_code": "05",
+        "name_zh": "众智园创新街区（院落式研发）",
+        "height_m": 27.0,
+        "height_range_m": [
+          18,
+          36
+        ],
+        "floors": "4-9",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 25000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34684800620482,
+              40.01697264060512
+            ],
+            [
+              116.34515182142567,
+              40.01697264021136
+            ],
+            [
+              116.3451518702648,
+              40.018527431882355
+            ],
+            [
+              116.3468479573618,
+              40.01852743149114
+            ],
+            [
+              116.34684800620482,
+              40.01697264060512
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-ZZY-05",
+      "properties": {
+        "id": "BLDG-ZZY-05",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "office",
+        "land_use_code": "0802",
+        "name_zh": "众智园低碳算力驿站（端侧算力新基建）",
+        "height_m": 18.0,
+        "height_range_m": [
+          12,
+          24
+        ],
+        "floors": "3-6",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "renovate",
+        "area_sqm_declared": 9000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3519153961543,
+              40.01017877871548
+            ],
+            [
+              116.35108447763173,
+              40.01017877850441
+            ],
+            [
+              116.35108450405052,
+              40.01132125535775
+            ],
+            [
+              116.35191536973343,
+              40.01132125514761
+            ],
+            [
+              116.3519153961543,
+              40.01017877871548
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-ZZY-06",
+      "properties": {
+        "id": "BLDG-ZZY-06",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "talent_apartment",
+        "land_use_code": "0702",
+        "name_zh": "众智园人才公寓",
+        "height_m": 30.0,
+        "height_range_m": [
+          24,
+          36
+        ],
+        "floors": "8-12",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 13000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34987100173188,
+              40.01794798838254
+            ],
+            [
+              116.34862890332931,
+              40.017947988172104
+            ],
+            [
+              116.34862892958292,
+              40.019052052514475
+            ],
+            [
+              116.34987097547676,
+              40.0190520523051
+            ],
+            [
+              116.34987100173188,
+              40.01794798838254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-YD-01",
+      "properties": {
+        "id": "BLDG-YD-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "education",
+        "land_use_code": "0804",
+        "name_zh": "原点社区近校成果转化驿站",
+        "height_m": 30.0,
+        "height_range_m": [
+          24,
+          36
+        ],
+        "floors": "6-10",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 20000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34477618706913,
+              39.985070834522375
+            ],
+            [
+              116.34322375059128,
+              39.985070834326145
+            ],
+            [
+              116.3432237748296,
+              39.986429195231715
+            ],
+            [
+              116.34477616282956,
+              39.98642919503635
+            ],
+            [
+              116.34477618706913,
+              39.985070834522375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-YD-02",
+      "properties": {
+        "id": "BLDG-YD-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "land_use_code": "0803",
+        "name_zh": "原点社区开源发布厅",
+        "height_m": 17.5,
+        "height_range_m": [
+          15,
+          20
+        ],
+        "floors": "3-5",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 8000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34682041264436,
+              39.98849093669065
+            ],
+            [
+              116.34767951073871,
+              39.988490936539016
+            ],
+            [
+              116.34767952964476,
+              39.98750908869045
+            ],
+            [
+              116.34682039373939,
+              39.987509088538225
+            ],
+            [
+              116.34682041264436,
+              39.98849093669065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-YD-03",
+      "properties": {
+        "id": "BLDG-YD-03",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "talent_apartment",
+        "land_use_code": "0702",
+        "name_zh": "原点社区人才公寓与社区服务",
+        "height_m": 42.0,
+        "height_range_m": [
+          30,
+          54
+        ],
+        "floors": "10-18",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "renovate",
+        "area_sqm_declared": 20000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35189031972715,
+              39.98592671426234
+            ],
+            [
+              116.35060960801196,
+              39.985926714049135
+            ],
+            [
+              116.35060963465396,
+              39.987573309356364
+            ],
+            [
+              116.35189029308341,
+              39.98757330914397
+            ],
+            [
+              116.35189031972715,
+              39.98592671426234
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-YD-04",
+      "properties": {
+        "id": "BLDG-YD-04",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "office",
+        "land_use_code": "05",
+        "name_zh": "原点社区成果展示发布（保留更新）",
+        "height_m": 24.0,
+        "height_range_m": [
+          18,
+          30
+        ],
+        "floors": "5-9",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "retain",
+        "area_sqm_declared": 14000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3438207706384,
+              39.99214338266435
+            ],
+            [
+              116.34517916775204,
+              39.99214338249582
+            ],
+            [
+              116.34517918868583,
+              39.99105664822671
+            ],
+            [
+              116.34382074970557,
+              39.991056648057445
+            ],
+            [
+              116.3438207706384,
+              39.99214338266435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-YD-05",
+      "properties": {
+        "id": "BLDG-YD-05",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "mixed_use",
+        "land_use_code": "05",
+        "name_zh": "原点社区近校创新街（街区缝合）",
+        "height_m": 22.5,
+        "height_range_m": [
+          15,
+          30
+        ],
+        "floors": "4-8",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "renovate",
+        "area_sqm_declared": 24000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34870718556478,
+              39.9922067420299
+            ],
+            [
+              116.35079273443343,
+              39.99220674178882
+            ],
+            [
+              116.35079276464626,
+              39.99099331420134
+            ],
+            [
+              116.34870715535334,
+              39.9909933139588
+            ],
+            [
+              116.34870718556478,
+              39.9922067420299
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-DZS-01",
+      "properties": {
+        "id": "BLDG-DZS-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "mobility_hub",
+        "land_use_code": "1207",
+        "name_zh": "大钟寺站城一体化枢纽",
+        "height_m": 42.0,
+        "height_range_m": [
+          24,
+          60
+        ],
+        "floors": "6-15",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "renovate",
+        "area_sqm_declared": 27500.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34630245979136,
+              39.946347221397794
+            ],
+            [
+              116.3446974621872,
+              39.94634722114289
+            ],
+            [
+              116.3446974936706,
+              39.94815280828352
+            ],
+            [
+              116.34630242830593,
+              39.94815280802972
+            ],
+            [
+              116.34630245979136,
+              39.946347221397794
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-DZS-02",
+      "properties": {
+        "id": "BLDG-DZS-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "land_use_code": "0803",
+        "name_zh": "大钟寺国际路演客厅（西南象限）",
+        "height_m": 19.5,
+        "height_range_m": [
+          15,
+          24
+        ],
+        "floors": "3-6",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 7000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34392941028682,
+              39.94507058217333
+            ],
+            [
+              116.34307054311556,
+              39.94507058206466
+            ],
+            [
+              116.34307055650292,
+              39.94592943595709
+            ],
+            [
+              116.34392939689887,
+              39.94592943584878
+            ],
+            [
+              116.34392941028682,
+              39.94507058217333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-DZS-03",
+      "properties": {
+        "id": "BLDG-DZS-03",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "retail",
+        "land_use_code": "05",
+        "name_zh": "大钟寺内容消费商业（东南象限）",
+        "height_m": 23.0,
+        "height_range_m": [
+          16,
+          30
+        ],
+        "floors": "4-8",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "renovate",
+        "area_sqm_declared": 11000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.346590676423,
+              39.945939552737585
+            ],
+            [
+              116.34790925395477,
+              39.945939552573925
+            ],
+            [
+              116.34790927431523,
+              39.945060487476525
+            ],
+            [
+              116.34659065606344,
+              39.94506048731205
+            ],
+            [
+              116.346590676423,
+              39.945939552737585
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-DZS-04",
+      "properties": {
+        "id": "BLDG-DZS-04",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "office",
+        "land_use_code": "05",
+        "name_zh": "大钟寺数据要素会客厅（西北象限）",
+        "height_m": 27.0,
+        "height_range_m": [
+          18,
+          36
+        ],
+        "floors": "5-10",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "renovate",
+        "area_sqm_declared": 13000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3447717571845,
+              39.94820624708243
+            ],
+            [
+              116.34322820150021,
+              39.94820624695362
+            ],
+            [
+              116.34322821737382,
+              39.94909378247333
+            ],
+            [
+              116.34477174131038,
+              39.94909378234509
+            ],
+            [
+              116.3447717571845,
+              39.94820624708243
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-DZS-05",
+      "properties": {
+        "id": "BLDG-DZS-05",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "ai_r_and_d",
+        "land_use_code": "05",
+        "name_zh": "大钟寺领军企业研发总部（东北象限）",
+        "height_m": 45.0,
+        "height_range_m": [
+          30,
+          60
+        ],
+        "floors": "8-16",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "renovate",
+        "area_sqm_declared": 20000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35007023903758,
+              39.94815770577013
+            ],
+            [
+              116.34792971269118,
+              39.94815770560494
+            ],
+            [
+              116.34792973319067,
+              39.9491423384593
+            ],
+            [
+              116.3500702185374,
+              39.949142338295026
+            ],
+            [
+              116.35007023903758,
+              39.94815770577013
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-ZZY-07",
+      "properties": {
+        "id": "BLDG-ZZY-07",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "office",
+        "land_use_code": "05",
+        "name_zh": "众智园开源协作办公（院落补充）",
+        "height_m": 18.0,
+        "height_range_m": [
+          12,
+          24
+        ],
+        "floors": "4-8",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 11000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34471141469396,
+              40.01378858357245
+            ],
+            [
+              116.34578855944935,
+              40.01378858348256
+            ],
+            [
+              116.34578857063416,
+              40.01271142763229
+            ],
+            [
+              116.34471140350954,
+              40.012711427542165
+            ],
+            [
+              116.34471141469396,
+              40.01378858357245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-ZZY-08",
+      "properties": {
+        "id": "BLDG-ZZY-08",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "education",
+        "land_use_code": "0804",
+        "name_zh": "众智园 AI 素养培训坊",
+        "height_m": 15.0,
+        "height_range_m": [
+          12,
+          18
+        ],
+        "floors": "3-5",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 7000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35176963658918,
+              40.01588429101743
+            ],
+            [
+              116.35273034095424,
+              40.01588429094878
+            ],
+            [
+              116.35273034958855,
+              40.015115720618
+            ],
+            [
+              116.35176962795512,
+              40.01511572054917
+            ],
+            [
+              116.35176963658918,
+              40.01588429101743
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-ZZY-09",
+      "properties": {
+        "id": "BLDG-ZZY-09",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "land_use_code": "0803",
+        "name_zh": "众智园公共展廊（慢行节点）",
+        "height_m": 12.0,
+        "height_range_m": [
+          9,
+          15
+        ],
+        "floors": "2-4",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 5500.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34690144983735,
+              40.020538694603616
+            ],
+            [
+              116.34609853446938,
+              40.020538694552855
+            ],
+            [
+              116.34609854078379,
+              40.021261312751804
+            ],
+            [
+              116.34690144352278,
+              40.021261312701164
+            ],
+            [
+              116.34690144983735,
+              40.020538694603616
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-YD-06",
+      "properties": {
+        "id": "BLDG-YD-06",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "ai_r_and_d",
+        "land_use_code": "0802",
+        "name_zh": "原点社区联合实验室",
+        "height_m": 24.0,
+        "height_range_m": [
+          18,
+          30
+        ],
+        "floors": "5-9",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 16000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34847607015492,
+              39.98491914585251
+            ],
+            [
+              116.34702391457573,
+              39.98491914578112
+            ],
+            [
+              116.34702392345037,
+              39.98608086321614
+            ],
+            [
+              116.34847606128002,
+              39.986080863144956
+            ],
+            [
+              116.34847607015492,
+              39.98491914585251
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-YD-07",
+      "properties": {
+        "id": "BLDG-YD-07",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "office",
+        "land_use_code": "0802",
+        "name_zh": "原点社区创业孵化办公",
+        "height_m": 19.5,
+        "height_range_m": [
+          15,
+          24
+        ],
+        "floors": "4-7",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "renovate",
+        "area_sqm_declared": 9500.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34480948460813,
+              39.98835241333075
+            ],
+            [
+              116.3436904952641,
+              39.9883524132579
+            ],
+            [
+              116.34369050427802,
+              39.989247597594805
+            ],
+            [
+              116.34480947559396,
+              39.98924759752214
+            ],
+            [
+              116.34480948460813,
+              39.98835241333075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-YD-08",
+      "properties": {
+        "id": "BLDG-YD-08",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "mixed_use",
+        "land_use_code": "05",
+        "name_zh": "原点社区街角复合服务",
+        "height_m": 16.5,
+        "height_range_m": [
+          12,
+          21
+        ],
+        "floors": "3-6",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 8000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35198406795776,
+              39.99146433906906
+            ],
+            [
+              116.35101591853063,
+              39.991464339016694
+            ],
+            [
+              116.3510159250868,
+              39.99233566765291
+            ],
+            [
+              116.35198406140142,
+              39.99233566760063
+            ],
+            [
+              116.35198406795776,
+              39.99146433906906
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-DZS-06",
+      "properties": {
+        "id": "BLDG-DZS-06",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "retail",
+        "land_use_code": "05",
+        "name_zh": "大钟寺慢行街角商业",
+        "height_m": 15.0,
+        "height_range_m": [
+          12,
+          18
+        ],
+        "floors": "3-5",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "renovate",
+        "area_sqm_declared": 6500.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34906380316282,
+              39.94493619651765
+            ],
+            [
+              116.34823618608436,
+              39.944936196475346
+            ],
+            [
+              116.3482361913405,
+              39.94576380833998
+            ],
+            [
+              116.34906379790657,
+              39.94576380829776
+            ],
+            [
+              116.34906380316282,
+              39.94493619651765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-DZS-07",
+      "properties": {
+        "id": "BLDG-DZS-07",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "office",
+        "land_use_code": "05",
+        "name_zh": "大钟寺灵活办公（站城配套）",
+        "height_m": 21.0,
+        "height_range_m": [
+          15,
+          27
+        ],
+        "floors": "4-8",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 10500.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34491197455286,
+              39.94747042164337
+            ],
+            [
+              116.34608801585475,
+              39.94747042159781
+            ],
+            [
+              116.34608802149872,
+              39.9465295840867
+            ],
+            [
+              116.34491196890903,
+              39.94652958404105
+            ],
+            [
+              116.34491197455286,
+              39.94747042164337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-DZS-08",
+      "properties": {
+        "id": "BLDG-DZS-08",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "land_use_code": "0803",
+        "name_zh": "大钟寺小型路演厅",
+        "height_m": 12.0,
+        "height_range_m": [
+          9,
+          15
+        ],
+        "floors": "2-4",
+        "status": "provisional",
+        "control_status": "pending_regulatory_confirmation",
+        "retain_renovate_demolish": "new",
+        "area_sqm_declared": 4750.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35026018367073,
+              39.94882102562104
+            ],
+            [
+              116.35103980695688,
+              39.94882102558658
+            ],
+            [
+              116.35103981125935,
+              39.94817897937158
+            ],
+            [
+              116.35026017936832,
+              39.94817897933707
+            ],
+            [
+              116.35026018367073,
+              39.94882102562104
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
