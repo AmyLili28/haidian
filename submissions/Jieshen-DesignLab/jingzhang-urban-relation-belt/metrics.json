@@ -1,0 +1,246 @@
+{
+  "schema_version": "0.1.0",
+  "units": {
+    "length": "m",
+    "area": "sqm"
+  },
+  "metrics": {
+    "site_area_sqm": {
+      "status": "known",
+      "value": 11412825.386,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "polygon_area(site_boundary, EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "A-BOUNDARY-PROVISIONAL-001"
+      ],
+      "provisional_note_zh": "基于 provisional_rough 临时粗略边界的设计模型值，低置信度；官方红线发布后必须整体复算。不构成法定控制指标。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "green_space_area_sqm": {
+      "status": "known",
+      "value": 765414.283,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/green_space.geojson"
+      ],
+      "formula": "area(unary_union(green_space_polygons), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "A-BOUNDARY-PROVISIONAL-001",
+        "A-OSM-BASE-001"
+      ],
+      "provisional_note_zh": "基于 provisional_rough 临时粗略边界的设计模型值，低置信度；官方红线发布后必须整体复算。不构成法定控制指标。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "public_space_area_sqm": {
+      "status": "known",
+      "value": 1043596.609,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "area(unary_union(public_space_polygons), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "A-BOUNDARY-PROVISIONAL-001",
+        "A-PUBLIC-SPACE-CONCEPT-001"
+      ],
+      "provisional_note_zh": "基于 provisional_rough 临时粗略边界的设计模型值，低置信度；官方红线发布后必须整体复算。不构成法定控制指标。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 1937922.302,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "area(unary_union(building_footprints), EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "A-OSM-BASE-001"
+      ],
+      "provisional_note_zh": "现状建筑基底来自 OpenStreetMap，覆盖完整性未经实测核校，不作为建筑面积或产权依据。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.067066,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "green_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "A-BOUNDARY-PROVISIONAL-001",
+        "A-OSM-BASE-001"
+      ],
+      "provisional_note_zh": "基于 provisional_rough 临时粗略边界的设计模型值，低置信度；官方红线发布后必须整体复算。不构成法定控制指标。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.091441,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "public_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "A-BOUNDARY-PROVISIONAL-001",
+        "A-PUBLIC-SPACE-CONCEPT-001"
+      ],
+      "provisional_note_zh": "基于 provisional_rough 临时粗略边界的设计模型值，低置信度；官方红线发布后必须整体复算。不构成法定控制指标。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "key_area_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(features where layer=KEY_AREA)",
+      "confidence": "high",
+      "assumptions": [],
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "land_use_cell_count": {
+      "status": "known",
+      "value": 11,
+      "unit": "count",
+      "source_files": [
+        "geometry/land_use.geojson"
+      ],
+      "formula": "count(features where layer=LAND_USE)",
+      "confidence": "medium",
+      "assumptions": [
+        "A-LANDUSE-CONCEPT-001"
+      ],
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "land_use_coverage_gap_sqm": {
+      "status": "known",
+      "value": 0.111,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/land_use.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "area(site_boundary - unary_union(land_use_polygons), EPSG:4548)",
+      "confidence": "high",
+      "assumptions": [],
+      "provisional_note_zh": "用地分区对临时 site_boundary 的覆盖残差，用于证明分区无缺口。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "existing_building_count": {
+      "status": "known",
+      "value": 1591,
+      "unit": "count",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "count(features where layer=BUILDING_FOOTPRINT)",
+      "confidence": "medium",
+      "assumptions": [
+        "A-OSM-BASE-001"
+      ],
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "road_segment_count": {
+      "status": "known",
+      "value": 311,
+      "unit": "count",
+      "source_files": [
+        "geometry/roads.geojson"
+      ],
+      "formula": "count(features where layer=ROAD_CENTERLINE)",
+      "confidence": "medium",
+      "assumptions": [
+        "A-OSM-BASE-001"
+      ],
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "phase_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/phasing.geojson"
+      ],
+      "formula": "count(features where layer=PHASE)",
+      "confidence": "low",
+      "assumptions": [
+        "A-PHASING-CONCEPT-001"
+      ],
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "urban_relation_transect_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "geometry/land_use.geojson"
+      ],
+      "formula": "count(distinct transect_id in land_use where transect_id != 'ALL')",
+      "confidence": "medium",
+      "assumptions": [],
+      "provisional_note_zh": "T1–T5 五个城市关系断面，来自本方案冻结的分析框架。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "total_floor_area_sqm / official_site_area_sqm",
+      "confidence": "unknown",
+      "assumptions": [
+        "A-CONTROLS-001"
+      ],
+      "reason": "官方控规容积率与官方红线均未公开，不得以设计模型值替代法定指标。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "building_height_limit_m": {
+      "status": "unknown",
+      "value": null,
+      "unit": "m",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "max(approved_building_height_control)",
+      "confidence": "unknown",
+      "assumptions": [
+        "A-CONTROLS-001"
+      ],
+      "reason": "官方建筑高度控制条件未公开，本方案不给出高度结论。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    },
+    "retain_renovate_demolish_parcel_count": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "count(parcels classified as retain/renovate/demolish)",
+      "confidence": "unknown",
+      "assumptions": [
+        "A-CONTROLS-001",
+        "A-TENURE-001"
+      ],
+      "reason": "地块权属、房屋性质与征收政策均非公开数据，本方案不作拆改留判定。",
+      "recalculation_trigger_zh": "官方红线或三处重点区域正式 polygon 发布后，本指标必须由 geometry/*.geojson 在 EPSG:4548 下整体复算；本值为程序复算结果，未手工填写。"
+    }
+  }
+}
