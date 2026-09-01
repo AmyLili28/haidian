@@ -7,7 +7,8 @@
     "open-city-ai/haidian public submission workflow",
     "public-source-only deterministic geometry generator",
     "OpenAI image generation for one disclosed conceptual cover",
-    "human-sovereignty and rollback guardrails"
+    "human-sovereignty and rollback guardrails",
+    "Noto Sans CJK SC Regular (bundled offline under SIL Open Font License 1.1)"
   ],
   "model_family": "gpt",
   "model_detail": "Codex agent"

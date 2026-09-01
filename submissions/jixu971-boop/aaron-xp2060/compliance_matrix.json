@@ -267,7 +267,9 @@
       "title_zh": "统筹研究范围：AI创新生态体系",
       "mandatory": true,
       "report_sections": [
-        "统筹研究范围产业与未来城市研究"
+        "统筹研究范围产业与未来城市研究",
+        "区域创新协同：把联系变成有边界的交换协议",
+        "agent.2 八要素产业支撑：供给、需求、责任与退出同表"
       ],
       "geojson_layers": [
         "geometry/roads.geojson",
@@ -275,7 +277,9 @@
       ],
       "metrics": [
         "global_case_count",
-        "ai_scenario_count"
+        "ai_scenario_count",
+        "regional_synergy_node_count",
+        "industry_support_element_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -284,7 +288,9 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "区域创新协同",
+        "八要素产业支撑"
       ],
       "source_ids": [
         "OFFICIAL-ANNOUNCEMENT",
@@ -292,7 +298,9 @@
       ],
       "assumption_ids": [
         "A-CASE-TRANSFER-001",
-        "A-AI-RIGHTS-001"
+        "A-AI-RIGHTS-001",
+        "A-REGIONAL-SYNERGY-001",
+        "A-EIGHT-ELEMENT-001"
       ],
       "self_check_ids": [
         "TASK_COVERAGE",
@@ -351,7 +359,8 @@
       "title_zh": "总体设计范围：产业目标与功能布局",
       "mandatory": true,
       "report_sections": [
-        "总体设计范围城市更新与控规深度城市设计"
+        "总体设计范围城市更新与控规深度城市设计",
+        "agent.2 八要素产业支撑：供给、需求、责任与退出同表"
       ],
       "geojson_layers": [
         "geometry/land_use.geojson",
@@ -362,7 +371,8 @@
       "metrics": [
         "green_ratio",
         "public_space_ratio",
-        "renewal_project_count"
+        "renewal_project_count",
+        "industry_support_element_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -371,7 +381,8 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "八要素产业支撑"
       ],
       "source_ids": [
         "OFFICIAL-ANNOUNCEMENT",
@@ -380,7 +391,8 @@
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-ROAD-001",
-        "A-HERITAGE-001"
+        "A-HERITAGE-001",
+        "A-EIGHT-ELEMENT-001"
       ],
       "self_check_ids": [
         "TASK_COVERAGE",
@@ -397,7 +409,8 @@
       "title_zh": "总体设计范围：城市更新总体框架",
       "mandatory": true,
       "report_sections": [
-        "总体设计范围城市更新与控规深度城市设计"
+        "总体设计范围城市更新与控规深度城市设计",
+        "P01—P09 与年度活动实施运营矩阵"
       ],
       "geojson_layers": [
         "geometry/land_use.geojson",
@@ -408,7 +421,9 @@
       "metrics": [
         "green_ratio",
         "public_space_ratio",
-        "renewal_project_count"
+        "renewal_project_count",
+        "implementation_operation_item_count",
+        "annual_event_program_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -417,7 +432,8 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "实施运营与长期转化"
       ],
       "source_ids": [
         "OFFICIAL-ANNOUNCEMENT",
@@ -426,7 +442,8 @@
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-ROAD-001",
-        "A-HERITAGE-001"
+        "A-HERITAGE-001",
+        "A-OPERATIONS-001"
       ],
       "self_check_ids": [
         "TASK_COVERAGE",
@@ -761,7 +778,8 @@
       "title_zh": "一带总体概念与功能统筹方案设计",
       "mandatory": true,
       "report_sections": [
-        "统筹研究范围产业与未来城市研究"
+        "统筹研究范围产业与未来城市研究",
+        "区域创新协同：把联系变成有边界的交换协议"
       ],
       "geojson_layers": [
         "geometry/public_space.geojson",
@@ -771,7 +789,8 @@
         "ai_scenario_count",
         "persona_count",
         "landmark_count",
-        "global_case_count"
+        "global_case_count",
+        "regional_synergy_node_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -780,14 +799,16 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "区域创新协同"
       ],
       "source_ids": [
         "AGENT-TASKBOOK"
       ],
       "assumption_ids": [
         "A-AI-RIGHTS-001",
-        "A-COPYRIGHT-001"
+        "A-COPYRIGHT-001",
+        "A-REGIONAL-SYNERGY-001"
       ],
       "self_check_ids": [
         "TASK_COVERAGE",
@@ -805,7 +826,8 @@
       "mandatory": true,
       "report_sections": [
         "统筹研究范围产业与未来城市研究",
-        "AI 创新生态、人才画像与 AI+ 场景"
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "agent.2 八要素产业支撑：供给、需求、责任与退出同表"
       ],
       "geojson_layers": [
         "geometry/public_space.geojson",
@@ -815,7 +837,8 @@
         "ai_scenario_count",
         "persona_count",
         "landmark_count",
-        "global_case_count"
+        "global_case_count",
+        "industry_support_element_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -824,14 +847,16 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "八要素产业支撑"
       ],
       "source_ids": [
         "AGENT-TASKBOOK"
       ],
       "assumption_ids": [
         "A-AI-RIGHTS-001",
-        "A-COPYRIGHT-001"
+        "A-COPYRIGHT-001",
+        "A-EIGHT-ELEMENT-001"
       ],
       "self_check_ids": [
         "TASK_COVERAGE",
@@ -977,7 +1002,8 @@
       "title_zh": "一带全球AI创新活动体系与长期运营设计",
       "mandatory": true,
       "report_sections": [
-        "更新项目清单、实施政策与分期计划"
+        "更新项目清单、实施政策与分期计划",
+        "P01—P09 与年度活动实施运营矩阵"
       ],
       "geojson_layers": [
         "geometry/public_space.geojson",
@@ -987,7 +1013,9 @@
         "ai_scenario_count",
         "persona_count",
         "landmark_count",
-        "global_case_count"
+        "global_case_count",
+        "implementation_operation_item_count",
+        "annual_event_program_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -996,14 +1024,16 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "实施运营与长期转化"
       ],
       "source_ids": [
         "AGENT-TASKBOOK"
       ],
       "assumption_ids": [
         "A-AI-RIGHTS-001",
-        "A-COPYRIGHT-001"
+        "A-COPYRIGHT-001",
+        "A-OPERATIONS-001"
       ],
       "self_check_ids": [
         "TASK_COVERAGE",

@@ -76,7 +76,9 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "统筹研究范围产业与未来城市研究"
+        "统筹研究范围产业与未来城市研究",
+        "区域创新协同：把联系变成有边界的交换协议",
+        "agent.2 八要素产业支撑：供给、需求、责任与退出同表"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -88,7 +90,9 @@
       ],
       "metric_refs": [
         "landmark_count",
-        "ai_scenario_count"
+        "ai_scenario_count",
+        "regional_synergy_node_count",
+        "industry_support_element_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -96,7 +100,9 @@
       ],
       "assumption_ids": [
         "A-ROAD-001",
-        "A-HERITAGE-001"
+        "A-HERITAGE-001",
+        "A-REGIONAL-SYNERGY-001",
+        "A-EIGHT-ELEMENT-001"
       ],
       "self_check_ids": [
         "DESIGN_DEPTH_COVERAGE",
@@ -381,7 +387,8 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "更新项目清单、实施政策与分期计划"
+        "更新项目清单、实施政策与分期计划",
+        "P01—P09 与年度活动实施运营矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -391,7 +398,9 @@
         "geometry/phasing.geojson"
       ],
       "metric_refs": [
-        "renewal_project_count"
+        "renewal_project_count",
+        "implementation_operation_item_count",
+        "annual_event_program_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -399,7 +408,8 @@
       ],
       "assumption_ids": [
         "A-PARCEL-001",
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001"
       ],
       "self_check_ids": [
         "DESIGN_DEPTH_COVERAGE",
@@ -414,7 +424,8 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
-        "更新项目清单、实施政策与分期计划"
+        "更新项目清单、实施政策与分期计划",
+        "P01—P09 与年度活动实施运营矩阵"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -426,14 +437,17 @@
       "metric_refs": [
         "phase_1_area_sqm",
         "phase_2_area_sqm",
-        "phase_3_area_sqm"
+        "phase_3_area_sqm",
+        "implementation_operation_item_count",
+        "annual_event_program_count"
       ],
       "source_ids": [
         "SITE-PACKAGE",
         "OFFICIAL-ANNOUNCEMENT"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001"
       ],
       "self_check_ids": [
         "DESIGN_DEPTH_COVERAGE",

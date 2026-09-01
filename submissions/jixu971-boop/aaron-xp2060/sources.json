@@ -341,6 +341,25 @@
         "site-specific approval",
         "technical safety guarantee"
       ]
+    },
+    {
+      "id": "FONT-NOTO-SANS-CJK",
+      "title": "Noto Sans CJK SC Regular",
+      "publisher": "Google and Adobe / Noto Project",
+      "url": "https://github.com/notofonts/noto-cjk/blob/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "accessed_date": "2026-09-01",
+      "source_type": "open_font_asset",
+      "authority_level": "asset_license",
+      "usable_for": [
+        "offline Chinese glyph rendering through a local WOFF2 subset embedded in report and visual HTML",
+        "redistribution under SIL Open Font License 1.1; subset contains only glyphs used by the two Chinese offline pages",
+        "pinned font SHA-256 2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+        "license source https://github.com/notofonts/noto-cjk/blob/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/LICENSE"
+      ],
+      "not_usable_for": [
+        "planning, site, partner, policy, funding, or implementation evidence",
+        "institutional endorsement or any use outside OFL 1.1"
+      ]
     }
   ]
 }

@@ -28,6 +28,8 @@
         "submissions/jixu971-boop/aaron-xp2060/assets/figures/metrics-evidence.png",
         "submissions/jixu971-boop/aaron-xp2060/assets/figures/mobility-bluegreen.en.png",
         "submissions/jixu971-boop/aaron-xp2060/assets/figures/mobility-bluegreen.png",
+        "submissions/jixu971-boop/aaron-xp2060/assets/figures/regional-synergy-20260901.en.png",
+        "submissions/jixu971-boop/aaron-xp2060/assets/figures/regional-synergy-20260901.png",
         "submissions/jixu971-boop/aaron-xp2060/assets/figures/site-overview.en.png",
         "submissions/jixu971-boop/aaron-xp2060/assets/figures/site-overview.png",
         "submissions/jixu971-boop/aaron-xp2060/assets/media/cover.webp",
@@ -65,7 +67,7 @@
       "ai_package_stages": {
         "submissions/jixu971-boop/aaron-xp2060": "formal"
       },
-      "total_bytes": 12224828,
+      "total_bytes": 15125411,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -139,15 +141,15 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 30,
+        "known_metric_refs_required": 35,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 22,
+          "source": 23,
           "standard": 6,
           "depth": 15,
           "data": 10,
-          "metric": 30
+          "metric": 34
         }
       }
     },

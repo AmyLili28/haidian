@@ -510,6 +510,78 @@
         "A-RSI-001",
         "A-AI-RIGHTS-001"
       ]
+    },
+    "regional_synergy_node_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "proposal.en.md",
+        "assets/figures/regional-synergy-20260901.png",
+        "assets/figures/regional-synergy-20260901.en.png"
+      ],
+      "formula": "count(taskbook regional nodes: Beiwei, Future Science City, Huairou Science City, Beijing E-Town, Beijing-Tianjin-Hebei)",
+      "confidence": "high",
+      "assumptions": [
+        "A-REGIONAL-SYNERGY-001"
+      ]
+    },
+    "industry_support_element_count": {
+      "status": "known",
+      "value": 8,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "proposal.en.md"
+      ],
+      "formula": "count(land, space, industry, capital/funding, talent, compute, data, scenarios)",
+      "confidence": "high",
+      "assumptions": [
+        "A-EIGHT-ELEMENT-001"
+      ]
+    },
+    "implementation_operation_item_count": {
+      "status": "known",
+      "value": 13,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "proposal.en.md"
+      ],
+      "formula": "count(P01..P09, E01..E04)",
+      "confidence": "high",
+      "assumptions": [
+        "A-OPERATIONS-001"
+      ]
+    },
+    "annual_event_program_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "proposal.en.md"
+      ],
+      "formula": "count(E01..E04 annual event programmes)",
+      "confidence": "high",
+      "assumptions": [
+        "A-OPERATIONS-001"
+      ]
+    },
+    "html_cjk_font_asset_count": {
+      "status": "known",
+      "value": 1,
+      "unit": "count",
+      "source_files": [
+        "report/proposal.html",
+        "visual/index.html"
+      ],
+      "formula": "count(local embedded CJK WOFF2 subset)",
+      "confidence": "high",
+      "assumptions": [
+        "A-FONT-001"
+      ]
     }
   }
 }

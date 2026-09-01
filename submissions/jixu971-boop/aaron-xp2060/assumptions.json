@@ -90,6 +90,30 @@
       "status": "pending_ecological_baseline",
       "statement": "能耗、水、碳、热环境和生物多样性基线尚未由官方或专业调查提供。",
       "impact": "自然账本只提出治理接口和待测指标，不给出未经来源支持的现状值或约束值。"
+    },
+    {
+      "id": "A-REGIONAL-SYNERGY-001",
+      "status": "pending_counterpart_confirmation",
+      "statement": "北纬社区、未来科学城、怀柔科学城、经开区与京津冀仅按任务书名称建立建议性交换接口；具体主体、协议、空间边界和数据边界未确认。",
+      "impact": "区域协同图和表只表达建议伙伴、双向交换、接口与责任边界；不构成合作、数据共享、场地、政策、资金或投资承诺。"
+    },
+    {
+      "id": "A-EIGHT-ELEMENT-001",
+      "status": "conceptual_mechanism_only",
+      "statement": "土地、空间、产业、资本/资金、人才、算力、数据、场景八要素均为待专业团队深化的机制建议。",
+      "impact": "不代表资源规模、企业名单、优惠条件、财政安排、供地、算力容量或项目获批。"
+    },
+    {
+      "id": "A-OPERATIONS-001",
+      "status": "proposed_operating_design",
+      "statement": "P01—P09、E01—E04的角色、KPI、投诉响应目标和退出条件均为方案提出的内部运营设计。",
+      "impact": "角色不是已接受任务，1/5个工作日是建议服务目标，不是法定时限、政府承诺或已达成绩效。"
+    },
+    {
+      "id": "A-FONT-001",
+      "status": "pinned_open_font_asset",
+      "statement": "随包 Noto Sans CJK SC Regular 固定到公开 Noto CJK 仓库提交，并附 SIL Open Font License 1.1 文本。",
+      "impact": "仅用于离线网页中文显示；WOFF2 子集内嵌于两个 HTML，不加载 CDN。PDF仍使用系统字体排版，任何进一步使用遵循 OFL 1.1。"
     }
   ]
 }
