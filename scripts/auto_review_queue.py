@@ -399,6 +399,33 @@ def load_cached_review(
     return review, decision, outcome
 
 
+def create_review_worktree(
+    repo_root: Path,
+    worktree: Path,
+    ref: str,
+    submission_dir: str,
+) -> None:
+    """Create a minimal checkout containing only trusted review inputs."""
+    run(
+        ["git", "worktree", "add", "--detach", "--no-checkout", str(worktree), ref],
+        cwd=repo_root,
+    )
+    run(
+        [
+            "git",
+            "sparse-checkout",
+            "set",
+            "--no-cone",
+            "--",
+            submission_dir,
+            "brief/site-package/agent_taskbook.json",
+            ADVISORY_REVIEW_SCHEMA_PATH,
+        ],
+        cwd=worktree,
+    )
+    run(["git", "checkout", "--detach", ref], cwd=worktree)
+
+
 def apply_review(
     repo: str,
     number: int,
@@ -501,7 +528,7 @@ def process_pr(args: argparse.Namespace, meta: dict[str, Any], repo_root: Path) 
         if worktree.exists():
             run(["git", "worktree", "remove", "--force", str(worktree)], cwd=repo_root)
         run(["git", "fetch", "--force", "origin", f"pull/{number}/head:{ref}"], cwd=repo_root)
-        run(["git", "worktree", "add", "--detach", str(worktree), ref], cwd=repo_root)
+        create_review_worktree(repo_root, worktree, ref, submission_dir)
     try:
         checked = run(["git", "rev-parse", "HEAD"], cwd=worktree).stdout.strip()
         if checked != head_sha:
