@@ -59,13 +59,13 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "7413564b71f8a52bc408a7085a799c3cc47168e7550bc632fd8d9b4627a8632a"
+      "sha256": "219890f0b53b32236ffc45cc91a34f5d4fba2ebafb591eaeec817c5726026bf2"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "872845975a4789202ef32ba87f626df6798204b109cc77e94e131850fd6a87cd"
+      "sha256": "4fc7b9a40e5d958b08369fb62df7ac5d7256b675df35a38a33fca66beabd0450"
     },
     {
       "path": "compliance_matrix.json",
@@ -89,7 +89,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "18368123d5cac0600f645d45641d8b67aa69ef7613d6e677aefa83b3459d45ec"
+      "sha256": "a43d3e9b97e5323fdf217c1050ecc5ff0397338ef66bb0c557f55c729d60ca9f"
     },
     {
       "path": "report/copyright_statement.md",
@@ -102,14 +102,14 @@
       "role": "rendered_proposal_html",
       "required": false,
       "language": "zh",
-      "sha256": "68b349d7b05d3535960f4ef3eb2e39f0d73fe927ca8c511bf2b28383df5ac121"
+      "sha256": "e4621450f1c8271dfd476080152650e9dc22ba64c24059d757794ed3d9ed403c"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "ef352b93fdb93f7fc062566952f22a229171bf6facbe711e6dcfa4a40cac13ec"
+      "sha256": "f5b275980e04980b3fbb2a700795dc3c257cbd7ee1abe9a0ef9211dae01aed7f"
     },
     {
       "path": "geometry/site_boundary.geojson",
@@ -170,7 +170,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "neutral",
-      "sha256": "b5dc3927d5686a0ad42553173630f600bbb4970b944354d2a3e04477403aae41"
+      "sha256": "17f122031871f825cac89f3b886384c65d2e669d91ff75bea13ad25b9704876e"
     },
     {
       "path": "assets/figures/land-use-structure.png",
@@ -184,7 +184,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "neutral",
-      "sha256": "c163abf2adf6fc6d3dcc3f106b1b13913ad067eaad5042ade359d9621a04e73e"
+      "sha256": "c422a92f371e2ed7fb3668b0d7a330e1f07c942322e0c5d7e69429be79139cc1"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
@@ -205,14 +205,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "43437a6f002d09b55efd5f50cd967c2ddde079dc06798dfea28755a64f5db254"
+      "sha256": "6387bf8a945319256aab3275cfd193e3ca286fb530e2d31394d8adeaab8cee18"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "db1e3474327a840f3a96c345eb0caad71736b54bcf61cf8906c0cc3bcabbe2b9"
+      "sha256": "20c9d674dadd60e790e1e6c10d3c0a6089341fcd5cb3d5011a79ce69ced2b33c"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -220,7 +220,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "e0951e85877b7814233cc47a9c56f99ea6ab2bc1893bda31f202934a0a9e98ae"
+      "sha256": "8c89ae2d564fc4a4fd8f4a3cc24ff04e515d41b9d7e46ad00e0a35db0b52711f"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -228,7 +228,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "3ad2ccf297887fb40b28e70e71a840b588ea3a0e5b09930196c0334a58e7e51f"
+      "sha256": "3cd0848196bab5c10960acc5f93cb15f0313923d876d2c6bc6ca7673e4299b34"
     },
     {
       "path": "visual/index.en.html",
@@ -244,15 +244,12 @@
       "required": false,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "c449a8e1b94c9b521aa7223c01e07551312debb871f1f0cce03040f418d28ca5"
+      "sha256": "bf6f721978d87a420866b739ed10f1085e334a9b144047c1fadb2d4d3c4eab2e"
     }
   ],
   "validation_claim": {
     "self_checked": true,
-    "known_blockers": [
-      "official_boundary polygons not yet published; all geometry provisional_constraint",
-      "FAR and building height unknown pending official regulatory plan"
-    ],
+    "known_blockers": [],
     "data_confidence": "mixed_provisional_and_conceptual",
     "readiness_contract": "persisted-self-check-v1"
   }

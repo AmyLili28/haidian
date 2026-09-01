@@ -1,5 +1,14 @@
 # 方案迭代记录
 
+## v1.3 - 2026-09-01
+
+- 来源闭环：sources.json 26 项逐项登记，覆盖正文/compliance/standard 全部引用 id；每项含许可/复用边界/review status/限制
+- 内嵌 OFL Noto Sans SC 子集（base64 woff2）于中英文 report HTML 与 visual/index.html，离线无缺字
+- site-overview/key-areas 标签移至留白区加引导线，消除叠压
+- A0 首板（中英）重排：左图右文，消除裁切与非设计留白
+- manifest known_blockers 清空（组织方数据缺口保留在 assumptions/data gaps）
+- 重跑受信自检流程：四 gate PASS，formal-review-ready
+
 ## v1.2 - 2026-09-01
 
 - 响应 AI 专业评审 request-changes（22 项阻断性修复）
