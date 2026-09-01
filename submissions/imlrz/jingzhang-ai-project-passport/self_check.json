@@ -28,6 +28,8 @@
         "submissions/imlrz/jingzhang-ai-project-passport/assets/figures/metrics-evidence.png",
         "submissions/imlrz/jingzhang-ai-project-passport/assets/figures/mobility-bluegreen.en.png",
         "submissions/imlrz/jingzhang-ai-project-passport/assets/figures/mobility-bluegreen.png",
+        "submissions/imlrz/jingzhang-ai-project-passport/assets/figures/regional-collaboration.en.png",
+        "submissions/imlrz/jingzhang-ai-project-passport/assets/figures/regional-collaboration.png",
         "submissions/imlrz/jingzhang-ai-project-passport/assets/figures/site-overview.en.png",
         "submissions/imlrz/jingzhang-ai-project-passport/assets/figures/site-overview.png",
         "submissions/imlrz/jingzhang-ai-project-passport/assets/media/cover.en.webp",
@@ -60,13 +62,14 @@
         "submissions/imlrz/jingzhang-ai-project-passport/self_check.json",
         "submissions/imlrz/jingzhang-ai-project-passport/sources.json",
         "submissions/imlrz/jingzhang-ai-project-passport/standard_matrix.json",
+        "submissions/imlrz/jingzhang-ai-project-passport/visual/assets/font.css",
         "submissions/imlrz/jingzhang-ai-project-passport/visual/index.en.html",
         "submissions/imlrz/jingzhang-ai-project-passport/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/imlrz/jingzhang-ai-project-passport": "formal"
       },
-      "total_bytes": 3463169,
+      "total_bytes": 4463071,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -148,7 +151,7 @@
           "standard": 1,
           "depth": 6,
           "data": 11,
-          "metric": 5
+          "metric": 6
         }
       }
     },

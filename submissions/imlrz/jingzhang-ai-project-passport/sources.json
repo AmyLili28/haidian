@@ -175,13 +175,22 @@
     },
     {
       "id": "TOOLCHAIN",
-      "title": "Deterministic design package toolchain",
+      "title": "Local deterministic artifact workflow",
       "publisher": "Open source and system libraries",
-      "path": "build_formal_submission.py",
       "accessed_date": "2026-08-31",
       "authority_level": "software_toolchain",
-      "usable_for": "GeoJSON、图片、HTML和PDF生成",
+      "usable_for": "GeoJSON、图片、HTML、PDF与字体子集生成；实现过程见变更记录和版权说明",
       "not_usable_for": "事实依据"
+    },
+    {
+      "id": "FONT-NOTO-CJK-SC",
+      "title": "Noto Sans CJK SC Regular",
+      "publisher": "notofonts / Google and Adobe",
+      "url": "https://github.com/notofonts/noto-cjk",
+      "accessed_date": "2026-09-01",
+      "authority_level": "official_open_source_asset",
+      "usable_for": "离线中英文网页字体子集；SIL Open Font License 1.1",
+      "not_usable_for": "空间、历史、政策或规划事实依据"
     }
   ]
 }

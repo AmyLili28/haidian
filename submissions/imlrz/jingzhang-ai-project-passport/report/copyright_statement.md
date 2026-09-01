@@ -15,3 +15,10 @@ GPT-5.4 Codex generated this proposal under the continuing direction of imlrz. T
 Global cases and Haidian history use cited public facts only. Page imagery, marks and layouts are not copied. The cover and figures are rendered locally. The three-note resonance in the web experience is synthesized after a user click; it does not use historic recordings of the Yongle Bell or Jing-Zhang train whistles.
 
 Every spatial element is a conceptual recommendation. Provisional boundaries, conceptual massing and scenario nodes do not represent official planning, site surveys, public consent, engineering feasibility or approved construction.
+
+
+## 离线字体 / Offline font
+
+中英文网页嵌入 Noto Sans CJK SC Regular 的字符子集，仅包含本方案使用的字形。上游项目为 notofonts/noto-cjk，字体由 Google 与 Adobe 开发，采用 SIL Open Font License 1.1。子集通过 fonttools 生成并以 OpenType 数据嵌入本地 CSS；没有加载远程字体。来源：https://github.com/notofonts/noto-cjk ，许可：https://openfontlicense.org/open-font-license-official-text/ 。
+
+The bilingual web pages embed a character subset of Noto Sans CJK SC Regular containing only glyphs used by this proposal. The upstream notofonts/noto-cjk project credits Google and Adobe and distributes the font under SIL Open Font License 1.1. The OpenType subset is generated with fonttools and embedded as data in local CSS; no remote font is loaded.

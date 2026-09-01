@@ -34,7 +34,7 @@ Every public source is registered in `sources.json`, every conceptual assumption
 
 The 43.6-square-kilometre research area acts as a map of relationships among universities, institutes, innovation platforms, companies, neighbourhoods and public services. The 11.4-square-kilometre design area acts as a spatial map for continuity along the railway park, east-west repair, industry and everyday life. The three key areas become chapters where research, translation and urban use can take material form. [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework]
 
-One north-south Connection Line and five east-west Stitching Links organise the Three Zones and Two Wings. The western Knowledge Wing gathers campuses, research and young communities. The eastern Life Wing includes enterprises, homes, commerce and civic services. Six city rooms along the line support memory, learning, collaboration, testing, care and public presentation. A resident may enter the innovation belt from an ordinary daily journey.
+One north-south Connection Line and five east-west Stitching Links organise the Three Zones and Two Wings. The Zhongguancun Technology Service Wing brings technology services, the Zhongguancun identity, capital and global resource allocation. The Xiaoyuehe Scenario Empowerment Wing brings public experience, neighbourhood life and civic services. Six city rooms along the line support memory, learning, collaboration, testing, care and public presentation. A resident may enter the innovation belt from an ordinary daily journey.
 
 | Level | Central question | Output |
 | --- | --- | --- |
@@ -59,9 +59,40 @@ AI innovation is often divided into talent, enterprise, compute, capital, data a
 
 An annual rhythm sustains the loop: public questions in spring, team formation in summer, limited trials in autumn, and an honest archive of gains and failures in winter. Each team leaves reusable notes, failure records and an exit plan. Ground floors become more open; streets gain shade, drinking water, seating and continuous accessibility; shared equipment sits near public transport. AI helps people find resources, translate information and understand rules. Accountable people retain final decisions. [depth:overall_spatial_structure]
 
+### Taskbook Execution Matrix
+
+The three positioning statements unfold along one connection line. The Centennial Jing-Zhang Cultural Belt is carried by railway memory, the Tsinghua Garden Station story, wayfinding and a multilingual cultural walk. The Urban AI Life Experience Belt is carried by six city rooms, twelve everyday scenarios and the Xiaoyuehe Scenario Empowerment Wing. The AI Integration and Innovation Belt is carried by the six-resource cycle, three key areas and the Zhongguancun Technology Service Wing. The five functions follow a human journey: Zhongzhiyuan supports the full-stack autonomous innovation system and governance debate; the AI Origin Community supports a world-class AI innovation ecosystem; Dazhongsi and Xiaoyuehe support AI+ scenarios and AI-native activity; continuous public space supports an intelligent and vibrant AI city; visible rules, controlled trials and annual reporting build a contribution to global AI governance discourse. [source:AGENT-TASKBOOK] [data:geometry/key_areas.geojson#PROV-KEY-001]
+
+| Agent task | Concrete deliverable | Spatial and scenario anchor | Operation and measure |
+| --- | --- | --- | --- |
+| agent.1 Overall concept | Chinese and English name; red line, gold line and echo-arc identity; positioning, functions and spatial structure | Connection Line, five links, three areas and six city rooms | task coverage, path length and annual review |
+| agent.2 Full stack and ecosystem | eight cases; talent, enterprise, compute, capital, data and scenario cycle | compute and trials at Zhongzhiyuan; translation at Origin; Technology Service Wing | first compute access, cross-institution teams, feedback time |
+| agent.3 AI+ and vibrant city | twelve cards, three validations and six personas | Xiaoyuehe Wing; parks, homes, stations and civic services | human review, pause, complaint and exit records |
+| agent.4 Public space and landmarks | Memory Platform, Origin Long Table, Response Court and six components | heritage park, one line and five links, Dazhongsi crossings | opt-in credit plaques, maintenance log and complete accessible journeys |
+| agent.5 Cultural narrative | railway memory, Zhongguancun innovation culture and new AI culture | memory, cultural walk, wayfinding and public archive | fact review, bilingual content, rights and community choice |
+| agent.6 Global events and operation | Jing-Zhang Connection Season, developer community, open scenarios and international conversion | rotating programme across three areas and six city rooms | question, team, trial, market clinic and annual archive |
+
+The visual identity draws connection as a brick-red line and resonance as a gold parallel line with expanding arcs. A compact “two lines, one arc” mark can extend to wayfinding, rule boards, event passes and annual archives. It is a concept direction for a later brand team to clear and develop. An opt-in Connection Plaque and annual public archive credit those who raise a question, share a tool, document failure or help another person; contributors can remain anonymous or withdraw. The component library includes the Origin Long Table, Quiet Bench, Scenario Rule Board, Pause Light, Accessible Beacon and Movable Shade Planter, sharing repairable joints and restrained materials.
+
+### Regional Synergy: Connecting the Belt to a Wider Innovation Network
+
+The Jing-Zhang corridor can serve as a public interface for exchanging resources beyond Haidian. Every relationship below is a proposal for negotiation. It begins only after counterpart consent, data permission, budget and professional review.
+
+| Direction | Resources exchanged | Interface and responsibility | Trigger and conversion path |
+| --- | --- | --- | --- |
+| Beiwei Community | young talent, neighbourhood questions and service feedback | Origin operations and a community liaison publish questions together | after deliberation and data permission, a small service trial enters the annual archive |
+| Future Science City | compute, engineering platforms and industry mentors | the Corridor Council and counterpart park operate a referral window | after a service agreement, teams request compute or expert time against milestones |
+| Huairou Science City | scientific-instrument questions, research models and translation | a university research alliance and Origin Translation Table maintain a two-way list | after ethics and IP review, a question enters cross-institution team formation |
+| Beijing E-Town | robotics, intelligent devices, manufacturing chains and pilot production | Zhongzhiyuan validation teams coordinate with manufacturing and test operators | after safety plans and permits, controlled park trials may progress to industrial pilots |
+| Beijing-Tianjin-Hebei | university talent, industrial scenarios, capital and public events | the Jing-Zhang Connection Season publishes cross-city open questions | after a memorandum and responsibility list, partners form annual joint questions and follow-up |
+
+![Resource exchange and responsible interfaces for regional innovation synergy](assets/figures/regional-collaboration.en.png)
+
+All five directions share one conversion path: a public question reaches the Origin Long Table; a team gains tools and controlled validation at Zhongzhiyuan; Dazhongsi gathers public and market responses; the Zhongguancun Technology Service Wing connects capital and professional services; results return to the place that raised the question. Every trip has an owner, term, exit and public result summary. Completed joint questions and closed feedback loops measure progress. [source:AGENT-TASKBOOK] [depth:overall_spatial_structure]
+
 ## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
 
-The spatial structure is one Connection Line, five Stitching Links, three innovation areas, two wings and six city rooms. The line gives priority to continuous walking and cycling while retaining a scale at which railway history can be read. The links address walls, wide roads, underpasses and station entrances. Conceptual new massing gathers around existing built areas and renewal nodes, leaving the park open, accessible and hospitable. [data:geometry/roads.geojson#ROAD-SPINE-001] [data:geometry/public_space.geojson#PUBLIC-001]
+The spatial structure is one Connection Line, five Stitching Links, three innovation areas, the Zhongguancun Technology Service Wing, the Xiaoyuehe Scenario Empowerment Wing and six city rooms. The line gives priority to continuous walking and cycling while retaining a scale at which railway history can be read. The links address walls, wide roads, underpasses and station entrances. Conceptual new massing gathers around existing built areas and renewal nodes, leaving the park open, accessible and hospitable. [data:geometry/roads.geojson#ROAD-SPINE-001] [data:geometry/public_space.geojson#PUBLIC-001]
 
 ![Land use and city-room structure](assets/figures/land-use-structure.en.png)
 
@@ -146,6 +177,10 @@ The near term builds trust through reversible work: complete official-data calib
 | JZ-12 | corridor operation and evaluation | ongoing | cross-sector platform and public reporting |
 
 A Corridor Connection Council brings together parks, campuses, communities, companies, public departments and accessibility representatives. It publishes questions and progress quarterly and reports annually on space use, energy, scenario safety, participation equity and complaints. Public-space maintenance, enterprise service and public-benefit projects keep separate accounts. Every trial has a term and exit clause. [data:geometry/phasing.geojson#PHASE-001]
+
+The proposed annual event brand is the Jing-Zhang Connection Season. Spring “Find the Way” publishes city and industry questions. Summer “Share the Table” forms teams among developers, researchers, residents and companies. Autumn “Try the Path” runs controlled validation. Winter “Echo” publishes outcomes, failures, maintenance costs and questions for the next year. The three key areas rotate as hosts while six city rooms support small everyday programmes. International participants enter through bilingual open questions and an online briefing, join the Origin Long Table, prepare tools and safety at Zhongzhiyuan, and meet public and market feedback at Dazhongsi. Teams with continuing value may enter professional service, a capital clinic, industrial pilot production or a following-year residency. Human choice and an exit remain available at every step. [source:AGENT-TASKBOOK] [metric:scenario_count]
+
+The Council maintains Connection Plaques and the component library. A plaque records an authorised name, team or anonymous code together with contribution type and year. The Origin Long Table, Quiet Bench, Rule Board, Pause Light, Accessible Beacon and Movable Planter each carry a maintenance owner, inspection cycle and removal condition. The event identity, contribution archive and component maintenance form a long-term brand asset.
 
 ## Metrics, Area Recalculation, and Compliance Matrix
 
