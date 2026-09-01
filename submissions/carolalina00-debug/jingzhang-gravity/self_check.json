@@ -36,6 +36,8 @@
         "submissions/carolalina00-debug/jingzhang-gravity/assets/figures/metrics-evidence.png",
         "submissions/carolalina00-debug/jingzhang-gravity/assets/figures/mobility-bluegreen.en.png",
         "submissions/carolalina00-debug/jingzhang-gravity/assets/figures/mobility-bluegreen.png",
+        "submissions/carolalina00-debug/jingzhang-gravity/assets/figures/regional-collaboration.en.png",
+        "submissions/carolalina00-debug/jingzhang-gravity/assets/figures/regional-collaboration.png",
         "submissions/carolalina00-debug/jingzhang-gravity/assets/figures/site-overview.en.png",
         "submissions/carolalina00-debug/jingzhang-gravity/assets/figures/site-overview.png",
         "submissions/carolalina00-debug/jingzhang-gravity/assets/figures/three-landmarks.en.png",
@@ -84,7 +86,7 @@
       "ai_package_stages": {
         "submissions/carolalina00-debug/jingzhang-gravity": "formal"
       },
-      "total_bytes": 28072330,
+      "total_bytes": 29438679,
       "maintainer_bypass": false
     },
     "stderr": ""

@@ -118,7 +118,7 @@
       "publisher": "Google Fonts / Noto project",
       "source_type": "official_public",
       "retrieved": "2026-08-31",
-      "usage": "Noto Sans SC source used for rendered figures and font-program subsets embedded inside PDFs under SIL OFL 1.1; no standalone font file redistributed."
+      "usage": "Noto Sans SC source used for rendered figures, PDF font subsets and an offline WOFF2 subset embedded as a data URI in all four HTML files under SIL OFL 1.1; no standalone font file redistributed."
     },
     {
       "id": "FONT-INTER",

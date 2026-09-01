@@ -29,6 +29,38 @@ At the coordinated-research scale, the proposal forms a university-origin–vali
 
 The structure is “one field, three magnets, two orbits”: one continuous heritage park; World Question Court, Origin Commons and City Premiere; an outer orbit for research/capital/industry services and an inner orbit for residents, students and visitors. Durable civic space survives beyond screens or devices. [data:geometry/key_areas.geojson#PROV-KEY-001] [depth:overall_spatial_structure]
 
+The taskbook's three positions, five functions and “three areas + two wings” are not parallel slogans. One `? → 0 → !` journey binds them into a spatial–operational loop. The matrix below maps every requirement to a place and an inspectable output. [source:AGENT-TASKBOOK]
+
+| Level | Taskbook requirement | Jing-Zhang Gravity spatial–operational response | Inspectable output |
+| --- | --- | --- | --- |
+| Position | Centennial Jing-Zhang Cultural Belt | Railway-heritage park as a century-long civic innovation framework | Heritage narratives, open archives and year-round public life |
+| Position | Urban AI Life Experience Belt | Xiaoyue River scenario wing + open ground floors at all magnets | Everyday AI experiences people can enter, choose and leave |
+| Position | AI Convergence Innovation Belt | ? World Question Court → 0 Origin Commons → ! City Premiere | World questions become open prototypes and public launches |
+| Function | Full-stack independent AI innovation system | Zhongzhiyuan acceleration area / World Question Court | Model evaluation, embodied safety and hardware clinic |
+| Function | World-class AI innovation ecosystem | AI Origin Community / Origin Commons | Global landing, open-source collaboration and youth life |
+| Function | New AI+ scenario-empowerment paradigm | Xiaoyue River wing + public spaces along the belt | Open question intake, non-AI baselines and real feedback |
+| Function | Intelligent and vibrant AI city | Dazhongsi cluster / City Premiere | AI-native market, culture and Global Premiere Week |
+| Function | Global voice in AI governance | Zhongzhiyuan deliberation and validation + public retrospectives | Human authority, stop conditions and published governance records |
+| Three areas | AI Origin Community | 0 Origin Commons | World-class AI innovation ecosystem |
+| Three areas | Zhongzhiyuan AI Innovation Acceleration Area | ? World Question Court | Full-stack innovation and AI governance |
+| Three areas | Dazhongsi AI Industry Cluster | ! City Premiere | AI-native industries and services |
+| Two wings | Zhongguancun Technology Service Wing | Outer orbit: talent, capital, compute, data and professional services | Global factor allocation, Zhongguancun IP and capital |
+| Two wings | Xiaoyue River Scenario Empowerment Wing | Inner orbit: residents, students, visitors and lived scenarios | Scenario empowerment and a vibrant intelligent city |
+
+Regional collaboration defines public interfaces for future discussion; it does not invent agreements, routes, procurement, investment or data licences. Each interface states its exchange objects, two-way direction, trigger and evidence status. [source:AGENT-TASKBOOK] [assumption:A-CONTROLS-001]
+
+| Partner | Exchange objects | Direction | Trigger | Evidence status |
+| --- | --- | --- | --- | --- |
+| Beiwei Community | Talent, community needs, learning and care scenarios | Questions and feedback → field; open curricula and prototypes → community | Public co-creation brief + community, ethics and accessibility review | Named by taskbook; no agreement, route or facility data; conceptual interface |
+| Future Science City | Talent, research questions, facilities and evaluation protocols | Questions and talent → validation; reproducible protocols and open methods → research community | Public research project or cleared facility sharing + safety/data review | Named by taskbook; no agreement or facility-sharing data; conceptual interface |
+| Huairou Science City | Big-science questions, cleared data, instrument interfaces and scientific-AI validation | Questions/data needs → World Question Court; prototypes/governance reports → science users | Public data and licence + professional review | Named by taskbook; no agreement or data licence; conceptual interface |
+| Beijing E-Town | Embodied-AI engineering, manufacturing, supply chain and capital | Prototypes → engineering/pilot; manufacturability feedback/capability → teams | Voluntary enterprise participation + cleared pilot + safety/procurement review | Named by taskbook; no enterprise commitment or procurement; conceptual interface |
+| Beijing–Tianjin–Hebei | Talent, cross-city scenarios, industry needs and market feedback | Prototypes/services → multi-city validation; scenario feedback/industry needs → field | Public cross-regional brief + host consent + data compliance | Named by taskbook; no regional agreement or formal route; conceptual interface |
+
+![Position–function–three areas/two wings–regional collaboration framework](assets/figures/regional-collaboration.en.png)
+
+All regional relationships are conceptual interfaces responding to the taskbook. Without an agreement, formal transport route, facility-sharing evidence or host commitment, none may be represented as an existing fact.
+
 ![Land use and scope transmission](assets/figures/land-use-structure.en.png)
 
 ## Coordinated Research Area: Industry and Future City Research
