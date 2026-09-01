@@ -2376,6 +2376,41 @@ b:target { outline: 3px solid var(--gold); outline-offset: 2px; }
   <!-- 186A-OFFLINE-CJK-FONT-START -->
   <!-- Source font: Source Han Serif SC Regular; source SHA-256: 78aa7a328fd974df2d688c8a9fd74a33d8334dfa84ab24d9d11efb2ffc464117; embedded subset: JZ Offline CJK 186H; Copyright 2017-2024 Adobe; SIL Open Font License 1.1; package source record: ../sources.json. -->
   <link rel="stylesheet" href="assets/offline-cjk-font.css">
+  <!-- N6-DISCLOSURE-CONTRAST --><style>
+    .hero-copy > .hero-cinema-disclosure {
+      padding: 18px clamp(24px, 5vw, 80px) 22px;
+      background: #091422;
+      color: #fff;
+      opacity: 1 !important;
+      visibility: visible !important;
+      filter: none !important;
+      transform: none !important;
+      translate: none !important;
+      scale: none !important;
+      animation: none !important;
+      transition: none !important;
+    }
+    .hero-copy > .hero-cinema-disclosure > p {
+      color: #fff;
+      opacity: 1;
+      font-size: 12.5px;
+    }
+    .hero-copy > .hero-cinema-disclosure > p:nth-child(2) {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    @media print {
+      .hero-copy > .hero-cinema-disclosure {
+        padding: 16px;
+        background: #FCFAF4 !important;
+        background-image: none !important;
+        color: var(--ink) !important;
+      }
+      .hero-copy > .hero-cinema-disclosure > p {
+        color: var(--ink) !important;
+      }
+    }
+  </style>
   <!-- 186A-OFFLINE-CJK-FONT-END --> <!-- W4C-PHOTO-GRADIENT-OVERRIDE --> <style> .photo-band { grid-template-columns: minmax(320px,52%) minmax(0,1fr); background-size: auto 100% !important; } .photo-band::before { inset: 0; background: linear-gradient(90deg,rgba(16,44,77,0) 0%,rgba(16,44,77,0) 30%,rgba(16,44,77,.42) 39%,rgba(16,44,77,.82) 47%,#102C4D 52%,#102C4D 100%); } @media (max-width:1100px) { .photo-band { grid-template-columns: minmax(280px,48%) minmax(0,1fr); background-size: auto 100% !important; } .photo-band::before { inset: 0; background: linear-gradient(90deg,rgba(16,44,77,0) 0%,rgba(16,44,77,0) 27%,rgba(16,44,77,.46) 35%,rgba(16,44,77,.84) 43%,#102C4D 48%,#102C4D 100%); } } @media (max-width:760px) { .photo-band { background-size: 100% auto !important; } .photo-band::before { inset: 0; background: linear-gradient(180deg,rgba(16,44,77,0) 170px,rgba(16,44,77,.8) 250px,#102C4D 310px); } }  .chapter-image > figure:only-child { grid-column: 1 / -1; margin: 0; } .chapter-image > figure:only-child img { display: block; width: 100%; height: auto; } .chapter-image > figure:only-child figcaption { padding: 16px clamp(24px, 4vw, 64px) 24px; } @media print { .photo-band::before { display:none; } } </style>
 </head>
 <body>
