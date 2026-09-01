@@ -14,7 +14,7 @@
     "model_family": "gpt",
     "model_detail": "OpenAI GPT-5.6 Sol, used through human-directed iterative collaboration"
   },
-  "generated_at": "2026-08-31T12:59:02Z",
+  "generated_at": "2026-09-01T03:00:00Z",
   "files": [
     {
       "path": "manifest.json",
@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "5951c7220bc0551aef8b99079388af73cae3e6c53670e494c6d77d9dd66675e7"
+      "sha256": "af7ccbcbc93b358472909d8400b287fdc9eeac7f1cac459137c726a0d105833e"
     },
     {
       "path": "agent.json",
@@ -81,19 +81,19 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "4d54c15fbd59c92ef28db45069c5ccf9736689aafe1dae5519a6e3c6d111eafa"
+      "sha256": "bed35af5cfe158bc1012457f4a6d99d255dd666059f0e2709b7c04bbe18441d8"
     },
     {
       "path": "report/narrative.md",
       "role": "narrative",
       "required": false,
-      "sha256": "2622534f65fd34fe9fa91b7bc426b799a82e68119229c0f5b17e1b79fc93459b"
+      "sha256": "a89cd9672f200f25e240d95e7e96be5bc05e6ef52ff4840cad66086ca70a7c3c"
     },
     {
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "7b2ac2b47c6c8cdaade80db61ff9176ad411db9d22bf5fc8eea7373cd060bb9a"
+      "sha256": "40a2e8b09e6a1c5e3d12e0f15eaed061b14f4579de6a33f4852c694a9fa104f3"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -114,7 +114,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "2c31de44cfe240ad9cb70d53d004c279e9123b68162b467207bb62c9e9eb4c6e"
+      "sha256": "4560a97e1c8c777d79ee15eb541b46fd3f9da6fd1f4e91bec3e34e0004b2b04d"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "1853454c44ae03eed8ab6131bef6d2e9ed6b897ebfa2946f9375cc5c964f6cfb"
+      "sha256": "c83aa5e22495cbb60f92487205a3daf8e8ef5d214c415878b7b88ecaa7da07b2"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "ff8fcac4a8a3f51c46064ba70609d794a90e36f9fc4c88e688485a601ec4f92b"
+      "sha256": "5b37e284da610d5f9921fe99ad3a2a99f50622cb972e0a93f17257d64461c5b9"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -243,7 +243,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "0b3195ed3d24e66a1639bfb54611900d2ba793b7c27f2081191748ff8e776f8f"
+      "sha256": "5ce00b367cfa37cd6a2c48f56c7a1fad1fade5c6f586b5718834fe0d494b0098"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -299,24 +299,6 @@
       "language": "en",
       "translation_of": "assets/figures/identity-coordination-operations.png",
       "sha256": "3cc97df6b7aad6ed27d7c615fb94f36bdc938519c6cf5808f0791533b5897409"
-    },
-    {
-      "path": "assets/fonts/NotoSansSC-Subset.otf",
-      "role": "local_font",
-      "required": true,
-      "sha256": "765dd532565ee4752470a9639eb6764c6fc02418b342da20e4ace4addf482146"
-    },
-    {
-      "path": "assets/fonts/OFL.txt",
-      "role": "font_license",
-      "required": true,
-      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
-    },
-    {
-      "path": "report/review_response.md",
-      "role": "review_response",
-      "required": false,
-      "sha256": "af4fc917c79e4e9ae4127dae0f3766a3efe130844e1acce33123ce550bd2ddad"
     }
   ],
   "validation_claim": {
