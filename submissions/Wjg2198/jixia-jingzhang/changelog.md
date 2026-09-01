@@ -1,0 +1,40 @@
+# 方案迭代记录
+
+## v1.3 - 2026-09-01
+
+- 来源闭环：sources.json 26 项逐项登记，覆盖正文/compliance/standard 全部引用 id；每项含许可/复用边界/review status/限制
+- 内嵌 OFL Noto Sans SC 子集（base64 woff2）于中英文 report HTML 与 visual/index.html，离线无缺字
+- site-overview/key-areas 标签移至留白区加引导线，消除叠压
+- A0 首板（中英）重排：左图右文，消除裁切与非设计留白
+- manifest known_blockers 清空（组织方数据缺口保留在 assumptions/data gaps）
+- 重跑受信自检流程：四 gate PASS，formal-review-ready
+
+## v1.2 - 2026-09-01
+
+- 响应 AI 专业评审 request-changes（22 项阻断性修复）
+- agent.1-6 对照官方任务书 required_agent_tasks 重做映射（agent.5=文化叙事/导视/国际传播，agent.6=活动体系与长期运营）
+- 新增三大定位/五大功能/三区两翼协同对齐表、协同回路、区域创新协同议题表（北纬社区/未来科学城/怀柔科学城/经开区/京津冀，均标注不确定性）
+- 新增 AI 创新生态图谱（八要素×分区分工）、案例转化五列分析、综合规划与空间产业融合思路
+- 12 张场景卡升级为完整字段（用户/运营角色建议/流程/数据边界/人工复核/失败降级/退出），新增场景治理通则与高风险决策边界
+- 新增项目实施矩阵（角色均为建议、含退出条件与资源量级概念）与 agent.6 长期运营设计（年度活动/社区运营/场景开放/转化路径）
+- 新增包容性矩阵、社区共治机制、文化叙事与导视系统（agent.5）、品牌基础规范一页版、三基因机制说明表
+- 全部工程化数值（走廊宽度/节点间距/地标尺度等）去精确化，改为概念示意与待比选连接需求，并补充低工程依赖替代方案
+- sources.json 扩展至 27 项逐项登记（8 个全球案例与背景文献诚实标记 needs_review）；参考资料与登记状态对应
+- iteration 更新至 v1.2
+
+## v1.1 - 2026-09-01
+
+- 修复 intake 校验：frontmatter scenarios 对齐官方场景注册表（6 个合法 id）
+- 增厚「用地、建筑规模与拆改留方案」章节并拆分 4 连证据标记
+- geometry 九个图层的 layer/source_type/confidence/building_type 对齐官方枚举
+- metrics.json 增加顶层 units；standard_matrix 补全 10 项必填字段
+- compliance_matrix 重写为 requirements 结构，覆盖 23 项公告与智能体任务
+- manifest 哈希统一为纯 sha256 口径并列入 manifest 自身；删除两个 README 占位文件
+- 报告 HTML 补全 <main> 主结构标签
+
+## v1.0 - 2026-08-31
+
+- 首次提交：以稷下书院多智能体辩论框架为核心设计理念
+- 三种哲学人格（名家/道家/墨家）分别主持三个重点区域，辩论走廊连接三所讲堂
+- 12张场景卡、3处朝圣地标、5类用户画像、8个全球AI创新生态案例
+- 全部几何为 provisional_constraint，待官方数据复算；中英双语提交
