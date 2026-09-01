@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Detailed regulatory controls, road redlines, ownership, municipal utilities, and engineering constraints must be confirmed from official attachments before statutory use.",
+      "impact": "The package can be reviewed as a formal AI submission only for provided official boundaries and submitted design layers; statutory controls still need professional confirmation."
+    },
+    {
+      "id": "A-CONCEPT-002",
+      "status": "standing_disclaimer",
+      "statement": "All spatial propositions, scenarios, landmarks, events, and operating mechanisms in this package are concept suggestions for further professional development; they are not statutory planning, government approvals, authorized operations, or implementation commitments.",
+      "impact": "Keeps the package within the open-call boundary clause; reviewers should read every design statement as advisory."
+    },
+    {
+      "id": "A-BOUNDARY-004",
+      "status": "pending_official_release",
+      "statement": "Official site boundary and key-area polygons have not been released; submitted boundary layers are provisional_constraint with official_boundary=false.",
+      "impact": "On official release, boundary, key areas, land use, roads, green space, public space, buildings, phasing, and all metrics must be recomputed."
+    },
+    {
+      "id": "A-PARK-005",
+      "status": "verified_background_sources_registered",
+      "statement": "The 2026-08-06 Phase-II opening, 9 km corridor, 70-community and approximately 450,000-resident figures are registered as attributed background facts in PARK-OPEN-CNR-20260806 and cross-checked against the earlier official-source planning report PARK-PLAN-HAIDIAN-20240920.",
+      "impact": "These figures may explain the public-use context only. They do not establish an official boundary, precise design area, engineering acceptance, service performance or government commitment."
+    },
+    {
+      "id": "A-IMPLEMENTATION-006",
+      "status": "pending_cost_and_owner_audit",
+      "statement": "The implementation queue names candidate owners, dependencies, gates, and fallback paths; capital cost, staffing, procurement, ownership, fire, seismic, utility, and maintenance figures require a professional audit before any commitment.",
+      "impact": "Scenario cards can be reviewed as reversible operating logic, but no budget, staffing level, procurement award, or government action is implied."
+    },
+    {
+      "id": "A-DATA-003",
+      "status": "pending_licensed_data",
+      "statement": "The five-tier evidence stack (L1 statutory space, L2 facilities, L3 behavior, L4 labor, L5 innovation networks) is planned but not yet acquired; current spatial objects and metrics are design propositions recomputable from submitted geometry, not observed conditions.",
+      "impact": "Barrier Index, 24H Pulse, Innovation Leakage, Delivery Friction, and the 9 interface locations remain hypotheses until licensed data is registered in sources.json."
+    },
+    {
+      "id": "A-ROOTS-007",
+      "status": "context_only",
+      "statement": "The four roots in simulation.json#rooted_design_matrix (self-reliant making, shared commons, reversible resilience, quiet intensity) interpret historical and public planning context; they are not policy endorsements, statutory controls, official scoring criteria, or government commitments.",
+      "impact": "Roots may explain why a spatial choice is appropriate to Haidian, but every claim still requires a submitted geometry object, an evidence/source reference, and a stated uncertainty or fallback."
+    },
+    {
+      "id": "A-TERMINOLOGY-008",
+      "status": "standing_disclaimer",
+      "statement": "Project Record, Scenario Verification Card, Run Receipt, City Changelog, and Delivery Card are design-review objects. They do not confer administrative permission or access rights.",
+      "impact": "The package keeps a clear distinction between an auditable design stage gate and any future statutory approval or procurement process."
+    },
+    {
+      "id": "A-REGIONAL-009",
+      "status": "concept_interfaces_only",
+      "statement": "The external regional coordination diagram describes potential two-way interfaces with Zhongguancun AI Beiwei Community, Future Science City, Huairou Science City, Beijing E-Town and the Beijing-Tianjin-Hebei region. It records no existing JZ OPENLINE agreement, shared program, data access, facility access, procurement, investment, recruitment or government commitment.",
+      "impact": "Every regional arrow is a proposal for future discussion. Any real exchange requires a named counterpart, authorization, data/rights review, operating responsibility and a separately approved implementation instrument."
+    },
+    {
+      "id": "A-CASES-010",
+      "status": "source_bounded_case_research",
+      "statement": "The seven global comparisons are limited to mechanisms explicitly described by the registered case-owner or government sources. They are not independent performance evaluations, complete city profiles or evidence that the same mechanism will work in Haidian.",
+      "impact": "Case lessons may form design hypotheses only; transfer to JZ OPENLINE remains subject to local evidence, professional review and the proposal's reversible stage gates."
+    }
+  ]
+}

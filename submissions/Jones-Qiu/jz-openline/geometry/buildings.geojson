@@ -1,0 +1,319 @@
+{
+  "type": "FeatureCollection",
+  "name": "building_renewal_objects",
+  "design_contract": {
+    "project_record_field": "project_record_id",
+    "root_field": "root_ids",
+    "gate_field": "evidence_gate",
+    "status_field": "concept_only",
+    "note": "Feature properties remain conceptual design attributes; geometry and area values are unchanged."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLDG-001",
+      "properties": {
+        "id": "BLDG-001",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "科研转化工坊",
+        "name_en": "Research-to-founder workshop",
+        "area_id": "beijing_ai_origin_community",
+        "building_type": "incubator",
+        "renewal_action": "adapt",
+        "phase": "phase_1",
+        "owner": "parcel_owner_to_confirm",
+        "program": "human-in-the-loop public service / test / launch",
+        "metric": "building_footprint_area_sqm",
+        "trigger": "parcel ownership, fire, seismic and utility audit",
+        "dependency": "official parcel and regulatory controls",
+        "area_sqm_declared": 135680.046,
+        "area_sqm_calculated": 135680.046
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3418,
+              39.955
+            ],
+            [
+              116.344,
+              39.955
+            ],
+            [
+              116.344,
+              39.9615
+            ],
+            [
+              116.3418,
+              39.9615
+            ],
+            [
+              116.3418,
+              39.955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-002",
+      "properties": {
+        "id": "BLDG-002",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "社区健康导航站",
+        "name_en": "Community health navigator",
+        "area_id": "beijing_ai_origin_community",
+        "building_type": "community_service",
+        "renewal_action": "retain_adapt",
+        "phase": "phase_1",
+        "owner": "parcel_owner_to_confirm",
+        "program": "human-in-the-loop public service / test / launch",
+        "metric": "building_footprint_area_sqm",
+        "trigger": "parcel ownership, fire, seismic and utility audit",
+        "dependency": "official parcel and regulatory controls",
+        "area_sqm_declared": 123329.518,
+        "area_sqm_calculated": 123329.518
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3418,
+              39.964
+            ],
+            [
+              116.3438,
+              39.964
+            ],
+            [
+              116.3438,
+              39.9705
+            ],
+            [
+              116.3418,
+              39.9705
+            ],
+            [
+              116.3418,
+              39.964
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-003",
+      "properties": {
+        "id": "BLDG-003",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "物理AI安全测试场",
+        "name_en": "Physical AI safety test yard",
+        "area_id": "zhongzhiyuan_ai_acceleration_area",
+        "building_type": "lab",
+        "renewal_action": "new_build_concept",
+        "phase": "phase_2",
+        "owner": "parcel_owner_to_confirm",
+        "program": "human-in-the-loop public service / test / launch",
+        "metric": "building_footprint_area_sqm",
+        "trigger": "parcel ownership, fire, seismic and utility audit",
+        "dependency": "official parcel and regulatory controls",
+        "area_sqm_declared": 64848.463,
+        "area_sqm_calculated": 64848.463
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3482,
+              40.01
+            ],
+            [
+              116.35,
+              40.01
+            ],
+            [
+              116.35,
+              40.0138
+            ],
+            [
+              116.3482,
+              40.0138
+            ],
+            [
+              116.3482,
+              40.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-004",
+      "properties": {
+        "id": "BLDG-004",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺首发厅",
+        "name_en": "Dazhongsi launch hall",
+        "area_id": "dazhongsi_ai_industry_cluster",
+        "building_type": "cultural",
+        "renewal_action": "adapt",
+        "phase": "phase_1",
+        "owner": "parcel_owner_to_confirm",
+        "program": "human-in-the-loop public service / test / launch",
+        "metric": "building_footprint_area_sqm",
+        "trigger": "parcel ownership, fire, seismic and utility audit",
+        "dependency": "official parcel and regulatory controls",
+        "area_sqm_declared": 54659.837,
+        "area_sqm_calculated": 54659.837
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3485,
+              39.946
+            ],
+            [
+              116.3503,
+              39.946
+            ],
+            [
+              116.3503,
+              39.9492
+            ],
+            [
+              116.3485,
+              39.9492
+            ],
+            [
+              116.3485,
+              39.946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-005",
+      "properties": {
+        "id": "BLDG-005",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "骑手友好服务枢纽",
+        "name_en": "Rider-friendly service hub",
+        "area_id": "dazhongsi_ai_industry_cluster",
+        "building_type": "mobility_hub",
+        "renewal_action": "new_build_concept",
+        "phase": "phase_1",
+        "owner": "parcel_owner_to_confirm",
+        "program": "human-in-the-loop public service / test / launch",
+        "metric": "building_footprint_area_sqm",
+        "trigger": "parcel ownership, fire, seismic and utility audit",
+        "dependency": "official parcel and regulatory controls",
+        "area_sqm_declared": 51239.956,
+        "area_sqm_calculated": 51239.956
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3508,
+              39.951
+            ],
+            [
+              116.3526,
+              39.951
+            ],
+            [
+              116.3526,
+              39.954
+            ],
+            [
+              116.3508,
+              39.954
+            ],
+            [
+              116.3508,
+              39.951
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-006",
+      "properties": {
+        "id": "BLDG-006",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "城市观测站",
+        "name_en": "City observatory",
+        "area_id": "beijing_ai_origin_community",
+        "building_type": "mixed_use",
+        "renewal_action": "retain_adapt",
+        "phase": "phase_2",
+        "owner": "parcel_owner_to_confirm",
+        "program": "human-in-the-loop public service / test / launch",
+        "metric": "building_footprint_area_sqm",
+        "trigger": "parcel ownership, fire, seismic and utility audit",
+        "dependency": "official parcel and regulatory controls",
+        "area_sqm_declared": 42684.621,
+        "area_sqm_calculated": 42684.621
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3485,
+              39.976
+            ],
+            [
+              116.35,
+              39.976
+            ],
+            [
+              116.35,
+              39.979
+            ],
+            [
+              116.3485,
+              39.979
+            ],
+            [
+              116.3485,
+              39.976
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
