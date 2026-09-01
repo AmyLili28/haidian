@@ -102,7 +102,7 @@
       "required": true,
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
-      "sha256": "78ac62253eef4d16e895df8db2cf65cd500ba0ffe885604c4be02f23b251ff1d"
+      "sha256": "357cf2f508281c639838ef9d6853ce288ab6dfdeeb990306ebed17eadcc2c8ed"
     },
     {
       "path": "changelog.md",
@@ -127,19 +127,19 @@
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "1f614b7767a30c9ddf153cb6cbe2e615a4c4e32276741ceb36abe461cc774085"
+      "sha256": "e3442f68e9424fbc6917f9304cd42e52bc72f01150f3f8c720c81447913bfb59"
     },
     {
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "a7d75e9e383adfeb5b8a06e06d1dd026d55d6e955d3327a8e4eed78f77842166"
+      "sha256": "dbd84011589672e80fa2688095bfd5b30682ee579021ff6a5284505832662e21"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "b96231f0d31ae30867d4194d2dec80dc09aac5188c4959e1ce469cdcb0411131",
+      "sha256": "57fac9ccd7cbafc32948febe837147d8d1fdd7895eb1adc4e34f4a07e436d957",
       "language": "zh"
     },
     {
@@ -148,13 +148,13 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "bbb99ce3f43ea1563596ce1d541a80ffaa53ece4c8c1dbb7a7c46e84f9e8feda"
+      "sha256": "950bd31a51f5cc480b688d522d76622d75ac6c5d44afaea21bd9bb1ae3e92436"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "a702890eba684e768ab285e0a6b00696ef631d5c1dfc769a69106c47b3af28c6",
+      "sha256": "eb20896f8a5cbd3106222ff44e56fc84662d1d067cdd7119458190dfc95b36fd",
       "language": "zh"
     },
     {
@@ -163,7 +163,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "22d9479f1a5c773d65c7aa9db4ee1496f4efddecd4b6518dc3cf60824ac20e9a"
+      "sha256": "e258bbd5c4ea17962b881e265b128ce38cff46eb27f597951dd6889739b34fa7"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -229,21 +229,22 @@
       "path": "proposal.en.md",
       "role": "narrative",
       "required": true,
-      "sha256": "8e40157c82fc796d29ba603a2845c98e1419f42a4ad242aff63fa9797f82b19e",
-      "language": "en"
+      "sha256": "e16dcc76948937cf41b177877713d47fea9e3bb18004a8c0579e8882ea74be32",
+      "language": "en",
+      "translation_of": "proposal.md"
     },
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "961faf363ded9c3407cb290a0abab7f6ef681402f9b82b47a48bcf30810a506c",
+      "sha256": "ef5e3cf4b969f0ee2a197f5f909de78652d44bf46aa67a113adfd1e72c9a05a9",
       "language": "zh"
     },
     {
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "4ed873a6161a418baf769482f6d5076ec99dafa91f01fc4fac854dcc92a938ab"
+      "sha256": "d101115d216b91172d697b483e2e20ede6a8440eb38332ddd8a95a5af7f47b67"
     },
     {
       "path": "report/narrative.md",
@@ -255,7 +256,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "0a76f28db6f51b00a9a0a77385ce8dc151fc1dc2ce78bc9c8c36f5b53de63049",
+      "sha256": "cebe2489774ea7e9f6b8220d0ca29dc5f69ed46b4e4558e9bc570eaa26c5b96c",
       "language": "zh"
     },
     {
@@ -264,19 +265,19 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "91a85cbfc230af05b3b0c60cc6df6962cc5a9ce1f0f087cd1316d358f3da9d58"
+      "sha256": "27d6344d0da8a95c5a29b37fc3560552674f3f1310f67db67076c35909834c16"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "fdaebf6bf63b20ad728fb079fc990a06082e8853a460ba81832d591fe7ea6e22"
+      "sha256": "df16d954208a04fcc72b6ff1b1618d591c6434a8842e8323974172723b9241a0"
     },
     {
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "e86c060581d005796934e4dfaa01a1badde7e46d3485c0edca95b01d8a5dc91f"
+      "sha256": "59590bf8692ddc0ce9b32bb363c144932851754d375420b3ca0ab42d302ac800"
     },
     {
       "path": "standard_matrix.json",
@@ -288,7 +289,7 @@
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "9e0d909952d541deb778afff9cf06b0f8467424f0b6c05f8d6960399bb0cb047",
+      "sha256": "f46ac94bc2081160d5873de51017086e812e20bf5736de462190874c1c9a7752",
       "language": "zh"
     },
     {
@@ -297,14 +298,12 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "0bd94906e62b2cff08b70396b8bd65eba39a2fec9441a3cc8a1ce0a30f8c5822"
+      "sha256": "693fc534fbe4dbf785af55d4613bce9ea557f9d15b94b41cd592f74b2e679249"
     }
   ],
   "validation_claim": {
     "self_checked": true,
-    "known_blockers": [
-      "Local valroot validators require repo_root/submissions/<github-login>/<proposal-slug>; this task-scoped package is outside that repository root and cannot be copied or linked without violating scope."
-    ],
+    "known_blockers": [],
     "data_confidence": "low",
     "readiness_contract": "persisted-self-check-v1"
   }

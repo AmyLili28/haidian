@@ -7,6 +7,8 @@
       "professional_dimension": "城市设计",
       "required": true,
       "status": "complete",
+      "claim_status": "limited",
+      "completeness_limited_by": ["official existing-condition inventory", "field verification", "official GIS/CAD"],
       "proposal_sections": [
         "设计依据与资料清单"
       ],
@@ -60,7 +62,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘现状诊断图与资料缺口’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "claim_status=limited：本项只提交 provisional 几何、公开资料清单和缺口登记，不声称完成现状调查；官方 GIS/CAD、现场核验和现状设施清单到位后才可补齐诊断。"
     },
     {
       "item_id": "three_level_scope_framework",
@@ -68,6 +70,7 @@
       "professional_dimension": "城市设计",
       "required": true,
       "status": "complete",
+      "claim_status": "concept",
       "proposal_sections": [
         "三层范围工作框架"
       ],
@@ -129,6 +132,7 @@
       "professional_dimension": "城市设计",
       "required": true,
       "status": "complete",
+      "claim_status": "concept",
       "proposal_sections": [
         "总体设计范围城市更新与控规深度城市设计"
       ],
@@ -182,7 +186,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "正文中的三大定位—五大功能—三区两翼矩阵逐项给出空间载体、运行机制、场景/指标和证据锚点；总体图与三节点图仅表达 provisional 概念结构。"
+      "evidence_summary_zh": "claim_status=concept：三大定位—五大功能—三区两翼只表达空间和运营概念结构；总体图与三节点图不是法定控规、红线或实施结论。"
     },
     {
       "item_id": "land_use_layout",
@@ -190,6 +194,8 @@
       "professional_dimension": "城市设计",
       "required": true,
       "status": "complete",
+      "claim_status": "limited",
+      "completeness_limited_by": ["official land-use controls", "parcel/ownership verification", "professional planning review"],
       "proposal_sections": [
         "用地、建筑规模与拆改留方案"
       ],
@@ -243,7 +249,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "用地布局以 land_use.geojson 的27个要素、6个现有代码和 EPSG:4548 统一聚合；六类占比合计100.0%，明确不把独立 green_space 覆盖层并入1401。"
+      "evidence_summary_zh": "claim_status=limited：仅对本包 land_use.geojson 的27个 provisional 要素按6个现有代码聚合；这不是现状或法定用地统计，控规兼容性和权属仍待官方资料与专业审查。"
     },
     {
       "item_id": "development_intensity_controls",
@@ -251,6 +257,8 @@
       "professional_dimension": "城市设计",
       "required": true,
       "status": "complete",
+      "claim_status": "pending",
+      "completeness_limited_by": ["official FAR/intensity controls", "parcel data", "planning approval"],
       "proposal_sections": [
         "指标体系、面积复算与合规矩阵"
       ],
@@ -304,7 +312,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘开发强度控制’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "claim_status=pending：本包不提供容积率、开发强度或容量结论；现有几何只用于概念关系和面积复算，官方控规、地块和审查意见缺失前不得作强度判断。"
     },
     {
       "item_id": "height_massing_character",
@@ -312,6 +320,8 @@
       "professional_dimension": "城市设计",
       "required": true,
       "status": "complete",
+      "claim_status": "pending",
+      "completeness_limited_by": ["official height/view-corridor controls", "heritage review", "professional urban-design review"],
       "proposal_sections": [
         "蓝绿空间、公共空间与城市风貌"
       ],
@@ -365,7 +375,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘高度体量风貌’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "claim_status=pending：只提出克制、可逆的风貌方向，不给出高度、体量、天际线或视廊结论；需官方控制条件、文保意见和专业复核后补齐。"
     },
     {
       "item_id": "retain_renovate_demolish",
@@ -373,6 +383,8 @@
       "professional_dimension": "城市设计",
       "required": true,
       "status": "complete",
+      "claim_status": "pending",
+      "completeness_limited_by": ["verified building condition", "heritage/safety review", "ownership and statutory process"],
       "proposal_sections": [
         "用地、建筑规模与拆改留方案"
       ],
@@ -426,7 +438,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘拆改留方案’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "claim_status=pending：留改拆只是一套概念决策顺序；本包没有建筑安全、产权、文保或拆改清单证据，不指向任何实际拆除或改造。"
     },
     {
       "item_id": "traffic_rail_slow_parking",
@@ -434,6 +446,8 @@
       "professional_dimension": "城市设计",
       "required": true,
       "status": "complete",
+      "claim_status": "pending",
+      "completeness_limited_by": ["official network and station data", "traffic/rail review", "event safety review"],
       "proposal_sections": [
         "交通、轨道、市政与公共服务设施"
       ],
@@ -487,7 +501,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘交通轨道慢行停车’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "claim_status=pending：交通与慢行仅为概念组织和接口建议；轨道衔接、道路红线、停车、容量和节事疏散须以官方网络资料及交通/安全专业审查为准。"
     },
     {
       "item_id": "municipal_new_infrastructure",
@@ -495,6 +509,8 @@
       "professional_dimension": "城市设计",
       "required": true,
       "status": "complete",
+      "claim_status": "pending",
+      "completeness_limited_by": ["utility capacity and underground records", "municipal/fire/accessibility review", "operator confirmation"],
       "proposal_sections": [
         "交通、轨道、市政与公共服务设施"
       ],
@@ -548,7 +564,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以正文、GeoJSON、可复算指标、图册与自检结果回应‘市政与新型基础设施’，provisional 边界与轨道保护区管控下的全部数值保留精度警示并在官方数据到位后复算。"
+      "evidence_summary_zh": "claim_status=pending：照明、排水、电力、通信、厕所、急救和无障碍设施只列接口，不声称现状容量、接入条件或工程可行；待市政、消防、无障碍和运营方复核。"
     },
     {
       "item_id": "blue_green_public_space",

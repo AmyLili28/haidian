@@ -229,6 +229,7 @@
     {
       "requirement_id": "1.4.2",
       "title_zh": "总体设计范围",
+      "claim_status": "concept",
       "mandatory": true,
       "report_sections": [
         "统筹研究范围产业与未来城市研究"
@@ -280,7 +281,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "统筹研究聚焦「产业与未来城市」：展示带与沿线科创片区、高校及国际化住区的协同关系判断（概念级）。"
+      "evidence_summary_zh": "claim_status=concept：统筹研究以区域协同接口矩阵定义输入、输出、触发、责任和证据等级；五个区域均为E0/待核，不代表已有合作、数据交换或招商关系。"
     },
     {
       "requirement_id": "1.4.3",
@@ -336,7 +337,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "总体设计以遗留绿带为骨架、模块化组件库为工具箱，以控规深度方法校核用地兼容与展示设施落位导则。"
+      "evidence_summary_zh": "claim_status=concept：总体设计以遗留绿带为骨架、模块化组件库为工具箱，提出控规接口核查清单，不宣称控规深度、用地兼容结论或设施落位已获批准。"
     },
     {
       "requirement_id": "1.5.1.1",
@@ -451,6 +452,7 @@
     {
       "requirement_id": "1.5.2.1",
       "title_zh": "总体设计范围：产业目标与功能布局",
+      "claim_status": "concept",
       "mandatory": true,
       "report_sections": [
         "AI 创新生态、人才画像与 AI+ 场景"
@@ -501,11 +503,13 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "八类画像覆盖居民家庭、儿童照护者、老年/低数字能力者、无障碍需求者、国际访客、研究者、从业者与公共贡献者；十张AI场景卡均禁止过度监控并保留人工复核。"
+      "evidence_summary_zh": "claim_status=concept：八类画像与十张AI场景卡为可审计设计协议，输入、输出、人工复核和退出条件均为试点前方案，不是现有运营或产业落地证明。"
     },
     {
       "requirement_id": "1.5.2.2",
       "title_zh": "总体设计范围：城市更新总体框架",
+      "claim_status": "pending",
+      "completeness_limited_by": ["verified building condition", "ownership and heritage records", "statutory renewal review"],
       "mandatory": true,
       "report_sections": [
         "用地、建筑规模与拆改留方案"
@@ -557,11 +561,13 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "留改拆并举：优先保留遗址绿带、历史价值站房与工业构筑物，改造低效厂房与园区建筑，拆除仅限个案论证的零星危旧建筑（概念口径）。"
+      "evidence_summary_zh": "claim_status=pending：留改拆只是一套概念决策顺序；本包没有建筑安全、产权、文保或拆改清单证据，不指向任何实际拆除、改造或现状判断。"
     },
     {
       "requirement_id": "1.5.2.3",
       "title_zh": "总体设计范围：交通轨道市政配套设施",
+      "claim_status": "pending",
+      "completeness_limited_by": ["official network and station data", "utility capacity records", "traffic/municipal/fire review"],
       "mandatory": true,
       "report_sections": [
         "交通、轨道、市政与公共服务设施"
@@ -613,11 +619,12 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "交通慢行优先的交通概念：绿带连续慢行轴贯通沿线节点，节事交通以轨道交通＋接驳为主，散场分时分区疏导、降低小汽车依赖。"
+      "evidence_summary_zh": "claim_status=pending：交通、轨道、道路红线、停车、市政容量和节事疏散仅列概念接口；须以官方网络/管线资料和交通、市政、消防、无障碍专业审查为准。"
     },
     {
       "requirement_id": "1.5.2.4",
       "title_zh": "总体设计范围：京张遗址公园活力带",
+      "claim_status": "concept",
       "mandatory": true,
       "report_sections": [
         "蓝绿空间、公共空间与城市风貌"
@@ -669,11 +676,13 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "「荣耀长廊—里程碑广场—贡献者花园」沿绿带连续开敞序列：展陈单元、装置广场与署名绿地按需切换为市集、讲堂与日常休闲空间。"
+      "evidence_summary_zh": "claim_status=concept：荣耀长廊—里程碑广场—贡献者花园是可逆公共空间组件和叙事序列，不声称遗址、公园权属、现状或建设许可。"
     },
     {
       "requirement_id": "1.5.2.5",
       "title_zh": "总体设计范围：城市风貌",
+      "claim_status": "pending",
+      "completeness_limited_by": ["official view-corridor and height controls", "heritage review", "professional urban-design review"],
       "mandatory": true,
       "report_sections": [
         "蓝绿空间、公共空间与城市风貌"
@@ -725,7 +734,7 @@
         "VISUAL_PACKAGING",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "风貌延续京张铁路工业记忆语汇（道钉、轨枕、信号与机车符号）、克制使用避免标语化包装、识别度高且不喧哗。"
+      "evidence_summary_zh": "claim_status=pending：仅提出克制使用铁路工业记忆语汇的风貌方向，不给出高度、体量、天际线或视廊结论；待官方控制条件、文保意见和专业复核。"
     },
     {
       "requirement_id": "1.5.3.required",
