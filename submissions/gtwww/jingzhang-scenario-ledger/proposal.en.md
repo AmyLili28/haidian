@@ -58,16 +58,32 @@ Haidian is short of neither AI companies, nor universities, nor policy statement
 
 ### 3.2 Six global cases: borrow the mechanism, not the form
 
-| Case | Mechanism | What we borrow | What we explicitly do not |
+| Case | Verifiable facts (date and source) | Mechanism borrowed | Explicitly not borrowed |
 | --- | --- | --- | --- |
-| Sidewalk Toronto (terminated) | Data governance and public trust failed; the project ended in 2020 | **The failure lesson**: scenario opening needs a public ledger and a resident veto first | A single company leading whole-district development |
-| Helsinki Kalasatama testbed | Agile piloting opens public space to company validation | The apply–trial–review standard process | Nordic low density and population scale |
-| Barcelona Superblocks and data sovereignty | Street change and data rights advance together | Spatial moves and data rules issued in one document | The grid-block geometric premise |
-| Singapore Punggol Digital District | Government and industry co-located; scenarios bound to industrial space | Validation and conversion space within walking distance | Wholly new reclaimed-land conditions |
-| London King's Cross | Public-space ownership and openness commitments in rail heritage renewal | Contractualised public accessibility of a heritage corridor | Its contested facial-recognition practice |
-| Zhongguancun incremental-renewal experience | Universities, firms and communities coexisting in existing fabric | Existing-stock retrofit first, no large-scale demolition | Reducing innovation to property leasing |
+| Sidewalk Toronto | In May 2020 the developer announced it would no longer pursue the 12-acre Quayside project; the stated public reason was that pandemic-driven economic uncertainty made the project hard to deliver financially without sacrificing core parts of the plan. The project was accompanied throughout by public controversy over data collection and surveillance [source:CASE-SIDEWALK-TORONTO] | Put data rules and liability boundaries into the same publicly reviewable document as development rights | A single company leading whole-district development |
+| Helsinki Kalasatama | Agile pilots coordinated by the city's own innovation unit: roughly EUR 8,000 cap per pilot, up to about six months of real-world testing, around 25 pilots in total [source:CASE-KALASATAMA] | A small-budget, time-boxed, repeatable pilot procurement process | Nordic density and population scale |
+| Barcelona Superilles and DECODE | The same city government advanced street-level spatial change from 2016 and separately participated in the EU DECODE citizen data-sovereignty project; the city describes data as part of public infrastructure [source:CASE-BARCELONA] | Spatial change and data rights advancing on the same level of government agenda | The grid-block geometric premise |
+| Singapore Punggol Digital District | About 50 hectares, Singapore's first enterprise district; the master developer swaps industry and academia space uses across plots and integrates the Singapore Institute of Technology campus [source:CASE-PUNGGOL] | Validation and conversion space within walking distance, with plot uses kept swappable | Wholly new development land conditions |
+| London King's Cross | In August 2019 media disclosed live facial recognition deployed across the 67-acre site; the UK Information Commissioner's Office opened an investigation, and in September 2019 the developer said it was pausing deployment [source:CASE-KINGS-CROSS] | **A negative lesson**: recognition technology in publicly accessible development must be disclosed and accountable before deployment, or it loses both regulator and public trust | Its facial recognition practice |
+| Beijing and Haidian incremental renewal | The Beijing Urban Renewal Action Plan (2021-2025) and the Haidian Urban Renewal Guidelines (2025 edition) establish a renewal path centred on existing stock, covering old factories, low-efficiency buildings and industrial parks [source:CASE-ZHONGGUANCUN-RENEWAL] | Retrofit-first renewal, connected to existing funding-support mechanisms | Reducing an innovation district to property leasing |
 
-Case information comes from public reporting and public research material; only **mechanism-level** lessons are cited, with no internal company data used. No investment figures, output values or company lists are asserted anywhere in this proposal. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+**Two causal claims this proposal deliberately does not make.** Sidewalk Toronto's stated termination reason was financial and pandemic-related, not a data-governance failure; the data controversy is a documented parallel fact, and this proposal does not assert a causal link between the two. What is borrowed is the judgement that *rules should be public before deployment*, not the claim that *data problems caused the project to fail*. King's Cross is cited solely for the 2019 facial-recognition episode and is not an assessment of that developer today.
+
+**Case sources and usage boundary.** All six sources are registered item by item in `sources.json` with publisher, title, publication or access date, stable link, the specific fact each supports, licence note and limitation. Media-reporting sources are marked `background_only`; institutional and government materials are marked `needs_review`. Until the repository source registry formally reviews them, **none may serve as evidence of official approval, performance, planning fact, or implementation basis for this project** — they support mechanism-level comparison only [source:SOURCE-REGISTRY].
+
+### 3.4 Regional Innovation Synergy: Five Counterparts, Two-Way Flows, Ledger Interfaces
+
+Regional synergy does not stop at the two wings. The table lists five counterparts, the two-way resource flows, and where each attaches to the ledger. **Every relationship below is a conceptual suggestion and represents no established cooperation, confirmed mechanism, or inter-governmental arrangement** [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+| Counterpart | Flows into the belt | Flows out of the belt | Ledger interface (conceptual) |
+| --- | --- | --- | --- |
+| Beiwei Community | Everyday service demand, real community-side users | Validated community-scale AI service modules and their exit records | Registers as a "neighbouring applicant", sharing the registry hall's posting and objection process |
+| Future Science City | Engineering-validation demand in energy, materials and similar fields | Validation methods and acceptance standards produced here | Mutual recognition of validation report formats, so one scenario need not prove itself twice |
+| Huairou Science City | Long-cycle research demand from large scientific facilities | City-scale real-operation methods, excluding individual identity | Applies as a research institution for long-cycle parcels, under longer terms and stricter ethics review |
+| Beijing E-Town | Volume production and pilot-line capability, low-speed vehicle industrialisation | Validated scenarios ready for production | The exit house hands over to its industrialisation intake; the destination is written into the archived entry |
+| Beijing-Tianjin-Hebei | Cross-regional application scenarios and demand for scale trials | The ledger institution template itself | Ledger format and acceptance standards published openly for other regions to adopt |
+
+The purpose of this table is not to announce cooperation but to state **where the interfaces are** when the mechanism extends outward: every external link runs through the existing register-validate-exit loop rather than opening a new channel. Whether any of it is established, who authorises it, and in what form, must be confirmed by the competent authorities and each counterpart.
 
 ### 3.3 Innovation ecosystem: eight resources, each with a deliverable object
 
@@ -129,22 +145,41 @@ FAR, building height, density and setback are given **no values**. They stay pen
 
 ### 5.2 Twelve scenario cards
 
-Each card carries: host parcel, type of responsible body, non-digital equivalent path, human review point, exit condition. **All scenarios are conceptual suggestions and do not represent approved operations.**
+Scenario cards use one eight-field structure: host parcel or space type, applicant and responsible body type, input and output, human review point, non-digital equivalent path, data minimisation and retention rule, stop or exit trigger, and acceptance indicator. It is split into two tables for readability; the same number maps across both. **All scenarios are conceptual suggestions and do not represent approved operations; body types are role categories and name no supplier.**
 
-| No. | Scenario | Suggested location | Human review and exit condition |
-| --- | --- | --- | --- |
-| S01 | Accessible wayfinding on the heritage walk (voice plus physical signage) | Spine K03–K08 | Offline once error rate exceeds threshold; physical signage always backs it up |
-| S02 | Low-speed delivery robot right-of-way trial | East slope K10–K13 | Limited hours and segments; any personal-injury event stops the whole line |
-| S03 | Community health service navigation (no diagnosis) | AI Origin Community | Booking and routing only, no medical conclusion, staffed counter retained |
-| S04 | After-the-fact operational review (not live monitoring) | Whole spine | Retrospective only, no live recognition, no individual profiling |
-| S05 | Enterprise service copilot (policy search and pre-check) | Zhongzhiyuan | Output is a draft; a person still signs |
-| S06 | Jing-Zhang cultural guide (facts vetted by people) | Whole spine | Historical content requires expert review before going live |
-| S07 | Adaptive night lighting | 8 node segments | Baseline lighting stays outside algorithmic control; one-touch return to fixed mode |
-| S08 | Open compute and test environment booking | Validation workshop | Application-based, non-exclusive, released after use |
-| S09 | Accessibility facility repair and work-order loop | Whole area | Phone and paper work orders are equally valid |
-| S10 | Heritage structure inspection assistance | Spine structures | Alerts only, no structural safety conclusion |
-| S11 | Micro-retail siting assistance | East slope | Reference only, never a basis for approval |
-| S12 | Public query and objection filing on the ledger itself | 8 nodes and online | Objections require a named reply within a time limit |
+**Table A — Scenario, space and responsibility**
+
+| No. | Scenario | Host parcel / space type | Applicant and responsible body type | Input → Output |
+| --- | --- | --- | --- | --- |
+| S01 | Accessible wayfinding on the heritage walk | Spine K03–K08 park segments | Public service operator with an accessibility organisation | Public network and facility status → voice and physical signage dual channel |
+| S02 | Low-speed delivery robot right-of-way trial | East slope K10–K13 commercial parcels | Company applicant, operator jointly liable | Bounded time-space conditions → delivery paths and safety event records |
+| S03 | Community health service navigation | AI Origin Community service parcels | Local medical institution | Public booking and department data → booking guidance and routing, no diagnosis |
+| S04 | After-the-fact operational review | Whole spine (audit line) | Public space operator | Aggregated retrospective records → periodic operations review report |
+| S05 | Enterprise service copilot | Zhongzhiyuan research parcels | Government service intake body | Public policy texts and filings → search results and pre-check drafts |
+| S06 | Jing-Zhang cultural guide | Whole spine and square nodes | Cultural operator with a historical review body | Vetted historical text → layered guide content |
+| S07 | Adaptive night lighting | 8 civic square node segments | Municipal facility operator | Anonymous density and illuminance readings → lighting level suggestions |
+| S08 | Open compute and test environment booking | Zhongzhiyuan validation workshop | Ledger operator, open to all applicants | Capacity and queue → time-slot allocation |
+| S09 | Accessibility repair and work-order loop | Whole area including staffed counters | Facility maintenance body | Multi-channel repair reports → work orders and response-time records |
+| S10 | Heritage structure inspection assistance | Spine structures | Heritage protection authority | Inspection imagery and human records → anomaly alerts, no structural conclusion |
+| S11 | Micro-retail siting assistance | East slope commercial parcels | Commercial operator | Public business and footfall distribution → advisory siting reference |
+| S12 | Public ledger query and objection filing | 8 nodes, online, and paper counters | Ledger operator | Entry status and postings → query results and objection receipts |
+
+**Table B — Review, data, exit and acceptance**
+
+| No. | Human review point | Non-digital equivalent | Data minimisation and retention | Stop / exit trigger | Acceptance indicator |
+| --- | --- | --- | --- | --- | --- |
+| S01 | Content and routes signed off by an accessibility officer | Physical signage and tactile paving suffice alone | No identity captured; anonymous path counts, retention ≤90 days | Error rate over threshold, or signage failure | Completion and error rate with real visually impaired and older participants |
+| S02 | A named steward per shift who can take over instantly | Pedestrian and cycle passage unaffected | Path and event logs only; no individual features retained | Any personal-injury event stops the whole line | Zero safety events and reproducible yielding behaviour |
+| S03 | Clinical staff can override every guidance result | Human triage desk and phone booking are equivalent | No health data retained; anonymous session counts only | Any medical-sounding statement appears | Guidance accuracy, and the staffed counter not displaced |
+| S04 | Report signed by the operations lead before release | Paper patrol and log books run in parallel | Aggregates only, no individual tracks; raw records ≤30 days | Any output that identifies an individual | Reproducible review with no individual inferable |
+| S05 | A person still signs; drafts carry no legal effect | Counter service and paper filing equally accepted | Filings never enter model training; sessions ≤30 days | Drafts treated as an intake decision | First-pass filing rate, with human sign-off kept at 100% |
+| S06 | Historical content vetted before publication | Physical interpretation boards and printed guides | No visitor identity; anonymous view counts | Any unvetted historical statement | 100% vetting coverage and a public correction loop |
+| S07 | Baseline lighting set by people and not algorithm-overridable | A physical switch restoring fixed mode | Anonymous density values only, no imagery, ≤7 days | Illuminance below baseline, or switch failure | 100% baseline illuminance compliance |
+| S08 | Allocation appealable and re-reviewed by the operator | Counter and phone booking are equivalent | Application and occupancy records only | Exclusive holding or non-release | Turnover rate and appeal response time |
+| S09 | Overdue orders escalate to a named owner | Phone and paper orders fully equivalent | Location and status only | Closure rate below the agreed level | Closure rate and mean handling time |
+| S10 | Every alert read by heritage professionals | Routine human inspection is not reduced | Imagery of structures only, ≤180 days | Alerts cited as a safety conclusion | Alert precision, with human inspection not displaced |
+| S11 | Output marked advisory and barred from approvals | Public data can be consulted directly | Public statistics only; no merchant business data | Cited as an approval or entry basis | User awareness rate and zero misuse |
+| S12 | Every objection answered by a named person, on the clock | Paper filing and on-site registration equivalent | Filer details used only to reply, then de-identified | Any objection past its deadline | On-time objection reply rate and archive completeness |
 
 **Privacy and human-review boundary (applies to every card)**: no live facial recognition or individual profiling; no face scan, registration or app install as a precondition for using public space; every scenario must have an equivalent path completable without a digital device; every scenario must have a named human reviewer and a working stop switch. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
 
@@ -224,12 +259,62 @@ Wayfinding direction: a unified format of parcel id, status and query entry, bil
 
 ### 7.5 Event system and long-term operation (agent.6)
 
-- **Annual Ledger Open Day**: publish every entry added, under validation, and exited this year, and take public questions.
+Events are only the ledger's public interface; the substance of operation is the continuous updating of entry status. If events stop, the ledger still stands; if the ledger stops updating, events are only scenery. So the operating rules come first here, the events second.
+
+**⚠️ Every role, deadline, gate and indicator below is a conceptual operating suggestion. Intake-body eligibility, stop authority, liability relief, funding and staffing all require authorisation by the competent authorities. Nothing here constitutes a settled government arrangement, funding commitment or allocation of duties.**
+
+**RACI across seven stages (R execute / A accountable / C consulted / I informed)**
+
+| Stage | Applicant | Ledger operator | Community and public | Technical review | Competent authority | Third-party audit |
+| --- | --- | --- | --- | --- | --- | --- |
+| Intake | R | A | I | C | I | — |
+| Public posting | I | R/A | C | I | I | I |
+| Objection reply | C | R | R (raises) | C | A | I |
+| Technical review | C | C | I | R | A | I |
+| Stop | I | R | C (may initiate) | C | A | I |
+| Archive | C | R/A | I | C | I | C |
+| Conversion | R | C | I | C | A | I |
+
+The public is R rather than I on objections: objections are raised by the public and must be answered. That is a design premise of this mechanism, not a consultation step.
+
+**Suggested service deadlines and stage gates**
+
+| Stage | Suggested deadline | Stage gate (no passage without it) |
+| --- | --- | --- |
+| Intake | Accept or return for correction within 10 working days | Responsible body, target parcel, term, exit condition and reviewer all present |
+| Public posting | Posted on wall and online within 5 working days; posting period at least 15 days | Posting includes the non-digital path and the data rule |
+| Objection reply | Named reply within 10 working days of receipt | No trial may begin while an objection is unanswered |
+| Technical review | Report within 20 working days of trial end | Report is reproducible and intelligible to non-specialists |
+| Stop | Immediate on trigger; reason posted within 48 hours | Stop is recorded in the entry; no quiet restart |
+| Archive | Public archive within 15 working days of exit | Failures state the reason; "ended" alone is not accepted |
+| Conversion | Applied for separately; never an automatic continuation of a trial | Conversion re-enters intake and posting |
+
+**Suggested indicators (KPI)**
+
+| Indicator | Definition | Why measure it |
+| --- | --- | --- |
+| On-time objection reply rate | Named replies on time ÷ total objections | Whether the public can actually constrain a scenario is the floor this mechanism stands on |
+| Archive completeness | Archives stating a reason ÷ total exits | A list reporting only successes carries no information |
+| Non-digital path availability | Audited scenarios completable without a device ÷ total scenarios | Prevents public service being gated behind a digital threshold |
+| Parcel turnover | Parcels completing enter-and-exit in the period ÷ total parcels | The ledger's value is that things can leave, not that it is full |
+| Stop response time | Median time from trigger to actual stop | A mechanism that cannot stop is not under control |
+| Conversion retention | Conversions still running after one year ÷ total conversions | Separates real business from one-off demonstrations |
+
+**Rollback rules**
+
+- Once a scenario is stopped, its parcel returns to claimable status, and the same applicant may not re-apply for the same scenario for six months.
+- If on-time objection reply falls below the agreed level for two consecutive batches, new intake pauses until the process is repaired.
+- If the ledger system itself is unavailable, intake and objections fall back to paper counters with deadlines unchanged — **the mechanism's availability does not depend on its information system**.
+- The competent authority may halt any scenario at any time without giving a technical reason, but must post that decision.
+
+**Annual event system**
+
+- **Ledger Open Day**: publish every entry added, under validation and exited this year, and take public questions.
 - **Scenario Opening Season**: open a batch of parcels for application on a predictable rhythm.
 - **Validation Results Release**: publish only reproducible results, including failures.
-- **Developer and Agent contributor mechanism**: contributions are recorded, citable and traceable to specific entries.
+- **Developer and Agent contributor mechanism**: contributions recorded, citable, traceable to specific entries.
 
-The core of operation is not event count but **continuous updating of entry status**. If events stop, the ledger still stands; if the ledger stops updating, events are only scenery. All of the above are conceptual suggestions and do not represent settled government arrangements, budgets or investment commitments.
+Funding, host and frequency for these events are likewise unconfirmed and constitute no settled arrangement.
 
 ## 8. Transport, Rail, Municipal Infrastructure, and Public Services
 
