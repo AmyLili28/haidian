@@ -6,7 +6,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "以京张遗址公园为公共脊，把城市问题转成可证伪、可复测、可退出的科学与公共行动。"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
-version: "v1.4"
+version: "v1.5"
 tracks: ["civic-agent-governance", "jingzhang-heritage-narrative", "ai-public-services"]
 scenarios: ["ai-traffic-walkability","robot-delivery-low-speed","ai-health-service-navigation","ai-cultural-guide","public-safety-operations-review"]
 translation_file: "proposal.en.md"
@@ -15,7 +15,7 @@ translation_file: "proposal.en.md"
 # 京张·发现线
 
 > 城市出题，AI 来应考。
-
+**如何阅读本方案。** 本文按可用时间提供三档阅读路线。30 秒，先看做什么、在哪里、停了怎么办：读“先看结论”。3 分钟，再看一天的使用、三个区域和十个场景：加读“90秒开场”和“公众版摘要：给你一分钟看懂六道门与五本账”。15 分钟，细看 AI 的边界、失败恢复和证据状态：再加“重点区域详细设计”“指标体系、面积复算与合规矩阵”和“官方征集任务逐项应答索引”。网页版把同一条三档路线放在首页“三档阅读入口”。
 
 > 公众否决之后，方案仍有完整去路：立即停止、恢复原状，并由人接手决定下一步。
 
@@ -555,7 +555,7 @@ agent.6 以现有四季循环作为运行时钟：城市出题季收问题，校
 |---|---|---|
 | 分期安排在第几节？ | “更新项目清单、实施政策与分期计划”第 365—367 行；`geometry/phasing.geojson`；四步只表达条件先后，M01 的 30—90 天不是审批、施工或建设工期。 | 概念级回答 |
 | 实施主体与分工在第几节？ | “更新项目清单、实施政策与分期计划”第 369 行和 `agent.6｜长期运营交接矩阵`第 371—395 行；当前主体为 UNKNOWN，表内角色与频次均为建议、非授权；接续条件见 `UNKNOWN-IMPLEMENTATION-ENTITY-TIME`。 | UNKNOWN＋接续条件 |
-| 六道门在哪？ | “更新项目清单、实施政策与分期计划”第 343—353 行给出六门、独立核验分工和签认格式；网页六道门表位于 `visual/index.html:3810`。 | 已回答 |
+| 六道门在哪？ | “更新项目清单、实施政策与分期计划”第 343—353 行给出六门、独立核验分工和签认格式；网页六道门表位于 `visual/index.html:3845`。 | 已回答 |
 | 停止与恢复在哪？ | 指标章四格第 405—407 行登记失败条件、停止动作及恢复／人工接手；风险章第 503 行登记立即停止或退回非 AI 方案的条件；M01 恢复费用仍为 UNKNOWN。 | 概念级回答 |
 | 触发条件在哪？ | `assumptions.json` 的 12 条 `required_stage=implementation_start` 项逐条登记 `blocks` 与 `recalculation_trigger`；正文 D01—D06、M01-1—M01-7 依赖表登记前置条件和补齐后可推进深度。 | 已回答 |
 | 预算算式与核验安排在哪？ | `project_budget` 登记“项目级范围×可追溯单价×全生命周期与恢复成本”的 UNKNOWN 公式；第五道门登记独立预算／采购／法务／土地／利益冲突复核角色与“核验人姓氏＋工号＋日期”签认格式；D05 与 M01-6 保留资产、运营、撤除、恢复和费用来源接续条件。 | UNKNOWN＋接续条件 |

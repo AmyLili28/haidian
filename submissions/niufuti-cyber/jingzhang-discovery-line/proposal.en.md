@@ -7,7 +7,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Using Jing-Zhang Railway Heritage Park as a public spine, this proposal turns urban questions into scientific and civic action that can be falsified, retested, and exited."
 proposal_format_version: "2"
 bilingual_contract_version: "1"
-version: "v1.4"
+version: "v1.5"
 tracks: ["civic-agent-governance", "jingzhang-heritage-narrative", "ai-public-services"]
   # Desktop simulation | Not a field test | Does not represent a real project event
 ---
@@ -15,7 +15,7 @@ tracks: ["civic-agent-governance", "jingzhang-heritage-narrative", "ai-public-se
 # Jing-Zhang · Discovery Line
 
 > The city sets the questions; AI takes the test.
-
+**How to read this proposal.** The text offers three reading routes by available time. 30 seconds, what it does, where it applies, and how it stops: read “Key Conclusions.” 3 minutes, daily use, three areas, and ten scenarios: add “90-Second Opening” and “Public Summary: The One-Minute Guide to the Six Gates and Five Ledgers.” 15 minutes, AI boundaries, failure recovery, and evidence status: add “Detailed Design of Key Areas,” “Metrics, Area Recalculation, and Compliance Matrix,” and “Official Open Call Task-by-Task Response Index.” The web version puts the same three routes on its home page under “Three-Tier Reading Routes.”
 
 > After the public says no, the proposal still has a complete path: stop at once, restore the prior state, and hand the next decision to people.
 
@@ -555,7 +555,7 @@ This table is only an index of implementability response locations and gaps and 
 |---|---|---|
 | Where is phasing addressed? | “Renewal Projects, Implementation Policy, and Phasing,” lines 365–367; `geometry/phasing.geojson`; the four steps express only a sequence of conditions, and M01's 30-to-90-day period is not an approval, construction, or building schedule. | Concept-level answer |
 | Where are the implementing entity and division of work addressed? | “Renewal Projects, Implementation Policy, and Phasing,” line 369, and `agent.6 \| Long-Term Operations Handover Matrix`, lines 371–395; the current entity is UNKNOWN, and the listed roles and cadences are proposed and unauthorized; the continuation condition is in `UNKNOWN-IMPLEMENTATION-ENTITY-TIME`. | UNKNOWN + continuation condition |
-| Where are the six gates? | “Renewal Projects, Implementation Policy, and Phasing,” lines 343–353, gives all six gates, independent-verification roles, and sign-off formats; the web six-gate table is at `visual/index.en.html:3815`. | Answered |
+| Where are the six gates? | “Renewal Projects, Implementation Policy, and Phasing,” lines 343–353, gives all six gates, independent-verification roles, and sign-off formats; the web six-gate table is at `visual/index.en.html:3850`. | Answered |
 | Where are stopping and restoration addressed? | The four-cell entry in the metrics chapter, lines 405–407, records failure conditions, stop action, and restoration / human takeover; the risk chapter, line 503, records conditions for immediate stopping or return to the non-AI option; M01 restoration cost remains UNKNOWN. | Concept-level answer |
 | Where are trigger conditions recorded? | The 12 `required_stage=implementation_start` entries in `assumptions.json` each record `blocks` and a `recalculation_trigger`; the D01–D06 and M01-1–M01-7 dependency table records prerequisites and the depth available after completion. | Answered |
 | Where are the budget formula and verification arrangement? | `project_budget` records the UNKNOWN formula “project-level scope × traceable unit rates × lifecycle and recovery costs”; Gate Five records independent budget, procurement, legal, land, or conflict-of-interest review roles and the sign-off format “verifier surname + employee ID + date”; D05 and M01-6 retain continuation conditions for assets, operations, removal, restoration, and funding source. | UNKNOWN + continuation condition |
