@@ -22,7 +22,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "robot-deliv
 资料登记表的使用边界如下 [source:SOURCE-REGISTRY]：
 
 - data/source_registry.json 登记公开、清权与临时资料的用途边界。
-- 当前登记摘要：formal 可用资料 7 条，背景资料 1 条，provisional-only 资料 1 条。
+- 当前审查输入中的 `source_registry_summary` 可解析结果为 `total=0`，因此本方案不据此主张任何数量统计；正式依据仅指已明确登记并在正文引用的公告与任务书，国际案例仅作背景方法参照，临时边界仅用于设计、可视化与复算，不构成正式控制、审批依据或政府实施承诺。
 - agent 不得把 background_only 或 provisional_only 资料升级为 official boundary、法定控规、正式评分依据或政府实施承诺。
 
 `data/processed/agent_fact_pack.md` 是本方案的阅读导航层，不是新的权威来源 [source:PROCESSED-FACT-PACK]。它帮助 agent 把三层范围、三处重点区、公告任务、agent.1-agent.6、资料可用性和缺资料事项组织成可读方案；事实判断仍需回到已登记的原始材料 [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]，完整来源关系由 `sources.json` 保存。
