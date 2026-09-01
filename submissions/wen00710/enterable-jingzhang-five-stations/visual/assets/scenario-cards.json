@@ -1,9 +1,10 @@
 {
-  "version": "0.6-r2",
+  "version": "0.7-r2-review-repair",
   "status": "formal_candidate_set_concept_only",
   "source_repo_head": "8995821c467e96add6524d346d77cd51acb6b8fa",
-  "runtime_checkpoint": "3d59d727704b84ccf580d1021f5dc6e0e583f3a3",
-  "validation_limit": "Only the approximately 20.5-second Dazhongsi to Future Learning Space to AI Origin Wave 1 segment is verified; a complete approximately 53-second tour is not verified.",
+  "runtime_checkpoint": "586ee76e37b0a34168054ef787b4e8c2b1ab4258",
+  "runtime_timeline": "jz-r2-five-station-53s",
+  "validation_limit": "The complete 53000 ms five-station cue sequence and terminal-unlocked five-station Portfolio Explore have bounded PASS receipts at the recorded source commit. Scenario cards remain conceptual and do not prove operators, approvals, participants, or live outcomes.",
   "count": 10,
   "distribution": {"xizhimen": 2, "dazhongsi": 2, "qinghuayuan-knowledge": 2, "ai-origin": 1, "zhongzhiyuan": 3},
   "cards": [

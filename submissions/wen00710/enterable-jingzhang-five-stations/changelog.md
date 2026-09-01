@@ -1,5 +1,14 @@
 # 方案迭代记录 / Changelog
 
+## v0.4 - 2026-09-01
+
+- Integrated formal content-repair commit `0cc5800687dbcf4669824dc5c4690cded25bdd4d` and runtime source commit `586ee76e37b0a34168054ef787b4e8c2b1ab4258` into the existing PR branch through an isolated integration worktree.
+- Updated the bilingual proposal, metrics, assumptions, matrices, source records, visual package, and runtime boundaries from the historical 20.5-second Wave 1 baseline to the receipt-backed complete 53-second tour and five-station Portfolio Explore bounded PASS.
+- Added the 54.000-second H.264 review video, contact sheet, bilingual WebVTT captions and transcripts, browser/video receipts, and their SHA-256 provenance to the formal package after confirming the official 20 MB per-video and 40 MB total-change limits.
+- Derived OFL-1.1 glyph subsets from Source Han Sans CN 2.005R, renamed the modified binaries `JZ Offline CJK` under the Reserved Font Name condition, and retained source/version/license, rename/subset commands, glyph coverage, and hashes in machine-readable metadata.
+- Superseded the historical v0.2 mechanism labels with the sole current canonical contract: M1 `EVIDENCE_LINEAGE`, M2 `OPEN_COLLABORATION`, M3 `HUMAN_SERVICE_GATE`, and M4 `CONTROLLED_VALIDATION_RETURN`; the v0.2 labels below remain versioned history only.
+- Rebuilt bilingual report HTML, formal visual, five core figure pairs, bilingual A3/A0 outputs, screenshot evidence, package inventory, and official gate receipts. External implementation triggers remain UNKNOWN / EXTERNAL_DEPENDENCY / NOT CLAIMED rather than participant blockers.
+
 ## v0.3 - 2026-08-31
 
 - Expanded the bilingual proposal with the project-original wordmark/route identity, six officially sourced global ecosystem comparisons, and four conceptual pilgrimage/landmark nodes.

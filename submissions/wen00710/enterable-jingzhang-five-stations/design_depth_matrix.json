@@ -38,7 +38,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -50,6 +51,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -68,12 +70,11 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "现状诊断图与资料缺口 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "现状诊断图与资料缺口 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或真实运营；53 秒导览 PASS 仅限所列 commit 与矩阵。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
         "institutional authorization and real operations are unavailable"
       ]
     },
@@ -114,7 +115,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -126,6 +128,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -144,12 +147,11 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "三层范围工作框架 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "三层范围工作框架 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或真实运营；53 秒导览 PASS 仅限所列 commit 与矩阵。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
         "institutional authorization and real operations are unavailable"
       ]
     },
@@ -163,11 +165,26 @@
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "风险、版权与合规说明",
+        "任务书总对照矩阵",
+        "Taskbook Master Crosswalk",
+        "非承诺式区域协同接口",
+        "Non-Commitment Regional Interfaces",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "东西缝合与南北贯通概念网络",
+        "East–West Stitching and North–South Continuity Concept Networks",
+        "assets/figures/taskbook-crosswalk.svg",
+        "proposal.md",
+        "design_depth_matrix.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/taskbook-crosswalk.svg",
+        "assets/figures/taskbook-crosswalk.en.svg",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assets/figures/eight-resource-ecosystem.en.svg"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
@@ -190,7 +207,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -202,16 +220,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -220,13 +242,13 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "总体空间结构 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "总体空间结构已由双语任务书总对照、三区两翼／五站／canonical M1—M4、区域概念接口、正式 32-cell 八资源图和东西／南北概念网络交叉定位，并指向正式 proposal、结构化登记、三矩阵与四张中英 SVG。status=complete 仅表示当前概念内容链可审查；official boundary、权属、工程与真实运营仍为 UNKNOWN / NOT CLAIMED。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
-        "institutional authorization and real operations are unavailable"
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
+        "institutional authorization and real operations are unavailable",
+        "external-dependency triggers remain unknown and do not constitute satisfied implementation gates"
       ]
     },
     {
@@ -266,7 +288,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -278,6 +301,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -296,12 +320,11 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "用地布局 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "用地布局 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或真实运营；53 秒导览 PASS 仅限所列 commit 与矩阵。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
         "institutional authorization and real operations are unavailable"
       ]
     },
@@ -342,7 +365,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -354,6 +378,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -372,12 +397,11 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "开发强度或待确认控规条件 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "开发强度或待确认控规条件 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或真实运营；53 秒导览 PASS 仅限所列 commit 与矩阵。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
         "institutional authorization and real operations are unavailable"
       ]
     },
@@ -418,7 +442,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -430,6 +455,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -448,12 +474,11 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "建筑高度、体量与风貌控制 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "建筑高度、体量与风貌控制 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或真实运营；53 秒导览 PASS 仅限所列 commit 与矩阵。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
         "institutional authorization and real operations are unavailable"
       ]
     },
@@ -494,7 +519,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -506,6 +532,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -524,12 +551,11 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "建筑拆改留分类 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "建筑拆改留分类 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或真实运营；53 秒导览 PASS 仅限所列 commit 与矩阵。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
         "institutional authorization and real operations are unavailable"
       ]
     },
@@ -570,7 +596,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -582,6 +609,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -600,12 +628,11 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "道路、轨道、慢行与停车组织 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "道路、轨道、慢行与停车组织 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或真实运营；53 秒导览 PASS 仅限所列 commit 与矩阵。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
         "institutional authorization and real operations are unavailable"
       ]
     },
@@ -619,11 +646,27 @@
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "风险、版权与合规说明",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "进入、开放、维护与有限转化",
+        "Entry, Access, Maintenance, and Limited Conversion",
+        "暂停、事件响应与指标定义",
+        "Pause, Incident Response, and Metric Definitions",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assets/figures/eight-resource-ecosystem.en.svg"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
@@ -646,7 +689,13 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count",
+        "public_result_publication_ratio",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -658,16 +707,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -676,13 +729,13 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "市政与新型基础设施策略 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "市政与新型基础设施策略现定位到八资源矩阵中的算力／数据边界、AI/HUMAN/OFFLINE 服务模块、可逆设施、人工停止与恢复、运营维护和事件响应。新增五项相关运营指标均为定义型 unknown，市政容量、消防、供电、通信、SLA、真实机房和维护主体仍由外部触发表保持 UNKNOWN / EXTERNAL_DEPENDENCY / NOT CLAIMED；complete 不表示容量测算或工程通过。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
-        "institutional authorization and real operations are unavailable"
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
+        "institutional authorization and real operations are unavailable",
+        "municipal capacity, fire review, operating body, and maintenance service levels remain external dependencies"
       ]
     },
     {
@@ -695,7 +748,20 @@
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "风险、版权与合规说明",
+        "东西缝合与南北贯通概念网络",
+        "East–West Stitching and North–South Continuity Concept Networks",
+        "四个公共地标",
+        "Four Public Landmarks",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "进入、开放、维护与有限转化",
+        "Entry, Access, Maintenance, and Limited Conversion",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -722,7 +788,10 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "ordinary_use_restored_pilot_count",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -734,16 +803,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -752,13 +825,13 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "蓝绿系统与公共空间 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "蓝绿系统与公共空间现通过东西／南北概念网络、四个地标、八项可逆组件和普通用途恢复合同定位公共路径、休息、学习、服务、停止与退出。相关 restoration count 和 maintenance response time 仅定义计算方法且为 unknown；法定绿地／蓝线、公共权属、实测无障碍、文保、消防和维护主体仍未获得，complete 不表示工程连续、已建成或运营绩效。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
-        "institutional authorization and real operations are unavailable"
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
+        "institutional authorization and real operations are unavailable",
+        "public-space rights, surveyed accessibility, heritage review, fire review, and maintenance body remain external dependencies"
       ]
     },
     {
@@ -798,7 +871,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -810,6 +884,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -828,12 +903,11 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "三大重点片区详细设计 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "三大重点片区详细设计 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或真实运营；53 秒导览 PASS 仅限所列 commit 与矩阵。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
         "institutional authorization and real operations are unavailable"
       ]
     },
@@ -847,7 +921,20 @@
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "风险、版权与合规说明",
+        "东西缝合与南北贯通概念网络",
+        "East–West Stitching and North–South Continuity Concept Networks",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "京张开放验证周与年度运营闭环",
+        "Jing-Zhang Open Validation Week and Annual Operations Loop",
+        "进入、开放、维护与有限转化",
+        "Entry, Access, Maintenance, and Limited Conversion",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -874,7 +961,11 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "ordinary_use_restored_pilot_count",
+        "public_result_publication_ratio",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -886,16 +977,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -904,13 +999,13 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "更新项目清单 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "更新项目清单现定位到可逆公共空间组件、AI 关闭后的普通用途、年度运营闭环、停止／停办、事件响应和外部触发条件。普通用途恢复、公开结果和维护响应三项指标均为未来定义型 unknown；清单仍是概念建议，不是立项、采购、施工、预算、运营或批准承诺，complete 只表示当前内容层形成可审查清单。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
-        "institutional authorization and real operations are unavailable"
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
+        "institutional authorization and real operations are unavailable",
+        "budget, insurance, procurement, operating body, and pilot approval remain external dependencies"
       ]
     },
     {
@@ -923,7 +1018,17 @@
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "风险、版权与合规说明",
+        "京张开放验证周与年度运营闭环",
+        "Jing-Zhang Open Validation Week and Annual Operations Loop",
+        "进入、开放、维护与有限转化",
+        "Entry, Access, Maintenance, and Limited Conversion",
+        "暂停、事件响应与指标定义",
+        "Pause, Incident Response, and Metric Definitions",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -950,7 +1055,15 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "valid_public_problem_count",
+        "independent_reproduction_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count",
+        "public_result_publication_ratio",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -962,16 +1075,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -980,13 +1097,13 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "分期实施计划 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "分期实施现由 Phase 0 普通公共底座、现有受限样板、未来触发后的专业深化，以及京张开放验证周 Q1—Q4 年度节奏共同定位。七项运营指标均为 unknown 的未来计算定义，不能作为业绩或启动条件已满足的证明；A-EXTERNAL-TRIGGERS-001 保留每个未来 gate，complete 不表示预算、保险、DPIA、运营主体或试点批准已经到位。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
-        "institutional authorization and real operations are unavailable"
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
+        "institutional authorization and real operations are unavailable",
+        "all future implementation and operating gates remain external dependencies until separately triggered and reviewed"
       ]
     },
     {
@@ -999,7 +1116,13 @@
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "风险、版权与合规说明",
+        "暂停、事件响应与指标定义",
+        "Pause, Incident Response, and Metric Definitions",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -1026,7 +1149,15 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "valid_public_problem_count",
+        "independent_reproduction_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count",
+        "public_result_publication_ratio",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1038,16 +1169,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1056,13 +1191,13 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "指标复算 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "指标复算除既有几何／运行时边界外，新增有效公共问题数、独立复现比例、人工接管可达率、离线服务可用率、退出并恢复普通用途试点数、公开结果发布率和维护响应时间七项双语定义及公式。七项当前均为 status=unknown、value=null，不存在真实分母、报告期、运营主体或业绩；complete 只表示定义可审查，不表示数值已测得或绩效 PASS。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
-        "institutional authorization and real operations are unavailable"
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
+        "institutional authorization and real operations are unavailable",
+        "the seven operating metrics have no real cohort, denominator, reporting period, operator, or measured values"
       ]
     },
     {
@@ -1075,11 +1210,36 @@
         "三层范围工作框架",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计",
-        "风险、版权与合规说明"
+        "风险、版权与合规说明",
+        "任务书总对照矩阵",
+        "Taskbook Master Crosswalk",
+        "非承诺式区域协同接口",
+        "Non-Commitment Regional Interfaces",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "东西缝合与南北贯通概念网络",
+        "East–West Stitching and North–South Continuity Concept Networks",
+        "京张开放验证周与年度运营闭环",
+        "Jing-Zhang Open Validation Week and Annual Operations Loop",
+        "暂停、事件响应与指标定义",
+        "Pause, Incident Response, and Metric Definitions",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "sources.json",
+        "assets/figures/taskbook-crosswalk.svg",
+        "proposal.md",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/taskbook-crosswalk.svg",
+        "assets/figures/taskbook-crosswalk.en.svg",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assets/figures/eight-resource-ecosystem.en.svg"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
@@ -1102,7 +1262,15 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "valid_public_problem_count",
+        "independent_reproduction_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count",
+        "public_result_publication_ratio",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1114,16 +1282,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1132,13 +1304,14 @@
         "VISUAL_STATIC",
         "R1_PLANNING_ALTERNATIVES"
       ],
-      "evidence_summary_zh": "风险与缺资料清单 已形成 R2 五站 formal intake 所需的概念设计与可定位证据链；状态只表示当前 provisional 资料允许的设计深度，不表示 official boundary、专业审批、机构授权、建成条件或完整导览验证。",
+      "evidence_summary_zh": "风险与缺资料清单现汇总正式 proposal、结构化登记、三矩阵、四张中英 SVG、R2 decision/content-repair 来源、A-EXTERNAL-TRIGGERS-001 和七项 unknown 运营指标。official boundary、土地权属、市政容量、消防、文保专业审查、实测无障碍、预算、保险、DPIA、运营主体、真实用户测试和试点批准均保持 UNKNOWN / EXTERNAL_DEPENDENCY / NOT CLAIMED / NOT REQUIRED AT CONCEPT STAGE，并按评审原文不擅自升级为当前 participant blocker；complete 只表示风险台账和触发条件完整可审查。",
       "completeness_limited_by": [
         "official geometry unavailable",
         "official regulatory and survey inputs unavailable",
-        "five-station runtime evidence is bounded to the declared checkpoint",
-        "complete approximately 53-second guided tour is not verified",
-        "institutional authorization and real operations are unavailable"
+        "runtime PASS is bounded to source commit 586ee76e37b0a34168054ef787b4e8c2b1ab4258 and the recorded production-package matrix",
+        "institutional authorization and real operations are unavailable",
+        "all twelve external-dependency trigger rows remain unknown and are not asserted as satisfied or as new current participant blockers",
+        "the seven operating metrics remain unknown with no fabricated performance values"
       ]
     }
   ]

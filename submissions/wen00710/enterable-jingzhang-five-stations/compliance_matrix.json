@@ -8,7 +8,14 @@
       "report_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计"
+        "总体设计范围城市更新与控规深度城市设计",
+        "任务书总对照矩阵",
+        "Taskbook Master Crosswalk",
+        "非承诺式区域协同接口",
+        "Non-Commitment Regional Interfaces",
+        "assets/figures/taskbook-crosswalk.svg",
+        "proposal.md",
+        "sources.json"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -29,16 +36,21 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/taskbook-crosswalk.svg",
+        "assets/figures/taskbook-crosswalk.en.svg"
       ],
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "任务书总对照矩阵 / Taskbook Master Crosswalk",
+        "非承诺式区域协同接口 / Non-Commitment Regional Interfaces"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -50,9 +62,12 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -60,7 +75,8 @@
         "A-OWNER-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -106,7 +122,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -127,6 +144,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -183,7 +201,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -204,6 +223,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -260,7 +280,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -281,6 +302,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -337,7 +359,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -358,6 +381,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -414,7 +438,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -435,6 +460,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -470,7 +496,13 @@
       "report_sections": [
         "统筹研究范围产业与未来城市研究",
         "重点区域详细设计",
-        "AI 创新生态、人才画像与 AI+ 场景"
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "非承诺式区域协同接口",
+        "Non-Commitment Regional Interfaces",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "proposal.md",
+        "assets/figures/eight-resource-ecosystem.svg"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -491,16 +523,23 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "independent_reproduction_ratio",
+        "public_result_publication_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assets/figures/eight-resource-ecosystem.en.svg"
       ],
       "visual_sections": [
         "三层范围",
         "重点区域",
-        "AI 场景"
+        "AI 场景",
+        "非承诺式区域协同接口 / Non-Commitment Regional Interfaces",
+        "Agent.2 八资源生态图谱 / Agent.2 Eight-Resource Ecosystem Map"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -512,9 +551,12 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -522,7 +564,8 @@
         "A-OWNER-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -547,7 +590,10 @@
       "report_sections": [
         "统筹研究范围产业与未来城市研究",
         "重点区域详细设计",
-        "AI 创新生态、人才画像与 AI+ 场景"
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "assets/figures/eight-resource-ecosystem.svg"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -568,7 +614,11 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -589,9 +639,12 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -599,7 +652,8 @@
         "A-OWNER-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -647,7 +701,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -669,6 +724,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -727,7 +783,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -749,6 +806,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -807,7 +865,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -829,6 +888,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -887,7 +947,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -909,6 +970,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -967,7 +1029,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -989,6 +1052,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -1045,7 +1109,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1066,6 +1131,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -1122,7 +1188,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1143,6 +1210,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -1199,7 +1267,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1220,6 +1289,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -1276,7 +1346,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1297,6 +1368,7 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
         "R1-CANDIDATE-SKELETON"
@@ -1332,7 +1404,14 @@
       "report_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计"
+        "总体设计范围城市更新与控规深度城市设计",
+        "任务书总对照矩阵",
+        "Taskbook Master Crosswalk",
+        "非承诺式区域协同接口",
+        "Non-Commitment Regional Interfaces",
+        "assets/figures/taskbook-crosswalk.svg",
+        "proposal.md",
+        "sources.json"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1353,16 +1432,21 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/taskbook-crosswalk.svg",
+        "assets/figures/taskbook-crosswalk.en.svg"
       ],
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "任务书总对照矩阵 / Taskbook Master Crosswalk",
+        "非承诺式区域协同接口 / Non-Commitment Regional Interfaces"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1374,9 +1458,12 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -1384,7 +1471,8 @@
         "A-OWNER-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1409,7 +1497,13 @@
       "report_sections": [
         "统筹研究范围产业与未来城市研究",
         "重点区域详细设计",
-        "AI 创新生态、人才画像与 AI+ 场景"
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "非承诺式区域协同接口",
+        "Non-Commitment Regional Interfaces",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "proposal.md",
+        "assets/figures/eight-resource-ecosystem.svg"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1430,16 +1524,23 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "independent_reproduction_ratio",
+        "public_result_publication_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assets/figures/eight-resource-ecosystem.en.svg"
       ],
       "visual_sections": [
         "三层范围",
         "重点区域",
-        "AI 场景"
+        "AI 场景",
+        "非承诺式区域协同接口 / Non-Commitment Regional Interfaces",
+        "Agent.2 八资源生态图谱 / Agent.2 Eight-Resource Ecosystem Map"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1451,9 +1552,12 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -1461,7 +1565,8 @@
         "A-OWNER-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1486,7 +1591,10 @@
       "report_sections": [
         "统筹研究范围产业与未来城市研究",
         "重点区域详细设计",
-        "AI 创新生态、人才画像与 AI+ 场景"
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "assets/figures/eight-resource-ecosystem.svg"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1507,7 +1615,11 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1528,9 +1640,12 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -1538,7 +1653,8 @@
         "A-OWNER-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1563,7 +1679,15 @@
       "report_sections": [
         "统筹研究范围产业与未来城市研究",
         "重点区域详细设计",
-        "AI 创新生态、人才画像与 AI+ 场景"
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "东西缝合与南北贯通概念网络",
+        "East–West Stitching and North–South Continuity Concept Networks",
+        "四个公共地标",
+        "Four Public Landmarks",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "design_depth_matrix.json",
+        "assumptions.json"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1584,7 +1708,12 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count",
+        "maintenance_response_time_minutes"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1593,7 +1722,10 @@
       "visual_sections": [
         "三层范围",
         "重点区域",
-        "AI 场景"
+        "AI 场景",
+        "东西缝合与南北贯通概念网络 / East–West Stitching and North–South Continuity Concept Networks",
+        "四个公共地标 / Four Public Landmarks",
+        "荣誉展示系统与可逆公共空间组件 / Honor Display System and Reversible Public-Space Components"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1605,9 +1737,12 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -1615,7 +1750,8 @@
         "A-OWNER-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1640,7 +1776,12 @@
       "report_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
-        "总体设计范围城市更新与控规深度城市设计"
+        "总体设计范围城市更新与控规深度城市设计",
+        "四个公共地标",
+        "Four Public Landmarks",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "design_depth_matrix.json"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1661,7 +1802,8 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -1682,9 +1824,12 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -1692,7 +1837,8 @@
         "A-OWNER-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -1717,7 +1863,18 @@
       "report_sections": [
         "更新项目清单、实施政策与分期计划",
         "指标体系、面积复算与合规矩阵",
-        "风险、版权与合规说明"
+        "风险、版权与合规说明",
+        "京张开放验证周与年度运营闭环",
+        "Jing-Zhang Open Validation Week and Annual Operations Loop",
+        "进入、开放、维护与有限转化",
+        "Entry, Access, Maintenance, and Limited Conversion",
+        "暂停、事件响应与指标定义",
+        "Pause, Incident Response, and Metric Definitions",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "metrics.json",
+        "assumptions.json",
+        "sources.json"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -1738,16 +1895,31 @@
         "mechanism_count",
         "direct_entry_station_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "valid_public_problem_count",
+        "independent_reproduction_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count",
+        "public_result_publication_ratio",
+        "maintenance_response_time_minutes"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/taskbook-crosswalk.svg",
+        "assets/figures/taskbook-crosswalk.en.svg",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assets/figures/eight-resource-ecosystem.en.svg"
       ],
       "visual_sections": [
         "更新项目",
         "任务覆盖",
-        "自检状态"
+        "自检状态",
+        "京张开放验证周 / Jing-Zhang Open Validation Week",
+        "年度节奏、进入退出、事件响应与指标定义 / Annual rhythm, entry-exit, incident response, and metric definitions",
+        "外部依赖与未来触发条件 / External dependencies and future triggers"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -1759,9 +1931,12 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
@@ -1769,7 +1944,8 @@
         "A-OWNER-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",

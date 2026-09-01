@@ -10,11 +10,42 @@
       "proposal_sections": [
         "设计依据与资料清单",
         "总体设计范围城市更新与控规深度城市设计",
-        "指标体系、面积复算与合规矩阵"
+        "指标体系、面积复算与合规矩阵",
+        "任务书总对照矩阵",
+        "Taskbook Master Crosswalk",
+        "非承诺式区域协同接口",
+        "Non-Commitment Regional Interfaces",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "东西缝合与南北贯通概念网络",
+        "East–West Stitching and North–South Continuity Concept Networks",
+        "四个公共地标",
+        "Four Public Landmarks",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "京张开放验证周与年度运营闭环",
+        "Jing-Zhang Open Validation Week and Annual Operations Loop",
+        "进入、开放、维护与有限转化",
+        "Entry, Access, Maintenance, and Limited Conversion",
+        "暂停、事件响应与指标定义",
+        "Pause, Incident Response, and Metric Definitions",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "sources.json",
+        "assets/figures/taskbook-crosswalk.svg",
+        "proposal.md",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/taskbook-crosswalk.svg",
+        "assets/figures/taskbook-crosswalk.en.svg",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assets/figures/eight-resource-ecosystem.en.svg"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
@@ -36,7 +67,15 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "valid_public_problem_count",
+        "independent_reproduction_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count",
+        "public_result_publication_ratio",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -48,16 +87,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -65,7 +108,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "PROJECT-OFFICIAL-ANNOUNCEMENT 已在 R2 双语正文、五组中英核心图、A3/A0、临时 GeoJSON、可复算规划指标和五站运行时证据边界中定位；addressed 仅表示形成可审查回应，不表示法定控制、专业审批、机构授权或完整约 53 秒导览已经通过。"
+      "evidence_summary_zh": "PROJECT-OFFICIAL-ANNOUNCEMENT 已定位到 R2 双语正文中的任务总对照、区域接口、八资源生态、Agent.4、Agent.6 和外部依赖章节，正式结构化登记、四张中英 SVG、临时 GeoJSON、既有可复算规划指标及七项仍为 unknown 的运营指标。review_status=addressed 仅表示形成可审查概念回应；官方边界、权属、市政、消防、文保、预算、保险、DPIA、运营主体、用户测试和试点批准仍由 A-EXTERNAL-TRIGGERS-001 保持 UNKNOWN / EXTERNAL_DEPENDENCY / NOT CLAIMED，不表示法定控制、专业审批、机构授权或真实运营；完整 53 秒导览的限定 PASS 由 R2-RUNTIME-READINESS-V02 单独支持。"
     },
     {
       "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
@@ -76,11 +119,41 @@
       "proposal_sections": [
         "设计依据与资料清单",
         "总体设计范围城市更新与控规深度城市设计",
-        "指标体系、面积复算与合规矩阵"
+        "指标体系、面积复算与合规矩阵",
+        "任务书总对照矩阵",
+        "Taskbook Master Crosswalk",
+        "非承诺式区域协同接口",
+        "Non-Commitment Regional Interfaces",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "东西缝合与南北贯通概念网络",
+        "East–West Stitching and North–South Continuity Concept Networks",
+        "四个公共地标",
+        "Four Public Landmarks",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "京张开放验证周与年度运营闭环",
+        "Jing-Zhang Open Validation Week and Annual Operations Loop",
+        "进入、开放、维护与有限转化",
+        "Entry, Access, Maintenance, and Limited Conversion",
+        "暂停、事件响应与指标定义",
+        "Pause, Incident Response, and Metric Definitions",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "assets/figures/taskbook-crosswalk.svg",
+        "proposal.md",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/taskbook-crosswalk.svg",
+        "assets/figures/taskbook-crosswalk.en.svg",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assets/figures/eight-resource-ecosystem.en.svg"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
@@ -102,7 +175,15 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "valid_public_problem_count",
+        "independent_reproduction_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count",
+        "public_result_publication_ratio",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -114,16 +195,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -131,7 +216,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "PROJECT-AGENT-OPEN-CALL-TASKBOOK 已在 R2 双语正文、五组中英核心图、A3/A0、临时 GeoJSON、可复算规划指标和五站运行时证据边界中定位；addressed 仅表示形成可审查回应，不表示法定控制、专业审批、机构授权或完整约 53 秒导览已经通过。"
+      "evidence_summary_zh": "PROJECT-AGENT-OPEN-CALL-TASKBOOK 已逐项定位三大定位、五大功能、三区两翼、五站和 canonical M1—M4，并以区域非承诺接口、正式 32-cell 八资源矩阵、Agent.4 公共空间包、Agent.6 运营包、结构化登记和四张中英 SVG 回应 agent.1—agent.6。七项运营指标只登记定义与公式且当前均为 unknown；addressed 不表示真实合作、活动、运营、绩效、审批或政府承诺。"
     },
     {
       "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
@@ -142,7 +227,22 @@
       "proposal_sections": [
         "设计依据与资料清单",
         "总体设计范围城市更新与控规深度城市设计",
-        "指标体系、面积复算与合规矩阵"
+        "指标体系、面积复算与合规矩阵",
+        "东西缝合与南北贯通概念网络",
+        "East–West Stitching and North–South Continuity Concept Networks",
+        "四个公共地标",
+        "Four Public Landmarks",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "进入、开放、维护与有限转化",
+        "Entry, Access, Maintenance, and Limited Conversion",
+        "暂停、事件响应与指标定义",
+        "Pause, Incident Response, and Metric Definitions",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -168,7 +268,12 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "human_takeover_reachability_ratio",
+        "offline_service_availability_ratio",
+        "ordinary_use_restored_pilot_count",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -180,16 +285,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -197,7 +306,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "MOHURD-URBAN-DESIGN-MEASURES 已在 R2 双语正文、五组中英核心图、A3/A0、临时 GeoJSON、可复算规划指标和五站运行时证据边界中定位；addressed 仅表示形成可审查回应，不表示法定控制、专业审批、机构授权或完整约 53 秒导览已经通过。"
+      "evidence_summary_zh": "MOHURD-URBAN-DESIGN-MEASURES 已定位到双语东西缝合／南北贯通概念网络、四个公共地标、荣誉展示与八项可逆组件，以及运营中的普通用途、人工接管、暂停、退出和恢复规则。相关路径、工程条件、维护主体及四项运营指标均保留 UNKNOWN / NOT CLAIMED；addressed 只说明城市设计概念与证据位置完整，不构成工程可行性或审批结论。"
     },
     {
       "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
@@ -208,7 +317,18 @@
       "proposal_sections": [
         "设计依据与资料清单",
         "总体设计范围城市更新与控规深度城市设计",
-        "指标体系、面积复算与合规矩阵"
+        "指标体系、面积复算与合规矩阵",
+        "东西缝合与南北贯通概念网络",
+        "East–West Stitching and North–South Continuity Concept Networks",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "京张开放验证周与年度运营闭环",
+        "Jing-Zhang Open Validation Week and Annual Operations Loop",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -234,7 +354,10 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio",
+        "ordinary_use_restored_pilot_count",
+        "maintenance_response_time_minutes"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -246,16 +369,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -263,7 +390,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "MOHURD-CONTROL-DETAILED-PLANNING 已在 R2 双语正文、五组中英核心图、A3/A0、临时 GeoJSON、可复算规划指标和五站运行时证据边界中定位；addressed 仅表示形成可审查回应，不表示法定控制、专业审批、机构授权或完整约 53 秒导览已经通过。"
+      "evidence_summary_zh": "MOHURD-CONTROL-DETAILED-PLANNING 已通过双语正文、返修材料和外部触发表明确区分概念网络／可逆组件／运营设想与法定控制、工程实施和真实主体。official boundary、土地权属、市政容量、消防、文保、实测无障碍、预算、保险、DPIA、运营主体、真实用户测试和试点批准保持 UNKNOWN / EXTERNAL_DEPENDENCY / NOT CLAIMED；addressed 不把这些缺口升级为已满足或当前 participant blocker。"
     },
     {
       "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
@@ -274,11 +401,19 @@
       "proposal_sections": [
         "设计依据与资料清单",
         "总体设计范围城市更新与控规深度城市设计",
-        "指标体系、面积复算与合规矩阵"
+        "指标体系、面积复算与合规矩阵",
+        "Agent.2 八资源生态图谱",
+        "Agent.2 Eight-Resource Ecosystem Map",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/eight-resource-ecosystem.svg",
+        "assets/figures/eight-resource-ecosystem.en.svg"
       ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
@@ -300,7 +435,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -312,16 +448,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -329,7 +469,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "MNR-LAND-USE-CLASSIFICATION-GUIDE 已在 R2 双语正文、五组中英核心图、A3/A0、临时 GeoJSON、可复算规划指标和五站运行时证据边界中定位；addressed 仅表示形成可审查回应，不表示法定控制、专业审批、机构授权或完整约 53 秒导览已经通过。"
+      "evidence_summary_zh": "MNR-LAND-USE-CLASSIFICATION-GUIDE 继续由现有 land_use_code 与 provisional GeoJSON 承担分类证据；八资源生态图中的“土地”仅表示既有公共空间、更新空间和临时可逆空间等资源类型。A-EXTERNAL-TRIGGERS-001 明确土地权属和 official boundary 未知，addressed 不表示已取得地块、精确红线、开发权、拆改留或批准。"
     },
     {
       "standard_id": "MOHURD-ARCH-DESIGN-DEPTH-2016",
@@ -340,7 +480,15 @@
       "proposal_sections": [
         "设计依据与资料清单",
         "总体设计范围城市更新与控规深度城市设计",
-        "指标体系、面积复算与合规矩阵"
+        "指标体系、面积复算与合规矩阵",
+        "四个公共地标",
+        "Four Public Landmarks",
+        "荣誉展示系统与可逆公共空间组件",
+        "Honor Display System and Reversible Public-Space Components",
+        "外部依赖与未来触发条件表",
+        "External Dependencies and Future Trigger Conditions",
+        "design_depth_matrix.json",
+        "assumptions.json"
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
@@ -366,7 +514,8 @@
         "chapter_count",
         "mechanism_count",
         "verified_wave1_segment_duration_seconds",
-        "full_guided_tour_verified"
+        "full_guided_tour_verified",
+        "portfolio_explore_completion_ratio"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -378,16 +527,20 @@
         "KEY-AREA-SOURCE",
         "PRIVATE-SOURCE-REPO",
         "R2-RUNTIME-CONTRACT",
+        "R2-RUNTIME-READINESS-V02",
         "R2-WAVE1-VISUAL-QA",
         "R2-ORIGINAL-VISUALS",
-        "R1-CANDIDATE-SKELETON"
+        "R1-CANDIDATE-SKELETON",
+        "R2-DECISION-CONTRACT",
+        "JZ-R2-CONTENT-REPAIR-V01"
       ],
       "assumption_ids": [
         "A-CONTROLS-001",
         "A-OFFICIAL-GEOMETRY-001",
         "A-RUNTIME-SCOPE-001",
         "A-STATION-IDENTITY-001",
-        "A-VISUAL-EVIDENCE-001"
+        "A-VISUAL-EVIDENCE-001",
+        "A-EXTERNAL-TRIGGERS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -395,7 +548,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "MOHURD-ARCH-DESIGN-DEPTH-2016 已在 R2 双语正文、五组中英核心图、A3/A0、临时 GeoJSON、可复算规划指标和五站运行时证据边界中定位；addressed 仅表示形成可审查回应，不表示法定控制、专业审批、机构授权或完整约 53 秒导览已经通过。"
+      "evidence_summary_zh": "MOHURD-ARCH-DESIGN-DEPTH-2016 仍保持 review_status=data_gap。Agent.4 包只给出公共用途、AI 关闭后的普通用途、可逆退出、候选维护角色和禁止工程断言；结构、消防、无障碍实测、文保、权属、造价和施工条件继续由外部触发表保持 UNKNOWN / EXTERNAL_DEPENDENCY / NOT CLAIMED，不因内容补齐而变成专业深度 PASS。"
     }
   ]
 }

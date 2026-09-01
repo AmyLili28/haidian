@@ -67,18 +67,46 @@
     "reading": ["experience", "evidence", "implementation"],
     "boolean_encoding": ["0", "1"]
   },
-  "verified_segment": {
-    "status": "VERIFIED_MIDDLE_SEGMENT_ONLY",
-    "duration_ms": 20500,
-    "route": ["dazhongsi", "qinghuayuan-knowledge", "ai-origin"],
-    "complete_53_second_tour": "NOT_VERIFIED",
+  "runtime_verification": {
+    "status": "PASS",
+    "timeline_id": "jz-r2-five-station-53s",
+    "source_commit": "586ee76e37b0a34168054ef787b4e8c2b1ab4258",
+    "configured_active_ms": 53000,
+    "observed_active_ms": 53000,
+    "observed_wall_ms": 53513,
+    "preflight_ms": 1,
+    "portfolio_explore_status": "PASS",
+    "portfolio_station_count": 5,
+    "complete_53_second_tour": "PASS",
+    "route": ["xizhimen", "dazhongsi", "qinghuayuan-knowledge", "ai-origin", "zhongzhiyuan", "corridor"],
     "steps": [
-      {"scene": "dazhongsi", "camera": "r2-dazhongsi-exit", "duration_ms": 4500},
-      {"scene": "qinghuayuan-knowledge", "camera": "r2-knowledge-arrival", "duration_ms": 5500},
-      {"scene": "qinghuayuan-knowledge", "camera": "r2-knowledge-credential", "duration_ms": 5000},
-      {"scene": "ai-origin", "camera": "r2-dual-channel-overview", "duration_ms": 5500}
+      {"scene": "xizhimen", "camera": "historical-prologue", "duration_ms": 3800},
+      {"scene": "xizhimen", "camera": "present-platform", "duration_ms": 2100},
+      {"scene": "xizhimen", "camera": "future-public-services", "duration_ms": 2100},
+      {"scene": "dazhongsi", "camera": "r2-canopy-overview", "duration_ms": 9000},
+      {"scene": "qinghuayuan-knowledge", "camera": "r2-knowledge-arrival", "duration_ms": 9000},
+      {"scene": "ai-origin", "camera": "r2-dual-channel-overview", "duration_ms": 3500},
+      {"scene": "ai-origin", "camera": "r2-ai-origin-human", "duration_ms": 4000},
+      {"scene": "ai-origin", "camera": "r2-ai-origin-offline", "duration_ms": 3500},
+      {"scene": "zhongzhiyuan", "camera": "validation-court", "duration_ms": 5000},
+      {"scene": "zhongzhiyuan", "camera": "public-court-hero", "duration_ms": 3500},
+      {"scene": "zhongzhiyuan", "camera": "exit-recovery", "duration_ms": 2500},
+      {"scene": "corridor", "camera": "four-chapters", "duration_ms": 5000}
     ],
-    "reduced_motion_duration_ms": 3600
+    "formal_visual_reduced_motion_duration_ms": 10800,
+    "evidence": {
+      "browser_receipt": "runtime-browser-qa.json",
+      "browser_receipt_sha256": "090dcad672057e57cea87af5e13245c23125ee0471b9e66d2e464f5f178373e7",
+      "video_receipt": "runtime-video-receipt.json",
+      "video_receipt_sha256": "6a56128348631aa016ffa9b7ce2a7a1ee2853fc1bda3ddf32192b2dc0acd1cd9",
+      "video_sha256": "549a4521ff87cba989ec2104f2d82a27e570017cda41496ff64c4ab22f0486fa"
+    },
+    "scope_limit": "Bounded to the recorded source commit and production-package matrix; not institutional, planning, engineering, or live-operation approval."
+  },
+  "historical_wave1_segment": {
+    "status": "SUPERSEDED_BASELINE_RETAINED_FOR_PROVENANCE",
+    "duration_ms": 20500,
+    "route": ["dazhongsi", "qinghuayuan-knowledge", "ai-origin"]
   },
   "assets": [
     {"path": "assets/images/ai-origin-civic.webp", "bytes": 415642, "width": 1672, "height": 941, "sha256": "f98dfe410455be92064f9cd74e8e48ab4402e3f26d446c355f51024129f1f358"},

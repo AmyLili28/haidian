@@ -10,7 +10,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "submissions/wen00710/enterable-jingzhang-five-stations/manifest.json: known_blockers present; submission may pass intake but cannot enter formal professional scoring until resolved",
+        "submissions/wen00710/enterable-jingzhang-five-stations/proposal.md: 可能涉及非公开或敏感资料; maintainer review required",
         "submissions/wen00710/enterable-jingzhang-five-stations/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
       ],
       "proposal_files": [
@@ -21,6 +21,8 @@
       ],
       "changed_files": [
         "submissions/wen00710/enterable-jingzhang-five-stations/agent.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/eight-resource-ecosystem.en.svg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/eight-resource-ecosystem.svg",
         "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/key-areas.en.png",
         "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/key-areas.png",
         "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/land-use-structure.en.png",
@@ -31,8 +33,16 @@
         "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/mobility-bluegreen.png",
         "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/site-overview.en.png",
         "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/site-overview.png",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/taskbook-crosswalk.en.svg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/figures/taskbook-crosswalk.svg",
         "submissions/wen00710/enterable-jingzhang-five-stations/assets/media/ai-origin-civic.webp",
         "submissions/wen00710/enterable-jingzhang-five-stations/assets/media/corridor-overview.webp",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/media/jingzhang-five-station-53s-contact-sheet.jpg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/media/jingzhang-five-station-53s-review.mp4",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/media/jingzhang-five-station-53s.en.md",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/media/jingzhang-five-station-53s.en.vtt",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/media/jingzhang-five-station-53s.md",
+        "submissions/wen00710/enterable-jingzhang-five-stations/assets/media/jingzhang-five-station-53s.vtt",
         "submissions/wen00710/enterable-jingzhang-five-stations/assets/media/learning-hall.webp",
         "submissions/wen00710/enterable-jingzhang-five-stations/assumptions.json",
         "submissions/wen00710/enterable-jingzhang-five-stations/changelog.md",
@@ -64,6 +74,9 @@
         "submissions/wen00710/enterable-jingzhang-five-stations/standard_matrix.json",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/app.css",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/app.js",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/bilingual-parity.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/browser-formal-qa.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/deterministic-validation.json",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/images/ai-origin-civic.webp",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/images/corridor-overview.webp",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/images/dazhongsi-canopy.webp",
@@ -71,15 +84,33 @@
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/images/learning-hall.webp",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/images/xizhimen-arrival.webp",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/images/zhongzhiyuan-campus.webp",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/largest-file-check.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/offline-font-metadata.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/package-inventory.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/professional-evidence.json",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/routes.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/runtime-browser-qa.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/runtime-video-capture.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/runtime-video-receipt.json",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/scenario-cards.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/screenshots/bilingual-core-figures-contact-sheet.jpg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/screenshots/en-report-desktop.jpg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/screenshots/en-visual-desktop.jpg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/screenshots/zh-report-desktop.jpg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/screenshots/zh-report-mobile.jpg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/screenshots/zh-visual-390x844.jpg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/screenshots/zh-visual-844x390.jpg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/screenshots/zh-visual-desktop.jpg",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/source-package-hash.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/spatial-review.json",
+        "submissions/wen00710/enterable-jingzhang-five-stations/visual/assets/visual-packaging.json",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/index.en.html",
         "submissions/wen00710/enterable-jingzhang-five-stations/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/wen00710/enterable-jingzhang-five-stations": "formal"
       },
-      "total_bytes": 16714617,
+      "total_bytes": 40545692,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -153,15 +184,15 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 15,
+        "known_metric_refs_required": 23,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 17,
+          "source": 21,
           "standard": 4,
           "depth": 15,
           "data": 11,
-          "metric": 13
+          "metric": 21
         }
       }
     },
@@ -178,9 +209,7 @@
   "can_enter_formal_review": true,
   "package_type": "professional_design_package",
   "review_status": "formal-review-ready",
-  "next_actions": [
-    "Resolve formal-readiness warning: submissions/wen00710/enterable-jingzhang-five-stations/manifest.json: known_blockers present; submission may pass intake but cannot enter formal professional scoring until resolved"
-  ],
+  "next_actions": [],
   "schema_version": "0.1.0",
   "checks": [
     {
