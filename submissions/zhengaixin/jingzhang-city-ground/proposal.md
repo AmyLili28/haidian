@@ -71,7 +71,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "robot-deliv
 | 双语锁定 | 中文“京张厚基面”在前，英文“JINGZHANG THICK GROUND”作为等义副标；不得自行缩写为官方机构名称 | 对外传播须同时保留“概念方案 / DESIGN CONCEPT”状态 |
 | G0-G4 色彩 | G0 `#D85B48`、G1 `#4F8C69`、G2 `#D49B3F`、G3 `#3F79A8`、G4 `#7567A6`；正文色 `#17252D`，纸张色 `#F5F2EA` | 色彩承载层级语义，不得随场景任意换色或制造审批等级暗示 |
 | 单色与小尺寸 | 单色仅使用深墨色或反白；符号最小 16 px，完整双语组合最小宽度 96 px；小尺寸只保留双轨与五带 | 不添加渐变、发光、阴影、立体或动态扫描效果 |
-| 字体与许可 | 中文及离线 HTML 使用本地子集化 Noto Sans CJK SC（SIL Open Font License 1.1）；英文使用同一字体的拉丁字符 | 字体文件、许可文本、来源和哈希登记于 `assets/fonts/`、`sources.json` 与版权声明 |
+| 字体与许可 | 中文离线 HTML 将 Noto Sans CJK SC 子集以 Data URI 直接内嵌（SIL Open Font License 1.1）；英文采用系统无衬线字体 | 字体来源与完整许可文本登记于 `sources.json` 和 `report/copyright_statement.md`，不设置远程或额外字体文件 |
 | 错误用法 | 禁止拉伸、旋转、改变五带顺序、叠压文物图像、与企业商标拼接或作为路径箭头 | 企业、园区、文化遗产标识均保持独立权属和视觉层级 |
 
 品牌系统与京张文化导视分工明确：品牌系统说明“这套方法与活动属于京张厚基面概念方案”；文化导视说明“人身处何地、遗产发生何事、下一步如何到达”，并始终提供实体、无 App、无障碍的基础信息。二者可以在同一信息载体上分区出现，但不得合并成看似官方的单一标识系统。[source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
