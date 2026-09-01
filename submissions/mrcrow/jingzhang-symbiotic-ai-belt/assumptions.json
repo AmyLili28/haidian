@@ -40,7 +40,7 @@
     {
       "id": "A-ASSET-001",
       "status": "resolved_for_current_package",
-      "statement": "Every asset family distributed in the current package is registered in report/copyright_statement.md. Formal figures and PDFs use self-drawn planning context generated only from submitted participant GeoJSON and contain no Amap, commercial-map screenshot, remote tile, stock photo, third-party icon, enterprise mark, or remote font. The logo is an original SVG. HTML uses a system-font fallback stack and does not redistribute font files.",
+      "statement": "Every asset family distributed in the current package is registered in report/copyright_statement.md. Formal figures and PDFs use self-drawn planning context generated only from submitted participant GeoJSON and contain no Amap, commercial-map screenshot, remote tile, stock photo, third-party icon, enterprise mark, or remote font. The logo is an original SVG. Chinese HTML embeds only the glyph subset it uses from Noto Sans SC under SIL OFL 1.1; the complete source font is not distributed.",
       "impact": "The current package may be reviewed and redistributed under its declared package terms with the source citations and limitations retained. Earlier stitched or commercial-map screenshots remain process references outside the submitted package and must not be reintroduced without a separately verified licence or authorisation."
     }
   ]
