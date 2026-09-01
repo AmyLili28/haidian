@@ -1,0 +1,315 @@
+{
+  "schema_version": "0.1.0",
+  "standards": [
+    {
+      "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+      "requirement_zh": "公告1.3/1.4/1.5对目的、范围、任务与深度提出主控要求。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-DESIGN-001",
+        "A-PRIVACY-001",
+        "A-EVENT-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「京张场景场（SCENARIO·JZ · AI场景卡与产业测试验证带）」沿京张铁路原线绿带与遗址公园组织AI+场景赋能新范式的公共空间概念：把不少于10张AI场景卡的编制、展示与迭代，与不少于3个AI产业测试验证场景的公共化实验空间，组织为一条可观摩、可参与、可验证的场景带，「一带三场」——具身智能验证场（户外受控验证环境）、大模型评测场（公开可解释的匿名化能力评测展示空间）、场景卡共创工坊（公众与产业共创场景卡），五类AI+场景（场景卡AI辅助生成与版本管理、测试数据匿名采集与合规脱敏、评测过程可解释记录AI、测试预约与秩序调度AI、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控、不把未成熟技术写成已可全面部署，交通慢行优先、绿带连续慢行轴贯通节点且测试人流与观摩流线分时组织，分期实施+年度活动体系（场景卡开放征集季、AI产业测试开放周、年度场景评测日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+    },
+    {
+      "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+      "requirement_zh": "任务书对三大定位、五大功能、三区两翼、六项任务与边界条款提出要求。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-DESIGN-001",
+        "A-PRIVACY-001",
+        "A-EVENT-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「京张场景场（SCENARIO·JZ · AI场景卡与产业测试验证带）」沿京张铁路原线绿带与遗址公园组织AI+场景赋能新范式的公共空间概念：把不少于10张AI场景卡的编制、展示与迭代，与不少于3个AI产业测试验证场景的公共化实验空间，组织为一条可观摩、可参与、可验证的场景带，「一带三场」——具身智能验证场（户外受控验证环境）、大模型评测场（公开可解释的匿名化能力评测展示空间）、场景卡共创工坊（公众与产业共创场景卡），五类AI+场景（场景卡AI辅助生成与版本管理、测试数据匿名采集与合规脱敏、评测过程可解释记录AI、测试预约与秩序调度AI、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控、不把未成熟技术写成已可全面部署，交通慢行优先、绿带连续慢行轴贯通节点且测试人流与观摩流线分时组织，分期实施+年度活动体系（场景卡开放征集季、AI产业测试开放周、年度场景评测日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+    },
+    {
+      "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+      "requirement_zh": "城市设计应落实规划、指导建筑设计、塑造特色风貌并统筹立体空间。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-DESIGN-001",
+        "A-PRIVACY-001",
+        "A-EVENT-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「京张场景场（SCENARIO·JZ · AI场景卡与产业测试验证带）」沿京张铁路原线绿带与遗址公园组织AI+场景赋能新范式的公共空间概念：把不少于10张AI场景卡的编制、展示与迭代，与不少于3个AI产业测试验证场景的公共化实验空间，组织为一条可观摩、可参与、可验证的场景带，「一带三场」——具身智能验证场（户外受控验证环境）、大模型评测场（公开可解释的匿名化能力评测展示空间）、场景卡共创工坊（公众与产业共创场景卡），五类AI+场景（场景卡AI辅助生成与版本管理、测试数据匿名采集与合规脱敏、评测过程可解释记录AI、测试预约与秩序调度AI、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控、不把未成熟技术写成已可全面部署，交通慢行优先、绿带连续慢行轴贯通节点且测试人流与观摩流线分时组织，分期实施+年度活动体系（场景卡开放征集季、AI产业测试开放周、年度场景评测日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+    },
+    {
+      "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+      "requirement_zh": "本方案为概念建议,明确不替代控制性详细规划法定内容。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-DESIGN-001",
+        "A-PRIVACY-001",
+        "A-EVENT-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「京张场景场（SCENARIO·JZ · AI场景卡与产业测试验证带）」沿京张铁路原线绿带与遗址公园组织AI+场景赋能新范式的公共空间概念：把不少于10张AI场景卡的编制、展示与迭代，与不少于3个AI产业测试验证场景的公共化实验空间，组织为一条可观摩、可参与、可验证的场景带，「一带三场」——具身智能验证场（户外受控验证环境）、大模型评测场（公开可解释的匿名化能力评测展示空间）、场景卡共创工坊（公众与产业共创场景卡），五类AI+场景（场景卡AI辅助生成与版本管理、测试数据匿名采集与合规脱敏、评测过程可解释记录AI、测试预约与秩序调度AI、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控、不把未成熟技术写成已可全面部署，交通慢行优先、绿带连续慢行轴贯通节点且测试人流与观摩流线分时组织，分期实施+年度活动体系（场景卡开放征集季、AI产业测试开放周、年度场景评测日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+    },
+    {
+      "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
+      "requirement_zh": "用地分类引用国土空间调查规划用途管制用地用海分类指南的公开子集。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-DESIGN-001",
+        "A-PRIVACY-001",
+        "A-EVENT-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「京张场景场（SCENARIO·JZ · AI场景卡与产业测试验证带）」沿京张铁路原线绿带与遗址公园组织AI+场景赋能新范式的公共空间概念：把不少于10张AI场景卡的编制、展示与迭代，与不少于3个AI产业测试验证场景的公共化实验空间，组织为一条可观摩、可参与、可验证的场景带，「一带三场」——具身智能验证场（户外受控验证环境）、大模型评测场（公开可解释的匿名化能力评测展示空间）、场景卡共创工坊（公众与产业共创场景卡），五类AI+场景（场景卡AI辅助生成与版本管理、测试数据匿名采集与合规脱敏、评测过程可解释记录AI、测试预约与秩序调度AI、内容与安全告警人工复核）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控、不把未成熟技术写成已可全面部署，交通慢行优先、绿带连续慢行轴贯通节点且测试人流与观摩流线分时组织，分期实施+年度活动体系（场景卡开放征集季、AI产业测试开放周、年度场景评测日）。全部为概念建议、参考方案，基于 provisional 边界，官方数据发布后复算。"
+    }
+  ]
+}
