@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0",
+  "package_version": "v1.6-communication-hierarchy",
+  "purpose": "Separate public quick reading from professional evidence without deleting or upgrading any implementation claim.",
+  "reader_layers": [
+    {
+      "layer_id": "L1-30SEC",
+      "audience": "public and first-pass jury",
+      "question": "What is the idea, what is protected, and what is still on HOLD?",
+      "entry_points": [
+        "report/proposal.html first screen",
+        "visual/index.html hero",
+        "drawings/a3-booklet.pdf page 1",
+        "drawings/a0-boards.pdf page 1"
+      ]
+    },
+    {
+      "layer_id": "L2-3MIN",
+      "audience": "public reviewer and multidisciplinary jury",
+      "question": "How does one All-Stop Gate work, and which four external decisions remain closed?",
+      "entry_points": [
+        "assets/figures/key-areas.png",
+        "assets/figures/metrics-evidence.png",
+        "visual/index.html#handoff"
+      ]
+    },
+    {
+      "layer_id": "L3-PRO",
+      "audience": "survey, accessibility, operations, safety, cost and independent-review teams",
+      "question": "Which dimensions, tasks, roles, quantities, gates, evidence fields and exit records must be completed?",
+      "entry_points": [
+        "assets/figures/key-areas-technical.png",
+        "assets/figures/metrics-evidence-technical.png",
+        "assets/media/p0-execution-workbook.md",
+        "proposal.md technical tables"
+      ]
+    }
+  ],
+  "visual_text_floors_canvas_px": {
+    "public_figure_title": 32,
+    "public_figure_primary_value": 30,
+    "public_figure_body": 20,
+    "public_figure_label": 16,
+    "technical_companion_body": 10,
+    "scope_note": "Canvas design pixels at 1600 x 1000; these are composition controls, not a physical print-size or accessibility certification."
+  },
+  "artifact_separation": {
+    "public_fixed_figure_count": 2,
+    "technical_companion_figure_count": 2,
+    "public_fixed_figures": [
+      "assets/figures/key-areas.png",
+      "assets/figures/metrics-evidence.png"
+    ],
+    "technical_companion_figures": [
+      "assets/figures/key-areas-technical.png",
+      "assets/figures/metrics-evidence-technical.png"
+    ],
+    "rule": "Public figures show one decision per panel. Technical companions retain dimensions, tasks, BOQ, cost, responsibility and acceptance detail."
+  },
+  "bilingual_controlled_checkpoints": [
+    {
+      "checkpoint_id": "B01",
+      "topic": "title",
+      "zh": "京张慢线：让城市跟上最慢的人",
+      "en": "THE SLOW LINE: Keep pace with the slowest person",
+      "status": "paired"
+    },
+    {
+      "checkpoint_id": "B02",
+      "topic": "core rule",
+      "zh": "每站必停；人先行，机器让行；AI 退出，服务仍在",
+      "en": "Serve every stop; people pass first, machines yield; when AI exits, service remains",
+      "status": "paired"
+    },
+    {
+      "checkpoint_id": "B03",
+      "topic": "authorization state",
+      "zh": "NOT_AUTHORIZED / HOLD",
+      "en": "NOT_AUTHORIZED / HOLD",
+      "status": "exact_token_match"
+    },
+    {
+      "checkpoint_id": "B04",
+      "topic": "site precision",
+      "zh": "无坐标、不可放样、临时候选筛查关系",
+      "en": "No coordinates, no set-out, provisional candidate-screening relationship",
+      "status": "paired"
+    },
+    {
+      "checkpoint_id": "B05",
+      "topic": "concept envelope",
+      "zh": "216 m² 概念筛查包络",
+      "en": "216 m² concept-screening envelope",
+      "status": "numeric_token_match"
+    },
+    {
+      "checkpoint_id": "B06",
+      "topic": "clear route",
+      "zh": "3.0 m 概念有效净宽",
+      "en": "3.0 m concept effective clear width",
+      "status": "numeric_token_match"
+    },
+    {
+      "checkpoint_id": "B07",
+      "topic": "package evidence",
+      "zh": "包内 8/8 PASS；审计与 AI-off 人工等价均为 12/12",
+      "en": "Package 8/8 PASS; audit and AI-off human equivalence are both 12/12",
+      "status": "numeric_token_match"
+    },
+    {
+      "checkpoint_id": "B08",
+      "topic": "external decisions",
+      "zh": "4 个外部决策包，4/4 HOLD；保留 12 项现场指标与 12 道外部门",
+      "en": "Four external decision bundles, 4/4 HOLD; retaining twelve field metrics and twelve external gates",
+      "status": "numeric_token_match"
+    },
+    {
+      "checkpoint_id": "B09",
+      "topic": "responsibility",
+      "zh": "17 个角色槽位全部未指派",
+      "en": "All seventeen role slots remain unappointed",
+      "status": "numeric_token_match"
+    },
+    {
+      "checkpoint_id": "B10",
+      "topic": "cost boundary",
+      "zh": "正式总价、报价、资金与恢复储备均为 null/TBC/未锁定",
+      "en": "Formal total, quotations, funding and restoration reserve remain null/TBC/unfunded",
+      "status": "paired"
+    },
+    {
+      "checkpoint_id": "B11",
+      "topic": "field evidence boundary",
+      "zh": "真实记录、容量、现场核实退出路径与签认尚未形成",
+      "en": "Actual records, capacity, field-verified egress routes and sign-offs do not yet exist",
+      "status": "paired"
+    },
+    {
+      "checkpoint_id": "B12",
+      "topic": "stop rule",
+      "zh": "任一群体安全关键失败、等价缺失或无法退出，整体 HOLD",
+      "en": "Any group safety-critical failure, missing equivalent or failed exit keeps the whole unit on HOLD",
+      "status": "paired"
+    }
+  ],
+  "audit_boundary": "This is a participant-controlled source-pair and layout audit. It does not certify independent human translation, WCAG conformance, print accessibility, field performance, permission, appointment or professional sign-off.",
+  "current_result": {
+    "reader_layer_count": 3,
+    "bilingual_checkpoint_count": 12,
+    "paired_checkpoint_count": 12,
+    "public_fixed_figure_count": 2,
+    "technical_companion_figure_count": 2
+  }
+}

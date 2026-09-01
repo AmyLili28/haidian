@@ -10,10 +10,8 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "The Centennial Jing-Zhang AI Innovation Belt becomes a civic line for its slowest users: one line, three slow yards, six all-stop gates, and twelve scenarios that all retain an equivalent non-AI path. Robots learn to stop, smart services learn to wait, and innovation skips no stop. Every spatial move uses repository-provisional geometry and remains a reversible concept requiring co-design and professional development."
 tracks: ["robotics-autonomous-mobility", "ai-public-services", "youth-friendly-public-space"]
 scenarios: ["robot-delivery-low-speed", "ai-health-service-navigation", "ai-traffic-walkability", "enterprise-service-copilot", "ai-cultural-guide", "public-safety-operations-review"]
-iteration: "v1.5-professional-handoff"
+iteration: "v1.6-communication-hierarchy"
 ---
-
-# THE SLOW LINE: Keep pace with the slowest person
 
 > **“Slow” does not mean reducing the speed of innovation. It means writing the slowest person's safety, comprehension, and choice into the city's latency budget.**
 >
@@ -21,14 +19,26 @@ iteration: "v1.5-professional-handoff"
 
 Every spatial move, project, event, policy, and operating model in this proposal is an open co-creation **concept, reference scheme, or item for professional development**. Nothing replaces formal planning or constitutes a government approval, investment, construction, recruitment, event, or permitting commitment. Repository-provisional geometry is only a generation and self-check container; the entire package must be recalculated when official data arrives.
 
-### 30-second P0 professional hand-off summary
+## Choose a reading depth first
 
-> **P0-ALL-STOP-01 · professional execution hand-off unit · `NOT_AUTHORIZED` · `HOLD`**
-> The 216 m² concept-screening envelope remains bound to P0-CAND-01 but has no coordinates and cannot be set out. Twelve tasks, 16 BOQ lines, 17 unappointed roles and package 8/8 PASS remain. Twelve field metrics and twelve external gates are losslessly aggregated into four external decision bundles, all 4/4 HOLD. v1.5 adds seven bilingual blank execution forms, eighteen evidence-receipt fields, a capacity/egress formula, four maintenance cycles and a restoration-reserve template; actual records, capacity, signatures, cost, funding and authorization remain zero/null/HOLD.
+| Time | Question answered | Entry |
+| --- | --- | --- |
+| **30 sec** | What is the idea, whom does it protect, and what is still unresolved? | This summary, web hero, A3/A0 page 1 |
+| **3 min** | How does one All-Stop Gate work, and why can it not open now? | `key-areas.en.png` + `metrics-evidence.en.png` |
+| **Pro hand-off** | Who supplies which evidence, when does it stop, and how is it restored? | Technical companions, detailed tables and P0 workbook |
 
-Professional teams can directly take over survey, responsibility acceptance, D0 baseline, cost, professional review, rehearsal/maintenance and change control from the workbook; all four external decision bundles remain HOLD. [metric:p0_execution_form_count] [metric:p0_external_decision_bundle_count] [metric:p0_external_decision_bundle_hold_count]
+### 30-second P0 summary
 
-Capacity/egress, maintenance and restoration reserve now have fillable templates; the workbook itself is not field evidence or release. [metric:p0_capacity_egress_template_count] [metric:p0_maintenance_cycle_count] [metric:p0_restoration_reserve_template_count]
+> **P0-ALL-STOP-01 · `NOT_AUTHORIZED` · `HOLD`**
+> Protect the 3.0 m continuous slow route first; staffed, paper and telephone paths must open and close with AI. Package logic is 8/8 PASS, but this is not field performance. All four external decision bundles remain HOLD: real users; site and professional review; operations and stopping; actual cost and exit. Capacity is null, field-verified egress routes are zero, seventeen roles are unappointed, and formal total, funding, permission and restoration reserve do not exist.
+
+No professional evidence is removed: dense dimensions, tasks, BOQ, cost and acceptance move from fixed review figures into technical companions, while public quick-read figures keep one decision per panel. [metric:communication_public_fixed_figure_count] [metric:communication_technical_companion_figure_count]
+
+The three reading layers are fixed; twelve of twelve controlled bilingual checkpoints cover titles, states, key numbers and limitation language. This is not independent human translation or accessibility certification. [metric:communication_reader_layer_count] [metric:communication_bilingual_checkpoint_pair_ratio]
+
+Seven execution forms and eighteen receipt fields remain; the workbook itself is not field evidence or release. [metric:p0_execution_form_count] [metric:p0_external_evidence_receipt_field_count]
+
+The capacity/egress formula, four maintenance cycles and restoration-reserve template also remain, but each must be completed with real-world evidence. [metric:p0_capacity_egress_template_count] [metric:p0_maintenance_cycle_count]
 
 ## Design Basis and Source Inventory
 
@@ -204,7 +214,7 @@ The six evidence gates are **G0 tenure and statutory permission, G1 accessibilit
 
 The stable object ID is `P0-ALL-STOP-01`. v1.5 retains the v1.4 dimensions, tasks, quantities, roster, cost sensitivities and fail-closed controls, then packages survey, responsibility acceptance, D0 baseline, cost, professional review, rehearsal/maintenance and change control into seven fillable bilingual forms for professional takeover. The object remains bound only to concept-screening relationship `P0-CAND-01`, with no coordinates, parcel, right, permission or set-out authority; all 17 roles remain unappointed and formal price/funding remain `null/TBC`.
 
-![P0-ALL-STOP-01 site relation, plan, section, key interface, and conditional actions](assets/figures/key-areas.en.png)
+![P0-ALL-STOP-01 site relation, plan, section, key interface, and conditional actions](assets/figures/key-areas-technical.en.png)
 
 #### Dimension register: every number has a basis and confirmation trigger
 
@@ -452,7 +462,7 @@ Verified CAPEX, reserve amount and ring-fenced funding remain null/false. [metri
 
 The human workbook is `assets/media/p0-execution-workbook.md`; its machine mirror and deterministic receipt are `visual/assets/v15-execution-kit.json` and `visual/assets/v15-verification.json`. Form completeness can never open a field gate automatically.
 
-![P0 task chain, quantities, cost structure, and two-layer acceptance matrix](assets/figures/metrics-evidence.en.png)
+![P0 task chain, quantities, cost structure, and two-layer acceptance matrix](assets/figures/metrics-evidence-technical.en.png)
 
 ### Same task, group-by-group acceptance: averages cannot hide service failures experienced by any group
 

@@ -28,10 +28,14 @@
       ],
       "changed_files": [
         "submissions/Restless-One/jingzhang-slow-line/agent.json",
+        "submissions/Restless-One/jingzhang-slow-line/assets/figures/key-areas-technical.en.png",
+        "submissions/Restless-One/jingzhang-slow-line/assets/figures/key-areas-technical.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/key-areas.en.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/key-areas.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/land-use-structure.en.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/land-use-structure.png",
+        "submissions/Restless-One/jingzhang-slow-line/assets/figures/metrics-evidence-technical.en.png",
+        "submissions/Restless-One/jingzhang-slow-line/assets/figures/metrics-evidence-technical.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/metrics-evidence.en.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/metrics-evidence.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/mobility-bluegreen.en.png",
@@ -84,15 +88,18 @@
         "submissions/Restless-One/jingzhang-slow-line/visual/assets/v14-verification.json",
         "submissions/Restless-One/jingzhang-slow-line/visual/assets/v15-execution-kit.json",
         "submissions/Restless-One/jingzhang-slow-line/visual/assets/v15-verification.json",
+        "submissions/Restless-One/jingzhang-slow-line/visual/assets/v16-communication-audit.json",
+        "submissions/Restless-One/jingzhang-slow-line/visual/assets/v16-verification.json",
         "submissions/Restless-One/jingzhang-slow-line/visual/assets/verify-v14.js",
         "submissions/Restless-One/jingzhang-slow-line/visual/assets/verify-v15.js",
+        "submissions/Restless-One/jingzhang-slow-line/visual/assets/verify-v16.js",
         "submissions/Restless-One/jingzhang-slow-line/visual/index.en.html",
         "submissions/Restless-One/jingzhang-slow-line/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/Restless-One/jingzhang-slow-line": "formal"
       },
-      "total_bytes": 18497494,
+      "total_bytes": 18826285,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -172,7 +179,7 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 98,
+        "known_metric_refs_required": 104,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
@@ -180,7 +187,7 @@
           "standard": 5,
           "depth": 15,
           "data": 11,
-          "metric": 74
+          "metric": 78
         }
       }
     },

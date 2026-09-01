@@ -1596,6 +1596,91 @@
         "A-P0-COST-001"
       ],
       "reason": "Verified removable CAPEX, site-specific restoration, removal transport, waste treatment, closeout cost, funding authority, and ring-fencing are absent."
+    },
+    "communication_reader_layer_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/v16-communication-audit.json"
+      ],
+      "formula": "count(v16-communication-audit.reader_layers)",
+      "confidence": "high",
+      "assumptions": [
+        "A-COMMS-001"
+      ],
+      "interpretation": "Participant communication hierarchy: 30-second, 3-minute and professional evidence layers; not an accessibility certification."
+    },
+    "communication_public_fixed_figure_count": {
+      "status": "known",
+      "value": 2,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/v16-communication-audit.json"
+      ],
+      "formula": "count(v16 public_fixed_figures)",
+      "confidence": "high",
+      "assumptions": [
+        "A-COMMS-001"
+      ],
+      "interpretation": "Two fixed review figures are reserved for large-type public decisions; full technical evidence is retained separately."
+    },
+    "communication_technical_companion_figure_count": {
+      "status": "known",
+      "value": 2,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/v16-communication-audit.json"
+      ],
+      "formula": "count(v16 technical_companion_figures)",
+      "confidence": "high",
+      "assumptions": [
+        "A-COMMS-001"
+      ],
+      "interpretation": "Two technical companions preserve dimension, task, BOQ, cost, role and acceptance detail."
+    },
+    "communication_bilingual_checkpoint_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/v16-communication-audit.json"
+      ],
+      "formula": "count(v16 bilingual_controlled_checkpoints)",
+      "confidence": "high",
+      "assumptions": [
+        "A-COMMS-001"
+      ],
+      "interpretation": "Participant-controlled source-pair checkpoints for titles, states, numbers and limitation language; not independent human translation certification."
+    },
+    "communication_bilingual_checkpoint_pair_ratio": {
+      "status": "known",
+      "value": 1,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/v16-communication-audit.json"
+      ],
+      "formula": "paired bilingual controlled checkpoints / all controlled checkpoints",
+      "confidence": "high",
+      "assumptions": [
+        "A-COMMS-001"
+      ],
+      "interpretation": "All twelve controlled checkpoints are present in both source languages; substantive independent human review remains a later review responsibility."
+    },
+    "communication_public_figure_body_floor_canvas_px": {
+      "status": "known",
+      "value": 20,
+      "unit": "canvas_px",
+      "source_files": [
+        "visual/assets/v16-communication-audit.json",
+        "visual/assets/build-v13.js"
+      ],
+      "formula": "minimum configured body size in v1.6 public fixed-figure composition",
+      "confidence": "high",
+      "assumptions": [
+        "A-COMMS-001"
+      ],
+      "interpretation": "A 1600 x 1000 canvas composition control, not a physical print size, WCAG claim or universal accessibility result."
     }
   }
 }
