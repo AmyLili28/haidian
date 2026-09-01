@@ -58,7 +58,8 @@
         "visual/index.html"
       ],
       "source_ids": [
-        "SITE-PACKAGE"
+        "SITE-PACKAGE",
+        "HAIDIAN-1X1"
       ],
       "assumption_ids": [
         "ASSUM-002"
@@ -75,6 +76,7 @@
       "title_zh": "世界级AI创新生态构建",
       "mandatory": true,
       "report_sections": [
+        "统筹研究范围产业与未来城市研究",
         "AI 创新生态、人才画像与 AI+ 场景"
       ],
       "geojson_layers": [
@@ -90,7 +92,15 @@
         "visual/index.html"
       ],
       "source_ids": [
-        "AGENT-TASKBOOK"
+        "AGENT-TASKBOOK",
+        "CASE-STATION-F",
+        "CASE-MILA",
+        "CASE-MIT-MEDIA-LAB",
+        "CASE-DEEPMIND-KINGS-CROSS",
+        "CASE-QIANHAI",
+        "CASE-ONE-NORTH",
+        "CASE-SILICON-WADI",
+        "CASE-KASHIWANOHA"
       ],
       "assumption_ids": [
         "ASSUM-004"
@@ -124,7 +134,8 @@
         "visual/index.html"
       ],
       "source_ids": [
-        "PROVISIONAL-BOUNDARIES"
+        "PROVISIONAL-BOUNDARIES",
+        "BJ-KW-THREE-AREAS-WINGS"
       ],
       "assumption_ids": [
         "ASSUM-001"
@@ -471,7 +482,7 @@
     },
     {
       "requirement_id": "1.5.3.1",
-      "title_zh": "更新项目清单",
+      "title_zh": "更新项目清单与实施矩阵",
       "mandatory": true,
       "report_sections": [
         "更新项目清单、实施政策与分期计划"
@@ -563,7 +574,7 @@
       ],
       "source_ids": [
         "SITE-PACKAGE",
-        "BJ-GH-QUAL-PREANNOUNCEMENT"
+        "SOURCE-REGISTRY"
       ],
       "assumption_ids": [
         "ASSUM-002",
@@ -579,45 +590,53 @@
     },
     {
       "requirement_id": "agent.1",
-      "title_zh": "智能体任务一：概念生成与命名",
+      "title_zh": "一带总体概念与功能统筹方案设计（命名/品牌/三大定位/五大功能/三区两翼/总体结构/区域协同/综合规划）",
       "mandatory": true,
       "report_sections": [
-        "统筹研究范围产业与未来城市研究"
+        "统筹研究范围产业与未来城市研究",
+        "设计依据与资料清单"
       ],
       "geojson_layers": [
+        "geometry/site_boundary.geojson",
         "geometry/key_areas.geojson"
       ],
       "metrics": [
         "site_area_sqm"
       ],
       "drawings": [
+        "drawings/a3-booklet.pdf",
         "drawings/a0-boards.pdf"
       ],
       "visual_sections": [
         "visual/index.html"
       ],
       "source_ids": [
-        "AGENT-TASKBOOK"
+        "AGENT-TASKBOOK",
+        "BJ-KW-THREE-AREAS-WINGS",
+        "HAIDIAN-1X1"
       ],
       "assumption_ids": [
-        "ASSUM-004"
+        "ASSUM-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION"
       ],
       "standard_ids": [
-        "PROJECT-AGENT-OPEN-CALL-TASKBOOK"
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "PROJECT-OFFICIAL-ANNOUNCEMENT"
       ]
     },
     {
       "requirement_id": "agent.2",
-      "title_zh": "智能体任务二：全球案例研究转化",
+      "title_zh": "AI全栈自主创新体系与世界级AI创新生态设计（案例转化分析+生态图谱+要素机制）",
       "mandatory": true,
       "report_sections": [
-        "统筹研究范围产业与未来城市研究"
+        "统筹研究范围产业与未来城市研究",
+        "AI 创新生态、人才画像与 AI+ 场景"
       ],
       "geojson_layers": [
-        "geometry/site_boundary.geojson"
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson"
       ],
       "metrics": [
         "far"
@@ -629,10 +648,19 @@
         "visual/index.html"
       ],
       "source_ids": [
-        "AGENT-TASKBOOK"
+        "AGENT-TASKBOOK",
+        "CASE-STATION-F",
+        "CASE-MILA",
+        "CASE-MIT-MEDIA-LAB",
+        "CASE-DEEPMIND-KINGS-CROSS",
+        "CASE-QIANHAI",
+        "CASE-ONE-NORTH",
+        "CASE-SILICON-WADI",
+        "CASE-KASHIWANOHA"
       ],
       "assumption_ids": [
-        "ASSUM-002"
+        "ASSUM-002",
+        "ASSUM-004"
       ],
       "self_check_ids": [
         "PROFESSIONAL_EVIDENCE"
@@ -643,14 +671,15 @@
     },
     {
       "requirement_id": "agent.3",
-      "title_zh": "智能体任务三：AI场景卡与人才画像",
+      "title_zh": "AI+场景赋能新范式与智能化AI活力城市设计（12场景卡+5画像+场景-空间-运营映射+小月河翼）",
       "mandatory": true,
       "report_sections": [
-        "AI 创新生态、人才画像与 AI+ 场景"
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "交通、轨道、市政与公共服务设施"
       ],
       "geojson_layers": [
         "geometry/key_areas.geojson",
-        "geometry/buildings.geojson"
+        "geometry/public_space.geojson"
       ],
       "metrics": [
         "green_ratio"
@@ -676,14 +705,16 @@
     },
     {
       "requirement_id": "agent.4",
-      "title_zh": "智能体任务四：朝圣地标与公共艺术",
+      "title_zh": "AI公共空间、智能原生新业态与朝圣地标设计（地标目录+荣誉展示体系+组件库）",
       "mandatory": true,
       "report_sections": [
-        "蓝绿空间、公共空间与城市风貌"
+        "蓝绿空间、公共空间与城市风貌",
+        "重点区域详细设计"
       ],
       "geojson_layers": [
         "geometry/green_space.geojson",
-        "geometry/public_space.geojson"
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson"
       ],
       "metrics": [
         "public_space_ratio"
@@ -709,13 +740,14 @@
     },
     {
       "requirement_id": "agent.5",
-      "title_zh": "智能体任务五：分期实施与演化机制",
+      "title_zh": "百年京张文化、中关村文化与AI新文化融合叙事设计（文化叙事+导视符号系统+国际传播）",
       "mandatory": true,
       "report_sections": [
-        "更新项目清单、实施政策与分期计划"
+        "统筹研究范围产业与未来城市研究",
+        "参考资料"
       ],
       "geojson_layers": [
-        "geometry/phasing.geojson"
+        "geometry/constraints.geojson"
       ],
       "metrics": [
         "site_area_sqm"
@@ -727,13 +759,14 @@
         "visual/index.html"
       ],
       "source_ids": [
-        "AGENT-TASKBOOK"
+        "AGENT-TASKBOOK",
+        "REF-JINGZHANG-RAILWAY-PARK"
       ],
       "assumption_ids": [
-        "ASSUM-003"
+        "ASSUM-004"
       ],
       "self_check_ids": [
-        "SPATIAL_REVIEW"
+        "PROFESSIONAL_EVIDENCE"
       ],
       "standard_ids": [
         "PROJECT-AGENT-OPEN-CALL-TASKBOOK"
@@ -741,31 +774,30 @@
     },
     {
       "requirement_id": "agent.6",
-      "title_zh": "智能体任务六：自检与数据合规披露",
+      "title_zh": "一带全球AI创新活动体系与长期运营设计（年度活动+品牌+开发者社区+场景开放+转化路径）",
       "mandatory": true,
       "report_sections": [
-        "风险、版权与合规说明",
-        "指标体系、面积复算与合规矩阵"
+        "更新项目清单、实施政策与分期计划"
       ],
       "geojson_layers": [
-        "geometry/constraints.geojson"
+        "geometry/phasing.geojson"
       ],
       "metrics": [
-        "far",
-        "building_height_max"
+        "site_area_sqm"
       ],
       "drawings": [
+        "drawings/a3-booklet.pdf",
         "drawings/a3-booklet.en.pdf"
       ],
       "visual_sections": [
         "visual/index.html"
       ],
       "source_ids": [
-        "SOURCE-REGISTRY",
-        "AGENT-TASKBOOK"
+        "AGENT-TASKBOOK",
+        "CASE-KASHIWANOHA"
       ],
       "assumption_ids": [
-        "ASSUM-002"
+        "ASSUM-003"
       ],
       "self_check_ids": [
         "PROFESSIONAL_EVIDENCE"
