@@ -27,8 +27,6 @@ Exact parcels, ownership, utilities, heritage controls, road redlines, FAR, heig
 
 ![Three connections and overall space](assets/figures/site-overview.en.png)
 
-![Daylight public-interface conceptual rendering; not an observation or approved plan](assets/media/daytime-public-interface.webp)
-
 ## Three-Level Scope Framework
 
 The coordinated research scope asks how Haidian can organize research, industry, public service and global collaboration as a durable interface. The overall design scope asks how public space, slow mobility, functions and renewal projects become continuous within a provisional 11.4-square-kilometre model. The three key areas ask how a port is made, reviewed, first-used and retired in an actual place. One port registry connects all three scales. [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework]
@@ -61,17 +59,19 @@ Concept green and public-space ratios are 19.28% and 15.88%, both low-confidence
 
 At Zhongzhiyuan, Open Foundry is a public factory for full-stack independent R&D and safety validation. Its 24 make/validate ports include open-model evaluation, accessible human-machine co-walking and care navigation with human fallback. Tests provide a human-baseline desk, stop control, observation seat and review table. [data:geometry/key_areas.geojson#PROV-KEY-001] [data:visual/assets/evidence/scenario_nodes.json#K17]
 
+![Daylight concept view of Open Foundry: eight light roof bays unfold along the Jing-Zhang rail trace](assets/media/open-foundry.webp)
+
 In the AI Origin Community, the 64K Room overlays the 1994 internet connection, Tsinghuayuan railway heritage and near-campus open collaboration. One side shows evidence and open archives; the other hosts resident-researcher review. Its 24 ports require data limits, model limits, human alternatives and withdrawal, with an offline entrance every day. [data:geometry/key_areas.geojson#PROV-KEY-002] [source:SRC-CAS-64K-1994]
+
+![Daylight concept view of the 64K Room: a transparent public archive with an oval railway window](assets/media/64k-room.webp)
 
 At Dazhongsi, World Interface Hall handles public first use, global release and long-term archive. Its 16 ports require an ordinary first user, disabled user, service operator and independent reviewer. Connection Week publishes continuation, retirement and transfer decisions. [data:geometry/key_areas.geojson#PROV-KEY-003] [depth:three_key_area_detailed_design]
 
+![Daylight concept view of World Interface Hall: 64 pearl-white ribs, preserved rail and water mirror form a civic gateway](assets/media/world-interface-hall.webp)
+
+![Everyday daylight concept view: residents, disabled users, children and a service robot share the rail-side public interface](assets/media/daytime-public-interface.webp)
+
 ![Three differentiated landmarks](assets/figures/key-areas.en.png)
-
-![Daylight conceptual scene of Open Foundry](assets/media/open-foundry.webp)
-
-![Interior conceptual scene of the 64K Room](assets/media/64k-room.webp)
-
-![Daylight conceptual scene of World Interface Hall](assets/media/world-interface-hall.webp)
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 

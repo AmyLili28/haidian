@@ -27,8 +27,6 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ![三次连接与总体空间](assets/figures/site-overview.png)
 
-![白天公共接口概念渲染；非现状照片、非批准方案](assets/media/daytime-public-interface.webp)
-
 ## 三层范围工作框架
 
 统筹研究范围回答“海淀如何把科研、产业、公共服务和全球协作组织成可持续接口”；总体设计范围回答“约11.4平方公里临时范围内，公共空间、慢行、功能和更新项目如何形成连续系统”；三处重点区域回答“一个端口在具体场所里怎样制造、评议、首用并退出”。本案不把三层范围画成三个互不相干的圈，而用同一份端口注册表将战略、空间和运营贯通。[standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [depth:three_level_scope_framework]
@@ -61,17 +59,19 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 众智园的 **Open Foundry / 开源铸场** 不是炫技大厅，而是全栈自主研发和安全验证的公共工厂。24个端口以制造/验证为主，首发包括开放模型公共评测、无障碍人机共行、照护导航人工兜底等；每次测试都同时开放人工基线工位、停止按钮、观察席和复核桌。空间动作依赖众智园加速区与京张公共廊道，移到一般科技园便失去真实验证对象。[data:geometry/key_areas.geojson#PROV-KEY-001] [data:visual/assets/evidence/scenario_nodes.json#K17]
 
+![开源铸场白天概念效果图：八联轻盈屋脊沿京张铁轨展开](assets/media/open-foundry.webp)
+
 AI原点社区的 **64K Room / 64K源室** 将1994互联网接入史、清华园站铁路遗产和近校开放协作叠在一个可进入房间：一侧是64K历史证据和开源档案，一侧是居民与研究者共同评议的端口控制台。24个端口以开源/评议为主，任何模型必须说明训练与数据边界、能力限制、人工替代路径和撤回方式；房间每天都保留无需数字身份的线下入口。[data:geometry/key_areas.geojson#PROV-KEY-002] [source:SRC-CAS-64K-1994]
+
+![64K源室白天概念效果图：透明公共档案与椭圆铁路窗景](assets/media/64k-room.webp)
 
 大钟寺的 **World Interface Hall / 世界接口厅** 承担公共首用、全球发布和长期归档。16个端口不以新品发布会为终点，而要求首位普通使用者、残障使用者、公共服务运营者和独立复核员共同完成验证；Connection Week中，继续运行、退役和转移的决定当场公布。世界接口厅依赖大钟寺产业集聚区、轨道可达性和京张沿线的南部门户关系，不能复制成任何城市的会议中心。[data:geometry/key_areas.geojson#PROV-KEY-003] [depth:three_key_area_detailed_design]
 
+![世界接口厅白天概念效果图：64根珍珠白肋架、保留铁轨与水镜共同形成城市门户](assets/media/world-interface-hall.webp)
+
+![京张公共接口日常白天概念效果图：居民、残障使用者、儿童与机器人共用铁路公共面](assets/media/daytime-public-interface.webp)
+
 ![三地标与差异化端口角色](assets/figures/key-areas.png)
-
-![开源铸场白天概念场景](assets/media/open-foundry.webp)
-
-![64K源室室内概念场景](assets/media/64k-room.webp)
-
-![世界接口厅白天概念场景](assets/media/world-interface-hall.webp)
 
 ## AI 创新生态、人才画像与 AI+ 场景
 
