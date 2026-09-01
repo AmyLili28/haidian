@@ -172,7 +172,7 @@
       "path": "assumptions.json",
       "role": "assumptions",
       "required": true,
-      "sha256": "869ac2ed304a4b544d2be3b52399bf4d041b751087a7603471d45211897445a5"
+      "sha256": "d20b72276b2555103bea8f784e3ea58e96f6f6b4a07af4c0016dd24373e9f7eb"
     },
     {
       "path": "changelog.md",
@@ -340,7 +340,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "32dac198d3a45a0d87987dcf12858b5c8fb7650eeb5750ece7d0816b11d6a4f0"
+      "sha256": "5ff461a5153398637ee6e3c3c8fc0b5129cd7b78e0e663375f488f98a55f7555"
     },
     {
       "path": "sources.json",
