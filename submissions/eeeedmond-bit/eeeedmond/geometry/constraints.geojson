@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "name": "official_constraints_unavailable",
+  "features": [],
+  "data_gap": {
+    "status": "official_constraint_geometry_unavailable",
+    "assumption_ids": [
+      "A-CONTROLS-001"
+    ],
+    "missing_layers": [
+      "REGULATORY_CONTROL",
+      "HERITAGE_PROTECTION",
+      "PARCEL",
+      "EXISTING_PRIMARY_ROAD",
+      "EXISTING_RAIL",
+      "EXISTING_WATER",
+      "UTILITY_NETWORK"
+    ],
+    "note_zh": "组织方未提供可用于正式测算的控规、文保、权属、道路红线、建筑和市政几何；本包不推定这些锁定图层。",
+    "note_en": "No formal regulatory, heritage, cadastral, road-redline, building or utility geometry was supplied; locked layers are not inferred."
+  }
+}
