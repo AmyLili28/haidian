@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "name": "public_space",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PUB-001",
+      "properties": {
+        "id": "PUB-001",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "京张遗址公园公共空间活力带（临时概念）",
+        "area_sqm_calculated": 2432015.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3455,
+              39.94
+            ],
+            [
+              116.3485,
+              39.94
+            ],
+            [
+              116.3485,
+              40.026
+            ],
+            [
+              116.3455,
+              40.026
+            ],
+            [
+              116.3455,
+              39.94
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

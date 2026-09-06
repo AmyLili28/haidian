@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "assumption_id": "A-BOUNDARY-001",
+      "statement_zh": "组织方尚未发布官方总体边界与重点区域 polygon，本方案全部几何为 provisional 临时粗略约束，仅用于内容设计与机器校验；官方图形发布后必须整体复算。",
+      "statement_en": "No official boundary or key-area polygons are published yet; all geometry here is provisional and must be recomputed when official data arrives.",
+      "category": "boundary",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-CONTROLS-001",
+      "statement_zh": "轨道保护区、站城一体化控制条件与控规指标未知，本方案不给出任何具体数值结论，仅保留概念口径的示意。",
+      "statement_en": "Statutory control conditions are unknown; this proposal keeps concept-level indications only.",
+      "category": "statutory_control",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-DATA-001",
+      "statement_zh": "枢纽客流、接驳与商业数据仅作概念性匿名聚合引用，不替代官方统计，不涉及任何真实个体信息。",
+      "statement_en": "Hub passenger-flow data are concept-level anonymized references only, not official statistics.",
+      "category": "data_boundary",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-DESIGN-001",
+      "statement_zh": "枢光客厅、轨上枢台与枢合里设施均为原创概念建议，模块化可逆，不构成建设承诺。",
+      "statement_en": "All node facilities are original reversible conceptual proposals, not construction commitments.",
+      "category": "design_proposal",
+      "status": "concept"
+    },
+    {
+      "assumption_id": "A-PRIVACY-001",
+      "statement_zh": "安检客流通行辅助与排队引导及客流感知仅提供匿名聚合与人工复核兜底，法定安检由人工执行，AI仅辅助排队引导与分流，不设个体识别采集，不设无法人工终止的自动决定。",
+      "statement_en": "Station Flow Guidance & Queue Assistance: statutory screening remains outside the model and is performed by authorized personnel; AI processes anonymized aggregates for queue estimation and flow diversion only, with human review as backstop.",
+      "category": "privacy",
+      "status": "concept"
+    },
+    {
+      "assumption_id": "A-EVENT-001",
+      "statement_zh": "高铁快闪展、轨上交汇论坛与分期实施等均为建议性设计，不代表已确定的政府安排或投资承诺。",
+      "statement_en": "The event system and phasing are design suggestions, not confirmed government or investment commitments.",
+      "category": "operation",
+      "status": "concept"
+    },
+    {
+      "assumption_id": "A-REGION-001",
+      "statement_zh": "北纬社区、未来科学城、怀柔科学城、经开区及京津冀均为待确认协同接口，不预设已建立联系或数据共享。",
+      "statement_en": "Beiwei Community, Future Science City, Huairou Science City, E-Town and Beijing-Tianjin-Hebei are pending interfaces; no established relationship or data sharing is presumed.",
+      "category": "regional_interface",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-IMPLEMENTATION-001",
+      "statement_zh": "三个节点的选址、权属、结构、轨道安全、消防、客流、无障碍和维护条件均须现状调查及责任主体核验后才能进入示范。",
+      "statement_en": "Node siting, tenure, structure, rail safety, fire, flow, accessibility and maintenance conditions require survey and owner verification before a pilot.",
+      "category": "implementation",
+      "status": "accepted_limitation"
+    },
+    {
+      "assumption_id": "A-PUBLIC-001",
+      "statement_zh": "公共利益指标为试点验收阈值，不能替代居民协商、人工服务和法定审批。",
+      "statement_en": "Public-benefit metrics are pilot acceptance thresholds; they do not replace resident deliberation, staffed service or statutory approval.",
+      "category": "public_interest",
+      "status": "concept"
+    }
+  ]
+}

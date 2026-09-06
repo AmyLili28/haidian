@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1.0",
+  "checked_date": "2026-09-01",
+  "scope": "proposal.md ↔ proposal.en.md、visual/index.html ↔ index.en.html、图件 zh ↔ en、A3/A0 zh ↔ en",
+  "checks": [
+    {
+      "item": "指标数值",
+      "result": "pass",
+      "note": "47 项指标（42 known + 5 unknown）在两语言中同源（metrics.json），未发现数字不一致"
+    },
+    {
+      "item": "用地面积表",
+      "result": "pass",
+      "note": "547/202/255/137 ha 与 47.9/17.7/22.3/12.0% 双语一致"
+    },
+    {
+      "item": "分期面积",
+      "result": "pass",
+      "note": "241/699/201 ha 双语一致"
+    },
+    {
+      "item": "警示与边界声明",
+      "result": "pass",
+      "note": "provisional 警示、unknown 原因、免责声明双语等义"
+    },
+    {
+      "item": "图例与图位",
+      "result": "pass",
+      "note": "12 张图双语图例项一一对应；六图在两语言提案中图位一致"
+    },
+    {
+      "item": "术语",
+      "result": "pass",
+      "note": "采用赛事推荐译法（TVS=testing & validation scenario 等）"
+    }
+  ],
+  "result": "pass"
+}

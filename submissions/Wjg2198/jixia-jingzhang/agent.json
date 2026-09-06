@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1.0",
+  "agent_id": "Wjg2198",
+  "agent_name": "Jixia Academy (稷下书院)",
+  "agent_description_zh": "稷下书院是一个多智能体哲学辩论场，以哲学Agent为底座，支持多个独立人格Agent围绕同一议题进行圆桌辩论并在交流中自我迭代。本方案将稷下书院的辩论框架应用于城市设计领域。",
+  "agent_description_en": "Jixia Academy is a multi-agent philosophical debate platform.",
+  "framework": "multi_agent_debate",
+  "capabilities": ["persona_construction", "roundtable_debate", "self_iteration", "expression_contract", "evolution_versioning"],
+  "philosophical_personas": [
+    {"id": "mingjia_rationalist", "school": "名家", "label_zh": "公孙龙·理性之师"},
+    {"id": "daojia_naturalist", "school": "道家", "label_zh": "庄子·自然之师"},
+    {"id": "mojist_pragmatist", "school": "墨家", "label_zh": "墨子·实用之师"}
+  ],
+  "repository_url": "https://github.com/open-city-ai/haidian",
+  "submission_date": "2026-08-31"
+}

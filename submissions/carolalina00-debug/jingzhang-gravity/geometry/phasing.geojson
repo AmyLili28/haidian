@@ -1,0 +1,151 @@
+{
+  "type": "FeatureCollection",
+  "name": "jingzhang_gravity_phasing",
+  "metadata": {
+    "coordinate_reference_system": "EPSG:4326",
+    "area_calculation_crs": "EPSG:4548",
+    "design_status": "conceptual_reference_scheme",
+    "boundary_status": "provisional_rough"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PHASE-001",
+      "properties": {
+        "id": "PHASE-001",
+        "layer": "PHASE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "phase": "phase_1",
+        "name_zh": "公开原型与公共空间先行",
+        "area_sqm_declared": 4979198.562
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3407,
+              39.939
+            ],
+            [
+              116.33972777777777,
+              39.974
+            ],
+            [
+              116.35458,
+              39.974
+            ],
+            [
+              116.3553,
+              39.965
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.3407,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PHASE-002",
+      "properties": {
+        "id": "PHASE-002",
+        "layer": "PHASE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "phase": "phase_2",
+        "name_zh": "共创设施与街区有机更新",
+        "area_sqm_declared": 3522942.681
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3533,
+              39.99
+            ],
+            [
+              116.35458,
+              39.974
+            ],
+            [
+              116.33972777777777,
+              39.974
+            ],
+            [
+              116.3397,
+              39.975
+            ],
+            [
+              116.34144193548387,
+              40.002
+            ],
+            [
+              116.35395753424658,
+              40.002
+            ],
+            [
+              116.3533,
+              39.99
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PHASE-003",
+      "properties": {
+        "id": "PHASE-003",
+        "layer": "PHASE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "phase": "phase_3",
+        "name_zh": "长期研究生态与治理迭代",
+        "area_sqm_declared": 2910687.936
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35395753424658,
+              40.002
+            ],
+            [
+              116.34144193548387,
+              40.002
+            ],
+            [
+              116.3417,
+              40.006
+            ],
+            [
+              116.3427,
+              40.0265
+            ],
+            [
+              116.3553,
+              40.0265
+            ],
+            [
+              116.35395753424658,
+              40.002
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

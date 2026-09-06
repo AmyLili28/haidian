@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "constraints",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "CON-001",
+      "properties": {
+        "id": "CON-001",
+        "layer": "HERITAGE_PROTECTION",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "name_zh": "清华园车站旧址文保范围（近似定位，非官方红线）",
+        "constraint_type": "heritage_protection",
+        "confidence_note": "位置为公开资料近似，待官方文保 GIS 图层校正",
+        "area_sqm_calculated": 7541.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3406,
+              39.9915
+            ],
+            [
+              116.3414,
+              39.9915
+            ],
+            [
+              116.3414,
+              39.9925
+            ],
+            [
+              116.3406,
+              39.9925
+            ],
+            [
+              116.3406,
+              39.9915
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

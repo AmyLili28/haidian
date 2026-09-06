@@ -1,0 +1,410 @@
+{
+  "type": "FeatureCollection",
+  "name": "lived_line_walking_cycling_connections",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ROAD-001",
+      "properties": {
+        "id": "ROAD-001",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "ROAD_CENTERLINE",
+        "road_class": "greenway",
+        "name_zh": "生活实测主线",
+        "name_en": "Lived Line main greenway",
+        "status_note": "Conceptual alignment; confirm against official roads, rail, and property conditions."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3482415,
+            39.9415877
+          ],
+          [
+            116.3485196,
+            39.9467341
+          ],
+          [
+            116.348715,
+            39.95188
+          ],
+          [
+            116.348788,
+            39.9570252
+          ],
+          [
+            116.3487186,
+            39.9621696
+          ],
+          [
+            116.3485102,
+            39.9673132
+          ],
+          [
+            116.3481888,
+            39.9724562
+          ],
+          [
+            116.3477986,
+            39.9775988
+          ],
+          [
+            116.3473951,
+            39.9827413
+          ],
+          [
+            116.347036,
+            39.9878841
+          ],
+          [
+            116.3467718,
+            39.9930274
+          ],
+          [
+            116.3466374,
+            39.9981714
+          ],
+          [
+            116.3466468,
+            40.0033162
+          ],
+          [
+            116.3467905,
+            40.0084618
+          ],
+          [
+            116.3470373,
+            40.0136079
+          ],
+          [
+            116.3473389,
+            40.0187544
+          ],
+          [
+            116.3476384,
+            40.0239008
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-002",
+      "properties": {
+        "id": "ROAD-002",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "ROAD_CENTERLINE",
+        "road_class": "cycleway",
+        "name_zh": "连续骑行线",
+        "name_en": "Continuous cycling line",
+        "status_note": "Conceptual alignment; confirm against official roads, rail, and property conditions."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3486389,
+            39.9415749
+          ],
+          [
+            116.3489172,
+            39.9467232
+          ],
+          [
+            116.3491128,
+            39.9518738
+          ],
+          [
+            116.3491859,
+            39.9570251
+          ],
+          [
+            116.3491164,
+            39.962176
+          ],
+          [
+            116.3489079,
+            39.9673253
+          ],
+          [
+            116.3485862,
+            39.9724725
+          ],
+          [
+            116.3481959,
+            39.977617
+          ],
+          [
+            116.3477925,
+            39.9827588
+          ],
+          [
+            116.3474337,
+            39.9878983
+          ],
+          [
+            116.3471697,
+            39.9930365
+          ],
+          [
+            116.3470355,
+            39.9981742
+          ],
+          [
+            116.347045,
+            40.0033127
+          ],
+          [
+            116.3471886,
+            40.0084528
+          ],
+          [
+            116.3474352,
+            40.0135954
+          ],
+          [
+            116.3477367,
+            40.0187407
+          ],
+          [
+            116.3480363,
+            40.0238871
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-003",
+      "properties": {
+        "id": "ROAD-003",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "ROAD_CENTERLINE",
+        "road_class": "pedestrian",
+        "name_zh": "无传感器步行替代线",
+        "name_en": "Sensor-free walking alternative",
+        "status_note": "Conceptual alignment; confirm against official roads, rail, and property conditions."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.347844,
+            39.9416004
+          ],
+          [
+            116.3481221,
+            39.9467449
+          ],
+          [
+            116.3483173,
+            39.9518861
+          ],
+          [
+            116.3483901,
+            39.9570253
+          ],
+          [
+            116.3483207,
+            39.9621632
+          ],
+          [
+            116.3481126,
+            39.9673011
+          ],
+          [
+            116.3477913,
+            39.9724399
+          ],
+          [
+            116.3474013,
+            39.9775807
+          ],
+          [
+            116.3469977,
+            39.9827239
+          ],
+          [
+            116.3466384,
+            39.9878698
+          ],
+          [
+            116.3463738,
+            39.9930182
+          ],
+          [
+            116.3462393,
+            39.9981685
+          ],
+          [
+            116.3462487,
+            40.0033197
+          ],
+          [
+            116.3463925,
+            40.0084707
+          ],
+          [
+            116.3466394,
+            40.0136204
+          ],
+          [
+            116.346941,
+            40.0187681
+          ],
+          [
+            116.3472405,
+            40.0239145
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-X01",
+      "properties": {
+        "id": "ROAD-X01",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "ROAD_CENTERLINE",
+        "road_class": "transit_connection",
+        "name_zh": "横向生活接驳 1",
+        "name_en": "Everyday transverse connection 1",
+        "status_note": "Conceptual alignment; confirm against official roads, rail, and property conditions."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3403862,
+            39.9503004
+          ],
+          [
+            116.3553,
+            39.9503843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-X02",
+      "properties": {
+        "id": "ROAD-X02",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "ROAD_CENTERLINE",
+        "road_class": "transit_connection",
+        "name_zh": "横向生活接驳 2",
+        "name_en": "Everyday transverse connection 2",
+        "status_note": "Conceptual alignment; confirm against official roads, rail, and property conditions."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3399484,
+            39.9660607
+          ],
+          [
+            116.3552083,
+            39.9661466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-X03",
+      "properties": {
+        "id": "ROAD-X03",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "ROAD_CENTERLINE",
+        "road_class": "transit_connection",
+        "name_zh": "横向生活接驳 3",
+        "name_en": "Everyday transverse connection 3",
+        "status_note": "Conceptual alignment; confirm against official roads, rail, and property conditions."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3401967,
+            39.9827006
+          ],
+          [
+            116.353878,
+            39.9827776
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-X04",
+      "properties": {
+        "id": "ROAD-X04",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "ROAD_CENTERLINE",
+        "road_class": "transit_connection",
+        "name_zh": "横向生活接驳 4",
+        "name_en": "Everyday transverse connection 4",
+        "status_note": "Conceptual alignment; confirm against official roads, rail, and property conditions."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3412705,
+            39.9993451
+          ],
+          [
+            116.3538157,
+            39.9994157
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-X05",
+      "properties": {
+        "id": "ROAD-X05",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "ROAD_CENTERLINE",
+        "road_class": "transit_connection",
+        "name_zh": "横向生活接驳 5",
+        "name_en": "Everyday transverse connection 5",
+        "status_note": "Conceptual alignment; confirm against official roads, rail, and property conditions."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3421445,
+            40.0151127
+          ],
+          [
+            116.3546797,
+            40.0151832
+          ]
+        ]
+      }
+    }
+  ]
+}

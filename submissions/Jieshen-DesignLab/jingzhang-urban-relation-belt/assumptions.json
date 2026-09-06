@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "控规地块控制线与指标、道路红线、轨道线位与控制保护区、文物保护范围、生态控制线/蓝线/绿线、市政管线廊道等法定控制条件，截至提交时均未公开，必须在官方附件发布后由专业团队确认。",
+      "impact": "容积率、建筑高度、拆改留、工程线位与市政容量在本包中一律保持 unknown，不以设计模型值替代法定结论。"
+    },
+    {
+      "id": "A-CONSTRAINT-GAP-001",
+      "status": "declared_data_gap",
+      "statement": "geometry/constraints.geojson 不含任何法定管控几何。其中要素仅为 OpenStreetMap 提取的现状识别对象：轨道线位（运营 69 条、停用 8 条，另有 5 条已拆除线位降级为 analysis_helper 不作现状事实）与水体面 8 个。轨道线位不是铁路用地边界，也不是安全保护区法定范围。",
+      "impact": "本层的空缺是组织方数据缺口的真实反映，不得被读作已核查无约束；已拆除线位不得被读作现状轨道。"
+    },
+    {
+      "id": "A-BOUNDARY-PROVISIONAL-001",
+      "status": "provisional_data",
+      "statement": "site_boundary 与 key_areas 使用组织方提供的 provisional_rough 临时粗略边界，official_boundary=false。",
+      "impact": "site_area_sqm、green_ratio、public_space_ratio 等全部面积与比例均为低置信度设计模型值；官方红线发布后须整体复算。"
+    },
+    {
+      "id": "A-OSM-BASE-001",
+      "status": "third_party_open_data",
+      "statement": "现状建筑、道路、绿地、轨道与水体来自 OpenStreetMap（ODbL），覆盖完整性与更新时点未经实测核校。",
+      "impact": "现状类指标为背景值，不作为产权、面积、红线或法定控制依据。"
+    },
+    {
+      "id": "A-LANDUSE-CONCEPT-001",
+      "status": "conceptual_proposal",
+      "statement": "land_use.geojson 是覆盖临时边界的概念性用地结构建议，由京张廊道、三处重点区域与五个城市关系断面的分带逻辑生成。",
+      "impact": "用地代码为概念判断，不构成法定用地调整结论，也不对应具体地块。"
+    },
+    {
+      "id": "A-PUBLIC-SPACE-CONCEPT-001",
+      "status": "conceptual_proposal",
+      "statement": "public_space.geojson 的廊道 ±120m 控制带与站前 160–260m 到达空间为概念性控制带，用于表达公共空间骨架的量级关系。",
+      "impact": "public_space_ratio 是概念控制带占比，不是已建成公共空间统计值。"
+    },
+    {
+      "id": "A-PHASING-CONCEPT-001",
+      "status": "conceptual_proposal",
+      "statement": "phasing.geojson 的三期为按关系动作优先级排列的概念时序建议。",
+      "impact": "不构成开发时序、投资安排或审批时间表。"
+    },
+    {
+      "id": "A-TENURE-001",
+      "status": "not_public_data",
+      "statement": "土地权属、房屋性质、企业入驻与征收政策均非公开数据。",
+      "impact": "本包不作任何拆改留、产权或招商结论。"
+    },
+    {
+      "id": "A-VERTICAL-GEOMETRY-001",
+      "status": "unverified",
+      "statement": "京张跨北三环公共空间与 13 号线高架两套立体系统的相对高程无公开证据。",
+      "impact": "T1 断面明确标注该项为未核实，不预设桥下净空、坡道或地下通道几何。"
+    },
+    {
+      "id": "A-AGENT-TASK-CONCEPT-001",
+      "status": "conceptual_proposal",
+      "statement": "agent.1–agent.6 的命名、Logo 方向、生态案例转化机制、场景卡、用户画像、朝圣地标、文化叙事与年度活动体系，均为概念层建议。",
+      "impact": "不构成政府承诺、企业落位、投资安排、已批准活动或已确定运营主体。"
+    },
+    {
+      "id": "A-CORRIDOR-BOUNDARY-DIVERGENCE-001",
+      "status": "declared_source_conflict",
+      "statement": "组织方提供的临时粗略边界与京张铁路实际线位并不重合：京张主轴全长约 9.17 公里，落在本包 site_boundary 内的仅约 1.70 公里（18.6%）。两者自南向北逐渐分离，北端主轴位于临时边界以西约 1.1 公里。",
+      "impact": "public_space 的廊道控制带与慢行主廊道只能在边界内的 1.70 公里上表达，public_space_ratio 因此低估了走廊尺度上的实际公共空间骨架；正文关于「约 9 公里连续公共空间」的判断针对真实走廊，不针对本包提交边界。官方红线发布后必须整体复算。",
+      "evidence": "临时边界由公告文字四至＋约 11.4 平方公里面积反推得到（见 provisional_boundaries.geojson 的 derivation_method），其自身声明「道路名称仅用于粗略定位」；而京张主轴北段（lat 40.007–40.0265）在本方案的事实层中亦标注为「沿 razed 京包线北段方位角推定（待核）」。两端不确定性叠加在同一区段，因此本条登记为来源冲突而非任一方的错误。"
+    }
+  ]
+}

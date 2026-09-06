@@ -1,0 +1,1258 @@
+{
+  "schema_version": "1.0",
+  "matrix_id": "str_raci",
+  "title_zh": "STR-01—STR-08 运营 RACI 矩阵",
+  "title_en": "STR-01–STR-08 Operations RACI Matrix",
+  "status": "proposed_interface",
+  "authority_status": "not_confirmed",
+  "authority_status_zh": "概念治理接口，角色授权、资源和服务时段尚未核实",
+  "authority_status_en": "Concept governance interfaces; role authorization, resources, and service windows are not verified",
+  "partner_commitment": false,
+  "human_decision": "pending",
+  "service_window_status": "not_committed",
+  "maintenance_status": "to_be_authorized",
+  "resource_level_legend": {
+    "L0": {
+      "zh": "文档/人工基线",
+      "en": "document/manual baseline"
+    },
+    "L1": {
+      "zh": "可逆轻层",
+      "en": "reversible light layer"
+    },
+    "L2": {
+      "zh": "有条件试点",
+      "en": "conditional pilot"
+    },
+    "L3": {
+      "zh": "禁止承诺的 rollout 级别",
+      "en": "rollout level; commitment prohibited"
+    }
+  },
+  "raci_legend": {
+    "A": {
+      "zh": "唯一最终负责",
+      "en": "唯一 accountable"
+    },
+    "R": {
+      "zh": "执行或准备",
+      "en": "responsible for execution or preparation"
+    },
+    "C": {
+      "zh": "被征询",
+      "en": "consulted"
+    },
+    "I": {
+      "zh": "被告知",
+      "en": "informed"
+    }
+  },
+  "allowed_generic_roles": [
+    {
+      "role": "authorized_decision_owner",
+      "label_zh": "授权决策责任人",
+      "label_en": "authorized decision owner"
+    },
+    {
+      "role": "public_space_or_asset_steward",
+      "label_zh": "公共空间或资产管护人",
+      "label_en": "public-space or asset steward"
+    },
+    {
+      "role": "data_rights_steward",
+      "label_zh": "数据权利管护人",
+      "label_en": "data-rights steward"
+    },
+    {
+      "role": "technical_operator",
+      "label_zh": "技术运营者",
+      "label_en": "technical operator"
+    },
+    {
+      "role": "heritage_planning_reviewer",
+      "label_zh": "遗产与规划审查人",
+      "label_en": "heritage and planning reviewer"
+    },
+    {
+      "role": "accessibility_public_interest_reviewer",
+      "label_zh": "无障碍与公共利益审查人",
+      "label_en": "accessibility and public-interest reviewer"
+    },
+    {
+      "role": "independent_safety_reviewer",
+      "label_zh": "独立安全审查人",
+      "label_en": "independent safety reviewer"
+    },
+    {
+      "role": "program_coordinator",
+      "label_zh": "项目协调人",
+      "label_en": "program coordinator"
+    }
+  ],
+  "packages": [
+    {
+      "id": "STR-01",
+      "project": {
+        "name_zh": "遗产版本基底与资料校准协议",
+        "name_en": "Heritage version base and evidence-calibration protocol"
+      },
+      "space": {
+        "zh": "全带",
+        "en": "Beltwide"
+      },
+      "dependencies": {
+        "zh": "主管数据、清权史料、参考站、设备许可",
+        "en": "Authoritative data, cleared records, reference station, and device rights"
+      },
+      "exit_conditions": {
+        "zh": "无参考条件则只保留教育展示",
+        "en": "Without reference conditions, retain education display only"
+      },
+      "resource_level": "L0",
+      "resource_level_label_zh": "文档/人工基线",
+      "resource_level_label_en": "document/manual baseline",
+      "stage_refs": [
+        "phase_1_verify_base",
+        "phase_2_pilot_light_layers",
+        "phase_4_continuing_stewardship"
+      ],
+      "raci": {
+        "authorized_decision_owner": "A",
+        "data_rights_steward": "R",
+        "technical_operator": "R",
+        "heritage_planning_reviewer": "C",
+        "independent_safety_reviewer": "C",
+        "public_space_or_asset_steward": "I",
+        "accessibility_public_interest_reviewer": "I",
+        "program_coordinator": "I"
+      },
+      "acceptance_evidence": {
+        "evidence_to_create_zh": [
+          "来源登记与清权记录",
+          "参考条件与校准记录",
+          "版本日志和人工判断记录"
+        ],
+        "evidence_to_create_en": [
+          "provenance and rights register",
+          "reference-condition and calibration record",
+          "version log and human-decision record"
+        ],
+        "status": "pending"
+      },
+      "complaint_path": {
+        "zh": "经授权后提供人工联系人和纸质质疑入口；记录问题、回应和版本变化，不承诺服务时限。",
+        "en": "After authorization, provide a staffed contact and paper challenge route; record issues, responses, and version changes without a service-time commitment.",
+        "status": "to_be_authorized"
+      },
+      "rollback": {
+        "zh": "撤回未核验输出，恢复教育性静态展示和上一版已核读资料。",
+        "en": "Withdraw unverified output and restore the educational static display and the previous reviewed material."
+      },
+      "sunset": {
+        "zh": "官方资料替换临时记录、参考条件失效或权利到期时，停止该版本并按授权规则归档。",
+        "en": "Stop the version and archive it under the authorization rules when official material replaces provisional records, reference conditions lapse, or rights expire."
+      },
+      "service_window_status": "not_committed",
+      "maintenance_status": "to_be_authorized",
+      "partner_commitment": false,
+      "human_decision": "pending",
+      "implementation_control": {
+        "status": "planning_assumption_unverified",
+        "planning_cost_band": {
+          "currency": "CNY",
+          "low": 100000,
+          "high": 300000,
+          "display_zh": "10—30 万元/包",
+          "display_en": "CNY 0.10–0.30M per package",
+          "basis_zh": "资料清权、版本基底、参考条件校准与人工审读",
+          "basis_en": "rights clearance, version base, reference-condition calibration, and human review",
+          "status": "planning_range_not_quotation"
+        },
+        "service_capacity": {
+          "assumption_zh": "每轮最多审读 300 条资料记录；每周最多 1 次版本评审",
+          "assumption_en": "Up to 300 evidence records per review batch and one version review per week",
+          "status": "unverified_not_committed"
+        },
+        "milestones_90_day": [
+          {
+            "window": "D01-15",
+            "milestone_zh": "冻结资料清单、来源、权利、参考条件和唯一责任闸",
+            "milestone_en": "Freeze the evidence list, provenance, rights, reference conditions, and the single accountable gate",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D16-30",
+            "milestone_zh": "建立人工基线、版本编号和缺失证据清单",
+            "milestone_en": "Establish the human baseline, version identifiers, and missing-evidence list",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D31-60",
+            "milestone_zh": "以抽样记录演练校准、质疑、撤回和上一版恢复",
+            "milestone_en": "Rehearse calibration, challenge, withdrawal, and prior-version recovery with sampled records",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D61-75",
+            "milestone_zh": "完成权利、遗产、规划与安全交叉复核",
+            "milestone_en": "Complete cross-review for rights, heritage, planning, and safety",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D76-90",
+            "milestone_zh": "形成验收包；缺参考条件则只发布教育性静态版本",
+            "milestone_en": "Assemble the acceptance pack; publish only an educational static version if reference conditions are absent",
+            "acceptance_status": "pending_human_and_professional_review"
+          }
+        ],
+        "maintenance_cycle": {
+          "assumption_zh": "每月核查来源、权利、参考条件与版本；官方资料更新时立即复核",
+          "assumption_en": "Monthly source, rights, reference-condition, and version review; immediate review when official material changes",
+          "status": "to_be_authorized_and_resourced"
+        },
+        "acceptance_ref": "acceptance_evidence",
+        "stop_ref": "exit_conditions",
+        "rollback_ref": "rollback",
+        "sunset_ref": "sunset",
+        "human_decision": "pending",
+        "partner_commitment": false
+      }
+    },
+    {
+      "id": "STR-02",
+      "project": {
+        "name_zh": "众智园校准场轻层接口",
+        "name_en": "Zhongzhiyuan calibration-field light-layer interface"
+      },
+      "space": {
+        "zh": "北部",
+        "en": "North"
+      },
+      "dependencies": {
+        "zh": "业主、供电、网络、安全、环境专业",
+        "en": "Owner, power, network, safety, and environmental review"
+      },
+      "exit_conditions": {
+        "zh": "漂移、权利或运维缺位即停机/撤下",
+        "en": "Stop and remove on drift, rights, or maintenance gaps"
+      },
+      "resource_level": "L1",
+      "resource_level_label_zh": "可逆轻层",
+      "resource_level_label_en": "reversible light layer",
+      "stage_refs": [
+        "phase_1_verify_base",
+        "phase_2_pilot_light_layers"
+      ],
+      "raci": {
+        "public_space_or_asset_steward": "A",
+        "technical_operator": "R",
+        "independent_safety_reviewer": "C",
+        "data_rights_steward": "C",
+        "accessibility_public_interest_reviewer": "C",
+        "authorized_decision_owner": "I",
+        "heritage_planning_reviewer": "I",
+        "program_coordinator": "I"
+      },
+      "acceptance_evidence": {
+        "evidence_to_create_zh": [
+          "既有空间与资产授权记录",
+          "供电、网络和安全核查记录",
+          "设备共置、维护、撤下和静态替代记录"
+        ],
+        "evidence_to_create_en": [
+          "existing-space and asset authorization record",
+          "power, network, and safety check record",
+          "device co-location, maintenance, removal, and static-alternative record"
+        ],
+        "status": "pending"
+      },
+      "complaint_path": {
+        "zh": "经授权后提供现场人工联系人、纸质问题单和版本记录；未处理的安全或权利问题触发暂停，不承诺服务时限。",
+        "en": "After authorization, provide a staffed site contact, paper issue form, and version record; unresolved safety or rights issues trigger pause without a service-time commitment.",
+        "status": "to_be_authorized"
+      },
+      "rollback": {
+        "zh": "停止设备输出并撤下可移动组件，恢复人工说明、纸质记录和教育展示。",
+        "en": "Stop device output and remove movable components, restoring staffed explanation, paper records, and educational display."
+      },
+      "sunset": {
+        "zh": "空间或设备权利到期、漂移无法解释、维护责任缺失或投诉未处理时，停止版本并撤下组件。",
+        "en": "Stop the version and remove components when space or device rights expire, drift is unexplained, maintenance responsibility is missing, or complaints remain unresolved."
+      },
+      "service_window_status": "not_committed",
+      "maintenance_status": "to_be_authorized",
+      "partner_commitment": false,
+      "human_decision": "pending",
+      "implementation_control": {
+        "status": "planning_assumption_unverified",
+        "planning_cost_band": {
+          "currency": "CNY",
+          "low": 300000,
+          "high": 500000,
+          "display_zh": "30—50 万元/包",
+          "display_en": "CNY 0.30–0.50M per package",
+          "basis_zh": "可移动共置组件、供电网络准备、校准、安全和撤场预留",
+          "basis_en": "movable co-location components, power/network readiness, calibration, safety, and removal allowance",
+          "status": "planning_range_not_quotation"
+        },
+        "service_capacity": {
+          "assumption_zh": "每批最多 6 台候选设备、每日最多 3 批；仅在人工值守窗内运行",
+          "assumption_en": "Up to six candidate devices per batch and three batches per day, only during staffed windows",
+          "status": "unverified_not_committed"
+        },
+        "milestones_90_day": [
+          {
+            "window": "D01-15",
+            "milestone_zh": "核对空间、资产、供电、网络与环境专业前置条件",
+            "milestone_en": "Check space, asset, power, network, and environmental prerequisites",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D16-30",
+            "milestone_zh": "完成 14 天人工/参考基线和设备清单",
+            "milestone_en": "Complete a 14-day human/reference baseline and candidate-device register",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D31-60",
+            "milestone_zh": "在隔离沙盒演练共置、漂移告警、人工替代和撤下",
+            "milestone_en": "Rehearse co-location, drift alerts, staffed alternatives, and removal in an isolated sandbox",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D61-75",
+            "milestone_zh": "复核维护、投诉、安全间距与停机记录",
+            "milestone_en": "Review maintenance, complaint, safe-separation, and stop records",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D76-90",
+            "milestone_zh": "由唯一 A 决定进入授权尽调、修改、暂停或撤场",
+            "milestone_en": "The single A decides whether to enter authorised due diligence, modify, pause, or remove",
+            "acceptance_status": "pending_human_and_professional_review"
+          }
+        ],
+        "maintenance_cycle": {
+          "assumption_zh": "每批前校准与安全检查；每周维护；漂移、权利或隔离异常即时停机",
+          "assumption_en": "Calibration and safety check before every batch, weekly maintenance, and immediate stop for drift, rights, or separation failures",
+          "status": "to_be_authorized_and_resourced"
+        },
+        "acceptance_ref": "acceptance_evidence",
+        "stop_ref": "exit_conditions",
+        "rollback_ref": "rollback",
+        "sunset_ref": "sunset",
+        "human_decision": "pending",
+        "partner_commitment": false
+      }
+    },
+    {
+      "id": "STR-03",
+      "project": {
+        "name_zh": "原点社区共译场与借用库",
+        "name_en": "AI Origin civic-translation field and loan library"
+      },
+      "space": {
+        "zh": "中部",
+        "en": "Center"
+      },
+      "dependencies": {
+        "zh": "校园/社区同意、培训、无障碍、人工值守",
+        "en": "Campus/community consent, training, accessibility, and staffed duty"
+      },
+      "exit_conditions": {
+        "zh": "无人工责任人则停止公共建议",
+        "en": "Stop public advice without an accountable human duty holder"
+      },
+      "resource_level": "L1",
+      "resource_level_label_zh": "可逆轻层",
+      "resource_level_label_en": "reversible light layer",
+      "stage_refs": [
+        "phase_1_verify_base",
+        "phase_2_pilot_light_layers",
+        "phase_4_continuing_stewardship"
+      ],
+      "raci": {
+        "public_space_or_asset_steward": "A",
+        "program_coordinator": "R",
+        "accessibility_public_interest_reviewer": "R",
+        "data_rights_steward": "C",
+        "heritage_planning_reviewer": "C",
+        "technical_operator": "I",
+        "authorized_decision_owner": "I",
+        "independent_safety_reviewer": "I"
+      },
+      "acceptance_evidence": {
+        "evidence_to_create_zh": [
+          "校园/社区同意与数据权利记录",
+          "培训、无障碍和人工值守记录",
+          "纸质、静态、借用与删除路径记录"
+        ],
+        "evidence_to_create_en": [
+          "campus/community consent and data-rights record",
+          "training, accessibility, and staffed-duty record",
+          "paper, static, loan, and deletion-path record"
+        ],
+        "status": "pending"
+      },
+      "complaint_path": {
+        "zh": "经授权后提供共译工作台人工联系人、纸质质疑入口和删除请求路径；记录处理状态，不承诺服务时限。",
+        "en": "After authorization, provide a staffed civic-translation contact, paper challenge route, and deletion-request path; record handling state without a service-time commitment.",
+        "status": "to_be_authorized"
+      },
+      "rollback": {
+        "zh": "停止公共建议，恢复纸质教程、静态信息和人工讲解，并按授权规则处理借用记录。",
+        "en": "Stop public advice, restore paper tutorials, static information, and human explanation, and handle loan records under authorization rules."
+      },
+      "sunset": {
+        "zh": "同意、培训、无障碍或人工值守失效，或删除与投诉路径无法处理时，停止接口并撤回未核验内容。",
+        "en": "Stop the interface and withdraw unverified content when consent, training, accessibility, or staffed duty fails, or deletion and complaint paths cannot be handled."
+      },
+      "service_window_status": "not_committed",
+      "maintenance_status": "to_be_authorized",
+      "partner_commitment": false,
+      "human_decision": "pending",
+      "implementation_control": {
+        "status": "planning_assumption_unverified",
+        "planning_cost_band": {
+          "currency": "CNY",
+          "low": 200000,
+          "high": 500000,
+          "display_zh": "20—50 万元/包",
+          "display_en": "CNY 0.20–0.50M per package",
+          "basis_zh": "无障碍共译工作台、借用库、培训、纸质/语音替代与值守准备",
+          "basis_en": "accessible translation desk, loan library, training, paper/voice alternatives, and staffed-duty readiness",
+          "status": "planning_range_not_quotation"
+        },
+        "service_capacity": {
+          "assumption_zh": "每个值守窗最多 20 次辅助互动；未承诺日服务时长和开放频次",
+          "assumption_en": "Up to 20 assisted interactions per staffed window; daily service hours and opening frequency are not committed",
+          "status": "unverified_not_committed"
+        },
+        "milestones_90_day": [
+          {
+            "window": "D01-15",
+            "milestone_zh": "核对校园/社区同意、数据权利、无障碍和人工责任人",
+            "milestone_en": "Check campus/community consent, data rights, accessibility, and the accountable human duty holder",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D16-30",
+            "milestone_zh": "建立纸质、语音、静态与人工等效基线",
+            "milestone_en": "Establish paper, voice, static, and staffed-equivalent baselines",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D31-60",
+            "milestone_zh": "演练共译、借用、更新、过期、删除和质疑流程",
+            "milestone_en": "Rehearse translation, loan, update, expiry, deletion, and challenge flows",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D61-75",
+            "milestone_zh": "完成可访问性、内容风险和人工值守复核",
+            "milestone_en": "Complete accessibility, content-risk, and staffed-duty review",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D76-90",
+            "milestone_zh": "形成验收与停止包；无人工责任人即停止公共建议",
+            "milestone_en": "Assemble acceptance and stop packs; stop public advice without an accountable human",
+            "acceptance_status": "pending_human_and_professional_review"
+          }
+        ],
+        "maintenance_cycle": {
+          "assumption_zh": "每个值守窗开闭场检查；每周内容、无障碍、借用和删除路径复核",
+          "assumption_en": "Opening/closing check for each staffed window and weekly review of content, accessibility, loans, and deletion paths",
+          "status": "to_be_authorized_and_resourced"
+        },
+        "acceptance_ref": "acceptance_evidence",
+        "stop_ref": "exit_conditions",
+        "rollback_ref": "rollback",
+        "sunset_ref": "sunset",
+        "human_decision": "pending",
+        "partner_commitment": false
+      }
+    },
+    {
+      "id": "STR-04",
+      "project": {
+        "name_zh": "大钟寺转化场可逆试验",
+        "name_en": "Dazhongsi adoption-field reversible trial"
+      },
+      "space": {
+        "zh": "南部",
+        "en": "South"
+      },
+      "dependencies": {
+        "zh": "站点/物业、机电、消防、消费者权益",
+        "en": "Station/property, mechanical/fire review, and consumer rights"
+      },
+      "exit_conditions": {
+        "zh": "无等效非 AI 路径即停测",
+        "en": "Stop the trial without an equivalent non-AI path"
+      },
+      "resource_level": "L2",
+      "resource_level_label_zh": "有条件试点",
+      "resource_level_label_en": "conditional pilot",
+      "stage_refs": [
+        "phase_1_verify_base",
+        "phase_2_pilot_light_layers",
+        "phase_3_professional_iteration"
+      ],
+      "raci": {
+        "public_space_or_asset_steward": "A",
+        "technical_operator": "R",
+        "accessibility_public_interest_reviewer": "R",
+        "independent_safety_reviewer": "C",
+        "data_rights_steward": "C",
+        "authorized_decision_owner": "I",
+        "program_coordinator": "I",
+        "heritage_planning_reviewer": "I"
+      },
+      "acceptance_evidence": {
+        "evidence_to_create_zh": [
+          "站点/物业空间授权记录",
+          "机电、消防、无障碍与消费者权益审查记录",
+          "终端可用性、静态替代和投诉退出记录"
+        ],
+        "evidence_to_create_en": [
+          "station/property space authorization record",
+          "mechanical, fire, accessibility, and consumer-rights review record",
+          "terminal usability, static alternative, complaint, and exit record"
+        ],
+        "status": "pending"
+      },
+      "complaint_path": {
+        "zh": "经授权后提供现场人工联系人、纸质反馈和可关闭的提示入口；记录消费者权益和安全问题，不承诺服务时限。",
+        "en": "After authorization, provide a staffed site contact, paper feedback route, and a dismissible prompt entry; record consumer-rights and safety issues without a service-time commitment.",
+        "status": "to_be_authorized"
+      },
+      "rollback": {
+        "zh": "立即停止试验，撤下终端或提示，恢复等效非 AI 服务、纸质说明和人工值守。",
+        "en": "Stop the trial, remove the terminal or prompt, and restore the equivalent non-AI service, paper information, and staffed duty."
+      },
+      "sunset": {
+        "zh": "空间、机电、消防、消费者权益或人工服务条件失效，或等效非 AI 路径无法维持时，终止试验并移除组件。",
+        "en": "End the trial and remove components when space, mechanical, fire, consumer-rights, or staffed-service conditions fail, or the equivalent non-AI path cannot be maintained."
+      },
+      "service_window_status": "not_committed",
+      "maintenance_status": "to_be_authorized",
+      "partner_commitment": false,
+      "human_decision": "pending",
+      "implementation_control": {
+        "status": "planning_assumption_unverified",
+        "planning_cost_band": {
+          "currency": "CNY",
+          "low": 500000,
+          "high": 800000,
+          "display_zh": "50—80 万元/包",
+          "display_en": "CNY 0.50–0.80M per package",
+          "basis_zh": "可逆终端/前场组件、机电消防核查、消费者权益、人工等效服务与撤场",
+          "basis_en": "reversible terminal/forecourt components, mechanical/fire checks, consumer rights, staffed-equivalent service, and removal",
+          "status": "planning_range_not_quotation"
+        },
+        "service_capacity": {
+          "assumption_zh": "每日最多 8 名自愿参与者、每人不超过 30 分钟；仅在授权值守窗内",
+          "assumption_en": "Up to eight voluntary participants per day and 30 minutes per person, only during authorised staffed windows",
+          "status": "unverified_not_committed"
+        },
+        "milestones_90_day": [
+          {
+            "window": "D01-15",
+            "milestone_zh": "核对站点/物业、机电、消防、无障碍和消费者权益前置条件",
+            "milestone_en": "Check station/property, mechanical, fire, accessibility, and consumer-rights prerequisites",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D16-30",
+            "milestone_zh": "建立 10 天人工服务基线、同意/退出/删除路径和撤场方案",
+            "milestone_en": "Establish a 10-day staffed-service baseline, consent/exit/deletion routes, and a removal plan",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D31-60",
+            "milestone_zh": "在非公共沙盒演练终端可用性、失败提示和等效非 AI 路径",
+            "milestone_en": "Rehearse terminal usability, failure prompts, and an equivalent non-AI route in a non-public sandbox",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D61-75",
+            "milestone_zh": "完成安全、隐私、消费者权益、投诉与撤场演练",
+            "milestone_en": "Complete safety, privacy, consumer-rights, complaint, and removal rehearsals",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D76-90",
+            "milestone_zh": "由唯一 A 决定授权尽调、修改、暂停、回滚或退出",
+            "milestone_en": "The single A decides authorised due diligence, modification, pause, rollback, or exit",
+            "acceptance_status": "pending_human_and_professional_review"
+          }
+        ],
+        "maintenance_cycle": {
+          "assumption_zh": "每日开场前机电/消防/无障碍检查；每次会话后记录；重大事件即时停测",
+          "assumption_en": "Daily pre-opening mechanical, fire, and accessibility check; record after each session; immediate stop for major incidents",
+          "status": "to_be_authorized_and_resourced"
+        },
+        "acceptance_ref": "acceptance_evidence",
+        "stop_ref": "exit_conditions",
+        "rollback_ref": "rollback",
+        "sunset_ref": "sunset",
+        "human_decision": "pending",
+        "partner_commitment": false
+      }
+    },
+    {
+      "id": "STR-05",
+      "project": {
+        "name_zh": "六条东西接口现场审计",
+        "name_en": "Six east–west interface field audits"
+      },
+      "space": {
+        "zh": "总体范围",
+        "en": "Overall area"
+      },
+      "dependencies": {
+        "zh": "测绘、交通、无障碍、权属",
+        "en": "Survey, transport, accessibility, and tenure"
+      },
+      "exit_conditions": {
+        "zh": "不满足合法安全通行则绕行",
+        "en": "Reroute when lawful and safe passage is not met"
+      },
+      "resource_level": "L0",
+      "resource_level_label_zh": "文档/人工基线",
+      "resource_level_label_en": "document/manual baseline",
+      "stage_refs": [
+        "phase_1_verify_base",
+        "phase_3_professional_iteration"
+      ],
+      "raci": {
+        "authorized_decision_owner": "A",
+        "accessibility_public_interest_reviewer": "R",
+        "public_space_or_asset_steward": "C",
+        "independent_safety_reviewer": "C",
+        "heritage_planning_reviewer": "C",
+        "data_rights_steward": "I",
+        "technical_operator": "I",
+        "program_coordinator": "I"
+      },
+      "acceptance_evidence": {
+        "evidence_to_create_zh": [
+          "现场测绘、交通和无障碍审计记录",
+          "权属与通行来源记录",
+          "合法安全通行判断、绕行和静态导视记录"
+        ],
+        "evidence_to_create_en": [
+          "field survey, transport, and accessibility audit record",
+          "tenure and passage provenance record",
+          "lawful-safe passage decision, reroute, and static-wayfinding record"
+        ],
+        "status": "pending"
+      },
+      "complaint_path": {
+        "zh": "经授权后提供纸质通行问题单、人工联系人和版本记录；不安全通行投诉先触发人工复核，不承诺服务时限。",
+        "en": "After authorization, provide a paper passage issue form, staffed contact, and version record; unsafe-passage complaints first trigger human review without a service-time commitment.",
+        "status": "to_be_authorized"
+      },
+      "rollback": {
+        "zh": "撤回未核验的关系线或导视，恢复已确认的静态路径并采用人工绕行说明。",
+        "en": "Withdraw unverified relationship lines or wayfinding, restore the confirmed static path, and use staffed reroute explanation."
+      },
+      "sunset": {
+        "zh": "测绘、交通、无障碍或权属资料不能核验时，不发布审计结论；资料被正式替换时停止旧版本。",
+        "en": "Do not publish an audit conclusion when survey, transport, accessibility, or tenure material cannot be verified; stop the old version when formal material replaces it."
+      },
+      "service_window_status": "not_committed",
+      "maintenance_status": "to_be_authorized",
+      "partner_commitment": false,
+      "human_decision": "pending",
+      "implementation_control": {
+        "status": "planning_assumption_unverified",
+        "planning_cost_band": {
+          "currency": "CNY",
+          "low": 200000,
+          "high": 400000,
+          "display_zh": "20—40 万元/包",
+          "display_en": "CNY 0.20–0.40M per package",
+          "basis_zh": "六处接口的现场审计、测绘/交通/无障碍协同、绕行与静态导视准备",
+          "basis_en": "field audits for six interfaces, survey/transport/accessibility coordination, rerouting, and static wayfinding readiness",
+          "status": "planning_range_not_quotation"
+        },
+        "service_capacity": {
+          "assumption_zh": "每轮覆盖 6 条东西接口；单日仅审计 1—2 条接口并保留人工复核",
+          "assumption_en": "One round covers six east-west interfaces; only one or two interfaces are audited per day with human review",
+          "status": "unverified_not_committed"
+        },
+        "milestones_90_day": [
+          {
+            "window": "D01-15",
+            "milestone_zh": "冻结六处接口清单和待核测绘、交通、权属、无障碍问题",
+            "milestone_en": "Freeze the six-interface register and unresolved survey, transport, tenure, and accessibility questions",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D16-30",
+            "milestone_zh": "建立现状合法安全通行与人工绕行基线",
+            "milestone_en": "Establish the lawful-safe passage and staffed-reroute baseline",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D31-60",
+            "milestone_zh": "完成分批现场审计和冲突分级，不新增未经核实的道路承诺",
+            "milestone_en": "Complete phased field audits and conflict grading without adding unverified road commitments",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D61-75",
+            "milestone_zh": "由专业角色复核绕行、静态导视、投诉和撤回条件",
+            "milestone_en": "Professional roles review reroutes, static wayfinding, complaints, and withdrawal conditions",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D76-90",
+            "milestone_zh": "仅发布已核验接口；其余维持关系线或不发布",
+            "milestone_en": "Publish verified interfaces only; keep the rest as relationship lines or unpublished",
+            "acceptance_status": "pending_human_and_professional_review"
+          }
+        ],
+        "maintenance_cycle": {
+          "assumption_zh": "每次审计前更新资料；道路、施工、权属或通行条件变化时重新审计",
+          "assumption_en": "Refresh inputs before every audit and repeat the audit when street, construction, tenure, or passage conditions change",
+          "status": "to_be_authorized_and_resourced"
+        },
+        "acceptance_ref": "acceptance_evidence",
+        "stop_ref": "exit_conditions",
+        "rollback_ref": "rollback",
+        "sunset_ref": "sunset",
+        "human_decision": "pending",
+        "partner_commitment": false
+      }
+    },
+    {
+      "id": "STR-06",
+      "project": {
+        "name_zh": "十二原型可逆组件包",
+        "name_en": "Twelve prototype reversible component set"
+      },
+      "space": {
+        "zh": "节点",
+        "en": "Nodes"
+      },
+      "dependencies": {
+        "zh": "维护、版权、隐私、活动许可",
+        "en": "Maintenance, rights, privacy, and event permits"
+      },
+      "exit_conditions": {
+        "zh": "超期、失准或投诉未处理则撤下",
+        "en": "Remove when expired, inaccurate, or complaints are unresolved"
+      },
+      "resource_level": "L2",
+      "resource_level_label_zh": "有条件试点",
+      "resource_level_label_en": "conditional pilot",
+      "stage_refs": [
+        "phase_1_verify_base",
+        "phase_2_pilot_light_layers",
+        "phase_3_professional_iteration",
+        "phase_4_continuing_stewardship"
+      ],
+      "raci": {
+        "authorized_decision_owner": "A",
+        "technical_operator": "R",
+        "public_space_or_asset_steward": "R",
+        "data_rights_steward": "C",
+        "accessibility_public_interest_reviewer": "C",
+        "independent_safety_reviewer": "C",
+        "heritage_planning_reviewer": "I",
+        "program_coordinator": "I"
+      },
+      "acceptance_evidence": {
+        "evidence_to_create_zh": [
+          "组件、空间和维护授权记录",
+          "版权、隐私、活动许可和人工替代记录",
+          "十二原型逐项的人工闸、投诉、撤下和版本记录"
+        ],
+        "evidence_to_create_en": [
+          "component, space, and maintenance authorization record",
+          "rights, privacy, event-permit, and staffed-alternative record",
+          "per-prototype human gate, complaint, removal, and version record for all twelve prototypes"
+        ],
+        "status": "pending"
+      },
+      "complaint_path": {
+        "zh": "每个组件经授权后提供可见人工联系人、纸质质疑入口和撤下请求；记录投诉处理，不承诺服务时限。",
+        "en": "After authorization, each component provides a visible staffed contact, paper challenge route, and removal request; record complaint handling without a service-time commitment.",
+        "status": "to_be_authorized"
+      },
+      "rollback": {
+        "zh": "停用并撤下失准、超期或有权利问题的组件，恢复纸质、静态或人工路径。",
+        "en": "Disable and remove inaccurate, expired, or rights-affected components, restoring paper, static, or staffed paths."
+      },
+      "sunset": {
+        "zh": "组件期限到达、维护责任消失、权利到期、投诉无法处理或场景不再需要时，撤下并归档版本记录。",
+        "en": "Remove the component and archive the version record when its term ends, maintenance responsibility disappears, rights expire, complaints cannot be handled, or the scenario is no longer needed."
+      },
+      "service_window_status": "not_committed",
+      "maintenance_status": "to_be_authorized",
+      "partner_commitment": false,
+      "human_decision": "pending",
+      "implementation_control": {
+        "status": "planning_assumption_unverified",
+        "planning_cost_band": {
+          "currency": "CNY",
+          "low": 400000,
+          "high": 800000,
+          "display_zh": "40—80 万元/包",
+          "display_en": "CNY 0.40–0.80M per package",
+          "basis_zh": "十二原型的可移动组件、版权隐私复核、活动许可、维护和撤下储备",
+          "basis_en": "movable components for twelve prototypes, rights/privacy review, event permits, maintenance, and removal reserve",
+          "status": "planning_range_not_quotation"
+        },
+        "service_capacity": {
+          "assumption_zh": "原型库共 12 项；每处同时启用不超过 3 个组件，逐项通过人工闸",
+          "assumption_en": "The library contains 12 prototypes; no more than three components are active at one site, each passing a human gate",
+          "status": "unverified_not_committed"
+        },
+        "milestones_90_day": [
+          {
+            "window": "D01-15",
+            "milestone_zh": "逐项登记组件、空间、版权、隐私、活动许可和维护责任",
+            "milestone_en": "Register component, space, rights, privacy, event-permit, and maintenance responsibilities per prototype",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D16-30",
+            "milestone_zh": "建立纸质/静态/人工替代和组件撤下基线",
+            "milestone_en": "Establish paper/static/staffed alternatives and a component-removal baseline",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D31-60",
+            "milestone_zh": "选择最多 3 个代表组件做非公共装配、可用性和撤下演练",
+            "milestone_en": "Select up to three representative components for non-public assembly, usability, and removal rehearsals",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D61-75",
+            "milestone_zh": "复核维护、投诉、过期、失准和权利失效触发器",
+            "milestone_en": "Review maintenance, complaint, expiry, inaccuracy, and rights-lapse triggers",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D76-90",
+            "milestone_zh": "逐项形成 release/modify/pause/rollback/exit 建议，不默认扩散",
+            "milestone_en": "Produce release/modify/pause/rollback/exit recommendations per item without default diffusion",
+            "acceptance_status": "pending_human_and_professional_review"
+          }
+        ],
+        "maintenance_cycle": {
+          "assumption_zh": "每周巡检组件；每次活动前核查权利、隐私、无障碍、有效期和人工替代",
+          "assumption_en": "Weekly component inspection and a pre-event check of rights, privacy, accessibility, expiry, and staffed alternatives",
+          "status": "to_be_authorized_and_resourced"
+        },
+        "acceptance_ref": "acceptance_evidence",
+        "stop_ref": "exit_conditions",
+        "rollback_ref": "rollback",
+        "sunset_ref": "sunset",
+        "human_decision": "pending",
+        "partner_commitment": false
+      }
+    },
+    {
+      "id": "STR-07",
+      "project": {
+        "name_zh": "双语身份与铁路叙事系统",
+        "name_en": "Bilingual identity and railway narrative system"
+      },
+      "space": {
+        "zh": "公园节点",
+        "en": "Park nodes"
+      },
+      "dependencies": {
+        "zh": "文史、版权、双语译校",
+        "en": "History, rights, and bilingual translation review"
+      },
+      "exit_conditions": {
+        "zh": "史实/权利不能确认则不发布",
+        "en": "Withhold publication when history or rights cannot be confirmed"
+      },
+      "resource_level": "L0",
+      "resource_level_label_zh": "文档/人工基线",
+      "resource_level_label_en": "document/manual baseline",
+      "stage_refs": [
+        "phase_1_verify_base",
+        "phase_3_professional_iteration",
+        "phase_4_continuing_stewardship"
+      ],
+      "raci": {
+        "heritage_planning_reviewer": "A",
+        "program_coordinator": "R",
+        "data_rights_steward": "C",
+        "accessibility_public_interest_reviewer": "C",
+        "authorized_decision_owner": "I",
+        "public_space_or_asset_steward": "I",
+        "technical_operator": "I",
+        "independent_safety_reviewer": "I"
+      },
+      "acceptance_evidence": {
+        "evidence_to_create_zh": [
+          "史料来源与权利清单",
+          "双语人工译校记录",
+          "静态导视、替代文本和撤回版本记录"
+        ],
+        "evidence_to_create_en": [
+          "historical-source and rights register",
+          "bilingual human-translation review record",
+          "static wayfinding, alt-text, and withdrawal-version record"
+        ],
+        "status": "pending"
+      },
+      "complaint_path": {
+        "zh": "经授权后提供双语人工联系人、纸质质疑入口和史实/版权更正记录；不承诺服务时限。",
+        "en": "After authorization, provide a bilingual staffed contact, paper challenge route, and history/rights correction record without a service-time commitment.",
+        "status": "to_be_authorized"
+      },
+      "rollback": {
+        "zh": "撤下未经核实的事实或图像，恢复已核读的静态文字、纸质导览和人工讲解。",
+        "en": "Withdraw unverified facts or images and restore reviewed static text, the paper guide, and human interpretation."
+      },
+      "sunset": {
+        "zh": "史实、版权、译校或无障碍表达不能维持时，停止动态版本并保留可核验的静态记录。",
+        "en": "Stop the dynamic version and retain only verifiable static records when history, rights, translation, or accessible expression cannot be maintained."
+      },
+      "service_window_status": "not_committed",
+      "maintenance_status": "to_be_authorized",
+      "partner_commitment": false,
+      "human_decision": "pending",
+      "implementation_control": {
+        "status": "planning_assumption_unverified",
+        "planning_cost_band": {
+          "currency": "CNY",
+          "low": 100000,
+          "high": 300000,
+          "display_zh": "10—30 万元/包",
+          "display_en": "CNY 0.10–0.30M per package",
+          "basis_zh": "双语译校、铁路叙事清权、导视模块和版本归档",
+          "basis_en": "bilingual editing, railway-narrative rights clearance, wayfinding modules, and version archiving",
+          "status": "planning_range_not_quotation"
+        },
+        "service_capacity": {
+          "assumption_zh": "每轮最多 20 个双语叙事/导视模块；未核史实或权利项不进入发布批次",
+          "assumption_en": "Up to 20 bilingual narrative/wayfinding modules per batch; items with unverified facts or rights do not enter release",
+          "status": "unverified_not_committed"
+        },
+        "milestones_90_day": [
+          {
+            "window": "D01-15",
+            "milestone_zh": "冻结史实来源、版权、译校规范和不发布条件",
+            "milestone_en": "Freeze factual sources, rights, translation rules, and non-publication conditions",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D16-30",
+            "milestone_zh": "建立中文、英文、易读和无障碍基线样式",
+            "milestone_en": "Establish Chinese, English, plain-language, and accessible baseline styles",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D31-60",
+            "milestone_zh": "完成首批模块的译校、来源标注和静态原型",
+            "milestone_en": "Complete translation, provenance labels, and static prototypes for the first batch",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D61-75",
+            "milestone_zh": "由文史、版权、无障碍和公共利益角色交叉复核",
+            "milestone_en": "Cross-review by history, rights, accessibility, and public-interest roles",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D76-90",
+            "milestone_zh": "发布仅限已核条目；未核条目留白、暂停或撤回",
+            "milestone_en": "Release verified items only; leave blank, pause, or withdraw unverified items",
+            "acceptance_status": "pending_human_and_professional_review"
+          }
+        ],
+        "maintenance_cycle": {
+          "assumption_zh": "每月复核史实、权利、译文和可访问性；每季度归档发布版本",
+          "assumption_en": "Monthly review of facts, rights, translation, and accessibility, with quarterly release-version archiving",
+          "status": "to_be_authorized_and_resourced"
+        },
+        "acceptance_ref": "acceptance_evidence",
+        "stop_ref": "exit_conditions",
+        "rollback_ref": "rollback",
+        "sunset_ref": "sunset",
+        "human_decision": "pending",
+        "partner_commitment": false
+      }
+    },
+    {
+      "id": "STR-08",
+      "project": {
+        "name_zh": "开放挑战与版本运维工班",
+        "name_en": "Open challenge and version-maintenance crew"
+      },
+      "space": {
+        "zh": "三区两翼",
+        "en": "Three areas/two wings"
+      },
+      "dependencies": {
+        "zh": "运营主体、规则、资源另行确认",
+        "en": "Operator, rules, and resources to be confirmed"
+      },
+      "exit_conditions": {
+        "zh": "无责任主体则不对外承诺",
+        "en": "Make no public commitment without an accountable operator"
+      },
+      "resource_level": "L0",
+      "resource_level_label_zh": "文档/人工基线",
+      "resource_level_label_en": "document/manual baseline",
+      "stage_refs": [
+        "phase_1_verify_base",
+        "phase_4_continuing_stewardship"
+      ],
+      "raci": {
+        "program_coordinator": "A",
+        "data_rights_steward": "R",
+        "technical_operator": "R",
+        "authorized_decision_owner": "C",
+        "public_space_or_asset_steward": "C",
+        "independent_safety_reviewer": "C",
+        "heritage_planning_reviewer": "I",
+        "accessibility_public_interest_reviewer": "I"
+      },
+      "acceptance_evidence": {
+        "evidence_to_create_zh": [
+          "开放挑战规则、输入输出和退出记录",
+          "版本维护、投诉和回滚记录",
+          "责任主体、资源和人工判断授权记录"
+        ],
+        "evidence_to_create_en": [
+          "open-challenge rules, input/output, and exit record",
+          "version-maintenance, complaint, and rollback record",
+          "operator, resource, and human-decision authorization record"
+        ],
+        "status": "pending"
+      },
+      "complaint_path": {
+        "zh": "经授权后提供公开问题单、人工联系人和版本回滚入口；记录回应与sunset决定，不承诺服务时限。",
+        "en": "After authorization, provide a public issue form, staffed contact, and version-rollback entry; record responses and sunset decisions without a service-time commitment.",
+        "status": "to_be_authorized"
+      },
+      "rollback": {
+        "zh": "暂停未审查的挑战输入和版本发布，恢复上一版已核验材料与人工通道。",
+        "en": "Pause unreviewed challenge input and version release, restoring the last verified material and staffed channels."
+      },
+      "sunset": {
+        "zh": "责任主体、规则或资源无法确认，或公众问题无法处理时，停止对外开放并保留最小审计记录。",
+        "en": "Stop public opening and retain a minimal audit record when operator, rules, or resources cannot be confirmed, or public issues cannot be handled."
+      },
+      "service_window_status": "not_committed",
+      "maintenance_status": "to_be_authorized",
+      "partner_commitment": false,
+      "human_decision": "pending",
+      "implementation_control": {
+        "status": "planning_assumption_unverified",
+        "planning_cost_band": {
+          "currency": "CNY",
+          "low": 200000,
+          "high": 400000,
+          "display_zh": "20—40 万元/包",
+          "display_en": "CNY 0.20–0.40M per package",
+          "basis_zh": "开放质疑、版本台账、双语复盘、恢复演练和工班协调",
+          "basis_en": "open challenge, version ledger, bilingual review, recovery rehearsal, and crew coordination",
+          "status": "planning_range_not_quotation"
+        },
+        "service_capacity": {
+          "assumption_zh": "每季度最多 1 次完整版本复盘；问题量和响应时限均不承诺",
+          "assumption_en": "Up to one full version review per quarter; issue volume and response time are not committed",
+          "status": "unverified_not_committed"
+        },
+        "milestones_90_day": [
+          {
+            "window": "D01-15",
+            "milestone_zh": "定义质疑入口、问题分类、责任闸、版本号和停止规则",
+            "milestone_en": "Define challenge routes, issue classes, accountability gate, version identifiers, and stop rules",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D16-30",
+            "milestone_zh": "建立未承诺 SLA 的人工接收、分派和归档基线",
+            "milestone_en": "Establish a staffed intake, dispatch, and archive baseline without a committed SLA",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D31-60",
+            "milestone_zh": "以样例问题演练登记、回应、修改、暂停、回滚和退出",
+            "milestone_en": "Rehearse registration, response, modification, pause, rollback, and exit with sample issues",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D61-75",
+            "milestone_zh": "完成责任、资源、双语一致性和恢复演练复核",
+            "milestone_en": "Review responsibility, resources, bilingual consistency, and recovery rehearsal",
+            "acceptance_status": "pending_human_and_professional_review"
+          },
+          {
+            "window": "D76-90",
+            "milestone_zh": "无运营主体则保持内部台账；有授权后才开放对外机制",
+            "milestone_en": "Keep the ledger internal without an operator; open the external mechanism only after authorisation",
+            "acceptance_status": "pending_human_and_professional_review"
+          }
+        ],
+        "maintenance_cycle": {
+          "assumption_zh": "每月核对版本、责任、投诉和回滚台账；每季度做双语恢复演练",
+          "assumption_en": "Monthly version, responsibility, complaint, and rollback-ledger review, plus a quarterly bilingual recovery rehearsal",
+          "status": "to_be_authorized_and_resourced"
+        },
+        "acceptance_ref": "acceptance_evidence",
+        "stop_ref": "exit_conditions",
+        "rollback_ref": "rollback",
+        "sunset_ref": "sunset",
+        "human_decision": "pending",
+        "partner_commitment": false
+      }
+    }
+  ],
+  "annual_program": [
+    {
+      "program_id": "quarterly_calibration_and_scenario_review",
+      "activity": {
+        "zh": "季度校准与场景复盘",
+        "en": "Quarterly calibration and scenario review"
+      },
+      "object": {
+        "zh": "版本记录、校准证据、S01—S12 场景卡和退出问题",
+        "en": "Version records, calibration evidence, S01–S12 scenario cards, and exit questions"
+      },
+      "frequency": {
+        "zh": "季度（提议，未承诺）",
+        "en": "Quarterly (proposed, not committed)"
+      },
+      "responsibility": {
+        "generic_roles": [
+          "program_coordinator",
+          "technical_operator",
+          "data_rights_steward"
+        ],
+        "zh": "由项目协调人组织，技术运营者和数据权利管护人准备材料；不构成已安排的值守。",
+        "en": "The program coordinator would organize, with the technical operator and data-rights steward preparing material; this is not an arranged duty schedule."
+      },
+      "inputs_outputs": {
+        "inputs_zh": "版本日志、人工复核、投诉与退出记录",
+        "inputs_en": "Version logs, human reviews, complaints, and exit records",
+        "outputs_zh": "待审查的校准问题、场景修订建议和是否回滚的候选记录",
+        "outputs_en": "Reviewable calibration questions, scenario revision suggestions, and candidate rollback records"
+      },
+      "conversion": {
+        "zh": "经人工判断后，可把已核验问题转为下一版概念材料；不直接转为公共服务或工程结论。",
+        "en": "After human judgment, verified questions may become the next concept-material version; they do not directly become public service or engineering conclusions."
+      },
+      "exit": {
+        "zh": "无责任人、资料未清权、投诉未处理或人工路径失效时停止复盘并恢复静态记录。",
+        "en": "Stop the review and restore static records when there is no responsible person, material is uncleared, complaints are unresolved, or the staffed path fails."
+      },
+      "commitment_status": "proposed_not_committed",
+      "partner_commitment": false,
+      "human_decision": "pending"
+    },
+    {
+      "program_id": "semiannual_model_data_review",
+      "activity": {
+        "zh": "半年模型/数据审查",
+        "en": "Semiannual model/data audit"
+      },
+      "object": {
+        "zh": "模型卡、数据来源、许可、隔离、失败解释和删除路径",
+        "en": "Model cards, data provenance, rights, isolation, failure interpretation, and deletion paths"
+      },
+      "frequency": {
+        "zh": "半年（提议，未承诺）",
+        "en": "Semiannual (proposed, not committed)"
+      },
+      "responsibility": {
+        "generic_roles": [
+          "data_rights_steward",
+          "independent_safety_reviewer",
+          "technical_operator"
+        ],
+        "zh": "由数据权利管护人协调，独立安全审查人和技术运营者提供审查材料；不构成已安排的审查服务。",
+        "en": "The data-rights steward would coordinate, with the independent safety reviewer and technical operator supplying review material; this is not an arranged audit service."
+      },
+      "inputs_outputs": {
+        "inputs_zh": "版本化输入、模型卡、权利记录、失败和删除请求",
+        "inputs_en": "Versioned inputs, model cards, rights records, failures, and deletion requests",
+        "outputs_zh": "待审查的权利/安全问题、隔离或撤回建议和数据处理记录",
+        "outputs_en": "Reviewable rights/safety issues, isolation or withdrawal suggestions, and data-handling records"
+      },
+      "conversion": {
+        "zh": "只有在独立复核和授权人工判断后，才可形成下一版隔离实验材料；不得转为生产部署承诺。",
+        "en": "Only after independent review and authorized human judgment may material become the next isolated-experiment version; it must not become a production-deployment commitment."
+      },
+      "exit": {
+        "zh": "来源、许可、隔离、失败标准或删除路径不能确认时停止审查对象的运行并撤回相关输出。",
+        "en": "Stop the subject's run and withdraw related output when provenance, rights, isolation, failure criteria, or deletion path cannot be confirmed."
+      },
+      "commitment_status": "proposed_not_committed",
+      "partner_commitment": false,
+      "human_decision": "pending"
+    },
+    {
+      "program_id": "annual_open_challenge",
+      "activity": {
+        "zh": "年度开放挑战",
+        "en": "Annual open challenge"
+      },
+      "object": {
+        "zh": "公众、使用者与专业人员可质疑的版本、证据和退出问题",
+        "en": "Versions, evidence, and exit questions open to public, user, and professional challenge"
+      },
+      "frequency": {
+        "zh": "年度（提议，未承诺）",
+        "en": "Annual (proposed, not committed)"
+      },
+      "responsibility": {
+        "generic_roles": [
+          "program_coordinator",
+          "authorized_decision_owner",
+          "accessibility_public_interest_reviewer"
+        ],
+        "zh": "由项目协调人提出流程，授权决策责任人确认边界，无障碍与公共利益审查人检查可理解和可退出；不代表任何伙伴或活动已确定。",
+        "en": "The program coordinator would propose the process, the authorized decision owner would confirm boundaries, and the accessibility/public-interest reviewer would check legibility and exit; no partner or event is confirmed."
+      },
+      "inputs_outputs": {
+        "inputs_zh": "公开的版本日志、来源、人工判断、投诉和修订问题",
+        "inputs_en": "Public version logs, provenance, human decisions, complaints, and revision questions",
+        "outputs_zh": "可审查的问题单、候选修订、回滚或sunset记录",
+        "outputs_en": "Reviewable issue records and candidate revision, rollback, or sunset records"
+      },
+      "conversion": {
+        "zh": "经授权人工判断后，把可复核问题转入下一版概念治理材料；不把挑战结果表述为中选、批准或已落地。",
+        "en": "After authorized human judgment, move reviewable questions into the next concept-governance material; do not describe challenge results as selected, approved, or implemented."
+      },
+      "exit": {
+        "zh": "没有责任主体、规则、资源、投诉路径或安全审查时，不对外开放并停止版本发布。",
+        "en": "Do not open publicly and stop version release when an operator, rules, resources, complaint path, or safety review is absent."
+      },
+      "commitment_status": "proposed_not_committed",
+      "partner_commitment": false,
+      "human_decision": "pending"
+    }
+  ],
+  "source_refs": [
+    "submissions/SunLight87/jingzhang-breathing-rail/proposal.md#更新项目清单、实施政策与分期计划",
+    "submissions/SunLight87/jingzhang-breathing-rail/proposal.en.md#Renewal projects, implementation policy, and phasing",
+    "brief/site-package/agent_taskbook.json#required_agent_tasks.agent.6"
+  ],
+  "implementation_control_schema_version": "1.0.0",
+  "implementation_control_boundary": {
+    "zh": "成本、容量、服务窗口和维护周期均为参赛方案的规划级假设，不是报价、预算批复、伙伴承诺、场地授权、SLA 或部署证明；正式采用前须由真实责任人和专业条件复核。",
+    "en": "Cost, capacity, service windows, and maintenance cycles are planning-level assumptions for the competition proposal. They are not quotations, approved budgets, partner commitments, site authorisation, SLAs, or deployment evidence; real accountable owners and professional conditions must verify them before adoption."
+  },
+  "ninety_day_gate_sequence": [
+    "D01-15",
+    "D16-30",
+    "D31-60",
+    "D61-75",
+    "D76-90"
+  ]
+}

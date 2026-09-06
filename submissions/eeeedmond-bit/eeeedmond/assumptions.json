@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "The organiser did not supply statutory redlines, detailed control plans, building inventory, ownership, heritage-control geometry, roads, utilities, fire or flood-control conditions.",
+      "impact": "Related metrics are unknown. Reference estimates are low-confidence capacity studies only and must be recalculated when official information is available."
+    },
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "project_working_assumption",
+      "statement": "The user-confirmed Shapefile is used consistently as the project working boundary but is not presented as an official statutory boundary.",
+      "impact": "Spatial design remains eligible as conceptual work; statutory use and precise control calculation require official confirmation."
+    },
+    {
+      "id": "A-RENDER-001",
+      "status": "conceptual_visualisation",
+      "statement": "Conceptual renderings may infer building height, facade and detailed site conditions from satellite imagery and photographs.",
+      "impact": "Renderings communicate design intent only and are not existing-condition survey evidence."
+    },
+    {
+      "id": "A-DELIVERY-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Specific rights holders, property managers, operators, technical owners and professional reviewers have not been appointed at concept stage.",
+      "impact": "No pilot may open until all accountable roles are named and the four-stage entry gate in the proposal is documented. This is a future trigger, not evidence of current implementation."
+    },
+    {
+      "id": "A-GOVERNANCE-001",
+      "status": "pending_statutory_authorisation",
+      "statement": "The proposal's coordinating entity and responsibility tables are a recommended concept-stage governance model. No management committee, public authority, approval route, procurement route or performance owner is claimed to have been established or authorised.",
+      "impact": "All real institutions, duties, approvals, procurement and performance procedures must be confirmed through statutory authority and executed agreements before a pilot can change from HOLD to PASS."
+    },
+    {
+      "id": "A-COST-001",
+      "status": "pending_professional_confirmation",
+      "statement": "No bill of quantities, site connection survey, supplier quotations or operating contract was supplied.",
+      "impact": "The proposal provides broad low-confidence capital, operating and cost-recovery ranges for scale comparison only. Cost confirmation begins after sites and operators are selected and requires a bill of quantities, three quotations and a life-cycle cost review."
+    },
+    {
+      "id": "A-IMPLEMENTATION-ESTIMATE-001",
+      "status": "low_confidence_reference_estimate",
+      "statement": "Implementation quantities, electrical loads, network capacity, programme, capital cost, operating cost and benefit ranges are inferred from the S/M/L/XL concept family and adaptive-reuse strategy rather than measured site data.",
+      "impact": "All ranges are non-statutory and non-contractual. They exclude land acquisition, major structural reinforcement, large utility expansion and specialist heritage restoration, and must be recalculated after survey and professional design."
+    },
+    {
+      "id": "A-OPERATIONS-001",
+      "status": "project_working_assumption",
+      "statement": "Operational performance targets beyond accountability and safety gates require a real pilot baseline.",
+      "impact": "Demand response, repeat use, participation and conversion targets will be calibrated after the first 90-day pilot rather than fabricated in advance."
+    }
+  ]
+}

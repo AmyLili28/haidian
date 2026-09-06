@@ -1,0 +1,516 @@
+{
+  "type": "FeatureCollection",
+  "name": "jingzhang_gravity_buildings",
+  "metadata": {
+    "coordinate_reference_system": "EPSG:4326",
+    "area_calculation_crs": "EPSG:4548",
+    "design_status": "conceptual_reference_scheme",
+    "boundary_status": "provisional_rough"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLDG-001",
+      "properties": {
+        "id": "BLDG-001",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "lab",
+        "name_zh": "开放评测实验坊",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27036.412
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34385,
+              40.01838
+            ],
+            [
+              116.34385,
+              40.019619999999996
+            ],
+            [
+              116.34615,
+              40.019619999999996
+            ],
+            [
+              116.34615,
+              40.01838
+            ],
+            [
+              116.34385,
+              40.01838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-002",
+      "properties": {
+        "id": "BLDG-002",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "ai_r_and_d",
+        "name_zh": "具身安全验证坊",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27036.374
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34985,
+              40.01838
+            ],
+            [
+              116.34985,
+              40.019619999999996
+            ],
+            [
+              116.35215,
+              40.019619999999996
+            ],
+            [
+              116.35215,
+              40.01838
+            ],
+            [
+              116.34985,
+              40.01838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-003",
+      "properties": {
+        "id": "BLDG-003",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "incubator",
+        "name_zh": "硬件诊所",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27038.753
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34365000000001,
+              40.01238
+            ],
+            [
+              116.34365000000001,
+              40.013619999999996
+            ],
+            [
+              116.34595,
+              40.013619999999996
+            ],
+            [
+              116.34595,
+              40.01238
+            ],
+            [
+              116.34365000000001,
+              40.01238
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-004",
+      "properties": {
+        "id": "BLDG-004",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "name_zh": "负责任AI公议厅",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27038.712
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35005000000001,
+              40.01238
+            ],
+            [
+              116.35005000000001,
+              40.013619999999996
+            ],
+            [
+              116.35235,
+              40.013619999999996
+            ],
+            [
+              116.35235,
+              40.01238
+            ],
+            [
+              116.35005000000001,
+              40.01238
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-005",
+      "properties": {
+        "id": "BLDG-005",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "education",
+        "name_zh": "全球共创营",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27047.722
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34335,
+              39.989380000000004
+            ],
+            [
+              116.34335,
+              39.99062
+            ],
+            [
+              116.34564999999999,
+              39.99062
+            ],
+            [
+              116.34564999999999,
+              39.989380000000004
+            ],
+            [
+              116.34335,
+              39.989380000000004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-006",
+      "properties": {
+        "id": "BLDG-006",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "mixed_use",
+        "name_zh": "多语科学会客厅",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27047.682
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34965000000001,
+              39.989380000000004
+            ],
+            [
+              116.34965000000001,
+              39.99062
+            ],
+            [
+              116.35195,
+              39.99062
+            ],
+            [
+              116.35195,
+              39.989380000000004
+            ],
+            [
+              116.34965000000001,
+              39.989380000000004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-007",
+      "properties": {
+        "id": "BLDG-007",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "community_service",
+        "name_zh": "包容学习与健康导航",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27049.476
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34335,
+              39.984880000000004
+            ],
+            [
+              116.34335,
+              39.98612
+            ],
+            [
+              116.34564999999999,
+              39.98612
+            ],
+            [
+              116.34564999999999,
+              39.984880000000004
+            ],
+            [
+              116.34335,
+              39.984880000000004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-008",
+      "properties": {
+        "id": "BLDG-008",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "talent_apartment",
+        "name_zh": "青年共居客厅",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27049.436
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34965000000001,
+              39.984880000000004
+            ],
+            [
+              116.34965000000001,
+              39.98612
+            ],
+            [
+              116.35195,
+              39.98612
+            ],
+            [
+              116.35195,
+              39.984880000000004
+            ],
+            [
+              116.34965000000001,
+              39.984880000000004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-009",
+      "properties": {
+        "id": "BLDG-009",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "retail",
+        "name_zh": "AI原生市集",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27063.695
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34365000000001,
+              39.94838
+            ],
+            [
+              116.34365000000001,
+              39.949619999999996
+            ],
+            [
+              116.34595,
+              39.949619999999996
+            ],
+            [
+              116.34595,
+              39.94838
+            ],
+            [
+              116.34365000000001,
+              39.94838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-010",
+      "properties": {
+        "id": "BLDG-010",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "cultural",
+        "name_zh": "铁路文化共创馆",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27063.656
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34985,
+              39.94838
+            ],
+            [
+              116.34985,
+              39.949619999999996
+            ],
+            [
+              116.35215,
+              39.949619999999996
+            ],
+            [
+              116.35215,
+              39.94838
+            ],
+            [
+              116.34985,
+              39.94838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-011",
+      "properties": {
+        "id": "BLDG-011",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "mobility_hub",
+        "name_zh": "首发场接驳厅",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27065.253
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34365000000001,
+              39.94438
+            ],
+            [
+              116.34365000000001,
+              39.94562
+            ],
+            [
+              116.34595,
+              39.94562
+            ],
+            [
+              116.34595,
+              39.94438
+            ],
+            [
+              116.34365000000001,
+              39.94438
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLDG-012",
+      "properties": {
+        "id": "BLDG-012",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "building_type": "mixed_use",
+        "name_zh": "国际发布工作室",
+        "update_strategy": "conceptual_reuse_or_infill_subject_to_survey",
+        "area_sqm_declared": 27065.213
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34985,
+              39.94438
+            ],
+            [
+              116.34985,
+              39.94562
+            ],
+            [
+              116.35215,
+              39.94562
+            ],
+            [
+              116.35215,
+              39.94438
+            ],
+            [
+              116.34985,
+              39.94438
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

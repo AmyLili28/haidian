@@ -1,0 +1,1799 @@
+{
+  "schema_version": "0.1.0",
+  "accessed_date": "2026-09-02",
+  "sources": [
+    {
+      "id": "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+      "title": "百年京张AI创新带城市设计国际方案征集资格预审公告",
+      "publisher": "北京市规划和自然资源委员会海淀分局",
+      "published_date": "2026-05-09",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "authority_level": "A0",
+      "retrieved_at": "2026-09-02",
+      "license": "政府公开政务信息，可引用",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
+      "usable_for": [
+        "官方项目名称",
+        "官方文本四至",
+        "官方约面积",
+        "设计任务"
+      ],
+      "not_usable_for": [
+        "official redline",
+        "法定规划控制",
+        "工程可行性",
+        "政府实施承诺"
+      ],
+      "verification": {
+        "method": "carried_forward_not_reverified",
+        "accessed_at": "2026-09-02",
+        "page_locations": [
+          {
+            "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+            "supports": [
+              "官方项目名称",
+              "官方文本四至",
+              "官方约面积",
+              "设计任务"
+            ],
+            "quote": null
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "见 metrics.json 与 proposal.md 对应 [source:] 标注",
+        "note": "本条在 2026-09-02 的合规复核中未重新抓取正文，仅沿用既有登记信息；URL 与发布主体以原始登记为准。",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "北京市规划和自然资源委员会海淀分局",
+        "attribution": "北京市规划和自然资源委员会海淀分局《百年京张AI创新带城市设计国际方案征集资格预审公告》，访问日期 2026-09-02",
+        "license": "政府公开政务信息，可引用",
+        "license_url": null,
+        "redistributable": true,
+        "reuse_scope": "引用官方项目名称、文本四至、约面积与设计任务"
+      }
+    },
+    {
+      "id": "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+      "title": "“三区两翼”打造世界级AI集聚地",
+      "publisher": "北京市科委、中关村管委会",
+      "published_date": "2026-04-03",
+      "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtcyfz/202604/t20260403_4573808.html",
+      "authority_level": "A1",
+      "retrieved_at": "2026-09-02",
+      "license": "政府公开政务信息，可引用",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
+      "usable_for": [
+        "三区两翼叙事",
+        "产业生态背景"
+      ],
+      "not_usable_for": [
+        "官方边界",
+        "法定控制"
+      ],
+      "verification": {
+        "method": "carried_forward_not_reverified",
+        "accessed_at": "2026-09-02",
+        "page_locations": [
+          {
+            "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtcyfz/202604/t20260403_4573808.html",
+            "supports": [
+              "三区两翼叙事",
+              "产业生态背景"
+            ],
+            "quote": null
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "见 metrics.json 与 proposal.md 对应 [source:] 标注",
+        "note": "本条在 2026-09-02 的合规复核中未重新抓取正文，仅沿用既有登记信息；URL 与发布主体以原始登记为准。",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "北京市科委、中关村管委会",
+        "attribution": "北京市科委、中关村管委会《“三区两翼”打造世界级AI集聚地》，访问日期 2026-09-02",
+        "license": "政府公开政务信息，可引用",
+        "license_url": null,
+        "redistributable": true,
+        "reuse_scope": "三区两翼叙事与产业生态背景"
+      }
+    },
+    {
+      "id": "SRC-2026-HAIDIAN-1X1",
+      "title": "海淀区“1+X+1”现代化产业体系建设布局",
+      "publisher": "北京市海淀区人民政府",
+      "published_date": "2026-03-02",
+      "url": "https://www.bjhd.gov.cn/ztzx/2026/2026jjshgzlfzdh/yw/202603/t20260303_4806875.shtml",
+      "authority_level": "A1",
+      "retrieved_at": "2026-09-02",
+      "license": "政府公开政务信息，可引用",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
+      "usable_for": [
+        "产业定位",
+        "AI核心产业"
+      ],
+      "not_usable_for": [
+        "官方边界"
+      ],
+      "verification": {
+        "method": "carried_forward_not_reverified",
+        "accessed_at": "2026-09-02",
+        "page_locations": [
+          {
+            "url": "https://www.bjhd.gov.cn/ztzx/2026/2026jjshgzlfzdh/yw/202603/t20260303_4806875.shtml",
+            "supports": [
+              "产业定位",
+              "AI核心产业"
+            ],
+            "quote": null
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "见 metrics.json 与 proposal.md 对应 [source:] 标注",
+        "note": "本条在 2026-09-02 的合规复核中未重新抓取正文，仅沿用既有登记信息；URL 与发布主体以原始登记为准。",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "北京市海淀区人民政府",
+        "attribution": "北京市海淀区人民政府《海淀区“1+X+1”现代化产业体系建设布局》，访问日期 2026-09-02",
+        "license": "政府公开政务信息，可引用",
+        "license_url": null,
+        "redistributable": true,
+        "reuse_scope": "产业定位与 AI 核心产业表述"
+      }
+    },
+    {
+      "id": "SRC-2017-MOHURD-URBAN-DESIGN-MEASURES",
+      "title": "城市设计管理办法",
+      "publisher": "住房城乡建设部",
+      "published_date": "2017-03-14",
+      "url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2023/art_17339_775476.html",
+      "authority_level": "A0",
+      "retrieved_at": "2026-09-02",
+      "license": "部委规章，公开发布",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
+      "usable_for": [
+        "城市设计目的与范围",
+        "公共空间与风貌要求"
+      ],
+      "not_usable_for": [
+        "具体地块条件"
+      ],
+      "verification": {
+        "method": "carried_forward_not_reverified",
+        "accessed_at": "2026-09-02",
+        "page_locations": [
+          {
+            "url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2023/art_17339_775476.html",
+            "supports": [
+              "城市设计目的与范围",
+              "公共空间与风貌要求"
+            ],
+            "quote": null
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "见 metrics.json 与 proposal.md 对应 [source:] 标注",
+        "note": "本条在 2026-09-02 的合规复核中未重新抓取正文，仅沿用既有登记信息；URL 与发布主体以原始登记为准。",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "住房城乡建设部",
+        "attribution": "住房城乡建设部《城市设计管理办法》（2017），访问日期 2026-09-02",
+        "license": "部委规章，公开发布",
+        "license_url": null,
+        "redistributable": true,
+        "reuse_scope": "城市设计目的与范围、公共空间与风貌要求"
+      }
+    },
+    {
+      "id": "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+      "title": "城市、镇控制性详细规划编制审批办法",
+      "publisher": "住房城乡建设部",
+      "url": "https://www.gov.cn/zhengce/2022-01/25/content_5711967.htm",
+      "authority_level": "A0",
+      "retrieved_at": "2026-09-02",
+      "license": "部委规章，公开发布",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
+      "usable_for": [
+        "控规深度参考",
+        "已知控制vs待确认区分"
+      ],
+      "not_usable_for": [
+        "具体地块控规条件（缺失）"
+      ],
+      "verification": {
+        "method": "carried_forward_not_reverified",
+        "accessed_at": "2026-09-02",
+        "page_locations": [
+          {
+            "url": "https://www.gov.cn/zhengce/2022-01/25/content_5711967.htm",
+            "supports": [
+              "控规深度参考",
+              "已知控制vs待确认区分"
+            ],
+            "quote": null
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "见 metrics.json 与 proposal.md 对应 [source:] 标注",
+        "note": "本条在 2026-09-02 的合规复核中未重新抓取正文，仅沿用既有登记信息；URL 与发布主体以原始登记为准。",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "住房城乡建设部",
+        "attribution": "住房城乡建设部《城市、镇控制性详细规划编制审批办法》，访问日期 2026-09-02",
+        "license": "部委规章，公开发布",
+        "license_url": null,
+        "redistributable": true,
+        "reuse_scope": "控规深度参考与「已知控制 vs 待确认」区分"
+      }
+    },
+    {
+      "id": "SRC-2023-MNR-LAND-USE-CLASSIFICATION",
+      "title": "国土空间调查、规划、用途管制用地用海分类指南",
+      "publisher": "自然资源部",
+      "published_date": "2023-11-22",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202311/content_6917279.htm",
+      "authority_level": "A0",
+      "retrieved_at": "2026-09-02",
+      "license": "部委指南，公开发布",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
+      "usable_for": [
+        "用地分类代码"
+      ],
+      "not_usable_for": [
+        "自造分类替代"
+      ],
+      "verification": {
+        "method": "carried_forward_not_reverified",
+        "accessed_at": "2026-09-02",
+        "page_locations": [
+          {
+            "url": "https://www.gov.cn/zhengce/zhengceku/202311/content_6917279.htm",
+            "supports": [
+              "用地分类代码"
+            ],
+            "quote": null
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "见 metrics.json 与 proposal.md 对应 [source:] 标注",
+        "note": "本条在 2026-09-02 的合规复核中未重新抓取正文，仅沿用既有登记信息；URL 与发布主体以原始登记为准。",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "自然资源部",
+        "attribution": "自然资源部《国土空间调查、规划、用途管制用地用海分类指南》（2023），访问日期 2026-09-02",
+        "license": "部委指南，公开发布",
+        "license_url": null,
+        "redistributable": true,
+        "reuse_scope": "用地分类编码与名称"
+      }
+    },
+    {
+      "id": "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+      "title": "面向全球智能体开展百年京张AI创新带城市设计开源征集任务书摘录",
+      "publisher": "用户清权文档",
+      "published_date": "2026-05-18",
+      "url": "brief/site-package/agent_taskbook.json",
+      "authority_level": "user_provided_cleared",
+      "retrieved_at": "2026-09-02",
+      "license": "用户清权文档，随征集包授权使用",
+      "redistributable": true,
+      "authorization_status": "user_cleared",
+      "usable_for_formal": true,
+      "usable_for": [
+        "智能体共创原则",
+        "agent六项任务",
+        "场景卡/运营要求",
+        "公开合规边界"
+      ],
+      "not_usable_for": [
+        "官方红线",
+        "法定控制",
+        "工程可行性",
+        "政府实施承诺"
+      ],
+      "verification": {
+        "method": "carried_forward_not_reverified",
+        "accessed_at": "2026-09-02",
+        "page_locations": [
+          {
+            "url": "brief/site-package/agent_taskbook.json",
+            "supports": [
+              "智能体共创原则",
+              "agent六项任务",
+              "场景卡/运营要求",
+              "公开合规边界"
+            ],
+            "quote": null
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "见 metrics.json 与 proposal.md 对应 [source:] 标注",
+        "note": "本条在 2026-09-02 的合规复核中未重新抓取正文，仅沿用既有登记信息；URL 与发布主体以原始登记为准。",
+        "http_status": 0,
+        "http_probe_attempts": 4
+      },
+      "rights": {
+        "author": "用户清权文档（参赛者提供）",
+        "attribution": "用户清权文档《面向全球智能体开展百年京张AI创新带城市设计开源征集任务书摘录》，2026-09-02",
+        "license": "用户清权文档，随征集包授权使用",
+        "license_url": null,
+        "redistributable": true,
+        "reuse_scope": "随征集包授权使用"
+      }
+    },
+    {
+      "id": "SRC-PROVISIONAL-BOUNDARIES-2026",
+      "title": "百年京张AI创新带临时粗略边界与三处重点区 polygon",
+      "publisher": "仓库维护者",
+      "published_date": "2026-06-05",
+      "url": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "authority_level": "provisional",
+      "retrieved_at": "2026-09-02",
+      "license": "CC BY 4.0（维护者授权）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "usable_for_formal": false,
+      "usable_for": [
+        "临时AI生成边界",
+        "离线可视化",
+        "intake自检"
+      ],
+      "not_usable_for": [
+        "official redline",
+        "法定控制",
+        "精确面积",
+        "正式评分",
+        "审批依据"
+      ],
+      "verification": {
+        "method": "carried_forward_not_reverified",
+        "accessed_at": "2026-09-02",
+        "page_locations": [
+          {
+            "url": "brief/site-package/geometry/provisional_boundaries.geojson",
+            "supports": [
+              "临时AI生成边界",
+              "离线可视化",
+              "intake自检"
+            ],
+            "quote": null
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "见 metrics.json 与 proposal.md 对应 [source:] 标注",
+        "note": "本条在 2026-09-02 的合规复核中未重新抓取正文，仅沿用既有登记信息；URL 与发布主体以原始登记为准。",
+        "http_status": 0,
+        "http_probe_attempts": 4
+      },
+      "rights": {
+        "author": "仓库维护者",
+        "attribution": "仓库维护者提供的临时粗略边界与三处重点区 polygon，CC BY 4.0，2026-09-02",
+        "license": "CC BY 4.0（维护者授权）",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "redistributable": true,
+        "reuse_scope": "概念空间分析；非 official redline，不用于正式评分"
+      }
+    },
+    {
+      "id": "SRC-OSM-COPYRIGHT",
+      "title": "OpenStreetMap Copyright and License",
+      "publisher": "OpenStreetMap Foundation",
+      "url": "https://www.openstreetmap.org/copyright",
+      "authority_level": "open_data_license",
+      "retrieved_at": "2026-09-02",
+      "license": "ODbL 1.0（须署名）",
+      "redistributable": true,
+      "authorization_status": "open_license",
+      "usable_for_formal": true,
+      "usable_for": [
+        "OSM数据署名",
+        "许可要求"
+      ],
+      "not_usable_for": [
+        "作为提交边界数据"
+      ],
+      "verification": {
+        "method": "not_reachable_from_build_environment",
+        "resolved_url": null,
+        "page_locations": [
+          {
+            "url": "https://www.openstreetmap.org/copyright",
+            "supports": [
+              "ODbL 许可条款与署名要求"
+            ],
+            "quote": null
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "none",
+        "note": "2026-09-02 从构建环境多次探测均无法建立连接（HTTP 000，两种写法各两次）。这是构建环境网络限制，不代表该页失效；因此本条不声称当日已实地抓取，许可条款按 ODbL 1.0 公开文本声明。",
+        "accessed_at": "2026-09-02",
+        "http_status": 0,
+        "http_probe_attempts": 4
+      },
+      "rights": {
+        "author": "OpenStreetMap Foundation 及贡献者",
+        "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+        "license": "ODbL 1.0（须署名）",
+        "license_url": "https://opendatacommons.org/licenses/odbl/",
+        "redistributable": true,
+        "reuse_scope": "底图署名与许可要求说明"
+      }
+    },
+    {
+      "id": "SRC-2026-ECO-MILA",
+      "title": "Mila — 魁北克人工智能研究所官方公开主页",
+      "publisher": "Mila (Quebec AI Institute)",
+      "url": "https://mila.quebec",
+      "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
+      "usable_for": [
+        "高校联合体＋产业联合实验室＋开源文化机制借鉴",
+        "面向决策者的 AI 政策课程机制借鉴"
+      ],
+      "not_usable_for": [
+        "研究人员规模作为本地对标值",
+        "联邦／省资助结构复制",
+        "受版权文本或图形复制"
+      ],
+      "verification": {
+        "method": "live_content_fetch",
+        "resolved_url": "https://mila.quebec",
+        "page_locations": [
+          {
+            "url": "https://mila.quebec/en/about/about-mila",
+            "supports": [
+              "高校联合体模型（蒙大／麦吉尔／理工／HEC）"
+            ],
+            "quote": "over 140 professors affiliated with Universite de Montreal, McGill University, Polytechnique Montreal and HEC Montreal"
+          },
+          {
+            "url": "https://mila.quebec/en/continuing-education/ai-policy-compass",
+            "supports": [
+              "面向决策者的 AI 政策课程"
+            ],
+            "quote": "Offered by Mila and the Public Policy Forum, this program is designed to equip policy and decision makers with the tools to navigate the opportunities and risks of AI."
+          },
+          {
+            "url": "https://mila.quebec/en/industry/mila-ventures",
+            "supports": [
+              "设投资臂（venture arm）"
+            ],
+            "quote": "Our venture arm cultivates the next generation of companies backed by Mila's world-class AI research ecosystem."
+          }
+        ],
+        "verified_figures": [
+          {
+            "metric": "researchers",
+            "value": "1,400+",
+            "page": "https://mila.quebec/en/about/about-mila"
+          },
+          {
+            "metric": "affiliated professors",
+            "value": "140+",
+            "page": "https://mila.quebec/en/about/about-mila"
+          }
+        ],
+        "figures_cited_by_package": "none",
+        "note": "本包仅借鉴机制（高校联合体＋产业联合实验室＋面向决策者的政策课程＋投资臂），不引用其人员规模与资助结构等动态数值。",
+        "accessed_at": "2026-09-02",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "Mila — Quebec AI Institute",
+        "attribution": "Mila — Quebec AI Institute, mila.quebec",
+        "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+        "license_url": null,
+        "redistributable": false,
+        "reuse_scope": "机制借鉴（机制描述为本包原创归纳）；不复制其页面内容"
+      }
+    },
+    {
+      "id": "SRC-2026-ECO-VECTOR",
+      "title": "Vector Institute 官方公开主页",
+      "publisher": "Vector Institute",
+      "url": "https://vectorinstitute.ai",
+      "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
+      "usable_for": [
+        "研究—产业转化桥梁机制借鉴",
+        "企业 AI 训练营接入通道机制借鉴"
+      ],
+      "not_usable_for": [
+        "研究人员规模作为本地对标值",
+        "国家资助背景平移",
+        "受版权文本或图形复制"
+      ],
+      "verification": {
+        "method": "live_content_fetch",
+        "resolved_url": "https://www.vectorinstitute.ai",
+        "page_locations": [
+          {
+            "url": "https://vectorinstitute.ai/ai-adoption/",
+            "supports": [
+              "研究—产业转化桥梁",
+              "连接产业伙伴与医疗领域合作方"
+            ],
+            "quote": "ecosystem connections spanning 30+ industry leaders, 300+ startups, and 60+ healthcare partners"
+          },
+          {
+            "url": "https://vectorinstitute.ai/case-studies/how-linamar-built-production-ready-ai-through-vectors-agentic-ai-bootcamp/",
+            "supports": [
+              "面向企业的 AI 训练营"
+            ],
+            "quote": "How Linamar built production-ready AI through Vector's Agentic AI Bootcamp"
+          },
+          {
+            "url": "https://vectorinstitute.ai/research-talent/",
+            "supports": [
+              "研究人才共同体"
+            ],
+            "quote": "Our community of 962 researchers and faculty"
+          }
+        ],
+        "verified_figures": [
+          {
+            "metric": "researchers and faculty",
+            "value": "962",
+            "page": "https://vectorinstitute.ai/research-talent/"
+          },
+          {
+            "metric": "industry partners",
+            "value": "30+",
+            "page": "https://vectorinstitute.ai/ai-adoption/"
+          },
+          {
+            "metric": "startups",
+            "value": "300+",
+            "page": "https://vectorinstitute.ai/ai-adoption/"
+          },
+          {
+            "metric": "healthcare partners",
+            "value": "60+",
+            "page": "https://vectorinstitute.ai/ai-adoption/"
+          }
+        ],
+        "figures_cited_by_package": "none",
+        "note": "非 www 域名首次探测失败，改用 https://www.vectorinstitute.ai 抓取成功。本包仅借鉴机制（产业转化桥梁＋企业 AI 训练营），不引用其人员规模与资助背景数值。",
+        "accessed_at": "2026-09-02",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "Vector Institute",
+        "attribution": "Vector Institute, vectorinstitute.ai",
+        "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+        "license_url": null,
+        "redistributable": false,
+        "reuse_scope": "机制借鉴；不复制其页面内容"
+      }
+    },
+    {
+      "id": "SRC-2026-ECO-TURING",
+      "title": "The Alan Turing Institute 官方公开主页",
+      "publisher": "The Alan Turing Institute",
+      "url": "https://turing.ac.uk",
+      "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
+      "usable_for": [
+        "公共部门试验床机制借鉴",
+        "可信 AI 保证框架（TEA）开源参考"
+      ],
+      "not_usable_for": [
+        "国家研究院法律地位复制",
+        "英国治理语境套用",
+        "受版权文本或图形复制"
+      ],
+      "verification": {
+        "method": "live_content_fetch",
+        "resolved_url": "https://www.turing.ac.uk",
+        "page_locations": [
+          {
+            "url": "https://www.turing.ac.uk/research/research-projects/trustworthy-and-ethical-assurance-tea",
+            "supports": [
+              "开源可信伦理保证框架 TEA"
+            ],
+            "quote": "Open-source infrastructure for argument-based AI assurance. Helping teams build, evidence, and maintain structured arguments that their AI systems are trustworthy and ethical."
+          },
+          {
+            "url": "https://www.turing.ac.uk/partnering-turing",
+            "supports": [
+              "与公共部门／产业伙伴共建"
+            ],
+            "quote": "We work with a wide range of partners to help deliver our mission"
+          },
+          {
+            "url": "https://www.turing.ac.uk/science-innovation",
+            "supports": [
+              "公共部门领域方向（国防与国家安全／环境／健康）"
+            ],
+            "quote": "Defence and National Security / Environment and Sustainability / Health"
+          }
+        ],
+        "verified_figures": [],
+        "figures_cited_by_package": "none",
+        "claims_removed_as_unverifiable": [
+          {
+            "claim": "与公共部门共建试验床（空管数字孪生等）",
+            "reason": "2026-09-02 抓取 turing.ac.uk 首页与研究项目列表，未找到空中交通管理数字孪生项目的页面级证据",
+            "action": "表述已收窄为「与公共部门共建试验床」，删除「空管数字孪生」限定语"
+          }
+        ],
+        "note": "TEA 开源属性已在项目页直接核实。试验床主张仅保留可核实的公共部门合作层面。",
+        "accessed_at": "2026-09-02",
+        "http_status": 403,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "The Alan Turing Institute",
+        "attribution": "The Alan Turing Institute, turing.ac.uk",
+        "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+        "license_url": null,
+        "redistributable": false,
+        "reuse_scope": "机制借鉴；不复制其页面内容"
+      }
+    },
+    {
+      "id": "SRC-2026-ECO-STATIONF",
+      "title": "STATION F 官方公开主页",
+      "publisher": "STATION F",
+      "url": "https://stationf.co",
+      "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
+      "usable_for": [
+        "超大单体创业园载体集聚机制借鉴",
+        "统一运营方降低服务成本机制借鉴"
+      ],
+      "not_usable_for": [
+        "单体巨型载体面积／租金模型套用",
+        "受版权文本或图形复制"
+      ],
+      "verification": {
+        "method": "live_content_fetch",
+        "resolved_url": "https://stationf.co",
+        "page_locations": [
+          {
+            "url": "https://stationf.co/",
+            "supports": [
+              "超大单体创业园区",
+              "统一运营方集聚初创与投资方"
+            ],
+            "quote": "The world's biggest startup campus ... STATION F gives 1,000+ startups access to a high-impact ecosystem"
+          },
+          {
+            "url": "https://stationf.co/programs",
+            "supports": [
+              "统一运营方运营 30+ 项目"
+            ],
+            "quote": "Our campus is home to over 30 startup programs run by STATION F as well as top-tier partners."
+          },
+          {
+            "url": "https://stationf.co/news/fai-international",
+            "supports": [
+              "设专门的人工智能项目方向（F/ai）"
+            ],
+            "quote": "STATION F's new F/ai Program adds 6 new partners and goes international (Jul 6, 2026)"
+          }
+        ],
+        "verified_figures": [
+          {
+            "metric": "startups on campus",
+            "value": "1,000+",
+            "page": "https://stationf.co/"
+          },
+          {
+            "metric": "programmes",
+            "value": "30+",
+            "page": "https://stationf.co/programs"
+          },
+          {
+            "metric": "investors",
+            "value": "700+",
+            "page": "https://stationf.co/"
+          }
+        ],
+        "figures_cited_by_package": "none",
+        "note": "本包仅借鉴机制（超大单体载体＋统一运营方＋AI 方向项目），不引用其面积与租金模型。",
+        "accessed_at": "2026-09-02",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "STATION F",
+        "attribution": "STATION F, stationf.co",
+        "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+        "license_url": null,
+        "redistributable": false,
+        "reuse_scope": "机制借鉴；不复制其页面内容"
+      }
+    },
+    {
+      "id": "SRC-2026-ECO-AISG",
+      "title": "AI Singapore（AISG）官方公开主页",
+      "publisher": "National AI Office, Singapore (AI Singapore)",
+      "url": "https://aisingapore.org",
+      "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
+      "usable_for": [
+        "场景清单＋实验制（100E）组织机制借鉴",
+        "AI 治理作为独立支柱机制借鉴"
+      ],
+      "not_usable_for": [
+        "城市国家尺度与治理集中度套用",
+        "100E 资助强度类比",
+        "受版权文本或图形复制"
+      ],
+      "verification": {
+        "method": "live_content_fetch",
+        "resolved_url": "https://aisingapore.org",
+        "page_locations": [
+          {
+            "url": "https://aisingapore.org/innovation/100e/",
+            "supports": [
+              "以「场景清单＋实验制（100E）」组织需求"
+            ],
+            "quote": "Co-creating Solutions and Talents with the Industry ... through the 100E programme and a pool of local AI talents"
+          },
+          {
+            "url": "https://aisingapore.org#tab-governance",
+            "supports": [
+              "AI 治理作为独立支柱",
+              "公平／透明／安全／责任／伦理研究"
+            ],
+            "quote": "Research in governance, ethics and accountability of AI systems at the national level"
+          },
+          {
+            "url": "https://aisingapore.org#tab-products",
+            "supports": [
+              "开源产品栈"
+            ],
+            "quote": "AI Product's internally developed tools are 100% open sourced and released under Apache 2.0 license"
+          }
+        ],
+        "verified_figures": [
+          {
+            "metric": "launched",
+            "value": "May 2017",
+            "page": "https://aisingapore.org"
+          }
+        ],
+        "figures_cited_by_package": "none",
+        "note": "国家级计划属性核实：由 MDDI、IMDA、NRF 推动，由 NUS 与 NTU 承办。本包不引用其资助强度数值。",
+        "accessed_at": "2026-09-02",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "AI Singapore（MDDI / IMDA / NRF 推动，NUS 与 NTU 承办）",
+        "attribution": "AI Singapore, aisingapore.org",
+        "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+        "license_url": null,
+        "redistributable": false,
+        "reuse_scope": "机制借鉴；不复制其页面内容"
+      }
+    },
+    {
+      "id": "SRC-2026-ECO-SNC",
+      "title": "Startup Nation Central（Finder 生态平台）官方公开主页",
+      "publisher": "Startup Nation Central",
+      "url": "https://startupnationcentral.org",
+      "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
+      "usable_for": [
+        "统一数据平台降低生态信息不对称机制借鉴",
+        "服务招引与对接机制借鉴"
+      ],
+      "not_usable_for": [
+        "军民转化与高密度创业网络路径套用",
+        "平台数据口径未经本地重制直接采用",
+        "受版权文本或图形复制"
+      ],
+      "verification": {
+        "method": "live_content_fetch",
+        "resolved_url": "https://startupnationcentral.org",
+        "page_locations": [
+          {
+            "url": "https://startupnationcentral.org/finder/",
+            "supports": [
+              "以统一数据平台系统化披露生态数据"
+            ],
+            "quote": "Our business engagement platform delivers in-depth insights into private and public companies ... connect with more than 7,200 startups and hundreds of innovation scouts, investors, and accelerators."
+          },
+          {
+            "url": "https://startupnationcentral.org/health-tech/",
+            "supports": [
+              "健康赛道"
+            ],
+            "quote": "Health Tech"
+          },
+          {
+            "url": "https://startupnationcentral.org/climate-tech/",
+            "supports": [
+              "气候赛道"
+            ],
+            "quote": "Climate Tech"
+          },
+          {
+            "url": "https://startupnationcentral.org/business-opportunities/",
+            "supports": [
+              "连接政府、投资人与初创"
+            ],
+            "quote": "We connect international companies, investors, and governments to Israeli innovators"
+          }
+        ],
+        "verified_figures": [
+          {
+            "metric": "startups on Finder",
+            "value": "7,200+",
+            "page": "https://startupnationcentral.org/finder/"
+          },
+          {
+            "metric": "multinationals in Israel R&D",
+            "value": "430+",
+            "page": "https://startupnationcentral.org/"
+          }
+        ],
+        "figures_cited_by_package": "none",
+        "note": "本包仅借鉴「统一数据平台降低生态信息不对称」机制；平台数据口径需本地重制，不直接套用。",
+        "accessed_at": "2026-09-02",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "Startup Nation Central",
+        "attribution": "Startup Nation Central, startupnationcentral.org",
+        "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+        "license_url": null,
+        "redistributable": false,
+        "reuse_scope": "机制借鉴；不复制其页面内容"
+      }
+    },
+    {
+      "id": "SRC-2026-BJHD-AI-BEIWEI",
+      "title": "中关村AI北纬社区启动全球招募 首期开放6万平方米优质产业空间",
+      "publisher": "北京市海淀区人民政府（海淀报）",
+      "published_date": "2025-07-16",
+      "url": "https://www.bjhd.gov.cn/ztzx/2025/aifuture/jq/bwsq/202507/t20250716_4779018.shtml",
+      "authority_level": "A1",
+      "retrieved_at": "2026-09-02",
+      "license": "政府公开政务信息，可引用并注明来源",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
+      "usable_for": [
+        "北纬社区定位（国际 AI 原生创业孵化平台）",
+        "区位（中关村科学城北部核心区，毗邻北京中关村学院与海淀大悦城）",
+        "首期开放 6 万平方米产业空间",
+        "五类功能承载区（公共服务共享、创新孵化培育、成长加速企业、共享实验与技术服务、共享展览展示）",
+        "免租政策梯度（成果转化项目最高三年全额免租）",
+        "弹性算力与 AI 工具／Agent 集成平台",
+        "天使营／开发营／赛道营与链主征集／揭榜挂帅／场景开放",
+        "储备项目超 100 家",
+        "运营单位：中关村科学城公司"
+      ],
+      "not_usable_for": [
+        "official redline",
+        "法定规划控制",
+        "园区授牌批次与入选月份（已按可核验性删除）",
+        "与本带空间关系（未获官方交通与产业数据）"
+      ],
+      "note": "本条目聚合自北京日报／中关村科学城公众号／投资北京公开稿，事实以官方后续发布为准；仅用于说明本带与北纬社区的空间与职能关系，不作为定量依据。",
+      "verification": {
+        "method": "live_content_fetch",
+        "resolved_url": "https://www.bjhd.gov.cn/ztzx/2025/aifuture/jq/bwsq/202507/t20250716_4779018.shtml",
+        "page_locations": [
+          {
+            "url": "https://www.bjhd.gov.cn/ztzx/2025/aifuture/jq/bwsq/202507/t20250716_4779018.shtml",
+            "supports": [
+              "区位",
+              "首期规模",
+              "五类功能承载区",
+              "免租政策",
+              "算力与 Agent 平台",
+              "三大加速营",
+              "招引方向",
+              "运营单位"
+            ],
+            "quote": "首期开放6万平方米优质产业空间 ... 最高三年全额免租 ... 弹性折扣算力服务，并搭建大模型应用开发工具平台及AI工具与Agent集成平台 ... 天使营、开发营、赛道营 ... 链主征集、揭榜挂帅、场景开放"
+          }
+        ],
+        "verified_figures": [
+          {
+            "metric": "首期产业空间",
+            "value": "6万平方米",
+            "page": "https://www.bjhd.gov.cn/ztzx/2025/aifuture/jq/bwsq/202507/t20250716_4779018.shtml"
+          },
+          {
+            "metric": "储备项目",
+            "value": "超100家",
+            "page": "https://www.bjhd.gov.cn/ztzx/2025/aifuture/jq/bwsq/202507/t20250716_4779018.shtml"
+          },
+          {
+            "metric": "免租上限",
+            "value": "最高三年全额免租",
+            "page": "https://www.bjhd.gov.cn/ztzx/2025/aifuture/jq/bwsq/202507/t20250716_4779018.shtml"
+          }
+        ],
+        "figures_cited_by_package": "首期 6 万㎡；储备项目超 100 家；最高三年全额免租",
+        "claims_removed_as_unverifiable": [
+          {
+            "claim": "2025-09 入选北京市第三批中关村特色产业园",
+            "reason": "官方公开信息为 2026-03 中关村论坛年会上获授「2025年度中关村特色产业园」，批次与日期均与本条原表述不符",
+            "action": "删除该表述，不在包内任何位置断言批次与入选月份"
+          }
+        ],
+        "corrections": [
+          {
+            "field": "url",
+            "from": "百度百科条目",
+            "to": "https://www.bjhd.gov.cn/ztzx/2025/aifuture/jq/bwsq/202507/t20250716_4779018.shtml",
+            "why": "百科为用户可编辑来源，不适合作为正式征集的依据；已替换为海淀区人民政府官网页面"
+          },
+          {
+            "field": "publisher",
+            "from": "北京日报／中关村科学城／投资北京（公开报道）",
+            "to": "北京市海淀区人民政府（海淀报）",
+            "why": "与 proposal.md 引用条目 #17 及实际页面署名对齐"
+          },
+          {
+            "field": "published_date",
+            "from": "2025-07-07",
+            "to": "2025-07-16",
+            "why": "页面实际发布日期为 2025-07-16 09:58"
+          },
+          {
+            "field": "authority_level",
+            "from": "B",
+            "to": "A1",
+            "why": "来源升级为区政府官网发布的官方信息"
+          }
+        ],
+        "note": "已按评审要求把可编辑来源替换为官方页面，并删除官方信息不支持的批次／月份断言。",
+        "accessed_at": "2026-09-02",
+        "http_status": 403,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "北京市海淀区人民政府（海淀报）",
+        "attribution": "北京市海淀区人民政府《中关村AI北纬社区启动全球招募 首期开放6万平方米优质产业空间》，2025-07-16，访问日期 2026-09-02",
+        "license": "政府公开政务信息，可引用并注明来源",
+        "license_url": null,
+        "redistributable": true,
+        "reuse_scope": "区位、首期规模、功能分区、免租政策、算力与 Agent 平台、招引方向"
+      }
+    },
+    {
+      "id": "SRC-2026-BJHD-AI-OPC",
+      "title": "活力中国调研行｜在北京海淀，看见AI的千万种可能（含人工智能 OPC 服务计划与运营情况）",
+      "publisher": "北京市海淀区人民政府（转载人民网－北京频道）",
+      "published_date": "2026-06-15",
+      "url": "https://www.bjhd.gov.cn/ztzx/2021/lqjs/yw2021/202606/t20260615_4818283.shtml",
+      "authority_level": "A1",
+      "retrieved_at": "2026-09-02",
+      "license": "政府公开政务信息，可引用并注明来源",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
+      "usable_for": [
+        "OPC（One Person Company）友好社区机制",
+        "「1 个超级服务器＋4 大赋能支柱＋3 阶加速引擎」服务架构",
+        "四大支柱：空间、服务、工具、生态",
+        "三阶引擎：融资加速、成长加速、产业加速",
+        "6000 平方米孵化空间载体",
+        "弹性算力与 Agent 超市",
+        "OPC 夜校与 Token Camp 加速营等能力建设机制",
+        "OPC 申请 322 家／入驻超 70 家（截至 2026-06）",
+        "Token Camp 首期 28 支入营团队，总融资需求超 7500 万元",
+        "社区两公里范围内人才公寓"
+      ],
+      "not_usable_for": [
+        "official redline",
+        "法定规划控制",
+        "与本带的实际通勤与产业联系强度（未获官方数据）"
+      ],
+      "note": "用于说明本带可借鉴的 OPC／单人公司孵化与场景开放机制，属机制借鉴而非数据引用。",
+      "verification": {
+        "method": "live_content_fetch",
+        "resolved_url": "https://www.bjhd.gov.cn/ztzx/2021/lqjs/yw2021/202606/t20260615_4818283.shtml",
+        "page_locations": [
+          {
+            "url": "https://www.bjhd.gov.cn/ztzx/2021/lqjs/yw2021/202606/t20260615_4818283.shtml",
+            "supports": [
+              "OPC 友好社区机制",
+              "1个超级服务器＋4大赋能支柱＋3阶加速引擎",
+              "Agent 超市",
+              "弹性算力",
+              "OPC 夜校",
+              "Token Camp 加速营"
+            ],
+            "quote": "去年12月，中关村AI北纬社区在北京市率先发布了「人工智能OPC服务计划」... 推出以「1个超级服务器+4大赋能支柱+3阶加速引擎」为架构的综合赋能平台 ... 截至今年6月，OPC项目累计申请报名322家，通过评审并正式入驻社区的超70家"
+          }
+        ],
+        "verified_figures": [
+          {
+            "metric": "OPC 累计申请报名",
+            "value": "322家（截至2026-06）",
+            "page": "https://www.bjhd.gov.cn/ztzx/2021/lqjs/yw2021/202606/t20260615_4818283.shtml"
+          },
+          {
+            "metric": "OPC 评审入驻",
+            "value": "超70家（截至2026-06）",
+            "page": "https://www.bjhd.gov.cn/ztzx/2021/lqjs/yw2021/202606/t20260615_4818283.shtml"
+          },
+          {
+            "metric": "孵化空间载体",
+            "value": "6000平方米",
+            "page": "https://www.bjhd.gov.cn/ztzx/2021/lqjs/yw2021/202606/t20260615_4818283.shtml"
+          },
+          {
+            "metric": "首期 Token Camp 入营团队",
+            "value": "28支（融资需求超7500万元）",
+            "page": "https://www.bjhd.gov.cn/ztzx/2021/lqjs/yw2021/202606/t20260615_4818283.shtml"
+          },
+          {
+            "figure": "OPC 服务计划于 2025 年 12 月在北京市率先发布",
+            "quote": "去年12月，中关村AI北纬社区在北京市率先发布了“人工智能OPC服务计划”",
+            "on_page": "https://www.bjhd.gov.cn/ztzx/2021/lqjs/yw2021/202606/t20260615_4818283.shtml"
+          }
+        ],
+        "figures_cited_by_package": "OPC 申请 322 家／入驻超 70 家；6000㎡ 孵化空间；Token Camp 首期 28 支团队",
+        "corrections": [
+          {
+            "field": "url",
+            "from": "选址中国 wap 页面",
+            "to": "https://www.bjhd.gov.cn/ztzx/2021/lqjs/yw2021/202606/t20260615_4818283.shtml",
+            "why": "原来源为第三方商业站点；已替换为海淀区人民政府官网页面"
+          },
+          {
+            "field": "publisher",
+            "from": "选址中国（公开报道）",
+            "to": "北京市海淀区人民政府",
+            "why": "与 proposal.md 引用条目 #18 的发布主体一致"
+          },
+          {
+            "field": "published_date",
+            "from": "2025-12-01",
+            "to": "2026-06-15",
+            "why": "与 proposal.md 引用条目 #18 的日期一致，且为页面实际发布日期"
+          },
+          {
+            "field": "authority_level",
+            "from": "B",
+            "to": "A1",
+            "why": "来源升级为区政府官网发布的官方信息"
+          }
+        ],
+        "note": "proposal.md 引用 #18 的发布主体与日期原本即正确，错的是 sources.json；本次以官方页面为准统一二者。",
+        "accessed_at": "2026-09-02",
+        "http_status": 200,
+        "http_probe_attempts": 1
+      },
+      "rights": {
+        "author": "北京市海淀区人民政府",
+        "attribution": "北京市海淀区人民政府《活力中国调研行｜在北京海淀，看见AI的千万种可能》，2026-06-15，访问日期 2026-09-02",
+        "license": "政府公开政务信息，可引用并注明来源",
+        "license_url": null,
+        "redistributable": true,
+        "reuse_scope": "OPC 服务计划架构、孵化空间载体、运营数据、能力建设机制"
+      }
+    }
+  ],
+  "asset_rights": [
+    {
+      "kind": "json",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创编制）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方依据公开资料编制",
+      "asset": "agent.json",
+      "notes": "智能体身份与模型声明。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/key-areas.en.png",
+      "notes": "key-areas.png 的英文版；同图异语。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/key-areas.png",
+      "notes": "基于临时 polygon 与公开底图生成；底图仅作背景，不含官方红线。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/land-use-structure.en.png",
+      "notes": "land-use-structure.png 的英文版；同图异语。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/land-use-structure.png",
+      "notes": "用地分类采用 MNR 指南编码，自绘结构图。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/logo.en.png",
+      "notes": "logo.png 的英文版；原创矢量标识。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创设计）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/logo.png",
+      "notes": "“碳硅折叠”品牌标识，原创矢量设计，无第三方版权；同步合成进 site-overview.png 与 key-areas.png。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/metrics-evidence.en.png",
+      "notes": "metrics-evidence.png 的英文版；同图异语。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/metrics-evidence.png",
+      "notes": "指标证据图，原创生成。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/mobility-bluegreen.en.png",
+      "notes": "mobility-bluegreen.png 的英文版；同图异语。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/mobility-bluegreen.png",
+      "notes": "交通蓝绿图，原创生成。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/site-overview.en.png",
+      "notes": "site-overview.png 的英文版；同图异语，图形与数据一致。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/site-overview.png",
+      "notes": "含自设计 Logo 合成；Logo 为原创图形，无第三方版权。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/spatial-action-index.en.png",
+      "notes": "spatial-action-index.png 的英文版；同图异语。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "figure",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "assets/figures/spatial-action-index.png",
+      "notes": "原创生成，无第三方版权。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "json",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创编制）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方依据公开资料编制",
+      "asset": "assumptions.json",
+      "notes": "假设与数据缺口清单。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "json",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创编制）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方依据公开资料编制",
+      "asset": "compliance_matrix.json",
+      "notes": "任务书符合性矩阵。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "json",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创编制）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方依据公开资料编制",
+      "asset": "design_depth_matrix.json",
+      "notes": "设计深度矩阵。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "drawing",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_drawings.py 生成；内嵌 Noto Sans SC 子集（SIL OFL 1.1）",
+      "asset": "drawings/a0-boards.en.pdf",
+      "notes": "a0-boards.pdf 的英文版；嵌入 .en.png 图件。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "drawing",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_drawings.py 生成；内嵌 Noto Sans SC 子集（SIL OFL 1.1）",
+      "asset": "drawings/a0-boards.pdf",
+      "notes": "由 make_drawings.py 生成，字体为内嵌 Noto Sans SC 子集（SIL OFL 1.1）。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "drawing",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_drawings.py 生成；内嵌 Noto Sans SC 子集（SIL OFL 1.1）",
+      "asset": "drawings/a3-booklet.en.pdf",
+      "notes": "a3-booklet.pdf 的英文版；内嵌 Noto Sans SC 子集（SIL OFL 1.1）。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "drawing",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_drawings.py 生成；内嵌 Noto Sans SC 子集（SIL OFL 1.1）",
+      "asset": "drawings/a3-booklet.pdf",
+      "notes": "由 make_drawings.py 生成，字体为内嵌 Noto Sans SC 子集（SIL OFL 1.1）。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "font",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "SIL Open Font License 1.1（Google Fonts）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "open_license",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "embedded-font:Noto Sans SC (subset)",
+      "notes": "仅内嵌子集（约 3–5k 字形）用于离线渲染；OFL 要求保留版权与许可声明，已随包声明。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "geojson",
+      "author": "仓库维护者（临时 polygon）／参赛方概念加工",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "attribution": "仓库维护者提供的临时 polygon，CC BY 4.0；© OpenStreetMap contributors（如含底图派生）",
+      "source": "见 SRC-PROVISIONAL-BOUNDARIES-2026",
+      "asset": "geometry/buildings.geojson",
+      "notes": "概念建筑轮廓，临时 polygon。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "geojson",
+      "author": "仓库维护者（临时 polygon）／参赛方概念加工",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "attribution": "仓库维护者提供的临时 polygon，CC BY 4.0；© OpenStreetMap contributors（如含底图派生）",
+      "source": "见 SRC-PROVISIONAL-BOUNDARIES-2026",
+      "asset": "geometry/constraints.geojson",
+      "notes": "概念约束（含文保 CON-001），临时 polygon。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "geojson",
+      "author": "仓库维护者（临时 polygon）／参赛方概念加工",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "attribution": "仓库维护者提供的临时 polygon，CC BY 4.0；© OpenStreetMap contributors（如含底图派生）",
+      "source": "见 SRC-PROVISIONAL-BOUNDARIES-2026",
+      "asset": "geometry/green_space.geojson",
+      "notes": "概念蓝绿，临时 polygon。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "geojson",
+      "author": "仓库维护者（临时 polygon）／参赛方概念加工",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "attribution": "仓库维护者提供的临时 polygon，CC BY 4.0；© OpenStreetMap contributors（如含底图派生）",
+      "source": "见 SRC-PROVISIONAL-BOUNDARIES-2026",
+      "asset": "geometry/key_areas.geojson",
+      "notes": "三处重点区临时 polygon；非 official redline。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "geojson",
+      "author": "仓库维护者（临时 polygon）／参赛方概念加工",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "attribution": "仓库维护者提供的临时 polygon，CC BY 4.0；© OpenStreetMap contributors（如含底图派生）",
+      "source": "见 SRC-PROVISIONAL-BOUNDARIES-2026",
+      "asset": "geometry/land_use.geojson",
+      "notes": "概念用地，采用 MNR 用地分类编码。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "geojson",
+      "author": "仓库维护者（临时 polygon）／参赛方概念加工",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "attribution": "仓库维护者提供的临时 polygon，CC BY 4.0；© OpenStreetMap contributors（如含底图派生）",
+      "source": "见 SRC-PROVISIONAL-BOUNDARIES-2026",
+      "asset": "geometry/phasing.geojson",
+      "notes": "概念分期，临时 polygon。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "geojson",
+      "author": "仓库维护者（临时 polygon）／参赛方概念加工",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "attribution": "仓库维护者提供的临时 polygon，CC BY 4.0；© OpenStreetMap contributors（如含底图派生）",
+      "source": "见 SRC-PROVISIONAL-BOUNDARIES-2026",
+      "asset": "geometry/public_space.geojson",
+      "notes": "概念公共空间，临时 polygon。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "geojson",
+      "author": "仓库维护者（临时 polygon）／参赛方概念加工",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "attribution": "仓库维护者提供的临时 polygon，CC BY 4.0；© OpenStreetMap contributors（如含底图派生）",
+      "source": "见 SRC-PROVISIONAL-BOUNDARIES-2026",
+      "asset": "geometry/roads.geojson",
+      "notes": "概念路网，临时 polygon。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "geojson",
+      "author": "仓库维护者（临时 polygon）／参赛方概念加工",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "attribution": "仓库维护者提供的临时 polygon，CC BY 4.0；© OpenStreetMap contributors（如含底图派生）",
+      "source": "见 SRC-PROVISIONAL-BOUNDARIES-2026",
+      "asset": "geometry/site_boundary.geojson",
+      "notes": "见 SRC-PROVISIONAL-BOUNDARIES-2026；非 official redline，不用于正式评分。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "json",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创编制）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方依据公开资料编制",
+      "asset": "manifest.json",
+      "notes": "包清单；schema_version 0.2.0，含逐文件 sha256 与语言标注。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "json",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创编制）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方依据公开资料编制",
+      "asset": "metrics.json",
+      "notes": "指标注册表；含 known / provisional 状态区分。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "markdown",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创撰写）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方撰写",
+      "asset": "proposal.en.md",
+      "notes": "英文主叙事；由中文稿对译，主张／指标／证据／免责声明与中文稿一致。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "markdown",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创撰写）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方撰写",
+      "asset": "proposal.md",
+      "notes": "中文主叙事；与 proposal.en.md 为双语对等件。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "markdown",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创撰写）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方撰写",
+      "asset": "report/copyright_statement.md",
+      "notes": "版权与第三方素材声明；含 Noto Sans SC（SIL OFL 1.1）与底图归属说明。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "markdown",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创撰写）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方撰写",
+      "asset": "report/narrative.md",
+      "notes": "叙事补充说明。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "html",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build 脚本由 proposal.md 渲染生成",
+      "asset": "report/proposal.en.html",
+      "notes": "报告 HTML（英文）；与 report/proposal.html 同源渲染。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "html",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build 脚本由 proposal.md 渲染生成",
+      "asset": "report/proposal.html",
+      "notes": "由 render_proposal_html.py 生成；内嵌 Noto Sans SC 子集（SIL OFL 1.1）。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "json",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创编制）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方依据公开资料编制",
+      "asset": "self_check.json",
+      "notes": "自检结果快照。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "json",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创编制）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方依据公开资料编制",
+      "asset": "sources.json",
+      "notes": "来源与逐资产权利证据（本文件）。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "json",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创编制）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "参赛方依据公开资料编制",
+      "asset": "standard_matrix.json",
+      "notes": "标准引用矩阵。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "toolchain",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "matplotlib（BSL）、reportlab（BSD）、fontTools（MIT）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": false,
+      "authorization_status": "open_license",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build/make_figures.py 基于临时 polygon 与公开底图生成",
+      "asset": "toolchain:matplotlib / reportlab / fontTools",
+      "notes": "构建期依赖，不随征集包再分发；仅用于本地生成图件与 PDF。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "html",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build 脚本由 proposal.md 渲染生成",
+      "asset": "visual/index.en.html",
+      "notes": "可视化页（英文）；与 index.html 同源渲染。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    },
+    {
+      "kind": "html",
+      "author": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "attribution": "碳硅折叠 / Carbon–Silicon Fold 提交包，CC BY 4.0，作者 CRIF2026（2026）",
+      "source": "由 build 脚本由 proposal.md 渲染生成",
+      "asset": "visual/index.html",
+      "notes": "可视化页；内嵌 Noto Sans SC 子集（SIL OFL 1.1）。",
+      "rights_evidence": "作者／来源／许可／再分发／归属五项齐备，见本条目各字段"
+    }
+  ],
+  "osm_use": {
+    "incorporated": false,
+    "statement": "本包所有图件与图纸的几何均来自维护者提供的临时 polygon（geometry/*.geojson，见 SRC-PROVISIONAL-BOUNDARIES-2026），未并入 OpenStreetMap 数据作为几何来源；OpenStreetMap 仅作为许可与署名要求的参照，未下载、未派生、未再分发其数据。",
+    "attribution_required": false,
+    "attribution_text": null,
+    "basemap_note": "图件背景为自绘灰底示意，不含 OSM 瓦片或 ODbL 派生数据；因此不触发 ODbL 的署名与传染性义务。若后续版本引入 OSM 底图，须在图中标注 \"© OpenStreetMap contributors\" 并按 ODbL 1.0 处理派生数据。",
+    "license_reference": "https://opendatacommons.org/licenses/odbl/"
+  },
+  "dependency_licenses": [
+    {
+      "name": "Python",
+      "version": "3.13",
+      "license": "PSF License Agreement",
+      "license_url": "https://docs.python.org/3/license.html",
+      "role": "构建期运行时",
+      "redistributed": false
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.x",
+      "license": "matplotlib license (BSD-style)",
+      "license_url": "https://matplotlib.org/stable/users/license.html",
+      "role": "生成 7 张图件（PNG）",
+      "redistributed": false
+    },
+    {
+      "name": "reportlab",
+      "version": "4.x",
+      "license": "BSD-style (ReportLab)",
+      "license_url": null,
+      "role": "生成 A3 图册与 A0 展板 PDF",
+      "redistributed": false
+    },
+    {
+      "name": "fontTools",
+      "version": "4.x",
+      "license": "MIT",
+      "license_url": "https://github.com/fonttools/fonttools/blob/main/LICENSE",
+      "role": "Noto Sans SC 字体子集化",
+      "redistributed": false
+    },
+    {
+      "name": "Noto Sans SC（内嵌子集）",
+      "version": "subset",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://scripts.sil.org/OFL",
+      "role": "PDF 与 HTML 离线渲染用中文字形，随包内嵌",
+      "redistributed": true,
+      "obligation": "OFL 要求保留版权与许可声明；已在 report/copyright_statement.md 与 manifest 声明中保留"
+    }
+  ],
+  "rights_summary": {
+    "total_assets": 46,
+    "added_in_this_revision": 24,
+    "all_assets_have_five_point_evidence": true,
+    "osm_incorporated": false,
+    "noto_ofl_text_retained": true
+  },
+  "compliance_revision": {
+    "date": "2026-09-02",
+    "target_review": "review 5081160318（2026-09-01，CHANGES_REQUESTED）",
+    "closed_items": [
+      "逐资产权利证据（作者／来源／许可／再分发／归属）补全，含全部 .en 双语件",
+      "OSM 是否并入及署名要求明确声明（未并入，无署名义务）",
+      "依赖许可结构化列清（含 Noto Sans SC SIL OFL 1.1）",
+      "B 级案例补页面级定位与真实访问日期；可核验数字标注出处页面",
+      "无法核验主张删除（Turing 空管数字孪生；北纬社区 2025-09 第三批特色产业园）",
+      "两条弱来源替换为官方页面（百度百科→bjhd.gov.cn；选址中国→bjhd.gov.cn）",
+      "proposal.md 引用 #17/#18 与 sources.json 的发布主体／日期对齐"
+    ]
+  }
+}

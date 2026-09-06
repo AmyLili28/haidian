@@ -1,0 +1,505 @@
+{
+  "schema_version": "0.1.0",
+  "units": {
+    "length": "m",
+    "area": "sqm"
+  },
+  "metrics": {
+    "site_area_sqm": {
+      "status": "known",
+      "value": 11956912.816178,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "area(user_confirmed_overall_design_area)",
+      "confidence": "medium",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "green_space_area_sqm": {
+      "status": "known",
+      "value": 131779.280664,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/green_space.geojson"
+      ],
+      "formula": "area(conceptual_green_corridor)",
+      "confidence": "low",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "public_space_area_sqm": {
+      "status": "known",
+      "value": 142641.247895,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "formula": "area(conceptual_public_spine)",
+      "confidence": "low",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 12100.0,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "area(representative_interface_footprint)",
+      "confidence": "low",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.011021,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "green_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.01193,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "public_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "key_area_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(key_areas)",
+      "confidence": "high",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "zhongzhiyuan_working_area_sqm": {
+      "status": "known",
+      "value": 1013005.220514,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "area(KEY-001)",
+      "confidence": "medium",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "ai_origin_working_area_sqm": {
+      "status": "known",
+      "value": 708439.873757,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "area(KEY-002)",
+      "confidence": "medium",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "dazhongsi_working_area_sqm": {
+      "status": "known",
+      "value": 419640.543804,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "area(KEY-003)",
+      "confidence": "medium",
+      "assumptions": [
+        "Project working geometry, not an official statutory boundary."
+      ]
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "assumptions.json"
+      ],
+      "formula": "Recalculate after official baseline and control data are supplied.",
+      "confidence": "unknown",
+      "assumptions": [
+        "The estimate is a low-confidence design reference, not a control value."
+      ],
+      "reason": "No official control plan, current building inventory or ownership data were supplied.",
+      "estimated_reference": "To be calibrated; no single corridor-wide FAR proposed",
+      "estimate_basis": "Retain existing urban fabric and use adaptive reuse first."
+    },
+    "total_floor_area_sqm": {
+      "status": "unknown",
+      "value": null,
+      "unit": "sqm",
+      "source_files": [
+        "assumptions.json"
+      ],
+      "formula": "Recalculate after official baseline and control data are supplied.",
+      "confidence": "unknown",
+      "assumptions": [
+        "The estimate is a low-confidence design reference, not a control value."
+      ],
+      "reason": "No complete building floor count, footprint inventory or approved development intensity was supplied.",
+      "estimated_reference": "30,000-60,000 sqm of first-round adapted ground-floor/shared space",
+      "estimate_basis": "Capacity reference from the proposed S/M/L/XL program and reuse-first strategy."
+    },
+    "building_density": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "assumptions.json"
+      ],
+      "formula": "Recalculate after official baseline and control data are supplied.",
+      "confidence": "unknown",
+      "assumptions": [
+        "The estimate is a low-confidence design reference, not a control value."
+      ],
+      "reason": "No official parcel and building-footprint baseline was supplied.",
+      "estimated_reference": "Maintain existing district pattern; permanent new-build footprint kept to the minimum necessary",
+      "estimate_basis": "Design principle rather than a numeric control."
+    },
+    "maximum_building_height_m": {
+      "status": "unknown",
+      "value": null,
+      "unit": "m",
+      "source_files": [
+        "assumptions.json"
+      ],
+      "formula": "Recalculate after official baseline and control data are supplied.",
+      "confidence": "unknown",
+      "assumptions": [
+        "The estimate is a low-confidence design reference, not a control value."
+      ],
+      "reason": "No official height-control or heritage view-corridor data were supplied.",
+      "estimated_reference": "S/M/L components generally 3.6-6 m; XL relies on existing buildings",
+      "estimate_basis": "Prototype family dimensions only, not a statutory height limit."
+    },
+    "parking_supply_count": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count",
+      "source_files": [
+        "assumptions.json"
+      ],
+      "formula": "Recalculate after official baseline and control data are supplied.",
+      "confidence": "unknown",
+      "assumptions": [
+        "The estimate is a low-confidence design reference, not a control value."
+      ],
+      "reason": "No parking inventory, demand survey or road-redline data were supplied.",
+      "estimated_reference": "Use existing shared parking; add only service and accessible bays after survey",
+      "estimate_basis": "Mobility strategy prioritises walking, cycling and transit."
+    },
+    "restack_node_count": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count",
+      "source_files": [
+        "assumptions.json"
+      ],
+      "formula": "Recalculate after official baseline and control data are supplied.",
+      "confidence": "unknown",
+      "assumptions": [
+        "The estimate is a low-confidence design reference, not a control value."
+      ],
+      "reason": "No operating baseline or final site survey was supplied.",
+      "estimated_reference": "12-18 S/M nodes, 3-5 L platforms, 3 XL venues",
+      "estimate_basis": "Low-confidence initial operating capacity for the three key areas."
+    },
+    "slow_mobility_connectivity": {
+      "status": "unknown",
+      "value": null,
+      "unit": "index",
+      "source_files": [
+        "assumptions.json"
+      ],
+      "formula": "Recalculate after official baseline and control data are supplied.",
+      "confidence": "unknown",
+      "assumptions": [
+        "The estimate is a low-confidence design reference, not a control value."
+      ],
+      "reason": "No pedestrian network survey, crossing delay or barrier dataset was supplied.",
+      "estimated_reference": "Prioritise all identified spine-to-core and east-west cross-link breaks",
+      "estimate_basis": "Qualitative network target pending measured baseline."
+    },
+    "annual_participation_count": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count",
+      "source_files": [
+        "assumptions.json"
+      ],
+      "formula": "Recalculate after official baseline and control data are supplied.",
+      "confidence": "unknown",
+      "assumptions": [
+        "The estimate is a low-confidence design reference, not a control value."
+      ],
+      "reason": "No event programme, operator capacity or attendance baseline was supplied.",
+      "estimated_reference": "20,000-50,000 visits/year after network stabilisation",
+      "estimate_basis": "Reference estimate based on distributed public nodes and periodic events; not a commitment."
+    },
+    "first_round_capex_rmb": {
+      "status": "unknown",
+      "value": null,
+      "unit": "RMB",
+      "source_files": [
+        "proposal.md",
+        "assumptions.json"
+      ],
+      "formula": "Confirm from surveyed quantities and at least three supplier quotations.",
+      "confidence": "low",
+      "assumptions": [
+        "Concept-stage range excluding land acquisition, major structural reinforcement, large utility expansion and specialist heritage restoration."
+      ],
+      "reason": "No bill of quantities, site connection survey or supplier quotation was supplied.",
+      "estimated_reference": "RMB 20-60 million for three parallel validation packages",
+      "estimate_basis": "Reference capacity of one pilot package in each key area using existing buildings and demountable components."
+    },
+    "three_year_network_capex_rmb": {
+      "status": "unknown",
+      "value": null,
+      "unit": "RMB",
+      "source_files": [
+        "proposal.md",
+        "assumptions.json"
+      ],
+      "formula": "Confirm from phased bills of quantities, site surveys and procurement quotations.",
+      "confidence": "low",
+      "assumptions": [
+        "Concept-stage range for 12-18 S/M nodes, 3-5 L platforms and three existing-building XL venues."
+      ],
+      "reason": "Final sites, quantities, owners, utilities and procurement method are not confirmed.",
+      "estimated_reference": "RMB 100-300 million cumulative capital cost",
+      "estimate_basis": "Broad benchmark range for modular equipment, adaptive reuse, professional review and site connection."
+    },
+    "mature_annual_opex_rmb": {
+      "status": "unknown",
+      "value": null,
+      "unit": "RMB/year",
+      "source_files": [
+        "proposal.md",
+        "assumptions.json"
+      ],
+      "formula": "Confirm from staffing, maintenance, insurance, content, utilities and audit contracts.",
+      "confidence": "low",
+      "assumptions": [
+        "Reference estimate after the initial network reaches stable operation."
+      ],
+      "reason": "No operator staffing plan, maintenance contract or utility baseline was supplied.",
+      "estimated_reference": "RMB 15-40 million/year at network maturity; RMB 3-8 million/year for first-round pilots",
+      "estimate_basis": "Concept-stage operating package covering people, maintenance, insurance, content and audit."
+    },
+    "operating_cost_recovery_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md",
+        "assumptions.json"
+      ],
+      "formula": "Direct enterprise-service, venue, event and brand-collaboration revenue / annual operating cost.",
+      "confidence": "low",
+      "assumptions": [
+        "Public service and heritage-cultural benefits are not forced into direct commercial revenue."
+      ],
+      "reason": "No operator contract, tariff, occupancy or revenue baseline was supplied.",
+      "estimated_reference": "20%-40% during pilots; 40%-70% after stable operation",
+      "estimate_basis": "Prudent concept-stage recovery range with mixed public-service and earned-income funding."
+    },
+    "annual_demand_matches": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count/year",
+      "source_files": [
+        "proposal.md",
+        "assumptions.json"
+      ],
+      "formula": "Count of registered needs that reach a named collaboration or professional referral.",
+      "confidence": "low",
+      "assumptions": [
+        "Calibrated after a real 90-day operating baseline."
+      ],
+      "reason": "No existing open-service directory or referral baseline was supplied.",
+      "estimated_reference": "30-80 matched needs/year after stabilisation",
+      "estimate_basis": "Reference throughput for three district pilots and a shared directory."
+    },
+    "annual_lightweight_validations": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count/year",
+      "source_files": [
+        "proposal.md",
+        "assumptions.json"
+      ],
+      "formula": "Count of registered lightweight validations or product improvements with documented feedback.",
+      "confidence": "low",
+      "assumptions": [
+        "Excludes statutory certification, manufacturing-line testing and specialist laboratory experiments."
+      ],
+      "reason": "No existing programme or operator baseline was supplied.",
+      "estimated_reference": "10-30 validations or product improvements/year after stabilisation",
+      "estimate_basis": "Reference throughput for L platforms and periodic public or market trials."
+    },
+    "annual_participating_firms_merchants": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count/year",
+      "source_files": [
+        "proposal.md",
+        "assumptions.json"
+      ],
+      "formula": "Distinct firms or merchants recorded as challenge owners, collaborators or trial partners.",
+      "confidence": "low",
+      "assumptions": [
+        "Calibrated after a real 90-day operating baseline."
+      ],
+      "reason": "No confirmed partner roster or operating baseline was supplied.",
+      "estimated_reference": "15-40 participating firms or merchants/year after stabilisation",
+      "estimate_basis": "Reference participation range for the three key-area pilots."
+    },
+    "accountable_plugin_coverage_target": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "AI plug-ins with named spatial, operational and technical owners / all open AI plug-ins",
+      "confidence": "high",
+      "assumptions": [
+        "Design gate for opening, not a measured current-condition value."
+      ]
+    },
+    "human_takeover_and_exit_coverage_target": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "AI plug-ins with notice, version, human takeover, shutdown and restoration records / all open AI plug-ins",
+      "confidence": "high",
+      "assumptions": [
+        "Design gate for opening, not a measured current-condition value."
+      ]
+    },
+    "basic_service_non_ai_fallback_target": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "Basic public services retaining a human or non-AI route / all basic public services offered by RE:STACK",
+      "confidence": "high",
+      "assumptions": [
+        "Design gate for opening, not a measured current-condition value."
+      ]
+    },
+    "unresolved_high_risk_expansion_target": {
+      "status": "known",
+      "value": 0,
+      "unit": "ratio",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "Expansion actions allowed while a high-risk safety, privacy or rights issue remains unresolved",
+      "confidence": "high",
+      "assumptions": [
+        "Mandatory stop rule for staged implementation."
+      ]
+    },
+    "implementation_stage_gate_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "stage gates",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "G1 brief/site confirmation + G2 design/lawful procurement + G3 installation/90-day validation + G4 stable operation/expansion",
+      "confidence": "high",
+      "assumptions": [
+        "Design-stage delivery gates, not evidence of completed implementation."
+      ]
+    },
+    "parallel_pilot_package_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "pilot packages",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "One independently reviewable first-round package in each key area",
+      "confidence": "high",
+      "assumptions": [
+        "All three remain HOLD until real sites, operators and professional checks are confirmed."
+      ]
+    },
+    "ai_plugin_passport_required_field_count": {
+      "status": "known",
+      "value": 10,
+      "unit": "required fields/plugin",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "Purpose + user + minimum data + version + physical interface + accountable human + non-AI equivalent + trial boundary + stop/restoration trigger + retention/public status",
+      "confidence": "high",
+      "assumptions": [
+        "Opening gate for every AI-enabled plug-in."
+      ]
+    },
+    "ai_operating_state_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "states",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "Offline/manual + sandbox + limited trial + open + paused/retired",
+      "confidence": "high",
+      "assumptions": [
+        "Transition to a higher-exposure state requires human review."
+      ]
+    },
+    "implementation_handover_record_count": {
+      "status": "known",
+      "value": 8,
+      "unit": "record types",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "Site passport + permission + professional review + data/privacy + BOQ/quotes + operating/emergency + plug-in/version + removal/restoration",
+      "confidence": "high",
+      "assumptions": [
+        "Required before real procurement, opening and later restoration."
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "官方控规条件（容积率、高度、密度、绿地率、退线）、道路红线、权属、市政管线与工程约束须以官方附件确认；本方案未编造任何法定指标数值。",
+      "impact": "方案以概念建议呈现开发强度与工程内容，待控规确认后统一更新。"
+    },
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "pending_professional_confirmation",
+      "statement": "总体设计边界与三处重点区边界使用仓库provisional polygon，official_boundary=false，精度为provisional_rough；官方红线发布后全部面积与图层须复算。",
+      "impact": "面积与比例值为复算参考值，不得作为精确面积或官方红线依据。"
+    },
+    {
+      "id": "A-DATA-001",
+      "status": "pending_professional_confirmation",
+      "statement": "现状用地、建筑、权属、轨道线位、市政管线、文保范围、慢行断点与共行断面达标率等底数未随公开资料提供，正文相关结论为定性诊断与概念建议。",
+      "impact": "拆改留、工程线位、共行改造清单与实施判断待现状测绘与专业复核。"
+    },
+    {
+      "id": "A-SCENARIO-001",
+      "status": "pending_professional_confirmation",
+      "statement": "全部AI场景卡、测试验证场景、低速自动驾驶共行规则、活动与运营机制为概念设计，不预设供应商、不构成已批准运营、不采集个人隐私数据。",
+      "impact": "场景落地需专业团队结合隐私、伦理、安全与审批深化。"
+    },
+    {
+      "id": "A-SPINE-001",
+      "status": "pending_professional_confirmation",
+      "statement": "「人机友好共行主轴」为概念路权组织：H0人类静谧区机器禁入，H1慢行区人绝对优先，H2共行区机器分级授权，H3外围无障碍接驳不穿文保核心。具体断面、速度、分时与准入规则须经交通、园林、文保及公众参与确认。",
+      "impact": "不得将概念主轴表述为已批准的自动驾驶专用路、机动车干道或默认允许机器进入的全域公共空间。"
+    },
+    {
+      "id": "A-HMF-STD-001",
+      "status": "pending_professional_confirmation",
+      "statement": "通行净宽≥2.5m、转弯半径≥0.8m、坡度≤1:12、人行区机速≤1.2m/s等参数转译自复兴岛示范区导则与人机友好社区建设导则征求意见稿，用作概念底线，不构成上海或北京已颁布的法定强制标准在本场地的直接适用。",
+      "impact": "京张落地前须完成本地标准适配与现场复核。"
+    },
+    {
+      "id": "A-METHOD-TRANSFER-001",
+      "status": "pending_professional_confirmation",
+      "statement": "流—场—网、人—机—环境（HME）、点—线—面—流—策、空间适应性优先于机器能力迭代、双模态干线/末梢逻辑，以及测试展示—入驻孵化—研发创新产业路径，转译自作者博士研究、书稿《人工智能与未来城市》人机友好空间章、复兴岛导则与企鹅岛/WeCityX 经验；仅作概念方法，不构成对外部项目成果的复制，也不把外部园区速度、断面或绩效写成海淀已采信结论。",
+      "impact": "评审与深化时应区分方法启发与本场地证据；外部项目名称不得被解读为合作背书或已落地工程。"
+    },
+    {
+      "id": "A-LINK-KPI-001",
+      "status": "pending_professional_confirmation",
+      "statement": "联系强度五维KPI（空间/技术/产业/人才/场景连接）为目标监测框架，基线值需在试点前通过调查与运行数据建立，本文数值为目标方向而非已测结果。",
+      "impact": "不得把概念目标写成已实现绩效。"
+    },
+    {
+      "id": "A-HMF-PRINCIPLE-001",
+      "status": "pending_professional_confirmation",
+      "statement": "本方案将人机友好定义为人的生命安全、尊严、无障碍通行、知情、拒绝和退出权优先；机器须可识别、可预测、可避让、可接管、可追责。该原则为概念设计约束，落地制度须经公众参与、伦理与主管部门审查。",
+      "impact": "任何设备效率、商业收益或展示效果不得覆盖人的基本权利与公共责任。"
+    },
+    {
+      "id": "A-HMF-BASELINE-001",
+      "status": "pending_professional_confirmation",
+      "statement": "连续无障碍率、机器身份与意图标识合规率、人工替代可用率、人工接管响应时间、近失事件、投诉闭环、数据越界和弱势群体满意度均无现状基线。",
+      "impact": "正文与图件仅给出测量框架，不得将雷达图或目标方向解释为现状绩效。"
+    },
+    {
+      "id": "A-HMF-SPEED-001",
+      "status": "pending_professional_confirmation",
+      "statement": "人行空间机速≤1.2m/s为案例导则转译参数；其他共行或接驳速度未由本方案确定，须按设备类别、空间风险、现场测试与主管部门审批分区设定。",
+      "impact": "图件和文本不得使用未经证据支持的统一20km/h或其他工程速度结论。"
+    },
+    {
+      "id": "A-DIGITAL-TWIN-001",
+      "status": "pending_professional_confirmation",
+      "statement": "数字孪生仅作为机器权限、调度、故障、接管和聚合环境绩效的概念运营底座，不等同于全域个人监控，不以人脸识别作为获得公共服务的前提。",
+      "impact": "落地前须完成数据保护影响评估、最小化设计、访问审计与公众退出机制。"
+    },
+    {
+      "id": "A-GEO-ALIGN-001",
+      "status": "pending_professional_confirmation",
+      "statement": "RD-001 主轴为在 provisional 范围内推演的示意中心线：以三处重点片区与清华园车站旧址为控制点、按120m等距重采样的82节点曲线折线，全线保持在概念绿脉包络内。它不是京张铁路遗址公园的实测线位，也未参照任何未公开的测绘、权属或文保图件。",
+      "impact": "线位平面不确定度自评约±200m，须由遗址公园实测中心线、权属边界与文保控制线替换后方可用于工程深化。"
+    },
+    {
+      "id": "A-GEO-NODE-001",
+      "status": "pending_professional_confirmation",
+      "statement": "12个 SCENARIO_NODE 的坐标为示意落位：其中10个按功能归属被放置在其指定重点片区内并记录 key_area_id 与 distance_to_spine_m；SN-005（开发者共创展示廊）与 SN-009（企业人机协作服务站）按设计定位为走廊段落节点，不归属任何重点片区。",
+      "impact": "节点落位表达的是归属关系与相对秩序，不代表选址结论；具体用地须经权属、文保与运营主体确认。"
+    },
+    {
+      "id": "A-GEO-PRECISION-001",
+      "status": "pending_professional_confirmation",
+      "statement": "提交几何按四级精度声明：A 可复算（范围面积、绿地率、公共空间率、路网长度等由 EPSG:4548 直接复算）、B 结构可信（走向、分工、归属、次序）、C 位置示意（线位、断面宽度、环线尺寸、地块边界，约±200m）、D 不可用（红线、权属、文保控制线、竖向与管线，本方案未提供）。",
+      "impact": "C/D 级几何不得用于施工放样、征拆、招商或绩效承诺；落地前须完成 proposal 所列 P0 六项现状校核。"
+    },
+    {
+      "id": "A-COUNT-001",
+      "status": "pending_professional_confirmation",
+      "statement": "方案包含13张场景卡和12个SCENARIO_NODE；场景卡与空间节点不是一一对应。S01/S11锚定RD-001，S04锚定PLZ-004，S09/S13在SN-003以日常辅助/应急推演两种运营模式复用。",
+      "impact": "机器审计与图件必须分别报告场景卡数和场景节点数，不得混写。"
+    },
+    {
+      "id": "A-FIG-CONCEPT-001",
+      "status": "pending_professional_confirmation",
+      "statement": "assets/figures/concept/ 下的六张概念表现图由图像生成模型绘制；C-01至C-05已按 v3.1 正文与 metrics.json 逐项校订，C-06 为 v3.5 十二时辰场景效果图。其中的建筑基底、街道名称、断面尺寸、人物与场景插图仍为表现性绘制，整体按 C 级位置示意声明。",
+      "impact": "概念表现图仅用于意图传达；量算、放样、招商与绩效承诺须使用 assets/figures/ 下的技术校核图与机器可读数据，两者冲突时以后者为准。"
+    },
+    {
+      "id": "A-FIG-DUALSET-001",
+      "status": "pending_professional_confirmation",
+      "statement": "本方案同时提交技术校核图与概念表现图两套图件，前者可由脚本从提交几何确定性复现，后者不可逐像素复现。",
+      "impact": "评审复核与第三方复算应以技术校核图为准；概念表现图的作用是可读性与表达，不作为一致性判据。"
+    },
+    {
+      "id": "A-HMF-HOURS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "京张人机友好十二时辰是概念分时共行表，把一日十二条条款挂在 RD-001 与既有场景节点上；时段划分借用传统时辰时钟结构，内容不照搬复兴岛低空配送、自驾编队或 L4–L5 全无人场景。",
+      "impact": "图面与正文不得把该表写成已批准运营时刻表；试行前须完成交通、文保、社区与应急专项核定。"
+    },
+    {
+      "id": "A-HMF-GATES-001",
+      "status": "pending_professional_confirmation",
+      "statement": "G-01/G-02/G-03 三条现场验收门与五件构件是概念试点手续：过不了门就整段降级机型权限，不构成已批准运营、法定时刻表或施工放样。构件挂在既有 RP/SN 上，位置按 C 级示意。",
+      "impact": "正文与图件不得把门写成政府已批准的运营许可；开放夜测与高峰试运行须完成 P0 专项核定。"
+    },
+    {
+      "id": "A-HMF-PLAYBOOK-001",
+      "status": "pending_professional_confirmation",
+      "statement": "京张实施指导单只转译复兴岛导则的手续结构（规划评估、建设同步、测试—认证—接入、运营复盘、五友好现场验收），不转译低空配送、自动驾驶专用道、L4–L5 全无人、外地认证品牌、首购首用或财政补贴。全部为概念实施建议。",
+      "impact": "正文与图件不得把指导单写成海淀已批准流程或外地条款换地名；试行前须完成北京本地法规、文保、交通与应急专项核定。"
+    },
+    {
+      "id": "A-HMF-CASE-ASSOC-001",
+      "status": "accepted",
+      "statement": "proposal 中樟宜、品川、King's Cross、Sidewalk/Quayside、云栖等条目已降格为作者方法联想，不陈述已核验的外部项目事实、政策或故障统计；国际机器人联合会故障比例句已删除。",
+      "impact": "评审不得把这些条目当作正式来源审查对象；方法源仅保留企鹅岛/WeCityX、复兴岛导则与作者研究。"
+    }
+  ]
+}

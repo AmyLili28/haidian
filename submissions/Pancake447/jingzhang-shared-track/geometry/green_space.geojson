@@ -1,0 +1,311 @@
+{
+ "type": "FeatureCollection",
+ "name": "green_space_shared_track",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "GREEN-002",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园南段·大钟寺站台公园",
+    "name_en": "Jing-Zhang heritage park south · Dazhongsi station park",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 284701.523,
+    "green_type": "heritage_park",
+    "id": "GREEN-002",
+    "layer": "GREEN_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.349,
+       39.939
+      ],
+      [
+       116.346,
+       39.939
+      ],
+      [
+       116.346,
+       39.949
+      ],
+      [
+       116.349,
+       39.949
+      ],
+      [
+       116.349,
+       39.939
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GREEN-005",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园中段",
+    "name_en": "Jing-Zhang heritage park middle section",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 654658.016,
+    "green_type": "heritage_park",
+    "id": "GREEN-005",
+    "layer": "GREEN_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.346,
+       39.972
+      ],
+      [
+       116.349,
+       39.972
+      ],
+      [
+       116.349,
+       39.949
+      ],
+      [
+       116.346,
+       39.949
+      ],
+      [
+       116.346,
+       39.972
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GREEN-008",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园·原点社区客厅段",
+    "name_en": "Heritage park · AI Origin community living-room section",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 711338.876,
+    "green_type": "heritage_park",
+    "id": "GREEN-008",
+    "layer": "GREEN_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.346,
+       39.997
+      ],
+      [
+       116.349,
+       39.997
+      ],
+      [
+       116.349,
+       39.972
+      ],
+      [
+       116.346,
+       39.972
+      ],
+      [
+       116.346,
+       39.997
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GREEN-010",
+   "properties": {
+    "land_use_code": "1402",
+    "name_zh": "西缘防护绿带",
+    "name_en": "Western buffer green belt",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 452374.029,
+    "green_type": "buffer_green",
+    "id": "GREEN-010",
+    "layer": "GREEN_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34111935483871,
+       39.997
+      ],
+      [
+       116.3417,
+       40.006
+      ],
+      [
+       116.34177317073171,
+       40.0075
+      ],
+      [
+       116.346,
+       40.0075
+      ],
+      [
+       116.346,
+       39.997
+      ],
+      [
+       116.34111935483871,
+       39.997
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GREEN-011",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园北段",
+    "name_en": "Jing-Zhang heritage park north section",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 298685.911,
+    "green_type": "heritage_park",
+    "id": "GREEN-011",
+    "layer": "GREEN_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.346,
+       40.0075
+      ],
+      [
+       116.349,
+       40.0075
+      ],
+      [
+       116.349,
+       39.997
+      ],
+      [
+       116.346,
+       39.997
+      ],
+      [
+       116.346,
+       40.0075
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GREEN-012",
+   "properties": {
+    "land_use_code": "1402",
+    "name_zh": "东缘防护绿带",
+    "name_en": "Eastern buffer green belt",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 494943.375,
+    "green_type": "buffer_green",
+    "id": "GREEN-012",
+    "layer": "GREEN_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.349,
+       40.0075
+      ],
+      [
+       116.35425890410959,
+       40.0075
+      ],
+      [
+       116.35368356164383,
+       39.997
+      ],
+      [
+       116.349,
+       39.997
+      ],
+      [
+       116.349,
+       40.0075
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GREEN-014",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "众智园中央绿廊·AI测试展示场",
+    "name_en": "Zhongzhiyuan central green corridor · AI test & demo field",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 540364.305,
+    "green_type": "heritage_park",
+    "id": "GREEN-014",
+    "layer": "GREEN_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.346,
+       40.0265
+      ],
+      [
+       116.349,
+       40.0265
+      ],
+      [
+       116.349,
+       40.0075
+      ],
+      [
+       116.346,
+       40.0075
+      ],
+      [
+       116.346,
+       40.0265
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

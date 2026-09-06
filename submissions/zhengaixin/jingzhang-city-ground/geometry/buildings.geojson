@@ -1,0 +1,402 @@
+{
+  "type": "FeatureCollection",
+  "name": "conceptual_building_intervention_envelopes",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ZZY-GF-01",
+      "properties": {
+        "id": "ZZY-GF-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "研发共享首层A",
+        "name_en": "Shared R&D Ground Floor A",
+        "building_type": "existing_retained",
+        "geometry_precision": "conceptual_design_envelope",
+        "replace_with_sourced_existing_footprint_when_available": true,
+        "area_sqm_declared": 44049.685
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34497994384445,
+              40.010790504705234
+            ],
+            [
+              116.34495155372682,
+              40.01376024084512
+            ],
+            [
+              116.34651603125526,
+              40.01376907351328
+            ],
+            [
+              116.34654435357945,
+              40.01079933644983
+            ],
+            [
+              116.34497994384445,
+              40.010790504705234
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZZY-GF-02",
+      "properties": {
+        "id": "ZZY-GF-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "研发共享首层B",
+        "name_en": "Shared R&D Ground Floor B",
+        "building_type": "existing_retained",
+        "geometry_precision": "conceptual_design_envelope",
+        "replace_with_sourced_existing_footprint_when_available": true,
+        "area_sqm_declared": 44049.685
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35078357785964,
+              40.01156563692096
+            ],
+            [
+              116.35075543850269,
+              40.01453537609439
+            ],
+            [
+              116.352319935535,
+              40.01454413055255
+            ],
+            [
+              116.35234800709557,
+              40.011574390463736
+            ],
+            [
+              116.35078357785964,
+              40.01156563692096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZZY-BLD-01",
+      "properties": {
+        "id": "ZZY-BLD-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "花园创新建筑原型",
+        "name_en": "Garden Innovation Building Prototype",
+        "building_type": "mixed_use",
+        "geometry_precision": "conceptual_design_envelope",
+        "replace_with_sourced_existing_footprint_when_available": true,
+        "area_sqm_declared": 44049.685
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3476688573462,
+              40.01006319723914
+            ],
+            [
+              116.34764411883093,
+              40.01266171816769
+            ],
+            [
+              116.34943206549981,
+              40.012671769153236
+            ],
+            [
+              116.34945673622457,
+              40.01007324730508
+            ],
+            [
+              116.3476688573462,
+              40.01006319723914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ORG-GF-01",
+      "properties": {
+        "id": "ORG-GF-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "原点开放首层A",
+        "name_en": "Origin Open Ground Floor A",
+        "building_type": "existing_retained",
+        "geometry_precision": "conceptual_design_envelope",
+        "replace_with_sourced_existing_footprint_when_available": true,
+        "area_sqm_declared": 25409.286
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34305985339478,
+              39.98867629052597
+            ],
+            [
+              116.3430444313593,
+              39.990286110796
+            ],
+            [
+              116.3447086566272,
+              39.99029553195503
+            ],
+            [
+              116.34472403960179,
+              39.9886857111509
+            ],
+            [
+              116.34305985339478,
+              39.98867629052597
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ORG-GF-02",
+      "properties": {
+        "id": "ORG-GF-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "原点开放首层B",
+        "name_en": "Origin Open Ground Floor B",
+        "building_type": "existing_retained",
+        "geometry_precision": "conceptual_design_envelope",
+        "replace_with_sourced_existing_footprint_when_available": true,
+        "area_sqm_declared": 27103.238
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34616633494751,
+              39.988693856366446
+            ],
+            [
+              116.34615098582573,
+              39.99030367763236
+            ],
+            [
+              116.34792616102887,
+              39.99031367844453
+            ],
+            [
+              116.34794146848557,
+              39.988703856611664
+            ],
+            [
+              116.34616633494751,
+              39.988693856366446
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ORG-GF-03",
+      "properties": {
+        "id": "ORG-GF-03",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "原点开放首层C",
+        "name_en": "Origin Open Ground Floor C",
+        "building_type": "existing_retained",
+        "geometry_precision": "conceptual_design_envelope",
+        "replace_with_sourced_existing_footprint_when_available": true,
+        "area_sqm_declared": 27103.238
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34949471105816,
+              39.98871258452689
+            ],
+            [
+              116.34947944005849,
+              39.99032240685457
+            ],
+            [
+              116.3512546169208,
+              39.99033235669386
+            ],
+            [
+              116.35126984625526,
+              39.98872253380211
+            ],
+            [
+              116.34949471105816,
+              39.98871258452689
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-GF-01",
+      "properties": {
+        "id": "DZS-GF-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺商业首层更新A",
+        "name_en": "Dazhongsi Ground-Floor Retrofit A",
+        "building_type": "existing_retained",
+        "geometry_precision": "conceptual_design_envelope",
+        "replace_with_sourced_existing_footprint_when_available": true,
+        "area_sqm_declared": 17580.869
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34302127570412,
+              39.9464162215409
+            ],
+            [
+              116.3430127915469,
+              39.94730313154262
+            ],
+            [
+              116.3451015540365,
+              39.94731494965796
+            ],
+            [
+              116.34511001122468,
+              39.946428039287014
+            ],
+            [
+              116.34302127570412,
+              39.9464162215409
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-GF-02",
+      "properties": {
+        "id": "DZS-GF-02",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺低效楼宇更新B",
+        "name_en": "Dazhongsi Retrofit Envelope B",
+        "building_type": "existing_retained",
+        "geometry_precision": "conceptual_design_envelope",
+        "replace_with_sourced_existing_footprint_when_available": true,
+        "area_sqm_declared": 18752.927
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35085515795134,
+              39.94634208921048
+            ],
+            [
+              116.35084621609965,
+              39.94728812803075
+            ],
+            [
+              116.35293498138836,
+              39.947299805013714
+            ],
+            [
+              116.35294389447296,
+              39.946353765804304
+            ],
+            [
+              116.35085515795134,
+              39.94634208921048
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-BLD-01",
+      "properties": {
+        "id": "DZS-BLD-01",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺再生建筑原型",
+        "name_en": "Dazhongsi Adaptive-Reuse Prototype",
+        "building_type": "incubator",
+        "geometry_precision": "conceptual_design_envelope",
+        "replace_with_sourced_existing_footprint_when_available": true,
+        "area_sqm_declared": 16408.811
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35083950943357,
+              39.94799765704324
+            ],
+            [
+              116.35083056684229,
+              39.94894369558959
+            ],
+            [
+              116.3526582804557,
+              39.94895391560351
+            ],
+            [
+              116.35266719787373,
+              39.94800787671658
+            ],
+            [
+              116.35083950943357,
+              39.94799765704324
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

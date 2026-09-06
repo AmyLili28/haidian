@@ -1,0 +1,375 @@
+{
+  "type": "FeatureCollection",
+  "name": "buildings",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLD-001",
+      "properties": {
+        "id": "BLD-001",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "概念建筑基底 BLD-001",
+        "building_type": "ai_r_and_d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3445,
+              40.0094
+            ],
+            [
+              116.3455,
+              40.0094
+            ],
+            [
+              116.3455,
+              40.0106
+            ],
+            [
+              116.3445,
+              40.0106
+            ],
+            [
+              116.3445,
+              40.0094
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-002",
+      "properties": {
+        "id": "BLD-002",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "概念建筑基底 BLD-002",
+        "building_type": "ai_r_and_d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3485,
+              40.0144
+            ],
+            [
+              116.3495,
+              40.0144
+            ],
+            [
+              116.3495,
+              40.0156
+            ],
+            [
+              116.3485,
+              40.0156
+            ],
+            [
+              116.3485,
+              40.0144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-003",
+      "properties": {
+        "id": "BLD-003",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "概念建筑基底 BLD-003",
+        "building_type": "ai_r_and_d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3455,
+              40.019400000000005
+            ],
+            [
+              116.3465,
+              40.019400000000005
+            ],
+            [
+              116.3465,
+              40.0206
+            ],
+            [
+              116.3455,
+              40.0206
+            ],
+            [
+              116.3455,
+              40.019400000000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-004",
+      "properties": {
+        "id": "BLD-004",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "概念建筑基底 BLD-004",
+        "building_type": "ai_r_and_d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34349999999999,
+              39.985499999999995
+            ],
+            [
+              116.3445,
+              39.985499999999995
+            ],
+            [
+              116.3445,
+              39.9865
+            ],
+            [
+              116.34349999999999,
+              39.9865
+            ],
+            [
+              116.34349999999999,
+              39.985499999999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-005",
+      "properties": {
+        "id": "BLD-005",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "概念建筑基底 BLD-005",
+        "building_type": "ai_r_and_d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3475,
+              39.9875
+            ],
+            [
+              116.3485,
+              39.9875
+            ],
+            [
+              116.3485,
+              39.9885
+            ],
+            [
+              116.3475,
+              39.9885
+            ],
+            [
+              116.3475,
+              39.9875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-006",
+      "properties": {
+        "id": "BLD-006",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "概念建筑基底 BLD-006",
+        "building_type": "ai_r_and_d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3445,
+              39.9905
+            ],
+            [
+              116.3455,
+              39.9905
+            ],
+            [
+              116.3455,
+              39.9915
+            ],
+            [
+              116.3445,
+              39.9915
+            ],
+            [
+              116.3445,
+              39.9905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-007",
+      "properties": {
+        "id": "BLD-007",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "概念建筑基底 BLD-007",
+        "building_type": "ai_r_and_d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3444,
+              39.94505
+            ],
+            [
+              116.3456,
+              39.94505
+            ],
+            [
+              116.3456,
+              39.94595
+            ],
+            [
+              116.3444,
+              39.94595
+            ],
+            [
+              116.3444,
+              39.94505
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-008",
+      "properties": {
+        "id": "BLD-008",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "概念建筑基底 BLD-008",
+        "building_type": "ai_r_and_d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34939999999999,
+              39.94555
+            ],
+            [
+              116.3506,
+              39.94555
+            ],
+            [
+              116.3506,
+              39.94645
+            ],
+            [
+              116.34939999999999,
+              39.94645
+            ],
+            [
+              116.34939999999999,
+              39.94555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-009",
+      "properties": {
+        "id": "BLD-009",
+        "layer": "BUILDING_FOOTPRINT",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "概念建筑基底 BLD-009",
+        "building_type": "ai_r_and_d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3454,
+              39.94755
+            ],
+            [
+              116.34660000000001,
+              39.94755
+            ],
+            [
+              116.34660000000001,
+              39.94845
+            ],
+            [
+              116.3454,
+              39.94845
+            ],
+            [
+              116.3454,
+              39.94755
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

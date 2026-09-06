@@ -1,0 +1,208 @@
+{
+  "ok": true,
+  "submission_dir": "submissions/Jones-Qiu/jz-openline",
+  "pr_author": "Jones-Qiu",
+  "stage": "formal",
+  "deterministic_validation": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "submissions/Jones-Qiu/jz-openline/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+      ],
+      "proposal_files": [
+        "submissions/Jones-Qiu/jz-openline/proposal.md"
+      ],
+      "changelog_files": [],
+      "changed_files": [
+        "submissions/Jones-Qiu/jz-openline/agent.json",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/build-sequence.en.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/build-sequence.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/future-development.en.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/future-development.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/key-areas.en.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/key-areas.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/land-use-structure.en.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/land-use-structure.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/metrics-evidence.en.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/metrics-evidence.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/mobility-bluegreen.en.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/mobility-bluegreen.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/regional-collaboration.en.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/regional-collaboration.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/site-overview.en.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/site-overview.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/typical-sections.en.png",
+        "submissions/Jones-Qiu/jz-openline/assets/figures/typical-sections.png",
+        "submissions/Jones-Qiu/jz-openline/assets/renders/dazhongsi-market.png",
+        "submissions/Jones-Qiu/jz-openline/assets/renders/origin-community.png",
+        "submissions/Jones-Qiu/jz-openline/assets/renders/park-commons.png",
+        "submissions/Jones-Qiu/jz-openline/assets/renders/test-yard.png",
+        "submissions/Jones-Qiu/jz-openline/assumptions.json",
+        "submissions/Jones-Qiu/jz-openline/compliance_matrix.json",
+        "submissions/Jones-Qiu/jz-openline/design_depth_matrix.json",
+        "submissions/Jones-Qiu/jz-openline/drawings/a0-boards.en.pdf",
+        "submissions/Jones-Qiu/jz-openline/drawings/a0-boards.pdf",
+        "submissions/Jones-Qiu/jz-openline/drawings/a3-booklet.en.pdf",
+        "submissions/Jones-Qiu/jz-openline/drawings/a3-booklet.pdf",
+        "submissions/Jones-Qiu/jz-openline/geometry/buildings.geojson",
+        "submissions/Jones-Qiu/jz-openline/geometry/constraints.geojson",
+        "submissions/Jones-Qiu/jz-openline/geometry/green_space.geojson",
+        "submissions/Jones-Qiu/jz-openline/geometry/key_areas.geojson",
+        "submissions/Jones-Qiu/jz-openline/geometry/land_use.geojson",
+        "submissions/Jones-Qiu/jz-openline/geometry/phasing.geojson",
+        "submissions/Jones-Qiu/jz-openline/geometry/public_space.geojson",
+        "submissions/Jones-Qiu/jz-openline/geometry/roads.geojson",
+        "submissions/Jones-Qiu/jz-openline/geometry/site_boundary.geojson",
+        "submissions/Jones-Qiu/jz-openline/manifest.json",
+        "submissions/Jones-Qiu/jz-openline/metrics.json",
+        "submissions/Jones-Qiu/jz-openline/proposal.en.md",
+        "submissions/Jones-Qiu/jz-openline/proposal.md",
+        "submissions/Jones-Qiu/jz-openline/report/copyright_statement.md",
+        "submissions/Jones-Qiu/jz-openline/report/narrative.md",
+        "submissions/Jones-Qiu/jz-openline/report/proposal.en.html",
+        "submissions/Jones-Qiu/jz-openline/report/proposal.html",
+        "submissions/Jones-Qiu/jz-openline/self_check.json",
+        "submissions/Jones-Qiu/jz-openline/simulation.json",
+        "submissions/Jones-Qiu/jz-openline/sources.json",
+        "submissions/Jones-Qiu/jz-openline/standard_matrix.json",
+        "submissions/Jones-Qiu/jz-openline/visual/index.en.html",
+        "submissions/Jones-Qiu/jz-openline/visual/index.html"
+      ],
+      "ai_package_stages": {
+        "submissions/Jones-Qiu/jz-openline": "formal"
+      },
+      "total_bytes": 22636532,
+      "maintainer_bypass": false
+    },
+    "stderr": ""
+  },
+  "spatial_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "stage": "formal",
+      "issues": [
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-001",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-002",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-003",
+          "expected": null,
+          "actual": null
+        }
+      ],
+      "metrics": {
+        "site_area_sqm": 11412825.386,
+        "green_space_area_sqm": 1397075.451,
+        "public_space_area_sqm": 848000.897,
+        "building_footprint_area_sqm": 472442.44,
+        "green_ratio": 0.122413,
+        "public_space_ratio": 0.074302
+      }
+    },
+    "stderr": ""
+  },
+  "visual_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "metrics_seen": {
+        "site_area_sqm": 11412825.386,
+        "green_ratio": 0.122413,
+        "public_space_ratio": 0.074302
+      }
+    },
+    "stderr": ""
+  },
+  "professional_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "summary": {
+        "standard_matrix_items": 6,
+        "design_depth_items": 15,
+        "known_metric_refs_required": 7,
+        "proposal_format_version": "2",
+        "evidence_contract": "section-anchors-plus-structured-audit",
+        "proposal_reference_counts": {
+          "source": 25,
+          "standard": 5,
+          "depth": 15,
+          "data": 13,
+          "metric": 5
+        }
+      }
+    },
+    "stderr": ""
+  },
+  "spatial_issue_ids": [
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL"
+  ],
+  "visual_issue_ids": [],
+  "professional_issue_ids": [],
+  "missing_review_dependencies": [],
+  "can_enter_formal_review": true,
+  "package_type": "professional_design_package",
+  "review_status": "formal-review-ready",
+  "next_actions": [],
+  "schema_version": "0.1.0",
+  "checks": [
+    {
+      "check_id": "DETERMINISTIC_VALIDATION",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "validate_local_submission.py",
+      "message": "deterministic_validation: PASS"
+    },
+    {
+      "check_id": "SPATIAL_REVIEW",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "spatial_review.py",
+      "message": "spatial_review: PASS"
+    },
+    {
+      "check_id": "VISUAL_PACKAGING",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "visual_review.py",
+      "message": "visual_review: PASS"
+    },
+    {
+      "check_id": "PROFESSIONAL_EVIDENCE",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "professional_review.py",
+      "message": "professional_review: PASS"
+    }
+  ]
+}

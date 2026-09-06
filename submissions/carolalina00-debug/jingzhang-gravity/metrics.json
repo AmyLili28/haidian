@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.1.0",
+  "units": {
+    "length": "m",
+    "area": "sqm"
+  },
+  "metrics": {
+    "site_area_sqm": {
+      "status": "known",
+      "value": 11412825.386,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "area(EPSG:4548 transform of submitted provisional SITE_BOUNDARY)",
+      "confidence": "low",
+      "assumptions": [
+        "A-BOUNDARY-001",
+        "This is a provisional design-model value, not an official redline area."
+      ]
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.162513,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "union_area(green_space in EPSG:4548) / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "A-BOUNDARY-001",
+        "A-DESIGN-LAYERS-001"
+      ]
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.070219,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "union_area(public_space in EPSG:4548) / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "A-BOUNDARY-001",
+        "A-DESIGN-LAYERS-001"
+      ]
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 324602.384,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "sum(non-overlapping conceptual building footprint area in EPSG:4548)",
+      "confidence": "low",
+      "assumptions": [
+        "A-BUILDINGS-001"
+      ]
+    },
+    "key_area_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(KEY_AREA features)",
+      "confidence": "low",
+      "assumptions": [
+        "A-BOUNDARY-001"
+      ]
+    },
+    "scenario_card_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(numbered scenario cards in proposal)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "testing_validation_scenario_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(cards explicitly marked Testing and Validation Scenario)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "total_floor_area_sqm / official_site_area_sqm",
+      "confidence": "unknown",
+      "assumptions": [
+        "A-CONTROLS-001"
+      ],
+      "reason": "Official boundary and approved FAR controls are not present in the public site package."
+    },
+    "building_height_m": {
+      "status": "unknown",
+      "value": null,
+      "unit": "m",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "requires approved height controls",
+      "confidence": "unknown",
+      "assumptions": [
+        "A-CONTROLS-001"
+      ],
+      "reason": "No approved height, aviation, heritage or skyline controls are available."
+    },
+    "building_density": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "requires official parcel and control conditions",
+      "confidence": "unknown",
+      "assumptions": [
+        "A-CONTROLS-001",
+        "A-BUILDINGS-001"
+      ],
+      "reason": "Conceptual footprints cannot be promoted to a statutory density control."
+    }
+  }
+}

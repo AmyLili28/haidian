@@ -28,10 +28,14 @@
       ],
       "changed_files": [
         "submissions/Restless-One/jingzhang-slow-line/agent.json",
+        "submissions/Restless-One/jingzhang-slow-line/assets/figures/key-areas-technical.en.png",
+        "submissions/Restless-One/jingzhang-slow-line/assets/figures/key-areas-technical.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/key-areas.en.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/key-areas.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/land-use-structure.en.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/land-use-structure.png",
+        "submissions/Restless-One/jingzhang-slow-line/assets/figures/metrics-evidence-technical.en.png",
+        "submissions/Restless-One/jingzhang-slow-line/assets/figures/metrics-evidence-technical.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/metrics-evidence.en.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/metrics-evidence.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/mobility-bluegreen.en.png",
@@ -44,6 +48,7 @@
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/site-grounding.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/site-overview.en.png",
         "submissions/Restless-One/jingzhang-slow-line/assets/figures/site-overview.png",
+        "submissions/Restless-One/jingzhang-slow-line/assets/media/p0-execution-workbook.md",
         "submissions/Restless-One/jingzhang-slow-line/assets/media/slow-line-experience.jpg",
         "submissions/Restless-One/jingzhang-slow-line/assets/media/slow-line-site-grounded.jpg",
         "submissions/Restless-One/jingzhang-slow-line/assumptions.json",
@@ -81,14 +86,20 @@
         "submissions/Restless-One/jingzhang-slow-line/visual/assets/v13-implementation.json",
         "submissions/Restless-One/jingzhang-slow-line/visual/assets/v14-delivery-control.json",
         "submissions/Restless-One/jingzhang-slow-line/visual/assets/v14-verification.json",
+        "submissions/Restless-One/jingzhang-slow-line/visual/assets/v15-execution-kit.json",
+        "submissions/Restless-One/jingzhang-slow-line/visual/assets/v15-verification.json",
+        "submissions/Restless-One/jingzhang-slow-line/visual/assets/v16-communication-audit.json",
+        "submissions/Restless-One/jingzhang-slow-line/visual/assets/v16-verification.json",
         "submissions/Restless-One/jingzhang-slow-line/visual/assets/verify-v14.js",
+        "submissions/Restless-One/jingzhang-slow-line/visual/assets/verify-v15.js",
+        "submissions/Restless-One/jingzhang-slow-line/visual/assets/verify-v16.js",
         "submissions/Restless-One/jingzhang-slow-line/visual/index.en.html",
         "submissions/Restless-One/jingzhang-slow-line/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/Restless-One/jingzhang-slow-line": "formal"
       },
-      "total_bytes": 18240168,
+      "total_bytes": 18826285,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -146,18 +157,15 @@
       "ok": true,
       "issues": [],
       "metrics_seen": {
-        "p0_current_package_pass_count": 8.0,
-        "p0_current_package_hold_count": 0.0,
-        "p0_field_check_hold_count": 12.0,
-        "p0_external_gate_hold_count": 12.0,
-        "simulation_task_count": 12.0,
-        "simulation_success_rate": 1.0,
-        "tool_schema_pass_rate": 0.9166666666666666,
-        "audit_completeness": 1.0,
         "site_area_sqm": 11412825.385554,
         "green_ratio": 0.145367,
         "public_space_ratio": 0.053963,
-        "non_ai_fallback_coverage_ratio": 1.0
+        "non_ai_fallback_coverage_ratio": 1.0,
+        "p0_external_decision_bundle_hold_count": 4.0,
+        "simulation_task_count": 12.0,
+        "simulation_success_rate": 1.0,
+        "tool_schema_pass_rate": 0.9166666666666666,
+        "audit_completeness": 1.0
       }
     },
     "stderr": ""
@@ -171,7 +179,7 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 85,
+        "known_metric_refs_required": 104,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
@@ -179,7 +187,7 @@
           "standard": 5,
           "depth": 15,
           "data": 11,
-          "metric": 61
+          "metric": 78
         }
       }
     },

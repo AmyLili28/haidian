@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "conceptual_open_innovation_spine",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ROAD-001",
+      "properties": {
+        "id": "ROAD-001",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "usage_note": "概念性机器复核图层，不是法定用地、道路、建筑或工程控制线。",
+        "layer": "ROAD_CENTERLINE",
+        "road_class": "greenway",
+        "name_zh": "京张遗址开放创新主脊示意线"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.32999340877767,
+            40.00756009865101
+          ],
+          [
+            116.32999340877767,
+            40.02178073389663
+          ]
+        ]
+      }
+    }
+  ]
+}

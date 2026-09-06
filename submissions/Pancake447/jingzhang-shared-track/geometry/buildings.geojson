@@ -1,0 +1,2051 @@
+{
+ "type": "FeatureCollection",
+ "name": "buildings_shared_track",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "BLDG-001",
+   "properties": {
+    "land_use_code": "0901",
+    "name_zh": "大钟寺智能消费街区建筑",
+    "name_en": "Dazhongsi smart-consumption block building",
+    "building_type": "retail",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 52589.242,
+    "cell_id": "LU-001",
+    "id": "BLDG-001",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34398572828043,
+       39.94447876120096
+      ],
+      [
+       116.34394948159772,
+       39.94827344385731
+      ],
+      [
+       116.34248913537073,
+       39.948265170686675
+      ],
+      [
+       116.3425254627232,
+       39.94447048913615
+      ],
+      [
+       116.34398572828043,
+       39.94447876120096
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-002",
+   "properties": {
+    "land_use_code": "0901",
+    "name_zh": "大钟寺智能消费街区建筑",
+    "name_en": "Dazhongsi smart-consumption block building",
+    "building_type": "retail",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 28924.083,
+    "cell_id": "LU-001",
+    "id": "BLDG-002",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34400384904515,
+       39.94258141892825
+      ],
+      [
+       116.34398391610951,
+       39.94466849539359
+      ],
+      [
+       116.34252364651915,
+       39.9446602232735
+      ],
+      [
+       116.34254362381706,
+       39.9425731474163
+      ],
+      [
+       116.34400384904515,
+       39.94258141892825
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-003",
+   "properties": {
+    "land_use_code": "0901",
+    "name_zh": "大钟寺智能消费街区建筑",
+    "name_en": "Dazhongsi smart-consumption block building",
+    "building_type": "retail",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 23665.159,
+    "cell_id": "LU-001",
+    "id": "BLDG-003",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34208738317379,
+       39.94446800393053
+      ],
+      [
+       116.34206012015484,
+       39.94731401508041
+      ],
+      [
+       116.3411839249188,
+       39.94730903920486
+      ],
+      [
+       116.34121122423821,
+       39.94446302855382
+      ],
+      [
+       116.34208738317379,
+       39.94446800393053
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-004",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "大钟寺数字商务街区建筑",
+    "name_en": "Dazhongsi digital-business block building",
+    "building_type": "office",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 34420.821,
+    "cell_id": "LU-003",
+    "id": "BLDG-004",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35137154342002,
+       39.94209750747929
+      ],
+      [
+       116.35134644943894,
+       39.94475482622048
+      ],
+      [
+       116.34998157968674,
+       39.94474718176263
+      ],
+      [
+       116.35000672646048,
+       39.94208986373701
+      ],
+      [
+       116.35137154342002,
+       39.94209750747929
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-005",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "大钟寺数字商务街区建筑",
+    "name_en": "Dazhongsi digital-business block building",
+    "building_type": "office",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 34420.821,
+    "cell_id": "LU-003",
+    "id": "BLDG-005",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35381684177386,
+       39.94211116234145
+      ],
+      [
+       116.35379184237979,
+       39.9447684823609
+      ],
+      [
+       116.35242697169545,
+       39.94476086668865
+      ],
+      [
+       116.3524520238823,
+       39.942103547382054
+      ],
+      [
+       116.35381684177386,
+       39.94211116234145
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-006",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "大钟寺数字商务街区建筑",
+    "name_en": "Dazhongsi digital-business block building",
+    "building_type": "office",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 27044.93,
+    "cell_id": "LU-003",
+    "id": "BLDG-006",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35133748649547,
+       39.945703868328785
+      ],
+      [
+       116.35131776652392,
+       39.94779176041261
+      ],
+      [
+       116.34995283642866,
+       39.947784115136926
+      ],
+      [
+       116.34997259788703,
+       39.94569622361537
+      ],
+      [
+       116.35133748649547,
+       39.945703868328785
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-007",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "大钟寺数字商务街区建筑",
+    "name_en": "Dazhongsi digital-business block building",
+    "building_type": "office",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 27044.93,
+    "cell_id": "LU-003",
+    "id": "BLDG-007",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35378291322046,
+       39.94571752492576
+      ],
+      [
+       116.35376326757961,
+       39.94780541801405
+      ],
+      [
+       116.35239833655206,
+       39.94779780152702
+      ],
+      [
+       116.35241802367982,
+       39.94570990899889
+      ],
+      [
+       116.35378291322046,
+       39.94571752492576
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-008",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区建筑",
+    "name_en": "Zhichun Road North residential community building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 60340.256,
+    "cell_id": "LU-004",
+    "id": "BLDG-008",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34061939636464,
+       39.95643877307957
+      ],
+      [
+       116.3417204448167,
+       39.95644503052959
+      ],
+      [
+       116.34177650134701,
+       39.950597718011146
+      ],
+      [
+       116.34072915062323,
+       39.950591766695936
+      ],
+      [
+       116.340647202397,
+       39.95354335546367
+      ],
+      [
+       116.34061939636464,
+       39.95643877307957
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-009",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区建筑",
+    "name_en": "Zhichun Road North residential community building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 61091.048,
+    "cell_id": "LU-004",
+    "id": "BLDG-009",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34320774298081,
+       39.950605835391904
+      ],
+      [
+       116.34315180831848,
+       39.95645314958247
+      ],
+      [
+       116.34205075941942,
+       39.95644690572561
+      ],
+      [
+       116.34210678782634,
+       39.950599592820986
+      ],
+      [
+       116.34320774298081,
+       39.950605835391904
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-010",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区建筑",
+    "name_en": "Zhichun Road North residential community building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 61091.048,
+    "cell_id": "LU-004",
+    "id": "BLDG-010",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34463898519441,
+       39.95061393510516
+      ],
+      [
+       116.34458317240026,
+       39.95646125096417
+      ],
+      [
+       116.34348212305514,
+       39.956455020700545
+      ],
+      [
+       116.34353802959406,
+       39.950607706124636
+      ],
+      [
+       116.34463898519441,
+       39.95061393510516
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-011",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区建筑",
+    "name_en": "Zhichun Road North residential community building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 61091.048,
+    "cell_id": "LU-004",
+    "id": "BLDG-011",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34170319335863,
+       39.9582442024088
+      ],
+      [
+       116.34164711540876,
+       39.96409150710515
+      ],
+      [
+       116.34054594432646,
+       39.964085247969564
+      ],
+      [
+       116.34060211605662,
+       39.9582379445622
+      ],
+      [
+       116.34170319335863,
+       39.9582442024088
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-012",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区建筑",
+    "name_en": "Zhichun Road North residential community building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 61091.048,
+    "cell_id": "LU-004",
+    "id": "BLDG-012",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34313459436541,
+       39.95825232197622
+      ],
+      [
+       116.34307863833007,
+       39.964099628345046
+      ],
+      [
+       116.34197746680059,
+       39.964093382806304
+      ],
+      [
+       116.34203351661634,
+       39.95824607772368
+      ],
+      [
+       116.34313459436541,
+       39.95825232197622
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-013",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区建筑",
+    "name_en": "Zhichun Road North residential community building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 61091.048,
+    "cell_id": "LU-004",
+    "id": "BLDG-013",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34456599595222,
+       39.95826042387136
+      ],
+      [
+       116.34451016183162,
+       39.964107731909024
+      ],
+      [
+       116.3434089898559,
+       39.96410149996714
+      ],
+      [
+       116.34346491775709,
+       39.95825419321289
+      ],
+      [
+       116.34456599595222,
+       39.95826042387136
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-014",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区建筑",
+    "name_en": "Zhichun Road North residential community building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 46993.114,
+    "cell_id": "LU-004",
+    "id": "BLDG-014",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34163417201663,
+       39.96544088426253
+      ],
+      [
+       116.34159102107309,
+       39.96993880581964
+      ],
+      [
+       116.3404897561831,
+       39.96993254539484
+      ],
+      [
+       116.34053297928882,
+       39.96543462482944
+      ],
+      [
+       116.34163417201663,
+       39.96544088426253
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-015",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区建筑",
+    "name_en": "Zhichun Road North residential community building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 46993.114,
+    "cell_id": "LU-004",
+    "id": "BLDG-015",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34306572307712,
+       39.9654490058884
+      ],
+      [
+       116.34302266594455,
+       39.969946928732284
+      ],
+      [
+       116.34192140060722,
+       39.96994068190714
+      ],
+      [
+       116.34196452990209,
+       39.96544276005282
+      ],
+      [
+       116.34306572307712,
+       39.9654490058884
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-016",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区建筑",
+    "name_en": "Zhichun Road North residential community building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 46993.114,
+    "cell_id": "LU-004",
+    "id": "BLDG-016",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3444972747179,
+       39.96545710983753
+      ],
+      [
+       116.34445431139645,
+       39.96995503396536
+      ],
+      [
+       116.34335304561276,
+       39.96994880073988
+      ],
+      [
+       116.34339608109661,
+       39.96545087759945
+      ],
+      [
+       116.3444972747179,
+       39.96545710983753
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-017",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "小月河翼科研街区建筑",
+    "name_en": "Xiaoyue River wing research block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 107903.018,
+    "cell_id": "LU-006",
+    "id": "BLDG-017",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3508387663303,
+       39.955994532109514
+      ],
+      [
+       116.35075368964327,
+       39.96499042632882
+      ],
+      [
+       116.34948944969588,
+       39.96498333869537
+      ],
+      [
+       116.3495746920194,
+       39.95598744672152
+      ],
+      [
+       116.3508387663303,
+       39.955994532109514
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-018",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "小月河翼科研街区建筑",
+    "name_en": "Xiaoyue River wing research block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 107903.018,
+    "cell_id": "LU-006",
+    "id": "BLDG-018",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35256250474725,
+       39.95600417179167
+      ],
+      [
+       116.35247765392855,
+       39.965000069065916
+      ],
+      [
+       116.35121341337145,
+       39.96499300023198
+      ],
+      [
+       116.35129842982695,
+       39.95599710519723
+      ],
+      [
+       116.35256250474725,
+       39.95600417179167
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-019",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "小月河翼科研街区建筑",
+    "name_en": "Xiaoyue River wing research block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 107903.018,
+    "cell_id": "LU-006",
+    "id": "BLDG-019",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35428624399329,
+       39.95601378584624
+      ],
+      [
+       116.3542016190433,
+       39.9650096861673
+      ],
+      [
+       116.35293737787813,
+       39.965002636132894
+      ],
+      [
+       116.35302216846523,
+       39.95600673804537
+      ],
+      [
+       116.35428624399329,
+       39.95601378584624
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-020",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "小月河翼科研街区建筑",
+    "name_en": "Xiaoyue River wing research block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 70136.962,
+    "cell_id": "LU-006",
+    "id": "BLDG-020",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3519898980681,
+       39.94970350448766
+      ],
+      [
+       116.3519432039847,
+       39.95465125457324
+      ],
+      [
+       116.35044932692784,
+       39.95464289391626
+      ],
+      [
+       116.35049612863035,
+       39.94969514528769
+      ],
+      [
+       116.3519898980681,
+       39.94970350448766
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-021",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "小月河翼科研街区建筑",
+    "name_en": "Xiaoyue River wing research block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 70136.962,
+    "cell_id": "LU-006",
+    "id": "BLDG-021",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35400074252576,
+       39.94971472686645
+      ],
+      [
+       116.35395419331446,
+       39.95466247890806
+      ],
+      [
+       116.35246031541891,
+       39.954654144162184
+      ],
+      [
+       116.35250697224951,
+       39.94970639357306
+      ],
+      [
+       116.35400074252576,
+       39.94971472686645
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-022",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区建筑",
+    "name_en": "AI Origin community west residential block building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 70047.333,
+    "cell_id": "LU-007",
+    "id": "BLDG-022",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34151176720827,
+       39.98008145805757
+      ],
+      [
+       116.34157285987028,
+       39.97371611195449
+      ],
+      [
+       116.34041200803087,
+       39.97370951216056
+      ],
+      [
+       116.34035446063584,
+       39.9796949758019
+      ],
+      [
+       116.34037897744452,
+       39.98007501709626
+      ],
+      [
+       116.34151176720827,
+       39.98008145805757
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-023",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区建筑",
+    "name_en": "AI Origin community west residential block building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 70098.087,
+    "cell_id": "LU-007",
+    "id": "BLDG-023",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3430819678332,
+       39.97372467430837
+      ],
+      [
+       116.34302101517035,
+       39.9800900223312
+      ],
+      [
+       116.34186005514218,
+       39.98008343617242
+      ],
+      [
+       116.3419211154967,
+       39.97371808962594
+      ],
+      [
+       116.3430819678332,
+       39.97372467430837
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-024",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区建筑",
+    "name_en": "AI Origin community west residential block building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 70098.087,
+    "cell_id": "LU-007",
+    "id": "BLDG-024",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34459107644105,
+       39.97373321701727
+      ],
+      [
+       116.34453026377759,
+       39.980098566955455
+      ],
+      [
+       116.3433693032533,
+       39.9800919959116
+      ],
+      [
+       116.3434302236086,
+       39.97372664744636
+      ],
+      [
+       116.34459107644105,
+       39.97373321701727
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-025",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区建筑",
+    "name_en": "AI Origin community west residential block building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 45377.892,
+    "cell_id": "LU-007",
+    "id": "BLDG-025",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34143184747846,
+       39.98840536149511
+      ],
+      [
+       116.34149296555651,
+       39.98204002466299
+      ],
+      [
+       116.34050538352325,
+       39.98203440973418
+      ],
+      [
+       116.34091624786959,
+       39.98840243070219
+      ],
+      [
+       116.34143184747846,
+       39.98840536149511
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-026",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区建筑",
+    "name_en": "AI Origin community west residential block building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 70098.087,
+    "cell_id": "LU-007",
+    "id": "BLDG-026",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34300225660421,
+       39.9820485895274
+      ],
+      [
+       116.34294127858355,
+       39.98841392827973
+      ],
+      [
+       116.34178017767611,
+       39.988407340189944
+      ],
+      [
+       116.34184126343325,
+       39.98204200291432
+      ],
+      [
+       116.34300225660421,
+       39.9820485895274
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-027",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区建筑",
+    "name_en": "AI Origin community west residential block building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 70098.087,
+    "cell_id": "LU-007",
+    "id": "BLDG-027",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3445115482971,
+       39.98205713474106
+      ],
+      [
+       116.34445071033409,
+       39.9884224754092
+      ],
+      [
+       116.34328960893029,
+       39.988415902438774
+      ],
+      [
+       116.34335055462996,
+       39.98205056324394
+      ],
+      [
+       116.3445115482971,
+       39.98205713474106
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-028",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区建筑",
+    "name_en": "AI Origin community west residential block building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 10453.312,
+    "cell_id": "LU-007",
+    "id": "BLDG-028",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34137070995666,
+       39.99477069123729
+      ],
+      [
+       116.34141774054561,
+       39.989874284372604
+      ],
+      [
+       116.34101107240609,
+       39.98987197289357
+      ],
+      [
+       116.34132718043993,
+       39.99477044386115
+      ],
+      [
+       116.34137070995666,
+       39.99477069123729
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-029",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区建筑",
+    "name_en": "AI Origin community west residential block building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 53921.606,
+    "cell_id": "LU-007",
+    "id": "BLDG-029",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34292720397796,
+       39.98988285160039
+      ],
+      [
+       116.34288028116372,
+       39.99477925994249
+      ],
+      [
+       116.34171907248552,
+       39.99477267037574
+      ],
+      [
+       116.3417660782034,
+       39.98987626316979
+      ],
+      [
+       116.34292720397796,
+       39.98988285160039
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-030",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区建筑",
+    "name_en": "AI Origin community west residential block building",
+    "building_type": "residential",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 53921.606,
+    "cell_id": "LU-007",
+    "id": "BLDG-030",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34443666805582,
+       39.98989139917202
+      ],
+      [
+       116.34438985301638,
+       39.994787808988114
+      ],
+      [
+       116.34322864384167,
+       39.9947812345441
+      ],
+      [
+       116.34327554178486,
+       39.98988482586156
+      ],
+      [
+       116.34443666805582,
+       39.98989139917202
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-031",
+   "properties": {
+    "land_use_code": "0804",
+    "name_zh": "近校教育科研街区建筑",
+    "name_en": "Campus-adjacent education & research block building",
+    "building_type": "education",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 116499.379,
+    "cell_id": "LU-009",
+    "id": "BLDG-031",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35082502966256,
+       39.980821108643
+      ],
+      [
+       116.35073231417283,
+       39.99061566289184
+      ],
+      [
+       116.34947819298826,
+       39.9906086307168
+      ],
+      [
+       116.34957108753588,
+       39.98081407889321
+      ],
+      [
+       116.35082502966256,
+       39.980821108643
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-032",
+   "properties": {
+    "land_use_code": "0804",
+    "name_zh": "近校教育科研街区建筑",
+    "name_en": "Campus-adjacent education & research block building",
+    "building_type": "education",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 116499.379,
+    "cell_id": "LU-009",
+    "id": "BLDG-032",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35243007622672,
+       39.98083008693025
+      ],
+      [
+       116.35233758993144,
+       39.990624644276586
+      ],
+      [
+       116.35108346818345,
+       39.99061762946937
+      ],
+      [
+       116.35117613353694,
+       39.980823074542286
+      ],
+      [
+       116.35243007622672,
+       39.98083008693025
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-033",
+   "properties": {
+    "land_use_code": "0804",
+    "name_zh": "近校教育科研街区建筑",
+    "name_en": "Campus-adjacent education & research block building",
+    "building_type": "education",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 51778.544,
+    "cell_id": "LU-009",
+    "id": "BLDG-033",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35278118025856,
+       39.980832047968214
+      ],
+      [
+       116.35268874409961,
+       39.990626605991125
+      ],
+      [
+       116.35298285785285,
+       39.990628248231936
+      ],
+      [
+       116.35294906254866,
+       39.99001137553475
+      ],
+      [
+       116.35294941469357,
+       39.98998340081876
+      ],
+      [
+       116.35368127099007,
+       39.980837070429224
+      ],
+      [
+       116.35278118025856,
+       39.980832047968214
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-034",
+   "properties": {
+    "land_use_code": "0804",
+    "name_zh": "近校教育科研街区建筑",
+    "name_en": "Campus-adjacent education & research block building",
+    "building_type": "education",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 64074.658,
+    "cell_id": "LU-009",
+    "id": "BLDG-034",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35089916938955,
+       39.97298545316173
+      ],
+      [
+       116.35084820144557,
+       39.97837246745875
+      ],
+      [
+       116.3495943040697,
+       39.97836543831517
+      ],
+      [
+       116.34964537044611,
+       39.972978425351656
+      ],
+      [
+       116.35089916938955,
+       39.97298545316173
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-035",
+   "properties": {
+    "land_use_code": "0804",
+    "name_zh": "近校教育科研街区建筑",
+    "name_en": "Campus-adjacent education & research block building",
+    "building_type": "education",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 64074.658,
+    "cell_id": "LU-009",
+    "id": "BLDG-035",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3525040326789,
+       39.9729944289716
+      ],
+      [
+       116.35245319072865,
+       39.97838144497175
+      ],
+      [
+       116.35119929278973,
+       39.978374433188506
+      ],
+      [
+       116.35125023317259,
+       39.972987418518564
+      ],
+      [
+       116.3525040326789,
+       39.9729944289716
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-036",
+   "properties": {
+    "land_use_code": "0804",
+    "name_zh": "近校教育科研街区建筑",
+    "name_en": "Campus-adjacent education & research block building",
+    "building_type": "education",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 56322.652,
+    "cell_id": "LU-009",
+    "id": "BLDG-036",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35395844065587,
+       39.9730025441089
+      ],
+      [
+       116.35285509661932,
+       39.97299638946846
+      ],
+      [
+       116.35280428223024,
+       39.97838340584062
+      ],
+      [
+       116.35387708929858,
+       39.978389390948024
+      ],
+      [
+       116.35391180096123,
+       39.97795548401089
+      ],
+      [
+       116.35395844065587,
+       39.9730025441089
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-037",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "众智园全栈创新实验室街区建筑",
+    "name_en": "Zhongzhiyuan full-stack innovation lab block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 32036.856,
+    "cell_id": "LU-013",
+    "id": "BLDG-037",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34300955202163,
+       40.02068734723238
+      ],
+      [
+       116.34308041199972,
+       40.01329798251507
+      ],
+      [
+       116.34240738065486,
+       40.01329416538496
+      ],
+      [
+       116.34276799474884,
+       40.02068597746962
+      ],
+      [
+       116.34300955202163,
+       40.02068734723238
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-038",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "众智园全栈创新实验室街区建筑",
+    "name_en": "Zhongzhiyuan full-stack innovation lab block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 56828.324,
+    "cell_id": "LU-013",
+    "id": "BLDG-038",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34418651879524,
+       40.013304247362456
+      ],
+      [
+       116.34411577810879,
+       40.02069361371
+      ],
+      [
+       116.343304545611,
+       40.020689019325516
+      ],
+      [
+       116.34337537377797,
+       40.0132996541732
+      ],
+      [
+       116.34418651879524,
+       40.013304247362456
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-039",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "众智园全栈创新实验室街区建筑",
+    "name_en": "Zhongzhiyuan full-stack innovation lab block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 56828.324,
+    "cell_id": "LU-013",
+    "id": "BLDG-039",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34529262593679,
+       40.01331050165361
+      ],
+      [
+       116.34522200454211,
+       40.02069986962863
+      ],
+      [
+       116.34441077179049,
+       40.0206952829874
+      ],
+      [
+       116.34448148066585,
+       40.013305916205596
+      ],
+      [
+       116.34529262593679,
+       40.01331050165361
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-040",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "众智园全栈创新实验室街区建筑",
+    "name_en": "Zhongzhiyuan full-stack innovation lab block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 36938.411,
+    "cell_id": "LU-013",
+    "id": "BLDG-040",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34383047981008,
+       40.008129389766864
+      ],
+      [
+       116.34379156167279,
+       40.01219354579077
+      ],
+      [
+       116.34283295137801,
+       40.01218811372376
+      ],
+      [
+       116.3428719263582,
+       40.00812395847716
+      ],
+      [
+       116.34383047981008,
+       40.008129389766864
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-041",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "众智园全栈创新实验室街区建筑",
+    "name_en": "Zhongzhiyuan full-stack innovation lab block building",
+    "building_type": "lab",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 36938.411,
+    "cell_id": "LU-013",
+    "id": "BLDG-041",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34512084063658,
+       40.00813668859979
+      ],
+      [
+       116.34508199901869,
+       40.01220084566829
+      ],
+      [
+       116.3441233883739,
+       40.012195424274395
+      ],
+      [
+       116.3441622868348,
+       40.008131267981675
+      ],
+      [
+       116.34512084063658,
+       40.00813668859979
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-042",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "众智园企业总部与加速器街区建筑",
+    "name_en": "Zhongzhiyuan HQ & accelerator block building",
+    "building_type": "office",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 67788.168,
+    "cell_id": "LU-015",
+    "id": "BLDG-042",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35137110715364,
+       40.013301506644176
+      ],
+      [
+       116.35132210521438,
+       40.01847709606091
+      ],
+      [
+       116.34994054756824,
+       40.01846935428734
+      ],
+      [
+       116.34998965385421,
+       40.01329376628131
+      ],
+      [
+       116.35137110715364,
+       40.013301506644176
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-043",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "众智园企业总部与加速器街区建筑",
+    "name_en": "Zhongzhiyuan HQ & accelerator block building",
+    "building_type": "office",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 67788.168,
+    "cell_id": "LU-015",
+    "id": "BLDG-043",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35384621231616,
+       40.01331533361502
+      ],
+      [
+       116.35379739733177,
+       40.01849092555177
+      ],
+      [
+       116.3524158387297,
+       40.01848321328518
+      ],
+      [
+       116.35246475806105,
+       40.01330762275374
+      ],
+      [
+       116.35384621231616,
+       40.01331533361502
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-044",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "众智园企业总部与加速器街区建筑",
+    "name_en": "Zhongzhiyuan HQ & accelerator block building",
+    "building_type": "office",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 53262.132,
+    "cell_id": "LU-015",
+    "id": "BLDG-044",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35130460144967,
+       40.02032551971684
+      ],
+      [
+       116.3512660874746,
+       40.0243920496556
+      ],
+      [
+       116.34988441054205,
+       40.024384306269525
+      ],
+      [
+       116.3499230065303,
+       40.02031777743938
+      ],
+      [
+       116.35130460144967,
+       40.02032551971684
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BLDG-045",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "众智园企业总部与加速器街区建筑",
+    "name_en": "Zhongzhiyuan HQ & accelerator block building",
+    "building_type": "office",
+    "retain_renovate_demolish": "new_build_concept",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 53262.132,
+    "cell_id": "LU-015",
+    "id": "BLDG-045",
+    "layer": "BUILDING_FOOTPRINT"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3537799603484,
+       40.02033935010778
+      ],
+      [
+       116.35374159331396,
+       40.02440588202693
+      ],
+      [
+       116.35235991542511,
+       40.02439816815397
+      ],
+      [
+       116.35239836447298,
+       40.02033163733923
+      ],
+      [
+       116.3537799603484,
+       40.02033935010778
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "date": "2026-08-29",
+  "title": "非 AI 等价与无账户权利契约（Non-AI parity & no-account rights contract）",
+  "ruling": "先日常、后叠加：普通人的完整使用优先于任何 AI 场景演示；场景只是叠加层，失败只关闭叠加，不中断日常使用。",
+  "rights": [
+    {
+      "id": "R1",
+      "right": "无账户使用",
+      "statement": "全部 12 个场景节点均提供无需注册账户的体验路径",
+      "implementation": "proposal.md 场景卡（12/12 均声明公开来源/自愿提交数据入口）",
+      "coverage": "12/12"
+    },
+    {
+      "id": "R2",
+      "right": "不强制扫码",
+      "statement": "不以二维码/扫码为使用前提；扫码仅是可选加速通道",
+      "implementation": "场景卡隐私最小化列；TVS 蓝图人工窗口",
+      "coverage": "12/12"
+    },
+    {
+      "id": "R3",
+      "right": "非 AI 同任务路线",
+      "statement": "3 个 TVS 各有一条与数字入口等价的人工窗口/柜台路线，完成同一任务并取得同一记录",
+      "implementation": "TVS 可测试服务蓝图『等价人工服务』列",
+      "coverage": "3/3"
+    },
+    {
+      "id": "R4",
+      "right": "低扰动运行",
+      "statement": "夜间照明分级、降噪时段与低扰动更新承诺，屏幕不是公共空间的默认界面",
+      "implementation": "用户画像表（周边居民行）与场景治理边界段",
+      "coverage": "6/6 画像组"
+    },
+    {
+      "id": "R5",
+      "right": "人工停止权",
+      "statement": "每个 stop/hold 分支由人工执行，任何人可要求停止涉及自己的处理",
+      "implementation": "G0 推演证据 15/15 fail-closed 人工复核点",
+      "coverage": "15/15"
+    },
+    {
+      "id": "R6",
+      "right": "申诉与更正",
+      "statement": "现场投诉台/电话/书面申诉，申诉期内结果不生效",
+      "implementation": "TVS 蓝图治理列（三项一致）",
+      "coverage": "3/3 TVS"
+    },
+    {
+      "id": "R7",
+      "right": "数据最小化与不画像",
+      "statement": "不采集个人行为轨迹，不将居民画像用于商业推荐，不做健康/行为画像",
+      "implementation": "场景卡隐私最小化列 + 画像表数据边界列",
+      "coverage": "12/12"
+    }
+  ],
+  "coverage_metrics_note": "覆盖率全部由包内可数内容复算（场景卡数、TVS 蓝图数、画像组数、G0 推演步骤数），不含任何现场或运营数据。",
+  "result": "pass"
+}

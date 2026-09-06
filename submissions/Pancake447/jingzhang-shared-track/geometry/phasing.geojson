@@ -1,0 +1,167 @@
+{
+ "type": "FeatureCollection",
+ "name": "phasing_shared_track",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "PHASE-P1",
+   "properties": {
+    "phase": "P1",
+    "name_zh": "近期启动区（2026–2028）",
+    "name_en": "Phase 1 Near-term (2026-2028)",
+    "phase_note_zh": "大钟寺站台公园、AI场景先行与双轨服务试点",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 4696450.332,
+    "id": "PHASE-P1",
+    "layer": "PHASE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3553,
+       39.939
+      ],
+      [
+       116.3407,
+       39.939
+      ],
+      [
+       116.34042222222222,
+       39.949
+      ],
+      [
+       116.33978333333333,
+       39.972
+      ],
+      [
+       116.35474,
+       39.972
+      ],
+      [
+       116.3553,
+       39.965
+      ],
+      [
+       116.3553,
+       39.949
+      ],
+      [
+       116.3553,
+       39.939
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PHASE-P2",
+   "properties": {
+    "phase": "P2",
+    "name_zh": "中期更新区（2029–2031）",
+    "name_en": "Phase 2 Mid-term (2029-2031)",
+    "phase_note_zh": "原点社区与公园北段缝合、近校成果转化",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 4457161.991,
+    "id": "PHASE-P2",
+    "layer": "PHASE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3397,
+       39.975
+      ],
+      [
+       116.34111935483871,
+       39.997
+      ],
+      [
+       116.3417,
+       40.006
+      ],
+      [
+       116.34177317073171,
+       40.0075
+      ],
+      [
+       116.35425890410959,
+       40.0075
+      ],
+      [
+       116.35368356164383,
+       39.997
+      ],
+      [
+       116.3533,
+       39.99
+      ],
+      [
+       116.35474,
+       39.972
+      ],
+      [
+       116.33978333333333,
+       39.972
+      ],
+      [
+       116.3397,
+       39.975
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PHASE-P3",
+   "properties": {
+    "phase": "P3",
+    "name_zh": "远期提升区（2032–2035）",
+    "name_en": "Phase 3 Long-term (2032-2035)",
+    "phase_note_zh": "众智园全栈创新街区与测试展示场",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 2259237.554,
+    "id": "PHASE-P3",
+    "layer": "PHASE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34177317073171,
+       40.0075
+      ],
+      [
+       116.3427,
+       40.0265
+      ],
+      [
+       116.3553,
+       40.0265
+      ],
+      [
+       116.35425890410959,
+       40.0075
+      ],
+      [
+       116.34177317073171,
+       40.0075
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

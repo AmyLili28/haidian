@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, taskbook, enums, ranges, local standards and schemas.",
+      "retrieved": "2026-08-31"
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "official_public",
+      "usage": "Repository-governed usability status for official, background and provisional material.",
+      "retrieved": "2026-08-31"
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Navigation only; not an independent authority source.",
+      "retrieved": "2026-08-31"
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Provisional-only generation, visualization and intake checks; never official redline, statutory control or precise official area.",
+      "retrieved": "2026-08-31"
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three provisional key-area polygons for conceptual layout only.",
+      "retrieved": "2026-08-31"
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "publisher": "北京市规划和自然资源委员会海淀分局",
+      "published_date": "2026-05-09",
+      "source_type": "official_public",
+      "usage": "Project purposes, three scope levels, approximate areas and tasks; not exact polygons or statutory controls."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent tasks, scenarios, identity, operation and common boundary clause."
+    },
+    {
+      "id": "CASE-KENDALL",
+      "url": "https://kendallsquare.mit.edu/",
+      "publisher": "MIT",
+      "source_type": "official_public",
+      "retrieved": "2026-08-31",
+      "usage": "Case-mechanism comparison: research/industry/public-realm adjacency only."
+    },
+    {
+      "id": "CASE-STATION-F",
+      "url": "https://stationf.co/",
+      "publisher": "STATION F",
+      "source_type": "official_public",
+      "retrieved": "2026-08-31",
+      "usage": "Case-mechanism comparison: shared startup infrastructure and international programmes only."
+    },
+    {
+      "id": "CASE-ONE-NORTH",
+      "url": "https://www.jtc.gov.sg/-/media/project/jtc-cx/corpweb/assets/find-land/estates/one-north/one-north-brochure.pdf",
+      "publisher": "JTC Singapore",
+      "source_type": "official_public",
+      "retrieved": "2026-08-31",
+      "usage": "Case-mechanism comparison: work-live-play-learn mix only."
+    },
+    {
+      "id": "CASE-KQ",
+      "url": "https://www.knowledgequarter.london/",
+      "publisher": "Knowledge Quarter London",
+      "source_type": "official_public",
+      "retrieved": "2026-08-31",
+      "usage": "Case-mechanism comparison: institutional alliance, inclusion and heritage only."
+    },
+    {
+      "id": "CASE-22",
+      "url": "https://www.barcelona.cat/internationalwelcome/sites/default/files/22%40%20Barcelona%20Innovation%20District_2024_EN.PDF",
+      "publisher": "Barcelona City Council",
+      "source_type": "official_public",
+      "retrieved": "2026-08-31",
+      "usage": "Case-mechanism comparison: incremental industrial-district renewal and mixed use only."
+    },
+    {
+      "id": "CASE-MARS",
+      "url": "https://www.marsdd.com/",
+      "publisher": "MaRS Discovery District",
+      "source_type": "official_public",
+      "retrieved": "2026-08-31",
+      "usage": "Case-mechanism comparison: commercialization, labs and convening only."
+    },
+    {
+      "id": "CASE-HTCE",
+      "url": "https://insights.hightechcampus.com/en/startup-scaleup-ecosystem-htce",
+      "publisher": "High Tech Campus Eindhoven",
+      "source_type": "official_public",
+      "retrieved": "2026-08-31",
+      "usage": "Case-mechanism comparison: shared labs and open innovation only."
+    },
+    {
+      "id": "ELDERLY-SMART-BACKGROUND",
+      "path": "brief/site-package/standards/references/elderly-smart-tech-plan-2020-45.md",
+      "source_type": "official_public",
+      "usage": "Background-only policy reference for parallel traditional/smart service channels; not proof of 2026 local implementation."
+    },
+    {
+      "id": "FONT-NOTO",
+      "url": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "publisher": "Google Fonts / Noto project",
+      "source_type": "official_public",
+      "retrieved": "2026-08-31",
+      "usage": "Noto Sans SC source used for rendered figures, PDF font subsets and an offline WOFF2 subset embedded as a data URI in all four HTML files under SIL OFL 1.1; no standalone font file redistributed."
+    },
+    {
+      "id": "FONT-INTER",
+      "url": "https://github.com/google/fonts/tree/main/ofl/inter",
+      "publisher": "Google Fonts / Inter project",
+      "source_type": "official_public",
+      "retrieved": "2026-08-31",
+      "usage": "Inter source used for rendered figures and font-program subsets embedded inside PDFs under SIL OFL 1.1; no standalone font file redistributed."
+    },
+    {
+      "id": "MEDIA-OPENAI",
+      "publisher": "OpenAI image generation",
+      "source_type": "agent_generated_design",
+      "generated_date": "2026-08-31",
+      "usage": "Four original conceptual urban-design visualizations; presentation only; no real-person identification or factual-site claim."
+    }
+  ]
+}

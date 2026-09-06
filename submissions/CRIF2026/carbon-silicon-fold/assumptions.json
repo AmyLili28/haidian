@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "assumption_id": "A-PROV-BOUNDARY",
+      "title_zh": "临时边界非官方",
+      "detail_zh": "三层范围与三处重点区使用维护者定义的临时粗略 polygon，非 official redline，不得用于审批、精确面积或正式专业评分。",
+      "severity": "blocking_for_formal_scoring",
+      "source_ids": [
+        "SRC-PROVISIONAL-BOUNDARIES-2026"
+      ]
+    },
+    {
+      "assumption_id": "A-NO-REG-CONTROL",
+      "title_zh": "控规条件缺失",
+      "detail_zh": "容积率、建筑高度、建筑密度、绿地率、退线等控规条件缺失，相关指标为概念推算或标记 unknown。",
+      "severity": "major",
+      "source_ids": [
+        "SRC-MOHURD-CONTROL-DETAILED-PLANNING"
+      ]
+    },
+    {
+      "assumption_id": "A-NO-EXISTING",
+      "title_zh": "现状数据缺失",
+      "detail_zh": "现状地块权属、建筑轮廓、文保 GIS 图层缺失；拆改留分类为逻辑框架而非地块级结论。",
+      "severity": "major",
+      "source_ids": [
+        "brief/site-package/missing-data.md"
+      ]
+    },
+    {
+      "assumption_id": "A-OSM-BG",
+      "title_zh": "OSM 仅作底图",
+      "detail_zh": "若使用 OpenStreetMap 基础底图须 ODbL 署名，且仅作背景发现范围，不作为边界或红线依据。",
+      "severity": "minor",
+      "source_ids": [
+        "SRC-OSM-COPYRIGHT"
+      ]
+    },
+    {
+      "assumption_id": "A-METRIC-LOW",
+      "title_zh": "面积指标为低置信临时复算",
+      "detail_zh": "所有面积类指标由临时 polygon 在 EPSG:4548 下复算，置信度 low/medium，须在官方边界到达后重算。",
+      "severity": "major",
+      "source_ids": [
+        "SRC-PROVISIONAL-BOUNDARIES-2026"
+      ]
+    },
+    {
+      "assumption_id": "A-AI-ZONE-CONCEPT",
+      "title_zh": "AI服务分区为概念",
+      "detail_zh": "AI_SERVICE_ZONE 与场景节点为概念性空间建议，须经专业团队在法定条件下深化。",
+      "severity": "minor",
+      "source_ids": [
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK"
+      ]
+    },
+    {
+      "assumption_id": "A-FAR-PROXY-CALC",
+      "title_zh": "容积率代理指标的可核验计算式（status=unknown）",
+      "detail_zh": "M-FAR-PROXY 保持 unknown：FAR_proxy = 建筑基底总面积 ÷ 总体设计范围面积。建筑基底总面积由 geometry/buildings.geojson 在 EPSG:4548 下 shoelace 复算（临时 polygon，置信度 low）；总体设计范围面积取 geometry/site_boundary.geojson 面积。官方控规条件（A-NO-REG-CONTROL）到达后，改用计容建筑面积 ÷ 用地面积重算，触发责任方为提交团队。当前不公布数值，避免 misleading precision。",
+      "severity": "major",
+      "source_ids": [
+        "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "SRC-PROVISIONAL-BOUNDARIES-2026"
+      ]
+    },
+    {
+      "assumption_id": "A-TRANSIT-COVERAGE-CALC",
+      "title_zh": "轨道覆盖率的可核验计算式（status=unknown）",
+      "detail_zh": "M-TRANSIT-COVERAGE 保持 unknown：coverage = 轨道站点 800 m 缓冲面积（去重）÷ 总体设计范围面积。800 m 缓冲由轨道站点 point 在 EPSG:4548 下按 800 m 半径生成并做 dissolve 去重；总体设计范围面积取 geometry/site_boundary.geojson 面积。官方站点坐标与红线到达后重算，触发责任方为提交团队。当前不公布数值。",
+      "severity": "major",
+      "source_ids": [
+        "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "SRC-PROVISIONAL-BOUNDARIES-2026"
+      ]
+    }
+  ]
+}
