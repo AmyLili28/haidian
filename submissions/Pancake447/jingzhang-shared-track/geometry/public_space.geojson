@@ -1,0 +1,354 @@
+{
+ "type": "FeatureCollection",
+ "name": "public_space_shared_track",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "PUBLIC-001",
+   "properties": {
+    "name_zh": "大钟寺站台广场",
+    "name_en": "Dazhongsi Station Platform Plaza",
+    "public_space_type": "station_plaza",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 138745.853,
+    "id": "PUBLIC-001",
+    "layer": "PUBLIC_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3454,
+       39.9412
+      ],
+      [
+       116.3454,
+       39.9455
+      ],
+      [
+       116.3488,
+       39.9455
+      ],
+      [
+       116.3488,
+       39.9412
+      ],
+      [
+       116.3454,
+       39.9412
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PUBLIC-002",
+   "properties": {
+    "name_zh": "公园南门户广场",
+    "name_en": "Park South Gateway Plaza",
+    "public_space_type": "gateway_plaza",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 42517.82,
+    "id": "PUBLIC-002",
+    "layer": "PUBLIC_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3454,
+       39.9393
+      ],
+      [
+       116.3454,
+       39.9409
+      ],
+      [
+       116.3482,
+       39.9409
+      ],
+      [
+       116.3482,
+       39.9393
+      ],
+      [
+       116.3454,
+       39.9393
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PUBLIC-003",
+   "properties": {
+    "name_zh": "AI原点广场·成果发布广场",
+    "name_en": "AI Origin Plaza · Release Square",
+    "public_space_type": "origin_plaza",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 83841.952,
+    "id": "PUBLIC-003",
+    "layer": "PUBLIC_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3454,
+       39.9838
+      ],
+      [
+       116.3454,
+       39.9872
+      ],
+      [
+       116.348,
+       39.9872
+      ],
+      [
+       116.348,
+       39.9838
+      ],
+      [
+       116.3454,
+       39.9838
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PUBLIC-004",
+   "properties": {
+    "name_zh": "五道口青年站台广场",
+    "name_en": "Wudaokou Youth Platform Plaza",
+    "public_space_type": "community_plaza",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 49318.93,
+    "id": "PUBLIC-004",
+    "layer": "PUBLIC_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3516,
+       39.984
+      ],
+      [
+       116.3516,
+       39.9865
+      ],
+      [
+       116.35358000000001,
+       39.9865
+      ],
+      [
+       116.35378,
+       39.984
+      ],
+      [
+       116.3516,
+       39.984
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PUBLIC-005",
+   "properties": {
+    "name_zh": "公园北门户广场",
+    "name_en": "Park North Gateway Plaza",
+    "public_space_type": "gateway_plaza",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 84961.824,
+    "id": "PUBLIC-005",
+    "layer": "PUBLIC_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3454,
+       39.999
+      ],
+      [
+       116.3454,
+       40.0018
+      ],
+      [
+       116.3486,
+       40.0018
+      ],
+      [
+       116.3486,
+       39.999
+      ],
+      [
+       116.3454,
+       39.999
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PUBLIC-006",
+   "properties": {
+    "name_zh": "众智园AI测试展示广场",
+    "name_en": "Zhongzhiyuan AI Test & Demo Plaza",
+    "public_space_type": "test_demo_plaza",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 135373.345,
+    "id": "PUBLIC-006",
+    "layer": "PUBLIC_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3454,
+       40.016
+      ],
+      [
+       116.3454,
+       40.0202
+      ],
+      [
+       116.3488,
+       40.0202
+      ],
+      [
+       116.3488,
+       40.016
+      ],
+      [
+       116.3454,
+       40.016
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PUBLIC-007",
+   "properties": {
+    "name_zh": "知春路社区站台广场",
+    "name_en": "Zhichun Road Community Platform Plaza",
+    "public_space_type": "community_plaza",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 45546.4,
+    "id": "PUBLIC-007",
+    "layer": "PUBLIC_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3412,
+       39.952
+      ],
+      [
+       116.3412,
+       39.954
+      ],
+      [
+       116.3436,
+       39.954
+      ],
+      [
+       116.3436,
+       39.952
+      ],
+      [
+       116.3412,
+       39.952
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PUBLIC-008",
+   "properties": {
+    "name_zh": "小月河滨水步道广场",
+    "name_en": "Xiaoyue River Promenade Plaza",
+    "public_space_type": "riparian_plaza",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 413743.301,
+    "id": "PUBLIC-008",
+    "layer": "PUBLIC_SPACE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3536,
+       39.9505
+      ],
+      [
+       116.3526,
+       39.9505
+      ],
+      [
+       116.3526,
+       39.9955
+      ],
+      [
+       116.3536,
+       39.9955
+      ],
+      [
+       116.3536,
+       39.995474999999935
+      ],
+      [
+       116.3533,
+       39.99
+      ],
+      [
+       116.3536,
+       39.98625000000005
+      ],
+      [
+       116.3536,
+       39.9505
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

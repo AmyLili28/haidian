@@ -1,0 +1,9 @@
+# Formal Narrative
+
+FIT·JZ is a concept network for public fitness and smart sports services along the Jingzhang AI innovation belt. It preserves the independent mechanism of one heart, one ring, one corner and one chain: anonymous aggregate demand is converted into candidate rules or model outputs, a spatial touchpoint receives the service, a human reviewer decides, the public can appeal, and the scenario can pause or exit.
+
+The revised evidence set includes the three positioning statements, five functions, three areas/two wings plus five regional interfaces, seven independently sourced mechanism references, an eight-element ecosystem map, ten complete scenario cards, three industry test protocols, eight user groups, three node decision cards, three concept landmarks, a component library, culture/signage and bilingual international communication, developer community/open operations, RACI, KPI, phasing, health-data governance and rights boundaries.
+
+Geometry remains provisional. The three formal core metrics are recomputable from the package geometry and are displayed with matching data-values and low confidence: site_area_sqm 11412825.386, green_ratio 0.125671 and public_space_ratio 0.004569. Unknown statutory, ownership, engineering, capacity, budget, clinical and partnership conditions are not filled by inference.
+
+All figures are self-drawn, bilingual and paired. Noto Sans CJK SC is embedded under SIL Open Font License 1.1. The package contains no third-party logo, photograph, dataset or proprietary visual. See `proposal.md`, `proposal.en.md`, `metrics.json`, `sources.json`, `assumptions.json`, `geometry/`, `visual/` and `drawings/` for the evidence trail.

@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "pending_professional_confirmation",
+      "statement": "The submitted Overall Design Area and three key-area polygons are rough provisional constraints, not official boundaries or precise location bases.",
+      "impact": "All absolute areas, ratios, land-use partitions, key-area diagrams, and phased geometries must be recalculated when official polygons are supplied."
+    },
+    {
+      "id": "A-FIELDWORK-001",
+      "status": "pending_user_evidence",
+      "statement": "The twelve lived-friction work orders are hypotheses until the two site walks and anonymous interviews are completed and cleared by the user.",
+      "impact": "The final proposal may say only that a friction was observed when it links to a field record; unverified work orders remain proposed tests, not resident needs."
+    },
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Approved FAR, Building Height, Building Coverage Ratio, setbacks, road redlines, ownership, existing-building status, municipal utilities, fire safety, flood control, heritage constraints, and operating parties are not present in the public package.",
+      "impact": "These controls remain unknown; the proposal gives qualitative strategies and professional-development prerequisites only."
+    },
+    {
+      "id": "A-OPERATIONS-001",
+      "status": "conceptual_recommendation",
+      "statement": "The Lived Friction Open Day, Useful Failure Night, Jing-Zhang Calibration Week, AI Register, and three Honor Nodes are conceptual operating proposals.",
+      "impact": "Frequency, organizer, funding, permits, safety, and long-term maintenance require public-sector and professional confirmation; no government commitment is claimed."
+    },
+    {
+      "id": "A-AI-TRIAL-001",
+      "status": "conceptual_recommendation",
+      "statement": "All AI and embodied-AI tests require a responsible operator, lawful data, insurance where applicable, emergency plans, Human Review, offline alternatives, and explicit stop conditions.",
+      "impact": "The design package is not authorization to deploy, collect data, or conduct public trials."
+    }
+  ]
+}

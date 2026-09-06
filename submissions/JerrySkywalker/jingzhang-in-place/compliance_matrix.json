@@ -789,7 +789,8 @@
       "title_zh": "AI+场景赋能新范式与智能化AI活力城市设计",
       "mandatory": true,
       "report_sections": [
-        "任务三：十二张场景卡、三项行业验证与六类人物"
+        "任务三：十二张场景卡、三项行业验证与六类人物",
+        "参与者就绪闭环：让交接先于行动"
       ],
       "geojson_layers": [
         "geometry/roads.geojson",
@@ -798,7 +799,10 @@
       "metrics": [
         "ai_scenario_count",
         "industry_validation_scenario_count",
-        "persona_count"
+        "persona_count",
+        "s01_unpriced_delivery_lot_count",
+        "s01_reference_session_role_hours",
+        "s01_measurable_acceptance_item_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -809,14 +813,19 @@
         "重点区域",
         "更新项目",
         "AI 场景",
-        "核心指标"
+        "核心指标",
+        "参与者就绪闭环"
       ],
       "source_ids": [
         "AGENT-TASKBOOK"
       ],
       "assumption_ids": [
         "A-GEOMETRY-001",
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-READINESS-001",
+        "A-QUANT-001",
+        "A-DELIVERY-001",
+        "A-P0-S01-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION",
@@ -914,7 +923,8 @@
       "mandatory": true,
       "report_sections": [
         "任务书六项交付：从索引到城市叙事",
-        "任务六：可停止的年度运营循环"
+        "任务六：可停止的年度运营循环",
+        "参与者就绪闭环：让交接先于行动"
       ],
       "geojson_layers": [
         "geometry/phasing.geojson",
@@ -922,7 +932,12 @@
       ],
       "metrics": [
         "renewal_project_family_count",
-        "ai_scenario_count"
+        "ai_scenario_count",
+        "s01_reference_session_role_hours",
+        "s01_capex_relative_index_reference",
+        "s01_opex_relative_index_reference",
+        "s01_conditional_programme_stage_count",
+        "s01_measurable_acceptance_item_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -933,14 +948,19 @@
         "重点区域",
         "更新项目",
         "AI 场景",
-        "核心指标"
+        "核心指标",
+        "参与者就绪闭环"
       ],
       "source_ids": [
         "AGENT-TASKBOOK"
       ],
       "assumption_ids": [
         "A-GEOMETRY-001",
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-READINESS-001",
+        "A-QUANT-001",
+        "A-DELIVERY-001",
+        "A-P0-S01-001"
       ],
       "self_check_ids": [
         "DETERMINISTIC_VALIDATION",

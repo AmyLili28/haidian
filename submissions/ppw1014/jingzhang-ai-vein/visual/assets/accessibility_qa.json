@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1.0",
+  "checked_date": "2026-08-29",
+  "checks": [
+    {
+      "item": "文字对比度",
+      "result": "pass",
+      "note": "正文 #1F2430 on #FAF7F0/白 ≥ 12:1；金色仅用于大字号强调"
+    },
+    {
+      "item": "图内最小字号",
+      "result": "pass_with_note",
+      "note": "主图标签 ≥7pt（A3/A0 视距下可读）；场景芯片说明 8pt"
+    },
+    {
+      "item": "替代文本",
+      "result": "pass",
+      "note": "HTML 图片均带 alt；地图 frame 带 role=img 与 aria-label"
+    },
+    {
+      "item": "颜色冗余",
+      "result": "pass",
+      "note": "用地分区同时以码值（0802/05/0702/1401）与文字标注，不仅靠颜色区分"
+    },
+    {
+      "item": "无智能终端等价服务",
+      "result": "pass",
+      "note": "TVS 蓝图保留人工窗口/电话/纸质等价通道并写入场景卡"
+    },
+    {
+      "item": "阅读顺序",
+      "result": "pass",
+      "note": "HTML 语义化标题层级；A3 页序 01→08 与目录一致"
+    }
+  ],
+  "limits": "机器检查不替代法定无障碍认证；print 可读性以人工目视为准",
+  "result": "pass"
+}

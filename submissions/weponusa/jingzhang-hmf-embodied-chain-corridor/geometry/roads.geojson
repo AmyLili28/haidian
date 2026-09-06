@@ -1,0 +1,1998 @@
+{
+  "type": "FeatureCollection",
+  "name": "roads_jingzhang_hmf",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RD-001",
+      "properties": {
+        "id": "RD-001",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "greenway",
+        "name_zh": "人机友好共行主轴（人类优先）",
+        "name_en": "Human-First Human-Machine Friendly Shared Spine",
+        "notes": "Conceptual human-first shared spine; machines require graded access, visible identity/intent, geofencing, emergency stop and human takeover.",
+        "hmf_row_grades": [
+          "H0_human_only",
+          "H1_pedestrian_priority",
+          "H2_low_speed_shared",
+          "H3_peripheral_access"
+        ],
+        "human_priority": true,
+        "equivalent_human_only_route_required": true,
+        "machine_speed_note": "H1 pedestrian space case-reference <=1.2m/s; H2/H3 speed pending local risk assessment and approval",
+        "row_level": "H0-H3_mixed_by_segment",
+        "scenario_ids": [
+          "S01",
+          "S11"
+        ],
+        "clear_width_m_min_case_reference": 2.5,
+        "turning_radius_m_min_case_reference": 0.8,
+        "max_slope_case_reference": "1:12",
+        "interaction_buffer_radius_m_min_case_reference": 1.5,
+        "pedestrian_space_machine_speed_mps_max_case_reference": 1.2,
+        "speed_limit_note": "H2/H3 pending local risk assessment, field test and approval",
+        "human_only_alternate_required": true,
+        "assumption_refs": [
+          "A-SPINE-001",
+          "A-HMF-STD-001",
+          "A-HMF-SPEED-001"
+        ],
+        "vertex_count": 82,
+        "length_m_calculated": 9664.8,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_horizontal_uncertainty_m": 200,
+        "alignment_derivation": "曲线中心线：南端起于大钟寺片区，中段西偏穿越AI原点社区与清华园车站旧址，北段回摆进入众智园；按120m等距重采样，全线保持在概念绿脉包络内，并与三个重点片区相交。",
+        "field_survey_required": true,
+        "to_be_replaced_by": "京张铁路遗址公园实测中心线、权属边界与文保控制线"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34863,
+            39.93927
+          ],
+          [
+            116.348642,
+            39.940081
+          ],
+          [
+            116.348666,
+            39.941162
+          ],
+          [
+            116.348696,
+            39.942243
+          ],
+          [
+            116.348722,
+            39.943324
+          ],
+          [
+            116.348745,
+            39.944405
+          ],
+          [
+            116.348762,
+            39.945485
+          ],
+          [
+            116.348775,
+            39.946566
+          ],
+          [
+            116.348779,
+            39.947647
+          ],
+          [
+            116.348771,
+            39.948728
+          ],
+          [
+            116.348752,
+            39.949808
+          ],
+          [
+            116.348722,
+            39.950889
+          ],
+          [
+            116.34868,
+            39.951969
+          ],
+          [
+            116.348626,
+            39.95305
+          ],
+          [
+            116.348563,
+            39.95413
+          ],
+          [
+            116.348491,
+            39.955211
+          ],
+          [
+            116.348409,
+            39.956291
+          ],
+          [
+            116.348319,
+            39.957371
+          ],
+          [
+            116.348227,
+            39.958451
+          ],
+          [
+            116.348132,
+            39.959531
+          ],
+          [
+            116.348032,
+            39.960612
+          ],
+          [
+            116.347929,
+            39.961692
+          ],
+          [
+            116.347823,
+            39.962772
+          ],
+          [
+            116.347715,
+            39.963852
+          ],
+          [
+            116.347607,
+            39.964932
+          ],
+          [
+            116.347499,
+            39.966012
+          ],
+          [
+            116.347391,
+            39.967092
+          ],
+          [
+            116.347285,
+            39.968173
+          ],
+          [
+            116.347188,
+            39.969253
+          ],
+          [
+            116.3471,
+            39.970333
+          ],
+          [
+            116.347021,
+            39.971413
+          ],
+          [
+            116.346951,
+            39.972494
+          ],
+          [
+            116.346888,
+            39.973574
+          ],
+          [
+            116.346831,
+            39.974654
+          ],
+          [
+            116.346778,
+            39.975735
+          ],
+          [
+            116.346729,
+            39.976815
+          ],
+          [
+            116.346685,
+            39.977896
+          ],
+          [
+            116.346646,
+            39.978976
+          ],
+          [
+            116.346612,
+            39.980057
+          ],
+          [
+            116.346582,
+            39.981137
+          ],
+          [
+            116.346556,
+            39.982218
+          ],
+          [
+            116.346536,
+            39.983299
+          ],
+          [
+            116.34652,
+            39.984379
+          ],
+          [
+            116.346509,
+            39.98546
+          ],
+          [
+            116.346502,
+            39.986541
+          ],
+          [
+            116.346504,
+            39.987621
+          ],
+          [
+            116.346513,
+            39.988702
+          ],
+          [
+            116.346528,
+            39.989783
+          ],
+          [
+            116.346549,
+            39.990864
+          ],
+          [
+            116.346582,
+            39.991945
+          ],
+          [
+            116.346624,
+            39.993026
+          ],
+          [
+            116.346674,
+            39.994107
+          ],
+          [
+            116.346732,
+            39.995188
+          ],
+          [
+            116.346797,
+            39.996269
+          ],
+          [
+            116.346864,
+            39.99735
+          ],
+          [
+            116.346932,
+            39.998431
+          ],
+          [
+            116.347002,
+            39.999512
+          ],
+          [
+            116.347073,
+            40.000593
+          ],
+          [
+            116.347145,
+            40.001675
+          ],
+          [
+            116.347217,
+            40.002756
+          ],
+          [
+            116.347289,
+            40.003837
+          ],
+          [
+            116.347361,
+            40.004918
+          ],
+          [
+            116.347433,
+            40.005999
+          ],
+          [
+            116.347505,
+            40.00708
+          ],
+          [
+            116.347576,
+            40.008161
+          ],
+          [
+            116.347644,
+            40.009242
+          ],
+          [
+            116.347708,
+            40.010324
+          ],
+          [
+            116.347768,
+            40.011405
+          ],
+          [
+            116.347824,
+            40.012486
+          ],
+          [
+            116.347878,
+            40.013567
+          ],
+          [
+            116.34793,
+            40.014648
+          ],
+          [
+            116.347977,
+            40.015729
+          ],
+          [
+            116.348021,
+            40.01681
+          ],
+          [
+            116.348061,
+            40.017891
+          ],
+          [
+            116.348097,
+            40.018972
+          ],
+          [
+            116.348133,
+            40.020053
+          ],
+          [
+            116.348172,
+            40.021133
+          ],
+          [
+            116.348213,
+            40.022214
+          ],
+          [
+            116.348257,
+            40.023295
+          ],
+          [
+            116.348302,
+            40.024376
+          ],
+          [
+            116.348339,
+            40.025457
+          ],
+          [
+            116.348357,
+            40.02623
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-002",
+      "properties": {
+        "id": "RD-002",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "secondary",
+        "name_zh": "东侧服务次干路",
+        "row_level": "urban_connection_not_hmf_graded",
+        "vertex_count": 82,
+        "length_m_calculated": 9662.7,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "随主轴曲线东偏约300m的服务次干路概念线"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.35214,
+            39.93929
+          ],
+          [
+            116.352151,
+            39.940101
+          ],
+          [
+            116.352176,
+            39.941182
+          ],
+          [
+            116.352206,
+            39.942262
+          ],
+          [
+            116.352232,
+            39.943343
+          ],
+          [
+            116.352255,
+            39.944424
+          ],
+          [
+            116.352272,
+            39.945505
+          ],
+          [
+            116.352286,
+            39.946586
+          ],
+          [
+            116.352289,
+            39.947667
+          ],
+          [
+            116.352281,
+            39.948747
+          ],
+          [
+            116.352262,
+            39.949828
+          ],
+          [
+            116.352232,
+            39.950909
+          ],
+          [
+            116.35219,
+            39.951989
+          ],
+          [
+            116.352137,
+            39.953069
+          ],
+          [
+            116.352074,
+            39.95415
+          ],
+          [
+            116.352001,
+            39.95523
+          ],
+          [
+            116.351919,
+            39.95631
+          ],
+          [
+            116.35183,
+            39.957391
+          ],
+          [
+            116.351738,
+            39.958471
+          ],
+          [
+            116.351642,
+            39.959551
+          ],
+          [
+            116.351543,
+            39.960631
+          ],
+          [
+            116.35144,
+            39.961711
+          ],
+          [
+            116.351334,
+            39.962792
+          ],
+          [
+            116.351226,
+            39.963872
+          ],
+          [
+            116.351118,
+            39.964952
+          ],
+          [
+            116.35101,
+            39.966032
+          ],
+          [
+            116.350902,
+            39.967112
+          ],
+          [
+            116.350797,
+            39.968192
+          ],
+          [
+            116.3507,
+            39.969273
+          ],
+          [
+            116.350612,
+            39.970353
+          ],
+          [
+            116.350532,
+            39.971433
+          ],
+          [
+            116.350462,
+            39.972513
+          ],
+          [
+            116.3504,
+            39.973594
+          ],
+          [
+            116.350342,
+            39.974674
+          ],
+          [
+            116.350289,
+            39.975755
+          ],
+          [
+            116.35024,
+            39.976835
+          ],
+          [
+            116.350197,
+            39.977916
+          ],
+          [
+            116.350158,
+            39.978996
+          ],
+          [
+            116.350123,
+            39.980077
+          ],
+          [
+            116.350094,
+            39.981157
+          ],
+          [
+            116.350068,
+            39.982238
+          ],
+          [
+            116.350048,
+            39.983318
+          ],
+          [
+            116.350032,
+            39.984399
+          ],
+          [
+            116.350021,
+            39.98548
+          ],
+          [
+            116.350015,
+            39.98656
+          ],
+          [
+            116.350016,
+            39.987641
+          ],
+          [
+            116.350025,
+            39.988722
+          ],
+          [
+            116.35004,
+            39.989803
+          ],
+          [
+            116.350061,
+            39.990884
+          ],
+          [
+            116.350095,
+            39.991965
+          ],
+          [
+            116.350137,
+            39.993046
+          ],
+          [
+            116.350187,
+            39.994127
+          ],
+          [
+            116.350245,
+            39.995208
+          ],
+          [
+            116.350309,
+            39.996289
+          ],
+          [
+            116.350376,
+            39.99737
+          ],
+          [
+            116.350445,
+            39.998451
+          ],
+          [
+            116.350515,
+            39.999532
+          ],
+          [
+            116.350586,
+            40.000613
+          ],
+          [
+            116.350658,
+            40.001694
+          ],
+          [
+            116.35073,
+            40.002775
+          ],
+          [
+            116.350802,
+            40.003857
+          ],
+          [
+            116.350874,
+            40.004938
+          ],
+          [
+            116.350946,
+            40.006019
+          ],
+          [
+            116.351019,
+            40.0071
+          ],
+          [
+            116.35109,
+            40.008181
+          ],
+          [
+            116.351157,
+            40.009262
+          ],
+          [
+            116.351221,
+            40.010343
+          ],
+          [
+            116.351281,
+            40.011424
+          ],
+          [
+            116.351338,
+            40.012505
+          ],
+          [
+            116.351392,
+            40.013586
+          ],
+          [
+            116.351443,
+            40.014667
+          ],
+          [
+            116.351491,
+            40.015748
+          ],
+          [
+            116.351535,
+            40.016829
+          ],
+          [
+            116.351575,
+            40.01791
+          ],
+          [
+            116.351611,
+            40.018991
+          ],
+          [
+            116.351647,
+            40.020072
+          ],
+          [
+            116.351686,
+            40.021153
+          ],
+          [
+            116.351727,
+            40.022234
+          ],
+          [
+            116.351771,
+            40.023315
+          ],
+          [
+            116.351816,
+            40.024396
+          ],
+          [
+            116.351853,
+            40.025477
+          ],
+          [
+            116.351871,
+            40.02623
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-003",
+      "properties": {
+        "id": "RD-003",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "secondary",
+        "name_zh": "西侧服务次干路",
+        "row_level": "urban_connection_not_hmf_graded",
+        "vertex_count": 82,
+        "length_m_calculated": 9662.9,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "随主轴曲线西偏约260m的服务次干路概念线"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.345588,
+            39.93927
+          ],
+          [
+            116.3456,
+            39.940064
+          ],
+          [
+            116.345624,
+            39.941145
+          ],
+          [
+            116.345654,
+            39.942226
+          ],
+          [
+            116.34568,
+            39.943307
+          ],
+          [
+            116.345702,
+            39.944387
+          ],
+          [
+            116.34572,
+            39.945468
+          ],
+          [
+            116.345733,
+            39.946549
+          ],
+          [
+            116.345736,
+            39.94763
+          ],
+          [
+            116.345728,
+            39.948711
+          ],
+          [
+            116.345709,
+            39.949791
+          ],
+          [
+            116.345679,
+            39.950872
+          ],
+          [
+            116.345637,
+            39.951952
+          ],
+          [
+            116.345584,
+            39.953033
+          ],
+          [
+            116.345521,
+            39.954113
+          ],
+          [
+            116.345448,
+            39.955193
+          ],
+          [
+            116.345366,
+            39.956274
+          ],
+          [
+            116.345276,
+            39.957354
+          ],
+          [
+            116.345185,
+            39.958434
+          ],
+          [
+            116.345089,
+            39.959514
+          ],
+          [
+            116.34499,
+            39.960594
+          ],
+          [
+            116.344887,
+            39.961675
+          ],
+          [
+            116.34478,
+            39.962755
+          ],
+          [
+            116.344672,
+            39.963835
+          ],
+          [
+            116.344564,
+            39.964915
+          ],
+          [
+            116.344456,
+            39.965995
+          ],
+          [
+            116.344348,
+            39.967075
+          ],
+          [
+            116.344242,
+            39.968155
+          ],
+          [
+            116.344145,
+            39.969236
+          ],
+          [
+            116.344057,
+            39.970316
+          ],
+          [
+            116.343978,
+            39.971396
+          ],
+          [
+            116.343907,
+            39.972476
+          ],
+          [
+            116.343845,
+            39.973557
+          ],
+          [
+            116.343787,
+            39.974637
+          ],
+          [
+            116.343734,
+            39.975718
+          ],
+          [
+            116.343685,
+            39.976798
+          ],
+          [
+            116.343641,
+            39.977879
+          ],
+          [
+            116.343602,
+            39.978959
+          ],
+          [
+            116.343568,
+            39.98004
+          ],
+          [
+            116.343538,
+            39.98112
+          ],
+          [
+            116.343512,
+            39.982201
+          ],
+          [
+            116.343492,
+            39.983281
+          ],
+          [
+            116.343476,
+            39.984362
+          ],
+          [
+            116.343465,
+            39.985443
+          ],
+          [
+            116.343458,
+            39.986523
+          ],
+          [
+            116.34346,
+            39.987604
+          ],
+          [
+            116.343469,
+            39.988685
+          ],
+          [
+            116.343484,
+            39.989766
+          ],
+          [
+            116.343505,
+            39.990847
+          ],
+          [
+            116.343538,
+            39.991928
+          ],
+          [
+            116.34358,
+            39.993009
+          ],
+          [
+            116.34363,
+            39.99409
+          ],
+          [
+            116.343688,
+            39.995171
+          ],
+          [
+            116.343752,
+            39.996252
+          ],
+          [
+            116.343819,
+            39.997333
+          ],
+          [
+            116.343887,
+            39.998414
+          ],
+          [
+            116.343957,
+            39.999495
+          ],
+          [
+            116.344028,
+            40.000576
+          ],
+          [
+            116.3441,
+            40.001657
+          ],
+          [
+            116.344172,
+            40.002739
+          ],
+          [
+            116.344244,
+            40.00382
+          ],
+          [
+            116.344316,
+            40.004901
+          ],
+          [
+            116.344388,
+            40.005982
+          ],
+          [
+            116.344461,
+            40.007063
+          ],
+          [
+            116.344532,
+            40.008144
+          ],
+          [
+            116.344599,
+            40.009225
+          ],
+          [
+            116.344663,
+            40.010306
+          ],
+          [
+            116.344723,
+            40.011387
+          ],
+          [
+            116.344779,
+            40.012469
+          ],
+          [
+            116.344833,
+            40.01355
+          ],
+          [
+            116.344884,
+            40.014631
+          ],
+          [
+            116.344932,
+            40.015712
+          ],
+          [
+            116.344976,
+            40.016793
+          ],
+          [
+            116.345016,
+            40.017873
+          ],
+          [
+            116.345052,
+            40.018954
+          ],
+          [
+            116.345088,
+            40.020035
+          ],
+          [
+            116.345126,
+            40.021116
+          ],
+          [
+            116.345167,
+            40.022197
+          ],
+          [
+            116.345211,
+            40.023278
+          ],
+          [
+            116.345257,
+            40.024359
+          ],
+          [
+            116.345294,
+            40.02544
+          ],
+          [
+            116.345312,
+            40.026213
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-004",
+      "properties": {
+        "id": "RD-004",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "branch",
+        "name_zh": "南段横向连接路",
+        "row_level": "urban_connection_not_hmf_graded",
+        "vertex_count": 2,
+        "length_m_calculated": 560.0,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "东西向缝合连接概念线，端点锚于两条服务次干路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.345349,
+            39.956488
+          ],
+          [
+            116.351902,
+            39.956525
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-005",
+      "properties": {
+        "id": "RD-005",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "branch",
+        "name_zh": "中段横向连接路",
+        "row_level": "urban_connection_not_hmf_graded",
+        "vertex_count": 2,
+        "length_m_calculated": 560.0,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "东西向缝合连接概念线，端点锚于两条服务次干路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.343501,
+            39.982727
+          ],
+          [
+            116.350057,
+            39.982764
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-006",
+      "properties": {
+        "id": "RD-006",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "branch",
+        "name_zh": "北段横向连接路",
+        "row_level": "urban_connection_not_hmf_graded",
+        "vertex_count": 2,
+        "length_m_calculated": 560.0,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "东西向缝合连接概念线，端点锚于两条服务次干路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.344588,
+            40.008984
+          ],
+          [
+            116.351147,
+            40.00902
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-007",
+      "properties": {
+        "id": "RD-007",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "transit_connection",
+        "name_zh": "大钟寺站城接驳线",
+        "row_level": "H3",
+        "human_priority": true,
+        "universal_access_required": true,
+        "vertex_count": 2,
+        "length_m_calculated": 454.1,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "PROV-KEY-003 内部至共行主轴的无障碍站城接驳概念线"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.35409,
+            39.947037
+          ],
+          [
+            116.348777,
+            39.947046
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-008",
+      "properties": {
+        "id": "RD-008",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "transit_connection",
+        "name_zh": "原点社区轨道接驳线",
+        "row_level": "H3",
+        "human_priority": true,
+        "universal_access_required": true,
+        "vertex_count": 2,
+        "length_m_calculated": 479.0,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "PROV-KEY-002 内部至共行主轴的无障碍站城接驳概念线"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.352115,
+            39.988026
+          ],
+          [
+            116.346508,
+            39.988054
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-009",
+      "properties": {
+        "id": "RD-009",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "transit_connection",
+        "name_zh": "众智园轨道接驳线",
+        "row_level": "H3",
+        "human_priority": true,
+        "universal_access_required": true,
+        "vertex_count": 2,
+        "length_m_calculated": 460.2,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "PROV-KEY-001 内部至共行主轴的无障碍站城接驳概念线"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.353195,
+            40.012032
+          ],
+          [
+            116.347809,
+            40.012198
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-010",
+      "properties": {
+        "id": "RD-010",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "pedestrian",
+        "name_zh": "开发者散步道辅线",
+        "row_level": "H1",
+        "human_priority": true,
+        "machine_access": "task_authorized_only",
+        "vertex_count": 10,
+        "length_m_calculated": 1081.4,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "开发者散步道：主轴西侧约70m的纯人行辅线"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34668,
+            39.966008
+          ],
+          [
+            116.346571,
+            39.967088
+          ],
+          [
+            116.346466,
+            39.968168
+          ],
+          [
+            116.346369,
+            39.969248
+          ],
+          [
+            116.346281,
+            39.970328
+          ],
+          [
+            116.346202,
+            39.971409
+          ],
+          [
+            116.346131,
+            39.972489
+          ],
+          [
+            116.346069,
+            39.973569
+          ],
+          [
+            116.346011,
+            39.97465
+          ],
+          [
+            116.345958,
+            39.97573
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-011",
+      "properties": {
+        "id": "RD-011",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "cycleway",
+        "name_zh": "绿廊平行慢行线",
+        "row_level": "H1",
+        "human_priority": true,
+        "machine_access": "task_authorized_only",
+        "vertex_count": 24,
+        "length_m_calculated": 2761.4,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "绿廊平行慢行线：主轴东侧约80m"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.347767,
+            39.97466
+          ],
+          [
+            116.347714,
+            39.97574
+          ],
+          [
+            116.347665,
+            39.976821
+          ],
+          [
+            116.347621,
+            39.977901
+          ],
+          [
+            116.347582,
+            39.978982
+          ],
+          [
+            116.347548,
+            39.980062
+          ],
+          [
+            116.347518,
+            39.981143
+          ],
+          [
+            116.347493,
+            39.982223
+          ],
+          [
+            116.347472,
+            39.983304
+          ],
+          [
+            116.347457,
+            39.984385
+          ],
+          [
+            116.347446,
+            39.985465
+          ],
+          [
+            116.347439,
+            39.986546
+          ],
+          [
+            116.34744,
+            39.987627
+          ],
+          [
+            116.34745,
+            39.988707
+          ],
+          [
+            116.347464,
+            39.989788
+          ],
+          [
+            116.347486,
+            39.990869
+          ],
+          [
+            116.347519,
+            39.99195
+          ],
+          [
+            116.347561,
+            39.993031
+          ],
+          [
+            116.347611,
+            39.994112
+          ],
+          [
+            116.347669,
+            39.995193
+          ],
+          [
+            116.347733,
+            39.996274
+          ],
+          [
+            116.3478,
+            39.997355
+          ],
+          [
+            116.347869,
+            39.998436
+          ],
+          [
+            116.347938,
+            39.999518
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-012",
+      "properties": {
+        "id": "RD-012",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "local_access",
+        "name_zh": "北段后勤服务路",
+        "row_level": "urban_connection_not_hmf_graded",
+        "vertex_count": 3,
+        "length_m_calculated": 756.1,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "后勤服务支线概念线，与主轴错位布置以免占用人行通行面"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.347033,
+            39.999997
+          ],
+          [
+            116.344691,
+            39.999984
+          ],
+          [
+            116.345025,
+            40.004986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-013",
+      "properties": {
+        "id": "RD-013",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "local_access",
+        "name_zh": "南中段后勤服务路",
+        "row_level": "urban_connection_not_hmf_graded",
+        "vertex_count": 3,
+        "length_m_calculated": 795.7,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_polyline_provisional",
+        "alignment_derivation": "后勤服务支线概念线，与主轴错位布置以免占用人行通行面"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34715,
+            39.969498
+          ],
+          [
+            116.349959,
+            39.969514
+          ],
+          [
+            116.34964,
+            39.974512
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-014",
+      "properties": {
+        "id": "RD-014",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "branch",
+        "name_zh": "众智园低速服务环概念线",
+        "row_level": "H2",
+        "human_priority": true,
+        "machine_access": "geofenced_low_speed",
+        "emergency_stop_required": true,
+        "vertex_count": 49,
+        "length_m_calculated": 2443.4,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_closed_loop_provisional",
+        "alignment_derivation": "众智园封闭测试低速服务环：真实闭合环线，不进入公共空间",
+        "is_closed_loop": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.350569,
+            40.013517
+          ],
+          [
+            116.35054,
+            40.014128
+          ],
+          [
+            116.350466,
+            40.014729
+          ],
+          [
+            116.350347,
+            40.015308
+          ],
+          [
+            116.350186,
+            40.015857
+          ],
+          [
+            116.349985,
+            40.016365
+          ],
+          [
+            116.349748,
+            40.016824
+          ],
+          [
+            116.34948,
+            40.017227
+          ],
+          [
+            116.349183,
+            40.017565
+          ],
+          [
+            116.348865,
+            40.017834
+          ],
+          [
+            116.348529,
+            40.018029
+          ],
+          [
+            116.348183,
+            40.018147
+          ],
+          [
+            116.347831,
+            40.018185
+          ],
+          [
+            116.347479,
+            40.018143
+          ],
+          [
+            116.347135,
+            40.018022
+          ],
+          [
+            116.346803,
+            40.017823
+          ],
+          [
+            116.34649,
+            40.01755
+          ],
+          [
+            116.3462,
+            40.017208
+          ],
+          [
+            116.345939,
+            40.016803
+          ],
+          [
+            116.345711,
+            40.016341
+          ],
+          [
+            116.34552,
+            40.01583
+          ],
+          [
+            116.345369,
+            40.01528
+          ],
+          [
+            116.345262,
+            40.014699
+          ],
+          [
+            116.345199,
+            40.014098
+          ],
+          [
+            116.345181,
+            40.013487
+          ],
+          [
+            116.34521,
+            40.012876
+          ],
+          [
+            116.345285,
+            40.012275
+          ],
+          [
+            116.345404,
+            40.011696
+          ],
+          [
+            116.345565,
+            40.011148
+          ],
+          [
+            116.345765,
+            40.010639
+          ],
+          [
+            116.346002,
+            40.01018
+          ],
+          [
+            116.346271,
+            40.009778
+          ],
+          [
+            116.346567,
+            40.009439
+          ],
+          [
+            116.346885,
+            40.00917
+          ],
+          [
+            116.347221,
+            40.008975
+          ],
+          [
+            116.347568,
+            40.008857
+          ],
+          [
+            116.34792,
+            40.008819
+          ],
+          [
+            116.348271,
+            40.008861
+          ],
+          [
+            116.348615,
+            40.008983
+          ],
+          [
+            116.348947,
+            40.009181
+          ],
+          [
+            116.34926,
+            40.009454
+          ],
+          [
+            116.34955,
+            40.009796
+          ],
+          [
+            116.349811,
+            40.010201
+          ],
+          [
+            116.350039,
+            40.010663
+          ],
+          [
+            116.35023,
+            40.011174
+          ],
+          [
+            116.350381,
+            40.011724
+          ],
+          [
+            116.350489,
+            40.012305
+          ],
+          [
+            116.350552,
+            40.012906
+          ],
+          [
+            116.350569,
+            40.013517
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-015",
+      "properties": {
+        "id": "RD-015",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "branch",
+        "name_zh": "大钟寺配送环概念线",
+        "row_level": "H2",
+        "human_priority": true,
+        "machine_access": "geofenced_low_speed",
+        "emergency_stop_required": true,
+        "vertex_count": 49,
+        "length_m_calculated": 1637.9,
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "alignment_precision": "schematic_closed_loop_provisional",
+        "alignment_derivation": "大钟寺配送环：真实闭合环线，与人行主通行面分离",
+        "is_closed_loop": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.352173,
+            39.947026
+          ],
+          [
+            116.352142,
+            39.947296
+          ],
+          [
+            116.352053,
+            39.947562
+          ],
+          [
+            116.351907,
+            39.947817
+          ],
+          [
+            116.351709,
+            39.948059
+          ],
+          [
+            116.35146,
+            39.948283
+          ],
+          [
+            116.351166,
+            39.948485
+          ],
+          [
+            116.35083,
+            39.948662
+          ],
+          [
+            116.35046,
+            39.948811
+          ],
+          [
+            116.35006,
+            39.948928
+          ],
+          [
+            116.349639,
+            39.949013
+          ],
+          [
+            116.349204,
+            39.949063
+          ],
+          [
+            116.34876,
+            39.949079
+          ],
+          [
+            116.348318,
+            39.949058
+          ],
+          [
+            116.347883,
+            39.949003
+          ],
+          [
+            116.347463,
+            39.948914
+          ],
+          [
+            116.347066,
+            39.948791
+          ],
+          [
+            116.346699,
+            39.948639
+          ],
+          [
+            116.346367,
+            39.948458
+          ],
+          [
+            116.346076,
+            39.948253
+          ],
+          [
+            116.345832,
+            39.948026
+          ],
+          [
+            116.345638,
+            39.947782
+          ],
+          [
+            116.345497,
+            39.947525
+          ],
+          [
+            116.345413,
+            39.947259
+          ],
+          [
+            116.345387,
+            39.946988
+          ],
+          [
+            116.345418,
+            39.946718
+          ],
+          [
+            116.345508,
+            39.946453
+          ],
+          [
+            116.345653,
+            39.946197
+          ],
+          [
+            116.345851,
+            39.945955
+          ],
+          [
+            116.3461,
+            39.945731
+          ],
+          [
+            116.346395,
+            39.945529
+          ],
+          [
+            116.34673,
+            39.945352
+          ],
+          [
+            116.347101,
+            39.945204
+          ],
+          [
+            116.3475,
+            39.945086
+          ],
+          [
+            116.347921,
+            39.945002
+          ],
+          [
+            116.348357,
+            39.944951
+          ],
+          [
+            116.3488,
+            39.944936
+          ],
+          [
+            116.349242,
+            39.944956
+          ],
+          [
+            116.349677,
+            39.945011
+          ],
+          [
+            116.350097,
+            39.945101
+          ],
+          [
+            116.350494,
+            39.945223
+          ],
+          [
+            116.350861,
+            39.945376
+          ],
+          [
+            116.351193,
+            39.945556
+          ],
+          [
+            116.351484,
+            39.945761
+          ],
+          [
+            116.351728,
+            39.945988
+          ],
+          [
+            116.351922,
+            39.946232
+          ],
+          [
+            116.352063,
+            39.946489
+          ],
+          [
+            116.352147,
+            39.946756
+          ],
+          [
+            116.352173,
+            39.947026
+          ]
+        ]
+      }
+    }
+  ]
+}

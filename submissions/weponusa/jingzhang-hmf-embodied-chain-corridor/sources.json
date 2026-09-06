@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, standards, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer; not a new authority source."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "published_date": "2026-05-09",
+      "publisher": "北京市规划和自然资源委员会海淀分局",
+      "usage": "Official announcement tasks, scope levels, key areas; usable_for_formal=yes."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "published_date": "2026-05-18",
+      "usage": "Six required agent tasks, co-creation principles, and boundary clause."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary (provisional_constraint, official_boundary=false)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required key area boundaries (provisional)."
+    },
+    {
+      "id": "PROVISIONAL-BOUNDARIES-2026",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "published_date": "2026-06-05",
+      "usage": "Provisional polygons; usable_for_formal=provisional_only; recalc required later."
+    },
+    {
+      "id": "PUBLIC-BRIEF",
+      "path": "brief/public-brief.md",
+      "source_type": "official_public",
+      "usage": "Public draft brief background and proposal boundary."
+    },
+    {
+      "id": "OSM-COPYRIGHT",
+      "url": "https://www.openstreetmap.org/copyright",
+      "source_type": "osm",
+      "usage": "OSM used only as background reference with ODbL attribution."
+    },
+    {
+      "id": "METHOD-THESIS-HMF",
+      "path": "local://面向未来城市的人机友好空间建设-博士研究手稿",
+      "source_type": "background_only",
+      "usage": "Author method transfer only: HME framework, flow-field-network, point-line-surface-flow-policy adaptability, dual-modal road logic, concept-indicator-clause fusion. Not a Haidian statutory source; no external project IP claimed."
+    },
+    {
+      "id": "METHOD-BOOK-FUTURE-CITY",
+      "path": "local://人工智能与未来城市-人机友好空间章",
+      "source_type": "background_only",
+      "usage": "Author book chapter method transfer only: space-adaptivity-before-machine-iteration thesis, five-dimension framework, renewal implications, selected international mechanism parallels. Background only."
+    },
+    {
+      "id": "CASE-FUXING-HMF-GUIDE",
+      "path": "local://复兴岛人机友好示范区导则",
+      "source_type": "background_only",
+      "usage": "Background method transfer only: five scenario classes, clearance/slope/buffer parameters, test-incubate-R&D path, test-certify-access enterprise procedure, chapter-12 plan-build-operate-iterate playbook, and the clock-structure idea of organizing scenes by twelve hours. Jing-Zhang hour clauses and field gates are rewritten locally and do not copy island logistics, L4-L5, drone, dedicated-lane, certification-brand, or subsidy clauses. Not statutory for Haidian."
+    },
+    {
+      "id": "CASE-PENGUIN-WECITYX",
+      "path": "local://WeCityX人机友好自动驾驶交通系统",
+      "source_type": "background_only",
+      "usage": "Background method transfer only: shared green spine and graded dual-modal right-of-way. Not a Haidian approved road scheme."
+    },
+    {
+      "id": "INDUSTRY-PUBLIC-HAIDIAN-AI",
+      "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtcyfz/202604/t20260403_4573808.html",
+      "source_type": "official_public",
+      "published_date": "2026-04-03",
+      "publisher": "北京市科学技术委员会、中关村科技园区管理委员会",
+      "usage": "Three areas two wings narrative and corridor concentration background."
+    },
+    {
+      "id": "FONT-NOTO-SANS-SC-OFL",
+      "path": "visual/assets/hmf-cjk.css",
+      "url": "https://github.com/google/fonts/blob/main/ofl/notosanssc/OFL.txt",
+      "source_type": "user_provided_cleared",
+      "publisher": "Google Fonts / Adobe (Noto Sans SC / Source Han Sans, SIL Open Font License 1.1)",
+      "usage": "Offline HTML CJK font subset embedded as local CSS (data URI woff2). SIL OFL 1.1 text is in the CSS header. No remote font load."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "agent_id": "ZiziStudio",
+  "agent_name": "OpenAI Codex × ZiziStudio",
+  "role": "ai_agent_submission_author",
+  "model": "OpenAI Codex",
+  "model_family": "gpt",
+  "model_detail": "GPT-5 family agentic model in ChatGPT Work; exact serving snapshot is runtime-managed.",
+  "generated_with": "Competition urban-design submission skill plus human fieldwork and professional review"
+}

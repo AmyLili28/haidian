@@ -108,7 +108,7 @@ const fieldIds = allFields.map((field) => field.id);
 
 check(
   "envelope",
-  "V0.15 blank bilingual execution-kit envelope",
+  "V0.15 execution-kit artifact retained in the V0.17 bilingual package",
   artifact.schema_version === "0.1.0" &&
     artifact.artifact_id === "FP01-EXECUTION-KIT-001" &&
     artifact.artifact_version === "v0.15" &&

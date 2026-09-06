@@ -1,0 +1,198 @@
+{
+  "ok": true,
+  "submission_dir": "submissions/zhengaixin/jingzhang-city-ground",
+  "pr_author": "zhengaixin",
+  "stage": "formal",
+  "deterministic_validation": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+      ],
+      "proposal_files": [
+        "submissions/zhengaixin/jingzhang-city-ground/proposal.md"
+      ],
+      "changelog_files": [],
+      "changed_files": [
+        "submissions/zhengaixin/jingzhang-city-ground/agent.json",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/key-areas.en.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/key-areas.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/land-use-structure.en.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/land-use-structure.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/metrics-evidence.en.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/metrics-evidence.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/mobility-bluegreen.en.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/mobility-bluegreen.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/site-overview.en.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assets/figures/site-overview.png",
+        "submissions/zhengaixin/jingzhang-city-ground/assumptions.json",
+        "submissions/zhengaixin/jingzhang-city-ground/compliance_matrix.json",
+        "submissions/zhengaixin/jingzhang-city-ground/design_depth_matrix.json",
+        "submissions/zhengaixin/jingzhang-city-ground/drawings/a0-boards.en.pdf",
+        "submissions/zhengaixin/jingzhang-city-ground/drawings/a0-boards.pdf",
+        "submissions/zhengaixin/jingzhang-city-ground/drawings/a3-booklet.en.pdf",
+        "submissions/zhengaixin/jingzhang-city-ground/drawings/a3-booklet.pdf",
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/buildings.geojson",
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/constraints.geojson",
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/green_space.geojson",
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/key_areas.geojson",
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/land_use.geojson",
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/phasing.geojson",
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/public_space.geojson",
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/roads.geojson",
+        "submissions/zhengaixin/jingzhang-city-ground/geometry/site_boundary.geojson",
+        "submissions/zhengaixin/jingzhang-city-ground/manifest.json",
+        "submissions/zhengaixin/jingzhang-city-ground/metrics.json",
+        "submissions/zhengaixin/jingzhang-city-ground/proposal.en.md",
+        "submissions/zhengaixin/jingzhang-city-ground/proposal.md",
+        "submissions/zhengaixin/jingzhang-city-ground/report/copyright_statement.md",
+        "submissions/zhengaixin/jingzhang-city-ground/report/narrative.md",
+        "submissions/zhengaixin/jingzhang-city-ground/report/proposal.en.html",
+        "submissions/zhengaixin/jingzhang-city-ground/report/proposal.html",
+        "submissions/zhengaixin/jingzhang-city-ground/self_check.json",
+        "submissions/zhengaixin/jingzhang-city-ground/sources.json",
+        "submissions/zhengaixin/jingzhang-city-ground/standard_matrix.json",
+        "submissions/zhengaixin/jingzhang-city-ground/visual/assets/landmark_catalog.json",
+        "submissions/zhengaixin/jingzhang-city-ground/visual/assets/persona_catalog.json",
+        "submissions/zhengaixin/jingzhang-city-ground/visual/assets/scene_catalog.json",
+        "submissions/zhengaixin/jingzhang-city-ground/visual/index.en.html",
+        "submissions/zhengaixin/jingzhang-city-ground/visual/index.html"
+      ],
+      "ai_package_stages": {
+        "submissions/zhengaixin/jingzhang-city-ground": "formal"
+      },
+      "total_bytes": 22565843,
+      "maintainer_bypass": false
+    },
+    "stderr": ""
+  },
+  "spatial_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "stage": "formal",
+      "issues": [
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-001",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-002",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "PROV-KEY-003",
+          "expected": null,
+          "actual": null
+        }
+      ],
+      "metrics": {
+        "site_area_sqm": 11412825.386,
+        "green_space_area_sqm": 615634.894,
+        "public_space_area_sqm": 1536345.43,
+        "building_footprint_area_sqm": 264507.427,
+        "green_ratio": 0.053942,
+        "public_space_ratio": 0.134616
+      }
+    },
+    "stderr": ""
+  },
+  "visual_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "metrics_seen": {
+        "site_area_sqm": 11412825.386,
+        "green_ratio": 0.053942,
+        "public_space_ratio": 0.134616
+      }
+    },
+    "stderr": ""
+  },
+  "professional_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "summary": {
+        "standard_matrix_items": 6,
+        "design_depth_items": 15,
+        "known_metric_refs_required": 5,
+        "proposal_format_version": "2",
+        "evidence_contract": "section-anchors-plus-structured-audit",
+        "proposal_reference_counts": {
+          "source": 11,
+          "standard": 5,
+          "depth": 15,
+          "data": 11,
+          "metric": 5
+        }
+      }
+    },
+    "stderr": ""
+  },
+  "spatial_issue_ids": [
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL"
+  ],
+  "visual_issue_ids": [],
+  "professional_issue_ids": [],
+  "missing_review_dependencies": [],
+  "can_enter_formal_review": true,
+  "package_type": "professional_design_package",
+  "review_status": "formal-review-ready",
+  "next_actions": [],
+  "schema_version": "0.1.0",
+  "checks": [
+    {
+      "check_id": "DETERMINISTIC_VALIDATION",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "validate_local_submission.py",
+      "message": "deterministic_validation: PASS"
+    },
+    {
+      "check_id": "SPATIAL_REVIEW",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "spatial_review.py",
+      "message": "spatial_review: PASS"
+    },
+    {
+      "check_id": "VISUAL_PACKAGING",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "visual_review.py",
+      "message": "visual_review: PASS"
+    },
+    {
+      "check_id": "PROFESSIONAL_EVIDENCE",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "professional_review.py",
+      "message": "professional_review: PASS"
+    }
+  ]
+}

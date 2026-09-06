@@ -1,7 +1,9 @@
+import argparse
 import json
 import sys
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -15,9 +17,13 @@ from auto_review_queue import (  # noqa: E402
     acquire_worker_lock,
     apply_review,
     ci_state,
+    created_at_on_or_before,
+    create_review_worktree,
     decide,
+    has_current_head_formal_review,
     load_cached_review,
     parse_args,
+    parse_timestamp,
     pr_file_paths,
     queued_prs,
     submission_dir_from_files,
@@ -48,6 +54,7 @@ class AutoReviewQueueTests(unittest.TestCase):
             with self.subTest(admin_merge=admin_merge):
                 with (
                     patch("auto_review_queue.pr_meta", return_value=live),
+                    patch("auto_review_queue.has_current_head_formal_review", return_value=False),
                     patch("auto_review_queue.run") as run_mock,
                 ):
                     apply_review(
@@ -97,6 +104,100 @@ class AutoReviewQueueTests(unittest.TestCase):
         with patch.object(sys, "argv", ["auto_review_queue"]):
             args = parse_args()
         self.assertEqual(18, args.max_images)
+
+    def test_cutoff_is_inclusive_and_normalized_to_utc(self) -> None:
+        cutoff = parse_timestamp("2026-08-31T23:59:59+08:00")
+        self.assertEqual(datetime(2026, 8, 31, 15, 59, 59, tzinfo=timezone.utc), cutoff)
+        self.assertTrue(
+            created_at_on_or_before({"createdAt": "2026-08-31T15:59:59Z"}, cutoff)
+        )
+        self.assertFalse(
+            created_at_on_or_before({"createdAt": "2026-08-31T16:00:00Z"}, cutoff)
+        )
+
+    def test_cutoff_requires_timezone(self) -> None:
+        with self.assertRaises(argparse.ArgumentTypeError):
+            parse_timestamp("2026-08-31T23:59:59")
+
+    def test_formal_review_must_match_current_head(self) -> None:
+        head_sha = "a" * 40
+        reviews = [[
+            {"commit_id": "b" * 40, "state": "APPROVED"},
+            {"commit_id": head_sha, "state": "COMMENTED"},
+            {"commit_id": head_sha, "state": "CHANGES_REQUESTED"},
+        ]]
+        completed = type("Completed", (), {"stdout": json.dumps(reviews)})()
+        with patch("auto_review_queue.run", return_value=completed):
+            self.assertTrue(
+                has_current_head_formal_review("open-city-ai/haidian", 42, head_sha, ROOT)
+            )
+
+    def test_old_or_comment_only_reviews_do_not_count_as_formal(self) -> None:
+        head_sha = "a" * 40
+        reviews = [[
+            {"commit_id": "b" * 40, "state": "APPROVED"},
+            {"commit_id": head_sha, "state": "COMMENTED"},
+        ]]
+        completed = type("Completed", (), {"stdout": json.dumps(reviews)})()
+        with patch("auto_review_queue.run", return_value=completed):
+            self.assertFalse(
+                has_current_head_formal_review("open-city-ai/haidian", 42, head_sha, ROOT)
+            )
+
+    def test_review_worktree_uses_sparse_checkout(self) -> None:
+        worktree = ROOT / ".pr-worktree" / "test"
+        with patch("auto_review_queue.run") as run_mock:
+            create_review_worktree(
+                ROOT,
+                worktree,
+                "refs/review/head",
+                "submissions/alice/plan",
+            )
+        self.assertEqual(
+            [
+                "git",
+                "worktree",
+                "add",
+                "--detach",
+                "--no-checkout",
+                str(worktree),
+                "refs/review/head",
+            ],
+            run_mock.call_args_list[0].args[0],
+        )
+        sparse_command = run_mock.call_args_list[1].args[0]
+        self.assertEqual(["git", "sparse-checkout", "set", "--no-cone", "--"], sparse_command[:5])
+        self.assertIn("submissions/alice/plan", sparse_command)
+        self.assertIn("brief/site-package/agent_taskbook.json", sparse_command)
+
+    def test_review_worktree_cleans_up_after_setup_failure(self) -> None:
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        worktree = Path(tmp.name) / "review-worktree"
+        calls: list[list[str]] = []
+
+        def fake_run(command: list[str], *, cwd: Path, capture: bool = True):
+            calls.append(command)
+            if command[1:3] == ["worktree", "add"]:
+                worktree.mkdir()
+                return type("Completed", (), {"stdout": ""})()
+            if command[1:3] == ["sparse-checkout", "set"]:
+                raise WorkerError("sparse checkout failed")
+            return type("Completed", (), {"stdout": ""})()
+
+        with patch("auto_review_queue.run", side_effect=fake_run):
+            with self.assertRaisesRegex(WorkerError, "sparse checkout failed"):
+                create_review_worktree(
+                    ROOT,
+                    worktree,
+                    "refs/review/head",
+                    "submissions/alice/plan",
+                )
+
+        self.assertEqual(
+            ["git", "worktree", "remove", "--force", str(worktree)],
+            calls[-1],
+        )
 
     def test_accepts_score_at_threshold_when_intake_ready_even_if_not_publishable(self) -> None:
         review = {

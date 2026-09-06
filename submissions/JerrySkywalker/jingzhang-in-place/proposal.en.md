@@ -39,26 +39,11 @@ Space is therefore not a homogeneous renewal field. The **long-lived city** carr
 | **3 minutes: one cautious spatial decision** | FIG.03 key areas, the P0 reference, FIG.05 evidence | Why only S01 reaches P0, and how space stops and returns to ordinary life |
 | **15 minutes: a reviewable chain of responsibility** | Full text, structured sources, assumptions/sources/matrices | What the participant proposes, and what still needs professionals, rights holders and field observation |
 
+> **IMPLEMENTATION HANDOFF | PARTICIPANT WORK COMPLETE → READY FOR G1 EXTERNAL VERIFICATION → EXTERNAL RELEASES HOLD → NO FIELD ACTIVATION.** The participant has completed unpriced quantities, role-hours, relative capital/operating sensitivity, exit allowance, conditional programme, and layered acceptance. This opens only external verification - not procurement or field action. `P0_GO=false`; real rights, appointments, engineering, field evidence, budget/funding, approval, and task authorization remain HOLD/null. [data:visual/assets/implementation-readiness-dossier.json#participant_release_semantics]
+
 ### Method foundation: used only when the city permits it
 
 > **Core Thesis**: Jing-Zhang is not a blank line waiting to be filled with AI, but an existing city with unequal statuses, jurisdictions, and cross-sections. The proposal employs `STATUS × ACTION` to establish the baseline spatial floor first, upholding `AI_OFF_CITY` (where ordinary public streets, mixed daily life, step-free routes, and human services operate 100% completely without AI intervention). Across 12 urban tasks, it strictly enforces the "ordinary-space sufficiency test," admitting only S01, S04, and S07—where physical testing, controlled collaboration, and compliance review are demonstrably insufficient in ordinary rooms—as deep spatial packets. The remaining 9 tasks are explicitly NO-BUILD or ordinary carriers. All admitted specialist spaces are equipped with strict Time-To-Live (TTL), absolute human authority, and immediate physical reset mechanisms. [data:visual/assets/ai-spatial-admission.json#admission_chain]
-
----
-
-### Three Reading Paths: 60 Seconds, 5 Minutes, Deep Read
-
-To accommodate reviewers with varying time budgets and focus areas, three self-contained reading paths are provided:
-
-| Path | What to Read | Questions Answered |
-| :--- | :--- | :--- |
-| **60 Seconds** | Core Thesis ｜ Three Core Evidence Readings ｜ Five Core Figures with Reading Guides | What problem the proposal solves, what it delivers, and what it strictly avoids |
-| **5 Minutes** | Three Scopes ｜ STATUS × ACTION Spatial Mending ｜ Three Key Area Typologies ｜ 12→3 Admission & 9 NO-BUILD Tasks ｜ A Citizen's Day | Spatial structure, jurisdictional boundaries, scenario deployment, and human lived experience |
-| **Deep Read** | Full text reading ｜ Cross-audit against `simulation.json`, `metrics.json`, `compliance_matrix.json`, and `assumptions.json` | Field triggers, recalculation methods, and exit responsibilities for every spatial and institutional claim |
-
-**Three Core Evidence Readings**:
-1. **Offline State-Machine Rehearsal**: **12/12** tasks passed; Handover Assertions: **48/48** passed;
-2. **Three Deep Delivery Contracts**: CONTRACT-S01 / CONTRACT-S04 / CONTRACT-S07 close ordinary baseline, admission gate, minimum reversible delta, human authority, and exit/reset side by side; read FIG.05 first, then deepen through this section and the delivery mechanism chapter;
-3. **Field Engineering & Live Deployment**: **0/12**, strictly reserved for the field environment, contingent upon official data release, statutory redlines, and formal authorizations. [metric:deep_ai_task_packet_count]
 
 ---
 
@@ -120,7 +105,7 @@ The three landmarks are operationally AI-native and physically minimal reversibl
 
 ### Task 5: Culture Is Not an AI Decoration
 
-The Jing-Zhang railway switchback becomes “trading admission for resilience”; a crossing becomes “protect surface continuity first”; handover becomes “stop, sign, exit and reset.” Zhongguancun innovation culture and AI new culture are therefore not spectacle images but a testable, contestable public process that can return to ordinary city. Wayfinding uses the bilingual rule “place + STATUS + allowed ACTION + human help + stop/reset.” It is distinct from the overall Logo: the first answers where and what now; the second expresses the identity of the belt. The international line is: **“An ordinary city that earns every exceptional state - and can give it back.”** [data:visual/assets/taskbook-closure.json#public_space_and_culture]
+This proposal’s cultural translation is a participant-authored conceptual analogy, not a factual claim about exact railway engineering, operating protocols, or current spatial conditions: changing alignment becomes “trading admission for resilience”; a crossing becomes “protect surface continuity first”; and handover becomes “stop, sign, exit and reset.” Zhongguancun innovation culture and AI new culture are therefore not spectacle images but a testable, contestable public process that can return to ordinary city. Wayfinding uses the bilingual rule “place + STATUS + allowed ACTION + human help + stop/reset.” It is distinct from the overall Logo: the first answers where and what now; the second expresses the identity of the belt. The international line is: **“An ordinary city that earns every exceptional state - and can give it back.”** [data:visual/assets/taskbook-closure.json#public_space_and_culture]
 
 ### Task 6: A Stoppable Annual Operating Cycle
 
@@ -140,12 +125,12 @@ The three formal visual metrics remain calculated from participant-supplied prov
 
 ---
 
-## Historical Heritage & Spatial Precedents: Alignment, Crossing, and Handover
+## Cultural Translation & Spatial Analogies: Alignment, Crossing, and Handover
 
-The Jing-Zhang Railway left not merely a physical alignment, but engineering wisdom for navigating complex urban constraints:
-1. **Switchback Alignment (Trading Distance for Gradient)**: Jeme Tien Yow solved the steep mountain gradient at Qinglongqiao with a switchback ("人" shape). This proposal translates that into **"Trading Admission for Resilience"**—avoiding blanket corridor-wide AI deployment in favor of spatial graduation and reversible admission to handle technological uncertainty. [source:OFFICIAL-ANNOUNCEMENT]
-2. **Level Crossing Stitching (Grade Crossings and Separation)**: Historic level crossings evolved into contemporary urban stitching seams such as Tsinghua East Road and Zhichun Road. This proposal insists on continuous surface pedestrian routes and independent step-free paths, preventing technological apparatus from severing daily civic life. [source:PARK-PHASE1]
-3. **Handover Accountability (Dual-Confirmation Protocol)**: Railway handover protocols mandate that incoming and outgoing shifts verify status and unresolved items never disappear. This proposal establishes a complete `S0 Ordinary City → S1 Admitted Specialist State → S2 Reset/Exit` handover chain, ensuring every technological intervention has a designated signatory and an exit ticket. [source:AGENT-TASKBOOK]
+The following three are participant-authored cultural translations, not claims about the route's exact historical engineering, operational protocols, or current spatial condition:
+1. **Changing Alignment (Conceptual Analogy)**: A rail alignment that changes direction becomes **"Trading Admission for Resilience"**—the proposal avoids blanket corridor-wide AI deployment in favour of spatial graduation and reversible admission when technological uncertainty remains.
+2. **Crossing Stitching (Conceptual Analogy)**: A crossing becomes the rule **"protect surface continuity first."** The proposal therefore keeps continuous surface pedestrian routes and independent step-free paths ahead of any technical apparatus.
+3. **Handover Accountability (Conceptual Rule)**: Handover becomes **"stop, sign, exit and reset."** The proposal establishes an `S0 Ordinary City → S1 Admitted Specialist State → S2 Reset/Exit` chain so each proposed technological exception has a future accountable handoff and exit record.
 
 ---
 
@@ -218,13 +203,13 @@ S01 is the only spatial reference brought to P0. It is neither a selected site, 
 
 **WHY → SPACE → PEOPLE → COMPONENTS → CAPACITY.** Only when a real, bounded, accountable physical task cannot be replaced by simulation, review or an ordinary room is a reversible test edge considered, and it may not take over the public route. Z0 remains an ordinary route; Z1 is human handover; Z2 is removable testing; Z3 separates operator and safety authority; Z4 is booked observation; Z5 is maintenance/reset; Z6 is a still-to-be-professionally-determined buffer. A concept session has **one active task/device, five role positions, four booked observer positions and a total cap of nine**. There is no walk-in queue in Z0, and any observed or approved operational capacity remains `null`. [data:visual/assets/p0-s01-reference.json#zone_logic] [data:visual/assets/p0-s01-reference.json#capacity]
 
-The five role classes are not appointments: test operator; separate human safety authority; public/service handoff steward; maintenance/reset steward; independent observer/reviewer. The eight removable components are not a procurement list: STATUS/reset frame, removable perimeter, floor/interface protection, power/isolation interface, physical stop/control kit, operator/safety console and log, handoff/observer elements, and reset/storage inventory. They create only a minimal future path that cannot diffuse technology into ordinary city life, and only after rights, professional and field conditions exist. [data:visual/assets/p0-s01-reference.json#components]
+The five role classes are not appointments: test operator; separate human safety authority; public/service handoff steward; maintenance/reset steward; independent observer/reviewer. The eight removable component classes become **12 unpriced participant-reference lots** covering threshold/perimeter, surfaces/interfaces, dual physical stop, role stations/handoff, inventory/transport, professional review, and exit/restoration. Each has a unit, low/reference/high quantity, dependency, acceptance gate, and exclusion - but no product, vendor, site quantity, or price. [data:visual/assets/p0-s01-reference.json#components] [data:visual/assets/implementation-readiness-dossier.json#unpriced_quantity_schedule]
 
 **OPERATION → STOP → RESET → MAINTENANCE.** The order is fixed: pre-open external gates → ordinary-baseline verification → install/inspect → conditional activation and stop rehearsal → one controlled task → fail-close → human isolation/takeover → remove → restore → independent ordinary-baseline verification. No reset duration is claimed. Any issue is first `QUARANTINED` until independent reset and ordinary baseline have been reconfirmed. [data:visual/assets/p0-s01-reference.json#operation_chain] [data:visual/assets/p0-s01-reference.json#stop_reset_maintenance]
 
-**COST → ALTERNATIVES → HOLD.** The current `market_quotation_count=0`, `approved_budget=null` and `funding_commitment=null`; only relative sensitivity is compared and no money is fabricated. The four peer choices are NO-BUILD, lower-tech reversible arrangement, selected P0 and an alternate linear side-bay. If physical need is not verified, or a lighter option protects the ordinary-city floor equally well, P0 does not advance. All 11 external conditions remain `HOLD_EXTERNAL`; therefore `P0_GO=false`. [data:visual/assets/p0-s01-reference.json#cost_and_alternatives] [data:visual/assets/p0-s01-reference.json#external_hold_gates]
+**COST → ALTERNATIVES → HOLD.** Low/reference/high effort is **20/26/38 role-hours** per reference session. Relative CAPEX is **0.82/1.00/1.48**, OPEX **0.74/1.00/1.62**, and the unfunded exit allowance **0.10/0.18/0.30**. These are `RELATIVE_SENSITIVITY`, not currency. `market_quotation_count=0`, `approved_budget=null`, and `funding_commitment=null`. The four choices remain NO-BUILD, lower-tech reversible arrangement, selected P0, and a linear side-bay; all 11 external conditions remain `HOLD_EXTERNAL`, so `P0_GO=false`. [data:visual/assets/implementation-readiness-dossier.json#staffing_role_hour_reference] [data:visual/assets/implementation-readiness-dossier.json#relative_capex_opex_sensitivity] [data:visual/assets/p0-s01-reference.json#external_hold_gates]
 
-The reference keeps distinct: the participant’s present concept deliverable; surveys, codes, capacity and role confirmation needed from future professionals; and route, handoff, stop and reset evidence requiring field observation. It maintains a bounded cross-reference with PRJ-06’s “one reversible validation pilot,” without turning a concept into a promise. [data:visual/assets/p0-s01-reference.json#acceptance_and_handoff] [data:visual/assets/renewal-project-portfolio.json#PRJ-06]
+The reference separates the completed nine-stage null-date participant programme and 16-item acceptance ledger from items that still require professional, field, or authorization evidence. Six participant checks pass; the other ten remain `HOLD_EXTERNAL`. It keeps a bounded cross-reference with PRJ-06’s “one reversible validation pilot” without turning handoff completion into a field promise. [data:visual/assets/p0-s01-reference.json#acceptance_and_handoff] [data:visual/assets/implementation-readiness-dossier.json#measurable_layered_acceptance_ledger] [data:visual/assets/renewal-project-portfolio.json#PRJ-06]
 
 ![Three key areas and differentiated cross-sections](assets/figures/key-areas.en.png)
 
@@ -350,9 +335,20 @@ All three remain `CONCEPT_PROPOSAL`. None is described as approved, deployed, fi
 
 All three deep scenarios remain `CONCEPT_PROPOSAL`. Their feasibility does not come from saying “buildable, funded or operable.” It comes from making insufficient evidence, rights, access, capacity, data, staffing and reset conditions into gates that cannot be skipped. The nine ordinary-space/NO-BUILD outcomes do not await spatial construction, yet still retain human responsibility and stop conditions. [data:visual/assets/taskbook-closure.json#claim_qualifications]
 
-### The Site-validation Packet Is a Pause Gate, Not a Missing Promise
+### Participant Work Is Complete; Field Release Remains a Pause Gate
 
-This submission **does not contain** a site-validated implementation packet and therefore does not call any deep contract implementable. A future packet must bind official geometry, rights/access, authority, engineering and capacity, funding path, and phasing/approvals for the same carrier; every one is currently `PAUSE_UNTIL_OFFICIAL_DATA`, `AUTHORIZATION_REQUIRED`, or `PROFESSIONAL_DEEPENING_REQUIRED`. Until rights-holders and qualified professionals establish, review and authorize that packet, S01/S04/S07 can only remain an ordinary-space result or pause. The table below records feasibility **boundaries and next steps** that do not invent site data; it is not field-feasibility proof. [data:visual/assets/taskbook-closure.json#claim_qualifications]
+This submission does not contain a site-validated or authorized implementation packet, but it now completely delivers the participant-controlled **quantified pre-feasibility and professional handoff package**. A future field packet must still bind official geometry, rights/access, a real task, appointments, engineering/capacity, quotations, budget/funding, and approvals for the same carrier; every one remains `HOLD_EXTERNAL`. S01/S04/S07 therefore remain ordinary-space outcomes or pauses - not because participant work is incomplete, but because the completed next-decision package is waiting for real G1 external verification. [data:visual/assets/implementation-readiness-dossier.json#participant_release_state] [data:visual/assets/taskbook-closure.json#claim_qualifications]
+
+### Participant Readiness Closure: Handoff Before Action
+
+The participant now delivers a complete reference package that a future professional team can verify, not a promise of field action. It connects 12 unpriced lots, 20/26/38 role-hours, low/reference/high CAPEX/OPEX indices, lifecycle and unfunded exit allowance to a nine-stage dependency programme whose actual dates are all `null`. [metric:s01_unpriced_delivery_lot_count] [metric:s01_reference_session_role_hours] [data:visual/assets/implementation-readiness-dossier.json#conditional_dependency_programme]
+
+- **Recipients and competence.** Thirteen gate-addressed role types receive a required artifact, verification question, and NO-GO rule; ten professional/operational competence rows separate what the participant can check now from real future qualifications, appointments, and evidence.
+- **Programme and cadence.** `DP-00` is participant-complete and `DP-01` is ready for G1 external verification. `DP-02` through `DP-08` remain HOLD and every actual start/finish date is `null`. Measurable records are triggered before deployment, before/after every session, after stop/fault, and during storage; manufacturer/professional intervals remain `null`. [data:visual/assets/implementation-readiness-dossier.json#commissioning_inspection_maintenance_cadence]
+- **Procurement and acceptance.** Five unpriced packages cannot enter the market before professional specification freeze, RFQ authorization, and real budget/funding. Quotations remain zero. Of 16 acceptance items, only six participant-completeness checks pass; no professional, field, or external authorization is assumed passed. [data:visual/assets/implementation-readiness-dossier.json#participant_reference_procurement_path] [data:visual/assets/implementation-readiness-dossier.json#measurable_layered_acceptance_ledger]
+- **Positive but bounded release.** `PARTICIPANT_PRE_FEASIBILITY_PACKAGE_COMPLETE=true`, `PROFESSIONAL_HANDOFF_COMPLETE=true`, `READY_FOR_G1_EXTERNAL_VERIFICATION=true`, and `NEXT_DECISION_PACKAGE_COMPLETE=true`; simultaneously `EXTERNAL_RELEASES_OPEN=false`, `P0_GO=false`, and rights, appointments, engineering, field evidence, budget/funding, approval, and task authorization remain HOLD/null. [data:visual/assets/implementation-readiness-dossier.json#participant_release_semantics]
+
+On 2026-08-31, public sources were rechecked only as **context** for the competition and city-renewal setting: they can clarify task scale or published information, but cannot prove current carrier rights, operator, budget, real task, engineering condition, or approval. A future Day 1 only opens evidence requests and observations for rights, route, and task; Week 1 may test role separation, stop/lockout, and ordinary-baseline restoration only after applicable authorization and professional review. No Day-1 or Week-1 action has occurred today, and `P0_GO=false`. [source:OFFICIAL-ANNOUNCEMENT] [data:visual/assets/implementation-readiness-dossier.json#day_1_week_1_hold_closure_map]
 
 ### Read Actor, Funding and Readiness Separately
 
@@ -360,7 +356,7 @@ This submission **does not contain** a site-validated implementation packet and 
 - **Proposed roles (CONCEPT_PROPOSAL)**: Task proposer, carrier steward, qualified operator, independent reviewer, accessibility/community representative, and archive/reset custodian are role types that may later be needed. Who may propose, operate or stop must be confirmed by rights-holders, operators and applicable professional/statutory processes before every session.
 - **UNKNOWN / PAUSE_UNTIL_OFFICIAL_DATA**: Ownership, approval, access, opening hours, campus/metro/enterprise/heritage operating rules, engineering safety, capacity and field performance are not supplied. Missing any one retains the ordinary-space result or pauses the scenario.
 - **FUNDING_MECHANISM_OPTIONS (CONCEPT_PROPOSAL)**: Future public-interest renewal, research/test partnership, operator contribution, philanthropic/public-cultural support and appropriate commercial-revenue mechanisms are not a budget, grant, investor, procurement route or government promise. [data:visual/assets/taskbook-closure.json#operation_cycle]
-- **READINESS**: The package is `OFFLINE_READY` for concept discussion and reset rehearsal only. Every scenario remains `FIELD_DATA_REQUIRED`, `AUTHORIZATION_REQUIRED` and `PROFESSIONAL_DEEPENING_REQUIRED`; none is described as deployed, engineering-feasible or field-validated. [data:visual/assets/taskbook-closure.json#claim_qualifications]
+- **READINESS**: The participant pre-feasibility package, professional handoff material and next-decision package are complete and `READY_FOR_G1_EXTERNAL_VERIFICATION`. Every scenario remains `FIELD_DATA_REQUIRED`, `AUTHORIZATION_REQUIRED` and `PROFESSIONAL_DEEPENING_REQUIRED`; none is described as deployed, engineering-feasible or field-validated. [data:visual/assets/taskbook-closure.json#claim_qualifications]
 
 ### Three Repeated Deep-Delivery Contracts
 

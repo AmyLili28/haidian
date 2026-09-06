@@ -1,0 +1,177 @@
+{
+  "schema_version": "0.1.0",
+  "units": {
+    "length": "m",
+    "area": "sqm"
+  },
+  "metrics": {
+    "site_area_sqm": {
+      "status": "known",
+      "value": 11412825.386,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "polygon_area(submitted_provisional_site_boundary, EPSG:4548)",
+      "confidence": "medium",
+      "assumptions": [
+        "Provisional boundary; not an official redline or precise area basis."
+      ]
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 44712.085,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "formula": "sum(polygon_area(conceptual_building_footprints, EPSG:4548))",
+      "confidence": "medium",
+      "assumptions": [
+        "Conceptual reversible facilities; existing-building survey is unavailable."
+      ]
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.168303,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "green_space_area_sqm / site_area_sqm",
+      "confidence": "medium",
+      "assumptions": [
+        "Scenario ratio under provisional boundary; not a statutory Green Ratio."
+      ]
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.018978,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "public_space_area_sqm / site_area_sqm",
+      "confidence": "medium",
+      "assumptions": [
+        "Scenario ratio under provisional boundary; public interfaces may overlap green space."
+      ]
+    },
+    "key_area_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(provisional_key_areas)",
+      "confidence": "high",
+      "assumptions": [
+        "All three polygons are provisional."
+      ]
+    },
+    "lived_work_order_count": {
+      "status": "known",
+      "value": 12,
+      "unit": "count",
+      "source_files": [
+        "geometry/constraints.geojson",
+        "proposal.md"
+      ],
+      "formula": "count(features where work_order_id is present)",
+      "confidence": "high",
+      "assumptions": [
+        "Counts design cards, not verified needs."
+      ]
+    },
+    "persona_frame_count": {
+      "status": "known",
+      "value": 7,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(lived-user sampling frames)",
+      "confidence": "high",
+      "assumptions": [
+        "Sampling frames are not personal profiles."
+      ]
+    },
+    "validation_scenario_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(testing_and_validation_scenarios)",
+      "confidence": "high",
+      "assumptions": [
+        "Conceptual tests; not implementation permits."
+      ]
+    },
+    "honor_node_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "geometry/constraints.geojson"
+      ],
+      "formula": "count(features where node_type=ai_pilgrimage_honor_node)",
+      "confidence": "high",
+      "assumptions": [
+        "Conceptual recommendations."
+      ]
+    },
+    "field_observation_count": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count",
+      "source_files": [
+        "report/narrative.md"
+      ],
+      "formula": "count(user-cleared direct-observation records)",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Two site walks are scheduled but not yet completed."
+    },
+    "night_observation_count": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count",
+      "source_files": [
+        "report/narrative.md"
+      ],
+      "formula": "count(user-cleared direct-observation records where walk_period=night)",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Night site walk is scheduled but not yet completed."
+    },
+    "consented_interview_count": {
+      "status": "unknown",
+      "value": null,
+      "unit": "count",
+      "source_files": [
+        "report/narrative.md"
+      ],
+      "formula": "count(anonymous interviews with consent and read-back confirmation)",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Interviews have not yet been conducted."
+    },
+    "floor_area_ratio": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/ranges/planning_limits.json"
+      ],
+      "formula": "total_floor_area_sqm / official_site_area_sqm",
+      "confidence": "unknown",
+      "assumptions": [],
+      "reason": "Approved FAR controls and an official site boundary are unavailable."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "agent_id": "Pancake447",
+  "agent_name": "Shared-Track Agent (HaidianPLAN)",
+  "role": "ai_agent_submission_author",
+  "model": "deepseek-v4-flash",
+  "model_family": "deepseek",
+  "model_detail": "DeepSeek v4-flash model operating through the DeepSeek Harness (DSH) agent runtime; geometry generated programmatically with shapely/pyproj (EPSG:4548 area recomputation); figures generated with matplotlib; offline HTML authored directly.",
+  "generated_with": "DeepSeek Harness agent runtime + scripts/scaffold_ai_submission.py",
+  "generation_disclosure_zh": "本方案全部内容由 AI agent 生成：设计叙事由大语言模型撰写；几何与指标由脚本计算；图件由 matplotlib 数据驱动绘制；无任何图像、照片、商标或字体未经授权使用。生成内容仅代表概念建议，不构成政府审定结论。",
+  "generation_disclosure_en": "This proposal is entirely AI-generated: design narrative by a large language model; geometry and metrics computed by scripts; figures data-driven via matplotlib; no image, photo, trademark or font is used without authorization. Generated content is concept-level only and does not constitute government-approved conclusions."
+}

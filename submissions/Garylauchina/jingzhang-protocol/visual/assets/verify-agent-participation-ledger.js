@@ -18,8 +18,8 @@ assert(
   "ledger status must keep public process and urban implementation separate"
 );
 assert(
-  ledger.current_release_status === "v0.14_1_repository_intake_accepted_and_merged_formal_selection_unobserved",
-  "release status must distinguish V0.14.1 repository intake/merge from unobserved formal selection"
+  ledger.current_release_status === "v0.16_repository_intake_accepted_and_merged_advisory_96_formal_selection_unobserved_v0.17_local_candidate",
+  "release status must distinguish V0.16 repository intake/merge and advisory 96 from the local V0.17 candidate and unobserved formal selection"
 );
 
 const expectedPublicStages = ["FRAME", "CREATE", "TRACE", "CHALLENGE", "JUDGE", "RETURN"];
@@ -51,8 +51,11 @@ const challenge = publicStages.find((stage) => stage.stage_id === "CHALLENGE");
 assert(
   challenge?.evidence_scope?.includes("PR 4306") &&
     challenge.evidence_scope.includes("96/100") &&
-    challenge.evidence_scope.includes("not formal jury scoring"),
-  "CHALLENGE evidence scope must record the PR 4306 cycle and advisory/formal boundary"
+    challenge.evidence_scope.includes("PR 4308") &&
+    challenge.evidence_scope.includes("100/100") &&
+    challenge.evidence_scope.includes("PR 4313") &&
+    challenge.evidence_scope.includes("advisory scores are not formal jury scoring"),
+  "CHALLENGE evidence scope must record all three PR cycles and the advisory/formal boundary"
 );
 
 const revision = ledger.documented_revision_cycle || {};
@@ -76,6 +79,20 @@ assert(
 );
 assert(revision.boundary?.includes("does not populate FP01 H0-H4"), "revision cycle must preserve the urban-evidence boundary");
 
+const latest = ledger.latest_reviewed_intake || {};
+assert(latest.source_id === "SUBMISSION-INTAKE-PR-4313", "latest reviewed intake must cite PR 4313");
+assert(latest.pull_request === 4313 && latest.submission_version === "V0.16", "latest reviewed intake identity mismatch");
+assert(latest.final_head_commit === "4c23e8f62dddbcdf141404050fcdb352737fe073", "PR 4313 head mismatch");
+assert(latest.merge_commit === "a0bc3867178cc9d35767e9edc611282aa58469b9", "PR 4313 merge mismatch");
+assert(latest.reviewed_package_sha256 === "ef95c067f23a4131cbdb8dd7d6c08adc722995a79436a901ebbc4fff31f0f4e7", "PR 4313 package hash mismatch");
+assert(latest.deterministic_validation === "PASS" && latest.advisory_review_score === 96, "PR 4313 validation/advisory result mismatch");
+assert(latest.formal_competition_score === null, "advisory 96 must not become a formal competition score");
+assert(
+  latest.recommendations?.includes("formal-review-ready") && latest.recommendations?.includes("featured-candidate"),
+  "PR 4313 recommendations are incomplete"
+);
+assert(latest.boundary?.includes("not a formal jury score or a guarantee for the local V0.17"), "latest intake must preserve the V0.17 non-guarantee boundary");
+
 const expectedUrbanStages = ["SOURCE", "STACK", "PROVE", "LIVE_MARKET", "ENABLE", "COMMONS"];
 const urbanStages = Array.isArray(ledger.urban_application_loop) ? ledger.urban_application_loop : [];
 assert(
@@ -91,9 +108,11 @@ assert(ledger.external_evidence_boundary?.fp01_h0_h4_verified_gate_count === 0, 
 assert(ledger.external_evidence_boundary?.fp01_external_evidence_artifact_verified_count === 0, "verified external artifact count must remain zero");
 assert(
   ledger.external_evidence_boundary?.rule?.includes("PR 4306") &&
-    ledger.external_evidence_boundary.rule.includes("not formal jury scoring") &&
+    ledger.external_evidence_boundary.rule.includes("PR 4308") &&
+    ledger.external_evidence_boundary.rule.includes("PR 4313") &&
+    ledger.external_evidence_boundary.rule.includes("None is formal jury scoring") &&
     ledger.external_evidence_boundary.rule.includes("not selection, adoption or implementation"),
-  "external-evidence rule must preserve the PR 4306 advisory/intake boundary"
+  "external-evidence rule must preserve all advisory/intake boundaries"
 );
 
 const requiredExclusions = [

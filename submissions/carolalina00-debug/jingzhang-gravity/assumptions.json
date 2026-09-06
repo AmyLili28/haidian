@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "pending_professional_confirmation",
+      "statement": "The repository provisional boundary is the only submission geometry basis; it is not an official redline and must be replaced as one complete topology when cleared official polygons arrive.",
+      "impact": "Every area, ratio, location, drawing and phase is an interim design-model output."
+    },
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Approved FAR, height, density, setback, road, heritage, rail, municipal, fire and underground controls are unavailable.",
+      "impact": "These metrics remain unknown/null and all related spatial moves are conceptual suggestions."
+    },
+    {
+      "id": "A-DESIGN-LAYERS-001",
+      "status": "design_assumption",
+      "statement": "Green and public-space layers are deliberate overlapping design systems derived from one provisional site topology.",
+      "impact": "Each ratio uses a unary union within its own layer before division by site area."
+    },
+    {
+      "id": "A-BUILDINGS-001",
+      "status": "design_assumption",
+      "statement": "Building footprints are non-parcel conceptual capacity prototypes and do not represent surveyed existing buildings or demolition decisions.",
+      "impact": "Only footprint geometry is recomputable; FAR, height, density and ownership conclusions are forbidden."
+    },
+    {
+      "id": "A-MEDIA-001",
+      "status": "presentation_only",
+      "statement": "Generated architectural images depict a conceptual future experience and not observed site conditions.",
+      "impact": "They cannot support boundary, area, planning-control, heritage or implementation claims."
+    }
+  ]
+}

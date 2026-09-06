@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "name": "green_space",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "GRN-001",
+      "properties": {
+        "id": "GRN-001",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "京张遗址公园绿廊（临时概念）",
+        "area_sqm_calculated": 1783478.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3459,
+              39.94
+            ],
+            [
+              116.3481,
+              39.94
+            ],
+            [
+              116.3481,
+              40.026
+            ],
+            [
+              116.3459,
+              40.026
+            ],
+            [
+              116.3459,
+              39.94
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

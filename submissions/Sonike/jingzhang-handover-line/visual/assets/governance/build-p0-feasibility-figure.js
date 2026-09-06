@@ -56,6 +56,9 @@ function checkData() {
     [handoff.unpriced_quantity_schedule.lines.length, 16, "quantity schedule"],
     [handoff.professional_role_classes.length, 12, "role classes"],
     [handoff.delivery_packages.length, 6, "delivery packages"],
+    [handoff.implementation_scheme_module_register.length, 11, "implementation-plan classes"],
+    [handoff.formal_cost_method.method_steps.length, 6, "formal-cost method steps"],
+    [handoff.formal_cost_method.comparable_vendor_quote_count, 0, "comparable quote receipts"],
     [envelope.maintenance_cycles.length, 4, "maintenance cycles"],
     [envelope.alternative_comparison.length, 4, "alternatives"],
     [delivery.current_evidence.real_participant_observations, 0, "real observations"],
@@ -241,6 +244,8 @@ const copy = {
     maintenance: "每班前 / 每班后 / 每周 / D0·30·60·90",
     scaleTitle: "五级图纸链 / 每一级都可拒绝下一步",
     alternatives: "A0 人工底盘 · A1 移动车 · A2 双面桌（参考） · A3 既有室内房",
+    policyTitle: "11 类实施方案字段 + 6 步计价 + 4 个回退",
+    policyLine: "IP01–11 映射 11/11 · CST01–06 方法写定 · 外部回执 / 正式价格 / 预算仍为 0 或 NULL",
     evidence: "现场 0/12 · 门回执 0/12 · 报价 0/3 · 具名任命 0 · 预算/保险/签认 NULL · 不建设、不开放",
   },
   en: {
@@ -262,6 +267,8 @@ const copy = {
     maintenance: "PRE-SHIFT / POST-SHIFT / WEEKLY / D0·30·60·90",
     scaleTitle: "FIVE-SCALE DRAWING CHAIN / EACH LEVEL MAY REFUSE RELEASE",
     alternatives: "A0 HUMAN FLOOR · A1 CART · A2 TWO-FACE TABLE (REF.) · A3 EXISTING INDOOR ROOM",
+    policyTitle: "11 PLAN CLASSES + 6 COST STEPS + 4 FALLBACKS",
+    policyLine: "IP01–11 MAPPED 11/11 · CST01–06 METHOD SET · EXTERNAL RECEIPTS / FORMAL PRICES / BUDGET REMAIN ZERO OR NULL",
     evidence: "FIELD 0/12 · GATE RECEIPTS 0/12 · QUOTES 0/3 · NAMED APPOINTMENTS 0 · BUDGET/INSURANCE/SIGN-OFF NULL · DO NOT BUILD OR OPEN",
   },
 };
@@ -468,9 +475,10 @@ function drawBottomStrip(ctx, lang, x, y, w, h) {
     if (index < 4) arrow(ctx, boxX + itemW + 2, boxY + 34, boxX + itemW + 9, boxY + 34, C.red, 1.5);
   });
   line(ctx, x + chainW + 42, y + 18, x + chainW + 42, y + h - 18, C.grid, 1);
-  text(ctx, lang === "zh" ? "四个回退方案 / 全部仍受门控" : "FOUR FALLBACKS / ALL REMAIN GATED", x + chainW + 65, y + 27, lang === "zh" ? 12 : 9, 800, C.cyan);
-  wrap(ctx, t.alternatives, x + chainW + 65, y + 56, w - chainW - 90, 18, lang === "zh" ? 11 : 8.5, 700, C.coal, 3);
-  wrap(ctx, lang === "zh" ? "A0 为不启动；A1/A2/A3 均不得绕过 G01–G12 与双钥匙。" : "A0 MEANS DO NOT START. A1/A2/A3 MAY NOT BYPASS G01–G12 OR TWO-KEY RELEASE.", x + chainW + 65, y + 112, w - chainW - 90, 15, lang === "zh" ? 9 : 7.5, 700, C.red, 2);
+  text(ctx, t.policyTitle, x + chainW + 65, y + 27, lang === "zh" ? 12 : 9, 800, C.cyan);
+  wrap(ctx, t.policyLine, x + chainW + 65, y + 54, w - chainW - 90, 14, lang === "zh" ? 9 : 7.3, 700, C.coal, 2);
+  wrap(ctx, t.alternatives, x + chainW + 65, y + 89, w - chainW - 90, 14, lang === "zh" ? 9.5 : 7.5, 700, C.coal, 2);
+  wrap(ctx, lang === "zh" ? "A0 为不启动；A1/A2/A3 均不得绕过 G01–G12 与双钥匙。" : "A0 MEANS DO NOT START. A1/A2/A3 MAY NOT BYPASS G01–G12 OR TWO-KEY RELEASE.", x + chainW + 65, y + 124, w - chainW - 90, 13, lang === "zh" ? 8.5 : 7, 700, C.red, 2);
 }
 
 function drawFigure(lang) {
@@ -485,9 +493,10 @@ function drawFigure(lang) {
   text(ctx, t.kicker, 64, 55, lang === "zh" ? 18 : 15, 800, C.red);
   text(ctx, t.title, 64, 108, lang === "zh" ? 42 : 34, 800, C.coal);
   text(ctx, t.subtitle, 64, 140, lang === "zh" ? 15 : 11, 600, C.muted);
-  rounded(ctx, 1240, 37, 296, 84, 10, C.black);
+  rounded(ctx, 1240, 37, 296, 100, 10, C.black);
   text(ctx, "DESIGN REFERENCE", 1260, 68, 11, 800, C.yellowFill);
-  wrap(ctx, lang === "zh" ? "可交专业团队继续深化 · 现场尚未开始" : "HANDOFF-READY · FIELD NOT STARTED", 1260, 92, 252, 14, lang === "zh" ? 9 : 8, 700, C.white, 2);
+  text(ctx, lang === "zh" ? "4级 · 9项目 · 6包 · 11方案类" : "4 STATES · 9 PROJECTS · 6 PACKAGES · 11 CLASSES", 1260, 93, lang === "zh" ? 9 : 7.1, 700, C.white);
+  text(ctx, lang === "zh" ? "12门 · 6步计价 · 外部回执0" : "12 GATES · 6 COST STEPS · RECEIPTS 0", 1260, 111, lang === "zh" ? 9 : 7.1, 700, C.white);
 
   drawControlPlan(ctx, lang, 64, 170, 740, 548);
   drawOperatingOverlay(ctx, lang, 828, 170, 338, 266);

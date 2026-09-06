@@ -1,0 +1,232 @@
+{
+  "type": "FeatureCollection",
+  "name": "green_space",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "GC-001",
+      "properties": {
+        "id": "GC-001",
+        "layer": "GREEN_SPACE",
+        "green_type": "corridor_park",
+        "name_zh": "辩论走廊京张遗址公园绿带",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.346,
+              39.94984
+            ],
+            [
+              116.348,
+              39.94984
+            ],
+            [
+              116.348,
+              40.0075
+            ],
+            [
+              116.346,
+              40.0075
+            ],
+            [
+              116.346,
+              39.94984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GC-002",
+      "properties": {
+        "id": "GC-002",
+        "layer": "GREEN_SPACE",
+        "green_type": "wetland",
+        "name_zh": "知识湿地",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.343,
+              39.985
+            ],
+            [
+              116.346,
+              39.985
+            ],
+            [
+              116.346,
+              39.992
+            ],
+            [
+              116.343,
+              39.992
+            ],
+            [
+              116.343,
+              39.985
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GC-003",
+      "properties": {
+        "id": "GC-003",
+        "layer": "GREEN_SPACE",
+        "green_type": "riverside",
+        "name_zh": "小月河蓝绿缓冲带",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.348,
+              39.985
+            ],
+            [
+              116.351,
+              39.985
+            ],
+            [
+              116.351,
+              39.992
+            ],
+            [
+              116.348,
+              39.992
+            ],
+            [
+              116.348,
+              39.985
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GC-004",
+      "properties": {
+        "id": "GC-004",
+        "layer": "GREEN_SPACE",
+        "green_type": "buffer",
+        "name_zh": "众智园北侧绿带",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.343,
+              40.024
+            ],
+            [
+              116.354,
+              40.024
+            ],
+            [
+              116.354,
+              40.026
+            ],
+            [
+              116.343,
+              40.026
+            ],
+            [
+              116.343,
+              40.024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GC-100",
+      "properties": {
+        "id": "GC-100",
+        "layer": "GREEN_SPACE",
+        "green_type": "regional_green",
+        "name_zh": "区域绿地(辩论花园基底)",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34379812630598,
+              39.95750933533354
+            ],
+            [
+              116.35194476572207,
+              39.95750936203582
+            ],
+            [
+              116.35194402039733,
+              39.97201312910198
+            ],
+            [
+              116.35082772285382,
+              39.98595905847939
+            ],
+            [
+              116.35194238517518,
+              40.00632023070966
+            ],
+            [
+              116.34491568893878,
+              40.006320212650785
+            ],
+            [
+              116.34435753529442,
+              39.99488449931073
+            ],
+            [
+              116.34324113072309,
+              39.97759151298189
+            ],
+            [
+              116.34379812630598,
+              39.95750933533354
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

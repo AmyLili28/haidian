@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1-draft",
+  "landmarks": [
+    {
+      "id": "LM-01",
+      "name_zh": "百年时标",
+      "name_en": "Century Gauge",
+      "area": "overall / heritage public ground",
+      "type": "public_landmark",
+      "concept": "将铁路里程、时间与AI时代更新叠合为可步行阅读的实体地标，而非大型科技雕塑。",
+      "physical_elements": [
+        "实体刻度",
+        "座椅",
+        "遮阴",
+        "双语信息",
+        "可选数字导览"
+      ],
+      "status": "conceptual_location_pending_real_site_verification"
+    },
+    {
+      "id": "LM-02",
+      "name_zh": "原点开放门廊",
+      "name_en": "Origin Open Porch",
+      "area": "ai_origin",
+      "type": "urban_ground_landmark",
+      "concept": "以开放首层、门廊和共享街形成可使用的地标，地标价值来自公共生活而非高度。",
+      "physical_elements": [
+        "连续门廊",
+        "公共台阶/座席",
+        "成果展示",
+        "夜间学习",
+        "双语导视"
+      ],
+      "status": "conceptual_within_provisional_key_area"
+    },
+    {
+      "id": "LM-03",
+      "name_zh": "大钟寺城市交换厅",
+      "name_en": "Dazhongsi Urban Exchange Hall",
+      "area": "dazhongsi",
+      "type": "station_city_landmark",
+      "concept": "站城四象限中的公共会面与方向识别地标，以首层公共空间和清晰路径作为识别核心。",
+      "physical_elements": [
+        "站前客厅",
+        "雨棚/门廊",
+        "实体地图",
+        "会面点",
+        "可选动态信息"
+      ],
+      "status": "conceptual_location_pending_station_exit_verification"
+    }
+  ]
+}

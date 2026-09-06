@@ -1,0 +1,667 @@
+{
+ "type": "FeatureCollection",
+ "name": "land_use_shared_track",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "LU-001",
+   "properties": {
+    "land_use_code": "0901",
+    "name_zh": "大钟寺智能消费街区",
+    "name_en": "Dazhongsi smart-consumption block",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 516153.038,
+    "cell_id": "B0C0",
+    "id": "LU-001",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.346,
+       39.939
+      ],
+      [
+       116.3407,
+       39.939
+      ],
+      [
+       116.34042222222222,
+       39.949
+      ],
+      [
+       116.346,
+       39.949
+      ],
+      [
+       116.346,
+       39.939
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-002",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园南段·大钟寺站台公园",
+    "name_en": "Jing-Zhang heritage park south · Dazhongsi station park",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 284701.523,
+    "cell_id": "B0C1",
+    "id": "LU-002",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.349,
+       39.939
+      ],
+      [
+       116.346,
+       39.939
+      ],
+      [
+       116.346,
+       39.949
+      ],
+      [
+       116.349,
+       39.949
+      ],
+      [
+       116.349,
+       39.939
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-003",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "大钟寺数字商务街区",
+    "name_en": "Dazhongsi digital-business block",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 597872.549,
+    "cell_id": "B0C2",
+    "id": "LU-003",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3553,
+       39.949
+      ],
+      [
+       116.3553,
+       39.939
+      ],
+      [
+       116.349,
+       39.939
+      ],
+      [
+       116.349,
+       39.949
+      ],
+      [
+       116.3553,
+       39.949
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-004",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "知春路北宜居社区",
+    "name_en": "Zhichun Road North residential community",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 1286878.055,
+    "cell_id": "B1C0",
+    "id": "LU-004",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34042222222222,
+       39.949
+      ],
+      [
+       116.33978333333333,
+       39.972
+      ],
+      [
+       116.346,
+       39.972
+      ],
+      [
+       116.346,
+       39.949
+      ],
+      [
+       116.34042222222222,
+       39.949
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-005",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园中段",
+    "name_en": "Jing-Zhang heritage park middle section",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 654658.016,
+    "cell_id": "B1C1",
+    "id": "LU-005",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.346,
+       39.972
+      ],
+      [
+       116.349,
+       39.972
+      ],
+      [
+       116.349,
+       39.949
+      ],
+      [
+       116.346,
+       39.949
+      ],
+      [
+       116.346,
+       39.972
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-006",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "小月河翼科研街区",
+    "name_en": "Xiaoyue River wing research block",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 1356185.77,
+    "cell_id": "B1C2",
+    "id": "LU-006",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.349,
+       39.972
+      ],
+      [
+       116.35474,
+       39.972
+      ],
+      [
+       116.3553,
+       39.965
+      ],
+      [
+       116.3553,
+       39.949
+      ],
+      [
+       116.349,
+       39.949
+      ],
+      [
+       116.349,
+       39.972
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-007",
+   "properties": {
+    "land_use_code": "0701",
+    "name_zh": "原点社区西居住街区",
+    "name_en": "AI Origin community west residential block",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 1344573.275,
+    "cell_id": "B2C0",
+    "id": "LU-007",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.33978333333333,
+       39.972
+      ],
+      [
+       116.3397,
+       39.975
+      ],
+      [
+       116.34111935483871,
+       39.997
+      ],
+      [
+       116.346,
+       39.997
+      ],
+      [
+       116.346,
+       39.972
+      ],
+      [
+       116.33978333333333,
+       39.972
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-008",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园·原点社区客厅段",
+    "name_en": "Heritage park · AI Origin community living-room section",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 711338.876,
+    "cell_id": "B2C1",
+    "id": "LU-008",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.346,
+       39.997
+      ],
+      [
+       116.349,
+       39.997
+      ],
+      [
+       116.349,
+       39.972
+      ],
+      [
+       116.346,
+       39.972
+      ],
+      [
+       116.346,
+       39.997
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-009",
+   "properties": {
+    "land_use_code": "0804",
+    "name_zh": "近校教育科研街区",
+    "name_en": "Campus-adjacent education & research block",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 1155254.651,
+    "cell_id": "B2C2",
+    "id": "LU-009",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.349,
+       39.997
+      ],
+      [
+       116.35368356164383,
+       39.997
+      ],
+      [
+       116.3533,
+       39.99
+      ],
+      [
+       116.35474,
+       39.972
+      ],
+      [
+       116.349,
+       39.972
+      ],
+      [
+       116.349,
+       39.997
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-010",
+   "properties": {
+    "land_use_code": "1402",
+    "name_zh": "西缘防护绿带",
+    "name_en": "Western buffer green belt",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 452374.029,
+    "cell_id": "B3C0",
+    "id": "LU-010",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34111935483871,
+       39.997
+      ],
+      [
+       116.3417,
+       40.006
+      ],
+      [
+       116.34177317073171,
+       40.0075
+      ],
+      [
+       116.346,
+       40.0075
+      ],
+      [
+       116.346,
+       39.997
+      ],
+      [
+       116.34111935483871,
+       39.997
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-011",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园北段",
+    "name_en": "Jing-Zhang heritage park north section",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 298685.911,
+    "cell_id": "B3C1",
+    "id": "LU-011",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.346,
+       40.0075
+      ],
+      [
+       116.349,
+       40.0075
+      ],
+      [
+       116.349,
+       39.997
+      ],
+      [
+       116.346,
+       39.997
+      ],
+      [
+       116.346,
+       40.0075
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-012",
+   "properties": {
+    "land_use_code": "1402",
+    "name_zh": "东缘防护绿带",
+    "name_en": "Eastern buffer green belt",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 494943.375,
+    "cell_id": "B3C2",
+    "id": "LU-012",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.349,
+       40.0075
+      ],
+      [
+       116.35425890410959,
+       40.0075
+      ],
+      [
+       116.35368356164383,
+       39.997
+      ],
+      [
+       116.349,
+       39.997
+      ],
+      [
+       116.349,
+       40.0075
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-013",
+   "properties": {
+    "land_use_code": "0802",
+    "name_zh": "众智园全栈创新实验室街区",
+    "name_en": "Zhongzhiyuan full-stack innovation lab block",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 677883.493,
+    "cell_id": "B4C0",
+    "id": "LU-013",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.34177317073171,
+       40.0075
+      ],
+      [
+       116.3427,
+       40.0265
+      ],
+      [
+       116.346,
+       40.0265
+      ],
+      [
+       116.346,
+       40.0075
+      ],
+      [
+       116.34177317073171,
+       40.0075
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-014",
+   "properties": {
+    "land_use_code": "1401",
+    "name_zh": "众智园中央绿廊·AI测试展示场",
+    "name_en": "Zhongzhiyuan central green corridor · AI test & demo field",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 540364.305,
+    "cell_id": "B4C1",
+    "id": "LU-014",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.346,
+       40.0265
+      ],
+      [
+       116.349,
+       40.0265
+      ],
+      [
+       116.349,
+       40.0075
+      ],
+      [
+       116.346,
+       40.0075
+      ],
+      [
+       116.346,
+       40.0265
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "LU-015",
+   "properties": {
+    "land_use_code": "0902",
+    "name_zh": "众智园企业总部与加速器街区",
+    "name_en": "Zhongzhiyuan HQ & accelerator block",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "area_sqm_declared": 1040989.834,
+    "cell_id": "B4C2",
+    "id": "LU-015",
+    "layer": "LAND_USE"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.349,
+       40.0265
+      ],
+      [
+       116.3553,
+       40.0265
+      ],
+      [
+       116.35425890410959,
+       40.0075
+      ],
+      [
+       116.349,
+       40.0075
+      ],
+      [
+       116.349,
+       40.0265
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

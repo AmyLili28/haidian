@@ -2,11 +2,14 @@
 'use strict';
 
 /*
- * Deterministic v1.4 builder for P0-ALL-STOP-01.
+ * Deterministic v1.6 communication-hierarchy builder for P0-ALL-STOP-01.
  * Sources: visual/assets/v13-implementation.json,
- * visual/assets/v14-delivery-control.json, and the existing submission files.
- * Outputs: two fixed bilingual figures, bilingual proposal/visual HTML inputs,
- * four PDFs, and synchronized evidence records. No network access is used.
+ * visual/assets/v14-delivery-control.json,
+ * visual/assets/v15-execution-kit.json,
+ * visual/assets/v16-communication-audit.json, and existing submission files.
+ * Outputs: two public quick-read and two technical companion bilingual figure
+ * pairs, bilingual proposal/visual HTML inputs, four PDFs, and synchronized
+ * evidence records. No network access is used.
  * Run with --font-only after render_proposal_html.py to restore offline CJK
  * coverage without loading the optional canvas/PDF build dependencies.
  */
@@ -24,6 +27,10 @@ const DATA_PATH = path.join(__dirname, 'v13-implementation.json');
 const DATA = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
 const CONTROL_PATH = path.join(__dirname, 'v14-delivery-control.json');
 const CONTROL = JSON.parse(fs.readFileSync(CONTROL_PATH, 'utf8'));
+const KIT_PATH = path.join(__dirname, 'v15-execution-kit.json');
+const KIT = JSON.parse(fs.readFileSync(KIT_PATH, 'utf8'));
+const COMM_PATH = path.join(__dirname, 'v16-communication-audit.json');
+const COMM = JSON.parse(fs.readFileSync(COMM_PATH, 'utf8'));
 const FIGURES = path.join(ROOT, 'assets', 'figures');
 const DRAWINGS = path.join(ROOT, 'drawings');
 const EMBEDDED_FONT_START = '/* SLOWLINE_EMBEDDED_NOTO_SANS_SC */';
@@ -484,13 +491,13 @@ function buildConditions(ctx, x, y, w, h, lang) {
   });
 }
 
-async function buildKeyFigure(lang) {
+async function buildTechnicalKeyFigure(lang) {
   const canvas = createCanvas(1600, 1000);
   const ctx = canvas.getContext('2d');
   ctx.fillStyle = C.paper;
   ctx.fillRect(0, 0, 1600, 1000);
   titleBand(ctx, lang,
-    lang === 'zh' ? '固定评审图 03 / v1.4 实施控制' : 'FIXED REVIEW FIGURE 03 / v1.4 DELIVERY CONTROL',
+    lang === 'zh' ? '专业证据附图 T03 / v1.6' : 'PROFESSIONAL EVIDENCE T03 / v1.6',
     lang === 'zh' ? 'P0-ALL-STOP-01｜尺寸化首启单元' : 'P0-ALL-STOP-01 | DIMENSIONED LAUNCH UNIT',
     lang === 'zh' ? 'P0-CAND-01 · NOT_AUTHORIZED · HOLD\n临时重点区筛查关系 · 无坐标/不可放样' : 'P0-CAND-01 · NOT_AUTHORIZED · HOLD\nProvisional-area screening relation · no coordinates/set-out');
   buildSiteRelation(ctx, 32, 112, 500, 246, lang);
@@ -499,6 +506,76 @@ async function buildKeyFigure(lang) {
   buildNode(ctx, 854, 376, 344, 286, lang);
   buildDimensionRegister(ctx, 1216, 376, 352, 286, lang);
   buildConditions(ctx, 854, 680, 714, 288, lang);
+  const out = path.join(FIGURES, lang === 'zh' ? 'key-areas-technical.png' : 'key-areas-technical.en.png');
+  fs.writeFileSync(out, await canvas.encode('png'));
+}
+
+function drawPublicP0Plan(ctx, x, y, w, h, lang) {
+  panel(ctx, x, y, w, h, lang === 'zh' ? '3 分钟读懂一个全停门' : 'UNDERSTAND ONE ALL-STOP GATE IN 3 MINUTES', lang, C.blue);
+  const px = x + 46, py = y + 92, pw = w - 92, ph = h - 142;
+  rounded(ctx, px, py, pw, ph, 16, '#eef1ef', C.navy, 3);
+  text(ctx, lang === 'zh' ? '18 × 12 m 概念筛查包络' : '18 × 12 m CONCEPT SCREENING ENVELOPE', px + 28, py + 24, pw - 56, 24, C.navy, true, lang, 1.1, 2);
+
+  const routeY = py + ph - 150;
+  rounded(ctx, px + 26, routeY, pw - 52, 104, 12, C.paleGreen, C.green, 3);
+  text(ctx, lang === 'zh' ? '3.0 m 连续净宽｜人、轮椅、儿童优先' : '3.0 m CONTINUOUS CLEAR ROUTE | PEOPLE FIRST', px + 52, routeY + 24, pw - 104, 26, C.green, true, lang, 1.12, 2);
+  text(ctx, lang === 'zh' ? '家具、设备、线缆和机器人不得进入' : 'No furniture, equipment, cable or robot may enter', px + 52, routeY + 64, pw - 104, 20, C.ink, false, lang, 1.1, 2);
+
+  rounded(ctx, px + 58, py + 112, pw * 0.43, 226, 14, C.paleYellow, C.yellow, 3);
+  text(ctx, lang === 'zh' ? '真人服务区' : 'STAFFED SERVICE', px + 84, py + 142, pw * 0.36, 28, C.ink, true, lang, 1.1, 2);
+  text(ctx, lang === 'zh' ? '人工桌 + 纸本 + 电话' : 'Desk + paper + phone', px + 84, py + 196, pw * 0.34, 21, C.ink, false, lang, 1.2, 2);
+  text(ctx, lang === 'zh' ? '实体急停始终可见' : 'Physical E-stop remains visible', px + 84, py + 230, pw * 0.34, 21, C.ink, false, lang, 1.2, 2);
+
+  rounded(ctx, px + pw * 0.59, py + 112, pw * 0.31, 226, 14, C.paleRed, C.red, 3);
+  text(ctx, lang === 'zh' ? '机器人支路' : 'ROBOT SPUR', px + pw * 0.62, py + 142, pw * 0.25, 28, C.red, true, lang, 1.1, 2);
+  text(ctx, lang === 'zh' ? '停止线后等待' : 'Wait behind stop line', px + pw * 0.62, py + 196, pw * 0.25, 21, C.ink, false, lang, 1.2, 2);
+  text(ctx, lang === 'zh' ? '不得占用慢行主线' : 'Never occupy slow route', px + pw * 0.62, py + 230, pw * 0.25, 21, C.ink, false, lang, 1.2, 2);
+
+  arrow(ctx, px + pw * 0.46, py + 226, px + pw * 0.57, py + 226, C.red, 3);
+  text(ctx, lang === 'zh' ? '人工接管' : 'HUMAN TAKEOVER', px + pw * 0.43, py + 262, pw * 0.19, 18, C.red, true, lang, 1.05, 2);
+  text(ctx, lang === 'zh' ? '概念关系，不可放样' : 'CONCEPT RELATION · NO SET-OUT', px + 28, py + ph - 34, pw - 56, 16, C.grey, true, lang, 1, 1);
+}
+
+function drawPublicDecisionCards(ctx, x, y, w, h, lang) {
+  const items = lang === 'zh' ? [
+    ['01', '先保护人行', '3.0 m 概念净宽连续；机器人、设备和线缆都在外侧。', C.green],
+    ['02', 'AI 与人工同开同关', '人工桌不可用时切电话/文字热备；两条人工路径都失效，AI 同步关闭。', C.blue],
+    ['03', '现场证据仍为空', '容量 null；现场核实退出路径 0；17 个角色未指派。', C.red],
+    ['04', '失败默认暂停', '任一群体安全关键失败、等价缺失或无法退出，整体 HOLD。', C.red]
+  ] : [
+    ['01', 'Protect people first', 'The 3.0 m concept clear route stays continuous; robots, equipment and cables remain outside.', C.green],
+    ['02', 'AI and humans open together', 'If the desk fails, use human phone/text backup; if both human paths fail, AI closes too.', C.blue],
+    ['03', 'Field evidence is still blank', 'Capacity null; zero field-verified egress routes; seventeen roles unappointed.', C.red],
+    ['04', 'Failure pauses by default', 'Any group safety-critical failure, missing equivalent or failed exit keeps the whole unit on HOLD.', C.red]
+  ];
+  const gap = 16;
+  const cardH = (h - gap * 3) / 4;
+  items.forEach((item, i) => {
+    const yy = y + i * (cardH + gap);
+    rounded(ctx, x, yy, w, cardH, 14, C.white, C.light, 2);
+    rounded(ctx, x + 20, yy + 22, 62, 42, 8, item[3]);
+    text(ctx, item[0], x + 35, yy + 31, 40, 20, C.white, true, lang, 1, 1);
+    text(ctx, item[1], x + 100, yy + 20, w - 126, 26, C.ink, true, lang, 1.08, 2);
+    text(ctx, item[2], x + 100, yy + 63, w - 126, 20, C.grey, false, lang, 1.28, 4);
+  });
+}
+
+async function buildKeyFigure(lang) {
+  const canvas = createCanvas(1600, 1000);
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = C.paper;
+  ctx.fillRect(0, 0, 1600, 1000);
+  titleBand(ctx, lang,
+    lang === 'zh' ? '固定评审图 03 / v1.6 公众速读层' : 'FIXED REVIEW FIGURE 03 / v1.6 PUBLIC QUICK READ',
+    lang === 'zh' ? '一个全停门，先保护什么？' : 'WHAT DOES ONE ALL-STOP GATE PROTECT FIRST?',
+    'P0-ALL-STOP-01\nNOT_AUTHORIZED · HOLD');
+  drawPublicP0Plan(ctx, 32, 116, 956, 774, lang);
+  drawPublicDecisionCards(ctx, 1012, 116, 556, 774, lang);
+  rounded(ctx, 32, 910, 1536, 58, 12, C.navy);
+  text(ctx, lang === 'zh'
+    ? '速读图只回答公共决策；尺寸、断面、任务、BOQ 与验收详表完整保留在专业证据附图 T03/T05 与执行工作簿。'
+    : 'This quick-read figure answers public decisions only; dimensions, sections, tasks, BOQ and acceptance remain in professional evidence T03/T05 and the workbook.',
+  56, 927, 1488, 18, C.white, true, lang, 1.15, 2);
   const out = path.join(FIGURES, lang === 'zh' ? 'key-areas.png' : 'key-areas.en.png');
   fs.writeFileSync(out, await canvas.encode('png'));
 }
@@ -582,7 +659,7 @@ function drawCost(ctx, x, y, w, h, lang) {
 }
 
 function drawAcceptance(ctx, x, y, w, h, lang) {
-  panel(ctx, x, y, w, h, lang === 'zh' ? '两层验收｜A：8 通过 / 0 暂停｜B：12 暂停' : 'ACCEPTANCE | A: 8P / 0H | B: 12H', lang, C.red);
+  panel(ctx, x, y, w, h, lang === 'zh' ? '两层验收｜A：8 通过｜B：4 决策包 / 12 原始项暂停' : 'ACCEPTANCE | A: 8P | B: 4 BUNDLES / 12 RAW HOLD', lang, C.red);
   const current = DATA.acceptance_current_package;
   const startY = y + 58;
   current.forEach((m, i) => {
@@ -603,11 +680,11 @@ function drawA3FocusStrip(ctx, x, y, w, lang, mode) {
   rounded(ctx, x, y, w, 64, 12, C.navy);
   const value = mode === 'tasks'
     ? (lang === 'zh'
-      ? 'P0-ALL-STOP-01 | D00-D90 | 12 项连续任务 | 17 个角色槽位 | 12 外部门 HOLD | 当前未授权'
-      : 'P0-ALL-STOP-01 | D00-D90 | 12 TASKS | 17 ROLE SLOTS | 12 EXTERNAL GATES HOLD | NOT AUTHORIZED')
+      ? 'P0-ALL-STOP-01 | D00-D90 | 7 空表 | 4 外部决策 / 12 原始项 HOLD | 当前未授权'
+      : 'P0-ALL-STOP-01 | D00-D90 | 7 FORMS | 4 EXTERNAL DECISIONS / 12 RAW HOLD | NOT AUTHORIZED')
     : (lang === 'zh'
-      ? '16 行 BOQ | 4 FTE 工作排班 | CAPEX/OPEX 非正式区间 | A 层 8 PASS / 0 HOLD | B 层 12 HOLD'
-      : '16 BOQ LINES | 4-FTE WORKING ROSTER | NON-FORMAL CAPEX/OPEX | LAYER A 8 PASS / 0 HOLD | B 12 HOLD');
+      ? '16 行 BOQ | 4 FTE 工作排班 | A 层 8 PASS | B 层 4 决策包 / 12 原始项 HOLD'
+      : '16 BOQ LINES | 4-FTE WORKING ROSTER | LAYER A 8 PASS | B: 4 BUNDLES / 12 RAW HOLD');
   text(ctx, value, x + 24, y + 20, w - 48, 18, C.white, true, lang, 1.15, 2);
 }
 
@@ -693,7 +770,7 @@ function drawA3CostFocus(ctx, x, y, w, h, lang) {
 }
 
 function drawA3AcceptanceFocus(ctx, x, y, w, h, lang) {
-  panel(ctx, x, y, w, h, lang === 'zh' ? '两层验收 | A：8 PASS / 0 HOLD | B：12 HOLD' : 'TWO-LAYER ACCEPTANCE | A: 8 PASS / 0 HOLD | B: 12 HOLD', lang, C.red);
+  panel(ctx, x, y, w, h, lang === 'zh' ? '两层验收 | A：8 PASS | B：4 决策包 / 12 原始项 HOLD' : 'TWO-LAYER ACCEPTANCE | A: 8 PASS | B: 4 BUNDLES / 12 RAW HOLD', lang, C.red);
   const startY = y + 68, rowH = 48;
   DATA.acceptance_current_package.forEach((item, i) => {
     const yy = startY + i * rowH;
@@ -725,25 +802,88 @@ function drawA3DeliveryFocus(ctx, x, y, w, h, lang) {
   drawA3AcceptanceFocus(ctx, rightX, contentY, rightW, h - 84, lang);
 }
 
-async function buildMetricsFigure(lang) {
+async function buildTechnicalMetricsFigure(lang) {
   const canvas = createCanvas(1600, 1000);
   const ctx = canvas.getContext('2d');
   ctx.fillStyle = C.paper;
   ctx.fillRect(0, 0, 1600, 1000);
   titleBand(ctx, lang,
-    lang === 'zh' ? '固定评审图 05 / v1.4 实施控制' : 'FIXED REVIEW FIGURE 05 / v1.4 DELIVERY CONTROL',
+    lang === 'zh' ? '专业证据附图 T05 / v1.6' : 'PROFESSIONAL EVIDENCE T05 / v1.6',
     lang === 'zh' ? 'P0 任务链、工程量、成本与验收' : 'P0 TASKS, QUANTITIES, COST + ACCEPTANCE',
     lang === 'zh' ? 'P0-ALL-STOP-01 · 90 天 · G0—G5\n可失败、可停止、可退出' : 'P0-ALL-STOP-01 · 90 days · G0—G5\nfail · stop · exit');
   rounded(ctx, 32, 106, 1536, 62, 12, C.navy);
   const summary = lang === 'zh'
-    ? '30 秒：P0-CAND-01 筛查关系｜12 任务｜17 角色｜A 层 8/8 PASS｜4 FTE 工作排班｜12 外部门 HOLD｜未授权'
-    : '30 SEC: P0-CAND-01 SCREEN | 12 TASKS | 17 ROLES | LAYER A 8/8 PASS | 4-FTE WORKING ROSTER | 12 GATES HOLD | NOT AUTHORIZED';
+    ? '30 秒：7 空表｜18 回执字段｜4 外部决策 / 12 原始项 HOLD｜容量 null｜4 维护周期｜未授权'
+    : '30 SEC: 7 FORMS | 18 RECEIPT FIELDS | 4 EXTERNAL DECISIONS / 12 RAW HOLD | CAPACITY NULL | 4 CYCLES | NOT AUTHORIZED';
   text(ctx, summary, 54, 124, 1492, 18, C.white, true, lang, 1.18, 2);
   drawTimeline(ctx, 32, 186, 980, 322, lang);
   drawRolesAndGates(ctx, 1030, 186, 538, 322, lang);
   drawBoq(ctx, 32, 526, 618, 442, lang);
   drawCost(ctx, 668, 526, 420, 442, lang);
   drawAcceptance(ctx, 1106, 526, 462, 442, lang);
+  const out = path.join(FIGURES, lang === 'zh' ? 'metrics-evidence-technical.png' : 'metrics-evidence-technical.en.png');
+  fs.writeFileSync(out, await canvas.encode('png'));
+}
+
+function drawPublicBundle(ctx, x, y, w, h, lang, item) {
+  rounded(ctx, x, y, w, h, 16, C.white, C.light, 2);
+  rounded(ctx, x + 22, y + 22, 136, 38, 7, item.accent);
+  text(ctx, item.code, x + 38, y + 31, 106, 18, C.white, true, lang, 1, 1);
+  text(ctx, item.title, x + 22, y + 78, w - 44, 30, C.ink, true, lang, 1.08, 2);
+  text(ctx, item.value, x + 22, y + 145, w - 44, 28, item.accent, true, lang, 1.08, 2);
+  text(ctx, item.body, x + 22, y + 205, w - 44, 20, C.grey, false, lang, 1.28, 4);
+}
+
+function drawPublicGateRail(ctx, x, y, w, h, lang) {
+  panel(ctx, x, y, w, h, lang === 'zh' ? '六道门默认关闭｜证据到齐才逐门申请' : 'SIX GATES DEFAULT CLOSED | APPLY ONE BY ONE WITH EVIDENCE', lang, C.navy);
+  const labels = lang === 'zh'
+    ? ['权利', '共同设计', '人工等价', '专业责任', '限时运行', '恢复复盘']
+    : ['Rights', 'Co-design', 'Human parity', 'Professional duty', 'Timed run', 'Restore/review'];
+  const innerX = x + 32;
+  const gap = 14;
+  const cellW = (w - 64 - gap * 5) / 6;
+  labels.forEach((labelValue, i) => {
+    const xx = innerX + i * (cellW + gap);
+    rounded(ctx, xx, y + 66, cellW, 86, 12, C.paleRed, C.red, 2);
+    text(ctx, `G${i}`, xx + 16, y + 80, cellW - 32, 24, C.red, true, lang, 1, 1);
+    text(ctx, labelValue, xx + 16, y + 113, cellW - 32, 16, C.ink, true, lang, 1.05, 2);
+  });
+  text(ctx, lang === 'zh'
+    ? '包内已证明：8/8 PASS · 审计 12/12 · AI-off 人工等价 12/12 · 错误输入 1/1 触发 HOLD｜这些不是现场绩效。'
+    : 'PROVEN IN PACKAGE: 8/8 PASS · audit 12/12 · AI-off human equivalence 12/12 · malformed input 1/1 triggers HOLD | not field performance.',
+  x + 32, y + 170, w - 64, 20, C.ink, true, lang, 1.15, 2);
+}
+
+async function buildMetricsFigure(lang) {
+  const canvas = createCanvas(1600, 1000);
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = C.paper;
+  ctx.fillRect(0, 0, 1600, 1000);
+  titleBand(ctx, lang,
+    lang === 'zh' ? '固定评审图 05 / v1.6 公众速读层' : 'FIXED REVIEW FIGURE 05 / v1.6 PUBLIC QUICK READ',
+    lang === 'zh' ? '四个问题没解决，现场就不开门' : 'WHY THE FIELD GATE STAYS CLOSED',
+    lang === 'zh' ? '4/4 外部决策 HOLD\n不以包内 PASS 抵消' : '4/4 EXTERNAL DECISIONS HOLD\npackage PASS cannot offset them');
+  const zh = lang === 'zh';
+  const bundles = zh ? [
+    { code: 'D1 HOLD', title: '真实使用者与同任务', value: '6 组分列｜现场结果 0', body: '轮椅、低视力、无智能手机老人等必须完成同一任务；任何关键失败单独保留。', accent: C.red },
+    { code: 'D2 HOLD', title: '场地、容量与专业复核', value: '容量 null｜核实退出 0', body: '测绘、消防、无障碍、结构、电气、排水、照明与文保证据尚未形成。', accent: C.red },
+    { code: 'D3 HOLD', title: '运营、设备与叫停', value: '17 角色未指派｜4 FTE 仅工作值', body: '人工排班、接管、实体急停、维护与独立复演必须由真实主体签接。', accent: C.red },
+    { code: 'D4 HOLD', title: '真实成本、授权与退出', value: '正式总价 null｜储备未锁定', body: '市场报价、资金、许可、保险、拆除恢复与最终验收都不能由概念包代替。', accent: C.red }
+  ] : [
+    { code: 'D1 HOLD', title: 'Real users + same task', value: '6 cohorts | 0 field results', body: 'Wheelchair, low-vision and no-smartphone users must perform the same task; every critical failure stays visible.', accent: C.red },
+    { code: 'D2 HOLD', title: 'Site, capacity + review', value: 'Capacity null | 0 verified exits', body: 'Survey, fire, access, structure, electrical, drainage, lighting and heritage evidence do not yet exist.', accent: C.red },
+    { code: 'D3 HOLD', title: 'Operate, equipment + stop', value: '17 roles unappointed | 4 FTE working only', body: 'Real parties must accept staffing, takeover, physical stop, maintenance and independent rehearsal.', accent: C.red },
+    { code: 'D4 HOLD', title: 'Actual cost, authority + exit', value: 'Formal total null | reserve unfunded', body: 'Quotes, funding, permission, insurance, restoration and final acceptance cannot come from the concept package.', accent: C.red }
+  ];
+  const gap = 20;
+  const cardW = (1536 - gap) / 2;
+  const cardH = 286;
+  bundles.forEach((item, i) => {
+    const col = i % 2;
+    const row = Math.floor(i / 2);
+    drawPublicBundle(ctx, 32 + col * (cardW + gap), 116 + row * (cardH + gap), cardW, cardH, lang, item);
+  });
+  drawPublicGateRail(ctx, 32, 708, 1536, 260, lang);
   const out = path.join(FIGURES, lang === 'zh' ? 'metrics-evidence.png' : 'metrics-evidence.en.png');
   fs.writeFileSync(out, await canvas.encode('png'));
 }
@@ -796,7 +936,7 @@ async function buildSimulationFigure(lang) {
     text(ctx, malformed ? 'HOLD OK' : 'PASS', x + taskW - 78, y + 17, 66, 14, malformed ? C.ink : C.green, true, lang, 1, 1);
   });
 
-  text(ctx, lang === 'zh' ? 'v1.4 关闭的包内缺口' : 'PACKAGE GAPS CLOSED IN v1.4', 70, 674, 1460, 25, C.ink, true, lang, 1, 1);
+  text(ctx, lang === 'zh' ? 'v1.5 保留的包内闭环' : 'PACKAGE CLOSURE RETAINED IN v1.5', 70, 674, 1460, 25, C.ink, true, lang, 1, 1);
   const fixes = lang === 'zh' ? [
     ['人工桌不可用', '转入同服务窗的人工电话/文字热备；两条人工路径都不可用时 AI 同步关闭。'],
     ['错误载荷', 'schema 继续无效，但必须拒绝并完整记录；不把故意错误涂绿。'],
@@ -823,7 +963,7 @@ async function buildSimulationFigure(lang) {
 function metricEntry(value, unit, formula, assumptions = ['A-P0-DIM-001'], confidence = 'high') {
   return {
     status: 'known', value, unit,
-    source_files: ['visual/assets/v13-implementation.json', 'visual/assets/v14-delivery-control.json'], formula, confidence, assumptions,
+    source_files: ['visual/assets/v13-implementation.json', 'visual/assets/v14-delivery-control.json', 'visual/assets/v15-execution-kit.json'], formula, confidence, assumptions,
     interpretation: 'Conditional P0 concept-source value; not a field measurement, approved engineering parameter, supplier quote, or authorization.'
   };
 }
@@ -869,7 +1009,56 @@ function updateMetrics() {
     p0_working_capex_rom_low_cny: metricEntry(850000, 'CNY', 'participant low working sensitivity band', ['A-P0-COST-001'], 'low'),
     p0_working_capex_rom_high_cny: metricEntry(2100000, 'CNY', 'participant high working sensitivity band', ['A-P0-COST-001'], 'low'),
     p0_working_opex_low_cny: metricEntry(900000, 'CNY_per_year', 'participant low annual operating sensitivity band', ['A-P0-COST-001', 'A-P0-OPERATIONS-001'], 'low'),
-    p0_working_opex_high_cny: metricEntry(2200000, 'CNY_per_year', 'participant high annual operating sensitivity band', ['A-P0-COST-001', 'A-P0-OPERATIONS-001'], 'low')
+    p0_working_opex_high_cny: metricEntry(2200000, 'CNY_per_year', 'participant high annual operating sensitivity band', ['A-P0-COST-001', 'A-P0-OPERATIONS-001'], 'low'),
+    p0_external_decision_bundle_count: metricEntry(4, 'count', 'count(v15-execution-kit.external_decision_bundles)', ['A-P0-FIELD-001', 'A-P0-HANDOFF-001']),
+    p0_external_decision_bundle_hold_count: metricEntry(4, 'count', 'count(v15 external decision bundles with status HOLD)', ['A-P0-FIELD-001', 'A-P0-HANDOFF-001']),
+    p0_execution_form_count: metricEntry(7, 'count', 'count(v15-execution-kit.forms)', ['A-P0-HANDOFF-001']),
+    p0_execution_form_required_field_count: metricEntry(KIT.forms.flatMap(item => item.required_fields).length, 'count', 'sum(form-specific required fields across EX-01 to EX-07)', ['A-P0-HANDOFF-001']),
+    p0_external_evidence_receipt_field_count: metricEntry(18, 'count', 'count(v15-execution-kit.common_record_fields)', ['A-P0-HANDOFF-001']),
+    p0_verified_external_record_count: metricEntry(0, 'count', 'current verified external records accepted into v15 execution kit', ['A-P0-HANDOFF-001']),
+    p0_capacity_egress_template_count: metricEntry(1, 'count', 'count(v15 capacity_egress_template)', ['A-P0-CAPACITY-001']),
+    p0_concept_egress_route_count: metricEntry(2, 'count', 'participant concept independent egress-route design test', ['A-P0-CAPACITY-001'], 'low'),
+    p0_field_verified_egress_route_count: metricEntry(0, 'count', 'field-verified independent egress routes accepted into evidence kit', ['A-P0-CAPACITY-001']),
+    p0_maintenance_cycle_count: metricEntry(4, 'count', 'count(v15-execution-kit.maintenance_cycles)', ['A-P0-MAINTENANCE-001']),
+    p0_restoration_reserve_template_count: metricEntry(1, 'count', 'count(v15 restoration_reserve_template)', ['A-P0-MAINTENANCE-001']),
+    p0_restoration_reserve_ratio_low: metricEntry(0.1, 'ratio', 'participant lower sensitivity bound for verified removable CAPEX', ['A-P0-MAINTENANCE-001'], 'low'),
+    p0_restoration_reserve_ratio_high: metricEntry(0.2, 'ratio', 'participant upper sensitivity bound for verified removable CAPEX', ['A-P0-MAINTENANCE-001'], 'low'),
+    communication_reader_layer_count: {
+      status: 'known', value: COMM.current_result.reader_layer_count, unit: 'count',
+      source_files: ['visual/assets/v16-communication-audit.json'],
+      formula: 'count(v16-communication-audit.reader_layers)', confidence: 'high', assumptions: ['A-COMMS-001'],
+      interpretation: 'Participant communication hierarchy: 30-second, 3-minute and professional evidence layers; not an accessibility certification.'
+    },
+    communication_public_fixed_figure_count: {
+      status: 'known', value: COMM.current_result.public_fixed_figure_count, unit: 'count',
+      source_files: ['visual/assets/v16-communication-audit.json'],
+      formula: 'count(v16 public_fixed_figures)', confidence: 'high', assumptions: ['A-COMMS-001'],
+      interpretation: 'Two fixed review figures are reserved for large-type public decisions; full technical evidence is retained separately.'
+    },
+    communication_technical_companion_figure_count: {
+      status: 'known', value: COMM.current_result.technical_companion_figure_count, unit: 'count',
+      source_files: ['visual/assets/v16-communication-audit.json'],
+      formula: 'count(v16 technical_companion_figures)', confidence: 'high', assumptions: ['A-COMMS-001'],
+      interpretation: 'Two technical companions preserve dimension, task, BOQ, cost, role and acceptance detail.'
+    },
+    communication_bilingual_checkpoint_count: {
+      status: 'known', value: COMM.current_result.bilingual_checkpoint_count, unit: 'count',
+      source_files: ['visual/assets/v16-communication-audit.json'],
+      formula: 'count(v16 bilingual_controlled_checkpoints)', confidence: 'high', assumptions: ['A-COMMS-001'],
+      interpretation: 'Participant-controlled source-pair checkpoints for titles, states, numbers and limitation language; not independent human translation certification.'
+    },
+    communication_bilingual_checkpoint_pair_ratio: {
+      status: 'known', value: COMM.current_result.paired_checkpoint_count / COMM.current_result.bilingual_checkpoint_count, unit: 'ratio',
+      source_files: ['visual/assets/v16-communication-audit.json'],
+      formula: 'paired bilingual controlled checkpoints / all controlled checkpoints', confidence: 'high', assumptions: ['A-COMMS-001'],
+      interpretation: 'All twelve controlled checkpoints are present in both source languages; substantive independent human review remains a later review responsibility.'
+    },
+    communication_public_figure_body_floor_canvas_px: {
+      status: 'known', value: COMM.visual_text_floors_canvas_px.public_figure_body, unit: 'canvas_px',
+      source_files: ['visual/assets/v16-communication-audit.json', 'visual/assets/build-v13.js'],
+      formula: 'minimum configured body size in v1.6 public fixed-figure composition', confidence: 'high', assumptions: ['A-COMMS-001'],
+      interpretation: 'A 1600 x 1000 canvas composition control, not a physical print size, WCAG claim or universal accessibility result.'
+    }
   });
   m.simulation_success_rate = {
     ...m.simulation_success_rate,
@@ -916,6 +1105,16 @@ function updateMetrics() {
     formula: DATA.cost_model.formula, confidence: 'unknown', assumptions: ['A-P0-COST-001'],
     reason: 'Quantities are concept-derived but market rates, professional fees, funding, tax basis, and site-specific restoration scope are not available.'
   };
+  m.p0_calculated_field_capacity = {
+    status: 'unknown', value: null, unit: 'persons', source_files: ['visual/assets/v15-execution-kit.json'],
+    formula: KIT.capacity_egress_template.capacity_formula, confidence: 'unknown', assumptions: ['A-P0-CAPACITY-001'],
+    reason: 'Surveyed net area, approved occupant factor, fire/life-safety capacity, accessible service positions, and appointed staffed coverage are all absent.'
+  };
+  m.p0_restoration_reserve_amount = {
+    status: 'unknown', value: null, unit: 'CNY', source_files: ['visual/assets/v15-execution-kit.json'],
+    formula: KIT.restoration_reserve_template.formula, confidence: 'unknown', assumptions: ['A-P0-MAINTENANCE-001', 'A-P0-COST-001'],
+    reason: 'Verified removable CAPEX, site-specific restoration, removal transport, waste treatment, closeout cost, funding authority, and ring-fencing are absent.'
+  };
   writeJson('metrics.json', metrics);
 }
 
@@ -948,7 +1147,7 @@ function updateAssumptions() {
     },
     {
       id: 'A-P0-FIELD-001', status: 'HOLD_no_field_baseline',
-      statement: 'The two-layer acceptance matrix distinguishes eight package-checkable items from twelve field-dependent metrics. v1.4 closes the audit-record and AI-off staffed-service rehearsal gaps, so current package results are eight PASS and zero HOLD; all twelve field metrics remain HOLD.',
+      statement: 'The two-layer acceptance matrix distinguishes eight package-checkable items from twelve field-dependent metrics. v1.4 closes the audit-record and AI-off staffed-service rehearsal gaps, so current package results are eight PASS and zero HOLD; all twelve field metrics remain HOLD. v1.5 aggregates those twelve raw metrics and twelve external gates into four decision bundles without removing any evidence requirement.',
       impact: 'Synthetic tasks, concept paths, and fictional journeys cannot be presented as wheelchair, low-vision, older-person, response-time, conflict, environmental, acceptance, roster, or real-cost performance.',
       recalculation_trigger: 'G0-G3 evidence, paid co-design preregistration, authorized field data, named operator, and independent evaluation.'
     },
@@ -963,6 +1162,30 @@ function updateAssumptions() {
       statement: 'v1.4 compares 8, 12 and 18 public-service hours per day using 1680 productive hours per FTE-year and a 1.2 leave/training factor. The selected 12-hour middle working case assumes 07:00-19:00, covers morning-to-evening civic use more fully than the 8-hour fallback without treating the 18-hour stress case as authorized, calculates 3.129 FTE, and rounds to a four-FTE roster with zero modelled uncovered hours.',
       impact: 'The roster makes the human-equivalent rule computable but does not create a named operator, employment commitment, insurance, funding, or opening permission.',
       recalculation_trigger: 'A named operator confirms service hours, productive-hour rules, simultaneous staffing, leave, training, hot backup, insurance and budget.'
+    },
+    {
+      id: 'A-P0-HANDOFF-001', status: 'blank_professional_handoff_not_executed_evidence',
+      statement: 'v1.5 provides seven bilingual execution forms, eighteen common evidence-receipt fields, four external decision bundles, a machine mirror, and a deterministic verifier. All forms are blank and current verified external records remain zero.',
+      impact: 'The package is directly receivable by survey, operations, professional-review, cost, procurement, maintenance and independent-evaluation teams, but form completeness does not prove execution maturity.',
+      recalculation_trigger: 'A competent party completes, signs and independently reviews an executed copy with traceable external evidence.'
+    },
+    {
+      id: 'A-P0-CAPACITY-001', status: 'capacity_egress_formula_no_field_inputs',
+      statement: 'The participant capacity rule is the minimum of surveyed net-area capacity, approved fire/life-safety capacity, accessible-service-position capacity, and appointed staffed-role coverage. Two independent egress routes are a concept design test only; field-verified routes and widths remain zero/null.',
+      impact: 'No occupancy, opening, event or evacuation claim can be made until survey, fire, accessibility and operator evidence is accepted.',
+      recalculation_trigger: 'Authorized survey plus fire/life-safety, accessibility and named-operator confirmation.'
+    },
+    {
+      id: 'A-P0-MAINTENANCE-001', status: 'lifecycle_template_no_executed_log_or_funding',
+      statement: 'v1.5 defines four maintenance cycles and a restoration-reserve sensitivity of 10%–20% of verified removable CAPEX plus site-specific restoration, removal transport, waste treatment and independent closeout. Verified CAPEX, reserve amount and ring-fenced funding remain null/false.',
+      impact: 'Maintenance and removal become explicit decision interfaces without presenting a participant percentage as a cost estimate or funded reserve.',
+      recalculation_trigger: 'Verified quantities and costs, named maintenance responsibility, site-specific restoration method, funding authority and independent closeout acceptance.'
+    },
+    {
+      id: 'A-COMMS-001', status: 'participant_communication_audit_not_independent_certification',
+      statement: 'v1.6 separates a 30-second summary, a three-minute public decision layer and a professional evidence layer. Two large-type fixed figures replace dense review images while two technical companions retain the complete dimension, task, BOQ, cost, role and acceptance content. Twelve controlled Chinese-English checkpoints compare the title, status tokens, key numbers and limitation language.',
+      impact: 'The package can be read quickly without deleting professional evidence or turning HOLD items into PASS. Canvas text floors and paired-source checks are participant controls only; they do not certify WCAG conformance, physical print legibility, independent human translation or semantic equivalence.',
+      recalculation_trigger: 'Any revision to the proposal title, P0 status, controlled counts, fixed figures, HTML first screen, PDFs or either language version.'
     }
   ];
   for (const item of additions) {
@@ -1045,6 +1268,52 @@ ${alternatives}
 ${zh ? '交接包同时映射北京市城市更新实施方案编制工作指南的 11 个模块；这只检查交接完整度，不产生实施主体、联审、批准、资金或场地权利。确定性验证已检查角色引用、任务依赖、单一 Accountable、排班、成本边界、门禁、双钥匙、备选回退和假释放，结果为 PASS。' : 'The package also maps all eleven modules of the Beijing urban-renewal implementation-plan guide. This tests hand-off completeness only and creates no implementation entity, joint review, approval, funding, or site right. Deterministic verification checks role references, task dependencies, single accountability, roster, cost boundaries, gates, two-key control, alternative fallback, and false release; result: PASS.'} [metric:p0_urban_renewal_module_count]`;
 }
 
+function professionalHandoffBlock(lang) {
+  const zh = lang === 'zh';
+  const bundleRows = KIT.external_decision_bundles.map(item =>
+    `| ${item.bundle_id} | ${safeCell(zh ? item.title_zh : item.title_en)} | ${item.raw_field_metric_ids.join(', ')} | ${item.external_gate_ids.join(', ')} | ${item.required_form_ids.join(', ')} | ${item.status} |`
+  ).join('\n');
+  const formRows = KIT.forms.map(item =>
+    `| ${item.form_id} | ${safeCell(zh ? item.title_zh : item.title_en)} | ${item.responsible_roles.join(' + ')} | ${item.required_fields.length} | ${zh ? '空表 / 未执行' : 'blank / not executed'} |`
+  ).join('\n');
+  const maintenanceRows = KIT.maintenance_cycles.map(item =>
+    `| ${item.cycle_id} | ${item.frequency} | ${safeCell(item.scope)} | ${item.decision} | ${item.status} |`
+  ).join('\n');
+  return `#### ${zh ? 'v1.5 专业执行交接：可填写、可接收、可复核' : 'v1.5 professional execution hand-off: fillable, receivable, verifiable'}
+
+${zh ? 'v1.5 不增加总体概念、场景或角色，而把既有控制转换为七类双语执行空表、机器镜像和反假释放校验。每份外部证据必须填写 18 个统一字段，包括版本、来源、方法、样本、局限、缺失、权利、利益冲突、独立复核、签认与 SHA-256。当前已接收并核验的外部记录仍为 0。' : 'v1.5 adds no overall concept, scenario or role. It converts the existing controls into seven bilingual blank execution forms, a machine mirror, and false-release verification. Every external record must carry eighteen common fields including version, source, method, sample, limitations, missingness, rights, conflict, independent review, sign-off and SHA-256. Current accepted and verified external records remain zero.'} [metric:p0_execution_form_count] [metric:p0_external_evidence_receipt_field_count] [metric:p0_verified_external_record_count]
+
+| form | ${zh ? '工作面' : 'Work surface'} | ${zh ? '责任槽位' : 'Role slots'} | ${zh ? '专用必填字段' : 'Specific required fields'} | current |
+| --- | --- | --- | ---: | --- |
+${formRows}
+
+${zh ? '底层 12 项现场指标与 12 道外部门均保留，首屏只聚合成四个不可互相抵消的专业决策包。聚合不减少证据；任何一个底层指标或 Gate 缺失，相应决策包继续 HOLD。' : 'All twelve raw field metrics and twelve external gates remain. The first screen aggregates them into four non-compensating professional decision bundles only. Aggregation removes no evidence: one missing raw metric or gate keeps its bundle on HOLD.'} [metric:p0_external_decision_bundle_count] [metric:p0_external_decision_bundle_hold_count]
+
+| bundle | ${zh ? '专业决策入口' : 'Professional decision entry'} | raw metrics | external gates | forms | current |
+| --- | --- | --- | --- | --- | --- |
+${bundleRows}
+
+${zh ? '容量不采用单一设计人数，而按四个可核输入的最小值裁定：' : 'Capacity is not a single participant-designed number. It is decided by the minimum of four verifiable inputs:'}
+
+\`${KIT.capacity_egress_template.capacity_formula}\`
+
+${zh ? '实测净面积、人均面积、消防/生命安全核定、无障碍服务位和已落实岗位覆盖均为 null；概念上检查两条独立退出路径，但现场核实路径为 0、核实净宽为 null。' : 'Surveyed net area, occupant factor, fire/life-safety approval, accessible service positions and appointed staffing coverage are all null. Two independent egress routes are tested conceptually, but field-verified routes are zero and verified clear width is null.'} [metric:p0_capacity_egress_template_count] [metric:p0_concept_egress_route_count] [metric:p0_field_verified_egress_route_count]
+
+${zh ? '因此容量保持 unknown/HOLD。' : 'Capacity therefore remains unknown/HOLD.'} [metric:p0_calculated_field_capacity]
+
+${zh ? '维护与退出按四个周期进入交接：' : 'Maintenance and exit enter hand-off through four cycles:'} [metric:p0_maintenance_cycle_count]
+
+| cycle | frequency | scope | decision | current |
+| --- | --- | --- | --- | --- |
+${maintenanceRows}
+
+${zh ? '恢复储备模板采用“经核可拆 CAPEX × 10%–20% + 场地专项恢复 + 拆运 + 废弃物 + 独立收口”；该比例只是参与者敏感性。' : 'The restoration-reserve template uses verified removable CAPEX × 10%–20% plus site-specific restoration, removal transport, waste and independent closeout. The ratio is a participant sensitivity only.'} [metric:p0_restoration_reserve_template_count] [metric:p0_restoration_reserve_ratio_low] [metric:p0_restoration_reserve_ratio_high]
+
+${zh ? '当前经核 CAPEX、储备金额和锁定资金仍为 null/false。' : 'Verified CAPEX, reserve amount and ring-fenced funding remain null/false.'} [metric:p0_restoration_reserve_amount]
+
+${zh ? '人工工作簿见 `assets/media/p0-execution-workbook.md`，机器镜像与确定性收据见 `visual/assets/v15-execution-kit.json` 和 `visual/assets/v15-verification.json`。表单完整永远不能自动打开现场 Gate。' : 'The human workbook is `assets/media/p0-execution-workbook.md`; its machine mirror and deterministic receipt are `visual/assets/v15-execution-kit.json` and `visual/assets/v15-verification.json`. Form completeness can never open a field gate automatically.'}`;
+}
+
 function summaryBlock(lang) {
   const zh = lang === 'zh';
   return `<!-- V1.3_P0_SUMMARY_START -->\n### ${zh ? '30 秒 P0 实施摘要' : '30-second P0 implementation summary'}\n\n> **P0-ALL-STOP-01 · ${zh ? '条件式首启单元' : 'conditional launch unit'} · \`NOT_AUTHORIZED\` · \`HOLD\`**\n> ${zh ? '216 m² 非定位概念筛查包络，保留 3.0 m 有效慢行净宽；12 项任务、16 行不计价 BOQ、8 类成本组件。8 项包内验收目前 6 PASS / 2 HOLD，12 项现场验收全部 HOLD；8 个责任槽位均为 unassigned/conditional，市场单价、正式总价、报价单位与基准日均为 null/TBC。任一群体安全关键失败、等价服务缺失或无法退出，整体继续 HOLD。' : 'A 216 m² unlocated concept-screening envelope preserves a 3.0 m effective slow-route width; 12 tasks, 16 non-priced BOQ lines, and 8 cost components. Eight package checks currently show 6 PASS / 2 HOLD, while all 12 field checks remain HOLD. All 8 role slots are unassigned/conditional; market rates, formal total, quotation entity, and basis date are null/TBC. One group safety-critical failure, missing equivalent service, or failed exit keeps the whole unit on HOLD.'}\n\n${zh ? '固定入口：尺寸与接口见下文及 `assets/figures/key-areas.png`；任务、工程量、成本与验收见 `assets/figures/metrics-evidence.png`。这些是可复算交接证据，不是现场绩效、许可或工程签章。' : 'Fixed entry points: dimensions and interfaces appear below and in `assets/figures/key-areas.en.png`; tasks, quantities, cost, and acceptance appear in `assets/figures/metrics-evidence.en.png`. These are recomputable hand-off evidence, not field performance, permission, or engineering sign-off.'} [metric:p0_screening_envelope_area_sqm] [metric:p0_clear_route_width_m] [metric:p0_task_chain_count] [metric:p0_boq_line_count] [metric:p0_cost_component_count] [metric:p0_role_slot_count] [metric:p0_current_package_check_count] [metric:p0_current_package_pass_count] [metric:p0_current_package_hold_count] [metric:p0_field_check_hold_count]\n<!-- V1.3_P0_SUMMARY_END -->`;
@@ -1053,6 +1322,40 @@ function summaryBlock(lang) {
 function summaryBlockV14(lang) {
   const zh = lang === 'zh';
   return `<!-- V1.4_P0_SUMMARY_START -->\n### ${zh ? '30 秒 P0 实施摘要' : '30-second P0 implementation summary'}\n\n> **P0-ALL-STOP-01 · ${zh ? '实施控制交接单元' : 'delivery-control hand-off unit'} · \`NOT_AUTHORIZED\` · \`HOLD\`**\n> ${zh ? '216 m² 概念筛查包络已绑定众智园安全慢速场的参与者首选候选关系，但无坐标、不可放样；12 项任务、16 行 BOQ、17 个已声明但未指派角色。8 项包内验收为 8 PASS / 0 HOLD，审计与 AI-off 人工等价均为 12/12；12 项现场验收、12 道外部门和 6 个外部释放阶段继续全部 HOLD。12 小时工作排班为 4 FTE；CAPEX/OPEX 只有非正式敏感区间，正式总价、报价、资金与许可仍为 null/TBC。' : 'The 216 m² concept envelope is bound to a participant-preferred candidate relationship at the Zhongzhiyuan safe-speed yard, but has no coordinates and cannot be set out. It has 12 tasks, 16 BOQ lines, and 17 declared but unappointed roles. Package acceptance is 8 PASS / 0 HOLD; audit and AI-off human equivalence are both 12/12. All 12 field checks, 12 external gates, and six external release stages remain HOLD. The 12-hour working roster is four FTE; CAPEX/OPEX are non-formal sensitivity bands only, while formal total, quotation, funding, and permission remain null/TBC.'}\n\n${zh ? '尺寸与接口的固定入口见下文及 \`assets/figures/key-areas.png\`；这些是概念筛查值，不是现场测量。' : 'The fixed entry for dimensions and interfaces is below and in \`assets/figures/key-areas.en.png\`; these are concept-screening values, not field measurements.'} [metric:p0_screening_envelope_area_sqm] [metric:p0_clear_route_width_m]\n\n${zh ? '任务、工程量和责任角色见 \`assets/figures/metrics-evidence.png\` 与控制数据源。' : 'Tasks, quantities, and accountable roles are shown in \`assets/figures/metrics-evidence.en.png\` and the control source.'} [metric:p0_task_chain_count] [metric:p0_boq_line_count] [metric:p0_role_slot_count]\n\n${zh ? '包内验收已闭环；现场验收继续关闭，不能由合成结果替代。' : 'Package acceptance is closed; field acceptance remains closed and cannot be replaced by synthetic results.'} [metric:p0_current_package_pass_count] [metric:p0_current_package_hold_count] [metric:p0_field_check_hold_count]\n\n${zh ? '外部门与工作排班见 \`visual/assets/v14-delivery-control.json\`；它们不构成许可、签约或工程签章。' : 'External gates and the working roster are in \`visual/assets/v14-delivery-control.json\`; they are not permission, appointment, or engineering sign-off.'} [metric:p0_external_gate_hold_count] [metric:p0_working_roster_fte]\n<!-- V1.4_P0_SUMMARY_END -->`;
+}
+
+function summaryBlockV15(lang) {
+  const zh = lang === 'zh';
+  return `<!-- V1.5_P0_SUMMARY_START -->\n## ${zh ? '先选阅读深度' : 'Choose a reading depth first'}\n\n| ${zh ? '用时' : 'Time'} | ${zh ? '回答的问题' : 'Question answered'} | ${zh ? '入口' : 'Entry'} |\n| --- | --- | --- |\n| **30 ${zh ? '秒' : 'sec'}** | ${zh ? '概念是什么、保护谁、哪些条件仍未成立？' : 'What is the idea, whom does it protect, and what is still unresolved?'} | ${zh ? '本摘要、网页首屏、A3/A0 第一页' : 'This summary, web hero, A3/A0 page 1'} |\n| **3 ${zh ? '分钟' : 'min'}** | ${zh ? '一个全停门如何工作，为什么现在不能开？' : 'How does one All-Stop Gate work, and why can it not open now?'} | \`key-areas${zh ? '' : '.en'}.png\` + \`metrics-evidence${zh ? '' : '.en'}.png\` |\n| **${zh ? '专业交接' : 'Pro hand-off'}** | ${zh ? '由谁补什么证据、何时停、如何恢复？' : 'Who supplies which evidence, when does it stop, and how is it restored?'} | ${zh ? '技术附图、正文详表与 P0 工作簿' : 'Technical companions, detailed tables and P0 workbook'} |\n\n### ${zh ? '30 秒 P0 摘要' : '30-second P0 summary'}\n\n> **P0-ALL-STOP-01 · \`NOT_AUTHORIZED\` · \`HOLD\`**  \n> ${zh ? '先保护 3.0 m 连续慢行净宽；真人、纸本与电话必须与 AI 同开同关。包内逻辑为 8/8 PASS，但这不是现场绩效。四个外部决策包仍为 4/4 HOLD：真实使用者、场地与专业复核、运营与叫停、真实成本与退出。容量为 null，现场核实退出路径为 0，17 个角色未指派，正式总价、资金、许可与恢复储备均未成立。' : 'Protect the 3.0 m continuous slow route first; staffed, paper and telephone paths must open and close with AI. Package logic is 8/8 PASS, but that is not field performance. All four external decision bundles remain HOLD: real users; site and professional review; operations and stopping; actual cost and exit. Capacity is null, field-verified egress routes are zero, seventeen roles are unappointed, and formal total, funding, permission and restoration reserve do not exist.'}\n\n${zh ? '专业证据没有被删减：高密度尺寸、任务、BOQ、成本与验收内容从固定评审图移入技术附图，公众速读图只保留一个问题一个面板。中英受控检查点覆盖标题、状态、关键数字与限制语 12/12；这不是独立人工翻译或无障碍认证。' : 'No professional evidence is removed: dense dimensions, tasks, BOQ, cost and acceptance move from fixed review figures into technical companions, while public quick-read figures keep one decision per panel. Twelve of twelve controlled bilingual checkpoints cover titles, states, key numbers and limitation language; this is not independent human translation or accessibility certification.'} [metric:communication_reader_layer_count] [metric:communication_public_fixed_figure_count] [metric:communication_technical_companion_figure_count] [metric:communication_bilingual_checkpoint_pair_ratio]\n\n${zh ? '7 类执行空表、18 个回执字段、容量/疏散公式、4 个维护周期和恢复储备模板继续保留；工作簿自身不构成现场证据或放行。' : 'Seven execution forms, eighteen receipt fields, the capacity/egress formula, four maintenance cycles and the restoration-reserve template remain; the workbook itself is not field evidence or release.'} [metric:p0_execution_form_count] [metric:p0_external_evidence_receipt_field_count] [metric:p0_capacity_egress_template_count] [metric:p0_maintenance_cycle_count]\n<!-- V1.5_P0_SUMMARY_END -->`;
+}
+
+function summaryBlockV16(lang) {
+  const zh = lang === 'zh';
+  const time = zh ? ['30 秒', '3 分钟', '专业交接'] : ['30 sec', '3 min', 'Pro hand-off'];
+  return [
+    '<!-- V1.5_P0_SUMMARY_START -->',
+    `## ${zh ? '先选阅读深度' : 'Choose a reading depth first'}`,
+    '',
+    `| ${zh ? '用时' : 'Time'} | ${zh ? '回答的问题' : 'Question answered'} | ${zh ? '入口' : 'Entry'} |`,
+    '| --- | --- | --- |',
+    `| **${time[0]}** | ${zh ? '概念是什么、保护谁、哪些条件仍未成立？' : 'What is the idea, whom does it protect, and what is still unresolved?'} | ${zh ? '本摘要、网页首屏、A3/A0 第一页' : 'This summary, web hero, A3/A0 page 1'} |`,
+    `| **${time[1]}** | ${zh ? '一个全停门如何工作，为什么现在不能开？' : 'How does one All-Stop Gate work, and why can it not open now?'} | \`key-areas${zh ? '' : '.en'}.png\` + \`metrics-evidence${zh ? '' : '.en'}.png\` |`,
+    `| **${time[2]}** | ${zh ? '由谁补什么证据、何时停、如何恢复？' : 'Who supplies which evidence, when does it stop, and how is it restored?'} | ${zh ? '技术附图、正文详表与 P0 工作簿' : 'Technical companions, detailed tables and P0 workbook'} |`,
+    '',
+    `### ${zh ? '30 秒 P0 摘要' : '30-second P0 summary'}`,
+    '',
+    '> **P0-ALL-STOP-01 · `NOT_AUTHORIZED` · `HOLD`**',
+    `> ${zh ? '先保护 3.0 m 连续慢行净宽；真人、纸本与电话必须与 AI 同开同关。包内逻辑为 8/8 PASS，但这不是现场绩效。四个外部决策包仍为 4/4 HOLD：真实使用者、场地与专业复核、运营与叫停、真实成本与退出。容量为 null，现场核实退出路径为 0，17 个角色未指派，正式总价、资金、许可与恢复储备均未成立。' : 'Protect the 3.0 m continuous slow route first; staffed, paper and telephone paths must open and close with AI. Package logic is 8/8 PASS, but this is not field performance. All four external decision bundles remain HOLD: real users; site and professional review; operations and stopping; actual cost and exit. Capacity is null, field-verified egress routes are zero, seventeen roles are unappointed, and formal total, funding, permission and restoration reserve do not exist.'}`,
+    '',
+    `${zh ? '专业证据没有被删减：高密度尺寸、任务、BOQ、成本与验收内容从固定评审图移入技术附图，公众速读图只保留一个问题一个面板。' : 'No professional evidence is removed: dense dimensions, tasks, BOQ, cost and acceptance move from fixed review figures into technical companions, while public quick-read figures keep one decision per panel.'} [metric:communication_public_fixed_figure_count] [metric:communication_technical_companion_figure_count]`,
+    '',
+    `${zh ? '三层阅读路径已经固定；中英受控检查点覆盖标题、状态、关键数字与限制语 12/12。这不是独立人工翻译或无障碍认证。' : 'The three reading layers are fixed; twelve of twelve controlled bilingual checkpoints cover titles, states, key numbers and limitation language. This is not independent human translation or accessibility certification.'} [metric:communication_reader_layer_count] [metric:communication_bilingual_checkpoint_pair_ratio]`,
+    '',
+    `${zh ? '7 类执行空表与 18 个回执字段继续保留；工作簿自身不构成现场证据或放行。' : 'Seven execution forms and eighteen receipt fields remain; the workbook itself is not field evidence or release.'} [metric:p0_execution_form_count] [metric:p0_external_evidence_receipt_field_count]`,
+    '',
+    `${zh ? '容量/疏散公式、4 个维护周期和恢复储备模板同样保留，但都必须由现实证据填写。' : 'The capacity/egress formula, four maintenance cycles and restoration-reserve template also remain, but each must be completed with real-world evidence.'} [metric:p0_capacity_egress_template_count] [metric:p0_maintenance_cycle_count]`,
+    '<!-- V1.5_P0_SUMMARY_END -->'
+  ].join('\n');
 }
 
 function implementationBlock(lang) {
@@ -1112,6 +1415,30 @@ function implementationBlockV14(lang) {
   return block;
 }
 
+function implementationBlockV15(lang) {
+  const zh = lang === 'zh';
+  let block = implementationBlockV14(lang)
+    .replaceAll('V1.4_P0_IMPLEMENTATION', 'V1.5_P0_IMPLEMENTATION')
+    .replace(zh ? 'v1.4 P0-ALL-STOP-01：实施控制闭环' : 'v1.4 P0-ALL-STOP-01: delivery-control closure', zh ? 'v1.5 P0-ALL-STOP-01：专业执行交接' : 'v1.5 P0-ALL-STOP-01: professional execution hand-off');
+  const imageIndex = block.indexOf('\n\n![');
+  const header = zh
+    ? '稳定对象 ID 为 `P0-ALL-STOP-01`。v1.5 保留 v1.4 的尺寸、任务、数量、排班、成本敏感性和 fail-closed 控制，并将专业团队接手所需的调查、责任接受、D0 基线、成本、专业复核、复演维护和变更控制整理为 7 类可填写双语表单。对象仍只绑定 `P0-CAND-01` 概念筛查关系，无坐标、地块、权属、许可或放样权限；17 个角色仍未指派，正式价格与资金仍为 `null/TBC`。'
+    : 'The stable object ID is `P0-ALL-STOP-01`. v1.5 retains the v1.4 dimensions, tasks, quantities, roster, cost sensitivities and fail-closed controls, then packages survey, responsibility acceptance, D0 baseline, cost, professional review, rehearsal/maintenance and change control into seven fillable bilingual forms for professional takeover. The object remains bound only to concept-screening relationship `P0-CAND-01`, with no coordinates, parcel, right, permission or set-out authority; all 17 roles remain unappointed and formal price/funding remain `null/TBC`.';
+  if (imageIndex < 0) throw new Error('v1.5 implementation image anchor missing');
+  block = block.slice(0, block.indexOf('\n\n', block.indexOf('\n### ')) + 2) + header + block.slice(imageIndex);
+  block = block.replace(
+    zh ? 'B 层 12 项仍全部 HOLD：没有真实轮椅/低视力任务、老人取得人工服务用时、真人响应、人流冲突、噪声、照明、排水、微气候、居民接受、已签排班或真实成本。4 FTE 和成本区间只是参与者敏感性，不能替代现场与签约证据。任一群体关键失败，整体 HOLD。' : 'All 12 Layer-B items remain HOLD: no real wheelchair/low-vision tasks, older-person time to human help, human response, flow conflict, noise, lighting, drainage, microclimate, resident acceptance, signed roster, or actual cost exists. Four FTE and the cost bands are participant sensitivities and cannot substitute for field or appointment evidence. Any group critical failure holds the whole unit.',
+    zh ? 'B 层 12 项仍全部 HOLD，并被无损聚合为 4 个外部决策包供交接；每项原始 metric_id、数据源、阈值、责任角色和触发条件都继续保留。表单只让专业团队知道由谁、用何方法、在何时补齐什么证据，不能替代真实参与者、实测、签认、报价或许可。任一群体关键失败，整体 HOLD。' : 'All 12 Layer-B items remain HOLD and are losslessly aggregated into four external decision bundles for hand-off; every raw metric_id, source, threshold, responsible role and trigger remains intact. The forms tell a professional team who must obtain which evidence, by what method and when; they cannot substitute for real participants, measurements, signatures, quotations or permission. Any group critical failure holds the whole unit.'
+  );
+  const finalImageIndex = block.lastIndexOf('\n\n![');
+  if (finalImageIndex < 0) throw new Error('v1.5 final evidence image anchor missing');
+  block = block.slice(0, finalImageIndex) + `\n\n${professionalHandoffBlock(lang)}` + block.slice(finalImageIndex);
+  block = block
+    .replace(`](assets/figures/key-areas${zh ? '' : '.en'}.png)`, `](assets/figures/key-areas-technical${zh ? '' : '.en'}.png)`)
+    .replace(`](assets/figures/metrics-evidence${zh ? '' : '.en'}.png)`, `](assets/figures/metrics-evidence-technical${zh ? '' : '.en'}.png)`);
+  return block;
+}
+
 function replaceMarked(source, start, end, block, anchor) {
   const startIndex = source.indexOf(start);
   const endIndex = source.indexOf(end);
@@ -1126,22 +1453,29 @@ function replaceMarked(source, start, end, block, anchor) {
 function updateProposal(rel, lang) {
   const zh = lang === 'zh';
   let source = read(rel);
-  source = source.replace(/^<!-- V1\.[34]_P0_(?:SUMMARY|IMPLEMENTATION)_(?:START|END) -->\n?/gm, '');
+  source = source.replace(zh ? /\n# 京张慢线 THE SLOW LINE：让城市跟上最慢的人\n+/ : /\n# THE SLOW LINE: Keep pace with the slowest person\n+/, '\n');
+  source = source.replace(/^<!-- V1\.[345]_P0_(?:SUMMARY|IMPLEMENTATION)_(?:START|END) -->\n?/gm, '');
   source = source.replace(
     zh
-      ? /\n?### 30 秒 P0 实施摘要[\s\S]*?(?=\n## 设计依据与资料清单)/
-      : /\n?### 30-second P0 implementation summary[\s\S]*?(?=\n## Design Basis and Source Inventory)/,
+      ? /\n?## 先选阅读深度[\s\S]*?(?=\n## 设计依据与资料清单)/
+      : /\n?## Choose a reading depth first[\s\S]*?(?=\n## Design Basis and Source Inventory)/,
     ''
   );
   source = source.replace(
     zh
-      ? /\n?### v1\.[34] P0-ALL-STOP-01[^\n]*[\s\S]*?(?=\n### 同一任务、逐组验收)/
-      : /\n?### v1\.[34] P0-ALL-STOP-01[^\n]*[\s\S]*?(?=\n### Same task, group-by-group acceptance)/,
+      ? /\n?### 30 秒 P0 (?:实施|专业交接)摘要[\s\S]*?(?=\n## 设计依据与资料清单)/
+      : /\n?### 30-second P0 (?:implementation|professional hand-off) summary[\s\S]*?(?=\n## Design Basis and Source Inventory)/,
     ''
   );
-  source = source.replace(/iteration: "[^"]+"/, 'iteration: "v1.4-delivery-control"');
-  source = replaceMarked(source, '<!-- V1.4_P0_SUMMARY_START -->', '<!-- V1.4_P0_SUMMARY_END -->', summaryBlockV14(lang), zh ? '## 设计依据与资料清单' : '## Design Basis and Source Inventory');
-  source = replaceMarked(source, '<!-- V1.4_P0_IMPLEMENTATION_START -->', '<!-- V1.4_P0_IMPLEMENTATION_END -->', implementationBlockV14(lang), zh ? '### 同一任务、逐组验收' : '### Same task, group-by-group acceptance');
+  source = source.replace(
+    zh
+      ? /\n?### v1\.[345] P0-ALL-STOP-01[^\n]*[\s\S]*?(?=\n### 同一任务、逐组验收)/
+      : /\n?### v1\.[345] P0-ALL-STOP-01[^\n]*[\s\S]*?(?=\n### Same task, group-by-group acceptance)/,
+    ''
+  );
+  source = source.replace(/iteration: "[^"]+"/, 'iteration: "v1.6-communication-hierarchy"');
+  source = replaceMarked(source, '<!-- V1.5_P0_SUMMARY_START -->', '<!-- V1.5_P0_SUMMARY_END -->', summaryBlockV16(lang), zh ? '## 设计依据与资料清单' : '## Design Basis and Source Inventory');
+  source = replaceMarked(source, '<!-- V1.5_P0_IMPLEMENTATION_START -->', '<!-- V1.5_P0_IMPLEMENTATION_END -->', implementationBlockV15(lang), zh ? '### 同一任务、逐组验收' : '### Same task, group-by-group acceptance');
   source = source.replace(
     '[metric:p0_screening_envelope_area_sqm] [metric:p0_clear_route_width_m] [metric:p0_task_chain_count] [metric:p0_boq_line_count] [metric:p0_cost_component_count] [metric:p0_role_slot_count] [metric:p0_current_package_check_count] [metric:p0_current_package_pass_count] [metric:p0_current_package_hold_count] [metric:p0_field_check_hold_count]',
     '[metric:p0_role_slot_count] [metric:p0_current_package_check_count]'
@@ -1165,8 +1499,8 @@ function updateProposal(rel, lang) {
       ? /`simulation\.json` 登记 12 项固定清单的离线合成任务[\s\S]*?\[metric:simulation_task_count\] \[metric:simulation_success_rate\] \[metric:audit_completeness\](?:\n\n合法载荷与错误拦截分项[\s\S]*?\[metric:valid_dispatch_payload_schema_pass_rate\] \[metric:malformed_dispatch_rejection_rate\])?/
       : /`simulation\.json` records twelve tasks from a fixed offline synthetic list[\s\S]*?\[metric:simulation_task_count\] \[metric:simulation_success_rate\] \[metric:audit_completeness\](?:\n\nValid-payload and malformed-rejection components[\s\S]*?\[metric:valid_dispatch_payload_schema_pass_rate\] \[metric:malformed_dispatch_rejection_rate\])?/,
     zh
-      ? '`simulation.json` 登记 12 项固定清单的离线合成任务，不调用在线模型、不接入真实机器人、不使用个人数据，也不代表现场绩效。v1.4 的包内读数为：12/12 任务达到预登记合成结果；11/11 合法调度载荷通过 schema；1/1 预登记错误载荷被拒绝并触发完整审计 HOLD；12/12 审计记录完整；AI 关闭后的人工等价演练为 12/12。人工桌不可用时转入人工电话/文字热备，两条人工路径都不可用时数字服务同步关闭。保留指标 `tool_schema_pass_rate` 仍按仓库规则以全部 12 项为分母复算为 11/12，不代表一个未关闭的包内缺口。 [metric:simulation_task_count] [metric:simulation_success_rate] [metric:audit_completeness]\n\n合法载荷与错误拦截分项分别为 11/11 和 1/1，二者共同组成 12/12 预期行为。 [metric:valid_dispatch_payload_schema_pass_rate] [metric:malformed_dispatch_rejection_rate]'
-      : '`simulation.json` records twelve tasks from a fixed offline synthetic list. It calls no online model, connects to no real robot, uses no personal data, and represents no field performance. The v1.4 package readings are: 12/12 tasks reached their preregistered synthetic outcome; 11/11 valid dispatch payloads passed schema; the 1/1 preregistered malformed payload was rejected and triggered a complete audited HOLD; 12/12 audit records are complete; and AI-off human-equivalent rehearsal is 12/12. An unavailable staffed desk transfers to human telephone/text hot backup, and digital service closes synchronously when both human paths are unavailable. The reserved `tool_schema_pass_rate` still recomputes to 11/12 under the repository rule that uses all twelve tasks as its denominator; this does not represent an unclosed package gap. [metric:simulation_task_count] [metric:simulation_success_rate] [metric:audit_completeness]\n\nValid-payload and malformed-rejection components are 11/11 and 1/1 respectively, together forming 12/12 expected behaviours. [metric:valid_dispatch_payload_schema_pass_rate] [metric:malformed_dispatch_rejection_rate]'
+      ? '`simulation.json` 登记 12 项固定清单的离线合成任务，不调用在线模型、不接入真实机器人、不使用个人数据，也不代表现场绩效。v1.5 保留 v1.4 的包内读数：12/12 任务达到预登记合成结果；11/11 合法调度载荷通过 schema；1/1 预登记错误载荷被拒绝并触发完整审计 HOLD；12/12 审计记录完整；AI 关闭后的人工等价演练为 12/12。人工桌不可用时转入人工电话/文字热备，两条人工路径都不可用时数字服务同步关闭。保留指标 `tool_schema_pass_rate` 仍按仓库规则以全部 12 项为分母复算为 11/12，不代表一个未关闭的包内缺口。 [metric:simulation_task_count] [metric:simulation_success_rate] [metric:audit_completeness]\n\n合法载荷与错误拦截分项分别为 11/11 和 1/1，二者共同组成 12/12 预期行为。 [metric:valid_dispatch_payload_schema_pass_rate] [metric:malformed_dispatch_rejection_rate]'
+      : '`simulation.json` records twelve tasks from a fixed offline synthetic list. It calls no online model, connects to no real robot, uses no personal data, and represents no field performance. v1.5 retains the v1.4 package readings: 12/12 tasks reached their preregistered synthetic outcome; 11/11 valid dispatch payloads passed schema; the 1/1 preregistered malformed payload was rejected and triggered a complete audited HOLD; 12/12 audit records are complete; and AI-off human-equivalent rehearsal is 12/12. An unavailable staffed desk transfers to human telephone/text hot backup, and digital service closes synchronously when both human paths are unavailable. The reserved `tool_schema_pass_rate` still recomputes to 11/12 under the repository rule that uses all twelve tasks as its denominator; this does not represent an unclosed package gap. [metric:simulation_task_count] [metric:simulation_success_rate] [metric:audit_completeness]\n\nValid-payload and malformed-rejection components are 11/11 and 1/1 respectively, together forming 12/12 expected behaviours. [metric:valid_dispatch_payload_schema_pass_rate] [metric:malformed_dispatch_rejection_rate]'
   );
   source = source.replace(
     zh ? /^\| 离线演练任务 \|.*$/m : /^\| Offline rehearsal \|.*$/m,
@@ -1185,8 +1519,8 @@ function updateProposal(rel, lang) {
     zh ? '![十二项离线演练的包内闭环、故障阻断与人工热备]' : '![Package closure, fail-closed handling, and human hot backup across the twelve-task offline rehearsal]'
   );
   source = source.replace(/^!\[[^\n]*\]\(assets\/figures\/pilot-protocol(?:\.en)?\.png\)\n+/m, '');
-  source = source.replace(/v1\.0-v1\.[23]/g, 'v1.0-v1.4').replace(/v1\.0–v1\.[23]/g, 'v1.0–v1.4');
-  source = source.replace(/^<!-- V1\.4_P0_(?:SUMMARY|IMPLEMENTATION)_(?:START|END) -->\n?/gm, '');
+  source = source.replace(/v1\.0-v1\.[234]/g, 'v1.0-v1.5').replace(/v1\.0–v1\.[234]/g, 'v1.0–v1.5');
+  source = source.replace(/^<!-- V1\.5_P0_(?:SUMMARY|IMPLEMENTATION)_(?:START|END) -->\n?/gm, '');
   write(rel, source);
 }
 
@@ -1194,14 +1528,14 @@ function updateSpatial() {
   const file = readJson('spatial.json');
   const item = {
     id: 'p0-all-stop-01', type: 'node', title: 'P0-ALL-STOP-01 条件式全停门', title_en: 'P0-ALL-STOP-01 Conditional All-Stop Gate',
-    summary: '绑定众智园安全慢速场临时重点区关系的参与者首选筛查单元；18 m x 12 m 概念包络可撤回、不可放样，包含责任、排班、成本敏感性、失败停止和恢复交接，不含坐标或授权。',
-    summary_en: 'Participant-preferred screening unit bound to the provisional Zhongzhiyuan safe-speed-yard relationship; a reversible, non-set-out 18 m x 12 m concept envelope with accountability, roster, cost sensitivity, failure stops, and restoration hand-off, but no coordinates or authorization.',
-    source: 'visual/assets/v13-implementation.json + visual/assets/v14-delivery-control.json + proposal.md', public_level: 'provisional', linked_scenarios: ['ai-traffic-walkability'], order: 8,
+    summary: '绑定众智园安全慢速场临时重点区关系的参与者首选筛查单元；18 m x 12 m 概念包络可撤回、不可放样，包含责任、排班、成本敏感性、失败停止，以及可填写的专业执行与恢复交接，不含坐标或授权。',
+    summary_en: 'Participant-preferred screening unit bound to the provisional Zhongzhiyuan safe-speed-yard relationship; a reversible, non-set-out 18 m x 12 m concept envelope with accountability, roster, cost sensitivity, failure stops, and fillable professional execution/restoration hand-off, but no coordinates or authorization.',
+    source: 'visual/assets/v13-implementation.json + visual/assets/v14-delivery-control.json + visual/assets/v15-execution-kit.json + assets/media/p0-execution-workbook.md + proposal.md', public_level: 'provisional', linked_scenarios: ['ai-traffic-walkability'], order: 8,
     geometry: { mode: 'concept', label: 'P0-CAND-01 provisional key-area-bound screening relationship; no coordinates; NOT_AUTHORIZED and HOLD' }
   };
   const index = file.items.findIndex(i => i.id === item.id);
   if (index >= 0) file.items[index] = item; else file.items.push(item);
-  file.summary = '表达一条概念慢线、三处可转移慢场、三座公共地标与一个绑定临时重点区关系的 P0 条件式全停门；P0-CAND-01 只作参与者首选筛查和交接，不包含坐标、红线、权属、工程线位、授权或审定指标。';
+  file.summary = '表达一条概念慢线、三处可转移慢场、三座公共地标与一个绑定临时重点区关系的 P0 条件式全停门；v1.5 为 P0 增加可填写专业执行工作簿，但 P0-CAND-01 仍只作参与者首选筛查和交接，不包含坐标、红线、权属、工程线位、授权或审定指标。';
   writeJson('spatial.json', file);
 }
 
@@ -1210,6 +1544,8 @@ function updateMatrices() {
   const depthV13 = 'v1.3 增加稳定对象 P0-ALL-STOP-01 的尺寸、接口、责任、任务、数量、成本和两层验收闭环；complete 仅表示包内表达完整，不表示现场、许可、角色或价格已取得。';
   const complianceV14 = 'v1.4 关闭包内审计与 AI-off 两项缺口，登记 17 个角色、3 个筛查候选、12 道外部门、7 个释放阶段、4 组备选、排班与非正式成本敏感性，并以确定性验证阻止假释放；现实现场、许可、报价与签约仍保持 HOLD。';
   const depthV14 = 'v1.4 将 P0 从详细概念交接推进到可机器复核的实施控制模板：包内 8/8 PASS，现场与外部门继续 fail-closed；complete 不表示已取得实施批准。';
+  const complianceV15 = 'v1.5 增加 7 类双语可填写执行表单、18 个通用证据回执字段，将 12 项现场指标与 12 道外部门无损聚合为 4 个外部决策包，并补齐容量/疏散公式、4 个维护周期和 10%–20% 恢复储备模板；所有真实记录、签认、容量、成本、资金和授权仍为 0/null/HOLD。';
+  const depthV15 = 'v1.5 将可机器复核的实施控制进一步整理为可由专业团队直接填写和签接的执行工作簿；表单完整不自动打开任何现场 Gate，complete 仍不表示已取得实施批准。';
   const compliance = readJson('compliance_matrix.json');
   const targetReqs = new Set(['1.5.2.3', '1.5.2.4', '1.5.3.required', '1.5.3.2', 'agent.3', 'agent.4', 'agent.6']);
   for (const req of compliance.requirements) {
@@ -1220,12 +1556,20 @@ function updateMatrices() {
     uniqPush(req.metric_refs, 'p0_current_package_hold_count');
     uniqPush(req.metric_refs, 'p0_external_gate_hold_count');
     uniqPush(req.metric_refs, 'p0_working_roster_fte');
+    uniqPush(req.metric_refs, 'p0_execution_form_count');
+    uniqPush(req.metric_refs, 'p0_external_decision_bundle_count');
+    uniqPush(req.metric_refs, 'p0_capacity_egress_template_count');
+    uniqPush(req.metric_refs, 'p0_maintenance_cycle_count');
+    uniqPush(req.metric_refs, 'p0_restoration_reserve_template_count');
     uniqPush(req.assumption_ids, 'A-P0-DIM-001');
     uniqPush(req.assumption_ids, 'A-P0-ROLE-001');
     uniqPush(req.assumption_ids, 'A-P0-FIELD-001');
     uniqPush(req.assumption_ids, 'A-P0-OPERATIONS-001');
-    const baseSummary = (req.evidence_summary_zh || '').split(complianceV14).join('').replace(/\s{2,}/g, ' ').trim();
-    req.evidence_summary_zh = `${baseSummary} ${complianceV14}`.trim();
+    uniqPush(req.assumption_ids, 'A-P0-HANDOFF-001');
+    uniqPush(req.assumption_ids, 'A-P0-CAPACITY-001');
+    uniqPush(req.assumption_ids, 'A-P0-MAINTENANCE-001');
+    const baseSummary = (req.evidence_summary_zh || '').split(complianceV15).join('').replace(/\s{2,}/g, ' ').trim();
+    req.evidence_summary_zh = `${baseSummary} ${complianceV15}`.trim();
   }
   writeJson('compliance_matrix.json', compliance);
 
@@ -1241,23 +1585,32 @@ function updateMatrices() {
     uniqPush(item.metric_refs, 'p0_field_check_hold_count');
     uniqPush(item.metric_refs, 'p0_external_gate_hold_count');
     uniqPush(item.metric_refs, 'p0_working_roster_fte');
+    uniqPush(item.metric_refs, 'p0_execution_form_count');
+    uniqPush(item.metric_refs, 'p0_external_decision_bundle_count');
+    uniqPush(item.metric_refs, 'p0_capacity_egress_template_count');
+    uniqPush(item.metric_refs, 'p0_maintenance_cycle_count');
+    uniqPush(item.metric_refs, 'p0_restoration_reserve_template_count');
     uniqPush(item.assumption_ids, 'A-P0-DIM-001');
     uniqPush(item.assumption_ids, 'A-P0-SITE-001');
     uniqPush(item.assumption_ids, 'A-P0-COST-001');
     uniqPush(item.assumption_ids, 'A-P0-OPERATIONS-001');
-    const baseSummary = (item.evidence_summary_zh || '').split(depthV14).join('').replace(/\s{2,}/g, ' ').trim();
-    item.evidence_summary_zh = `${baseSummary} ${depthV14}`.trim();
+    uniqPush(item.assumption_ids, 'A-P0-HANDOFF-001');
+    uniqPush(item.assumption_ids, 'A-P0-CAPACITY-001');
+    uniqPush(item.assumption_ids, 'A-P0-MAINTENANCE-001');
+    const baseSummary = (item.evidence_summary_zh || '').split(depthV15).join('').replace(/\s{2,}/g, ' ').trim();
+    item.evidence_summary_zh = `${baseSummary} ${depthV15}`.trim();
   }
   writeJson('design_depth_matrix.json', depth);
 }
 
 function updateAgentAndSources() {
   const agent = readJson('agent.json');
-  agent.generated_with = agent.generated_with.replace(/v1\.0-v1\.[23]/, 'v1.0-v1.4');
+  agent.generated_with = agent.generated_with.replace(/v1\.0-v1\.[234]/, 'v1.0-v1.5');
   const v13Note = 'v1.3 added the source-controlled P0-ALL-STOP-01 dimension set, 12-task hand-off chain, non-priced quantities, parametric cost model, two-layer acceptance matrix, fixed review figures, first-screen summaries, and rebuilt bilingual PDFs while keeping roles, prices, authorization, and field data on HOLD.';
   const v14Note = 'v1.4 closed the two package-level rehearsal gaps, declared every referenced professional role, bound three provisional candidate relationships, added recomputable roster and non-formal cost sensitivities, external gate and release-stage controls, A/B fallback alternatives, an eleven-module hand-off map, and deterministic false-release verification while leaving every field, appointment, permission, quotation, and funding claim on HOLD.';
-  const baseNote = agent.generation_note.split(v14Note).join('').replace(/\s{2,}/g, ' ').trim();
-  agent.generation_note = baseNote.replace(/Human account owner authorization/, `${v14Note} Human account owner authorization`);
+  const v15Note = 'v1.5 adds seven bilingual fillable execution forms with eighteen common evidence-receipt fields, losslessly aggregates twelve raw field metrics and twelve external gates into four external decision bundles, and adds capacity/egress, four-cycle maintenance, and restoration-reserve templates plus deterministic verification; every actual record, signatory, field result, cost, funding, and authorization remains zero/null/HOLD.';
+  const baseNote = agent.generation_note.split(v15Note).join('').replace(/\s{2,}/g, ' ').trim();
+  agent.generation_note = baseNote.replace(/Human account owner authorization/, `${v15Note} Human account owner authorization`);
   writeJson('agent.json', agent);
 
   const sources = readJson('sources.json');
@@ -1279,6 +1632,10 @@ function updateChangelogAndNarrative() {
   changelog = replaceMarked(changelog, '<!-- V1.3_CHANGELOG_START -->', '<!-- V1.3_CHANGELOG_END -->', block, '## v1.2 - 2026-08-29');
   const v14Block = `<!-- V1.4_CHANGELOG_START -->\n## v1.4 - 2026-08-31\n\n- 关闭 v1.3 明示保留的两项包内缺口：错误载荷仍 1/1 触发已审计 HOLD，审计记录与 AI-off 人工等价均从 11/12 提升为 12/12，A 层成为 8 PASS / 0 HOLD。\n- 将全部被尺寸、接口、任务和验收引用的角色补齐为 17 个声明槽位；任务控制表为 12 项任务登记前置依赖及唯一 Accountable，并由确定性脚本检查无环和引用完整。\n- 将 P0 绑定到三个临时重点区的参与者筛查候选，首选 \`P0-CAND-01\` 众智园安全慢速场边缘关系；仍无坐标、地块、权属或放样权限。\n- 增加 8/12/18 小时排班敏感性；12 小时工作情景计算 3.129 FTE，向上取整 4 FTE，模型未覆盖时长为 0。人工桌和人工热备都不可用时，AI 必须同步关闭。\n- 增加带 2026-08-31 基准日的参与者 CAPEX ROM 与年度 OPEX 工作区间，并保持市场单价、正式估算、报价、招标价、税费和资金承诺为 0/null。\n- 增加 12 道外部门、7 个释放阶段、双钥匙控制、4 组 A/B 备选回退、6 个采购包及北京市城市更新实施方案编制指南 11 模块映射；所有外部释放继续 HOLD。\n- 新增 \`visual/assets/v14-delivery-control.json\`、\`verify-v14.js\` 与哈希绑定验证回执；验证角色引用、任务依赖、排班、成本边界、门禁、备选、双钥匙和假释放。\n<!-- V1.4_CHANGELOG_END -->`;
   changelog = replaceMarked(changelog, '<!-- V1.4_CHANGELOG_START -->', '<!-- V1.4_CHANGELOG_END -->', v14Block, '## v1.3 - 2026-08-30');
+  const v15Block = `<!-- V1.5_CHANGELOG_START -->\n## v1.5 - 2026-08-31\n\n- 不增加新概念或伪造现场结果，将 v1.4 的实施控制整理为专业团队可直接接手的双语执行工作簿。\n- 新增 7 类可填写空表：候选承载体调查、责任/权限/冲突接受、D0 基线与数据字典、数量/成本/采购、专业复核与 Gate、复演/维护/叫停/退出，以及 programme/RAID/变更控制。\n- 为每份外部记录规定 18 个通用回执字段，覆盖时间地点、来源方、方法、工具、版本、缺失、限制、权利依据、利益冲突、独立复核、签署与 SHA-256；当前真实记录数仍为 0。\n- 将 12 项现场指标和 12 道外部门无损聚合成 4 个外部决策包，保留每一个原始 metric_id、Gate、阈值、责任和触发条件；当前 4/4 HOLD。\n- 新增容量/疏散计算模板：允许同时使用人数取实测净面积、消防/生命安全核定、无障碍服务位和已落实岗位覆盖的最小值；当前容量为 null，现场核实退出路径为 0。\n- 新增开放前、每周、季度/重大变更后、年度/续期前 4 个维护周期，以及“经核可拆 CAPEX × 10%–20% + 场地专项恢复等”的恢复储备模板；当前储备金额和锁定资金仍为 null/false。\n- 新增 \`assets/media/p0-execution-workbook.md\`、\`visual/assets/v15-execution-kit.json\`、\`verify-v15.js\` 与哈希绑定回执；验证表单、字段、四包覆盖、容量、维护、储备及零伪造边界。\n<!-- V1.5_CHANGELOG_END -->`;
+  changelog = replaceMarked(changelog, '<!-- V1.5_CHANGELOG_START -->', '<!-- V1.5_CHANGELOG_END -->', v15Block, '## v1.4 - 2026-08-31');
+  const v16Block = `<!-- V1.6_CHANGELOG_START -->\n## v1.6 - 2026-08-31\n\n- 回应 PR #4349 最新 93/100 评审：保留可实施性 4/5 的诚实现实边界，集中修复“P0 图面信息密度高、小字号不适合快速公众阅读”的表达扣分。\n- 建立 30 秒、3 分钟、专业交接三层阅读路径；报告首屏直接说明各层回答的问题和固定入口。\n- 将两张固定评审图重绘为大字号公众决策图：一张只解释全停门保护什么，一张只解释四个外部决策为何 4/4 HOLD。\n- 原尺寸、断面、任务、17 个角色、16 行 BOQ、成本与两层验收信息不删除，完整迁移到四张中英技术附图，并继续进入 A0/A3 专业页和工作簿。\n- 为标题、核心规则、状态、场地精度、216 m²、3.0 m、8/8、12/12、4/4 HOLD、17 个角色、成本边界和失败停止规则建立 12 组中英受控检查点；明确这不是独立人工翻译或无障碍认证。\n- 新增 \`visual/assets/v16-communication-audit.json\`、\`verify-v16.js\` 与验证回执，检查三层入口、成对检查点、公众/技术图分离和画布字号下限。\n<!-- V1.6_CHANGELOG_END -->`;
+  changelog = replaceMarked(changelog, '<!-- V1.6_CHANGELOG_START -->', '<!-- V1.6_CHANGELOG_END -->', v16Block, '## v1.5 - 2026-08-31');
   write('changelog.md', changelog);
 
   let narrative = read('report/narrative.md');
@@ -1287,6 +1644,10 @@ function updateChangelogAndNarrative() {
   narrative = replaceMarked(narrative, '<!-- V1.3_NARRATIVE_START -->', '<!-- V1.3_NARRATIVE_END -->', nblock, '## 0. 成果阅读入口');
   const v14Narrative = `<!-- V1.4_NARRATIVE_START -->\n## v1.4 实施控制闭环（2026-08-31）\n\nv1.3 的最终复核为 96/100，唯一未满分项仍是可实施性 4/5。评审已经认可尺寸、任务、BOQ、成本公式与两层验收，但明确指出 P0 仍为非定位筛查单元，包内审计和 AI-off 等价各为 11/12，角色、排班、价格和现场基线尚未形成。v1.4 不增加品牌、场景或渲染，而只处理这一成熟度边界。\n\n本轮首先关闭两个包内 HOLD：错误输入保留 fail-closed 结果并补齐完整审计记录；人工桌不可用时切换同服务窗的人工电话/文字热备，两条人工路径都不可用则 AI 同步关闭。由此 A 层成为 8 PASS / 0 HOLD，审计与 AI-off 人工等价均为 12/12。随后补齐 17 个角色、12 项单一 Accountable 任务控制、三个筛查候选、8/12/18 小时排班、参与者 CAPEX/OPEX 工作区间、12 道外部门、7 个释放阶段、双钥匙、4 组备选回退、6 个采购包与 11 模块交接映射。\n\n这不是把现实条件涂绿：首选 \`P0-CAND-01\` 仍无坐标、权属或授权；4 FTE 和成本区间只是工作敏感性；12 项现场指标、12 道外部门和 6 个外部释放阶段继续全部 HOLD。\`verify-v14.js\` 只验证包内依赖、边界和 fail-closed 状态，不证明许可、签章、报价、资金或现场绩效。\n<!-- V1.4_NARRATIVE_END -->`;
   narrative = replaceMarked(narrative, '<!-- V1.4_NARRATIVE_START -->', '<!-- V1.4_NARRATIVE_END -->', v14Narrative, '## v1.3 P0 可实施性升级（2026-08-30）');
+  const v15Narrative = `<!-- V1.5_NARRATIVE_START -->\n## v1.5 专业执行交接（2026-08-31）\n\nv1.4 的复核为 96/100，六项为 5/5，唯一未满分项仍是可实施性 4/5。与最新 100/100 参考相比，差异不再是概念、图纸数量或包内校验，而是专业团队能否在不重新解释方案的情况下直接收集、签接和复核外部证据。v1.5 因此不扩展主题，只把既有控制落成一套可填写、可哈希、可 fail-closed 的执行工作簿。\n\n工作簿包含 7 类表单与 18 个通用证据回执字段；12 项现场指标和 12 道外部门被无损聚合为 4 个外部决策包，使评审能先判断“真实使用者与同任务基线、场地容量疏散与专业复核、运营设备叫停与复演、真实成本授权与退出”四件事，同时仍可追溯到每项原始指标和 Gate。容量公式、两条概念退出路径、4 个维护周期和 10%–20% 恢复储备模板补齐了日常运营与退出期的接手条件。\n\n这轮明确不把空表当成果：当前真实外部记录、现场结果、具名签署、经核成本输入和核验容量均为 0/null；四个外部决策包继续 HOLD。\`verify-v15.js\` 只证明表单覆盖、引用完整、无重复、哈希绑定和零伪造边界，不证明任何现场事实、专业签章、资金或许可。\n<!-- V1.5_NARRATIVE_END -->`;
+  narrative = replaceMarked(narrative, '<!-- V1.5_NARRATIVE_START -->', '<!-- V1.5_NARRATIVE_END -->', v15Narrative, '## v1.4 实施控制闭环（2026-08-31）');
+  const v16Narrative = `<!-- V1.6_NARRATIVE_START -->\n## v1.6 表达分层与双语受控复核（2026-08-31）\n\nPR #4349 的最新评审为 93/100：可实施性继续为 4/5，原因是具名场地、真实容量、现场基线、专业签认、运营者、市场价格和资金尚未形成；表达完整度从历史 v1.4 的 5/5 回落为 4/5，明确原因是 v1.5 的 P0 图面信息密度较高、小字号更适合专业交接而非快速公众阅读。v1.6 不伪造外部证据，也不删除专业交接深度，只处理可控的阅读层级。\n\n两张固定评审图现在只承担公众决策：空间图回答“先保护哪条路线、AI 与人工怎样共存、哪些现场证据为空”；证据图回答“四个外部决策为何仍 HOLD、包内 PASS 为什么不能抵消现场缺失”。原有高密度内容保留为成对技术附图，并继续进入 A0/A3 后续专业页、正文详表和 P0 工作簿。\n\n中英对照以 12 个受控检查点覆盖标题、核心规则、NOT_AUTHORIZED/HOLD、临时场地精度、关键数字、成本边界和失败停止规则。\`verify-v16.js\` 检查结构、成对存在和画布字号下限，但不把参与者复核冒充独立人工翻译、语义认证、WCAG 认证或印刷可读性结论。\n<!-- V1.6_NARRATIVE_END -->`;
+  narrative = replaceMarked(narrative, '<!-- V1.6_NARRATIVE_START -->', '<!-- V1.6_NARRATIVE_END -->', v16Narrative, '## v1.5 专业执行交接（2026-08-31）');
   narrative = narrative.replace(/v1\.2 评审修复 \| 当前 PR 待复评/g, 'v1.2 评审修复 | 已完成复核').replace(/v1\.2 的结果仍以绑定新 exact head 的复评为准。/g, 'v1.2 最新复核为 96/100；本轮只处理其中可实施性 4/5。');
   write('report/narrative.md', narrative);
 }
@@ -1300,6 +1661,17 @@ function updateManifestEntries() {
     { path: 'visual/assets/v14-delivery-control.json', role: 'evidence_data', required: false, language: 'neutral', sha256: null },
     { path: 'visual/assets/v14-verification.json', role: 'evidence_data', required: false, language: 'neutral', sha256: null },
     { path: 'visual/assets/verify-v14.js', role: 'verification_script', required: false, language: 'neutral', sha256: null },
+    { path: 'assets/media/p0-execution-workbook.md', role: 'transcript', required: false, language: 'neutral', sha256: null },
+    { path: 'visual/assets/v15-execution-kit.json', role: 'evidence_data', required: false, language: 'neutral', sha256: null },
+    { path: 'visual/assets/v15-verification.json', role: 'evidence_data', required: false, language: 'neutral', sha256: null },
+    { path: 'visual/assets/verify-v15.js', role: 'verification_script', required: false, language: 'neutral', sha256: null },
+    { path: 'visual/assets/v16-communication-audit.json', role: 'evidence_data', required: false, language: 'neutral', sha256: null },
+    { path: 'visual/assets/v16-verification.json', role: 'evidence_data', required: false, language: 'neutral', sha256: null },
+    { path: 'visual/assets/verify-v16.js', role: 'verification_script', required: false, language: 'neutral', sha256: null },
+    { path: 'assets/figures/key-areas-technical.png', role: 'figure', required: false, language: 'zh', sha256: null },
+    { path: 'assets/figures/key-areas-technical.en.png', role: 'figure', required: false, language: 'en', translation_of: 'assets/figures/key-areas-technical.png', sha256: null },
+    { path: 'assets/figures/metrics-evidence-technical.png', role: 'figure', required: false, language: 'zh', sha256: null },
+    { path: 'assets/figures/metrics-evidence-technical.en.png', role: 'figure', required: false, language: 'en', translation_of: 'assets/figures/metrics-evidence-technical.png', sha256: null },
     { path: 'visual/assets/build-v13.js', role: 'verification_script', required: false, language: 'neutral', sha256: null }
   ];
   for (const item of entries) {
@@ -1328,19 +1700,23 @@ function updateVisualHtml(rel, lang) {
   html = replaceMarked(html, '<!-- V1.3_P0_CSS_START -->', '<!-- V1.3_P0_CSS_END -->', css, '</head>');
   const hero = `<header class="hero">
     <div class="hero-copy">
-      <div class="eyebrow">${zh ? '京张慢线 · v1.4 实施控制闭环' : 'THE SLOW LINE · v1.4 DELIVERY CONTROL'}</div>
+      <div class="eyebrow">${zh ? '京张慢线 · v1.6 分层表达' : 'THE SLOW LINE · v1.6 COMMUNICATION HIERARCHY'}</div>
       <h1>${zh ? '让城市跟上最慢的人' : 'Keep pace with the slowest person'}</h1>
       <p class="lead">P0-ALL-STOP-01 · ${zh ? '尺寸可核验、责任可交接、失败可停止、退出可恢复' : 'dimensioned, accountable, stoppable, restorable'}</p>
       <div class="p0-status"><b>NOT_AUTHORIZED</b><b>HOLD</b><b class="neutral">unassigned/conditional</b><b class="neutral">prices null/TBC</b></div>
       <div class="p0-hero-grid">
-        <div class="p0-hero-card"><h3>${zh ? '30 秒 P0 摘要' : '30-second P0 summary'}</h3><p>${zh ? '216 m² 包络绑定 P0-CAND-01 临时重点区筛查关系；无坐标、不可放样。12 任务、16 BOQ、17 个声明角色。' : 'The 216 m² envelope binds provisional screening candidate P0-CAND-01; no coordinates or set-out. Twelve tasks, 16 BOQ lines, and 17 declared roles.'}</p></div>
-        <div class="p0-hero-card"><h3>${zh ? '包内控制已闭环' : 'Package control closed'}</h3><p><span data-metric="p0_current_package_pass_count" data-value="8">8 PASS</span> / <span data-metric="p0_current_package_hold_count" data-value="0">0 HOLD</span>${zh ? '；审计与 AI-off 人工等价均为 12/12。12 小时工作排班为 4 FTE。' : '; audit and AI-off human equivalence are both 12/12. The 12-hour working roster is four FTE.'}</p></div>
-        <div class="p0-hero-card"><h3>${zh ? '现实释放继续关闭' : 'Real-world release stays closed'}</h3><p><span data-metric="p0_field_check_hold_count" data-value="12">12 field HOLD</span> · <span data-metric="p0_external_gate_hold_count" data-value="12">12 gate HOLD</span>${zh ? '。成本只有非正式敏感区间；角色、许可、报价、资金与现场数据均未取得。' : '. Costs are non-formal sensitivities only; appointments, permission, quotes, funding, and field data remain absent.'}</p></div>
+        <div class="p0-hero-card"><h3>${zh ? '可直接接手' : 'Ready to take over'}</h3><p>${zh ? '7 类双语空表、18 个证据回执字段，覆盖调查、D0、成本、专业复核、复演维护与变更控制。' : 'Seven bilingual blank forms and eighteen receipt fields cover survey, D0, cost, professional review, rehearsal/maintenance and change control.'}</p></div>
+        <div class="p0-hero-card"><h3>${zh ? '四个外部决策' : 'Four external decisions'}</h3><p><span data-metric="p0_external_decision_bundle_hold_count" data-value="4">4/4 HOLD</span>${zh ? '；无损覆盖 12 项现场指标与 12 道外部门。容量 null，现场核实退出路径 0。' : '; losslessly covering twelve field metrics and twelve external gates. Capacity null; zero field-verified egress routes.'}</p></div>
+        <div class="p0-hero-card"><h3>${zh ? '运维与退出可填写' : 'Operations and exit fillable'}</h3><p>${zh ? '4 个维护周期与 10%–20% 恢复储备模板已定义；真实记录、签认、成本、资金与授权仍为 0/null。' : 'Four maintenance cycles and a 10–20% restoration-reserve template are defined; actual records, signatures, cost, funding and authorization remain zero/null.'}</p></div>
       </div>
     </div>
   </header>`;
   html = html.replace(/<header class="hero">[\s\S]*?<\/header>/, hero);
-  html = html.replace(/v1\.[23]/g, 'v1.4').replace(/2026-08-(?:29|30)/g, '2026-08-31');
+  html = html.replace(/v1\.[2345]/g, 'v1.6').replace(/2026-08-(?:29|30)/g, '2026-08-31');
+  html = html.replace(
+    zh ? 'v1.6 把 P0-ALL-STOP-01 从概念视图推进到专业空表与可追溯证据链——不把待定条件装扮成批准。' : 'v1.6 advances P0-ALL-STOP-01 from a concept view into professional blank forms and a traceable evidence chain—without dressing pending conditions as approvals.',
+    zh ? 'v1.6 将公众速读与专业证据分层：两张大字号固定图先回答“保护什么、为什么不开门”，v1.5 工作簿与技术附图保留全部尺寸、任务、成本和验收细节。' : 'v1.6 separates public quick reading from professional evidence: two large-type fixed figures answer what is protected and why the gate stays closed, while the v1.5 workbook and technical companions retain every dimension, task, cost and acceptance detail.'
+  );
   html = html.replace(/(data-metric="simulation_success_rate"\s+data-value=")[^"]+("[\s\S]*?<strong>)[^<]+(<\/strong>)/, (_match, beforeValue, beforeLabel, afterLabel) => `${beforeValue}1${beforeLabel}100%${afterLabel}`);
   html = html.replace(/(data-metric="audit_completeness"\s+data-value=")[^"]+("[\s\S]*?<strong>)[^<]+(<\/strong>)/, (_match, beforeValue, beforeLabel, afterLabel) => `${beforeValue}1${beforeLabel}100%${afterLabel}`);
   html = html.replace(
@@ -1352,7 +1728,15 @@ function updateVisualHtml(rel, lang) {
     zh ? 'alt="十二项离线演练的读数、两项失败和三项设计修正"' : 'alt="Readings, two failures, and three design corrections from twelve offline tasks"',
     zh ? 'alt="十二项离线演练的包内闭环、故障阻断与人工热备"' : 'alt="Package closure, fail-closed handling, and human hot backup across twelve offline tasks"'
   );
-  const fixedSection = `<section class="alt" id="p0-fixed-evidence"><h2>${zh ? 'P0 固定评审证据' : 'P0 fixed review evidence'}</h2><p>${zh ? '同一数据链生成尺寸、任务、排班、工作成本区间、外部门、备选和验收；v14 验证器检查假释放并保持现实条件 fail-closed。' : 'One data chain generates dimensions, tasks, roster, working cost bands, external gates, alternatives, and acceptance; the v14 verifier checks false release while real-world conditions stay fail-closed.'}</p><div class="grid2"><div class="card"><img src="../assets/figures/key-areas${zh ? '' : '.en'}.png" alt="P0 dimensioned launch unit"></div><div class="card"><img src="../assets/figures/metrics-evidence${zh ? '' : '.en'}.png" alt="P0 task quantities cost acceptance"></div></div></section>`;
+  html = html.replace(
+    new RegExp(`href="\\.\\./assets/figures/key-areas(?:-technical)?${zh ? '' : '\\.en'}\\.png">[^<]+`),
+    `href="../assets/figures/key-areas-technical${zh ? '' : '.en'}.png">${zh ? 'P0 尺寸与接口技术附图 ↗' : 'P0 dimensions + interfaces technical ↗'}`
+  );
+  html = html.replace(
+    new RegExp(`href="\\.\\./assets/figures/metrics-evidence(?:-technical)?${zh ? '' : '\\.en'}\\.png">[^<]+`),
+    `href="../assets/figures/metrics-evidence-technical${zh ? '' : '.en'}.png">${zh ? '任务、成本与验收技术附图 ↗' : 'Task, cost + acceptance technical ↗'}`
+  );
+  const fixedSection = `<section class="alt" id="p0-fixed-evidence"><h2>${zh ? 'P0 固定评审速读图' : 'P0 fixed quick-read evidence'}</h2><p>${zh ? '固定图使用大字号与单一决策面板；完整尺寸、任务、BOQ、成本和验收内容保留在技术附图与工作簿。人工填写入口：<a href="../assets/media/p0-execution-workbook.md">p0-execution-workbook.md</a>。' : 'Fixed figures use large type and one decision per panel; complete dimensions, tasks, BOQ, cost and acceptance remain in technical companions and the workbook. Human-fillable entry: <a href="../assets/media/p0-execution-workbook.md">p0-execution-workbook.md</a>.'}</p><div class="grid2"><div class="card"><img src="../assets/figures/key-areas${zh ? '' : '.en'}.png" alt="P0 public quick-read spatial decision"></div><div class="card"><img src="../assets/figures/metrics-evidence${zh ? '' : '.en'}.png" alt="P0 public quick-read external decisions"></div></div></section>`;
   if (html.includes('id="p0-fixed-evidence"')) html = html.replace(/<section class="alt" id="p0-fixed-evidence">[\s\S]*?<\/section>/, fixedSection);
   else html = html.replace('</header>', `</header>\n${fixedSection}`);
   write(rel, html);
@@ -1375,14 +1759,14 @@ function drawPdfHeader(ctx, lang, pageTitle, pageNo, format) {
   ctx.fillRect(0, 0, ctx.canvas.width, 180);
   text(ctx, lang === 'zh' ? '京张慢线 / THE SLOW LINE' : 'THE SLOW LINE', 80, 35, ctx.canvas.width * 0.56, 46, C.white, true, lang, 1, 1);
   text(ctx, pageTitle, 80, 96, ctx.canvas.width * 0.72, 30, C.yellow, true, lang, 1.1, 2);
-  text(ctx, `${format} · v1.4 · ${String(pageNo).padStart(2, '0')}`, ctx.canvas.width - 520, 54, 430, 24, '#dce5e8', true, lang, 1, 1);
+  text(ctx, `${format} · v1.6 · ${String(pageNo).padStart(2, '0')}`, ctx.canvas.width - 520, 54, 430, 24, '#dce5e8', true, lang, 1, 1);
 }
 
 function drawThirtySecond(ctx, lang, x, y, w, h) {
   rounded(ctx, x, y, w, h, 18, C.navy);
-  text(ctx, lang === 'zh' ? '30 秒 P0 实施摘要' : '30-SECOND P0 IMPLEMENTATION SUMMARY', x + 28, y + 22, w - 56, 30, C.yellow, true, lang, 1, 1);
+  text(ctx, lang === 'zh' ? '30 秒 P0 公众决策摘要' : '30-SECOND P0 PUBLIC DECISION SUMMARY', x + 28, y + 22, w - 56, 30, C.yellow, true, lang, 1, 1);
   text(ctx, 'P0-ALL-STOP-01 · NOT_AUTHORIZED · HOLD', x + 28, y + 66, w - 56, 23, C.white, true, lang, 1, 1);
-  text(ctx, lang === 'zh' ? 'P0-CAND-01｜12 任务｜17 角色｜A 层 8/8 PASS｜4 FTE 工作排班｜CAPEX/OPEX 非正式区间｜现场与 12 外部门 HOLD' : 'P0-CAND-01 | 12 tasks | 17 roles | Layer A 8/8 PASS | 4-FTE working roster | non-formal CAPEX/OPEX | field + 12 gates HOLD', x + 28, y + 105, w - 56, 22, C.white, false, lang, 1.3, 3);
+  text(ctx, lang === 'zh' ? '3.0 m 慢行净宽优先｜包内 8/8 PASS ≠ 现场绩效｜4/4 外部决策 HOLD｜容量 null｜17 个角色未指派' : 'Protect 3.0 m clear route | package 8/8 PASS ≠ field performance | 4/4 external decisions HOLD | capacity null | 17 roles unappointed', x + 28, y + 105, w - 56, 22, C.white, false, lang, 1.3, 3);
   text(ctx, lang === 'zh' ? '任一群体安全关键失败、等价缺失或无法退出 => 整体 HOLD' : 'Any group safety-critical failure, missing equivalent, or failed exit => whole unit HOLD', x + 28, y + h - 48, w - 56, 19, '#f5d2ce', true, lang, 1.1, 2);
 }
 
@@ -1426,12 +1810,12 @@ async function buildPdf(lang, format) {
   const width = isA0 ? 3370 : 1684;
   const height = isA0 ? 2384 : 1191;
   const specs = isA0 ? [
-    { title: zh ? 'P0-ALL-STOP-01｜尺寸化首启单元' : 'P0-ALL-STOP-01 | DIMENSIONED LAUNCH UNIT', summary: true, images: [`assets/figures/key-areas${zh ? '' : '.en'}.png`] },
-    { title: zh ? '任务链、工程量、成本与验收' : 'TASKS, QUANTITIES, COST + ACCEPTANCE', summary: false, images: [`assets/figures/metrics-evidence${zh ? '' : '.en'}.png`] },
+    { title: zh ? 'P0-ALL-STOP-01｜公众决策速读' : 'P0-ALL-STOP-01 | PUBLIC DECISION QUICK READ', summary: true, images: [`assets/figures/key-areas${zh ? '' : '.en'}.png`] },
+    { title: zh ? '任务链、工程量、成本与验收｜专业证据' : 'TASKS, QUANTITIES, COST + ACCEPTANCE | PROFESSIONAL EVIDENCE', summary: false, images: [`assets/figures/metrics-evidence-technical${zh ? '' : '.en'}.png`] },
     { title: zh ? '总体空间、场地校准与慢行系统' : 'OVERALL SPACE, SITE GROUNDING + SLOW MOBILITY', summary: false, images: [`assets/figures/site-grounding${zh ? '' : '.en'}.png`, `assets/figures/site-overview${zh ? '' : '.en'}.png`, `assets/figures/land-use-structure${zh ? '' : '.en'}.png`, `assets/figures/mobility-bluegreen${zh ? '' : '.en'}.png`] }
   ] : [
-    { title: zh ? 'P0-ALL-STOP-01｜30 秒实施摘要' : 'P0-ALL-STOP-01 | 30-SECOND IMPLEMENTATION SUMMARY', summary: true, images: [`assets/figures/key-areas${zh ? '' : '.en'}.png`] },
-    { title: zh ? 'P0 尺寸、断面与接口' : 'P0 DIMENSIONS, SECTION + INTERFACE', summary: false, images: [`assets/figures/key-areas${zh ? '' : '.en'}.png`] },
+    { title: zh ? 'P0-ALL-STOP-01｜30 秒公众决策摘要' : 'P0-ALL-STOP-01 | 30-SECOND PUBLIC DECISION SUMMARY', summary: true, images: [`assets/figures/key-areas${zh ? '' : '.en'}.png`] },
+    { title: zh ? 'P0 尺寸、断面与接口｜专业证据' : 'P0 DIMENSIONS, SECTION + INTERFACE | PROFESSIONAL EVIDENCE', summary: false, images: [`assets/figures/key-areas-technical${zh ? '' : '.en'}.png`] },
     { title: zh ? '任务、责任与六道证据门' : 'TASKS, ACCOUNTABILITY + SIX GATES', summary: false, focus: 'tasks', images: [] },
     { title: zh ? '不计价工程量、成本与两层验收' : 'NON-PRICED QUANTITIES, COST + TWO-LAYER ACCEPTANCE', summary: false, focus: 'delivery', images: [] },
     { title: zh ? '场地校准｜方位、事实、叠加分开' : 'SITE GROUNDING | ORIENTATION, FACT, OVERLAY SEPARATED', summary: false, images: [`assets/figures/site-grounding${zh ? '' : '.en'}.png`] },
@@ -1440,7 +1824,7 @@ async function buildPdf(lang, format) {
     { title: zh ? '离线演练｜包内闭环，错误仍阻断' : 'OFFLINE REHEARSAL | PACKAGE CLOSED, ERRORS STILL BLOCK', summary: false, images: [`assets/figures/simulation-rehearsal${zh ? '' : '.en'}.png`, `assets/figures/pilot-protocol${zh ? '' : '.en'}.png`] }
   ];
   const pdf = await PDFDocument.create();
-  pdf.setTitle(zh ? '京张慢线 v1.4 P0 实施控制' : 'The Slow Line v1.4 P0 Delivery Control');
+  pdf.setTitle(zh ? '京张慢线 v1.6 分层表达与专业执行交接' : 'The Slow Line v1.6 Communication Hierarchy and Professional Hand-off');
   pdf.setAuthor('Restless-One with Codex');
   pdf.setSubject('P0-ALL-STOP-01 conditional implementation evidence');
   pdf.setCreator('pdf-lib (https://github.com/Hopding/pdf-lib)');
@@ -1468,7 +1852,8 @@ async function main() {
     return;
   }
   loadBuildDependencies();
-  execFileSync(process.execPath, [path.join(__dirname, 'verify-v14.js')], { stdio: ['ignore', 'ignore', 'inherit'] });
+  execFileSync(process.execPath, [path.join(__dirname, 'verify-v15.js')], { stdio: ['ignore', 'ignore', 'inherit'] });
+  execFileSync(process.execPath, [path.join(__dirname, 'verify-v16.js')], { stdio: ['ignore', 'ignore', 'inherit'] });
   updateAssumptions();
   updateMetrics();
   updateProposal('proposal.md', 'zh');
@@ -1477,8 +1862,12 @@ async function main() {
   updateMatrices();
   updateAgentAndSources();
   updateChangelogAndNarrative();
+  await buildTechnicalKeyFigure('zh');
+  await buildTechnicalKeyFigure('en');
   await buildKeyFigure('zh');
   await buildKeyFigure('en');
+  await buildTechnicalMetricsFigure('zh');
+  await buildTechnicalMetricsFigure('en');
   await buildMetricsFigure('zh');
   await buildMetricsFigure('en');
   await buildSimulationFigure('zh');
@@ -1491,7 +1880,7 @@ async function main() {
   await buildPdf('zh', 'A3');
   await buildPdf('en', 'A3');
   updateManifestEntries();
-  process.stdout.write(JSON.stringify({ ok: true, version: DATA.package_version, object_id: DATA.object_id, outputs: ['v14 delivery-control verification', 'key-areas zh/en', 'metrics-evidence zh/en', 'visual index zh/en', 'A0 zh/en', 'A3 zh/en'] }, null, 2) + '\n');
+  process.stdout.write(JSON.stringify({ ok: true, version: COMM.package_version, object_id: DATA.object_id, outputs: ['v15 professional-handoff verification', 'v16 communication verification', 'public quick-read figures zh/en', 'technical companion figures zh/en', 'visual index zh/en', 'A0 zh/en', 'A3 zh/en'] }, null, 2) + '\n');
 }
 
 main().catch(error => {

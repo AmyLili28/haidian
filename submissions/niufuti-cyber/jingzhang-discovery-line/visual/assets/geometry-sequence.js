@@ -346,7 +346,8 @@
   var labels = document.getElementById("labels");
   var answerLegend = document.getElementById("geometry-answer-legend");
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
-  var language = root.getAttribute("data-lang") === "en" ? "en" : "zh";
+  var documentLanguage = String(document.documentElement.lang || "").toLowerCase();
+  var language = documentLanguage.indexOf("en") === 0 ? "en" : "zh";
   var paths = {}, overlayGroups = {}, stationGroup = null, answerGroup = null, answerLeaderGroup = null, current = 8, timer = 0, raf = 0, playing = false;
   var dragging = false, dragId = 0, dragX = 0, dragY = 0, dirty = true;
   var mapView = { panX: 0, panY: 0, zoom: 1 };
@@ -369,8 +370,29 @@
   };
   copy.zh.touchHint = "左右拖动平移，用 + / − 缩放；上下滑动页面。";
   copy.en.touchHint = "Drag sideways to pan; use + / − to zoom. Swipe vertically to scroll the page.";
+  var readerCopy = {
+    zh: {
+      answerStations:["01 众智园｜校准与独立复测", "02 AI 原点｜问题进入与人工译题｜M01 责任站", "03 大钟寺｜授权后的有限首用与退出｜M01 空间候选：精确点位 " + unknownWord()],
+      fingerprintPrefix:"固定数据指纹：", fingerprintSuffix:" · 横置适配 · 0 px 简化 · 0.5 px 显示量化",
+      answerNumber:"答案 / 09", finalActions:"继续 · 修改 · 停止 · 恢复",
+      answer:"答案", answerAria:"第 9 态，空间答案态", frameAriaPrefix:"第 ", frameAriaSuffix:" 帧",
+      answerLegend:[["known","已知｜实线／实心"],["provisional","provisional｜虚线"],["unknown",unknownWord() + "｜文字标注"],["m01-responsibility","M01 责任站｜圆靶"],["m01-candidate","M01 空间候选｜菱形"]],
+      fallbackAlt:"图1 范围、双轨与三站答案总图", fallbackText:"静态图 1 保留为无脚本、运行失败或用户主动选择时的可读后备。",
+      aiOff:"关闭 AI", aiOn:"开启 AI", pauseFlow:"暂停流光", playFlow:"播放流光"
+    },
+    en: {
+      answerStations:["01 Zhongzhiyuan | Calibration and independent retesting", "02 AI Origin | Problem entry and human question translation | M01 responsibility station", "03 Dazhongsi | Authorized limited first use and exit | M01 spatial candidate: exact location " + unknownWord()],
+      fingerprintPrefix:"Fixed data fingerprint: ", fingerprintSuffix:" · long-axis fit · 0 px simplification · 0.5 px display quantization",
+      answerNumber:"ANSWER / 09", finalActions:"continue · modify · stop · restore",
+      answer:"Answer", answerAria:"State 9, spatial answer", frameAriaPrefix:"Frame ", frameAriaSuffix:"",
+      answerLegend:[["known","Known | solid line / fill"],["provisional","provisional | dashed line"],["unknown",unknownWord() + " | text label"],["m01-responsibility","M01 responsibility | target"],["m01-candidate","M01 spatial candidate | diamond"]],
+      fallbackAlt:"Figure 1 Scope, Two Tracks, and Three Stations", fallbackText:"Formal Figure 1 remains the readable fallback without scripts, on runtime failure, or when explicitly selected.",
+      aiOff:"Switch AI off", aiOn:"Switch AI on", pauseFlow:"Pause flow", playFlow:"Play flow"
+    }
+  };
   layerNames.forEach(function (name) { layerAlpha[name] = { current: 0, target: 0, from: 0 }; });
   function t(key) { return copy[language][key]; }
+  function readerText(key) { return readerCopy[language][key]; }
   function unknownWord() { return "UN" + "KNOWN"; }
   function active(name) { return activeByFrame[current].indexOf(name) !== -1; }
   function setFallback(mode) {
@@ -569,15 +591,7 @@
     icon.appendChild(makeSvgNode("circle", { cx:"0", cy:"0", r:"2.5" }));
     answerGroup.appendChild(icon);
     overlayGroups.answer = answerGroup;
-    labelEntries = language === "zh" ? [
-      "01 众智园｜校准与独立复测",
-      "02 AI 原点｜问题进入与人工译题｜M01 责任站",
-      "03 大钟寺｜授权后的有限首用与退出｜M01 空间候选：精确点位 " + unknownWord()
-    ] : [
-      "01 Zhongzhiyuan | Calibration and independent retesting",
-      "02 AI Origin | Problem intake and human reframing | M01 responsibility station",
-      "03 Dazhongsi | Authorized limited first use and exit | M01 spatial candidate: exact location " + unknownWord()
-    ];
+    labelEntries = readerText("answerStations");
     labelEntries.forEach(function (text, index) {
       var label = document.createElement("span");
       label.id = "answer-station-" + String(index + 1);
@@ -659,11 +673,11 @@
   function schedule() { dirty = true; if (!raf) raf = window.requestAnimationFrame(render); }
   function stopPlayback() { if (timer) window.clearTimeout(timer); timer = 0; playing = false; play.textContent = t("play"); play.setAttribute("aria-label", t("play")); play.setAttribute("aria-pressed", "false"); }
   function updateButtons() { var ended = !playing && current >= 7; var label = playing ? t("pause") : ended ? t("replay") : t("play"); play.textContent = label; play.setAttribute("aria-label", label); play.disabled = reduced.matches; play.setAttribute("aria-pressed", String(playing)); play.setAttribute("data-end", String(ended)); }
-  function updateStatus() { status.textContent = (language === "zh" ? "固定数据指纹：" : "Fixed data fingerprint: ") + data.sourceFingerprint.slice(0, 12) + (language === "zh" ? " · 横置适配 · 0 px 简化 · 0.5 px 显示量化" : " · long-axis fit · 0 px simplification · 0.5 px display quantization"); root.setAttribute("data-motion", playing ? "moving" : "still"); }
+  function updateStatus() { status.textContent = readerText("fingerprintPrefix") + data.sourceFingerprint.slice(0, 12) + readerText("fingerprintSuffix"); root.setAttribute("data-motion", playing ? "moving" : "still"); }
   function updateFrame(announce) {
     var index, answerActive = current === ANSWER_STATE_INDEX;
     root.setAttribute("data-answer-active", String(answerActive));
-    frameNo.textContent = answerActive ? (language === "zh" ? "答案 / 09" : "ANSWER / 09") : String(current + 1).padStart(2, "0") + " / 08"; frameTitle.textContent = t("frames")[current][0]; frameBody.textContent = t("frames")[current][1]; previous.disabled = current === 0; next.disabled = answerActive; constraintNote.hidden = current !== 6; constraintNote.textContent = t("frames")[6][1]; finalActions.hidden = current !== 7; finalActions.textContent = current === 7 ? (language === "zh" ? "继续 · 修改 · 停止 · 恢复" : "continue · modify · stop · restore") : ""; if (messageBand) messageBand.hidden = current < 6 || answerActive;
+    frameNo.textContent = answerActive ? readerText("answerNumber") : String(current + 1).padStart(2, "0") + " / 08"; frameTitle.textContent = t("frames")[current][0]; frameBody.textContent = t("frames")[current][1]; previous.disabled = current === 0; next.disabled = answerActive; constraintNote.hidden = current !== 6; constraintNote.textContent = t("frames")[6][1]; finalActions.hidden = current !== 7; finalActions.textContent = current === 7 ? readerText("finalActions") : ""; if (messageBand) messageBand.hidden = current < 6 || answerActive;
     for (index = 0; index < steps.children.length; index += 1) { if (index === current) steps.children[index].setAttribute("aria-current", "step"); else steps.children[index].removeAttribute("aria-current"); }
     if (announce) live.textContent = frameNo.textContent + " " + frameTitle.textContent + ". " + frameBody.textContent;
     updateStatus(); beginLayerTransition(); schedule();
@@ -673,12 +687,12 @@
   function startPlayback() { if (reduced.matches) return; if (playing) { stopPlayback(); updateButtons(); updateStatus(); return; } if (current >= 7 || !fallback.hidden) showFrame(0, true); playing = true; updateButtons(); updateStatus(); advance(); }
   function resetCamera() { mapView.panX = 0; mapView.panY = 0; mapView.zoom = 1; schedule(); }
   function zoomBy(factor) { var nextZoom = clamp(mapView.zoom * factor, .72, 4); if (Math.abs(nextZoom - mapView.zoom) < .0001) return false; mapView.zoom = nextZoom; schedule(); return true; }
-  function buildSteps() { var index, button; steps.textContent = ""; for (index = 0; index <= ANSWER_STATE_INDEX; index += 1) { button = makeButton("geometry-step-" + String(index + 1)); button.textContent = index === ANSWER_STATE_INDEX ? (language === "zh" ? "答案" : "Answer") : String(index + 1); button.setAttribute("aria-label", index === ANSWER_STATE_INDEX ? (language === "zh" ? "第 9 态，空间答案态" : "State 9, spatial answer") : (language === "zh" ? "第 " + String(index + 1) + " 帧" : "Frame " + String(index + 1))); (function (frame, target) { target.addEventListener("click", function () { showFrame(frame, true); }); }(index, button)); steps.appendChild(button); } }
+  function buildSteps() { var index, button; steps.textContent = ""; for (index = 0; index <= ANSWER_STATE_INDEX; index += 1) { button = makeButton("geometry-step-" + String(index + 1)); button.textContent = index === ANSWER_STATE_INDEX ? readerText("answer") : String(index + 1); button.setAttribute("aria-label", index === ANSWER_STATE_INDEX ? readerText("answerAria") : readerText("frameAriaPrefix") + String(index + 1) + readerText("frameAriaSuffix")); (function (frame, target) { target.addEventListener("click", function () { showFrame(frame, true); }); }(index, button)); steps.appendChild(button); } }
   function buildLegend() { var item, swatch, label, count; legend.textContent = ""; fallbackLayers.textContent = ""; readings.forEach(function (reading) { item = document.createElement("li"); item.setAttribute("data-reading", reading[0]); swatch = document.createElement("i"); swatch.style.backgroundColor = reading[4]; label = document.createElement("span"); label.textContent = language === "zh" ? reading[1] : reading[2]; count = document.createElement("span"); count.setAttribute("data-reading-value", reading[0]); count.textContent = String(reading[3]); item.appendChild(swatch); item.appendChild(label); item.appendChild(count); legend.appendChild(item); }); data.layers.forEach(function (layer) { item = document.createElement("li"); item.textContent = layer.name + " · " + layer.count; fallbackLayers.appendChild(item); }); }
   function buildAnswerLegend() {
     if (!answerLegend) return;
     answerLegend.textContent = "";
-    (language === "zh" ? [["known","已知｜实线／实心"],["provisional","provisional｜虚线"],["unknown",unknownWord() + "｜文字标注"],["m01-responsibility","M01 责任站｜圆靶"],["m01-candidate","M01 空间候选｜菱形"]] : [["known","Known | solid line / fill"],["provisional","provisional | dashed line"],["unknown",unknownWord() + " | text label"],["m01-responsibility","M01 responsibility | target"],["m01-candidate","M01 spatial candidate | diamond"]]).forEach(function (entry) {
+    readerText("answerLegend").forEach(function (entry) {
       var item = document.createElement("li");
       var symbol = document.createElement("i");
       var label = document.createElement("span");
@@ -695,7 +709,7 @@
     zoomIn.addEventListener("click", function () { zoomBy(BUTTON_ZOOM_FACTOR); }); zoomOut.addEventListener("click", function () { zoomBy(1 / BUTTON_ZOOM_FACTOR); }); reset.addEventListener("click", resetCamera);
     staticView.addEventListener("click", function () { stopPlayback(); setFallback("manual"); updateButtons(); updateStatus(); }); return true;
   }
-  function applyLanguage() { fallbackImage.src = language === "zh" ? "../assets/figures/site-overview.png" : "../assets/figures/site-overview.en.png"; fallbackImage.alt = language === "zh" ? "图1 范围、双轨与三站答案总图" : "Figure 1 Scope, Two Tracks, and Three Stations"; root.querySelector("[data-text=provisional]").textContent = t("provisional"); root.querySelector("[data-text=previous]").textContent = t("previous"); root.querySelector("[data-text=next]").textContent = t("next"); if (staticView) staticView.textContent = t("staticView"); if (zoomIn) zoomIn.textContent = t("zoomIn"); if (zoomOut) zoomOut.textContent = t("zoomOut"); if (reset) reset.textContent = t("reset"); root.querySelector("[data-text=fallbackText]").textContent = language === "zh" ? "静态图 1 保留为无脚本、运行失败或用户主动选择时的可读后备。" : "Formal Figure 1 remains the readable fallback without scripts, on runtime failure, or when explicitly selected."; restart.textContent = t("restart"); restart.setAttribute("aria-label", t("restart")); buildLegend(); buildAnswerLegend(); updateButtons(); updateFrame(false); }
+  function applyLanguage() { fallbackImage.src = language === "zh" ? "../assets/figures/site-overview.png" : "../assets/figures/site-overview.en.png"; fallbackImage.alt = readerText("fallbackAlt"); root.querySelector("[data-text=provisional]").textContent = t("provisional"); root.querySelector("[data-text=previous]").textContent = t("previous"); root.querySelector("[data-text=next]").textContent = t("next"); if (staticView) staticView.textContent = t("staticView"); if (zoomIn) zoomIn.textContent = t("zoomIn"); if (zoomOut) zoomOut.textContent = t("zoomOut"); if (reset) reset.textContent = t("reset"); root.querySelector("[data-text=fallbackText]").textContent = readerText("fallbackText"); restart.textContent = t("restart"); restart.setAttribute("aria-label", t("restart")); buildLegend(); buildAnswerLegend(); updateButtons(); updateFrame(false); }
   function applyMotion() { if (reduced.matches) { stopPlayback(); current = ANSWER_STATE_INDEX; } updateButtons(); updateFrame(false); }
   function syncCanvasSize(target, width, height) { target.width = Math.max(1, Math.round(width * mapDpr)); target.height = Math.max(1, Math.round(height * mapDpr)); target.style.width = width + "px"; target.style.height = height + "px"; }
   function mapSize(force) {
@@ -868,9 +882,9 @@
       var moving = playing3d && aiLevel > 0 && !reduced.matches;
       stage3d.setAttribute("data-ai", aiOn3d ? "on" : "off");
       stage3d.setAttribute("data-motion", moving ? "moving" : "still");
-      aiButton.textContent = language === "zh" ? (aiOn3d ? "关闭 AI" : "开启 AI") : (aiOn3d ? "Switch AI off" : "Switch AI on");
+      aiButton.textContent = aiOn3d ? readerText("aiOff") : readerText("aiOn");
       aiButton.setAttribute("aria-pressed", String(!aiOn3d));
-      motionButton.textContent = language === "zh" ? (playing3d ? "暂停流光" : "播放流光") : (playing3d ? "Pause flow" : "Play flow");
+      motionButton.textContent = playing3d ? readerText("pauseFlow") : readerText("playFlow");
       motionButton.setAttribute("aria-pressed", String(playing3d));
       motionButton.disabled = reduced.matches;
       status3d.textContent = !aiOn3d && transitionFrom === transitionTo ? t("offStatus") : t("touchHint");

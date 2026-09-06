@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "name": "green_space_jingzhang_hmf",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "GRN-001",
+      "properties": {
+        "id": "GRN-001",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "南段绿脉（大钟寺—南中段）",
+        "green_space_type": "park",
+        "area_sqm_declared": 1194191.281,
+        "corridor_segment": "south",
+        "role_zh": "承担公众验证与无障碍接驳的绿色前厅",
+        "alignment_precision": "schematic_corridor_provisional",
+        "alignment_derivation": "由 v3.0 单一绿脉按南/中/北三段拆分，footprint 与总面积不变",
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "field_survey_required": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3514,
+              39.939
+            ],
+            [
+              116.3475,
+              39.939
+            ],
+            [
+              116.3475,
+              39.943375
+            ],
+            [
+              116.346252,
+              39.943375
+            ],
+            [
+              116.346252,
+              39.964493
+            ],
+            [
+              116.3514,
+              39.964522
+            ],
+            [
+              116.3514,
+              39.960875
+            ],
+            [
+              116.3514,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GRN-002",
+      "properties": {
+        "id": "GRN-002",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "中段绿脉（原点社区—清华园车站旧址）",
+        "green_space_type": "park",
+        "area_sqm_declared": 1660121.741,
+        "corridor_segment": "middle",
+        "role_zh": "含H0人类静谧段与文保缓冲，机器不得自主进入核心",
+        "alignment_precision": "schematic_corridor_provisional",
+        "alignment_derivation": "由 v3.0 单一绿脉按南/中/北三段拆分，footprint 与总面积不变",
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "field_survey_required": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.346252,
+              39.998493
+            ],
+            [
+              116.3514,
+              39.998522
+            ],
+            [
+              116.3514,
+              39.98275
+            ],
+            [
+              116.3514,
+              39.964522
+            ],
+            [
+              116.346252,
+              39.964493
+            ],
+            [
+              116.346252,
+              39.998493
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GRN-003",
+      "properties": {
+        "id": "GRN-003",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "北段绿脉（众智园—北门户）",
+        "green_space_type": "park",
+        "area_sqm_declared": 1314450.726,
+        "corridor_segment": "north",
+        "role_zh": "面向封闭测试外围的低速共行与观察界面",
+        "alignment_precision": "schematic_corridor_provisional",
+        "alignment_derivation": "由 v3.0 单一绿脉按南/中/北三段拆分，footprint 与总面积不变",
+        "precision_note": "示意精度：平面位置不确定度约±200m，几何为 provisional 概念表达，不得作为红线、权属线、施工放样或面积复核依据。",
+        "field_survey_required": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.346252,
+              40.022125
+            ],
+            [
+              116.3475,
+              40.022125
+            ],
+            [
+              116.3475,
+              40.0265
+            ],
+            [
+              116.3514,
+              40.0265
+            ],
+            [
+              116.3514,
+              40.004625
+            ],
+            [
+              116.3514,
+              39.998522
+            ],
+            [
+              116.346252,
+              39.998493
+            ],
+            [
+              116.346252,
+              40.022125
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

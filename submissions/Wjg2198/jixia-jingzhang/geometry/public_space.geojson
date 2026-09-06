@@ -1,0 +1,378 @@
+{
+  "type": "FeatureCollection",
+  "name": "public_space",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PS-001",
+      "properties": {
+        "id": "PS-001",
+        "layer": "PUBLIC_SPACE",
+        "space_type": "debate_plaza",
+        "name_zh": "百家争鸣广场",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.346,
+              39.975
+            ],
+            [
+              116.348,
+              39.975
+            ],
+            [
+              116.348,
+              39.977
+            ],
+            [
+              116.346,
+              39.977
+            ],
+            [
+              116.346,
+              39.975
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PS-002",
+      "properties": {
+        "id": "PS-002",
+        "layer": "PUBLIC_SPACE",
+        "space_type": "evolution_node",
+        "name_zh": "演化节点-众智原点",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.346,
+              40.005
+            ],
+            [
+              116.348,
+              40.005
+            ],
+            [
+              116.348,
+              40.007
+            ],
+            [
+              116.346,
+              40.007
+            ],
+            [
+              116.346,
+              40.005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PS-003",
+      "properties": {
+        "id": "PS-003",
+        "layer": "PUBLIC_SPACE",
+        "space_type": "evolution_node",
+        "name_zh": "演化节点-原点大钟寺",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.346,
+              39.951
+            ],
+            [
+              116.348,
+              39.951
+            ],
+            [
+              116.348,
+              39.953
+            ],
+            [
+              116.346,
+              39.953
+            ],
+            [
+              116.346,
+              39.951
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PS-004",
+      "properties": {
+        "id": "PS-004",
+        "layer": "PUBLIC_SPACE",
+        "space_type": "debate_stages",
+        "name_zh": "辩论台节点群",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                116.3465,
+                40.022
+              ],
+              [
+                116.3475,
+                40.022
+              ],
+              [
+                116.3475,
+                40.023
+              ],
+              [
+                116.3465,
+                40.023
+              ],
+              [
+                116.3465,
+                40.022
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.3465,
+                40.012
+              ],
+              [
+                116.3475,
+                40.012
+              ],
+              [
+                116.3475,
+                40.013
+              ],
+              [
+                116.3465,
+                40.013
+              ],
+              [
+                116.3465,
+                40.012
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.3465,
+                39.998
+              ],
+              [
+                116.3475,
+                39.998
+              ],
+              [
+                116.3475,
+                39.999
+              ],
+              [
+                116.3465,
+                39.999
+              ],
+              [
+                116.3465,
+                39.998
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.3465,
+                39.99
+              ],
+              [
+                116.3475,
+                39.99
+              ],
+              [
+                116.3475,
+                39.991
+              ],
+              [
+                116.3465,
+                39.991
+              ],
+              [
+                116.3465,
+                39.99
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.3465,
+                39.97
+              ],
+              [
+                116.3475,
+                39.97
+              ],
+              [
+                116.3475,
+                39.971
+              ],
+              [
+                116.3465,
+                39.971
+              ],
+              [
+                116.3465,
+                39.97
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.3465,
+                39.96
+              ],
+              [
+                116.3475,
+                39.96
+              ],
+              [
+                116.3475,
+                39.961
+              ],
+              [
+                116.3465,
+                39.961
+              ],
+              [
+                116.3465,
+                39.96
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.3465,
+                39.955
+              ],
+              [
+                116.3475,
+                39.955
+              ],
+              [
+                116.3475,
+                39.956
+              ],
+              [
+                116.3465,
+                39.956
+              ],
+              [
+                116.3465,
+                39.955
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PS-100",
+      "properties": {
+        "id": "PS-100",
+        "layer": "PUBLIC_SPACE",
+        "public_type": "plaza_network",
+        "name_zh": "公共空间网络(辩论台/广场)",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3448179291272,
+              39.96359988619492
+            ],
+            [
+              116.35084030095277,
+              39.96359991242943
+            ],
+            [
+              116.35083956858898,
+              39.974320806044
+            ],
+            [
+              116.35001427225293,
+              39.984629357112944
+            ],
+            [
+              116.35083796230404,
+              39.99967995498041
+            ],
+            [
+              116.34564446830066,
+              39.99967993724716
+            ],
+            [
+              116.34523181544289,
+              39.991226875017965
+            ],
+            [
+              116.34440641402588,
+              39.978444238386864
+            ],
+            [
+              116.3448179291272,
+              39.96359988619492
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
