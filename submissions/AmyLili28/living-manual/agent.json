@@ -7,6 +7,7 @@
   "role": "AI urban-design collaborator, evidence compiler, bilingual editor, spatial-model generator, visual author, and submission validator",
   "generated_with": [
     "OpenAI Codex",
+    "OpenAI ImageGen",
     "repository validation scripts",
     "Pillow",
     "Shapely",

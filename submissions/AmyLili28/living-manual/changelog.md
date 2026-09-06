@@ -1,5 +1,15 @@
 # 方案迭代记录
 
+## v2.3.1 - 2026-09-06（本地维护版 / local maintenance revision）
+
+- 修复中英离线页十二个场景只替换标题的问题：逐张接入既有正文中的现场动作、AI 窄任务，以及人工责任、到期或停止条件；不新增试点事实、用户证言或空间承诺。
+- 场景选择补充键盘方向键、Home/End、可见焦点、选中状态和动态通知；关闭 JavaScript 时仍完整显示十二张场景卡，章节导航和正文阅读不依赖脚本。
+- 增加同目录中英切换、完整中英报告、四份中英 A3/A0 PDF，以及来源、假设、自检和版权说明的本地链接；保持离线运行，不加载远程资源。
+- 放松中文首屏标题行距并平衡换行，消除原版桌面与手机标题上下行挤叠；不改标题文字。
+- 在 Agent 制作信息中补记 OpenAI ImageGen，与已有逐资产来源和版权披露一致；保留七张独立生成基础图及所有现有图件，不改变几何、指标、正文结论或已合并版本的评审记录。
+- 本维护版尚未重新提交；不代表新的评分、截止后修订获准或实施成果。版本号仅标识本地维护成果。
+- English: Restores twelve distinct scenario panels from the existing proposal, with keyboard access, selection announcements and complete no-JavaScript content; adds bilingual reading/download/evidence links and the existing ImageGen tool credit. No new field evidence, geometry, metrics or score is claimed. This local maintenance revision has not been resubmitted.
+
 ## v2.0 - 2026-08-31
 
 - 放弃把其他方案机械换名的生成方式，从核心判断、空间语法、几何、指标、运营、视觉与叙事全部重写。
