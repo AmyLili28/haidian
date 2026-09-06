@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "pending_official_data",
+      "statement": "Official SITE_BOUNDARY and KEY_AREA polygons are not yet public; all submitted geometry uses the repository provisional rough polygons (provisional_constraint, official_boundary=false).",
+      "impact": "All area metrics (site, green, public, building, phasing, key areas) are concept values under provisional geometry and must be recalculated under EPSG:4548 when official polygons arrive. With official polygons, all area metrics would be precisely recomputed (EPSG:4548) to statutory area basis; until then only provisional concept values exist.",
+      "recalculation_trigger": "Official or cleared CAD/GIS/PDF boundary released with recorded source, version and CRS."
+    },
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Approved regulatory-plan controls (FAR, building height, building density, setbacks, road redlines, facility standards) are not present in the public task package.",
+      "impact": "floor_area_ratio, total_floor_area_sqm, building_height_m and road_area_ratio remain status=unknown with null values and reasons; no speculative value is presented as an approved indicator. With approved regulatory-plan controls, parcel-level FAR/total floor area, height zoning and skyline control, setbacks and street interfaces, road redlines and facility standards could be determined — upgrading the proposal from concept intensity to reviewable regulatory-plan-depth urban design; until then indicators remain unknown.",
+      "recalculation_trigger": "Approved regulatory-plan conditions or official design-brief attachments become available."
+    },
+    {
+      "id": "A-OWNERSHIP-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Land ownership, parcel boundaries and existing building survey data are not available.",
+      "impact": "Retain/renovate/demolish conclusions are concept classifications only, never parcel-level conclusions; renewal projects list ownership as a dependency. With ownership, parcel boundaries and building surveys, parcel-level retain/renovate/demolish conclusions, project sequencing and accountable implementing entities, and cost/property-coordination bases could be formed; until then classification is concept-level only.",
+      "recalculation_trigger": "Official ownership and building survey data provided."
+    },
+    {
+      "id": "A-ENGINEERING-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Engineering conditions (utilities, fire, flood control, energy loads, bridge/tunnel feasibility, underground space) are not available.",
+      "impact": "No engineering feasibility conclusions are made; municipal strategies are concept skeletons requiring professional deepening. With municipal/fire/flood/energy/bridge-tunnel/underground engineering conditions, engineering-feasibility judgments and municipal-capacity verification could be formed; until then only concept directions exist.",
+      "recalculation_trigger": "Engineering feasibility studies by professional teams."
+    },
+    {
+      "id": "A-HERITAGE-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Heritage-protection boundaries and control zones along the Jing-Zhang railway corridor are not available in the public package.",
+      "impact": "The heritage-corridor character zone in constraints.geojson is a concept sketch (provisional_constraint), not a heritage redline; height/character controls are concept suggestions. With official heritage-protection scope and control zones, height and character controls would gain a statutory basis; until then the character zone is a concept sketch.",
+      "recalculation_trigger": "Official heritage-protection scope and control requirements confirmed."
+    }
+  ]
+}

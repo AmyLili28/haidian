@@ -1,0 +1,384 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, schemas, enums, standards snapshots, design ranges, and disclosed gaps."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Registry that separates formal-ready, background-only, provisional-only, and needs-review inputs."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Navigation layer for scope, required tasks, and missing-data checks; not an independent authority."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Provisional site design canvas; not an official boundary."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Provisional key-area canvases; not official polygons."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "publisher": "北京市规划和自然资源委员会海淀分局",
+      "accessed_date": "2026-08-31",
+      "usage": "Official purpose, three scope levels, key areas, tasks, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing positions, functions, six tasks, and mandatory boundary clause."
+    },
+    {
+      "id": "CIVIL-CODE-1198",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_60fb3863b7364b759123a42d1df568ca.html",
+      "source_type": "official_public",
+      "publisher": "国家市场监督管理总局",
+      "accessed_date": "2026-08-31",
+      "usage": "Risk prompt for managers/organisers of public places and mass activities to obtain legal advice on applicable safety duties; not a package-level compliance conclusion."
+    },
+    {
+      "id": "PIPL",
+      "url": "https://www.npc.gov.cn/WZWSREL25wYy9jMi9jMzA4MzQvMjAyMTA4L3QyMDIxMDgyMF8zMTMwODguaHRtbD9yZWY9aW1i",
+      "source_type": "official_public",
+      "publisher": "全国人民代表大会",
+      "accessed_date": "2026-08-31",
+      "usage": "Primary privacy reference for minimisation, sensitive personal information, and separate-consent review where applicable."
+    },
+    {
+      "id": "VOLUNTEER-REGULATION",
+      "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=430&Query=%E6%9C%8D%E5%8A%A1%EF%BC%8C",
+      "source_type": "official_public",
+      "publisher": "司法部行政法规库",
+      "accessed_date": "2026-08-31",
+      "usage": "Primary reference for voluntary service rights, training, records, privacy, and risk/insurance review."
+    },
+    {
+      "id": "BEIJING-VOLUNTEER-RESEARCH",
+      "url": "https://www.bjrd.gov.cn/rdzl/rdllysjhk/202001q/202001sjts/202101/t20210111_2211204.html",
+      "source_type": "official_public",
+      "publisher": "北京市人民代表大会常务委员会",
+      "accessed_date": "2026-08-31",
+      "usage": "Local legislative research context on volunteer protection and insurance; not treated as current operative legal advice."
+    },
+    {
+      "id": "AI-SINGAPORE-100E",
+      "url": "https://aisingapore.org/innovation/100e/",
+      "source_type": "official_public",
+      "publisher": "AI Singapore",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: scoped problem intake, PoC/MVP stages, engineering-apprentice teams, documentation, and knowledge transfer. Funding, eligibility, duration, and outcomes are not imported."
+    },
+    {
+      "id": "MILA-PARTNERSHIPS",
+      "url": "https://mila.quebec/en/industry/partnerships",
+      "source_type": "official_public",
+      "publisher": "Mila - Quebec AI Institute",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: long-term research, talent, industry, startup, and shared-workspace relationships. Partner counts, brands, and institutional standing are not imported."
+    },
+    {
+      "id": "VECTOR-ADOPTION",
+      "url": "https://vectorinstitute.ai/about/",
+      "source_type": "official_public",
+      "publisher": "Vector Institute",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: research-to-adoption bridge through engineering, training, and collaboration. Funding, certification, partner networks, and outcomes are not imported."
+    },
+    {
+      "id": "DIGITAL-CATAPULT-BRIDGEAI",
+      "url": "https://www.digicatapult.org.uk/programmes/programme/bridgeai/programme/",
+      "source_type": "official_public",
+      "publisher": "Digital Catapult",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: maturity assessment, accelerator, working-group, responsible-adoption, and MLOps support mechanisms. Programme funding, brand, eligibility, and procurement context are not imported."
+    },
+    {
+      "id": "ELLIS-NETWORK",
+      "url": "https://ellis.eu/about",
+      "source_type": "official_public",
+      "publisher": "European Laboratory for Learning and Intelligent Systems",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: multi-centric local units, research programmes, and talent circulation. Unit status, admission standards, and network endorsement are not imported."
+    },
+    {
+      "id": "AI-SWEDEN-INFRA",
+      "url": "https://www.ai.se/en/ai-labs/get-involved",
+      "source_type": "official_public",
+      "publisher": "AI Sweden",
+      "accessed_date": "2026-08-31",
+      "usage": "Global AI ecosystem comparison: use-case specification, agreements, technical/legal support, testing, offboarding, and knowledge sharing. Partner access, infrastructure, data, and legal conclusions are not imported."
+    },
+    {
+      "id": "NYC311",
+      "url": "https://www.nyc.gov/311/about-311.page",
+      "source_type": "official_public",
+      "publisher": "City of New York",
+      "accessed_date": "2026-08-31",
+      "usage": "Transferable precedent for multiple access modes, multilingual/human assistance, and public service-status visibility; not local authority."
+    },
+    {
+      "id": "HELSINKI-SERVICE-MAP",
+      "url": "https://www.hel.fi/en/decision-making/information-on-helsinki/maps-and-geospatial-data",
+      "source_type": "official_public",
+      "publisher": "City of Helsinki",
+      "accessed_date": "2026-08-31",
+      "usage": "Transferable precedent for service-map and accessibility information; route details are not imported."
+    },
+    {
+      "id": "REPAIR-CAFE-RULES",
+      "url": "https://www.repaircafe.org/en/house-rules/",
+      "source_type": "official_public",
+      "publisher": "Repair Cafe International Foundation",
+      "accessed_date": "2026-08-31",
+      "usage": "Operational precedent for supervised participation, refusal, capacity limits, and insurance review; its liability wording is not copied or asserted valid in China."
+    },
+    {
+      "id": "PEER-COMMONS-RAIL",
+      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/beibei-csfan/jingzhang-commons-rail",
+      "source_type": "official_public",
+      "publisher": "open-city-ai/haidian contributor",
+      "accessed_date": "2026-08-31",
+      "usage": "Quality benchmark for evidence layering, conditional interfaces, and legible mapping only; no content or geometry copied."
+    },
+    {
+      "id": "PEER-SLOW-LINE",
+      "url": "https://github.com/open-city-ai/haidian/tree/main/submissions/Restless-One/jingzhang-slow-line",
+      "source_type": "official_public",
+      "publisher": "open-city-ai/haidian contributor",
+      "accessed_date": "2026-08-31",
+      "usage": "Quality benchmark for site-grounded figures, simulation ledgers, and stop metrics only; no content or geometry copied."
+    },
+    {
+      "id": "OPENAI-TERMS-OF-USE-2026-08-31",
+      "url": "https://openai.com/en-GB/policies/row-terms-of-use/",
+      "source_type": "official_public",
+      "publisher": "OpenAI",
+      "effective_date": "2026-01-01",
+      "accessed_date": "2026-08-31",
+      "usage": "Generation-time terms basis for individual services: as-between ownership or assignment of output to the user where law permits, output non-uniqueness, and user responsibility for inputs, outputs, third-party rights, and human review. This registry entry is not a legal opinion or a copyrightability guarantee."
+    },
+    {
+      "id": "OPENAI-SERVICE-TERMS-2026-08-31",
+      "url": "https://openai.com/policies/service-terms/",
+      "source_type": "official_public",
+      "publisher": "OpenAI",
+      "updated_date": "2026-06-12",
+      "accessed_date": "2026-08-31",
+      "usage": "Generation-time service-specific terms reference, including limits concerning image capabilities, rights in inputs, third-party rights, and transformed outputs. This registry entry does not create an endorsement, clearance, or downstream licence."
+    },
+    {
+      "id": "MEDIA-LH-CORRIDOR-AERIAL-V1",
+      "title": "Synthetic corridor aerial concept base",
+      "path": "assets/media/lh-corridor-aerial-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "AmyLili28 submission package",
+      "creator": "OpenAI ImageGen output generated by Codex under AmyLili28 project direction",
+      "generated_date": "2026-08-31",
+      "accessed_date": "2026-08-31",
+      "generation_tool": "OpenAI ImageGen via Codex built-in image-generation service",
+      "model_detail": "The source PNG C2PA record identified OpenAI Media Service API softwareAgent gpt-image version 2.0; the exact serving model identifier was not otherwise exposed. The packaged JPEG derivative does not retain visible C2PA metadata.",
+      "generation_method": "Text-to-image from a text-only prompt; no reference image was supplied.",
+      "prompt_summary": "A humane rail-corridor civic landscape with staffed help points, accessible walking, rest, green-blue public realm, diverse anonymous people, no readable text, no logo, and no official-map appearance.",
+      "human_direction": "AmyLili28 required separately generated, realistic but non-official spatial imagery with human warmth and no fake text; Codex translated the approved LEND A HAND concept into the prompt and selected the usable output.",
+      "generation_inputs": "Text describing the participant-approved concept, taskbook intent, and provisional spatial relationships. No site photograph, web image, map tile, identifiable-person likeness, trademark, peer drawing, artist-style reference, or other third-party image was uploaded.",
+      "output_transform": "Source PNG converted by Pillow to RGB JPEG; later cropped and composed into final bilingual figures, with exact titles, identifiers, provisional geometry locators, metrics, and evidence limits overlaid deterministically with Pillow.",
+      "derived_outputs": [
+        "assets/figures/site-overview.png",
+        "assets/figures/site-overview.en.png",
+        "assets/figures/metrics-evidence.png",
+        "assets/figures/metrics-evidence.en.png"
+      ],
+      "synthetic_status": "Fully synthetic, non-site-specific scene. Any people are fictional composites and are not intended to identify or reproduce a real person.",
+      "terms_basis": "OPENAI-TERMS-OF-USE-2026-08-31; OPENAI-SERVICE-TERMS-2026-08-31; repository COMMUNITY-DISPLAY-ONLY submission licence.",
+      "reuse_status": "OpenAI's public terms describe as-between output ownership or assignment where law permits, but outputs may not be unique and the submitter remains responsible for rights and use. No claim of exclusive copyright, non-infringement, model release, site clearance, public consent, endorsement, or downstream commercial permission is made; any reuse beyond this submission requires independent review.",
+      "usage": "Atmospheric base for site-overview and metrics-evidence; exact geometry and metrics are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, public consent, user research, service record, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-AXONOMETRIC-V1",
+      "title": "Synthetic land-use axonometric concept base",
+      "path": "assets/media/lh-axonometric-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "AmyLili28 submission package",
+      "creator": "OpenAI ImageGen output generated by Codex under AmyLili28 project direction",
+      "generated_date": "2026-08-31",
+      "accessed_date": "2026-08-31",
+      "generation_tool": "OpenAI ImageGen via Codex built-in image-generation service",
+      "model_detail": "The source PNG C2PA record identified OpenAI Media Service API softwareAgent gpt-image version 2.0; the exact serving model identifier was not otherwise exposed. The packaged JPEG derivative does not retain visible C2PA metadata.",
+      "generation_method": "Text-to-image from a text-only prompt; no reference image was supplied.",
+      "prompt_summary": "An oblique conceptual corridor landscape with reversible civic desks, forecourts, park continuity, human-scale activity, no exact map, no readable text, and no logo.",
+      "human_direction": "AmyLili28 required separately generated, realistic but non-official spatial imagery with human warmth and no fake text; Codex translated the approved LEND A HAND concept into the prompt and selected the usable output.",
+      "generation_inputs": "Text describing the participant-approved concept, taskbook intent, and provisional spatial relationships. No site photograph, web image, map tile, identifiable-person likeness, trademark, peer drawing, artist-style reference, or other third-party image was uploaded.",
+      "output_transform": "Source PNG converted by Pillow to RGB JPEG; later cropped and composed into the final bilingual land-use figures, with zones, counts, areas, provisional locators, and approval boundaries overlaid deterministically with Pillow.",
+      "derived_outputs": [
+        "assets/figures/land-use-structure.png",
+        "assets/figures/land-use-structure.en.png"
+      ],
+      "synthetic_status": "Fully synthetic, non-site-specific scene. Any people are fictional composites and are not intended to identify or reproduce a real person.",
+      "terms_basis": "OPENAI-TERMS-OF-USE-2026-08-31; OPENAI-SERVICE-TERMS-2026-08-31; repository COMMUNITY-DISPLAY-ONLY submission licence.",
+      "reuse_status": "OpenAI's public terms describe as-between output ownership or assignment where law permits, but outputs may not be unique and the submitter remains responsible for rights and use. No claim of exclusive copyright, non-infringement, model release, site clearance, public consent, endorsement, or downstream commercial permission is made; any reuse beyond this submission requires independent review.",
+      "usage": "Atmospheric base for land-use-structure; zones, counts, areas, and approval boundaries are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, public consent, user research, service record, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-CAPABILITY-LAB-V1",
+      "title": "Synthetic staffed capability-lab concept base",
+      "path": "assets/media/lh-capability-lab-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "AmyLili28 submission package",
+      "creator": "OpenAI ImageGen output generated by Codex under AmyLili28 project direction",
+      "generated_date": "2026-08-31",
+      "accessed_date": "2026-08-31",
+      "generation_tool": "OpenAI ImageGen via Codex built-in image-generation service",
+      "model_detail": "The source PNG C2PA record identified OpenAI Media Service API softwareAgent gpt-image version 2.0; the exact serving model identifier was not otherwise exposed. The packaged JPEG derivative does not retain visible C2PA metadata.",
+      "generation_method": "Text-to-image from a text-only prompt; no reference image was supplied.",
+      "prompt_summary": "A small staffed civic capability-roster lab with side-by-side explanation, reversible furniture, visible human help, no readable text, no logo, and no claim of an existing facility.",
+      "human_direction": "AmyLili28 required separately generated, realistic but non-official spatial imagery with human warmth and no fake text; Codex translated the approved LEND A HAND concept into the prompt and selected the usable output.",
+      "generation_inputs": "Text describing the participant-approved concept, taskbook intent, and provisional spatial relationships. No site photograph, web image, map tile, identifiable-person likeness, trademark, peer drawing, artist-style reference, or other third-party image was uploaded.",
+      "output_transform": "Source PNG converted by Pillow to RGB JPEG; later cropped and composed with two other generated bases, while accurate place, role, capacity, landmark, and stop labels were overlaid deterministically with Pillow.",
+      "derived_outputs": [
+        "assets/figures/key-areas.png",
+        "assets/figures/key-areas.en.png",
+        "assets/figures/culture-operations.png",
+        "assets/figures/culture-operations.en.png"
+      ],
+      "synthetic_status": "Fully synthetic, non-site-specific scene. Any people are fictional composites and are not intended to identify or reproduce a real person.",
+      "terms_basis": "OPENAI-TERMS-OF-USE-2026-08-31; OPENAI-SERVICE-TERMS-2026-08-31; repository COMMUNITY-DISPLAY-ONLY submission licence.",
+      "reuse_status": "OpenAI's public terms describe as-between output ownership or assignment where law permits, but outputs may not be unique and the submitter remains responsible for rights and use. No claim of exclusive copyright, non-infringement, model release, site clearance, public consent, endorsement, or downstream commercial permission is made; any reuse beyond this submission requires independent review.",
+      "usage": "Concept base for the Zhongzhiyuan Civic Skills Roster Lab in key-areas and culture-operations; location, role, capacity, landmark, and stop labels are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, public consent, user research, service record, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-HUMAN-INTERCHANGE-V1",
+      "title": "Synthetic step-free human-interchange concept base",
+      "path": "assets/media/lh-human-interchange-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "AmyLili28 submission package",
+      "creator": "OpenAI ImageGen output generated and edited by Codex under AmyLili28 project direction",
+      "generated_date": "2026-08-31",
+      "accessed_date": "2026-08-31",
+      "generation_tool": "OpenAI ImageGen via Codex built-in image-generation service",
+      "model_detail": "The source PNG C2PA record identified OpenAI Media Service API softwareAgent gpt-image version 2.0; the exact serving model identifier was not otherwise exposed. The packaged JPEG derivative does not retain visible C2PA metadata.",
+      "generation_method": "Image edit of an earlier Human Interchange draft generated from a text-only prompt in the same ImageGen session; the edit changed the entrance into a continuous step-free interface. No external or user-uploaded reference image was supplied.",
+      "prompt_summary": "A welcoming staffed human-transfer hub with side-by-side paper and digital help, seating, an open step-free entrance, no readable text, no logo, and no claim of an existing facility.",
+      "human_direction": "AmyLili28 required separately generated, realistic but non-official spatial imagery with human warmth, accessibility, and no fake text; Codex prompted the first draft, identified the stepped entrance as unsuitable, directed the same-session step-free edit, and selected the corrected output.",
+      "generation_inputs": "The only image input was an earlier ImageGen text-to-image Human Interchange draft from the same session. No site photograph, web image, map tile, identifiable-person likeness, trademark, peer drawing, artist-style reference, or other external or user-uploaded image was used.",
+      "output_transform": "Edited source PNG converted by Pillow to RGB JPEG; later cropped and composed with two other generated bases, while accurate staffed-service, non-commitment, landmark, and stop labels were overlaid deterministically with Pillow.",
+      "derived_outputs": [
+        "assets/figures/key-areas.png",
+        "assets/figures/key-areas.en.png",
+        "assets/figures/culture-operations.png",
+        "assets/figures/culture-operations.en.png"
+      ],
+      "synthetic_status": "Fully synthetic, non-site-specific scene. Any people are fictional composites and are not intended to identify or reproduce a real person.",
+      "terms_basis": "OPENAI-TERMS-OF-USE-2026-08-31; OPENAI-SERVICE-TERMS-2026-08-31; repository COMMUNITY-DISPLAY-ONLY submission licence.",
+      "reuse_status": "OpenAI's public terms describe as-between output ownership or assignment where law permits, but outputs may not be unique and the submitter remains responsible for rights and use. No claim of exclusive copyright, non-infringement, model release, site clearance, public consent, endorsement, or downstream commercial permission is made; any reuse beyond this submission requires independent review.",
+      "usage": "Concept base for the AI Origin Human Transfer Hub in key-areas and culture-operations; staffed-service, non-commitment, landmark, and stop labels are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, public consent, user research, service record, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-REPAIR-WORKSHOP-V1",
+      "title": "Synthetic supervised repair-workshop concept base",
+      "path": "assets/media/lh-repair-workshop-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "AmyLili28 submission package",
+      "creator": "OpenAI ImageGen output generated by Codex under AmyLili28 project direction",
+      "generated_date": "2026-08-31",
+      "accessed_date": "2026-08-31",
+      "generation_tool": "OpenAI ImageGen via Codex built-in image-generation service",
+      "model_detail": "The source PNG C2PA record identified OpenAI Media Service API softwareAgent gpt-image version 2.0; the exact serving model identifier was not otherwise exposed. The packaged JPEG derivative does not retain visible C2PA metadata.",
+      "generation_method": "Text-to-image from a text-only prompt; no reference image was supplied.",
+      "prompt_summary": "A supervised low-risk repair and reuse commons with calm human instruction, isolated tools, ordinary unbranded objects, no readable text, no logo, and no claim of an existing workshop.",
+      "human_direction": "AmyLili28 required separately generated, realistic but non-official spatial imagery with human warmth and no fake text; Codex translated the approved LEND A HAND concept into the prompt and selected the usable output.",
+      "generation_inputs": "Text describing the participant-approved concept, taskbook intent, and provisional spatial relationships. No site photograph, web image, map tile, identifiable-person likeness, trademark, peer drawing, artist-style reference, or other third-party image was uploaded.",
+      "output_transform": "Source PNG converted by Pillow to RGB JPEG; later cropped and composed with two other generated bases, while accurate professional-lead, prohibited-object, landmark, and stop labels were overlaid deterministically with Pillow.",
+      "derived_outputs": [
+        "assets/figures/key-areas.png",
+        "assets/figures/key-areas.en.png",
+        "assets/figures/culture-operations.png",
+        "assets/figures/culture-operations.en.png"
+      ],
+      "synthetic_status": "Fully synthetic, non-site-specific scene. Any people are fictional composites and are not intended to identify or reproduce a real person.",
+      "terms_basis": "OPENAI-TERMS-OF-USE-2026-08-31; OPENAI-SERVICE-TERMS-2026-08-31; repository COMMUNITY-DISPLAY-ONLY submission licence.",
+      "reuse_status": "OpenAI's public terms describe as-between output ownership or assignment where law permits, but outputs may not be unique and the submitter remains responsible for rights and use. No claim of exclusive copyright, non-infringement, model release, site clearance, public consent, endorsement, or downstream commercial permission is made; any reuse beyond this submission requires independent review.",
+      "usage": "Concept base for the Dazhongsi Repair and Reuse Commons in key-areas and culture-operations; professional-lead, prohibited-object, landmark, and stop labels are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, public consent, user research, service record, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-RESPONSIBILITY-ROUTE-V1",
+      "title": "Synthetic accessible responsibility-route concept base",
+      "path": "assets/media/lh-responsibility-route-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "AmyLili28 submission package",
+      "creator": "OpenAI ImageGen output generated by Codex under AmyLili28 project direction",
+      "generated_date": "2026-08-31",
+      "accessed_date": "2026-08-31",
+      "generation_tool": "OpenAI ImageGen via Codex built-in image-generation service",
+      "model_detail": "The source PNG C2PA record identified OpenAI Media Service API softwareAgent gpt-image version 2.0; the exact serving model identifier was not otherwise exposed. The packaged JPEG derivative does not retain visible C2PA metadata.",
+      "generation_method": "Text-to-image from a text-only prompt; no reference image was supplied.",
+      "prompt_summary": "A continuous accessible walking relay through green-blue public space with staffed nodes, rest, paper guidance, diverse anonymous users, no exact route, no readable text, and no logo.",
+      "human_direction": "AmyLili28 required separately generated, realistic but non-official spatial imagery with human warmth and no fake text; Codex translated the approved LEND A HAND concept into the prompt and selected the usable output.",
+      "generation_inputs": "Text describing the participant-approved concept, taskbook intent, and provisional spatial relationships. No site photograph, web image, map tile, identifiable-person likeness, trademark, peer drawing, artist-style reference, or other third-party image was uploaded.",
+      "output_transform": "Source PNG converted by Pillow to RGB JPEG; later cropped and composed into final bilingual mobility-bluegreen figures, with route length, entrances, forecourts, and provisional geometry overlaid deterministically with Pillow.",
+      "derived_outputs": [
+        "assets/figures/mobility-bluegreen.png",
+        "assets/figures/mobility-bluegreen.en.png"
+      ],
+      "synthetic_status": "Fully synthetic, non-site-specific scene. Any people are fictional composites and are not intended to identify or reproduce a real person.",
+      "terms_basis": "OPENAI-TERMS-OF-USE-2026-08-31; OPENAI-SERVICE-TERMS-2026-08-31; repository COMMUNITY-DISPLAY-ONLY submission licence.",
+      "reuse_status": "OpenAI's public terms describe as-between output ownership or assignment where law permits, but outputs may not be unique and the submitter remains responsible for rights and use. No claim of exclusive copyright, non-infringement, model release, site clearance, public consent, endorsement, or downstream commercial permission is made; any reuse beyond this submission requires independent review.",
+      "usage": "Atmospheric base for the responsibility-relay route in mobility-bluegreen; route length, entrances, forecourts, and provisional geometry are overlaid locally.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, public consent, user research, service record, or performance evidence."
+    },
+    {
+      "id": "MEDIA-LH-SCENARIO-MOSAIC-V1",
+      "title": "Synthetic twelve-action scenario mosaic",
+      "path": "assets/media/lh-scenario-mosaic-v1.jpg",
+      "source_type": "agent_generated_design",
+      "publisher": "AmyLili28 submission package",
+      "creator": "OpenAI ImageGen output generated by Codex under AmyLili28 project direction",
+      "generated_date": "2026-08-31",
+      "accessed_date": "2026-08-31",
+      "generation_tool": "OpenAI ImageGen via Codex built-in image-generation service",
+      "model_detail": "The source PNG C2PA record identified OpenAI Media Service API softwareAgent gpt-image version 2.0; the exact serving model identifier was not otherwise exposed. The packaged JPEG derivative does not retain visible C2PA metadata.",
+      "generation_method": "Text-to-image from a text-only prompt; no reference image was supplied.",
+      "prompt_summary": "A twelve-cell, text-free montage of ordinary staffed wayfinding, explanation, accessibility help, low-risk repair, maintenance, and public-space assistance, with anonymous synthetic people and no logos.",
+      "human_direction": "AmyLili28 required separately generated, realistic but non-official spatial imagery with human warmth and no fake text; Codex translated the approved LEND A HAND concept into the prompt, checked each visible action, and selected the usable output.",
+      "generation_inputs": "Text describing the participant-approved concept and twelve everyday action lenses. No site photograph, web image, map tile, identifiable-person likeness, trademark, peer drawing, artist-style reference, or other third-party image was uploaded.",
+      "output_transform": "Source PNG converted by Pillow to RGB JPEG; then segmented and composed into the final bilingual scenario-matrix figures. Pillow overlays neutral A01-A12 visible-action descriptions and a separate S01-S12 contract register without claiming a one-to-one match or completed validation.",
+      "derived_outputs": [
+        "assets/figures/scenario-matrix.png",
+        "assets/figures/scenario-matrix.en.png"
+      ],
+      "synthetic_status": "Fully synthetic, non-site-specific scene. Any people are fictional composites and are not intended to identify or reproduce a real person; visible actions are design scenarios, not interviews or service records.",
+      "terms_basis": "OPENAI-TERMS-OF-USE-2026-08-31; OPENAI-SERVICE-TERMS-2026-08-31; repository COMMUNITY-DISPLAY-ONLY submission licence.",
+      "reuse_status": "OpenAI's public terms describe as-between output ownership or assignment where law permits, but outputs may not be unique and the submitter remains responsible for rights and use. No claim of exclusive copyright, non-infringement, model release, site clearance, public consent, endorsement, or downstream commercial permission is made; any reuse beyond this submission requires independent review.",
+      "usage": "Text-free twelve-cell concept mosaic. Neutral A01-A12 action descriptions are overlaid on the imagery; a separate S01-S12 register reproduces the proposal contract titles without claiming one-to-one depiction or completed validation.",
+      "spatial_temporal_scope": "Synthetic concept atmosphere, not a depiction or measurement of an identified existing site.",
+      "not_usable_for": "Existing conditions, survey, identity, ownership, approval, partnership, accessibility compliance, capacity, public consent, user research, service record, completed validation, or performance evidence."
+    }
+  ]
+}

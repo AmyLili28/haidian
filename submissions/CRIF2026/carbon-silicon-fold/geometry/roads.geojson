@@ -1,0 +1,91 @@
+{
+  "type": "FeatureCollection",
+  "name": "roads",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "RD-PARK-SPINE",
+      "properties": {
+        "id": "RD-PARK-SPINE",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "京张遗址公园慢行/骑行主轴（南北贯通）",
+        "road_class": "pedestrian"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.347,
+            39.94
+          ],
+          [
+            116.347,
+            40.026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-EW-1",
+      "properties": {
+        "id": "RD-EW-1",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "东西缝合 Connector（概念）",
+        "road_class": "local_access"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3397,
+            39.99
+          ],
+          [
+            116.3553,
+            39.99
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RD-TRANSIT",
+      "properties": {
+        "id": "RD-TRANSIT",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "name_zh": "轨道站点一体化走廊（概念，含五道口/清华东路西口/大钟寺）",
+        "road_class": "transit_connection"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3515,
+            39.944
+          ],
+          [
+            116.3515,
+            39.99
+          ],
+          [
+            116.3515,
+            40.026
+          ]
+        ]
+      }
+    }
+  ]
+}

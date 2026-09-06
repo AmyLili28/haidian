@@ -1,0 +1,203 @@
+{
+ "type": "FeatureCollection",
+ "name": "roads_shared_track",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "ROAD-001",
+   "properties": {
+    "road_class": "greenway",
+    "name_zh": "京张慢行主轴（概念线位）",
+    "name_en": "Jing-Zhang slow-mobility spine (concept alignment)",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "length_m": 9619.6,
+    "road_redline_status": "concept_suggestion",
+    "id": "ROAD-001",
+    "layer": "ROAD_CENTERLINE"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3475,
+      39.9395
+     ],
+     [
+      116.3475,
+      40.026
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ROAD-002",
+   "properties": {
+    "road_class": "local_access",
+    "name_zh": "大钟寺横街（概念）",
+    "name_en": "Dazhongsi cross street (concept)",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "road_redline_status": "concept_suggestion",
+    "id": "ROAD-002",
+    "layer": "ROAD_CENTERLINE"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3412,
+      39.949
+     ],
+     [
+      116.3538,
+      39.949
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ROAD-003",
+   "properties": {
+    "road_class": "local_access",
+    "name_zh": "知春路横街（概念）",
+    "name_en": "Zhichun Road cross street (concept)",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "road_redline_status": "concept_suggestion",
+    "id": "ROAD-003",
+    "layer": "ROAD_CENTERLINE"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3412,
+      39.972
+     ],
+     [
+      116.3538,
+      39.972
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ROAD-004",
+   "properties": {
+    "road_class": "local_access",
+    "name_zh": "原点横街（概念）",
+    "name_en": "Origin cross street (concept)",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "road_redline_status": "concept_suggestion",
+    "id": "ROAD-004",
+    "layer": "ROAD_CENTERLINE"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3412,
+      39.997
+     ],
+     [
+      116.3538,
+      39.997
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ROAD-005",
+   "properties": {
+    "road_class": "local_access",
+    "name_zh": "众智园南横街（概念）",
+    "name_en": "Zhongzhiyuan south cross street (concept)",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "road_redline_status": "concept_suggestion",
+    "id": "ROAD-005",
+    "layer": "ROAD_CENTERLINE"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3412,
+      40.0075
+     ],
+     [
+      116.3538,
+      40.0075
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ROAD-006",
+   "properties": {
+    "road_class": "branch",
+    "name_zh": "西翼纵向联络路（概念）",
+    "name_en": "West wing longitudinal connector (concept)",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "road_redline_status": "concept_suggestion",
+    "id": "ROAD-006",
+    "layer": "ROAD_CENTERLINE"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3425,
+      39.9395
+     ],
+     [
+      116.3425,
+      40.026
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "ROAD-007",
+   "properties": {
+    "road_class": "branch",
+    "name_zh": "东翼纵向联络路（概念）",
+    "name_en": "East wing longitudinal connector (concept)",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "road_redline_status": "concept_suggestion",
+    "id": "ROAD-007",
+    "layer": "ROAD_CENTERLINE"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3528,
+      39.9395
+     ],
+     [
+      116.3528,
+      40.026
+     ]
+    ]
+   }
+  }
+ ]
+}

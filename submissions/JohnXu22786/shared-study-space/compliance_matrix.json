@@ -1,0 +1,1299 @@
+{
+ "schema_version": "0.1.0",
+ "requirements": [
+  {
+   "requirement_id": "1.3.1",
+   "title_zh": "构建世界级AI创新生态体系",
+   "mandatory": true,
+   "report_sections": [
+    "三层范围工作框架",
+    "指标体系、面积复算与合规矩阵"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "以「织学智环（STU·JZ）」构建沿京张AI创新带的共享自习专项概念：以共享自习空间与终身学习网络为目标，形成「织学馆—学研谷—夜读室」三节点自习服务网络（对应任务书公共服务设施维度、青年友好公共空间维度与高校创新带维度）。"
+  },
+  {
+   "requirement_id": "1.3.2",
+   "title_zh": "建设适配AI新质生产力的新型城市形态",
+   "mandatory": true,
+   "report_sections": [
+    "重点区域详细设计"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "重点区域与自习节点对应：织学馆（众智园侧，综合共享自习中心）、学研谷（AI原点社区侧，青年学习社群与共享工作坊）、夜读室（大钟寺侧，社区夜间自习与终身学习点）的概念级空间布局。"
+  },
+  {
+   "requirement_id": "1.3.3",
+   "title_zh": "打造全球AI创新人才向往的高品质城区",
+   "mandatory": true,
+   "report_sections": [
+    "总体设计范围城市更新与控规深度城市设计"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "概念愿景：织学智环——让一带的每一盏灯下都有可学的书桌。"
+  },
+  {
+   "requirement_id": "1.4.1",
+   "title_zh": "统筹研究范围",
+   "mandatory": true,
+   "report_sections": [
+    "三层范围工作框架"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "严格按任务书文本口径划分三层范围，边界为 provisional，待官方几何发布后复算。"
+  },
+  {
+   "requirement_id": "1.4.2",
+   "title_zh": "总体设计范围",
+   "mandatory": true,
+   "report_sections": [
+    "统筹研究范围产业与未来城市研究"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "统筹研究聚焦「产业与未来城市」：自习与学习空间需求同高校人群、青年社区与考试经济、终身学习趋势的协同关系判断（概念级）。"
+  },
+  {
+   "requirement_id": "1.4.3",
+   "title_zh": "重点区域范围",
+   "mandatory": true,
+   "report_sections": [
+    "总体设计范围城市更新与控规深度城市设计"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "总体设计以绿带为骨架组织自习节点与学习动线概念布局，以控规深度方法校核设施落位与公共空间导则。"
+  },
+  {
+   "requirement_id": "1.5.1.1",
+   "title_zh": "统筹研究范围：AI创新生态体系",
+   "mandatory": true,
+   "report_sections": [
+    "重点区域详细设计"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "重点区域",
+    "总览地图"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "节点一：织学馆——自习舱、研讨舱、安静阅览与24小时分时自习的综合共享自习中心（概念级）。"
+  },
+  {
+   "requirement_id": "1.5.1.2",
+   "title_zh": "统筹研究范围：适配人工智能的未来城市形态",
+   "mandatory": true,
+   "report_sections": [
+    "重点区域详细设计"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "重点区域",
+    "总览地图"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "节点二：学研谷——学习小组预约、共享工位、考研考公驿站与技能工坊；节点三：夜读室——延时开放、社区课堂与银龄数字学习，串联慢行与蓝绿空间。"
+  },
+  {
+   "requirement_id": "1.5.2.1",
+   "title_zh": "总体设计范围：产业目标与功能布局",
+   "mandatory": true,
+   "report_sections": [
+    "AI 创新生态、人才画像与 AI+ 场景"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "AI 场景",
+    "核心指标"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "画像（考研考公青年、高校学生、远程办公者、银龄学习者、备考家庭）与五类AI+场景（座位预约AI、自习氛围AI、学习资源推荐AI、空间能耗优化AI、学习活动撮合AI），禁止过度监控（不进行个体识别式追踪）。"
+  },
+  {
+   "requirement_id": "1.5.2.2",
+   "title_zh": "总体设计范围：城市更新总体框架",
+   "mandatory": true,
+   "report_sections": [
+    "用地、建筑规模与拆改留方案"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "留改拆并举：以留为主保留遗址公园肌理与历史遗存，存量建筑功能置换植入轻量可逆自习设施（预留接口），拆除仅限局部个案论证（概念口径）。"
+  },
+  {
+   "requirement_id": "1.5.2.3",
+   "title_zh": "总体设计范围：交通轨道市政配套设施",
+   "mandatory": true,
+   "report_sections": [
+    "交通、轨道、市政与公共服务设施"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "交通慢行优先的交通概念：学习动线与慢行系统复合，自习节点衔接轨道站点与高校、社区步行圈；市政依托公共设施集约共享（概念接口示意，不给负荷与工程量结论）。"
+  },
+  {
+   "requirement_id": "1.5.2.4",
+   "title_zh": "总体设计范围：京张遗址公园活力带",
+   "mandatory": true,
+   "report_sections": [
+    "蓝绿空间、公共空间与城市风貌"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "「织学馆—学研谷—夜读室」沿绿带连续开敞序列：自习设施低干预、宜轻宜透宜可逆布置，户外自习角与蓝绿空间融合，不遮挡历史遗迹与绿带视线。"
+  },
+  {
+   "requirement_id": "1.5.2.5",
+   "title_zh": "总体设计范围：城市风貌",
+   "mandatory": true,
+   "report_sections": [
+    "蓝绿空间、公共空间与城市风貌"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "风貌整体克制统一：延续京张铁路工业记忆语汇并与学习设施有序对话，表达克制统一、避免符号堆砌。"
+  },
+  {
+   "requirement_id": "1.5.3.required",
+   "title_zh": "重点区域范围详细设计必选项",
+   "mandatory": true,
+   "report_sections": [
+    "更新项目清单、实施政策与分期计划"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "自习项目按「综合中心—学习社群—社区夜读」三类滚动推进，配套自习舱分时预约、学习空间使用公约、共享资源漂流、学习社群备案与导师结对、年度学习活动公示等政策建议（概念）。"
+  },
+  {
+   "requirement_id": "1.5.3.1",
+   "title_zh": "众智园AI自主创新加速区",
+   "mandatory": true,
+   "report_sections": [
+    "更新项目清单、实施政策与分期计划"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "分期实施：近期1-3年样板中心与预约试点，中期3-5年三节点建成+学习网络成型，远期5-10年全域终身学习服务生态与品牌资产沉淀（概念节奏）。"
+  },
+  {
+   "requirement_id": "1.5.3.2",
+   "title_zh": "北京AI原点社区",
+   "mandatory": true,
+   "report_sections": [
+    "指标体系、面积复算与合规矩阵"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "目标—指标—校验概念指标体系（自习节点覆盖率/座席预约率/共享资源流通量/活动场次/学习者满意度）；三项formal核心指标以本包几何复算，面积复算以官方文本口径为底，官方数据到位后复算。"
+  },
+  {
+   "requirement_id": "1.5.3.3",
+   "title_zh": "大钟寺AI产业聚集区",
+   "mandatory": true,
+   "report_sections": [
+    "指标体系、面积复算与合规矩阵"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "合规矩阵覆盖公告、任务书与法规参照（用地、文保、绿线蓝线、公共文化服务保障、个人信息保护与数据合规、品牌IP与版权通则等）；标准矩阵与设计深度矩阵见对应 JSON。"
+  },
+  {
+   "requirement_id": "agent.1",
+   "title_zh": "一带总体概念与功能统筹方案设计",
+   "mandatory": true,
+   "report_sections": [
+    "三层范围工作框架",
+    "统筹研究范围产业与未来城市研究"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "命名与识别系统：织学智环（STU·JZ）三节点学习环概念，原创 Logo 识别系统（logo-brand.png），命名在先权利按内部工作代号处理；三层范围工作框架将本包子范围定位于官方三层之下。"
+  },
+  {
+   "requirement_id": "agent.2",
+   "title_zh": "AI全栈自主创新体系与世界级AI创新生态设计",
+   "mandatory": true,
+   "report_sections": [
+    "AI 创新生态、人才画像与 AI+ 场景",
+    "统筹研究范围产业与未来城市研究"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "AI 创新生态按七类要素图谱组织（算力/数据/模型/人才/资本/空间/治理），以学习网络为公共载体联动，图谱见 ai-ecosystem-atlas 图件；六组公开对标案例（东京/上海/北欧/新加坡/纽约/高校）仅按公开渠道概述并逐条登记来源。"
+  },
+  {
+   "requirement_id": "agent.3",
+   "title_zh": "AI+场景赋能新范式与智能化AI活力城市设计",
+   "mandatory": true,
+   "report_sections": [
+    "AI 创新生态、人才画像与 AI+ 场景"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "十张共享自习 AI+ 场景卡（SC-01…SC-10）与三张产业测试验证场景卡（IT-01…IT-03），含测试假设/技术成熟度/输入输出/空间条件/评价阈值/风险隔离与退出机制；全部仅做匿名聚合、关键决策人工复核、禁止过度监控。"
+  },
+  {
+   "requirement_id": "agent.4",
+   "title_zh": "AI公共空间、智能原生新业态与朝圣地标设计",
+   "mandatory": true,
+   "report_sections": [
+    "重点区域详细设计",
+    "蓝绿空间、公共空间与城市风貌",
+    "交通、轨道、市政与公共服务设施"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "三个 AI 地标目录（织学馆/学研谷/夜读室=STU-HALL/STU-VALLEY/STU-NIGHT）与九处场景节点清单；荣誉展示系统（入口荣誉墙、去标识化、大屏大字无障碍高度）；可退化可置换的公共空间组件库（导视/座椅/照明/求助点/公告板/漂流架）；模块化试点平面与停项门槛。"
+  },
+  {
+   "requirement_id": "agent.5",
+   "title_zh": "百年京张文化、中关村文化与AI新文化融合叙事设计",
+   "mandatory": true,
+   "report_sections": [
+    "设计依据与资料清单",
+    "参照资料",
+    "风险、版权与合规说明",
+    "更新项目清单、实施政策与分期计划"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "「织学智环」概念叙事以铁路工业记忆与青年学习生活对话为底、以真实生活事实为底不歪曲；京张历史资源与导视系统、国际传播文案（STU·JZ 英文命名与双语包）在全文中落实；年度活动品牌与公示机制衔接文化叙事的持续传播。"
+  },
+  {
+   "requirement_id": "agent.6",
+   "title_zh": "一带全球AI创新活动体系与长期运营设计",
+   "mandatory": true,
+   "report_sections": [
+    "更新项目清单、实施政策与分期计划",
+    "指标体系、面积复算与合规矩阵"
+   ],
+   "geojson_layers": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/buildings.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metrics": [
+    "annual_program_count",
+    "building_footprint_area_sqm",
+    "building_unit_count",
+    "global_case_count",
+    "green_ratio"
+   ],
+   "drawings": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "visual_sections": [
+    "总览地图",
+    "核心指标",
+    "任务覆盖"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "DETERMINISTIC_VALIDATION",
+    "SPATIAL_REVIEW",
+    "VISUAL_PACKAGING",
+    "PROFESSIONAL_EVIDENCE"
+   ],
+   "evidence_summary_zh": "长期运营体系：学习马拉松周/技能工坊季/终身学习开放日年度活动品牌；开发者社区（开放接口与匿名运行数据共创）、场景开放运营、人才/企业后续转化路径；分时预约、空间使用公约、学习积分、联席议事、社群备案与导师结对、年度公示，机制均为概念建议。"
+  }
+ ]
+}

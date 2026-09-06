@@ -141,13 +141,19 @@
         "fp01_maintenance_cycle_count",
         "fp01_execution_form_count",
         "fp01_execution_required_field_count",
-        "fp01_execution_verified_external_record_count"
+        "fp01_execution_verified_external_record_count",
+        "fp01_rel00_synthetic_fixture_count",
+        "fp01_rel00_positive_transition_match_ratio",
+        "fp01_rel00_negative_control_block_ratio",
+        "fp01_rel00_external_evidence_credit_count"
       ],
       "source_ids": [
         "AGENT-TASKBOOK",
         "OPEN-CALL-PROJECT-STATEMENT",
         "SUBMISSION-INTAKE-PR-4017",
         "SUBMISSION-INTAKE-PR-4306",
+        "SUBMISSION-INTAKE-PR-4308",
+        "SUBMISSION-INTAKE-PR-4313",
         "NATIONAL-AI-APPLICATION-ORIENTATION-2025",
         "STATE-COUNCIL-AI-PLUS-2025",
         "NATIONAL-FIFTEENTH-FIVE-YEAR-AI-APPLICATION-2025",
@@ -160,6 +166,7 @@
         "CASE-PUNGGOL-ODP",
         "CASE-SIDEWALK-QUAYSIDE",
         "HIST-JINGZHANG-RAILWAY",
+        "HIST-JINGZHANG-FROM-LEARNING-TO-AUTONOMY",
         "HIST-JINGZHANG-PARK"
       ],
       "assumption_ids": [
@@ -182,6 +189,7 @@
         "A-FP01-EVIDENCE-READINESS-001",
         "A-FP01-DELIVERY-CONTROL-001",
         "A-FP01-EXECUTION-KIT-001",
+        "A-FP01-REL00-DESK-REPLAY-001",
         "A-AGENT-PARTICIPATION-METHOD-001"
       ],
       "self_check_ids": [
@@ -190,7 +198,7 @@
         "SPATIAL_REVIEW",
         "VISUAL_PACKAGING"
       ],
-      "evidence_summary_zh": "六组案例、十二场景、三项验证、五类用户、三处地标和长期运营机制均有独立证据；所有落地表述保持概念建议属性。V0.15将1:500至1:20四尺度、容量疏散、人员FTE、三档ROM成本运维、维护周期、退出储备、逐门备选和七类双语执行空表接入同一预可行性决策包；所有外部实际仍为null/0/HOLD。PR #4306只证明V0.14/V0.14.1问题发现、修复、复核、仓库intake接收与合并；96/100为咨询性Review Agent结果，不是正式评选、Gallery发布、采纳、实施、政府背书或世界首创。V0.15仍是未发布的本地候选版。",
+      "evidence_summary_zh": "六组案例、十二场景、三项验证、五类用户、三处地标和长期运营机制均有独立证据；所有落地表述保持概念建议属性。V0.17完整保留1:500至1:20四尺度、容量疏散、人员FTE、三档ROM成本运维、维护周期、退出储备、逐门备选和七类双语执行空表，并真实运行REL00参与者侧合成回放：4类正向状态转换与8类故障注入均由标准库脚本复算；这只证明接口一致性，外部实际仍为null/0/HOLD。PR #4306、#4308和#4313记录前序修复、咨询性评审、仓库intake与合并；96/100或100/100均不是正式评委得分，也不证明Gallery发布、采纳、实施、政府背书、世界首创或全球领先。V0.17仍是未发布的本地候选版。",
       "evidence_files": [
         "visual/assets/agent-participation-ledger.json",
         "visual/assets/verify-agent-participation-ledger.js",
@@ -209,7 +217,10 @@
         "visual/assets/fp01-execution-kit.json",
         "visual/assets/verify-fp01-execution-kit.js",
         "assets/media/fp01-execution-workbook.md",
-        "assets/figures/technical-delivery-sheet.png"
+        "assets/figures/technical-delivery-sheet.png",
+        "visual/assets/fp01-rel00-desk-replay.json",
+        "visual/assets/verify-fp01-rel00-desk-replay.js",
+        "assets/figures/fp01-implementation-verdict.png"
       ]
     },
     {

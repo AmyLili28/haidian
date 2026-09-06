@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "publisher": "Beijing Municipal Commission of Planning and Natural Resources, Haidian Branch",
+      "retrieved_at": "2026-08-31",
+      "usage": "Open-call scope, tasks, named key areas and deliverables.",
+      "limitations": "Provides approximate scopes and task requirements, not statutory GIS redlines or a complete existing-condition survey."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "publisher": "open-city-ai/haidian public repository",
+      "retrieved_at": "2026-08-31",
+      "usage": "Agent-facing tasks, package contract and review requirements.",
+      "limitations": "A cleared taskbook summary; conceptual Agent outputs remain subject to human and professional review."
+    },
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "publisher": "open-city-ai/haidian public repository",
+      "retrieved_at": "2026-08-31",
+      "usage": "Machine-readable task, standards, ranges and schemas.",
+      "limitations": "The package does not supply every statutory, ownership, building, utility or operating input needed for detailed calculation."
+    },
+    {
+      "id": "USER-CONFIRMED-BOUNDARY-20260826",
+      "path": "geometry/site_boundary.geojson",
+      "source_type": "user_provided_cleared",
+      "publisher": "Participant working study",
+      "retrieved_at": "2026-08-31",
+      "usage": "Project working boundary derived from the archived user-confirmed Shapefile; not an official redline.",
+      "method": "Announcement extents, road centrelines, named anchors, complete parcels and manual map calibration.",
+      "limitations": "Suitable for consistent concept design and package recalculation only; not for statutory control or engineering setting-out."
+    },
+    {
+      "id": "JINGZHANG-RESEARCH-PACK",
+      "path": "assets/figures/",
+      "source_type": "user_provided_cleared",
+      "publisher": "Participant working study",
+      "retrieved_at": "2026-08-31",
+      "usage": "Project research, spatial diagrams, prototype studies, mechanism diagrams, brand studies and conceptual images prepared from public materials, site photographs and satellite imagery.",
+      "limitations": "Generated and interpretive figures explain competition design intent. They are not survey evidence, statutory plans, construction drawings, confirmed event schedules, built-project photographs or proof of existing partnerships."
+    }
+  ]
+}

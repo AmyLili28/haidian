@@ -1,0 +1,450 @@
+{
+  "schema_version": "0.1.0",
+  "standards": [
+    {
+      "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+      "requirement_zh": "公告 1.3、1.4、1.5 对项目目的、三层范围、设计任务和成果深度提出主控要求。",
+      "professional_dimension": "规划",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "0. 设计依据与资料清单（Design Basis & Source Inventory）",
+        "1. 三层范围工作框架（Three-Level Scope）",
+        "2. 统筹研究范围产业与未来城市研究"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "M-AREA-RESEARCH",
+        "M-AREA-SITE",
+        "M-AREA-KEY",
+        "M-AREA-KEY-001",
+        "M-AREA-KEY-002",
+        "M-AREA-KEY-003",
+        "M-GREEN-RATIO",
+        "M-PUBLIC-SPACE-LEN",
+        "M-UPDATE-AREA",
+        "M-AI-ZONE-COUNT",
+        "M-ECOSYSTEM-CASES",
+        "M-SCENARIO-CARDS",
+        "M-PERSONAS",
+        "M-PILGRIMAGE",
+        "M-FAR-PROXY",
+        "M-TRANSIT-COVERAGE"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-2026-HAIDIAN-1X1",
+        "SRC-2017-MOHURD-URBAN-DESIGN-MEASURES",
+        "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "SRC-2023-MNR-LAND-USE-CLASSIFICATION",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-PROVISIONAL-BOUNDARIES-2026",
+        "SRC-OSM-COPYRIGHT"
+      ],
+      "assumption_ids": [
+        "A-CONTROLS-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+    },
+    {
+      "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+      "requirement_zh": "面向智能体任务书对共创原则、定位、功能、六项智能体任务、表达完整性和统一边界条款提出要求。",
+      "professional_dimension": "AI共创与运营",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "0. 设计依据与资料清单（Design Basis & Source Inventory）",
+        "1. 三层范围工作框架（Three-Level Scope）",
+        "2. 统筹研究范围产业与未来城市研究"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "M-AREA-RESEARCH",
+        "M-AREA-SITE",
+        "M-AREA-KEY",
+        "M-AREA-KEY-001",
+        "M-AREA-KEY-002",
+        "M-AREA-KEY-003",
+        "M-GREEN-RATIO",
+        "M-PUBLIC-SPACE-LEN",
+        "M-UPDATE-AREA",
+        "M-AI-ZONE-COUNT",
+        "M-ECOSYSTEM-CASES",
+        "M-SCENARIO-CARDS",
+        "M-PERSONAS",
+        "M-PILGRIMAGE",
+        "M-FAR-PROXY",
+        "M-TRANSIT-COVERAGE"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-2026-HAIDIAN-1X1",
+        "SRC-2017-MOHURD-URBAN-DESIGN-MEASURES",
+        "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "SRC-2023-MNR-LAND-USE-CLASSIFICATION",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-PROVISIONAL-BOUNDARIES-2026",
+        "SRC-OSM-COPYRIGHT"
+      ],
+      "assumption_ids": [
+        "A-CONTROLS-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+    },
+    {
+      "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+      "requirement_zh": "城市设计应落实规划、指导建筑设计、塑造城市特色风貌，并统筹平面和立体空间。",
+      "professional_dimension": "城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "0. 设计依据与资料清单（Design Basis & Source Inventory）",
+        "1. 三层范围工作框架（Three-Level Scope）",
+        "2. 统筹研究范围产业与未来城市研究"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "M-AREA-RESEARCH",
+        "M-AREA-SITE",
+        "M-AREA-KEY",
+        "M-AREA-KEY-001",
+        "M-AREA-KEY-002",
+        "M-AREA-KEY-003",
+        "M-GREEN-RATIO",
+        "M-PUBLIC-SPACE-LEN",
+        "M-UPDATE-AREA",
+        "M-AI-ZONE-COUNT",
+        "M-ECOSYSTEM-CASES",
+        "M-SCENARIO-CARDS",
+        "M-PERSONAS",
+        "M-PILGRIMAGE",
+        "M-FAR-PROXY",
+        "M-TRANSIT-COVERAGE"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-2026-HAIDIAN-1X1",
+        "SRC-2017-MOHURD-URBAN-DESIGN-MEASURES",
+        "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "SRC-2023-MNR-LAND-USE-CLASSIFICATION",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-PROVISIONAL-BOUNDARIES-2026",
+        "SRC-OSM-COPYRIGHT"
+      ],
+      "assumption_ids": [
+        "A-CONTROLS-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+    },
+    {
+      "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+      "requirement_zh": "控规深度相关结论必须区分已知控制条件、设计建议和待确认事项。",
+      "professional_dimension": "控规实施",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "0. 设计依据与资料清单（Design Basis & Source Inventory）",
+        "1. 三层范围工作框架（Three-Level Scope）",
+        "2. 统筹研究范围产业与未来城市研究"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "M-AREA-RESEARCH",
+        "M-AREA-SITE",
+        "M-AREA-KEY",
+        "M-AREA-KEY-001",
+        "M-AREA-KEY-002",
+        "M-AREA-KEY-003",
+        "M-GREEN-RATIO",
+        "M-PUBLIC-SPACE-LEN",
+        "M-UPDATE-AREA",
+        "M-AI-ZONE-COUNT",
+        "M-ECOSYSTEM-CASES",
+        "M-SCENARIO-CARDS",
+        "M-PERSONAS",
+        "M-PILGRIMAGE",
+        "M-FAR-PROXY",
+        "M-TRANSIT-COVERAGE"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-2026-HAIDIAN-1X1",
+        "SRC-2017-MOHURD-URBAN-DESIGN-MEASURES",
+        "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "SRC-2023-MNR-LAND-USE-CLASSIFICATION",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-PROVISIONAL-BOUNDARIES-2026",
+        "SRC-OSM-COPYRIGHT"
+      ],
+      "assumption_ids": [
+        "A-CONTROLS-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+    },
+    {
+      "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
+      "requirement_zh": "用地表达采用可校验用地分类和 land_use_code，不使用自造分类替代。",
+      "professional_dimension": "用地分类",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "0. 设计依据与资料清单（Design Basis & Source Inventory）",
+        "1. 三层范围工作框架（Three-Level Scope）",
+        "2. 统筹研究范围产业与未来城市研究"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "M-AREA-RESEARCH",
+        "M-AREA-SITE",
+        "M-AREA-KEY",
+        "M-AREA-KEY-001",
+        "M-AREA-KEY-002",
+        "M-AREA-KEY-003",
+        "M-GREEN-RATIO",
+        "M-PUBLIC-SPACE-LEN",
+        "M-UPDATE-AREA",
+        "M-AI-ZONE-COUNT",
+        "M-ECOSYSTEM-CASES",
+        "M-SCENARIO-CARDS",
+        "M-PERSONAS",
+        "M-PILGRIMAGE",
+        "M-FAR-PROXY",
+        "M-TRANSIT-COVERAGE"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-2026-HAIDIAN-1X1",
+        "SRC-2017-MOHURD-URBAN-DESIGN-MEASURES",
+        "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "SRC-2023-MNR-LAND-USE-CLASSIFICATION",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-PROVISIONAL-BOUNDARIES-2026",
+        "SRC-OSM-COPYRIGHT"
+      ],
+      "assumption_ids": [
+        "A-CONTROLS-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+    },
+    {
+      "standard_id": "MOHURD-ARCH-DESIGN-DEPTH-2016",
+      "requirement_zh": "建筑专业深度规定待取得官方文件后启用；当前仅作为缺资料清单和深化提醒。",
+      "professional_dimension": "建筑深度",
+      "mandatory": false,
+      "review_status": "data_gap",
+      "proposal_sections": [
+        "0. 设计依据与资料清单（Design Basis & Source Inventory）",
+        "1. 三层范围工作框架（Three-Level Scope）",
+        "2. 统筹研究范围产业与未来城市研究"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "M-AREA-RESEARCH",
+        "M-AREA-SITE",
+        "M-AREA-KEY",
+        "M-AREA-KEY-001",
+        "M-AREA-KEY-002",
+        "M-AREA-KEY-003",
+        "M-GREEN-RATIO",
+        "M-PUBLIC-SPACE-LEN",
+        "M-UPDATE-AREA",
+        "M-AI-ZONE-COUNT",
+        "M-ECOSYSTEM-CASES",
+        "M-SCENARIO-CARDS",
+        "M-PERSONAS",
+        "M-PILGRIMAGE",
+        "M-FAR-PROXY",
+        "M-TRANSIT-COVERAGE"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-2026-HAIDIAN-1X1",
+        "SRC-2017-MOHURD-URBAN-DESIGN-MEASURES",
+        "SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "SRC-2023-MNR-LAND-USE-CLASSIFICATION",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-PROVISIONAL-BOUNDARIES-2026",
+        "SRC-OSM-COPYRIGHT"
+      ],
+      "assumption_ids": [
+        "A-CONTROLS-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+    },
+    {
+      "standard_id": "PROJECT-REGIONAL-INDUSTRY-SYNERGY",
+      "requirement_zh": "区域协同性（regional_synergy）要求体现与北纬社区、未来科学城、怀柔科学城、经开区及京津冀的创新协同；产业支撑度（industry_support）要求提出 AI 创新生态、要素保障、技术测试和场景开放机制；数据治理架构支撑跨场景基础设施复用。",
+      "professional_dimension": "AI共创与运营",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "2.5 北纬社区协同：与中关村 AI 北纬社区的职能分工",
+        "5.6 跨场景基础设施复用：共享层 × 12 张场景卡",
+        "5.7 数据治理架构：采集—确权—分级—脱敏—共享—审计—回流"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "M-ECOSYSTEM-CASES",
+        "M-SCENARIO-CARDS",
+        "M-REUSE-LAYERS",
+        "M-REUSE-RATIO",
+        "M-DATA-TIERS"
+      ],
+      "source_ids": [
+        "SRC-2026-BJHD-AI-BEIWEI",
+        "SRC-2026-BJHD-AI-OPC",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK"
+      ],
+      "assumption_ids": [
+        "A-CONTROLS-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "本条标准响应通过 proposal.md §2.5（北纬社区职能分工与协同机制）、§5.6（共享基础设施层 × 12 场景卡复用矩阵）、§5.7（数据治理七段闭环与四级分级）正文引用，以及 metrics.json 的 M-REUSE-LAYERS / M-REUSE-RATIO / M-DATA-TIERS 共同证明。"
+    }
+  ]
+}

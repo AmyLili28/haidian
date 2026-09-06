@@ -1,0 +1,482 @@
+{
+  "type": "FeatureCollection",
+  "name": "public_ground_design",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ZZY-PUB-01",
+      "properties": {
+        "id": "ZZY-PUB-01",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "众智园公共花园基底",
+        "name_en": "Zhongzhiyuan Public Garden Ground",
+        "public_space_type": "garden_innovation_ground",
+        "area_sqm_declared": 1255416.036
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34387317210751,
+              40.009670532185694
+            ],
+            [
+              116.3437380589548,
+              40.02377676471345
+            ],
+            [
+              116.35312630476193,
+              40.023829553082635
+            ],
+            [
+              116.35325948536557,
+              40.009723294341946
+            ],
+            [
+              116.34387317210751,
+              40.009670532185694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "F1",
+      "properties": {
+        "id": "F1",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "AI测试花园",
+        "name_en": "AI Test Garden",
+        "public_space_type": "flagship_reversible_test_garden",
+        "non_ai_fallback": true,
+        "reversible_ai_layer": true,
+        "area_sqm_declared": 188784.366
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34695594856653,
+              40.01451402734454
+            ],
+            [
+              116.34690286723301,
+              40.020082279949676
+            ],
+            [
+              116.35047914826606,
+              40.020102380279184
+            ],
+            [
+              116.35053193898254,
+              40.01453412373354
+            ],
+            [
+              116.34695594856653,
+              40.01451402734454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "F2",
+      "properties": {
+        "id": "F2",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "原点共享街旗舰场景",
+        "name_en": "Origin Shared Street Flagship",
+        "public_space_type": "shared_street_ground",
+        "non_ai_fallback": true,
+        "human_service_fallback": true,
+        "area_sqm_declared": 22288.192
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35216240715022,
+              39.98819896341755
+            ],
+            [
+              116.34284302673858,
+              39.98814649878585
+            ],
+            [
+              116.34284061040722,
+              39.98839865624524
+            ],
+            [
+              116.35216002507985,
+              39.988451121342834
+            ],
+            [
+              116.35216240715022,
+              39.98819896341755
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ORG-PUB-01",
+      "properties": {
+        "id": "ORG-PUB-01",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "青年共享院落组",
+        "name_en": "Youth Shared Courtyard Cluster",
+        "public_space_type": "shared_courtyards",
+        "area_sqm_declared": 110742.137
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                116.34640548701871,
+                39.98688405833781
+              ],
+              [
+                116.34818057379844,
+                39.98689405454745
+              ],
+              [
+                116.34819969814734,
+                39.9848817758928
+              ],
+              [
+                116.34642466343954,
+                39.98487178039152
+              ],
+              [
+                116.34640548701871,
+                39.98688405833781
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.35157414284424,
+                39.991742814013016
+              ],
+              [
+                116.35159507359486,
+                39.98952930782022
+              ],
+              [
+                116.34970897016727,
+                39.98951874092873
+              ],
+              [
+                116.34968797854293,
+                39.99173224629779
+              ],
+              [
+                116.35157414284424,
+                39.991742814013016
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                116.34502612537543,
+                39.99190723377696
+              ],
+              [
+                116.34504726760558,
+                39.989693730531215
+              ],
+              [
+                116.343272109472,
+                39.98968368575619
+              ],
+              [
+                116.3432509099488,
+                39.99189718821891
+              ],
+              [
+                116.34502612537543,
+                39.99190723377696
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-PUB-01",
+      "properties": {
+        "id": "DZS-PUB-01",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "站前换乘客厅",
+        "name_en": "Station Arrival Room",
+        "public_space_type": "arrival",
+        "area_sqm_declared": 31645.565
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34720099597183,
+              39.94620330985194
+            ],
+            [
+              116.34718750760135,
+              39.947622367026995
+            ],
+            [
+              116.34953737836794,
+              39.947635575233825
+            ],
+            [
+              116.34955081819392,
+              39.946216517398526
+            ],
+            [
+              116.34720099597183,
+              39.94620330985194
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-PUB-02",
+      "properties": {
+        "id": "DZS-PUB-02",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "商业生活客厅",
+        "name_en": "Commercial Living Room",
+        "public_space_type": "commercial_living",
+        "area_sqm_declared": 29008.435
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34329593605285,
+              39.94499864445398
+            ],
+            [
+              116.3432834983198,
+              39.94629944613345
+            ],
+            [
+              116.34563332199521,
+              39.94631273310543
+            ],
+            [
+              116.34564571523207,
+              39.94501193081714
+            ],
+            [
+              116.34329593605285,
+              39.94499864445398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-PUB-03",
+      "properties": {
+        "id": "DZS-PUB-03",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "产业交流客厅",
+        "name_en": "Industry Exchange Room",
+        "public_space_type": "industry_exchange",
+        "area_sqm_declared": 29008.435
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3511073116941,
+              39.947289589711446
+            ],
+            [
+              116.35109502090258,
+              39.94859039290073
+            ],
+            [
+              116.35344492661083,
+              39.94860352217081
+            ],
+            [
+              116.35345717290078,
+              39.94730271837994
+            ],
+            [
+              116.3511073116941,
+              39.947289589711446
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-PUB-04",
+      "properties": {
+        "id": "DZS-PUB-04",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "社区日常客厅",
+        "name_en": "Community Daily Room",
+        "public_space_type": "community",
+        "area_sqm_declared": 29008.435
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3435321561652,
+              39.947601726266626
+            ],
+            [
+              116.34351972176013,
+              39.94890252742187
+            ],
+            [
+              116.34586963460991,
+              39.948915810319725
+            ],
+            [
+              116.34588202451299,
+              39.94761500855586
+            ],
+            [
+              116.3435321561652,
+              39.947601726266626
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DZS-PUB-05",
+      "properties": {
+        "id": "DZS-PUB-05",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "再生更新客厅",
+        "name_en": "Adaptive Reuse Room",
+        "public_space_type": "adaptive_reuse",
+        "area_sqm_declared": 29228.195
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35086856993645,
+              39.94492303068661
+            ],
+            [
+              116.35085683450149,
+              39.94616470691427
+            ],
+            [
+              116.35333720285148,
+              39.94617856859381
+            ],
+            [
+              116.35334889345312,
+              39.94493689175985
+            ],
+            [
+              116.35086856993645,
+              39.94492303068661
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "F3",
+      "properties": {
+        "id": "F3",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺四象限缝合节点",
+        "name_en": "Dazhongsi 4Q Crossing",
+        "public_space_type": "flagship_station_crossing",
+        "non_ai_fallback": true,
+        "human_service_fallback": true,
+        "area_sqm_declared": 22562.116
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34759207124189,
+              39.94626464181071
+            ],
+            [
+              116.3475797143188,
+              39.9475654443222
+            ],
+            [
+              116.3494073900755,
+              39.94757571529271
+            ],
+            [
+              116.34941971238818,
+              39.94627491231059
+            ],
+            [
+              116.34759207124189,
+              39.94626464181071
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

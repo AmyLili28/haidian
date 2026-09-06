@@ -1,0 +1,9 @@
+{
+  "agent_id": "eeeedmond-bit",
+  "agent_name": "Codex 与 eeeedmond",
+  "role": "ai_agent_submission_author",
+  "model": "OpenAI Codex",
+  "model_family": "gpt",
+  "model_detail": "Codex desktop agent; visual and document production assisted by OpenAI tools",
+  "generated_with": "human-AI collaborative urban design workflow"
+}

@@ -1,0 +1,400 @@
+{
+  "type": "FeatureCollection",
+  "name": "land_use",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LU-001",
+      "properties": {
+        "id": "LU-001",
+        "layer": "LAND_USE",
+        "land_use_type": "mixed_use",
+        "name_zh": "混合用地-众智讲堂",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34484819278087,
+              39.997322059060124
+            ],
+            [
+              116.34113861172393,
+              39.99730103000567
+            ],
+            [
+              116.34169999999999,
+              40.00600000000001
+            ],
+            [
+              116.34270000000001,
+              40.0265
+            ],
+            [
+              116.34456915046535,
+              40.0265000865494
+            ],
+            [
+              116.34484819278087,
+              39.997322059060124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-002",
+      "properties": {
+        "id": "LU-002",
+        "layer": "LAND_USE",
+        "land_use_type": "research",
+        "name_zh": "研发用地-众智创新簇",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35021104601552,
+              39.99735225034987
+            ],
+            [
+              116.34484819278087,
+              39.997322059060124
+            ],
+            [
+              116.34456915046535,
+              40.0265000865494
+            ],
+            [
+              116.34993457355816,
+              40.026500167495364
+            ],
+            [
+              116.35021104601552,
+              39.99735225034987
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-003",
+      "properties": {
+        "id": "LU-003",
+        "layer": "LAND_USE",
+        "land_use_type": "research",
+        "name_zh": "研发用地-众智创新簇",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35021104601552,
+              39.99735225034987
+            ],
+            [
+              116.34993457355816,
+              40.026500167495364
+            ],
+            [
+              116.3553,
+              40.0265
+            ],
+            [
+              116.35370378140554,
+              39.99737177997888
+            ],
+            [
+              116.35021104601552,
+              39.99735225034987
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-004",
+      "properties": {
+        "id": "LU-004",
+        "layer": "LAND_USE",
+        "land_use_type": "campus",
+        "name_zh": "校园创新用地-原点社区",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34484819278087,
+              39.997322059060124
+            ],
+            [
+              116.34512692870895,
+              39.96813338216284
+            ],
+            [
+              116.33989166606412,
+              39.968103687635235
+            ],
+            [
+              116.3397,
+              39.975
+            ],
+            [
+              116.34113861172393,
+              39.99730103000567
+            ],
+            [
+              116.34484819278087,
+              39.997322059060124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-005",
+      "properties": {
+        "id": "LU-005",
+        "layer": "LAND_USE",
+        "land_use_type": "green_corridor",
+        "name_zh": "辩论走廊绿地",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34512692870895,
+              39.96813338216284
+            ],
+            [
+              116.34484819278087,
+              39.997322059060124
+            ],
+            [
+              116.35021104601552,
+              39.99735225034987
+            ],
+            [
+              116.3504875006973,
+              39.96816354243278
+            ],
+            [
+              116.34512692870895,
+              39.96813338216284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-006",
+      "properties": {
+        "id": "LU-006",
+        "layer": "LAND_USE",
+        "land_use_type": "residential",
+        "name_zh": "生活社区用地-原点外围",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3504875006973,
+              39.96816354243278
+            ],
+            [
+              116.35021104601552,
+              39.99735225034987
+            ],
+            [
+              116.35370378140554,
+              39.99737177997888
+            ],
+            [
+              116.3533,
+              39.989999999999995
+            ],
+            [
+              116.3550449694261,
+              39.968188989207874
+            ],
+            [
+              116.3504875006973,
+              39.96816354243278
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-007",
+      "properties": {
+        "id": "LU-007",
+        "layer": "LAND_USE",
+        "land_use_type": "commercial",
+        "name_zh": "商业产业用地-大钟寺",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34512692870895,
+              39.96813338216284
+            ],
+            [
+              116.34540472820801,
+              39.93900020077877
+            ],
+            [
+              116.34070000000001,
+              39.93899999999999
+            ],
+            [
+              116.33989166606412,
+              39.968103687635235
+            ],
+            [
+              116.34512692870895,
+              39.96813338216284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-008",
+      "properties": {
+        "id": "LU-008",
+        "layer": "LAND_USE",
+        "land_use_type": "public_experience",
+        "name_zh": "公共体验用地-场景市场",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34512692870895,
+              39.96813338216284
+            ],
+            [
+              116.3504875006973,
+              39.96816354243278
+            ],
+            [
+              116.35076331138868,
+              39.93900019689528
+            ],
+            [
+              116.34540472820801,
+              39.93900020077877
+            ],
+            [
+              116.34512692870895,
+              39.96813338216284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-009",
+      "properties": {
+        "id": "LU-009",
+        "layer": "LAND_USE",
+        "land_use_type": "commercial",
+        "name_zh": "商业产业用地-大钟寺",
+        "source_type": "agent_generated_design",
+        "confidence": "low",
+        "geometry_role": "provisional_constraint",
+        "official_boundary": false,
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3504875006973,
+              39.96816354243278
+            ],
+            [
+              116.3550449694261,
+              39.968188989207874
+            ],
+            [
+              116.3553,
+              39.965
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.35076331138868,
+              39.93900019689528
+            ],
+            [
+              116.3504875006973,
+              39.96816354243278
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

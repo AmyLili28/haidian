@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "verifier": "verify-v16.js",
+  "source": "visual/assets/v16-communication-audit.json",
+  "source_sha256": "a72909480a7cc7ad10116e34864440e659d378f0667f5d1613a4db5f09197023",
+  "result": "PASS",
+  "checked": {
+    "reader_layers": 3,
+    "bilingual_checkpoints": 12,
+    "paired_checkpoints": 12,
+    "public_fixed_figures": 2,
+    "technical_companion_figures": 2,
+    "public_body_floor_canvas_px": 20
+  },
+  "boundary": "This is a participant-controlled source-pair and layout audit. It does not certify independent human translation, WCAG conformance, print accessibility, field performance, permission, appointment or professional sign-off."
+}

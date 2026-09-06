@@ -1,0 +1,320 @@
+{
+  "schema_version": "0.1.0",
+  "standards": [
+    {
+      "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+      "requirement_zh": "公告1.3/1.4/1.5对目的、范围、任务与深度提出主控要求。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「活力智环（FIT·JZ · 全民健身与智慧体育设施网络）」构建沿京张AI创新带的全民健身专项概念（对应公开任务书体育设施与健康生活维度、青年友好公共空间 track 运动维度，以及全民健身公开政策方向）：以「一心一环一角」组织体育设施网络，「全民健身中心」为园区级综合体育服务节点（室内场馆、体质监测、运动康复服务意向，众智园侧）、「智慧步道环」为沿绿带组织的智慧健身步道与户外运动环（运动数据匿名统计、里程打卡、健身指导节点，AI原点社区侧）、「社区运动角」为嵌入式社区体育设施点（健身器材、球类场地、老年与儿童运动区，大钟寺侧），三节点沿京张绿带组织连续运动动线；五类AI+场景（运动处方AI、场馆预约AI、体质监测AI、赛事组局AI、安全监测AI）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控（不进行个体识别式追踪）；要素机制均为概念建议：场馆分时共享、运动积分、社会体育指导员轮值、赛事活动报备、年度开放运营公示；对标案例（全民健身场地设施建设公开政策方向、日本社区综合体育俱乐部、新加坡ActiveSG公开体系、纽约公园跑步道公开经验）仅按公开渠道信息概述；交通慢行优先、蓝绿空间低干预融合布置，三项formal核心指标（site_area_sqm、green_ratio、public_space_ratio）以本包几何复算、面积以官方文本口径为底，分期实施+年度复算与公示计划。全部为概念建议、参考方案，不给出容积率、建筑高度、具体拆改留、场馆规模、运动量、投资测算或工程实施结论，不编造任何官方数据、场馆数量、参与人次或政策承诺，不把设想写成已确定安排，基于 provisional 边界，官方数据发布后复算。"
+    },
+    {
+      "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+      "requirement_zh": "任务书对三大定位、五大功能、三区两翼、六项任务与边界条款提出要求。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「活力智环（FIT·JZ · 全民健身与智慧体育设施网络）」构建沿京张AI创新带的全民健身专项概念（对应公开任务书体育设施与健康生活维度、青年友好公共空间 track 运动维度，以及全民健身公开政策方向）：以「一心一环一角」组织体育设施网络，「全民健身中心」为园区级综合体育服务节点（室内场馆、体质监测、运动康复服务意向，众智园侧）、「智慧步道环」为沿绿带组织的智慧健身步道与户外运动环（运动数据匿名统计、里程打卡、健身指导节点，AI原点社区侧）、「社区运动角」为嵌入式社区体育设施点（健身器材、球类场地、老年与儿童运动区，大钟寺侧），三节点沿京张绿带组织连续运动动线；五类AI+场景（运动处方AI、场馆预约AI、体质监测AI、赛事组局AI、安全监测AI）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控（不进行个体识别式追踪）；要素机制均为概念建议：场馆分时共享、运动积分、社会体育指导员轮值、赛事活动报备、年度开放运营公示；对标案例（全民健身场地设施建设公开政策方向、日本社区综合体育俱乐部、新加坡ActiveSG公开体系、纽约公园跑步道公开经验）仅按公开渠道信息概述；交通慢行优先、蓝绿空间低干预融合布置，三项formal核心指标（site_area_sqm、green_ratio、public_space_ratio）以本包几何复算、面积以官方文本口径为底，分期实施+年度复算与公示计划。全部为概念建议、参考方案，不给出容积率、建筑高度、具体拆改留、场馆规模、运动量、投资测算或工程实施结论，不编造任何官方数据、场馆数量、参与人次或政策承诺，不把设想写成已确定安排，基于 provisional 边界，官方数据发布后复算。"
+    },
+    {
+      "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+      "requirement_zh": "城市设计应落实规划、指导建筑设计、塑造特色风貌并统筹立体空间。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「活力智环（FIT·JZ · 全民健身与智慧体育设施网络）」构建沿京张AI创新带的全民健身专项概念（对应公开任务书体育设施与健康生活维度、青年友好公共空间 track 运动维度，以及全民健身公开政策方向）：以「一心一环一角」组织体育设施网络，「全民健身中心」为园区级综合体育服务节点（室内场馆、体质监测、运动康复服务意向，众智园侧）、「智慧步道环」为沿绿带组织的智慧健身步道与户外运动环（运动数据匿名统计、里程打卡、健身指导节点，AI原点社区侧）、「社区运动角」为嵌入式社区体育设施点（健身器材、球类场地、老年与儿童运动区，大钟寺侧），三节点沿京张绿带组织连续运动动线；五类AI+场景（运动处方AI、场馆预约AI、体质监测AI、赛事组局AI、安全监测AI）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控（不进行个体识别式追踪）；要素机制均为概念建议：场馆分时共享、运动积分、社会体育指导员轮值、赛事活动报备、年度开放运营公示；对标案例（全民健身场地设施建设公开政策方向、日本社区综合体育俱乐部、新加坡ActiveSG公开体系、纽约公园跑步道公开经验）仅按公开渠道信息概述；交通慢行优先、蓝绿空间低干预融合布置，三项formal核心指标（site_area_sqm、green_ratio、public_space_ratio）以本包几何复算、面积以官方文本口径为底，分期实施+年度复算与公示计划。全部为概念建议、参考方案，不给出容积率、建筑高度、具体拆改留、场馆规模、运动量、投资测算或工程实施结论，不编造任何官方数据、场馆数量、参与人次或政策承诺，不把设想写成已确定安排，基于 provisional 边界，官方数据发布后复算。"
+    },
+    {
+      "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+      "requirement_zh": "本方案为概念建议,明确不替代控制性详细规划法定内容。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「活力智环（FIT·JZ · 全民健身与智慧体育设施网络）」构建沿京张AI创新带的全民健身专项概念（对应公开任务书体育设施与健康生活维度、青年友好公共空间 track 运动维度，以及全民健身公开政策方向）：以「一心一环一角」组织体育设施网络，「全民健身中心」为园区级综合体育服务节点（室内场馆、体质监测、运动康复服务意向，众智园侧）、「智慧步道环」为沿绿带组织的智慧健身步道与户外运动环（运动数据匿名统计、里程打卡、健身指导节点，AI原点社区侧）、「社区运动角」为嵌入式社区体育设施点（健身器材、球类场地、老年与儿童运动区，大钟寺侧），三节点沿京张绿带组织连续运动动线；五类AI+场景（运动处方AI、场馆预约AI、体质监测AI、赛事组局AI、安全监测AI）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控（不进行个体识别式追踪）；要素机制均为概念建议：场馆分时共享、运动积分、社会体育指导员轮值、赛事活动报备、年度开放运营公示；对标案例（全民健身场地设施建设公开政策方向、日本社区综合体育俱乐部、新加坡ActiveSG公开体系、纽约公园跑步道公开经验）仅按公开渠道信息概述；交通慢行优先、蓝绿空间低干预融合布置，三项formal核心指标（site_area_sqm、green_ratio、public_space_ratio）以本包几何复算、面积以官方文本口径为底，分期实施+年度复算与公示计划。全部为概念建议、参考方案，不给出容积率、建筑高度、具体拆改留、场馆规模、运动量、投资测算或工程实施结论，不编造任何官方数据、场馆数量、参与人次或政策承诺，不把设想写成已确定安排，基于 provisional 边界，官方数据发布后复算。"
+    },
+    {
+      "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
+      "requirement_zh": "用地分类引用国土空间调查规划用途管制用地用海分类指南的公开子集。",
+      "professional_dimension": "规划/城市设计",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio",
+        "landmark_count",
+        "scenario_node_count",
+        "industry_test_scenario_count",
+        "persona_count",
+        "global_case_count",
+        "annual_program_count",
+        "phase_count"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "DATA-SRC-AGENT-TASKBOOK-20260518",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-HEALTH-001",
+        "A-HEALTH-DATA-002",
+        "A-REGIONAL-003"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "以「活力智环（FIT·JZ · 全民健身与智慧体育设施网络）」构建沿京张AI创新带的全民健身专项概念（对应公开任务书体育设施与健康生活维度、青年友好公共空间 track 运动维度，以及全民健身公开政策方向）：以「一心一环一角」组织体育设施网络，「全民健身中心」为园区级综合体育服务节点（室内场馆、体质监测、运动康复服务意向，众智园侧）、「智慧步道环」为沿绿带组织的智慧健身步道与户外运动环（运动数据匿名统计、里程打卡、健身指导节点，AI原点社区侧）、「社区运动角」为嵌入式社区体育设施点（健身器材、球类场地、老年与儿童运动区，大钟寺侧），三节点沿京张绿带组织连续运动动线；五类AI+场景（运动处方AI、场馆预约AI、体质监测AI、赛事组局AI、安全监测AI）仅处理匿名聚合数据、关键决策人工复核、禁止过度监控（不进行个体识别式追踪）；要素机制均为概念建议：场馆分时共享、运动积分、社会体育指导员轮值、赛事活动报备、年度开放运营公示；对标案例（全民健身场地设施建设公开政策方向、日本社区综合体育俱乐部、新加坡ActiveSG公开体系、纽约公园跑步道公开经验）仅按公开渠道信息概述；交通慢行优先、蓝绿空间低干预融合布置，三项formal核心指标（site_area_sqm、green_ratio、public_space_ratio）以本包几何复算、面积以官方文本口径为底，分期实施+年度复算与公示计划。全部为概念建议、参考方案，不给出容积率、建筑高度、具体拆改留、场馆规模、运动量、投资测算或工程实施结论，不编造任何官方数据、场馆数量、参与人次或政策承诺，不把设想写成已确定安排，基于 provisional 边界，官方数据发布后复算。"
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "type": "FeatureCollection",
+  "name": "lived_line_scenario_and_honor_nodes",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "WO-01",
+      "properties": {
+        "id": "WO-01",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-01",
+        "name_zh": "入口寻路",
+        "name_en": "Entrance wayfinding",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3484194,
+          39.9448798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-02",
+      "properties": {
+        "id": "WO-02",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-02",
+        "name_zh": "晚间明暗与求助",
+        "name_en": "Night light, obstruction, and help",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3487107,
+          39.9517656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-03",
+      "properties": {
+        "id": "WO-03",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-03",
+        "name_zh": "步骑玩耍冲突",
+        "name_en": "Walking-cycling-play conflict",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.348766,
+          39.9586547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-04",
+      "properties": {
+        "id": "WO-04",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-04",
+        "name_zh": "遮阴饮水休息",
+        "name_en": "Shade, water, and rest",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.348582,
+          39.9655424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-05",
+      "properties": {
+        "id": "WO-05",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-05",
+        "name_zh": "厕所饮水状态",
+        "name_en": "Toilet and water status",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3481907,
+          39.9724252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-06",
+      "properties": {
+        "id": "WO-06",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-06",
+        "name_zh": "无障碍断点",
+        "name_en": "Accessibility break",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3476649,
+          39.9793028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-07",
+      "properties": {
+        "id": "WO-07",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-07",
+        "name_zh": "配送者停留补给",
+        "name_en": "Delivery-worker pause and support",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3471549,
+          39.986181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-08",
+      "properties": {
+        "id": "WO-08",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-08",
+        "name_zh": "亲子会合求助",
+        "name_en": "Family meeting and help",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3467708,
+          39.9930641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-09",
+      "properties": {
+        "id": "WO-09",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-09",
+        "name_zh": "安静与活动分区",
+        "name_en": "Quiet and activity zoning",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3466407,
+          39.9999525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-10",
+      "properties": {
+        "id": "WO-10",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-10",
+        "name_zh": "小商户测试对接",
+        "name_en": "Small-business trial interface",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3467453,
+          40.0068412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-11",
+      "properties": {
+        "id": "WO-11",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-11",
+        "name_zh": "活动排队拥堵",
+        "name_en": "Event queues and crowding",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3470442,
+          40.0137266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WO-12",
+      "properties": {
+        "id": "WO-12",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "work_order_id": "WO-12",
+        "name_zh": "报修闭环",
+        "name_en": "Repair closure",
+        "evidence_status": "pending_field_verification",
+        "gate": "non_ai_first"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3474468,
+          40.0206091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HONOR-01",
+      "properties": {
+        "id": "HONOR-01",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "name_zh": "有用失败车站",
+        "name_en": "Useful Failure Depot",
+        "node_type": "ai_pilgrimage_honor_node",
+        "evidence_status": "conceptual_recommendation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3485,
+          40.0167497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HONOR-02",
+      "properties": {
+        "id": "HONOR-02",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "name_zh": "开源零公里",
+        "name_en": "Open-Source Kilometer Zero",
+        "node_type": "ai_pilgrimage_honor_node",
+        "evidence_status": "conceptual_recommendation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3475,
+          39.9885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HONOR-03",
+      "properties": {
+        "id": "HONOR-03",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "layer": "SCENARIO_NODE",
+        "name_zh": "人类最终决定台",
+        "name_en": "Human Final Say Pavilion",
+        "node_type": "ai_pilgrimage_honor_node",
+        "evidence_status": "conceptual_recommendation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3485,
+          39.9469201
+        ]
+      }
+    }
+  ]
+}

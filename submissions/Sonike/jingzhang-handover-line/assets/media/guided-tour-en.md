@@ -105,9 +105,9 @@ For screen readers and plain-text environments. Each entry states four fixed thi
 
 ### F/05 The First Pilot Has a Recalculable Five-scale Technical Board (`assets/figures/metrics-evidence.en.png`)
 
-**Conclusion.** The P0 1:100 control plan, 1:50 capacity/queue/three-seat overlay, 1:20 two-face service interface, outside-in screening and restoration, together with reference capacity, roster, cost, maintenance/removal and four alternatives, now appear on one recalculable board; no alternative bypasses the eight gates.
+**Conclusion.** The P0 1:100 control plan, 1:50 capacity/queue/three-seat overlay, 1:20 two-face service interface, outside-in screening and restoration, together with reference capacity, roster, cost, maintenance/removal and four alternatives, now appear on one recalculable board. Its lower strip separately binds eleven implementation-plan classes and a six-step future cost method to the fallback gates; no alternative bypasses the eight gates.
 
-**Key numbers.** Five drawing scales from 1:500 to 1:20; four nested screens at 24→12→7.2→6 m; a 7.2 × 7.2 m control envelope, 6 × 6 m patch, eight public + three seats, queue stop at six, twelve removable component lines, approximately CNY 0.12–0.29m/90 days and CNY 0.30–0.65m/year, four alternatives and an untested four-hour removal target; field 0/12, documentary-gate receipts 0/12, quotations 0/3, budget and insurance null.
+**Key numbers.** Five drawing scales from 1:500 to 1:20; four nested screens at 24→12→7.2→6 m; a 7.2 × 7.2 m control envelope, 6 × 6 m patch, eight public + three seats, queue stop at six, twelve removable component lines, IP01–IP11 mapped 11/11, six CST01–CST06 method steps, approximately CNY 0.12–0.29m/90 days and CNY 0.30–0.65m/year, four alternatives and an untested four-hour removal target; field 0/12, implementation-class external receipts zero, documentary-gate receipts 0/12, quotations 0/3, budget and insurance null.
 
 **Provisional boundary.** Space, occupancy, rates and targets are participant concept-screening or sensitivity inputs. They touch no live service, use no personal information and provide no field, code, quotation or budget evidence.
 
@@ -117,7 +117,7 @@ For screen readers and plain-text environments. Each entry states four fixed thi
 
 **Conclusion.** Participant-controlled spatial screening, scaled drawings, projects, packages, modules, documentary gates, professional roles, conditional programme, unpriced quantities and handoff acceptance now form one transferable design-evidence chain; every action that depends on a real authorised party remains on HOLD.
 
-**Key numbers.** Four nested envelopes at 24 → 12 → 7.2 → 6 m; five drawings at 1:500, 1:200, 1:100, 1:50 and 1:20; four release states, nine projects, six delivery packages and eleven modules; all twelve documentary gates on HOLD with zero receipts; twelve unappointed role classes; an unstarted T00–T11 fifteen-week conditional programme; sixteen derived quantity lines with no formal rate or amount; twelve handoff indicators, eight judgeable from the package and four reserved for future field evidence.
+**Key numbers.** Four nested envelopes at 24 → 12 → 7.2 → 6 m; five drawings at 1:500, 1:200, 1:100, 1:50 and 1:20; four release states, nine projects, six delivery packages and eleven physical/operating modules; a separate IP01–IP11 map of eleven implementation-plan classes and six future CST01–CST06 cost steps; all twelve documentary gates on HOLD with zero receipts; twelve unappointed role classes; an unstarted T00–T11 fifteen-week conditional programme; sixteen derived quantity lines with no formal rate or amount; twelve handoff indicators, eight judgeable from the package and four reserved for future field evidence.
 
 **Provisional boundary.** The outer 24 m screen tests siting, rescue, conflict and adjacency only; it is neither a selected site nor a new-works extent. The inner dimensions are participant reference envelopes. Formal drawings, site, quantities and appointments await verification by future authorised professionals.
 

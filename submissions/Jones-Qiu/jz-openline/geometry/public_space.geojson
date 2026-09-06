@@ -1,0 +1,263 @@
+{
+  "type": "FeatureCollection",
+  "name": "public_space_interface_network",
+  "design_contract": {
+    "project_record_field": "project_record_id",
+    "root_field": "root_ids",
+    "gate_field": "evidence_gate",
+    "status_field": "concept_only",
+    "note": "Feature properties remain conceptual design attributes; geometry and area values are unchanged."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PUBLIC-001",
+      "properties": {
+        "id": "PUBLIC-001",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "众智园接口广场",
+        "name_en": "Zhongzhiyuan interface plaza",
+        "area_id": "zhongzhiyuan_ai_acceleration_area",
+        "node_code": "P-01",
+        "program": "public interface + scenario receipt point",
+        "phase": "phase_1",
+        "owner": "urban_service_hub_operator",
+        "metric": "public_space_ratio",
+        "trigger": "pilot scenario reaches human-safety and accessibility threshold",
+        "dependency": "public-space ownership and accessibility audit",
+        "area_sqm_declared": 151686.606,
+        "area_sqm_calculated": 151686.606
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.348,
+              40.012
+            ],
+            [
+              116.3512,
+              40.012
+            ],
+            [
+              116.3512,
+              40.017
+            ],
+            [
+              116.348,
+              40.017
+            ],
+            [
+              116.348,
+              40.012
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PUBLIC-002",
+      "properties": {
+        "id": "PUBLIC-002",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "原点社区邻里客厅",
+        "name_en": "Origin community living room",
+        "area_id": "beijing_ai_origin_community",
+        "node_code": "P-02",
+        "program": "public interface + scenario receipt point",
+        "phase": "phase_1",
+        "owner": "urban_service_hub_operator",
+        "metric": "public_space_ratio",
+        "trigger": "pilot scenario reaches human-safety and accessibility threshold",
+        "dependency": "public-space ownership and accessibility audit",
+        "area_sqm_declared": 165967.068,
+        "area_sqm_calculated": 165967.068
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3475,
+              39.986
+            ],
+            [
+              116.35,
+              39.986
+            ],
+            [
+              116.35,
+              39.993
+            ],
+            [
+              116.3475,
+              39.993
+            ],
+            [
+              116.3475,
+              39.986
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PUBLIC-003",
+      "properties": {
+        "id": "PUBLIC-003",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "大钟寺首发前厅",
+        "name_en": "Dazhongsi launch forecourt",
+        "area_id": "dazhongsi_ai_industry_cluster",
+        "node_code": "P-03",
+        "program": "public interface + scenario receipt point",
+        "phase": "phase_1",
+        "owner": "urban_service_hub_operator",
+        "metric": "public_space_ratio",
+        "trigger": "pilot scenario reaches human-safety and accessibility threshold",
+        "dependency": "public-space ownership and accessibility audit",
+        "area_sqm_declared": 189780.422,
+        "area_sqm_calculated": 189780.422
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.348,
+              39.949
+            ],
+            [
+              116.352,
+              39.949
+            ],
+            [
+              116.352,
+              39.954
+            ],
+            [
+              116.348,
+              39.954
+            ],
+            [
+              116.348,
+              39.949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PUBLIC-004",
+      "properties": {
+        "id": "PUBLIC-004",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "校园—社区共享台阶",
+        "name_en": "Campus-community shared steps",
+        "area_id": "beijing_ai_origin_community",
+        "node_code": "P-04",
+        "program": "public interface + scenario receipt point",
+        "phase": "phase_1",
+        "owner": "urban_service_hub_operator",
+        "metric": "public_space_ratio",
+        "trigger": "pilot scenario reaches human-safety and accessibility threshold",
+        "dependency": "public-space ownership and accessibility audit",
+        "area_sqm_declared": 187852.911,
+        "area_sqm_calculated": 187852.911
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.348,
+              39.958
+            ],
+            [
+              116.3502,
+              39.958
+            ],
+            [
+              116.3502,
+              39.967
+            ],
+            [
+              116.348,
+              39.967
+            ],
+            [
+              116.348,
+              39.958
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PUBLIC-005",
+      "properties": {
+        "id": "PUBLIC-005",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "name_zh": "城市观测台",
+        "name_en": "City observatory deck",
+        "area_id": "beijing_ai_origin_community",
+        "node_code": "P-05",
+        "program": "public interface + scenario receipt point",
+        "phase": "phase_1",
+        "owner": "urban_service_hub_operator",
+        "metric": "public_space_ratio",
+        "trigger": "pilot scenario reaches human-safety and accessibility threshold",
+        "dependency": "public-space ownership and accessibility audit",
+        "area_sqm_declared": 152713.89,
+        "area_sqm_calculated": 152713.89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.348,
+              39.975
+            ],
+            [
+              116.3503,
+              39.975
+            ],
+            [
+              116.3503,
+              39.982
+            ],
+            [
+              116.348,
+              39.982
+            ],
+            [
+              116.348,
+              39.975
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

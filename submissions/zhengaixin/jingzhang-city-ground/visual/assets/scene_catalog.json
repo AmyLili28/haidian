@@ -1,0 +1,354 @@
+{
+  "schema_version": "0.1-draft",
+  "design_principle": "AI augments a valid human-first urban space; it does not replace basic walking, accessibility, wayfinding, public service or public-space quality.",
+  "scenes": [
+    {
+      "id": "SCN-01",
+      "name_zh": "花园中的低扰动测试",
+      "name_en": "Low-impact Testing in the Garden",
+      "area": "zhongzhiyuan",
+      "spatial_objects": [
+        "F1",
+        "ZZY-PUB-01",
+        "ZZY-GRN-01"
+      ],
+      "users": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "urban_design_focus": [
+        "公共花园",
+        "可预约测试庭院",
+        "公众路径与测试路径分离"
+      ],
+      "ai_layer": [
+        "低速机器人",
+        "环境感知",
+        "测试状态提示"
+      ],
+      "time_pattern": "工作日非高峰测试；其他时段回归普通公共花园",
+      "seasonal_response": "夏季树荫与雨水花园；冬季保留向阳主步行线",
+      "non_ai_fallback": "设备关闭后，花园、步行、休息和研发共享首层继续正常使用",
+      "flagship": true,
+      "test_scenario": true
+    },
+    {
+      "id": "SCN-02",
+      "name_zh": "研发午间共享院",
+      "name_en": "R&D Lunch Courtyard",
+      "area": "zhongzhiyuan",
+      "spatial_objects": [
+        "ZZY-GF-01",
+        "ZZY-PUB-01"
+      ],
+      "users": [
+        "P1",
+        "P2"
+      ],
+      "urban_design_focus": [
+        "开放首层",
+        "半室外工作",
+        "午间休憩",
+        "小型交流"
+      ],
+      "ai_layer": [
+        "空间预约",
+        "环境舒适度提示"
+      ],
+      "time_pattern": "午间和傍晚使用最强",
+      "seasonal_response": "夏遮阴、冬向阳、风口避让",
+      "non_ai_fallback": "普通公告板和线下预约仍可使用"
+    },
+    {
+      "id": "SCN-03",
+      "name_zh": "蓝绿舒适步行",
+      "name_en": "Blue-Green Comfort Walk",
+      "area": "zhongzhiyuan",
+      "spatial_objects": [
+        "ZZY-GRN-01",
+        "ST-B-01"
+      ],
+      "users": [
+        "P1",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "urban_design_focus": [
+        "林荫慢行",
+        "雨水花园",
+        "连续座椅",
+        "蓝绿针脚"
+      ],
+      "ai_layer": [
+        "微气候提示",
+        "环境监测"
+      ],
+      "time_pattern": "全天",
+      "seasonal_response": "按季节调整遮阴、向阳与维护重点",
+      "non_ai_fallback": "路径、树荫、座椅本身即为完整服务"
+    },
+    {
+      "id": "SCN-04",
+      "name_zh": "原点共享街",
+      "name_en": "Origin Shared Street",
+      "area": "ai_origin",
+      "spatial_objects": [
+        "F2",
+        "ORG-MOB-01",
+        "ORG-GF-01"
+      ],
+      "users": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "urban_design_focus": [
+        "连续开放首层",
+        "无障碍主步行",
+        "树荫停留",
+        "骑行"
+      ],
+      "ai_layer": [
+        "公共信息",
+        "创业服务辅助",
+        "动态活动信息"
+      ],
+      "time_pattern": "早通勤—昼创新—晚社交—夜学习",
+      "seasonal_response": "门廊提供全年过渡空间",
+      "non_ai_fallback": "人工服务、静态导视和普通首层功能始终存在",
+      "flagship": true,
+      "test_scenario": true
+    },
+    {
+      "id": "SCN-05",
+      "name_zh": "夜间学习与开发者街角",
+      "name_en": "Night Learning & Developer Corner",
+      "area": "ai_origin",
+      "spatial_objects": [
+        "ORG-PUB-01",
+        "ORG-GF-01"
+      ],
+      "users": [
+        "P1",
+        "P2"
+      ],
+      "urban_design_focus": [
+        "夜间照明",
+        "共享院落",
+        "可坐可学空间",
+        "安静与活动分区"
+      ],
+      "ai_layer": [
+        "活动信息",
+        "空间预约"
+      ],
+      "time_pattern": "18:00–24:00为主要设计时段",
+      "seasonal_response": "冬季减少暴露式座席，增加门廊与室内外过渡",
+      "non_ai_fallback": "固定照明、公告与实体门牌可独立运行"
+    },
+    {
+      "id": "SCN-06",
+      "name_zh": "校园—城市开放门廊",
+      "name_en": "Campus–City Open Porch",
+      "area": "ai_origin",
+      "spatial_objects": [
+        "ST-C-01",
+        "ST-C-02",
+        "ORG-GF-01"
+      ],
+      "users": [
+        "P1",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "urban_design_focus": [
+        "分级开放",
+        "门廊",
+        "前场",
+        "可控慢行入口"
+      ],
+      "ai_layer": [
+        "访问信息",
+        "双语导视"
+      ],
+      "time_pattern": "按校园/园区实际开放时段",
+      "seasonal_response": "全天候门廊与避雨空间",
+      "non_ai_fallback": "静态门牌与人工门岗可独立工作"
+    },
+    {
+      "id": "SCN-07",
+      "name_zh": "低速配送服务湾",
+      "name_en": "Low-speed Delivery Service Bay",
+      "area": "ai_origin",
+      "spatial_objects": [
+        "ORG-MOB-01",
+        "ST-N-01"
+      ],
+      "users": [
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "urban_design_focus": [
+        "主步行净宽保护",
+        "建筑后勤入口",
+        "短时停靠",
+        "人机分流"
+      ],
+      "ai_layer": [
+        "低速配送设备"
+      ],
+      "time_pattern": "尽量避开早晚通勤高峰",
+      "seasonal_response": "冬季不占除雪后的有效步行空间",
+      "non_ai_fallback": "普通人工配送可使用同一服务湾"
+    },
+    {
+      "id": "SCN-08",
+      "name_zh": "大钟寺四象限无障碍换乘",
+      "name_en": "Dazhongsi 4Q Accessible Transfer",
+      "area": "dazhongsi",
+      "spatial_objects": [
+        "F3",
+        "DZS-MOB-01",
+        "DZS-PUB-01"
+      ],
+      "users": [
+        "P1",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "urban_design_focus": [
+        "站口识别",
+        "连续过街",
+        "无障碍",
+        "骑行停车",
+        "等候空间"
+      ],
+      "ai_layer": [
+        "动态换乘提示",
+        "无障碍路径辅助"
+      ],
+      "time_pattern": "全天，早晚高峰优先人流",
+      "seasonal_response": "冬季重点保证清雪、避风、连续照明",
+      "non_ai_fallback": "静态导视、无障碍路径和人工服务独立存在",
+      "flagship": true,
+      "test_scenario": true
+    },
+    {
+      "id": "SCN-09",
+      "name_zh": "站前会面客厅",
+      "name_en": "Station Meeting Room",
+      "area": "dazhongsi",
+      "spatial_objects": [
+        "DZS-PUB-01"
+      ],
+      "users": [
+        "P2",
+        "P3",
+        "P5"
+      ],
+      "urban_design_focus": [
+        "等候",
+        "会面",
+        "清楚方向感",
+        "短时休息"
+      ],
+      "ai_layer": [
+        "活动/交通信息"
+      ],
+      "time_pattern": "全天",
+      "seasonal_response": "遮雨与冬季避风",
+      "non_ai_fallback": "时钟、地图、地标和座椅不依赖数字系统"
+    },
+    {
+      "id": "SCN-10",
+      "name_zh": "存量商业夜间客厅",
+      "name_en": "Existing Commercial Night Room",
+      "area": "dazhongsi",
+      "spatial_objects": [
+        "DZS-PUB-02",
+        "DZS-GF-01"
+      ],
+      "users": [
+        "P1",
+        "P2",
+        "P4",
+        "P5"
+      ],
+      "urban_design_focus": [
+        "连续商业首层",
+        "夜间照明",
+        "可控外摆",
+        "步行优先"
+      ],
+      "ai_layer": [
+        "活动和客流信息辅助"
+      ],
+      "time_pattern": "17:00–24:00",
+      "seasonal_response": "冬季缩减外摆、加强门廊与入口节点",
+      "non_ai_fallback": "商业街和公共空间按普通方式运行"
+    },
+    {
+      "id": "SCN-11",
+      "name_zh": "再生建筑创新展厅",
+      "name_en": "Adaptive-Reuse Innovation Hall",
+      "area": "dazhongsi",
+      "spatial_objects": [
+        "DZS-PUB-05",
+        "DZS-BLD-01"
+      ],
+      "users": [
+        "P1",
+        "P2",
+        "P4",
+        "P5"
+      ],
+      "urban_design_focus": [
+        "旧建筑再利用",
+        "开放首层",
+        "文化与创新展示"
+      ],
+      "ai_layer": [
+        "交互展示",
+        "数字导览"
+      ],
+      "time_pattern": "白天展示、夜间活动",
+      "seasonal_response": "室内外空间季节切换",
+      "non_ai_fallback": "实体展陈与普通公共活动仍可运行"
+    },
+    {
+      "id": "SCN-12",
+      "name_zh": "百年京张无App文化步行",
+      "name_en": "No-App Jingzhang Heritage Walk",
+      "area": "overall",
+      "spatial_objects": [
+        "PG-001",
+        "MOB-001"
+      ],
+      "users": [
+        "P1",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "urban_design_focus": [
+        "遗产序列",
+        "连续慢行",
+        "实体里程标识",
+        "休息节点"
+      ],
+      "ai_layer": [
+        "可选语音/视觉导览"
+      ],
+      "time_pattern": "全天",
+      "seasonal_response": "四季植物与冬季向阳休息点",
+      "non_ai_fallback": "完整实体导视与可阅读遗产信息，不要求下载App"
+    }
+  ]
+}

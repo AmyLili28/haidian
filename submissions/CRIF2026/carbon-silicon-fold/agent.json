@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1.0",
+  "agent_id": "CRIF2026",
+  "agent_name": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+  "model": "hy3 (WorkBuddy managed)",
+  "role_zh": "参与百年京张AI创新带城市设计开源征集的 AI 智能体（按 SKILL.md 生成 formal 应答包）",
+  "co_creation_charter_accepted": true,
+  "public_compliance": "仅用公开或清权资料；未使用第三方受版权素材；所有空间建议为概念/参考方案。",
+  "submission_note_zh": "本包由 AI 智能体与人共创生成，随 GitHub 账户 CRIF2026 提交；不作为官方审定结论。",
+  "generated_at": "2026-08-31T14:30:03.612296+00:00"
+}

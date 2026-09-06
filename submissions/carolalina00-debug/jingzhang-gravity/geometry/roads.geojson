@@ -1,0 +1,163 @@
+{
+  "type": "FeatureCollection",
+  "name": "jingzhang_gravity_roads",
+  "metadata": {
+    "coordinate_reference_system": "EPSG:4326",
+    "area_calculation_crs": "EPSG:4548",
+    "design_status": "conceptual_reference_scheme",
+    "boundary_status": "provisional_rough"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ROAD-001",
+      "properties": {
+        "id": "ROAD-001",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "greenway",
+        "name_zh": "京张遗址创新慢行主线",
+        "name_en": "Jing-Zhang innovation greenway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3473,
+            39.94
+          ],
+          [
+            116.3478,
+            39.96
+          ],
+          [
+            116.347,
+            39.9785
+          ],
+          [
+            116.348,
+            39.992
+          ],
+          [
+            116.3487,
+            40.01
+          ],
+          [
+            116.3485,
+            40.026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-002",
+      "properties": {
+        "id": "ROAD-002",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "pedestrian",
+        "name_zh": "世界问题庭东西缝合线",
+        "name_en": "World Question Court cross-link"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34226097560975,
+            40.0175
+          ],
+          [
+            116.354,
+            40.0175
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-003",
+      "properties": {
+        "id": "ROAD-003",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "cycleway",
+        "name_zh": "原点共创环近校连接线",
+        "name_en": "Origin Commons campus link"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3413,
+            39.9885
+          ],
+          [
+            116.3532,
+            39.9885
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-004",
+      "properties": {
+        "id": "ROAD-004",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "transit_connection",
+        "name_zh": "城市首发场轨道接驳线",
+        "name_en": "City Premiere transit link"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3412,
+            39.947
+          ],
+          [
+            116.3548,
+            39.947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-005",
+      "properties": {
+        "id": "ROAD-005",
+        "layer": "ROAD_CENTERLINE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "road_class": "branch",
+        "name_zh": "社区创新微循环",
+        "name_en": "Community innovation loop"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.342,
+            39.972
+          ],
+          [
+            116.3542,
+            39.972
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "COMMUNITY-ISSUE-846",
+      "url": "https://github.com/open-city-ai/haidian/issues/846",
+      "source_type": "community_public_review",
+      "usage": "Independent OSM/Overpass background cross-check of provisional boundaries (2026-08-08): provisional scope vs Jing-Zhang Heritage Park distance (~412.5 m, non-intersecting). Used as boundary context only, not as official boundary."
+    },
+    {
+      "id": "COMMUNITY-ISSUE-1029",
+      "url": "https://github.com/open-city-ai/haidian/issues/1029",
+      "source_type": "community_public_review",
+      "usage": "Community finding that the provisional Dazhongsi key-area polygon centroid is offset (~2.26 km). Used to scope relative-vs-absolute claims pending official boundary."
+    },
+    {
+      "id": "DESIGN-GEOMETRY-ENHANCEMENT",
+      "path": "geometry/*.geojson",
+      "source_type": "agent_generated_design",
+      "usage": "Named conceptual design objects for park segments, public interfaces, renewal footprints, mobility links, provisional constraints, and evidence-gated phasing; not official redlines."
+    },
+    {
+      "id": "SIMULATION-CONCEPT-REGISTRY",
+      "path": "simulation.json",
+      "source_type": "agent_generated_design",
+      "usage": "Reproducible 12-scenario pilot queue with owners, baselines, thresholds, fallback, human path, and audit fields; not empirical evidence."
+    },
+    {
+      "id": "HISTORY-JINGZHANG",
+      "url": "https://www.nra.gov.cn/tlfc/tpsy/202204/t20220405_293018.shtml",
+      "source_type": "official_public",
+      "usage": "Historical context for the 1905-1909 Jing-Zhang railway engineering lineage; design reference only, not a boundary or approval source.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "HAIDIAN-INNOVATION-HISTORY",
+      "url": "https://zyk.bjhd.gov.cn/jbdt/auto10489_51767/zfwj_59297/zfwj_57927/zfwj_57927/201812/t20181217_4165739_hd.shtml",
+      "source_type": "official_public",
+      "usage": "Haidian/Zhongguancun innovation history and research-to-industry context; design reference only.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "JINGZHANG-HERITAGE-PARK-PLAN",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/zxzt/wsghs/2021dej/d5j/202112/t20211216_2562970.html",
+      "source_type": "official_public",
+      "usage": "Public interpretation of Jing-Zhang heritage park planning, historic inheritance, open sharing, green ecology and implementation orientation; design reference only.",
+      "use_class": "design_reference"
+    },
+    {
+      "id": "BEIJING-OVERALL-PLAN-2016-2035",
+      "url": "https://www.beijing.gov.cn/gongkai/guihua/wngh/csztgh/201907/t20190701_100008.html",
+      "source_type": "official_public",
+      "usage": "Beijing overall plan context for innovation, historic-cultural heritage, ecological livability and people-oriented urban development; design reference only.",
+      "use_class": "design_reference"
+    },
+    {
+      "id": "BEIJING-15FIVE-PROPOSAL",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202511/t20251126_4305109.html",
+      "source_type": "official_public",
+      "usage": "Beijing medium-term development direction including innovation, concept validation, digital economy, AI governance and public well-being; design interpretation only, not a scoring or approval claim.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "NDRC-SMART-CITY-GUIDANCE",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202405/t20240520_1386326_ext.html",
+      "source_type": "official_public",
+      "usage": "Smart-city digital transformation guidance used to support reversible pilots, data governance and measurable public-service improvement; design method reference only.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "HAIDIAN-DOUBLE-TEN-TWO-HEAVY",
+      "url": "https://www.bjhd.gov.cn/ztzx/2026/sslz/",
+      "source_type": "official_public",
+      "usage": "Haidian 2026 public priorities used as context for AI innovation, city renewal, safe/resilient city, green low-carbon and public services; not an implementation commitment.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "HAIDIAN-2026-RENEWAL",
+      "url": "https://zyk.bjhd.gov.cn/jbdt/auto4498_51793/auto4498_52869/auto4498/auto4498/202601/t20260119_4802162.shtml",
+      "source_type": "official_public",
+      "usage": "Haidian city-renewal and public-works context used to support stock-renewal and phased implementation logic; design reference only.",
+      "use_class": "context_only"
+    },
+    {
+      "id": "AI-RENDER-ATLAS",
+      "path": "assets/renders/*.png",
+      "source_type": "agent_generated_design",
+      "usage": "Four text-free conceptual park and node renderings for human-readable design communication; generated 2026-08-31 with the built-in image tool. They are not existing-condition photographs, official renderings, boundary evidence, or construction documents.",
+      "use_class": "visual_reference",
+      "license": "project-generated; no external image inputs; reuse within this submission package"
+    },
+    {
+      "id": "DESIGN-SECTION-PHASING-ATLAS",
+      "path": "assets/figures/typical-sections*.png; assets/figures/future-development*.png",
+      "source_type": "agent_generated_design",
+      "usage": "Bilingual conceptual sections and trigger-based development path derived from geometry/*.geojson and simulation.json. They map structured object IDs, retain/adapt/insert/stop actions, evidence gates and RETURN conditions without inventing surveyed dimensions. They are not construction drawings, statutory plans, schedules, funding commitments, or measured outcomes.",
+      "use_class": "design_reference",
+      "license": "project-generated; derived only from submission-owned structured design files"
+    },
+    {
+      "id": "PARK-OPEN-CNR-20260806",
+      "title": "京张铁路遗址公园二期向公众开放 打造9公里复合型城市遗址绿廊",
+      "publisher": "央广网",
+      "url": "https://www.cnr.cn/bj/sijh/20260806/t20260806_527751136.shtml",
+      "published_date": "2026-08-06",
+      "accessed_date": "2026-08-31",
+      "source_type": "public_news_attributed_to_project_authority",
+      "usage": "Background confirmation that Phase II opened on 2026-08-06 and that the completed public-space corridor is reported as 9 km, serving 70 communities and about 450,000 residents.",
+      "use_class": "background_fact_only",
+      "allowed_use": "Short attributed factual summary in the proposal; cross-check of the park's current public-use context.",
+      "not_usable_for": "Official redline, precise parcel or area control, engineering acceptance, operational performance, ownership, or any government commitment beyond the article.",
+      "license_or_reuse_boundary": "Citation and short factual paraphrase only. The page states that the article may not be reproduced without authorization; no article text or images are redistributed in this package."
+    },
+    {
+      "id": "PARK-PLAN-HAIDIAN-20240920",
+      "title": "京张铁路遗址公园二期计划年底前开工",
+      "publisher": "北京市海淀区人民政府（来源：海淀报）",
+      "url": "https://zyk.bjhd.gov.cn/ywdt/hdywx/202409/t20240920_4670752_hd.shtml",
+      "published_date": "2024-09-20",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Earlier official-source cross-check for the planned 9 km corridor, nearly 70 communities and about 450,000 residents, and the stated east-west stitching objective.",
+      "use_class": "background_fact_only",
+      "allowed_use": "Attributed background and comparison with the later opening report.",
+      "not_usable_for": "Current construction status, official boundary, exact design scope, statutory planning control, or engineering conclusion.",
+      "license_or_reuse_boundary": "Citation and factual paraphrase only; no page images or long text are redistributed."
+    },
+    {
+      "id": "CASE-ONE-NORTH-JTC",
+      "title": "Testbedding at LaunchPad",
+      "publisher": "JTC Corporation, Singapore",
+      "url": "https://www.jtc.gov.sg/find-land/jtc-key-estates/launchpad/testbedding-at-launchpad",
+      "published_date": "2023-11-30",
+      "accessed_date": "2026-08-31",
+      "source_type": "case_owner_official",
+      "usage": "Case evidence that LaunchPad at one-north co-locates startups with incubators, accelerators and venture capital firms and offers estate facilities for testbedding.",
+      "use_class": "case_reference_only",
+      "allowed_use": "Mechanism comparison and design hypothesis formation.",
+      "not_usable_for": "Claiming equivalence with Jing-Zhang, case performance evaluation, partnership, investment, or transfer agreement.",
+      "license_or_reuse_boundary": "Short attributed summary only; no JTC images, branding or page content are redistributed."
+    },
+    {
+      "id": "CASE-SEOUL-PHYSICAL-AI",
+      "title": "Mayor Oh Se-hoon Unveils Vision for Seoul as a Leading City in Physical AI",
+      "publisher": "Seoul Metropolitan Government",
+      "url": "https://english.seoul.go.kr/mayor-oh-se-hoon-unveils-vision-for-seoul-as-a-leading-city-in-physical-ai-transforming-the-city-into-a-live-testbed-for-technology-demonstrations/",
+      "published_date": "2026-02-06",
+      "accessed_date": "2026-08-31",
+      "source_type": "case_government_official",
+      "usage": "Case evidence for the proposed Yangjae-Suseo physical-AI belt and citywide real-world demonstration strategy.",
+      "use_class": "case_reference_only",
+      "allowed_use": "Mechanism comparison: link R&D concentration, controlled demonstrations and city adoption.",
+      "not_usable_for": "Assuming all announced facilities are complete, copying incentives, claiming partnership, or claiming proven outcomes.",
+      "license_or_reuse_boundary": "Citation and short factual paraphrase only; no page media are redistributed."
+    },
+    {
+      "id": "CASE-MARS",
+      "title": "About MaRS",
+      "publisher": "MaRS Discovery District",
+      "url": "https://www.marsdd.com/about/",
+      "published_date": null,
+      "date_note": "Undated current institutional page",
+      "accessed_date": "2026-08-31",
+      "source_type": "case_owner_official",
+      "usage": "Case evidence for an urban innovation hub combining startup support, technology adoption, research labs, real-estate communities and venture capital functions.",
+      "use_class": "case_reference_only",
+      "allowed_use": "Mechanism comparison with the separate Vector source cited in the same row.",
+      "not_usable_for": "Independent verification of MaRS impact numbers, Jing-Zhang performance forecasts, partnership, or funding claims.",
+      "license_or_reuse_boundary": "Citation and short paraphrase only; no MaRS images, trademarks or page content are redistributed."
+    },
+    {
+      "id": "CASE-VECTOR",
+      "title": "Driving AI Research to AI Adoption",
+      "publisher": "Vector Institute",
+      "url": "https://vectorinstitute.ai/about/",
+      "published_date": null,
+      "date_note": "Undated current institutional page",
+      "accessed_date": "2026-08-31",
+      "source_type": "case_owner_official",
+      "usage": "Case evidence for bridging academic AI discovery and industry adoption through research, talent and partnerships with business and government.",
+      "use_class": "case_reference_only",
+      "allowed_use": "Mechanism comparison with the separate MaRS source cited in the same row.",
+      "not_usable_for": "Claiming a formal MaRS-Vector operating merger, Jing-Zhang partnership, guaranteed adoption, or impact forecast.",
+      "license_or_reuse_boundary": "Citation and short paraphrase only; no Vector media or branding are redistributed."
+    },
+    {
+      "id": "CASE-MILA-VENTURES",
+      "title": "Mila Accelerates AI Ventures, Appoints Managing Director",
+      "publisher": "Mila - Quebec Artificial Intelligence Institute",
+      "url": "https://mila.quebec/en/news/mila-accelerates-ai-ventures-appoints-managing-director",
+      "published_date": "2025-07-09",
+      "accessed_date": "2026-08-31",
+      "source_type": "case_owner_official",
+      "usage": "Case evidence for translating AI research into ventures and for an institutional incubator/accelerator pathway.",
+      "use_class": "case_reference_only",
+      "allowed_use": "Mechanism comparison and research-to-venture hypothesis formation.",
+      "not_usable_for": "Independent verification of reported funding or company counts, claiming partnership, or projecting Jing-Zhang results.",
+      "license_or_reuse_boundary": "Citation and short paraphrase only; reported figures are not reused as proposal targets and no media are redistributed."
+    },
+    {
+      "id": "CASE-PARIS-SACLAY-PUI",
+      "title": "The Universite Paris-Saclay university innovation cluster (PUI)",
+      "publisher": "Universite Paris-Saclay",
+      "url": "https://www.universite-paris-saclay.fr/en/news/universite-paris-saclay-university-innovation-cluster-pui",
+      "published_date": null,
+      "date_note": "Undated page describing the July 2023 France 2030 PUI selection",
+      "accessed_date": "2026-08-31",
+      "source_type": "case_owner_official",
+      "usage": "Case evidence for a university-led innovation cluster joining research bodies, higher-education institutions, transfer organizations and public/private partners around technology transfer and business creation.",
+      "use_class": "case_reference_only",
+      "allowed_use": "Governance and transfer-mechanism comparison.",
+      "not_usable_for": "Claiming that all Paris-Saclay entities share one land or operating authority, claiming Jing-Zhang partnership, or importing case outcomes.",
+      "license_or_reuse_boundary": "Citation and short paraphrase only; no page media or institutional marks are redistributed."
+    },
+    {
+      "id": "CASE-KENDALL-CAMBRIDGE",
+      "title": "Kendall Square",
+      "publisher": "City of Cambridge, Massachusetts, Community Development Department",
+      "url": "https://www.cambridgema.gov/cdd/economicopportunityanddevelopment/aboutcambridge/kendallsq",
+      "published_date": null,
+      "date_note": "Undated current municipal district page",
+      "accessed_date": "2026-08-31",
+      "source_type": "case_government_official",
+      "usage": "Case evidence that the research and technology cluster developed alongside housing, hotels, restaurants and shops serving firms, institutions and surrounding neighborhoods.",
+      "use_class": "case_reference_only",
+      "allowed_use": "Mixed-use urban-support comparison without causal claims.",
+      "not_usable_for": "Claiming that mixed use alone caused innovation or talent retention, claiming partnership, or importing development controls.",
+      "license_or_reuse_boundary": "Citation and short paraphrase only; no map, photo or city asset is redistributed."
+    },
+    {
+      "id": "CASE-LONDON-KQ",
+      "title": "Knowledge Quarter London",
+      "publisher": "Knowledge Quarter London",
+      "url": "https://www.knowledgequarter.london/",
+      "published_date": null,
+      "date_note": "Current institutional page; five-year strategy launch dated 2026-07-15 on the same site",
+      "accessed_date": "2026-08-31",
+      "source_type": "case_owner_official",
+      "usage": "Case evidence for a member consortium connecting research, business and culture, with priorities for collaboration, place and inclusion.",
+      "use_class": "case_reference_only",
+      "allowed_use": "Cross-sector network and place-governance comparison.",
+      "not_usable_for": "Claiming that the consortium is a statutory planning authority, claiming partnership, or transferring governance powers to Jing-Zhang.",
+      "license_or_reuse_boundary": "Citation and short paraphrase only; no member marks, photographs or page assets are redistributed."
+    },
+    {
+      "id": "REGION-AI-BEIWEI",
+      "title": "中关村AI北纬社区启动全球招募 首期开放6万平方米优质产业空间",
+      "publisher": "北京市海淀区人民政府（来源：海淀报）",
+      "url": "https://www.bjhd.gov.cn/ztzx/2025/aifuture/jq/bwsq/202507/t20250716_4779018.shtml",
+      "published_date": "2025-07-16",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Public role evidence for incubation, shared technical services, scenario application, product launch and talent-community support at Zhongguancun AI Beiwei Community.",
+      "use_class": "regional_context_only",
+      "allowed_use": "Define a potential concept interface with JZ OPENLINE.",
+      "not_usable_for": "Claiming a current cooperation agreement, shared program, tenant participation, recruitment result, funding or government commitment.",
+      "license_or_reuse_boundary": "Citation and short factual paraphrase only; no photographs, contacts or promotional material are redistributed."
+    },
+    {
+      "id": "REGION-FUTURE-SCIENCE-CITY",
+      "title": "源头活水，未来之城——未来科学城构筑基础研究新高地",
+      "publisher": "北京推进科技创新中心建设办公室 / 国际科技创新中心网络平台（信息来源：未来科学城）",
+      "url": "https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202605/t20260520_247297.html",
+      "published_date": "2026-05-20",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Public role evidence for Future Science City's basic-research platform, G6/G45 corridor context, talent and research-to-application orientation.",
+      "use_class": "regional_context_only",
+      "allowed_use": "Define a potential upstream research and talent interface.",
+      "not_usable_for": "Claiming data sharing, joint laboratories, project transfer, talent allocation, partnership, or commitment to JZ OPENLINE.",
+      "license_or_reuse_boundary": "Citation and short factual paraphrase only; no page images or reported statistics are copied into the proposal."
+    },
+    {
+      "id": "REGION-HUAIROU-SCIENCE-CITY",
+      "title": "怀柔区研究高能同步辐射光源运行方案并提出AI+大科学装置新范式",
+      "publisher": "北京市人民政府（来源：怀柔区人民政府）",
+      "url": "https://www.beijing.gov.cn/ywdt/gqrd/202607/t20260721_4775222.html",
+      "published_date": "2026-07-21",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Public role evidence for AI for Science, major research facilities, scientific data governance and research-to-industry translation in Huairou Science City.",
+      "use_class": "regional_context_only",
+      "allowed_use": "Define a potential research-question and urban-feedback interface.",
+      "not_usable_for": "Claiming facility access, data access, joint testing, instrument transfer, procurement, partnership or government commitment.",
+      "license_or_reuse_boundary": "Citation and short factual paraphrase only; no page images or full text are redistributed."
+    },
+    {
+      "id": "REGION-BEIJING-ETOWN",
+      "title": "经开区发布全域人工智能之城建设方案",
+      "publisher": "北京市人民政府（来源：北京经济技术开发区管理委员会）",
+      "url": "https://www.beijing.gov.cn/ywdt/gzdt/202602/t20260203_4487341.html",
+      "published_date": "2026-02-03",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_public",
+      "usage": "Public role evidence for city-scale engineering experiments, AI test-validation-promotion mechanisms, mid-pilot capacity and industrial application in Beijing E-Town.",
+      "use_class": "regional_context_only",
+      "allowed_use": "Define a potential concept interface between public-life adoption evidence and industrial engineering validation.",
+      "not_usable_for": "Claiming access to facilities, procurement, manufacturing, subsidy, partnership, scenario allocation or implementation commitment.",
+      "license_or_reuse_boundary": "Citation and short factual paraphrase only; policy incentives and targets are not reused as JZ OPENLINE commitments."
+    },
+    {
+      "id": "REGION-BTH-INNOVATION",
+      "title": "北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
+      "publisher": "中共北京市委教育科技人才工作领导小组",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202607/t20260702_4743249.html",
+      "published_date": "2026-07-01",
+      "accessed_date": "2026-08-31",
+      "source_type": "official_policy",
+      "usage": "Policy context for Beijing-Tianjin-Hebei innovation linkage, common scientific-intelligence technology research and cross-region resource coordination.",
+      "use_class": "regional_context_only",
+      "allowed_use": "Frame a potential replication and feedback interface for the open verification toolkit.",
+      "not_usable_for": "Claiming that JZ OPENLINE is included in the policy, an approved regional pilot network, a standards issuer, a data-sharing platform or a funded project.",
+      "license_or_reuse_boundary": "Citation and short factual paraphrase only; the policy is not reproduced and no implementation authority is inferred."
+    },
+    {
+      "id": "FONT-NOTO-SANS-CJK-SC",
+      "title": "Noto Sans CJK SC Regular",
+      "publisher": "notofonts / Google and Adobe",
+      "url": "https://github.com/notofonts/noto-cjk/blob/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "published_date": null,
+      "date_note": "Upstream current file; downloaded 2026-08-31",
+      "accessed_date": "2026-08-31",
+      "path": "Embedded subset data URI in both visual and report HTML pairs; subset font programs are embedded in the four drawing PDFs.",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "source_type": "redistributable_font_asset",
+      "usage": "Bundled offline CJK font for Chinese, English and mixed-script HTML, figures and PDF generation.",
+      "use_class": "asset_dependency",
+      "license": "SIL Open Font License 1.1",
+      "license_path": "report/copyright_statement.md#sil-open-font-license-11",
+      "allowed_use": "Bundling, embedding and redistribution under the OFL 1.1 conditions.",
+      "not_usable_for": "No factual, planning or case-study claim; the font does not provide evidence.",
+      "license_or_reuse_boundary": "Redistributed unchanged with the complete OFL 1.1 text; the font is not sold by itself."
+    }
+  ]
+}

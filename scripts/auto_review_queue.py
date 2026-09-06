@@ -45,6 +45,7 @@ from __future__ import annotations
 
 import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime, timezone
 import json
 import os
 import shutil
@@ -124,7 +125,7 @@ def queued_prs(repo: str, label: str, cwd: Path) -> list[dict[str, Any]]:
             "--limit",
             "1000",
             "--json",
-            "number,author,headRefOid,state,isDraft,mergeable,statusCheckRollup,labels",
+            "number,author,createdAt,headRefOid,state,isDraft,mergeable,statusCheckRollup,labels",
         ],
         cwd=cwd,
     )
@@ -246,19 +247,67 @@ def pr_meta(repo: str, number: int, cwd: Path) -> dict[str, Any]:
             "view",
             str(number),
             "--json",
-            "number,author,headRefOid,state,isDraft,mergeable,statusCheckRollup,labels",
+            "number,author,createdAt,headRefOid,state,isDraft,mergeable,statusCheckRollup,labels",
         ],
         cwd=cwd,
     )
 
 
-def assert_live(meta: dict[str, Any], expected_sha: str, *, require_success: bool) -> None:
+def parse_timestamp(value: str) -> datetime:
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except (AttributeError, ValueError) as exc:
+        raise argparse.ArgumentTypeError(f"invalid ISO 8601 timestamp: {value}") from exc
+    if parsed.tzinfo is None:
+        raise argparse.ArgumentTypeError("timestamp must include a timezone")
+    return parsed.astimezone(timezone.utc)
+
+
+def created_at_on_or_before(meta: dict[str, Any], cutoff: datetime | None) -> bool:
+    if cutoff is None:
+        return True
+    value = meta.get("createdAt")
+    if not isinstance(value, str):
+        raise WorkerError("PR metadata has no createdAt timestamp")
+    try:
+        created_at = parse_timestamp(value)
+    except argparse.ArgumentTypeError as exc:
+        raise WorkerError(f"invalid PR createdAt timestamp: {value}") from exc
+    return created_at <= cutoff
+
+
+def has_current_head_formal_review(repo: str, number: int, head_sha: str, cwd: Path) -> bool:
+    completed = run(
+        ["gh", "api", "--paginate", "--slurp", f"repos/{repo}/pulls/{number}/reviews"],
+        cwd=cwd,
+    )
+    try:
+        pages = json.loads(completed.stdout)
+        reviews = [item for page in pages for item in page]
+    except (json.JSONDecodeError, TypeError) as exc:
+        raise WorkerError(f"invalid review list from gh api for PR #{number}") from exc
+    return any(
+        str(review.get("commit_id") or "") == head_sha
+        and str(review.get("state") or "").upper() in {"APPROVED", "CHANGES_REQUESTED"}
+        for review in reviews
+    )
+
+
+def assert_live(
+    meta: dict[str, Any],
+    expected_sha: str,
+    *,
+    require_success: bool,
+    created_at_or_before: datetime | None = None,
+) -> None:
     if meta.get("headRefOid") != expected_sha:
         raise WorkerError("PR head changed during review")
     if meta.get("state") != "OPEN" or meta.get("isDraft"):
         raise WorkerError("PR is no longer an open non-draft PR")
     if require_success and ci_state(meta) != "success":
         raise WorkerError("required CI is no longer successful")
+    if not created_at_on_or_before(meta, created_at_or_before):
+        raise WorkerError("PR was created after the configured submission cutoff")
 
 
 def label_args(remove: list[str], add: list[str]) -> list[str]:
@@ -270,9 +319,23 @@ def label_args(remove: list[str], add: list[str]) -> list[str]:
     return args
 
 
-def apply_conflict_hold(repo: str, number: int, head_sha: str, cwd: Path) -> None:
+def apply_conflict_hold(
+    repo: str,
+    number: int,
+    head_sha: str,
+    cwd: Path,
+    *,
+    created_at_or_before: datetime | None = None,
+) -> None:
     live = pr_meta(repo, number, cwd)
-    assert_live(live, head_sha, require_success=True)
+    assert_live(
+        live,
+        head_sha,
+        require_success=True,
+        created_at_or_before=created_at_or_before,
+    )
+    if has_current_head_formal_review(repo, number, head_sha, cwd):
+        raise WorkerError("current PR head already has a formal review")
     if live.get("mergeable") != "CONFLICTING":
         raise WorkerError("PR is no longer conflicting")
     body = (
@@ -336,6 +399,40 @@ def load_cached_review(
     return review, decision, outcome
 
 
+def create_review_worktree(
+    repo_root: Path,
+    worktree: Path,
+    ref: str,
+    submission_dir: str,
+) -> None:
+    """Create a minimal checkout containing only trusted review inputs."""
+    added = False
+    try:
+        run(
+            ["git", "worktree", "add", "--detach", "--no-checkout", str(worktree), ref],
+            cwd=repo_root,
+        )
+        added = True
+        run(
+            [
+                "git",
+                "sparse-checkout",
+                "set",
+                "--no-cone",
+                "--",
+                submission_dir,
+                "brief/site-package/agent_taskbook.json",
+                ADVISORY_REVIEW_SCHEMA_PATH,
+            ],
+            cwd=worktree,
+        )
+        run(["git", "checkout", "--detach", ref], cwd=worktree)
+    except Exception:
+        if added:
+            run(["git", "worktree", "remove", "--force", str(worktree)], cwd=repo_root)
+        raise
+
+
 def apply_review(
     repo: str,
     number: int,
@@ -345,9 +442,17 @@ def apply_review(
     cwd: Path,
     *,
     admin_merge: bool,
+    created_at_or_before: datetime | None = None,
 ) -> None:
     live = pr_meta(repo, number, cwd)
-    assert_live(live, head_sha, require_success=True)
+    assert_live(
+        live,
+        head_sha,
+        require_success=True,
+        created_at_or_before=created_at_or_before,
+    )
+    if has_current_head_formal_review(repo, number, head_sha, cwd):
+        raise WorkerError("current PR head already has a formal review")
     marker = REVIEW_MARKER.format(head_sha=head_sha)
     if outcome.action == "accept":
         if live.get("mergeable") == "CONFLICTING":
@@ -364,7 +469,12 @@ def apply_review(
             f"\n\n{authoritative_comment}"
         )
         run(["gh", "pr", "review", str(number), "--repo", repo, "--approve", "--body", body], cwd=cwd)
-        assert_live(pr_meta(repo, number, cwd), head_sha, require_success=True)
+        assert_live(
+            pr_meta(repo, number, cwd),
+            head_sha,
+            require_success=True,
+            created_at_or_before=created_at_or_before,
+        )
         merge = [
             "gh",
             "pr",
@@ -407,8 +517,12 @@ def process_pr(args: argparse.Namespace, meta: dict[str, Any], repo_root: Path) 
     state = ci_state(meta)
     if meta.get("isDraft"):
         return {"number": number, "result": "skipped-draft"}
+    if not created_at_on_or_before(meta, args.created_at_or_before):
+        return {"number": number, "head_sha": head_sha, "result": "skipped-created-after-cutoff"}
     if state != "success":
         return {"number": number, "head_sha": head_sha, "result": f"skipped-ci-{state}"}
+    if has_current_head_formal_review(args.repo, number, head_sha, repo_root):
+        return {"number": number, "head_sha": head_sha, "result": "skipped-current-head-reviewed"}
     if meta.get("mergeable") == "CONFLICTING":
         return {"number": number, "head_sha": head_sha, "result": "skipped-conflicting"}
 
@@ -421,7 +535,7 @@ def process_pr(args: argparse.Namespace, meta: dict[str, Any], repo_root: Path) 
         if worktree.exists():
             run(["git", "worktree", "remove", "--force", str(worktree)], cwd=repo_root)
         run(["git", "fetch", "--force", "origin", f"pull/{number}/head:{ref}"], cwd=repo_root)
-        run(["git", "worktree", "add", "--detach", str(worktree), ref], cwd=repo_root)
+        create_review_worktree(repo_root, worktree, ref, submission_dir)
     try:
         checked = run(["git", "rev-parse", "HEAD"], cwd=worktree).stdout.strip()
         if checked != head_sha:
@@ -434,6 +548,12 @@ def process_pr(args: argparse.Namespace, meta: dict[str, Any], repo_root: Path) 
             advisory_schema_path,
         )
         if cached is None:
+            if has_current_head_formal_review(args.repo, number, head_sha, repo_root):
+                return {
+                    "number": number,
+                    "head_sha": head_sha,
+                    "result": "skipped-current-head-reviewed",
+                }
             command = [
                 sys.executable,
                 str(repo_root / "scripts" / "ai_review_submission.py"),
@@ -487,6 +607,7 @@ def process_pr(args: argparse.Namespace, meta: dict[str, Any], repo_root: Path) 
                     audit_dir / "pr-comment.md",
                     repo_root,
                     admin_merge=args.admin_merge,
+                    created_at_or_before=args.created_at_or_before,
                 )
             result["applied"] = True
         return result
@@ -547,6 +668,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--apply", action="store_true", help="Post reviews, change labels, and merge accepted PRs")
     parser.add_argument("--admin-merge", action="store_true", help="Use the repository ruleset bypass during merge")
     parser.add_argument("--keep-worktrees", action="store_true")
+    parser.add_argument(
+        "--created-at-or-before",
+        type=parse_timestamp,
+        help="Only process PRs created at or before this timezone-aware ISO 8601 timestamp",
+    )
     return parser.parse_args()
 
 
@@ -583,10 +709,40 @@ def main() -> int:
         if live.get("isDraft") or live.get("state") != "OPEN" or state != "success":
             results.append({"number": number, "head_sha": live.get("headRefOid"), "result": f"skipped-ci-{state}"})
             continue
+        try:
+            if not created_at_on_or_before(live, args.created_at_or_before):
+                results.append(
+                    {
+                        "number": number,
+                        "head_sha": live.get("headRefOid"),
+                        "result": "skipped-created-after-cutoff",
+                    }
+                )
+                continue
+            if has_current_head_formal_review(
+                args.repo, number, str(live["headRefOid"]), repo_root
+            ):
+                results.append(
+                    {
+                        "number": number,
+                        "head_sha": live.get("headRefOid"),
+                        "result": "skipped-current-head-reviewed",
+                    }
+                )
+                continue
+        except Exception as exc:
+            results.append({"number": number, "result": "error", "error": str(exc)})
+            continue
         if live.get("mergeable") == "CONFLICTING":
             try:
                 if args.apply:
-                    apply_conflict_hold(args.repo, number, str(live["headRefOid"]), repo_root)
+                    apply_conflict_hold(
+                        args.repo,
+                        number,
+                        str(live["headRefOid"]),
+                        repo_root,
+                        created_at_or_before=args.created_at_or_before,
+                    )
             except Exception as exc:
                 results.append({"number": number, "result": "error", "error": str(exc)})
                 continue

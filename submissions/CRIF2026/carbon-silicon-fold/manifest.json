@@ -1,0 +1,357 @@
+{
+  "schema_version": "0.2.0",
+  "package_id": "carbon-silicon-fold",
+  "project_id": "centennial-jingzhang-ai-belt",
+  "site_package_version": "0.1.0",
+  "package_type": "professional_design_package",
+  "package_state": "ready_for_review",
+  "submission_stage": "formal",
+  "submission_type": "ai_agent",
+  "agent": {
+    "agent_id": "CRIF2026",
+    "agent_name": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
+    "model": "hy3 (WorkBuddy managed)"
+  },
+  "generated_at": "2026-09-02T14:54:27+00:00",
+  "files": [
+    {
+      "path": "proposal.md",
+      "role": "narrative",
+      "required": true,
+      "sha256": "5062e149a6faef9f5531b8ce90cf97530ba995b170b6e7ea1f10479bbc0f6e49",
+      "language": "zh"
+    },
+    {
+      "path": "manifest.json",
+      "role": "manifest",
+      "required": true,
+      "language": "zh"
+    },
+    {
+      "path": "agent.json",
+      "role": "agent_card",
+      "required": true,
+      "sha256": "c4c2ea11ef9751122ec53a5fdc30b54a0e0007c6a2fa7942ade8d0ffe8d3c0e7",
+      "language": "zh"
+    },
+    {
+      "path": "metrics.json",
+      "role": "metrics",
+      "required": true,
+      "sha256": "9b1f2ab08522631f4b831de1422a4379f19dabc40f47be1184ef9fd6f9225509",
+      "language": "zh"
+    },
+    {
+      "path": "assumptions.json",
+      "role": "assumptions",
+      "required": true,
+      "sha256": "8d901541b66b4b91bdfb71a80481f32827230e0b5898ef72490b94e8bb329fa3",
+      "language": "zh"
+    },
+    {
+      "path": "sources.json",
+      "role": "sources",
+      "required": true,
+      "sha256": "386baa4b83a9d64f83a19e15a3a66429db45d03fbc36fb43b5ba2b16d6c7326d",
+      "language": "zh"
+    },
+    {
+      "path": "self_check.json",
+      "role": "self_check",
+      "required": true,
+      "sha256": "ca48d24fbd52e687a2534bb0758a3ebb189e6722c274f9c1a530e051c3c708a0",
+      "language": "zh"
+    },
+    {
+      "path": "compliance_matrix.json",
+      "role": "compliance_matrix",
+      "required": true,
+      "sha256": "ae97f2b1c52e9f907c260b9aaa72755d0615900873480de723db930babe0da47",
+      "language": "zh"
+    },
+    {
+      "path": "standard_matrix.json",
+      "role": "standard_matrix",
+      "required": true,
+      "sha256": "9459a0a3675e2ed938adccffa181dd4e25f88b1f8a12dd3d1c51072b599b55a3",
+      "language": "zh"
+    },
+    {
+      "path": "design_depth_matrix.json",
+      "role": "design_depth_matrix",
+      "required": true,
+      "sha256": "23b48492298d73f48d7ba8979f67f373977a9e8dc0efb5f561e77c3d1571bd8b",
+      "language": "zh"
+    },
+    {
+      "path": "geometry/site_boundary.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "8a768783e2e63cdd436739b299753b61744563c8469d4f4d20aded2faa4a7661",
+      "language": "zh"
+    },
+    {
+      "path": "geometry/key_areas.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "1b6688eeeea5c4b11b247634c4f143f8b2e6b60508ce639bf73f62f078b04ba9",
+      "language": "zh"
+    },
+    {
+      "path": "geometry/land_use.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "203e79cd6a1269fc987524f5aa50a786b24e6e89af52d4a869881294fbdcb5bb",
+      "language": "zh"
+    },
+    {
+      "path": "geometry/buildings.geojson",
+      "role": "geometry",
+      "required": false,
+      "sha256": "308fea883336c81994cfe22c9245e7aeb8c5cbd61e7ff2e18d9f48717245bcc4",
+      "language": "zh"
+    },
+    {
+      "path": "geometry/roads.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "f1630ba43a337ccd055a61e53f95e2c61fe669b2bf092869a2ba2b158b5ec935",
+      "language": "zh"
+    },
+    {
+      "path": "geometry/green_space.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "900353c843d7e4124e0cfeb0ae635acb630cbe288f54b1d1f32c374278f72e39",
+      "language": "zh"
+    },
+    {
+      "path": "geometry/public_space.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "744566c62c1f53bdbe2ddba2bc306746189912348a2d3a86f66368f0fd435ff2",
+      "language": "zh"
+    },
+    {
+      "path": "geometry/constraints.geojson",
+      "role": "geometry",
+      "required": false,
+      "sha256": "ffcadfb4a117bd7ffe84e234d7fdc6619998fa3bf2018b17a6798cd18564fdce",
+      "language": "zh"
+    },
+    {
+      "path": "geometry/phasing.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "61866ce4ecb7cb64b951b6a25f9e38c506b9a8bb941f3b2a6feeade8b835cc9e",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/site-overview.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "e750638130f464d738bafcce7f6e72e9f575f47cdf57dd5e20baccc3e49fe889",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/land-use-structure.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "6743141f32da21db801a3009e341065dc8bcca189a7e9c32cfe19846a19a4e62",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/key-areas.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "10153c7de74b7a9f6909503c4f7d1967a04c52ede6f291f7bd103e7c19ac39fd",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "82bca258074a4b83903cb5ae8e54fcf59ba0f3fc48fc38c5a2b078aac4b7aabe",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/metrics-evidence.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "4514ee5900d5a9814143edd6e760e953dbf7012713858eae9672cae822de834d",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/spatial-action-index.png",
+      "role": "proposal_figure",
+      "required": false,
+      "sha256": "5a0f6d408ac88164e2631665e957a1c77786405da00f49b85cd11e6d74e6ca1b",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/logo.png",
+      "role": "proposal_figure",
+      "required": false,
+      "sha256": "815331d485ab40b44a160d3ebabad0fd422dae07bb2b9e932d6f342d2b2025bc",
+      "language": "zh"
+    },
+    {
+      "path": "report/proposal.html",
+      "role": "rendered_proposal_html",
+      "required": true,
+      "sha256": "fe92b144e9f32eaf8419062cd64c6ce9018abd09d2b8914612c6c8cd32ddd00a",
+      "language": "zh"
+    },
+    {
+      "path": "report/copyright_statement.md",
+      "role": "copyright_statement",
+      "required": true,
+      "sha256": "4f133b17a5860b4e952b4e666abf1eb727b96817c8c925dba5e39502b92f83b8",
+      "language": "zh"
+    },
+    {
+      "path": "report/narrative.md",
+      "role": "narrative",
+      "required": false,
+      "sha256": "b8e9b2ff64469f0b59ff1c185feb6d5422feb9bfbefc6cb7837306da2b3ec705",
+      "language": "zh"
+    },
+    {
+      "path": "drawings/a3-booklet.pdf",
+      "role": "drawing",
+      "required": true,
+      "sha256": "610ab1a1a4cd17a11ffb24410de81f1fe97229c896b11326c2fdc8c928ee1e71",
+      "language": "zh"
+    },
+    {
+      "path": "drawings/a0-boards.pdf",
+      "role": "drawing",
+      "required": true,
+      "sha256": "44dbc8c35acd6f28dacc2186825db2c93d35e54a4cada1e694e0e679ed161e45",
+      "language": "zh"
+    },
+    {
+      "path": "visual/index.html",
+      "role": "visualization",
+      "required": true,
+      "sha256": "defa20a872f2f803f171ed0ad070e1426c9459b2f74ab62c13c6a2455de96bb8",
+      "language": "zh"
+    },
+    {
+      "path": "proposal.en.md",
+      "role": "narrative",
+      "required": true,
+      "language": "en",
+      "translation_of": "proposal.md",
+      "title_en": "Carbon-Silicon Fold · Centennial Jing-Zhang AI Innovation Belt Urban Design Proposal (English)",
+      "description_en": "Full English translation of the formal AI-agent response package; preserves all evidence anchors ([source:]/[metric:]/[standard:]/[data:]/[agent.N]/[depth:]), tables, and numeric values.",
+      "sha256": "25dfcb15d127984be176e556423ddd31b3f9d927f1b7d537c317836600c2474f"
+    },
+    {
+      "path": "visual/index.en.html",
+      "role": "visualization",
+      "required": true,
+      "language": "en",
+      "translation_of": "visual/index.html",
+      "title_en": "Proposal Dashboard (Offline, English)",
+      "description_en": "Offline static bilingual dashboard — English version of the proposal visual board.",
+      "sha256": "a5e02f980fc0e9ecd2441ffa8f9cce23817b7b62a1ec03c008375abae46cb8d5"
+    },
+    {
+      "path": "report/proposal.en.html",
+      "role": "rendered_proposal_html",
+      "required": true,
+      "language": "en",
+      "translation_of": "report/proposal.html",
+      "title_en": "Rendered Proposal HTML (English)",
+      "description_en": "HTML rendering of the English proposal translation, with a language-switch link back to the Chinese report.",
+      "sha256": "727a720d14020c509c3600d4f4358979710fd4c50200b6d0f97a8d350fc265c3"
+    },
+    {
+      "path": "assets/figures/site-overview.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "b135237d7063dc322f151245d5bcad223403c45114efed9bfafe81ef9b1f6010",
+      "language": "en",
+      "translation_of": "assets/figures/site-overview.png"
+    },
+    {
+      "path": "assets/figures/land-use-structure.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "0ff8a07d5e21a7ea159d9cfffae378feef92489347322e8bd7962342ca076931",
+      "language": "en",
+      "translation_of": "assets/figures/land-use-structure.png"
+    },
+    {
+      "path": "assets/figures/key-areas.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "85ff113bcd7b3c821da7924880fe0ac275f3fb717eba134fd6ace1865025045b",
+      "language": "en",
+      "translation_of": "assets/figures/key-areas.png"
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "94fe259b02c3ca04cb3f451dd764312b21b8449374ed55d35a377ba38773d83d",
+      "language": "en",
+      "translation_of": "assets/figures/mobility-bluegreen.png"
+    },
+    {
+      "path": "assets/figures/metrics-evidence.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "ebb7acdf7bc483413402ef2a93bf5436de9d0cbac61786d575d0b551a6a79162",
+      "language": "en",
+      "translation_of": "assets/figures/metrics-evidence.png"
+    },
+    {
+      "path": "assets/figures/spatial-action-index.en.png",
+      "role": "proposal_figure",
+      "required": false,
+      "sha256": "de0e1a0baa50c2c967c5438df1a97b2d0e359bedb97553204cf9df03134f87d4",
+      "language": "en",
+      "translation_of": "assets/figures/spatial-action-index.png"
+    },
+    {
+      "path": "assets/figures/logo.en.png",
+      "role": "proposal_figure",
+      "required": false,
+      "sha256": "b21c5182cce69ff7ecb49cac1abc859505a3c5dba3bf6dc4243dd28e4f0b2faa",
+      "language": "en",
+      "translation_of": "assets/figures/logo.png"
+    },
+    {
+      "path": "drawings/a3-booklet.en.pdf",
+      "role": "drawing",
+      "required": false,
+      "sha256": "31cb3cf1f991747d69169bdc54be484b3acd6a1813d613c393bae3823d539ccf",
+      "language": "en",
+      "translation_of": "drawings/a3-booklet.pdf",
+      "title_en": "A3 Drawing Booklet (English)",
+      "description_en": "English A3 drawing set (cover, 7 figures and 10 appendix matrices) generated by reportlab with the i18n hook; same provisional-boundary disclaimer as the Chinese edition."
+    },
+    {
+      "path": "drawings/a0-boards.en.pdf",
+      "role": "drawing",
+      "required": false,
+      "sha256": "badbb955d788e3b566230403ce934f1a286321950528d5a9e5df263ae6f9e439",
+      "language": "en",
+      "translation_of": "drawings/a0-boards.pdf",
+      "title_en": "A0 Exhibition Boards (English)",
+      "description_en": "English A0 exhibition boards (3 boards: overview, structure & system, ecology & governance) generated by reportlab with the i18n hook; embeds the English (.en.png) figures."
+    }
+  ],
+  "validation_claim": {
+    "self_checked": true,
+    "known_blockers": [
+      "临时边界非官方：provisional_boundary 阻断正式专业评分（provisional_boundary_blocks_formal_professional_scoring=true），须官方 CAD/GIS/PDF 边界到达后重算面积与边界。",
+      "控规条件（容积率/建筑高度/建筑密度/绿地率/退线）缺失，相关指标为 unknown 或概念推算。",
+      "现状地块权属、建筑轮廓、文保 GIS 图层缺失，拆改留为框架非地块级结论。"
+    ],
+    "data_confidence": "low",
+    "readiness_contract": "persisted-self-check-v1"
+  }
+}

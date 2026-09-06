@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "569620038eea5a6db187b1e3cd7c960734e9d2e6401587748955de2ffb7ed234"
+      "sha256": "3f9db50adead2e56b72010a78064b8fea51dfa9236c840a76a0b37035c4072b8"
     },
     {
       "path": "agent.json",
@@ -38,13 +38,13 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "398a0ba678d72f781b3f80311483a39182bebafa5065d54b2065da2c91fe1cc1"
+      "sha256": "26a18e6fe79deae84904703bf78a93b68015ab9d2197401af1eb29d3ec741411"
     },
     {
       "path": "assumptions.json",
       "role": "assumptions",
       "required": true,
-      "sha256": "1a60c3d4fae1926ac8c476ac916b628e8ef933fb9b1df9651ba1ddd76881dcf8"
+      "sha256": "0492bd7e3f9e8530ef80409cb1080651e7f1a9e9a7ae08eb67f249b7ae5656f7"
     },
     {
       "path": "sources.json",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "796664a84b4d35f231b575d98a0f293541044580e58bafbad881eaa05e85d0d8"
+      "sha256": "b8a67af982d2c74dcf48752326d97c79602bd8094b798f08358e0c837e903d23"
     },
     {
       "path": "compliance_matrix.json",
@@ -68,7 +68,7 @@
       "path": "standard_matrix.json",
       "role": "standard_matrix",
       "required": true,
-      "sha256": "f03739c1837a6995bfa103b18439551cf509ba94bfaa7b19d27bcf6376be2f63"
+      "sha256": "efa98e9b6b3dc51ce81531974b206a9d0d5805696aed184233a1545053efe50b"
     },
     {
       "path": "design_depth_matrix.json",
@@ -99,7 +99,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "a0f0f1bce674180e6f3022bb56490026969cebd8eb5fedf645f1aac16006abb1"
+      "sha256": "153d3a26f47fceac673bc727de43e61cc846b0120e7cb0aac83407f5d8cd6af9"
     },
     {
       "path": "report/narrative.md",
@@ -111,28 +111,28 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "4c1bea4ab76476e416435f87596aa5876bee5f2d2ae4dc26f0983f9afb889b58"
+      "sha256": "8b2c98f5eeb6fe80ee44d164c2273c005c1de41d8da6d153dab0c690e148854c"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "8327d426b7a62634887d15849bbb88f03a3d46cdee8eb01380ed522a8257d95b"
+      "sha256": "5a2408f88478aa25610d232ae12f67a14dd9b498c82dae926ad9782466730320"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "3a9c9c8ebdacd110cba2ab688039db8c35a789249bae12d4816347f34d78558c"
+      "sha256": "a00a3cd46f3109553368a88a32acd5ba353b43c560f5a16a682d8726b88573ca"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "047c2f3758c5261fe7ae4a02585c93aafd5e5d3dfce3fe42d4c54414794f253c"
+      "sha256": "ed6e4b7aec67f504768bd6b16bc5783bfd15c48ef8f52d607040594ca6979a06"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -229,7 +229,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "ef259514304c21a3a2bdf169fabbc9f9eea8a9e160f0c6549e576fdf3ba352f0"
+      "sha256": "19b1f3b3e80f4dda198b3e7f686cde575e30d2efa8da1f3699ea4c419d927b6a"
     },
     {
       "path": "report/proposal.en.html",
@@ -237,7 +237,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "3075eeedd706b571ff507781694b60e355caa57fac902f20aa40a752da864aa0"
+      "sha256": "990e901cab6ca6bf56730ce857b164037ebac83e6202acd19ce34b315c5d6853"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -245,7 +245,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "f3b07e1ac620fb700a2addfec4bf2449e32bbfae9c7ee50a647850614cd1e63d"
+      "sha256": "8510fc45d32de753f75903d9b153225157e490968de7bf53e8ead9b50ec3a0fa"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -253,7 +253,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "e2e664c80e1b9f37073c07b5425e3ec6c8228276f58513bcd8b13dfd33e01793"
+      "sha256": "20f5f08e9a9463736f0c2b2a6ded9338accda8ee7f865d2f2d42f6c116c8e150"
     },
     {
       "path": "visual/index.en.html",
@@ -261,7 +261,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "5392a7859c136b6e3cd0b8faa759303b99a7c259c0a83bbca0f733fd89a4b92c"
+      "sha256": "9554baee9672a36090bf652ba06db8d8577029ae26a8062164899f025f390d05"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -446,12 +446,27 @@
       "sha256": "cebc6bbb4eec7e521c0ce82741b4d6b7f94bcaaa08b0d485eb6fab64642cc30b"
     },
     {
+      "path": "assets/figures/drawing-chain-ramp.png",
+      "role": "proposal_figure",
+      "required": false,
+      "language": "zh",
+      "sha256": "5ada5bbeef565c3e2559d250451b072b85b69591e46bd0c6332564395523ebc5"
+    },
+    {
       "path": "assets/figures/section-zzy-3.en.png",
       "role": "proposal_figure",
       "required": false,
       "language": "en",
       "translation_of": "assets/figures/section-zzy-3.png",
       "sha256": "caf2ad646b04923bca54b8c085aa38cdaaf484cdf8a89c1636b5839a809c5cfe"
+    },
+    {
+      "path": "assets/figures/drawing-chain-ramp.en.png",
+      "role": "proposal_figure",
+      "required": false,
+      "language": "en",
+      "translation_of": "assets/figures/drawing-chain-ramp.png",
+      "sha256": "f39dcd6798fb04a032db4f1b2c1d1f7bcf906000dc2a173369084c66be13636d"
     },
     {
       "path": "assets/figures/streetview-dzs.png",
@@ -508,7 +523,16 @@
       "path": "visual/assets/data/metrics_snapshot.js",
       "role": "evidence_data",
       "required": false,
-      "sha256": "7bc03382f38bb262f3a4e1f7ea74616edd3c8284d3d1cb840d85b0a2d872a5a1"
+      "sha256": "af0662fd2ef700da13e686466c461ef705aeff8dee94dfbafc6ae1fc7de97e0c"
+    },
+    {
+      "path": "visual/assets/ops-ledger.json",
+      "role": "evidence_data",
+      "required": false,
+      "language": "neutral",
+      "sha256": "f6b828439837f926374c8d2224eaf9547d6eaeedbb740b28975e77f7bd41d06c",
+      "description_zh": "运维台账：明示情景系数下的一次代入（59 计入点 × 52 次/年 × 0.5–1.0 人时 ＝ 年 1,534–3,068 人时，档位推断）。两系数系包外情景设定、无实测依据，不构成概算、承诺、安全结论或运营方案；PRE-09 运营主体实测系数到位后按同一算式整表替换。口径与敏感性见文件内 honesty_contract 与 sensitivity。",
+      "description_en": "Care ledger: one run under declared scenario coefficients (59 counted points x 52 visits a year x 0.5-1.0 person-hours = 1,534-3,068 person-hours a year, tier inferred). Both coefficients are scenario settings from outside the package with no measured basis; not a cost estimate, commitment, safety conclusion or operating plan. Replaced wholesale through the same formula once the operator's measured coefficients arrive (PRE-09)."
     },
     {
       "path": "visual/assets/geo_core.js",
@@ -544,11 +568,11 @@
       "path": "visual/assets/renders/render-answer-gate.jpg",
       "role": "visualization",
       "required": false,
-      "sha256": "7b43f0f10e4de5ce89ffe839c3518d5114798c8aa2314f43972614d2a936ddf9",
-      "title_zh": "生成过程留档 · 巨型「应答簿」纪念门（判为不采用）",
-      "title_en": "Generation archive — giant Answer-Book memorial gate (not adopted)",
-      "description_zh": "AI 生成过程留档，判为不采用：与正文主张冲突——本方案执行「以钉代碑」，不立高碑、不做名人墙；应答门是 46 处公园出入口上的社区界面，不是纪念性门架。保留此图供评审核对我方对生成结果的取舍标准。",
-      "description_en": "An archived generation not adopted: it conflicts with the proposal's position — honours are cast into spikes rather than raised as monuments, and an Answer Gate is a community interface at one of 46 park entrances, not a memorial portal. The image is kept so reviewers can check the standard by which generated results were accepted or rejected."
+      "sha256": "9c59de332dba8043a5a2831bb6842b03437b49eae0d00493713b0f3cc589ff35",
+      "title_zh": "应答门 · 既有出入口改造",
+      "title_en": "Answer Gate — an existing entrance, altered",
+      "description_zh": "耐候钢门框嵌入一段既有铁艺围栏与砌体基座，门是既有出入口的改造而非新建门架；右墩齐视高设社区认领铜铭牌；配送机器人停在门槛之外等待授权，与场景卡 S17 的「机器人进社区须先敲门」一致；推婴儿车者无台阶通过。据实声明两项：门洞侧壁与右墩的竖向痕带为示意刻字带位置，**放大后为冲孔点阵、并非可读汉字**，正文所述「门外刻 1909 之问、门内刻今日之答」的具体文本本图未予表现；铭牌文字同样不可读。AI 生成概念意象，非实景照片。",
+      "description_en": "A weathering-steel portal set into a length of existing iron railing on a masonry plinth: the gate alters an existing entrance rather than adding a new one. A brass adoption plaque sits at eye height on the right pier. A delivery robot waits outside the threshold for authorisation, matching scenario card S17. A stroller passes without a step. Two things are stated plainly: the vertical bands on the reveal and pier mark where the inscription goes, but at magnification they are punched dots rather than legible characters - the specific texts named in the proposal (the 1909 question outside, today's answer inside) are not depicted here; the plaque lettering is likewise not legible. AI-generated conceptual image, not a photograph."
     },
     {
       "path": "visual/assets/renders/render-robot-knocks.jpg",
@@ -564,7 +588,17 @@
       "path": "visual/assets/renders/render-bell-plaza.jpg",
       "role": "visualization",
       "required": false,
-      "sha256": "3a4dc32f56ba0839cd4515c77c9b35962a769ee4fcb63f6fe3bb5133c460f5b5"
+      "sha256": "ffc40a7249c550d15cea19acc0b806bb522e879c6aa0a6804f3f3f6ab077996a"
+    },
+    {
+      "path": "visual/assets/renders/render-bell-strike.jpg",
+      "role": "visualization",
+      "required": false,
+      "title_zh": "南问 · 应答钟敲响一瞬",
+      "title_en": "South asks — the Answer Bell is struck",
+      "description_zh": "钟声广场敲钟一瞬的人视：钟为**当代新铸**的素面青铜钟，吊挂为现代金属连接件，无蒲牢双龙钮、无仿古经文——与大钟寺文物古钟严格切割；**外撞式**，撞木以双绳悬于钟外由人自外侧水平推击，钟内无钟舌。钟架为四柱铆接钢结构闭合框架，工字钢柱身、铆钉节点，四个柱脚各自落在广场铺装的独立基础上，不依附任何既有建筑或古建；**架顶低于周边树冠**，不与古建争天际线。仪式核心内不设固定座椅与树池，乔木不进入内环视线，地面同心声波环为平面图案而非台阶。远景古建为地平线上的独立剪影，与钟架遥遥相望。敲钟者为便装出席里程碑仪式的当事人，非宗教人士。前景为轮椅观礼者。AI 生成概念意象，非实景照片；画面内无可辨识人脸。",
+      "description_en": "An eye-level view of the moment the bell is struck. The bell is newly cast in plain bronze on a modern metal yoke - no dragon crown, no imitation sutras - held strictly apart from the historic bell at Dazhongsi. It is struck from outside: a wooden ram hangs on two ropes beyond the bell and is pushed horizontally by hand; there is no clapper within. The frame is a closed four-post riveted steel structure on I-section columns, each foot on its own foundation in the plaza paving, touching no existing or historic building; its top stays below the surrounding tree canopy and does not compete with the old roofs on the skyline. The ceremonial core carries no fixed seating and no tree pits, trees stay clear of the inner sightline, and the concentric sound rings are a pattern in the paving rather than steps. The historic complex reads as a separate silhouette on the horizon. The person striking the bell attends a milestone in ordinary clothes, not as a religious figure. A wheelchair user watches in the foreground. AI-generated conceptual image, not a photograph; no identifiable face appears.",
+      "sha256": "916ea45a8dfe0fbe471c715871882ed957617d9f8527c5f88c5f2df98d61bebb"
     },
     {
       "path": "visual/assets/renders/render-dazhongsi-aerial.jpg",
@@ -580,11 +614,21 @@
       "path": "visual/assets/renders/render-ren-bridge.jpg",
       "role": "visualization",
       "required": false,
-      "sha256": "0e5814a3e60c897029563401a0b572b9cb8fa8b4a14a35fedf68a8348163c9f3",
-      "title_zh": "北跃 · 人字之跃人视透视",
-      "title_en": "Ren-Shaped Leap — eye-level view",
-      "description_zh": "跨环路慢行桥的人视透视：桥面之上除栏板与照明外无任何构筑物，结构全在桥面以下；近端一组折返坡道，两段并排展开、标高不同、中夹绿带，坡道低端与地面平接，并列梯段自地面直达桥头平台；坡道全程位于道路一侧绿地内，无一段跨越车道。结构为铆接钢板梁、块石砌筑桥墩、铁路式钢格栅栏板。远端坡道不在画面内。",
-      "description_en": "An eye-level view of the slow-traffic bridge over the ring road: nothing stands above the deck except the parapet and its lighting, with all structure below; the near end carries a switchback ramp of two parallel runs at different levels with a planted strip between them, its lower end meeting the ground flush, and a flight of steps alongside running from the ground to the same bridgehead platform; the ramps stay in the roadside green for their whole length and cross no carriageway. Riveted steel plate girder, stone masonry piers, railway-style steel grille parapets. The far end is outside the frame."
+      "sha256": "cb736379a92db650f37635eb49dbaad9cc247134e7fdf9ba87f36582f5fc39ec",
+      "title_zh": "北跃 · 人字之跃斜俯视（临清河一侧）",
+      "title_en": "Ren-Shaped Leap — oblique aerial",
+      "description_zh": "跨环路慢行桥的斜俯视：桥面平直一跨通过，桥面之上除栏板与照明外无任何构筑物。两端各一组折返坡道，**每端恰好两条坡道**——外腿自广场地面敞口起坡（挡墙沿坡向减薄至零、坡面与铺装齐平相接），经尾端一处抬高的 180 度回转平台折回，内腿升入电梯旁桥头平台；两腿之间以分隔绿带展开，不上下叠置、不绕井盘旋。梯段**与两条坡道并列**、仅以一条种植带分隔，**与坡道同起于桥头平台、同止于同一广场**，**直跑分三段、其间两处休息平台**，出口朝广场背对车道。整组与车行道之间设连续绿化隔离带与护栏。铜道钉光点线穿桥头广场并与坡脚相接。画面左上为清河：**桥的跨越对象只有环路、不跨河**，坡道与桥头广场全部布置在环路一侧绿地内。桥下中央绿化分隔带内设一处中间支承——正文与断面 ZZY-1 均把主跨分跨列为待专业深化、本方案不作结论，其唯一不变的形态底线是**无论如何分跨，桥面纵向必须保持平直**，本图桥面平直、无拱起无折线。据实声明三项：**纵坡是否不陡于 1:20、单侧占地是否 66×9 米，斜俯视一律量不准，以断面 ZZY-1／ZZY-2 与正文为准**；坡道汇入桥头平台处是否完全无错台，本视角不可核实；主梁铆钉在本视角看不清，其表现见同组地面视图。AI 生成概念意象，非实景照片。",
+      "description_en": "An oblique aerial of the slow-traffic bridge over the ring road: the deck crosses flat in one span, and nothing stands above it except the parapet and its lighting. Each end carries a switchback ramp of exactly two runs - the outer run starts at a ground-level opening on the plaza (its retaining wall thinning to nothing where the surface meets the paving flush), reverses at a single raised 180-degree turn platform at the far end, and the inner run climbs into the bridgehead platform beside the lift. The two runs lie side by side with a planted strip between them - never stacked, never spiralling round the lift. The stair runs alongside the two ramp runs, divided from them by a single planted strip, starting from the same bridgehead platform and ending on the same plaza, a straight flight in three parts with two landings, its outlet facing the plaza and away from the carriageway. A continuous planted buffer and railing separate the whole group from the carriageway. The line of lit bronze spikes crosses the plaza and meets the foot of the ramp. The Qinghe appears at the upper left: the bridge crosses the ring road only and not the river, and the ramps and bridgehead plazas all sit in the roadside green on one side of the ring road. One intermediate support stands in the central planted median - the proposal deliberately leaves this open, treating intermediate supports within the service road and planted median as a matter for specialist engineering study on which it draws no conclusion; its one invariant is that however the spans are divided the deck must stay flat in profile, and the deck here is flat, neither arched nor kinked. Three things are stated plainly: whether the grade is no steeper than 1:20 and whether one side occupies 66 by 9 metres cannot be measured from an oblique aerial at all - sections ZZY-1 and ZZY-2 and the proposal text govern; whether the junction with the bridgehead platform is entirely free of a step cannot be verified from this viewpoint; and the girder rivets are not readable here - see the companion ground-level view. AI-generated conceptual image, not a photograph."
+    },
+    {
+      "path": "visual/assets/renders/render-ren-bridge-ground.jpg",
+      "role": "visualization",
+      "required": false,
+      "title_zh": "北跃 · 人字之跃地面人视",
+      "title_en": "Ren-Shaped Leap — ground-level view",
+      "description_zh": "同一座桥的地面人视，与斜俯视同构：**两条坡道腿**并排展开、中夹分隔绿带，尾端一处 180 度回转平台在画面内；外腿下端在广场地面敞口（推轮椅者所在），内腿上端升入桥头平台；梯段独立成带、以绿篱与坡道分隔、**分三跑其间两处休息平台**、出口朝广场。整组与车行道之间为绿篱加铁艺护栏的连续隔离。**主梁腹板与桥墩柱身的铆钉排线在本视角清晰可见**。铜道钉光点线穿广场。本图为低机位人视，两段折返坡道在该视角下透视叠合、读作一条；两段的并排关系与中间绿带见同组斜俯视图。据实声明三项：**纵坡与占地尺寸不由本图核实，以断面 ZZY-1／ZZY-2 与正文为准**；正文所述「角钢加劲肋」本图未见；梁高不可量。AI 生成概念意象，非实景照片。",
+      "description_en": "The same bridge at ground level, matching the oblique aerial: two ramp runs side by side with a planted strip between them and the single 180-degree turn platform within the frame; the outer run opens onto the plaza at ground level where a wheelchair is being pushed, and the inner run climbs into the bridgehead platform. The stair forms its own band, divided from the ramps by a hedge, in three flights with two landings, its outlet facing the plaza. A hedge and iron railing separate the whole group from the carriageway without a break. The rows of rivets on the girder web and on the pier shafts are clearly legible from this viewpoint. The line of lit bronze spikes crosses the plaza. This is a low, eye-level view in which the two switchback runs are superimposed by perspective and read as one; their side-by-side relationship and the planted strip between them are visible in the companion oblique aerial. Three things are stated plainly: grade and footprint are not verified by this image - sections ZZY-1 and ZZY-2 and the proposal text govern; the angle stiffeners named in the text do not appear here; and the girder depth cannot be measured. AI-generated conceptual image, not a photograph.",
+      "sha256": "fe1a703d46b514cbc73b261f99dfe5d2045cd27d0b3bd46fd89596d438272908"
     },
     {
       "path": "visual/assets/renders/b3d-poster.jpg",
@@ -601,7 +645,7 @@
       "path": "visual/assets/renders/render-spike-belt.jpg",
       "role": "visualization",
       "required": false,
-      "sha256": "554a88e8d09e708b7efeab396e21105d15a0b2b45ded17a13fe555bbb2ef4391"
+      "sha256": "8736ab35c9a9f322ac27c53adcec81c0280c87b9769f7bc46d367f109d79de77"
     },
     {
       "path": "visual/assets/renders/render-spike-belt-night.jpg",

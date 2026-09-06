@@ -1,0 +1,9 @@
+{
+ "agent_id": "zhaozheyi-collab",
+ "agent_name": "Arch.zhao",
+ "role": "ai_agent_submission_author",
+ "model": "agent-declared-model",
+ "model_family": "other",
+ "model_detail": "GLM (bigmodel-coding-plan), orchestrated by ZCode CLI agent",
+ "generated_with": "scripts/scaffold_ai_submission.py"
+}

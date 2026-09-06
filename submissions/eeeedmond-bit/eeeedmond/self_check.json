@@ -1,0 +1,223 @@
+{
+  "ok": true,
+  "submission_dir": "submissions\\eeeedmond-bit\\eeeedmond",
+  "pr_author": "eeeedmond-bit",
+  "stage": "formal",
+  "deterministic_validation": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "submissions/eeeedmond-bit/eeeedmond/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied"
+      ],
+      "proposal_files": [
+        "submissions/eeeedmond-bit/eeeedmond/proposal.md"
+      ],
+      "changelog_files": [],
+      "changed_files": [
+        "submissions/eeeedmond-bit/eeeedmond/agent.json",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/implementation-roadmap.en.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/implementation-roadmap.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/key-areas.en.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/key-areas.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/land-use-structure.en.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/land-use-structure.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/metrics-evidence.en.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/metrics-evidence.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/mobility-bluegreen.en.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/mobility-bluegreen.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-ai-lifecycle.en.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-ai-lifecycle.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-annual-operations.en.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-annual-operations.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-brand-system.en.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-brand-system.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-collaboration-mechanism.en.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-collaboration-mechanism.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-four-scales.en.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-four-scales.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-open-interface.en.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-open-interface.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-plugin-assembly.en.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-plugin-assembly.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-public-space-connections.en.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-public-space-connections.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-three-area-network.en.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/restack-three-area-network.jpg",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/site-overview.en.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/figures/site-overview.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/media/experience-poster.png",
+        "submissions/eeeedmond-bit/eeeedmond/assets/media/experience.md",
+        "submissions/eeeedmond-bit/eeeedmond/assets/media/experience.mp4",
+        "submissions/eeeedmond-bit/eeeedmond/assets/media/experience.vtt",
+        "submissions/eeeedmond-bit/eeeedmond/assumptions.json",
+        "submissions/eeeedmond-bit/eeeedmond/compliance_matrix.json",
+        "submissions/eeeedmond-bit/eeeedmond/design_depth_matrix.json",
+        "submissions/eeeedmond-bit/eeeedmond/drawings/a0-boards.en.pdf",
+        "submissions/eeeedmond-bit/eeeedmond/drawings/a0-boards.pdf",
+        "submissions/eeeedmond-bit/eeeedmond/drawings/a3-booklet.en.pdf",
+        "submissions/eeeedmond-bit/eeeedmond/drawings/a3-booklet.pdf",
+        "submissions/eeeedmond-bit/eeeedmond/geometry/buildings.geojson",
+        "submissions/eeeedmond-bit/eeeedmond/geometry/constraints.geojson",
+        "submissions/eeeedmond-bit/eeeedmond/geometry/green_space.geojson",
+        "submissions/eeeedmond-bit/eeeedmond/geometry/key_areas.geojson",
+        "submissions/eeeedmond-bit/eeeedmond/geometry/land_use.geojson",
+        "submissions/eeeedmond-bit/eeeedmond/geometry/phasing.geojson",
+        "submissions/eeeedmond-bit/eeeedmond/geometry/public_space.geojson",
+        "submissions/eeeedmond-bit/eeeedmond/geometry/roads.geojson",
+        "submissions/eeeedmond-bit/eeeedmond/geometry/site_boundary.geojson",
+        "submissions/eeeedmond-bit/eeeedmond/manifest.json",
+        "submissions/eeeedmond-bit/eeeedmond/metrics.json",
+        "submissions/eeeedmond-bit/eeeedmond/proposal.en.md",
+        "submissions/eeeedmond-bit/eeeedmond/proposal.md",
+        "submissions/eeeedmond-bit/eeeedmond/report/copyright_statement.md",
+        "submissions/eeeedmond-bit/eeeedmond/report/narrative.md",
+        "submissions/eeeedmond-bit/eeeedmond/report/proposal.en.html",
+        "submissions/eeeedmond-bit/eeeedmond/report/proposal.html",
+        "submissions/eeeedmond-bit/eeeedmond/self_check.json",
+        "submissions/eeeedmond-bit/eeeedmond/sources.json",
+        "submissions/eeeedmond-bit/eeeedmond/standard_matrix.json",
+        "submissions/eeeedmond-bit/eeeedmond/visual/index.en.html",
+        "submissions/eeeedmond-bit/eeeedmond/visual/index.html"
+      ],
+      "ai_package_stages": {
+        "submissions/eeeedmond-bit/eeeedmond": "formal"
+      },
+      "total_bytes": 39618835,
+      "maintainer_bypass": false
+    },
+    "stderr": ""
+  },
+  "spatial_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "stage": "formal",
+      "issues": [
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "KEY-001",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "KEY-002",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "check_id": "KEY_AREA_PROVISIONAL",
+          "severity": "minor",
+          "target_file": "geometry/key_areas.geojson",
+          "message": "Key detailed-design area is provisional; do not use it as an official redline or precise-area basis. Content scoring remains eligible.",
+          "target_feature_id": "KEY-003",
+          "expected": null,
+          "actual": null
+        }
+      ],
+      "metrics": {
+        "site_area_sqm": 11956912.816,
+        "green_space_area_sqm": 131779.281,
+        "public_space_area_sqm": 142641.248,
+        "building_footprint_area_sqm": 12100.0,
+        "green_ratio": 0.011021,
+        "public_space_ratio": 0.01193
+      }
+    },
+    "stderr": ""
+  },
+  "visual_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "metrics_seen": {
+        "accountable_plugin_coverage_target": 1.0,
+        "human_takeover_and_exit_coverage_target": 1.0,
+        "basic_service_non_ai_fallback_target": 1.0,
+        "unresolved_high_risk_expansion_target": 0.0,
+        "site_area_sqm": 11956912.816178,
+        "green_ratio": 0.011021,
+        "public_space_ratio": 0.01193
+      }
+    },
+    "stderr": ""
+  },
+  "professional_review": {
+    "returncode": 0,
+    "ok": true,
+    "stdout": {
+      "ok": true,
+      "issues": [],
+      "summary": {
+        "standard_matrix_items": 6,
+        "design_depth_items": 15,
+        "known_metric_refs_required": 19,
+        "proposal_format_version": "2",
+        "evidence_contract": "section-anchors-plus-structured-audit",
+        "proposal_reference_counts": {
+          "source": 5,
+          "standard": 0,
+          "depth": 0,
+          "data": 11,
+          "metric": 4
+        }
+      }
+    },
+    "stderr": ""
+  },
+  "spatial_issue_ids": [
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL",
+    "KEY_AREA_PROVISIONAL"
+  ],
+  "visual_issue_ids": [],
+  "professional_issue_ids": [],
+  "missing_review_dependencies": [],
+  "can_enter_formal_review": true,
+  "package_type": "professional_design_package",
+  "review_status": "formal-review-ready",
+  "next_actions": [],
+  "schema_version": "0.1.0",
+  "checks": [
+    {
+      "check_id": "DETERMINISTIC_VALIDATION",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "validate_local_submission.py",
+      "message": "deterministic_validation: PASS"
+    },
+    {
+      "check_id": "SPATIAL_REVIEW",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "spatial_review.py",
+      "message": "spatial_review: PASS"
+    },
+    {
+      "check_id": "VISUAL_PACKAGING",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "visual_review.py",
+      "message": "visual_review: PASS"
+    },
+    {
+      "check_id": "PROFESSIONAL_EVIDENCE",
+      "result": "pass",
+      "severity": "blocking",
+      "target": "professional_review.py",
+      "message": "professional_review: PASS"
+    }
+  ]
+}

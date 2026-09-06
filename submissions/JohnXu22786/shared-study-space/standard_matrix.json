@@ -1,0 +1,310 @@
+{
+ "schema_version": "0.1.0",
+ "standards": [
+  {
+   "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+   "requirement_zh": "公告1.3/1.4/1.5对目的、范围、任务与深度提出主控要求。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-2026-0605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "遵守公告文本口径：三层范围（统筹研究范围约43.6平方公里 / 总体设计范围约11.4平方公里 / 重点区域约368.4公顷）在\"三层范围工作框架\"与\"指标体系、面积复算与合规矩阵\"两节显式陈述；本包子范围定位明确位于官方三层之下，未发明官方几何。"
+  },
+  {
+   "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+   "requirement_zh": "任务书对三大定位、五大功能、三区两翼、六项任务与边界条款提出要求。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-2026-0605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "回应 agent.1—6（命名识别 / AI 生态图谱 / 十张场景卡与三张产业测试卡 / 荣誉展示系统与公共空间组件库 / AI 地标目录 / 京张叙事与导视及国际传播 / 开发者社区与运营转化），逐条映射进 compliance_matrix.json 并有正文小节；边界条款\"概念建议、参考方案\"表述贯穿全文。"
+  },
+  {
+   "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+   "requirement_zh": "城市设计应落实规划、指导建筑设计、塑造特色风貌并统筹立体空间。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-2026-0605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "控规深度城市设计以\"问题—空间对象—指标—资料缺口—复算路径\"表达；公共组件库（导视/座椅/照明/求助点/公告板/漂流架）可退化可置换；蓝绿空间、城市风貌与慢行设计引用本办法作为方法参照（见\"交通、轨道、市政与公共服务设施\"与\"蓝绿空间、公共空间与城市风貌\"）。"
+  },
+  {
+   "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+   "requirement_zh": "本方案为概念建议,明确不替代控制性详细规划法定内容。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-2026-0605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "方案明确为概念建议、不替代控制性详细规划法定内容；不提出控规调整、容积率、建筑高度等法定判断；缺失控制条件以 unknown 值与 data_gap 记录，官方控制数据发布后复算（见\"用地、建筑规模与拆改留方案\"与 metrics.json）。"
+  },
+  {
+   "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
+   "requirement_zh": "用地分类引用国土空间调查规划用途管制用地用海分类指南的公开子集。",
+   "professional_dimension": "规划/城市设计",
+   "mandatory": true,
+   "review_status": "addressed",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "landmark_count",
+    "scenario_node_count",
+    "industry_test_scenario_count",
+    "persona_count",
+    "global_case_count",
+    "annual_program_count",
+    "phase_count"
+   ],
+   "source_ids": [
+    "DATA-SRC-OFFICIAL-ANNOUNCEMENT-2026-0509",
+    "DATA-SRC-AGENT-TASKBOOK-2026-0518",
+    "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+    "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+    "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+    "DATA-SRC-PROVISIONAL-BOUNDARIES-2026-0605",
+    "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-CONTROLS-001",
+    "A-DATA-001",
+    "A-PRIVACY-001",
+    "A-IP-001",
+    "A-GOV-001"
+   ],
+   "self_check_ids": [
+    "BOUNDARY_TRUST",
+    "KEY_AREAS_TRUST",
+    "LAND_USE_TOPOLOGY",
+    "VISUAL_STATIC"
+   ],
+   "evidence_summary_zh": "用地分类采用单一口径：按指南名称归类六类概念用地（0802/0804/0701/0901/0902/1401），比例由本包 geometry/land_use.geojson 在 EPSG:4548 复算并以约数低精度展示；绿地率按独立 green_space 层口径、不与用地分类比例互相替代。"
+  }
+ ]
+}

@@ -1,0 +1,1283 @@
+{
+  "schema_version": "0.1.0",
+  "requirements": [
+    {
+      "requirement_id": "1.3.1",
+      "title_zh": "构建世界级AI创新生态体系",
+      "mandatory": true,
+      "report_sections": [
+        "三层范围工作框架",
+        "AI 创新生态、人才画像与 AI+ 场景"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "persona_count",
+        "global_case_count",
+        "annual_program_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "总览地图",
+        "核心指标",
+        "任务覆盖"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021",
+        "DATA-SRC-CERN-OPENLAB",
+        "DATA-SRC-AIST-ABCI",
+        "DATA-SRC-IMDA-AI-VERIFY",
+        "DATA-SRC-EUROHPC-AI-FACTORIES",
+        "DATA-SRC-VECTOR-INSTITUTE",
+        "DATA-SRC-MILA-ECOSYSTEM"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+    "evidence_summary_zh": "对应三大定位之「构建世界级AI创新生态体系」：生态图谱以数据（仅匿名聚合）、算力（统筹协调机制，概念）、资本（无金额结论）、人才（开发者社区）四要素与五个AI+服务形成回路；六项全球AI生态案例在sources.json逐项登记日期、许可、适用边界与转译机制（见AI生态图谱与场景卡节）。"
+    },
+    {
+      "requirement_id": "1.3.2",
+      "title_zh": "建设适配AI新质生产力的新型城市形态",
+      "mandatory": true,
+      "report_sections": [
+        "总体设计范围城市更新与控规深度城市设计"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "scenario_node_count",
+        "landmark_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "总览地图",
+        "AI 场景"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "对应三大定位之「建设适配AI新质生产力的新型城市形态」：儿童友好公共空间以可逆组件库「童趣组合件」与五类AI服务为接口，附件组件表（资产编号/维护责任人/巡检周期）与「先论证后实施」节奏。概念级。每次AI服务均含人工复核与退出机制。"
+    },
+    {
+      "requirement_id": "1.3.3",
+      "title_zh": "打造全球AI创新人才向往的高品质城区",
+      "mandatory": true,
+      "report_sections": [
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "重点区域详细设计"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "persona_count",
+        "global_case_count",
+        "scenario_node_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "AI 场景"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "对应三大定位之「打造全球AI创新人才向往的高品质城区」：六类人才画像（含青年家庭、隔代照护者与非数字依赖人群）与十张场景卡，场景为「普通服务先行、AI辅助可撤回」，人才家庭宜居性作为城区品质敏感指标。"
+    },
+    {
+      "requirement_id": "1.4.1",
+      "title_zh": "统筹研究范围",
+      "mandatory": true,
+      "report_sections": [
+        "三层范围工作框架"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "phase_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "总览地图"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "统筹研究范围（约43.6平方公里，官方文本口径）：本方案将其界定为儿童与家庭需求向一带公共价值转化的界面，输出生态图谱、六类人才与区域服务接口；两翼协同仅以服务接口概念表述（含北纬社区、未来科学城、怀柔科学城、经开区与京津冀方向），不作规划接口结论。"
+    },
+    {
+      "requirement_id": "1.4.2",
+      "title_zh": "总体设计范围",
+      "mandatory": true,
+      "report_sections": [
+        "三层范围工作框架",
+        "总体设计范围城市更新与控规深度城市设计"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "总览地图",
+        "核心指标"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "总体设计范围（约11.4平方公里，官方文本口径）：本包可复算子范围即site_boundary（provisional，约1141公顷），按同一几何复算三项formal核心指标；官方几何发布后按同一公式复算（复算口径见指标体系节）。"
+    },
+    {
+      "requirement_id": "1.4.3",
+      "title_zh": "重点区域范围",
+      "mandatory": true,
+      "report_sections": [
+        "重点区域详细设计"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "key_area_count",
+        "landmark_count",
+        "scenario_node_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "重点区域"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "重点区域（约368.4公顷，官方文本口径）：三处节点（众智园侧通学路、AI原点社区侧童趣公园、大钟寺侧亲子驿站）位于该范围内，key_area_count=3，几何为provisional；节点人口与服务覆盖不作结论。"
+    },
+    {
+      "requirement_id": "1.5.1.1",
+      "title_zh": "统筹研究范围：AI创新生态体系",
+      "mandatory": true,
+      "report_sections": [
+        "AI 创新生态、人才画像与 AI+ 场景"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "persona_count",
+        "global_case_count",
+        "industry_test_scenario_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "AI 场景",
+        "总览地图"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "统筹研究-AI创新生态：生态图谱（AI创新生态图谱与场景卡索引图）与三个产业测试场景（通学路安全共治童趣公园无动力游戏亲子驿站基础服务），测试为共解流程接口，不表述为已批准运营。"
+    },
+    {
+      "requirement_id": "1.5.1.2",
+      "title_zh": "统筹研究范围：适配人工智能的未来城市形态",
+      "mandatory": true,
+      "report_sections": [
+        "重点区域详细设计",
+        "蓝绿空间、公共空间与城市风貌"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "scenario_node_count",
+        "landmark_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "重点区域"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "统筹研究-未来城市形态：儿童尺度友好同时指向老人、轮椅使用者与推婴儿车家庭；三节点配置树荫/雨棚/座椅/饮水/夜间导视五项基本配置与人看护视线通透，以低干预方式嵌入存量城市，与「智能活力城市」样本呼应。"
+    },
+    {
+      "requirement_id": "1.5.2.1",
+      "title_zh": "总体设计范围：产业目标与功能布局",
+      "mandatory": true,
+      "report_sections": [
+        "AI 创新生态、人才画像与 AI+ 场景"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "persona_count",
+        "global_case_count",
+        "annual_program_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "AI 场景",
+        "核心指标"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "总体设计-产业目标与功能布局：十张场景卡逐卡列输入/输出/模型边界/失败模式/人工职责与退出机制，AI治理三句式（仅匿名聚合、关键决策人工复核、禁止过度监控）为全线底线；测试场景与开发者社区（概念）提供产业接口。"
+    },
+    {
+      "requirement_id": "1.5.2.2",
+      "title_zh": "总体设计范围：城市更新总体框架",
+      "mandatory": true,
+      "report_sections": [
+        "用地、建筑规模与拆改留方案"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "land_use_zone_count",
+        "building_unit_count",
+        "building_footprint_area_sqm"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "用地结构",
+        "核心指标"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "总体设计-城市更新总体框架：用地按征集允许分类代码完整覆盖临时范围（27个图斑、8类概念占比，单一口径见用地章）；拆改留四步（核实-保留-轻改-移位删除）且拆除量unknown；建筑规模不设结论，驿站临时托管意向须资质论证。"
+    },
+    {
+      "requirement_id": "1.5.2.3",
+      "title_zh": "总体设计范围：交通轨道市政配套设施",
+      "mandatory": true,
+      "report_sections": [
+        "交通、轨道、市政与公共服务设施"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "road_network_length_m"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "慢行与蓝绿"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "总体设计-交通轨道市政配套：概念断面「人车分离+稳静化」，慢行断点概念清单（过街间距视距轨交换乘非机动车挤占）逐项列现状核实项；交通影响论证前置；市政组件进入组件库并带巡检周期；不给出线形/断面尺寸/工程量。"
+    },
+    {
+      "requirement_id": "1.5.2.4",
+      "title_zh": "总体设计范围：京张遗址公园活力带",
+      "mandatory": true,
+      "report_sections": [
+        "蓝绿空间、公共空间与城市风貌"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "green_ratio",
+        "public_space_ratio"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "慢行与蓝绿",
+        "总览地图"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "总体设计-京张遗址公园活力带：蓝绿网络以现有绿带为骨架的三节点连续开敞序列；「童趣公园」无动力/自然友好/四季可玩，与文保与绿线蓝线约束不冲突；设计绿地率与公共空间率为设计图层口径（12.4%/0.45%），与分类口径并列说明。"
+    },
+    {
+      "requirement_id": "1.5.2.5",
+      "title_zh": "总体设计范围：城市风貌",
+      "mandatory": true,
+      "report_sections": [
+        "蓝绿空间、公共空间与城市风貌",
+        "总体设计范围城市更新与控规深度城市设计"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "landmark_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "总览地图"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "总体设计-城市风貌：京张铁路工业记忆+中关村日常+儿童友好细节三层叙事；低矮视角/圆角/安全材料；三处朝圣地标为日常奇观（童趣树屋环上灯塔暖屋），不采用网红化包装；风貌语汇直接体现于节点图件的公共体验界面。"
+    },
+    {
+      "requirement_id": "1.5.3.required",
+      "title_zh": "重点区域范围详细设计必选项",
+      "mandatory": true,
+      "report_sections": [
+        "更新项目清单、实施政策与分期计划",
+        "重点区域详细设计"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "phase_count",
+        "annual_program_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "任务覆盖",
+        "总览地图"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "必选项-更新项目清单与实施政策：三类项目（通学安全/游戏自然/亲子服务）各带成本级别（定性低/中/高+估算方法/价格基期/包含范围/置信等级/复算触发）；RACI责任矩阵（概念）含牵头与协作分工；年度活动三项（童玩周安全通学日家庭自然季）。"
+    },
+    {
+      "requirement_id": "1.5.3.1",
+      "title_zh": "众智园AI自主创新加速区",
+      "mandatory": true,
+      "report_sections": [
+        "更新项目清单、实施政策与分期计划",
+        "交通、轨道、市政与公共服务设施"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "phase_count",
+        "annual_program_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "总览地图"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "众智园AI自主创新加速区：通学路安全走查、接送点组织与交通稳静化方向落位该区一侧；近期1-3年走查与评估公示试点、中期3-5年深化、远期5-10年流域化；停止条件与退出机制（论证不过/连续未达标/居民阈值/风险事件）逐条列明。"
+    },
+    {
+      "requirement_id": "1.5.3.2",
+      "title_zh": "北京AI原点社区",
+      "mandatory": true,
+      "report_sections": [
+        "指标体系、面积复算与合规矩阵",
+        "蓝绿空间、公共空间与城市风貌"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "green_ratio",
+        "public_space_ratio",
+        "site_area_sqm"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "核心指标"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "北京AI原点社区：童趣公园无动力游戏/自然教室/亲子休憩所在绿带段；指标分安全/服务/活力三类监测方向（无目标值与绩效承诺）；三项formal核心指标复算公式/置信度/复算触发见指标表，显示采用低精度舍入。"
+    },
+    {
+      "requirement_id": "1.5.3.3",
+      "title_zh": "大钟寺AI产业聚集区",
+      "mandatory": true,
+      "report_sections": [
+        "指标体系、面积复算与合规矩阵",
+        "风险、版权与合规说明"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "global_case_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "任务覆盖",
+        "核心指标"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "大钟寺AI产业聚集区：亲子驿站哺乳/换洗/阅读/临时托管意向（资质论证前置）位于该区一侧；合规矩阵覆盖公告/任务书/法规参照（用地文保绿线蓝线未成年人保护个人信息保护儿童友好政策方向大型活动管理品牌IP版权通则），标准矩阵与设计深度矩阵见对应JSON。"
+    },
+    {
+      "requirement_id": "agent.1",
+      "title_zh": "一带总体概念与功能统筹方案设计",
+      "mandatory": true,
+      "report_sections": [
+        "三层范围工作框架",
+        "总体设计范围城市更新与控规深度城市设计"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "site_area_sqm",
+        "key_area_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "总览地图",
+        "任务覆盖"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "实质追踪表见 proposal.md / proposal.en.md 的“三大定位—五大功能—三区两翼—agent.1–6 实质追踪表”：agent.1 将官方文本口径、provisional geometry 与儿童议事会问题输入，输出一学一园一角总图、三节点接口和定位—功能链；空间接口覆盖 AI 原点社区、众智园加速区、大钟寺产业集聚区与北纬服务协同，官方边界/权属/交通不符即回退为概念图与待核清单。"
+    },
+    {
+      "requirement_id": "agent.2",
+      "title_zh": "AI全栈自主创新体系与世界级AI创新生态设计",
+      "mandatory": true,
+      "report_sections": [
+        "统筹研究范围产业与未来城市研究",
+        "AI 创新生态、人才画像与 AI+ 场景"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "global_case_count",
+        "industry_test_scenario_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "AI 场景"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "agent.2 实质证据在 proposal 的“全球 AI 创新生态案例”和“三区两翼 AI 生态与产业支撑矩阵”：六项儿童友好案例明确降级为背景机制，另以 CERN openlab、AIST ABCI、Singapore AI Verify、EuroHPC AI Factories、Vector Institute、Mila 六项案例支撑全栈/算力/数据/开放测试机制；每项有 source/licence/boundary/转译，且六项不计入 global_case_count 的儿童案例。"
+    },
+    {
+      "requirement_id": "agent.3",
+      "title_zh": "AI+场景赋能新范式与智能化AI活力城市设计",
+      "mandatory": true,
+      "report_sections": [
+        "AI 创新生态、人才画像与 AI+ 场景"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "scenario_node_count",
+        "persona_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "AI 场景",
+        "核心指标"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "agent.3 将匿名聚合、人工复核、失败模式和退出机制落实到五类 AI+ 服务×十张场景卡及三个概念测试场景；空间输出覆盖安全通学路、童趣公园、亲子驿站和小月河场景赋能翼，识别风险、偏差、投诉、资质或人工缺位即 kill-switch，并保留纸本/电话替代。"
+    },
+    {
+      "requirement_id": "agent.4",
+      "title_zh": "AI公共空间、智能原生新业态与朝圣地标设计",
+      "mandatory": true,
+      "report_sections": [
+        "重点区域详细设计",
+        "蓝绿空间、公共空间与城市风貌"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "landmark_count",
+        "annual_program_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "重点区域"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "agent.4 由 proposal 的“东西缝合、南北贯通与大钟寺接口”、三节点决策卡和三地标/可逆组件目录共同闭环：东西向沿绿带串联 AI 原点社区—众智园—大钟寺，南北向仅预留学校/住区/轨道/北纬服务接口；大钟寺智能消费/商务只接收经同意的公共服务时段/资源清单，不招商、不追踪消费；交通、消防、文保、绿地或安全不通过即移位/删除。"
+    },
+    {
+      "requirement_id": "agent.5",
+      "title_zh": "百年京张文化、中关村文化与AI新文化融合叙事设计",
+      "mandatory": true,
+      "report_sections": [
+        "设计依据与资料清单",
+        "风险、版权与合规说明",
+        "总体设计范围城市更新与控规深度城市设计"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "landmark_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "总览地图"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "agent.5 以“百年京张记忆—中关村创新日常—儿童友好细节”三层叙事为输入，输出双语传播文案、受众/渠道/责任人矩阵和品牌边界：母品牌 logo、文化导视与三项活动子品牌分开；史实、肖像、商标或翻译无法核验即撤稿/改 placeholder，不承诺境外发布。"
+    },
+    {
+      "requirement_id": "agent.6",
+      "title_zh": "一带全球AI创新活动体系与长期运营设计",
+      "mandatory": true,
+      "report_sections": [
+        "更新项目清单、实施政策与分期计划"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/buildings.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "annual_program_count",
+        "phase_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "任务覆盖"
+      ],
+      "source_ids": [
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-AGENT-TASKBOOK",
+        "DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES",
+        "DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING",
+        "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES",
+        "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+        "DATA-SRC-CHILD-FRIENDLY-CITY-GUIDANCE-2021"
+      ],
+      "assumption_ids": [
+        "A-BOUNDARY-001",
+        "A-CONTROLS-001",
+        "A-DATA-001",
+        "A-PRIVACY-001",
+        "A-CONTENT-001",
+        "A-TRAFFIC-001"
+      ],
+      "self_check_ids": [
+        "DETERMINISTIC_VALIDATION",
+        "SPATIAL_REVIEW",
+        "VISUAL_PACKAGING",
+        "PROFESSIONAL_EVIDENCE"
+      ],
+      "evidence_summary_zh": "agent.6 以三节点决策卡、年度三活动反馈、开发者贡献和企业/专业团队意向为输入，输出童行开发者社区、分级场景开放和“年度活动—开发者社区—企业/专业团队”的转化链；安全、资质、公平或人力失败即停办、撤下活动资产并公示，转化不等于合同/招商。"
+    }
+  ]
+}

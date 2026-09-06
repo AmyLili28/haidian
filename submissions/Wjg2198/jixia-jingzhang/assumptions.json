@@ -1,0 +1,9 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {"id": "ASSUM-001", "category": "boundary", "description_zh": "所有空间边界使用仓库provisional粗略矩形", "description_en": "Provisional rectangular approximations", "confidence": "low", "recalculation_trigger": "Official boundary polygon published"},
+    {"id": "ASSUM-002", "category": "regulatory", "description_zh": "容积率建筑高度等控制性指标缺失", "description_en": "FAR height density controls missing", "confidence": "none", "recalculation_trigger": "Official regulatory plan available"},
+    {"id": "ASSUM-003", "category": "existing_conditions", "description_zh": "现状建筑权属工程条件不可用", "description_en": "Existing building ownership data unavailable", "confidence": "none", "recalculation_trigger": "Survey data available"},
+    {"id": "ASSUM-004", "category": "design", "description_zh": "绿地比例35%公共空间比例18%为概念设计值", "description_en": "Green ratio 35% public space 18% are concept values", "confidence": "low", "recalculation_trigger": "Detailed design refinement"}
+  ]
+}

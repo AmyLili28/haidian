@@ -1,0 +1,120 @@
+{
+  "schema_version": "0.1.0",
+  "risks": [
+    {
+      "risk_id": "R-BOUNDARY",
+      "title_zh": "边界与现状证据",
+      "category": "data_gap",
+      "severity": "high",
+      "description_zh": "边界、权属、建筑条件、文化线索和轨道控制尚未全部核验。",
+      "mitigation_zh": "保留provisional/待核验标识；官方边界、现状调查和责任主体到位后复算并过闸门。"
+    },
+    {
+      "risk_id": "R-RAIL",
+      "title_zh": "轨道与结构安全",
+      "category": "statutory",
+      "severity": "high",
+      "description_zh": "上盖、连廊和换乘涉及铁路/交通/结构/消防责任。",
+      "mitigation_zh": "安全主体审定前不建设；低风险服务试点与永久工程分开。"
+    },
+    {
+      "risk_id": "R-DATA",
+      "title_zh": "数据与AI边界",
+      "category": "data_boundary",
+      "severity": "high",
+      "description_zh": "服务试点可能触及客流、无障碍和人工记录。",
+      "mitigation_zh": "最小化、匿名聚合、授权字典、人工最终判断、停止采集和退出清理。"
+    },
+    {
+      "risk_id": "R-EQUITY",
+      "title_zh": "公共利益公平",
+      "category": "public_acceptance",
+      "severity": "high",
+      "description_zh": "数字渠道可能排斥老年人、残障人士、照护者、低数字能力用户和访客。",
+      "mitigation_zh": "纸本/人工渠道、分群阈值、无障碍现场验收和投诉复盘。"
+    },
+    {
+      "risk_id": "R-OPERATION",
+      "title_zh": "长期运营",
+      "category": "operations",
+      "severity": "medium",
+      "description_zh": "开发者社区、维护、资金和专业服务尚未落实。",
+      "mitigation_zh": "月申请、季评估、年复盘；失败项目停用、清理、恢复并移交。"
+    },
+    {
+      "risk_id": "R-REGION",
+      "title_zh": "区域协同接口",
+      "category": "policy",
+      "severity": "medium",
+      "description_zh": "五类跨区接口及京津冀关系均待确认，不能假定数据或合作已存在。",
+      "mitigation_zh": "采用接口矩阵、责任人和季度/年度触发机制，未确认则不进入承诺。"
+    }
+  ],
+  "version": 1,
+  "dimensions": [
+    {
+      "id": "data_privacy",
+      "label": "数据隐私",
+      "score": 2,
+      "note": "人流与轨迹数据仅采用匿名聚合，不做个体识别；AI生成内容全部人工复核后发布。",
+      "mitigation": "在文本与图件中声明仅聚合不识别，发布流程设人工复核岗。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "implementation_complexity",
+      "label": "实施复杂度",
+      "score": 3,
+      "note": "Three nodes require rail/structure, tenure, fire, mobility and accessibility verification before pilots.",
+      "mitigation": "Use explicit survey gates, reversible modules, named owners and stop/transfer specifications.",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "public_acceptance",
+      "label": "公众接受度",
+      "score": 3,
+      "note": "AI观测装置与数据展示可能引发隐私与‘过度科技化’疑虑。",
+      "mitigation": "匿名聚合+人工复核边界明确披露，设施以低侵入、可关闭设计为主。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "operations_cost",
+      "label": "运维成本",
+      "score": 2,
+      "note": "Staffed service, accessibility maintenance, data deletion and node upkeep require recurring resources.",
+      "mitigation": "Record funding, talent, professional-service and maintenance interfaces; transfer or stop when unsupported.",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "policy_uncertainty",
+      "label": "政策不确定性",
+      "score": 3,
+      "note": "河道管理、蓝线与数据开放政策仍在演进，审批路径未定型。",
+      "mitigation": "以现行法规为参照，保留弹性接口；正式实施前完成法定审批。",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "spatial_dispute",
+      "label": "空间争议",
+      "score": 3,
+      "note": "All boundaries and node locations are provisional; cultural and building-condition claims require survey evidence.",
+      "mitigation": "Keep pending status in text and drawings; recompute after official geometry and survey.",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "technology_maturity",
+      "label": "技术成熟度",
+      "score": 3,
+      "note": "AI assistance and data interfaces remain pilot hypotheses; no autonomous statutory decision is proposed.",
+      "mitigation": "Use three test protocols, subgroup thresholds, human fallback and exit gates.",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    },
+    {
+      "id": "equity_inclusion",
+      "label": "公平与包容性",
+      "score": 2,
+      "note": "Older adults, disabled people, child caregivers, low-digital-literacy users and visitors need differentiated channels.",
+      "mitigation": "Paper/manual routes, staffed desks and subgroup acceptance thresholds are mandatory.",
+      "human_review": "由 JohnXu22786 在汇总阶段逐项人工核对该条目（AI生成初稿后人工复核）。"
+    }
+  ]
+}

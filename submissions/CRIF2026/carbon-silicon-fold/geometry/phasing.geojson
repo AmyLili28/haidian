@@ -1,0 +1,132 @@
+{
+  "type": "FeatureCollection",
+  "name": "phasing",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PH-1",
+      "properties": {
+        "id": "PH-1",
+        "layer": "PHASE",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "phase": 1,
+        "name_zh": "一期：原点社区+公园中段低扰动更新",
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3397,
+              39.94
+            ],
+            [
+              116.346,
+              39.94
+            ],
+            [
+              116.346,
+              40.026
+            ],
+            [
+              116.3397,
+              40.026
+            ],
+            [
+              116.3397,
+              39.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PH-2",
+      "properties": {
+        "id": "PH-2",
+        "layer": "PHASE",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "phase": 2,
+        "name_zh": "二期：众智园全栈自主街区+大钟寺站一体化",
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.346,
+              39.94
+            ],
+            [
+              116.351,
+              39.94
+            ],
+            [
+              116.351,
+              40.026
+            ],
+            [
+              116.346,
+              40.026
+            ],
+            [
+              116.346,
+              39.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PH-3",
+      "properties": {
+        "id": "PH-3",
+        "layer": "PHASE",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "low",
+        "geometry_role": "design_proposal",
+        "official_boundary": false,
+        "phase": 3,
+        "name_zh": "三期：两翼场景赋能与全域运营",
+        "boundary_precision": "provisional_rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.351,
+              39.94
+            ],
+            [
+              116.3553,
+              39.94
+            ],
+            [
+              116.3553,
+              40.026
+            ],
+            [
+              116.351,
+              40.026
+            ],
+            [
+              116.351,
+              39.94
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

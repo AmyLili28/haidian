@@ -1,0 +1,286 @@
+{
+  "type": "FeatureCollection",
+  "name": "jingzhang_gravity_land_use",
+  "metadata": {
+    "coordinate_reference_system": "EPSG:4326",
+    "area_calculation_crs": "EPSG:4548",
+    "design_status": "conceptual_reference_scheme",
+    "boundary_status": "provisional_rough"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LU-001",
+      "properties": {
+        "id": "LU-001",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0901",
+        "name_zh": "城市首发与复合商业",
+        "name_en": "City Premiere mixed commerce",
+        "area_sqm_declared": 2107900.133,
+        "design_note_zh": "完整分区模型；不代表法定用地审批。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3407,
+              39.939
+            ],
+            [
+              116.34028333333333,
+              39.954
+            ],
+            [
+              116.3553,
+              39.954
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.3407,
+              39.939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-002",
+      "properties": {
+        "id": "LU-002",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0702",
+        "name_zh": "社区服务与青年生活",
+        "name_en": "Community services and youth living",
+        "area_sqm_declared": 2017047.159,
+        "design_note_zh": "完整分区模型；不代表法定用地审批。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3553,
+              39.965
+            ],
+            [
+              116.3553,
+              39.954
+            ],
+            [
+              116.34028333333333,
+              39.954
+            ],
+            [
+              116.33989444444444,
+              39.968
+            ],
+            [
+              116.35506,
+              39.968
+            ],
+            [
+              116.3553,
+              39.965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-003",
+      "properties": {
+        "id": "LU-003",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0802",
+        "name_zh": "研发与成果转化",
+        "name_en": "Research and translation",
+        "area_sqm_declared": 1944014.899,
+        "design_note_zh": "完整分区模型；不代表法定用地审批。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.35506,
+              39.968
+            ],
+            [
+              116.33989444444444,
+              39.968
+            ],
+            [
+              116.3397,
+              39.975
+            ],
+            [
+              116.34015161290323,
+              39.982
+            ],
+            [
+              116.35394000000001,
+              39.982
+            ],
+            [
+              116.35506,
+              39.968
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-004",
+      "properties": {
+        "id": "LU-004",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "1401",
+        "name_zh": "遗址公园创新引力场",
+        "name_en": "Heritage-park innovation field",
+        "area_sqm_declared": 1719445.705,
+        "design_note_zh": "完整分区模型；不代表法定用地审批。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3533,
+              39.99
+            ],
+            [
+              116.35394000000001,
+              39.982
+            ],
+            [
+              116.34015161290323,
+              39.982
+            ],
+            [
+              116.34105483870968,
+              39.996
+            ],
+            [
+              116.3536287671233,
+              39.996
+            ],
+            [
+              116.3533,
+              39.99
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-005",
+      "properties": {
+        "id": "LU-005",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0804",
+        "name_zh": "近校学习与开源协作",
+        "name_en": "Learning and open-source collaboration",
+        "area_sqm_declared": 1779867.469,
+        "design_note_zh": "完整分区模型；不代表法定用地审批。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3536287671233,
+              39.996
+            ],
+            [
+              116.34105483870968,
+              39.996
+            ],
+            [
+              116.3417,
+              40.006
+            ],
+            [
+              116.34194390243903,
+              40.011
+            ],
+            [
+              116.3544506849315,
+              40.011
+            ],
+            [
+              116.3536287671233,
+              39.996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LU-006",
+      "properties": {
+        "id": "LU-006",
+        "layer": "LAND_USE",
+        "source_type": "agent_generated_design",
+        "confidence": "medium",
+        "geometry_role": "design_proposal",
+        "land_use_code": "0802",
+        "name_zh": "全栈研发与安全验证",
+        "name_en": "Full-stack R&D and safety validation",
+        "area_sqm_declared": 1844562.499,
+        "design_note_zh": "完整分区模型；不代表法定用地审批。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3544506849315,
+              40.011
+            ],
+            [
+              116.34194390243903,
+              40.011
+            ],
+            [
+              116.3427,
+              40.0265
+            ],
+            [
+              116.3553,
+              40.0265
+            ],
+            [
+              116.3544506849315,
+              40.011
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
