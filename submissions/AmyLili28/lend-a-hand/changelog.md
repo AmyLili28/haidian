@@ -1,5 +1,14 @@
 # 方案迭代记录
 
+## v2.4 - 2026-09-06（本地维护稿 / local maintenance draft）
+
+- 将中英正文的 iteration 与离线视觉页版本标识统一为 v2.4，保留以下 v2.0–v2.3 的原始日期与记录。
+- 在中英离线视觉页补齐完整报告、另一语言正文、A3/A0 图册、来源、假设、自检、版权和版本记录的本地可点击入口；不引入联网请求或外部资源。
+- 修正小屏案例卡中较长英文流程词串撑宽页面的问题，允许卡片内容按可用宽度换行；不删减内容或改变图件。
+- 本轮仅做版本与阅读维护，不改获准创意、几何、指标、生成图、图注或图册内容；图册保留原文件。
+- 这是独立本地维护稿，尚未推送；不替代 2026-08-31 截止版，不将原投稿记录改写为新提交，也未申请重新评分。是否接收截止后修订，以主办方明确规则为准。
+- This is a separate local maintenance draft, not pushed or presented as a replacement for the deadline version or a request for rescoring. The original submission and merge history are preserved; post-deadline acceptance remains subject to organizer policy.
+
 ## v2.1 - 2026-08-31
 
 - 逐项补齐“三大定位—五大功能—三区两翼”到空间、项目包、后台Agent与人类责任的映射，并把五个外部区域全部标为待验证概念接口。

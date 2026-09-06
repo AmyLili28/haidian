@@ -6,13 +6,15 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-iteration: "v2.1"
+iteration: "v2.4"
 summary: "铁路让地点相连，搭把手让责任相接：AI在后台核验与预警，有偿人员在前台判断与接力。"
 tracks: ["civic-agent-governance", "ai-traffic-walkability", "enterprise-services-ecosystem"]
 scenarios: ["public-safety-operations-review", "ai-traffic-walkability", "enterprise-service-copilot"]
 ---
 
 # 京张·搭把手｜LEND A HAND
+
+*v2.4 · 2026-09-06 本地维护稿。仅统一版本标识和完善资料入口；未替代 2026-08-31 截止版，未申请重新评分。*
 
 > 城市变聪明，不该让求助变成一个人和系统之间的事。真正的公共智能，是每一次求助都知道谁能接、接到哪里、什么时候必须交还正式责任。
 

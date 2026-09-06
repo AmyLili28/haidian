@@ -6,13 +6,15 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-iteration: "v2.1"
+iteration: "v2.4"
 summary: "Rail connects places; Lend a Hand connects responsibility: AI verifies and warns backstage while paid people judge and hand over at the front."
 tracks: ["civic-agent-governance", "ai-traffic-walkability", "enterprise-services-ecosystem"]
 scenarios: ["public-safety-operations-review", "ai-traffic-walkability", "enterprise-service-copilot"]
 ---
 
 # JING-ZHANG · LEND A HAND
+
+*v2.4 · Local maintenance draft, 2026-09-06. Version labels and document access only; this does not replace the 2026-08-31 deadline version or request a new score.*
 
 > A smarter city must not reduce help to a conversation between one person and a system. Public intelligence means every request knows who may receive it, how far that role extends, and when responsibility must return to a formal service.
 

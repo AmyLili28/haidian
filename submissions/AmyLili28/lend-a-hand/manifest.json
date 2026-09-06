@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "74226811804c0348badd4befa9c88a5a669aa678d2da3d82a2f1f3a6ed503cd5"
+      "sha256": "12c83d04c94fb028d37f44801bd833ea79e9cf2e00caba0f9469463a5a8b2d7d"
     },
     {
       "path": "proposal.en.md",
@@ -34,7 +34,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "66941af0d5a396422b867a6d25208a35eff4d959d88f059ca637763bdb2f9566"
+      "sha256": "251620255451e41089b1886119b1c91dc358d0c186680b034488f5e63965be4c"
     },
     {
       "path": "agent.json",
@@ -64,7 +64,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "afeb9994b2698f374376718191a73eade3d6f411cd59930b1248177bc0942b6d"
+      "sha256": "1b72fac7130f50229f8d905a83d5d8e2e22e3784713954e67415a7e8be4e77bb"
     },
     {
       "path": "compliance_matrix.json",
@@ -89,7 +89,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "12ab16774418468ee035c9f38507974dad8431e3b3f3aacec3c86414e1825784"
+      "sha256": "e63c29b5a9c9d9bd4cd544ca440ae3fa6bd66765d1bd8cbb89fe277a95e86629"
     },
     {
       "path": "report/proposal.en.html",
@@ -97,7 +97,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "a6538b43ef7b96fc1b84eb0c0cad407e604a0a169022705660a7e2315fe8a93b"
+      "sha256": "cf79eecd855efd7757351cac702f355a1f566cb20b762f4a8c9ca747d220b262"
     },
     {
       "path": "report/narrative.md",
@@ -146,7 +146,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "e8c4b89208ca5b3f54df928406964bd3a4c8d8aaa916ac22e4b268c6b031e619"
+      "sha256": "c9871017994e11d3354e2389d091c4bf3acaf7c3e61c76a593407df90a6aa5f1"
     },
     {
       "path": "visual/index.en.html",
@@ -154,13 +154,13 @@
       "required": false,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "dfc9568b691311d04e84415040d7e14cc606733b33ef97aace8a2be222634fb0"
+      "sha256": "78cf2641a6371b59e2c143868368e468247a4406491c60f6b086af40fb4541e1"
     },
     {
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "5837152543a3ae062882fe64146108328195e2d65457cd1ad3046fe9e107603a"
+      "sha256": "753d85ca28f6b837a1fb62b97bee891a63cbb47325f04e3888b2db1b883ade8d"
     },
     {
       "path": "assets/media/lend-a-hand-cover-v2.png",
