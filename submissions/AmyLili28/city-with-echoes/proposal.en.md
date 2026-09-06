@@ -4,6 +4,7 @@ author_github: "AmyLili28"
 language: "en"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
+iteration: "v2.4"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Turn follow-up, acknowledgement and repair after an AI service into a civic institution that people can enter, question and stop."
@@ -25,7 +26,7 @@ The pilot does not build six stations. It borrows two existing community, campus
 
 ## 1. Basis, scope and what we cannot pretend to know
 
-The proposal answers the official 43.6 sq km design scope, three focus areas, industry/future-city research, public realm, culture, renewal and operation tasks [source:OFFICIAL-ANNOUNCEMENT]. It covers the three strategic roles, five functions, “three areas and two wings,” and agent.1–agent.6 in the agent taskbook [source:AGENT-TASKBOOK]. The model uses the repository’s cleared provisional site and focus-area geometry [source:SITE-PACKAGE] [source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE].
+The proposal responds to the announced coordinated research area of approximately 43.6 sq km, overall design area of approximately 11.4 sq km, three focus areas, and the industry/future-city research, public realm, culture, renewal and operation tasks [source:OFFICIAL-ANNOUNCEMENT]. It covers the three strategic roles, five functions, “three areas and two wings,” and agent.1–agent.6 in the agent taskbook [source:AGENT-TASKBOOK]. The model uses the repository’s cleared provisional site and focus-area geometry [source:SITE-PACKAGE] [source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE].
 
 No cleared parcel-grade land use, ownership, building survey, road redlines, utilities, heritage controls, footfall, trees, fire strategy, cost plan or operating authority is available. Therefore:
 
@@ -38,8 +39,8 @@ No cleared parcel-grade land use, ownership, building survey, road redlines, uti
 
 | Scope | Core move | Spatial output | Operating output | Boundary |
 |---|---|---|---|---|
-| Strategic study area | Build a maintenance-and-follow-up economy between industry, community and culture | Jing-Zhang Memory Spine, case learning, ecosystem map | Scenario opening, talent and maintenance-oriented procurement logic | No invented fund size, compute capacity or enterprise commitment |
-| 43.6 sq km urban-design area | Make return an everyday civic route | Four cross-links, six stations, blue-green nodes and slow-mobility connections | Common query-code rule, human route and responsibility log | Provisional geometry is not an official network or control ratio |
+| Coordinated research area: approximately 43.6 sq km | Build a maintenance-and-follow-up economy between industry, community and culture | Jing-Zhang Memory Spine, case learning, ecosystem map | Scenario opening, talent and maintenance-oriented procurement logic | No invented fund size, compute capacity or enterprise commitment |
+| Overall design area: approximately 11.4 sq km | Make return an everyday civic route | Four cross-links, six stations, blue-green nodes and slow-mobility connections | Common query-code rule, human route and responsibility log | Provisional geometry is not an official network or control ratio |
 | Three focus areas | Give Create–Encounter–Care distinct temporal duties | Three conceptual landmark interfaces of about 219 sqm each | Pre-release promise, in-use review, post-use repair/retirement | No claim of site, title or construction approval |
 
 The three strategic roles become testable: a **global urban-AI living testbed** needs boundaries and exit; an **AI innovation-community carrier** lets residents, frontline staff and developers define problems together; a **technology–culture landmark** preserves failure, correction and retirement as well as launch. The five functions become interfaces for research–industry collaboration, scenario validation, translation, talent exchange, and community/cultural service.
@@ -120,7 +121,7 @@ The **honour system** rewards admitting error, completing repair, keeping a huma
 | Talent | Pair residents, frontline staff and student developers | Training, rota, mentor and substitute | Can frontline staff reject and pause? |
 | Compute | Sandbox/minimum task with human degraded mode | Security, energy, operations and rollback drill | Can every service explain processing location, cost and degradation? |
 | Data | Minimum issue fields; no sensitive public cases | Privacy/security/deletion/access review | Can people withdraw, delete and challenge source without identity tracking? |
-| Scenario | SC01/05/09 first | No stop gate and public review passes | Not “worked once,” but a visible before/after return |
+| Scenario | SC01/05/09 first | No stop condition has been triggered, and public review has passed | Not “worked once,” but a visible before/after return |
 
 ## 5. Six people, not a generic “user”
 
@@ -395,6 +396,26 @@ Reviewable claims are contract completeness, shared-source geometry/metrics/draw
 ## 15. Visual provenance
 
 The narrative, structured data, visual mark and layout were authored by Codex × AmyLili28 for this submission. The cover and seven unlettered conceptual base images were generated with OpenAI ImageGen and are registered individually in `sources.json`; fourteen bilingual final figures add exact titles, identifiers, metrics, provisional geometry locators, evidence limits and pilot status deterministically with Pillow. Five bilingual sets—regional collaboration, case ecosystem, components, RACI and pilot operations—remain deterministic information graphics. Generated bases supply atmosphere, people, material and spatial experience only: they are not site photographs, survey, interviews, evidence of consent, approved plans, operational outcomes or institutional commitments. See `report/copyright_statement.md` for font, generation, reuse and third-party-rights boundaries.
+
+![Overall structure of The Second Encounter: six stations, three landmarks and the four-step protocol](assets/figures/site-overview.en.png)
+
+*Overall structure of The Second Encounter: six stations, three landmarks and the four-step protocol.*
+
+![Concept land use, the Memory Spine, four Return cross-links and the provisional boundary](assets/figures/land-use-structure.en.png)
+
+*Concept land use, the Memory Spine, four Return cross-links and the provisional boundary.*
+
+![The three focus areas: Zhongzhiyuan, AI Origin Community and Dazhongsi](assets/figures/key-areas.en.png)
+
+*The three focus areas: Zhongzhiyuan, AI Origin Community and Dazhongsi.*
+
+![An everyday resident's follow-up route and its relationship to the blue-green slow-mobility network](assets/figures/mobility-bluegreen.en.png)
+
+*An everyday resident's follow-up route and its relationship to the blue-green slow-mobility network.*
+
+![Evidence chain linking geometry, metrics, claims and public follow-up](assets/figures/metrics-evidence.en.png)
+
+*Evidence chain linking geometry, metrics, claims and public follow-up.*
 
 ## Conclusion
 

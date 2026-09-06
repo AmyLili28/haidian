@@ -10,4 +10,6 @@ Pillow 中文图件使用当前 macOS 系统提供的 STHeiti，英文图件使�
 
 离线 HTML 使用随包提供的 `visual/assets/JingZhangCJK.css`。该 CSS 以 data URI 内嵌 Noto Sans SC 字符子集，并在文件头完整保留 SIL Open Font License 1.1 文本；不依赖远程字体服务。2026-08-31 的回归修复按 `report/proposal.html`、`report/proposal.en.html`、`visual/index.html` 与 `visual/index.en.html` 四份最终文件重建子集，确认其中 974 个非 ASCII 唯一码位全部有字形；中文协议按钮强制继承该字体，英文首屏的语言切换则使用纯英文真实文本以消除加载时序依赖。子集只为保证本投稿现有中英文字符在离线 Linux、macOS 与 Windows 环境可读，不用于商标或政府标识。
 
-外部事实与案例仅通过 `sources.json` 登记的公开链接引用；未复制外部网页图片、地图瓦片、字体、商标或同行方案资产。同行方案仅用于差异化比较。所有空间落地建议均为概念建议、参考方案或可供专业团队深化研究，不替代正式规划，不构成政府审定结论。
+2026-09-06 本地维护版根据上述四份最终 HTML 重新检查并补齐“截、瓦、致”等新增用字，977 个非 ASCII 唯一码位均有字形。源字体为 Google Fonts 的 Noto Sans SC（`https://github.com/google/fonts/blob/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf`），本次读取文件的 SHA-256 为 `a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da`；仍使用重命名的 JingZhangCJK 子集及随附 OFL。此为本地维护记录，不改变 8 月 31 日原投稿的版本、评分或版权范围。
+
+外部事实与案例仅通过 `sources.json` 登记的公开链接引用；除上文明确披露的字体外，未复制外部网页图片、地图瓦片、商标或同行方案资产。同行方案仅用于差异化比较。所有空间落地建议均为概念建议、参考方案或可供专业团队深化研究，不替代正式规划，不构成政府审定结论。

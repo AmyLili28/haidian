@@ -4,6 +4,7 @@ author_github: "AmyLili28"
 language: "zh"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
+iteration: "v2.4"
 translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "把AI服务之后的回访、承认与修复，做成京张沿线能走进去、能找到人、能停下来的公共制度。"
@@ -27,7 +28,7 @@ scenarios: ["public-safety-operations-review", "ai-traffic-walkability", "enterp
 
 ## 设计依据与资料清单｜范围与不能假装知道的事
 
-方案回应官方公告中的 43.6 平方公里城市设计范围、三处重点区域、产业与未来城市研究、公共空间、文化、更新与运营任务 [source:OFFICIAL-ANNOUNCEMENT]，并逐项覆盖智能体任务书的三大定位、五大功能、三区两翼和 agent.1—agent.6 [source:AGENT-TASKBOOK]。空间模型使用仓库清理后的临时范围与三处临时重点区 [source:SITE-PACKAGE] [source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]。
+方案回应官方公告中的约 43.6 平方公里统筹研究范围、约 11.4 平方公里总体设计范围及三处重点区域，以及产业与未来城市研究、公共空间、文化、更新与运营任务 [source:OFFICIAL-ANNOUNCEMENT]，并逐项覆盖智能体任务书的三大定位、五大功能、三区两翼和 agent.1—agent.6 [source:AGENT-TASKBOOK]。空间模型使用仓库清理后的临时范围与三处临时重点区 [source:SITE-PACKAGE] [source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]。
 
 目前没有足以支持地块级判断的正式用地、权属、建筑、道路红线、地下管线、文保边界、客流、树木、消防、造价和运营授权。因此：
 
@@ -40,8 +41,8 @@ scenarios: ["public-safety-operations-review", "ai-traffic-walkability", "enterp
 
 | 范围 | 核心动作 | 空间输出 | 运营输出 | 不能越界的事 |
 |---|---|---|---|---|
-| 统筹研究范围 | 建立产业—社区—文化之间的“回访经济” | 京张记忆脊柱、跨区案例与生态图 | 场景开放、人才与维护型采购框架 | 不虚构基金规模、算力容量或企业意向 |
-| 43.6 km² 城市设计范围 | 把回访变成可步入的日常路径 | 四条横街、六站、蓝绿节点、慢行衔接 | 统一查询码规则、人工入口、责任日志 | 不把临时图形当正式路网或公共空间率 |
+| 约 43.6 km² 统筹研究范围 | 建立产业—社区—文化之间的“回访经济” | 京张记忆脊柱、跨区案例与生态图 | 场景开放、人才与维护型采购框架 | 不虚构基金规模、算力容量或企业意向 |
+| 约 11.4 km² 总体设计范围 | 把回访变成可步入的日常路径 | 四条横街、六站、蓝绿节点、慢行衔接 | 统一查询码规则、人工入口、责任日志 | 不把临时图形当正式路网或公共空间率 |
 | 三处重点区域 | 让“创造—相遇—照护”各自承担不同时间责任 | 三个约 219㎡ 概念地标接口 | 发布前承诺、使用中复盘、使用后修复/退出 | 不声称已获场地、产权或建设许可 |
 
 三大定位不是三句口号，而是三个可检查的角色：**全球 AI 城市生活试验场**必须有边界和退出；**AI 创新共同体承载区**必须让居民、一线人员和开发者共同定义问题；**科技与文化融合新地标**必须收藏失败、修正和退役，而不只收藏“首发”。五大功能对应五类可验收接口：产研协同、场景验证、成果转化、人才交流、社区与文化服务。
